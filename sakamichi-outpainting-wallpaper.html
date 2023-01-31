@@ -1,0 +1,66 @@
+<style>
+.img-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.blurred-bw-img {
+  filter: blur(40px) grayscale(100%);
+  width: 30%;
+  transition: filter 1s ease-in-out;
+}
+
+.confirm-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 1vw;
+  padding: 5px 10px;
+ color : white;
+ font-size:3vh;
+  transition: all 1s ease-in-out;
+  cursor: pointer;
+ }
+ 
+.confirm-btn:hover {
+  background-color: white;
+  color : black;
+  transition: all 1s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+</style>
+
+<div class="img-container">
+  <img src="https://p4.wallpaperbetter.com/wallpaper/796/944/839/nogizaka46-wallpaper-preview.jpg" class="blurred-bw-img">
+  <button class="confirm-btn">NSFW</button>
+</div>
+
+<script>
+const btn = document.querySelector('.confirm-btn');
+const img = document.querySelector('.blurred-bw-img');
+
+btn.addEventListener('click', function() {
+  if (btn.innerText === 'NSFW') {
+    img.style.filter = 'none';
+    img.style.filter = 'grayscale(0%)';
+    btn.innerText = 'Back to blur';
+    btn.style.top = '90%';
+    btn.style.border = '3px solid white';
+    btn.classList.add('bottom');
+  } else {
+    img.style.filter = 'blur(40px) grayscale(100%)';
+    btn.innerText = 'NSFW';
+    btn.style.top = '50%';
+    btn.style.border = '5px solid white';
+    btn.classList.remove('bottom');
+  }
+});
+</script>
