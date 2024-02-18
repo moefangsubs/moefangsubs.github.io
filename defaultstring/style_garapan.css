@@ -162,15 +162,13 @@ a:focus-visible {
 /* ------------------------------------------ */
 
 #isikontenblog {
-    display:flex;
-    flex-direction:column;
-
-    /* fallback height */
-    min-height:100vh;
-
-    /* new small viewport height for modern browsers */
-    min-height:100svh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
+
 #isikontenblog > .titlehead {
     padding: 60px;
     margin-top: 35px;
@@ -185,9 +183,8 @@ a:focus-visible {
 
 @media (max-width: 1280px) {
 #isikontenblog > article {
-	/* margin-top: 200px; */
-	padding: 50px;
-    /* background:rgb(18 2 31 / 50%); */
+    margin-left: 20px;
+}
 }}
 /* ------------------------------------------ */
 /* RECTANGLE PEMISAH KONTEN DENGAN FOOTER */
@@ -284,6 +281,10 @@ a:focus-visible {
     .contents-flex {
         flex-direction: column;
     }
+	.scroll-container:hover {
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
 }
 
 @media screen and (max-width: 1280px) {
