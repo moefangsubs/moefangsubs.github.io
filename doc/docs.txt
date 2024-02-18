@@ -1,0 +1,27 @@
+Script auto membuka
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Get the element with data-episode="01"
+        var episodeElement = document.querySelector('.episodelist[data-episode="01"]');
+
+        // Check if the element is found
+        if (episodeElement) {
+            // Scroll into view
+            episodeElement.scrollIntoView();
+        episodeElement.click();
+        }
+    });
+	
+	
+document.addEventListener("DOMContentLoaded", function() {
+    var episodeElement = document.querySelector('.buttonEpsList[data-episode="01"]');
+    if (episodeElement) {
+        episodeElement.classList.add('clicked'); // Menambah kelas clicked ke elemen episode
+        var episodeImage = episodeElement.querySelector('img');
+        if (episodeImage) {
+            // Scroll into view
+            episodeElement.scrollIntoView();
+            episodeImage.classList.add('clicked'); // Menambah kelas clicked ke gambar episode
+        }
+    }
+});

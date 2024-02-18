@@ -1,0 +1,72 @@
+/* ------------------------------------------ */
+/* IMPORTED - Cara pake & Warning */
+/* ------------------------------------------ */
+
+
+/*  pengaturan utama */
+
+.nott {
+	font-weight: 800;
+	font-size: 15pt;
+	background: #76111a8a;
+	color: #ffff00c7;
+	margin: 2em 0;
+    border-radius: 10px;
+}
+
+.nott, .nott li {
+	margin: 0;
+	list-style: none;
+    padding: 12pt;
+}
+
+/*  pengaturan li */
+
+.nott li {
+    margin-left: 1em;
+    padding: 5px;
+    font-weight: normal;
+    list-style-type: none;
+    padding-left: 17pt;
+    padding-right: 10pt;
+}
+.nott li:before {
+	font-family: 'FontAwesome';
+	content: '\f05e';
+	margin-left: -1.5em;
+	float: left;
+	color: #f00;
+}
+
+/*  pengaturan sstep-step */
+
+[class^="dilarang"] {
+    display: list-item;
+    text-align: justify;
+    color: white;
+    font-size: 12pt;
+    line-height: 15pt;
+}
+/* ------------------------------------------ */
+/* WARNING */
+/* ------------------------------------------ */
+
+
+.dilarang1:after {
+    content: "Menghapus dan/atau menambahkan watermark, apalagi mengklaim subtitle hasil sendiri";
+}
+.dilarang2:after {
+    content: "Mengunggah konten ini baik di akun sosial media dan/atau fanshare apapun dengan alasan dan tujuan apapun";
+}
+.dilarang3:after {
+    content: "Meng-encode ulang dengan mengganti isi subtitlenya, baik sedikit atau keseluruhan ";
+}
+.dilarang4:after {
+    content: "Mengedit segala isi di sub ini";
+}
+.dilarang5:after {
+    content: "Menyalin style ciri khas MoeFang Subs";
+}
+.dilarang6:after {
+    content: "Membagikan direct langsung ke Google Drive. Mohon hargai waktu dan tenaga yang sudah saya curahkan kemari";
+}

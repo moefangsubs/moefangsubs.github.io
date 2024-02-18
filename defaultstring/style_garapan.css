@@ -1,0 +1,925 @@
+body {
+    /* background-color: #12021f; */
+    /* margin: 10px; */
+    /* margin-top: 70px; */
+    /* padding: 50px; */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Ubuntu";
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+/* ------------------------------------------ */
+/* PENGATUAN TERPUSAT SETIAP BG IMAGE TIAP HALAMAN */
+/* ------------------------------------------ */
+
+/* Background setiap garapan terbagi berwarna-warna */
+body.garapan_nogizaka { background-color: #12021F;}
+body.garapan_sakurazaka { background-color: #670c57;}
+body.garapan_hinatazaka { background-color: #005e89;}
+body.garapan_bokuao { background-color: #013471;}
+
+/* Background main */
+body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/nogizaka46_10th.jpg?updatedAt=1659611256286&ik-s=21db489dd89ebab66df04ec20810713d77744d8a');}
+body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/gen4hikari_.png?updatedAt=1678020710743');}
+
+
+/* Background tiap acara */
+body.nogiskits1::before{background-image: url('https://storage.mantan-web.jp/images/2020/06/11/20200611dog00m200022000c/001_size10.jpg');}
+body.nogiskits2::before{background-image: url('https://thetv.jp/i/nw/1047123/10441104.jpg');}
+body.nogistar1::before{background-image: url('https://pbs.twimg.com/media/FNVNNZNaQAAsb3y.jpg');}
+body.nogistar2::before{background-image: url('https://ogre.natalie.mu/media/news/music/2022/0520/nogista2_02.jpg');}
+body.shin_nogistar::before{background-image: url('https://nogistar-live.jp/2022winter/assets/imgs/artist_nogizaka.jpg');}
+body.chou_nogistar::before{background-image: url('https://pbs.twimg.com/media/GAVNULYWQAAIefD?format=jpg&name=4096x4096');}
+body.nogiotameshichuu::before{background-image: url('https://pbs.twimg.com/media/GCB7RNgaoAAY-VB?format=jpg&name=large');}
+body.hinachoi::before{background-image: url('https://thetv.jp/i/nw/226178/1414826.jpg');}
+body.sakurameets::before{background-image: url('https://statics.tver.jp/images/content/thumbnail/series/large/srx97ftk3w.jpg?v=12');}
+body.kyoccorohee::before{background-image: url('https://ogre.natalie.mu/media/news/owarai/2023/1208/TMM_9831.jpg');}
+body.nogizakaohatsu::before{background-image: url('https://nogi46p.com/wp-content/uploads/2021/02/1613739448-36de3309d4b7e937ad1e488aa7a63073.jpg');}
+body.nogiromance::before{background-image: url('https://renote.net/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2lqZ2c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fbe73999d4f5a8912a792f942ebbc0114d009912/68f6fd72.jpg');}
+
+body.nogikoujichuu::before{background-image: url('https://tv-aichi.co.jp/nogi-kou/images/OGP-img2401.jpg');}
+body.nogibingo::before{background-image: url('https://todayidol.com/wp-content/uploads/2014/01/nogibingo.jpg');}
+body.nogizakashow::before{background-image: url('https://fcnogivn.net/wp-content/uploads/2018/05/170218-akb48-show-ep142-nogizaka46-show-mp4_snapshot_00-05_2017-02-20_10-33-56.jpg');}
+body.nogipasokon::before{background-image: url('https://ogre.natalie.mu/media/news/music/2023/0602/tokyopasoconclub_2023visual.jpg');}
+body.nantebida::before{background-image: url('https://pbs.twimg.com/media/FivNeE2aEAAPqmP.jpg');}
+body.koukouseiquiz::before{background-image: url('https://pbs.twimg.com/media/EzivN7YVkAQneqN.jpg');}
+body.hamasukahousoubu::before{background-image: url('https://ogre.natalie.mu/media/news/music/2023/1002/hamasukahosobu_20231002_1.jpg');}
+
+body.nogidouga_asobudake::before{background-image: url('https://livedoor.blogimg.jp/matome1206-nogizaka46matomenoma/imgs/0/2/02c5b20b.jpg');}
+body.nogidouga_kubochannel::before{background-image: url('https://pbs.twimg.com/media/F-kH42xaQAAqorO.jpg:large');}
+body.nogidouga_dekirumon::before{background-image: url('https://livedoor.blogimg.jp/sakamichijyoho46/imgs/5/4/541653ac.jpg');}
+body.nogidouga_burari::before{background-image: url('https://www.nogizaka46.com/files/46/news/100014_1.png');}
+
+body.gourmetSakamichi::before{background-image: url('https://cdn-ak.f.st-hatena.com/images/fotolife/m/marika46neru/20210105/20210105233203.jpg');}
+body.yakubonoheya::before{background-image: url('https://livedoor.sp.blogimg.jp/nekojitachamo/imgs/9/9/991e530f.jpg');}
+body.linelive::before{background-image: url('https://pbs.twimg.com/media/Fj772k7UUAAIUCk.jpg:large');}
+body.kokushokokusan::before{background-image: url('https://i.ytimg.com/vi/sm7aRXp3v-o/maxresdefault.jpg');}
+body.hinatazakachannel::before{background-image: url('https://stat.ameba.jp/user_images/20230716/22/710502/4f/aa/p/o1080056815313144708.png');}
+body.hinasanpoinyokohama::before{background-image: url('https://pbs.twimg.com/media/Fr-8RbfakAI0uq-.jpg:large');}
+body.mtv::before{background-image: url('https://contents.oricon.co.jp/upimg/news/20211125/2214992_202111250741186001637803736e.jpg');}
+body.nogi46hour2022::before{background-image: url('https://realsound.jp/wp-content/uploads/2022/02/20220222-nogi.jpg');}
+body.kichijoujiwalkers::before{background-image: url('https://contents.oricon.co.jp/upimg/news/2241000/2240222/20220627_193206_p_o_27167005.jpg');}
+body.minnanomameo::before{background-image: url('https://pbs.twimg.com/media/FQO4iLJaIAsUe8z.jpg');}
+
+body.single20::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single20.jpg');}
+body.single24::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single24.jpg');}
+body.single26::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single26.jpg');}
+body.single27::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single27.jpg');}
+body.single28::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single28.jpg');}
+body.single29::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single29.jpg');}
+body.single30::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single30.jpg');}
+body.single31::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single31.jpg');}
+body.single32::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single32.jpg');}
+body.single33::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single33.jpg');}
+body.single34::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single34.jpg');}
+body.timeflies::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_timeflies.jpg');}
+body.hinatasingle2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinata_cover_single02.jpg');}
+
+/* Tambahkan aturan untuk halaman HTML lainnya sesuai kebutuhan */
+
+
+
+
+/* ------------------------------------------ */
+/* Main properties */
+/* ------------------------------------------ */
+
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+    outline: none;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    outline: none;
+}
+
+a:focus,
+episode_nogi:focus {
+    /* Provide a fallback style for browsers
+	 that don't support :focus-visible */
+    outline: none;
+}
+
+a:focus:not(:focus-visible),
+episode_nogi:focus:not(:focus-visible) {
+    /* Remove the focus indicator on mouse-focus for browsers
+	 that do support :focus-visible */
+}
+
+a:focus-visible,
+episode_nogi:focus-visible {
+    /* Draw a very noticeable focus style for
+	 keyboard-focus on browsers that do support
+	 :focus-visible */
+    outline: 2px solid #443ffc;
+    outline-offset: 3px;
+}
+
+a:focus-visible {
+    background: none;
+}
+
+/* li{ */
+	/* list-style-type: bullet; */
+	/* padding: 0; */
+	/* margin: 0; */
+/* } */
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #f0f0f0;
+    padding-left: 5px;
+	line-height:15pt;
+}
+
+.hiddd {
+	display:none;
+}
+/* ------------------------------------------ */
+/* Flexbox Method (only head and content) */
+/* ------------------------------------------ */
+
+#isikontenblog {
+    display:flex;
+    flex-direction:column;
+
+    /* fallback height */
+    min-height:100vh;
+
+    /* new small viewport height for modern browsers */
+    min-height:100svh;
+}
+#isikontenblog > .titlehead {
+    padding: 60px;
+    margin-top: 35px;
+}
+#isikontenblog > article {
+    margin-top: 0px;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    /* background: rgb(18 2 31 / 50%); */
+}
+
+
+@media (max-width: 1280px) {
+#isikontenblog > article {
+	/* margin-top: 200px; */
+	padding: 50px;
+    /* background:rgb(18 2 31 / 50%); */
+}}
+/* ------------------------------------------ */
+/* RECTANGLE PEMISAH KONTEN DENGAN FOOTER */
+/* ketika berada dalam posisi PC */
+/* ------------------------------------------ */
+
+.rectangle {
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(255 0 0 / 53%); */
+    padding-bottom: 4em;
+}
+
+@media (max-width: 1280px) {
+.rectangle {
+	display:none;
+}
+}
+/* ------------------------------------------ */
+/* Head title */
+/* ------------------------------------------ */
+
+
+#headtitle {
+	font-size: 32pt;
+	font-weight:bold;
+	padding-top: 10pt;
+	padding-bottom: 20pt;
+	text-align: left;
+}
+
+#headtitle {
+	text-align: center;
+	/* text-align-last:center; */
+}
+#description, #episode {
+	text-align: justify;
+	/* text-align-last:center; */
+}
+
+@media (max-width: 1280px) {
+	#headtitle, #description, #episode {
+	/* padding-left: 20pt; */
+	/* padding-right: 20pt; */
+	}
+}
+
+/* ------------------------------------------ */
+/* Scoll menu untuk episode */
+/* ------------------------------------------ */
+
+.contents {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 600px;
+}
+.contents-flex {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    box-sizing: border-box;
+}
+.contents-flex-item {
+    flex: 1;
+}
+
+.notedesc {
+	font-style:italic;
+	font-size:11pt;
+}
+
+.scroll-container {
+    width: 357px;
+    align-items: center;
+    margin-left: 10pt;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    background-color: rgb(0 0 0 / 0%);
+    display: flex;
+    flex-wrap: wrap;
+	flex-direction: column;
+}
+.scroll-container:hover {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/* .scroll-container::-webkit-scrollbar { */
+  /* display: none; */
+/* } */
+
+@media screen and (max-width: 700px) {
+    .contents-flex {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+	.contents {
+		display: flex;
+		/* width: 96%; */
+		height: auto;
+		/* overflow: hidden; */
+	}
+	.contents-flex {
+		flex-direction: column;
+	}
+	.scroll-container {
+		margin-left: 0px;
+		padding-top: 0pt;
+		overflow-x: auto;
+		overflow-y: hidden;
+		min-width: -webkit-fill-available;
+		height: 130pt;
+		flex-direction: column;
+	}
+}
+
+
+.scroll-container::-webkit-scrollbar {
+    width: 1em;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: white;
+	transition: background-color .5s ease-in-out;
+}
+
+/* ------------------------------------------ */
+/* Scoll menu untuk thumbnail button episode  */
+/* ------------------------------------------ */
+
+
+.imglist {
+    cursor: pointer;
+    margin-right: 10px;
+	margin-top: 19pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: auto;
+}
+
+.episodelist {
+    position: relative;
+    color: white;
+    padding: 5px;
+    height: 40pt;
+}
+
+.episodelist img {
+    filter: brightness(30%);
+    width: 230px;
+    height: 130px;
+    border-radius: 5pt;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: filter 0.3s, transform 0.3s;
+    position: relative;
+}
+
+.epsname {
+    position: absolute;
+    font-size: 13pt;
+    bottom: 30px;
+    left: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s;
+}
+
+.episodelist img:hover {
+    filter: brightness(80%);
+    width: 250px;
+    height: 141px;
+}
+
+.epsbadgeNew {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s;
+    animation: changeColor 1s ease-in-out infinite;
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #8b1212d9;
+  }
+  50% {
+    background-color: #ff2121c9;
+  }
+  100% {
+    background-color: #8b1212d9;
+  }
+}
+
+.epsbadgeNew:before {
+	content:'NEW';
+}
+.episodelist img:hover,
+.episodelist:hover .epsname,
+.episodelist:hover .epsbadgeNew {
+    transform: translateY(-10px);
+}
+
+.episodelist img.clicked {
+}
+
+
+.episodelist img.clicked,
+.episodelist.clicked .epsname.clicked,
+.episodelist.clicked .epsbadgeNew.clicked-width-height {
+    transform: translateY(-30px);
+    width: 250px;
+    height: 141px;
+    filter: brightness(100%) saturate(135%);
+}
+
+
+#episodelist button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#epdetail,
+#descriptioneps,
+#buttons,
+#buttonssp {
+    margin-top: 10px;
+}
+
+
+
+/* ------------------------------------------ */
+/* Isi konten flex */
+/* ------------------------------------------ */
+
+.isihalaman,
+#descEpisode,
+.eps-bigthumb {
+  display: none;
+}
+
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: no-wrap;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.isikontenblog {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    box-sizing: border-box;
+}
+	
+.flex-item {
+flex: 1;
+}
+#flexA, #flexB {
+    flex: 1;
+    margin-left: 15px;
+    margin-top: -10px;
+    border: 0px solid #ccc;
+    background: transparent;
+    width: 50%;
+}
+
+@media (min-width: 1800px) {
+#flexA {
+    flex-grow: 7; /* 70% dari total ruang (7/10) */
+}
+
+#flexB {
+    flex-grow: 3; /* 30% dari total ruang (3/10) */
+}
+}
+
+
+
+@media (min-width: 1280px) and (max-width: 1800px) {
+	#flexA {
+    flex-grow: 6; /* 70% dari total ruang (7/10) */
+}
+
+#flexB {
+    flex-grow: 3; /* 30% dari total ruang (3/10) */
+}
+}
+
+@media (max-width: 1280px) {
+	.container {
+		padding-top:20px;
+		/* width: 90%; */
+	}
+
+	.isikontenblog {
+		width: 90%;
+		flex: 1;
+		box-sizing: border-box;
+		flex-direction: column;
+	}
+	
+	#flexA, #flexB {
+		flex: 1;
+		/* margin-left: 15px; */
+		/* margin-top: -10px; */
+		padding-right: 12pt;
+		border: 0px solid #ccc;
+		background: transparent;
+		width: 100%;
+	}
+}
+}
+
+/* ------------------------------------------ */
+/* Isi konten flex */
+/* ------------------------------------------ */
+
+
+#buttons, #buttonssp, #epdetail {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#buttons.show, #buttonssp.show {
+    display: flex;
+    opacity: 1;
+    justify-content: center;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+	flex-direction: column;
+}
+
+#buttonssp.show {
+    flex-direction: column;
+}
+
+#epdetail.show {
+  display: block;
+  opacity: 1;
+}
+
+.button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+
+/* ------------------------------------------ */
+/* Isi konten flex - Deskripsi episode */
+/* ------------------------------------------ */
+
+#descEpisode {
+	font-size: 24pt;
+}
+#deskripsijudul, #descOnAirDate, #deskripsimember, #deskripsiSkits, #deskripsiSkitsA, #deskripsiSkitsB, 
+#deskripsilagu1, #deskripsilagu2, #deskripsilagu3, #deskripsilagu4, #deskripsilagu5, #deskripsilagu6, #deskripsilagu7, 
+#NamaSastra, #PengarangSastra,
+#RestoNama, #RestoAlamat,
+#deskripsiBahasaSub, #deskripsiPassword {
+    font-size: 12pt;
+    /* background-color: #3391ff; */
+    display: block;
+}
+#deskripsijudul i, #descOnAirDate i, #deskripsimember i, #deskripsiSkits i, #deskripsiSkitsA i, #deskripsiSkitsB i, 
+#deskripsilagu1 i, #deskripsilagu2 i, #deskripsilagu3 i,  #deskripsilagu4 i, #deskripsilagu5 i, #deskripsilagu6 i, #deskripsilagu7 i, 
+#NamaSastra i, #PengarangSastra i,
+#RestoNama i, #RestoAlamat i,
+#deskripsiBahasaSub i {
+	/* color:#9167b3; */
+}
+
+#deskripsiPassword i {
+	color:red;
+}
+
+#descriptioneps, #description {	
+	line-height:25pt;
+	text-align: justify;
+	font-size:16pt;
+	font-weight:100;
+}
+
+/* ------------------------------------------ */
+/* Isi konten flex - gambar thumbnail preview */
+/* ------------------------------------------ */
+
+.epsimg {
+    width: 100%;
+    height: 20px;
+    display: contents;
+}
+
+.eps-bigthumb {
+    padding-top: 20px;
+}
+
+.eps-bigthumb img {
+width: 100%;
+border-radius:10px;
+transition: transform .2s ease-in-out;
+}
+
+.eps-bigthumb img:hover {
+	transform: scale(1.2);
+}
+
+.eps-thumb {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin-top:5pt;
+}
+/* .eps-thumb img { */
+	/* max-width: calc(50% - 6px);
+	/* height: auto; */
+	/* margin-bottom: 10px; */
+	/* transition: all .2s ease-in-out; */
+/* } */
+	.eps-thumb #imageThumbA,
+	.eps-thumb #imageThumbB,
+	.eps-thumb #imageThumbC,
+	.eps-thumb #imageThumbD {
+		max-width: calc(50% - 6px);
+		height: auto;
+		margin-bottom: 4px;
+		border-radius: 5px;
+		transition: all .2s ease-in-out;
+	}	
+	.eps-thumb #imageThumbX {
+		width: 100%;
+		height: auto;
+		margin-top: 6px;
+		border-radius: 5px;
+		transition: all .2s ease-in-out;
+	}	
+	
+	
+.eps-thumb #imageThumbA {
+	border-radius:10pt 0pt 0pt 0pt;
+}
+.eps-thumb #imageThumbB {
+	border-radius:0pt 10pt 0pt 0pt;
+}
+.eps-thumb #imageThumbC {
+	border-radius:0pt 0pt 0pt 10pt;
+}
+.eps-thumb #imageThumbD {
+	border-radius:0pt 0pt 10pt 0pt;
+}
+.eps-thumb #imageThumbX {
+	border-radius:0pt 0pt 10pt 10pt;
+}
+
+.eps-thumb #imageThumbA:hover,
+.eps-thumb #imageThumbB:hover,
+.eps-thumb #imageThumbC:hover,
+.eps-thumb #imageThumbD:hover,
+.eps-thumb #imageThumbX:hover {
+    transform: scale(1.2);
+   border-radius:10pt 10pt 10pt 10pt;
+}
+
+@media (max-width: 1280px) {
+    .imglist {
+        margin-right: 10px;
+		margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+	.eps-bigthumb img {
+		width: 100%;
+		border-radius: 6pt;
+	}
+	.episodelist img {
+		filter: brightness(50%);
+		width: 202px;
+		height: 112px;
+	}
+
+	.eps-thumb img {
+		max-width: calc(50% - 2px);
+		height: auto;
+		margin-bottom: 4px;
+		border-radius: 5px;
+	}	
+
+	.eps-thumb #imageThumbA,
+	.eps-thumb #imageThumbB,
+	.eps-thumb #imageThumbC,
+	.eps-thumb #imageThumbD {
+		max-width: calc(50% - 2px);
+	}	
+
+    .episodelist img:hover {
+        filter: brightness(80%);
+		width: 202px;
+		height: 112px;
+        transform: translateY(-5px);
+    }
+
+    .episodelist img.clicked {
+        transform: translateY(-5px);
+		width: 202px;
+		height: 112px;
+        filter: brightness(100%);
+    }
+    .epsimg {
+        width: 100%;
+        height: 20px;
+        display: contents;
+    }
+
+	.epsname {
+		left: 4px;
+		font-size: 16pt;
+		bottom: -61pt;
+	}
+}
+
+
+/* ------------------------------------------ */
+/* Isi konten flex -button download */
+/* ------------------------------------------ */
+
+.episode_nogi {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+}
+
+.episode_nogi::before,
+.episode_nogi::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* button download biasa */
+
+
+.button--normal, .button--trakteer, .button--hulu {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13pt;
+    padding: 1rem 1.5rem;
+    border: 3px solid #fff;
+    border-radius: 5pt;
+    overflow: hidden;
+    color: #fff;
+    width: 80%;
+    margin: 8px auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.button--normal span,
+.button--trakteer span,
+.button--hulu span {
+	display: block;
+	position: relative;
+}
+
+.button--normal > span,
+.button--trakteer > span,
+.button--hulu > span {
+	overflow: hidden;
+}
+
+.button--normal > span > span {
+	mix-blend-mode: difference;
+}
+
+.button--normal > span > span,
+.button--trakteer > span > span,
+.button--hulu > span > span {
+    overflow: hidden;
+	/* mix-blend-mode: difference; */
+}
+
+.button--normal:hover > span > span {
+	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+}
+
+
+.button--normal::before,
+.button--trakteer::before,
+.button--hulu::before {
+	content: '';
+	background: #12021F;
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+	transform-origin: 100% 50%;
+}
+
+.button--normal::before {
+	background: #12021F;
+}
+.button--trakteer::before {
+	background: #BE1E2D;
+}
+.button--hulu::before {
+	background: #25E988;
+}
+
+.button--normal:hover::before,
+.button--trakteer:hover::before,
+.button--hulu:hover::before  {
+	transform: scale3d(0,1,1);
+	transform-origin: 0% 50%;
+}
+
+@media (max-width: 1280px) {
+	#buttons.show, #buttonssp.show {
+		display: block;
+	}
+	.button--normal {
+		width: 100%;
+		margin: 2pt;
+	}
+	.button--trakteer,
+	.button--hulu {
+		width: 100%;
+	}
+	.button--trakteer > span,
+	.button--hulu > span {
+		left: -13px;
+	}
+}
+
+/* button download trakteer konten */
+
+.button--trakteer:hover > span > span > img,
+.button--hulu:hover > span > span > img   {
+  background-size: 100% 100%;
+  filter:brightness(200%);
+  display: flex;
+  margin-right: 5pt;
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-right: 5pt;
+  height: 25px;
+  width:25px;
+  position:relative;
+}
+
+.button--trakteer:hover > span > span,
+.button--hulu:hover > span > span {
+	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
+	color: #BE1E2D;
+	font-weight: bold;
+	
+}
+
+
+.button--trakteer:hover .traks,
+.button--hulu:hover .traks {
+    filter: none;
+} 
+
+
+/* logo trakteer di tombol download */
+
+.traks {
+    position: absolute;
+    filter: brightness(100);
+    transition: filter 0.3s ease;
+    transform: translate(-50%, -30%);
+}
+
+
+.traks:before {
+    content: "";
+    background-image: url(https://trakteer-assets.sgp1.digitaloceanspaces.com/images/mix/trakteer-icon.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
+
+
+
+@keyframes MoveUpInitial {
+	to {
+		transform: translate3d(0,-105%,0);
+	}
+}
+
+@keyframes MoveUpEnd {
+	from {
+		transform: translate3d(0,100%,0);
+	}
+	to {
+		transform: translate3d(0,0,0);
+	}
+}
+
+

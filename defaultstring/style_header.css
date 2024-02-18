@@ -1,0 +1,242 @@
+/*--- */
+/*--- */
+/*--- */
+
+
+header {
+  background-color:#12021fad;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  transition: top 0.5s;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img {
+    width: 160px;
+    padding: 25px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 5pt;
+  margin: 0;
+}
+
+.nav-list li {
+  margin: 0;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 36px;
+    padding-left: 30pt;
+    padding-right: 30pt;
+    transition: color 0.3s, background-color 0.3s;
+    text-align: center;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-list a:hover {
+  color: white;
+    background-color: #320d51;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 290%;
+    left: 0;
+    padding: 0;
+    z-index: 99;
+    background-color: #320d51;
+}
+
+.dropdown:hover .submenu {
+  display: block;
+}
+.submenu:hover {
+    background-color: #12021F;
+}
+
+.submenu a {
+    display: block;
+    padding: 10pt;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    text-align: left;
+    width: max-content;
+}
+
+.submenu ul, .submenu li {
+	list-style-type:none;
+}
+/* Hide links on small screens */
+/* @media only screen and (max-width: 1280px) { */
+  /* .nav-list { */
+    /* display: none; */
+  /* } */
+  /* .submenu { */
+    /* display: none; */
+  /* } */
+
+  /* .nav-list li.dropdown a { */
+    /* display: block; */
+  /* } */
+/* } */
+
+
+/*--- */
+/*--- */
+/*--- */
+
+
+
+/*--- */
+/*--- hamburger */
+/*--- */
+
+
+
+headlabel {
+     display:none;
+  
+}
+
+@media (max-width: 1280px) {
+	headlabel {
+	  display:block;
+	}
+	
+	headlabel .menu {
+	  position: fixed;
+	  right: -100px;
+	  top: -100px;
+	  z-index: 100;
+	  width: 200px;
+	  height: 200px;
+	  background: #12021f;
+	  border-radius: 50% 50% 50% 50%;
+	  -webkit-transition: .5s ease-in-out;
+	  transition: .5s ease-in-out;
+	  box-shadow: 0 0 0 0 #12021f, 0 0 0 0 #12021f;
+	  cursor: pointer;
+	}
+
+	headlabel .hamburger {
+	  position: absolute;
+	  top: 135px;
+	  left: 50px;
+	  width: 30px;
+	  height: 2px;
+	  background: #69D2e7;
+	  display: block;
+	  -webkit-transform-origin: center;
+	  transform-origin: center;
+	  -webkit-transition: .5s ease-in-out;
+	  transition: .5s ease-in-out;
+	}
+
+	headlabel .hamburger:after, headlabel .hamburger:before {
+	  -webkit-transition: .5s ease-in-out;
+	  transition: .5s ease-in-out;
+	  content: "";
+	  position: absolute;
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	  background: #69d2e7;
+	}
+
+	headlabel .hamburger:before { top: -10px; }
+
+	headlabel .hamburger:after { bottom: -10px; }
+
+	headlabel input { display: none; }
+
+	headlabel input:checked + .menu {
+	  box-shadow: 0 0 0 100vw #12021f, 0 0 0 100vh #12021f;
+	  border-radius: 0;
+	  
+	}
+
+	headlabel input:checked + .menu .hamburger {
+	  -webkit-transform: rotate(45deg);
+	  transform: rotate(45deg);
+	  
+	}
+
+	headlabel input:checked + .menu .hamburger:after {
+	  -webkit-transform: rotate(90deg);
+	  transform: rotate(90deg);
+	  bottom: 0;
+	  
+	}
+
+	headlabel input:checked + .menu .hamburger:before {
+	  -webkit-transform: rotate(90deg);
+	  transform: rotate(90deg);
+	  top: 0;
+	  
+	}
+
+	headlabel input:checked + .menu + ul { opacity: 1; }
+
+	headlabel ul {
+	  z-index: 200;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  opacity: 0;
+	  -webkit-transition: .25s 0s ease-in-out;
+	  transition: .25s 0s ease-in-out;
+	}
+
+	headlabel a {
+	  margin-bottom: 1em;
+	  display: block;
+	  color: #ededed;
+	  text-decoration: none;
+	  
+	}
+
+	h1 {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate(-50%, -50%);
+	  transform: translate(-50%, -50%);
+	  width: 80%;
+	  text-align: center;
+	}
+
+	.navbar {
+		background-color: #12021fc2;
+		color: white;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding-top: 15pt;
+		padding-left: 20pt;
+		padding-bottom: 15pt;
+		transition: top 0.5s;
+		display: block;
+	}
+}
+

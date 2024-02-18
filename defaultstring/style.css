@@ -1,0 +1,159 @@
+body {
+  background-color: #12021F;
+  margin: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  font-family:'Ubuntu';
+  overflow:hidden;
+}
+
+body::before {
+  content: "";  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+}
+
+.bodymainindex {
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+a {
+	text-decoration:none;
+}
+    #main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    #logo {
+      margin-bottom: 20px;
+    }
+
+    #motto {
+      margin-bottom: 20px;
+    }
+
+    #buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .button {
+      padding: 20px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    #site-map {
+      background-color: #6A0572;
+      color: #FFF8DC;
+    }
+
+    #ensiklopedia {
+      background-color: #FFF8DC;
+      color: #6A0572;
+    }
+
+    #latest-update {
+      text-align: left;
+      max-width: 600px;
+    }
+	
+	
+.buttonindex {
+	cursor: pointer;
+    border: 2pt solid white;
+    border-radius: 3pt;
+    padding: 5pt;
+    width: 20%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    /* transition-delay: 0.3s; */
+}	
+
+.buttonindex:hover {
+    width: 25%;
+    border: 2pt solid #6a0572a3;
+	background: #6a0572a3;
+    border-radius: 5pt;
+}
+
+
+/* ================ */
+/* FORM PASSWORD */
+/* ================ */
+
+
+#passwordForm {
+    /* background-color: red; */
+}
+input {
+    border: 4px solid #e5e5e5;
+    border-radius: 15px;
+    background-color: #ffffff00;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 76%;
+    height: 49px;
+    font-size: larger;
+    color: white;
+    transition: background-color 0.5s ease-in-out;
+    font-family: 'Ubuntu';
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+	cursor: text;
+}
+input:focus {
+  background-color: #ffffff26;
+}
+.okbutton {
+    border: 0;
+    border-radius: 12px;
+    background-color: #743679;
+    width: 60px;
+    height: 60px;
+    color: white;
+	cursor: pointer;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+.okbutton:before {
+    content:'OK';
+}
+.okbutton:hover {
+    background-color: #d974e1;
+}
+
+.updatedate {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #e6e6e65e;
+}
