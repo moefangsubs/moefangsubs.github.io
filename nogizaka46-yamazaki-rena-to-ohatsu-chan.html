@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoeFang Subs | Nogizaka46 Yamazaki Rena to Ohatsu-chan</title>
+
+	<!-- JavaScript load default head -->
+	<script type="text/javascript" src="defaultstring/head-default.js"></script>
+	<script src="js/checkPass.js"></script>
+
+	<!-- JavaScript untuk kebutuhan data yang di load -->
+	<script type="text/javascript" src="defaultstring/script.js"></script>
+	<script type="text/javascript" src="defaultstring/updatescript.js" defer></script>
+	<script type="text/javascript" src="js/getdata0.js"></script>
+	<script type="text/javascript" src="js/getdata1.js"></script>
+	<script type="text/javascript" src="js/getdata2.js"></script>
+	<script type="text/javascript" src="js/buttonTrakteerHover.js"></script>
+	<script type="text/javascript" src="store/linklist/link_aboutshow.js"></script>
+	<script type="text/javascript" src="store/linklist/link_nogizakaohatsu.js"></script>
+</head>
+
+<body class="garapan_nogizaka nogizakaohatsu">
+
+<script src="defaultstring/navigation.js"></script>
+<div id="isikontenblog">
+    <div class="titlehead">
+		<div id="headtitle">NOGIZAKA46 YAMAZAKI RENA TO OHATSU-CHAN</div>
+    </div>
+    <article>
+		<div class="contents">
+		<div class="contents-flex">
+		<script src="store\eplist\nogizaka_ohatsuchan.js"></script>
+		
+		<div class="container">
+		<div class="isikontenblog">
+		<div class="flex-item" id="flexA">
+			
+
+			<span id="descEpisode"></span>
+			<div class="eps-bigthumb">
+			<img id="imageThumbBig">
+			</div>
+			
+			<div id="description">
+			<p data-acara="nogizakaohatsu"></p>
+			<p class="notedesc">*) Acara ini tidak semua digarap. Untuk episode lainnya bisa di cek di Nogisub</p>
+			</div>
+				
+			<div class="isihalaman">
+				<script src="js\lodDataDesc\lod_X_imageThumb.js"></script>
+				<script src="js\lodDataDesc\lod_X_description.js"></script>
+				<script src="js\lodDataDesc\lod_data_Default_NamAirMemLang.js"></script>
+				<script src="js\lodButton\lod_button_only_Ohatsuchan.js"></script>
+				
+				<script src="defaultstring/x_rawinfo_bilibili.js"></script>
+
+				<script src="defaultstring/x_password.js"></script>
+				<script src="defaultstring/x_carapake.js"></script>
+				<script src="defaultstring/x_problemunduh.js"></script>
+				<script src="defaultstring/x_warning.js"></script>
+		
+				<div class="rectangle"></div>
+			</div>
+		</div>
+		
+		<div class="flex-item" id="flexB">
+		
+			<script src="defaultstring/sidebar.js"></script>
+			
+		</div>
+		</div>
+
+
+		</div>
+		<!--  -->	
+		<!--  -->
+		</div>
+	</div>
+    </article>
+
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var episodeButtons = document.querySelectorAll('.episodelist.buttonEpsList');
+  var softsubButtons = document.querySelectorAll('[data-link-type^="linkSoftsub"]');
+  var otherButtons = document.querySelectorAll('[data-link-type^="linkHardsub"], [data-link-type="linkTrakteer"], [data-link-type="linkFont"], [data-link-type="linkRAW"]');
+  function hideButtons(exceptButtons) {
+    softsubButtons.forEach(function (button) {
+      button.style.display = exceptButtons.includes(button.dataset.linkType) ? 'block' : 'none';
+    });
+    otherButtons.forEach(function (button) {
+      button.style.display = 'block';
+    });
+  }
+  episodeButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      var episodeNumber = button.dataset.episode;
+      if (episodeNumber) {
+        var softsubEpisodes = ['01', '02', '03', '04', '05', '11', '12', '13', '15', '17', '19', '20', '21', '22', '23', '45'];
+        var showSoftsub = softsubEpisodes.includes(episodeNumber);
+        var showSoftsubEp6 = episodeNumber === '06';
+        var showSoftsubEp7 = episodeNumber === '07';
+        var showSoftsubEp8 = episodeNumber === '08';
+        if (showSoftsub) {
+          hideButtons(['linkSoftsub']);
+        } else if (showSoftsubEp6) {
+          hideButtons(['linkSoftsubEp6v1', 'linkSoftsubEp6v2']);
+        } else if (showSoftsubEp7) {
+          hideButtons(['linkSoftsubEp7v1', 'linkSoftsubEp7v2']);
+        } else if (showSoftsubEp8) {
+          hideButtons(['linkSoftsubEp8v1', 'linkSoftsubEp8v2']);
+        } else {
+          hideButtons([]);
+        }
+      }
+    });
+  });
+});
+
+</script>
+
+</body>
+</html>
