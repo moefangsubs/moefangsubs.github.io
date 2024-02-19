@@ -129,7 +129,12 @@ console.log(imageThumbX);
 // =======================
 
 const linkHardsub = {
-
+	"01" : "https://lokerwfh.net/sGCuNj",
+	"02" : "https://lokerwfh.net/2r71q",
+	"03" : "https://lokerwfh.net/IcvnDt",
+	"04" : "https://lokerwfh.net/xyzM",
+	"05" : "https://lokerwfh.net/jr7Aaw",
+	"06" : "https://lokerwfh.net/SCdYU1eC",
   };
 console.log(linkHardsub);
 
@@ -140,7 +145,7 @@ console.log(linkHardsub);
 
 const linkTrakteer = {};
 for (let i = 1; i <= 9999; i++) {
-  linkTrakteer[i.toString().padStart(2, '0')] = "";
+  linkTrakteer[i.toString().padStart(2, '0')] = "https://trakteer.id/moefangsubs/showcase/batch-hinatazaka46-2nd-bonus-individual-pv-du0EL";
 }
 console.log(linkTrakteer);
 
@@ -149,15 +154,10 @@ console.log(linkTrakteer);
 // FILE PASSWORD
 // =======================
 
-const filePassword = {
-	"01" : "HNT2ndDoremi",
-	"02" : "HNT2ndDoremi",
-	"03" : "HNT2ndDoremi",
-	"04" : "HNT2ndDoremi",
-	"05" : "HNT2ndDoremi",
-	"06" : "HNT2ndDoremi",
-};
-
+const filePassword = {};
+for (let i = 1; i <= 9999; i++) {
+  linkTrakteer[i.toString().padStart(2, '0')] = "HNT2ndDoremi";
+}
 console.log(filePassword);
 
 // =======================
