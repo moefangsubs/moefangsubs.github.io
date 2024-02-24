@@ -328,26 +328,26 @@ console.log(imageThumbD);
 // =======================
 
 const linkHardsub = {
-	"01" : "https://lokerwfh.net/iiaw3nt",
-	"02" : "https://lokerwfh.net/KntWSjC",
-	"03" : "https://lokerwfh.net/kOIviR",
-	"04" : "https://lokerwfh.net/8amnz",
-	"05" : "https://lokerwfh.net/OEJt",
-	"06" : "https://lokerwfh.net/oef6p5",
-	"07" : "https://lokerwfh.net/IUPekvH",
-	"08" : "https://lokerwfh.net/93VhTvtO",
-	"09" : "https://lokerwfh.net/JPbmkDh0",
-	"10" : "https://lokerwfh.net/seesT",
-	"11" : "https://lokerwfh.net/LkJTU",
-	"12" : "https://lokerwfh.net/DEwJnMV",
-	"13" : "https://lokerwfh.net/tZQj",
-	"14" : "https://lokerwfh.net/ZTi1rf",
-	"15" : "https://lokerwfh.net/6japD2Sy",
-	"16" : "https://lokerwfh.net/RLof",
-	"17" : "https://lokerwfh.net/1Y3K1d",
-	"18" : "https://lokerwfh.net/CtjwXg3",
-	"19" : "https://lokerwfh.net/vNgo",
-	"20" : "https://lokerwfh.net/flHFR"
+	"01" : "https://lokerwfh.net/QcdvWp",
+	"02" : "https://lokerwfh.net/0v7UhMa1",
+	"03" : "https://lokerwfh.net/dhXCw",
+	"04" : "https://lokerwfh.net/IPP2GZp",
+	"05" : "https://lokerwfh.net/1oBtWX7t",
+	"06" : "https://lokerwfh.net/fIKAf2",
+	"07" : "https://lokerwfh.net/n5Ugb",
+	"08" : "https://lokerwfh.net/biamggSw",
+	"09" : "https://lokerwfh.net/YYQ9pXZ",
+	"10" : "https://lokerwfh.net/3hIq9Z",
+	"11" : "https://lokerwfh.net/efLZorP",
+	"12" : "https://lokerwfh.net/7SvMD",
+	"13" : "https://lokerwfh.net/aBQx",
+	"14" : "https://lokerwfh.net/wBkOSot9",
+	"15" : "https://lokerwfh.net/ur0w",
+	"16" : "https://lokerwfh.net/N1cuINY",
+	"17" : "https://lokerwfh.net/27xcV",
+	"18" : "https://lokerwfh.net/sSFdjn",
+	"19" : "https://lokerwfh.net/qa3PnA9G",
+	"20" : "https://lokerwfh.net/edhcj"
 };
 console.log(linkHardsub);
 
@@ -358,26 +358,26 @@ console.log(linkHardsub);
 // =======================
 
 const linkSoftsub = {
-	"01" : "https://lokerwfh.net/XCNi5X9",
-	"02" : "https://lokerwfh.net/zT92cIOs",
-	"03" : "https://lokerwfh.net/5N0UxZcg",
-	"04" : "https://lokerwfh.net/6AScrFcZ",
-	"05" : "https://lokerwfh.net/sDISiV",
-	"06" : "https://lokerwfh.net/7LBgexEu",
-	"07" : "https://lokerwfh.net/jfp9u",
-	"08" : "https://lokerwfh.net/V0DOpzR",
-	"09" : "https://lokerwfh.net/YDZRP",
-	"10" : "https://lokerwfh.net/xmXz",
-	"11" : "https://lokerwfh.net/AhCxpU",
-	"12" : "https://lokerwfh.net/3OzaJbLm",
-	"13" : "https://lokerwfh.net/mgTdzB1",
-	"14" : "https://lokerwfh.net/BKOyYlil",
-	"15" : "https://lokerwfh.net/9J3i",
-	"16" : "https://lokerwfh.net/mkF7YZ",
-	"17" : "https://lokerwfh.net/DmNa9E1P",
-	"18" : "https://lokerwfh.net/B1tM",
-	"19" : "https://lokerwfh.net/2i4a1yb",
-	"20" : "https://lokerwfh.net/yHrP20h"
+	"01" : "https://lokerwfh.net/djAyjm",
+	"02" : "https://lokerwfh.net/1HkDQkA",
+	"03" : "https://lokerwfh.net/EbIwPGSq",
+	"04" : "https://lokerwfh.net/KkJx",
+	"05" : "https://lokerwfh.net/ymlz6J",
+	"06" : "https://lokerwfh.net/0KtZSezG",
+	"07" : "https://lokerwfh.net/dS4zKJ2",
+	"08" : "https://lokerwfh.net/0Is8",
+	"09" : "https://lokerwfh.net/f9kB3BZ",
+	"10" : "https://lokerwfh.net/sXsk",
+	"11" : "https://lokerwfh.net/plOgTYn",
+	"12" : "https://lokerwfh.net/nkLYKBx4",
+	"13" : "https://lokerwfh.net/XyYz",
+	"14" : "https://lokerwfh.net/RQP9",
+	"15" : "https://lokerwfh.net/YkWS5KMa",
+	"16" : "https://lokerwfh.net/GLDe5",
+	"17" : "https://lokerwfh.net/Fbl8sj",
+	"18" : "https://lokerwfh.net/tJz10j4",
+	"19" : "https://lokerwfh.net/t1tT9A",
+	"20" : "https://lokerwfh.net/sVv6dy8"
 };
 console.log(linkSoftsub);
 
