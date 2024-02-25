@@ -31,6 +31,7 @@ body::before {
 /* ------------------------------------------ */
 
 /* Background setiap garapan terbagi berwarna-warna */
+body.garapan_neutral { background-color: #000000;}
 body.garapan_nogizaka { background-color: #12021F;}
 body.garapan_sakurazaka { background-color: #670c57;}
 body.garapan_hinatazaka { background-color: #005e89;}
@@ -93,6 +94,7 @@ body.single34::before{background-image: url('https://ik.imagekit.io/moearchive/w
 body.timeflies::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_timeflies.jpg');}
 body.hinatasingle2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinata_cover_single02.jpg');}
 
+body.liveperformance::before{background-image: url('https://nogizaka46family.com/wp-content/uploads/2018/11/nogizaka46sairiumu.jpg');}
 /* Tambahkan aturan untuk halaman HTML lainnya sesuai kebutuhan */
 
 
