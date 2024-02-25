@@ -60,20 +60,20 @@ const acaraData = {
 	// // ------------
 	// // ------------
 	// // ------------
-	// nogikoiMousouJoshi: "",
-	// nogikoiMousouShoujo: "",
-	// nogikoi7thStories: "",
-	// nogikoiNatsunoKoe: "",
-	// nogikoiItsukaDokokade: "",
-	// nogikoiAshitamo: "",
-	// nogikoiEnjiruGirls: "",
-	// nogikoiGoodbyeEnsemble: "",
-	// nogikoi5byougo: "",
-	// nogikoiNounaiAngels: "",
-	// nogikoiMattaSukitte: "",
-	// nogikoiKokuhakuno1byoumae: "",
-	// nogikoi3toubun: "",
-	// hinakoifilms: "",
+	nogikoiMousouJoshi: "Nogikoi Mousou Joshi Koi o Kataru ini adalah seri dari Nogikoi pada Januari 2018 lalu. Disini yang akan bertindak adalah Saito Asuka, Hori Miona dan Yoda Yuuki, dengan setiap episodenya memiliki cerita-cerita yang berbeda.",
+	nogikoiMousouShoujo: "Nogikoi Mousou Shoujo Koi o Kataru ini adalah event dari Nogikoi pada Maret 2018 lalu. Disini yang akan bertindak adalah Yamashita Mizuki, Kubo Shiori dan Ozono Momoko, dengan setiap episodenya memiliki cerita-cerita yang berbeda.",
+	nogikoiCafe: "Kali ini adalah garapan Nogikoi Cafe 7th Stories yang rilis pada Mei 2018. Ya, digarap karena short drama cuma 3-4 menitan. Tiap episode berbeda cerita dan berbeda member yang ikut serta. ",
+	nogikoiNatsunoKoe: "\"Kono Koe, Kimi ni Todoketai\" merupakan event dari Nogikoi pada bulan Juli 2018, dengan partisipasi 3 member Nogizaka46, yaitu Hoshino Minami, Kitano Hinako dan Iori Sagara.",
+	nogikoiItsukaDokokade: "Aplikasi game resmi Nogizaka46 \"Nogikoi\" menghadirkan event \"Itsuka doko ka de ~Hello Again~\" mulai pukul 15:00 pada tanggal 10 Desember 2018. Konsep dari seri ini adalah \"perpisahan dan reuni\" dimana sang perempuan telah menjadi tumbuh dewasa. Dalam aplikasinya, untuk Nanase maupun Wakatsuki terdiri dari 8 episode dan 1 video ending. Nah, yang dibagikan disini adalah video endingnya.",
+	nogikoiAshitamo: "Nogikoi kali ini berformat multi-ending, di mana akhir cerita berubah berdasarkan pilihan pengguna. Video ini juga mencakup dua ending. Dengan tema 'Pilihan Takdir dan Pertemuan', video ini diproduksi dengan pengaturan dan kostum yang tidak dapat ditemui di tempat lain, dengan keterlibatan Shiraishi dan Ikuta.",
+	nogikoiEnjiruGirls: "Dalam aplikasi game smartphone Nogizaka46 \"Nogikoi ~sakamichi no shita de, ano hi boku wa koi o shita ~\" pada 10 Oktober 2019 mengadakan event \"Enjiru Girls! -Bibop Gekiken\". Dibintangi oleh member gen-4, yaitu Endo Sakura, Kaki Haruka dan Tsutsui Ayame. Menghadirkan episode 0 hingga 3 yang semuanya berkaitan dengan jalan cerita.",
+	nogikoiGoodbyeEnsemble: "Nogikoi tahun 2020 merilis event \"Goodbye Ensemble\". Dengan 3 episode dibintangi oleh Shiraishi Mai, Akimoto Manatsu, Takayama Kazumi dan Matsumura Sayuri. Plot ceritanya menggambarkan kerinduan Maiyan pada teman-temannya saat mengunjungi sebuah toko tempat mereka biasa berkumpul",
+	nogikoi5byougo: "Dalam perayaan The 5th Anniversary Campaign, pada 31 Maret-4 April 2021 diadakan event \"5byougo, Kimi o Suki ni naru\". Dibintangi oleh member baru gen-4, yaitu Hayashi Runa, Matsuo Miyu, Kuromi Haruka, Sato Rika dan Yumiki Nao.",
+	nogikoiNounaiAngels: "Nogikoi di 20 Oktober 2021 merilis drama original \"Nounai Angels\" dengan total 5 episode pada channel YouTube resminya. Drama ini dibintangi oleh Saito Asuka, Hoshino Minami, Yamashita Mizuki dan Endo Sakura. Ceritanya menggambarkan 4 malaikat berkepribadian beda-beda dalam diri seseorang yang dipanggil 'kamu'.",
+	nogikoiMattaSukitte: "Nogikoi di 13 April 2022 merilis seri barunya berjudul \"Mata Sukitte Iwanakucha\" pada channel YouTube resminya. Drama ini dibintangi oleh Kubo Shiori, Umezawa Minami, Kaki Haruka dan Hayakawa Seira. Di Nogikoi ini mengisahkan tentang empat orang yang tidak memiliki pengalaman cinta dan setiap hari berkumpul di kafe yang sama sejak masa sekolah menengah.",
+	nogikoiKokuhakuno1byoumae: "\"Kokuhaku no Ichibyou mae\" merupakan event dari Nogikoi tahun 2022 dimana yang berpartisipasinya hanya member baru, yaitu gen-5. Yang kami share disini adalah hanya bagian movie 1 dan 2. Member gen-5 ada 11 orang jadi di dalamnya ada 22 video.",
+	nogikoi3toubun: "'3-bun no Valentine' adalah short drama yang dibintangi oleh Iwamoto Renka, Endo Sakura, dan Yoda Yuki. Mulai tanggal 20 Januari 2023, drama ini disiarkan melalui Nogikoi. Bagian pertama di-premier-kan di saluran YouTube resminya, sedangkan bagian kedua dapat diakses secara gratis melalui aplikasinya.",
+	hinakoifilms: "Untuk merayakan ulang tahun pertama HINAKOI, project \"HINAKOI FILMS 'Kimi to Boku no, Hinata no Hatsukoi'\" telah diluncurkan. Project ini diatur dalam setting yang sama dengan permainan, SMA Hinatazaka, di mana member Hinatazaka46 muncul sebagai teman sekelas dan adik kelas karakter utama. Yang pertama ini, \"Kimi to Boku no Hinata no Hatsukoi - Bunkasai Matsuri Magic wa Totsuzen ni Hen -\" menampilkan Kageyama Yuuka, Takamoto Ayaka, Kawata Hina, Tomita Suzuka, Matsuda Konoka, dan Miyata Manamo. Film pendek empat episode menggambarkan awal dari hubungan cinta selama persiapan untuk Hinakosai, festival budaya yang diadakan di SMA Hinatazaka.",
 	// // ------------
 	// // ------------
 	// // ------------
@@ -114,7 +114,7 @@ const acaraData = {
 	// // ------------
 	// // ------------
 	// // ------------
-	// livePerformance: "",
+	livePerformance: "Disini adalah kumpulan berbagai garapan MoeFang Subs kategori konser atau perform grup Sakamichi maupun BokuAo.",
 	// nogiskitsBDvol1: "",
 	// nogiskitsBDvol2: "",
 	// nogiskitsmaking: "",
