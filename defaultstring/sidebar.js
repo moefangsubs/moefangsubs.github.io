@@ -18,10 +18,6 @@ document.write(`
 	<p>Next Project</p>
     <div class="scrollable">
 	<ul>
-	<li>Chou Nogizaka Star Tanjou #36</li>
-	<li>Chou Nogizaka Star Tanjou #37</li>
-	<li>Chou Nogizaka Star Tanjou #38</li>
-	<li>Chou Nogizaka Star Tanjou #39</li>
 	<li>Hitori de Dekirumon #20 (Okuda Iroha)</li>
 	<li>Nogizaka Otameshichuu #36</li>
 	<li>Nogizaka Burari #10 (Ume & Aya)</li>
@@ -35,9 +31,8 @@ document.write(`
 	<li>Sakamichi Aozora #12</li>
 	<li>Sakamichi Aozora #13</li>
 	<li>Sakamichi Aozora #14</li>
-	<li>Boku ga Mitakatta One-man Live Vol.0</li>
-	<li>Hamasuka Housoubu #85</li>
-	<li>Hamasuka Housoubu #90</li>
+	<li>Sakamichi Aozora #15</li>
+	<li>Sakamichi Aozora #16</li>
 	</ul>
 </div>
 </div>
