@@ -32,8 +32,11 @@ document.addEventListener("DOMContentLoaded", function() {
         case "nogidouga-nogizaka-burari":
             targetEpisode = "09";
             break;
+        case "live-performance":
+            targetEpisode = "01";
+            break;
         case "chou-nogizaka-star-tanjou":
-            targetEpisode = "35";
+            targetEpisode = "40";
             break;
         case "nogizaka-otameshichuu":
             targetEpisode = "35";
