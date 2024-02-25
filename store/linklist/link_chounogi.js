@@ -38,7 +38,12 @@ const descEpisodeSynopsis = {
   "32": "Di episode 32 kali ini dibuka dengan kombi pertama, Ikeda Teresa dan Nakanishi Aruno yang akan menyanyikan lagu paling sulit dari Radwimps. Juga ada penampilan Red Sox yang sudah lama tidak tampil sekitar setahun yang lalu. Skitsnya adalah episode 2 dari 3 saudari dengan kepribadian yang berbeda-beda, diperankan oleh Ichinose Miku, Ikeda Teresa, Tomisato Nao, dan pemeran baru di episode ini adalah Okamoto Hina.",
   "33": "Di episode 33 kali ini dibuka dengan spesial episode Natal. Lalu untuk skitsnya adalah episode kedua dari Sweet Candy, yang akan memergoki Ito dan senpai-nya Okuda Iroha.",
   "34": "Di episode 34 kali ini adalaah episode khusus VOCALOID, dimana ini \"produser\"-nya adalah Inoue Nagi. Nagi ingin lagu-lagu VOCALOID pilihannya dinyanyikan oleh gen-5.",
-  "35": "Di episode 35 kali ini membawakan skits legendaris \"Katsu-ya\". Sebelumnya, di Nogizaka Skits, senpai dari gen-3 dan 4 tampil dalam skit populer \"Katsu-ya\". Mereka memasukkan katsu ke dalam berbagai situasi bagi pekerja kantoran yang bingung. Segmen kedua adalah bagian kedua dari gathering blak-blakannya gen-5."
+  "35": "Di episode 35 kali ini membawakan skits legendaris \"Katsu-ya\". Sebelumnya, di Nogizaka Skits, senpai dari gen-3 dan 4 tampil dalam skit populer \"Katsu-ya\". Mereka memasukkan katsu ke dalam berbagai situasi bagi pekerja kantoran yang bingung. Segmen kedua adalah bagian kedua dari gathering blak-blakannya gen-5.",
+  "36": "Di episode 36 kali ini kita akan melihat di balik layar konser Chou Nogizaka Star Tanjou Live, cerita di balik layarnya dalam menghadapi konsernya yang sebelumnya pernah mereka lalui.",
+  "37": "Di episode 37 kali ini kita dibuka dengan skits tanpa Ozwald, yaitu SAKULUCKY. Lalu skits keduanya adalah Uzamurai yang akan menebas pria menyebalkan di restoran keluarga",
+  "38": "Di episode 38 kali ini kita buka dengan penampilan para member membawakan lagu 'Shabondama' dari Morning Musume. Lalu untuk skitsnya kembali dari SAKULUCKY. Setelah itu kita akan melihat playlist dari Ichinose Miku.",
+  "39": "Di episode 39 kali ini kita buka dengan penampilan para member membawakan lagu 'Kimi ni Todoke' dari flumpool. Untuk skitsnya adalah 'Amaioki' yang katanya ini adalah kakaknya Umaioki.",
+  "40": "Di episode 40 kali ini diadakan penghargaan Charademy, sama seperti pendahulunya Nogizaka Skits era gen-4 dimana penghargaan diberikan kepada para member berdasarkan perannya. Disini terbagi menjadi 3 nominasi, yaitu Aktris Pemeran Pendukung, Pemeran Pria Terbaik, Pemeran Utama Wanita Terbaik. Siapakah yang berhasil memenangkannya?"
   };
 
 
@@ -105,7 +110,12 @@ const descOnAirDate = {
   "32": "18 Desember 2023",
   "33": "25 Desember 2023",
   "34": "08 Januari 2024",
-  "35": "15 Januari 2024"
+  "35": "15 Januari 2024",
+  "36": "22 Januari 2024",
+  "37": "29 Januari 2024",
+  "38": "5 Februari 2024",
+  "39": "12 Februari 2024",
+  "40": "19 Februari 2024"
 };
 
 // =======================
@@ -147,7 +157,12 @@ const descSong1 = {
   "32": "RADWIMPS「おしゃかしゃま」",
   "33": "プッチモニ「ぴったりしたいX’mas！」",
   "34": "ナユタン星人「ダンスロボットダンス」",
-  "35": "trf「寒い夜だから…」"
+  "35": "trf「寒い夜だから…」",
+  "36": "",
+  "37": "カズン「冬のファンタジー」",
+  "38": "モーニング娘。「シャボン玉」",
+  "39": "flumpool「君に届け」",
+  "40": "サンボマスター「できっこないをやらなくちゃ」"
 };
 
 
@@ -190,7 +205,12 @@ const descSong2 = {
   "32": "MAX「一緒に…」",
   "33": "広瀬香美「Dear…again」",
   "34": "",
-  "35": ""
+  "35": "",
+  "36": "",
+  "37": "",
+  "38": "小田和正「たしかなこと」",
+  "39": "華原朋美「I BELIEVE」",
+  "40": ""
 };
 
 
@@ -233,7 +253,12 @@ const descSong3 = {
   "32": "Song 3	| 奥田いろは「恋々」",
   "33": "",
   "34": "",
-  "35": ""
+  "35": "",
+  "36": "",
+  "37": "",
+  "38": "",
+  "39": "",
+  "40": ""
 };
 
 
@@ -276,7 +301,12 @@ const descSkits = {
   "32": "「ごきげん三姉妹」 第2話",
   "33": "「スイートキャンディー」 第2話",
   "34": "特別編 井上和プロデュース！乃木坂46 5期生がボ力ロ曲に挑戦",
-  "35": "「かつ家五号店」"
+  "35": "「かつ家五号店」",
+  "36": "特別編 ～超・乃木坂スター誕生ライブ裏側密着～",
+  "37": "「SAKULUCKY」第1話 & 「ウざむらい奥田色之助」第2話",
+  "38": "「SAKULUCKY」第2話",
+  "39": "「甘道師範 あまいおき師匠」",
+  "40": "乃木スタキャラデミー賞"
 };
 
 
@@ -318,11 +348,48 @@ console.log(filePassword);
 // IMAGE THUMBNAIL main
 // =======================
 
-const imageThumbBig = {};
-for (let i = 1; i <= 9999; i++) {
-  const paddedNumber = i.toString().padStart(2, '0');
-  imageThumbBig[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-${paddedNumber}.jpg`;
-}
+const imageThumbBig = {
+"01" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-01.jpg",
+"02" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-02.jpg",
+"03" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-03.jpg",
+"04" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-04.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-05.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-06.jpg",
+"07" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-07.jpg",
+"08" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-08.jpg",
+"09" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-09.jpg",
+"10" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-10.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-11.jpg",
+"12" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-12.jpg",
+"13" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-13.jpg",
+"14" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-14.jpg",
+"15" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-15.jpg",
+"16" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-16.jpg",
+"17" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-17.jpg",
+"18" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-18.jpg",
+"19" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-19.jpg",
+"20" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-20.jpg",
+"21" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-21.jpg",
+"22" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-22.jpg",
+"23" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-23.jpg",
+"24" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-24.jpg",
+"25" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-25.jpg",
+"26" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-26.jpg",
+"27" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-27.jpg",
+"28" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-28.jpg",
+"29" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-29.jpg",
+"30" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-30.jpg",
+"31" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-31.jpg",
+"32" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-32.jpg",
+"33" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-33.jpg",
+"34" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-34.jpg",
+"35" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-35.jpg",
+"36" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-36.jpg",
+"37" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-37.jpg",
+"38" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-38.jpg?updatedAt=1708878444638",
+"39" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-39.jpg?updatedAt=1708878185590",
+"40" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-40.jpg",
+};
 console.log(imageThumbBig);
 
 // =======================
@@ -408,7 +475,12 @@ const linkHardsub = {
   "32" : "https://lokerwfh.net/AUzbKdOA",
   "33" : "https://lokerwfh.net/ol5E",
   "34" : "https://lokerwfh.net/UXZoEOq",
-  "35" : "https://lokerwfh.net/7vne8l"
+  "35" : "https://lokerwfh.net/7vne8l",
+  "36" : "https://lokerwfh.net/zB3ht",
+  "37" : "https://lokerwfh.net/Aa2K5IY",
+  "38" : "https://lokerwfh.net/oDZNbxg",
+  "39" : "https://lokerwfh.net/XdoE",
+  "40" : "https://lokerwfh.net/6jo9rGt",
 };
 
 // =======================
@@ -450,7 +522,12 @@ const linkSoftsub = {
   "32" : "https://lokerwfh.net/D7kGJi",
   "33" : "https://lokerwfh.net/Ug5P",
   "34" : "https://lokerwfh.net/cEiNATo",
-  "35" : "https://lokerwfh.net/Mokj3p"
+  "35" : "https://lokerwfh.net/Mokj3p",
+  "36" : "https://lokerwfh.net/NoP4D",
+  "37" : "https://lokerwfh.net/YARnvRgK",
+  "38" : "https://lokerwfh.net/dY9i1ae",
+  "39" : "https://lokerwfh.net/L7vbronr",
+  "40" : "https://lokerwfh.net/dS0CA",
 };
 
 // =======================
