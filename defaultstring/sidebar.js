@@ -21,6 +21,7 @@ document.write(`
 	<li>Hitori de Dekirumon #20 (Okuda Iroha)</li>
 	<li>Nogizaka Otameshichuu #36</li>
 	<li>Nogizaka Burari #10 (Ume & Aya)</li>
+	<li>Nogizaka Burari #11 (Shiori & Hazuki)</li>
 	<li>Nogizaka Asobu Dake #47</li>
 	<li>Nogizaka Asobu Dake #48</li>
 	<li>Nogizaka Asobu Dake #49</li>
@@ -37,6 +38,16 @@ document.write(`
 </div>
 </div>
 
+<div class="noslot">
+Ingat, hindari judi online, kawan 😉
+</div>
+
+<div class="mediaig igshiritainogi">
+<a href="https://www.instagram.com/shiritai_nogi.official/" target="_blank">Follow untuk info</br>Seputar Nogizaka46</a>
+</div>
+<div class="mediaig igbokuao">
+<a href="https://www.instagram.com/bokuao.fans.id/" target="_blank">Follow untuk info</br>Seputar BokuAo</a>
+</div>
 
 <!-- ---------------------- -->
 <!-- SIDEBAR ABOUT          -->
@@ -44,7 +55,7 @@ document.write(`
 
 <hr>
 
-<div class="aboutmoe">MoeFang Sub adalah penyedia takarir untuk grup Sakamichi & BokuAo berbahasa Indonesia dengan 98% konten Nogizaka46 sejak 2020. Moefang hanya memiliki hak atas subtitle saja.</div>	
+<div class="aboutmoe">MoeFang Subs merupakan fansub penyedia takarir untuk grup Sakamichi & BokuAo berbahasa Indonesia dengan 98% konten Nogizaka46 sejak 2020. MoeFang Subs hanya memiliki hak atas subtitle saja.</div>	
 <div class="widget-content">
 	<div class="social-icons social social-bg-hover">
 		<div class="xtwitter"><a class="twitter" href="http://twitter.com/FangMoe" target="_blank"></a></div>
