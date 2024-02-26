@@ -58,13 +58,18 @@
 }
 
 @media (min-width: 0px) and (max-width: 720px) {
-.whatsnew {
-	width: 80%;
-	padding: 8pt;
-	font-size: 14pt;
-}
+	.whatsnew {
+		width: 80%;
+		padding: 8pt;
+		font-size: 14pt;
+	}
 
-.whatsnew a {
-padding-bottom: 0pt;
-}
+	.whatsnew a {
+		padding-bottom: 0pt;
+		text-align: center;
+	}
+	.whatsnew a:before {
+    padding-right: 4pt;
+    font-size: 11pt;
+	}
 }
