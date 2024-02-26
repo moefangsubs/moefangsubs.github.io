@@ -23,14 +23,18 @@ body::-webkit-scrollbar {
 
 .flex-container {
     justify-content: center;
-    width: 65%;
-    display: block;
+    width: 70%;
+    display: contents;
     /* background-color: #ff010147; */
     margin-top: 30pt;
-    transform: translate(28%, 2%);
+    transform: translate(-50%, -50%);
 }
 .category-flex {
-	display: flex;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15pt;
 }
 
 .button-container {
@@ -79,6 +83,10 @@ body::-webkit-scrollbar {
 }
 
 @media (min-width: 0px) and (max-width: 720px) {
+	.category-flex {
+		width: 80%;
+	}
+
 	.flex-container {
 		flex-direction: row;
 	}
