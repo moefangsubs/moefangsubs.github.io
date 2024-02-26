@@ -56,3 +56,15 @@
     color: #8b00ff;
   }
 }
+
+@media (min-width: 0px) and (max-width: 720px) {
+.whatsnew {
+	width: 80%;
+	padding: 8pt;
+	font-size: 14pt;
+}
+
+.whatsnew a {
+padding-bottom: 0pt;
+}
+}
