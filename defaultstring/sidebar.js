@@ -38,6 +38,16 @@ document.write(`
 </div>
 </div>
 
+<div class="noslot">
+Ingat, hindari judi online, kawan 😉
+</div>
+
+<div class="mediaig igshiritainogi">
+<a href="https://www.instagram.com/shiritai_nogi.official/" target="_blank">Follow untuk info</br>Seputar Nogizaka46</a>
+</div>
+<div class="mediaig igbokuao">
+<a href="https://www.instagram.com/bokuao.fans.id/" target="_blank">Follow untuk info</br>Seputar BokuAo</a>
+</div>
 
 <!-- ---------------------- -->
 <!-- SIDEBAR ABOUT          -->
