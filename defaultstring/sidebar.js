@@ -21,7 +21,7 @@ document.write(`
 	<li>Hitori de Dekirumon #20 (Okuda Iroha)</li>
 	<li>Nogizaka Otameshichuu #36</li>
 	<li>Nogizaka Burari #10 (Ume & Aya)</li>
-	<li>Nogizaka Burari #11 (Kubo & Hazuki)</li>
+	<li>Nogizaka Burari #11 (Shiori & Hazuki)</li>
 	<li>Nogizaka Asobu Dake #47</li>
 	<li>Nogizaka Asobu Dake #48</li>
 	<li>Nogizaka Asobu Dake #49</li>
@@ -38,16 +38,6 @@ document.write(`
 </div>
 </div>
 
-<div class="noslot">
-Ingat, hindari judi online, kawan 😉
-</div>
-
-<div class="mediaig igshiritainogi">
-<a href="https://www.instagram.com/shiritai_nogi.official/" target="_blank">Follow untuk info</br>Seputar Nogizaka46</a>
-</div>
-<div class="mediaig igbokuao">
-<a href="https://www.instagram.com/bokuao.fans.id/" target="_blank">Follow untuk info</br>Seputar BokuAo</a>
-</div>
 
 <!-- ---------------------- -->
 <!-- SIDEBAR ABOUT          -->
