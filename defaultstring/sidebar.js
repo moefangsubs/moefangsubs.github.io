@@ -21,7 +21,7 @@ document.write(`
 	<li>Hitori de Dekirumon #20 (Okuda Iroha)</li>
 	<li>Nogizaka Otameshichuu #36</li>
 	<li>Nogizaka Burari #10 (Ume & Aya)</li>
-	<li>Nogizaka Burari #11 (Shiori & Hazuki)</li>
+	<li>Nogizaka Burari #11 (Kubo & Hazuki)</li>
 	<li>Nogizaka Asobu Dake #47</li>
 	<li>Nogizaka Asobu Dake #48</li>
 	<li>Nogizaka Asobu Dake #49</li>
