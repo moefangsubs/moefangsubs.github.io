@@ -3,16 +3,18 @@ document.write(`
   <header>
     <nav id="top-nav">
       <div class="logo">
-        <a href="index.html"><img src="https://ik.imagekit.io/moearchive/logo-moefang2.png" alt="Moefang Logo"></a>
+        <a href="../index.html"><img src="https://ik.imagekit.io/moearchive/logo-moefang2.png" alt="Moefang Logo"></a>
       </div>
       <ul class="nav-list">
-        <li><a href="sitemap.html">SITE MAP</a></li>
+        <li><a href="../sitemap.html">SITE MAP</a></li>
+        <!-- <li><a href="../pages/mv-hardsubs.html">SUB MV</a></li> -->
+        <li><a href="../405.html">SUB MV</a></li>
         <!-- <li class="dropdown"> -->
           <!-- <a href="#">MOE DATA</a> -->
           <!-- <ul class="submenu"> -->
-            <!-- <li><a href="nogisenbatsu.html">Nogizaka Senbatsu</a></li> -->
-            <!-- <li><a href="nogimember.html">Nogizaka Member</a></li> -->
-            <!-- <li><a href="nogicalendar.html">Nogizaka Calendar</a></li> -->
+            <!-- <li><a href="../nogisenbatsu.html">Nogizaka Senbatsu</a></li> -->
+            <!-- <li><a href="../nogimember.html">Nogizaka Member</a></li> -->
+            <!-- <li><a href="../nogicalendar.html">Nogizaka Calendar</a></li> -->
           <!-- </ul> -->
         <!-- </li> -->
         <!-- <li><a href="#">FAQ</a></li> -->
