@@ -147,6 +147,15 @@ input:focus {
     background-color: #d974e1;
 }
 
+
+/* ================ */
+/* STUFF */
+/* ================ */
+
+.ifpernah {
+    font-size:10pt;
+    padding: 10px;
+}
 .updatedate {
     position: fixed;
     bottom: 20px;
@@ -157,3 +166,4 @@ input:focus {
     font-size: 14px;
     color: #e6e6e65e;
 }
+
