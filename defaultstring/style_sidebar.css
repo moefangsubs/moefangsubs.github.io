@@ -96,6 +96,65 @@
 
 
 /* ------------------------------------------ */
+/* Sidebar - no slot */
+/* ------------------------------------------ */
+
+.noslot {
+    text-align: center;
+    padding: 10pt;
+    margin: 10pt 0pt 10pt 0pt;
+    font-size: larger;
+    background-color: #f0f8ff42;
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 9pt;
+    border: 3pt solid aliceblue;
+}
+.mediaig {
+    background-color: #f0f8ff4f;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10pt 0pt 10pt 0pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    font-size: 12pt;
+    font-weight: 700;
+    color: aliceblue;
+    border-radius: 9pt;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    transition: .2s background-color ease-in-out;
+}
+
+
+.igbokuao:hover {background-color: #3a98eb4f;}
+.igshiritainogi:hover {background-color: #700dc161;}
+
+.igbokuao:before {
+    content: "";
+    background-image: url(media/ig-bokuaoid-0.jpg);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    border-radius: 50pt;
+	margin-right: 10pt;
+}
+.igshiritainogi:before {
+    content: "";
+    background-image: url(media/ig-shiritainogi-0.jpg);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    border-radius: 50pt;
+	margin-right: 10pt;
+}
+/* ------------------------------------------ */
 /* Sidebar - SNS */
 /* ------------------------------------------ */
 
@@ -106,6 +165,7 @@
     width: 100%;
     margin: 0;
     padding-top: 20pt;
+	padding-bottom: 60pt;
     justify-content: center;
 }
 
