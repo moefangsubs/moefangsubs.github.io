@@ -7,8 +7,7 @@ document.write(`
       </div>
       <ul class="nav-list">
         <li><a href="../sitemap.html">SITE MAP</a></li>
-        <!-- <li><a href="../pages/mv-hardsubs.html">SUB MV</a></li> -->
-        <li><a href="../405.html">SUB MV</a></li>
+        <li><a href="../pages/mv-hardsubs.html">SUB MV</a></li>
         <!-- <li class="dropdown"> -->
           <!-- <a href="#">MOE DATA</a> -->
           <!-- <ul class="submenu"> -->
