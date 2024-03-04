@@ -73,10 +73,105 @@
 }
 
 
+/* ----------------- */
+/* untuk promo bundle */
+/* ----------------- */
+
+
+
+.downbundle {
+    margin: 0 auto;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    display: flex;
+    background: #8633cdcf;
+    width: 50%;
+    border: 2pt solid white;
+    border-radius: 15pt;
+    box-shadow: 5px 5px;
+}
+
+div#bundlecaption {
+    /* border: 1pt solid white; */
+    width: 70%;
+    align-self: center;
+    height: 200px;
+    padding: 20pt;
+}
+#bundlecaption span {
+    font-size: 18pt;
+}
+#bundlecaption p {
+    font-size: 9pt;
+	font-style:italic;
+}
+
+#bundlecaption a {
+    display: block;
+    border: 2pt solid white;
+    border-radius: 7pt;
+    text-align: center;
+    width: max-content;
+    margin-top: 15pt;
+    padding: 5pt;
+    background: #c1101f;
+}
+#bundlecaption a:hover {
+    background: white;
+    border: 2pt solid #c1101f;
+    color: #c1101f;
+	font-weight:bold;
+}
+
+div#bundleimg {
+    /* border: 1pt solid yellow; */
+    width: 30%;
+    display: inline-table;
+    padding: 20pt;
+	align-self: center;
+}
+#bundleimg img {
+    width: 140px;
+}
+
+
+/* ----------------- */
+/* kondisional */
+/* ----------------- */
+
+
 @media screen and (max-width: 720px) {
 .iconlist div {
     width: 45%;
     font-size: 10pt;
+}
+.downbundle {
+    width: 100%;
+}
+
+div#bundlecaption, div#bundleimg {
+    padding: 10pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	inline-size: fit-content;
+}
+
+#bundlecaption span {
+    font-size: 14pt;
+}
+
+#bundlecaption a {
+    width: 80%;
+}
+
+#bundlecaption p {
+    font-size: 9pt;
+}
+
+
+#bundleimg img {
+    width: 100px;
 }
 }
 
@@ -85,4 +180,9 @@
     width: 32%;
     font-size: 11pt;
 }
+.downbundle {
+    width: 85%;
 }
+}
+
+
