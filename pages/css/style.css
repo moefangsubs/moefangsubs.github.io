@@ -113,3 +113,21 @@ a:focus-visible {
 }
 
 
+
+/* ------------------------------------------ */
+/* RECTANGLE PEMISAH KONTEN DENGAN FOOTER */
+/* ketika berada dalam posisi PC */
+/* ------------------------------------------ */
+
+.rectangle {
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(255 0 0 / 53%); */
+    padding-bottom: 4em;
+}
+
+@media (max-width: 1280px) {
+.rectangle {
+	display:none;
+}
+}

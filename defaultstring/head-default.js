@@ -5,7 +5,7 @@ document.head.innerHTML += `
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="content-language" content="en">
 	<meta name="robots" content="index, follow">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../favicon.ico" type="image/x-icon">
 
 	<!-- External Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="bottom-footer-flex.css" />
