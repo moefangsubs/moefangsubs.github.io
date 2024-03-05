@@ -121,7 +121,7 @@ console.log(imageThumbD);
 // =======================
 
 const linkHardsub = {
-	"211211" : "https://lokerwfh.net/9btu6x",
+	"211211" : "https://lokerwfh.net/WFY7bOc",
 	"211228" : "https://lokerwfh.net/Oub3S",
 	"220108" : "https://lokerwfh.net/oj7Du",
   };
