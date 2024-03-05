@@ -15,7 +15,7 @@ body::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.2;
+  opacity: 0.6;
   position: fixed;
   top: 0;
   left: 0;
@@ -32,49 +32,68 @@ body::before {
 a {
 	text-decoration:none;
 }
-    #main-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-    #logo {
-      margin-bottom: 20px;
-    }
+#logo {
+	/* margin-bottom: 20px; */
+	position: fixed;
+	margin: 0 auto;
+	z-index: -1;
+}
 
-    #motto {
-      margin-bottom: 20px;
-    }
+#logo img {
+	width: 100px;
+	opacity: 0.8;
+}
 
-    #buttons {
-      display: flex;
-      gap: 10px;
-    }
+div#fansub {
+    padding-top: 20pt;
+    font-size: 20pt;
+    font-weight: 600;
+    padding-bottom: 10pt;
+    mix-blend-mode: overlay;
+    text-shadow: 0pt 0pt 20px black;
+}
 
-    .button {
-      padding: 20px 20px;
-      border: none;
-      cursor: pointer;
-      border-radius: 5px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
+#motto {
+    margin-bottom: 20px;
+    font-size: small;
+    opacity: 0.5;
+}
 
-    #site-map {
-      background-color: #6A0572;
-      color: #FFF8DC;
-    }
+#buttons {
+  display: flex;
+  gap: 10px;
+}
 
-    #ensiklopedia {
-      background-color: #FFF8DC;
-      color: #6A0572;
-    }
+.button {
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
-    #latest-update {
-      text-align: left;
-      max-width: 600px;
-    }
+#site-map {
+  background-color: #6A0572;
+  color: #FFF8DC;
+}
+
+#ensiklopedia {
+  background-color: #FFF8DC;
+  color: #6A0572;
+}
+
+#latest-update {
+  text-align: left;
+  max-width: 600px;
+}
 	
 	
 .buttonindex {
@@ -122,7 +141,8 @@ input {
     align-items: center;
     align-content: center;
     flex-direction: row;
-	cursor: text;
+    cursor: text;
+    mix-blend-mode: color-dodge;
 }
 input:focus {
   background-color: #ffffff26;
@@ -138,6 +158,7 @@ input:focus {
     font-weight: bold;
     font-family: 'Ubuntu';
     text-align: center;
+    mix-blend-mode: color-dodge;
     transition: background-color 0.5s ease-in-out;
 }
 .okbutton:before {
@@ -153,7 +174,7 @@ input:focus {
 /* ================ */
 
 .ifpernah {
-    font-size:10pt;
+	font-size:10pt;
     padding: 10px;
 }
 .updatedate {
