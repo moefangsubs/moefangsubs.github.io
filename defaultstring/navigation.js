@@ -25,34 +25,22 @@ document.write(`
         <ul class="links">
           <li><a href="../sitemap.html">SITE MAP</a></li>
           <li>
-            <a href="#">OTHER</a>
+            <a href="#">OTHER STUFF</a>
             <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
             <ul class="htmlCss-sub-menu sub-menu">
               <li><a href="../pages/mv-hardsubs.html">MV SUBS</a></li>
               <li><a href="../pages/folder-icon.html">FOLDER ICON</a></li>
-              <!-- <li class="more"> -->
-                <!-- <span><a href="#">SUBLAGI A</a> -->
-                <!-- <i class='bx bxs-chevron-right arrow more-arrow'></i> -->
-              <!-- </span> -->
-                <!-- <ul class="more-sub-menu sub-menu"> -->
-                  <!-- <li><a href="#">A1</a></li> -->
-                  <!-- <li><a href="#">A2</a></li> -->
-                  <!-- <li><a href="#">A3</a></li> -->
-                <!-- </ul> -->
-              <!-- </li> -->
+              <li class="more">
+                <span><a href="#">MOE DATA</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+              <li><a href="../pages/senbatsu-formation-nogizaka46.html">乃 SENBATSU FORMATION</a></li>
+              <li><a href="../pages/sakamichi-penlight.html">◢ SAKAMICHI PENLIGHT</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
-          <!-- <li> -->
-            <!-- <a href="#">MOE DATA</a> -->
-            <!-- <i class='bx bxs-chevron-down js-arrow arrow '></i> -->
-            <!-- <ul class="js-sub-menu sub-menu"> -->
-              <!-- <li><a href="../nogisenbatsu.html">Nogizaka Senbatsu</a></li> -->
-              <!-- <li><a href="../nogimember.html">Nogizaka Member</a></li> -->
-              <!-- <li><a href="../nogicalendar.html">Nogizaka Calendar</a></li> -->
-            <!-- </ul> -->
-          <!-- </li> -->
-          <!-- <li><a href="#">FAQ</a></li> -->
-          <!-- <li><a href="#">ENGSUB</a></li> -->
         </ul>
       </div>
       <div>

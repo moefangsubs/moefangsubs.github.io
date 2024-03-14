@@ -1,3 +1,19 @@
+body::before {
+ 	background-image: url('https://blogimg.goo.ne.jp/image/upload/f_auto,q_auto,t_image_sp_entry/v1/user_image/1c/28/fecdbe5f185bef594ddb1978e26bd3a1.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+
 * {
   transition: all 1s ease;
 }

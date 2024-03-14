@@ -1,0 +1,401 @@
+body::before {
+ 	background-image: url('https://blogimg.goo.ne.jp/image/upload/f_auto,q_auto,t_image_sp_entry/v1/user_image/1c/28/fecdbe5f185bef594ddb1978e26bd3a1.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+li {
+    padding-top: 9pt;
+    margin-left: 20pt;
+}
+
+.pentitle {
+    font-size: 40pt;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    padding-top: 25pt;
+    padding-bottom: 25pt;
+}
+
+.penlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: stretch;
+    align-self: auto;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.stickmember {
+    width: max-content;
+    padding: 10pt;
+    border-radius: 1vw;
+    border: 2pt solid white;
+    box-shadow: 4px 4px 0px 1px #ffffff40;
+}
+
+.boxname {
+    font-size: 10pt;
+    text-align: center;
+    padding-bottom: 7pt;
+    padding-top: 7pt;
+}
+
+/*--- background color nogizaka ---*/
+  .pgen1{background:#f7d9fe;}
+  .pgen2{background:#dfd9fe;}
+  .pgen3{background:#d9fafe;}
+  .pgen4{background:#effed9;}
+  .pgen5{background:#fed9d9;}
+  .pnoog{background:#281d30;} 
+  
+/*--- text color nogizaka ---*/
+  .ngen1{color:#e263ff;}
+  .ngen2{color:#7f63ff;}
+  .ngen3{color:#21c5d9;}
+  .ngen4{color:#8ab54c;}
+  .ngen5{color:#ff6363;} 
+  .nnoog{color:#684b7d;} 
+
+
+/*--- background color sakurazaka ---*/
+  .sgen1{background:#E36DA3;}
+  .sgen2{background:#FA7FB8;}
+  .sgen3{background:#FEA3CD;}
+  .sakog{background:#5D0D32;}
+  .kykog{background:#142c0b;}
+  
+/*--- background color hinatazaka ---*/
+  .hgen1{background:#2e94ff;}
+  .hgen2{background:#47a1ff;}
+  .hgen3{background:#61aeff;}
+  .hgen4{background:#7abbff;}
+  .hinog{background:#0d2c4c;}
+  
+/*--- text color sakurazaka ---*/
+  .stextgen1{color:#FFD1E6;}
+  .stextgen2{color:#E23886;}
+  .stextgen3{color:#EC056F;}
+  .stextog{color:#EC056F;} 
+  .ktextog{color:#2a5a18;} 
+  
+/*--- text color hinatazaka ---*/
+  .htextgen1{color:#1b5899;}
+  .htextgen2{color:#2067b2;}
+  .htextgen3{color:#2476cc;}
+  .htextgen4{color:#2985e5;}
+  .htextog{color:#abd4ff;} 
+
+
+/*--- detail below ---*/
+.pdetail {
+    justify-content: center;
+    display: block;
+    font-size: 9pt;
+}
+  
+.dred { padding: 3pt;background: #E6454E; color:white;}
+.dred:before { content:"Red"}
+
+.dsakura { padding: 3pt;background: #F992AF; color:white;}
+.dsakura:before { content:"Sakura"}
+
+.dsakupink { padding: 3pt;background: #F4D0EA; color:#a13c7d;}
+.dsakupink:before { content:"Sakura Pink"}
+
+.dpink { padding: 3pt;background: #D6408F; color:white;}
+.dpink:before { content:"Pink"}
+
+.dpinkpassion { padding: 3pt;background: #F0006E; color:white;}
+.dpinkpassion:before { content:"Passion Pink"}
+
+.dpinkhot { padding: 3pt;background: #CA4175; color:white;}
+.dpinkhot:before { content:"Pink Hot"}
+
+.dblue { padding: 3pt;background: #4741BE; color:white;}
+.dblue:before { content:"Blue"}
+
+.dbluelight { padding: 3pt;background: #6AB0D1; color:white;}
+.dbluelight:before { content:"Light Blue"}
+
+.dbluepastel { padding: 3pt;background: #6CCFE7; color:#165362;}
+.dbluepastel:before { content:"Pastel Blue"}
+
+.dturqoise { padding: 3pt;background: #02DCEB; color:black;}
+.dturqoise:before { content:"Turqoise"}
+
+.dwhite { padding: 3pt;background: #E4E4E4; color:black;}
+.dwhite:before { content:"White"}
+
+.dblack { padding: 3pt;background: #414042; color:white;}
+.dblack:before { content:"Black"}
+
+.dpurple { padding: 3pt;background: #9E72B1; color:white;}
+.dpurple:before { content:"Purple"}
+
+.dviolet { padding: 3pt;background: #B487B9; color:white;}
+.dviolet:before { content:"Violet"}
+
+.dyellow { padding: 3pt;background: #FFEB16; color:black;}
+.dyellow:before { content:"Yellow"}
+
+.dgreen { padding: 3pt;background: #28A73C; color:white;}
+.dgreen:before { content:"Green"}
+
+.dgreenpea { padding: 3pt;background: #B6CB4A; color:white;}
+.dgreenpea:before { content:"Pea Green"}
+
+.dgreenemerald { padding: 3pt;background: #129763; color:white;}
+.dgreenemerald:before { content:"Emerald Green"}
+
+.dgreenlight { padding: 3pt;background: #B7CD46; color:white;}
+.dgreenlight:before { content:"Light Green"}
+
+.dgreenpearl { padding: 3pt;background: #63BB8E; color:white;}
+.dgreenpearl:before { content:"Pearl Green"}
+
+.dorange { padding: 3pt;background: #F0A010; color:white;}
+.dorange:before { content:"Orange"}
+
+
+/*--- keterangan warna official ---*/
+
+.colorofc {
+    display: inline-flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: normal;
+    align-self: auto;
+    justify-content: left;
+    width: 100%;
+    position: relative;
+    transition: 0.3s;
+}
+.colorlist {
+  	cursor: context-menu;
+    border-radius: 3pt;
+    padding: 5pt;
+    width: max-content;
+    transition: 0.3s;
+}
+
+.songsaku1  {color:#E0E0E0;} /* white */ 
+.songsaku2  {color:#4741BE;} /* blue */ 
+.songsaku3  {color:#E6454E;} /* red */ 
+.songsaku4  {color:#FCFC65;} /* yellow */ 
+.songsaku5  {color:#EEA043;} /* orange */ 
+.songsaku6  {color:#F3D1E9;} /* sakura pink */ 
+ 
+.sakura1 {background:#E0E0E0; color:black;} .sakura1:before {content:"1 White";}
+.sakura2 {background:#6CCFE7; color:black;} .sakura2:before {content:"2 Blue Pastel";}
+.sakura3 {background:#3BA583; color:white;} .sakura3:before {content:"3 Green Emerald";}
+.sakura4 {background:#2B824C; color:white;} .sakura4:before {content:"4 Green";}
+.sakura5 {background:#7CCB9E; color:white;} .sakura5:before {content:"5 Pearl Green";}
+.sakura6 {background:#009CA0; color:white;} .sakura6:before {content:"6 Turqoise";}
+.sakura7 {background:#FCFC65; color:black;} .sakura7:before {content:"7 Yellow";}
+.sakura8 {background:#EEA043; color:black;} .sakura8:before {content:"8 Orange";}
+.sakura9 {background:#C91E3A; color:white;} .sakura9:before {content:"9 Red";}
+.sakura10 {background:#F3D1E9; color:black;} .sakura10:before {content:"10 Sakura Pink";}
+.sakura11 {background:#D6408F; color:black;} .sakura11:before {content:"11 Pink";}
+.sakura12 {background:#D73F8F; color:white;} .sakura12:before {content:"12 Passion Pink";}
+.sakura13 {background:#B487B9; color:black;} .sakura13:before {content:"13 Violet";}
+.sakura14 {background:#8C3D8E; color:white;} .sakura14:before {content:"14 Purple";}
+.sakura15 {background:#224E97; color:white;} .sakura15:before {content:"15 Blue";}
+
+.hinata1 {background:#6CCFE7; color:black;} .hinata1:before {content:"1 Blue Pastel";}
+.hinata2 {background:#3BA583; color:white;} .hinata2:before {content:"2 Green Emerald";}
+.hinata3 {background:#2B824C; color:white;} .hinata3:before {content:"3 Green";}
+.hinata4 {background:#7CCB9E; color:white;} .hinata4:before {content:"4 Pearl Green";}
+.hinata5 {background:#009CA0; color:white;} .hinata5:before {content:"5 Turqoise";}
+.hinata6 {background:#FCFC65; color:black;} .hinata6:before {content:"6 Yellow";}
+.hinata7 {background:#EEA043; color:black;} .hinata7:before {content:"7 Orange";}
+.hinata8 {background:#C91E3A; color:white;} .hinata8:before {content:"8 Red";}
+.hinata9 {background:#E0E0E0; color:black;} .hinata9:before {content:"9 White";}
+.hinata10 {background:#F3D1E9; color:black;} .hinata10:before {content:"10 Sakura Pink";}
+.hinata11 {background:#D73F8F; color:white;} .hinata11:before {content:"11 Pink";}
+.hinata12 {background:#EB73C2; color:black;} .hinata12:before {content:"12 Pearl Pink";}
+.hinata13 {background:#B487B9; color:black;} .hinata13:before {content:"13 Violet";}
+.hinata14 {background:#8C3D8E; color:white;} .hinata14:before {content:"14 Purple";}
+.hinata15 {background:#224E97; color:white;} .hinata15:before {content:"15 Blue";}
+
+
+/*--- warna nogi ----*/
+.porange { content:url("https://ik.imagekit.io/moearchive/penlight/penorange.png");}
+.pyellow { content:url("https://ik.imagekit.io/moearchive/penlight/penyellow.png");}
+.pbluelight { content:url("https://ik.imagekit.io/moearchive/penlight/penao.png");}
+.pblue { content:url("https://ik.imagekit.io/moearchive/penlight/penblue.png");}
+.pturqoise { content:url("https://ik.imagekit.io/moearchive/penlight/penturq.png");}
+.pgreenlight { content:url("https://ik.imagekit.io/moearchive/penlight/pengreenl.png");}
+.pgreen { content:url("https://ik.imagekit.io/moearchive/penlight/pengreend.png");}
+.pgreenpea { content:url("https://ik.imagekit.io/moearchive/penlight/penpeagreen.png");}
+.ppink1 { content:url("https://ik.imagekit.io/moearchive/penlight/penpink.png");}
+.pred { content:url("https://ik.imagekit.io/moearchive/penlight/penred.png");}
+.ppurple { content:url("https://ik.imagekit.io/moearchive/penlight/penpurple.png");}
+.pwhite { content:url("https://ik.imagekit.io/moearchive/penlight/penwhite.png");}
+.pblack { content:url("https://ik.imagekit.io/moearchive/penlight/penblack.png");}
+
+/*--- warna hinata & sakura ----*/
+
+.pgreenemerald { content:url("https://ik.imagekit.io/moearchive/penlight/pengreenemerald.png");}
+.pviolet { content:url("https://ik.imagekit.io/moearchive/penlight/penviolet.png");}
+.pbluepastel { content:url("https://ik.imagekit.io/moearchive/penlight/penbluepastel.png");}
+.ppink2 { content:url("https://ik.imagekit.io/moearchive/penlight/penpink2.png");}
+.ppinkpassion { content:url("https://ik.imagekit.io/moearchive/penlight/penpinkpassion.png");}
+.psakuralight { content:url("https://ik.imagekit.io/moearchive/penlight/pensakuralight.png");}
+.pgreenpearl { content:url("https://ik.imagekit.io/moearchive/penlight/pengreenpearl.png");}
+
+
+#rotsticka {height:90px;}
+#rotstickb {height:90px;}
+#picmember {position: relative;width:75px;justify-content: center;}
+.picog {opacity:.9}
+#memname {text-align:center;font-size:16pt;font-weight:900;bottom:0;cursor:pointer;}
+
+#memname:hover ~ #rotsticka {
+  color:purple;
+  animation: shakinga 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transform-origin: bottom center;
+}
+@keyframes shakinga {
+  0% {transform: rotate(0deg);}
+  30% {transform: rotate(20deg);}
+  60% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+#memname:hover ~ #rotstickb {
+  animation: shakingb 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transform-origin: bottom center;
+}
+@keyframes shakingb {
+  0% {transform: rotate(0deg);}
+  30% {transform: rotate(-20deg);}
+  60% {transform: rotate(5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+  
+#memname:hover ~ #picmember {
+  animation: movingt .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transform-origin: bottom center;
+}
+@keyframes movingt {
+  0% {top: 0px;}
+  25% {top: -2px;}
+  50% {top: 0px;}
+  75% {top: -2px;}
+  100% {top: 0px;}
+}
+  /*--- song psylum --*/
+
+.psolt {
+    display: inline-flex;
+    flex-direction: initial;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: normal;
+    align-self: auto;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    transition: 0.3s;
+}
+.psongn {
+  	cursor: context-menu;
+    background: #281d30;
+    border-radius: 3pt;
+    padding: 5pt;
+    width: max-content;
+    color: white;
+    border: 2pt solid #503762;
+    transition: 0.3s;
+}
+  
+.psongs {
+  	cursor: context-menu;
+    background: #5c323e;
+    border-radius: 3pt;
+    padding: 5pt;
+    width: max-content;
+    color: white;
+    border: 2pt solid #f3a1b8;
+    transition: 0.3s;
+}
+.psongh {
+  	cursor: context-menu;
+    background: #021f36;
+    border-radius: 3pt;
+    padding: 5pt;
+    width: max-content;
+    color: white;
+    border: 2pt solid #0299B9;
+    transition: 0.3s;
+}
+
+.psongn:hover {
+    background: #503762;
+}
+.psongh:hover {
+    background: #02BFE8;
+}
+.psongs:hover {
+    background: #f3a1b8;
+    color: black;
+}
+.pro {
+    display: contents;
+    flex-wrap: nowrap;
+    padding-right: 6pt;
+}
+
+
+.fa-circle:before {
+    padding: 2pt;
+}
+.白 {color:white;}
+.水 {color:#52fdf8;}
+.緑 {color:#4efa47;}
+.桃 {color:#f29692;}
+.黄 {color:#fbd53d;}
+.青 {color:blue;}
+.赤 {color:red;}
+.紫 {color:purple;}
+.橙 {color:orange;}
+
+.songhnt1 {color:#6CCFE7;}
+.songhnt2 {color:#3BA583;}
+.songhnt3 {color:#2B824C;}
+.songhnt4 {color:#7CCB9E;}
+.songhnt5 {color:#009CA0;}
+.songhnt6 {color:#FCFC65;}
+.songhnt7 {color:#EEA043;}
+.songhnt8 {color:#C91E3A;}
+.songhnt9 {color:#E0E0E0;}
+.songhnt10 {color:#F3D1E9;}
+.songhnt11 {color:#D73F8F;}
+.songhnt12 {color:#EB73C2;}
+.songhnt13 {color:#B487B9;}
+.songhnt14 {color:#8C3D8E;}
+.songhnt15 {color:#224E97;}
+.songhntrb {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

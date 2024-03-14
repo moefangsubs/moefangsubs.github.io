@@ -1,0 +1,794 @@
+* {
+	box-sizing: border-box
+}
+
+.mySlides1, .mySlides2 {
+	display: none
+}
+
+body {
+    font-family: "Ubuntu";
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    /* transform: translate(10%, 0%); */
+    border: 2pt solid #87278f;
+    position: relative;
+    padding-bottom: 20pt;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #87278f;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 0 20px 20px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #87278f;
+  color: #ff9fff;
+}
+
+.senbadata {
+    display: flex;
+    /* background: red; */
+    width: max-content;
+    margin: 0 auto;
+    font-family: 'DFPOPMix-W5';
+    font-size: 14pt;
+    text-align: center;
+    color: #ff9fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.sbdetail {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 2pt;
+    /* border: 1pt solid black; */
+    margin: 5pt;
+    padding-top: 8pt;
+    background: #8c2898;
+    border-radius: 8pt;
+    flex-direction: column;
+    align-content: center;
+}
+
+.sbdetail .sbdata {
+    background: #ff9fff;
+    color: #8c2898;
+    width: 100%;
+    padding: 14pt;
+    margin-top: 6pt;
+    border-radius: 0pt 0pt 5pt 5pt;
+}
+
+.sbdetail .sbdatmember {
+    background: #ff9fff;
+    color: #8c2898;
+    width: 100%;
+    margin-top: 6pt;
+    border-radius: 0pt 0pt 6pt 6pt;
+}
+
+.memberlist {
+    display: flex;
+    justify-content: center;
+}
+.memberdata-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-top: 6px;
+    margin-bottom: 6pt;
+    margin-left: 3pt;
+    margin-right: 3pt;
+    background-color: #8c2898;
+}
+
+.memberdata-container span {
+    background-color: #0e9597;
+    color: white;
+    padding: 5pt;
+    width: 10pt;
+    height: 10pt;
+    font-size: 10pt;
+    border-radius: 50%;
+    position: relative;
+    right: -15px;
+    top: -2pt;
+    text-align: center;
+}
+
+/* BADAG TEUING */
+#nakadakana, 
+#inouesayuri,
+#miyazawaseira,
+#hatanakaseira,
+#nagashimaseira,
+#iwaseyumiko,
+#noujoami,
+#kawamuramahiro,
+#fukagawamai,
+#itomarika,
+#wakatsukiyumi,
+#itonene,
+#ichikirena,
+#saitochiharu,
+#saitoyuuri,
+#yamatorina,
+#etomisa,
+#nakamotohimeka,
+#sagaraiori {
+	background-size: 83%;
+	background-repeat: no-repeat; 
+	background-position: center;
+}
+/* GEN-1 */
+#akimotomanatsu {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi31/akimotomanatsu.png'); }
+#andomikumi {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/andomikumi.png'); }
+#etomisa {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/etoumisa.png'); }
+#fukagawamai {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/fukagawamai.png'); }
+#hashimotonanami {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/hashimotonanami.png'); }
+#hatanakaseira {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/hatanakaseira.png'); }
+#higuchihina {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/higuchihina.png'); }
+#hoshinominami {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/hoshinominami.png'); }
+#ichikirena {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/ichikirena.png'); }
+#ikomarina {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/ikomarina.png'); }
+#ikutaerika {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/ikutaerika.png'); }
+#inouesayuri {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/inouesayuri.png'); }
+#itomarika {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/itoumarika.png'); }
+#itonene {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/itounene.png'); }
+#iwaseyumiko {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/iwaseyumiko.png'); }
+#kashiwayukina {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/kashiwayukina.png'); }
+#kawagohina {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/kawagohina.png'); }
+#kawamuramahiro {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/kawamuramahiro.png'); }
+#matsuirena {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/matsuirena.png'); }
+#matsumurasayuri {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/matsumurasayuri.png'); }
+#miyazawaseira {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/miyazawaseira.png'); }
+#nagashimaseira {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/nagashimaseira.png'); }
+#nakadakana {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/nakadakana.png')}
+#nakamotohimeka {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/nakamotohimeka.png'); }
+#nishinonanase {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/nishinonanase.png'); }
+#noujoami {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/noujoami.png'); }
+#saitoasuka {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi31/saitouasuka.png'); }
+#saitochiharu {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/saitouchiharu.png'); }
+#saitoyuuri {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/saitouyuri.png'); }
+#sakuraireika {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/sakuraireika.png'); }
+#shiraishimai {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/shiraishimai.png'); }
+#takayamakazumi {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/takayamakazumi.png'); }
+#wadamaaya {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/wadamaaya.png'); }
+#wakatsukiyumi {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/wakatsukiyumi.png'); }
+#yamamotohonoka {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/yamamotohonoka.png'); }
+#yamatorina {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/yamatorina.png'); }
+#yoshimotoayaka {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/yoshimotoayaka.png'); }
+
+/* GEN-2 */
+#horimiona {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/horimiona.png'); }
+#itojunna {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi27/itoujunna.png'); }
+#itokarin {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/itoukarin.png'); }
+#kitanohinako {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/kitanohinako.png'); }
+#sagaraiori {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/iorisagara.png'); }
+#sasakikotoko {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/sasakikotoko.png'); }
+#shinuchimai {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/shinuchimai.png'); }
+#suzukiayane {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi31/suzukiayane.png'); }
+#teradaranze {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/teradaranze.png'); }
+#watanabemiria {background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi27/watanabemiria.png'); }
+#yamazakirena {background-image: url('https://ik.imagekit.io/moearchive/calendar/grad/yamazakirena.png'); }
+
+
+/* GEN-3 */
+
+#itoriria { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/itouriria.png'); }
+#iwamotorenka { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/iwamotorenka.png'); }
+#umezawaminami { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/umezawaminami.png'); }
+#kuboshiori { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/kuboshiori.png'); }
+#sakaguchitamami { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/sakaguchitamami.png'); }
+#satokaede { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/satoukaede.png'); }
+#nakamurareno { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/nakamurareno.png'); }
+#mukaihazuki { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/mukaihazuki.png'); }
+#yamashitamizuki { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/yamashitamizuki.png'); }
+#yoshidaayano { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/yoshidaayanochristie.png'); }
+#yodayuuki { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/yodayuuki.png'); }
+/* */
+#ozonomomoko { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi27/oozonomomoko.png'); }
+
+
+/* GEN-4 */
+#endosakura { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/endousakura.png'); }
+#kakiharuka { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/kakiharuka.png'); }
+#kakehashisayaka { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/kakehashisayaka.png'); }
+#kanagawasaya { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/kanagawasaya.png'); }
+#kuromiharuka { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/kuromiharuka.png'); }
+#satorika { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/satourika.png'); }
+#shibatayuna { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/shibatayuna.png'); }
+#seimiyarei { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/seimiyarei.png'); }
+#tamuramayu { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/tamuramayu.png'); }
+#tsutsuiayame { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/tsutsuiayame.png'); }
+#hayashiruna { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi31/hayashiruna.png'); }
+#matsuomiyu { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/matsuomiyu.png'); }
+#yakubomio { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/yakubomio.png'); }
+#yumikinao { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/yumikinao.png'); }
+/* */
+#hayakawaseira { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/hayakawaseira.png'); }
+#kitagawayuri { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi28/kitagawayuri.png'); }
+
+
+/* GEN-5 */
+#iokimao { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/iokimao.png'); }
+#ikedateresa { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/ikedateresa.png'); }
+#ichinosemiku { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/ichinosemiku.png'); }
+#inouenagi { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/inouenagi.png'); }
+#okamotohina { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi31/okamotohina.png'); }
+#ogawaaya { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/ogawaaya.png'); }
+#okudairoha { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/okudairoha.png'); }
+#kawasakisakura { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/kawasakisakura.png'); }
+#sugawarasatsuki { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/sugawarasatsuki.png'); }
+#tomisatonao { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/tomisatonao.png'); }
+#nakanishiaruno { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/nakanishiaruno.png'); }
+
+/* # { background-image: url('https://ik.imagekit.io/moearchive/calendar/nogi33/.png'); } */
+
+
+
+
+
+
+
+
+
+/* FORMAT BARU ALA NOGI */
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('path/to/centurygothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DFPOPMix-W5';
+  src: url('https://moefangsubs.github.io/mysenbatsu/DFPOPMix-W5-WIN-RKSJ-H-01.woff') format('woff'),
+       url('https://moefangsubs.github.io/mysenbatsu/DFPOPMix-W5-WIN-RKSJ-H-01.ttf') format('truetype');
+}
+
+
+
+  body {
+    background: #ff9fff;
+	overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .svg-pattern1,.svg-pattern2,
+  .svg-pattern3,.svg-pattern4 {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+
+  .svg-pattern1, .svg-pattern3, .svg-pattern4 {
+    background: #ff9fff;
+}
+  .svg-pattern1 {
+    right: 0;
+    width: 15px;
+    z-index: 5;
+  }
+
+  .svg-pattern2 {
+    right: -5px;
+    width: 50px;
+    background: #8a2892;
+    z-index: 4;
+  }
+
+  .svg-pattern3 {
+    right: 15px;
+    width: 50px;
+    z-index: 3;
+  }
+
+  .svg-pattern4 {
+    right: 43px;
+    width: 45px;
+    z-index: 2;
+  }
+
+  .svg-pattern1 .svg-content,
+  .svg-pattern3 .svg-content,
+  .svg-pattern4 .svg-content {
+    overflow: hidden;
+    height: 150%;
+    position: relative;
+    top: -30px;
+    right: 0;
+  }
+
+  .svg-pattern2 .nuclabel {
+    color: white;
+    font-size: 10pt;
+    transform: rotate(-90deg);
+    font-family: 'Century Gothic', Arial, sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+    right: 13px;
+    top: 90%;
+  }
+
+  .svg-pattern2 .nuclabel:before {
+    content: "Nogizaka46";
+  }
+
+  .svg-pattern3 .svg-content {
+    right: 10px;
+  }
+
+.pattern-cross {
+	background: repeating-linear-gradient( -45deg, #7C2784, #7C2784 10px, #ff9fff 11px, #ff9fff 21px );
+}
+
+.pattern-polkadot {
+    background-image: radial-gradient(#7C2784 27%, transparent 27%), radial-gradient(#7C2784 27%, transparent 27%);
+    background-size: 50px 50px;
+    background-position: -9px -3px, 25px 21px;
+    background-repeat: repeat;
+}
+	
+.svg-title {
+    overflow: hidden;
+    position: fixed;
+    background:yellow;
+    top: 30px;
+    left:10%;
+    right: 0;
+    width:100%;
+    height:100px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    transform: rotate(-0.6deg);
+}
+
+.svgtitle svg-content {
+    overflow: hidden;
+    width:100%;
+    
+}
+
+
+.box, .boxinput {
+font-family: 'DFPOPMix-W5', Arial, sans-serif;
+text-align: left;
+font-size: 56px;
+color: white;
+font-kerning: auto;
+}
+
+.box {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background: #0e9597;
+    flex-wrap: wrap;
+    left: 20%;
+    width: 100vw;
+    height: 100px;
+    filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+    transform: rotate(-0.6deg);
+    --mask: conic-gradient(from 45deg at left, #0000, #000 1deg 89deg, #0000 90deg) 50%/100% 10.00px;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+    margin-top: 70pt;
+    margin-bottom: 50pt;
+}
+
+.boxinput {
+  width: 100%;
+  margin: 11px;
+  padding-left: 13pt;
+  padding-right: 13pt;
+  border: none;
+  outline: none;
+  background: transparent;
+  position: fixed;
+  top: 11px;
+  left: 0%;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.member {
+	scale: 0;
+    width: 7vw;
+    height: 7vw;
+    padding: 3pt;
+    margin: 1pt;
+    animation: bumbum .8s ease forwards;
+	animation-delay: 1.5s;
+}
+
+.textname:nth-child(1) .member { animation-delay: 1.5s;}
+.textname:nth-child(2) .member { animation-delay: 1.6s;}
+.textname:nth-child(3) .member { animation-delay: 1.7s;}
+.textname:nth-child(4) .member { animation-delay: 1.8s;}
+.textname:nth-child(5) .member { animation-delay: 1.9s;}
+.textname:nth-child(6) .member { animation-delay: 2.0s;}
+.textname:nth-child(7) .member { animation-delay: 2.1s;}
+.textname:nth-child(8) .member { animation-delay: 2.2s;}
+.textname:nth-child(9) .member { animation-delay: 2.3s;}
+.textname:nth-child(10) .member { animation-delay: 2.4s;}
+.textname:nth-child(11) .member { animation-delay: 2.5s;}
+.textname:nth-child(12) .member { animation-delay: 2.6s;}
+.textname:nth-child(13) .member { animation-delay: 2.7s;}
+.textname:nth-child(14) .member { animation-delay: 2.8s;}
+.textname:nth-child(15) .member { animation-delay: 2.9s;}
+.textname:nth-child(16) .member { animation-delay: 3.0s;}
+.textname:nth-child(17) .member { animation-delay: 3.1s;}
+.textname:nth-child(18) .member { animation-delay: 3.2s;}
+.textname:nth-child(19) .member { animation-delay: 3.3s;}
+.textname:nth-child(20) .member { animation-delay: 3.4s;}
+.textname:nth-child(21) .member { animation-delay: 3.5s;}
+.textname:nth-child(22) .member { animation-delay: 3.6s;}
+.textname:nth-child(23) .member { animation-delay: 3.7s;}
+.textname:nth-child(24) .member { animation-delay: 3.8s;}
+.textname:nth-child(25) .member { animation-delay: 3.9s;}
+.textname:nth-child(26) .member { animation-delay: 4.0s;}
+
+.ascenter {
+    background-color: #fbd7ff;
+    animation: bumbum 1s ease forwards, blinking 1s infinite linear;
+	animation-delay: 1.5s;
+    border-radius: 50%;
+}
+
+@keyframes bumbum {
+    0% {
+		scale: 0;
+        transform: rotate(-90deg);
+    }
+    80% {
+		scale: 1.1;
+        transform: rotate(5deg);
+    }
+	100% {
+		scale: 1;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes blinking {
+    0% {
+        background-color: transparent;
+    }
+    50% {
+        background-color: #ffffff;
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+	
+.container {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.wadahsenba {
+    border: 0pt solid #8c2898;
+    border-radius: 8pt 8pt 20pt 20pt;
+    width: 0%;
+    margin: auto;
+    height: 22pt;
+    background-size: 6px 6px;
+    background-image: repeating-linear-gradient(45deg, #8c2898 0, #8c2898 1.4px, #ff9fff 0, #ff9fff 50%);
+    margin-top: -25pt;
+    animation: widthwadah 2s ease forwards;
+    animation-delay: 1s;
+}
+
+@keyframes widthwadah {
+	0% { width: 0%; border-width:0pt;}
+	100% { width: 80%; border-width:2pt;}
+}
+/*--- drag ---*/
+
+.senbacontent {
+	background:transparent;
+	width: 95%;
+	height:auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	overflow:hidden;
+}
+.senbatsu {
+	height:8vw;
+  /* background-color: #e8e6e63d; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  animation: height .2s;
+}
+
+
+.senbatsu img {
+  width: 30px;
+  height: 30px;
+  animation: resize .2s forwards;
+}
+
+
+@keyframes resize {
+  from {
+    width: 50px;
+    height: 50px;
+  }
+  to {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+.senbatsu:before{
+    position:absolute;
+    color:#4d4d4d;
+    left:8%;
+    overflow:hidden;
+    z-index:0;
+}
+
+#senbatsu1 {
+  border:3pt solid rgb(173, 12, 12);
+  border-top:0;
+  margin-bottom: 0;
+}
+
+#senbatsu2 {
+  border:3pt solid rgb(173, 12, 12);
+  border-bottom:0;
+  margin-top: -10pt;
+  gap:0;
+}
+#senbatsu3 {  
+  margin-bottom: 10px;
+}
+#senbatsu1:before{
+    content:"１列目";
+    left:2%;
+    font-size:11pt;
+    color:#00000038;
+}
+
+#senbatsu2:before{
+    content:"２列目";
+    left:2%;
+    font-size:11pt;
+    color:#00000038;
+}
+
+#senbatsu3:before{
+    content:"３列目";
+    left:2%;
+    font-size:11pt;
+    color:#00000038;
+}
+
+.membersbt {
+  object-fit: cover;
+  z-index:1;
+  border-radius:3pt;
+  width: 50px;
+  height: 50px;
+  cursor: move;
+  margin: 3px;
+  filter: 0 5px 6px rgba(0, 0, 0, 0.2);
+    animation: remini .2s forwards;
+}
+
+@keyframes remini {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+
+/* Resolusi 800x600 */
+@media screen and (max-width: 800px) and (max-height: 600px) {
+  /* Gaya CSS khusus untuk resolusi 800x600 */
+}
+
+/* Resolusi 1024x768 */
+@media screen and (min-width: 800px) and (max-width: 1024px) and (min-height: 600px) and (max-height: 768px) {
+  /* Gaya CSS khusus untuk resolusi 1024x768 */
+}
+
+/* Resolusi 1280x720 (HD) */
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (min-height: 768px) and (max-height: 720px) {
+  /* Gaya CSS khusus untuk resolusi 1280x720 */
+}
+
+/* Resolusi 1366x768 */
+@media screen and (min-width: 1280px) and (max-width: 1366px) and (min-height: 720px) and (max-height: 768px) {
+  /* Gaya CSS khusus untuk resolusi 1366x768 */
+}
+
+/* Resolusi 1920x1080 (Full HD) */
+@media screen and (min-width: 1366px) and (max-width: 1920px) and (min-height: 768px) and (max-height: 1080px) {
+  /* Gaya CSS khusus untuk resolusi 1920x1080 */
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーーーーーーーーー */
+/* FORMAT LAMA */
+/* ーーーーーーーーーーーーーーーーーーーーーー */
+/* ーーーーーーーーーーーーーーーーーーーーーー */
+
+
+.toosmall {
+display:none;
+}
+
+
+.titlesbs {
+    font-size: 2vw;
+    color: #ff9fff;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    background: #87278f;
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    padding-left: 35pt;
+    padding-right: 35pt;
+    font-family: 'DFPOPMix-W5';
+    width: fit-content;
+    border-radius: 30pt;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 10pt;
+    display: block;
+    animation: scaleboom .6s forwards;
+}
+.titlesbs:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    font-weight: 900;
+    color: #ff9fff;
+    font-size: 10pt;
+    align-items: center;
+    align-content: center;
+    transform: translate(-27px, 10px);
+    position: absolute;
+}
+
+.titlesbs:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    font-weight: 900;
+    color: #ff9fff;
+    font-size: 10pt;
+    align-items: center;
+    transform: translate(16px, 10px);
+    position: absolute;
+}
+
+@keyframes scaleboom {
+0% { scale: 0; } 
+80% { scale: 1.2; } 
+100% { scale: 1; } 
+}
+
+.numbersbs {
+    font-size: 2vw;
+    color: #87278f;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    background: transparent;
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    padding-left: 25pt;
+    padding-right: 25pt;
+    font-family: 'DFPOPMix-W5';
+    width: fit-content;
+    border-radius: 0pt 30pt 30pt 0pt;
+    position: relative;
+    border: 2pt solid #87278f;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 0pt;
+    margin-left: -2pt;
+    display: block;
+    position: absolute;
+}
+
+/* RESPONSIVE */
+
+
+@media screen and (max-width: 1024px) {
+.box,
+.svg-pattern1,
+.svg-pattern2,
+.svg-pattern3,
+.svg-pattern4,
+.slideshow-container {
+	display: none;
+}
+.toosmall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Untuk membuat elemen ini mengisi tinggi layar secara penuh */
+}
+
+.toosmallchild {
+    text-align: center;
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+    transform: translate(-13%, -50%);
+    color: #87278f;
+}
+}
+
+
+
+/* ------------------------------------------ */
+/* RECTANGLE PEMISAH KONTEN DENGAN FOOTER */
+/* ketika berada dalam posisi PC */
+/* ------------------------------------------ */
+
+.rectangle {
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(255 0 0 / 53%); */
+    padding-bottom: 4em;
+}
+
+@media (max-width: 1280px) {
+.rectangle {
+	display:none;
+}
+}
