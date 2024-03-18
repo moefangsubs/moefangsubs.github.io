@@ -167,6 +167,10 @@ transition: transform 0.5s ease-in-out;
 .pvcolumn .pvclick { /* width yg udah ada link hardsubnya */
     width: 100%;
     display: block;
+    border: 2pt solid white;
+    box-shadow: 3px 3px 0px 1px #ffffff96;
+    -webkit-box-shadow: 3px 3px 0px 1px #ffffff96;
+    -moz-box-shadow: 3px 3px 0px 1px #ffffff96;
 }
 
 /* ------- nama lagu ------- */

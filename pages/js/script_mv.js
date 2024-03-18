@@ -5,7 +5,7 @@ const nextBtn = document.querySelector('.next-btn');
 let currentIndex = 0;
 
 nextBtn.addEventListener('click', () => {
-  if (currentIndex < 39) {
+  if (currentIndex < 40) {
     currentIndex++;
   } else {
     currentIndex = 0;
@@ -17,7 +17,7 @@ prevBtn.addEventListener('click', () => {
   if (currentIndex > 0) {
     currentIndex--;
   } else {
-    currentIndex = 39;
+    currentIndex = 40;
   }
   updateSlider();
 });
