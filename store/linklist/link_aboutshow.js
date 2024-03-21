@@ -77,21 +77,21 @@ const acaraData = {
 	// // ------------
 	// // ------------
 	// // ------------
-	// saishowapaa: "",
-	// lovesharing: "",
-	// actress: "",
-	// koshodomonogatari: "",
-	// doityourself: "",
-	// truckgirl: "",
-	// rakujitsu: "",
-	// nogicinema: "",
-	// shiosuketoamami: "",
-	// nogifettucine: "",
+	saishowapaa: "Tonegawa Gota adalah putra pertama dari seorang politisi terkenal. Sejak kecil, dia tidak memiliki apapun yang dia inginkan dan dia hanya mengikuti ayahnya. Ayahnya ingin Tonegawa Gota menjadi seorang politisi seperti dirinya, tetapi, Tonegawa Gota memutuskan untuk mendaftar di pusat pelatihan komedian. Di sana, ia membentuk duo komedi dengan Sawamura Ginpei, yang tidak banyak bicara tentang dirinya sendiri.",
+	lovesharing: "\"Jadikan kami bertiga sebagai pacarmu\" Hubungan bersama yang belum pernah terjadi sebelumnya dengan tiga gadis cantik sekolah, Yui (Nakamura Reno), Wakana (Mukai Hazuki), dan Midori (Yumiki Nao), telah dimulai. Di balik berbagi cinta yang aneh ini, ada rahasia yang mengejutkan.",
+	actress: "5 tahun telah berlalu sejak insiden di cafe Dominand. Serangkaian insiden telah terjadi yang meniru novel \"Escape Beyond\", yang diterbitkan oleh aktris populer Mase Kanna, dan telah menjadi perbincangan di seluruh kota",
+	koshodomonogatari: "Berlatar di sebuah toko buku tua tertentu bernama \"Yume Neko\", ketika para gadis yang berkunjung di sana mulai membaca sebuah novel misteri yang direkomendasikan oleh pemilik toko, mereka melakukan perjalanan kembali ke masa lalu ke dunia novel, di mana kekejaman terungkap. Ini juga menggambarkan pertumbuhan seorang gadis yang menemukan jawaban atas masalah dan konflik yang dialami gadis-gadis dalam kehidupan nyata dengan berinteraksi dengan orang-orang yang mereka temui di dunia novel yang tergelincir kembali ke masa lalu.",
+	doityourself: "Revolusi Industri IV telah mengarah pada perkembangan teknologi canggih yang dengan cepat mengubah dunia. Akibatnya, sekolah-sekolah telah mulai menggabungkan teknologi-teknologi ini ke dalam kurikulum mereka, meninggalkan cara-cara lama. Salah satu institusi seperti itu adalah Sekolah Khusus Putri Yuyu yang elit, tempat Serufu Yua dan sahabat masa kecilnya, Miku \"Purin\" Suride, telah mendaftar. Meskipun Purin yang menguasai teknologi diterima di Sekolah Tinggi Yuyu, Serufu yang sering mengalami kemalangan ditolak dan masuk ke SMA Putri Gatagata yang lebih tradisional, yang membuat persahabatan mereka retak.",
+	truckgirl: "Kehidupan sehari-hari dari sopir truk muda, Kurate Jun, yang bekerja di industri logistik truk yang didominasi oleh pria. Dia menjalani hari-harinya dengan penuh semangat, dan menikmati minum-minuman setelah bekerja untuk menghilangkan kelelahannya.",
+	rakujitsu: "Kaori Hasebe adalah seorang sutradara film pemula. Dia berkonsultasi dengan penulis naskah baru, Mahiro Kai, tentang skenario filmnya. Naskahnya berdasarkan pada Kasus Pembunuhan Keluarga Sasazuka-cho yang terjadi 15 tahun lalu. Kasus pembunuhan itu melibatkan seorang pria hikikomori yang membunuh adik perempuannya di rumahnya dan kemudian membakar rumahnya. Kebakaran itu juga menewaskan orang tuanya.",
+	nogicinema: "Sepuluh member populer dari Nogizaka46, termasuk Shiraishi Mai dan Saito Asuka, membintangi masing-masing satu episode dalam drama ini. Sutradara dari drama ini adalah seorang sutradara video musik yang telah bekerja dengan sejumlah artis terkenal, seorang sutradara iklan yang telah memenangkan Grand Prix di Cannes, dan seorang sutradara film muda yang telah meraih penghargaan di festival film di seluruh dunia.",
+	shiosuketoamami: "Kubo Shiori  membintangi serial original Paravi \"Shiosuke to Amami -Soba ga Dekiru Made Tante-\", sebuah spin-off dari drama TBS \"Ishiko to Haneo: Sonna Koto de Uttaemasu?\" dengan memerankan karakter bernama Amatsuyu Kayami, dan yang menjadi lawan lainnya adalah Shiozaki Keisuke (Oda Oideyasu)",
+	nogifettucine: "Nogizaka46 x Fettucine Gummi merupakan short drama kolaborasi antara Nogizaka46 dengan produk manisan Fettucine Gummi. Di short drama ini memperkenalkan juga coupling di single ke-25 \"Sayonara, stay with me\"",
+	// ------------
 	// // ------------
 	// // ------------
-	// // ------------
-	// yononakani: "",
-	// sayounarakonbanwa: "",
+	yononakani: "Saki, seorang gadis SMA yang sudah lama bolos bersekolah, bekerja paruh waktu sebagai penasihat \"akhir hayat\". Bersama dengan Keizo, seorang kakek-kakek yang bekerja dengannya, mereka membantu orang-orang dari semua lapisan masyarakat dengan rencana 'akhir hayat' mereka. Pekerjaan Saki penuh dengan bahaya, dan dia menghabiskan hari-harinya membantu orang-orang yang mencoba meninggalkan wasiat untuk keluarga mereka jika terjadi keadaan darurat, atau yang hanya memiliki beberapa hari tersisa untuk hidup dan ingin melestarikan kenangan mereka, dan membantu mereka dengan kegiatan 'akhir hayat' mereka.",
+	sayounarakonbanwa: "Film menyentuh hati disutradarai oleh Yoichiro Fukada ini berkisah tentang Hanzawa Yohei (diperankan Hagiwara Riku), seorang pegawai kantoran yang memiliki kehidupan super aneh. Tiba-tiba ia jatuh cinta dengan kekasihnya yang berpikir untuk menikah, dan hantu wanita, Aisuke (diperankan oleh Kubo Shiori). Aisuke yang polos dan murni yang tidak mengalami romansa saat dia masih hidup, dan Yohei yang canggung dalam cinta yang tidak memperhatikan perasaan pihak lain. Pada awalnya, hubungan itu canggung, namun seiring waktu berjalan menghabiskan waktu di ruang yang sama, mereka saling memahami dan memperdekat jarak",
 	// // ------------
 	// // ------------
 	// // ------------
