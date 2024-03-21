@@ -24,8 +24,15 @@ body::before {
     right: 0;
     bottom: 0;
     z-index: -1;
-    height: 100%;
+	height: 100%;
 }
+
+hr {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+}
+
+
 /* ------------------------------------------ */
 /* PENGATUAN TERPUSAT SETIAP BG IMAGE TIAP HALAMAN */
 /* ------------------------------------------ */
@@ -44,42 +51,42 @@ body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchi
 
 
 /* Background tiap acara */
-body.nogiskits1::before{background-image: url('https://storage.mantan-web.jp/images/2020/06/11/20200611dog00m200022000c/001_size10.jpg');}
-body.nogiskits2::before{background-image: url('https://thetv.jp/i/nw/1047123/10441104.jpg');}
-body.nogistar1::before{background-image: url('https://pbs.twimg.com/media/FNVNNZNaQAAsb3y.jpg');}
-body.nogistar2::before{background-image: url('https://ogre.natalie.mu/media/news/music/2022/0520/nogista2_02.jpg');}
-body.shin_nogistar::before{background-image: url('https://nogistar-live.jp/2022winter/assets/imgs/artist_nogizaka.jpg');}
-body.chou_nogistar::before{background-image: url('https://pbs.twimg.com/media/GAVNULYWQAAIefD?format=jpg&name=4096x4096');}
-body.nogiotameshichuu::before{background-image: url('https://pbs.twimg.com/media/GCB7RNgaoAAY-VB?format=jpg&name=large');}
-body.hinachoi::before{background-image: url('https://thetv.jp/i/nw/226178/1414826.jpg');}
-body.sakurameets::before{background-image: url('https://statics.tver.jp/images/content/thumbnail/series/large/srx97ftk3w.jpg?v=12');}
-body.kyoccorohee::before{background-image: url('https://ogre.natalie.mu/media/news/owarai/2023/1208/TMM_9831.jpg');}
-body.nogizakaohatsu::before{background-image: url('https://nogi46p.com/wp-content/uploads/2021/02/1613739448-36de3309d4b7e937ad1e488aa7a63073.jpg');}
-body.nogiromance::before{background-image: url('https://renote.net/files/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBK2lqZ2c9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fbe73999d4f5a8912a792f942ebbc0114d009912/68f6fd72.jpg');}
+body.nogiskits1::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskits1.jpg');}
+body.nogiskits2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskits2.jpg');}
+body.nogistar1::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogistar1.jpg');}
+body.nogistar2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogistar2.jpg');}
+body.shin_nogistar::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shin_nogistar.jpg');}
+body.chou_nogistar::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/chou_nogistar.jpeg');}
+body.nogiotameshichuu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiotameshichuu_35.jpeg');}
+body.hinachoi::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinachoi.jpg');}
+body.sakurameets::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/sakurameets.jpg');}
+body.kyoccorohee::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/kyoccorohee.jpg');}
+body.nogizakaohatsu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogizakaohatsu.jpg');}
+body.nogiromance::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiromance.jpg');}
+body.nogikoujichuu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogikoujichuu_2024.jpg');}
+body.nogibingo::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogibingo.jpg');}
+body.nogizakashow::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogizakashow.jpg');}
+body.nogipasokon::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogipasokon.jpg');}
+body.nantebida::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nantebida.jpg');}
+body.koukouseiquiz::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/koukouseiquiz.jpg');}
+body.hamasukahousoubu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hamasukahousoubu_80.jpg');}
 
-body.nogikoujichuu::before{background-image: url('https://tv-aichi.co.jp/nogi-kou/images/OGP-img2401.jpg');}
-body.nogibingo::before{background-image: url('https://todayidol.com/wp-content/uploads/2014/01/nogibingo.jpg');}
-body.nogizakashow::before{background-image: url('https://fcnogivn.net/wp-content/uploads/2018/05/170218-akb48-show-ep142-nogizaka46-show-mp4_snapshot_00-05_2017-02-20_10-33-56.jpg');}
-body.nogipasokon::before{background-image: url('https://ogre.natalie.mu/media/news/music/2023/0602/tokyopasoconclub_2023visual.jpg');}
-body.nantebida::before{background-image: url('https://pbs.twimg.com/media/FivNeE2aEAAPqmP.jpg');}
-body.koukouseiquiz::before{background-image: url('https://pbs.twimg.com/media/EzivN7YVkAQneqN.jpg');}
-body.hamasukahousoubu::before{background-image: url('https://ogre.natalie.mu/media/news/music/2023/1002/hamasukahosobu_20231002_1.jpg');}
+body.nogidouga_asobudake::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogidouga_asobudake.jpg');}
+body.nogidouga_kubochannel::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogidouga_kubochannel.jpeg');}
+body.nogidouga_dekirumon::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogidouga_dekirumon.jpg');}
+body.nogidouga_burari::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogidouga_burari09.png');}
 
-body.nogidouga_asobudake::before{background-image: url('https://livedoor.blogimg.jp/matome1206-nogizaka46matomenoma/imgs/0/2/02c5b20b.jpg');}
-body.nogidouga_kubochannel::before{background-image: url('https://pbs.twimg.com/media/F-kH42xaQAAqorO.jpg:large');}
-body.nogidouga_dekirumon::before{background-image: url('https://livedoor.blogimg.jp/sakamichijyoho46/imgs/5/4/541653ac.jpg');}
-body.nogidouga_burari::before{background-image: url('https://www.nogizaka46.com/files/46/news/100014_1.png');}
+body.gourmetSakamichi::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/gourmetSakamichi.jpg');}
+body.yakubonoheya::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/yakubonoheya.jpg');}
+body.linelive::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/linelive.jpeg');}
+body.kokushokokusan::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/kokushokokusan.jpg');}
+body.hinatazakachannel::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinatazakachannel.png');}
+body.hinasanpoinyokohama::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinasanpoinyokohama.jpeg');}
+body.mtv::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/mtv.jpg');}
+body.nogi46hour2022::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi46hour2022.jpg');}
+body.kichijoujiwalkers::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/kichijoujiwalkers.jpg');}
+body.minnanomameo::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/minnanomameo.jpg');}
 
-body.gourmetSakamichi::before{background-image: url('https://cdn-ak.f.st-hatena.com/images/fotolife/m/marika46neru/20210105/20210105233203.jpg');}
-body.yakubonoheya::before{background-image: url('https://livedoor.sp.blogimg.jp/nekojitachamo/imgs/9/9/991e530f.jpg');}
-body.linelive::before{background-image: url('https://pbs.twimg.com/media/Fj772k7UUAAIUCk.jpg:large');}
-body.kokushokokusan::before{background-image: url('https://i.ytimg.com/vi/sm7aRXp3v-o/maxresdefault.jpg');}
-body.hinatazakachannel::before{background-image: url('https://stat.ameba.jp/user_images/20230716/22/710502/4f/aa/p/o1080056815313144708.png');}
-body.hinasanpoinyokohama::before{background-image: url('https://pbs.twimg.com/media/Fr-8RbfakAI0uq-.jpg:large');}
-body.mtv::before{background-image: url('https://contents.oricon.co.jp/upimg/news/20211125/2214992_202111250741186001637803736e.jpg');}
-body.nogi46hour2022::before{background-image: url('https://realsound.jp/wp-content/uploads/2022/02/20220222-nogi.jpg');}
-body.kichijoujiwalkers::before{background-image: url('https://contents.oricon.co.jp/upimg/news/2241000/2240222/20220627_193206_p_o_27167005.jpg');}
-body.minnanomameo::before{background-image: url('https://pbs.twimg.com/media/FQO4iLJaIAsUe8z.jpg');}
 
 body.single20::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single20.jpg');}
 body.single24::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single24.jpg');}
@@ -94,6 +101,19 @@ body.single33::before{background-image: url('https://ik.imagekit.io/moearchive/w
 body.single34::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single34.jpg');}
 body.timeflies::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_timeflies.jpg');}
 body.hinatasingle2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinata_cover_single02.jpg');}
+
+body.saishowapaa::before{background-image: url('https://pbs.twimg.com/media/FgKJAM4aUAMNe5L.jpg');}
+body.lovesharing::before{background-image: url('https://ogre.natalie.mu/media/news/music/2022/0327/lovesharing_7.jpg');}
+body.actress::before{background-image: url('https://thetv.jp/i/nw/1141603/11860392.jpg');}
+body.koshodo::before{background-image: url('https://contents.oricon.co.jp/upimg/news/2281000/2280989/20230530_173039_p_o_25627247.jpg');}
+body.doityourself::before{background-image: url('https://i.pinimg.com/736x/37/cf/f7/37cff7995c625424d44259079dfcf222.jpg');}
+body.truckgirl::before{background-image: url('https://i.ytimg.com/vi/tYHap43m3fA/maxresdefault.jpg');}
+body.rakujitsu::before{background-image: url('https://news.tv.rakuten.co.jp/.assets/thumbnail/178944_000_key_a-i.jpg');}
+body.nogizakacinemas::before{background-image: url('https://i.ytimg.com/vi/oJXkvD35cPU/maxresdefault.jpg');}
+body.shiosuketoamami::before{background-image: url('https://prcdn.freetls.fastly.net/release_image/30674/520/30674-520-1f7b9a69e9acbbd064aa92aa1ad73e26-1920x1080.jpg');}
+body.nogizakafettucine::before{background-image: url('https://i.ytimg.com/vi/PQmhNLNjb7U/maxresdefault.jpg');}
+body.yononaka::before{background-image: url('https://m.media-amazon.com/images/S/pv-target-images/83bcc6177f91c76999788cb7082272558699b31f7e474cb33eaf72e1059c7809.jpg');}
+body.sayounara::before{background-image: url('https://sayokon-movie.com/assets/img/img_kv2_x2.webp');}
 
 body.liveperformance::before{background-image: url('https://nogizaka46family.com/wp-content/uploads/2018/11/nogizaka46sairiumu.jpg');}
 /* Tambahkan aturan untuk halaman HTML lainnya sesuai kebutuhan */
@@ -363,6 +383,8 @@ a:focus-visible {
     left: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     transition: transform 0.3s;
+    padding-left: 5pt;
+    top: 15pt;
 }
 
 .episodelist img:hover {
@@ -577,6 +599,7 @@ flex: 1;
     font-size: 12pt;
     /* background-color: #3391ff; */
     display: block;
+	margin-top: 5px;
 }
 #deskripsijudul i, #descOnAirDate i, #deskripsimember i, #deskripsiSkits i, #deskripsiSkitsA i, #deskripsiSkitsB i, 
 #deskripsilagu1 i, #deskripsilagu2 i, #deskripsilagu3 i,  #deskripsilagu4 i, #deskripsilagu5 i, #deskripsilagu6 i, #deskripsilagu7 i, 
@@ -590,11 +613,12 @@ flex: 1;
 	color:red;
 }
 
-#descriptioneps, #description {	
-	line-height:25pt;
-	text-align: justify;
-	font-size:16pt;
-	font-weight:100;
+#descriptioneps, #description {
+    line-height: 25pt;
+    text-align: justify;
+    font-size: 16pt;
+    font-weight: 100;
+    margin: 25pt 0pt 25pt 0pt;
 }
 
 /* ------------------------------------------ */

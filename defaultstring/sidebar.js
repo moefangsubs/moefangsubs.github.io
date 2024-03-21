@@ -18,22 +18,23 @@ document.write(`
 	<p>Next Project</p>
     <div class="scrollable">
 	<ul>
-	<li>Hitori de Dekirumon #20 (Okuda Iroha)</li>
+	<li>Hitori de Dekirumon #18 (Okuda Iroha)</li>
+	<li>Hitori de Dekirumon #19 (Okamoto Hina)</li>
+	<li>Hitori de Dekirumon #20 (Tomisato Nao)</li>
 	<li>Nogizaka Otameshichuu #36</li>
+	<li>Nogizaka Otameshichuu #37</li>
 	<li>Nogizaka Burari #10 (Ume & Aya)</li>
 	<li>Nogizaka Burari #11 (Shiori & Hazuki)</li>
+	<li>Nogizaka Burari #12 (Shiori & Hazuki)</li>
+	<li>Nogizaka Burari #13 (Yoshida & Renka)</li>
 	<li>Nogizaka Asobu Dake #47</li>
 	<li>Nogizaka Asobu Dake #48</li>
 	<li>Nogizaka Asobu Dake #49</li>
 	<li>Nogizaka Asobu Dake #50</li>
 	<li>Nogizaka Underlive 34th</li>
+	<li>Nogizaka46 11th Birthday Live (BluRay)</li>
 	<li>Hinatazaka Channel*</li>
-	<li>Sakamichi Aozora #11</li>
-	<li>Sakamichi Aozora #12</li>
-	<li>Sakamichi Aozora #13</li>
-	<li>Sakamichi Aozora #14</li>
-	<li>Sakamichi Aozora #15</li>
-	<li>Sakamichi Aozora #16</li>
+	<li>Sakamichi Aozora*</li>
 	</ul>
 </div>
 </div>

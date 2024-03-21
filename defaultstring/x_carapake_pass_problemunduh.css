@@ -69,15 +69,14 @@
 
 /*  pengaturan sstep-step */
 
-[class^="stepsoft"],
-[class^="stephard"],
-[class^="problem"] {
+[class^="stepsoft"], [class^="stephard"], [class^="problem"] {
     padding-left: 13pt;
     text-align: justify;
     color: white;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 12pt;
-    line-height: 15pt;
+    line-height: 20pt;
+    margin-top: 5pt;
 }
 
 
