@@ -115,17 +115,17 @@ console.log(imageThumbBig);
 // =======================
 
 const imageThumbA = {
-"01" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing01-01.jpg",
-"02" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing02-01.jpg",
-"03" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing03-01.jpg",
-"04" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing04-01.jpg",
-"05" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing05-01.jpg",
-"06" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing06-01.jpg",
-"07" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing07-01.jpg",
-"08" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing08-01.jpg",
-"09" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing09-01.jpg",
-"10" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing10-01.jpg",
-"11" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing11-01.jpg",
+"01" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing01-1.jpg",
+"02" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing02-1.jpg",
+"03" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing03-1.jpg",
+"04" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing04-1.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing05-1.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing06-1.jpg",
+"07" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing07-a.jpg",
+"08" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing08-a.jpg",
+"09" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing09-a.jpg",
+"10" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing10a.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing11-a.jpg",
 };
 console.log(imageThumbA);
 
@@ -134,17 +134,17 @@ console.log(imageThumbA);
 // =======================
 
 const imageThumbB = {
-"01" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing01-02.jpg",
-"02" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing02-02.jpg",
-"03" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing03-02.jpg",
-"04" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing04-02.jpg",
-"05" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing05-02.jpg",
-"06" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing06-02.jpg",
-"07" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing07-02.jpg",
-"08" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing08-02.jpg",
-"09" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing09-02.jpg",
-"10" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing10-02.jpg",
-"11" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing11-02.jpg",
+"01" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing01-2.jpg",
+"02" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing02-2.jpg",
+"03" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing03-2.jpg",
+"04" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing04-2.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing05-2.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing06-2.jpg",
+"07" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing07-b.jpg",
+"08" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing08-b.jpg",
+"09" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing09-b.jpg",
+"10" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing10b.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing11-b.jpg",
 };
 console.log(imageThumbB);
 
@@ -153,38 +153,26 @@ console.log(imageThumbB);
 // ======================= 
 
 const imageThumbC = {
-"01" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing01-03.jpg",
-"02" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing02-03.jpg",
-"03" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing03-03.jpg",
-"04" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing04-03.jpg",
-"05" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing05-03.jpg",
-"06" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing06-03.jpg",
-"07" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing07-03.jpg",
-"08" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing08-03.jpg",
-"09" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing09-03.jpg",
-"10" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing10-03.jpg",
-"11" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing11-03.jpg",
+"01" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing01-3.jpg",
+"02" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing02-3.jpg",
+"03" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing03-4.jpg",
+"04" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing04-3.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing05-3.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing06-3.jpg",
+"07" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing07-c.jpg",
+"08" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing08-c.jpg",
+"09" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing09-c.jpg",
+"10" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing10c.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing11-c.jpg",
 };
 console.log(imageThumbC);
 
-// =======================
-// IMAGE THUMBNAIL D
-// ======================= 
 
-const imageThumbD = {
-"01" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing01-04.jpg",
-"02" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing02-04.jpg",
-"03" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing03-04.jpg",
-"04" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing04-04.jpg",
-"05" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing05-04.jpg",
-"06" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing06-04.jpg",
-"07" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing07-04.jpg",
-"08" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing08-04.jpg",
-"09" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing09-04.jpg",
-"10" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing10-04.jpg",
-"11" : "https://ik.imagekit.io/mLsKqNSuB/post/lovesharing/lovesharing11-04.jpg",
+const imageThumbX = {
+	...imageThumbC,
 };
-console.log(imageThumbD);
+console.log(imageThumbX);
+
 
 
 // =======================

@@ -77,6 +77,8 @@ for (let i = 1; i <= 9999; i++) {
 }
 console.log(memberParticipate);
 
+
+
 // =======================
 // IMAGE THUMBNAIL main
 // =======================
@@ -86,13 +88,6 @@ for (let i = 1; i <= 9999; i++) {
   const paddedNumber = i.toString().padStart(2, '0');
   imageThumbBig[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/doityourself/diy${paddedNumber}.jpg`;
 }
-console.log(imageThumbBig);
-
-// ======
-
-const imageThumbBig = {
-
-};
 console.log(imageThumbBig);
 
 
