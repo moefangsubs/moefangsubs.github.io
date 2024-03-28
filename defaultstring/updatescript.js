@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
             targetEpisode = "09";
             break;
         case "live-performance":
-            targetEpisode = "01";
+            targetEpisode = "47";
             break;
         case "chou-nogizaka-star-tanjou":
             targetEpisode = "40";
