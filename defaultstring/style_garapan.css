@@ -116,7 +116,40 @@ body.nogizakafettucine::before{background-image: url('https://ik.imagekit.io/moe
 body.yononaka::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/yononaka.jpg');}
 body.sayounara::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/sayounara.jpg');}
 
+body.nanaminkoisurufuyu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nanaminkoisurufuyu.jpg');}
+body.nanaminkoisurunatsu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nanaminkoisurunatsu.jpg');}
+body.nogizakabooks::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogizakabooks.jpg');}
+
+body.cupstarmatsumuraa::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/matsumuraa.jpg');}
+body.cupstarasusanpo::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/asusanpo.jpg');}
+body.cupstarnogimart::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogimartnohibi.jpg');}
+body.yakubochannel::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/yakubochannel.jpg');}
+body.asahiotonasenbatsu::before{background-image: url('');}
+body.compilation::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/liveperformance.jpg');}
+body.showroom::before{background-image: url('');}
+
+body.utabangumi::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/utabangumi.jpg');}
+
+body.random::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/random.jpg');}
+
 body.liveperformance::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/liveperformance.jpg');}
+body.nogiskitsbd1::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskitsbd1.jpg');}
+body.nogiskitsbd2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskitsbd2.jpg');}
+body.nogiskitsclub::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskitsclub.jpg');}
+body.nogiskimachisowakan1::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskimachisowakan1.jpg');}
+body.nogiskimachisowakan2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskimachisowakan2.jpg');}
+body.nogistarmikoukaieizo::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogistarmikoukaieizo.jpg');}
+body.shinnogistarhulu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shinnogistarhulu.jpg');}
+body.shinnogistarhajimetetalk::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shinnogistarhajimetetalk.jpg');}
+body.schooloflock::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/schooloflock.jpg');}
+
+
+body.hinatazakastory::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinatazakastory.jpg');}
+body.gen5msg::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/gen5msg.jpg');}
+
+body.bokuao::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/bokuao.jpg');}
+body.bokuaosakaao::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/bokuaosakaao.jpg');}
+
 
 /* Tambahkan aturan untuk halaman HTML lainnya sesuai kebutuhan */
 
@@ -178,6 +211,19 @@ a:focus-visible {
     padding-left: 5px;
 	line-height:15pt;
 }
+
+.textfloat {
+    text-align: justify;
+    color: #f0f0f0;
+    padding-left: 5px;
+    line-height: 25pt;
+    font-size: 14pt;
+}
+
+img.readingpict {
+    width: 100%;
+}
+
 
 .hiddd {
 	display:none;

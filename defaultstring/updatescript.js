@@ -29,17 +29,41 @@ document.addEventListener("DOMContentLoaded", function() {
     var targetEpisode;
     
     switch (currentFileName) {
-        case "nogidouga-nogizaka-burari":
-            targetEpisode = "09";
-            break;
-        case "live-performance":
-            targetEpisode = "47";
-            break;
-        case "chou-nogizaka-star-tanjou":
-            targetEpisode = "40";
-            break;
         case "nogizaka-otameshichuu":
             targetEpisode = "35";
+            break;
+        case "asahi-otonasenbatsu":
+            targetEpisode = "01";
+            break;
+        case "utabangumi-cdtv":
+            targetEpisode = "01";
+            break;
+        case "utabangumi-music-on-tv":
+            targetEpisode = "01";
+            break;
+        case "utabangumi-music-station":
+            targetEpisode = "01";
+            break;
+        case "utabangumi-best-artist":
+            targetEpisode = "01";
+            break;
+        case "utabangumi-sound-inn":
+            targetEpisode = "01";
+            break;
+        case "nogikoi-watashitachi-no-girls-rule":
+            targetEpisode = "01";
+            break;
+        case "sakukoi-shiranai-sekai-no-hajimari":
+            targetEpisode = "01";
+            break;
+        case "hinakoi-imechun":
+            targetEpisode = "01";
+            break;
+        case "nogizaka-skits-bd-2":
+            targetEpisode = "01";
+            break;
+        case "compilation":
+            targetEpisode = "01";
             break;
         // Tambahkan case sesuai dengan nama file HTML lainnya
     }

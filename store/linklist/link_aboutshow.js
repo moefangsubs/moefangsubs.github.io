@@ -96,45 +96,45 @@ const acaraData = {
 	// // ------------
 	// // ------------
 	// // ------------
-	// nanaminkoisuruFuyu: "",
-	// nanaminkoisuruNatsu: "",
-	// nogizakabooks: "",
+	nanaminkoisuruFuyu: "Hashimoto Nanami, lahir di Asahikawa, Hokkaido, member dari grup idola populer Nogizaka46, melakukan perjalanan sendirian dengan sebuah buku tentang Hokkaido. Inilah hiburan intelektual yang menyampaikan pesona membaca, sambil melihat pesona Nanami sendiri. Konten khusus ini diperuntukan bagi yang rindu akan sosok Nanamin, dan tertarik dengan dunia sastra Jepang.",
+	nanaminkoisuruNatsu: "Hashimoto Nanami, lahir di Asahikawa, Hokkaido, member dari grup idola populer Nogizaka46, melakukan perjalanan sendirian dengan sebuah buku tentang Hokkaido. Inilah hiburan intelektual yang menyampaikan pesona membaca, sambil melihat pesona Nanami sendiri. Konten khusus ini diperuntukan bagi yang rindu akan sosok Nanamin, dan tertarik dengan dunia sastra Jepang.",
+	nogizakabooks: "Dalam BluRay Nogizaka46 Hashimoto Nanami no Koisuru Bungaku terdapat bonus, salah satunya Nogizaka Books. Di video singkat ini, member terpilih akan menyampaikan buku novel favoritnya baru-baru ini.",
 	// // ------------
 	// // ------------
 	// // ------------
-	// matsumuraShihsouhin: "",
-	// asusanpo: "",
-	// cupstarnogimart: "",
+	matsumuraShihsouhin: "Matsumura Sayuri dari Nogizaka46 melakukan sebuah project untuk menentukan citarasa baru Sapporo Ichiban Waraa.",
+	asusanpo: "Seri Sapporo Ichiban ke-3 ini berjudul Asusanpo. Member gen-4 (Endo Sakura, Kakehashi Sayaka, Kanagawa Saya) diberikan sebuah kegiatan untuk memperkenalkan senpainya, Saito Asuka-san pada pesona lokal Jepang, karena mereka mendengar kalau Asuka-san selalu di luar negeri dan tampaknya sudah mengarahkan pandangannya dari Jepang sepenuhnya. Untuk menyampaikan pesona yang tidak ditemukan di luar negeri, mereka mencoba mengajak Asuka.",
+	cupstarnogimart: "Nogimart no Hibi adalah film pendek komedi yang dirilis pada Mei 2020. Menceritakan member Nogizaka46 yang bekerja di toko kelontong bernama Nogi Mart, dengan komedian Satoshi Iizuka dari Tokyo 03 berperan sebagai manajer toko, dan memiliki anak yaitu diperankan oleh Saito Asuka.",
 	// // ------------
 	// // ------------
 	// // ------------
-	// collabcontent: "",
-	// selffmadeCompilation: "",
-	// fansubPartner: "",
-	// randomcontent: "",
+	collabyakubochannel: "Yakubo Channel (mengambil alih Kubo Channel), merupakan segmen food report dimana Yakubo Mio dari gen-4 akan melaporkan apa yang dimakan oleh para member Nogizaka46 saat Manatsu no Zenkoku Tour 2022.",
+	collabasahiotonasenbatsu: "",
+	selffmadeCompilation: "Kompilasi video yang dibuat oleh MoeFang.",
+	fansubPartner: "This category only for 'Fansub Partner'. Fansub Partner is a collaborative post with MoeFang Subs, which includes the restrictions applied to MoeFang Subs (prohibition of reupload, removal or/and add credits without permission). However, any errors in translation or otherwise are the responsibility of the fansub owner.",
+	randomcontent: "Berbagai garapan MoeFang yang tidak terkategorikan, biasa kami sebut sebagai 'projek santai' atau 'selingan' dari garapan utama.",
 	// // ------------
 	// // ------------
 	// // ------------
 	livePerformance: "Disini adalah kumpulan berbagai garapan MoeFang Subs kategori konser atau perform grup Sakamichi maupun BokuAo.",
-	// nogiskitsBDvol1: "",
-	// nogiskitsBDvol2: "",
-	// nogiskitsmaking: "",
-	// nogiskitsclub: "",
-	// nogiskiMachisowakan1: "",
-	// nogiskiMachisowakan2: "",
-	// nogistartanjouwarukunai: "",
-	// shinnogistarchousen: "",
-	// shinnogistarHajimeteTalk: "",
+	nogiskitsBDvol1: "Konten-konten Nogizaka Skits versi Blu-Ray edisi ke-1.",
+	nogiskitsBDvol2: "Konten-konten Nogizaka Skits versi Blu-Ray edisi ke-2.",
+	nogiskitsclub: "Ini adalah video khusus (lebih tepatnya video ucapan) yang sudah mendaftar club dalam situs resmi Nogizaka Skits.",
+	nogiskiMachisowakan1: "Disini kita bisa melihat ekspresi para member gen-4 saat melihat berbagai skits, beserta pendapat para member yang tidak ditampilkan di televisi, tersedia hanya di HULU.",
+	nogiskiMachisowakan2: "Disini kita bisa melihat ekspresi para member gen-3 dan gen-4 saat melihat berbagai skits, beserta pendapat para member yang tidak ditampilkan di televisi, tersedia hanya di HULU.",
+	nogistartanjouwarukunai: "Disini kita bisa melihat unreleased scene dari Nogizaka Star Tanjou yang tidak ditayangkan di televisi, tersedia hanya di HULU.",
+	shinnogistarchousen: "Ini adalah cuplikan di balik layar Shin-Nogizaka Star Tanjou yang tidak ditayangkan di televisi, tersedia hanya di platform HULU. Kita bisa melihat berbagai persiapan, kegugupan, kesiapan anak-anak gen-5 dalam penampilan bernyanyi.",
+	shinnogistarHajimeteTalk: "Menyanyi dan menari adalah hal baru, inilah Nogizaka46 gen-5 yang baru debut! Gen-5 ini ditantang untuk berbincang satu sama lain untuk pertama kalinya. Mereka akan melempar dadu dan memilih topik pembicaraan secara improvisasi.",
 	// // ------------
 	// // ------------
 	// // ------------
 	// schooloflock: "",
-	// hinatazakastory: "",
+	gen5msg: "Ini merupakan lembar profil para member baru gen-5, beserta perkenalan diri mereka pertama kali dengan para penggemar.",
 	// // ------------
 	// // ------------
 	// // ------------
 	// skebingo: "",
-	// bokuaorandom: "",
-	// bokuaoDocu: "",
-	// SakamichiAozora: "",
+	bokuaorandom: "Berbagai video random mengenai grup Boku ga Mitakatta Aozora",
+	bokuaoDocu: "Berbagai video dokumenter dari Boku ga Mitakatta Aozora",
+	SakamichiAozora: "\"Sakamichi no Mukou ni wa Aozora ga Hirogatteita\" merupakan acara pelatihan idola tipe Sparta yang bertujuan mengejar super idol Nogizaka46. Para siswanya adalah yang baru saja debut pada bulan Agustus tahun ini dengan pengalaman dunia hiburan hanya 2 bulan, Boku ga Mitakatta Aozora. Mereka yang belum mengenal satu sama lain di antara 23 orang ini didampingi wali kelas dan wakil wali kelas yang tiba-tiba ditugaskan ke kelas ini, duo komedian Jepang Chocolate Planet, Osada Shohei dan Matsuo Shun.",
 };
