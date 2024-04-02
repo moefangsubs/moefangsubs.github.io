@@ -13,7 +13,7 @@ console.log(descEpisodeSynopsis);
 // =======================
 
 const nameShow = {
-"01" : "ひなこい『＃イメチュンｓぐた彼女が可愛すぎた！？』",
+"01" : "ひなこい『＃イメチュンした彼女が可愛すぎた！？』",
 };
 console.log(nameShow);
 

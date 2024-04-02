@@ -104,7 +104,7 @@ console.log(imageThumbD);
 // =======================
 
 const linkHardsub = {
-"01" : "https://lokerwfh.net/PiEvSkw4",
+"01" : "https://lokerwfh.net/JfOlYGtn",
   };
 console.log(linkHardsub);
 

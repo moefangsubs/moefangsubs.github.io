@@ -82,6 +82,21 @@ body::-webkit-scrollbar {
     width: 80%;
 }
 
+.pengumuman {
+    margin: 0 auto;
+    width: 65%;
+    color: white;
+    background: #043f3ac2;
+    padding: 15pt;
+    border-radius: 10pt;
+    border: 3pt solid white;
+    font-size: 18pt;
+}
+.pengumuman i {
+    padding-right: 15pt;
+}
+
+
 @media (min-width: 0px) and (max-width: 720px) {
 	.category-flex {
 		width: 80%;
