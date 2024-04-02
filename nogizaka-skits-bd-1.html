@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoeFang Subs | Live Performance</title>
+    <title>MoeFang Subs | Nogizaka Skits BD/DVD Box Vol.1</title>
 
 	<!-- JavaScript load default head -->
 	<script type="text/javascript" src="defaultstring/head-default.js"></script>
@@ -17,20 +17,20 @@
 	<script type="text/javascript" src="js/getdata1.js"></script>
 	<script type="text/javascript" src="js/getdata2.js"></script>
 	<script type="text/javascript" src="store/linklist/link_aboutshow.js"></script>
-	<script type="text/javascript" src="store/linklist/link_live_performance.js"></script>
+	<script type="text/javascript" src="store/linklist/link_nogiskitsbd1.js"></script>
 </head>
 
-<body class="garapan_neutral liveperformance">
+<body class="garapan_nogizaka nogiskitsbd1">
 
 <script src="defaultstring/navigation.js"></script>
 <div id="isikontenblog">
     <div class="titlehead">
-		<div id="headtitle">LIVE PERFORMANCE</div>
+		<div id="headtitle">NOGIZAKA SKITS BD/DVD BOX VOL.1</div>
     </div>
     <article>
 		<div class="contents">
 		<div class="contents-flex">
-		<script src="store\eplist\liveperformance.js"></script>
+		<script src="store/eplist/nogiskitsbd1.js"></script>
 		
 		<div class="container">
 		<div class="isikontenblog">
@@ -42,12 +42,16 @@
 			<img id="imageThumbBig">
 			</div>
 			
-			<script src="js\lodDataDesc\lod_X_description.js"></script>
+			<div id="description">
+			<p data-acara="nogiskitsBDvol1"></p>
+			</div>
 				
 			<div class="isihalaman">
-				<script src="js\lodDataDesc\lod_X_imageThumb.js"></script>				
-				<script src="js\lodDataDesc\lod_data_Default_NamAirMemLang.js"></script>
-				<script src="js\lodButton\lod_button_hard_trak.js"></script>	
+				<script src="js/lodDataDesc/lod_X_imageThumb3p.js"></script>
+				
+				<script src="js/lodDataDesc/lod_X_description.js"></script>
+				<script src="js/lodDataDesc/lod_data_Default_NamAirMemLang.js"></script>
+				<script src="js/lodButton/lod_button_hard_trak.js"></script>
 				
 				<script src="defaultstring/x_password.js"></script>
 				<script src="defaultstring/x_carapake.js"></script>
@@ -90,7 +94,7 @@
     function toggleButtonsForEpisode(episodeNumber) {
         hideButtons();  // Sembunyikan semua terlebih dahulu
         
-        var allowedEpisodes = ['03', '05', '08', '10', '13', '15', '26', '35', '42', '47'];
+        var allowedEpisodes = ['02', '03'];
 
         if (allowedEpisodes.includes(episodeNumber)) {
             document.querySelectorAll('.episode_nogi').forEach(function(button) {

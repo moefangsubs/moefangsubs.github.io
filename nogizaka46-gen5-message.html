@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoeFang Subs | Nogizaka46 5th-gen First Message</title>
+
+	<!-- JavaScript load default head -->
+	<script type="text/javascript" src="defaultstring/head-default.js"></script>
+	<script src="js/checkPass.js"></script>
+
+	<!-- JavaScript untuk kebutuhan data yang di load -->
+	<script type="text/javascript" src="defaultstring/script.js"></script>
+	<script type="text/javascript" src="defaultstring/updatescript.js" defer></script>
+	<script type="text/javascript" src="js/getdata0.js"></script>
+	<script type="text/javascript" src="js/getdata1.js"></script>
+	<script type="text/javascript" src="js/getdata2.js"></script>
+	<script type="text/javascript" src="store/linklist/link_aboutshow.js"></script>
+	<script type="text/javascript" src="store/linklist/link_gen5msg.js"></script>
+</head>
+
+<body class="garapan_nogizaka gen5msg">
+
+<script src="defaultstring/navigation.js"></script>
+<div id="isikontenblog">
+    <div class="titlehead">
+		<div id="headtitle">GEN-5 FIRST MESSAGE</div>
+    </div>
+    <article>
+		<div class="contents">
+		<div class="contents-flex">
+		<script src="store\eplist\nogizaka_5ki_message.js"></script>
+		
+		<div class="container">
+		<div class="isikontenblog">
+		<div class="flex-item" id="flexA">
+						
+			<div id="description">
+			<p data-acara="gen5msg"></p>
+			</div>
+				
+			<span id="descEpisode"></span>
+			<div class="eps-bigthumb">
+			<img id="imageThumbBig">
+			</div>
+			<div class="isihalaman">		
+				<div class="rectangle"></div>
+			</div>
+			
+		</div>
+		
+		<div class="flex-item" id="flexB">
+		
+			<script src="defaultstring/sidebar.js"></script>
+			
+		</div>
+		</div>
+
+
+		</div>
+		<!--  -->	
+		<!--  -->
+		</div>
+	</div>
+    </article>
+
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var episodeElement = document.querySelector('.episodelist[data-episode="210511"]');
+
+        if (episodeElement) {
+            episodeElement.scrollIntoView();
+        episodeElement.click();
+        }
+    });
+	
+document.addEventListener("DOMContentLoaded", function() {
+    var episodeElement = document.querySelector('.buttonEpsList[data-episode="210511"]');
+    if (episodeElement) {
+        episodeElement.classList.add('clicked');
+        var episodeImage = episodeElement.querySelector('img');
+        if (episodeImage) {
+            episodeElement.scrollIntoView();
+            episodeImage.classList.add('clicked');
+        }
+    }
+});
+</script>
+</body>
+</html>
