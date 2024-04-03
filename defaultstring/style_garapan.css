@@ -335,47 +335,49 @@ img.readingpict {
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
-    background-color: rgba(0, 0, 0, 0%);
+    background-color: rgb(0 0 0 / 0%);
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+	flex-direction: column;
 }
-
 .scroll-container:hover {
     overflow-x: hidden;
     overflow-y: auto;
 }
+/* .scroll-container::-webkit-scrollbar { */
+  /* display: none; */
+/* } */
 
 @media screen and (max-width: 700px) {
     .contents-flex {
         flex-direction: column;
     }
-    .scroll-container:hover {
-        overflow-x: scroll;
-        overflow-y: hidden;
-    }
+	.scroll-container:hover {
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
 }
 
 @media screen and (max-width: 1280px) {
-    .contents {
-        display: flex;
-    }
-    .contents-flex {
-        flex-direction: column;
-    }
-    .scroll-container {
-        margin-left: 0;
-        padding-top: 0;
-        overflow-x: auto; /* Menggunakan 'auto' pada overflow-x agar dapat menampilkan scroll bar pada browser yang tidak mendukung overflow-x: scroll */
-        overflow-y: hidden;
-        min-width: 100%; /* Menggunakan '100%' untuk mengisi lebar konten */
-        height: 130pt;
-        flex-direction: column;
-        -ms-overflow-style: scrollbar; /* Untuk Internet Explorer */
-        scrollbar-width: thin; /* Untuk Firefox */
-    }
+	.contents {
+		display: flex;
+		/* width: 96%; */
+		height: auto;
+		/* overflow: hidden; */
+	}
+	.contents-flex {
+		flex-direction: column;
+	}
+	.scroll-container {
+		margin-left: 0px;
+		padding-top: 0pt;
+		overflow-x: auto;
+		overflow-y: hidden;
+		min-width: -webkit-fill-available;
+		height: 130pt;
+		flex-direction: column;
+	}
 }
-
 
 
 .scroll-container::-webkit-scrollbar {
