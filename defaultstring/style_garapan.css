@@ -353,7 +353,7 @@ img.readingpict {
         flex-direction: column;
     }
 	.scroll-container:hover {
-		overflow-x: auto;
+		overflow-x: scroll;
 		overflow-y: hidden;
 	}
 }
@@ -371,7 +371,7 @@ img.readingpict {
 	.scroll-container {
 		margin-left: 0px;
 		padding-top: 0pt;
-		overflow-x: auto;
+		overflow-x: scroll;
 		overflow-y: hidden;
 		min-width: -webkit-fill-available;
 		height: 130pt;
