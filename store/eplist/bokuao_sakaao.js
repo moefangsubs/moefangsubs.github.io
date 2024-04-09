@@ -1,6 +1,13 @@
 document.write(`
 <div class="scroll-container">
 <div class="imglist">
+<div class="episodelist buttonEpsList" data-episode="17"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-017.jpg"><div class="epsname">Episode 17</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="16"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-016.jpg"><div class="epsname">Episode 16</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="15"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-015.jpg"><div class="epsname">Episode 15</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="14"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-014.jpg"><div class="epsname">Episode 14</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="13"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-013.jpg"><div class="epsname">Episode 13</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="12"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-012.jpg"><div class="epsname">Episode 12</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="11"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-011.jpg"><div class="epsname">Episode 11</div><span class="epsbadgeNew"></span></div>
 <div class="episodelist buttonEpsList" data-episode="10"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-010.jpg"><div class="epsname">Episode 10</div></div>
 <div class="episodelist buttonEpsList" data-episode="09"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-009.jpg"><div class="epsname">Episode 9</div></div>
 <div class="episodelist buttonEpsList" data-episode="08"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bokuao/sakamichiaozora-008.jpg"><div class="epsname">Episode 8</div></div>

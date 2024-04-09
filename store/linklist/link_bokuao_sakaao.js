@@ -14,6 +14,13 @@ const descEpisodeSynopsis = {
 "08" : "Di pelajaran ke-8 ini para member BokuAo belajar cara menghadapi situasi palsu. dunia TV, terkadang diperlukan situasi palsu untuk kelancaran acaranya.",
 "09" : "Di pelajaran ke-9 ini melanjutkan tentang foto skandal yang ada di episode selanjutnya, lalu mereka disuruh untuk berlatih konferensi pers permintaan maaf.",
 "10" : "Di pelajaran ke-10 sebenarnya harusnya yang menjadi episode pertama, yaitu memperkenalkan keterampilan khusus para member. Maka dari itu, episode 10 ini dilakukan dengan sedikit agak berbeda dari yang lain.",
+"11" : "Di pelajaran ke-11 ini para member BokuAo berlomba untuk menjadi Raja Gigi. Sama seperti sebelumnya dikompetisikan yaitu mencari Raja Dahi, member terpilih akan melalui berbagai rintangan.",
+"12" : "Di pelajaran ke-12 ini adalah paruh kedua dari pencarian menjadi Raja Gigi pertama. Siapakah yang terpilih menjadi Raja Gigi yang pertama?",
+"13" : "Di pelajaran ke-13 ini dalam rangka mencari siapa member yang akan melakukan 'hit kigan' atau doa kesuksesan, BokuAo mencari member yang tidak beruntung, dengan beranggapan keberuntungannya tertahan dan bisa dikeluarkan ketika melakukan doa kesuksesan.",
+"14" : "Di pelajaran ke-14 ini adalah paruh kedua dari pencarian siapa member yang akan melakukan 'hit kigan' atau doa kesuksesan.",
+"15" : "Di pelajaran ke-15 ini mempelajari tentang 'mengurangi', karena biasanya dalam industri TV Jepang, acara-acara variety selalu merupakan hasil gabungan dari 2 hal. Namun di episode ini, akan melakukan kebalikannya, yaitu mengurangi.",
+"16" : "Di pelajaran ke-16 ini para member akan melakukan sebuah segmen yang menjadi hal umum dalam acara variety show idol, yaitu mengadakan festival olahraga.",
+"17" : "Di pelajaran ke-17 ini BokuAo mencari kota mana yang akan menjadi tujuan mereka, karena segmen ini menjelaskan jika berfokus di Tokyo saja akan terasa sulit.",
 };
 console.log(descEpisodeSynopsis);
 
@@ -55,6 +62,13 @@ const descOnAirDate = {
 "08" : "5 Desember 2023",
 "09" : "12 Desember 2023",
 "10" : "19 Desember 2023",
+"11" : "9 Januari 2024",
+"12" : "16 Januari 2024",
+"13" : "23 Januari 2024",
+"14" : "30 Januari 2024",
+"15" : "6 Februari 2024",
+"16" : "13 Februari 2024",
+"17" : "20 Februari 2024",
   };
 console.log(descOnAirDate);
 
@@ -85,6 +99,13 @@ const imageThumbBig = {
 "08" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-008.jpg",
 "09" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-009.jpg",
 "10" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-010.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-011.jpg",
+"12" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-012.jpg",
+"13" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-013.jpg",
+"14" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-014.jpg",
+"15" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-015.jpg",
+"16" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-016.jpg",
+"17" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-017.jpg",
   };
 console.log(imageThumbBig);
 
@@ -104,6 +125,13 @@ const imageThumbA = {
 "08" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-008a.jpg",
 "09" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-009a.jpg",
 "10" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-010a.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-011a.jpg",
+"12" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-012a.jpg",
+"13" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-013a.jpg",
+"14" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-014a.jpg",
+"15" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-015a.jpg",
+"16" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-016a.jpg",
+"17" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-017a.jpg",
   };
 console.log(imageThumbA);
 
@@ -122,6 +150,14 @@ const imageThumbB = {
 "08" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-008b.jpg",
 "09" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-009b.jpg",
 "10" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-010b.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-011b.jpg",
+"12" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-012b.jpg",
+"13" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-013b.jpg",
+"14" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-014b.jpg",
+"15" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-015b.jpg",
+"16" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-016b.jpg",
+"17" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-017b.jpg",
+
   };
 console.log(imageThumbB);
 
@@ -141,6 +177,14 @@ const imageThumbC = {
 "08" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-008c.jpg",
 "09" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-009c.jpg",
 "10" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-010c.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-011c.jpg",
+"12" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-012c.jpg",
+"13" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-013c.jpg",
+"14" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-014c.jpg",
+"15" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-015c.jpg",
+"16" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-016c.jpg",
+"17" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-017c.jpg",
+
   };
 console.log(imageThumbC);
 
@@ -160,6 +204,13 @@ const imageThumbD = {
 "08" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-008d.jpg",
 "09" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-009d.jpg",
 "10" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-010d.jpg",
+"11" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-011d.jpg",
+"12" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-012d.jpg",
+"13" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-013d.jpg",
+"14" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-014d.jpg",
+"15" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-015d.jpg",
+"16" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-016d.jpg",
+"17" : "https://ik.imagekit.io/mLsKqNSuB/post/sakamichiaozora/sakamichiaozora-017d.jpg",
   };
 console.log(imageThumbD);
 
@@ -178,6 +229,13 @@ const linkHardsub = {
 "08" : "https://lokerwfh.net/7Z0wo",
 "09" : "https://lokerwfh.net/2EAmFDv",
 "10" : "https://lokerwfh.net/3Nl2",
+"11" : "https://lokerwfh.net/2UgUCtOY",
+"12" : "https://lokerwfh.net/EFiK",
+"13" : "https://lokerwfh.net/c9mLd",
+"14" : "https://lokerwfh.net/EdcfR",
+"15" : "https://lokerwfh.net/h0HB",
+"16" : "https://lokerwfh.net/x7aS",
+"17" : "https://lokerwfh.net/so5in",
   };
 console.log(linkHardsub);
 
@@ -206,6 +264,13 @@ const linkRAW = {
 "08" : "https://aidoru-online.me/torrents-details.php?id=253199&hit=1",
 "09" : "https://aidoru-online.me/torrents-details.php?id=253680&hit=1",
 "10" : "https://aidoru-online.me/torrents-details.php?id=254169&hit=1",
+"11" : "https://aidoru-online.me/torrents-details.php?id=255378&hit=1",
+"12" : "https://aidoru-online.me/torrents-details.php?id=255805&hit=1",
+"13" : "https://aidoru-online.me/torrents-details.php?id=256255&hit=1",
+"14" : "https://aidoru-online.me/torrents-details.php?id=256611&hit=1",
+"15" : "https://aidoru-online.me/torrents-details.php?id=257026&hit=1",
+"16" : "https://aidoru-online.me/torrents-details.php?id=257400&hit=1",
+"17" : "https://aidoru-online.me/torrents-details.php?id=257804&hit=1",
   };
 console.log(linkRAW);
 
