@@ -1,0 +1,69 @@
+body {
+    color: white;
+    margin: 20pt 10pt 20pt 20pt;
+    font-family: "Ubuntu";
+    overflow-x: hidden;
+    width: 80%;
+    left: 0;
+    box-sizing: border-box;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    text-decoration: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+font {
+    font-size: 18pt;
+    color: white;
+    color: #bb64ff;
+	
+}
+
+img.thumb {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 3px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.10), 0 10px 6px 0 rgba(0, 0, 0, 0.20);
+}
+
+p.chord {
+	margin-top:50px;
+	margin-bottom:20px;
+}
+.chunk {
+    position: relative;
+}
+.chunk:before {
+    content: attr(data-chord);
+    position: absolute;
+    white-space: nowrap;
+    line-height: 0.3;
+    top: -35px;
+    font-size: 70%;
+    color: #bb64ff;
+    font-weight: 900;
+    background: #440079c7;
+    padding: 10pt 5pt 10pt 5pt;
+    border-radius: 6pt;
+    border: 1pt solid white;
+}
+.big {
+    font-size: 18pt;
+}
+
+/* ======================= */

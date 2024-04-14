@@ -1,0 +1,125 @@
+body::before {
+ 	background-image: url('https://blogimg.goo.ne.jp/image/upload/f_auto,q_auto,t_image_sp_entry/v1/user_image/1c/28/fecdbe5f185bef594ddb1978e26bd3a1.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+* {
+  transition: all .3s ease-in-out;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    transition: all 0.5s;
+}
+.cpparent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    transition: all 0.5s;
+}
+
+.child {
+    color: white;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background: #2504403d;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5pt;
+    border: 2pt solid #f5f5f5;
+    overflow: hidden;
+    padding: 0pt;
+}
+
+.cpchild {
+    color: white;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+    background: #2504403d;
+    transition: all 0.5s;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5pt;
+    border: 2pt solid #f5f5f5;
+}
+
+.child img {
+    overflow: hidden;
+    height: 200px;
+    float: left;
+    clear: both;
+    border-radius: 4pt 0pt 0pt 4pt;
+}
+
+
+.detail {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 220px;
+    transform: translate(0%, -50%);
+    color: white;
+}
+.cpdetail {
+    position: absolute;
+    text-align: left;
+    top: 50%;
+    left: 20px;
+    transform: translate(0%, -50%);
+    color: white;
+}
+
+.singkatan {
+    color: #b75cff;
+    font-size: 24pt;
+    font-weight: 900;
+}
+
+.singro {
+    color: #b75cff;
+    font-size: 18pt;
+    font-weight: 900;
+    padding-bottom: 3pt;
+}
+.singleke {
+	color:white;
+	padding-bottom:3pt;
+}
+
+.detail span {
+    font-size: 14pt;
+}
+
+@media only screen and (max-width: 800px) {
+ .parent {grid-template-columns: repeat(1, 1fr);}
+ .cpparent {grid-template-columns: repeat(2, 1fr);}
+ .child {height: 30vw;}
+ .child img {height: 30vw;}
+ .detail {left: 32vw;}
+ .singkatan {font-size:14pt;}
+ .singro, .detail span {font-size:12pt;}
+}

@@ -1,0 +1,177 @@
+body::before {
+ 	background-image: url('https://blogimg.goo.ne.jp/image/upload/f_auto,q_auto,t_image_sp_entry/v1/user_image/1c/28/fecdbe5f185bef594ddb1978e26bd3a1.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+.nogidata {
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    overflow: scroll;
+    width: 100%;
+}
+
+.nogidata table {
+  border-collapse: collapse;
+  text-align:center;
+  width:200%;
+}
+
+.nogidata table thead tr > th {
+border:1px solid black;
+  text-align:center;
+  position: sticky;
+  padding:.3rem;
+  z-index:2;
+  top: 0;
+}
+
+.nogidata table thead tr > :nth-child(1) {
+  z-index:5;
+  left:0;
+  top:0;
+}
+
+.nogidata table td {
+border:1px solid black;
+font-size:8pt;
+  text-align:center;
+  padding:5pt;
+}
+
+
+.nogidata table tbody tr > :first-child {
+    border: 1px solid black;
+    text-align: center;
+    position: sticky;
+    z-index: 1;
+    left: 0;
+    font-size: 12pt;
+    font-weight: 500;
+    text-align: left;
+    padding: 10pt;
+}
+
+.tg-data img {
+height:50px;width:auto;
+}
+
+
+.nogidata table .tg-batas{background-color:#404040;}
+.nogidata table .tg-hiatus{background-color:#282828;color:white;font-size:8pt;} .tg-hiatus:before {content:"HIATUS";}
+.nogidata table .tg-grad{background-color:#671124;color:red;} .tg-grad:before {content:"GRAD";}
+.nogidata table .tg-gradx{background-color:#400a16;color:#c50002;} .tg-gradx:before {content:"GRAD";}
+.nogidata table .tg-name{background-color:#E9E2FA;color:black; font-weight:900; width:100pt; text-align:left;}
+
+.nogidata table .tg-kenkyu{background-color:#70AD47;color:black;} .tg-kenkyu:before {content:"KENKYUSEI";}
+.nogidata table .tg-sakken{background-color:#C6E0B4;color:black;} .tg-sakken:before {content:"KENKYUSEI";}
+.nogidata table .tg-under{background-color:#044358;color:white;} .tg-under:before {content:"UNDER";}
+.nogidata table .tg-row3{background-color:#420087;color:white;} .tg-row3:before {content:"3rd";}
+.nogidata table .tg-row2{background-color:#5d00bd;color:white;} .tg-row2:before {content:"2nd";}
+.nogidata table .tg-front{background-color:#8e37e7;color:white;} .tg-front:before {content:"Front";}
+.nogidata table .tg-center{background-color:#d49f22;color:#18042c;font-weight:900;} .tg-center:before {content:"CENTER";}
+
+.nogidata table .tg-3ki{background-color:#D9E1F2;color:black;} .tg-3ki:before {content:"3期";}
+.nogidata table .tg-4ki{background-color:#D9E1F2;color:black;} .tg-4ki:before {content:"4期";}
+.nogidata table .tg-4kishin{background-color:#D9E1F2;color:black;} .tg-4kishin:before {content:"新4期";}
+.nogidata table .tg-5ki{background-color:#D9E1F2;color:black;} .tg-5ki:before {content:"5期";}
+
+.nogidata table .tg-before{background-color:#262626;}
+.nogidata table .tg-data{background-color:#999;color:black;}
+  
+footer {
+  margin-top: 50px;
+  border-top: 1px solid silver;
+  font-size: 10pt;
+}
+
+footer ol {
+  padding-left: 20px;
+  padding-top:20px;
+}
+
+footer ol li {
+    font-size: 17pt;
+    text-align: justify;
+    font-weight: 400;
+    list-style-type: none;
+    border-radius: 10pt;
+    border: 3pt solid white;
+    padding: 20pt;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    background: #24043f8c;
+  display:none;
+}
+
+/**
+ * Initialiazing a `footnotes` counter on the wrapper
+ */
+article {
+  counter-reset: footnotes;
+}
+
+/**
+ * Inline footnotes references
+ * 1. Increment the counter at each new reference
+ * 2. Reset link styles to make it appear like regular text
+ */
+[aria-describedby="footnote-label"] {
+  counter-increment: footnotes; /* 1 */
+  text-decoration: none; /* 2 */
+  color: inherit; /* 2 */
+  cursor: default; /* 2 */
+  outline: none; /* 2 */
+}
+
+[aria-describedby="footnote-label"]::after {
+  content: '[' counter(footnotes) ']';
+  vertical-align: super;
+  font-size: 8pt; 
+  margin-left: 2px; 
+  text-decoration: none;
+  color:burlywood;
+  cursor: pointer; 
+}
+
+/**
+ * Resetting the default focused styles on the number
+ */
+[aria-describedby="footnote-label"]:focus::after {
+  outline: thin dotted;
+  outline-offset: 2px;
+  font-size: 12pt; 
+}
+
+[aria-label="Back to content"] {
+  font-size: 9pt; 
+}
+
+/**
+ * Highlight target note
+ */
+footer :target {
+  background: #420087;
+  display:block;
+}
+
+/**
+ * Visually hidden yet accessible content
+ */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  visibility: hidden;
+  opacity: 0;
+} 

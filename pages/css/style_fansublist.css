@@ -1,0 +1,167 @@
+body::before {
+ 	background-image: url('https://blogimg.goo.ne.jp/image/upload/f_auto,q_auto,t_image_sp_entry/v1/user_image/1c/28/fecdbe5f185bef594ddb1978e26bd3a1.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+
+ul {
+	color:white;
+	text-align:justify;
+}
+ul li {
+    padding-top: 10px;
+    font-size: 14pt;
+    text-align: justify;
+}
+ul li b {
+	color:firebrick;
+}
+.fansubl {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+align-self: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6pt;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 700px) {
+ .fansubl {flex-direction: column;align-items: center;}
+ .fansubt {width: 90%;border: 4pt solid purple;}
+ .fansubf, .fansubg {font-size: 15pt;}
+ .fanlink i {padding: 8pt;font-size: 25pt;}
+	.fansubs {
+		font-size: 12pt;
+		margin-top: 10pt;
+		width: 100%;
+		padding-top: 10pt;
+		padding-bottom: 10pt;
+		border-radius: 5pt;
+	}
+}
+@media only screen and (min-width: 700px) {
+ 	.fansubt {
+		width: 22%;
+		border: 4pt solid #2d183d;
+	}
+ 	.fansubf {
+		font-size: 9pt;
+	}
+ 	.fansubg {
+		font-size: 11pt;
+	}
+	.fanlink i {
+		padding: 5pt; 
+		font-size: 20pt;
+	}
+	.fansubs {
+		font-size: 10pt;
+		margin-top: 10pt;
+		width: 100%;
+		padding-top: 4pt;
+		padding-bottom: 4pt;
+		border-radius: 5pt;
+	}
+}
+.fansubf {
+	color:#919191;
+	text-align:center;
+	width:100%;
+	padding:3pt;
+	font-style:italic;
+  transition: 0.3s;
+}
+.fansubt {
+  padding: 5pt;
+  height: auto;
+  padding: 5pt;
+  border-radius: 2pt;
+  animation: width 2s;
+  transition: 0.3s;
+}
+.fansubt:hover {
+  background: #2d183d;
+  border-color: white;
+}
+.fansubg {
+  text-align: center;
+  padding: 5pt;
+  color: #a956e8;
+}
+.faktif {
+  background: #4ba355;
+  text-align: center;
+  color: white;
+  animation: aktif 1s infinite;
+  transition-timing-function: ease-in-out;
+}
+@keyframes aktif {
+	0% {background: #4ba355;}
+	50% {background: #2c7033;}
+	100% {background: #4ba355;}
+}
+.faktif:before {
+  content: "AKTIF";
+}
+
+.faunkn {
+  text-align: center;
+  color: white;
+  background: grey;
+}
+.faunkn:before {
+  content: "UNKNOWN";
+}
+
+.faremove {
+  background: firebrick;
+  text-align: center;
+  color: white;
+}
+.faremove:before {
+  content: "NOT FOUND / ERROR / REMOVED";
+}
+.fansubl img {
+  width: 100%;
+}
+
+.fanlink {
+  padding-top: 5pt;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fanlink i {
+  color: white;
+  transition: .5s;
+  border-radius:5pt;
+  padding:2pt;
+}
+.fanlink i:hover {
+  color: #2d183d;
+	background:white;
+}
+
+img.pageidx {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
