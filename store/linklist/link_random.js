@@ -45,6 +45,9 @@ const descEpisodeSynopsis = {
 "39" : "Di Jepang masa depan yang dekat, teknologi penggunaan Life Log dan pengembangan Life Cast telah berkembang. Life Log adalah data tentang kehidupan sehari-hari, minat, dan gaya bicara seseorang selama hidupnya. Dengan menyuntikkan data ini ke dalam robot dengan baik, teknologi ini dapat menciptakan sosok yang sangat mirip dengan orang tersebut, seperti klon (Life Cast). Koshizu Inori (Nishino Nanase) menjadi terkenal sebagai Life Caster yang mampu membuat Life Cast berkualitas tinggi. Namun, Inori tidak menyukai hasil karyanya, menyebutnya sebagai \"boneka tanpa jiwa\", dan merencanakan untuk berhenti dari pekerjaannya. Suatu hari, Inori menerima permintaan pembuatan Life Cast dari virtual idol yang pernah sangat terkenal, Tasogare Kiera. Inori kesulitan mengumpulkan data Life Log dari idol virtual yang populer lebih dari 50 tahun yang lalu ini, tetapi seiring berjalannya waktu, ia mulai menyentuh rahasia tersembunyi dari masa lalu Kiera.",
 "40" : "Ini adalah penampilan pertama dari single terbaru Nogizaka46 yang ke-4 berjudul \"Monopoly\". Center-nya untuk kali ini adalah dari gen-4, Kaki Haruka dan Endo Sakura. Bagi yang ingin menyaksikannya, silakan.",
 "41" : "LALALife merupakan sebuah variety show dengan pembawa acara Masakazu Mimura dan Takataka Aoki, disiarkan dari stasiun TBS Setiap Jumat mulai pukul 11:30. Di kesempatan kali ini, Yoda Yuuki berkesempatan pergi ke Taiwan dan makan gyoza disana seharian. Meskipun awalnya ragu karena kesulitan dalam segi bahasa, namun ia dengan cepat terbiasa. Seperti apa keseruannya?",
+"42" : "Nogizaka46 Berpartisipasi untuk pertama kalinya! Mereka terkesima dengan pengalaman yang unik di pedalaman Chiba! Ioki Mao dan Sugawara Satsuki mengunjungi penginapan yang penuh dengan pemandangan musiman yang indah di Prefektur Chiba. Mereka menemukan telepon hitam di rumah tua dengan atap jerami. Mereka menikmati berbagai \"pengalaman pertama\" yang unik dari penginapan ini, mulai dari rendaman kaki hingga nasi di tungku, hingga mi udon buatan tangan, sambil menjelajahi pesonanya!",
+"43" : "Impian Himura-san menjadi kenyataan! Narator Shiraishi Mai juga terkesan! Mereka mengantarkan member Nogizaka46 yang sudah masuk usia 20 tahun ke upacara kedewasaan di tahun 2024.",
+"44" : "Himutaro berjalan-jalan di sekitar Kanda hingga Jinbocho dengan Endo Sakura dari Nogizaka46 kali ini. Mereka memulai dari Kuil Kanda. Mampir ke Yushima Seido, dan jika beruntung, mereka akan melintasi Hijiribashi, di mana mereka bisa melihat berbagai kereta api. Mereka juga berpose bersama di area yang ditanami sakura. Ketika melewati Stasiun Kudanshita, mereka melihat Nippon Budokan di kejauhan. Bagi Himutaro, berjalan-jalan bersama di sini penuh dengan kenangan yang mendalam. Terakhir, mereka menikmati hadiah berupa kari yang lezat dengan banyak rempah!",
 };
 console.log(descEpisodeSynopsis);
 
@@ -94,6 +97,9 @@ const nameShow = {
 "39" : "世にも奇妙な物語 23年秋の特別編「走馬灯のセトリは考えておいて」",
 "40" : "Nogizaka Haishinchuu",
 "41" : "ララLife",
+"42" : "全国ボロいい宿",
+"43" : "ひむバス！バナナマン日村さんの夢！乃木坂46メンバーをサプライズ送迎！ ",
+"44" : "バナナマン日村が歩く！ウォーキングのひむ太郎",
 };
 console.log(nameShow);
 
@@ -143,6 +149,9 @@ const descEpisode = {
 "39" : "| 231111 Yo nimo Kimyou na Monogatari 2023",
 "40" : "| 231114 Nogizaka Haishinchuu - Nogizaka46 \"Monopoly\" First Performance",
 "41" : "| 231117 LALALIFE!",
+"42" : "| 240218 Zenkoku Boroii Yado (Ioki Mao, Sugawara Satsuki, Sasaki Kumi CUT)",
+"43" : "| 240223 Himubus Eps.9 (Nogizaka46 CUT)",
+"44" : "| 240416 Walking no Himutaro (Endo Sakura)",
 };
 console.log(descEpisode);
 
@@ -193,6 +202,9 @@ const descOnAirDate = {
 "39" : "11 November 2023",
 "40" : "14 November 2023",
 "41" : "17 November 2023",
+"42" : "18 Februari 2024",
+"43" : "23 Februari 2024",
+"44" : "16 April 2024",
   };
 console.log(descOnAirDate);
 
@@ -243,6 +255,9 @@ const memberParticipate = {
 "39" : "西野七瀬",
 "40" : "乃木坂46",
 "41" : "与田祐希",
+"42" : "五百城茉央、菅原咲月、佐々木久美",
+"43" : "岩本蓮加、清宮レイ、松尾美佑、林瑠奈、黒見明香、川﨑桜、一ノ瀬美空、岡本姫奈",
+"44" : "遠藤さくら",
   };
 console.log(memberParticipate);
 
@@ -293,6 +308,9 @@ const imageThumbBig = {
 "39" : "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete.jpg",
 "40" : "https://ik.imagekit.io/mLsKqNSuB/post/random/231114-ngzhaishinchuu-34monopoly.jpg",
 "41" : "https://ik.imagekit.io/mLsKqNSuB/post/random/231117-lalalife-yodayuuki.jpg",
+"42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado.jpg",
+"43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-fix.jpg",
+"44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura.jpg",
   };
 console.log(imageThumbBig);
 
@@ -343,6 +361,9 @@ const imageThumbA = {
 "39" : "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete-a.jpg",
 "40" : "doc/blank.png",
 "41" : "https://ik.imagekit.io/mLsKqNSuB/post/random/231117-lalalife-yodayuuki-a.jpg",
+"42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-a.jpg",
+"43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-a.jpg",
+"44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-a.jpg",
   };
 console.log(imageThumbA);
 
@@ -351,26 +372,26 @@ console.log(imageThumbA);
 // =======================
 
 const imageThumbB = {
-"01" : "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky01.jpg",
-"02" : "https://ik.imagekit.io/mLsKqNSuB/post/sorakibun/sorakibun01.jpg",
+"01" : "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky02.jpg",
+"02" : "https://ik.imagekit.io/mLsKqNSuB/post/sorakibun/sorakibun02.jpg",
 "03" : "https://ik.imagekit.io/mLsKqNSuB/post/random/nanaminsr1.jpg",
 "04" : "https://ik.imagekit.io/mLsKqNSuB/post/random/mouse1.jpg",
-"05" : "https://ik.imagekit.io/mLsKqNSuB/post/random/kyodoki-nanami01.jpg",
-"06" : "https://ik.imagekit.io/mLsKqNSuB/post/random/shinigami-01.jpg",
-"07" : "https://ik.imagekit.io/mLsKqNSuB/post/random/thegift-01.jpg",
-"08" : "https://ik.imagekit.io/mLsKqNSuB/post/random/cinema-addict-nanase-01.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/random/kyodoki-nanami02.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/random/shinigami-02.jpg",
+"07" : "https://ik.imagekit.io/mLsKqNSuB/post/random/thegift-02.jpg",
+"08" : "https://ik.imagekit.io/mLsKqNSuB/post/random/cinema-addict-nanase-02.jpg",
 "09" : "https://ik.imagekit.io/mLsKqNSuB/post/random/kakehashi-cm1-1.png",
 "10" : "https://ik.imagekit.io/mLsKqNSuB/post/random/kakehashi-cm2-1.jpg",
 "11" : "https://ik.imagekit.io/mLsKqNSuB/post/random/210625-yoda-sakagami-b.jpg",
-"12" : "https://ik.imagekit.io/mLsKqNSuB/post/random/211031-hirumae-shibata-a.jpg",
+"12" : "https://ik.imagekit.io/mLsKqNSuB/post/random/211031-hirumae-shibata-b.jpg",
 "13" : "doc/blank.png",
-"14" : "https://ik.imagekit.io/mLsKqNSuB/post/random/210916-toppafile-a.jpg",
+"14" : "https://ik.imagekit.io/mLsKqNSuB/post/random/210916-toppafile-b.jpg",
 "15" : "doc/blank.png",
-"16" : "https://ik.imagekit.io/mLsKqNSuB/post/random/219327-2kisei8nindake-a.jpg",
-"17" : "https://ik.imagekit.io/mLsKqNSuB/post/random/190506-life-ikutaerika-a.jpg",
+"16" : "https://ik.imagekit.io/mLsKqNSuB/post/random/219327-2kisei8nindake-b.jpg",
+"17" : "https://ik.imagekit.io/mLsKqNSuB/post/random/190506-life-ikutaerika-b.jpg",
 "18" : "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar1.jpg",
-"19" : "https://ik.imagekit.io/mLsKqNSuB/post/random/210410-heyheyneo-skz-a.jpg",
-"20" : "https://ik.imagekit.io/mLsKqNSuB/post/random/220514-eigaongaku-a.jpg",
+"19" : "https://ik.imagekit.io/mLsKqNSuB/post/random/210410-heyheyneo-skz-b.jpg",
+"20" : "https://ik.imagekit.io/mLsKqNSuB/post/random/220514-eigaongaku-b.jpg",
 "21" : "https://ik.imagekit.io/mLsKqNSuB/post/random/kakehashi-cm3-1.jpg",
 "22" : "https://ik.imagekit.io/mLsKqNSuB/post/random/220715-disneyendoa.jpg",
 "23" : "https://ik.imagekit.io/mLsKqNSuB/post/random/220726-seventeen-kubo-shiori1.jpg",
@@ -378,20 +399,23 @@ const imageThumbB = {
 "25" : "https://ik.imagekit.io/mLsKqNSuB/post/random/220721-uratorechaimashita1.jpg",
 "26" : "doc/blank.png",
 "27" : "doc/blank.png",
-"28" : "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2022melody-a.jpg",
+"28" : "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2022melody-b.jpg",
 "29" : "doc/blank.png",
-"30" : "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-a.jpg",
-"31" : "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-a.jpg",
+"30" : "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-b.jpg",
+"31" : "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-b.jpg",
 "32" : "doc/blank.png",
-"33" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230418-ayanekikitai-a.jpg",
-"34" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-a.jpg",
-"35" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-a.jpg",
-"36" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-a.jpg",
-"37" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230627-bananasand-a.jpg",
-"38" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230902-doyounanisuru-a.jpg",
-"39" : "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete-a.jpg",
+"33" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230418-ayanekikitai-b.jpg",
+"34" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-b.jpg",
+"35" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-b.jpg",
+"36" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-b.jpg",
+"37" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230627-bananasand-b.jpg",
+"38" : "https://ik.imagekit.io/mLsKqNSuB/post/random/230902-doyounanisuru-b.jpg",
+"39" : "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete-b.jpg",
 "40" : "doc/blank.png",
-"41" : "https://ik.imagekit.io/mLsKqNSuB/post/random/231117-lalalife-yodayuuki-a.jpg",
+"41" : "https://ik.imagekit.io/mLsKqNSuB/post/random/231117-lalalife-yodayuuki-b.jpg",
+"42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-b.jpg",
+"43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-b.jpg",
+"44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-b.jpg",
   };
 console.log(imageThumbB);
 
@@ -441,6 +465,9 @@ const imageThumbC = {
 "39" : "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete-c.jpg",
 "40" : "doc/blank.png",
 "41" : "https://ik.imagekit.io/mLsKqNSuB/post/random/231117-lalalife-yodayuuki-c.jpg",
+"42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-c.jpg",
+"43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-c.jpg",
+"44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-c.jpg",
   };
 console.log(imageThumbC);
 
@@ -496,6 +523,9 @@ const linkHardsub = {
 "39" : "https://lokerwfh.net/bbuwgy",
 "40" : "https://drive.google.com/file/d/1pJ6Q1MZIgi_zIAjnFX-JYHCJ8nbmCb0m/view?usp=sharing",
 "41" : "https://lokerwfh.net/To2MsksW",
+"42" : "https://lokerwfh.net/DMEbfR",
+"43" : "https://lokerwfh.net/H9jxX",
+"44" : "https://lokerwfh.net/ip17cxD",
   };
 console.log(linkHardsub);
 
@@ -545,6 +575,9 @@ const linkTrakteer = {
 "39" : "https://trakteer.id/moefangsubs/showcase/yo-nimo-kimyou-na-monogatari-soumatou-no-setori-wa-kangaeteoite-TaxJN",
 "40" : "",
 "41" : "https://trakteer.id/moefangsubs/showcase/231117-lalalife-yoda-yuuki-ke-taiwan-dan-makan-gyoza-G0mfi",
+"42" : "https://trakteer.id/moefangsubs/showcase/240218-zenkoku-boroii-yado-ioki-mao-x-sugawara-satsuki-cut-Wcqr1",
+"43" : "https://trakteer.id/moefangsubs/showcase/240223-himubus-nogizaka46-cut-VEPfD",
+"44" : "https://trakteer.id/moefangsubs/showcase/walking-no-himutaro-dqupC",
   };
 console.log(linkTrakteer);
 
@@ -595,6 +628,9 @@ const filePassword = {
 "39" : "",
 "40" : "",
 "41" : "",
+"42" : "",
+"43" : "",
+"44" : "",
   };
 console.log(filePassword);
 

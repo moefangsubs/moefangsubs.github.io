@@ -55,6 +55,7 @@ const acaraData = {
 	single33pv: "Single ke-33 \"Ohitorisama Tengoku\" yang dirilis pada 23 Agustus 2023 ini sama seperti sebelumnya, yaitu merilis PV untuk gen-5, dan 32nd Single Under Live.",
 	single33under: "Single ke-33 \"Ohitorisama Tengoku\" yang dirilis pada 23 Agustus 2023 ini sama seperti sebelumnya, yaitu merilis PV untuk gen-5, dan 32nd Single Under Live.",
 	single34zenkoku: "Single ke-34 \"Monopoly\" yang dirilis pada 6 Desember 2023 ini hanya merilis pilihan lagu-lagu dari Manatsu no Zenkoku Tour 2023 di Okinawa.",
+	single35: "Single ke-35 \"Chance wa Byoudou\" yang dirilis pada 10 April 2024 ini merilis menyertakan rekaman video live \"Shinsanmono LIVE at THEATER MILANO-Za\" baik yang offline maupun yang pernah di-streaming pada saat itu. Bonus video ini mencakup penampilan sebagian lagu yang dipentaskan bersama dengan rekaman penampilan dari semua 11 member \"Ohitorisama Tengoku Project\" yang menampilkan member yang berbeda dalam setiap pertunjukan.",
 	timeflies: "Dalam koleksi ini dirilis juga 'Nogizaka46 10th Anniversary Documentary Movie \"10nen no Ayumi\"', sebuah video berdurasi panjang yang berisi perjalanan sejarah Nogizaka46 dari awal dibentuk hingga saat Best Album ini dirilis.",
 	hinatasingle2: "Dalam single ke-2 'Doremisolasido', para member Hinatazaka46 mencoba berbagai hal untuk pertama kalinya. Terdapat 6 judul dan masing-masing member berkelompok.",
 	// // ------------
@@ -105,6 +106,7 @@ const acaraData = {
 	matsumuraShihsouhin: "Matsumura Sayuri dari Nogizaka46 melakukan sebuah project untuk menentukan citarasa baru Sapporo Ichiban Waraa.",
 	asusanpo: "Seri Sapporo Ichiban ke-3 ini berjudul Asusanpo. Member gen-4 (Endo Sakura, Kakehashi Sayaka, Kanagawa Saya) diberikan sebuah kegiatan untuk memperkenalkan senpainya, Saito Asuka-san pada pesona lokal Jepang, karena mereka mendengar kalau Asuka-san selalu di luar negeri dan tampaknya sudah mengarahkan pandangannya dari Jepang sepenuhnya. Untuk menyampaikan pesona yang tidak ditemukan di luar negeri, mereka mencoba mengajak Asuka.",
 	cupstarnogimart: "Nogimart no Hibi adalah film pendek komedi yang dirilis pada Mei 2020. Menceritakan member Nogizaka46 yang bekerja di toko kelontong bernama Nogi Mart, dengan komedian Satoshi Iizuka dari Tokyo 03 berperan sebagai manajer toko, dan memiliki anak yaitu diperankan oleh Saito Asuka.",
+	cupstarsashimen: "Setelah sekian lama, dari Sapporo Ichiban Cupstar, dimulailah proyek baru bernama \"Sashimen\". Dalam proyek ini, para member Nogizaka46 akan muncul setiap bulannya dengan berpasangan, dan mereka akan menikmati percakapan sambil menikmati rasa Cupstar yang tidak biasa bagi mereka.",
 	// // ------------
 	// // ------------
 	// // ------------

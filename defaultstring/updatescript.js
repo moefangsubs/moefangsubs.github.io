@@ -65,6 +65,9 @@ document.addEventListener("DOMContentLoaded", function() {
         case "compilation":
             targetEpisode = "01";
             break;
+        case "cupstar-sashimen":
+            targetEpisode = "00";
+            break;
         // Tambahkan case sesuai dengan nama file HTML lainnya
     }
 
