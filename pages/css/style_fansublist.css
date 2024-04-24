@@ -14,150 +14,181 @@ body::before {
     height: 100%;
 }
 
-ul {
+.warning {
 	color:white;
 	text-align:justify;
 }
-ul li {
+
+.warning li {
     padding-top: 10px;
-    font-size: 14pt;
+    font-size: 16pt;
     text-align: justify;
+    white-space: pre-wrap;
+    line-height: 25pt;
 }
-ul li b {
+
+.warning li b {
 	color:firebrick;
 }
+
+.buttondown {
+    background: white;
+    width: max-content;
+    color: #440079;
+    padding: 10pt;
+    font-weight: 800;
+    border-radius: 6pt;
+    font-size: 16pt;
+    transition: all 0.5s ease;
+    margin: 0 auto;
+}
+.buttondown:hover {
+    background: #440079;
+    color: white;
+}
+
+.midtext {
+    text-align: center;
+    line-height: 25pt;
+    font-size: 16pt;
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+    padding: 10pt 0pt 10pt 0pt;
+}
+/* --- container --- */
 .fansubl {
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: flex-start;
-align-self: flex-end;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 6pt;
-  transition: 0.3s;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    align-self: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 13pt;
+    transition: 0.3s;
+}
+
+/* --- title box --- */
+.fansubt {
+    height: auto;
+    padding: 10pt;
+    border-radius: 7pt;
+    animation: width 2s;
+    transition: 0.3s;
+    box-shadow: 5px 5px #ffffff24;
+    flex: 0 2 20%;
+}
+
+/* --- status box --- */
+.stato {
+    background: #2c7033c7;
+    border: 3pt solid #2c7033c7;
+}
+.stato:hover {
+    background: #2c7033;
+    border-color: #2c7033;
+}
+.statx {
+    background: #454545ab;
+    border: 3pt solid #454545ab;
+}
+.statx:hover {
+    background: #454545;
+    border-color: #454545;
+}
+.statxx {
+    background: #7d0a0a66;
+    border: 3pt solid #7d0a0a66;
+}
+.statxx:hover {
+    background: #7d0a0a;
+    border-color: #7d0a0a;
+}
+
+
+
+/* --- image --- */
+.fansubl img {
+	width: 100%;
+	padding-bottom: 10pt;
+}
+
+/* --- flag --- */
+.fansubf {
+	font-size: 15pt;
+	color: #919191;
+	text-align: center;
+	width: 100%;
+	padding: 3pt;
+	transition: 0.3s;
+	font-size: 15pt;
+	border-color: #ffffffb0;
+	border-style: dashed;
+	border-width: 2pt 0pt 0pt 0pt;
+	padding-top: 10pt;
+}
+
+.fansubf span {
+    margin-right: 7pt;
+}
+
+/* --- keterangan --- */
+.fansubg {
+	font-size: 11pt;
+    text-align: center;
+    padding: 20pt 0pt 20pt 0pt;
+}
+
+
+/* --- link sosmed --- */
+.fanlink {
+	padding-top: 5pt;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: stretch;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.fanlink i {
+	color: white;
+	transition: .5s;
+	border-radius:5pt;
+	padding: 5pt; 
+	font-size: 20pt;
+}
+.fanlink i:hover {
+	color: #2d183d;
+	background:white;
+}
+
+/* --- list fansub tanpa web --- */
+
+.fansubnoweb {
+    border: 2pt solid white;
+    font-size: 18pt;
+    padding: 12pt;
+    border-radius: 5pt;
+    box-shadow: 3pt 3pt #ffffff87;
+    margin: 3pt;
 }
 
 @media only screen and (max-width: 700px) {
- .fansubl {flex-direction: column;align-items: center;}
- .fansubt {width: 90%;border: 4pt solid purple;}
- .fansubf, .fansubg {font-size: 15pt;}
- .fanlink i {padding: 8pt;font-size: 25pt;}
-	.fansubs {
-		font-size: 12pt;
-		margin-top: 10pt;
-		width: 100%;
-		padding-top: 10pt;
-		padding-bottom: 10pt;
-		border-radius: 5pt;
+	.fansubl {
+		align-items: center;
 	}
-}
-@media only screen and (min-width: 700px) {
- 	.fansubt {
-		width: 22%;
-		border: 4pt solid #2d183d;
+	.fansubt {
+		flex: 0 1 45%;
 	}
- 	.fansubf {
-		font-size: 9pt;
-	}
- 	.fansubg {
-		font-size: 11pt;
-	}
-	.fanlink i {
-		padding: 5pt; 
-		font-size: 20pt;
-	}
-	.fansubs {
-		font-size: 10pt;
-		margin-top: 10pt;
-		width: 100%;
-		padding-top: 4pt;
-		padding-bottom: 4pt;
-		border-radius: 5pt;
-	}
-}
-.fansubf {
-	color:#919191;
-	text-align:center;
-	width:100%;
-	padding:3pt;
-	font-style:italic;
-  transition: 0.3s;
-}
-.fansubt {
-  padding: 5pt;
-  height: auto;
-  padding: 5pt;
-  border-radius: 2pt;
-  animation: width 2s;
-  transition: 0.3s;
-}
-.fansubt:hover {
-  background: #2d183d;
-  border-color: white;
-}
-.fansubg {
-  text-align: center;
-  padding: 5pt;
-  color: #a956e8;
-}
-.faktif {
-  background: #4ba355;
-  text-align: center;
-  color: white;
-  animation: aktif 1s infinite;
-  transition-timing-function: ease-in-out;
-}
-@keyframes aktif {
-	0% {background: #4ba355;}
-	50% {background: #2c7033;}
-	100% {background: #4ba355;}
-}
-.faktif:before {
-  content: "AKTIF";
 }
 
-.faunkn {
-  text-align: center;
-  color: white;
-  background: grey;
-}
-.faunkn:before {
-  content: "UNKNOWN";
-}
-
-.faremove {
-  background: firebrick;
-  text-align: center;
-  color: white;
-}
-.faremove:before {
-  content: "NOT FOUND / ERROR / REMOVED";
-}
-.fansubl img {
-  width: 100%;
-}
-
-.fanlink {
-  padding-top: 5pt;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: stretch;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.fanlink i {
-  color: white;
-  transition: .5s;
-  border-radius:5pt;
-  padding:2pt;
-}
-.fanlink i:hover {
-  color: #2d183d;
-	background:white;
+@media only screen and (min-width: 701px) and (max-width: 1100px) {
+	.fansubt {
+		flex: 0 1 30%;
+	}
 }
 
 img.pageidx {
@@ -165,3 +196,4 @@ img.pageidx {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+	

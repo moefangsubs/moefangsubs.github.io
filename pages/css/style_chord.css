@@ -55,6 +55,14 @@ div#navigation {
 	color: #440079c2;
 }
 
+.colornogi {background-color: #6815ae;}
+.colorhina {background-color: #2796c0;}
+.colorsaku {background-color: #c048a5;}
+
+.colornogi:hover {background-color: white; color: #6815ae;}
+.colorhina:hover {background-color: white; color: #2796c0;}
+.colorsaku:hover {background-color: white; color: #c048a5;}
+
 #chordFrame {
     width: 100%;
     height: 70vh;
