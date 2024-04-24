@@ -196,7 +196,6 @@ input:focus {
     margin-top: 10pt;
 	transition: background 1s ease;
 }
-
 .ifpernah:hover {
     background: #d974e1c7;
 }
