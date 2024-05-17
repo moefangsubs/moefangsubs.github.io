@@ -51,6 +51,7 @@ const descEpisodeSynopsis = {
 	"45" : "Memperingati ulang tahunnya yang ke-12, Nogizaka46 mengadakan acara tahunannya yaitu 12th Birthday Live di Saitama Super Arena selama 4 hari. Setiap harinya mereka membawakan setlist yang berbeda-beda dengan total 123 lagu, meringkas sejarah Nogizaka dari single pertama hingga single terbaru yang ke-35. Hari ke-3 mereka membawakan lagu dari single yang dirilis tahun 2018 hingga 2020, dimana gen-4 untuk pertama kalinya bergabung saat itu.",
 	"46" : "Memperingati ulang tahunnya yang ke-12, Nogizaka46 mengadakan acara tahunannya yaitu 12th Birthday Live di Saitama Super Arena selama 4 hari. Setiap harinya mereka membawakan setlist yang berbeda-beda dengan total 123 lagu, meringkas sejarah Nogizaka dari single pertama hingga single terbaru yang ke-35. Hari ke-4 mereka membawakan lagu dari single yang dirilis tahun 2021 hingga 2024, dimana gen-5 untuk pertama kalinya bergabung saat itu.",
 	"47" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-34 \"Monopoly\" ini dengan Mini live secara streaming. Sebuah single dengan kembali menampilkan wajah W-center Nogizaka baru, yaitu Kaki Haruka dan Endo Sakura.",
+	"48" : "Kali ini kami menggarap Graduation Concert dari Yamashita Mizuki, ace Nogizaka46 dari gen-3 yang mengumumkan kelulusannya di single ke-35 ini. Konser kelulusan ini diadakan selama 2 hari di Tokyo Dome. Akan ada banyak lagu dan segmen spesial dari Mizuki sendiri, juga pesan dari perwakilan tiap generasi.",
 };
 
 // =======================
@@ -106,6 +107,7 @@ const nameShow = {
 	"45" : "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 3",
 	"46" : "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 4",
 	"47" : "乃木坂46 34thシングル「Monopoly」発売記念ミニライブ",
+	"48" : "乃木坂46 山下美月卒業コンサート",
 };
 console.log(nameShow);
 
@@ -162,6 +164,7 @@ const descEpisode = {
 	"45" : "| Nogizaka46 12th Year Birthday Live DAY 3",
 	"46" : "| Nogizaka46 12th Year Birthday Live DAY 4",
 	"47" : "| Nogizaka46 Mini Live 34th Single \"Monopoly\"",
+	"48" : "| Nogizaka46 Yamashita Mizuki Graduation Concert",
 };
 console.log(descEpisode);
 
@@ -217,6 +220,7 @@ const descOnAirDate = {
 	"45" : "9 Maret 2024",
 	"46" : "10 Maret 2024",
 	"47" : "21 Maret 2024",
+	"48" : "11-12 Mei 2024",
 };
 console.log(descOnAirDate);
 
@@ -273,6 +277,7 @@ const memberParticipate = {
 	"45" : "乃木坂46 ",
 	"46" : "乃木坂46 ",
 	"47" : "乃木坂46 ",
+	"48" : "乃木坂46 ",
 };
 console.log(memberParticipate);
 
@@ -330,6 +335,7 @@ const imageThumbBig = {
 	"45" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl3.jpg",
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34.jpg",
+	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcer.jpg",
 };
 console.log(imageThumbBig);
 
@@ -386,6 +392,7 @@ const imageThumbA = {
 	"45" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl3a.jpg",
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4a.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34a.jpg",
+	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1a.jpg",
 };
 console.log(imageThumbA);
 
@@ -441,6 +448,7 @@ const imageThumbB = {
 	"45" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl3b.jpg",
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4b.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34b.jpg",
+	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1b.jpg",
 };
 console.log(imageThumbB);
 
@@ -496,6 +504,7 @@ const imageThumbC = {
 	"45" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl3c.jpg",
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4c.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34c.jpg",
+	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1c.jpg",
 };
 console.log(imageThumbC);
 
@@ -557,6 +566,7 @@ const imageThumbD = {
 	"45" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl3d.jpg",
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4d.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34d.jpg",
+	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1d.jpg",
 };
 console.log(imageThumbD);
 
@@ -613,6 +623,7 @@ const linkHardsub = {
 	"45" : "",
 	"46" : "",
 	"47" : "https://lokerwfh.net/CMFstnC",
+	"48" : "",
 };
 console.log(linkHardsub);
 
@@ -669,6 +680,7 @@ const linkTrakteer = {
 	"45" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-12th-year-birthday-live-KPuiW",
 	"46" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-12th-year-birthday-live-KPuiW",
 	"47" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-34th-single-monopoly-9aAeO",
+	"48" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-yamashita-mizuki-graduation-concert-XLZ0d",
 };
 console.log(linkTrakteer);
 
@@ -725,6 +737,7 @@ const filePassword = {
 	"45" : "(tidak ada password)",
 	"46" : "(tidak ada password)",
 	"47" : "(tidak ada password)",
+	"48" : "(tidak ada password)",
 };
 console.log(filePassword);
 

@@ -18,19 +18,17 @@ document.write(`
 	<p>Next Project</p>
     <div class="scrollable">
 	<ul>
-	<li>Hitori de Dekirumon #18 (Okuda Iroha)</li>
-	<li>Hitori de Dekirumon #19 (Okamoto Hina)</li>
-	<li>Hitori de Dekirumon #20 (Tomisato Nao)</li>
+	<li>Chou-Nogizaka Star Tanjou #41</li>
+	<li>Chou-Nogizaka Star Tanjou #42</li>
+	<li>Chou-Nogizaka Star Tanjou #43</li>
+	<li>Hitori de Dekirumon #21 (Ichinose Miku)</li>
 	<li>Nogizaka Otameshichuu #36</li>
 	<li>Nogizaka Otameshichuu #37</li>
+	<li>Nogizaka Otameshichuu #38</li>
 	<li>Nogizaka Burari #10 (Ume & Aya)</li>
 	<li>Nogizaka Burari #11 (Shiori & Hazuki)</li>
 	<li>Nogizaka Burari #12 (Shiori & Hazuki)</li>
 	<li>Nogizaka Burari #13 (Yoshida & Renka)</li>
-	<li>Nogizaka Asobu Dake #47</li>
-	<li>Nogizaka Asobu Dake #48</li>
-	<li>Nogizaka Asobu Dake #49</li>
-	<li>Nogizaka Asobu Dake #50</li>
 	<li>Nogizaka Underlive 34th</li>
 	<li>Nogizaka46 11th Birthday Live (BluRay)</li>
 	<li>Hinatazaka Channel*</li>
