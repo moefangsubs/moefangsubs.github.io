@@ -141,7 +141,7 @@ const descEpisode = {
 	"22" : "| Nogizaka46 32nd SG Underlive",
 	"23" : "| Hinatazaka46 4th-gen Omotenashikai",
 	"24" : "| Nogizaka46 Saito Asuka Graduation Concert DAY 1",
-	"25" : "| Nogizaka46 Saito Asuka Graduation Concert DAY 1",
+	"25" : "| Nogizaka46 Saito Asuka Graduation Concert DAY 2",
 	"26" : "| Nogizaka46 Mini Live 32nd Single \"Hito wa Yume o Nido Miru\"",
 	"27" : "| Sakurazaka46 3rd Tour 2023",
 	"28" : "| Nogizaka46 Manatsu no Zenkoku Tour 2016 @ Xebio Arena Day 2",

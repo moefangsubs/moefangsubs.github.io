@@ -26,7 +26,7 @@ document.write(`
 					<li> <a href="../503.html">TRANSLATION</a> <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
 						<ul class="htmlCss-sub-menu sub-menu">
 							<li><a href="../pages/magazine-translation.html">MAGAZINE TRANSLATION</a></li>
-							<li><a href="../404.html">BLOG TRANSLATION</a></li>
+							<li><a href="../503.html">BLOG TRANSLATION</a></li>
 						</ul>
 					</li>
 					<li><a href="../pages/chord.html">PIANO CHORD</a></li>
@@ -60,6 +60,7 @@ document.write(`
 							<li><a href="../pages/fansub-list.html">FANSUB LIST</a></li>
 						</ul>
 					</li>
+					<li><a href="../pages/color-palette.html">COLOR PALETTE</a></li>
 					<li><a href="https://moefangsubs.github.io/n46-idlist/">MASTERLIST</a></li>
 				</ul>
 			</div>
