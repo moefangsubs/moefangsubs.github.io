@@ -10,7 +10,9 @@
 	<link rel="stylesheet" href="defaultstring/style_sitemap.css">
 	<link rel="stylesheet" href="defaultstring/style_whatsnew.css">
 </head>
+<style>
 
+</style>
 
 <body class="main_sitemap">
 
@@ -19,20 +21,23 @@
 
 <div>
 <div id="headSiteMap">SITE MAP</div>
-<!-- -------------- -->
-<div class="whatsnew">UPDATE
-    <a href="shiawase-nakereba.html">Shiawase nante, Nakereba Ii no ni.</a>
-</div>
 
-	<br/>
+<br/>
+<div class="caption"><span data-count-to="1179" data-duration="10000" class="counter">0</span> takarir dengan lebih dari 80 judul telah dibuat (29 Mei 2024)</div>
+<!-- -------------- -->
+<div class="whatsnew">UPDATE | 23 Mei 2024
+    <a href="live-performance.html">Yamashita Mizuki Graduation Concert DAY 1</a>
+    <a href="shiawase-nakereba.html">Shiawase nante, Nakereba Ii no ni.</a>
+    <a href="live-performance.html">Yamashita Mizuki Graduation Concert DAY 2</a>
+</div>
 	<br/>
 	<!-- <div class="pengumuman"><i class="fas fa-exclamation-circle"></i>Foto profil member Nogizaka46 di beberapa halaman dalam MoeData sudah diperbarui. Untuk halaman 'blog translation' masih dalam tahap migrasi.</div> -->
 	<!-- <br/> -->
 	<br/>
 	<div class="flex-container">
 	<div class="category-flex">
-		<span class="st-categorytitle">TV Variety Show<span>
-		<div class="button-container">
+		<span class="st-categorytitle">TV Variety Show<span>		
+		<div class="button-container">		
 			<a href="nogizaka-skits-act-1.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiskits1.png"/><div class="button-text">NOGIZAKA SKITS</div></a>
 			<a href="nogizaka-skits-act-2.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiskits2.png"/><div class="button-text">NOGIZAKA SKITS ACT 2</div></a>
 			<a href="nogizaka-star-tanjou.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar1.png"/><div class="button-text">NOGIZAKA STAR TANJOU</div></a>
@@ -316,5 +321,49 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+<script>
+    const getNumber = (counter) => {
+  return parseFloat(counter.dataset.countTo);
+};
+const getSpeed = (counter) => {
+  return parseFloat(counter.dataset.duration);
+};
+
+const updateTex = (counter, text) => {
+  counter.textContent = text;
+};
+
+const animate = (counter, countTo, duration) => {
+  let startTime = null;
+
+  let currentTime = Date.now();
+
+  const step = (currentTime) => {
+    if (!startTime) {
+      startTime = currentTime;
+    }
+
+    const progress = Math.min((currentTime - startTime) / duration, 1);
+
+    const currentNum = Math.floor(progress * countTo);
+
+    updateTex(counter, currentNum);
+
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    } else {
+      window.cancelAnimationFrame(window.requestAnimationFrame(step));
+    }
+  };
+
+  window.requestAnimationFrame(step);
+};
+
+const counters = document.querySelectorAll('.counter');
+counters.forEach((counter) => {
+  const countTo = getNumber(counter);
+  const animationDuration = getSpeed(counter);
+  animate(counter, countTo, animationDuration);
+});</script>
 </body>
 </html>

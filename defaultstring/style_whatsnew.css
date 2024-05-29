@@ -4,8 +4,8 @@
     margin-top: 20pt;
     position: relative;
     border: 3pt solid white;
-    border-radius: 10pt;
-    width: 40%;
+    border-radius: 20pt;
+    width: 70%;
     padding: 10pt;
     font-size: 20pt;
     font-weight: bold;
@@ -21,12 +21,14 @@
     font-size: smaller;
     font-weight: 100;
     color: aliceblue;
-    justify-content: start;
     padding-right: 23pt;
     padding-bottom: 5pt;
-    padding-top: 5pt;
+    padding-top: 15pt;
     margin: 1px auto;
     transition: color .5s ease-in-out;
+    text-align: left;
+    /* border: 1pt solid white; */
+    width: 95%;
 }
 
 .whatsnew a:hover {
@@ -63,7 +65,6 @@
 		padding: 8pt;
 		font-size: 14pt;
 	}
-
 	.whatsnew a {
 		padding-bottom: 0pt;
 		text-align: center;

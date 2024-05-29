@@ -4,9 +4,10 @@ body {
 	overflow-y: scroll;
 }
 
-body::-webkit-scrollbar {
-	display: none;
-}
+/* body::-webkit-scrollbar { */
+	/* display: none; */
+/* } */
+
 #headSiteMap {
     font-size: 32pt;
     font-weight: bold;
@@ -14,12 +15,29 @@ body::-webkit-scrollbar {
 	text-align: center;
 }
 
+/* ================================= */
+
+.caption {
+    width: 60%;
+    font-size: 12pt;
+	font-weight:100;
+    text-align: center;
+    margin: 0 auto;
+}
+.caption span {
+	color:#c075e0;
+}
+
+/* ================================= */
+
 .st-categorytitle {
     font-size: 24pt;
     font-weight: normal;
     padding-top: 15pt;
+    padding-bottom: 15pt;
     text-align: center;
 }
+
 
 .flex-container {
     justify-content: center;
@@ -34,7 +52,17 @@ body::-webkit-scrollbar {
     width: 70%;
     margin: 0 auto;
     text-align: center;
-    margin-top: 15pt;
+    margin-top: 35pt;
+    border: 5pt solid #440079;
+    border-radius: 20pt;
+    padding: 20pt 5pt 20pt 5pt;
+    transition: all 0.3s ease-in-out;
+}
+.category-flex:hover {
+    width: 72%;
+    overflow: visible;
+    background: #8b00ff30;
+    border: 5pt solid #8b00ff;
 }
 
 .button-container {
@@ -60,28 +88,47 @@ body::-webkit-scrollbar {
 }
 
 .button-container img {
-	width: 100%;
-	max-width: 100%;
-	border-radius: 5px;
-	transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+	border-radius: 15pt;
 }
 
 .button-container a:hover img {
-	filter: brightness(120%);
-	transform: translateY(-4px);
+	filter: brightness(0.5) contrast(1.2) saturate(0.5);
+	border: 3pt solid #4d008d;
+	border-radius: 15pt;
+	/* transform: translateY(-8px); */
+	transform: scale(95%);
 }
 
 .button-text {
     text-align: left;
     margin: 0;
-    text-shadow: 2px 2px 4px rgb(0 0 0);
+    text-shadow: 0px 0px 11px rgb(0 0 0);
     color: white;
     position: absolute;
-    left: 8px;
-    top: 37%;
-    width: 80%;
+    left: 3%;
+    top: 0;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    /* border: 2pt solid red; */
+    font-size: 1.1vw;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out, all 0.3s ease-in-out;
 }
 
+.button-container a:hover .button-text {
+	/* transform: translateY(-8px); */
+	transform: scale(110%);
+    left: 10%;
+}
 .pengumuman {
     margin: 0 auto;
     width: 65%;
@@ -99,9 +146,12 @@ body::-webkit-scrollbar {
 
 @media (min-width: 0px) and (max-width: 720px) {
 	.category-flex {
-		width: 80%;
+		width: 85%;
+		padding: 20pt 10pt 20pt 10pt;
 	}
-
+	.category-flex:hover {
+		width: 85%;
+	}
 	.flex-container {
 		flex-direction: row;
 	}
@@ -111,12 +161,8 @@ body::-webkit-scrollbar {
 	.button-container a {
 		width: 100%;
 	}
-
 	.button-text {
-		left: 15px;
-		top: 37%;
-		width: 70%;
-		font-size: 14pt;
+		font-size: 13pt;
 	}
 }
 
