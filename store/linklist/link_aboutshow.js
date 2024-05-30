@@ -114,7 +114,7 @@ const acaraData = {
 	collabyakubochannel: "Yakubo Channel (mengambil alih Kubo Channel), merupakan segmen food report dimana Yakubo Mio dari gen-4 akan melaporkan apa yang dimakan oleh para member Nogizaka46 saat Manatsu no Zenkoku Tour 2022.",
 	collabasahiotonasenbatsu: "",
 	selffmadeCompilation: "Kompilasi video yang dibuat oleh MoeFang.",
-	fansubPartner: "This category only for 'Fansub Partner'. Fansub Partner is a collaborative post with MoeFang Subs, which includes the restrictions applied to MoeFang Subs (prohibition of reupload, removal or/and add credits without permission). However, any errors in translation or otherwise are the responsibility of the fansub owner.",
+	fansubPartner: "",
 	randomcontent: "Berbagai garapan MoeFang yang tidak terkategorikan, biasa kami sebut sebagai 'projek santai' atau 'selingan' dari garapan utama.",
 	// // ------------
 	// // ------------
