@@ -47,11 +47,11 @@
 			</div>
 				
 			<div class="isihalaman">
+				<script src="js/lodDataDesc/lod_X_description.js"></script>
 				<script src="js/lodDataDesc/lod_X_imageThumb3p.js"></script>
 				
-				<script src="js/lodDataDesc/lod_X_description.js"></script>
 				<script src="js/lodDataDesc/lod_data_Default_NamAirMemLang.js"></script>
-				<script src="js/lodButton/lod_button_hard.js"></script>	
+				<script src="js/lodButton/lod_button_hard_trak.js"></script>
 				
 				<script src="defaultstring/x_problemunduh.js"></script>
 				<script src="defaultstring/x_warning.js"></script>
@@ -76,5 +76,34 @@
     </article>
 
 </div>
+<script>
+    function hideButtons() {
+        document.querySelectorAll('.episode_nogi').forEach(function(button) {
+            var linkType = button.getAttribute('data-link-type');
+            if (linkType === 'linkTrakteer') {
+                button.style.display = 'none';
+            }
+        });
+    }
+    function toggleButtonsForEpisode(episodeNumber) {
+        hideButtons();        
+        var allowedEpisodes = ['04'];
+        if (allowedEpisodes.includes(episodeNumber)) {
+            document.querySelectorAll('.episode_nogi').forEach(function(button) {
+                var linkType = button.getAttribute('data-link-type');
+                if (linkType === 'linkTrakteer') {
+                    button.style.display = 'inline-block';
+                }
+            });
+        }
+    }
+    document.querySelectorAll('.episodelist').forEach(function(episode) {
+        episode.addEventListener('click', function() {
+            var episodeNumber = this.getAttribute('data-episode');
+            toggleButtonsForEpisode(episodeNumber);
+        });
+    });
+    hideButtons();
+</script>
 </body>
 </html>
