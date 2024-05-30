@@ -132,7 +132,7 @@ const linkTrakteer = {
 "01" : "",
 "02" : "",
 "03" : "",
-"04" : "https://trakteer.id/moefangsubs/showcase/180827-natsu-omoide-no-tsukurikata-3w8tT",
+"04" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
   };
 console.log(linkTrakteer);
 
