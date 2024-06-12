@@ -17,6 +17,7 @@
 	<script type="text/javascript" src="js/getdata1.js"></script>
 	<script type="text/javascript" src="js/getdata2.js"></script>
 	<script type="text/javascript" src="js/getdata3.js"></script>
+	<script type="text/javascript" src="js/getdata5.js"></script>
 	<script type="text/javascript" src="js/buttonTrakteerHover.js"></script>
 	<script type="text/javascript" src="store/linklist/link_aboutshow.js"></script>
 	<script type="text/javascript" src="store/linklist/link_chounogi.js"></script>
@@ -83,4 +84,102 @@
 
 </div>
 </body>
+<script>
+const episodeElementsMap = {
+    '01': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '02': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '03': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '04': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '05': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '06': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '07': ['deskripsiSkits', 'deskripsilagu1'],
+    '08': ['deskripsiSkits', 'deskripsilagu1'],
+    '09': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '10': ['deskripsiSkits', 'deskripsilagu1'],
+    '11': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '12': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '13': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '14': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '15': ['deskripsiSkits', 'deskripsilagu1'],
+    '16': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '17': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '18': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '19': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '20': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '21': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '22': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '23': ['deskripsiSkits'],
+    '24': ['deskripsiSkits'],
+    '25': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '26': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '27': ['deskripsiSkits', 'deskripsilagu1'],
+    '28': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '29': ['deskripsiSkits', 'deskripsilagu1'],
+    '30': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '31': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '32': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '33': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '34': ['deskripsiSkits', 'deskripsilagu1'],
+    '35': ['deskripsiSkits', 'deskripsilagu1'],
+    '36': ['deskripsiSkits'],
+    '37': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '38': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '39': ['deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2'],
+    '40': ['deskripsiSkits', 'deskripsilagu1'],
+    '41': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '42': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '43': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '44': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '45': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '46': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '47': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+};
+
+
+    function hideElements() {
+        ['deskripsiSkits', 'deskripsiguest', 'deskripsisenpai', 'deskripsiSkits', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'].forEach(function(id) {
+            var element = document.getElementById(id);
+            if (element) {
+                var nextBr = element.nextElementSibling;
+                if (nextBr && nextBr.tagName === 'BR') {
+                    nextBr.remove(); // Menghapus tag <br/> yang sejajar dengan span
+                }
+                element.remove(); // Menghapus elemen <span> dari DOM
+            }
+        });
+    }
+    
+    function showElement(id) {
+        var element = document.createElement('span');
+        element.id = id;
+        var referenceElement = document.getElementById('deskripsiBahasaSub');
+        referenceElement.insertAdjacentElement('beforebegin', element);
+        referenceElement.insertAdjacentHTML('beforebegin', '<br/>');
+    }
+    
+    function toggleElementsForEpisode(episodeNumber) {
+        hideElements();
+        var elementsToShow = episodeElementsMap['deskripsiSkits', episodeNumber] || ['deskripsiSkits', ];
+        elementsToShow.forEach(showElement);
+    }
+    
+    document.querySelectorAll('.episodelist').forEach(function(episode) {
+        episode.addEventListener('click', function() {
+            var episodeNumber = this.getAttribute('data-episode');
+            toggleElementsForEpisode(episodeNumber);
+        });
+    });
+    
+    hideElements();
+</script>
+
+
+
+
+
+
+
+
+
+
 </html>

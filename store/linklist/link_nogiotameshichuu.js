@@ -38,7 +38,12 @@ const descEpisodeSynopsis = {
 	"32" : "Di episode 32 ini adalah episode menantang kemampuan diri para member dalam kamiwaza atau keahlian. Ada 2 member gen-5 yang pertama kalinya berpartisipasi dalam acara ini, yaitu Ogawa Aya dan Tomisato Nao. Bersama senpainya, Sato Kaede dan Yoshida Ayano Christie, akan menantang berbagai rintangan. Para member ini akan memilih berbagai kamiwaza yang ingin mereka tantang.",
 	"33" : "Di episode 33 ini adalah episode olahraga basket. Yang menjadi otameshi girls kali ini ada dari Kuromi Haruka, Seimiya Rei, Hayashi Runa, dan yang baru pertama kali tampil di Otameshichuu, Okamoto Hina dari gen-5. Disini mereka akan melakukan berbagai hal, seperti menguji teknik-teknik dasar basket, dan pengetahuan seputar basket.",
 	"34" : "Di episode 34 ini adalah para member Otameshi girls di episode sebelumnya menantang diri pada pengetahuan soal Era Reiwa. Dari makanan, budaya dan mainan yang biasa dilakukan pada era tersebut. Keseruan apa saja di Otameshichuu yang syuting sambil jalan-jalan ini?",
-	"35" : "Di episode 35 adalah episode penutup di penghujung tahun 2023. Maka dari itu, ditutup dengan makan hidangan nabe yang dibuat oleh para otameshi girls, termasuk Ito Riria karena ada satu member yang berhalangan hadir. Otameshi girls kali ini ada Yoshida Ayano Christie, Sato Rika, dan Matsuo Miyu. Di akhir segmen, ada segmen dimana hal apa yang ingin orang-orang puji terhadap keberhasilannya di tahun ini." 
+	"35" : "Di episode 35 ini adalah episode penutup di penghujung tahun 2023. Maka dari itu, ditutup dengan makan hidangan nabe yang dibuat oleh para otameshi girls, termasuk Ito Riria karena ada satu member yang berhalangan hadir. Otameshi girls kali ini ada Yoshida Ayano Christie, Sato Rika, dan Matsuo Miyu. Di akhir segmen, ada segmen dimana hal apa yang ingin orang-orang puji terhadap keberhasilannya di tahun ini.",
+	"36" : "Di episode 36 ini para otameshi girls beserta Suzuki Taku yang ikut menjadi pemain mencoba keberuntungannya dari berbagai segmen.",
+	"37" : "Di episode 37 ini adalah bagian pertama dari hadiah untuk Kanagawa Saya yang telah mengumpulkan tiga otameshisha pergi jalan-jalan ke kampung halamannya Riria, Okinawa!",
+	"38" : "Di episode 38 ini adalah bagian terakhir dari hadiah untuk Kanagawa Saya yang telah mengumpulkan tiga otameshisha pergi jalan-jalan ke kampung halamannya Riria, Okinawa! Kemana lagi kah tujuan mereka selama disana?",
+	"39" : "Di episode 39 ini adalah otameshi angka 4. Meskipun seharusnya ada 4 member gen-4, namun satu orang terhalang jadwal, maka Riria ikut menjadi bagian otameshi girls meskipun dia tidak ada hubungannya dengan angka 4.",
+	"40" : "Di episode 40 ini dengan otameshi girls di episode sebelumnya pergi mengunjungi perkebunan stroberi, dan mencoba otameshi kecocokan dirinya sebagai idola dengan stoberi!",
   };
 
 
@@ -105,7 +110,12 @@ const descOnAirDate = {
 	"32" : "30 September 2023",
 	"33" : "28 Oktober 2023",
 	"34" : "26 November 2023",
-	"35" : "23 Desember 2023" 
+	"35" : "23 Desember 2023",
+	"36" : "27 Januari 2024",
+	"37" : "24 Februari 2024",
+	"38" : "30 Maret 2024",
+	"39" : "27 April 2024",
+	"40" : "25 Mei 2024",
   };
 
 
@@ -148,7 +158,12 @@ const memberParticipate = {
 	"32" : "伊藤理々杏、吉田綾乃クリスティー、佐藤楓、小川彩、冨里奈央",
 	"33" : "伊藤理々杏、黒見明香、清宮レイ、林瑠奈、岡本姫奈",
 	"34" : "伊藤理々杏、黒見明香、清宮レイ、林瑠奈、岡本姫奈",
-	"35" : "伊藤理々杏、吉田綾乃クリスティー、佐藤璃果、松尾美佑" 
+	"35" : "伊藤理々杏、吉田綾乃クリスティー、佐藤璃果、松尾美佑",
+	"36" : "伊藤理々杏、吉田綾乃クリスティー、佐藤璃果、松尾美佑",
+	"37" : "伊藤理々杏、金川紗耶、弓木奈於",
+	"38" : "伊藤理々杏、金川紗耶、弓木奈於",
+	"39" : "伊藤理々杏、柴田柚菜、佐藤璃果、松尾美佑",
+	"40" : "伊藤理々杏、柴田柚菜、佐藤璃果、松尾美佑", 
   };
 
 
@@ -267,7 +282,12 @@ const linkHardsub = {
 	"32" : "https://lokerwfh.net/Aq3PetKJ",
 	"33" : "https://lokerwfh.net/jnT3gR",
 	"34" : "https://lokerwfh.net/4MqBnV",
-	"35" : "https://lokerwfh.net/SoEx"
+	"35" : "https://lokerwfh.net/SoEx",
+	"36" : "https://sfl.gl/tb92Kh",
+	"37" : "https://sfl.gl/8oY8XD",
+	"38" : "https://sfl.gl/2ClT",
+	"39" : "https://sfl.gl/BC3i",
+	"40" : "https://sfl.gl/SAmsB3",
   };
   
 // =======================
@@ -309,7 +329,12 @@ const linkSoftsub = {
 	"32" : "https://lokerwfh.net/Xh4dbiNF",
 	"33" : "https://lokerwfh.net/IKhpui",
 	"34" : "https://lokerwfh.net/GxrPqRt",
-	"35" : "https://lokerwfh.net/cSJg0"
+	"35" : "https://lokerwfh.net/cSJg0",
+	"36" : "https://sfl.gl/662NHcO0",
+	"37" : "https://sfl.gl/SQ0V",
+	"38" : "https://sfl.gl/iJ4J",
+	"39" : "https://sfl.gl/9WIcLqS",
+	"40" : "https://sfl.gl/6HEL",
   };
 
 // =======================

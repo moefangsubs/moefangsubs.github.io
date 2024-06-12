@@ -2,6 +2,11 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
+				<div class="episodelist buttonEpsList" data-episode="40"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-40.jpg"><div class="epsname">Episode 40</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="39"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-39.jpg"><div class="epsname">Episode 39</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="38"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-38.jpg"><div class="epsname">Episode 38</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="37"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-37.jpg"><div class="epsname">Episode 37</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="36"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-36.jpg"><div class="epsname">Episode 36</div><span class="epsbadgeNew"></span></div>
 				<div class="episodelist buttonEpsList" data-episode="35"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-35.jpg"><div class="epsname">Episode 35</div></div>
 				<div class="episodelist buttonEpsList" data-episode="34"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-34.jpg"><div class="epsname">Episode 34</div></div>
 				<div class="episodelist buttonEpsList" data-episode="33"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-33.jpg"><div class="epsname">Episode 33</div></div>

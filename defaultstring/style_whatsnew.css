@@ -1,5 +1,4 @@
 .whatsnew {
-    display: flex;
     margin: 0 auto;
     margin-top: 20pt;
     position: relative;
@@ -10,67 +9,115 @@
     font-size: 20pt;
     font-weight: bold;
     color: bisque;
-    flex-direction: column;
-    flex-wrap: nowrap;
     align-items: center;
     background-color: #320d5154;
+    text-align: center;
 }
 
-.whatsnew a {
+.update-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10pt;
+}
+
+.links-container {
     display: flex;
-    font-size: smaller;
-    font-weight: 100;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.links-container a {
+    display: flex;
+    font-size: 14pt;
+    font-weight: bold;
     color: aliceblue;
-    padding-right: 23pt;
-    padding-bottom: 5pt;
-    padding-top: 15pt;
-    margin: 1px auto;
+    padding: 15pt 5pt;
+    margin: 1px;
     transition: color .5s ease-in-out;
-    text-align: left;
-    /* border: 1pt solid white; */
-    width: 95%;
+    text-align: center;
+    width: 24%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
 }
 
-.whatsnew a:hover {
-    color: #8b00ff
+.links-container a:hover {
+    color: yellow;
 }
 
-.whatsnew a:before {
-    content: '\f5bc';
-	font-family: 'FontAwesome';
-    color: red;
-    padding-right: 8pt;
-    font-weight: 700;
-    /* font-size: 12pt; */
-    display: flex;
-    flex-direction: row;
-    animation: whatsnew .5s ease-in-out infinite;
+
+.links-container a img {
+    border-radius: 5pt;
+	width: 100%;
+	margin-bottom:10pt;
+	animation: scaleAnimation 2s ease-in-out infinite;
+    transition: filter 0.3s ease-in-out;
 }
+
+
+.links-container a:hover img {
+    filter: brightness(1.2);
+}
+
+
+@keyframes scaleAnimation {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.98);
+    }
+}
+
+/* .links-container a:before { */
+    /* content: '\f5bc'; */
+    /* font-family: 'FontAwesome'; */
+    /* color: red; */
+    /* padding-right: 8pt; */
+    /* font-weight: 700; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* animation: whatsnew .5s ease-in-out infinite; */
+/* } */
 
 @keyframes whatsnew {
-  0% {
-    color: #8b00ff;
-  }
-  50% {
-    color: #ffffff;
-  }
-  100% {
-    color: #8b00ff;
-  }
+    0% {
+        color: #8b00ff;
+    }
+    50% {
+        color: #ffffff;
+    }
+    100% {
+        color: #8b00ff;
+    }
+}
+
+@media (min-width: 0px) and (min-width: 721px) and (max-width: 1280px) {
+
+    .links-container a {
+        width: 48%;
+        text-align: center;
+        padding-bottom: 0pt;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 720px) {
-	.whatsnew {
-		width: 80%;
-		padding: 8pt;
-		font-size: 14pt;
-	}
-	.whatsnew a {
-		padding-bottom: 0pt;
-		text-align: center;
-	}
-	.whatsnew a:before {
-    padding-right: 4pt;
-    font-size: 11pt;
-	}
+    .whatsnew {
+        width: 80%;
+        padding: 8pt;
+        font-size: 14pt;
+    }
+    .links-container {
+        flex-direction: column;
+    }
+    .links-container a {
+        width: 95%;
+        text-align: center;
+        padding-bottom: 0pt;
+    }
+    .links-container a:before {
+        padding-right: 4pt;
+        font-size: 11pt;
+    }
 }

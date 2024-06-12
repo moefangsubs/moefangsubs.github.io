@@ -24,6 +24,7 @@ const descEpisodeSynopsis = {
 "18" : "Episode 18 kali ini kembali dari Okuda Iroha, dimana ia ingin mencoba membuat karpet bulu. Motif yang ingin dia buat adalah makanan favoritnya, yaitu naan. Apakah Iroha-chan berhasil? ",
 "19" : "Episode 19 kali ini kembali dari Okamoto Hina. Kali ini dia datang ke Yomiuri Land, dan pertama kalinya mencoba masuk ke rumah hantu! Jika ia berhasil, ia akan bisa bebas ke berbagai wahana yang ada disana sebagai hadiah.",
 "20" : "Episode 20 kali ini kembali di seri hewan bersama Tomisato Nao. Di episode sebelumnya, Nao yang hanya sekadar mengunjungi tempat hewan yaitu burung hantu, kali ini dia ingin mencoba pergi ke shelter anjing dan mengajak salah satu anjing disana untuk berkeliling kota.",
+"21" : "Episode 21 kali ini kembali dari Ichinose Miku, dimana ia ingin mempelajari suatu yang sangat penting, yaitu table manner atau etika saat di meja makan terutama saat-saat formal dan di restoran bintang. Apakah Miikyun berhasil mempelajarinya?",
 };
 
 // =======================
@@ -76,6 +77,7 @@ const descOnAirDate = {
 "18" : "26 Januari 2024",
 "19" : "9 Februari 2024",
 "20" : "15 Maret 2024",
+"21" : "30 April 2024",
   };
 console.log(descOnAirDate);
 
@@ -105,6 +107,7 @@ const memberParticipate = {
 "18" : "奥田いろは",
 "19" : "岡本姫奈",
 "20" : "冨里奈央",
+"21" : "一ノ瀬美空",
   };
 console.log(memberParticipate);
 
@@ -192,6 +195,7 @@ const linkHardsub = {
 "18" : "https://lokerwfh.net/LSCy7WL",
 "19" : "https://lokerwfh.net/liaDUZ00",
 "20" : "https://lokerwfh.net/ZGtm",
+"21" : "https://sfl.gl/uJ5kU2A",
   };
 console.log(linkHardsub);
 

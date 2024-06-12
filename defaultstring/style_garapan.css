@@ -644,7 +644,8 @@ flex: 1;
 #descEpisode {
 	font-size: 24pt;
 }
-#deskripsijudul, #descOnAirDate, #deskripsimember, #deskripsiSkits, #deskripsiSkitsA, #deskripsiSkitsB, 
+#deskripsijudul, #descOnAirDate, #deskripsimember, #deskripsiSkits, #deskripsiSkitsA, #deskripsiSkitsB,
+#deskripsiguest, #deskripsisenpai,
 #deskripsilagu1, #deskripsilagu2, #deskripsilagu3, #deskripsilagu4, #deskripsilagu5, #deskripsilagu6, #deskripsilagu7, 
 #NamaSastra, #PengarangSastra,
 #RestoNama, #RestoAlamat,
@@ -654,7 +655,8 @@ flex: 1;
     display: block;
 	margin-top: 5px;
 }
-#deskripsijudul i, #descOnAirDate i, #deskripsimember i, #deskripsiSkits i, #deskripsiSkitsA i, #deskripsiSkitsB i, 
+#deskripsijudul i, #descOnAirDate i, #deskripsimember i, #deskripsiSkits i, #deskripsiSkitsA i, #deskripsiSkitsB i,
+#deskripsiguest i, #deskripsisenpai i,
 #deskripsilagu1 i, #deskripsilagu2 i, #deskripsilagu3 i,  #deskripsilagu4 i, #deskripsilagu5 i, #deskripsilagu6 i, #deskripsilagu7 i, 
 #NamaSastra i, #PengarangSastra i,
 #RestoNama i, #RestoAlamat i,

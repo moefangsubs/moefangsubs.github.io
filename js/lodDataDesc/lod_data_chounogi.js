@@ -5,6 +5,8 @@ document.write(`
 	<span id="descOnAirDate"></span><br/>
 	<span id="deskripsimember"></span><br/>
 	<span id="deskripsiSkits"></span><br/>
+	<span id="deskripsiguest"></span><br/>
+	<span id="deskripsisenpai"></span><br/>
 	<span id="deskripsilagu1"></span><br/>
 	<span id="deskripsilagu2"></span><br/>
 	<span id="deskripsilagu3"></span><br/>

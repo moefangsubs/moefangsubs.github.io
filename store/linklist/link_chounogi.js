@@ -43,7 +43,14 @@ const descEpisodeSynopsis = {
   "37": "Di episode 37 kali ini kita dibuka dengan skits tanpa Ozwald, yaitu SAKULUCKY. Lalu skits keduanya adalah Uzamurai yang akan menebas pria menyebalkan di restoran keluarga",
   "38": "Di episode 38 kali ini kita buka dengan penampilan para member membawakan lagu 'Shabondama' dari Morning Musume. Lalu untuk skitsnya kembali dari SAKULUCKY. Setelah itu kita akan melihat playlist dari Ichinose Miku.",
   "39": "Di episode 39 kali ini kita buka dengan penampilan para member membawakan lagu 'Kimi ni Todoke' dari flumpool. Untuk skitsnya adalah 'Amaioki' yang katanya ini adalah kakaknya Umaioki.",
-  "40": "Di episode 40 kali ini diadakan penghargaan Charademy, sama seperti pendahulunya Nogizaka Skits era gen-4 dimana penghargaan diberikan kepada para member berdasarkan perannya. Disini terbagi menjadi 3 nominasi, yaitu Aktris Pemeran Pendukung, Pemeran Pria Terbaik, Pemeran Utama Wanita Terbaik. Siapakah yang berhasil memenangkannya?"
+  "40": "Di episode 40 kali ini diadakan penghargaan Charademy, sama seperti pendahulunya Nogizaka Skits era gen-4 dimana penghargaan diberikan kepada para member berdasarkan perannya. Disini terbagi menjadi 3 nominasi, yaitu Aktris Pemeran Pendukung, Pemeran Pria Terbaik, Pemeran Utama Wanita Terbaik. Siapakah yang berhasil memenangkannya?",
+  "41": "Setelah sekian lama akhirnya seri ini kembali dilanjutkan. Formatnya kembali seperti sebelumnya tanpa skits, namun ada sedikit fresh yaitu adanya segmen dengan bintang tamu. Kali ini bintang tamunya adalah vokalis Omori Motoki, dan senpai member Kubo Shiori dari gen-3.",
+  "42": "Episode 42 kali ini dibuka dengan lagu yang dibawakan oleh Inoue Nagi, Tomisato Nao, Ogawa Aya, dan Okamoto Hina. Bintang tamunya adalah Crystal Kay dan senpai member Ito Riria dari gen-3.",
+  "43": "Episode 43 kali ini dibuka dengan lagu spesial hari Ibu yang dibawakan oleh Inoue Nagi dan Ikeda Teresa, dan bintang tamunya Koresawa dan senpai member Yumiki Nao dari gen-4 yang pada seri Shin-Nogizaka Star Tanjou tidak sempat ikut bernyanyi.",
+  "44": "Episode 44 kali ini spesial lagu-lagu dari Yamaguchi Momoe, bintang tamunya adalah putra sulungnya Yamaguchi Momoe yaitu Miura Yutaro, dan senpai member Shibata Yuna dari gen-4. ",
+  "45": "Episode 45 kali ini ada cuplikan dimana photobook buatan Tomisato Nao dengan isi foto-foto Ioki Mao diperlihatkan, bintang tamunya diva legendaris Minamino Yoko dan senpai member Seimiya Rei dari gen-4 yang mana acara ini disiarkan telah mengumumkan kelulusannya.",
+  "46": "Episode 46 kali ini dibuka dengan lagu yang fun dengan dibawakan oleh Inoue Nagi, Ichinose Miku dan Okamoto Hina. Lalu bintang tamunya Ieiri Leo dan senpai member Iwamoto Renka dari gen-3 yang pertama kalinya bernyanyi solo di depan TV.",
+  "47": "Episode 47 kali ini dibuka dengan Kawasaki Sakura dengan lagunya yang sedikit nge-rap, bintang tamunya Inoue Sonoko dan senpai member Yoshida Ayano Christie dari gen-3 yang pertama kalinya bernyanyi solo di depan TV.",
   };
 
 
@@ -115,7 +122,14 @@ const descOnAirDate = {
   "37": "29 Januari 2024",
   "38": "5 Februari 2024",
   "39": "12 Februari 2024",
-  "40": "19 Februari 2024"
+  "40": "19 Februari 2024",
+  "41": "29 April 2024",
+  "42": "6 Mei 2024",
+  "43": "13 Mei 2024",
+  "44": "20 Mei 2024",
+  "45": "27 Mei 2024",
+  "46": "3 Juni 2024",
+  "47": "10 Juni 2024",
 };
 
 // =======================
@@ -162,7 +176,14 @@ const descSong1 = {
   "37": "カズン「冬のファンタジー」",
   "38": "モーニング娘。「シャボン玉」",
   "39": "flumpool「君に届け」",
-  "40": "サンボマスター「できっこないをやらなくちゃ」"
+  "40": "サンボマスター「できっこないをやらなくちゃ」",
+  "41": "Mrs. GREEN APPLE「ケセラセラ」",
+  "42": "ゴールデンボンバー「女々しくて」",
+  "43": "コレサワ「人生」",
+  "44": "山口百恵「横須賀ストーリー」",
+  "45": "南野陽子「吐息でネット」",
+  "46": "Creepy Nuts×Ayase×幾田りら「ばかまじめ」",
+  "47": "水曜日のカンパネラ「エジソン」",
 };
 
 
@@ -210,7 +231,14 @@ const descSong2 = {
   "37": "",
   "38": "小田和正「たしかなこと」",
   "39": "華原朋美「I BELIEVE」",
-  "40": ""
+  "40": "",
+  "41": "Mrs. GREEN APPLE「春愁」",
+  "42": "緑黄色社会「花になって」",
+  "43": "DISH//「沈丁花」",
+  "44": "山口百恵「イミテイション・ゴールド」",
+  "45": "Tani Yuuki「愛言葉」",
+  "46": "あたらよ「交差点」",
+  "47": "井上苑子「線香花火」",
 };
 
 
@@ -258,7 +286,14 @@ const descSong3 = {
   "37": "",
   "38": "",
   "39": "",
-  "40": ""
+  "40": "",
+  "41": "クリープハイプ「栞」",
+  "42": "Crystal Kay「恋におちたら」",
+  "43": "erica「あなたへ贈る歌」",
+  "44": "山口百恵「さよならの向う側」",
+  "45": "森七菜「スマイル」",
+  "46": "家入レオ「君がくれた夏」",
+  "47": "ヨルシカ「だから僕は音楽を辞めた」",
 };
 
 
@@ -306,7 +341,14 @@ const descSkits = {
   "37": "「SAKULUCKY」第1話 & 「ウざむらい奥田色之助」第2話",
   "38": "「SAKULUCKY」第2話",
   "39": "「甘道師範 あまいおき師匠」",
-  "40": "乃木スタキャラデミー賞"
+  "40": "乃木スタキャラデミー賞",
+  "41": "",
+  "42": "",
+  "43": "",
+  "44": "",
+  "45": "",
+  "46": "",
+  "47": "",
 };
 
 
@@ -331,7 +373,57 @@ for (let i = 1; i <= 9999; i++) {
 console.log(memberParticipate);
 
 
+// =======================
+// PARTISIPASI ORANG & TAMU
+// =======================
 
+const additionalGuests = {
+  "41": "大森元貴",
+  "42": "Crystal Kay",
+  "43": "コレサワ",
+  "44": "三浦祐太朗",
+  "45": "南野陽子",
+  "46": "家入レオ",
+  "47": "井上苑子",
+};
+
+const guestArtis = {};
+
+for (let i = 1; i <= 39; i++) {
+    const key = i.toString().padStart(2, '0');
+    guestArtis[key] = "";
+}
+
+Object.assign(guestArtis, additionalGuests);
+
+console.log(guestArtis);
+
+
+
+// =======================
+// PARTISIPASI ORANG & TAMU
+// =======================
+
+const additionalSenpai = {
+  "41": "久保史緒里",
+  "42": "伊藤理々杏",
+  "43": "弓木奈於",
+  "44": "柴田柚菜",
+  "45": "清宮レイ",
+  "46": "岩本蓮加",
+  "47": "吉田綾乃ｸﾘｽﾃｨｰ",
+};
+
+const guestSenpai = {};
+
+for (let i = 1; i <= 39; i++) {
+    const key = i.toString().padStart(2, '0');
+    guestArtis[key] = "";
+}
+
+Object.assign(guestSenpai, additionalSenpai);
+
+console.log(guestSenpai);
 // =======================
 // FILE PASSWORD
 // =======================
@@ -389,6 +481,13 @@ const imageThumbBig = {
 "38" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-38.jpg?updatedAt=1708878444638",
 "39" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-39.jpg?updatedAt=1708878185590",
 "40" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-40.jpg",
+"41" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-41.jpg",
+"42" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-42.jpg",
+"43" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-43.jpg",
+"44" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-44.jpg",
+"45" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-45.jpg",
+"46" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-46.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-47.jpg",
 };
 console.log(imageThumbBig);
 
@@ -481,6 +580,13 @@ const linkHardsub = {
   "38" : "https://lokerwfh.net/oDZNbxg",
   "39" : "https://lokerwfh.net/XdoE",
   "40" : "https://lokerwfh.net/6jo9rGt",
+  "41" : "https://sfl.gl/08Ik",
+  "42" : "https://sfl.gl/XbcebtU",
+  "43" : "https://sfl.gl/faxnyp",
+  "44" : "https://sfl.gl/c62My3",
+  "45" : "https://sfl.gl/6jQK6",
+  "46" : "https://sfl.gl/FWCnr8",
+  "47" : "https://sfl.gl/gdv00E",
 };
 
 // =======================
@@ -528,6 +634,13 @@ const linkSoftsub = {
   "38" : "https://lokerwfh.net/dY9i1ae",
   "39" : "https://lokerwfh.net/L7vbronr",
   "40" : "https://lokerwfh.net/dS0CA",
+  "41" : "https://sfl.gl/3s0sY",
+  "42" : "https://sfl.gl/tc4oI",
+  "43" : "https://sfl.gl/ySHWv7bt",
+  "44" : "https://sfl.gl/o9uTV",
+  "45" : "https://sfl.gl/Rsuzgb",
+  "46" : "https://sfl.gl/AjwZ",
+  "47" : "https://sfl.gl/PF06KHZR",
 };
 
 // =======================
