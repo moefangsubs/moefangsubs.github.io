@@ -17,6 +17,7 @@ body::before {
     align-items: center;
     height: 100vh;
     margin: 0;
+	font-family: "Ubuntu";
 }
 #title {
     font-size: 32pt;
@@ -50,19 +51,25 @@ input[type="text"] {
     border-radius: 6pt;
     width: 50%;
 }
-
 button {
     padding: 10px;
     font-size: 16px;
-    background-color: purple;
+    background-image: url('https://i.giphy.com/kDkNFlVyQXfSNSv1AE.webp');
+    background-size: 200%;
     color: white;
     border: none;
+    border-radius: 5pt;
     cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+    transition: transform 0.2s ease, filter 0.2s ease;
 }
 
 button:hover {
-    background-color: darkviolet;
+    transform: scale(1.2);
+    filter: brightness(3);
 }
+
 
 .loading {
     font-size: 24px;
@@ -79,11 +86,24 @@ button:hover {
 	font-weight:800;
 	-webkit-text-fill-color: transparent;
 	background-color: #0d61ff;
-	background-image: url(https://i.giphy.com/p6EDJOPtyd0DJSuDef.webp);
+	background-image: url(https://i.giphy.com/l9sRvKO1UThHSCZr3T.webp);
 	background-clip: text;
 	background-size: 100%;
 	-webkit-background-clip: text;
 	}
+#shareButton {
+    display: none;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0d61ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
 
 @media (max-width: 600px) {
 

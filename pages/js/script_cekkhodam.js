@@ -1,36 +1,36 @@
 const khodamList = [
     "Gigi Kakki",
     "Jeruk Kakki",
-    "Kaki furai Kakki",
-    "Alis 45 derajat Haruka",
+    "Kaki Furai Kakki",
+    "Alis 45 Derajat Haruka",
     "Origami Bangau Kakki",
     "Kambing Yoda",
     "Daging Kuda Yoda",
     "Sepeda Roda Satu Yoda",
-	"Stik PS Ayatie",
+	"Stik Ps Ayatie",
 	"Bet Ayatie",
 	"Yakiniku Ayatie",
 	"Gitar Renka",
 	"Sepatu Roda Renka",
 	"Yoghurt Aloe Vera Iroha",
 	"Kamishibai Iroha",
-	"Anpan mentega Iroha",
+	"Anpan Mentega Iroha",
 	"Gitar Iroha",
 	"Gitar Hazuki",
 	"Air Mata Yakubo",
 	"Boba Yakubo",
-	"Idol goods Yakubo",
+	"Idol Goods Yakubo",
 	"Kapten Ume",
-	"Tongkat estafet Riria",
+	"Tongkat Estafet Riria",
 	"Mitarashi Dango Sakuchan",
 	"Klarinet Sakuchan",
 	"Sepatu Balet Hina",
 	"Sepatu Balet Tamami",
-	"Lidah sapi Shiori",
+	"Lidah Sapi Shiori",
 	"Miso Katsu Runa",
 	"Seruling Reno",
 	"Permen Kapas Reno",
-	"Ramen tulang babi Hazuki",
+	"Ramen Tulang Babi Hazuki",
 	"Tomat Aaya",
 	"Backflip Miyu",
 	"Pir Miyu",
@@ -52,11 +52,11 @@ const khodamList = [
 	"Udang Goreng Tepung Terepan",
 	"Surume Miikyun",
 	"Gingsul Satsuki",
-	"Plin plan Satsuki",
+	"Plin Plan Satsuki",
 	"Buah Kering Satsuki",
-	"Ring basket Satsuki",
+	"Ring Basket Satsuki",
 	"Sushi Kerang Satsuki",
-	"Rei Ketua OSIS",
+	"Rei Ketua Osis",
 	"Rei Fasih Bahasa Inggris",
 	"Jeruk Rei",
 	"Tongkat Biliar Mayutan",
@@ -68,7 +68,7 @@ const khodamList = [
 	"Panah Nagi",
 	"Busur Nagi",
 	"Ohagi Nagi",
-	"paprika isi daging kesukaan Nagi",
+	"Paprika Isi Daging Kesukaan Nagi",
 	"Sepatu Ski Sakutan",
 	"Stroberi Sakutan",
 	"Ceri Sakutan",
@@ -80,17 +80,17 @@ const khodamList = [
 	"Bola Basket Yanchan",
 	"Bola Basket Yumiki",
 	"Sendok Zuki",
-	"Hagi no Tsuki Shiori",
+	"Hagi No Tsuki Shiori",
 	"Kung Fu Kuromi",
 	"Belalang Sembah Kuromi",
-	"Xiao long bao Kuromi",
+	"Xiao Long Bao Kuromi",
 	"Matras Tamami",
 	"Master Gambar Tamami",
 	"Pompom Cheerleader Yuna",
 	"Omurice Yuna",
 	"Sarung Tangan Softball Mayutan",
 	"Ninja Warrior Denchan",
-	"Robot AI Denchan",
+	"Robot Ai Denchan",
 	"Sepatu Lari Denchan",
 	"Wajan Telur Gulung Satsuki",
 	"Kok Badminton Denchan",
@@ -100,7 +100,7 @@ const khodamList = [
 	"Sungai Arno",
 	"Sempoa Aaya",
 	"Stik Drum Aaya",
-	"Tokek macan tutul Aruno",
+	"Tokek Macan Tutul Aruno",
 	"Sanrio Reno",
 	"Headphone Reno",
 	"Mata Putih Runa",
@@ -108,7 +108,7 @@ const khodamList = [
 	"Buku Bahasa Isyarat Runa",
 	"Omurice Runa",
 	"Oven Microwave Runa",
-	"Yumiki Tsundere di Rumah",
+	"Spatula Yumiki",
 	"Takoyaki Seira",
 	"Osaka Medhok Seira",
 	"Onsen Ume",
@@ -127,17 +127,16 @@ function hashName(name) {
     let hash = 0;
     for (let i = 0; i < name.length; i++) {
         hash = (hash << 5) - hash + name.charCodeAt(i);
-        hash |= 0; // Convert to 32bit integer
+        hash |= 0;
     }
     return Math.abs(hash) % khodamList.length;
 }
 
 function checkKhodam() {
     const nameInput = document.getElementById('nameInput').value.trim();
-    const nameParts = nameInput.split(' ');
-
-    if (nameInput.length < 5 || nameParts.length < 2) {
-        alert('Nama harus minimal 5 karakter dan terdiri dari minimal dua kata (nama depan dan nama belakang)');
+    const validCharsRegex = /^[a-zA-Z0-9\s@\-_]+$/;
+    if (nameInput.length < 5 || !validCharsRegex.test(nameInput)) {
+        alert('Nama harus minimal 5 karakter dan hanya boleh mengandung huruf, angka, spasi, @, -, dan _');
         return;
     }
 
