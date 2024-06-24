@@ -9,7 +9,7 @@
 	<!-- Meta -->
     <meta property="og:title" content="MoeFang Subs | Chou Nogizaka Star Tanjou!" />
     <meta property="og:description" content="Chou Nogizaka Star Tanjou!" />
-    <meta property="og:image" content="https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-47.jpg" />
+    <meta property="og:image" content="https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-48.jpg" />
     <meta property="og:image:width" content="800" />
     <meta property="og:image:height" content="450" />
 	
@@ -140,6 +140,7 @@ const episodeElementsMap = {
     '45': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
     '46': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
     '47': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
+    '48': ['deskripsiguest', 'deskripsisenpai', 'deskripsilagu1', 'deskripsilagu2', 'deskripsilagu3'],
 };
 
 
@@ -149,9 +150,9 @@ const episodeElementsMap = {
             if (element) {
                 var nextBr = element.nextElementSibling;
                 if (nextBr && nextBr.tagName === 'BR') {
-                    nextBr.remove(); // Menghapus tag <br/> yang sejajar dengan span
+                    nextBr.remove(); 
                 }
-                element.remove(); // Menghapus elemen <span> dari DOM
+                element.remove();
             }
         });
     }

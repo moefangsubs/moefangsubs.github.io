@@ -51,6 +51,7 @@ const descEpisodeSynopsis = {
   "45": "Episode 45 kali ini ada cuplikan dimana photobook buatan Tomisato Nao dengan isi foto-foto Ioki Mao diperlihatkan, bintang tamunya diva legendaris Minamino Yoko dan senpai member Seimiya Rei dari gen-4 yang mana acara ini disiarkan telah mengumumkan kelulusannya.",
   "46": "Episode 46 kali ini dibuka dengan lagu yang fun dengan dibawakan oleh Inoue Nagi, Ichinose Miku dan Okamoto Hina. Lalu bintang tamunya Ieiri Leo dan senpai member Iwamoto Renka dari gen-3 yang pertama kalinya bernyanyi solo di depan TV.",
   "47": "Episode 47 kali ini dibuka dengan Kawasaki Sakura dengan lagunya yang sedikit nge-rap, bintang tamunya Inoue Sonoko dan senpai member Yoshida Ayano Christie dari gen-3 yang pertama kalinya bernyanyi solo di depan TV.",
+  "48": "Episode 48 kali ini dibuka dengan lagu spesial hari Ayah yang dibawakan oleh Ogawa Aya, Sugawara Satsuki, dan Ikeda Teresa. Bintang tamunya tentu yang cocok dengan tema hari Ayah, yaitu penyanyi legendaris Kiyama Yusaku."
   };
 
 
@@ -130,6 +131,7 @@ const descOnAirDate = {
   "45": "27 Mei 2024",
   "46": "3 Juni 2024",
   "47": "10 Juni 2024",
+  "48": "17 Juni 2024",
 };
 
 // =======================
@@ -184,6 +186,7 @@ const descSong1 = {
   "45": "南野陽子「吐息でネット」",
   "46": "Creepy Nuts×Ayase×幾田りら「ばかまじめ」",
   "47": "水曜日のカンパネラ「エジソン」",
+  "48": "FUNKY MONKEY BABYS「ヒーロー」",
 };
 
 
@@ -239,6 +242,7 @@ const descSong2 = {
   "45": "Tani Yuuki「愛言葉」",
   "46": "あたらよ「交差点」",
   "47": "井上苑子「線香花火」",
+  "48": "木山裕策「Home」",
 };
 
 
@@ -294,6 +298,7 @@ const descSong3 = {
   "45": "森七菜「スマイル」",
   "46": "家入レオ「君がくれた夏」",
   "47": "ヨルシカ「だから僕は音楽を辞めた」",
+  "48": "森高千里「勉強の歌」",
 };
 
 
@@ -349,6 +354,7 @@ const descSkits = {
   "45": "",
   "46": "",
   "47": "",
+  "48": "",
 };
 
 
@@ -385,6 +391,7 @@ const additionalGuests = {
   "45": "南野陽子",
   "46": "家入レオ",
   "47": "井上苑子",
+  "48": "木山裕策",
 };
 
 const guestArtis = {};
@@ -412,6 +419,7 @@ const additionalSenpai = {
   "45": "清宮レイ",
   "46": "岩本蓮加",
   "47": "吉田綾乃ｸﾘｽﾃｨｰ",
+  "48": "黒見明香",
 };
 
 const guestSenpai = {};
@@ -440,55 +448,11 @@ console.log(filePassword);
 // IMAGE THUMBNAIL main
 // =======================
 
-const imageThumbBig = {
-"01" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-01.jpg",
-"02" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-02.jpg",
-"03" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-03.jpg",
-"04" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-04.jpg",
-"05" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-05.jpg",
-"06" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-06.jpg",
-"07" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-07.jpg",
-"08" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-08.jpg",
-"09" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-09.jpg",
-"10" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-10.jpg",
-"11" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-11.jpg",
-"12" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-12.jpg",
-"13" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-13.jpg",
-"14" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-14.jpg",
-"15" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-15.jpg",
-"16" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-16.jpg",
-"17" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-17.jpg",
-"18" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-18.jpg",
-"19" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-19.jpg",
-"20" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-20.jpg",
-"21" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-21.jpg",
-"22" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-22.jpg",
-"23" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-23.jpg",
-"24" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-24.jpg",
-"25" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-25.jpg",
-"26" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-26.jpg",
-"27" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-27.jpg",
-"28" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-28.jpg",
-"29" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-29.jpg",
-"30" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-30.jpg",
-"31" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-31.jpg",
-"32" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-32.jpg",
-"33" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-33.jpg",
-"34" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-34.jpg",
-"35" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-35.jpg",
-"36" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-36.jpg",
-"37" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-37.jpg",
-"38" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-38.jpg?updatedAt=1708878444638",
-"39" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-39.jpg?updatedAt=1708878185590",
-"40" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-40.jpg",
-"41" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-41.jpg",
-"42" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-42.jpg",
-"43" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-43.jpg",
-"44" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-44.jpg",
-"45" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-45.jpg",
-"46" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-46.jpg",
-"47" : "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-47.jpg",
-};
+const imageThumbBig = {};
+for (let i = 1; i <= 9999; i++) {
+  const paddedNumber = i.toString().padStart(2, '0');
+  imageThumbBig[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-${paddedNumber}.jpg`;
+}
 console.log(imageThumbBig);
 
 // =======================
@@ -587,6 +551,7 @@ const linkHardsub = {
   "45" : "https://sfl.gl/6jQK6",
   "46" : "https://sfl.gl/FWCnr8",
   "47" : "https://sfl.gl/gdv00E",
+  "48" : "https://sfl.gl/uGa7K",
 };
 
 // =======================
@@ -641,6 +606,7 @@ const linkSoftsub = {
   "45" : "https://sfl.gl/Rsuzgb",
   "46" : "https://sfl.gl/AjwZ",
   "47" : "https://sfl.gl/PF06KHZR",
+  "48" : "https://sfl.gl/YJwSYG7",
 };
 
 // =======================

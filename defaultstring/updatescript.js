@@ -1,5 +1,3 @@
-// script.js
-
 function initializeEpisode(targetEpisode) {
     var episodeElement = document.querySelector('.episodelist[data-episode="' + targetEpisode + '"]');
     
@@ -22,10 +20,7 @@ function initializeEpisode(targetEpisode) {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    // Mendapatkan nama file HTML
     var currentFileName = window.location.pathname.split("/").pop().split(".")[0];
-
-    // Menentukan episode berdasarkan nama file HTML
     var targetEpisode;
     
     switch (currentFileName) {
@@ -35,9 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
         case "nogidouga-hitori-de-dekirumon":
             targetEpisode = "21";
             break;
-        // case "chou-nogizaka-star-tanjou":
-            // targetEpisode = "47";
-            // break;
+        case "chou-nogizaka-star-tanjou":
+            targetEpisode = "48";
+            break;
         case "hinakoi-imechun":
             targetEpisode = "01";
             break;
@@ -50,9 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
         case "cupstar-sashimen":
             targetEpisode = "00";
             break;
-        // Tambahkan case sesuai dengan nama file HTML lainnya
     }
-
-    // Inisialisasi episode
     initializeEpisode(targetEpisode);
 });
