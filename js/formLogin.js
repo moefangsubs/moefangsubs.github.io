@@ -1,4 +1,5 @@
 // formLogin.js
+document.body.style.backgroundColor = '#1e0e00';
 
 function checkPassword() {
     var passwordInput = document.getElementById("password");
