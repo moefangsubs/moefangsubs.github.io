@@ -47,7 +47,11 @@ body.garapan_bokuao { background-color: #013471;}
 /* Background main */
 /* body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/nogizaka46_10th.jpg?updatedAt=1659611256286&ik-s=21db489dd89ebab66df04ec20810713d77744d8a');} */
 /* body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/fuyunotabi5b.jpg');} */
-body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/kakki.webp');}
+body.main_site::before {
+    background-image: url('https://ik.imagekit.io/moearchive/kakkiwed50.webp');
+    filter: grayscale(0.4) brightness(0.8) contrast(1.4);
+    /* filter: grayscale(1) brightness(0); */
+}
 body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/gen4hikari_.png?updatedAt=1678020710743');}
 
 

@@ -10,7 +10,9 @@
 
 
 	<link rel="stylesheet" href="defaultstring/style.css" />
-	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 	<!-- JavaScript untuk kebutuhan data yang di load -->
 	<script type="text/javascript" src="defaultstring/script.js"></script>
 </head>
@@ -20,22 +22,29 @@
     <!-- <div id="logo"> -->
       <!-- <img src="https://ik.imagekit.io/moearchive/web/moefang-gif.gif" alt="MoeFang Subs Logo" width="200"> -->
     <!-- </div> -->
-	<div id="fansub">MoeFang Subs</div>
-	<img class="kakki" src="https://ik.imagekit.io/moearchive/web/kakki_index.png" />
-    <div id="motto">
-      <p>98% Subbing 乃 content & another stuff since 2020. </br>Can't promise a consistent release timing.</p>
-    </div>
+	<div>
+	<p id="fansub">moefang</p>
+	</div>
+	<!-- <img class="kakki" src="https://ik.imagekit.io/moearchive/web/kakki_index.png" /> -->
+    <!-- <div id="motto"> -->
+      <!-- <p>98% Subbing 乃 content & another stuff since 2020. </br>Can't promise a consistent release timing.</p> -->
+    <!-- </div> -->
 	  <!-- <div class="buttonindex"><a href="sitemap.html">Site map</a></div> -->
 
-    <form id="passwordForm">
-        <label for="password"></label>
-        <input type="password" id="password" required placeholder="Input password...">
-        <button class="okbutton" type="button" onclick="checkPassword()"></button>
-    </form>
-	<div class="ifpernah"><a href="sitemap.html">Sudah pernah input password</a></div>
-	
-	<div class="updatedate">Latest Update : 2024/06/25 01:27</div>
+<form id="passwordForm">
+    <label for="password"></label>
+    <div class="input-container">
+        <input type="password" id="password" required placeholder="ACCESS KEY" maxlength="21">
+        <span id="togglePassword" class="eye-icon">👁️</span>
+    </div>
+</form>
+	<div class="buttonx">
+		<div class="okbutton" type="button" onclick="checkPassword()"></div>
+		<div class="ifpernah" type="button"></div>
+	</div>
+	<div class="updatedate">Latest Update : 2024/06/25 01:27 UTC+7</div>	
 </div>
 </body>
 <script src="js/formLogin.js"></script>
+
 </html>

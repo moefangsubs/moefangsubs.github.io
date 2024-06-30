@@ -1,15 +1,15 @@
 body {
-  background-color: #12021F;
-  margin: 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  color: white;
-  font-family:'Ubuntu';
-  overflow:hidden;
+  /* background-color: #12021F; */
+    background-color: #1e0e00;
+    margin: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Ubuntu';
+    overflow: hidden;
 }
-
 body::before {
   content: "";  
   background-size: cover;
@@ -32,18 +32,21 @@ body::before {
 a {
 	text-decoration:none;
 }
+
 #main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #44007975;
+    /* background-color: #44007975; */
+    background-color: #ffffff14;
     padding: 20pt;
-    border-radius: 13pt;
-    box-shadow: 5pt 5pt #ffffff3d;
-    border: 3pt solid white;
+    border-radius: 30pt;
+    /* box-shadow: 5pt 5pt #ffffff3d; */
+    /* border: 3pt solid white; */
     max-width: 80%;
 }
+
 #logo {
 	/* margin-bottom: 20px; */
 	position: fixed;
@@ -62,15 +65,23 @@ img.kakki {
     filter: brightness(0.9) contrast(0.9) blur(0.5px);
     translate: 0% -100%;
 }
-div#fansub {
-    padding-top: 5pt;
-    font-size: 29pt;
+#fansub {
+    font-size: 35pt;
+    letter-spacing: -0.05em;
     color: #e8e8e8;
-    font-weight: 600;
-    padding-bottom: 10pt;
-    /* mix-blend-mode: overlay; */
-    /* text-shadow: 0pt 0pt 20px black; */
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    background-image: url('https://i.giphy.com/t2aAdTgnU9Ie6jvG0W.webp');
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    transform: scaleX(0.9);
+    filter: grayscale(100%) brightness(1.5) contrast(2);
 }
+
 
 #motto {
     margin-bottom: 20px;
@@ -132,55 +143,90 @@ div#fansub {
 /* FORM PASSWORD */
 /* ================ */
 
-
+/* styles.css */
 #passwordForm {
-    /* background-color: red; */
-}
-input {
-    border: 2px solid #ffffffcf;
-    border-radius: 10px 0px 0px 10px;
-    background-color: #ffffffcf;
-    background-repeat: no-repeat;
-    width: 75%;
-    height: 60px;
-    font-size: larger;
-    color: #440079;
-    transition: background-color 0.5s ease-in-out;
-    font-family: 'Ubuntu';
-    text-align: center;
-    flex-wrap: wrap;
+    display: flex;
     align-items: center;
-    align-content: center;
-    flex-direction: row;
-    cursor: text;
-    /* mix-blend-mode: color-dodge; */
+    justify-content: center;
+    width: 100%;
+    /* padding-top: 20pt; */
 }
 
-input:focus {
-  background-color: #ffffff;
+.input-container {
+    position: relative;
+    width: 100%;
 }
-.okbutton {
-    border-radius: 0px 10px 10px 0px;
-    background-color: #a749f1;
-    border: 0;
-    width: 20%;
+
+input {
+    width: 100%;
     height: 60px;
-    color: white;
-    cursor: pointer;
-    font-weight: bold;
-    font-family: 'Ubuntu';
+    padding-right: 40px;
+    font-size: 16pt;
+    border: 2px solid #ee7c18;
+    border-radius: 15pt 15pt 15pt 0pt;
+    background-color: #ee7c18;
+    color: #ffffff;
     text-align: center;
-    /* mix-blend-mode: color-dodge; */
     transition: background-color 0.5s ease-in-out;
-    font-size: 13pt;
+    font-family: 'Ubuntu';
+    cursor: text;
+    mix-blend-mode: color-dodge;
+}
+
+input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
+    display: none;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.buttonx {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    column-gap: 10pt;
+    padding-bottom: 5pt;
+}
+
+.okbutton {	
+    font-size: 12pt;
+	cursor: pointer;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    padding: 10pt;
+    /* background-color: #a749f1; */
+    background-color: #ee7c18;
+    text-align: center;
+    width: 30%;
+    border-radius: 0pt 0pt 15pt 15pt;
+    margin-top: 10pt;
+    transition: background-color 0.5s ease-in-out;
+    mix-blend-mode: color-dodge;
 }
 .okbutton:before {
-    content:'OK';
-}
-.okbutton:hover {
-    background-color: #d974e1;
+    content: 'OK';
 }
 
+.okbutton:hover {
+    background-color: #ffac64;
+}
+
+
+@media only screen and (max-width: 600px) {
+#fansub {
+    font-size: 14vw;
+}
+}
 
 /* ================ */
 /* STUFF */
@@ -188,24 +234,38 @@ input:focus {
 
 .ifpernah {
     font-size: 12pt;
+	cursor: pointer;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
     padding: 10pt;
-    background: #d974e140;
+    /* background: #d974e140; */
+    background: #129f3e;
     text-align: center;
-    width: 86%;
-    border-radius: 10pt;
+    width: 70%;
+    border-radius: 15pt;
     margin-top: 10pt;
-	transition: background 1s ease;
+    letter-spacing: 1pt;
+	transition: all 0.5s ease;
+    mix-blend-mode: color-dodge;
 }
 .ifpernah:hover {
-    background: #d974e1c7;
+    background: #13c14a;
+    mix-blend-mode: color-dodge;
+    letter-spacing: 5pt;
+
 }
+.ifpernah:before {
+    content: 'SKIP > >';
+}
+
 .updatedate {
-    position: fixed;
-    bottom: 20px;
-    left: 0;
+    /* position: fixed; */
+    /* bottom: 20px; */
+    /* left: 0; */
     width: 100%;
     padding: 10px;
     text-align: center;
-    font-size: 20px;
-    color: #e6e6e65e;
+    font-size: 13px;
+    color: #e6e6e6a6;
+    mix-blend-mode: normal;
 }
