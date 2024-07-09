@@ -66,4 +66,9 @@ p.chord {
     font-size: 18pt;
 }
 
+.gepeng {
+  display: inline-block;
+  transform: scaleY(0.5);
+}
+
 /* ======================= */
