@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // targetEpisode = "40";
             // break;
         case "nogidouga-hitori-de-dekirumon":
-            targetEpisode = "21";
+            targetEpisode = "22";
             break;
         case "chou-nogizaka-star-tanjou":
             targetEpisode = "48";

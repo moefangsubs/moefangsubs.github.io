@@ -25,7 +25,7 @@ const descEpisodeSynopsis = {
 "19" : "Episode 19 kali ini kembali dari Okamoto Hina. Kali ini dia datang ke Yomiuri Land, dan pertama kalinya mencoba masuk ke rumah hantu! Jika ia berhasil, ia akan bisa bebas ke berbagai wahana yang ada disana sebagai hadiah.",
 "20" : "Episode 20 kali ini kembali di seri hewan bersama Tomisato Nao. Di episode sebelumnya, Nao yang hanya sekadar mengunjungi tempat hewan yaitu burung hantu, kali ini dia ingin mencoba pergi ke shelter anjing dan mengajak salah satu anjing disana untuk berkeliling kota.",
 "21" : "Episode 21 kali ini kembali dari Ichinose Miku, dimana ia ingin mempelajari suatu yang sangat penting, yaitu table manner atau etika saat di meja makan terutama saat-saat formal dan di restoran bintang. Apakah Miikyun berhasil mempelajarinya?",
-"22" : "Episode 22 kali ini adalah ",
+"22" : "Episode 22 kali ini kembali dari Ikeda Teresa, dimana ia akan mencoba berendam kaki dengan tujuan refreshing karena dirinya sempat kakinya cedera.",
 };
 
 // =======================
