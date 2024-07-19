@@ -18,16 +18,22 @@ document.write(`
 	<p>Next Project</p>
     <div class="scrollable">
 	<ul>
-	<li>Nogizaka Burari #10 (Ume & Aya)</li>
-	<li>Nogizaka Burari #11 (Shiori & Hazuki)</li>
-	<li>Nogizaka Burari #12 (Shiori & Hazuki)</li>
-	<li>Nogizaka Burari #13 (Yoshida & Renka)</li>
-	<li>Nogizaka Burari #14 (Hazuki & Aruno)</li>
-	<li>Nogizaka Burari #15 (Riria & Mizuki)</li>
+	<li>Chou Nogistar #49</li>
+	<li>Chou Nogistar #50</li>
+	<li>Chou Nogistar #51</li>
+	<li>Nogizaka Otameshichuu #41</li>
+	<li>Nogizaka Otameshichuu #42 特別編</li>
+	<li>Nogizaka Escape #1</li>
+	<li>Nogizaka Escape #2</li>
+	<li>Nogizaka Escape #3</li>
+	<li>Sonna Kazoku Sutechaeba? #1</li>
+	<li>Cupstar Sashimen Vol.1 (Zuki & Mayutan)</li>
+	<li>Cupstar Sashimen Vol.2 (Ume & Yumiki)</li>
+	<li>Cupstar Sashimen Vol.3 (Sakuchan & Aaya)</li>
+	<li>Minilive 35th & Sakaguchi Tamami-Seimiya Rei Graduation Ceremony</li>
 	<li>Nogizaka Underlive 34th</li>
 	<li>Nogizaka Underlive 35th</li>
 	<li>Nogizaka46 11th Birthday Live (BluRay)</li>
-	<li>Cupstar Sashimen</li>
 	<li>Hinatazaka Channel*</li>
 	<li>Sakamichi Aozora*</li>
 	</ul>

@@ -1,7 +1,8 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="21"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/hitori_21.jpg"><div class="epsname">Episode 21</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="22"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/hitori_22.jpg"><div class="epsname">Episode 22</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="21"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/hitori_21.jpg"><div class="epsname">Episode 21</div></div>
 				<div class="episodelist buttonEpsList" data-episode="20"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/hitori_20.jpg"><div class="epsname">Episode 20</div></div>
 				<div class="episodelist buttonEpsList" data-episode="19"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/hitori_19.jpg"><div class="epsname">Episode 19</div></div>
 				<div class="episodelist buttonEpsList" data-episode="18"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/hitori_18.jpg"><div class="epsname">Episode 18</div></div>

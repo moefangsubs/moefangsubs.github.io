@@ -114,11 +114,11 @@ console.log(imageThumbX);
 // LINK HARDSUB
 // =======================
 
-const linkHardsub = {
-	"01" : "https://lokerwfh.net/2e0JbliT",
-	"02" : "https://lokerwfh.net/uGDQGZCu",
-	"03" : "https://lokerwfh.net/tSk0W",
-	"04" : "https://lokerwfh.net/JdDGDmu",
+const linkHardsub = {	
+	"01" : "https://lokerwfh.net/JdDGDmu",
+	"02" : "https://lokerwfh.net/tSk0W",
+	"03" : "https://lokerwfh.net/uGDQGZCu",
+	"04" : "https://lokerwfh.net/2e0JbliT",
   };
 console.log(linkHardsub);
 
