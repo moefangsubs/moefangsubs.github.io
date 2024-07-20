@@ -26,7 +26,6 @@ document.write(`
 	<li>Nogizaka Escape #1</li>
 	<li>Nogizaka Escape #2</li>
 	<li>Nogizaka Escape #3</li>
-	<li>Sonna Kazoku Sutechaeba? #1</li>
 	<li>Cupstar Sashimen Vol.1 (Zuki & Mayutan)</li>
 	<li>Cupstar Sashimen Vol.2 (Ume & Yumiki)</li>
 	<li>Cupstar Sashimen Vol.3 (Sakuchan & Aaya)</li>

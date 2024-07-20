@@ -45,6 +45,9 @@ document.addEventListener("DOMContentLoaded", function() {
         case "cupstar-sashimen":
             targetEpisode = "00";
             break;
+        case "sonna-kazoku-nara-sutechaeba":
+            targetEpisode = "01";
+            break;
     }
     initializeEpisode(targetEpisode);
 });
