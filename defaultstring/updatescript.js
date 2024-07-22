@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // case "nogizaka-otameshichuu":
             // targetEpisode = "40";
             // break;
+        case "live-performance":
+            targetEpisode = "49";
+            break;
         case "nogidouga-hitori-de-dekirumon":
             targetEpisode = "22";
             break;

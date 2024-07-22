@@ -1,6 +1,7 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
+				<div class="episodelist buttonEpsList" data-episode="49"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive35.jpg"><span class="epsbadgeNew"></span></div>
 				<div class="episodelist buttonEpsList" data-episode="48"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zukkigradcon.jpg"></div>
 				<div class="episodelist buttonEpsList" data-episode="47"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive34.jpg"></div>
 				<div class="episodelist buttonEpsList" data-episode="46"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi12bdl-4.jpg"></div>

@@ -52,6 +52,7 @@ const descEpisodeSynopsis = {
 	"46" : "Memperingati ulang tahunnya yang ke-12, Nogizaka46 mengadakan acara tahunannya yaitu 12th Birthday Live di Saitama Super Arena selama 4 hari. Setiap harinya mereka membawakan setlist yang berbeda-beda dengan total 123 lagu, meringkas sejarah Nogizaka dari single pertama hingga single terbaru yang ke-35. Hari ke-4 mereka membawakan lagu dari single yang dirilis tahun 2021 hingga 2024, dimana gen-5 untuk pertama kalinya bergabung saat itu.",
 	"47" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-34 \"Monopoly\" ini dengan Mini live secara streaming. Sebuah single dengan kembali menampilkan wajah W-center Nogizaka baru, yaitu Kaki Haruka dan Endo Sakura.",
 	"48" : "Kali ini kami menggarap Graduation Concert dari Yamashita Mizuki, ace Nogizaka46 dari gen-3 yang mengumumkan kelulusannya di single ke-35 ini. Konser kelulusan ini diadakan selama 2 hari di Tokyo Dome. Akan ada banyak lagu dan segmen spesial dari Mizuki sendiri, juga pesan dari perwakilan tiap generasi.",
+	"49" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-35 \"Chance wa Byoudou\" ini dengan Mini live secara streaming. Sebuah single kelulusan dengan center Yamashita Mizuki, yang pada mini live ini diganti oleh Kubo Shiori dan Umezawa Minami. Juga, setelah mini live diadakan graduation ceremony untuk Sakaguchi Tamami dan Seimiya Rei yang memutuskan lulus pada single ini. Tak lupa juga ada pesan untuk mereka berdua dari masing-masing generasi.",
 };
 
 // =======================
@@ -108,6 +109,7 @@ const nameShow = {
 	"46" : "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 4",
 	"47" : "乃木坂46 34thシングル「Monopoly」発売記念ミニライブ",
 	"48" : "乃木坂46 山下美月卒業コンサート",
+	"49" : "乃木坂46 35thシングル「チャンスは平等」発売記念ミニライブ & 阪口珠美-清宮レイ卒業セレモニー",
 };
 console.log(nameShow);
 
@@ -165,6 +167,7 @@ const descEpisode = {
 	"46" : "| Nogizaka46 12th Year Birthday Live DAY 4",
 	"47" : "| Nogizaka46 Mini Live 34th Single \"Monopoly\"",
 	"48" : "| Nogizaka46 Yamashita Mizuki Graduation Concert",
+	"49" : "| Nogizaka46 Mini Live 35th Single \"Chance wa Byoudou\" & Sakaguchi Tamami-Seimiya Rei Graduation Ceremony",
 };
 console.log(descEpisode);
 
@@ -221,6 +224,7 @@ const descOnAirDate = {
 	"46" : "10 Maret 2024",
 	"47" : "21 Maret 2024",
 	"48" : "11-12 Mei 2024",
+	"49" : "15 Juli 2024",
 };
 console.log(descOnAirDate);
 
@@ -278,6 +282,7 @@ const memberParticipate = {
 	"46" : "乃木坂46 ",
 	"47" : "乃木坂46 ",
 	"48" : "乃木坂46 ",
+	"49" : "乃木坂46 ",
 };
 console.log(memberParticipate);
 
@@ -336,6 +341,7 @@ const imageThumbBig = {
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34.jpg",
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcer.jpg",
+	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35.jpg",
 };
 console.log(imageThumbBig);
 
@@ -393,6 +399,7 @@ const imageThumbA = {
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4a.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34a.jpg",
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1a.jpg",
+	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35a.jpg",
 };
 console.log(imageThumbA);
 
@@ -449,6 +456,7 @@ const imageThumbB = {
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4b.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34b.jpg",
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1b.jpg",
+	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35b.jpg",
 };
 console.log(imageThumbB);
 
@@ -505,6 +513,7 @@ const imageThumbC = {
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4c.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34c.jpg",
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1c.jpg",
+	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35c.jpg",
 };
 console.log(imageThumbC);
 
@@ -567,6 +576,7 @@ const imageThumbD = {
 	"46" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4d.jpg",
 	"47" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive34d.jpg",
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1d.jpg",
+	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35d.jpg",
 };
 console.log(imageThumbD);
 
@@ -624,6 +634,7 @@ const linkHardsub = {
 	"46" : "",
 	"47" : "https://lokerwfh.net/CMFstnC",
 	"48" : "",
+	"49" : "https://sfl.gl/uTrde37B",
 };
 console.log(linkHardsub);
 
@@ -681,6 +692,7 @@ const linkTrakteer = {
 	"46" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-12th-year-birthday-live-KPuiW",
 	"47" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-34th-single-monopoly-9aAeO",
 	"48" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-yamashita-mizuki-graduation-concert-XLZ0d",
+	"49" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-35th-single-chance-wa-byoudou-0Tn3e",
 };
 console.log(linkTrakteer);
 
@@ -738,6 +750,7 @@ const filePassword = {
 	"46" : "(tidak ada password)",
 	"47" : "(tidak ada password)",
 	"48" : "(tidak ada password)",
+	"49" : "(tidak ada password)",
 };
 console.log(filePassword);
 
