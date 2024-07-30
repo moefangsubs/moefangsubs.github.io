@@ -102,6 +102,7 @@ const acaraData = {
 	nanaminkoisuruFuyu: "Hashimoto Nanami, lahir di Asahikawa, Hokkaido, member dari grup idola populer Nogizaka46, melakukan perjalanan sendirian dengan sebuah buku tentang Hokkaido. Inilah hiburan intelektual yang menyampaikan pesona membaca, sambil melihat pesona Nanami sendiri. Konten khusus ini diperuntukan bagi yang rindu akan sosok Nanamin, dan tertarik dengan dunia sastra Jepang.",
 	nanaminkoisuruNatsu: "Hashimoto Nanami, lahir di Asahikawa, Hokkaido, member dari grup idola populer Nogizaka46, melakukan perjalanan sendirian dengan sebuah buku tentang Hokkaido. Inilah hiburan intelektual yang menyampaikan pesona membaca, sambil melihat pesona Nanami sendiri. Konten khusus ini diperuntukan bagi yang rindu akan sosok Nanamin, dan tertarik dengan dunia sastra Jepang.",
 	nogizakabooks: "Dalam BluRay Nogizaka46 Hashimoto Nanami no Koisuru Bungaku terdapat bonus, salah satunya Nogizaka Books. Di video singkat ini, member terpilih akan menyampaikan buku novel favoritnya baru-baru ini.",
+	nogizakaescape: "Member Nogizaka46 meninggalkan kehidupan sehari-hari yang sibuk untuk sejenak melarikan diri. Dua member yang dipilih berdasarkan kombinasi tertentu akan memilih \"tempat yang sangat ingin mereka kunjungi sekarang\" dan merencanakan perjalanan 1 malam 2 hari mereka sendiri. Melalui perjalanan yang hanya dilakukan oleh dua orang, acara variety berbentuk dokumenter ini mengamati sisi asli para member dan hubungan mereka berdua!",
 	// // ------------
 	// // ------------
 	// // ------------
