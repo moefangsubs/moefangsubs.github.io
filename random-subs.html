@@ -9,6 +9,12 @@
 	<!-- JavaScript load default head -->
 	<script type="text/javascript" src="defaultstring/head-default.js"></script>
 	<script src="js/checkPass.js"></script>
+	
+    <meta property="og:title" content="MoeFang Subs | Random Subs" />
+    <meta property="og:description" content="Koleksi berbagai garapan MoeFang yang tidak terkategorikan, biasa kami sebut sebagai projek santai atau selingan." />
+    <meta property="og:image" content="https://ik.imagekit.io/moearchive/web/bodybg/liveperformance.jpg" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="450" />
 
 	<!-- JavaScript untuk kebutuhan data yang di load -->
 	<script type="text/javascript" src="defaultstring/script.js"></script>
@@ -88,7 +94,7 @@
     }
     function toggleButtonsForEpisode(episodeNumber) {
         hideButtons();        
-        var allowedEpisodes = ['01', '02', '03', '04', '16', '37', '38', '39', '41', '42', '43', '44'];
+        var allowedEpisodes = ['01', '02', '03', '04', '16', '37', '38', '39', '41', '42', '43', '44', '45', '46', '47'];
         if (allowedEpisodes.includes(episodeNumber)) {
             document.querySelectorAll('.episode_nogi').forEach(function(button) {
                 var linkType = button.getAttribute('data-link-type');
@@ -118,7 +124,7 @@
     }
     function toggleElementsForEpisode(episodeNumber) {
         hideElements();
-        var allowedEpisodes = ['02', '03'];
+        var allowedEpisodes = ['02', '03', '47'];
         if (allowedEpisodes.includes(episodeNumber)) {
             var elementsToShow = ['.password_garapan'];
             elementsToShow.forEach(function(identifier) {

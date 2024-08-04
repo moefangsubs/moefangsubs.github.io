@@ -48,6 +48,9 @@ const descEpisodeSynopsis = {
 "42" : "Nogizaka46 Berpartisipasi untuk pertama kalinya! Mereka terkesima dengan pengalaman yang unik di pedalaman Chiba! Ioki Mao dan Sugawara Satsuki mengunjungi penginapan yang penuh dengan pemandangan musiman yang indah di Prefektur Chiba. Mereka menemukan telepon hitam di rumah tua dengan atap jerami. Mereka menikmati berbagai \"pengalaman pertama\" yang unik dari penginapan ini, mulai dari rendaman kaki hingga nasi di tungku, hingga mi udon buatan tangan, sambil menjelajahi pesonanya!",
 "43" : "Impian Himura-san menjadi kenyataan! Narator Shiraishi Mai juga terkesan! Mereka mengantarkan member Nogizaka46 yang sudah masuk usia 20 tahun ke upacara kedewasaan di tahun 2024.",
 "44" : "Himutaro berjalan-jalan di sekitar Kanda hingga Jinbocho dengan Endo Sakura dari Nogizaka46 kali ini. Mereka memulai dari Kuil Kanda. Mampir ke Yushima Seido, dan jika beruntung, mereka akan melintasi Hijiribashi, di mana mereka bisa melihat berbagai kereta api. Mereka juga berpose bersama di area yang ditanami sakura. Ketika melewati Stasiun Kudanshita, mereka melihat Nippon Budokan di kejauhan. Bagi Himutaro, berjalan-jalan bersama di sini penuh dengan kenangan yang mendalam. Terakhir, mereka menikmati hadiah berupa kari yang lezat dengan banyak rempah!",
+"45" : "\"Waraidane\" adalah sebuah program talk show dengan pembawa acara Uchimura Teruyoshi dan duo komedian Summers. Konten percakapan hanya akan mencakup \"pertama kali dibahas\" yang belum pernah dibicarakan di TV sebelumnya! Di tamu ketiga kali ini, Nogizaka46 bersama Ijiri Okada akan tampil!",
+"46" : "Dengan Yumiki Nao dan Ioki Mao, bisakah dua member Nogizaka46 ini mencapai tempat baru tanpa smartphone? Mereka akan melakukan semacam perjalanan waktu ke era Showa dan Heisei, ketika belum ada smartphone! Penyelidikan mendalam tentang apa yang dilakukan generasi Showa ketika belum ada smartphone, termasuk 'hubungan jarak jauh' dan 'membeli tiket'. Saksikan perjalanan unik mereka dengan kesimpulan mengejutkan yang tidak terduga...",
+"47" : "Dalam drama spin-off \"Head tachi no Jingi Naki Zunou-sen\" dari drama malam Jumat \"Densetsu no Head Sho\", Sugawara Satsuki akan tampil! Sugawara Satsuki memerankan peran Kaede, tokoh heroine yang khusus untuk spin-off drama ini. Kaede adalah putri dari pemilik tempat yang menjadi tempat berkumpulnya Grand Cross, dan merupakan seorang siswi SMA dengan kepribadian yang serius. Perhatikan bagaimana Kaede, yang awalnya takut kepada tiga berandalan ini, perlahan-lahan menunjukkan sisi barunya melalui death game!",
 };
 console.log(descEpisodeSynopsis);
 
@@ -100,6 +103,9 @@ const nameShow = {
 "42" : "全国ボロいい宿",
 "43" : "ひむバス！バナナマン日村さんの夢！乃木坂46メンバーをサプライズ送迎！ ",
 "44" : "バナナマン日村が歩く！ウォーキングのひむ太郎",
+"45" : "内村&さまぁ~ずの初出しトークバラエティ 笑いダネ",
+"46" : "スマホがない時、どうしていたの",
+"47" : "伝説の頭 翔 「頭（ヘッド）たちの仁義なき頭脳戦（ブレインバトル）",
 };
 console.log(nameShow);
 
@@ -152,6 +158,9 @@ const descEpisode = {
 "42" : "| 240218 Zenkoku Boroii Yado (Ioki Mao, Sugawara Satsuki, Sasaki Kumi CUT)",
 "43" : "| 240223 Himubus Eps.9 (Nogizaka46 CUT)",
 "44" : "| 240416 Walking no Himutaro (Endo Sakura)",
+"45" : "| 240103 Waraidane",
+"46" : "| 240721 Sumaho ga Nai Toki Dou Shiteita no?",
+"47" : "| Densetsu no Head Sho (Spin off)",
 };
 console.log(descEpisode);
 
@@ -205,6 +214,9 @@ const descOnAirDate = {
 "42" : "18 Februari 2024",
 "43" : "23 Februari 2024",
 "44" : "16 April 2024",
+"45" : "3 Januari 2024",
+"46" : "21 Juli 2024",
+"47" : "2 Agustus 2024",
   };
 console.log(descOnAirDate);
 
@@ -258,6 +270,9 @@ const memberParticipate = {
 "42" : "五百城茉央、菅原咲月、佐々木久美",
 "43" : "岩本蓮加、清宮レイ、松尾美佑、林瑠奈、黒見明香、川﨑桜、一ノ瀬美空、岡本姫奈",
 "44" : "遠藤さくら",
+"45" : "梅澤美波、岩本連加、与田祐希、賀喜遥香、弓木奈於",
+"46" : "弓木奈於、五百城茉央",
+"47" : "菅原咲月",
   };
 console.log(memberParticipate);
 
@@ -311,6 +326,9 @@ const imageThumbBig = {
 "42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado.jpg",
 "43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-fix.jpg",
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura.jpg",
+"45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane.jpg",
+"46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240802-densetsu-no-head-sho-spinoff.jpg",
   };
 console.log(imageThumbBig);
 
@@ -364,6 +382,9 @@ const imageThumbA = {
 "42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-a.jpg",
 "43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-a.jpg",
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-a.jpg",
+"45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-a.jpg",
+"46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-a.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240802-densetsu-no-head-sho-spinoff-a.jpg",
   };
 console.log(imageThumbA);
 
@@ -416,6 +437,9 @@ const imageThumbB = {
 "42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-b.jpg",
 "43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-b.jpg",
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-b.jpg",
+"45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-b.jpg",
+"46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-b.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240802-densetsu-no-head-sho-spinoff-b.jpg",
   };
 console.log(imageThumbB);
 
@@ -468,6 +492,9 @@ const imageThumbC = {
 "42" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-c.jpg",
 "43" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240223-himubus-c.jpg",
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-c.jpg",
+"45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-c.jpg",
+"46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-c.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240802-densetsu-no-head-sho-spinoff-c.jpg",
   };
 console.log(imageThumbC);
 
@@ -526,6 +553,9 @@ const linkHardsub = {
 "42" : "https://lokerwfh.net/DMEbfR",
 "43" : "https://lokerwfh.net/H9jxX",
 "44" : "https://lokerwfh.net/ip17cxD",
+"45" : "https://sfl.gl/7iQew",
+"46" : "https://sfl.gl/ug6A3",
+"47" : "https://sfl.gl/4dyvvkm",
   };
 console.log(linkHardsub);
 
@@ -578,6 +608,9 @@ const linkTrakteer = {
 "42" : "https://trakteer.id/moefangsubs/showcase/240218-zenkoku-boroii-yado-ioki-mao-x-sugawara-satsuki-cut-Wcqr1",
 "43" : "https://trakteer.id/moefangsubs/showcase/240223-himubus-nogizaka46-cut-VEPfD",
 "44" : "https://trakteer.id/moefangsubs/showcase/walking-no-himutaro-dqupC",
+"45" : "https://trakteer.id/moefangsubs/showcase/240103-waraidane-nogizaka46-cut-Lixth",
+"46" : "https://trakteer.id/moefangsubs/showcase/240721-sumaho-ga-nai-toki-dou-shiteita-no-yumiki-nao-ioki-mao-jgX9u",
+"47" : "https://trakteer.id/moefangsubs/showcase/240802-densetsu-no-head-sho-spin-off-6aMkt",
   };
 console.log(linkTrakteer);
 
@@ -631,6 +664,9 @@ const filePassword = {
 "42" : "",
 "43" : "",
 "44" : "",
+"45" : "",
+"46" : "",
+"47" : "SatchanwithYankees",
   };
 console.log(filePassword);
 

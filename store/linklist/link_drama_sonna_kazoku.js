@@ -5,7 +5,7 @@
 
 const descEpisodeSynopsis = {
 "01" : "Menjelang ulang tahunnya yang ke-18, Ichika mulai berbicara dengan ayahnya dan mengetahui bahwa aturan selotip ini dimulai karena ucapan yang melukai ibunya. Saat Reitaro melanggar aturan untuk mengubah situasi, Kazumi bereaksi keras. Lalu Reitaro memulihkan perasaannya di luar rumah, namun Sayako, yang sebelumnya menyelamatkan Reitaro dari kecelakaan di lampu merah, bertemu dengannya di jembatan. Reitaro menceritakan kehidupannya di rumah yang kemudian Sayako menasihatinya dengan lembut bahwa apa yang dialaminya adalah bentuk kekerasan dalam rumah tangga. Sementara itu, Ichika berusaha menahan kepergian ayahnya dan ingin memulihkan kembali keluarga mereka. Saat mendekati jawaban atas misteri pita, Ichika menemukan sebuah kebohongan besar yang selama ini disembunyikan oleh kedua orang tuanya."
-// "02" : "",
+"02" : "Di tengah situasi tersebut, Ichika bertemu dengan Hikaru, seorang siswa pindahan dari Tokyo, yang memiliki ketertarikan pada aplikasi kuis yang sama. Hikaru, yang dibesarkan dalam keluarga ibu tunggal dan melarikan diri dari pacar ibunya yang menjadi penguntit, pindah ke kota Ichika. Ichika yang merasa terhubung dengan Hikaru, yang juga mengalami lingkungan keluarga yang rumit dan melarikan diri dari kenyataan melalui hobi kuisnya, membagikan masalah keluarga yang tidak nyaman. Hikaru kemudian menawarkan strategi untuk membantu Ichika.",
 // "03" : "",
 // "04" : "",
 // "05" : "",
@@ -49,13 +49,13 @@ console.log(descEpisode);
 
 const descOnAirDate = {
 "01" : "18 Juli 2024",
-// "02" : "25 Juli 2024",
-// "03" : "1 Agustus 2024",
-// "04" : "8 Agustus 2024",
-// "05" : "15 Agustus 2024",
-// "06" : "22 Agustus 2024",
-// "07" : "29 Agustus 2024",
-// "08" : "5 September 2024",
+"02" : "25 Juli 2024",
+// "03" : "8 Agustus 2024",
+// "04" : "15 Agustus 2024",
+// "05" : "22 Agustus 2024",
+// "06" : "29 Agustus 2024",
+// "07" : "5 September 2024",
+// "08" : "12 September 2024",
   };
 console.log(descOnAirDate);
 
@@ -133,7 +133,7 @@ console.log(imageThumbD);
 
 const linkHardsub = {
 "01" : "https://sfl.gl/ROpDL3",
-// "02" : "",
+"02" : "https://sfl.gl/xM7XqC",
 // "03" : "",
 // "04" : "",
 // "05" : "",

@@ -21,15 +21,17 @@ document.write(`
 	<li>Chou Nogistar #49</li>
 	<li>Chou Nogistar #50</li>
 	<li>Chou Nogistar #51</li>
+	<li>Chou Nogistar #52</li>
+	<li>Chou Nogistar #53</li>
 	<li>Nogizaka Otameshichuu #41</li>
 	<li>Nogizaka Otameshichuu #42 特別編</li>
-	<li>Nogizaka Escape #1</li>
-	<li>Nogizaka Escape #2</li>
-	<li>Nogizaka Escape #3</li>
+	<li>Nogizaka Escape #4</li>
+	<li>Nogizaka Escape #5</li>
+	<li>Nogizaka Girls Talk #1</li>
 	<li>Cupstar Sashimen Vol.1 (Zuki & Mayutan)</li>
 	<li>Cupstar Sashimen Vol.2 (Ume & Yumiki)</li>
 	<li>Cupstar Sashimen Vol.3 (Sakuchan & Aaya)</li>
-	<li>Minilive 35th & Sakaguchi Tamami-Seimiya Rei Graduation Ceremony</li>
+	<li>Cupstar Sashimen Vol.4</li>
 	<li>Nogizaka Underlive 34th</li>
 	<li>Nogizaka Underlive 35th</li>
 	<li>Nogizaka46 11th Birthday Live (BluRay)</li>
