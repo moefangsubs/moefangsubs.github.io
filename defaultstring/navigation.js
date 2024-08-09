@@ -58,9 +58,10 @@ document.write(`
 							<!-- <li><a href="../pages/fansub-list.html">FANSUB LIST</a></li> -->
 							<li><a href="../pages/folder-icon.html">FOLDER ICON</a></li>
 							<li><a href="../pages/fansub-list.html">FANSUB LIST</a></li>
+							<li><a href="../pages/color-palette.html">COLOR PALETTE</a></li>
+							<li><a href="../pages/cek-khodam.html">CEK KHODAM~!</a></li>
 						</ul>
 					</li>
-					<li><a href="../pages/color-palette.html">COLOR PALETTE</a></li>
 					<li><a href="https://moefangsubs.github.io/n46-idlist/">MASTERLIST</a></li>
 				</ul>
 			</div>
