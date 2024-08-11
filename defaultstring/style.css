@@ -1,5 +1,9 @@
+html {
+    filter: grayscale(0.8);
+}
+
 body {
-  background-color: #12021F;
+    background-color: #12021F;
     /* background-color: #1e0e00; */
     margin: 10;
     display: flex;
@@ -11,18 +15,18 @@ body {
     overflow: hidden;
 }
 body::before {
-  content: "";  
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.25;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  height: 100%;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
 }
 
 .bodymainindex {
@@ -38,13 +42,9 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* background-color: #44007975; */
-    background-color: #ffffff14;
+    background-color: #12021f5c;
     padding: 20pt;
     border-radius: 30pt;
-    /* box-shadow: 5pt 5pt #ffffff3d; */
-    /* border: 3pt solid white; */
-    max-width: 80%;
 }
 
 #logo {
@@ -68,20 +68,15 @@ img.kakki {
 #fansub {
     font-size: 35pt;
     letter-spacing: -0.05em;
-    color: #e8e8e8;
-    font-family: "Rubik Mono One", monospace;
+    font-family: 'Ubuntu';
     font-weight: 400;
     font-style: normal;
     display: inline-block;
-    background-image: url('https://i.giphy.com/t2aAdTgnU9Ie6jvG0W.webp');
-    background-size: cover;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-clip: text;
-    transform: scaleX(0.9);
-    filter: grayscale(100%) brightness(1.5) contrast(2);
+    /* background-size: cover; */
+    /* color: #22043b; */
+    color: white;
+    padding-bottom: 10pt;
 }
-
 
 #motto {
     margin-bottom: 20px;
@@ -159,18 +154,18 @@ img.kakki {
 
 input {
     width: 100%;
-    height: 60px;
+    height: 46px;
     padding-right: 40px;
-    font-size: 16pt;
-    border: 2px solid #ee7c18;
-    border-radius: 15pt 15pt 15pt 0pt;
-    background-color: #ee7c18;
+    font-size: 20pt;
+    border: 2px solid #12021fd9;
+    border-radius: 10pt;
+    background-color: #12021fd9;
     color: #ffffff;
     text-align: center;
     transition: background-color 0.5s ease-in-out;
     font-family: 'Ubuntu';
     cursor: text;
-    mix-blend-mode: color-dodge;
+    mix-blend-mode: overlay;
 }
 
 input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
@@ -198,27 +193,26 @@ input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
     padding-bottom: 5pt;
 }
 
-.okbutton {	
-    font-size: 12pt;
-	cursor: pointer;
-    font-family: "Rubik Mono One", monospace;
-    font-weight: 400;
-    padding: 10pt;
-    /* background-color: #a749f1; */
-    background-color: #ee7c18;
+.okbutton {
+    font-size: 15pt;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-weight: bolder;
+    background-color: #ffac64;
+    padding: 7pt;
     text-align: center;
-    width: 30%;
-    border-radius: 0pt 0pt 15pt 15pt;
+    width: 20%;
+    border-radius: 10pt;
     margin-top: 10pt;
     transition: background-color 0.5s ease-in-out;
-    mix-blend-mode: color-dodge;
+    mix-blend-mode: hard-light;
 }
 .okbutton:before {
     content: 'OK';
 }
 
 .okbutton:hover {
-    background-color: #ffac64;
+    background-color: #ee7c18;
 }
 
 
@@ -233,23 +227,22 @@ input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
 /* ================ */
 
 .ifpernah {
-    font-size: 12pt;
-	cursor: pointer;
-    font-family: "Rubik Mono One", monospace;
+    font-size: 15pt;
+    cursor: pointer;
+    font-family: 'Ubuntu';
     font-weight: 400;
-    padding: 10pt;
-    /* background: #d974e140; */
-    background: #129f3e;
+    padding: 7pt;
+    background: #e857b2c9;
     text-align: center;
-    width: 70%;
-    border-radius: 15pt;
+    width: 80%;
+    border-radius: 10pt;
     margin-top: 10pt;
     letter-spacing: 1pt;
-	transition: all 0.5s ease;
-    mix-blend-mode: color-dodge;
+    transition: all 0.5s ease;
+    mix-blend-mode: hard-light;
 }
 .ifpernah:hover {
-    background: #13c14a;
+    background: #d82696;
     mix-blend-mode: color-dodge;
     letter-spacing: 5pt;
 

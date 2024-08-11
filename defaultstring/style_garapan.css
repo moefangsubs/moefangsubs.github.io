@@ -49,8 +49,9 @@ body.garapan_bokuao { background-color: #013471;}
 /* body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/fuyunotabi5b.jpg');} */
 			/* background-image: url('https://ik.imagekit.io/moearchive/kakkiwed50.webp'); */
 body.main_site::before {
-    background-image: url('https://ik.imagekit.io/moearchive/kakki23th.webp');
-    filter: grayscale(0.4) brightness(0.8) contrast(1.4);
+    /* background-image: url('https://ik.imagekit.io/moearchive/kakki23th.webp'); */
+    background-image: url('https://ik.imagekit.io/moearchive/dalle_saachan.jpg');
+    /* filter: grayscale(0.4) brightness(0.8) contrast(1.4); */
     /* filter: grayscale(1) brightness(0); */
 }
 body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/gen4hikari_.png?updatedAt=1678020710743');}
