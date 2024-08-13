@@ -18,14 +18,9 @@ document.write(`
 	<p>Next Project</p>
     <div class="scrollable">
 	<ul>
-	<li>Chou Nogistar #49</li>
-	<li>Chou Nogistar #50</li>
-	<li>Chou Nogistar #51</li>
-	<li>Chou Nogistar #52</li>
-	<li>Chou Nogistar #53</li>
+	<li>Chou Nogistar</li>
 	<li>Nogizaka Otameshichuu #41</li>
 	<li>Nogizaka Otameshichuu #42 特別編</li>
-	<li>Nogizaka Escape #4</li>
 	<li>Nogizaka Escape #5</li>
 	<li>Nogizaka Girls Talk #1</li>
 	<li>Cupstar Sashimen Vol.1 (Zuki & Mayutan)</li>
