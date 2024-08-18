@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
             targetEpisode = "00";
             break;
         case "sonna-kazoku-nara-sutechaeba":
-            targetEpisode = "02";
+            targetEpisode = "03";
             break;
     }
     initializeEpisode(targetEpisode);
