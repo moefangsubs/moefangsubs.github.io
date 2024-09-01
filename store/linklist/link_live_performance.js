@@ -54,6 +54,7 @@ const descEpisodeSynopsis = {
 	"48" : "Kali ini kami menggarap Graduation Concert dari Yamashita Mizuki, ace Nogizaka46 dari gen-3 yang mengumumkan kelulusannya di single ke-35 ini. Konser kelulusan ini diadakan selama 2 hari di Tokyo Dome. Akan ada banyak lagu dan segmen spesial dari Mizuki sendiri, juga pesan dari perwakilan tiap generasi.",
 	"49" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-35 \"Chance wa Byoudou\" ini dengan Mini live secara streaming. Sebuah single kelulusan dengan center Yamashita Mizuki, yang pada mini live ini diganti oleh Kubo Shiori dan Umezawa Minami. Juga, setelah mini live diadakan graduation ceremony untuk Sakaguchi Tamami dan Seimiya Rei yang memutuskan lulus pada single ini. Tak lupa juga ada pesan untuk mereka berdua dari masing-masing generasi.",
 	"50" : "Kakehashi Sayaka dari generasi 4 kembali ke Nogizaka46 setelah hiatus hampir 2 tahun lamanya, namun tidak untuk kembali beraktifitas, melainkan untuk mengumumkan kelulusannya dari Nogizaka dan menarik diri dari dunia entertainment. Meskipun awalnya hanya pengumuman kelulusan saja, namun Saachan ingin memberikan penampilan terakhirnya bersama gen-4 pada para penggemarnya, melalui Graduation Ceremony yang disiarkan lewat YouTube resmi Nogizaka46.",
+	"51" : "Toa, ketua klub paduan suara yang hanya memiliki enam anggota, bersama para anggota lainnya berusaha mengatasi situasi di mana mereka tidak memenuhi jumlah anggota yang diperlukan untuk mengikuti kompetisi. Mereka mencoba mengajak Aoi, yang belajar di kelas piano yang sama dengan Suzuki, kapten klub tari, untuk ikut serta dalam kompetisi paduan suara sebagai bantuan. Toa dan Suzuki sangat menantikan kompetisi paduan suara dan pelatihan musim panas, tetapi pada perjalanan pulang hari itu, Suzuki mengalami kecelakaan dan tidak pernah kembali. Pada hari itu, karena membiarkan Suzuki pulang lebih dulu, Toa dan yang lainnya menjalani hari-hari penuh penyesalan di dunia tanpa Suzuki.",
 };
 
 // =======================
@@ -112,6 +113,7 @@ const nameShow = {
 	"48" : "乃木坂46 山下美月卒業コンサート",
 	"49" : "乃木坂46 35thシングル「チャンスは平等」発売記念ミニライブ & 阪口珠美-清宮レイ卒業セレモニー",
 	"50" : "乃木坂46 掛橋沙耶香卒業セレモニー",
+	"51" : "僕が見たかった青空　舞台「夏霞～NATSUGASUMI～」 昼の部（B）",
 };
 console.log(nameShow);
 
@@ -171,6 +173,7 @@ const descEpisode = {
 	"48" : "| Nogizaka46 Yamashita Mizuki Graduation Concert",
 	"49" : "| Nogizaka46 Mini Live 35th Single \"Chance wa Byoudou\" & Sakaguchi Tamami-Seimiya Rei Graduation Ceremony",
 	"50" : "| Nogizaka46 Kakehashi Sayaka Graduation Ceremony",
+	"51" : "| Boku ga Mitakatta Aozora Stageplay \"NATSUGASUMI\"",
 };
 console.log(descEpisode);
 
@@ -229,6 +232,7 @@ const descOnAirDate = {
 	"48" : "11-12 Mei 2024",
 	"49" : "15 Juli 2024",
 	"50" : "19 Agustus 2024",
+	"51" : "21 Juli 2024",
 };
 console.log(descOnAirDate);
 
@@ -288,6 +292,7 @@ const memberParticipate = {
 	"48" : "乃木坂46 ",
 	"49" : "乃木坂46 ",
 	"50" : "乃木坂46 4期生",
+	"51" : "僕が見たかった青空",
 };
 console.log(memberParticipate);
 
@@ -348,6 +353,7 @@ const imageThumbBig = {
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcer.jpg",
 	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35.jpg",
 	"50" : "https://ik.imagekit.io/mLsKqNSuB/post/live/saachangradcer.jpg",
+	"51" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuaonatsugasumi.jpg",
 };
 console.log(imageThumbBig);
 
@@ -407,6 +413,7 @@ const imageThumbA = {
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1a.jpg",
 	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35a.jpg",
 	"50" : "https://ik.imagekit.io/mLsKqNSuB/post/live/saachangradcer-a.jpg",
+	"51" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuaonatsugasumi-a.jpg",
 };
 console.log(imageThumbA);
 
@@ -465,6 +472,7 @@ const imageThumbB = {
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1b.jpg",
 	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35b.jpg",
 	"50" : "https://ik.imagekit.io/mLsKqNSuB/post/live/saachangradcer-b.jpg",
+	"51" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuaonatsugasumi-b.jpg",
 };
 console.log(imageThumbB);
 
@@ -523,6 +531,7 @@ const imageThumbC = {
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1c.jpg",
 	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35c.jpg",
 	"50" : "https://ik.imagekit.io/mLsKqNSuB/post/live/saachangradcer-c.jpg",
+	"51" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuaonatsugasumi-c.jpg",
 };
 console.log(imageThumbC);
 
@@ -587,6 +596,7 @@ const imageThumbD = {
 	"48" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zukkigradcerD1d.jpg",
 	"49" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive35d.jpg",
 	"50" : "https://ik.imagekit.io/mLsKqNSuB/post/live/saachangradcer-d.jpg",
+	"51" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuaonatsugasumi-d.jpg",
 };
 console.log(imageThumbD);
 
@@ -646,6 +656,7 @@ const linkHardsub = {
 	"48" : "",
 	"49" : "https://sfl.gl/uTrde37B",
 	"50" : "https://sfl.gl/u1qct",
+	"51" : "https://sfl.gl/WuRi4z",
 };
 console.log(linkHardsub);
 
@@ -705,6 +716,7 @@ const linkTrakteer = {
 	"48" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-yamashita-mizuki-graduation-concert-XLZ0d",
 	"49" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-35th-single-chance-wa-byoudou-0Tn3e",
 	"50" : "https://trakteer.id/moefangsubs/showcase/240819-kakehashi-sayaka-graduation-ceremony-kcDI3",
+	"51" : "https://trakteer.id/moefangsubs/showcase/boku-ga-mitakatta-aozora-natsugasumi-YFKf8",
 };
 console.log(linkTrakteer);
 
@@ -764,6 +776,7 @@ const filePassword = {
 	"48" : "(tidak ada password)",
 	"49" : "(tidak ada password)",
 	"50" : "Saachan!Arigatou!SaachanNoMiraiNiSachiare",
+	"51" : "SelamatUlangTahunLangitBiru",
 };
 console.log(filePassword);
 

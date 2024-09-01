@@ -18,10 +18,10 @@ document.write(`
 	<p>Next Project</p>
     <div class="scrollable">
 	<ul>
-	<li>Chou Nogistar</li>
+	<!-- <li>Chou Nogistar</li>  -->
 	<li>Nogizaka Otameshichuu #41</li>
 	<li>Nogizaka Otameshichuu #42 特別編</li>
-	// <li>Nogizaka Escape #5</li>
+	<li>Nogizaka Escape</li>
 	<li>Nogizaka Girls Talk #1</li>
 	<li>Cupstar Sashimen Vol.1 (Zuki & Mayutan)</li>
 	<li>Cupstar Sashimen Vol.2 (Ume & Yumiki)</li>

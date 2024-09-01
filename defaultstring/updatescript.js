@@ -28,13 +28,13 @@ document.addEventListener("DOMContentLoaded", function() {
             // targetEpisode = "40";
             // break;
         case "live-performance":
-            targetEpisode = "50";
+            targetEpisode = "51";
             break;
         case "nogidouga-hitori-de-dekirumon":
             targetEpisode = "22";
             break;
         case "chou-nogizaka-star-tanjou":
-            targetEpisode = "48";
+            targetEpisode = "57";
             break;
         case "hinakoi-imechun":
             targetEpisode = "01";
@@ -48,9 +48,12 @@ document.addEventListener("DOMContentLoaded", function() {
         case "cupstar-sashimen":
             targetEpisode = "00";
             break;
-        case "sonna-kazoku-nara-sutechaeba":
-            targetEpisode = "03";
+        case "random-subs":
+            targetEpisode = "46";
             break;
+        // case "sonna-kazoku-nara-sutechaeba":
+            // targetEpisode = "03";
+            // break;
     }
     initializeEpisode(targetEpisode);
 });

@@ -1,6 +1,6 @@
-html {
-    filter: grayscale(0.8);
-}
+/* html { */
+    /* filter: grayscale(0.8); */
+/* } */
 
 body {
     background-color: #12021F;
@@ -43,8 +43,8 @@ a {
     align-items: center;
     text-align: center;
     background-color: #12021f5c;
-    padding: 20pt;
-    border-radius: 30pt;
+    padding: 10pt;
+    border-radius: 10pt;
 }
 
 #logo {
@@ -66,7 +66,7 @@ img.kakki {
     translate: 0% -100%;
 }
 #fansub {
-    font-size: 35pt;
+    font-size: 24pt;
     letter-spacing: -0.05em;
     font-family: 'Ubuntu';
     font-weight: 400;
@@ -138,12 +138,11 @@ img.kakki {
 /* FORM PASSWORD */
 /* ================ */
 
-/* styles.css */
 #passwordForm {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 75%;
     /* padding-top: 20pt; */
 }
 
@@ -158,7 +157,7 @@ input {
     padding-right: 40px;
     font-size: 20pt;
     border: 2px solid #12021fd9;
-    border-radius: 10pt;
+    border-radius: 6pt;
     background-color: #12021fd9;
     color: #ffffff;
     text-align: center;
@@ -202,7 +201,7 @@ input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
     padding: 7pt;
     text-align: center;
     width: 20%;
-    border-radius: 10pt;
+    border-radius: 6pt;
     margin-top: 10pt;
     transition: background-color 0.5s ease-in-out;
     mix-blend-mode: hard-light;
@@ -232,17 +231,17 @@ input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
     font-family: 'Ubuntu';
     font-weight: 400;
     padding: 7pt;
-    background: #e857b2c9;
+    background: #57e87ac9;
     text-align: center;
-    width: 80%;
-    border-radius: 10pt;
+    width: 50%;
+    border-radius: 6pt;
     margin-top: 10pt;
     letter-spacing: 1pt;
     transition: all 0.5s ease;
     mix-blend-mode: hard-light;
 }
 .ifpernah:hover {
-    background: #d82696;
+    background: #b9ffcac9;
     mix-blend-mode: color-dodge;
     letter-spacing: 5pt;
 
