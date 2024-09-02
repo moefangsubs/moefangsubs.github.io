@@ -17,6 +17,31 @@ body {
 
 /* ================================= */
 
+.stats {
+	display: none;
+    z-index: 1000;
+    position: absolute;
+    left: -15px;
+    top: 4pt;
+    font-weight: bold;
+    padding: 3pt;
+    border-radius: 5pt;
+    font-size: 10pt;
+}
+
+.progress { background: #1c8345d9;}
+.complete { background: #1ea3bed9;}
+.uncontie { background: #be1e2dd9;}
+.done { background: #57e87ad9;}
+
+
+.progress:before { content: 'ONGOING';}
+.complete:before { content: 'COMPLETE';}
+.uncontie:before { content: 'DROP';}
+.done:before { content: 'DONE';}
+
+/* ================================= */
+
 .caption {
     width: 60%;
     font-size: 12pt;

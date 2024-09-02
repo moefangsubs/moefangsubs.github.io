@@ -6,19 +6,33 @@
     border-radius: 20pt;
     width: 70%;
     padding: 10pt;
-    font-size: 20pt;
-    font-weight: bold;
     color: bisque;
     align-items: center;
     background-color: #320d5154;
     text-align: center;
 }
 
-.update-header {
+.update-header, .update-note {
     width: 100%;
     text-align: center;
     margin-bottom: 10pt;
 }
+.update-header {
+    font-size: 20pt;
+    font-weight: bold;
+    color: bisque;
+}
+/* .update-note { */
+    /* font-size: 12pt; */
+    /* font-weight: normal; */
+    /* color: white; */
+/* } */
+.update-header:before {
+content: 'UPDATE | ';
+}
+/* .update-note:before { */
+	/* content: 'Untuk garapan dengan judul sama, silakan klik salah satunya saja.'; */
+/* } */
 
 .links-container {
     display: flex;

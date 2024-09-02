@@ -22,8 +22,14 @@ function initializeEpisode(targetEpisode) {
 document.addEventListener("DOMContentLoaded", function() {
     var currentFileName = window.location.pathname.split("/").pop().split(".")[0];
     var targetEpisode;
-    
-    switch (currentFileName) {
+
+    var urlParams = new URLSearchParams(window.location.search);
+    var episodeParam = urlParams.get('episode');
+
+    if (episodeParam) {
+        targetEpisode = episodeParam;
+    } else {
+        switch (currentFileName) {
         // case "nogizaka-otameshichuu":
             // targetEpisode = "40";
             // break;
@@ -54,6 +60,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // case "sonna-kazoku-nara-sutechaeba":
             // targetEpisode = "03";
             // break;
+        }
     }
+
     initializeEpisode(targetEpisode);
 });
+
