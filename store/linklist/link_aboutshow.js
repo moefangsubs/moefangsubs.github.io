@@ -25,6 +25,8 @@ const acaraData = {
 	nogidougaKubochannel: "\"Kubo Channel\" merupakan acara khusus yang disiarkan dalam platform Nogi Douga yang dibuat di mana konten-konten di dalamnya dijelaskan oleh Kubo Shiori, yang memiliki kecintaan terbesar pada grup Nogizaka46 dan memiliki ingatan yang kuat. Program ini baik konser, MV maupun konten lainnya membuat yang menonton menjadi lebih menarik, dengan cerita di balik layar dari sudut pandang para member.",
 	nogidougaDekirumon: "\"Hitori de Dekirumon\" merupakan acara khusus yang disiarkan dalam platform Nogi Douga dimana para member gen-5 Nogizaka46 menantang berbagai hal dengan sendirian saja sambil memutar kamera yang juga sendirian.",
     nogidougaBurari: "\"Nogizaka Burari\" merupakan konten dari Nogi Douga di mana satu member dari Nogizaka46 diminta untuk merancang \"Jika menghabiskan liburan bersama member, apa yang akan dilakukan, dengan siapa, dan di mana?\" sebagai tema. Mereka akan menghabiskan hari libur sesuai dengan rencana ideal mereka sambil mengambil foto selfie, dan konten ini akan memberikan gambaran tentang pengalaman tersebut.",
+	kaettekitayakubochannel: "Kaettekita! Yakubo Channel, merupakan season kedua dari seri Yakubo Channel dengan MC Yakubo Mio dan kameramen Hayashi Runa dari gen-4 yang berisi konten segmen ulasan makanan para member gen-5 saat Manatsu no Zenkoku Tour 2024.",
+	
 	// ------------
 	// ------------
 	// ------------
@@ -56,6 +58,7 @@ const acaraData = {
 	single33under: "Single ke-33 \"Ohitorisama Tengoku\" yang dirilis pada 23 Agustus 2023 ini sama seperti sebelumnya, yaitu merilis PV untuk gen-5, dan 32nd Single Under Live.",
 	single34zenkoku: "Single ke-34 \"Monopoly\" yang dirilis pada 6 Desember 2023 ini hanya merilis pilihan lagu-lagu dari Manatsu no Zenkoku Tour 2023 di Okinawa.",
 	single35: "Single ke-35 \"Chance wa Byoudou\" yang dirilis pada 10 April 2024 ini merilis menyertakan rekaman video live \"Shinsanmono LIVE at THEATER MILANO-Za\" baik yang offline maupun yang pernah di-streaming pada saat itu. Bonus video ini mencakup penampilan sebagian lagu yang dipentaskan bersama dengan rekaman penampilan dari semua 11 member \"Ohitorisama Tengoku Project\" yang menampilkan member yang berbeda dalam setiap pertunjukan.",
+	single36: "Single ke-36 \"Cheat Day\" yang dirilis pada 21 Agustus 2024 merilis 35th Single Under Live beserta interview pada member Under yang pertama kalinya hanya ada gen-4 dan gen-5 saja.",
 	timeflies: "Dalam koleksi ini dirilis juga 'Nogizaka46 10th Anniversary Documentary Movie \"10nen no Ayumi\"', sebuah video berdurasi panjang yang berisi perjalanan sejarah Nogizaka46 dari awal dibentuk hingga saat Best Album ini dirilis.",
 	hinatasingle2: "Dalam single ke-2 'Doremisolasido', para member Hinatazaka46 mencoba berbagai hal untuk pertama kalinya. Terdapat 6 judul dan masing-masing member berkelompok.",
 	// // ------------

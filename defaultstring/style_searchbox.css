@@ -1,0 +1,300 @@
+.search-box {
+    width: 100%;
+    background-color: #fdddffd9;
+    cursor: text;
+    position: relative;
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    margin-top: 10pt;
+    margin-bottom: 20pt;
+    padding: 10px;
+    font-size: 20pt;
+    border: 2px solid #12021fd9;
+    border-radius: 6pt;
+    background-color: #fdddffd9;
+    color: #440079;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+    font-family: 'Ubuntu';
+    cursor: text;
+}
+
+/* -----------------
+scroll
+----------------- */
+
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #720DC4 #22043B;
+}*/
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 15px;
+  width: 15px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #22043B;
+  border: 5px double #FFFFFF;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #12021F;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #12021F;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #720DC4;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #E29EFF;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #9110FA;
+}
+
+
+/* -----------------
+floating button
+----------------- */
+
+
+/* Gaya untuk tombol floating */
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #440079;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1000;
+    animation: pulse-animation 2s infinite; /* Menambahkan animasi pulse */
+}
+
+/* Animasi pulse */
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.7); /* Shadow awal dengan warna putih */
+    }
+    100% {
+        box-shadow: 0 0 0 30px rgba(255, 255, 255, 0); /* Shadow membesar dan memudar dengan warna putih */
+    }
+}
+
+
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+/* Gaya untuk popup */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+    visibility: hidden;
+    z-index: 1001;
+}
+
+
+.popup-content {
+    background-color: yellow;
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Ketika popup aktif */
+.popup.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* -----------------
+box pembungkus
+----------------- */
+
+
+.search-container {
+    justify-content: center;
+    width: 70%;
+    display: contents;
+    /* background-color: #ff010147; */
+    margin-top: 30pt;
+    transform: translate(-50%, -50%);
+}
+.searchtitle {
+    font-size: 24pt;
+    font-weight: normal;
+    padding-top: 15pt;
+    padding-bottom: 15pt;
+    text-align: center;
+}
+
+
+.category-search {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35pt;
+    border: 5pt solid #be1e2d;
+    border-radius: 20pt;
+    /* padding: 20pt 5pt 20pt 5pt; */
+    padding: 0pt 5pt 20pt 5pt;
+    transition: all 0.3s ease-in-out;
+    background: #12021f;
+    /* background: #12021fd4; */
+    /* background-color: red; */
+    max-height: 90%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+@media (min-width: 0px) and (min-width: 721px) and (max-width: 1280px) {
+
+    .search-container a {
+        width: 48%;
+        text-align: center;
+        padding-bottom: 0pt;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 720px) {
+    .search-container {
+        flex-direction: column;
+    }
+    .search-container a {
+        width: 95%;
+        text-align: center;
+        padding-bottom: 0pt;
+    }
+    .search-container a:before {
+        padding-right: 4pt;
+        font-size: 11pt;
+    }
+}
+
+/* -----------------
+box input
+----------------- */
+
+.searchtitle, .carinote, .search-box {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* background-color: #57e87a; */
+    /* background: #12021fd4; */
+    background: #12021f;
+    padding-top: 10px;
+}
+
+/* -----------------
+box isi result
+----------------- */
+.carinote {
+    width: 90%;
+    text-align: center;
+    font-size: 12pt;
+    margin: auto;
+    font-style: italic;
+    padding-top: 5pt;
+}
+
+
+#results {
+    margin-top: 20px;
+    animation: fadeIn 0.5s forwards;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    overflow-y: auto; /* Scrollable di dalam category-search */
+}
+
+.result-item {
+    padding: 10px;
+    border: 3px solid #c2a8d7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+    animation: fadeIn 0.5s forwards, background 0.5s ease-in-out;
+    background: #dacde5;
+    flex-direction: column;
+    width: 250px;
+    color: #8b00ff;
+    text-decoration: none;
+    font-size: 14pt;
+    height: auto;
+    align-items: center;
+}
+
+.result-item:hover {
+    background: #8b00ff;
+    color: #fff8dc;
+}
+
+.result-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Hapus underline dari link */
+    color: inherit; /* Mengambil warna dari parent */
+}
+
+.result-content {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara gambar dan teks */
+}
+.thumbnail {
+    width: 100%;
+    /* height: 50px; */
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: none;
+}

@@ -39,9 +39,12 @@ document.addEventListener("DOMContentLoaded", function() {
         case "nogidouga-hitori-de-dekirumon":
             targetEpisode = "22";
             break;
-        case "chou-nogizaka-star-tanjou":
-            targetEpisode = "57";
+        case "nogidouga-kaettekita-yakubo-channel":
+            targetEpisode = "01";
             break;
+        // case "chou-nogizaka-star-tanjou":
+            // targetEpisode = "57";
+            // break;
         case "hinakoi-imechun":
             targetEpisode = "01";
             break;
@@ -51,9 +54,9 @@ document.addEventListener("DOMContentLoaded", function() {
         case "compilation":
             targetEpisode = "01";
             break;
-        case "cupstar-sashimen":
-            targetEpisode = "00";
-            break;
+        // case "cupstar-sashimen":
+            // targetEpisode = "00";
+            // break;
         case "random-subs":
             targetEpisode = "46";
             break;

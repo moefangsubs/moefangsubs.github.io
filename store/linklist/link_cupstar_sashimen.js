@@ -5,6 +5,11 @@
 
 const descEpisodeSynopsis = {
 "00" : "Di episode 0 kali ini, member yang pertama kali memakan Cupstar bersama adalah Yoda Yuuki dari gen-3 dengan Ikeda Teresa dari gen-5.",
+"01" : "Di episode 1 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Yamashita Mizuki & Tamura Mayu yang dipilih dengan sebutan kombinasi 'dua orang yang bisa melakukan apa saja'.",
+"02" : "Di episode 2 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Umezawa Minami & Yumiki Nao yang dipilih dengan sebutan kombinasi 'si serius dan si penggoda'.",
+"03" : "Di episode 3 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Endo Sakura & Ogawa Aya yang dipilih dengan sebutan kombinasi 'mereka yang disayang sama teman-teman seangkatannya'.",
+"04" : "Di episode 4 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Ito Riria & Inoue Nagi yang dipilih dengan sebutan kombinasi 'Dua orang yang sangat cinta anime'.",
+"05" : "Di episode 5 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Kaki Haruka & Sugawara Satsuki yang dipilih dengan sebutan kombinasi 'sering diandalkan oleh teman seangkatan'.",
 };
 console.log(descEpisodeSynopsis);
 
@@ -23,7 +28,12 @@ console.log(nameShow);
 // =======================
 
 const descEpisode = {
-"00" : "| Vol.0 (Yoda Yuuki ｘ Ikeda Teresa)",
+"00" : "| Vol.0 (Yoda Yuuki & Ikeda Teresa)",
+"01" : "| Vol.1 (Yamashita Mizuki & Tamura Mayu)",
+"02" : "| Vol.2 (Umezawa Minami & Yumiki Nao)",
+"03" : "| Vol.3 (Endo Sakura & Ogawa Aya)",
+"04" : "| Vol.4 (Ito Riria & Inoue Nagi)",
+"05" : "| Vol.5 (Kaki Haruka & Sugawara Satsuki)"
 };
 console.log(descEpisode);
 
@@ -34,6 +44,11 @@ console.log(descEpisode);
 
 const descOnAirDate = {
 "00" : "19 April 2024",
+"01" : "2 Mei 2024",
+"02" : "6 Juni 2024",
+"03" : "4 Juli 2024",
+"04" : "1 Agustus 2024",
+"05" : "5 September 2024",
   };
 console.log(descOnAirDate);
 
@@ -44,6 +59,11 @@ console.log(descOnAirDate);
 
 const memberParticipate = {
 "00" : "与田祐希、池田瑛紗",
+"01" : "山下美月、田村真佑",
+"02" : "梅澤美波、弓木奈於",
+"03" : "遠藤さくら、小川彩",
+"04" : "伊藤理々杏、井上和",
+"05" : "賀喜遥香、菅原咲月"
   };
 console.log(memberParticipate);
 
@@ -52,46 +72,55 @@ console.log(memberParticipate);
 // IMAGE THUMBNAIL main
 // =======================
 
-const imageThumbBig = {
-"00" : "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen-0.jpg",
-  };
+const imageThumbBig = {};
+for (let i = 0; i <= 9999; i++) {
+  const paddedNumber = i.toString().padStart(2, '0');
+  imageThumbBig[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen${paddedNumber}.jpg`;
+}
 console.log(imageThumbBig);
-
 
 // =======================
 // IMAGE THUMBNAIL A
 // =======================
 
-const imageThumbA = {
-"00" : "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen-0a.jpg",
-  };
+const imageThumbA = {};
+for (let i = 0; i <= 9999; i++) {
+  const paddedNumber = i.toString().padStart(2, '0');
+  imageThumbA[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen${paddedNumber}a.jpg`;
+}
 console.log(imageThumbA);
 
 // =======================
 // IMAGE THUMBNAIL B
 // =======================
 
-const imageThumbB = {
-"00" : "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen-0b.jpg",
-  };
+const imageThumbB = {};
+for (let i = 0; i <= 9999; i++) {
+  const paddedNumber = i.toString().padStart(2, '0');
+  imageThumbB[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen${paddedNumber}b.jpg`;
+}
 console.log(imageThumbB);
 
 // =======================
 // IMAGE THUMBNAIL C
 // =======================
 
-const imageThumbC = {
-"00" : "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen-0c.jpg",
-  };
+const imageThumbC = {};
+for (let i = 0; i <= 9999; i++) {
+  const paddedNumber = i.toString().padStart(2, '0');
+  imageThumbC[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen${paddedNumber}c.jpg`;
+}
 console.log(imageThumbC);
 
 // =======================
 // IMAGE THUMBNAIL D
 // =======================
 
-const imageThumbD = {
-"00" : "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen-0d.jpg",
-  };
+const imageThumbD = {};
+for (let i = 0; i <= 9999; i++) {
+  const paddedNumber = i.toString().padStart(2, '0');
+  imageThumbD[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen${paddedNumber}d.jpg`;
+}
 console.log(imageThumbD);
 
 
@@ -101,6 +130,11 @@ console.log(imageThumbD);
 
 const linkHardsub = {
 "00" : "https://lokerwfh.net/krxpWh",
+"01" : "https://sfl.gl/nj4Z6X74",
+"02" : "https://sfl.gl/xtdKqt",
+"03" : "https://sfl.gl/imEeeOf",
+"04" : "https://sfl.gl/6Xcwlp9",
+"05" : "https://sfl.gl/aHuovi"
   };
 console.log(linkHardsub);
 

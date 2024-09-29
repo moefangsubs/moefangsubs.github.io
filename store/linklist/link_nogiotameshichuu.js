@@ -44,7 +44,10 @@ const descEpisodeSynopsis = {
 	"38" : "Di episode 38 ini adalah bagian terakhir dari hadiah untuk Kanagawa Saya yang telah mengumpulkan tiga otameshisha pergi jalan-jalan ke kampung halamannya Riria, Okinawa! Kemana lagi kah tujuan mereka selama disana?",
 	"39" : "Di episode 39 ini adalah otameshi angka 4. Meskipun seharusnya ada 4 member gen-4, namun satu orang terhalang jadwal, maka Riria ikut menjadi bagian otameshi girls meskipun dia tidak ada hubungannya dengan angka 4.",
 	"40" : "Di episode 40 ini dengan otameshi girls di episode sebelumnya pergi mengunjungi perkebunan stroberi, dan mencoba otameshi kecocokan dirinya sebagai idola dengan stoberi!",
-  };
+	"41" : "Di episode 41 ini para otameshi girls akan mencoba berbagai segmen yang ada hubungannya antara musim hujan yang sedang terjadi dengan aktifitas sebagai idol.",
+	"42" : "Di episode 42 ini adalah episode spesial kelulusan Sakaguchi Tamami dan Seimiya Rei, dimana mereka berdua ingin mencoba sesuatu sebagai keinginan terakhirnya dalam tampil di acara Otameshichuu ini. Tamami yang ingin memakai baju lolita, sedangkan Rei akan mencoba pengalaman membuat mochi",
+	"43" : "Di episode 43 ini para otameshi girls akan mencoba berolahraga tenis, yang masih dikenal jarang oleh masyarakat.",
+};
 
 
 // =======================
@@ -116,6 +119,9 @@ const descOnAirDate = {
 	"38" : "30 Maret 2024",
 	"39" : "27 April 2024",
 	"40" : "25 Mei 2024",
+	"41" : "29 Juni 2024",
+	"42" : "13 Juli 2024",
+	"43" : "31 Agustus 2024",
   };
 
 
@@ -164,6 +170,9 @@ const memberParticipate = {
 	"38" : "伊藤理々杏、金川紗耶、弓木奈於",
 	"39" : "伊藤理々杏、柴田柚菜、佐藤璃果、松尾美佑",
 	"40" : "伊藤理々杏、柴田柚菜、佐藤璃果、松尾美佑", 
+	"41" : "伊藤理々杏、佐藤楓、向井葉月、田村真佑、五百城茉央",
+	"42" : "伊藤理々杏、阪口珠美、清宮レイ",
+	"43" : "伊藤理々杏、佐藤楓、向井葉月、田村真佑、五百城茉央",
   };
 
 
@@ -288,6 +297,9 @@ const linkHardsub = {
 	"38" : "https://sfl.gl/2ClT",
 	"39" : "https://sfl.gl/BC3i",
 	"40" : "https://sfl.gl/SAmsB3",
+	"41" : "https://sfl.gl/cweqN",
+	"42" : "https://sfl.gl/X1HfL",
+	"43" : "https://sfl.gl/P9EDN4",
   };
   
 // =======================
@@ -335,6 +347,9 @@ const linkSoftsub = {
 	"38" : "https://sfl.gl/iJ4J",
 	"39" : "https://sfl.gl/9WIcLqS",
 	"40" : "https://sfl.gl/6HEL",
+	"41" : "https://sfl.gl/b6QXkBY",
+	"42" : "https://sfl.gl/K9fvR2gn",
+	"43" : "https://sfl.gl/wq6PI9l",
   };
 
 // =======================

@@ -19,14 +19,8 @@ document.write(`
     <div class="scrollable">
 	<ul>
 	<!-- <li>Chou Nogistar</li>  -->
-	<li>Nogizaka Otameshichuu #41</li>
-	<li>Nogizaka Otameshichuu #42 特別編</li>
 	<li>Nogizaka Escape</li>
 	<li>Nogizaka Girls Talk #1</li>
-	<li>Cupstar Sashimen Vol.1 (Zuki & Mayutan)</li>
-	<li>Cupstar Sashimen Vol.2 (Ume & Yumiki)</li>
-	<li>Cupstar Sashimen Vol.3 (Sakuchan & Aaya)</li>
-	<li>Cupstar Sashimen Vol.4</li>
 	<li>Nogizaka Underlive 34th</li>
 	<li>Nogizaka Underlive 35th</li>
 	<li>Nogizaka46 11th Birthday Live (BluRay)</li>
