@@ -126,7 +126,7 @@ console.log(memberParticipate);
 const imageThumbBig = {};
 for (let i = 1; i <= 9999; i++) {
   const paddedNumber = i.toString().padStart(2, '0');
-  imageThumbBig[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/miranowatashi/miranowatashi${paddedNumber}.jpg`;
+  imageThumbBig[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi${paddedNumber}.jpg`;
 }
 console.log(imageThumbBig);
 
@@ -137,7 +137,7 @@ console.log(imageThumbBig);
 const imageThumbA = {};
 for (let i = 1; i <= 9999; i++) {
   const paddedNumber = i.toString().padStart(2, '0');
-  imageThumbA[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/miranowatashi/miranowatashi${paddedNumber}a.jpg`;
+  imageThumbA[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi${paddedNumber}a.jpg`;
 }
 console.log(imageThumbA);
 
@@ -148,7 +148,7 @@ console.log(imageThumbA);
 const imageThumbB = {};
 for (let i = 1; i <= 9999; i++) {
   const paddedNumber = i.toString().padStart(2, '0');
-  imageThumbB[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/miranowatashi/miranowatashi${paddedNumber}b.jpg`;
+  imageThumbB[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi${paddedNumber}b.jpg`;
 }
 console.log(imageThumbB);
 
@@ -159,7 +159,7 @@ console.log(imageThumbB);
 const imageThumbC = {};
 for (let i = 1; i <= 9999; i++) {
   const paddedNumber = i.toString().padStart(2, '0');
-  imageThumbC[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/miranowatashi/miranowatashi${paddedNumber}c.jpg`;
+  imageThumbC[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi${paddedNumber}c.jpg`;
 }
 console.log(imageThumbC);
 
@@ -170,7 +170,7 @@ console.log(imageThumbC);
 const imageThumbD = {};
 for (let i = 1; i <= 9999; i++) {
   const paddedNumber = i.toString().padStart(2, '0');
-  imageThumbD[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/miranowatashi/miranowatashi${paddedNumber}d.jpg`;
+  imageThumbD[paddedNumber] = `https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi${paddedNumber}d.jpg`;
 }
 console.log(imageThumbD);
 
