@@ -49,7 +49,8 @@ body.garapan_bokuao { background-color: #013471;}
 /* body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/fuyunotabi5b.jpg');} */
 /* background-image: url('https://ik.imagekit.io/moearchive/kakkiwed50.webp'); */
 body.main_site::before {
-    background-image: url('https://ik.imagekit.io/moearchive/kakki23th.webp');
+    background-image: url('https://ik.imagekit.io/moearchive/kakkiterepan.jpg');
+    /* background-image: url('https://ik.imagekit.io/moearchive/kakki23th.webp'); */
     /* background-image: url('https://ik.imagekit.io/moearchive/dalle_saachan.jpg'); */
     /* filter: grayscale(0.4) brightness(0.8) contrast(1.4); */
     /* filter: grayscale(1) brightness(0); */
@@ -121,6 +122,7 @@ body.truckgirl::before{background-image: url('https://ik.imagekit.io/moearchive/
 body.hikkoshitantei::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hikkoshitantei.jpg');}
 body.rakujitsu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/rakujitsu.jpg');}
 body.sonnakazoku::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/sonnakazoku.jpg');}
+body.watashinomirai::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/watashinomirai.jpg');}
 body.densetsunohead::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/densetsunohead.jpg');}
 body.nogizakacinemas::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogizakacinemas.jpg');}
 body.shiosuketoamami::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shiosuketoamami.jpg');}

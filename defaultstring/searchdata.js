@@ -1112,6 +1112,11 @@ const searchData = {
 // ~~~ DRAMA
 // ~~~~~~~~~~~~~~~
 
+    "Watashi no Mirai ni Bukkamasareru? (Kubo Shiori)": {
+        "baseUrl": "watashi-no-mirai-ni-bukkamasareru.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/watashinomirai",
+        "episodeRange": { "start": 1, "end": 4 }
+    },
     "Densetsu no Head Spin off (Sugawara Satsuki)": {
         "baseUrl": "densetsu-no-head-sho-spinoff.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/",

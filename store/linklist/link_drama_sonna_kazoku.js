@@ -13,9 +13,7 @@ const descEpisodeSynopsis = {
 "07" : "Ichika menemukan bahwa dia memiliki saudara kembar yang sudah meninggal saat mencoba memecahkan misteri pita di rumahnya. Ketika berbicara dengan ibu Hikaru, dia menemukan petunjuk terakhir dari foto keluarga yang terpotong, yang membuatnya syok. Saat kembali ke rumah, dia menunjukkan foto tersebut kepada ibunya, yang panik dan menyebut nama saudara kembarnya, Shouki. Sementara itu, Hikaru mendapat masalah di sekolah setelah foto-foto tidak senonoh ibunya tersebar, membuatnya marah dan mengurung diri. Ichika berusaha menenangkan Hikaru, tetapi harus berhadapan dengan Kotoha, yang diam-diam merencanakan insiden tersebut.",
 "08" : "Setelah memecahkan misteri foto keluarga, Ichika terungkap pada kenyataan tragis keluarganya. Meski ingin membangun kembali keluarganya yang terpisah, Ichika tak sanggup mengungkapkan kebenaran pada Hikaru dan mencoba menjauhinya. Sementara itu, Kotoha mendekati ayah Ichika, berusaha memanipulasinya. Ayah Ichika, yang kesepian, akhirnya menerima ajakan Sayako untuk menjalin hubungan lebih serius, meski menyadari risikonya. Di tengah semua itu, hubungan rumit antar keluarga dan kehancuran mereka mulai terbuka.",
 "09" : "Ichika akhirnya mengungkapkan pada Hikaru bahwa mereka adalah saudara kembar, dan meskipun kaget, Hikaru tetap menunjukkan rasa cintanya. Mereka berdua kemudian mencoba memahami mengapa Hikaru, yang seharusnya adalah Shouki, menjadi anak Sayako. Di sisi lain, ayah mereka, Reitarou, yang merasa bersalah atas perbuatan masa lalunya, akhirnya meminta cerai dari ibu Ichika. Pada ulang tahun ke-18 Ichika, kebenaran mengejutkan tentang keluarga mereka terungkap.",
-// "10" : "Ichika dan Hikaru, yang tanpa sadar jatuh cinta meski bersaudara, berusaha mengungkap mengapa mereka dipisahkan. Ibu mereka, Kazumi, terkejut mengetahui bahwa Hikaru adalah Shouki yang telah lama hilang. Reitarou akhirnya mengakui bahwa insiden di kebun binatang 15 tahun lalu terjadi karena kesalahannya. Konflik semakin memanas ketika Sayako datang menuntut penjelasan, dan hubungan rumit antar orang tua mereka akhirnya memuncak. Di tengah semua kekacauan ini, Ichika menemukan jawaban dari teka-teki hidupnya.",
-// "11" : "",
-// "12" : "",
+"10" : "Ichika dan Hikaru, yang tanpa sadar jatuh cinta meski bersaudara, berusaha mengungkap mengapa mereka dipisahkan. Ibu mereka, Kazumi, terkejut mengetahui bahwa Hikaru adalah Shouki yang telah lama hilang. Reitarou akhirnya mengakui bahwa insiden di kebun binatang 15 tahun lalu terjadi karena kesalahannya. Konflik semakin memanas ketika Sayako datang menuntut penjelasan, dan hubungan rumit antar orang tua mereka akhirnya memuncak. Di tengah semua kekacauan ini, Ichika menemukan jawaban dari teka-teki hidupnya."
 };
 
 // =======================
@@ -57,6 +55,7 @@ const descOnAirDate = {
 "07" : "12 September 2024",
 "08" : "19 September 2024",
 "09" : "26 September 2024",
+"10" : "3 Oktober 2024"
   };
 console.log(descOnAirDate);
 
@@ -142,9 +141,7 @@ const linkHardsub = {
 "07" : "https://sfl.gl/V147",
 "08" : "https://sfl.gl/DQY5o",
 "09" : "https://sfl.gl/OhyW9I",
-// "10" : "",
-// "11" : "",
-// "12" : "",
+"10" : "https://sfl.gl/zBH98Y"
   };
 console.log(linkHardsub);
 
