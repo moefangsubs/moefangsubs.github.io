@@ -13,22 +13,22 @@ document.write(`
 <!-- ---------------------- -->
 <!-- SIDEBAR PROJECT        -->
 <!-- ---------------------- -->
-<hr>
-<div class="myproject">
-	<p>Next Project</p>
-    <div class="scrollable">
-	<ul>
+<!-- <hr> -->
+<!-- <div class="myproject"> -->
+	<!-- <p>Next Project</p> -->
+    <!-- <div class="scrollable"> -->
+	<!-- <ul> -->
 	<!-- <li>Chou Nogistar</li>  -->
-	<li>Nogizaka Escape</li>
-	<li>Nogizaka Girls Talk #1</li>
-	<li>Nogizaka Underlive 34th</li>
-	<li>Nogizaka Underlive 35th</li>
-	<li>Nogizaka46 11th Birthday Live (BluRay)</li>
-	<li>Hinatazaka Channel*</li>
-	<li>Sakamichi Aozora*</li>
-	</ul>
-</div>
-</div>
+	<!-- <li>Nogizaka Escape</li> -->
+	<!-- <li>Nogizaka Girls Talk #1</li> -->
+	<!-- <li>Nogizaka Underlive 34th</li> -->
+	<!-- <li>Nogizaka Underlive 35th</li> -->
+	<!-- <li>Nogizaka46 11th Birthday Live (BluRay)</li> -->
+	<!-- <li>Hinatazaka Channel*</li> -->
+	<!-- <li>Sakamichi Aozora*</li> -->
+	<!-- </ul> -->
+<!-- </div> -->
+<!-- </div> -->
 
 <div class="noslot">
 Ingat, hindari judi online, kawan 😉
