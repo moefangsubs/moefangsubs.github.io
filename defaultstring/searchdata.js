@@ -1115,7 +1115,12 @@ const searchData = {
     "Mirai no Watashi ni Bukkamasareru? (Kubo Shiori)": {
         "baseUrl": "mirai-no-watashi-ni-bukkamasareru.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi",
-        "episodeRange": { "start": 1, "end": 4 }
+        "episodeRange": { "start": 1, "end": 12 }
+    },	
+    "Ryosangata Riko Saigo no Puramo Joshi no Jinsei Kumitate Ki (Yoda Yuuki)": {
+        "baseUrl": "ryosangata-riko-season-3.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-",
+        "episodeRange": { "start": 1, "end": 10 }
     },
     "Densetsu no Head Spin off (Sugawara Satsuki)": {
         "baseUrl": "densetsu-no-head-sho-spinoff.html",
@@ -1134,7 +1139,7 @@ const searchData = {
     "Sonna Kazoku nara Sutechaeba (Iwamoto Renka)": {
         "baseUrl": "sonna-kazoku-nara-sutechaeba.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku",
-        "episodeRange": { "start": 1, "end": 9 }
+        "episodeRange": { "start": 1, "end": 10 }
     },
     "Hikkoshi Tantei Sakura (Endo Sakura)": {
         "baseUrl": "hikkoshi-tantei-sakura.html",
