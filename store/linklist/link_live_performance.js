@@ -700,7 +700,7 @@ const linkHardsub = {
 	"52" : "",
 	"53" : "",
 	"54" : "",
-	"55" : "https://sfl.gl/NmMP",
+	"55" : "https://sfl.gl/qiRLOB8",
 };
 console.log(linkHardsub);
 
