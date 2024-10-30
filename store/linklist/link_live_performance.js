@@ -185,7 +185,7 @@ const descEpisode = {
 	"52" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 1",
 	"53" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 2",
 	"54" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 3",
-	"55" : "| Boku ga Mitakatta Aozora Stageplay \"Aozora Summer Festival 2024\"",
+	"55" : "| Boku ga Mitakatta Aozora \"Aozora Summer Festival 2024\"",
 };
 console.log(descEpisode);
 
