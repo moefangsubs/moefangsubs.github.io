@@ -1,11 +1,11 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="54"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D3.jpg"><span class="epsbadgeNew"></span></div>
-				<div class="episodelist buttonEpsList" data-episode="53"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D2.jpg"><span class="epsbadgeNew"></span></div>
-				<div class="episodelist buttonEpsList" data-episode="52"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D1.jpg"><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="55"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_aozorasummerfes2024.jpg"><span class="epsbadgeNew"></span></div>
 				
-				
+				<div class="episodelist buttonEpsList" data-episode="54"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D3.jpg"></div>
+				<div class="episodelist buttonEpsList" data-episode="53"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D2.jpg"></div>
+				<div class="episodelist buttonEpsList" data-episode="52"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D1.jpg"></div>
 				<div class="episodelist buttonEpsList" data-episode="51"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_bokuaonatsugasumi.jpg"></div>
 				<div class="episodelist buttonEpsList" data-episode="50"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_saachangradcer.jpg"></div>
 				<div class="episodelist buttonEpsList" data-episode="49"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive35.jpg"></div>

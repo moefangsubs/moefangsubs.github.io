@@ -58,6 +58,7 @@ const descEpisodeSynopsis = {
 	"52" : "Konser final tur nasional tahunan Nogizaka46, \"Manatsu no Zenkoku Tour 2024,\" digelar di Stadion Baseball Meiji Jingu, Tokyo, pada 2-4 September. Tur ini mencakup 7 pertunjukan di tiga lokasi berbeda, dimulai di Osaka pada Juli dan diakhiri di Tokyo, dengan total penonton mencapai 265.000 orang. Meskipun sempat terancam oleh Topan No. 10, konser berjalan lancar dan memukau penonton dengan penampilan energik para member dari gen-3 hingga gen-5. Konser diwarnai dengan berbagai pertunjukan, kostum, dan interaksi dengan penonton, diakhiri dengan encore emosional yang membuat penonton terpukau.",
 	"53" : "Konser final tur nasional tahunan Nogizaka46, \"Manatsu no Zenkoku Tour 2024,\" digelar di Stadion Baseball Meiji Jingu, Tokyo, pada 2-4 September. Tur ini mencakup 7 pertunjukan di tiga lokasi berbeda, dimulai di Osaka pada Juli dan diakhiri di Tokyo, dengan total penonton mencapai 265.000 orang. Meskipun sempat terancam oleh Topan No. 10, konser berjalan lancar dan memukau penonton dengan penampilan energik para member dari gen-3 hingga gen-5. Konser diwarnai dengan berbagai pertunjukan, kostum, dan interaksi dengan penonton, diakhiri dengan encore emosional yang membuat penonton terpukau.",
 	"54" : "Konser final tur nasional tahunan Nogizaka46, \"Manatsu no Zenkoku Tour 2024,\" digelar di Stadion Baseball Meiji Jingu, Tokyo, pada 2-4 September. Tur ini mencakup 7 pertunjukan di tiga lokasi berbeda, dimulai di Osaka pada Juli dan diakhiri di Tokyo, dengan total penonton mencapai 265.000 orang. Meskipun sempat terancam oleh Topan No. 10, konser berjalan lancar dan memukau penonton dengan penampilan energik para member dari gen-3 hingga gen-5. Konser diwarnai dengan berbagai pertunjukan, kostum, dan interaksi dengan penonton, diakhiri dengan encore emosional yang membuat penonton terpukau.",
+	"55" : "Boku ga Mitakatta Aozora merayakan ulang tahun pertama debut mereka dengan menggelar konser \"Aozora Summer Festival 2024\" pada 30 Agustus 2024 di Toyosu PIT, Tokyo. Konser ini menampilkan total 16 lagu termasuk tiga lagu yang pertama kali dibawakan, yaitu \"Ano Hi Bokutachi wa Naiteita,\" \"Boku ni Totte wa,\" dan lagu tema dari anime \"Ganbatte Ikimasshoi,\" \"Sorairo no Mizushibuki.\" Selain itu, konser ini juga menampilkan shuffle unit song yang belum pernah dilakukan sebelumnya dan berbagai aktivitas bertema festival musim panas.",
 };
 
 // =======================
@@ -120,6 +121,7 @@ const nameShow = {
 	"52" : "乃木坂46 真夏の全国ツアー 2024 in 東京 @ 明治神宮 DAY 1",
 	"53" : "乃木坂46 真夏の全国ツアー 2024 in 東京 @ 明治神宮 DAY 2",
 	"54" : "乃木坂46 真夏の全国ツアー 2024 in 東京 @ 明治神宮 DAY 3",
+	"55" : "僕が見たかった青空 アオゾラサマーフェスティバル2024",
 };
 console.log(nameShow);
 
@@ -183,6 +185,7 @@ const descEpisode = {
 	"52" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 1",
 	"53" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 2",
 	"54" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 3",
+	"55" : "| Boku ga Mitakatta Aozora Stageplay \"Aozora Summer Festival 2024\"",
 };
 console.log(descEpisode);
 
@@ -245,6 +248,7 @@ const descOnAirDate = {
 	"52" : "2 September 2024",
 	"53" : "3 September 2024",
 	"54" : "4 September 2024",
+	"55" : "20 September 2024",
 };
 console.log(descOnAirDate);
 
@@ -308,6 +312,7 @@ const memberParticipate = {
 	"52" : "乃木坂46 ",
 	"53" : "乃木坂46 ",
 	"54" : "乃木坂46 ",
+	"55" : "僕が見たかった青空",
 };
 console.log(memberParticipate);
 
@@ -372,6 +377,7 @@ const imageThumbBig = {
 	"52" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d1.jpg",
 	"53" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d2.jpg",
 	"54" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d3.jpg",
+	"55" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-aozorasummerfes2024.jpg",
 };
 console.log(imageThumbBig);
 
@@ -435,6 +441,7 @@ const imageThumbA = {
 	"52" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d1a.jpg",
 	"53" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d2a.jpg",
 	"54" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d3a.jpg",
+	"55" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-aozorasummerfes2024a.jpg",
 };
 console.log(imageThumbA);
 
@@ -497,6 +504,7 @@ const imageThumbB = {
 	"52" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d1b.jpg",
 	"53" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d2b.jpg",
 	"54" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d3b.jpg",
+	"55" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-aozorasummerfes2024b.jpg",
 };
 console.log(imageThumbB);
 
@@ -559,6 +567,7 @@ const imageThumbC = {
 	"52" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d1c.jpg",
 	"53" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d2c.jpg",
 	"54" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d3c.jpg",
+	"55" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-aozorasummerfes2024c.jpg",
 };
 console.log(imageThumbC);
 
@@ -627,6 +636,7 @@ const imageThumbD = {
 	"52" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d1d.jpg",
 	"53" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d2d.jpg",
 	"54" : "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2024d3d.jpg",
+	"55" : "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-aozorasummerfes2024d.jpg",
 };
 console.log(imageThumbD);
 
@@ -690,6 +700,7 @@ const linkHardsub = {
 	"52" : "",
 	"53" : "",
 	"54" : "",
+	"55" : "https://sfl.gl/NmMP",
 };
 console.log(linkHardsub);
 
@@ -753,6 +764,7 @@ const linkTrakteer = {
 	"52" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-manatsu-no-zenkoku-tour-2024-in-tokyo-at-meiji-jingu-stadium-2DXIz",
 	"53" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-manatsu-no-zenkoku-tour-2024-in-tokyo-at-meiji-jingu-stadium-2DXIz",
 	"54" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-manatsu-no-zenkoku-tour-2024-in-tokyo-at-meiji-jingu-stadium-2DXIz",
+	"55" : "https://trakteer.id/moefangsubs/showcase/boku-ga-mitakatta-aozora-aozora-summer-festival-2024-Jrur9",
 };
 console.log(linkTrakteer);
 
@@ -816,6 +828,7 @@ const filePassword = {
 	"52" : "(tidak ada password)",
 	"53" : "(tidak ada password)",
 	"54" : "(tidak ada password)",
+	"55" : "BokuAo!TsuyokuNiNarou!",
 };
 console.log(filePassword);
 

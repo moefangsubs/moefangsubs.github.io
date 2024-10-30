@@ -22,8 +22,15 @@ document.write(`
 				<div class="sidebar-logo"> <span class="logo-name">MOEFANG SUBS</span> <i class='bx bx-x'></i> </div>
 				<ul class="links">
 					<li><a href="../sitemap.html">SITE MAP</a></li>
-					<li><a href="../pages/mv-hardsubs.html">MV SUBS</a></li>
-					<li> <a href="../503.html">TRANSLATION</a> <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+					
+					<li> <a href="#">MV SUBS</a> <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+						<ul class="htmlCss-sub-menu sub-menu">
+							<li><a href="../pages/mv-hardsubs.html">NOGIZAKA46 & OTHER</a></li>
+							<li><a href="../pages/mv-hardsubs-bokuao.html">BOKU GA MITAKATTA AOZORA</a></li>
+						</ul>
+					</li>
+					
+					<li> <a href="#">TRANSLATION</a> <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
 						<ul class="htmlCss-sub-menu sub-menu">
 							<li><a href="../pages/magazine-translation.html">MAGAZINE TRANSLATION</a></li>
 							<li><a href="../503.html">BLOG TRANSLATION</a></li>
