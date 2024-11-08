@@ -395,6 +395,7 @@ img.readingpict {
 		min-width: -webkit-fill-available;
 		height: 130pt;
 		flex-direction: column;
+		scroll-snap-type: x mandatory;
 	}
 }
 
@@ -430,6 +431,7 @@ img.readingpict {
     color: white;
     padding: 5px;
     height: 40pt;
+    scroll-snap-align: center;
 }
 
 .episodelist img {
