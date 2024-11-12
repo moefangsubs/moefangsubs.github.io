@@ -2,9 +2,11 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="43"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-43.jpg"><div class="epsname">Episode 43</div><span class="epsbadgeNew"></span></div>
-				<div class="episodelist buttonEpsList" data-episode="42"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-42.jpg"><div class="epsname">Episode 42</div><span class="epsbadgeNew"></span></div>
-				<div class="episodelist buttonEpsList" data-episode="41"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-41.jpg"><div class="epsname">Episode 41</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="45"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-45.jpg"><div class="epsname">Episode 45</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="44"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-44.jpg"><div class="epsname">Episode 44</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="43"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-43.jpg"><div class="epsname">Episode 43</div></div>
+				<div class="episodelist buttonEpsList" data-episode="42"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-42.jpg"><div class="epsname">Episode 42</div></div>
+				<div class="episodelist buttonEpsList" data-episode="41"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-41.jpg"><div class="epsname">Episode 41</div></div>
 				<div class="episodelist buttonEpsList" data-episode="40"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-40.jpg"><div class="epsname">Episode 40</div></div>
 				<div class="episodelist buttonEpsList" data-episode="39"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-39.jpg"><div class="epsname">Episode 39</div></div>
 				<div class="episodelist buttonEpsList" data-episode="38"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-38.jpg"><div class="epsname">Episode 38</div></div>

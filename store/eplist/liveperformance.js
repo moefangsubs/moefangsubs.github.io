@@ -1,7 +1,10 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="55"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_aozorasummerfes2024.jpg"><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="57"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive35.jpg"><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="56"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive34.jpg"><span class="epsbadgeNew"></span></div>
+				
+				<div class="episodelist buttonEpsList" data-episode="55"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_aozorasummerfes2024.jpg"></div>
 				
 				<div class="episodelist buttonEpsList" data-episode="54"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D3.jpg"></div>
 				<div class="episodelist buttonEpsList" data-episode="53"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2024D2.jpg"></div>

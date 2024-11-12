@@ -50,6 +50,7 @@ const descEpisodeSynopsis = {
 "44" : "Himutaro berjalan-jalan di sekitar Kanda hingga Jinbocho dengan Endo Sakura dari Nogizaka46 kali ini. Mereka memulai dari Kuil Kanda. Mampir ke Yushima Seido, dan jika beruntung, mereka akan melintasi Hijiribashi, di mana mereka bisa melihat berbagai kereta api. Mereka juga berpose bersama di area yang ditanami sakura. Ketika melewati Stasiun Kudanshita, mereka melihat Nippon Budokan di kejauhan. Bagi Himutaro, berjalan-jalan bersama di sini penuh dengan kenangan yang mendalam. Terakhir, mereka menikmati hadiah berupa kari yang lezat dengan banyak rempah!",
 "45" : "\"Waraidane\" adalah sebuah program talk show dengan pembawa acara Uchimura Teruyoshi dan duo komedian Summers. Konten percakapan hanya akan mencakup \"pertama kali dibahas\" yang belum pernah dibicarakan di TV sebelumnya! Di tamu ketiga kali ini, Nogizaka46 bersama Ijiri Okada akan tampil!",
 "46" : "Dengan Yumiki Nao dan Ioki Mao, bisakah dua member Nogizaka46 ini mencapai tempat baru tanpa smartphone? Mereka akan melakukan semacam perjalanan waktu ke era Showa dan Heisei, ketika belum ada smartphone! Penyelidikan mendalam tentang apa yang dilakukan generasi Showa ketika belum ada smartphone, termasuk 'hubungan jarak jauh' dan 'membeli tiket'. Saksikan perjalanan unik mereka dengan kesimpulan mengejutkan yang tidak terduga...",
+"47" : "Tamu pada 2 November adalah Saito Asuka, aktor dan model yang sebelumnya aktif sebagai member Nogizaka46 dan lulus dari grup pada konser Mei tahun lalu. Berkunjung ke Osaka, ia mengenang masa lalunya, dari debut pada usia 13 hingga pengalaman yang penuh warna sebagai idola. Saat itu, ia sangat termotivasi oleh kerja keras para member dan tak punya keinginan lain selain menjadi bagian dari Nogizaka46, sehingga sempat mempertimbangkan pensiun saat lulus. Namun, dorongan ibunya membuatnya melanjutkan karier di dunia hiburan. Baginya, Osaka adalah tempat yang memungkinkan dirinya tampil apa adanya, bertemu orang-orang yang tulus dengan canda yang penuh kasih. Ia merasa penting untuk hidup dengan cinta dalam setiap interaksi, dan Osaka menginspirasinya menjadi pribadi yang lebih penuh kasih.",
 };
 console.log(descEpisodeSynopsis);
 
@@ -104,6 +105,7 @@ const nameShow = {
 "44" : "バナナマン日村が歩く！ウォーキングのひむ太郎",
 "45" : "内村&さまぁ~ずの初出しトークバラエティ 笑いダネ",
 "46" : "スマホがない時、どうしていたの",
+"47" : "アナザースカイ 齋藤飛鳥",
 };
 console.log(nameShow);
 
@@ -158,6 +160,7 @@ const descEpisode = {
 "44" : "| 240416 Walking no Himutaro (Endo Sakura)",
 "45" : "| 240103 Waraidane",
 "46" : "| 240721 Sumaho ga Nai Toki Dou Shiteita no?",
+"47" : "| 241102 Another Sky",
 };
 console.log(descEpisode);
 
@@ -213,6 +216,7 @@ const descOnAirDate = {
 "44" : "16 April 2024",
 "45" : "3 Januari 2024",
 "46" : "21 Juli 2024",
+"47" : "2 November 2024",
   };
 console.log(descOnAirDate);
 
@@ -268,6 +272,7 @@ const memberParticipate = {
 "44" : "遠藤さくら",
 "45" : "梅澤美波、岩本連加、与田祐希、賀喜遥香、弓木奈於",
 "46" : "弓木奈於、五百城茉央",
+"47" : "齋藤飛鳥",
   };
 console.log(memberParticipate);
 
@@ -323,6 +328,7 @@ const imageThumbBig = {
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura.jpg",
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky00.jpg",
   };
 console.log(imageThumbBig);
 
@@ -378,6 +384,7 @@ const imageThumbA = {
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-a.jpg",
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-a.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-a.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky01.jpg",
   };
 console.log(imageThumbA);
 
@@ -432,6 +439,7 @@ const imageThumbB = {
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-b.jpg",
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-b.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-b.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky02.jpg",
   };
 console.log(imageThumbB);
 
@@ -486,6 +494,7 @@ const imageThumbC = {
 "44" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-c.jpg",
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-c.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-c.jpg",
+"47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky03.jpg",
   };
 console.log(imageThumbC);
 
@@ -546,6 +555,7 @@ const linkHardsub = {
 "44" : "https://lokerwfh.net/ip17cxD",
 "45" : "https://sfl.gl/7iQew",
 "46" : "https://sfl.gl/ug6A3",
+"47" : "https://sfl.gl/a7IqyMZ",
   };
 console.log(linkHardsub);
 
@@ -600,6 +610,7 @@ const linkTrakteer = {
 "44" : "https://trakteer.id/moefangsubs/showcase/walking-no-himutaro-dqupC",
 "45" : "https://trakteer.id/moefangsubs/showcase/240103-waraidane-nogizaka46-cut-Lixth",
 "46" : "https://trakteer.id/moefangsubs/showcase/240721-sumaho-ga-nai-toki-dou-shiteita-no-yumiki-nao-ioki-mao-jgX9u",
+"47" : "https://trakteer.id/moefangsubs/showcase/241102-another-sky-saito-asuka-sConv",
   };
 console.log(linkTrakteer);
 
@@ -655,6 +666,7 @@ const filePassword = {
 "44" : "",
 "45" : "",
 "46" : "",
+"47" : "",
   };
 console.log(filePassword);
 

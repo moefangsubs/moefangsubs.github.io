@@ -2,9 +2,13 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="60"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-60.jpg"><div class="epsname">Episode 60</div><span class="epsbadgeNew"></span></div>
-				<div class="episodelist buttonEpsList" data-episode="59"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-59.jpg"><div class="epsname">Episode 59</div><span class="epsbadgeNew"></span></div>
-				<div class="episodelist buttonEpsList" data-episode="58"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-58.jpg"><div class="epsname">Episode 58</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="64"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-64.jpg"><div class="epsname">Episode 64</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="63"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-63.jpg"><div class="epsname">Episode 63</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="62"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-62.jpg"><div class="epsname">Episode 62</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="61"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-61.jpg"><div class="epsname">Episode 61</div><span class="epsbadgeNew"></span></div>				
+				<div class="episodelist buttonEpsList" data-episode="60"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-60.jpg"><div class="epsname">Episode 60</div></div>
+				<div class="episodelist buttonEpsList" data-episode="59"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-59.jpg"><div class="epsname">Episode 59</div></div>
+				<div class="episodelist buttonEpsList" data-episode="58"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-58.jpg"><div class="epsname">Episode 58</div></div>
 				<div class="episodelist buttonEpsList" data-episode="57"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-57.jpg"><div class="epsname">Episode 57</div></div>
 				<div class="episodelist buttonEpsList" data-episode="56"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-56.jpg"><div class="epsname">Episode 56</div></div>
 				<div class="episodelist buttonEpsList" data-episode="55"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-55.jpg"><div class="epsname">Episode 55</div></div>

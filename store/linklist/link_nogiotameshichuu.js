@@ -47,6 +47,8 @@ const descEpisodeSynopsis = {
 	"41" : "Di episode 41 ini para otameshi girls akan mencoba berbagai segmen yang ada hubungannya antara musim hujan yang sedang terjadi dengan aktifitas sebagai idol.",
 	"42" : "Di episode 42 ini adalah episode spesial kelulusan Sakaguchi Tamami dan Seimiya Rei, dimana mereka berdua ingin mencoba sesuatu sebagai keinginan terakhirnya dalam tampil di acara Otameshichuu ini. Tamami yang ingin memakai baju lolita, sedangkan Rei akan mencoba pengalaman membuat mochi",
 	"43" : "Di episode 43 ini para otameshi girls akan mencoba berolahraga tenis, yang masih dikenal jarang oleh masyarakat.",
+	"44" : "Di episode 44 ini para otameshi girls akan bersantai untuk menyajikan takoyaki, sebuah segmen yang disarankan oleh MC Ito Riria. Seperti apakah hasil takoyaki dari para member ini?",
+	"45" : "Di episode 45 ini dengan otameshi girls yang sama di episode sebelumnya akan mencoba hal-hal yang digemari para ojisan, seperti permainan kata, mahjong, dan pijat refleksi kaki.",
 };
 
 
@@ -122,6 +124,8 @@ const descOnAirDate = {
 	"41" : "29 Juni 2024",
 	"42" : "13 Juli 2024",
 	"43" : "31 Agustus 2024",
+	"44" : "28 September 2024",
+	"45" : "26 Oktober 2024",
   };
 
 
@@ -173,6 +177,8 @@ const memberParticipate = {
 	"41" : "伊藤理々杏、佐藤楓、向井葉月、田村真佑、五百城茉央",
 	"42" : "伊藤理々杏、阪口珠美、清宮レイ",
 	"43" : "伊藤理々杏、佐藤楓、向井葉月、田村真佑、五百城茉央",
+	"44" : "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
+	"45" : "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
   };
 
 
@@ -300,6 +306,8 @@ const linkHardsub = {
 	"41" : "https://sfl.gl/cweqN",
 	"42" : "https://sfl.gl/X1HfL",
 	"43" : "https://sfl.gl/P9EDN4",
+	"44" : "https://sfl.gl/Xs6d",
+	"45" : "https://sfl.gl/xm9CQu",
   };
   
 // =======================
@@ -350,6 +358,8 @@ const linkSoftsub = {
 	"41" : "https://sfl.gl/b6QXkBY",
 	"42" : "https://sfl.gl/K9fvR2gn",
 	"43" : "https://sfl.gl/wq6PI9l",
+	"44" : "https://sfl.gl/6oLcQy",
+	"45" : "https://sfl.gl/0XXv8pb",
   };
 
 // =======================

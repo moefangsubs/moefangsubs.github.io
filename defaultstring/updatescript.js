@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // case "nogizaka-otameshichuu":
             // targetEpisode = "40";
             // break;
-        case "live-performance":
-            targetEpisode = "55";
-            break;
+        // case "live-performance":
+            // targetEpisode = "55";
+            // break;
         case "nogidouga-hitori-de-dekirumon":
             targetEpisode = "22";
             break;
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // targetEpisode = "00";
             // break;
         case "random-subs":
-            targetEpisode = "46";
+            targetEpisode = "47";
             break;
         // case "sonna-kazoku-nara-sutechaeba":
             // targetEpisode = "03";

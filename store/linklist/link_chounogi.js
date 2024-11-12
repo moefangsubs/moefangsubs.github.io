@@ -64,6 +64,10 @@ const descEpisodeSynopsis = {
 	"58": "Episode 58 kali ini dibuka dengan penampilan Ioki, Iroha, Aya, Naonao dan Aruno. Setelah itu, akan ada penampilan solo Ichinose Miku setelah sekian lama.",
 	"59": "Episode 59 kali ini dibuka dengan penampilan Sugawara Satsuki yang di-support oleh Red Socks, unit dance yang lahir di acara ini yang kembali tampil setelah sekian lama.",
 	"60": "Episode 60 kali ini dibuka dengan penampilan alunan gitar dari Okuda Iroha. Lalu kita akan melihat sedikit apa saja persiapan para member khususnya Aya yang juga ikut tampil di Chou Nogizaka Star Tanjou.",
+	"61": "Episode 61 kali ini adalah episode pada umumnya, namun ada cuplikan VTR dimana Ogawa Aya berlatih dan akan menantang dirinya membawakan lagu dengan piano.",
+	"62": "Episode 62 kali ini adalah episode spesial idol, dan ada segmen dimana Sugawara Satsuki mempresentasikan idol favoritnya, Morning Musume.",
+	"63": "Episode 63 kali ini adalah episode spesial Haloween. Bintang tamunya adalah Rake, penyanyi yang sempat istirahat dari dunia musik selama 6 tahun.",
+	"64": "Episode 64 kali ini kita mengundang tamu vokalis dari wacci, yang salah satunya akan duet dengan Okuda Iroha.",
 	};
 
 
@@ -156,6 +160,10 @@ const descOnAirDate = {
 	"58": "2 September 2024",
 	"59": "9 September 2024",
 	"60": "16 September 2024",
+	"61": "14 Oktober 2024",
+	"62": "21 Oktober 2024",
+	"63": "28 Oktober 2024",
+	"64": "4 November 2024",
 };
 
 // =======================
@@ -223,6 +231,10 @@ const descSong1 = {
 	"58": "Vaundy「怪獣の花唄」",
 	"59": "安室奈美恵「You're my sunshine」",
 	"60": "斉藤和義「歌うたいのバラッド」",
+	"61": "KEYTALK「MONSTER DANCE」",
+	"62": "松田聖子「ピンクのモーツァルト」",
+	"63": "B.B.クィーンズ「おどるポンポコリン」",
+	"64": "DREAMS COME TRUE「何度でも」",
 };
 
 
@@ -291,6 +303,10 @@ const descSong2 = {
 	"58": "Kaoru Amane「タイヨウのうた」",
 	"59": "	今井美樹「PRIDE」",
 	"60": "BENNIE K「Dreamland」",
+	"61": "絢香「三日月」",
+	"62": "モーニング娘。「わがまま 気のまま 愛のジョーク」",
+	"63": "MAN WITH A MISSION「Remember Me」",
+	"64": "wacci「恋だろ」",
 };
 
 
@@ -359,6 +375,10 @@ const descSong3 = {
 	"58": "キマグレン「LIFE」",
 	"59": "BLUE ENCOUNT「ポラリス」",
 	"60": "平野綾・茅原実里・後藤邑子「ハレ晴レユカイ」",
+	"61": "クレイジーケンバンド「タイガー＆ドラゴン」",
+	"62": "渡辺美奈代「PINKのCHAO」",
+	"63": "Rake「100万回の「I love you」」",
+	"64": "wacci「別の人の彼女になったよ」",
 };
 
 
@@ -427,6 +447,10 @@ const descSkits = {
 	"58": "",
 	"59": "",
 	"60": "",
+	"61": "",
+	"62": "",
+	"63": "",
+	"64": "",
 };
 
 
@@ -476,6 +500,10 @@ const additionalGuests = {
 	"58": "クレイ勇輝",
 	"59": "BLUE ENCOUNT",
 	"60": "平野綾",
+	"61": "横山剣",
+	"62": "渡辺美奈代",
+	"63": "Rake",
+	"64": "橋口洋平",
 };
 
 const guestArtis = {};
@@ -516,6 +544,10 @@ const additionalSenpai = {
   "58": "-",
   "59": "-",
   "60": "-",
+  "61": "-",
+  "62": "-",
+  "63": "-",
+  "64": "-",
 };
 
 
@@ -658,9 +690,13 @@ const linkHardsub = {
 	"55" : "https://sfl.gl/tXN1v9Mc",
 	"56" : "https://sfl.gl/qbWViyf4",
 	"57" : "https://sfl.gl/56sXEhV",
-	"58": "https://sfl.gl/gg7VLiq",
-	"59": "https://sfl.gl/YkFYLsG",
-	"60": "https://sfl.gl/nc8mygv",
+	"58" : "https://sfl.gl/gg7VLiq",
+	"59" : "https://sfl.gl/YkFYLsG",
+	"60" : "https://sfl.gl/nc8mygv",
+	"61" : "https://sfl.gl/hIrmDw",
+	"62" : "https://sfl.gl/tMg1fU",
+	"63" : "https://sfl.gl/SJ49p2l",
+	"64" : "https://sfl.gl/iIMYoZH",
 };
 
 // =======================
@@ -728,6 +764,10 @@ const linkSoftsub = {
 	"58" : "https://sfl.gl/TKhU",
 	"59" : "https://sfl.gl/KbXvWv",
 	"60" : "https://sfl.gl/ZZY4l",
+	"61" : "https://sfl.gl/mX6uE",
+	"62" : "https://sfl.gl/CfVlV",
+	"63" : "https://sfl.gl/NMnV",
+	"64" : "https://sfl.gl/X1aIne",
 };
 
 // =======================

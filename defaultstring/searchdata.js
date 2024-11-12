@@ -27,12 +27,12 @@ const searchData = {
     "Chou Nogizaka Star Tanjou": {
         "baseUrl": "chou-nogizaka-star-tanjou.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-",
-        "episodeRange": { "start": 1, "end": 60 }
+        "episodeRange": { "start": 1, "end": 64 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-",
-        "episodeRange": { "start": 1, "end": 43 }
+        "episodeRange": { "start": 1, "end": 45 }
     },
     "Hinatazaka46 desu. Chotto ii desu ka?": {
         "baseUrl": "hinatazaka46-desu-chotto-ii-desu-ka.html",
@@ -1115,7 +1115,12 @@ const searchData = {
     "Mirai no Watashi ni Bukkamasareru? (Kubo Shiori)": {
         "baseUrl": "mirai-no-watashi-ni-bukkamasareru.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi",
-        "episodeRange": { "start": 1, "end": 12 }
+        "episodeRange": { "start": 1, "end": 20 }
+    },	
+    "Death Game de Matteru (Umezawa Minami)": {
+        "baseUrl": "death-game-de-matteru.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame",
+        "episodeRange": { "start": 1, "end": 3 }
     },	
     "Ryosangata Riko Saigo no Puramo Joshi no Jinsei Kumitate Ki (Yoda Yuuki)": {
         "baseUrl": "ryosangata-riko-season-3.html",
@@ -1145,6 +1150,11 @@ const searchData = {
         "baseUrl": "hikkoshi-tantei-sakura.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/drama_hikkoshitantei-",
         "episodeRange": { "start": 1, "end": 10 }
+    },
+    "Shotenin Tantei Sakura (Endo Sakura)": {
+        "baseUrl": "shotenin-tantei-sakura.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/drama_shotenintantei-",
+        "episodeRange": { "start": 1, "end": 3 }
     },
     "Rakujitsu (Kubo Shiori)": {
         "baseUrl": "rakujitsu.html",
@@ -1406,6 +1416,8 @@ const searchData = {
 			"03" : "Vol.3 (Endo Sakura & Ogawa Aya)",
 			"04" : "Vol.4 (Ito Riria & Inoue Nagi)",
 			"05" : "Vol.5 (Kaki Haruka & Sugawara Satsuki)"
+			"06" : "Vol.6 (Hayashi Runa & Ichinose Miku)"
+			"07" : "Vol.7 (Kanagawa Saya & Kawasaki Sakura)"
         },
         "thumbnail": {
 			"00" : "00.jpg",
@@ -1413,7 +1425,9 @@ const searchData = {
 			"02" : "02.jpg",
 			"03" : "03.jpg",
 			"04" : "04.jpg",
-			"05" : "05.jpg"
+			"05" : "05.jpg",
+			"05" : "06.jpg",
+			"05" : "07.jpg"
         }
     },
 
@@ -1630,6 +1644,7 @@ const searchData = {
             "44": "240416 Walking no Himutaro (Endo Sakura)",
             "45": "240103 Waraidane (Umezawa Minami, Iwamoto Renka, Yoda Yuuki, Kaki Haruka, Yumiki Nao)",
             "46": "240721 Sumaho ga Nai Toki Dou Shiteita no? (Yumiki Nao, Ioki Mao)"
+            "47": "241102 Another Sky (Saito Asuka)",
         },
         "thumbnail": {
             "01": "190308_anothersky_asuka.jpg",
@@ -1678,6 +1693,7 @@ const searchData = {
             "44": "240416_himutaro.jpg",
             "45": "240103_waraidane.jpg",
             "46": "240721_sumahoganai.jpg"
+            "47": "241102_anothersky_asuka",
         }
     },
 
@@ -1799,7 +1815,9 @@ const searchData = {
             "51": "live_bokuaonatsugasumi.jpg",
             "52": "live_zenkokutour2024D1.jpg",
             "53": "live_zenkokutour2024D2.jpg",
-            "54": "live_zenkokutour2024D3.jpg"
+            "54": "live_zenkokutour2024D3.jpg",
+            "55": "live_underlive34.jpg",
+            "56": "live_underlive35.jpg",
         }
     },
    "Nogizaka Skits BluRay/DVD Box Vol.1": {
