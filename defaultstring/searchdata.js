@@ -1760,6 +1760,9 @@ const searchData = {
             "52": "240902 Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 1",
             "53": "240903 Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 2",
             "54": "240904 Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 3",
+            "55": "241020 Boku ga Mitakatta Aozora \"Aozora Summer Festival 2024\"",
+            "56": "240127 Nogizaka46 34th SG Underlive",
+            "57": "240609 Nogizaka46 34th SG Underlive",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1816,8 +1819,9 @@ const searchData = {
             "52": "live_zenkokutour2024D1.jpg",
             "53": "live_zenkokutour2024D2.jpg",
             "54": "live_zenkokutour2024D3.jpg",
-            "55": "live_underlive34.jpg",
-            "56": "live_underlive35.jpg",
+            "55": "live_aozorasummerfes2024.jpg",
+            "56": "live_underlive34.jpg",
+            "57": "live_underlive35.jpg",
         }
     },
    "Nogizaka Skits BluRay/DVD Box Vol.1": {
