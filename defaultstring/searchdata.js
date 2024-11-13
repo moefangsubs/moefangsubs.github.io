@@ -1112,7 +1112,7 @@ const searchData = {
 // ~~~ DRAMA
 // ~~~~~~~~~~~~~~~
 
-    "Mirai no Watashi ni Bukkamasareru? (Kubo Shiori)": {
+    "Mirai no Watashi ni Bukkamasareru!? (Kubo Shiori)": {
         "baseUrl": "mirai-no-watashi-ni-bukkamasareru.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi",
         "episodeRange": { "start": 1, "end": 20 }
@@ -1415,8 +1415,8 @@ const searchData = {
 			"02" : "Vol.2 (Umezawa Minami & Yumiki Nao)",
 			"03" : "Vol.3 (Endo Sakura & Ogawa Aya)",
 			"04" : "Vol.4 (Ito Riria & Inoue Nagi)",
-			"05" : "Vol.5 (Kaki Haruka & Sugawara Satsuki)"
-			"06" : "Vol.6 (Hayashi Runa & Ichinose Miku)"
+			"05" : "Vol.5 (Kaki Haruka & Sugawara Satsuki)",
+			"06" : "Vol.6 (Hayashi Runa & Ichinose Miku)",
 			"07" : "Vol.7 (Kanagawa Saya & Kawasaki Sakura)"
         },
         "thumbnail": {
@@ -1643,7 +1643,7 @@ const searchData = {
             "43": "240223 Himubus Episode 9 (Nogizaka46 CUT) (Iwamoto Renka, Seimiya Rei, Matsuo Miyu, Hayashi Runa, Kuromi Haruka, Kawasaki Sakura, Ichinose Miku, Okamoto Hina)",
             "44": "240416 Walking no Himutaro (Endo Sakura)",
             "45": "240103 Waraidane (Umezawa Minami, Iwamoto Renka, Yoda Yuuki, Kaki Haruka, Yumiki Nao)",
-            "46": "240721 Sumaho ga Nai Toki Dou Shiteita no? (Yumiki Nao, Ioki Mao)"
+            "46": "240721 Sumaho ga Nai Toki Dou Shiteita no? (Yumiki Nao, Ioki Mao)",
             "47": "241102 Another Sky (Saito Asuka)",
         },
         "thumbnail": {
@@ -1692,7 +1692,7 @@ const searchData = {
             "43": "240223_himubus_fix.jpg",
             "44": "240416_himutaro.jpg",
             "45": "240103_waraidane.jpg",
-            "46": "240721_sumahoganai.jpg"
+            "46": "240721_sumahoganai.jpg",
             "47": "241102_anothersky_asuka",
         }
     },
@@ -1759,7 +1759,7 @@ const searchData = {
             "51": "240721 Boku ga Mitakatta Aozora Stageplay \"NATSUGASUMI\"",
             "52": "240902 Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 1",
             "53": "240903 Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 2",
-            "54": "240904 Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 3"
+            "54": "240904 Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 3",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
