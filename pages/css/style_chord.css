@@ -1,3 +1,14 @@
+body {
+    margin: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family: 'Funnel Display', serif;
+    overflow: hidden;
+}
+
 body::before {
  	background-image: url('https://blogimg.goo.ne.jp/image/upload/f_auto,q_auto,t_image_sp_entry/v1/user_image/1c/28/fecdbe5f185bef594ddb1978e26bd3a1.jpg');
 	content: "";
@@ -25,10 +36,11 @@ body::before {
     display: flex;
     border: 3pt solid white;
     border-radius: 10pt;
-    transform: translate(0%, 25%);
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
 }
+
 div#navigation {
     display: flex;
     flex-direction: column;
@@ -40,7 +52,6 @@ div#navigation {
 }
 .button {
     background-color: #440079c2;
-    font-family: "Ubuntu";
     color: white;
     border: 2pt solid white;
     border-radius: 7px;

@@ -78,7 +78,7 @@ body {
     margin: 0 auto;
     text-align: center;
     margin-top: 35pt;
-    border: 5pt solid #440079;
+    border: 5pt solid rgb(var(--color-main));
     border-radius: 20pt;
     padding: 20pt 5pt 20pt 5pt;
     transition: all 0.3s ease-in-out;
@@ -86,8 +86,8 @@ body {
 .category-flex:hover {
     width: 72%;
     overflow: visible;
-    background: #8b00ff30;
-    border: 5pt solid #8b00ff;
+    background: rgba(var(--color-main-dark1),0.6);
+    border: 5pt solid rgb(var(--color-main-light));
 }
 
 .button-container {
@@ -124,7 +124,7 @@ body {
 
 .button-container a:hover img {
 	filter: brightness(0.5) contrast(1.2) saturate(0.5);
-	border: 3pt solid #4d008d;
+	border: 3pt solid rgb(var(--color-main));
 	border-radius: 15pt;
 	/* transform: translateY(-8px); */
 	transform: scale(95%);
@@ -156,13 +156,13 @@ body {
 }
 .pengumuman {
     margin: 0 auto;
-    width: 65%;
+    width: 70%;
     color: white;
     background: #043f3ac2;
     padding: 15pt;
-    border-radius: 10pt;
+    border-radius: 20pt;
     border: 3pt solid white;
-    font-size: 18pt;
+    font-size: 13pt;
 }
 .pengumuman i {
     padding-right: 15pt;

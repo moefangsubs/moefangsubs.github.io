@@ -1,15 +1,17 @@
+* {  
+  font-family: "Funnel Display", serif;
+}
 input {
     width: 100%;
     height: 46px;
     padding-right: 40px;
     font-size: 20pt;
-    border: 2px solid #22043b;
+    border: 2px solid rgb(var(--color-main));
     border-radius: 6pt;
-    background-color: #22043b;
+    background-color: rgb(var(--color-main));
     color: #ffffff;
     text-align: center;
     transition: background-color 0.5s ease-in-out;
-    font-family: 'Ubuntu';
     cursor: text;
     mix-blend-mode: plus-lighter;
 }

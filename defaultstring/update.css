@@ -1,0 +1,75 @@
+    /* Reset default styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Container styling */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Slideshow images */
+    .mySlides {
+      display: none;
+      width: 100%;
+      position: relative;
+      animation: fadeEffect 3s infinite;
+    }
+
+    /* Fade in and fade out animation */
+    @keyframes fadeEffect {
+      0% { opacity: 0; }
+      10% { opacity: 1; } /* Fade in from black by 1.2s */
+      90% { opacity: 1; } /* Hold full opacity until 2.8s */
+      100% { opacity: 0; } /* Fade out to black by 3s */
+    }
+
+    /* Text overlay for each slide */
+    .text-overlay {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      animation: slideIn 1s;
+    }
+
+    /* Slide-in effect for text overlay */
+    @keyframes slideIn {
+      from { bottom: -20px; opacity: 0; }
+      to { bottom: 10px; opacity: 1; }
+    }
+
+    /* Thumbnail container */
+    .thumbnail-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 10px;
+      white-space: nowrap; /* Prevent thumbnails from wrapping */
+      margin-top: 20px;
+    }
+
+    /* Thumbnail styling */
+    .thumbnail-container img {
+      cursor: pointer;
+      opacity: 0.6;
+      width: 100px;
+      height: auto;
+      transition: opacity 0.3s, transform 0.3s;
+      border: 2px solid transparent;
+    }
+
+    /* Active thumbnail styling */
+    .thumbnail-container img.active {
+      opacity: 1;
+      border: 2px solid yellow;
+      transform: scale(1.1);
+    }

@@ -17,7 +17,7 @@ body::before {
     align-items: center;
     height: 100vh;
     margin: 0;
-	font-family: "Ubuntu";
+	font-family: 'Funnel Display', serif;
 }
 #title {
     font-size: 32pt;

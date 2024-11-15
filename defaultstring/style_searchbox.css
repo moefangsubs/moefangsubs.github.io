@@ -1,6 +1,9 @@
+*{
+    font-family: "Funnel Display", serif;
+}
 .search-box {
     width: 100%;
-    background-color: #fdddffd9;
+    background-color: rgb(var(--color-main-dark1));
     cursor: text;
     position: relative;
 }
@@ -14,13 +17,38 @@ input {
     font-size: 20pt;
     border: 2px solid #12021fd9;
     border-radius: 6pt;
-    background-color: #fdddffd9;
-    color: #440079;
+    background-color: rgb(var(--color-main-mid));
+    color: white;
     text-align: center;
     transition: background-color 0.5s ease-in-out;
-    font-family: 'Ubuntu';
     cursor: text;
+    user-select: text;
 }
+
+input#search-input {
+}
+
+/* -----------------
+suggestion
+----------------- */
+
+
+.suggestion {
+    font-size: 14pt;
+    color: #ffcc00;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.suggestion a {
+    color: #ffcc00;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.suggestion a:hover {
+    color: #ff9900;
+}
+
+
 
 /* -----------------
 scroll
@@ -53,7 +81,7 @@ scroll
 
 *::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background-color: #720DC4;
+  background-color: rgb(var(--color-main-mid));
 }
 
 *::-webkit-scrollbar-thumb:hover {
@@ -78,7 +106,7 @@ floating button
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #440079;
+    background-color: rgb(var(--color-main-light));
     border: none;
     display: flex;
     justify-content: center;
@@ -154,6 +182,7 @@ box pembungkus
     transform: translate(-50%, -50%);
 }
 .searchtitle {
+	color: white;
     font-size: 24pt;
     font-weight: normal;
     padding-top: 15pt;
@@ -168,7 +197,7 @@ box pembungkus
     margin: 0 auto;
     text-align: center;
     margin-top: 35pt;
-    border: 5pt solid #be1e2d;
+    border: 5pt solid rgb(var(--color-main));
     border-radius: 20pt;
     /* padding: 20pt 5pt 20pt 5pt; */
     padding: 0pt 5pt 20pt 5pt;
@@ -224,6 +253,7 @@ box input
 box isi result
 ----------------- */
 .carinote {
+	color:rgb(var(--color-main-light));
     width: 90%;
     text-align: center;
     font-size: 12pt;

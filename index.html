@@ -12,15 +12,36 @@
 	<link rel="stylesheet" href="defaultstring/style_input.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
 </head>
+<style>
+.divhead {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10pt;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5pt;
+}
+
+.caption {
+	color: white;
+}
+
+.caption:before {
+	content: "You don't have access to this page"
+}
+</style>
 <body class="bodymainindex main_site">
 	<div id="loading-screen"><div class="loader" id="loading-text"></div></div>
 	<div id="loading-okay" style="display: none;"><div class="loaderok"></div></div>
 
   <div id="main-container" style="display: none;">
-	<div>
-	<p id="fansub">MoeFang Subs</p>
+	<div class="divhead">
+	<img src="../sprite/logonew2024.svg" alt="Logo" class="logo" />
+	<span class="caption"></span>
 	</div>
 
 	<form id="passwordForm">
@@ -35,7 +56,7 @@
 		<!-- <div class="ifpernah" type="button"></div> -->
 	</div>
   </div>
-	<div class="updatedate">Latest Update : 2024/11/13 01:21 UTC+7</div>
+	<div class="updatedate">Latest Update : 2024/11/15 18:45 UTC+7</div>
   
   <script src="js/formLogin.js"></script>
 </body>

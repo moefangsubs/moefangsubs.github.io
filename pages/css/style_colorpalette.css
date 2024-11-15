@@ -41,7 +41,7 @@ body::before {
     width: 60%;
     margin: 20px auto;
     position: relative;
-	font-family: "Ubuntu";
+	font-family: 'Funnel Display', serif;
 }
 
 .dropbtn {
@@ -54,7 +54,7 @@ body::before {
     border: 0;
     color: white;
     font-size: 14pt;
-	font-family: "Ubuntu";
+	font-family: 'Funnel Display', serif;
 }
 
 /* Dropdown content */

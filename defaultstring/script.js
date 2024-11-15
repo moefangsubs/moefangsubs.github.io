@@ -223,3 +223,36 @@ document.querySelector('.masalah_unduh').addEventListener('click', function() {
   toggleVisibility('masalah_unduh');
 });
 const allStepspoil = document.querySelectorAll(".stepspoil");
+
+
+//
+// lazy image
+//
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Cari semua elemen <img> dan pindahkan src ke data-src
+  const images = document.querySelectorAll("img");
+  images.forEach(img => {
+      if (img.hasAttribute("src")) {
+          img.setAttribute("data-src", img.getAttribute("src"));
+          img.removeAttribute("src");
+      }
+  });
+
+  // Buat IntersectionObserver untuk lazy loading
+  const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              const img = entry.target;
+              img.src = img.getAttribute("data-src"); // Isi src dari data-src
+              img.removeAttribute("data-src"); // Hapus data-src setelah dimuat
+              observer.unobserve(img); // Hentikan observasi setelah gambar dimuat
+          }
+      });
+  });
+
+  // Observasi setiap elemen <img> yang memiliki data-src
+  images.forEach(img => {
+      imageObserver.observe(img);
+  });
+});

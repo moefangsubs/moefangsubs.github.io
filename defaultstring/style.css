@@ -1,6 +1,12 @@
-/* html { */
-    /* filter: grayscale(0.8); */
-/* } */
+:root {
+    --color-main: 68, 0, 121;			/* #440079 */
+    --color-main-dark1: 11, 0, 19;	/* #0B0013 */
+    --color-main-dark2: 39, 0, 70;	/* #270046 */
+    --color-main-mid: 97, 0, 172; 		/* #6100AC */
+    --color-main-bright: 125, 0, 223; /* #7D00DF */
+    --color-main-light: 152, 19, 255; /* #9813FF */
+}
+
 
 body {
     background-color: #12021F;
@@ -11,7 +17,7 @@ body {
     justify-content: center;
     height: 100vh;
     color: white;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Funnel Display', serif;
     overflow: hidden;
 }
 body::before {
@@ -69,7 +75,6 @@ img.kakki {
 #fansub {
     font-size: 24pt;
     letter-spacing: -0.05em;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
     font-style: normal;
     display: inline-block;
@@ -180,7 +185,6 @@ input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
 .okbutton {
     font-size: 15pt;
     cursor: pointer;
-    font-family: 'Ubuntu';
     font-weight: bolder;
     background-color: #ffac64;
     padding: 7pt;
@@ -214,7 +218,6 @@ input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
 .ifpernah {
     font-size: 15pt;
     cursor: pointer;
-    font-family: 'Ubuntu';
     font-weight: 400;
     padding: 7pt;
     background: #57e87ac9;

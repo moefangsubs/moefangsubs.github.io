@@ -8,7 +8,7 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: "Ubuntu";
+    font-family: "Funnel Display", serif;
     overflow-x: hidden;
 }
 
@@ -28,8 +28,8 @@ body::before {
 }
 
 hr {
-    margin-top: 10pt;
-    margin-bottom: 10pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
 }
 
 
@@ -200,11 +200,11 @@ episode_nogi:focus {
     outline: none;
 }
 
-a:focus:not(:focus-visible),
-episode_nogi:focus:not(:focus-visible) {
+/* a:focus:not(:focus-visible),
+episode_nogi:focus:not(:focus-visible) { */
     /* Remove the focus indicator on mouse-focus for browsers
 	 that do support :focus-visible */
-}
+/* } */
 
 a:focus-visible,
 episode_nogi:focus-visible {
@@ -301,11 +301,11 @@ img.readingpict {
 
 
 #headtitle {
-	font-size: 32pt;
-	font-weight:bold;
-	padding-top: 10pt;
-	padding-bottom: 20pt;
-	text-align: left;
+    font-size: 42pt;
+    font-weight: bold;
+    padding-top: 5pt;
+    padding-bottom: 20pt;
+    text-align: left;
 }
 
 #headtitle {
@@ -317,12 +317,12 @@ img.readingpict {
 	/* text-align-last:center; */
 }
 
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
 	#headtitle, #description, #episode {
-	/* padding-left: 20pt; */
-	/* padding-right: 20pt; */
+	padding-left: 20pt;
+	padding-right: 20pt;
 	}
-}
+} */
 
 /* ------------------------------------------ */
 /* Scoll menu untuk episode */
@@ -352,7 +352,7 @@ img.readingpict {
 .scroll-container {
     width: 357px;
     align-items: center;
-    margin-left: 10pt;
+    margin-left: 5pt;
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
@@ -433,7 +433,7 @@ img.readingpict {
     position: relative;
     color: white;
     padding: 5px;
-    height: 40pt;
+    height: 80pt;
     scroll-snap-align: center;
 }
 
@@ -498,8 +498,8 @@ img.readingpict {
     transform: translateY(-10px);
 }
 
-.episodelist img.clicked {
-}
+/* .episodelist img.clicked {
+} */
 
 
 .episodelist img.clicked,
@@ -611,7 +611,7 @@ flex: 1;
 		width: 100%;
 	}
 }
-}
+
 
 /* ------------------------------------------ */
 /* Isi konten flex */
@@ -661,7 +661,8 @@ flex: 1;
 /* ------------------------------------------ */
 
 #descEpisode {
-	font-size: 24pt;
+    font-size: 28pt;
+    font-weight: bold;
 }
 #deskripsijudul, #descOnAirDate, #deskripsimember, #deskripsiSkits, #deskripsiSkitsA, #deskripsiSkitsB,
 #deskripsiguest, #deskripsisenpai,
@@ -674,14 +675,14 @@ flex: 1;
     display: block;
 	margin-top: 5px;
 }
-#deskripsijudul i, #descOnAirDate i, #deskripsimember i, #deskripsiSkits i, #deskripsiSkitsA i, #deskripsiSkitsB i,
+/* #deskripsijudul i, #descOnAirDate i, #deskripsimember i, #deskripsiSkits i, #deskripsiSkitsA i, #deskripsiSkitsB i,
 #deskripsiguest i, #deskripsisenpai i,
 #deskripsilagu1 i, #deskripsilagu2 i, #deskripsilagu3 i,  #deskripsilagu4 i, #deskripsilagu5 i, #deskripsilagu6 i, #deskripsilagu7 i, 
 #NamaSastra i, #PengarangSastra i,
 #RestoNama i, #RestoAlamat i,
-#deskripsiBahasaSub i {
-	/* color:#9167b3; */
-}
+#deskripsiBahasaSub i { 
+	color:#9167b3;
+} */
 
 #deskripsiPassword i {
 	color:red;
@@ -752,19 +753,19 @@ transition: transform .2s ease-in-out;
 	
 	
 .eps-thumb #imageThumbA {
-	border-radius:10pt 0pt 0pt 0pt;
+	border-radius:5pt 0pt 0pt 0pt;
 }
 .eps-thumb #imageThumbB {
-	border-radius:0pt 10pt 0pt 0pt;
+	border-radius:0pt 5pt 0pt 0pt;
 }
 .eps-thumb #imageThumbC {
-	border-radius:0pt 0pt 0pt 10pt;
+	border-radius:0pt 0pt 0pt 5pt;
 }
 .eps-thumb #imageThumbD {
-	border-radius:0pt 0pt 10pt 0pt;
+	border-radius:0pt 0pt 5pt 0pt;
 }
 .eps-thumb #imageThumbX {
-	border-radius:0pt 0pt 10pt 10pt;
+	border-radius:0pt 0pt 5pt 5pt;
 }
 
 .eps-thumb #imageThumbA:hover,
@@ -773,7 +774,7 @@ transition: transform .2s ease-in-out;
 .eps-thumb #imageThumbD:hover,
 .eps-thumb #imageThumbX:hover {
     transform: scale(1.2);
-   border-radius:10pt 10pt 10pt 10pt;
+   border-radius:5pt 5pt 5pt 5pt;
 }
 
 @media (max-width: 1280px) {

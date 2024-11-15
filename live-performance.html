@@ -113,5 +113,36 @@
     // Sembunyikan tombol saat halaman dimuat
     hideButtons();
 </script>
+<script>
+    function hideElements() {
+        var elementsToHide = ['.password_garapan'];
+        elementsToHide.forEach(function(identifier) {
+            var elements = document.querySelectorAll(identifier);
+            elements.forEach(function(element) {
+                element.style.display = 'none';
+            });
+        });
+    }
+    function toggleElementsForEpisode(episodeNumber) {
+        hideElements();
+        var allowedEpisodes = ['03', '10', '42', '50', '51', '55'];
+        if (allowedEpisodes.includes(episodeNumber)) {
+            var elementsToShow = ['.password_garapan'];
+            elementsToShow.forEach(function(identifier) {
+                var elements = document.querySelectorAll(identifier);
+                elements.forEach(function(element) {
+                    element.style.display = 'block';
+                });
+            });
+        }
+    }
+    document.querySelectorAll('.episodelist').forEach(function(episode) {
+        episode.addEventListener('click', function() {
+            var episodeNumber = this.getAttribute('data-episode');
+            toggleElementsForEpisode(episodeNumber);
+        });
+    });
+    hideElements();
+</script>
 </body>
 </html>

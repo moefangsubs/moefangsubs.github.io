@@ -42,6 +42,11 @@ body {
   right: 0;
   border-radius: 20px 0 0 20px;
 }
+/* Position the "next button" to the right */
+.prev {
+  left: 0;
+  border-radius: 20px 0 0 20px;
+}
 
 /* On hover, add a grey background color */
 .prev:hover, .next:hover {
@@ -430,7 +435,7 @@ font-kerning: auto;
     padding: 3pt;
     margin: 1pt;
     animation: bumbum .8s ease forwards;
-	animation-delay: 1.5s;
+	animation-delay: 0s;
 }
 
 .textname:nth-child(1) .member { animation-delay: 1.5s;}

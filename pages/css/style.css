@@ -4,12 +4,15 @@
 
 body {
     background-color: #12021f;
+}
+
+.contentpage {	
+    width: 80%;
     margin: 0 auto;
     padding: 0;
     color: white;
     font-family: "Ubuntu";
     overflow-x: hidden;
-    width: 80%;
     left: 0;
     box-sizing: border-box;
 }
