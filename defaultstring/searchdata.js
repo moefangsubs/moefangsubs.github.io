@@ -1153,7 +1153,7 @@ const searchData = {
     },
     "Shotenin Tantei Sakura (Endo Sakura)": {
         "baseUrl": "shotenin-tantei-sakura.html",
-        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/drama_shotenintantei-",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei",
         "episodeRange": { "start": 1, "end": 3 }
     },
     "Rakujitsu (Kubo Shiori)": {
@@ -1426,8 +1426,8 @@ const searchData = {
 			"03" : "03.jpg",
 			"04" : "04.jpg",
 			"05" : "05.jpg",
-			"05" : "06.jpg",
-			"05" : "07.jpg"
+			"06" : "06.jpg",
+			"07" : "07.jpg"
         }
     },
 
