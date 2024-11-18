@@ -75,7 +75,7 @@ document.write(`
 <!-- Sidebar Menu -->
 <div class="sidebar" id="sidebar">
   <ul class="nav-links">
-    <li><a href="#">Sitemap</a></li>
+    <li><a href="../sitemap.html">Sitemap</a></li>
     
     <li class="dropdown">
       <a href="#" onclick="toggleDropdown(event)">MV SUBS</a>
