@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // targetEpisode = "00";
             // break;
         case "random-subs":
-            targetEpisode = "47";
+            targetEpisode = "48";
             break;
         // case "sonna-kazoku-nara-sutechaeba":
             // targetEpisode = "03";

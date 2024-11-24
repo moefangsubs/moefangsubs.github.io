@@ -5,7 +5,7 @@ document.write(`
 <div class="whatsnew">
 	<div class="titlenew">
     <span class="update-header"></span>
-    <span class="update-date">13 November 2024</span>
+    <span class="update-date">24 November 2024</span>
 	</div>
     <div class="links-container"></div>
 </div>

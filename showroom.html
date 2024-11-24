@@ -77,33 +77,46 @@
 
 </div>
 <script>
+    // Sembunyikan tombol sesuai jenis link
     function hideButtons() {
         document.querySelectorAll('.episode_nogi').forEach(function(button) {
             var linkType = button.getAttribute('data-link-type');
-            if (linkType === 'linkTrakteer') {
+            if (linkType === 'linkHardsub' || linkType === 'linkTrakteer') {
                 button.style.display = 'none';
             }
         });
     }
+
+    // Tampilkan tombol yang sesuai dengan episode dan jenis link
     function toggleButtonsForEpisode(episodeNumber) {
-        hideButtons();        
-        var allowedEpisodes = ['04'];
-        if (allowedEpisodes.includes(episodeNumber)) {
-            document.querySelectorAll('.episode_nogi').forEach(function(button) {
-                var linkType = button.getAttribute('data-link-type');
-                if (linkType === 'linkTrakteer') {
-                    button.style.display = 'inline-block';
-                }
-            });
-        }
+        hideButtons(); // Sembunyikan semua terlebih dahulu
+        
+		// Tombol hardsub yg free muncul di episode berikut, selain itu kagak ada
+        var allowedEpisodesHardsub = ['01', '02', '03', '04'];
+		// Tombol Trakteer muncul di episode berikut, selain itu kagak ada
+        var allowedEpisodesTrakteer = ['04', '05', '06'];
+
+        document.querySelectorAll('.episode_nogi').forEach(function(button) {
+            var linkType = button.getAttribute('data-link-type');
+
+            if (linkType === 'linkHardsub' && allowedEpisodesHardsub.includes(episodeNumber)) {
+                button.style.display = 'inline-block';
+            } else if (linkType === 'linkTrakteer' && allowedEpisodesTrakteer.includes(episodeNumber)) {
+                button.style.display = 'inline-block';
+            }
+        });
     }
+
     document.querySelectorAll('.episodelist').forEach(function(episode) {
         episode.addEventListener('click', function() {
             var episodeNumber = this.getAttribute('data-episode');
             toggleButtonsForEpisode(episodeNumber);
         });
     });
+
+    // Sembunyikan tombol saat halaman dimuat
     hideButtons();
 </script>
+
 </body>
 </html>

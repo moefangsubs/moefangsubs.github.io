@@ -43,7 +43,7 @@ const descEpisodeSynopsis = {
 "37" : "Dalam acara BananaSand ini, Kubo Shiori dan Kaki Haruka pertama kalinya mampir kemari dan menantang tantangan yaitu menyanyikan lagu yang mereka inginkan namun untuk terus mempertahankan nadanya sambil mendengarkan nada yang sudah dimodifikasi. Apakah mereka berdua akan berhasil?",
 "38" : "Dalam acara \"Doyou wa Nani Suru\" ini, ex-member Nogizaka46, Saito Asuka akan pergi ke Atami di Prefektur Shizuoka untuk liburan santai bersama salah satu orang yang ia sukai, yaitu Chosuriki-sanm sang mantan pegulat yang kini sangat populer di kalangan generasi muda TikTok. Memiliki perbedaan usia dan pengalaman, inilah pertemuan pertama dari kombinasi unik!",
 "39" : "Di Jepang masa depan yang dekat, teknologi penggunaan Life Log dan pengembangan Life Cast telah berkembang. Life Log adalah data tentang kehidupan sehari-hari, minat, dan gaya bicara seseorang selama hidupnya. Dengan menyuntikkan data ini ke dalam robot dengan baik, teknologi ini dapat menciptakan sosok yang sangat mirip dengan orang tersebut, seperti klon (Life Cast). Koshizu Inori (Nishino Nanase) menjadi terkenal sebagai Life Caster yang mampu membuat Life Cast berkualitas tinggi. Namun, Inori tidak menyukai hasil karyanya, menyebutnya sebagai \"boneka tanpa jiwa\", dan merencanakan untuk berhenti dari pekerjaannya. Suatu hari, Inori menerima permintaan pembuatan Life Cast dari virtual idol yang pernah sangat terkenal, Tasogare Kiera. Inori kesulitan mengumpulkan data Life Log dari idol virtual yang populer lebih dari 50 tahun yang lalu ini, tetapi seiring berjalannya waktu, ia mulai menyentuh rahasia tersembunyi dari masa lalu Kiera.",
-"40" : "Ini adalah penampilan pertama dari single terbaru Nogizaka46 yang ke-4 berjudul \"Monopoly\". Center-nya untuk kali ini adalah dari gen-4, Kaki Haruka dan Endo Sakura. Bagi yang ingin menyaksikannya, silakan.",
+"40" : "Ini adalah penampilan pertama dari single Nogizaka46 berjudul \"Monopoly\". Center-nya untuk kali ini adalah dari gen-4, Kaki Haruka dan Endo Sakura. Bagi yang ingin menyaksikannya, silakan.",
 "41" : "LALALife merupakan sebuah variety show dengan pembawa acara Masakazu Mimura dan Takataka Aoki, disiarkan dari stasiun TBS Setiap Jumat mulai pukul 11:30. Di kesempatan kali ini, Yoda Yuuki berkesempatan pergi ke Taiwan dan makan gyoza disana seharian. Meskipun awalnya ragu karena kesulitan dalam segi bahasa, namun ia dengan cepat terbiasa. Seperti apa keseruannya?",
 "42" : "Nogizaka46 Berpartisipasi untuk pertama kalinya! Mereka terkesima dengan pengalaman yang unik di pedalaman Chiba! Ioki Mao dan Sugawara Satsuki mengunjungi penginapan yang penuh dengan pemandangan musiman yang indah di Prefektur Chiba. Mereka menemukan telepon hitam di rumah tua dengan atap jerami. Mereka menikmati berbagai \"pengalaman pertama\" yang unik dari penginapan ini, mulai dari rendaman kaki hingga nasi di tungku, hingga mi udon buatan tangan, sambil menjelajahi pesonanya!",
 "43" : "Impian Himura-san menjadi kenyataan! Narator Shiraishi Mai juga terkesan! Mereka mengantarkan member Nogizaka46 yang sudah masuk usia 20 tahun ke upacara kedewasaan di tahun 2024.",
@@ -51,6 +51,7 @@ const descEpisodeSynopsis = {
 "45" : "\"Waraidane\" adalah sebuah program talk show dengan pembawa acara Uchimura Teruyoshi dan duo komedian Summers. Konten percakapan hanya akan mencakup \"pertama kali dibahas\" yang belum pernah dibicarakan di TV sebelumnya! Di tamu ketiga kali ini, Nogizaka46 bersama Ijiri Okada akan tampil!",
 "46" : "Dengan Yumiki Nao dan Ioki Mao, bisakah dua member Nogizaka46 ini mencapai tempat baru tanpa smartphone? Mereka akan melakukan semacam perjalanan waktu ke era Showa dan Heisei, ketika belum ada smartphone! Penyelidikan mendalam tentang apa yang dilakukan generasi Showa ketika belum ada smartphone, termasuk 'hubungan jarak jauh' dan 'membeli tiket'. Saksikan perjalanan unik mereka dengan kesimpulan mengejutkan yang tidak terduga...",
 "47" : "Tamu pada 2 November adalah Saito Asuka, aktor dan model yang sebelumnya aktif sebagai member Nogizaka46 dan lulus dari grup pada konser Mei tahun lalu. Berkunjung ke Osaka, ia mengenang masa lalunya, dari debut pada usia 13 hingga pengalaman yang penuh warna sebagai idola. Saat itu, ia sangat termotivasi oleh kerja keras para member dan tak punya keinginan lain selain menjadi bagian dari Nogizaka46, sehingga sempat mempertimbangkan pensiun saat lulus. Namun, dorongan ibunya membuatnya melanjutkan karier di dunia hiburan. Baginya, Osaka adalah tempat yang memungkinkan dirinya tampil apa adanya, bertemu orang-orang yang tulus dengan canda yang penuh kasih. Ia merasa penting untuk hidup dengan cinta dalam setiap interaksi, dan Osaka menginspirasinya menjadi pribadi yang lebih penuh kasih.",
+"48" : "Ini adalah penampilan pertama dari single terbaru Nogizaka46 yang ke-37 berjudul \"Hodoukyou\". Center-nya untuk kali ini adalah dari gen-4, Endo Sakura, yang juga formasi senbatsunya diumumkan di waktu yang sama. Bagi yang ingin menyaksikannya, silakan.",
 };
 console.log(descEpisodeSynopsis);
 
@@ -98,7 +99,7 @@ const nameShow = {
 "37" : "バナナサンド",
 "38" : "土曜はナニする！？",
 "39" : "世にも奇妙な物語 23年秋の特別編「走馬灯のセトリは考えておいて」",
-"40" : "Nogizaka Haishinchuu",
+"40" : "乃木坂配信中",
 "41" : "ララLife",
 "42" : "全国ボロいい宿",
 "43" : "ひむバス！バナナマン日村さんの夢！乃木坂46メンバーをサプライズ送迎！ ",
@@ -106,6 +107,7 @@ const nameShow = {
 "45" : "内村&さまぁ~ずの初出しトークバラエティ 笑いダネ",
 "46" : "スマホがない時、どうしていたの",
 "47" : "アナザースカイ 齋藤飛鳥",
+"48" : "乃木坂配信中",
 };
 console.log(nameShow);
 
@@ -161,6 +163,7 @@ const descEpisode = {
 "45" : "| 240103 Waraidane",
 "46" : "| 240721 Sumaho ga Nai Toki Dou Shiteita no?",
 "47" : "| 241102 Another Sky",
+"48" : "| 241109 Nogizaka Haishinchuu - Nogizaka46 \"Hodoukyou\" Senbatsu Formation Announcement & First Performance",
 };
 console.log(descEpisode);
 
@@ -217,6 +220,7 @@ const descOnAirDate = {
 "45" : "3 Januari 2024",
 "46" : "21 Juli 2024",
 "47" : "2 November 2024",
+"48" : "9 November 2024",
   };
 console.log(descOnAirDate);
 
@@ -273,6 +277,7 @@ const memberParticipate = {
 "45" : "梅澤美波、岩本連加、与田祐希、賀喜遥香、弓木奈於",
 "46" : "弓木奈於、五百城茉央",
 "47" : "齋藤飛鳥",
+"48" : "乃木坂46",
   };
 console.log(memberParticipate);
 
@@ -329,6 +334,7 @@ const imageThumbBig = {
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky00.jpg",
+"48" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241109-ngzhaishinchuu-37hodoukyou.jpg",
   };
 console.log(imageThumbBig);
 
@@ -385,6 +391,7 @@ const imageThumbA = {
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-a.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-a.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky01.jpg",
+"48" : "doc/blank.png",
   };
 console.log(imageThumbA);
 
@@ -440,6 +447,7 @@ const imageThumbB = {
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-b.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-b.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky02.jpg",
+"48" : "doc/blank.png",
   };
 console.log(imageThumbB);
 
@@ -495,6 +503,7 @@ const imageThumbC = {
 "45" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240103-waraidane-c.jpg",
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-c.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky03.jpg",
+"48" : "doc/blank.png",
   };
 console.log(imageThumbC);
 
@@ -556,6 +565,7 @@ const linkHardsub = {
 "45" : "https://sfl.gl/7iQew",
 "46" : "https://sfl.gl/ug6A3",
 "47" : "https://sfl.gl/a7IqyMZ",
+"48" : "https://drive.google.com/file/d/1OLRlj1yRjjsvN6Z5wM9zytyFyApUAzPA/view?usp=sharing",
   };
 console.log(linkHardsub);
 
@@ -611,6 +621,7 @@ const linkTrakteer = {
 "45" : "https://trakteer.id/moefangsubs/showcase/240103-waraidane-nogizaka46-cut-Lixth",
 "46" : "https://trakteer.id/moefangsubs/showcase/240721-sumaho-ga-nai-toki-dou-shiteita-no-yumiki-nao-ioki-mao-jgX9u",
 "47" : "https://trakteer.id/moefangsubs/showcase/241102-another-sky-saito-asuka-sConv",
+"48" : "",
   };
 console.log(linkTrakteer);
 
@@ -667,6 +678,7 @@ const filePassword = {
 "45" : "",
 "46" : "",
 "47" : "",
+"48" : "",
   };
 console.log(filePassword);
 
