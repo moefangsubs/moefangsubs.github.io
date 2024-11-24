@@ -1585,13 +1585,17 @@ const searchData = {
 			"01" : "230302 SHOWROOM (Ikeda Teresa)",
 			"02" : "230303 SHOWROOM (Ogawa Aya)",
 			"03" : "230307 SHOWROOM (Okuda Iroha)",
-			"04" : "240528 SHOWROOM (Kaki Haruka)"
+			"04" : "240528 SHOWROOM (Kaki Haruka)",
+			"05" : "240918 NEKOJITA SHOWROOM (Kaki Haruka, Ikeda Teresa, Ogawa Aya)",
+			"06" : "241009 NEKOJITA SHOWROOM (Inoue Nagi, Sugawara Satsuki)",
         },
         "thumbnail": {
 			"01" : "230302_SR-IkedaTeresa.jpg",
 			"02" : "230303_SR-OgawaAya.jpg",
 			"03" : "230307_SR-OkudaIroha.jpg",
-			"04" : "240528_SR-KakiHaruka.jpeg"
+			"04" : "240528_SR-KakiHaruka.jpeg",
+			"05" : "240918-NEKOJITA.jpg",
+			"06" : "241009-NEKOJITA.jpg"
         }
     },
     "[RANDOM]": {
@@ -1645,6 +1649,7 @@ const searchData = {
             "45": "240103 Waraidane (Umezawa Minami, Iwamoto Renka, Yoda Yuuki, Kaki Haruka, Yumiki Nao)",
             "46": "240721 Sumaho ga Nai Toki Dou Shiteita no? (Yumiki Nao, Ioki Mao)",
             "47": "241102 Another Sky (Saito Asuka)",
+            "48": "241109 Nogizaka Haishinchuu - Nogizaka46 \"Hodoukyou\" Senbatsu Formation Announcement & First Performance",
         },
         "thumbnail": {
             "01": "190308_anothersky_asuka.jpg",
@@ -1694,6 +1699,7 @@ const searchData = {
             "45": "240103_waraidane.jpg",
             "46": "240721_sumahoganai.jpg",
             "47": "241102_anothersky_asuka",
+            "48": "241109_haishinchuuhodoukyou",
         }
     },
 
