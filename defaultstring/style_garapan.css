@@ -10,6 +10,7 @@ body {
     color: white;
     font-family: "Funnel Display", serif;
     overflow-x: hidden;
+    display: flex;
 }
 
 body::before {
