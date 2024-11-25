@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../defaultstring/style_header.css">
+	<link rel="stylesheet" type="text/css" href="css/style_unitsong.css">
+	<title>Nogizaka Unit Songs</title>
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"></link>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- JavaScript load default head -->
+	<script type="text/javascript" src="../defaultstring/head-default.js"></script>
+	<script src="js/checkPass.js"></script>
+	<script type="text/javascript" src="../defaultstring/navigation.js"></script>
+</head>
+
+<body>
+<div class="titlehead"><div id="headtitle">NOGIZAKA UNIT SONGS</div></div>
+
+<span class="desc">Dalam Nogizaka46, selain lagu utama single yang dinyanyikan oleh member senbatsu (16-22 member), terdapat lagu coupling dan lagu yang masuk dalam album yang melibatkan lebih sedikit member. Lagu yang melibatkan 2 hingga 10 member disebut lagu unit di sini.</span>
+<br/>
+<span class="desc">Semua lagu yang dirilis Nogizaka46, baik dalam bentuk CD maupun distribusi digital, telah dimasukkan. Jika terdapat kesalahan, mohon diberitahukan.</span>
+<br/>
+<div class="unitsong">
+<div class="song-container">
+  <div class="song-info">
+      <span id="song-title">Loading...</span>
+      <p id="song-code"></p>
+      <p id="song-from"></p>
+    </div>
+  <div id="buttonmedia">
+    <button id="prev-song">&lt;</button>
+    <button id="next-song">&gt;</button>
+  </div>
+</div>  
+  <div class="members-container" id="members-container">
+    <!-- Member -->
+  </div>
+<div class="spotify-container">
+  <iframe id="spotify-embed" src="" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+
+<div class="song-lyrics">
+  <!-- Lirik lagu akan dimuat di sini -->
+</div>
+</div>
+
+	<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+	<script src="js/script_unitsong.js" defer></script>
+</body>
+</html>

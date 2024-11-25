@@ -50,10 +50,11 @@ document.write(`
     <li class="navdropdown">
       <a href="#">MOE DATA</a>
       <div class="navsubmenu">
-        <a href="../pages/senbatsu-formation-nogizaka46.html">Senbatsu Formation</a>
-        <a href="../pages/nogizaka46-senbatsu-and-under-center.html">Senbatsu & Under Center</a>
-        <a href="../pages/nogizaka46-member-graph.html">Member Graph</a>
-        <a href="../pages/nogizaka46-song-abbreviation.html">Song Abbreviation</a>
+        <a href="../pages/senbatsu-formation-nogizaka46.html">N46 Senbatsu Formation</a>
+        <a href="../pages/nogizaka46-senbatsu-and-under-center.html">N46 Senbatsu & Under Center</a>
+        <a href="../pages/nogizaka46-member-graph.html">N46 Member Graph</a>
+        <a href="../pages/nogizaka46-song-abbreviation.html">N46 Song Abbreviation</a>
+        <a href="../pages/nogizaka46-unit-song.html">N46 Unit Song</a>
         <a href="../pages/sakamichi-penlight.html">Sakamichi Penlight</a>
         <a href="../pages/member-calendar.html">Member Calendar</a>
       </div>
@@ -75,7 +76,7 @@ document.write(`
 <!-- Sidebar Menu -->
 <div class="sidebar" id="sidebar">
   <ul class="nav-links">
-    <li><a href="../sitemap.html">Sitemap</a></li>
+    <li><a href="#">Sitemap</a></li>
     
     <li class="dropdown">
       <a href="#" onclick="toggleDropdown(event)">MV SUBS</a>
@@ -98,10 +99,11 @@ document.write(`
     <li class="dropdown">
       <a href="#" onclick="toggleDropdown(event)">MOE DATA</a>
       <div class="submenu">
-        <a href="../pages/senbatsu-formation-nogizaka46.html">Senbatsu Formation</a>
-        <a href="../pages/nogizaka46-senbatsu-and-under-center.html">Senbatsu & Under Center</a>
-        <a href="../pages/nogizaka46-member-graph.html">Member Graph</a>
-        <a href="../pages/nogizaka46-song-abbreviation.html">Song Abbreviation</a>
+        <a href="../pages/senbatsu-formation-nogizaka46.html">N46 Senbatsu Formation</a>
+        <a href="../pages/nogizaka46-senbatsu-and-under-center.html">N46 Senbatsu & Under Center</a>
+        <a href="../pages/nogizaka46-member-graph.html">N46 Member Graph</a>
+        <a href="../pages/nogizaka46-song-abbreviation.html">N46 Song Abbreviation</a>
+        <a href="../pages/nogizaka46-unit-song.html">N46 Unit Song</a>
         <a href="../pages/sakamichi-penlight.html">Sakamichi Penlight</a>
         <a href="../pages/member-calendar.html">Member Calendar</a>
       </div>
@@ -194,21 +196,16 @@ function changeCss() {
         logoElement.classList.add("logo-scrolled");
         searchElement.classList.add("searchbar-scrolled");
 
-        // Hanya tambahkan margin dan transform jika bukan di halaman sitemap.html
         if (!isSitemapPage) {
-            navElement.style.margin = "0 auto";
-            navElement.style.transform = "translate(15%, 3%)";
+            navElement.classList.add("navbar-centered"); // Tambahkan kelas untuk memastikan posisi tengah
         } else {
-            // Jika di halaman sitemap, hilangkan margin dan transform
-            navElement.style.margin = "0";
-            navElement.style.transform = "none";
+            navElement.classList.remove("navbar-centered");
         }
     } else {
         navElement.classList.remove("navbar-scrolled");
         logoElement.classList.remove("logo-scrolled");
         searchElement.classList.remove("searchbar-scrolled");
-        navElement.style.margin = "";
-        navElement.style.transform = "";
+        navElement.classList.remove("navbar-centered");
     }
 }
 

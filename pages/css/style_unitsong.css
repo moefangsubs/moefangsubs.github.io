@@ -1,0 +1,195 @@
+body {
+	background-color: #1a1a2e;
+	color: #e6e6fa;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	height: auto !important;
+	animation: all 0.5s ease-in-out;
+}
+
+body::before {
+ 	background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/concert.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+@media screen and (max-width: 1280px) {
+body {
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.titlehead {
+    margin-top: 110px;
+}
+
+#headtitle {
+    font-size: 32pt;
+    font-weight: bold;
+    padding-top: 10pt;
+    padding-bottom: 20pt;
+    text-align: center;
+}
+
+.desc {
+	width: 80%;
+	font-size:14pt;
+	text-align: justify;
+}
+.unitsong {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+#buttonmedia {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	margin-bottom:20pt;
+}
+button {
+	background-color: #7b00b6;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #9400cd;
+}
+
+.song-info {
+	text-align: center;
+	margin: 0 20px;
+}
+
+#song-title {
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+    background-color: #ffffff;
+    padding: 5pt;
+    border-radius: 10pt;
+    color: #7b00b696;
+    font-size: clamp(1rem, 4vw, 3rem);
+    font-weight: 700;
+    font-style: normal;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+#song-from {
+	font-family: "M PLUS Rounded 1c", sans-serif !important;
+    font-size: clamp(1rem, 3vw, 2rem);
+    font-weight: bold;
+    background-color: #7b00b696;
+    padding: 5pt;
+    border-radius: 10pt;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+.members-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2vw;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+.members-container img {
+    width: 85pt;
+    height: 85pt;
+    border-radius: 50%;
+    /* border: 6px solid #7b00b6; */
+    object-fit: cover;
+}
+
+.spotify-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    width: 75%;
+    height: auto;
+}
+
+.spotify-container iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.song-lyrics {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f4f4f42b;
+    border-radius: 8px;
+    font-size: 18pt;
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+    line-height: 1.8;
+    color: #fff;
+    white-space: pre-wrap;
+    /* max-height: 200px; */
+    overflow-y: auto;
+    width: 75%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	align-items: center;
+}
+
+@media (max-width: 768px) {
+	.song-container {
+		flex-direction: column;
+	}
+
+	button {
+		width: 100px;
+	}
+
+
+	#buttonmedia {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+
+	.members-container img {
+		width: 50pt;
+		height: 50pt;
+		border-radius: 50%;
+		border: 6px solid #7b00b6;
+		object-fit: cover;
+	}
+	.spotify-container {
+		margin: 20px 0;
+	}
+}

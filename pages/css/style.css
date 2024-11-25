@@ -4,6 +4,8 @@
 
 body {
     background-color: #12021f;
+    display: flex;
+    justify-content: center;
 }
 
 .contentpage {	
@@ -21,6 +23,8 @@ body {
 body {
     margin: 0 auto;
     padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 }
 
