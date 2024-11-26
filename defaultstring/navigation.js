@@ -54,7 +54,8 @@ document.write(`
         <a href="../pages/nogizaka46-senbatsu-and-under-center.html">N46 Senbatsu & Under Center</a>
         <a href="../pages/nogizaka46-member-graph.html">N46 Member Graph</a>
         <a href="../pages/nogizaka46-song-abbreviation.html">N46 Song Abbreviation</a>
-        <a href="../pages/nogizaka46-unit-song.html">N46 Unit Song</a>
+        <a href="../pages/nogizaka46-unit-song.html">N46 Song Unit</a>
+        <a href="../pages/nogizaka46-generation-song.html">N46 Song Generation</a>
         <a href="../pages/sakamichi-penlight.html">Sakamichi Penlight</a>
         <a href="../pages/member-calendar.html">Member Calendar</a>
       </div>
@@ -103,7 +104,8 @@ document.write(`
         <a href="../pages/nogizaka46-senbatsu-and-under-center.html">N46 Senbatsu & Under Center</a>
         <a href="../pages/nogizaka46-member-graph.html">N46 Member Graph</a>
         <a href="../pages/nogizaka46-song-abbreviation.html">N46 Song Abbreviation</a>
-        <a href="../pages/nogizaka46-unit-song.html">N46 Unit Song</a>
+        <a href="../pages/nogizaka46-unit-song.html">N46 Song Unit</a>
+        <a href="../pages/nogizaka46-generation-song.html">N46 Song Generation</a>
         <a href="../pages/sakamichi-penlight.html">Sakamichi Penlight</a>
         <a href="../pages/member-calendar.html">Member Calendar</a>
       </div>

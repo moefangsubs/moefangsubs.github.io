@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../defaultstring/style_header.css">
+	<link rel="stylesheet" type="text/css" href="css/style_unitsong.css">
+	<title>Nogizaka Generation Songs</title>
+
+	<!-- Font Awesome -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"></link>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+	<!-- JavaScript load default head -->
+	<script type="text/javascript" src="../defaultstring/head-default.js"></script>
+	<script src="js/checkPass.js"></script>
+	<script type="text/javascript" src="../defaultstring/navigation.js"></script>
+</head>
+
+<body>
+<div class="titlehead"><div id="headtitle">NOGIZAKA GENERATION SONGS</div></div>
+
+<span class="desc">Dalam Nogizaka46, selain lagu utama single yang dinyanyikan oleh member senbatsu (16-22 member), terdapat lagu yang khusus dibawakan oleh semua member dalam satu generasi. Jika terdapat kesalahan, mohon diberitahukan.</span>
+<br/>
+<div class="unitsong">
+<div class="song-container">
+  <div class="song-info">
+      <span id="song-title">Loading...</span>
+      <p id="song-code"></p>
+      <p id="song-from"></p>
+    </div>
+  <div id="buttonmedia">
+    <button id="prev-song">&lt;</button>
+    <button id="next-song">&gt;</button>
+  </div>
+</div>  
+  <div class="members-container" id="members-container">
+    <!-- Member -->
+  </div>
+  <div class="song-trivia" id="song-trivia">
+	<!-- trivia -->
+  </div>
+<div class="spotify-container">
+  <iframe id="spotify-embed" src="" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
+
+
+<div class="song-lyrics">
+  <!-- Lirik lagu akan dimuat di sini -->
+</div>
+</div>
+
+	<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+	<script src="js/script_gensong.js" defer></script>
+	<script>
+	  // ---------------
+	  // nambahin flex-direction: column di .members-container 
+	  // ---------------
+	  document.addEventListener("DOMContentLoaded", () => {
+		const membersContainer = document.querySelector(".members-container");
+
+		if (membersContainer) {
+		  membersContainer.style.display = "flex";
+		  membersContainer.style.flexDirection = "column";
+		  membersContainer.style.gap = "0";
+		} else {
+		  console.warn("Elemen .members-container tidak ditemukan");
+		}
+	  });
+</script>
+
+</body>
+</html>
