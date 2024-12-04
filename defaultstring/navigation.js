@@ -47,19 +47,7 @@ document.write(`
       </div>
     </li>
     <li><a href="../pages/chord.html">Chord</a></li>
-    <li class="navdropdown">
-      <a href="#">MOE DATA</a>
-      <div class="navsubmenu">
-        <a href="../pages/senbatsu-formation-nogizaka46.html">N46 Senbatsu Formation</a>
-        <a href="../pages/nogizaka46-senbatsu-and-under-center.html">N46 Senbatsu & Under Center</a>
-        <a href="../pages/nogizaka46-member-graph.html">N46 Member Graph</a>
-        <a href="../pages/nogizaka46-song-abbreviation.html">N46 Song Abbreviation</a>
-        <a href="../pages/nogizaka46-unit-song.html">N46 Song Unit</a>
-        <a href="../pages/nogizaka46-generation-song.html">N46 Song Generation</a>
-        <a href="../pages/sakamichi-penlight.html">Sakamichi Penlight</a>
-        <a href="../pages/member-calendar.html">Member Calendar</a>
-      </div>
-    </li>
+    <li><a href="../pages/database.html">DB</a></li>
     <li class="navdropdown">
       <a href="#">OTHER</a>
       <div class="navsubmenu">
@@ -80,7 +68,7 @@ document.write(`
     <li><a href="#">Sitemap</a></li>
     
     <li class="dropdown">
-      <a href="#" onclick="toggleDropdown(event)">MV SUBS</a>
+      <a href="#" onclick="toggleDropdown(event)">MV Subs</a>
       <div class="submenu">
         <a href="../pages/mv-hardsubs.html">Sakamichi</a>
         <a href="../pages/mv-hardsubs-bokuao.html">BokuAo</a>
@@ -88,31 +76,17 @@ document.write(`
     </li>
     
     <li class="dropdown">
-      <a href="#" onclick="toggleDropdown(event)">TRANSLATION</a>
+      <a href="#" onclick="toggleDropdown(event)">Translation</a>
       <div class="submenu">
         <a href="#">Blog</a>
         <a href="../pages/magazine-translation.html">Magazine</a>
       </div>
     </li>
     
-    <li><a href="../pages/chord.html">Chord</a></li>
-    
+    <li><a href="../pages/chord.html">Chord</a></li>    
+    <li><a href="../pages/database.html">Database</a></li>    
     <li class="dropdown">
-      <a href="#" onclick="toggleDropdown(event)">MOE DATA</a>
-      <div class="submenu">
-        <a href="../pages/senbatsu-formation-nogizaka46.html">N46 Senbatsu Formation</a>
-        <a href="../pages/nogizaka46-senbatsu-and-under-center.html">N46 Senbatsu & Under Center</a>
-        <a href="../pages/nogizaka46-member-graph.html">N46 Member Graph</a>
-        <a href="../pages/nogizaka46-song-abbreviation.html">N46 Song Abbreviation</a>
-        <a href="../pages/nogizaka46-unit-song.html">N46 Song Unit</a>
-        <a href="../pages/nogizaka46-generation-song.html">N46 Song Generation</a>
-        <a href="../pages/sakamichi-penlight.html">Sakamichi Penlight</a>
-        <a href="../pages/member-calendar.html">Member Calendar</a>
-      </div>
-    </li>
-    
-    <li class="dropdown">
-      <a href="#" onclick="toggleDropdown(event)">OTHER</a>
+      <a href="#" onclick="toggleDropdown(event)">Other</a>
       <div class="submenu">
         <a href="../pages/folder-icon.html">Folder Icon</a>
         <a href="../pages/fansub-list.html">Fansub List</a>
@@ -121,7 +95,7 @@ document.write(`
       </div>
     </li>
     
-    <li><a href="#">MASTERLIST</a></li>
+    <li><a href="#">Masterlist</a></li>
    <a class="floatingButton"><img src="../sprite/search.svg" alt="Search" class="search-icon"></a>
   </ul>
 </div>
