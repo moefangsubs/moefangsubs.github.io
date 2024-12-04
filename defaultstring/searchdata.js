@@ -27,12 +27,12 @@ const searchData = {
     "Chou Nogizaka Star Tanjou": {
         "baseUrl": "chou-nogizaka-star-tanjou.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-",
-        "episodeRange": { "start": 1, "end": 64 }
+        "episodeRange": { "start": 1, "end": 67 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-",
-        "episodeRange": { "start": 1, "end": 45 }
+        "episodeRange": { "start": 1, "end": 46 }
     },
     "Hinatazaka46 desu. Chotto ii desu ka?": {
         "baseUrl": "hinatazaka46-desu-chotto-ii-desu-ka.html",
@@ -135,7 +135,7 @@ const searchData = {
     "Nogizaka Burari": {
         "baseUrl": "nogidouga-nogizaka-burari.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari",
-        "episodeRange": { "start": 1, "end": 16 }
+        "episodeRange": { "start": 1, "end": 17 }
     },
     "Yakubo Channel": {
         "baseUrl": "nogidouga-yakubo-channel.html",
@@ -1115,12 +1115,12 @@ const searchData = {
     "Mirai no Watashi ni Bukkamasareru!? (Kubo Shiori)": {
         "baseUrl": "mirai-no-watashi-ni-bukkamasareru.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi",
-        "episodeRange": { "start": 1, "end": 20 }
+        "episodeRange": { "start": 1, "end": 32 }
     },	
     "Death Game de Matteru (Umezawa Minami)": {
         "baseUrl": "death-game-de-matteru.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame",
-        "episodeRange": { "start": 1, "end": 3 }
+        "episodeRange": { "start": 1, "end": 6 }
     },	
     "Ryosangata Riko Saigo no Puramo Joshi no Jinsei Kumitate Ki (Yoda Yuuki)": {
         "baseUrl": "ryosangata-riko-season-3.html",
@@ -1154,7 +1154,7 @@ const searchData = {
     "Shotenin Tantei Sakura (Endo Sakura)": {
         "baseUrl": "shotenin-tantei-sakura.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei",
-        "episodeRange": { "start": 1, "end": 3 }
+        "episodeRange": { "start": 1, "end": 6 }
     },
     "Rakujitsu (Kubo Shiori)": {
         "baseUrl": "rakujitsu.html",
@@ -1588,6 +1588,8 @@ const searchData = {
 			"04" : "240528 SHOWROOM (Kaki Haruka)",
 			"05" : "240918 NEKOJITA SHOWROOM (Kaki Haruka, Ikeda Teresa, Ogawa Aya)",
 			"06" : "241009 NEKOJITA SHOWROOM (Inoue Nagi, Sugawara Satsuki)",
+			"07" : "241128 SHOWROOM (Kaki Haruka)",
+			"08" : "241202 SHOWROOM (Ichinose Miku)",
         },
         "thumbnail": {
 			"01" : "230302_SR-IkedaTeresa.jpg",
@@ -1595,7 +1597,9 @@ const searchData = {
 			"03" : "230307_SR-OkudaIroha.jpg",
 			"04" : "240528_SR-KakiHaruka.jpeg",
 			"05" : "240918-NEKOJITA.jpg",
-			"06" : "241009-NEKOJITA.jpg"
+			"06" : "241009-NEKOJITA.jpg",
+			"07" : "241128_SR-KakiHaruka.jpg",
+			"08" : "241202_SR-IchinoseMiku.jpg",
         }
     },
     "[RANDOM]": {
@@ -1769,6 +1773,7 @@ const searchData = {
             "55": "241020 Boku ga Mitakatta Aozora \"Aozora Summer Festival 2024\"",
             "56": "240127 Nogizaka46 34th SG Underlive",
             "57": "240609 Nogizaka46 34th SG Underlive",
+            "58": "240321 Nogizaka46 Mini Live 36th Single \"Cheat Day\"",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1828,6 +1833,7 @@ const searchData = {
             "55": "live_aozorasummerfes2024.jpg",
             "56": "live_underlive34.jpg",
             "57": "live_underlive35.jpg",
+            "58": "live_minilive36.jpg",
         }
     },
    "Nogizaka Skits BluRay/DVD Box Vol.1": {
