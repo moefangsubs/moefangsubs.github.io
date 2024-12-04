@@ -49,6 +49,7 @@ const descEpisodeSynopsis = {
 	"43" : "Di episode 43 ini para otameshi girls akan mencoba berolahraga tenis, yang masih dikenal jarang oleh masyarakat.",
 	"44" : "Di episode 44 ini para otameshi girls akan bersantai untuk menyajikan takoyaki, sebuah segmen yang disarankan oleh MC Ito Riria. Seperti apakah hasil takoyaki dari para member ini?",
 	"45" : "Di episode 45 ini dengan otameshi girls yang sama di episode sebelumnya akan mencoba hal-hal yang digemari para ojisan, seperti permainan kata, mahjong, dan pijat refleksi kaki.",
+	"46" : "Di episode 46 ini para otameshi girls akan mencoba tantangan seputar ubi manis, yang sangat cocok untuk musim di akhir tahun ini. Para otameshi girls akan mencoba memanen ubi, mencoba seruan pedagang ubi keliling, dan membuat iklan ubi.",
 };
 
 
@@ -126,6 +127,7 @@ const descOnAirDate = {
 	"43" : "31 Agustus 2024",
 	"44" : "28 September 2024",
 	"45" : "26 Oktober 2024",
+	"46" : "30 November 2024",
   };
 
 
@@ -179,6 +181,7 @@ const memberParticipate = {
 	"43" : "伊藤理々杏、佐藤楓、向井葉月、田村真佑、五百城茉央",
 	"44" : "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
 	"45" : "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
+	"46" : "伊藤理々杏、矢久保美緒、小川彩、冨里奈央",
   };
 
 
@@ -308,6 +311,7 @@ const linkHardsub = {
 	"43" : "https://sfl.gl/P9EDN4",
 	"44" : "https://sfl.gl/Xs6d",
 	"45" : "https://sfl.gl/xm9CQu",
+	"46" : "https://sfl.gl/XXD4cazD",
   };
   
 // =======================
@@ -360,6 +364,7 @@ const linkSoftsub = {
 	"43" : "https://sfl.gl/wq6PI9l",
 	"44" : "https://sfl.gl/6oLcQy",
 	"45" : "https://sfl.gl/0XXv8pb",
+	"46" : "https://sfl.gl/FaEqqIt",
   };
 
 // =======================

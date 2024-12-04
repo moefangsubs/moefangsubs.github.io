@@ -7,13 +7,9 @@ const descEpisodeSynopsis = {
 "01" : "Tendo Sakura dengan mengajak rekannya saat itu Makino, menghadiri sebuah acara yang diadakan oleh seorang penulis terkenal, Matilda Satoru.",
 "02" : "Setelah di dalam villa tempat acara diadakan, Tendo Sakura bertabrakan dengan penulis Matilda Satoru.",
 "03" : "Di pagi yang damai, Matilda Satoru ditemukan terkapar di kamarnya. Tendo Sakura semakin bersemangat untuk mengungkap kasus ini bersama detektif sungguhan yang sebelumnya pernah bersamanya.",
-// "04" : "",
-// "05" : "",
-// "06" : "",
-// "07" : "",
-// "08" : "",
-// "09" : "",
-// "10" : "",
+"04" : "Pihak polisi detektif berdiskusi mengenai dua surat wasiat yang ia dapati di TKP dengan orang-orang di vila tersebut.",
+"05" : "Tendo Sakura yang penasaran akan surat wasiat kedua yang berupa teka-teki itu segera memecahkan misteri.",
+"06" : "Tendo Sakura mengetahui bahwa Sato-lah yang berniat membunuh Matilda Satoru, dan Sato pun menceritakan alasan kenapa ia berniat melakukan itu."
 };
 
 // =======================
@@ -37,13 +33,9 @@ const descEpisode = {
 "01" : "| Episode 1",
 "02" : "| Episode 2",
 "03" : "| Episode 3",
-// "04" : "| Episode 4",
-// "05" : "| Episode 5",
-// "06" : "| Episode 6",
-// "07" : "| Episode 7",
-// "08" : "| Episode 8",
-// "09" : "| Episode 9",
-// "10" : "| Episode 10 [TAMAT]",
+"04" : "| Episode 4",
+"05" : "| Episode 5",
+"06" : "| Episode 6 [TAMAT]",
   };
 console.log(descEpisode);
 
@@ -58,11 +50,7 @@ const descOnAirDate = {
 "03" : "7 November 2024",
 // "04" : "",
 // "05" : "",
-// "06" : "",
-// "07" : "",
-// "08" : "",
-// "09" : "",
-// "10" : "",
+// "06" : ""
 };
 console.log(descOnAirDate);
 
@@ -87,13 +75,9 @@ const imageThumbBig = {
 "01" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei01.jpg",
 "02" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei02.jpg",
 "03" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei03.jpg",
-// "04" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04.jpg",
-// "05" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05.jpg",
-// "06" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06.jpg",
-// "07" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei07.jpg",
-// "08" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei08.jpg",
-// "09" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei09.jpg",
-// "10" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei10.jpg",
+"04" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06.jpg"
 };
 console.log(imageThumbBig);
 
@@ -106,13 +90,9 @@ const imageThumbA = {
 "01" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei01a.jpg",
 "02" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei02a.jpg",
 "03" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei03a.jpg",
-// "04" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04a.jpg",
-// "05" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05a.jpg",
-// "06" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06a.jpg",
-// "07" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei07a.jpg",
-// "08" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei08a.jpg",
-// "09" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei09a.jpg",
-// "10" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei10a.jpg",
+"04" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04a.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05a.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06a.jpg"
 };
 console.log(imageThumbA);
 
@@ -124,13 +104,9 @@ const imageThumbB = {
 "01" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei01b.jpg",
 "02" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei02b.jpg",
 "03" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei03b.jpg",
-// "04" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04b.jpg",
-// "05" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05b.jpg",
-// "06" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06b.jpg",
-// "07" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei07b.jpg",
-// "08" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei08b.jpg",
-// "09" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei09b.jpg",
-// "10" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei10b.jpg",
+"04" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04b.jpg",
+"05" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05b.jpg",
+"06" : "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06b.jpg"
 };
 console.log(imageThumbB);
 
@@ -143,13 +119,9 @@ const linkHardsub = {
 "01" : "https://sfl.gl/Z6wU",
 "02" : "https://sfl.gl/Xpznw0",
 "03" : "https://sfl.gl/1sMSquV",
-// "04" : "",
-// "05" : "",
-// "06" : "",
-// "07" : "",
-// "08" : "",
-// "09" : "",
-// "10" : "",
+"04" : "https://sfl.gl/OYFk",
+"05" : "https://sfl.gl/49GZzKl",
+"06" : "https://sfl.gl/OMnYpL8G"
   };
 console.log(linkHardsub);
 

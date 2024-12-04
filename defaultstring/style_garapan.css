@@ -10,7 +10,7 @@ body {
     color: white;
     font-family: "Funnel Display", serif;
     overflow-x: hidden;
-    display: flex;
+	display: flex;
 }
 
 body::before {
@@ -262,21 +262,21 @@ img.readingpict {
     align-items: center;
 }
 
-#isikontenblog > .titlehead {
+.titlehead {
     padding: 60px;
     margin-top: 35px;
 }
-#isikontenblog > article {
-    margin-top: 0px;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    /* background: rgb(18 2 31 / 50%); */
+#isikontenblog article {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
 }
 
-
 @media (max-width: 1280px) {
-#isikontenblog > article {
-    margin-left: 20px;
+#isikontenblog article {
+    /* margin-left: 20px; */
 }
 }
 /* ------------------------------------------ */
@@ -307,23 +307,23 @@ img.readingpict {
     padding-top: 5pt;
     padding-bottom: 20pt;
     text-align: left;
+	word-break: break-word;
 }
 
 #headtitle {
 	text-align: center;
-	/* text-align-last:center; */
 }
 #description, #episode {
 	text-align: justify;
-	/* text-align-last:center; */
 }
 
-/* @media (max-width: 1280px) {
-	#headtitle, #description, #episode {
-	padding-left: 20pt;
-	padding-right: 20pt;
+@media screen and (max-width: 700px) {
+	#headtitle {
+		font-size: 12vw;
+		margin-left: 10pt;
+		margin-right: 10pt;
 	}
-} */
+}
 
 /* ------------------------------------------ */
 /* Scoll menu untuk episode */

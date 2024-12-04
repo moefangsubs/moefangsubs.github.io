@@ -1,17 +1,132 @@
 [
     {
-        "title": "240918 Nekojita SHOWROOM (Kaki Haruka, Ikeda Teresa, Ogawa Aya)",
-        "url": "showroom.html?episode=05",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/240918-NEKOJITA.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #65",
+        "url": "chou-nogizaka-star-tanjou.html?episode=65",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-65.jpg"
     },
     {
-        "title": "241009 Nekojita SHOWROOM (Inoue Nagi, Sugawara Satsuki)",
-        "url": "showroom.html?episode=06",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241009-NEKOJITA.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #66",
+        "url": "chou-nogizaka-star-tanjou.html?episode=66",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-66.jpg"
     },
     {
-        "title": "Nogizaka Haishinchuu - Nogizaka46 \"Hodoukyou\" Senbatsu Announcement & First Performance",
-        "url": "random-subs.html?episode=48",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/random/241109-ngzhaishinchuu-37hodoukyou.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #67",
+        "url": "chou-nogizaka-star-tanjou.html?episode=67",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-67.jpg"
+    },
+    {
+        "title": "Nogizaka Otameshichuu #46",
+        "url": "nogizaka-otameshichuu.html?episode=46",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu46.jpg"
+    },
+    {
+        "title": "Nogizaka Burari #17 (Kanagawa Saya & Tomisato Nao)",
+        "url": "nogidouga-nogizaka-burari.html?episode=17",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari17.jpg"
+    },
+    {
+        "title": "Nogizaka46 Mini Live 36th Single 'Cheat Day'",
+        "url": "live-performance.html?episode=58",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #21",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=21",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi21.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #22",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=22",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi22.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #23",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=23",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi23.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #24",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=24",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi24.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #25",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=25",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi25.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #26",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=26",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi26.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #27",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=27",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi27.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #28",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=28",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi28.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #29",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=29",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi29.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #30",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=30",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi30.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #31",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=31",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi31.jpg"
+    },
+    {
+        "title": "Mirai no Watashi ni Bukkamasareru (Kubo Shiori) #32 [TAMAT]",
+        "url": "mirai-no-watashi-ni-bukkamasareru.html?episode=32",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi32.jpg"
+    },
+    {
+        "title": "Death Game de Matteru (Umezawa Minami) #4",
+        "url": "death-game-de-matteru.html?episode=04",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame04.jpg"
+    },
+    {
+        "title": "Death Game de Matteru (Umezawa Minami) #5",
+        "url": "death-game-de-matteru.html?episode=05",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame05.jpg"
+    },
+    {
+        "title": "Death Game de Matteru (Umezawa Minami) #6",
+        "url": "death-game-de-matteru.html?episode=06",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame06.jpg"
+    },
+    {
+        "title": "Shotenin Tantei Sakura #4",
+        "url": "shotenin-tantei-sakura.html?episode=04",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04.jpg"
+    },
+    {
+        "title": "Shotenin Tantei Sakura #5",
+        "url": "shotenin-tantei-sakura.html?episode=05",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05.jpg"
+    },
+    {
+        "title": "Shotenin Tantei Sakura #6 [TAMAT]",
+        "url": "shotenin-tantei-sakura.html?episode=06",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06.jpg"
+    },
+    {
+        "title": "241128 SHOWROOM Nogiobi (Kaki Haruka)",
+        "url": "showroom.html?episode=07",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241128_SR-KakiHaruka.jpg"
+    },
+    {
+        "title": "241202 SHOWROOM Nogiobi (Ichinose Miku)",
+        "url": "showroom.html?episode=08",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241202_SR-IchinoseMiku.jpg"
     }
 ]

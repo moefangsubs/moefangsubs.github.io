@@ -68,6 +68,9 @@ const descEpisodeSynopsis = {
 	"62": "Episode 62 kali ini adalah episode spesial idol, dan ada segmen dimana Sugawara Satsuki mempresentasikan idol favoritnya, Morning Musume.",
 	"63": "Episode 63 kali ini adalah episode spesial Haloween. Bintang tamunya adalah Rake, penyanyi yang sempat istirahat dari dunia musik selama 6 tahun.",
 	"64": "Episode 64 kali ini kita mengundang tamu vokalis dari wacci, yang salah satunya akan duet dengan Okuda Iroha.",
+	"65": "Episode 65 kali ini kedatangan seiyuu terkenal, Sakura Ayane, yang ternyata sudah menyukai Nogizaka46 sejak 2013, yang kini memilih oshi-nya Inoue Nagi. Bahkan Nagi pun pernah diundang oleh Ayane-san ke rumahnya untuk bermain.",
+	"66": "Untuk pertama kalinya, acara ini mengundang artis dari luar negeri, Che'Nele, artis keturunan Malaysia-Australia. Di akhir pun akan ada penampilan Cafe au lait yang akan membawakan lagu sambil menggunakan gitar listrik setelah sekian lama.",
+	"67": "Episode 67 ini kedatangan tamu Oishi Masayoshi, yang nanti akan tampil membawakan sebuah lagu anime yang menjadi debutnya bersama Kawasaki Sakura.",
 	};
 
 
@@ -164,6 +167,9 @@ const descOnAirDate = {
 	"62": "21 Oktober 2024",
 	"63": "28 Oktober 2024",
 	"64": "4 November 2024",
+	"65": "11 November 2024",
+	"66": "18 November 2024",
+	"67": "25 November 2024",
 };
 
 // =======================
@@ -235,8 +241,10 @@ const descSong1 = {
 	"62": "松田聖子「ピンクのモーツァルト」",
 	"63": "B.B.クィーンズ「おどるポンポコリン」",
 	"64": "DREAMS COME TRUE「何度でも」",
+	"65": "JUDY AND MARY「散歩道	」",
+	"66": "ロードオブメジャー「大切なもの」",
+	"67": "米津玄師「Lemon」",
 };
-
 
 // =======================
 // DESKRIPSI LAGU 2 (Khusus Star Tanjou series)
@@ -307,6 +315,9 @@ const descSong2 = {
 	"62": "モーニング娘。「わがまま 気のまま 愛のジョーク」",
 	"63": "MAN WITH A MISSION「Remember Me」",
 	"64": "wacci「恋だろ」",
+	"65": "RUI「月のしずく」",
+	"66": "菅田将暉「まちがいさがし」",
+	"67": "オーイシマサヨシ「君じゃなきゃダメみたい」",
 };
 
 
@@ -379,6 +390,9 @@ const descSong3 = {
 	"62": "渡辺美奈代「PINKのCHAO」",
 	"63": "Rake「100万回の「I love you」」",
 	"64": "wacci「別の人の彼女になったよ」",
+	"65": "May'n／中島愛「ライオン」",
+	"66": "シェネル「ビリーヴ」",
+	"67": "miwa「ヒカリへ」",
 };
 
 
@@ -451,6 +465,9 @@ const descSkits = {
 	"62": "",
 	"63": "",
 	"64": "",
+	"65": "",
+	"66": "",
+	"67": "",
 };
 
 
@@ -504,6 +521,9 @@ const additionalGuests = {
 	"62": "渡辺美奈代",
 	"63": "Rake",
 	"64": "橋口洋平",
+	"65": "佐倉綾音",
+	"66": "シェネル",
+	"67": "オーイシマサヨシ",
 };
 
 const guestArtis = {};
@@ -548,6 +568,9 @@ const additionalSenpai = {
   "62": "-",
   "63": "-",
   "64": "-",
+  "65": "-",
+  "66": "-",
+  "67": "-",
 };
 
 
@@ -697,6 +720,9 @@ const linkHardsub = {
 	"62" : "https://sfl.gl/tMg1fU",
 	"63" : "https://sfl.gl/SJ49p2l",
 	"64" : "https://sfl.gl/iIMYoZH",
+	"65" : "https://sfl.gl/nw29MHZ",
+	"66" : "https://sfl.gl/H1YGH",
+	"67" : "https://sfl.gl/FMPT4O",
 };
 
 // =======================
@@ -768,6 +794,9 @@ const linkSoftsub = {
 	"62" : "https://sfl.gl/CfVlV",
 	"63" : "https://sfl.gl/NMnV",
 	"64" : "https://sfl.gl/X1aIne",
+	"65" : "https://sfl.gl/PSN4sHxv",
+	"66" : "https://sfl.gl/9IygUphm",
+	"67" : "https://sfl.gl/VEC9d",
 };
 
 // =======================

@@ -20,6 +20,8 @@ const descEpisodeSynopsis = {
   "14" : "Episode 14 kali ini adalah Nakanishi Aruno ingin mengajak Mukai Hazuki ke Odaiba, dan disana mereka akan mencoba berbagai wahana,",
   "15" : "Episode 15 kali ini adalah pertama dan terakhir kalinya Yamashita Mizuki berpartisipasi disini. Yama akan mengajak sahabatnya, Ito Riria untuk berkeliling kota diawali dengan bermain trampolin bersama-sama.",
   "16" : "Episode 16 kali ini adalah Kawasaki Sakura yang ingin mengajak Tsutsui Ayame, dimana menurutnya Ayame adalah orang yang punya kesan melow, sehingga ia mengajaknya ke akuarium untuk berfoto dengan ubur-ubur disana.",
+  "17" : "Episode 17 kali ini adalah Kanagawa Saya yang ingin mengajak Tomisato Nao, yang menurutnya semakin dekat akhir-akhir ini, sehingga ingin mengajaknya kencan dimulai dari mengajaknya ke kafe anjing, pijat refleksi dan dinner di restoran mewah.",
+  // "18" : "",
   };
 
 
@@ -68,6 +70,8 @@ const descOnAirDate = {
   "14" : "12 April 2024",
   "15" : "2 Mei 2024",
   "16" : "29 Juni 2024",
+  "17" : "25 Oktober 2024",
+  // "18" : "29 November 2024",
   };
 
 
@@ -92,6 +96,8 @@ const memberParticipate = {
   "14" : "中西アルノ、向井葉月",
   "15" : "山下美月、伊藤理々杏",
   "16" : "川﨑桜、筒井あやめ",
+  "17" : "金川紗耶、冨里奈央",
+  // "18" : "梅澤美波、松尾美佑",
   };
 
 
@@ -191,6 +197,8 @@ const linkHardsub = {
   "14" : "https://sfl.gl/zhSy9dHY",
   "15" : "https://sfl.gl/CrqKLL",
   "16" : "https://sfl.gl/h6voRD",
+  "17" : "https://sfl.gl/jN4eU",
+  // "18" : "",
   };
 
 // =======================

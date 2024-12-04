@@ -90,6 +90,9 @@ body {
     overflow: visible;
     background: rgba(var(--color-main-dark1),0.6);
     border: 5pt solid rgb(var(--color-main-light));
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7.6px);
+	-webkit-backdrop-filter: blur(7.6px);
 }
 
 .button-container {
@@ -132,6 +135,8 @@ body {
 	transform: scale(95%);
 }
 
+
+
 .button-text {
     text-align: left;
     margin: 0;
@@ -156,6 +161,8 @@ body {
 	transform: scale(110%);
     left: 10%;
 }
+
+
 .pengumuman {
     margin: 0 auto;
     width: 70%;
