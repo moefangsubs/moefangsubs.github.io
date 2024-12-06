@@ -870,8 +870,9 @@ const snsData = {
 	terada_ranze: {
 		namejp: "寺田蘭世",
 		namero: "Terada Ranze",
-		insta: "https://www.instagram.com/terada.ranze.official",
-		web: "",
+		insta: ["https://www.instagram.com/terada.ranze.official", "https://www.instagram.com/honey.rosie.house"],
+		web: "https://honey-rosie-house.stores.jp",
+		webname: "HONEY ROSIE HOUSE",
 		youtube: "",
 		ytname: "",
 		twitter: "",
@@ -930,8 +931,9 @@ const snsData = {
 	ozono_momoko: {
 		namejp: "大園桃子",
 		namero: "Ozono Momoko",
-		insta: "",
-		web: "",
+		insta: ["https://www.instagram.com/o.momoko_official", "https://www.instagram.com/philme_official"],
+		web: "https://philme.official.ec/",
+		webname: "philme",
 		youtube: "https://www.youtube.com/channel/UCibf_MVPbqh9RzsTytBseqA",
 		ytname: "ももちゅーぶ",
 		twitter: "",
