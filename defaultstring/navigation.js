@@ -35,7 +35,8 @@ document.write(`
     <li class="navdropdown">
       <a href="#">MV</a>
       <div class="navsubmenu">
-        <a href="../pages/mv-hardsubs.html">Sakamichi</a>
+        <a href="../pages/mv-hardsubs.html">Nogizaka46</a>
+        <a href="../pages/mv-hardsubs-48-46.html">48G & Sakamichi</a>
         <a href="../pages/mv-hardsubs-bokuao.html">BokuAo</a>
       </div>
     </li>
@@ -70,7 +71,8 @@ document.write(`
     <li class="dropdown">
       <a href="#" onclick="toggleDropdown(event)">MV Subs</a>
       <div class="submenu">
-        <a href="../pages/mv-hardsubs.html">Sakamichi</a>
+        <a href="../pages/mv-hardsubs.html">Nogizaka46</a>
+        <a href="../pages/mv-hardsubs-48-46.html">48G & Sakamichi</a>
         <a href="../pages/mv-hardsubs-bokuao.html">BokuAo</a>
       </div>
     </li>

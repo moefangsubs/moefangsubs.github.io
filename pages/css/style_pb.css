@@ -1,0 +1,477 @@
+* {
+	transition: all 0.2s ease-in-out;
+}
+body {
+	background-color: #1a1a2e;
+	color: #e6e6fa;
+	margin: 0 auto;
+	padding-bottom: 100pt;
+	/* padding: 0; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	height: auto !important;
+	animation: all 0.5s ease-in-out;
+}
+
+body::before {
+ 	background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/kakki-massara.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+@media screen and (max-width: 1280px) {
+body {
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+/* Font untuk romaji/alfabet */
+#idn {
+    font-family: 'Funnel Display', serif;
+}
+
+/* Font untuk karakter Jepang */
+#jpn {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.titlehead {
+    margin-top: 110px;
+}
+
+#headtitle {
+    font-size: 32pt;
+    font-weight: bold;
+    padding-top: 10pt;
+    padding-bottom: 20pt;
+    text-align: center;
+}
+
+.desc {
+	width: 80%;
+	font-size:14pt;
+	text-align: justify;
+}
+
+/* ==================== */
+/* ===== SWITCH ======= */
+/* ==================== */
+
+.switch {
+    position: fixed;
+    display: inline-block;
+    margin: 0 5px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+}
+
+.switch > span {
+  position: absolute;
+  top: 14px;
+  pointer-events: none;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 50%;
+  text-align: center;
+}
+
+input.check-toggle-round-flat:checked ~ .off {
+  color: #d32f2f; /* Red for JP */
+}
+
+input.check-toggle-round-flat:checked ~ .on {
+  color: #fff;
+}
+
+.switch > span.on {
+    left: 0px;
+    padding-left: 3px;
+    color: #d32f2f;
+    top: 10px;
+}
+
+.switch > span.off {
+	right: 0;
+	padding-right: 4px;
+	color: white;
+	top: 10px;
+}
+
+.check-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+.check-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.check-toggle-round-flat + label {
+	padding: 2px;
+	width: 75px;
+	height: 35px;
+	border-radius: 60px;
+	background: radial-gradient(circle, rgba(255,16,16,1) 0%, rgba(255,16,16,1) 48%, rgba(245,247,255,1) 53%, rgba(255,255,255,1) 100%);;
+}
+
+input.check-toggle-round-flat:checked + label {
+    background: linear-gradient(180deg, rgba(255,16,16,1) 0%, rgba(255,16,16,1) 48%, rgba(245,247,255,1) 53%, rgba(255,255,255,1) 100%);
+}
+
+input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+
+input.check-toggle-round-flat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  border-radius: 60px;
+}
+
+input.check-toggle-round-flat + label:after {
+    top: 4px;
+    left: 4px;
+    bottom: 4px;
+    width: 33px;
+    background-color: #fff;
+    border-radius: 52px;
+    transition: margin 0.2s;
+    border: 2px solid red;
+    filter: blur(1px);
+}
+
+input.check-toggle-round-flat:checked + label:after {
+    margin-left: 31px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+/* ==================== */
+
+.photobook-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photobook {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+	border-radius: 15pt;
+	margin: 10pt 0pt;
+}
+
+/* ==================== */
+/* ===== IMAGES ======= */
+/* ==================== */
+
+
+.imgprev {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20pt;
+}
+
+.imgprev figure {
+    gap: 5pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5pt;
+    position: relative;
+}
+
+.imgprev figure img {
+    width: 100%;
+	border-radius: 2pt;
+}
+
+.imgprev figcaption {
+	font-size: 9pt;
+	
+}
+
+.count {
+    position: absolute;
+    color: white;
+    background: #720dc494;
+	min-width: 20pt;
+	max-width: max-content;
+    height: 20pt;
+	padding: 0pt 5pt;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 15pt;
+    font-family: "Funnel Display", serif;
+    font-size: 10pt;
+    z-index: 9;
+    right: 0pt;
+    top: 5px;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+.first:before{
+	content:"初";
+}
+.second:before{
+	content:"2冊目";
+}
+/* ----------------- */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 75%;
+    justify-content: center;
+}
+
+	.pb-title {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		margin-top: 20pt;
+		width: 80%;
+	}
+		.title {
+			font-size: 36pt;
+			font-weight: bold;
+			text-decoration: underline;
+			text-underline-offset: 2pt;
+			align-items: center;
+			align-content: center;
+			text-align: center;
+		}
+
+		.member {
+			font-size: 18pt;
+			font-weight: normal;
+		}
+	
+/* ========= */
+
+.pb-desc {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border: 1px solid white; */
+	padding: 5pt;
+	margin-top: 20pt;
+}
+
+.pb-desc div {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid yellow; */
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+	padding: 5pt;
+}
+
+.pb-desc div span {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+}
+.pb-desc div span:nth-of-type(1) {
+    width: 38%;
+}
+.pb-desc div span:nth-of-type(2) {
+    width: 2%;
+}
+.pb-desc div span:nth-of-type(3) {
+    width: 60%;
+}
+
+.obicomment {
+    background: #ffffff2b;
+    width: 90% !important;
+    border-radius: 5pt;
+    display: flex;
+    padding: 10pt !important;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center !important;
+    margin: 0 auto;
+    margin: 10pt;
+    align-items: center;
+}
+
+.obicomment #idn {
+    font-family: "Times New Roman", Times, serif !important;
+}
+
+.obicomment span:nth-of-type(1) {
+    font-size: 14pt;
+	font-style: italic;
+}
+
+.obicomment span:nth-of-type(2) {
+    padding-top: 10pt;
+    font-size: 9pt;
+}
+
+/* ----------------------- */
+
+.otherversion {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 1px solid white; */
+}
+
+.otherversion figure {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid yellow; */
+	padding: 5pt;
+}
+
+.otherversion figure img{
+ width: 100%;
+}
+
+.otherversion figcaption {
+	font-size: 9pt;
+	
+}
+
+/* ----------------------- */
+
+.download {
+    border: 2pt solid white;
+    border-radius: 5pt;
+    padding: 10pt;
+    margin: 20pt 0pt;
+    text-decoration: none;
+    background: rgb(var(--color-main));
+}
+
+.download a {
+    color: white;
+}
+
+.download:hover {
+    background: white;
+}
+.download:hover a {
+    color: rgb(var(--color-main));
+}
+/* ----------------------- */
+
+@media (max-width: 700px) {
+	.photobook-container {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.photobook {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.imgprev {
+		width: 100%;
+		align-content: center;
+		align-items: center;
+	}
+	.imgprev figure img {
+		width: 70%;
+		border-radius: 2pt;
+	}
+
+	.count {
+		min-width: 30pt;
+		max-width: max-content;
+		height: 30pt;
+		font-size: 16pt;
+		right: 36pt;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.pb-title {
+		margin-top: 20pt;
+		width: 90%;
+	}
+	.title {
+		font-size: 24pt;
+	}
+
+	.member {
+		font-size: 18pt;
+	}
+
+	.otherversion {
+		width: 100%;
+	}
+
+	.otherversion figure {
+		width: 45%;
+	}
+
+	.otherversion figure img{
+	 width: 100%;
+	}
+
+
+}

@@ -21,7 +21,7 @@ body::before {
 
 .slider-container {
 	position: relative;
-	width: 90%;
+	width: 100%;
 	/* max-height: 300px; */
 	overflow: hidden;
 	margin: auto;
@@ -61,7 +61,7 @@ transition: transform 0.5s ease-in-out;
 }
 
 .prev-btn:hover, .next-btn:hover {
-	color : #9a19ff;
+	color : rgb(var(--color-main-light));
 }
 
 .prev-btn {left: 10px;}
@@ -74,13 +74,16 @@ transition: transform 0.5s ease-in-out;
 /* ------------------------------- */
 
 .pvtitle {
-	color : #9a19ff;
-	font-size:25pt;
+	color : white;
+	font-size:32pt;
+	/* font-size:25pt; */
 	font-weight: bold;
    }
    
 .pvnum {
-    font-size: 12pt;
+	color : rgb(var(--color-main-light));
+    /* font-size: 12pt; */
+    font-size: 24pt;
     text-align: center;
 	padding-bottom:20pt;
 } 
@@ -97,7 +100,7 @@ transition: transform 0.5s ease-in-out;
 
 .pvcontainer {
     display: flex;
-    width: 80%;
+    width: 95%;
     padding: 10pt;
     margin: 0 auto;
     /* background: #7fffd43d; */
@@ -192,7 +195,7 @@ transition: transform 0.5s ease-in-out;
 
 /* ------- tipe ------- */
 
-.pvtypex:before, .pvtypea:before, .pvtypeb:before, .pvtypec:before, .pvtyped:before {
+.pvtypex:before, .pvtypea:before, .pvtypeb:before, .pvtypec:before, .pvtyped:before, .pvtypereg:before, .pvtype711:before {
     border-radius: 2pt;
     background: #9a19ff;
     padding: 3pt;
@@ -200,7 +203,7 @@ transition: transform 0.5s ease-in-out;
     margin-top: 5pt;
 }
 
-.pvtypex, .pvtypea, .pvtypeb, .pvtypec, .pvtyped {
+.pvtypex, .pvtypea, .pvtypeb, .pvtypec, .pvtyped, .pvtypereg, .pvtype711 {
 }
 
 .pvtypex:before { content: '全'; }
@@ -208,14 +211,16 @@ transition: transform 0.5s ease-in-out;
 .pvtypeb:before { content: 'B'; }
 .pvtypec:before { content: 'C'; }
 .pvtyped:before { content: 'D'; }
+.pvtypereg:before { content: '通常盤'; }
+.pvtype711:before { content: '7-11'; }
 
 /* ------- member unit ------- */
 
 .pvclick span {
-    font-size: 9pt;
+    font-size: 12pt;
     display: block;
     margin-top: 2pt;
-    margin-left: 9pt;
+    margin-left: -3pt;
     padding: 3pt;
     color: #b3b3b3;
     mix-blend-mode: difference;
@@ -234,7 +239,7 @@ transition: transform 0.5s ease-in-out;
 }
 
 .pvid  {
-    background: #440079ad;
+    background: rgb(var(--color-main),0.5);
     border: 0px;
     border-radius: 5pt;
     color: white;
@@ -244,8 +249,8 @@ transition: transform 0.5s ease-in-out;
 	width:auto;
 }
 .pvid:hover {
-    background: #dbbdf1;
-    color: #440079;
+    background: rgb(var(--color-main-light));
+    color: rgb(var(--color-main-dark));
 }
 
 
