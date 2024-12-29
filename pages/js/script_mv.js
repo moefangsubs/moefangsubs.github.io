@@ -24,7 +24,7 @@ const slidesData = [
 		type: "b"
       },
       {
-        href: "https://drive.google.com/file/d/1BKDNtyvR26IHrfmgdMAEFPEaLwv1v",
+        href: "https://drive.google.com/file/d/1BKDNtyvR26IHrfmgdMAEFPEaLwv1v-RT",
 		text: "Ushinaitakunai kara",
 		span: "選抜 永島 中元 畠中 深川",
 		type: "c"
