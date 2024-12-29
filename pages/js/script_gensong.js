@@ -311,7 +311,7 @@ function updateDisplay() {
   ul.classList.add("trivia");
 
   let hasTrivia = false;
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 20; i++) {
     const triviaKey = `trivia${i}`;
     if (currentSong[triviaKey] && currentSong[triviaKey].trim() !== "") {
       hasTrivia = true;

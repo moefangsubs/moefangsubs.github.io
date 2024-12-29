@@ -280,7 +280,7 @@ const snsData = {
 	okamoto_hina: {
 		namejp: "岡本姫奈",
 		namero: "Okamoto Hina",
-		insta: "",
+		insta: "https://www.instagram.com/okamotohina_official",
 		web: "",
 		youtube: "",
 		ytname: "",
