@@ -105,7 +105,7 @@ const snsData = {
 		youtube: "",
 		ytname: "",
 		twitter: "",
-		twittpb: ["https://x.com/gentosha_yoda", "https://x.com/yodayuuki_oimo"],
+		twittpb: ["https://x.com/gentosha_yoda", "https://x.com/yodayuuki_3rd"],
 		tiktok: "",
 		weibo: ""
 	},
