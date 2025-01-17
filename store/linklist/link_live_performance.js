@@ -62,6 +62,7 @@ const descEpisodeSynopsis = {
 	"56" : "Pada 27 November, member under group Nogizaka46 mengadakan konser final ‘34th SG Under Live’ di Pia Arena MM, Kanagawa, dengan 30.000 penggemar yang hadir selama tiga hari dan penayangan daring di hari terakhir. Konser ini menampilkan lagu-lagu dari single terbaru \"Monopoly,\" termasuk penampilan dari 14 member under, seperti Nakanishi Aruno yang memimpin dengan semangat, memulai lagu pembuka “Machine Gun Rain” dalam kostum merah yang mencolok. Di konser ini, member menampilkan lagu-lagu penuh energi, diiringi tarian, drum session, serta panggung bertema yang berbeda dari konser biasa. Aruno mengungkapkan harapannya untuk menjadikan under live ini “terbaik” dan menutup konser dengan lagu \"Omoide ga Tomaranakunaru\" penuh senyum ceria setelah lagu sebelumnya “Actually...” yang lebih serius. Dalam encore yang hangat, para member tampil dekat dengan penonton, dan fans memberikan dukungan luar biasa dengan nyanyian bersama “Nogizaka no Uta.” Konser berakhir emosional ketika Aruno dan member lain, berpegangan tangan, mengucapkan terima kasih kepada penggemar dalam suara mereka sendiri tanpa mikrofon, menandai penutupan tiga hari konser dengan penuh kesan.",
 	"57" : "Pada 9 Juni, konser akhir '35th SG Under Live' dari Nogizaka46 digelar di Ariake Arena, menampilkan lagu-lagu dari single ke-35 “Chance wa Byoudou”. Untuk pertama kalinya, konser ini hanya diikuti oleh member generasi ke-4 dan ke-5. Selama tiga hari, para member memukau penonton dengan tarian, nyanyian, dan interaksi penuh semangat. Pada hari terakhir, Tsutsui Ayame, sang pemimpin, menyampaikan tekad kuatnya untuk mempertahankan semangat tim dan menginspirasi perubahan. Konser diisi berbagai unit performance dan kegiatan menarik yang melibatkan permainan fisik, memperlihatkan sisi unik setiap member. Ayame menyatakan mimpinya untuk menjadi “agen perubahan” di Nogizaka46, dan menutup acara dengan lagu \"Shadougawa\", penuh emosi dan semangat. Penampilan encore termasuk \"Jumping Joker Flash\", sementara keseluruhan konser menunjukkan tekad mereka untuk meneruskan warisan para senior sambil meraih masa depan yang lebih besar di bawah bendera Nogizaka46.",
 	"58" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-36 \"Cheat Day\" ini dengan Mini live secara streaming. Sebuah single tema musim panas dengan front gen-5, Ogawa Aya yang langsung berada di front dan Ikeda Teresa, menemani sang center Inoue Nagi, yang kembali terpilih untuk kedua kalinya memimpin single bertemakan musim panas.",
+	"59" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-37 \"Hodoukyou\" ini dengan Mini live secara streaming. Sebuah single tema musim dingin dengan center Endo Sakura, yang kembali terpilih untuk keempat kalinya.",
 };
 
 // =======================
@@ -128,6 +129,7 @@ const nameShow = {
 	"56" : "乃木坂46 34th SG アンダーライブ",
 	"57" : "乃木坂46 35th SG アンダーライブ",
 	"58" : "乃木坂46 36thシングル「チートデイ」発売記念ミニライブ",
+	"59" : "乃木坂46 37thシングル「歩道橋」発売記念ミニライブ",
 };
 console.log(nameShow);
 
@@ -195,6 +197,7 @@ const descEpisode = {
 	"56" : "| Nogizaka46 34th SG Underlive",
 	"57" : "| Nogizaka46 35th SG Underlive",
 	"58" : "| Nogizaka46 Mini Live 36th Single \"Cheat Day\"",
+	"59" : "| Nogizaka46 Mini Live 37th Single \"Hodoukyou\"",
 };
 console.log(descEpisode);
 
@@ -261,6 +264,7 @@ const descOnAirDate = {
 	"56" : "27 Januari 2024",
 	"57" : "9 Juni 2024",
 	"58" : "23 November 2024",
+	"59" : "11 Januari 2025",
 };
 console.log(descOnAirDate);
 
@@ -328,6 +332,7 @@ const memberParticipate = {
 	"56" : "乃木坂46 ",
 	"57" : "乃木坂46 ",
 	"58" : "乃木坂46 ",
+	"59" : "乃木坂46 ",
 };
 console.log(memberParticipate);
 
@@ -396,6 +401,7 @@ const imageThumbBig = {
 	"56" : "https://ik.imagekit.io/mLsKqNSuB/post/live/34thunderlive.jpg",
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36.jpg",
+	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37.jpg",
 };
 console.log(imageThumbBig);
 
@@ -463,6 +469,7 @@ const imageThumbA = {
 	"56" : "https://ik.imagekit.io/mLsKqNSuB/post/live/34thunderlive-a.jpg",
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-a.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36a.jpg",
+	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37a.jpg",
 };
 console.log(imageThumbA);
 
@@ -529,6 +536,7 @@ const imageThumbB = {
 	"56" : "https://ik.imagekit.io/mLsKqNSuB/post/live/34thunderlive-b.jpg",
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-b.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36b.jpg",
+	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37b.jpg",
 };
 console.log(imageThumbB);
 
@@ -595,6 +603,7 @@ const imageThumbC = {
 	"56" : "https://ik.imagekit.io/mLsKqNSuB/post/live/34thunderlive-c.jpg",
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-c.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36c.jpg",
+	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37c.jpg",
 };
 console.log(imageThumbC);
 
@@ -667,6 +676,7 @@ const imageThumbD = {
 	"56" : "https://ik.imagekit.io/mLsKqNSuB/post/live/34thunderlive-d.jpg",
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-d.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36d.jpg",
+	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37d.jpg",
 };
 console.log(imageThumbD);
 
@@ -734,6 +744,7 @@ const linkHardsub = {
 	"56" : "",
 	"57" : "",
 	"58" : "https://sfl.gl/dxNibg",
+	"59" : "https://sfl.gl/TaHR8tuF",
 };
 console.log(linkHardsub);
 
@@ -801,6 +812,7 @@ const linkTrakteer = {
 	"56" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-34th-sg-underlive-S4tM5",
 	"57" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-35th-sg-underlive-A8xgQ",
 	"58" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-36th-single-cheat-day-jXHba",
+	"59" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-37th-single-hodoukyou-Q8S8Y",
 };
 console.log(linkTrakteer);
 
@@ -868,6 +880,7 @@ const filePassword = {
 	"56" : "(tidak ada password)",
 	"57" : "(tidak ada password)",
 	"58" : "(tidak ada password)",
+	"59" : "(tidak ada password)",
 };
 console.log(filePassword);
 

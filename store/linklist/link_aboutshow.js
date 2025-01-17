@@ -59,6 +59,7 @@ const acaraData = {
 	single34zenkoku: "Single ke-34 \"Monopoly\" yang dirilis pada 6 Desember 2023 ini hanya merilis pilihan lagu-lagu dari Manatsu no Zenkoku Tour 2023 di Okinawa.",
 	single35: "Single ke-35 \"Chance wa Byoudou\" yang dirilis pada 10 April 2024 ini merilis menyertakan rekaman video live \"Shinsanmono LIVE at THEATER MILANO-Za\" baik yang offline maupun yang pernah di-streaming pada saat itu. Bonus video ini mencakup penampilan sebagian lagu yang dipentaskan bersama dengan rekaman penampilan dari semua 11 member \"Ohitorisama Tengoku Project\" yang menampilkan member yang berbeda dalam setiap pertunjukan.",
 	single36: "Single ke-36 \"Cheat Day\" yang dirilis pada 21 Agustus 2024 merilis 35th Single Under Live beserta interview pada member Under yang pertama kalinya hanya ada gen-4 dan gen-5 saja.",
+	single37: "Single ke-37 \"Hodoukyou\" yang dirilis pada 11 Agustus	2024 merilis video perjalanan mereka saat konser di Hong Kong pada beberapa waktu yang lalu. Dimulai dari keberangkatan, berbagai penampilan, latihan para member untuk ingin menyapa fansnya dengan bahasa Kanton, dan berbagai cerita lainnya.",
 	timeflies: "Dalam koleksi ini dirilis juga 'Nogizaka46 10th Anniversary Documentary Movie \"10nen no Ayumi\"', sebuah video berdurasi panjang yang berisi perjalanan sejarah Nogizaka46 dari awal dibentuk hingga saat Best Album ini dirilis.",
 	hinatasingle2: "Dalam single ke-2 'Doremisolasido', para member Hinatazaka46 mencoba berbagai hal untuk pertama kalinya. Terdapat 6 judul dan masing-masing member berkelompok.",
 	// // ------------
@@ -97,6 +98,7 @@ const acaraData = {
 	shiosuketoamami: "Kubo Shiori  membintangi serial original Paravi \"Shiosuke to Amami -Soba ga Dekiru Made Tante-\", sebuah spin-off dari drama TBS \"Ishiko to Haneo: Sonna Koto de Uttaemasu?\" dengan memerankan karakter bernama Amatsuyu Kayami, dan yang menjadi lawan lainnya adalah Shiozaki Keisuke (Oda Oideyasu)",
 	shotenintantei: "Sebuah lanjutan dari karya sebelumnya \"Hikkoshi Tantei Sakura\". Kisah ini menampilkan Tendo Sakura yang bekerja di toko buku dan terlibat dalam sebuah insiden di tur misteri penulis idolanya, di mana ia kembali terjun untuk memecahkan misteri tersebut.",
 	deathgame: "Seorang penulis skenario yang dikucilkan dari industri TV beralih menjadi 'penulis game maut' dalam drama balas dendam, menggunakan kreativitas dan sifat kejamnya untuk membalas dendam dengan mengatur permainan maut yang mematikan.",
+	miren: "Kosaka Kento, seorang editor majalah manga Comic Boon, diam-diam menjalin hubungan dengan Fukada Yuzu, seorang mangaka idola populer. Di tempat kerja, mereka berpura-pura hanya memiliki hubungan profesional sebagai editor dan penulis. Namun, hubungan mereka terguncang ketika Suzuki Minami, rekan lamanya, muncul sebagai karyawan baru.",
 	nogifettucine: "Nogizaka46 x Fettucine Gummi merupakan short drama kolaborasi antara Nogizaka46 dengan produk manisan Fettucine Gummi. Di short drama ini memperkenalkan juga coupling di single ke-25 \"Sayonara, stay with me\"",
 	// ------------
 	// // ------------

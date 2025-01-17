@@ -12,6 +12,7 @@ const descEpisodeSynopsis = {
 "05" : "Di episode 5 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Kaki Haruka & Sugawara Satsuki yang dipilih dengan sebutan kombinasi 'sering diandalkan oleh teman seangkatan'.",
 "06" : "Di episode 6 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Hayashi Runa & Ichinose Miku yang dipilih dengan sebutan kombinasi 'Duo yang Mudah Dibentuk'.",
 "07" : "Di episode 7 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Kanagawa Saya & Kawasaki Sakura yang dipilih dengan sebutan kombinasi 'teman sebangku' karena namanya berada saling bersebelahan.",
+"08" : "Di episode 8 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Tsutsui Ayame dengan Ioki Mao. Meskipun hampir tidak pernah melihat keduanya bersama, namun mereka terpilih karena ada kesamaan yaitu sama-sama orang yang bahkan berani pergi sendiri.",
 };
 console.log(descEpisodeSynopsis);
 
@@ -38,6 +39,7 @@ const descEpisode = {
 "05" : "| Vol.5 (Kaki Haruka & Sugawara Satsuki)",
 "06" : "| Vol.6 (Hayashi Runa & Ichinose Miku)",
 "07" : "| Vol.7 (Kanagawa Saya & Kawasaki Sakura)",
+"08" : "| Vol.8 (Tsutsui Ayame & Ioki Mao)",
 };
 console.log(descEpisode);
 
@@ -55,6 +57,7 @@ const descOnAirDate = {
 "05" : "5 September 2024",
 "06" : "3 Oktober 2024",
 "07" : "7 November 2024",
+"08" : "6 Desember 2024",
   };
 console.log(descOnAirDate);
 
@@ -72,6 +75,7 @@ const memberParticipate = {
 "05" : "賀喜遥香、菅原咲月",
 "06" : "林瑠奈、一ノ瀬美空",
 "07" : "金川紗耶、川﨑桜",
+"08" : "筒井あやめ、五百城茉央",
   };
 console.log(memberParticipate);
 
@@ -145,6 +149,7 @@ const linkHardsub = {
 "05" : "https://sfl.gl/aHuovi",
 "06" : "https://sfl.gl/iD4jeR",
 "07" : "https://sfl.gl/db0T",
+"08" : "https://sfl.gl/kOBPJ",
   };
 console.log(linkHardsub);
 

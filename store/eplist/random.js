@@ -1,7 +1,8 @@
 document.write(`
 <div class="scroll-container">
 <div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="48"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241109_haishinchuuhodoukyou.jpg"><div class="epsname">241109</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="49"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/250102_hodoukyou_bts.jpg"><div class="epsname">250102</div><span class="epsbadgeNew"></span></div>
+<div class="episodelist buttonEpsList" data-episode="48"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241109_haishinchuuhodoukyou.jpg"><div class="epsname">241109</div></div>
 <div class="episodelist buttonEpsList" data-episode="47"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241102_anothersky_asuka.jpg"><div class="epsname">241102</div></div>
 <div class="episodelist buttonEpsList" data-episode="46"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240721_sumahoganai.jpg"><div class="epsname">240721</div></div>
 <div class="episodelist buttonEpsList" data-episode="45"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240103_waraidane.jpg"><div class="epsname">240103</div></div>

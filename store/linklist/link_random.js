@@ -52,6 +52,7 @@ const descEpisodeSynopsis = {
 "46" : "Dengan Yumiki Nao dan Ioki Mao, bisakah dua member Nogizaka46 ini mencapai tempat baru tanpa smartphone? Mereka akan melakukan semacam perjalanan waktu ke era Showa dan Heisei, ketika belum ada smartphone! Penyelidikan mendalam tentang apa yang dilakukan generasi Showa ketika belum ada smartphone, termasuk 'hubungan jarak jauh' dan 'membeli tiket'. Saksikan perjalanan unik mereka dengan kesimpulan mengejutkan yang tidak terduga...",
 "47" : "Tamu pada 2 November adalah Saito Asuka, aktor dan model yang sebelumnya aktif sebagai member Nogizaka46 dan lulus dari grup pada konser Mei tahun lalu. Berkunjung ke Osaka, ia mengenang masa lalunya, dari debut pada usia 13 hingga pengalaman yang penuh warna sebagai idola. Saat itu, ia sangat termotivasi oleh kerja keras para member dan tak punya keinginan lain selain menjadi bagian dari Nogizaka46, sehingga sempat mempertimbangkan pensiun saat lulus. Namun, dorongan ibunya membuatnya melanjutkan karier di dunia hiburan. Baginya, Osaka adalah tempat yang memungkinkan dirinya tampil apa adanya, bertemu orang-orang yang tulus dengan canda yang penuh kasih. Ia merasa penting untuk hidup dengan cinta dalam setiap interaksi, dan Osaka menginspirasinya menjadi pribadi yang lebih penuh kasih.",
 "48" : "Ini adalah penampilan pertama dari single terbaru Nogizaka46 yang ke-37 berjudul \"Hodoukyou\". Center-nya untuk kali ini adalah dari gen-4, Endo Sakura, yang juga formasi senbatsunya diumumkan di waktu yang sama. Bagi yang ingin menyaksikannya, silakan.",
+"49" : "Sebuah video singkat dari Nogi Douga yang akan memperlihatkan dibalik layar pembuatan MV \"Hodoukyou\" sekaligus saat penayangan pertama di Nogizaka Haishinchuu.",
 };
 console.log(descEpisodeSynopsis);
 
@@ -108,6 +109,7 @@ const nameShow = {
 "46" : "スマホがない時、どうしていたの",
 "47" : "アナザースカイ 齋藤飛鳥",
 "48" : "乃木坂配信中",
+"49" : "のぎ動画 歩道橋 メイキング付きSpecial Edition",
 };
 console.log(nameShow);
 
@@ -164,6 +166,7 @@ const descEpisode = {
 "46" : "| 240721 Sumaho ga Nai Toki Dou Shiteita no?",
 "47" : "| 241102 Another Sky",
 "48" : "| 241109 Nogizaka Haishinchuu - Nogizaka46 \"Hodoukyou\" Senbatsu Formation Announcement & First Performance",
+"49" : "| 250102 Nogi Douga - \"Hodoukyou\" Making of"
 };
 console.log(descEpisode);
 
@@ -221,6 +224,7 @@ const descOnAirDate = {
 "46" : "21 Juli 2024",
 "47" : "2 November 2024",
 "48" : "9 November 2024",
+"49" : "2 Januari 2025",
   };
 console.log(descOnAirDate);
 
@@ -278,6 +282,7 @@ const memberParticipate = {
 "46" : "弓木奈於、五百城茉央",
 "47" : "齋藤飛鳥",
 "48" : "乃木坂46",
+"49" : "乃木坂46",
   };
 console.log(memberParticipate);
 
@@ -335,6 +340,7 @@ const imageThumbBig = {
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky00.jpg",
 "48" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241109-ngzhaishinchuu-37hodoukyou.jpg",
+"49" : "https://ik.imagekit.io/mLsKqNSuB/post/random/250102-hodoukyou-bts.jpg",
   };
 console.log(imageThumbBig);
 
@@ -392,6 +398,7 @@ const imageThumbA = {
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-a.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky01.jpg",
 "48" : "doc/blank.png",
+"49" : "https://ik.imagekit.io/mLsKqNSuB/post/random/250102-hodoukyou-bts-a.jpg",
   };
 console.log(imageThumbA);
 
@@ -448,6 +455,7 @@ const imageThumbB = {
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-b.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky02.jpg",
 "48" : "doc/blank.png",
+"49" : "https://ik.imagekit.io/mLsKqNSuB/post/random/250102-hodoukyou-bts-b.jpg",
   };
 console.log(imageThumbB);
 
@@ -504,6 +512,7 @@ const imageThumbC = {
 "46" : "https://ik.imagekit.io/mLsKqNSuB/post/random/240721-sumahoganai-c.jpg",
 "47" : "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky03.jpg",
 "48" : "doc/blank.png",
+"49" : "https://ik.imagekit.io/mLsKqNSuB/post/random/250102-hodoukyou-bts-c.jpg",
   };
 console.log(imageThumbC);
 
@@ -566,6 +575,7 @@ const linkHardsub = {
 "46" : "https://sfl.gl/ug6A3",
 "47" : "https://sfl.gl/a7IqyMZ",
 "48" : "https://drive.google.com/file/d/1OLRlj1yRjjsvN6Z5wM9zytyFyApUAzPA/view?usp=sharing",
+"49" : "https://sfl.gl/cHtgaWxN",
   };
 console.log(linkHardsub);
 
@@ -622,6 +632,7 @@ const linkTrakteer = {
 "46" : "https://trakteer.id/moefangsubs/showcase/240721-sumaho-ga-nai-toki-dou-shiteita-no-yumiki-nao-ioki-mao-jgX9u",
 "47" : "https://trakteer.id/moefangsubs/showcase/241102-another-sky-saito-asuka-sConv",
 "48" : "",
+"49" : "https://trakteer.id/moefangsubs/showcase/behind-the-scene-hodoukyou-ipeiM",
   };
 console.log(linkTrakteer);
 
@@ -679,6 +690,7 @@ const filePassword = {
 "46" : "",
 "47" : "",
 "48" : "",
+"49" : "",
   };
 console.log(filePassword);
 

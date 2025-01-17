@@ -71,6 +71,10 @@ const descEpisodeSynopsis = {
 	"65": "Episode 65 kali ini kedatangan seiyuu terkenal, Sakura Ayane, yang ternyata sudah menyukai Nogizaka46 sejak 2013, yang kini memilih oshi-nya Inoue Nagi. Bahkan Nagi pun pernah diundang oleh Ayane-san ke rumahnya untuk bermain.",
 	"66": "Untuk pertama kalinya, acara ini mengundang artis dari luar negeri, Che'Nele, artis keturunan Malaysia-Australia. Di akhir pun akan ada penampilan Cafe au lait yang akan membawakan lagu sambil menggunakan gitar listrik setelah sekian lama.",
 	"67": "Episode 67 ini kedatangan tamu Oishi Masayoshi, yang nanti akan tampil membawakan sebuah lagu anime yang menjadi debutnya bersama Kawasaki Sakura.",
+	"68": "Episode 68 ini bertemakan lagu-lagu musim dingin. Guest-nya adalah Wagakki Band, sebuah band unik yang menggabungkan alat musik modern dengan alat musik Jepang.",
+	"69": "Episode 69 kali ini kembali mengajak guest DJ KOO, dan kawannya SAM. Kuisnya di Nagomase Star Tanjou, para member akan diberi pertanyaan, KOO-san disebut apakah oleh Yumiki Nao, member yang terkenal dekat dengan DJ KOO.",
+	"70": "Episode 70 kembali bertemakan lagu musim dingin. Bintang tamunya adalah dari s**t kingz, yang mana akan ada segmen untuk mencoba menari dan para member menebak gerakan tarian itu.",
+	"71": "Penutup di tahun 2024 ini adalah episode lagu-lagu Natal. Akan ada permainan menebak kata sesuai tema, sambil estafet balon yang semakin lama semakin membesar.",
 	};
 
 
@@ -170,6 +174,10 @@ const descOnAirDate = {
 	"65": "11 November 2024",
 	"66": "18 November 2024",
 	"67": "25 November 2024",
+	"68": "2 Desember 2024",
+	"69": "9 Desember 2024",
+	"70": "16 Desember 2024",
+	"71": "23 Desember 2024",
 };
 
 // =======================
@@ -244,6 +252,10 @@ const descSong1 = {
 	"65": "JUDY AND MARY「散歩道	」",
 	"66": "ロードオブメジャー「大切なもの」",
 	"67": "米津玄師「Lemon」",
+	"68": "T.M.Revolution「WHITE BREATH」",
+	"69": "Official髭男dism「イエスタデイ」",
+	"70": "SHISHAMO「君とゲレンデ」",
+	"71": "E-girls「Merry Merry Xmas」",
 };
 
 // =======================
@@ -318,6 +330,10 @@ const descSong2 = {
 	"65": "RUI「月のしずく」",
 	"66": "菅田将暉「まちがいさがし」",
 	"67": "オーイシマサヨシ「君じゃなきゃダメみたい」",
+	"68": "globe「DEPARTURES」",
+	"69": "TRF「EZ DO DANCE」",
+	"70": "s**t kingz「MORECHAU」",
+	"71": "DREAMS COME TRUE「雪のクリスマス」",
 };
 
 
@@ -393,6 +409,10 @@ const descSong3 = {
 	"65": "May'n／中島愛「ライオン」",
 	"66": "シェネル「ビリーヴ」",
 	"67": "miwa「ヒカリへ」",
+	"68": "黒うさP 「千本桜（Re-Recording）」",
+	"69": "マカロニえんぴつ 「恋人ごっこ」",
+	"70": "青山テルマ 「そばにいるね」",
+	"71": "UNICORN 「雪が降る町」",
 };
 
 
@@ -468,6 +488,10 @@ const descSkits = {
 	"65": "",
 	"66": "",
 	"67": "",
+	"68": "",
+	"69": "",
+	"70": "",
+	"71": "",
 };
 
 
@@ -524,6 +548,10 @@ const additionalGuests = {
 	"65": "佐倉綾音",
 	"66": "シェネル",
 	"67": "オーイシマサヨシ",
+	"68": "鈴華ゆう子・町屋（和楽器バンド）",
+	"69": "SAM・DJ KOO",
+	"70": "shoji・kazuki（s**t kingz）",
+	"71": "-",
 };
 
 const guestArtis = {};
@@ -544,33 +572,37 @@ console.log(guestArtis);
 // =======================
 
 const additionalSenpai = {
-  "41": "久保史緒里",
-  "42": "伊藤理々杏",
-  "43": "弓木奈於",
-  "44": "柴田柚菜",
-  "45": "清宮レイ",
-  "46": "岩本蓮加",
-  "47": "吉田綾乃ｸﾘｽﾃｨｰ",
-  "48": "黒見明香",
-  "49": "遠藤さくら",
-  "50": "林瑠奈",
-  "51": "松尾美佑",
-  "52": "-",
-  "53": "中村麗乃ˢ",
-  "54": "-",
-  "55": "-",
-  "56": "佐藤璃果",
-  "57": "賀喜遥香",
-  "58": "-",
-  "59": "-",
-  "60": "-",
-  "61": "-",
-  "62": "-",
-  "63": "-",
-  "64": "-",
-  "65": "-",
-  "66": "-",
-  "67": "-",
+	"41": "久保史緒里",
+	"42": "伊藤理々杏",
+	"43": "弓木奈於",
+	"44": "柴田柚菜",
+	"45": "清宮レイ",
+	"46": "岩本蓮加",
+	"47": "吉田綾乃ｸﾘｽﾃｨｰ",
+	"48": "黒見明香",
+	"49": "遠藤さくら",
+	"50": "林瑠奈",
+	"51": "松尾美佑",
+	"52": "-",
+	"53": "中村麗乃ˢ",
+	"54": "-",
+	"55": "-",
+	"56": "佐藤璃果",
+	"57": "賀喜遥香",
+	"58": "-",
+	"59": "-",
+	"60": "-",
+	"61": "-",
+	"62": "-",
+	"63": "-",
+	"64": "-",
+	"65": "-",
+	"66": "-",
+	"67": "-",
+	"68": "-",
+	"69": "-",
+	"70": "-",
+	"71": "-",
 };
 
 
@@ -723,6 +755,10 @@ const linkHardsub = {
 	"65" : "https://sfl.gl/nw29MHZ",
 	"66" : "https://sfl.gl/H1YGH",
 	"67" : "https://sfl.gl/FMPT4O",
+	"68" : "https://sfl.gl/9guAee",
+	"69" : "https://sfl.gl/ut2jE06",
+	"70" : "https://sfl.gl/eFGw",
+	"71" : "https://sfl.gl/MT68uOKy",
 };
 
 // =======================
@@ -797,6 +833,10 @@ const linkSoftsub = {
 	"65" : "https://sfl.gl/PSN4sHxv",
 	"66" : "https://sfl.gl/9IygUphm",
 	"67" : "https://sfl.gl/VEC9d",
+	"68" : "https://sfl.gl/HeLJV8pR",
+	"69" : "https://sfl.gl/Tsjt8P",
+	"70" : "https://sfl.gl/klKdpEn",
+	"71" : "https://sfl.gl/YFTTfSZ",
 };
 
 // =======================

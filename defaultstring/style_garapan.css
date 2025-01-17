@@ -50,7 +50,7 @@ body.garapan_bokuao { background-color: #013471;}
 /* body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/fuyunotabi5b.jpg');} */
 /* background-image: url('https://ik.imagekit.io/moearchive/kakkiwed50.webp'); */
 body.main_site::before {
-    background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/endosaku.jpg');
+    background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/endosaku_monologue.jpg');
     /* background-image: url('https://ik.imagekit.io/moearchive/kakki23th.webp'); */
     /* background-image: url('https://ik.imagekit.io/moearchive/dalle_saachan.jpg'); */
     /* filter: grayscale(0.4) brightness(0.8) contrast(1.4); */
@@ -111,6 +111,7 @@ body.single33::before{background-image: url('https://ik.imagekit.io/moearchive/w
 body.single34::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single34.jpg');}
 body.single35::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single35.jpg');}
 body.single36::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single36.jpg');}
+body.single37::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single37.jpg');}
 body.timeflies::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_timeflies.jpg');}
 body.hinatasingle2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/hinata_cover_single02.jpg');}
 
@@ -130,6 +131,7 @@ body.nogizakacinemas::before{background-image: url('https://ik.imagekit.io/moear
 body.shiosuketoamami::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shiosuketoamami.jpg');}
 body.shotenintantei::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shotenintantei.jpg');}
 body.deathgame::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/deathgame.jpg');}
+body.miren::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/miren.jpeg');}
 body.nogizakafettucine::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogizakafettucine.jpg');}
 
 body.yononaka::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/yononaka.jpg');}
@@ -154,7 +156,15 @@ body.utabangumi::before{background-image: url('https://ik.imagekit.io/moearchive
 
 body.random::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/random.jpg');}
 
+body.birthdaylive::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/birthdaylive.jpg');}
+body.underlive::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/underlive.jpg');}
+body.gradcon::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/gradcon.jpg');}
+body.minilive::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/minilive.jpg');}
+body.zenkokutour::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/zenkokutour.jpg');}
+body.shinzanmono::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shinzanmono.jpg');}
+body.concert::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/concert.jpg');}
 body.liveperformance::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/liveperformance.jpg');}
+
 body.nogiskitsbd1::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskitsbd1.jpg');}
 body.nogiskitsbd2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskitsbd2.jpg');}
 body.nogiskitsclub::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogiskitsclub.jpg');}

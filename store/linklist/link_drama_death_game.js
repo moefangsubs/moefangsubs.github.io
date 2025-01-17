@@ -10,10 +10,10 @@ const descEpisodeSynopsis = {
 	"04": "Setelah dijadikan kambing hitam dalam kasus kecelakaan 'Wasabi,' Tomura beralih menjadi pembuat death game untuk membalas dendam. Ia mendapatkan bukti suara yang mengungkap penyalahgunaan kekuasaannya oleh kolega lama. Tomura mulai menyasar orang-orang terkait kasus tersebut, termasuk seorang tokoh senior industri TV, sebagai target death game berikutnya.",
 	"05": "Tomura bertemu Akizawa, yang mengungkap trauma masa lalunya akibat program TV yang menghancurkan bisnis keluarganya. Akizawa dan Tomura menyadari bahwa musuh mereka adalah orang yang sama, produser yang membuat Tomura menjadi kambing hitam dalam 'Wasabi.' Mereka bersatu untuk balas dendam, sementara fakta baru terkait kecelakaan itu terungkap.",
 	"06": "Perusahaan death game tempat Tomura bekerja dihancurkan untuk mencegah kebocoran informasi. Setelah bubar, Tomura dan rekan-rekannya menjalani kehidupan baru masing-masing. Tomura merasa kesempatan untuk balas dendam telah hilang, hingga Akizawa kembali muncul membawa sesuatu yang mengejutkan.",
-	// "07": "Tomura dan rekan-rekannya memutuskan untuk bangkit kembali setelah perusahaannya dihancurkan. Dengan nama baru, Fantasia, mereka memulai ulang tanpa membuat death game langsung. Mereka menciptakan konten bertema 'kematian sosial,' menargetkan influencer yang berisiko mengalami kehancuran akibat eksposur publik.",
-	// "08": "",
-	// "09": "",
-	// "10": "",
+	"07": "Tomura dan rekan-rekannya memutuskan untuk bangkit kembali setelah perusahaannya dihancurkan. Dengan nama baru, Fantasia, mereka memulai ulang tanpa membuat death game langsung. Mereka menciptakan konten bertema 'kematian sosial,' menargetkan influencer yang berisiko mengalami kehancuran akibat eksposur publik.",
+	"08": "Tomura dan rekan-rekannya membentuk perusahaan produksi program daring bernama Fantasia, yang fokus membuat acara bergaya death game. Mereka berhasil merilis program pertamanya, yang menjadi hit besar di internet. Fantasia pun memulai proyek baru dengan menargetkan Kure, mantan produser TV yang pernah menjebak Tomura atas insiden fatal di masa lalu. Meski penuh kemarahan terhadap kesuksesan acara daring tersebut, Kure menerima undangan dari Fantasia dan terjebak dalam permainan baru yang telah direncanakan dengan cermat untuk membalas dendam.",
+	"09": "Tomura dan Akizawa memaksa Kure berpartisipasi dalam permainan mereka dan mengungkap kejahatannya ke seluruh dunia, termasuk memicu kematian ayah Akizawa dan menjebak Tomura dalam insiden wasabi. Setelah balas dendam mereka tuntas, Tomura menerima petunjuk baru dari AD Kiyoshi, yang menemukan bahwa Matsuo, mantan koleganya, mungkin telah menukar wasabi aman dengan wasabi berbahaya. Matsuo, yang kini menghilang setelah terlilit utang judi, menjadi kunci misteri yang lebih dalam dari insiden tersebut.",
+	"10": "Tomura, yang sebelumnya diusir dari dunia televisi akibat insiden wasabi, menyadari bahwa Matsuo adalah dalang sebenarnya di balik semua tragedi yang menimpanya, termasuk kebocoran informasi yang menyebabkan pembubaran Dreamia. Kini, Matsuo menculik rekan-rekan Tomura dan mengancam mengungkap rahasia mereka kecuali Tomura bersedia ikut serta dalam death game terakhirnya. Bertekad melindungi teman-temannya, Tomura menerima tantangan tersebut, memulai permainan terakhir yang penuh bahaya dan ketegangan di bawah kendali Matsuo. Apa tujuan akhir Matsuo, dan bagaimana nasib Tomura?",
 
 };
 
@@ -41,10 +41,10 @@ const descEpisode = {
 "04" : "| Episode 4",
 "05" : "| Episode 5",
 "06" : "| Episode 6",
-// "07" : "| Episode 7",
-// "08" : "| Episode 8",
-// "09" : "| Episode 9",
-// "10" : "| Episode 10 [TAMAT]",
+"07" : "| Episode 7",
+"08" : "| Episode 8",
+"09" : "| Episode 9",
+"10" : "| Episode 10 [TAMAT]",
   };
 console.log(descEpisode);
 
@@ -60,10 +60,10 @@ const descOnAirDate = {
 	"04": "14 November 2024",
 	"05": "21 November 2024",
 	"06": "28 November 2024",
-	// "07": "",
-	// "08": "",
-	// "09": "",
-	// "10": "",
+	"07": "5 Desember 2024",
+	"08": "12 Desember 2024",
+	"09": "19 Desember 2024",
+	"10": "26 Desember 2024",
   };
 console.log(descOnAirDate);
 
@@ -146,13 +146,13 @@ const linkHardsub = {
 	"01" : "https://sfl.gl/6UshH",
 	"02" : "https://sfl.gl/ubzqf",
 	"03" : "https://sfl.gl/q7L4",
-	"04": "https://sfl.gl/XoLLAAmq",
-	"05": "https://sfl.gl/GYHMjYG",
-	"06": "https://sfl.gl/QSNshHkz",
-	// "07": "",
-	// "08": "",
-	// "09": "",
-	// "10": "",
+	"04" : "https://sfl.gl/XoLLAAmq",
+	"05" : "https://sfl.gl/GYHMjYG",
+	"06" : "https://sfl.gl/QSNshHkz",
+	"07" : "https://sfl.gl/2AZrdb0",
+	"08" : "https://sfl.gl/CtwIkM",
+	"09" : "https://sfl.gl/kXZNprSX",
+	"10" : "https://sfl.gl/eB8nd0",
   };
 console.log(linkHardsub);
 
