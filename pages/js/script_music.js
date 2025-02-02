@@ -2874,7 +2874,7 @@ const musicData = [
             },
 			{
 			japanese: "夕陽は何色か？",
-			title: "Yuuyake wa Nani Iro ka?",
+			title: "Yuuhi wa Nani Iro ka?",
 			tag: "公式",
 			download: {
 			format: "mp3",
