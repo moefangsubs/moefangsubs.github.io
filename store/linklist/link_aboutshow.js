@@ -18,6 +18,7 @@ const acaraData = {
 	nantebida: "\"Kotoge Eiji no Nante Bi da!\" merupakan acara dengan tagline 'Bahkan bagi pemula pun bisa mudah belajar tentang seni, sebuah acara variety seni paling mudah di akses di Jepang'.",
 	koukouseiquiz: "Sebuah turnamen yang disponsori Nippon Television dan diadakan setiap musim panas.",
 	hamasukahousoubu: "Hamasuka Housou-bu merupakan acara bincang-bincang mengenai musik yang disiarkan di TV Asahi dari 8 Oktober 2021. Acara ini dipandu oleh Okamoto Hama (OKAMOTO'S) dan Saito Asuka.",
+	spicysessions: "Spicy Sessions adalah program musik baru dari TBS Channel yang wajib ditonton para pecinta musik, menampilkan sesi \"menggugah selera\" bersama tamu istimewa. Dipandu oleh Kurosawa Kaoru dari Gospellers sebagai MC utama, setiap episode menghadirkan satu tamu musisi ternama untuk berkolaborasi dalam penampilan live, sesi improvisasi dengan band studio, dan diskusi mendalam tentang akar musik mereka. Program ini juga menampilkan Nakanishi Aruno dari Nogizaka46 sebagai co-host yang turut menyumbangkan suara vokalnya. Sebagai bonus unik, di segmen akhir, Kurosawa yang pencinta kari memperkenalkan hidangan kari lezat pilihannya sambil mengobrol santai.",
 	// ------------
 	// ------------
 	// ------------

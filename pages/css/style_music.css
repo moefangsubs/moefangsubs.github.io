@@ -1,0 +1,228 @@
+body {
+	background-color: #1a1a2e;
+	color: #e6e6fa;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	height: auto !important;
+	animation: all 0.5s ease-in-out;
+}
+
+body::before {
+ 	background-image: url('https://singingmachine.com/cdn/shop/articles/TipsFirstTime.jpg');
+	content: "";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+}
+@media screen and (max-width: 1280px) {
+body {
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+.titlehead {
+    margin-top: 110px;
+}
+
+#headtitle {
+    font-size: 32pt;
+    font-weight: bold;
+    padding-top: 10pt;
+    padding-bottom: 20pt;
+    text-align: center;
+}
+
+.desc {
+	width: 80%;
+	font-size:14pt;
+	text-align: justify;
+}
+
+
+
+
+/* Single Section Styling */
+
+#app {
+    width: 80%;
+	
+}
+.single-section {
+    width: 100%;
+    margin: 30px auto;
+    padding: 20px;
+    border-color: rgb(var(--color-main-light));
+    border-width: 5pt;
+    border-style: solid;
+    border-radius: 15px;
+    background: rgb(var(--color-main-dark1),0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.single-title {
+	font-size: 1.8rem;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.song-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.song-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+}
+
+.song-info {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.song-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.song-title span {
+	font-size: 0.8rem;
+	margin-left: 10px;
+	color: #fff;
+	padding: 2px 8px;
+	border-radius: 10px;
+	font-weight: normal;
+}
+
+.song-title .ai-tag {
+	background-color: crimson;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.song-title .公式-tag {
+	background-color: rgb(var(--color-main-light));
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.song-japanese {
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #c67fff;
+    margin-top: 5px;
+}
+
+.download-section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.download-button {
+	background-color: white;
+	color: rgb(var(--color-main-light));
+	border: 1px solid rgb(var(--color-main-light));
+	padding: 8px 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 0.9rem;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.download-button:hover {
+	background-color: rgb(var(--color-main-light));
+	color: white;
+}
+
+.file-size {
+	font-size: 0.8rem;
+	color: #aaa;
+	margin-top: 5px;
+}
+
+
+
+.play-button {
+	background-color: green;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-size: 0.9rem;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.play-button:hover {
+	background-color: darkgreen;
+}
+
+.audio-player {
+	margin-top: 10px;
+	width: 100%;
+}
+
+audio {
+	width: 100%;
+	border-radius: 5px;
+	outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.single-section {
+		width: 95%;
+	}
+
+	.song-item {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+	.single-section {
+		width: 95%;
+	}
+
+	.song-item {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.download-section {
+		align-items: flex-start;
+		margin-top: 10px;
+	}
+}

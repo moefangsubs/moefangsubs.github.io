@@ -936,7 +936,7 @@ const photobookData = [
 			jp: "――秋元康――",
 			id: "――Akimoto Yasushi――"
 		},
-		// download: ""
+		download: "https://drive.google.com/file/d/1D3kg-pQScfNSduioaF_AYSU-Vyf5fzNk/view?usp=drive_link"
 	}, {
 		image: "https://ik.imagekit.io/moearchive/web/pbcover/n46-itazura.jpg",
 		count: "初",
@@ -1823,7 +1823,7 @@ const photobookData = [
 		},	
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nazewasurerarenaindarou-seven.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nazewasurerarenaindarou-rakuten.jpg",	
-		// download: ""
+		download: "https://drive.google.com/file/d/1d1XHPxFumDz2APVqesQmzFfckuHfxIUZ/view?usp=drive_link"
 	}, {
 		image: "https://ik.imagekit.io/moearchive/web/pbcover/n46-sotsumemory-canon.jpg",
 		count: "3冊目",
@@ -2493,7 +2493,7 @@ const photobookData = [
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/aoibara_s.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/aoibara_r.jpg",	
 		imageKinokuniya: "https://ik.imagekit.io/moearchive/web/pbcover/aoibara_k.jpg",	
-		// download: ""
+		download: "https://drive.google.com/file/d/1oLjKvDdepC1IA1mx8qHP3zQLdzre6uhN/view?usp=drive_link"
 	}, {
 		image: "https://ik.imagekit.io/moearchive/web/pbcover/tenshidatta.jpg",
 		count: "初",
@@ -2538,7 +2538,7 @@ const photobookData = [
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/tenshidatta-s.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/tenshidatta-r.jpg",	
 		imageKinokuniya: "https://ik.imagekit.io/moearchive/web/pbcover/tenshidatta-k.jpg",	
-		// download: ""
+		download: "https://drive.google.com/file/d/1A_4Pa-CBRi7c5nPTqF-wA6E8Yi-GW8ht/view?usp=drive_link"
 	}, {
 		image: "https://ik.imagekit.io/moearchive/web/pbcover/itazuranakaze.jpg",
 		count: "初",
@@ -2624,7 +2624,7 @@ const photobookData = [
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-seven.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-rakuten.jpg",	
 		imageKinokuniya: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-kinokuniya.jpg",	
-		// download: ""
+		download: "https://drive.google.com/file/d/1s6ERk0j7eMCySaGlXM4ZEBPuST_i5aFE/view?usp=drive_link"
 	},
     {
         image: "https://ik.imagekit.io/moearchive/web/pbcover/n46-yoda-yooda.jpg",

@@ -27,7 +27,7 @@ const searchData = {
     "Chou Nogizaka Star Tanjou": {
         "baseUrl": "chou-nogizaka-star-tanjou.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-",
-        "episodeRange": { "start": 1, "end": 67 }
+        "episodeRange": { "start": 1, "end": 71 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
@@ -111,6 +111,11 @@ const searchData = {
         "baseUrl": "hamasuka-housoubu.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/hamasuka",
         "episodes": ["80"]
+    },
+    "Spicy Sessions": {
+        "baseUrl": "spicy-sessions.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions",
+        "episodes": ["01"]
     },
 	
 // ~~~~~~~~~~~~~~~	
@@ -790,6 +795,23 @@ const searchData = {
         }
     },
 	
+    "Nogizaka46 37th \"Hodoukyou\" Single Bonus 'Live in Hong Kong'": {
+        "baseUrl": "nogizaka46-bonus-37th-single-live-in-hong-kong.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_37hongkong-",
+        "name": {
+            "01": "Type A",
+            "02": "Type B",
+            "03": "Type C",
+            "04": "Type D"
+        },
+        "thumbnail": {
+            "01": "a.jpg",
+            "02": "b.jpg",
+            "03": "c.jpg",
+            "04": "d.jpg",
+        }
+    },
+	
     "Nogizaka46 \"Time flies\" Bonus": {
         "baseUrl": "nogizaka46-bonus-album-time-flies.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/bonus/",
@@ -1112,6 +1134,11 @@ const searchData = {
 // ~~~ DRAMA
 // ~~~~~~~~~~~~~~~
 
+    "Miren Kakure Bocchitachi (Yumiki Nao)": {
+        "baseUrl": "miren-kakure-bocchitachi.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/miren",
+        "episodeRange": { "start": 1, "end": 1 }
+    },
     "Mirai no Watashi ni Bukkamasareru!? (Kubo Shiori)": {
         "baseUrl": "mirai-no-watashi-ni-bukkamasareru.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi",
@@ -1120,7 +1147,7 @@ const searchData = {
     "Death Game de Matteru (Umezawa Minami)": {
         "baseUrl": "death-game-de-matteru.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame",
-        "episodeRange": { "start": 1, "end": 6 }
+        "episodeRange": { "start": 1, "end": 10 }
     },	
     "Ryosangata Riko Saigo no Puramo Joshi no Jinsei Kumitate Ki (Yoda Yuuki)": {
         "baseUrl": "ryosangata-riko-season-3.html",
@@ -1305,14 +1332,12 @@ const searchData = {
 			"04" : "Episode 4 - Shimane & Tottori-hen (Endo Sakura & Yumiki Nao) 後編",
 			"05" : "Episode 5 - Okinawa-hen (Ioki Mao & Inoue Nagi) 前編",
 			"06" : "Episode 6 - Okinawa-hen (Ioki Mao & Inoue Nagi) 後編",
-			// "07" : "Unreleased Scene 1 - Hokkaido-hen & Shimane-hen",
-			// "08" : "Unreleased Scene 2 - Tottori-hen & Okinawa-hen",
-			// "09" : "Episode 7 - Gifu-hen (Tamura Mayu & Ikeda Teresa) 前編",
-			// "10" : "Episode 8 - Gifu-hen (Tamura Mayu & Ikeda Teresa) 後編",
-			// "11" : "Episode 9 - Yamanashi & Shizuoka-hen (Kaki Haruka & Sugawara Satsuki) 前編",
-			// "12" : "Episode 10 - Yamanashi & Shizuoka-hen (Kaki Haruka & Sugawara Satsuki) 後編",
-			// "13" : "Episode 11 - Thailand-hen (Yoda Yuuki & Tsutsui Ayame) 前編",
-			// "14" : "Episode 12 - Thailand-hen (Yoda Yuuki & Tsutsui Ayame) 後編"
+			"07" : "Episode 7 - Gifu-hen (Tamura Mayu & Ikeda Teresa) 前編",
+			"08" : "Episode 8 - Gifu-hen (Tamura Mayu & Ikeda Teresa) 後編",
+			"09" : "Episode 9 - Yamanashi & Shizuoka-hen (Kaki Haruka & Sugawara Satsuki) 前編",
+			"10" : "Episode 10 - Yamanashi & Shizuoka-hen (Kaki Haruka & Sugawara Satsuki) 後編",
+			// "11" : "Episode 11 - Thailand-hen (Yoda Yuuki & Tsutsui Ayame) 前編",
+			// "12" : "Episode 12 - Thailand-hen (Yoda Yuuki & Tsutsui Ayame) 後編"
         },
         "thumbnail": {
 			"01" : "nogiescape01.jpg",
@@ -1321,14 +1346,12 @@ const searchData = {
 			"04" : "nogiescape04.jpg",
 			"05" : "nogiescape05.jpg",
 			"06" : "nogiescape06.jpg",
-			// "07" : "nogiescape-sp01.jpg",
-			// "08" : "nogiescape-sp02.jpg",
-			// "09" : "nogiescape07.jpg",
-			// "10" : "nogiescape08.jpg",
-			// "11" : "nogiescape09.jpg",
-			// "12" : "nogiescape10.jpg",
-			// "13" : "nogiescape11.jpg",
-			// "13" : "nogiescape12.jpg"
+			"07" : "nogiescape07.jpg",
+			"08" : "nogiescape08.jpg",
+			"09" : "nogiescape09.jpg",
+			"10" : "nogiescape10.jpg",
+			// "11" : "nogiescape11.jpg",
+			// "12" : "nogiescape12.jpg"
         }
     },
 
@@ -1417,7 +1440,8 @@ const searchData = {
 			"04" : "Vol.4 (Ito Riria & Inoue Nagi)",
 			"05" : "Vol.5 (Kaki Haruka & Sugawara Satsuki)",
 			"06" : "Vol.6 (Hayashi Runa & Ichinose Miku)",
-			"07" : "Vol.7 (Kanagawa Saya & Kawasaki Sakura)"
+			"07" : "Vol.7 (Kanagawa Saya & Kawasaki Sakura)",
+			"08" : "Vol.8 (Tsutsui Ayame & Ioki Mao)"
         },
         "thumbnail": {
 			"00" : "00.jpg",
@@ -1427,7 +1451,8 @@ const searchData = {
 			"04" : "04.jpg",
 			"05" : "05.jpg",
 			"06" : "06.jpg",
-			"07" : "07.jpg"
+			"07" : "07.jpg",
+			"07" : "08.jpg"
         }
     },
 
@@ -1654,6 +1679,7 @@ const searchData = {
             "46": "240721 Sumaho ga Nai Toki Dou Shiteita no? (Yumiki Nao, Ioki Mao)",
             "47": "241102 Another Sky (Saito Asuka)",
             "48": "241109 Nogizaka Haishinchuu - Nogizaka46 \"Hodoukyou\" Senbatsu Formation Announcement & First Performance",
+			"49": "250102 Nogi Douga - \"Hodoukyou\" Making of"
         },
         "thumbnail": {
             "01": "190308_anothersky_asuka.jpg",
@@ -1704,6 +1730,7 @@ const searchData = {
             "46": "240721_sumahoganai.jpg",
             "47": "241102_anothersky_asuka",
             "48": "241109_haishinchuuhodoukyou",
+            "49": "250102_hodoukyou_bts",
         }
     },
 
@@ -1774,6 +1801,7 @@ const searchData = {
             "56": "240127 Nogizaka46 34th SG Underlive",
             "57": "240609 Nogizaka46 34th SG Underlive",
             "58": "240321 Nogizaka46 Mini Live 36th Single \"Cheat Day\"",
+			"59": "250111 Nogizaka46 Mini Live 37th Single \"Hodoukyou\"",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1834,6 +1862,7 @@ const searchData = {
             "56": "live_underlive34.jpg",
             "57": "live_underlive35.jpg",
             "58": "live_minilive36.jpg",
+            "59": "live_minilive37.jpg",
         }
     },
    "Nogizaka Skits BluRay/DVD Box Vol.1": {

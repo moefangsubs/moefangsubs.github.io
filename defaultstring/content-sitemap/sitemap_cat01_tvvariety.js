@@ -24,6 +24,7 @@ document.write(`
 			<a href="nantebida.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nantebida.png"/><div class="button-text"><div class="stats done"></div>KOTOUGE EIJI NO NANTE BI DA!</div></a>	  
 			<a href="koukousei-quiz.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_koukouseiquiz.png"/><div class="button-text"><div class="stats done"></div>KOUKOUSEI QUIZ</div></a> 
 			<a href="hamasuka-housoubu.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hamasuka.png"/><div class="button-text"><div class="stats done"></div>HAMASUKA HOUSOUBU</div></a>
+			<a href="spicy-sessions.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_spicysessions.png"/><div class="button-text">SPICY SESSIONS</div></a>
 		</div>
 	</div>
 	</div>

@@ -64,3 +64,80 @@ img.magz {
     border-radius: 3px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.10), 0 10px 6px 0 rgba(0, 0, 0, 0.20);
 }
+
+
+/* di dalam gambar */
+
+.magz-container {
+    margin-top: 70pt;
+    margin-bottom: 70pt;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.magz-container #headtitle {
+    color: white;
+}
+.image-mode {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5pt;
+}
+
+.image-mode img {
+    border-radius: 5pt;
+}
+
+.magz-container .text-mode {
+  display: none;
+}
+
+.text-mode {
+	display: none;
+	/* display: flex; */
+	flex-direction: column;
+	gap: 5pt;
+	color: white;
+}
+
+.text-mode div {
+    display: flex;
+    flex-direction: column;
+    gap: 10pt;
+    padding-bottom: 20pt;
+    border-width: 0pt 0pt 1pt 0pt;
+    border-color: #ffffff63;
+    border-bottom-style: dashed;
+    text-align: justify;
+}
+
+.text-mode div .q {
+    color: #c681ff;
+    font-weight: bold;
+    /* font-style: italic; */
+    font-size: 16pt !important;
+}
+
+.text-mode div .a {
+    color: white;
+    line-height: 21pt;
+    text-align: justify;
+}
+
+#toggleButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#toggleButton:hover {
+  background-color: #0056b3;
+}

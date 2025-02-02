@@ -1,82 +1,27 @@
 [
     {
-        "title": "Chou Nogizaka Star Tanjou! #68",
-        "url": "chou-nogizaka-star-tanjou.html?episode=68",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-68.jpg"
+        "title": "Nogizaka, Touhikou #07 (Mayutan & Terepan)",
+        "url": "nogizaka-escape.html?episode=07",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape07.jpg"
     },
     {
-        "title": "Chou Nogizaka Star Tanjou! #69",
-        "url": "chou-nogizaka-star-tanjou.html?episode=69",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-69.jpg"
+        "title": "Nogizaka, Touhikou #08 (Mayutan & Terepan)",
+        "url": "nogizaka-escape.html?episode=08",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape08.jpg"
     },
     {
-        "title": "Chou Nogizaka Star Tanjou! #70",
-        "url": "chou-nogizaka-star-tanjou.html?episode=70",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-70.jpg"
+        "title": "Nogizaka, Touhikou #09 (Kakki & Satchan)",
+        "url": "nogizaka-escape.html?episode=09",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape09.jpg"
     },
     {
-        "title": "Chou Nogizaka Star Tanjou! #71",
-        "url": "chou-nogizaka-star-tanjou.html?episode=71",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-71.jpg"
+        "title": "Nogizaka, Touhikou #10 (Kakki & Satchan)",
+        "url": "nogizaka-escape.html?episode=10",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape10.jpg"
     },
     {
-        "title": "Miren ~Kakure Bocchitachi~ (Yumiki Nao) #1",
-        "url": "miren-kakure-bocchitachi.html?episode=01",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/miren/miren01.jpg"
-    },
-    {
-        "title": "Death Game de Matteru (Umezawa Minami) #7",
-        "url": "death-game-de-matteru.html?episode=07",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame07.jpg"
-    },
-    {
-        "title": "Death Game de Matteru (Umezawa Minami) #8",
-        "url": "death-game-de-matteru.html?episode=08",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame08.jpg"
-    },
-    {
-        "title": "Death Game de Matteru (Umezawa Minami) #9",
-        "url": "death-game-de-matteru.html?episode=09",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame09.jpg"
-    },
-    {
-        "title": "Death Game de Matteru (Umezawa Minami) #10 [TAMAT]",
-        "url": "death-game-de-matteru.html?episode=10",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame10.jpg"
-    },
-    {
-        "title": "Nogidouga 'Hodoukyou' Making of",
-        "url": "random-subs.html?episode=49",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/random/250102-hodoukyou-bts.jpg"
-    },
-    {
-        "title": "Sashimen vol.8 (Tsutsui Ayame & Ioki Mao)",
-        "url": "cupstar-sashimen.html?episode=08",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen08.jpg"
-    },
-    {
-        "title": "Nogizaka46 37th Single Bonus 'Nogizaka Live in Hong Kong' Type A",
-        "url": "nogizaka46-bonus-37th-single-live-in-hong-kong.html?episode=01",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/bonus37th/liveinhongkong-a.jpg"
-    },
-    {
-        "title": "Nogizaka46 37th Single Bonus 'Nogizaka Live in Hong Kong' Type B",
-        "url": "nogizaka46-bonus-37th-single-live-in-hong-kong.html?episode=02",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/bonus37th/liveinhongkong-b.jpg"
-    },
-    {
-        "title": "Nogizaka46 37th Single Bonus 'Nogizaka Live in Hong Kong' Type C",
-        "url": "nogizaka46-bonus-37th-single-live-in-hong-kong.html?episode=03",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/bonus37th/liveinhongkong-c.jpg"
-    },
-    {
-        "title": "Nogizaka46 37th Single Bonus 'Nogizaka Live in Hong Kong' Type D",
-        "url": "nogizaka46-bonus-37th-single-live-in-hong-kong.html?episode=04",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/bonus37th/liveinhongkong-d.jpg"
-    },
-    {
-        "title": "Nogizaka46 37th 'Hodoukyou' Mini Live",
-        "url": "mini-live.html?episode=59",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37.jpg"
+        "title": "Spicy Sessions #01",
+        "url": "spicy-sessions.html?episode=01",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions01.jpg"
     }
 ]
