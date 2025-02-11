@@ -8,40 +8,50 @@ let translateX = 0;
 let translateY = 0;
 let isDragging = false;
 let startX, startY;
+let startDistance = 0;
+let pinchStartScale = 1;
+let isPinching = false;
 
 // Fungsi untuk mengupdate transformasi SVG
 function updateTransform() {
     svg.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
 }
 
-// Zoom in
+// Fungsi untuk menghitung jarak antara dua jari (pinch)
+function getDistance(touches) {
+    const dx = touches[0].clientX - touches[1].clientX;
+    const dy = touches[0].clientY - touches[1].clientY;
+    return Math.sqrt(dx * dx + dy * dy);
+}
+
+// **1. Zoom dengan tombol**
 zoomInBtn.addEventListener('click', () => {
-    if (scale < 15) { // Maksimal zoom 3x
+    if (scale < 15) {
         scale += 0.5;
         updateTransform();
     }
 });
 
-// Zoom out
 zoomOutBtn.addEventListener('click', () => {
-    if (scale > 0.5) { // Minimal zoom 0.5x
+    if (scale > 0.5) {
         scale -= 0.5;
         updateTransform();
     }
 });
 
-// Zoom dengan scroll mouse
+// **2. Zoom dengan scroll mouse**
 svgContainer.addEventListener('wheel', (event) => {
     event.preventDefault();
+    const zoomFactor = 0.1;
     if (event.deltaY < 0 && scale < 15) {
-        scale += 0.1; // Scroll ke atas = zoom in
+        scale += zoomFactor;
     } else if (event.deltaY > 0 && scale > 0.5) {
-        scale -= 0.1; // Scroll ke bawah = zoom out
+        scale -= zoomFactor;
     }
     updateTransform();
 });
 
-// Drag untuk menggeser SVG
+// **3. Drag dengan mouse**
 svgContainer.addEventListener('mousedown', (event) => {
     isDragging = true;
     startX = event.clientX - translateX;
@@ -58,6 +68,43 @@ document.addEventListener('mousemove', (event) => {
 document.addEventListener('mouseup', () => {
     isDragging = false;
 });
+
+// **4. Drag dengan touch (jari)**
+svgContainer.addEventListener('touchstart', (event) => {
+    if (event.touches.length === 1) {
+        // Satu jari → Drag
+        isDragging = true;
+        startX = event.touches[0].clientX - translateX;
+        startY = event.touches[0].clientY - translateY;
+    } else if (event.touches.length === 2) {
+        // Dua jari → Pinch-to-Zoom
+        isPinching = true;
+        startDistance = getDistance(event.touches);
+        pinchStartScale = scale;
+    }
+});
+
+svgContainer.addEventListener('touchmove', (event) => {
+    if (isDragging && event.touches.length === 1) {
+        translateX = event.touches[0].clientX - startX;
+        translateY = event.touches[0].clientY - startY;
+        updateTransform();
+    } else if (isPinching && event.touches.length === 2) {
+        const newDistance = getDistance(event.touches);
+        const scaleFactor = newDistance / startDistance;
+        scale = Math.min(15, Math.max(0.5, pinchStartScale * scaleFactor));
+        updateTransform();
+    }
+});
+
+svgContainer.addEventListener('touchend', () => {
+    isDragging = false;
+    isPinching = false;
+});
+
+
+// -------------------------
+// -------------------------
 
 // Efek hover yang menaikkan <g> ke posisi teratas
 document.querySelectorAll('g').forEach(group => {

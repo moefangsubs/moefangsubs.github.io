@@ -179,7 +179,6 @@ const memberData = {
     ]
   },
   "saku": {
-    "1期": [],
     "2期": [
       ["井上梨名", "Inoue Rina", "inouerina", "hyogo", "saku9"],
       ["遠藤光莉", "Endo Hikari", "endouhikari", "kanagawa", "saku9"],
@@ -219,7 +218,7 @@ const memberData = {
       ["菅井友香", "Sugai Yuuka", "sugaiyuuka", "tokyo", "sakualb1"],
       ["土生瑞穂", "Habumi Zuho", "habumizuho", "tokyo", "saku6fix"],
       ["小林由依", "Kobayashi Yui", "kobayashiyui", "saitama", "saku6fix"],
-      ["齋藤冬優花", "Saito Fuyuka", "saitoufuyuka", "tokyo", "saku9"]
+      ["齋藤冬優花", "Saito Fuyuka", "saitoufuyuka", "tokyo", "saku9"],
       ["上村莉菜", "Uemura Rina", "uemurarina", "chiba", "saku9"],
 	  
       ["小池美波", "Koike Minami", "koikeminami", "hyogo", "saku9"],
