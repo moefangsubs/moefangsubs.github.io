@@ -2616,14 +2616,14 @@ const photobookData = [
 			jp: "ポルトガル",
 			id: "Portugal"
 		},
-		// salesfirst: ,
+		salesfirst: 70505,
 		note: {
 			jp: "5期生初の写真集。",
 			id: "Photobook pertama gen-5."
 		},
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-seven.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-rakuten.jpg",	
-		imageKinokuniya: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-kinokuniya.jpg",	
+		imageTsutaya: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-kinokuniya.jpg",	
 		download: "https://drive.google.com/file/d/1s6ERk0j7eMCySaGlXM4ZEBPuST_i5aFE/view?usp=drive_link"
 	},
     {
@@ -2655,10 +2655,42 @@ const photobookData = [
         location: {
 			jp: "オーストラリア",
 			id: "Australia" },
+		salesfirst: 82397,
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/n46-yoda-yooda-7net.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/n46-yoda-yooda-rakuten.jpg",	
 		imageKinokuniya: "https://ik.imagekit.io/moearchive/web/pbcover/n46-yoda-yooda-kinokuniya.jpg",
-        download: ""
+        download: "https://drive.google.com/file/d/1Jt1QLj0L8A4mKEzLHoMgbeIxF2vBnjEH/view?usp=drive_link"
+    },
+    {
+        image: "https://m.media-amazon.com/images/I/51yeVmRupZL.jpg",
+		count: "初",
+        title: {
+			jp: "?????????",
+			id: "?????????" },
+        name: {
+			jp: "井上 和",
+			id: "Inoue Nagi" },
+		photographer: {
+			jp: "中村和孝",
+			id: "Nakamura Kazutaka" },
+		publisher: {
+			jp: "講談社",
+			id: "Kodansha" },
+        releaseDate: "2025-04-22",
+        memberAge: {
+			jp: "20歳64日",
+			id: "20 Tahun 64 hari" },
+        type: {
+			jp: "写真集",
+			id: "Photobook" },
+        location: {
+			jp: "イタリア　サルディーニャ島&ローマ",
+			id: "Italia (Pulau Sardinia & Roma)" },
+		// salesfirst: ,
+		// imageSevenNet: "",
+		// imageRakuten: "",	
+		// imageKinokuniya: "",
+        // download: ""
     },
     // {
         // image: "",

@@ -75,9 +75,14 @@ const descEpisodeSynopsis = {
 	"69": "Episode 69 kali ini kembali mengajak guest DJ KOO, dan kawannya SAM. Kuisnya di Nagomase Star Tanjou, para member akan diberi pertanyaan, KOO-san disebut apakah oleh Yumiki Nao, member yang terkenal dekat dengan DJ KOO.",
 	"70": "Episode 70 kembali bertemakan lagu musim dingin. Bintang tamunya adalah dari s**t kingz, yang mana akan ada segmen untuk mencoba menari dan para member menebak gerakan tarian itu.",
 	"71": "Penutup di tahun 2024 ini adalah episode lagu-lagu Natal. Akan ada permainan menebak kata sesuai tema, sambil estafet balon yang semakin lama semakin membesar.",
+	"72": "Episode 72 sebagai pembuka di tahun baru ini disambut dengan bintang tamu Hiramatsu Eri, penyanyi-penulis lagu dari Kobe, terkenal dengan lagunya \"Heya to Y-shirt to Watashi\"",
+	"73": "Episode 73 disambut dengan bintang tamu Moriwaka Kaori, seorang vokalis dari GO-BANG'S, band legendaris yang populer di puncak era gelembung sebagai pionir girl band.",
+	"74": "Episode 74 ini adalah episode spesial dimana kita akan melihat dibalik layar konser Chou Nogizaka Star Tanjou LIVE yang diadakan pada November 2024 lalu.",
+	"75": "Episode 75 disambut dengan bintang tamu Hana*Hana, duo wanita yang dikenal dengan harmoni suara yang menenangkan, disebut sebagai \"iyashi-kei\" (gaya penyembuhan)",
+	"76": "Episode 76 kita menerima tamu Higuchi Ai, penyanyi-penulis lagu yang menarik banyak orang dengan dunia uniknya, dan lagu \"Akuma no Ko\", yang menjadi ending anime populer \"Shingeki no Kyojin\" diakui tidak hanya di Jepang tapi juga di berbagai negara.",
 	};
-
-
+	
+	
 // =======================
 // NAMA ACARA
 // =======================
@@ -178,6 +183,15 @@ const descOnAirDate = {
 	"69": "9 Desember 2024",
 	"70": "16 Desember 2024",
 	"71": "23 Desember 2024",
+	"72": "13 Januari 2025",
+	"73": "20 Januari 2025",
+	"74": "27 Januari 2025",
+	"75": "3 Februari 2025",
+	"76": "10 Februari 2025",
+	"77": "17 Februari 2025",
+	"78": "24 Februari 2025",
+	"79": "3 Maret 2025",
+	"80": "10 Maret 2025"
 };
 
 // =======================
@@ -256,6 +270,12 @@ const descSong1 = {
 	"69": "Official髭男dism「イエスタデイ」",
 	"70": "SHISHAMO「君とゲレンデ」",
 	"71": "E-girls「Merry Merry Xmas」",
+	"72": "GLAY　「Winter, again」",
+	"73": "鈴木亜美　「white key」",
+	"74": "",
+	"75": "松任谷由実　「BLIZZARD」",
+	"76": "安室奈美恵　「Don't wanna cry」",
+	"77": "GReeeeN　「アイノカタチfeat.HIDE　「2018」",
 };
 
 // =======================
@@ -334,6 +354,12 @@ const descSong2 = {
 	"69": "TRF「EZ DO DANCE」",
 	"70": "s**t kingz「MORECHAU」",
 	"71": "DREAMS COME TRUE「雪のクリスマス」",
+	"72": "手嶌葵　「テルーの唄」",
+	"73": "浜田省吾　「悲しみは雪のように」",
+	"74": "",
+	"75": "花*花　「あ〜よかった　「1999」",
+	"76": "松田聖子　「SWEET MEMORIES」",
+	"77": "米米CLUB　「Shake Hip!」",
 };
 
 
@@ -371,9 +397,9 @@ const descSong3 = {
 	"27": "",
 	"28": "",
 	"29": "",
-	"30": "Song 3	| 中野家の五つ子「五等分の気持ち」",
+	"30": "中野家の五つ子「五等分の気持ち」",
 	"31": "",
-	"32": "Song 3	| 奥田いろは「恋々」",
+	"32": "奥田いろは「恋々」",
 	"33": "",
 	"34": "",
 	"35": "",
@@ -413,6 +439,12 @@ const descSong3 = {
 	"69": "マカロニえんぴつ 「恋人ごっこ」",
 	"70": "青山テルマ 「そばにいるね」",
 	"71": "UNICORN 「雪が降る町」",
+	"72": "平松愛理　「部屋とYシャツと私」",
+	"73": "GO-BANG'S　「あいにきて I・NEED・YOU!」",
+	"74": "",
+	"75": "平井堅　「ノンフィクション」",
+	"76": "ヒグチアイ　「悪魔の子」",
+	"77": "米米CLUB　「浪漫飛行」",
 };
 
 
@@ -492,6 +524,11 @@ const descSkits = {
 	"69": "",
 	"70": "",
 	"71": "",
+	"72": "",
+	"73": "",
+	"74": "",
+	"75": "",
+	"76": "",
 };
 
 
@@ -552,6 +589,14 @@ const additionalGuests = {
 	"69": "SAM・DJ KOO",
 	"70": "shoji・kazuki（s**t kingz）",
 	"71": "-",
+	"72": "平松愛理",
+	"73": "森若香織",
+	"74": "-",
+	"75": "花*花",
+	"76": "ヒグチアイ",
+	"77": "米米CLUB",
+	"78": "-",
+	"79": "-",
 };
 
 const guestArtis = {};
@@ -603,6 +648,11 @@ const additionalSenpai = {
 	"69": "-",
 	"70": "-",
 	"71": "-",
+	"72": "-",
+	"73": "-",
+	"74": "-",
+	"75": "-",
+	"76": "-",
 };
 
 
@@ -759,6 +809,11 @@ const linkHardsub = {
 	"69" : "https://sfl.gl/ut2jE06",
 	"70" : "https://sfl.gl/eFGw",
 	"71" : "https://sfl.gl/MT68uOKy",
+	"72": "https://lokerwfh.net/2ccNo",
+	"73": "https://lokerwfh.net/m2v3Pa",
+	"74": "https://lokerwfh.net/2PP4TP8v",
+	"75": "https://lokerwfh.net/p3mhpK",
+	"76": "https://lokerwfh.net/3SC6nE",
 };
 
 // =======================
@@ -837,6 +892,11 @@ const linkSoftsub = {
 	"69" : "https://sfl.gl/Tsjt8P",
 	"70" : "https://sfl.gl/klKdpEn",
 	"71" : "https://sfl.gl/YFTTfSZ",
+	"72": "https://lokerwfh.net/IKxgjuTo",
+	"73": "https://lokerwfh.net/iolOU19",
+	"74": "https://lokerwfh.net/itStt",
+	"75": "https://lokerwfh.net/aiVkw",
+	"76": "https://lokerwfh.net/Cg93t",
 };
 
 // =======================

@@ -63,6 +63,7 @@ const descEpisodeSynopsis = {
 	"57" : "Pada 9 Juni, konser akhir '35th SG Under Live' dari Nogizaka46 digelar di Ariake Arena, menampilkan lagu-lagu dari single ke-35 “Chance wa Byoudou”. Untuk pertama kalinya, konser ini hanya diikuti oleh member generasi ke-4 dan ke-5. Selama tiga hari, para member memukau penonton dengan tarian, nyanyian, dan interaksi penuh semangat. Pada hari terakhir, Tsutsui Ayame, sang pemimpin, menyampaikan tekad kuatnya untuk mempertahankan semangat tim dan menginspirasi perubahan. Konser diisi berbagai unit performance dan kegiatan menarik yang melibatkan permainan fisik, memperlihatkan sisi unik setiap member. Ayame menyatakan mimpinya untuk menjadi “agen perubahan” di Nogizaka46, dan menutup acara dengan lagu \"Shadougawa\", penuh emosi dan semangat. Penampilan encore termasuk \"Jumping Joker Flash\", sementara keseluruhan konser menunjukkan tekad mereka untuk meneruskan warisan para senior sambil meraih masa depan yang lebih besar di bawah bendera Nogizaka46.",
 	"58" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-36 \"Cheat Day\" ini dengan Mini live secara streaming. Sebuah single tema musim panas dengan front gen-5, Ogawa Aya yang langsung berada di front dan Ikeda Teresa, menemani sang center Inoue Nagi, yang kembali terpilih untuk kedua kalinya memimpin single bertemakan musim panas.",
 	"59" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-37 \"Hodoukyou\" ini dengan Mini live secara streaming. Sebuah single tema musim dingin dengan center Endo Sakura, yang kembali terpilih untuk keempat kalinya.",
+	"60": "Kali ini kami menggarap Graduation Concert dari Yoda Yuuki dari gen-3 yang mengumumkan kelulusannya di single ke-37 awal tahun 2025. Konser kelulusannya diadakan selama 2 hari di PayPay Dome Fukuoka, prefektur kelahirannya. Hari pertama Yoda membuat tema 'sebelum hari kelulusan', yaitu semua segmen di dalamnya terserah keinginan Yoda seperti apa. Dan hari kedua adalah hari kelulusannya, alias graduation concert yang serius. Yang membedakannya, konser kelulusannya Yoda dihadiri berbagai bintang tamu yang pernah bersama dengan Yoda, bahkan lulusan gen-3, Ozono Momoko tiba-tiba muncul menemani Yoda dalam 'Nigemizu' untuk yang terakhir kalinya.",
 };
 
 // =======================
@@ -130,6 +131,7 @@ const nameShow = {
 	"57" : "乃木坂46 35th SG アンダーライブ",
 	"58" : "乃木坂46 36thシングル「チートデイ」発売記念ミニライブ",
 	"59" : "乃木坂46 37thシングル「歩道橋」発売記念ミニライブ",
+	"60" : "乃木坂46 与田祐希卒業コンサート",
 };
 console.log(nameShow);
 
@@ -198,6 +200,7 @@ const descEpisode = {
 	"57" : "| Nogizaka46 35th SG Underlive",
 	"58" : "| Nogizaka46 Mini Live 36th Single \"Cheat Day\"",
 	"59" : "| Nogizaka46 Mini Live 37th Single \"Hodoukyou\"",
+	"60" : "| Nogizaka46 Yoda Yuuki Graduation Concert",
 };
 console.log(descEpisode);
 
@@ -265,6 +268,7 @@ const descOnAirDate = {
 	"57" : "9 Juni 2024",
 	"58" : "23 November 2024",
 	"59" : "11 Januari 2025",
+	"60" : "22-23 Februari 2025",
 };
 console.log(descOnAirDate);
 
@@ -333,6 +337,7 @@ const memberParticipate = {
 	"57" : "乃木坂46 ",
 	"58" : "乃木坂46 ",
 	"59" : "乃木坂46 ",
+	"60" : "乃木坂46 ",
 };
 console.log(memberParticipate);
 
@@ -402,6 +407,7 @@ const imageThumbBig = {
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37.jpg",
+	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon.jpg",
 };
 console.log(imageThumbBig);
 
@@ -470,6 +476,7 @@ const imageThumbA = {
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-a.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36a.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37a.jpg",
+	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-a.jpg",
 };
 console.log(imageThumbA);
 
@@ -537,6 +544,7 @@ const imageThumbB = {
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-b.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36b.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37b.jpg",
+	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-b.jpg",
 };
 console.log(imageThumbB);
 
@@ -604,6 +612,7 @@ const imageThumbC = {
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-c.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36c.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37c.jpg",
+	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-c.jpg",
 };
 console.log(imageThumbC);
 
@@ -677,6 +686,7 @@ const imageThumbD = {
 	"57" : "https://ik.imagekit.io/mLsKqNSuB/post/live/35thunderlive-d.jpg",
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36d.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37d.jpg",
+	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-d.jpg",
 };
 console.log(imageThumbD);
 
@@ -745,6 +755,7 @@ const linkHardsub = {
 	"57" : "",
 	"58" : "https://sfl.gl/dxNibg",
 	"59" : "https://sfl.gl/TaHR8tuF",
+	"60" : "",
 };
 console.log(linkHardsub);
 
@@ -813,6 +824,7 @@ const linkTrakteer = {
 	"57" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-35th-sg-underlive-A8xgQ",
 	"58" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-36th-single-cheat-day-jXHba",
 	"59" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-37th-single-hodoukyou-Q8S8Y",
+	"60" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-yoda-yuuki-graduation-concert-zYNOs",
 };
 console.log(linkTrakteer);
 
@@ -881,6 +893,7 @@ const filePassword = {
 	"57" : "(tidak ada password)",
 	"58" : "(tidak ada password)",
 	"59" : "(tidak ada password)",
+	"60" : "(tidak ada password)",
 };
 console.log(filePassword);
 

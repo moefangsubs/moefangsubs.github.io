@@ -223,7 +223,86 @@ const members = {
 		"talk": "arutalk",
 		"insta": "",
 		"blog": ["arunoblog","arublog"]
-	}
+	},	
+	"yadamoeka":{
+		"name": "矢田萌華",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"kawabatahina":{
+		"name": "川端晃菜",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"setoguchimitsuki":{
+		"name": "瀬戸口心月",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"kaibeakari":{
+		"name": "海邉朱莉",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"nagashimario":{
+		"name": "長嶋凛桜",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"morihiraurumi":{
+		"name": "森平麗心",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"atagokokone":{
+		"name": "愛宕心響",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"suzukiyuuna":{
+		"name": "鈴木佑捺",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"okoshihinano":{
+		"name": "大越ひなの",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"ozureina":{
+		"name": "小津玲奈",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"masudamirine":{
+		"name": "増田三莉音",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	
+	
 };
 
 const nameMember = {
@@ -260,7 +339,19 @@ const nameMember = {
 	"川﨑桜": "kawasaki_sakura",
 	"菅原咲月": "sugawara_satsuki",
 	"冨里奈央": "tomisato_nao",
-	"中西アルノ": "nakanishi_aruno"
+	"中西アルノ": "nakanishi_aruno",
+	
+	"矢田萌華" : "yadamoeka",
+	"川端晃菜" : "kawabatahina",
+	"瀬戸口心月" : "setoguchimitsuki",
+	"海邉朱莉" : "kaibeakari",
+	"長嶋凛桜" : "nagashimario",
+	"森平麗心" : "morihiraurumi",
+	"愛宕心響" : "atagokokone",
+	"鈴木佑捺" : "suzukiyuuna",
+	"大越ひなの" : "okoshihinano",
+	"小津玲奈" : "ozureina",
+	"増田三莉音" : "masudamirine",
 };
 
 const imageBaseURL = "https://ik.imagekit.io/moearchive/web/memberprofile/s037/";

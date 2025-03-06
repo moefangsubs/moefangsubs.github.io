@@ -1,6 +1,7 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
+				<div class="episodelist buttonEpsList" data-episode="60"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_yodagradcon.jpg"><div class="epsname">Yoda Yuuki</div></div>
 				<div class="episodelist buttonEpsList" data-episode="50"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_saachangradcer.jpg"><div class="epsname">Kakehashi Sayaka</div></div>
 				<div class="episodelist buttonEpsList" data-episode="48"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_zukkigradcon.jpg"><div class="epsname">Yamashita Mizuki</div></div>
 				<div class="episodelist buttonEpsList" data-episode="29"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_seiragradcer.jpg"><div class="epsname">Hayakawa Seira</div></div>

@@ -1,27 +1,77 @@
 [
     {
-        "title": "Nogizaka, Touhikou #07 (Mayutan & Terepan)",
-        "url": "nogizaka-escape.html?episode=07",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape07.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #72",
+        "url": "chou-nogizaka-star-tanjou.html?episode=72",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-72.jpg"
     },
     {
-        "title": "Nogizaka, Touhikou #08 (Mayutan & Terepan)",
-        "url": "nogizaka-escape.html?episode=08",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape08.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #73",
+        "url": "chou-nogizaka-star-tanjou.html?episode=73",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-73.jpg"
     },
     {
-        "title": "Nogizaka, Touhikou #09 (Kakki & Satchan)",
-        "url": "nogizaka-escape.html?episode=09",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape09.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #74",
+        "url": "chou-nogizaka-star-tanjou.html?episode=74",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-74.jpg"
     },
     {
-        "title": "Nogizaka, Touhikou #10 (Kakki & Satchan)",
-        "url": "nogizaka-escape.html?episode=10",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape10.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #75",
+        "url": "chou-nogizaka-star-tanjou.html?episode=75",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-75.jpg"
     },
     {
-        "title": "Spicy Sessions #01",
-        "url": "spicy-sessions.html?episode=01",
-        "image": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions01.jpg"
+        "title": "Chou Nogizaka Star Tanjou! #76",
+        "url": "chou-nogizaka-star-tanjou.html?episode=76",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-76.jpg"
+    },
+    {
+        "title": "Nogizaka Otameshichuu #47",
+        "url": "nogizaka-otameshichuu.html?episode=47",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu47.jpg"
+    },
+    {
+        "title": "Nogizaka Otameshichuu #48",
+        "url": "nogizaka-otameshichuu.html?episode=48",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu48.jpg"
+    },
+    {
+        "title": "Miren ~Kakure Bocchitachi~ #02",
+        "url": "miren-kakure-bocchitachi.html?episode=02",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/miren/miren02.jpg"
+    },
+    {
+        "title": "Miren ~Kakure Bocchitachi~ #03",
+        "url": "miren-kakure-bocchitachi.html?episode=03",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/miren/miren03.jpg"
+    },
+    {
+        "title": "Miren ~Kakure Bocchitachi~ #04",
+        "url": "miren-kakure-bocchitachi.html?episode=04",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/miren/miren04.jpg"
+    },
+    {
+        "title": "Miren ~Kakure Bocchitachi~ #05",
+        "url": "miren-kakure-bocchitachi.html?episode=05",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/miren/miren05.jpg"
+    },
+    {
+        "title": "Miren ~Kakure Bocchitachi~ #06",
+        "url": "miren-kakure-bocchitachi.html?episode=06",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/miren/miren06.jpg"
+    },
+    {
+        "title": "Nogizaka46 Yoda Yuuki Graduation Concert",
+        "url": "mini-live.html?episode=60",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon.jpg"
+    },
+    {
+        "title": "Spicy Sessions #02",
+        "url": "spicy-sessions.html?episode=02",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions02.jpg"
+    },
+    {
+        "title": "Spicy Sessions #03",
+        "url": "spicy-sessions.html?episode=03",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions03.jpg"
     }
 ]

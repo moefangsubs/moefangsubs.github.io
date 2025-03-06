@@ -27,12 +27,12 @@ const searchData = {
     "Chou Nogizaka Star Tanjou": {
         "baseUrl": "chou-nogizaka-star-tanjou.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-",
-        "episodeRange": { "start": 1, "end": 71 }
+        "episodeRange": { "start": 1, "end": 76 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-",
-        "episodeRange": { "start": 1, "end": 46 }
+        "episodeRange": { "start": 1, "end": 48 }
     },
     "Hinatazaka46 desu. Chotto ii desu ka?": {
         "baseUrl": "hinatazaka46-desu-chotto-ii-desu-ka.html",
@@ -115,7 +115,7 @@ const searchData = {
     "Spicy Sessions": {
         "baseUrl": "spicy-sessions.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions",
-        "episodes": ["01"]
+        "episodeRange": { "start": 1, "end": 3 }
     },
 	
 // ~~~~~~~~~~~~~~~	
@@ -1137,7 +1137,7 @@ const searchData = {
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/miren",
-        "episodeRange": { "start": 1, "end": 1 }
+        "episodeRange": { "start": 1, "end": 6 }
     },
     "Mirai no Watashi ni Bukkamasareru!? (Kubo Shiori)": {
         "baseUrl": "mirai-no-watashi-ni-bukkamasareru.html",
@@ -1802,6 +1802,7 @@ const searchData = {
             "57": "240609 Nogizaka46 34th SG Underlive",
             "58": "240321 Nogizaka46 Mini Live 36th Single \"Cheat Day\"",
 			"59": "250111 Nogizaka46 Mini Live 37th Single \"Hodoukyou\"",
+			"60": "250222 Nogizaka46 Yoda Yuuki Graduation Concert",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1863,6 +1864,7 @@ const searchData = {
             "57": "live_underlive35.jpg",
             "58": "live_minilive36.jpg",
             "59": "live_minilive37.jpg",
+            "60": "live_yodagradcon.jpg",
         }
     },
    "Nogizaka Skits BluRay/DVD Box Vol.1": {

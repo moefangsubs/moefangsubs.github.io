@@ -50,6 +50,8 @@ const descEpisodeSynopsis = {
 	"44" : "Di episode 44 ini para otameshi girls akan bersantai untuk menyajikan takoyaki, sebuah segmen yang disarankan oleh MC Ito Riria. Seperti apakah hasil takoyaki dari para member ini?",
 	"45" : "Di episode 45 ini dengan otameshi girls yang sama di episode sebelumnya akan mencoba hal-hal yang digemari para ojisan, seperti permainan kata, mahjong, dan pijat refleksi kaki.",
 	"46" : "Di episode 46 ini para otameshi girls akan mencoba tantangan seputar ubi manis, yang sangat cocok untuk musim di akhir tahun ini. Para otameshi girls akan mencoba memanen ubi, mencoba seruan pedagang ubi keliling, dan membuat iklan ubi.",
+	"47" : "Episode dadakan ini merupakan episode spesial untuk Mukai Hazuki, yang akan lulus, mencoba berbagai hal yang ia inginkan disini bersama Suzuki Taku.",
+	"48" : "Di episode 48 (yang harusnya disiarkan di episode 47) ini para otameshi girls akan mencoba tantangan kebersihan, dimana para member akan ditantang seberapa gesit mereka dalam bersih-bersih di berbagai segmen disini. Dimulai dari mengepel, hingga siapa yang lapnya paling hitam dan kotor.",
 };
 
 
@@ -128,6 +130,9 @@ const descOnAirDate = {
 	"44" : "28 September 2024",
 	"45" : "26 Oktober 2024",
 	"46" : "30 November 2024",
+	"47" : "28 Desember 2024",
+	"48" : "25 Januari 2025",
+	"49" : "2 Februari 2025",
   };
 
 
@@ -182,6 +187,9 @@ const memberParticipate = {
 	"44" : "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
 	"45" : "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
 	"46" : "伊藤理々杏、矢久保美緒、小川彩、冨里奈央",
+	"47" : "伊藤理々杏、向井葉月、佐藤楓、岡本姫奈",
+	"48" : "伊藤理々杏、吉田綾乃クリスティー、矢久保美緒、小川彩、冨里奈央",
+	"49" : "伊藤理々杏、黒見明香、佐藤璃果、矢久保美緒",
   };
 
 
@@ -312,6 +320,8 @@ const linkHardsub = {
 	"44" : "https://sfl.gl/Xs6d",
 	"45" : "https://sfl.gl/xm9CQu",
 	"46" : "https://sfl.gl/XXD4cazD",
+	"47" : "https://lokerwfh.net/7M3lcfQ",
+	"48" : "https://lokerwfh.net/y7kaan",
   };
   
 // =======================
@@ -365,6 +375,8 @@ const linkSoftsub = {
 	"44" : "https://sfl.gl/6oLcQy",
 	"45" : "https://sfl.gl/0XXv8pb",
 	"46" : "https://sfl.gl/FaEqqIt",
+	"47" : "https://lokerwfh.net/X00KttOi",
+	"48" : "https://lokerwfh.net/GLVoA",
   };
 
 // =======================

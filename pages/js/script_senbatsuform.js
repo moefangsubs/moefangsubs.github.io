@@ -257,8 +257,15 @@ document.addEventListener("DOMContentLoaded", function() {
 			SgLyrics: "秋元康",
 			SgComposer: "杉山勝彦",
 			SgArranger: "石原剛志、杉山勝彦、浅尾悠太",
-			SgMVDirector: "???",
+			SgMVDirector: "三木孝浩",
 			SgMVChoreo: "Seishiro"
+		},
+		"38": {
+			SgLyrics: "秋元康",
+			SgComposer: "???",
+			SgArranger: "???",
+			SgMVDirector: "???",
+			SgMVChoreo: "???",
 		},
 	};
 
@@ -276,6 +283,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			30: 28,
 			32: 31,
 			34: 33,
+			38: 37,
 		},
 
 		// Special links for specific members in specific singles
@@ -449,7 +457,8 @@ document.addEventListener("DOMContentLoaded", function() {
 		33: "早川聖来",
 		35: ["山下美月", "阪口珠美", "清宮レイ"],
 		36: "掛橋沙耶香",
-		37: "向井葉月"
+		37: "向井葉月",
+		38: ["与田祐希", "中村麗乃"],
 	};
 	// Table MADAMADA, with the title “不参加"
 	const HiatusMadamada = {
@@ -757,6 +766,13 @@ document.addEventListener("DOMContentLoaded", function() {
 			members2nd: ["五百城茉央", "川﨑桜", "久保史緒里", "与田祐希", "一ノ瀬美空", "中西アルノ"],
 			members1st: ["賀喜遥香", "井上和", "遠藤さくら", "池田瑛紗", "梅澤美波"]
 		},
+		"38": {
+			singleTitle: "ネーブルオレンジ",
+			center: ["井上和", "中西アルノ"],
+			members3rd: ["金川紗耶", "冨里奈央", "弓木奈於", "菅原咲月", "筒井あやめ", "田村真佑", "奥田いろは", "林瑠奈"],
+			members2nd: ["小川彩", "川﨑桜", "久保史緒里", "池田瑛紗", "梅澤美波", "五百城茉央", "一ノ瀬美空"],
+			members1st: ["賀喜遥香", "井上和", "中西アルノ", "遠藤さくら"]
+		},
 
 		// [all other singles]
 	};
@@ -793,7 +809,8 @@ document.addEventListener("DOMContentLoaded", function() {
 		"34": "#CFE1F7",
 		"35": "#C7D2D4",
 		"36": "#EEE1FF",
-		"37": "#FBDFB0"
+		"37": "#FBDFB0",
+		"38": "#FBDFB0"
 	};
 
 	const singlerelease = [{
@@ -1017,6 +1034,12 @@ document.addEventListener("DOMContentLoaded", function() {
 			announcementDate: "2024/11/09",
 			airingChannel: "240911 乃木坂配信中",
 			releaseDate: "2024/12/11"
+		},
+		{
+			num: 38,
+			announcementDate: "2025/03/02",
+			airingChannel: "乃木坂工事中 #503",
+			releaseDate: "2025/03/26"
 		}
 	];
 

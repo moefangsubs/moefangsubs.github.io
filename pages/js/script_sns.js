@@ -124,7 +124,7 @@ const snsData = {
 	tamura_mayu: {
 		namejp: "田村真佑",
 		namero: "Tamura Mayu",
-		insta: "https://www.instagram.com/tamuramayuofficial",
+		inspb: "https://www.instagram.com/tamuramayuofficial",
 		web: "",
 		youtube: "",
 		ytname: "",
@@ -316,12 +316,12 @@ const snsData = {
 	inoue_nagi: {
 		namejp: "井上和",
 		namero: "Inoue Nagi",
-		insta: "",
+		insta: "https://www.instagram.com/nagi.i_official",
 		web: "",
 		youtube: "",
 		ytname: "",
 		twitter: "",
-		twittpb: "",
+		twittpb: "https://x.com/nagi_italy",
 		tiktok: "",
 		weibo: ""
 	},
@@ -329,6 +329,7 @@ const snsData = {
 		namejp: "五百城茉央",
 		namero: "Ioki Mao",
 		insta: "",
+		inspb: "https://www.instagram.com/ioki_tabi",
 		web: "",
 		youtube: "",
 		ytname: "",
@@ -385,6 +386,142 @@ const snsData = {
 		tiktok: "",
 		weibo: ""
 	},
+	
+	
+	yadamoeka: {
+		namejp: "矢田萌華",
+		namero: "Yada Moeka",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	kawabatahina: {
+		namejp: "川端晃菜",
+		namero: "Kawabata Kina",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	setoguchimitsuki: {
+		namejp: "瀬戸口心月",
+		namero: "Setoguchi Mitsuki",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	kaibeakari: {
+		namejp: "海邉朱莉",
+		namero: "Kaibe Akari",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	nagashimario: {
+		namejp: "長嶋凛桜",
+		namero: "Nagashima Rio",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	morihiraurumi: {
+		namejp: "森平麗心",
+		namero: "Morihira Urumi",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	atagokokone: {
+		namejp: "愛宕心響",
+		namero: "Atago Kokone",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	suzukiyuuna: {
+		namejp: "鈴木佑捺",
+		namero: "Suzuki Yuuna",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	okoshihinano: {
+		namejp: "大越ひなの",
+		namero: "Okoshi Hinano",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	ozureina: {
+		namejp: "小津玲奈",
+		namero: "Ozu Reina",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	masudamirine: {
+		namejp: "増田三莉音",
+		namero: "Masuda Mirine",
+		insta: "",
+		web: "",
+		youtube: "",
+		ytname: "",
+		twitter: "",
+		twittpb: "",
+		tiktok: "",
+		weibo: ""
+	},
+	
+	
 	akimoto_manatsu: {
 		namejp: "秋元真夏",
 		namero: "Akimoto Manatsu",
@@ -1011,9 +1148,7 @@ const imageMembers = {
 	kubo_shiori: "kubo_shiori",
 	sato_kaede: "sato_kaede",
 	nakamura_reno: "nakamura_reno",
-	mukai_hazuki: "mukai_hazuki",
 	yoshida_ayano_christie: "yoshida_ayano_christie",
-	yoda_yuuki: "yoda_yuuki",
 	kanagawa_saya: "kanagawa_saya",
 	tamura_mayu: "tamura_mayu",
 	tsutsui_ayame: "tsutsui_ayame",
@@ -1037,6 +1172,18 @@ const imageMembers = {
 	sugawara_satsuki: "sugawara_satsuki",
 	tomisato_nao: "tomisato_nao",
 	ogawa_aya: "ogawa_aya",
+	
+	yadamoeka: "yadamoeka",
+	kawabatahina: "kawabatahina",
+	setoguchimitsuki: "setoguchimitsuki",
+	kaibeakari: "kaibeakari",
+	nagashimario: "nagashimario",
+	morihiraurumi: "morihiraurumi",
+	atagokokone: "atagokokone",
+	suzukiyuuna: "suzukiyuuna",
+	okoshihinano: "okoshihinano",
+	ozureina: "ozureina",
+	masudamirine: "masudamirine",
 };
 
 const imageNonMembers = {
@@ -1088,6 +1235,8 @@ const imageNonMembers = {
 	ozono_momoko: "https://ik.imagekit.io/moearchive/web/memberprofile/grad/01_ozono_momoko.jpg",
 	yamashita_mizuki: "https://ik.imagekit.io/moearchive/web/memberprofile/grad/01_yamashita_mizuki.jpg",
 	sakaguchi_tamami: "https://ik.imagekit.io/moearchive/web/memberprofile/grad/01_sakaguchi_tamami.jpg",
+	mukai_hazuki: "https://ik.imagekit.io/moearchive/web/memberprofile/s037/mukai_hazuki.png",
+	yoda_yuuki: "https://ik.imagekit.io/moearchive/web/memberprofile/s037/yoda_yuuki.png",
 
 	hayakawa_seira: "https://ik.imagekit.io/moearchive/web/memberprofile/grad/01_hayakawa_seira.jpg",
 	kitagawa_yuri: "https://ik.imagekit.io/moearchive/web/memberprofile/grad/01_kitagawa_yuri.jpg",

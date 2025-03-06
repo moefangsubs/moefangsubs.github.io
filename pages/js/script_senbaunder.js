@@ -368,6 +368,18 @@ const members = [{
 		underCenterCount: ["初"],
 		underSong: "それまでの猶予"
 	}]
+}, {
+	year: 2025,
+	singles: [{
+		num: 38,
+		title: "ネーブルオレンジ",
+		senbatsuCenter: ["inoue_nagi", "nakanishi_aruno"],
+		senbatsuCenterCount: ["2", "2"],
+		cover: "37",
+		underCenter: ["shibata_yuna"],
+		underCenterCount: ["初"],
+		underSong: "-- 未決定 --"
+	}
 }
 
 ];
