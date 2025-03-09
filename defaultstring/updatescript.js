@@ -60,9 +60,9 @@ document.addEventListener("DOMContentLoaded", function() {
         case "random-subs":
             targetEpisode = "48";
             break;
-        // case "sonna-kazoku-nara-sutechaeba":
-            // targetEpisode = "03";
-            // break;
+        case "shinmai-kisha-torokko":
+            targetEpisode = "01";
+            break;
         }
     }
 

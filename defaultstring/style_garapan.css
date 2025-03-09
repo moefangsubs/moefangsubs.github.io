@@ -57,6 +57,7 @@ body.main_site::before {
     /* filter: grayscale(1) brightness(0); */
 }
 body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/kakisaku.png');}
+/* body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogifra.webp'); */
 
 
 /* Background tiap acara */
@@ -138,6 +139,7 @@ body.nogizakafettucine::before{background-image: url('https://ik.imagekit.io/moe
 body.yononaka::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/yononaka.jpg');}
 body.sayounara::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/sayounara.jpg');}
 body.shiawasenakereba::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shiawasenakereba.jpg');}
+body.torokko::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shinmaikisha.jpg');}
 
 body.nanaminkoisurufuyu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nanaminkoisurufuyu.jpg');}
 body.nanaminkoisurunatsu::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nanaminkoisurunatsu.jpg');}

@@ -1,5 +1,10 @@
 [
     {
+        "title": "Shinmai Kisha Torokko Watashi ga Yaraneba Dare ga Yaru",
+        "url": "shinmai-kisha-torokko.html?episode=01",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/random/torokko.jpg"
+    },
+    {
         "title": "Chou Nogizaka Star Tanjou! #72",
         "url": "chou-nogizaka-star-tanjou.html?episode=72",
         "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/chounogistar-72.jpg"
@@ -61,7 +66,7 @@
     },
     {
         "title": "Nogizaka46 Yoda Yuuki Graduation Concert",
-        "url": "graduation-concert.html?episode=60",
+        "url": "mini-live.html?episode=60",
         "image": "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon.jpg"
     },
     {
