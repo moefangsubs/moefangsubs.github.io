@@ -1275,6 +1275,16 @@ const searchData = {
 			"01" : "shiawasenakereba.jpg"
         }
     },
+    "Shinmai Kisha Torokko Watashi ga Yaraneba Dare ga Yaru!": {
+        "baseUrl": "shinmai-kisha-torokko.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/",
+        "name": {
+			"01" : "(2024)"
+        },
+        "thumbnail": {
+			"01" : "240809_torokko.jpg"
+        }
+    },
     "Sayounara Konbanwa (Kubo Shiori)": {
         "baseUrl": "sayounara-konbanwa.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/",
