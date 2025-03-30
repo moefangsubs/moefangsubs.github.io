@@ -13,7 +13,7 @@ const descEpisodeSynopsis = {
 	"07": "Yuzu memulai serial baru di majalah 'Monthly Briller' milik penerbit besar 'Kougakukan,' dan berita ini menyebar luas hingga ke kantor 'Comic Boon.' Sementara editor kepala menyikapinya dengan semangat kompetitif, Kento merasa sulit menerima kenyataan ini. Ia pun pergi minum dengan Hoshi, yang lebih terganggu dengan insiden yang menyebabkan serial Nukui dibatalkan daripada dengan kepindahan Yuzu. Hoshi akhirnya mengungkapkan perasaannya yang sebenarnya. Di sisi lain, proyek 'Mencetak Yuzu Kedua' berjalan dengan baik, dan Minami kini mulai terlibat dalam pembuatan cerita untuk manga Rin. Namun, ketika ia mencoba memahami visi Rin, gadis itu tampak ragu dan sulit mengungkapkan perasaannya. Saat Minami kebingungan, tiba-tiba Hoshi muncul di hadapannya.",
 	"08": "Hoshi akhirnya mengungkapkan keinginannya yang sebenarnya—ia ingin menggambar manga sendiri. Ia bergabung dengan perusahaan hanya agar bisa dekat dengan dunia manga, tetapi bekerja sebagai editor justru membuatnya semakin tersiksa. Menyadari hal ini, Kento membawanya untuk bertemu dengan Rin. Ia sudah menduga bahwa Hoshi diam-diam melakukan sesuatu di balik layar. Hoshi pun mengungkapkan isi hatinya. Melihat Hoshi yang berani mengejar impiannya dan Minami yang kembali menulis, Kento mulai mempertanyakan dirinya sendiri. Ia selalu menganggap pekerjaan editor sebagai sesuatu yang ia pilih karena tidak menyukainya, tetapi pada kenyataannya, ia mengerjakannya dengan penuh dedikasi. Sementara itu, editor dari 'Kougakukan' semakin mempersiapkan serial baru Yuzu. Kento pun meminta saran dari editor kepala tentang salah satu serial yang sedang berjalan, dan kata-kata yang diterimanya mulai mengubah dirinya.",
 	"09": "Kento mengunjungi tempat di mana program 'Kanzume Yashiki' pernah diadakan enam tahun lalu. Sejak saat itu, ia hanya mengumpulkan ide-ide tanpa pernah benar-benar menulis. Apakah ia telah menyerah atau masih berpegang pada impiannya? Kini, ia harus menghadapi perasaannya yang sesungguhnya. Saat ia melihat bangunan tempat pelatihan dulu, tiba-tiba Oki, salah satu peserta program, muncul di hadapannya. Sementara itu, proyek 'Mencetak Yuzu Kedua' mencapai tahap akhir. Minami akhirnya menyelesaikan naskah cerita, dan hasilnya mendapat pujian dari seluruh tim editorial. Serial debut Rin pun resmi diputuskan. Namun, Minami merasakan ada sesuatu yang tidak beres. Ia pun berdiskusi dengan editor kepala, yang akhirnya menunjuk Kento sebagai editor Rin. Saat Kento membaca konsep awal manga tersebut, reaksinya justru penuh kemarahan. Dengan rapat penting yang akan datang, apakah mereka bisa menemukan solusi atas 'keganjilan' dalam proyek ini?",
-	// "10": "",
+	"10": "Proyek besar pencarian Fukada Yuzu Kedua memasuki tahap akhir. Saat debut manga pertama Motoshima Rin diumumkan, Kento tiba-tiba meminta pembatalannya demi memastikan Rin menggambar sesuai keinginannya. Meski mendapat tentangan, ia mendapat dukungan tak terduga, menginspirasi Minami untuk mencari makna menulisnya sendiri. Sementara itu, Hoshi kembali dengan karyanya, dan Yuzu memulai serial barunya demi menemukan gaya uniknya. Melihat perubahan Yuzu, Kento mengambil keputusan besar. Di tengah pencarian jati diri, mereka melangkah menuju apa yang benar-benar mereka cintai. Apa yang menanti di depan?",
 
 };
 
@@ -41,10 +41,10 @@ const descEpisode = {
 "04" : "| Episode 4",
 "05" : "| Episode 5",
 "06" : "| Episode 6",
-// "07" : "| Episode 7",
-// "08" : "| Episode 8",
-// "09" : "| Episode 9",
-// "10" : "| Episode 10 [TAMAT]",
+"07" : "| Episode 7",
+"08" : "| Episode 8",
+"09" : "| Episode 9",
+"10" : "| Episode 10 [TAMAT]",
   };
 console.log(descEpisode);
 
@@ -149,6 +149,10 @@ const linkHardsub = {
     "04": "https://lokerwfh.net/N6BHypF8",
     "05": "https://lokerwfh.net/imSed",
     "06": "https://lokerwfh.net/Yms5I",
+	"07": "https://sfl.gl/Jsiut",
+	"08": "https://sfl.gl/22H8b",
+	"09": "https://sfl.gl/WcQEm1",
+	"10": "https://sfl.gl/Fbh9gU",
   };
 console.log(linkHardsub);
 

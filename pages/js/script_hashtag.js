@@ -42,13 +42,6 @@ const members = {
 		"insta": ["renogram","れのぐらむ"],
 		"blog": "renoblog"
 	},
-	"mukai_hazuki":{
-		"name": "向井葉月",
-		"gen": "3期生",
-		"talk": "はづとーく",
-		"insta": ["hazukigram","はづぐらむ"],
-		"blog": "はづぶろぐ"
-	},
 	"yoshida_ayano_christie":{
 		"name": "吉田綾乃ｸﾘｽﾃｨ―",
 		"gen": "3期生",
@@ -224,77 +217,77 @@ const members = {
 		"insta": "",
 		"blog": ["arunoblog","arublog"]
 	},	
-	"yadamoeka":{
+	"yada_moeka":{
 		"name": "矢田萌華",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"kawabatahina":{
+	"kawabata_hina":{
 		"name": "川端晃菜",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"setoguchimitsuki":{
+	"setoguchi_mitsuki":{
 		"name": "瀬戸口心月",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"kaibeakari":{
+	"kaibe_akari":{
 		"name": "海邉朱莉",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"nagashimario":{
+	"nagashima_rio":{
 		"name": "長嶋凛桜",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"morihiraurumi":{
+	"morihira_urumi":{
 		"name": "森平麗心",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"atagokokone":{
+	"atago_kokone":{
 		"name": "愛宕心響",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"suzukiyuuna":{
+	"suzuki_yuuna":{
 		"name": "鈴木佑捺",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"okoshihinano":{
+	"okoshi_hinano":{
 		"name": "大越ひなの",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"ozureina":{
+	"ozu_reina":{
 		"name": "小津玲奈",
 		"gen": "6期生",
 		"talk": "",
 		"insta": "",
 		"blog": ""
 	},
-	"masudamirine":{
+	"masuda_mirine":{
 		"name": "増田三莉音",
 		"gen": "6期生",
 		"talk": "",
@@ -341,20 +334,20 @@ const nameMember = {
 	"冨里奈央": "tomisato_nao",
 	"中西アルノ": "nakanishi_aruno",
 	
-	"矢田萌華" : "yadamoeka",
-	"川端晃菜" : "kawabatahina",
-	"瀬戸口心月" : "setoguchimitsuki",
-	"海邉朱莉" : "kaibeakari",
-	"長嶋凛桜" : "nagashimario",
-	"森平麗心" : "morihiraurumi",
-	"愛宕心響" : "atagokokone",
-	"鈴木佑捺" : "suzukiyuuna",
-	"大越ひなの" : "okoshihinano",
-	"小津玲奈" : "ozureina",
-	"増田三莉音" : "masudamirine",
+	"矢田萌華" : "yada_moeka",
+	"川端晃菜" : "kawabata_hina",
+	"瀬戸口心月" : "setoguchi_mitsuki",
+	"海邉朱莉" : "kaibe_akari",
+	"長嶋凛桜" : "nagashima_rio",
+	"森平麗心" : "morihira_urumi",
+	"愛宕心響" : "atago_kokone",
+	"鈴木佑捺" : "suzuki_yuuna",
+	"大越ひなの" : "okoshi_hinano",
+	"小津玲奈" : "ozu_reina",
+	"増田三莉音" : "masuda_mirine"
 };
 
-const imageBaseURL = "https://ik.imagekit.io/moearchive/web/memberprofile/s037/";
+const imageBaseURL = "https://ik.imagekit.io/moearchive/web/memberprofile/s038/";
 
 // Fungsi untuk membuat elemen HTML untuk setiap anggota
 function createMemberElement(key, data) {

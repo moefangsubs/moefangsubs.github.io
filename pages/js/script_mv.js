@@ -1441,8 +1441,46 @@ const slidesData = [
         type: "reg"
       },
     ]
+  },
+  {
+    id: "slide44",
+    title: "NAVEL ORANGE",
+    num: "38th Single",
+    image: "https://ik.imagekit.io/moearchive/singlealbum/n46_38.jpg",
+    links: [
+      {
+        href: "https://drive.google.com/file/d/1-sdGk62eyNXQ_HpexzF2rLDUGH4XnWSN",
+        text: "Navel Orange",
+        span: "選抜",
+        type: "x"
+      },
+      {
+        href: "https://drive.google.com/file/d/1-tQOTVnHxGwzOsMBufyBmY7xKmnzqG5v",
+        text: "Natsukashisa no Saki",
+        span: "全員",
+        type: "x"
+      },
+      {
+        href: "https://drive.google.com/file/d/1-M2bymPRKQDMKTFCTkLUxhk6GfLKlC6W",
+        text: "Koukanshinkei Yuui",
+        span: "アンダー",
+        type: "a"
+      },
+      {
+        href: "https://drive.google.com/file/d/1-xXuKu_Tqk5qn3H3S_eU8PMhNYgEDfT-",
+        text: "Timelimit Kataomoi",
+        span: "6期生",
+        type: "b"
+      },
+      {
+        href: "https://drive.google.com/file/d/1-kBqpj1hpOpVjmaaP5t0w48SxyGl54Mi",
+        text: "100nichime",
+        span: "与田祐希",
+        type: "d"
+      },
+    ]
   }
-];
+];	
 
 const sliderWrapper = document.querySelector('.slider-wrapper');
 

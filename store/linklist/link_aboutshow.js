@@ -133,6 +133,7 @@ const acaraData = {
 	// // ------------
 	// // ------------
 	livePerformance: "Disini adalah kumpulan berbagai garapan MoeFang Subs kategori konser atau perform grup Sakamichi maupun BokuAo.",
+	nogi12bdltalk: "Sebuah event di mana bisa menikmati 4 hari penampilan 12th Year Birthday Live dalam satu hari. Selain itu, di antara setiap pertunjukan, juga menayangkan sesi talk show spesial yang direkam setelah konser. Selain member saat ini, para lulusan seperti Akimoto Manatsu, Shiraishi Mai, Takayama Kazumi, dan Higuchi Hina juga akan hadir sebagai tamu.",
 	nogiskitsBDvol1: "Konten-konten Nogizaka Skits versi Blu-Ray edisi ke-1.",
 	nogiskitsBDvol2: "Konten-konten Nogizaka Skits versi Blu-Ray edisi ke-2.",
 	nogiskitsclub: "Ini adalah video khusus (lebih tepatnya video ucapan) yang sudah mendaftar club dalam situs resmi Nogizaka Skits.",

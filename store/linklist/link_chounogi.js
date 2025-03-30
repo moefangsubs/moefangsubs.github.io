@@ -1,4 +1,3 @@
-
 // =======================
 // DESKRIPSI B
 // =======================
@@ -80,6 +79,10 @@ const descEpisodeSynopsis = {
 	"74": "Episode 74 ini adalah episode spesial dimana kita akan melihat dibalik layar konser Chou Nogizaka Star Tanjou LIVE yang diadakan pada November 2024 lalu.",
 	"75": "Episode 75 disambut dengan bintang tamu Hana*Hana, duo wanita yang dikenal dengan harmoni suara yang menenangkan, disebut sebagai \"iyashi-kei\" (gaya penyembuhan)",
 	"76": "Episode 76 kita menerima tamu Higuchi Ai, penyanyi-penulis lagu yang menarik banyak orang dengan dunia uniknya, dan lagu \"Akuma no Ko\", yang menjadi ending anime populer \"Shingeki no Kyojin\" diakui tidak hanya di Jepang tapi juga di berbagai negara.",
+	"77": "Episode 77 adalah terakhir kalinya mengundang bintang tamu, yaitu anggota KOME KOME Club, Tatsuya Ishii.",
+	"78": "Dua episode 78 dan 79 ini episode spesial para member beserta Ozwald pesta sambil kilas balik lagu-lagu dan kenangan selama 3 tahun Nogizaka Star Tanjou seri gen-5.",
+	"79": "Dua episode 78 dan 79 ini episode spesial para member beserta Ozwald pesta sambil kilas balik lagu-lagu dan kenangan selama 3 tahun Nogizaka Star Tanjou seri gen-5.",
+	"80": "Ini adalah episode dari seri Nogizaka Star Tanjou gen-5. Diawali dengan semua member bernyanyi, lalu lagu kedua adalah duo Ichinose Miku-Ogawa Aya. Dilanjut oleh segmen 'Nagomase Star Tanjou!' yang biasanya untuk menghibur tamu, namun kali ini adalah menghibur Ozwald."
 	};
 	
 	
@@ -276,6 +279,9 @@ const descSong1 = {
 	"75": "松任谷由実　「BLIZZARD」",
 	"76": "安室奈美恵　「Don't wanna cry」",
 	"77": "GReeeeN　「アイノカタチfeat.HIDE　「2018」",
+	"78": "",
+	"79": "乃木坂46　「おひとりさま天国」",
+	"80": "ザ・タイマーズ　「デイドリーム・ビリーバー」"
 };
 
 // =======================
@@ -360,6 +366,9 @@ const descSong2 = {
 	"75": "花*花　「あ〜よかった　「1999」",
 	"76": "松田聖子　「SWEET MEMORIES」",
 	"77": "米米CLUB　「Shake Hip!」",
+	"78": "",
+	"79": "",
+	"80": "DREAMS COME TRUE　「未来予想図II」",
 };
 
 
@@ -445,6 +454,9 @@ const descSong3 = {
 	"75": "平井堅　「ノンフィクション」",
 	"76": "ヒグチアイ　「悪魔の子」",
 	"77": "米米CLUB　「浪漫飛行」",
+	"78": "",
+	"79": "",
+	"80": "MONGOL800　「あなたに」",
 };
 
 
@@ -529,6 +541,10 @@ const descSkits = {
 	"74": "",
 	"75": "",
 	"76": "",
+	"77": "",
+	"78": "",
+	"79": "",
+	"80": "",
 };
 
 
@@ -597,6 +613,7 @@ const additionalGuests = {
 	"77": "米米CLUB",
 	"78": "-",
 	"79": "-",
+	"80": "-",
 };
 
 const guestArtis = {};
@@ -653,6 +670,10 @@ const additionalSenpai = {
 	"74": "-",
 	"75": "-",
 	"76": "-",
+	"77": "-",
+	"78": "-",
+	"79": "-",
+	"80": "-",
 };
 
 
@@ -809,11 +830,15 @@ const linkHardsub = {
 	"69" : "https://sfl.gl/ut2jE06",
 	"70" : "https://sfl.gl/eFGw",
 	"71" : "https://sfl.gl/MT68uOKy",
-	"72": "https://lokerwfh.net/2ccNo",
-	"73": "https://lokerwfh.net/m2v3Pa",
-	"74": "https://lokerwfh.net/2PP4TP8v",
-	"75": "https://lokerwfh.net/p3mhpK",
-	"76": "https://lokerwfh.net/3SC6nE",
+	"72" : "https://lokerwfh.net/2ccNo",
+	"73" : "https://lokerwfh.net/m2v3Pa",
+	"74" : "https://lokerwfh.net/2PP4TP8v",
+	"75" : "https://lokerwfh.net/p3mhpK",
+	"76" : "https://lokerwfh.net/3SC6nE",
+	"77" : "https://sfl.gl/6uiefB",
+	"78" : "https://sfl.gl/wlHB",
+	"79" : "https://sfl.gl/uTNNzM",
+	"80" : "https://sfl.gl/H61Vy",
 };
 
 // =======================
@@ -892,11 +917,15 @@ const linkSoftsub = {
 	"69" : "https://sfl.gl/Tsjt8P",
 	"70" : "https://sfl.gl/klKdpEn",
 	"71" : "https://sfl.gl/YFTTfSZ",
-	"72": "https://lokerwfh.net/IKxgjuTo",
-	"73": "https://lokerwfh.net/iolOU19",
-	"74": "https://lokerwfh.net/itStt",
-	"75": "https://lokerwfh.net/aiVkw",
-	"76": "https://lokerwfh.net/Cg93t",
+	"72" : "https://lokerwfh.net/IKxgjuTo",
+	"73" : "https://lokerwfh.net/iolOU19",
+	"74" : "https://lokerwfh.net/itStt",
+	"75" : "https://lokerwfh.net/aiVkw",
+	"76" : "https://lokerwfh.net/Cg93t",
+	"77" : "https://sfl.gl/kpxTx5t",
+	"78" : "https://sfl.gl/EttxqiS1",
+	"79" : "https://sfl.gl/DED60Yi",
+	"80" : "https://sfl.gl/DM8uV",
 };
 
 // =======================
@@ -940,4 +969,3 @@ for (let i = 1; i <= 9999; i++) {
   subLanguage[i.toString().padStart(2, '0')] = "Bahasa Indonesia";
 }
 console.log(subLanguage);
-

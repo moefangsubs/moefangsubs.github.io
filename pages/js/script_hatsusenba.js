@@ -90,7 +90,18 @@ document.addEventListener('DOMContentLoaded', () => {
 		"川﨑桜": "kawasaki_sakura",
 		"菅原咲月": "sugawara_satsuki",
 		"冨里奈央": "tomisato_nao",
-		"中西アルノ": "nakanishi_aruno"
+		"中西アルノ": "nakanishi_aruno",
+		"矢田萌華" : "yada_moeka",
+		"川端晃菜" : "kawabata_hina",
+		"瀬戸口心月" : "setoguchi_mitsuki",
+		"海邉朱莉" : "kaibe_akari",
+		"長嶋凛桜" : "nagashima_rio",
+		"森平麗心" : "morihira_urumi",
+		"愛宕心響" : "atago_kokone",
+		"鈴木佑捺" : "suzuki_yuuna",
+		"大越ひなの" : "okoshi_hinano",
+		"小津玲奈" : "ozu_reina",
+		"増田三莉音" : "masuda_mirine"
 	},
 	singlehatsu: {
 		"1":	["生田絵梨花", "生駒里奈", "星野みなみ", "橋本奈々未", "松村沙友理", "白石麻衣", "高山一実", "川村真洋", "能條愛未", "西野七瀬", "齋藤飛鳥", "斉藤優里", "桜井玲香", "井上小百合", "中田花奈", "市來玲奈"],
@@ -130,6 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		"35":	["吉田綾乃ｸﾘｽﾃｨｰ"],
 		"36":	["小川彩"],
 		"37":	["奥田いろは"],
+		"38":	"",
 	},
 	singlename: {
 		"1": "Guruguru Curtain",
@@ -168,7 +180,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		"34": "Monopoly",
 		"35": "Chance wa Byoudou",
 		"36": "Cheat Day",
-		"37": "Hodoukyou"
+		"37": "Hodoukyou",
+		"38": "Navel Orange"
 	},
 	specialCases: {
 		"16": "15",

@@ -7,12 +7,12 @@ const descEpisodeSynopsis = {
 	"01" : "Di kesempatan kali ini, para member Gen-3 dan Gen-4 menantang dirinya bermain drama komedi dengan live! Benar-benar pengalaman pertama bagi mereka~! Ditambah dengan live perform mereka juga after talk bareng Saraba Seishun no Hikari!",
 	"02" : "Rilisan khusus untuk supporter kali ini adalah Nogizaka Under Live 2021! Ya, seperti yang sudah kita tahu bahwa Under Live ini adalah penampilan terakhir dari Watanabe Miria & Ito Junna sebagai bagian dari member Nogizaka46. Berbeda dengan under live sebelumnya, kali ini diadakan tanpa kehadiran para penonton.",
 	"03" : "Setelah tahun kemarin tidak dilaksakannya @JAM EXPO karena pandemi, akhirnya tahun ini kembali diadakan. Sama seperti 2 tahun sebelumnya, mereka salah satunya menghadirkan perform dari Nogizaka46 gen-4.",
-	"04" : "Rilisan khusus untuk supporter kali ini adalah Nogizaka 28th SG Underlive 2021! Ya, seperti yang sudah kita tahu bahwa Underlive ini adalah penampilan terakhir dari Terada Ranze sebagai bagian dari member Nogizaka46. Berbeda dengan under live sebelumnya, kali ini dihadiri para penonton meskipun menerapkan protokol kesehatan pencegahan Corona.",
+	"04" : "Rilisan khusus untuk supporter kali ini adalah Nogizaka 28thSG Underlive 2021! Ya, seperti yang sudah kita tahu bahwa Underlive ini adalah penampilan terakhir dari Terada Ranze sebagai bagian dari member Nogizaka46. Berbeda dengan under live sebelumnya, kali ini dihadiri para penonton meskipun menerapkan protokol kesehatan pencegahan Corona.",
 	"05" : "Dalam memperingati rilis single ke-28 Nogizaka46 \"Kimi ni Shikarareta\" dan sebagai pengganti event handshake nasional yang tidak dapat diadakan karena penyebaran virus corona, diadakan Minilive yang membawakan beberapa lagu dari single ini.",
 	"06" : "Dalam Omitatekai kedua Gen-5 ini merupakan penampilan keseluruhan member yaitu 11 orang. Alasan dibuatnya Omitatekai kedua karena pada Omitatekai sebelumnya sebanyak 4 orang tidak dapat berpartisipasi. Seperti biasa dalam tradisi omitatekai, para member akan memperkenalkan dirinya, menunjukkan keahlian mereka (disini hanya 4 orang saja), dan melakukan mini live.",
 	"07" : "Memperingati ulang tahunnya yang ke-10, Nogizaka46 mengadakan acara tahunannya yaitu 10th Birthday Live di Nissan Stadium selama 2 hari. Dalam 2 hari tersebut mereka menyanyikan serangkaian lagu-lagu dari single pertama hingga single terakhir ke-29. Yang mengejutkannya adalah kehadiran para OG (Old Girl) atau para lulusan. Hari pertama kita diberikan penampilan Ikoma Rina dan Ito Marika. Dan di hari ke-2 yang kami kerjakan ini adalah 5 orang lulusan, yaitu antara lain Nishino Nanase, Shiraishi Mai, Ikuta Erika, Takayama Kazumi dan Matsumura Sayuri.",
 	"08" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-29 Nogizaka46 \"Actually.. \" ini dengan Mini live secara streaming. Para member membawakan semua lagu dari single ini (kecuali lagu solo Kitano Hinako) termasuk performance pertama kalinya dari lagu \"Fukayomi\" dengan center Saito Asuka dan \"Suki ni natte mita\" dengan center Yamashita Mizuki. Juga disini yang ditunggu-tunggu datang juga, mereka memperlihatkan uniform terbarunya.",
-	"09" : "Seperti yang kita ketahui kalau member yang begitu energik ini mengumumkan kelulusannya akhir Januari lalu. Dan Kiichan meskipun sudah masuk senbatsu 9x namun ia lebih memilih konsernya bersama member Under. Konser ini diadakan di PIA Arena MM Yokohama pada tanggal 24 Maret 2022, sehari sebelum konser 29th SG Under Live dilaksanakan. Setlist, pemilihan member unit semua dipilih sesuai keinginan Kiichan.",
+	"09" : "Seperti yang kita ketahui kalau member yang begitu energik ini mengumumkan kelulusannya akhir Januari lalu. Dan Kiichan meskipun sudah masuk senbatsu 9x namun ia lebih memilih konsernya bersama member Under. Konser ini diadakan di PIA Arena MM Yokohama pada tanggal 24 Maret 2022, sehari sebelum konser 29thSG Under Live dilaksanakan. Setlist, pemilihan member unit semua dipilih sesuai keinginan Kiichan.",
 	"10" : "Dalam event besar Tokyo Idol Festival 2022, salah satu grup Sakamichi yaitu Nogizaka46 gen-5 berkesempatan untuk pertama kalinya tampil disini. Mereka membawakan 6 buah lagu, termasuk 2 lagu gen-5 yaitu \"Zetsubou no Ichibyou mae\" dan \"Bandaid Hagasu you na Wakarekata\"",
 	"11" : "Nogizaka46 1st YEAR BIRTHDAY LIVE adalah konser Nogizaka46 yang diadakan pada tanggal 22 Februari 2013 dalam rangka merayakan ulang tahun mereka yang ke satu tahun. Konsernya diadakan di Makuhari Messe Chiba, yang pada saat itu adalah venue terbesar yang mereka kunjungi selama tur. Pada hari itu, mereka membawakan total 27 lagu, termasuk 24 lagu dari single debutnya 'Guru Curtain' pada bulan Februari 2012 hingga single 'Seifuku no Mannequin', dan lagu baru 'Kimi no Na wa Kibou' beserta couplingnya yang akan dirilis sebagai bagian dari single ke-5.",
 	"12" : "Karena MoeFang sudah ngesub konser grad-nya member, kini kami kembali ngesub konser kelulusannya Higuchi Hina, beberapa hari setelah Underlive dimana Maaya, sahabatnya juga disana stage terakhirnya di Nogizaka46. Dengan judul Ceremony, sudah pasti banyak ngobrolnya, jadi kita bisa mendengarkan kenangan para member kepada Chima.",
@@ -37,7 +37,7 @@ const descEpisodeSynopsis = {
 	"31" : "Di bulan ini, MoeFang mencoba menggarap konten supporter spesial dengan garapan konser Manatsu no Zenkoku Tour 2023 di Jingu Baseball Stadium, dimana untuk pertama kalinya Nogizaka46 mengadakan konser final Zenkoku Tour-nya dalam kurun waktu 4 hari berturut-turut.",
 	"32" : "Di bulan ini, MoeFang mencoba menggarap konten supporter spesial dengan garapan konser Manatsu no Zenkoku Tour 2023 di Jingu Baseball Stadium, dimana untuk pertama kalinya Nogizaka46 mengadakan konser final Zenkoku Tour-nya dalam kurun waktu 4 hari berturut-turut.",
 	"33" : "Di bulan ini, MoeFang mencoba menggarap konten supporter spesial dengan garapan konser Manatsu no Zenkoku Tour 2023 di Jingu Baseball Stadium, dimana untuk pertama kalinya Nogizaka46 mengadakan konser final Zenkoku Tour-nya dalam kurun waktu 4 hari berturut-turut.",
-	"34" : "Di bulan ini, MoeFang mencoba menggarap konten supporter spesial dengan garapan konser 33rd SG Underlive DAY 3 yang diadakan di Yokohama Arena, dan juga termasuk Jikochuu Produce-nya di DAY 1 dan DAY 2. Underlive ini diklaim sebagai konser Underlive terbesar dibandingkan sebelumnya.",
+	"34" : "Di bulan ini, MoeFang mencoba menggarap konten supporter spesial dengan garapan konser 33rdSG Underlive DAY 3 yang diadakan di Yokohama Arena, dan juga termasuk Jikochuu Produce-nya di DAY 1 dan DAY 2. Underlive ini diklaim sebagai konser Underlive terbesar dibandingkan sebelumnya.",
 	"35" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-33 \"Ohitorisama Tengoku\" ini dengan Mini live secara streaming. Sebuah single dengan wajah Nogizaka baru dengan formasi center gen-5 untuk kedua kalinya, yaitu Inoue Nagi yang pertama kali menjadi center.",
 	"36" : "Dalam konser 'Shinzanmono Live at THEATER MILANO-Za' ini, setiap grup Sakamichi menampilkan pertunjukan baru oleh generasi barunya masing-masing, dengan total 30 pertunjukan, di mana setiap grup memiliki 10 pertunjukan. Pertunjukan terakhir diadakan pada 30 November oleh Hinatazaka46 gen-4, 2 Desember oleh Sakurazaka46 gen-3, dan keesokan harinya oleh Nogizaka46 gen-5.<",
 	"37" : "Dalam konser 'Shinzanmono Live at THEATER MILANO-Za' ini, setiap grup Sakamichi menampilkan pertunjukan baru oleh generasi barunya masing-masing, dengan total 30 pertunjukan, di mana setiap grup memiliki 10 pertunjukan. Pertunjukan terakhir diadakan pada 30 November oleh Hinatazaka46 gen-4, 2 Desember oleh Sakurazaka46 gen-3, dan keesokan harinya oleh Nogizaka46 gen-5.<",
@@ -59,11 +59,16 @@ const descEpisodeSynopsis = {
 	"53" : "Konser final tur nasional tahunan Nogizaka46, \"Manatsu no Zenkoku Tour 2024,\" digelar di Stadion Baseball Meiji Jingu, Tokyo, pada 2-4 September. Tur ini mencakup 7 pertunjukan di tiga lokasi berbeda, dimulai di Osaka pada Juli dan diakhiri di Tokyo, dengan total penonton mencapai 265.000 orang. Meskipun sempat terancam oleh Topan No. 10, konser berjalan lancar dan memukau penonton dengan penampilan energik para member dari gen-3 hingga gen-5. Konser diwarnai dengan berbagai pertunjukan, kostum, dan interaksi dengan penonton, diakhiri dengan encore emosional yang membuat penonton terpukau.",
 	"54" : "Konser final tur nasional tahunan Nogizaka46, \"Manatsu no Zenkoku Tour 2024,\" digelar di Stadion Baseball Meiji Jingu, Tokyo, pada 2-4 September. Tur ini mencakup 7 pertunjukan di tiga lokasi berbeda, dimulai di Osaka pada Juli dan diakhiri di Tokyo, dengan total penonton mencapai 265.000 orang. Meskipun sempat terancam oleh Topan No. 10, konser berjalan lancar dan memukau penonton dengan penampilan energik para member dari gen-3 hingga gen-5. Konser diwarnai dengan berbagai pertunjukan, kostum, dan interaksi dengan penonton, diakhiri dengan encore emosional yang membuat penonton terpukau.",
 	"55" : "Boku ga Mitakatta Aozora merayakan ulang tahun pertama debut mereka dengan menggelar konser \"Aozora Summer Festival 2024\" pada 30 Agustus 2024 di Toyosu PIT, Tokyo. Konser ini menampilkan total 16 lagu termasuk tiga lagu yang pertama kali dibawakan, yaitu \"Ano Hi Bokutachi wa Naiteita,\" \"Boku ni Totte wa,\" dan lagu tema dari anime \"Ganbatte Ikimasshoi,\" \"Sorairo no Mizushibuki.\" Selain itu, konser ini juga menampilkan shuffle unit song yang belum pernah dilakukan sebelumnya dan berbagai aktivitas bertema festival musim panas.",
-	"56" : "Pada 27 November, member under group Nogizaka46 mengadakan konser final ‘34th SG Under Live’ di Pia Arena MM, Kanagawa, dengan 30.000 penggemar yang hadir selama tiga hari dan penayangan daring di hari terakhir. Konser ini menampilkan lagu-lagu dari single terbaru \"Monopoly,\" termasuk penampilan dari 14 member under, seperti Nakanishi Aruno yang memimpin dengan semangat, memulai lagu pembuka “Machine Gun Rain” dalam kostum merah yang mencolok. Di konser ini, member menampilkan lagu-lagu penuh energi, diiringi tarian, drum session, serta panggung bertema yang berbeda dari konser biasa. Aruno mengungkapkan harapannya untuk menjadikan under live ini “terbaik” dan menutup konser dengan lagu \"Omoide ga Tomaranakunaru\" penuh senyum ceria setelah lagu sebelumnya “Actually...” yang lebih serius. Dalam encore yang hangat, para member tampil dekat dengan penonton, dan fans memberikan dukungan luar biasa dengan nyanyian bersama “Nogizaka no Uta.” Konser berakhir emosional ketika Aruno dan member lain, berpegangan tangan, mengucapkan terima kasih kepada penggemar dalam suara mereka sendiri tanpa mikrofon, menandai penutupan tiga hari konser dengan penuh kesan.",
-	"57" : "Pada 9 Juni, konser akhir '35th SG Under Live' dari Nogizaka46 digelar di Ariake Arena, menampilkan lagu-lagu dari single ke-35 “Chance wa Byoudou”. Untuk pertama kalinya, konser ini hanya diikuti oleh member generasi ke-4 dan ke-5. Selama tiga hari, para member memukau penonton dengan tarian, nyanyian, dan interaksi penuh semangat. Pada hari terakhir, Tsutsui Ayame, sang pemimpin, menyampaikan tekad kuatnya untuk mempertahankan semangat tim dan menginspirasi perubahan. Konser diisi berbagai unit performance dan kegiatan menarik yang melibatkan permainan fisik, memperlihatkan sisi unik setiap member. Ayame menyatakan mimpinya untuk menjadi “agen perubahan” di Nogizaka46, dan menutup acara dengan lagu \"Shadougawa\", penuh emosi dan semangat. Penampilan encore termasuk \"Jumping Joker Flash\", sementara keseluruhan konser menunjukkan tekad mereka untuk meneruskan warisan para senior sambil meraih masa depan yang lebih besar di bawah bendera Nogizaka46.",
+	"56" : "Pada 27 November, member under group Nogizaka46 mengadakan konser final ‘34thSG Under Live’ di Pia Arena MM, Kanagawa, dengan 30.000 penggemar yang hadir selama tiga hari dan penayangan daring di hari terakhir. Konser ini menampilkan lagu-lagu dari single terbaru \"Monopoly,\" termasuk penampilan dari 14 member under, seperti Nakanishi Aruno yang memimpin dengan semangat, memulai lagu pembuka “Machine Gun Rain” dalam kostum merah yang mencolok. Di konser ini, member menampilkan lagu-lagu penuh energi, diiringi tarian, drum session, serta panggung bertema yang berbeda dari konser biasa. Aruno mengungkapkan harapannya untuk menjadikan under live ini “terbaik” dan menutup konser dengan lagu \"Omoide ga Tomaranakunaru\" penuh senyum ceria setelah lagu sebelumnya “Actually...” yang lebih serius. Dalam encore yang hangat, para member tampil dekat dengan penonton, dan fans memberikan dukungan luar biasa dengan nyanyian bersama “Nogizaka no Uta.” Konser berakhir emosional ketika Aruno dan member lain, berpegangan tangan, mengucapkan terima kasih kepada penggemar dalam suara mereka sendiri tanpa mikrofon, menandai penutupan tiga hari konser dengan penuh kesan.",
+	"57" : "Pada 9 Juni, konser akhir '35thSG Under Live' dari Nogizaka46 digelar di Ariake Arena, menampilkan lagu-lagu dari single ke-35 “Chance wa Byoudou”. Untuk pertama kalinya, konser ini hanya diikuti oleh member generasi ke-4 dan ke-5. Selama tiga hari, para member memukau penonton dengan tarian, nyanyian, dan interaksi penuh semangat. Pada hari terakhir, Tsutsui Ayame, sang pemimpin, menyampaikan tekad kuatnya untuk mempertahankan semangat tim dan menginspirasi perubahan. Konser diisi berbagai unit performance dan kegiatan menarik yang melibatkan permainan fisik, memperlihatkan sisi unik setiap member. Ayame menyatakan mimpinya untuk menjadi “agen perubahan” di Nogizaka46, dan menutup acara dengan lagu \"Shadougawa\", penuh emosi dan semangat. Penampilan encore termasuk \"Jumping Joker Flash\", sementara keseluruhan konser menunjukkan tekad mereka untuk meneruskan warisan para senior sambil meraih masa depan yang lebih besar di bawah bendera Nogizaka46.",
 	"58" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-36 \"Cheat Day\" ini dengan Mini live secara streaming. Sebuah single tema musim panas dengan front gen-5, Ogawa Aya yang langsung berada di front dan Ikeda Teresa, menemani sang center Inoue Nagi, yang kembali terpilih untuk kedua kalinya memimpin single bertemakan musim panas.",
 	"59" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-37 \"Hodoukyou\" ini dengan Mini live secara streaming. Sebuah single tema musim dingin dengan center Endo Sakura, yang kembali terpilih untuk keempat kalinya.",
-	"60": "Kali ini kami menggarap Graduation Concert dari Yoda Yuuki dari gen-3 yang mengumumkan kelulusannya di single ke-37 awal tahun 2025. Konser kelulusannya diadakan selama 2 hari di PayPay Dome Fukuoka, prefektur kelahirannya. Hari pertama Yoda membuat tema 'sebelum hari kelulusan', yaitu semua segmen di dalamnya terserah keinginan Yoda seperti apa. Dan hari kedua adalah hari kelulusannya, alias graduation concert yang serius. Yang membedakannya, konser kelulusannya Yoda dihadiri berbagai bintang tamu yang pernah bersama dengan Yoda, bahkan lulusan gen-3, Ozono Momoko tiba-tiba muncul menemani Yoda dalam 'Nigemizu' untuk yang terakhir kalinya.",
+	"60" : "Kali ini kami menggarap Graduation Concert dari Yoda Yuuki dari gen-3 yang mengumumkan kelulusannya di single ke-37 awal tahun 2025. Konser kelulusannya diadakan selama 2 hari di PayPay Dome Fukuoka, prefektur kelahirannya. Hari pertama Yoda membuat tema 'sebelum hari kelulusan', yaitu semua segmen di dalamnya terserah keinginan Yoda seperti apa. Dan hari kedua adalah hari kelulusannya, alias graduation concert yang serius. Yang membedakannya, konser kelulusannya Yoda dihadiri berbagai bintang tamu yang pernah bersama dengan Yoda, bahkan lulusan gen-3, Ozono Momoko tiba-tiba muncul menemani Yoda dalam 'Nigemizu' untuk yang terakhir kalinya.",
+	"61" : "36th SG Under Live Nogizaka46 digelar dalam format tur setelah 2 tahun, dengan 11 pertunjukan di 5 kota. Dipimpin oleh Okuda Iroha sebagai under center, konser ini menampilkan setlist inovatif dengan konsep menonjolkan keunikan tiap member. Puncaknya, Okuda menutup pertunjukan dengan penuh emosi, menegaskan perjalanan dan tekadnya sebagai pemimpin. Acara ini juga menjadi momen spesial bagi Hazuki Mukai yang akan lulus dari grup.",
+	"62" : "36th SG Under Live Nogizaka46 digelar dalam format tur setelah 2 tahun, dengan 11 pertunjukan di 5 kota. Dipimpin oleh Okuda Iroha sebagai under center, konser ini menampilkan setlist inovatif dengan konsep menonjolkan keunikan tiap member. Puncaknya, Okuda menutup pertunjukan dengan penuh emosi, menegaskan perjalanan dan tekadnya sebagai pemimpin. Acara ini juga menjadi momen spesial bagi Hazuki Mukai yang akan lulus dari grup.",
+	"63" : "Setelah 10 tahun, Nogizaka46 Daikanshasai yang terakhir digelar pada 2014 akhirnya kembali. Tahun ini, festival akan menampilkan kompetisi antar gundan yang baru dibentuk pada 2024 serta kebangkitan segmen populer \"Nogikoi Real\", eksklusif untuk Daikanshasai. Berbeda dari konser biasa, acara ini penuh dengan obrolan, tawa, permainan, dan tentu saja, ada penampilan beberapa lagu.",
+	"64" : "Setelah 10 tahun, Nogizaka46 Daikanshasai yang terakhir digelar pada 2014 akhirnya kembali. Tahun ini, festival akan menampilkan kompetisi antar gundan yang baru dibentuk pada 2024 serta kebangkitan segmen populer \"Nogikoi Real\", eksklusif untuk Daikanshasai. Berbeda dari konser biasa, acara ini penuh dengan obrolan, tawa, permainan, dan tentu saja, ada penampilan beberapa lagu. Pada pertunjukan hari kedua, ada upacara kelulusan untuk Hazuki Mukai, yang telah mengumumkan kelulusannya.",
+	"65" : "Nogizaka46 menggelar 37th SG Under Live pada 30 Januari di Makuhari Messe, menampilkan lagu \"Sore Made no Yuuyo\" dari single ke-37. Konser 3 hari ini dipimpin oleh Tomisato Nao sebagai center, dengan berbagai pertunjukan spektakuler yang memukau penonton, termasuk konsep tanpa tarian dan solo performance yang menampilkan sisi baru setiap member. Sorotan utama adalah pidato emosional Tomisato yang mengungkapkan pertumbuhannya sebagai idol serta rasa terima kasihnya kepada member dan penggemar.",
 };
 
 // =======================
@@ -132,6 +137,11 @@ const nameShow = {
 	"58" : "乃木坂46 36thシングル「チートデイ」発売記念ミニライブ",
 	"59" : "乃木坂46 37thシングル「歩道橋」発売記念ミニライブ",
 	"60" : "乃木坂46 与田祐希卒業コンサート",
+	"61" : "乃木坂46 36thSG アンダーライブ 神奈川公演 DAY 2",
+	"62" : "乃木坂46 36thSG アンダーライブ 神奈川公演 DAY 3",
+	"63" : "乃木坂46 大感謝祭 2024 DAY1",
+	"64" : "乃木坂46 大感謝祭 2024 DAY2",
+	"65" : "乃木坂46 37thSG アンダーライブ DAY3",
 };
 console.log(nameShow);
 
@@ -144,7 +154,7 @@ const descEpisode = {
 	"01" : "| Nogizaka Skits Live",
 	"02" : "| Nogizaka46 Under Live 2021 (Miria & Junna Graduation)",
 	"03" : "| Nogizaka46 Gen-4 @JAM EXPO 2020-2021",
-	"04" : "| Nogizaka46 28th SG Underlive 2021 (Terada Ranze Graduation)",
+	"04" : "| Nogizaka46 28thSG Underlive 2021 (Terada Ranze Graduation)",
 	"05" : "| Nogizaka46 Mini Live 28th Single \"Kimi ni Shikarareta\"",
 	"06" : "| Nogizaka46 5th-gen 2nd Omitatekai",
 	"07" : "| Nogizaka46 10th Year Birthday Live DAY 2",
@@ -162,7 +172,7 @@ const descEpisode = {
 	"19" : "| Nogizaka46 11th Year Birthday Live DAY 4 (Gen-3)",
 	"20" : "| Nogizaka46 11th Year Birthday Live DAY 5 (Akimoto Manatsu Graduation Concert)",
 	"21" : "| Nogizaka46 Suzuki Ayane Graduation Ceremony",
-	"22" : "| Nogizaka46 32nd SG Underlive",
+	"22" : "| Nogizaka46 32ndSG Underlive",
 	"23" : "| Hinatazaka46 4th-gen Omotenashikai",
 	"24" : "| Nogizaka46 Saito Asuka Graduation Concert DAY 1",
 	"25" : "| Nogizaka46 Saito Asuka Graduation Concert DAY 2",
@@ -174,7 +184,7 @@ const descEpisode = {
 	"31" : "| Nogizaka46 Manatsu no Zenkoku Tour 2023 DAY 2",
 	"32" : "| Nogizaka46 Manatsu no Zenkoku Tour 2023 DAY 3",
 	"33" : "| Nogizaka46 Manatsu no Zenkoku Tour 2023 DAY 4",
-	"34" : "| Nogizaka46 33rd SG Underlive",
+	"34" : "| Nogizaka46 33rdSG Underlive",
 	"35" : "| Nogizaka46 Mini Live 33rd Single \"Ohitorisama Tengoku\"",
 	"36" : "| Shinzanmono LIVE at THEATER MILANO-Za",
 	"37" : "| Shinzanmono LIVE at THEATER MILANO-Za",
@@ -196,11 +206,16 @@ const descEpisode = {
 	"53" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 2",
 	"54" : "| Nogizaka46 Manatsu no Zenkoku Tour 2024 FINAL! in Tokyo DAY 3",
 	"55" : "| Boku ga Mitakatta Aozora \"Aozora Summer Festival 2024\"",
-	"56" : "| Nogizaka46 34th SG Underlive",
-	"57" : "| Nogizaka46 35th SG Underlive",
+	"56" : "| Nogizaka46 34thSG Underlive",
+	"57" : "| Nogizaka46 35thSG Underlive",
 	"58" : "| Nogizaka46 Mini Live 36th Single \"Cheat Day\"",
 	"59" : "| Nogizaka46 Mini Live 37th Single \"Hodoukyou\"",
 	"60" : "| Nogizaka46 Yoda Yuuki Graduation Concert",
+	"61" : "| Nogizaka46 36thSG Underlive DAY 2",
+	"62" : "| Nogizaka46 36thSG Underlive DAY 3",
+	"63" : "| Nogizaka46 Daikanshasai 2024 DAY 1",
+	"64" : "| Nogizaka46 Daikanshasai 2024 DAY 2",
+	"65" : "| Nogizaka46 37thSG Underlive DAY 3",
 };
 console.log(descEpisode);
 
@@ -269,6 +284,11 @@ const descOnAirDate = {
 	"58" : "23 November 2024",
 	"59" : "11 Januari 2025",
 	"60" : "22-23 Februari 2025",
+	"61" : "19 November 2024",
+	"62" : "20 November 2024",
+	"63" : "14 Desember 2024",
+	"64" : "15 Desember 2024",
+	"65" : "30 Januari 2025",
 };
 console.log(descOnAirDate);
 
@@ -338,6 +358,11 @@ const memberParticipate = {
 	"58" : "乃木坂46 ",
 	"59" : "乃木坂46 ",
 	"60" : "乃木坂46 ",
+	"61" : "乃木坂46 ",
+	"62" : "乃木坂46 ",
+	"63" : "乃木坂46 ",
+	"64" : "乃木坂46 ",
+	"65" : "乃木坂46 ",
 };
 console.log(memberParticipate);
 
@@ -408,6 +433,11 @@ const imageThumbBig = {
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37.jpg",
 	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon.jpg",
+	"61" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d2.jpg",
+	"62" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d3.jpg",
+	"63" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d1.jpg",
+	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2.jpg",
+	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive.jpg",
 };
 console.log(imageThumbBig);
 
@@ -477,6 +507,11 @@ const imageThumbA = {
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36a.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37a.jpg",
 	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-a.jpg",
+	"61" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d2a.jpg",
+	"62" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d3a.jpg",
+	"63" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d1a.jpg",
+	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2a.jpg",
+	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-a.jpg",
 };
 console.log(imageThumbA);
 
@@ -545,6 +580,11 @@ const imageThumbB = {
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36b.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37b.jpg",
 	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-b.jpg",
+	"61" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d2b.jpg",
+	"62" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d3b.jpg",
+	"63" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d1b.jpg",
+	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2b.jpg",
+	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-b.jpg",
 };
 console.log(imageThumbB);
 
@@ -613,6 +653,11 @@ const imageThumbC = {
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36c.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37c.jpg",
 	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-c.jpg",
+	"61" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d2c.jpg",
+	"62" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d3c.jpg",
+	"63" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d1c.jpg",
+	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2c.jpg",
+	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-c.jpg",
 };
 console.log(imageThumbC);
 
@@ -687,6 +732,11 @@ const imageThumbD = {
 	"58" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive36d.jpg",
 	"59" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive37d.jpg",
 	"60" : "https://ik.imagekit.io/mLsKqNSuB/post/live/yodagradcon-d.jpg",
+	"61" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d2d.jpg",
+	"62" : "https://ik.imagekit.io/mLsKqNSuB/post/live/36thunderlive-d3d.jpg",
+	"63" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d1d.jpg",
+	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2d.jpg",
+	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-d.jpg",
 };
 console.log(imageThumbD);
 
@@ -756,6 +806,11 @@ const linkHardsub = {
 	"58" : "https://sfl.gl/dxNibg",
 	"59" : "https://sfl.gl/TaHR8tuF",
 	"60" : "",
+	"61" : "",
+	"62" : "",
+	"63" : "",
+	"64" : "",
+	"65" : "",
 };
 console.log(linkHardsub);
 
@@ -825,6 +880,11 @@ const linkTrakteer = {
 	"58" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-36th-single-cheat-day-jXHba",
 	"59" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-37th-single-hodoukyou-Q8S8Y",
 	"60" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-yoda-yuuki-graduation-concert-zYNOs",
+	"61" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-36th-sg-underlive-P3rGU",
+	"62" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-36th-sg-underlive-P3rGU",
+	"63" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-daikanshasai-2024-s8e8G",
+	"64" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-daikanshasai-2024-s8e8G",
+	"65" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-37th-sg-underlive-h6uDk",
 };
 console.log(linkTrakteer);
 
@@ -894,6 +954,11 @@ const filePassword = {
 	"58" : "(tidak ada password)",
 	"59" : "(tidak ada password)",
 	"60" : "(tidak ada password)",
+	"61" : "(tidak ada password)",
+	"62" : "(tidak ada password)",
+	"63" : "(tidak ada password)",
+	"64" : "(tidak ada password)",
+	"65" : "(tidak ada password)",
 };
 console.log(filePassword);
 

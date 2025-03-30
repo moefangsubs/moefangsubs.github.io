@@ -375,11 +375,11 @@ const members = [{
 		title: "ネーブルオレンジ",
 		senbatsuCenter: ["inoue_nagi", "nakanishi_aruno"],
 		senbatsuCenterCount: ["2", "2"],
-		cover: "37",
+		cover: "38",
 		underCenter: ["shibata_yuna"],
 		underCenterCount: ["初"],
-		underSong: "-- 未決定 --"
-	}
+		underSong: "交感神経優位"
+	}]
 }
 
 ];

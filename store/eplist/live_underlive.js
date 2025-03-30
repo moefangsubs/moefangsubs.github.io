@@ -1,6 +1,9 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
+				<div class="episodelist buttonEpsList" data-episode="65"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive37.jpg"><div class="epsname">35SG Day 3</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="62"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive36.jpg"><div class="epsname">36SG Day 3</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="61"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive36.jpg"><div class="epsname">36SG Day 2</div><span class="epsbadgeNew"></span></div>
 				<div class="episodelist buttonEpsList" data-episode="57"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive35.jpg"><div class="epsname">35SG</div></div>
 				<div class="episodelist buttonEpsList" data-episode="56"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive34.jpg"><div class="epsname">34SG</div></div>
 				<div class="episodelist buttonEpsList" data-episode="34"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_underlive33.jpg"><div class="epsname">33SG</div></div>

@@ -57,10 +57,13 @@ document.addEventListener("DOMContentLoaded", function() {
         // case "cupstar-sashimen":
             // targetEpisode = "00";
             // break;
-        case "random-subs":
-            targetEpisode = "48";
-            break;
+        // case "random-subs":
+            // targetEpisode = "48";
+            // break;
         case "shinmai-kisha-torokko":
+            targetEpisode = "01";
+            break;
+        case "spring":
             targetEpisode = "01";
             break;
         }

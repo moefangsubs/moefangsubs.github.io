@@ -283,7 +283,6 @@ document.addEventListener("DOMContentLoaded", function() {
 			30: 28,
 			32: 31,
 			34: 33,
-			38: 37,
 		},
 
 		// Special links for specific members in specific singles
@@ -413,7 +412,19 @@ document.addEventListener("DOMContentLoaded", function() {
 			"川﨑桜": "kawasaki_sakura",
 			"菅原咲月": "sugawara_satsuki",
 			"冨里奈央": "tomisato_nao",
-			"中西アルノ": "nakanishi_aruno"
+			"中西アルノ": "nakanishi_aruno",
+			"矢田萌華" : "yada_moeka",
+			"川端晃菜" : "kawabata_hina",
+			"瀬戸口心月" : "setoguchi_mitsuki",
+			"海邉朱莉" : "kaibe_akari",
+			"長嶋凛桜" : "nagashima_rio",
+			"森平麗心" : "morihira_urumi",
+			"愛宕心響" : "atago_kokone",
+			"鈴木佑捺" : "suzuki_yuuna",
+			"大越ひなの" : "okoshi_hinano",
+			"小津玲奈" : "ozu_reina",
+			"増田三莉音" : "masuda_mirine"
+
 		},
 		getPhotoUrl: function(singleIndex, memberName) {
 			if (this.nameMember[memberName]) {
@@ -810,7 +821,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		"35": "#C7D2D4",
 		"36": "#EEE1FF",
 		"37": "#FBDFB0",
-		"38": "#FBDFB0"
+		"38": "#E6DCE4"
 	};
 
 	const singlerelease = [{

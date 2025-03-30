@@ -52,6 +52,7 @@ const descEpisodeSynopsis = {
 	"46" : "Di episode 46 ini para otameshi girls akan mencoba tantangan seputar ubi manis, yang sangat cocok untuk musim di akhir tahun ini. Para otameshi girls akan mencoba memanen ubi, mencoba seruan pedagang ubi keliling, dan membuat iklan ubi.",
 	"47" : "Episode dadakan ini merupakan episode spesial untuk Mukai Hazuki, yang akan lulus, mencoba berbagai hal yang ia inginkan disini bersama Suzuki Taku.",
 	"48" : "Di episode 48 (yang harusnya disiarkan di episode 47) ini para otameshi girls akan mencoba tantangan kebersihan, dimana para member akan ditantang seberapa gesit mereka dalam bersih-bersih di berbagai segmen disini. Dimulai dari mengepel, hingga siapa yang lapnya paling hitam dan kotor.",
+	"49" : "Di episode 49 ini, para otameshi girls yaitu Yakubo Mio, Kuromi Haruka dan Sato Rika akan mencoba tantangan soal mikan atau jeruk khas Jepang.",
 };
 
 
@@ -132,7 +133,7 @@ const descOnAirDate = {
 	"46" : "30 November 2024",
 	"47" : "28 Desember 2024",
 	"48" : "25 Januari 2025",
-	"49" : "2 Februari 2025",
+	"49" : "22 Februari 2025",
   };
 
 
@@ -322,6 +323,7 @@ const linkHardsub = {
 	"46" : "https://sfl.gl/XXD4cazD",
 	"47" : "https://lokerwfh.net/7M3lcfQ",
 	"48" : "https://lokerwfh.net/y7kaan",
+	"49" : "https://sfl.gl/QqLlk90",
   };
   
 // =======================
@@ -377,6 +379,7 @@ const linkSoftsub = {
 	"46" : "https://sfl.gl/FaEqqIt",
 	"47" : "https://lokerwfh.net/X00KttOi",
 	"48" : "https://lokerwfh.net/GLVoA",
+	"49" : "https://sfl.gl/HoJUFpcD",
   };
 
 // =======================
