@@ -27,12 +27,12 @@ const searchData = {
     "Chou Nogizaka Star Tanjou": {
         "baseUrl": "chou-nogizaka-star-tanjou.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-",
-        "episodeRange": { "start": 1, "end": 76 }
+        "episodeRange": { "start": 1, "end": 80 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-",
-        "episodeRange": { "start": 1, "end": 48 }
+        "episodeRange": { "start": 1, "end": 49 }
     },
     "Hinatazaka46 desu. Chotto ii desu ka?": {
         "baseUrl": "hinatazaka46-desu-chotto-ii-desu-ka.html",
@@ -115,7 +115,7 @@ const searchData = {
     "Spicy Sessions": {
         "baseUrl": "spicy-sessions.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions",
-        "episodeRange": { "start": 1, "end": 3 }
+        "episodeRange": { "start": 1, "end": 4 }
     },
 	
 // ~~~~~~~~~~~~~~~	
@@ -1137,7 +1137,7 @@ const searchData = {
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/miren",
-        "episodeRange": { "start": 1, "end": 6 }
+        "episodeRange": { "start": 1, "end": 10 }
     },
     "Mirai no Watashi ni Bukkamasareru!? (Kubo Shiori)": {
         "baseUrl": "mirai-no-watashi-ni-bukkamasareru.html",
@@ -1265,6 +1265,16 @@ const searchData = {
 // ~~~ FILM
 // ~~~~~~~~~~~~~~~
 
+    "Spring (Inoue Nagi)": {
+        "baseUrl": "spring.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/",
+        "name": {
+			"01" : "(2025)"
+        },
+        "thumbnail": {
+			"01" : "250321-spring.jpg"
+        }
+    },
     "Shiawase nante nakereba ii no ni": {
         "baseUrl": "shiawase-nakereba.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/",
@@ -1813,6 +1823,12 @@ const searchData = {
             "58": "240321 Nogizaka46 Mini Live 36th Single \"Cheat Day\"",
 			"59": "250111 Nogizaka46 Mini Live 37th Single \"Hodoukyou\"",
 			"60": "250222 Nogizaka46 Yoda Yuuki Graduation Concert",
+			"61": "241119 Nogizaka46 36thSG Underlive DAY 2",
+			"62": "241120 Nogizaka46 36thSG Underlive DAY 3",
+			"63": "241214 Nogizaka46 Daikanshasai 2024 DAY 1",
+			"64": "241215 Nogizaka46 Daikanshasai 2024 DAY 2",
+			"65": "250130 Nogizaka46 37thSG Underlive DAY 3",
+			"66": "250406 Nogizaka46 First Performance \"Hajimemashite, 6kisei Desu\"",	
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1875,6 +1891,22 @@ const searchData = {
             "58": "live_minilive36.jpg",
             "59": "live_minilive37.jpg",
             "60": "live_yodagradcon.jpg",
+			"61": "live_underlive36.jpg",
+			"62": "live_underlive36.jpg",
+			"63": "live_daikanshasai2024.jpg",
+			"64": "live_daikanshasai2024.jpg",
+			"65": "live_underlive37.jpg",
+			"66": "live_omitatekaigen6.jpg",
+        }
+    },
+   "Nogizaka46 12th Birthday Live 10 Hour 123 Song One Day Live -Talk-": {
+        "baseUrl": "nogizaka46-12th-bdl-talk.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/other/",
+        "name": {
+			"03" : "DAY 3 (With Shiraishi Mai)"
+        },
+        "thumbnail": {
+			"03" : "240331-12thbdltalk-day3.jpg"
         }
     },
    "Nogizaka Skits BluRay/DVD Box Vol.1": {
