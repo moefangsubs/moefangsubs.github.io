@@ -136,6 +136,7 @@ body.shiosuketoamami::before{background-image: url('https://ik.imagekit.io/moear
 body.shotenintantei::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/shotenintantei.jpg');}
 body.deathgame::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/deathgame.jpg');}
 body.miren::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/miren.jpeg');}
+body.madder::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/madder.jpg');}
 body.nogizakafettucine::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogizakafettucine.jpg');}
 
 body.yononaka::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/yononaka.jpg');}
@@ -1046,5 +1047,3 @@ transition: transform .2s ease-in-out;
 		transform: translate3d(0,0,0);
 	}
 }
-
-
