@@ -1,3 +1,5 @@
+// update di yang paling atas
+document.write(`
 <br/>
 <div class="caption">Selamat Datang di MoeFang Subs!
 <br>
