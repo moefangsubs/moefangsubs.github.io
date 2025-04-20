@@ -12,6 +12,11 @@ const descEpisodeSynopsis = {
 "06" : "Rilisan khusus dari MoeFang kali ini adalah NEKOJITA dari duo gen-5, Inoue Nagi dan Sugawara Satsuki, atau dikenal NagiSatsu. Mereka akan berbincang tentang apapun yang mungkin kalian baru tahu selama 2 jam!",
 "07" : "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Kaki Haruka sebagai kamioshi-nya yang punya fansub ini.",
 "08" : "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Ichinose Miku sebagai oshi yang punya fansub ini di gen-5.",
+"09" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang pertama adalah Setoguchi Mitsuki.",
+"10" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Yada Moeka.",
+"11" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Kaibe Akari.",
+"12" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Nagashima Rio.",
+"13" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Kawabata Hina.",
 };
 console.log(descEpisodeSynopsis);
 
@@ -28,6 +33,11 @@ const nameShow = {
 	"06" : "猫舌SHOWROOM 乃木坂46 にゃんば〜1",
 	"07" : "SHOWROOM のぎおび",
 	"08" : "SHOWROOM のぎおび",
+	"09" : "SHOWROOM のぎおび",
+	"10" : "SHOWROOM のぎおび",
+	"11" : "SHOWROOM のぎおび",
+	"12" : "SHOWROOM のぎおび",
+	"13" : "SHOWROOM のぎおび",
 };
 console.log(nameShow);
 
@@ -44,6 +54,11 @@ const descEpisode = {
 	"06" : "| 241009 NEKOJITA (Inoue Nagi, Sugawara Satsuki)",
 	"07" : "| 241128 NOGIOBI (Kaki Haruka)",
 	"08" : "| 241202 NOGIOBI (Ichinose Miku)",
+	"09" : "| 250414 NOGIOBI (Setoguchi Mitsuki)",
+	"10" : "| 250415 NOGIOBI (Yada Moeka)",
+	"11" : "| 250416 NOGIOBI (Kaibe Akari)",
+	"12" : "| 250417 NOGIOBI (Nagashima Rio)",
+	"13" : "| 250418 NOGIOBI (Kawabata Hina)",
 };
 console.log(descEpisode);
 
@@ -60,6 +75,11 @@ const descOnAirDate = {
 	"06" : "9 Oktober 2024",
 	"07" : "28 November 2024",
 	"08" : "2 Desember 2024",
+	"09" : "14 April 2025",
+	"10" : "15 April 2025",
+	"11" : "16 April 2025",
+	"12" : "17 April 2025",
+	"13" : "18 April 2025",
   };
 console.log(descOnAirDate);
 
@@ -77,6 +97,17 @@ const memberParticipate = {
 	"06" : "井上和、菅原咲月",
 	"07" : "賀喜遥香",
 	"08" : "一ノ瀬美空",
+	"09" : "瀬戸口心月",
+	"10" : "矢田萌華",
+	"11" : "海邉朱莉",
+	"12" : "長嶋凛桜",
+	"13" : "川端晃菜",
+	// "XX" : "愛宕心響",
+	// "XX" : "大越ひなの",
+	// "XX" : "小津玲奈",
+	// "XX" : "鈴木佑捺",
+	// "XX" : "増田三莉音",
+	// "XX" : "森平麗心",
   };
 console.log(memberParticipate);
 
@@ -94,6 +125,11 @@ const imageThumbBig = {
 	"06" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241009-NEKOJITA.jpg",
 	"07" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241128_SR-KakiHaruka.jpg",
 	"08" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241202_SR-IchinoseMiku.jpg",
+	"09" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250414_SR-SetoguchiMitsuki.jpg",
+	"10" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250415_SR-YadaMoeka.jpg",
+	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari.jpg",
+	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio.jpg",
+	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina.jpg",
   };
 console.log(imageThumbBig);
 
@@ -111,6 +147,11 @@ const imageThumbA = {
 	"06" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241009-NEKOJITA1.jpg",
 	"07" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241128_SR-KakiHaruka1.jpg",
 	"08" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241202_SR-IchinoseMiku1.jpg",
+	"09" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250414_SR-SetoguchiMitsuki1.jpg",
+	"10" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250415_SR-YadaMoeka1.jpg",
+	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari1.jpg",
+	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio1.jpg",
+	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina1.jpg",
   };
 console.log(imageThumbA);
 
@@ -127,6 +168,11 @@ const imageThumbB = {
 	"06" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241009-NEKOJITA2.jpg",
 	"07" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241128_SR-KakiHaruka2.jpg",
 	"08" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241202_SR-IchinoseMiku2.jpg",
+	"09" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250414_SR-SetoguchiMitsuki2.jpg",
+	"10" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250415_SR-YadaMoeka2.jpg",
+	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari2.jpg",
+	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio2.jpg",
+	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina2.jpg",
   };
 console.log(imageThumbB);
 
@@ -143,6 +189,11 @@ const imageThumbC = {
 	"06" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241009-NEKOJITA3.jpg",
 	"07" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241128_SR-KakiHaruka3.jpg",
 	"08" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/241202_SR-IchinoseMiku3.jpg",
+	"09" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250414_SR-SetoguchiMitsuki3.jpg",
+	"10" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250415_SR-YadaMoeka3.jpg",
+	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari3.jpg",
+	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio3.jpg",
+	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina3.jpg",
   };
 console.log(imageThumbC);
 
@@ -164,6 +215,11 @@ const linkHardsub = {
 	"06" : "",
 	"07" : "https://sfl.gl/BDHZbvB",
 	"08" : "https://sfl.gl/IZIBjhj",
+	"09" : "https://sfl.gl/ACQrT",
+	"10" : "https://sfl.gl/hINYTV",
+	"11" : "https://sfl.gl/sWAS",
+	"12" : "https://sfl.gl/45jQ8S",
+	"13" : "https://sfl.gl/BQFDhesR",
   };
 console.log(linkHardsub);
 
@@ -178,6 +234,11 @@ const linkTrakteer = {
 	"06" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
 	"07" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
 	"08" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"09" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"10" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"11" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"12" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"13" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
   };
 console.log(linkTrakteer);
 
@@ -194,5 +255,10 @@ const subLanguage = {
 	"06" : "Bahasa Indonesia",
 	"07" : "Bahasa Indonesia",
 	"08" : "Bahasa Indonesia",
+	"09" : "Bahasa Indonesia",
+	"10" : "Bahasa Indonesia",
+	"11" : "Bahasa Indonesia",
+	"12" : "Bahasa Indonesia",
+	"13" : "Bahasa Indonesia",
   };
 console.log(subLanguage);

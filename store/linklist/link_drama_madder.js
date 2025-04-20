@@ -28,7 +28,7 @@ console.log(nameShow);
 
 const descEpisode = {
 "01" : "| Episode 1",
-// "02" : "| Episode 2",
+"02" : "| Episode 2",
 // "03" : "| Episode 3",
 // "04" : "| Episode 4",
 // "05" : "| Episode 5",
@@ -47,7 +47,7 @@ console.log(descEpisode);
 
 const descOnAirDate = {
     "01": "10 April 2025",
-    // "02": "17 April 2025",
+    "02": "17 April 2025",
   };
 console.log(descOnAirDate);
 
@@ -128,7 +128,7 @@ console.log(imageThumbD);
 
 const linkHardsub = {
     "01": "https://sfl.gl/700l",
-    // "02": "",
+    "02": "https://sfl.gl/8c09t",
     // "03": "",
     // "04": "",
     // "05": "",

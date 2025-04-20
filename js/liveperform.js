@@ -14,7 +14,7 @@
     function toggleButtonsForEpisode(episodeNumber) {
         hideButtons();
         
-        var allowedEpisodes = ['03', '05', '08', '10', '13', '15', '26', '35', '42', '47', '49', '50', '51', '55', '58'];
+        var allowedEpisodes = ['03', '05', '08', '10', '13', '15', '26', '35', '42', '47', '49', '50', '51', '55', '58', '67'];
 
         if (allowedEpisodes.includes(episodeNumber)) {
             document.querySelectorAll('.episode_nogi').forEach(function(button) {

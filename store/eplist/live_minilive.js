@@ -1,7 +1,8 @@
 document.write(`
 		<div class="scroll-container">
 			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="59"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive37.jpg"><div class="epsname">37th</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="67"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive38.jpg"><div class="epsname">38th</div><span class="epsbadgeNew"></span></div>
+				<div class="episodelist buttonEpsList" data-episode="59"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive37.jpg"><div class="epsname">37th</div></div>
 				<div class="episodelist buttonEpsList" data-episode="58"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive36.jpg"><div class="epsname">36th</div></div>				
 				<div class="episodelist buttonEpsList" data-episode="49"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive35.jpg"><div class="epsname">35th</div></div>
 				<div class="episodelist buttonEpsList" data-episode="47"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive34.jpg"><div class="epsname">34th</div></div>

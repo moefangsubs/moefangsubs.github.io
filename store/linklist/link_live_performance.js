@@ -70,6 +70,8 @@ const descEpisodeSynopsis = {
 	"64" : "Setelah 10 tahun, Nogizaka46 Daikanshasai yang terakhir digelar pada 2014 akhirnya kembali. Tahun ini, festival akan menampilkan kompetisi antar gundan yang baru dibentuk pada 2024 serta kebangkitan segmen populer \"Nogikoi Real\", eksklusif untuk Daikanshasai. Berbeda dari konser biasa, acara ini penuh dengan obrolan, tawa, permainan, dan tentu saja, ada penampilan beberapa lagu. Pada pertunjukan hari kedua, ada upacara kelulusan untuk Hazuki Mukai, yang telah mengumumkan kelulusannya.",
 	"65" : "Nogizaka46 menggelar 37th SG Under Live pada 30 Januari di Makuhari Messe, menampilkan lagu \"Sore Made no Yuuyo\" dari single ke-37. Konser 3 hari ini dipimpin oleh Tomisato Nao sebagai center, dengan berbagai pertunjukan spektakuler yang memukau penonton, termasuk konsep tanpa tarian dan solo performance yang menampilkan sisi baru setiap member. Sorotan utama adalah pidato emosional Tomisato yang mengungkapkan pertumbuhannya sebagai idol serta rasa terima kasihnya kepada member dan penggemar.",
 	"66" : "Dalam penampilan perdananya di acara \"Nogizaka46 Hatsu Hiro no Kai: Hajimemashite, 6-kisei desu\" pada 6 April di Yokohama, 11 member dari gen-6 Nogizaka46 memperkenalkan diri dengan penuh semangat dan menampilkan berbagai bakat unik, dari karate, cheer dance, hingga kaligrafi dan balet. Meski gugup, mereka berhasil mencuri hati penonton lewat debut live lagu \"Time Limit Kataomoi\" serta membawakan lagu-lagu ikonik seperti \"Seifuku no Mannequin\" dan \"Influencer\". Dengan dukungan meriah dari penggemar dan senpai terutama kapten dan wakil kapten sebagai MC, gen-6 resmi melangkah sebagai bagian baru Nogizaka46, membuka babak segar yang penuh harapan bagi masa depan grup.",
+	"67" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-38 \"Navel Orange\" ini dengan Mini live secara streaming. Sebuah single awal 2025 ini centernya adalah W-center, Inoue Nagi dan Nakanishi Aruno yang kembali menjadi center setelah single ke-29.",
+	
 };
 
 // =======================
@@ -144,6 +146,7 @@ const nameShow = {
 	"64" : "乃木坂46 大感謝祭 2024 DAY2",
 	"65" : "乃木坂46 37thSG アンダーライブ DAY3",
 	"66" : "乃⽊坂46 初披露の会 「はじめまして、6期生です」",
+	"67" : "乃木坂46 38thシングル「ネーブルオレンジ」発売記念ミニライブ",
 };
 console.log(nameShow);
 
@@ -219,6 +222,7 @@ const descEpisode = {
 	"64" : "| Nogizaka46 Daikanshasai 2024 DAY 2",
 	"65" : "| Nogizaka46 37thSG Underlive DAY 3",
 	"66" : "| Nogizaka46 First Performance \"Hajimemashite, 6kisei Desu\"",
+	"67" : "| Nogizaka46 Mini Live 38th Single \"Navel Orange\"",
 };
 console.log(descEpisode);
 
@@ -293,6 +297,7 @@ const descOnAirDate = {
 	"64" : "15 Desember 2024",
 	"65" : "30 Januari 2025",
 	"66" : "6 April 2025",
+	"67" : "17 April 2025",
 };
 console.log(descOnAirDate);
 
@@ -368,6 +373,7 @@ const memberParticipate = {
 	"64" : "乃木坂46 ",
 	"65" : "乃木坂46 ",
 	"66" : "乃木坂46 6期生、梅澤美波、菅原咲月",
+	"67" : "乃木坂46 ",
 };
 console.log(memberParticipate);
 
@@ -444,6 +450,7 @@ const imageThumbBig = {
 	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2.jpg",
 	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive.jpg",
 	"66" : "https://ik.imagekit.io/mLsKqNSuB/post/live/omitatekaigen6.jpg",
+	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38.jpg",
 };
 console.log(imageThumbBig);
 
@@ -519,6 +526,7 @@ const imageThumbA = {
 	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2a.jpg",
 	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-a.jpg",
 	"66" : "https://ik.imagekit.io/mLsKqNSuB/post/live/omitatekaigen6a.jpg",
+	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38a.jpg",
 };
 console.log(imageThumbA);
 
@@ -593,6 +601,7 @@ const imageThumbB = {
 	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2b.jpg",
 	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-b.jpg",
 	"66" : "https://ik.imagekit.io/mLsKqNSuB/post/live/omitatekaigen6b.jpg",
+	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38b.jpg",
 };
 console.log(imageThumbB);
 
@@ -667,6 +676,7 @@ const imageThumbC = {
 	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2c.jpg",
 	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-c.jpg",
 	"66" : "https://ik.imagekit.io/mLsKqNSuB/post/live/omitatekaigen6c.jpg",
+	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38c.jpg",
 };
 console.log(imageThumbC);
 
@@ -747,6 +757,7 @@ const imageThumbD = {
 	"64" : "https://ik.imagekit.io/mLsKqNSuB/post/live/daikanshasai2024-d2d.jpg",
 	"65" : "https://ik.imagekit.io/mLsKqNSuB/post/live/37thunderlive-d.jpg",
 	"66" : "https://ik.imagekit.io/mLsKqNSuB/post/live/omitatekaigen6d.jpg",
+	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38d.jpg",
 };
 console.log(imageThumbD);
 
@@ -822,6 +833,7 @@ const linkHardsub = {
 	"64" : "",
 	"65" : "",
 	"66" : "",
+	"67" : "https://sfl.gl/7LB87L",
 };
 console.log(linkHardsub);
 
@@ -897,6 +909,7 @@ const linkTrakteer = {
 	"64" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-daikanshasai-2024-s8e8G",
 	"65" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-37th-sg-underlive-h6uDk",
 	"66" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-first-performance-hajimemashite-6kisei-desu-UMEak",
+	"67" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-38th-single-navel-orange-vBuGE",
 };
 console.log(linkTrakteer);
 
@@ -972,6 +985,7 @@ const filePassword = {
 	"64" : "(tidak ada password)",
 	"65" : "(tidak ada password)",
 	"66" : "(tidak ada password)",
+	"67" : "(tidak ada password)",
 };
 console.log(filePassword);
 

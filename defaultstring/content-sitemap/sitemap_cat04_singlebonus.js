@@ -22,6 +22,7 @@ document.write(`
 			<a href="nogizaka46-bonus-35th-shinzanmono.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi35th.png"/><div class="button-text">35th Shinzanmono</div></a>
 			<a href="nogizaka46-bonus-36th-single-underlive.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi36th.png"/><div class="button-text">36th Bonus 35th Under Live</div></a>
 			<a href="nogizaka46-bonus-37th-single-live-in-hong-kong.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi37th.png"/><div class="button-text">37th Bonus ~Live in Hong Kong~</div></a>
+			<a href="nogizaka46-bonus-38th-single.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi38th.png"/><div class="button-text">38th Bonus</div></a>
 			<a href="nogizaka46-bonus-album-time-flies.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_timeflies.png"/><div class="button-text">Time Flies</div></a>
 			<a href="hinatazaka46-bonus-2nd-single.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_hinata2nd.png"/><div class="button-text">2nd First Time</div></a>
 		</div>

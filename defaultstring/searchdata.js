@@ -115,7 +115,12 @@ const searchData = {
     "Spicy Sessions": {
         "baseUrl": "spicy-sessions.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions",
-        "episodeRange": { "start": 1, "end": 4 }
+        "episodeRange": { "start": 1, "end": 5 }
+    },
+    "Ano Sakamichi o Nobotte Hanasou": {
+        "baseUrl": "ano-sakamichi-o-nobotte-hanasou.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/anosaka",
+        "episodeRange": { "start": 1, "end": 2 }
     },
 	
 // ~~~~~~~~~~~~~~~	
@@ -811,6 +816,23 @@ const searchData = {
             "04": "d.jpg",
         }
     },
+
+    "Nogizaka46 36th \"Navel Orange\" Single Bonus": {
+        "baseUrl": "nogizaka46-bonus-38th-single.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38",
+        "name": {
+            "01": "Type A '37thSG Underlive'",
+            "02": "Type B '37thSG Underlive'",
+            "03": "Type C '37thSG Underlive'",
+            "04": "Type D Behind the scene 'Natsukashisa no Saki'"
+        },
+        "thumbnail": {
+            "01": "under-a.jpg",
+            "02": "under-b.jpg",
+            "03": "under-c.jpg",
+            "04": "docu-d.jpg",
+        }
+    },
 	
     "Nogizaka46 \"Time flies\" Bonus": {
         "baseUrl": "nogizaka46-bonus-album-time-flies.html",
@@ -1134,6 +1156,11 @@ const searchData = {
 // ~~~ DRAMA
 // ~~~~~~~~~~~~~~~
 
+    "Madder (Ioki Mao)": {
+        "baseUrl": "madder.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/madder",
+        "episodeRange": { "start": 1, "end": 2 }
+    },
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/miren",
@@ -1635,6 +1662,11 @@ const searchData = {
 			"06" : "241009 NEKOJITA SHOWROOM (Inoue Nagi, Sugawara Satsuki)",
 			"07" : "241128 SHOWROOM (Kaki Haruka)",
 			"08" : "241202 SHOWROOM (Ichinose Miku)",
+			"09" : "250414 SHOWROOM (Setoguchi Mitsuki)",
+			"10" : "250415 SHOWROOM (Yada Moeka)",
+			"11" : "250416 SHOWROOM (Kaibe Akari)",
+			"12" : "250417 SHOWROOM (Nagashima Rio)",
+			"13" : "250418 SHOWROOM (Kawabata Hina)",
         },
         "thumbnail": {
 			"01" : "230302_SR-IkedaTeresa.jpg",
@@ -1645,6 +1677,11 @@ const searchData = {
 			"06" : "241009-NEKOJITA.jpg",
 			"07" : "241128_SR-KakiHaruka.jpg",
 			"08" : "241202_SR-IchinoseMiku.jpg",
+			"09" : "250414_SR-SetoguchiMitsuki.jpg",
+			"10" : "250415_SR-YadaMoeka.jpg",
+			"11" : "250416_SR-KaibeAkari.jpg",
+			"12" : "250417_SR-NagashimaRio.jpg",
+			"13" : "250418_SR-KawabataHina.jpg",
         }
     },
     "[RANDOM]": {
@@ -1829,6 +1866,7 @@ const searchData = {
 			"64": "241215 Nogizaka46 Daikanshasai 2024 DAY 2",
 			"65": "250130 Nogizaka46 37thSG Underlive DAY 3",
 			"66": "250406 Nogizaka46 First Performance \"Hajimemashite, 6kisei Desu\"",	
+            "67": "240321 Nogizaka46 Mini Live 38th Single \"Navel Orange\"",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1897,6 +1935,7 @@ const searchData = {
 			"64": "live_daikanshasai2024.jpg",
 			"65": "live_underlive37.jpg",
 			"66": "live_omitatekaigen6.jpg",
+            "67": "live_minilive38.jpg",
         }
     },
    "Nogizaka46 12th Birthday Live 10 Hour 123 Song One Day Live -Talk-": {

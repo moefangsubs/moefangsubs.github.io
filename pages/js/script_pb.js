@@ -50,6 +50,10 @@ const photobookData = [
         memberAge: {
 			jp: "22歳110日",
 			id: "22 Tahun 110 hari" },
+        groupAge: {
+			jp: "3年109日",
+			id: "3 Tahun 109 hari"
+		},	
         type: {
 			jp: "写真集",
 			id: "Photobook" },
@@ -82,6 +86,10 @@ const photobookData = [
         memberAge: {
 			jp: "22歳153日",
 			id: "22 Tahun 153 hari" },
+        groupAge: {
+			jp: "3年152日",
+			id: "3 Tahun 152 hari"
+		},	
         type: {
 			jp: "フォトブック",
 			id: "Photobook" },
@@ -109,6 +117,10 @@ const photobookData = [
         memberAge: {
 			jp: "20歳264日",
 			id: "20 Tahun 264 hari" },
+        groupAge: {
+			jp: "3年178日",
+			id: "3 Tahun 178 hari"
+		},	
         type: {
 			jp: "写真集",
 			id: "Photobook" },
@@ -147,6 +159,10 @@ const photobookData = [
 			jp: "22歳188日",
 			id: "22 tahun 188 hari"
 		},
+        groupAge: {
+			jp: "4年7日",
+			id: "4 Tahun 7 hari"
+		},	
         type: {
 			jp: "写真集",
 			id: "Photobook"
@@ -187,6 +203,10 @@ const photobookData = [
 		memberAge: {
 			jp: "18歳360日",
 			id: "18 tahun 360 hari"
+		},	
+        groupAge: {
+			jp: "4年150日",
+			id: "4 tahun 150 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -230,6 +250,10 @@ const photobookData = [
 		memberAge: {
 			jp: "20歳56日",
 			id: "20 tahun 56 hari"
+		},	
+        groupAge: {
+			jp: "4年183日",
+			id: "4 tahun 183 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -273,6 +297,10 @@ const photobookData = [
 		memberAge: {
 			jp: "25歳71日",
 			id: "25 tahun 71 hari"
+		},	
+        groupAge: {
+			jp: "4年289日",
+			id: "4 tahun 289 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -354,6 +382,10 @@ const photobookData = [
 		memberAge: {
 			jp: "22歳217日",
 			id: "22 tahun 217 hari"
+		},	
+        groupAge: {
+			jp: "5年25日",
+			id: "5 tahun 25 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -397,6 +429,10 @@ const photobookData = [
 		memberAge: {
 			jp: "22歳122日",
 			id: "22 tahun 122 hari"
+		},	
+        groupAge: {
+			jp: "5年36日",
+			id: "5 tahun 36 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -443,6 +479,10 @@ const photobookData = [
 		memberAge: {
 			jp: "18歳165日",
 			id: "18 tahun 165 hari"
+		},	
+        groupAge: {
+			jp: "5年154日",
+			id: "5 tahun 154 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -486,6 +526,10 @@ const photobookData = [
 		memberAge: {
 			jp: "24歳168日",
 			id: "24 tahun 168 hari"
+		},	
+        groupAge: {
+			jp: "5年167日",
+			id: "5 tahun 167 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -529,6 +573,10 @@ const photobookData = [
 		memberAge: {
 			jp: "24歳0日",
 			id: "24 tahun"
+		},	
+        groupAge: {
+			jp: "5年180日",
+			id: "5 tahun 180 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -573,6 +621,10 @@ const photobookData = [
 		memberAge: {
 			jp: "23歳188日",
 			id: "23 tahun 188 hari"
+		},	
+        groupAge: {
+			jp: "5年187日",
+			id: "5 tahun 187 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -615,6 +667,10 @@ const photobookData = [
 		memberAge: {
 			jp: "22歳290日",
 			id: "22 tahun 290 hari"
+		},	
+        groupAge: {
+			jp: "5年195日",
+			id: "5 tahun 195 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -657,6 +713,10 @@ const photobookData = [
 		memberAge: {
 			jp: "24歳112日",
 			id: "24 tahun 112 hari"
+		},	
+        groupAge: {
+			jp: "5年245日",
+			id: "5 tahun 245 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -699,6 +759,10 @@ const photobookData = [
 		memberAge: {
 			jp: "23歳131日",
 			id: "23 tahun 131 hari"
+		},	
+        groupAge: {
+			jp: "6年77日",
+			id: "6 tahun 77 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -741,7 +805,12 @@ const photobookData = [
 		memberAge: {
 			jp: "25歳293日",
 			id: "25 tahun 293 hari"
+		},	
+        groupAge: {
+			jp: "4年227日",
+			id: "4 tahun 227 hari"
 		},
+
 		type: {
 			jp: "写真集",
 			id: "Photobook"
@@ -783,6 +852,10 @@ const photobookData = [
 		memberAge: {
 			jp: "21歳39日",
 			id: "21 tahun 39 hari"
+		},	
+        groupAge: {
+			jp: "4年237日",
+			id: "4 tahun 237 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -826,7 +899,12 @@ const photobookData = [
 		memberAge: {
 			jp: "25歳105日",
 			id: "25 tahun 105 hari"
+		},	
+        groupAge: {
+			jp: "6年111日",
+			id: "6 tahun 111 hari"
 		},
+
 		type: {
 			jp: "写真集",
 			id: "Photobook"
@@ -870,6 +948,10 @@ const photobookData = [
 		memberAge: {
 			jp: "17歳231日",
 			id: "17 tahun 231 hari"
+		},	
+        groupAge: {
+			jp: "1年112日",
+			id: "1 tahun 112 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -918,6 +1000,10 @@ const photobookData = [
 		memberAge: {
 			jp: "22歳0日",
 			id: "22 tahun"
+		},	
+        groupAge: {
+			jp: "6年180日",
+			id: "6 tahun 180 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -960,6 +1046,10 @@ const photobookData = [
 		memberAge: {
 			jp: "20歳64日",
 			id: "20 tahun 64 hari"
+		},	
+        groupAge: {
+			jp: "6年230日",
+			id: "6 tahun 230 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1003,6 +1093,10 @@ const photobookData = [
 		memberAge: {
 			jp: "23歳344日",
 			id: "23 tahun 344 hari"
+		},	
+        groupAge: {
+			jp: "6年258日",
+			id: "6 tahun 258 hari"
 		},
 		type: {
 			jp: "フォトブック",
@@ -1041,10 +1135,6 @@ const photobookData = [
 			id: "Kodansha"
 		},
 		releaseDate: "2018-06-26",
-		memberAge: {
-			jp: "-",
-			id: "-"
-		},
 		type: {
 			jp: "グループ写真集",
 			id: "Group Photobook"
@@ -1078,6 +1168,10 @@ const photobookData = [
 		memberAge: {
 			jp: "23歳358日",
 			id: "23 tahun 358 hari"
+		},	
+        groupAge: {
+			jp: "7年111日",
+			id: "7 tahun 111 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1122,7 +1216,12 @@ const photobookData = [
 		memberAge: {
 			jp: "22歳160日",
 			id: "22 tahun 160 hari"
+		},	
+        groupAge: {
+			jp: "5年269日",
+			id: "5 tahun 269 hari"
 		},
+
 		type: {
 			jp: "写真集",
 			id: "Photobook"
@@ -1165,6 +1264,10 @@ const photobookData = [
 		memberAge: {
 			jp: "22歳0日",
 			id: "22 tahun"
+		},	
+        groupAge: {
+			jp: "7年151日",
+			id: "7 tahun 151 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1207,6 +1310,10 @@ const photobookData = [
 		memberAge: {
 			jp: "25歳18日",
 			id: "25 tahun 18 hari"
+		},	
+        groupAge: {
+			jp: "7年185日",
+			id: "7 tahun 185 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1251,6 +1358,10 @@ const photobookData = [
 		memberAge: {
 			jp: "25歳330日",
 			id: "25 tahun 330 hari"
+		},	
+        groupAge: {
+			jp: "7年300日",
+			id: "7 tahun 300 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1291,10 +1402,6 @@ const photobookData = [
 			id: "Kodansha"
 		},
 		releaseDate: "2019-12-17",
-		memberAge: {
-			jp: "-",
-			id: "-"
-		},
 		type: {
 			jp: "グループ写真集",
 			id: "Group Photobook"
@@ -1324,6 +1431,10 @@ const photobookData = [
 		memberAge: {
 			jp: "20歳176日",
 			id: "20 tahun 176 hari"
+		},	
+        groupAge: {
+			jp: "3年137日",
+			id: "3 tahun 137 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1368,6 +1479,10 @@ const photobookData = [
 		memberAge: {
 			jp: "19歳305日",
 			id: "19 tahun 305 hari"
+		},	
+        groupAge: {
+			jp: "3年186日",
+			id: "3 tahun 186 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1413,6 +1528,10 @@ const photobookData = [
 		memberAge: {
 			jp: "26歳229日",
 			id: "26 tahun 229 hari"
+		},	
+        groupAge: {
+			jp: "8年228日",
+			id: "8 tahun 228 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1458,6 +1577,10 @@ const photobookData = [
 		memberAge: {
 			jp: "23歳222日",
 			id: "23 tahun 222 hari"
+		},	
+        groupAge: {
+			jp: "7年59日",
+			id: "7 tahun 59 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1503,6 +1626,10 @@ const photobookData = [
 		memberAge: {
 			jp: "21歳263日",
 			id: "21 tahun 263 hari"
+		},	
+        groupAge: {
+			jp: "4年25日",
+			id: "4 tahun 25 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1547,6 +1674,10 @@ const photobookData = [
 		memberAge: {
 			jp: "26歳67日",
 			id: "26 tahun 67 hari"
+		},	
+        groupAge: {
+			jp: "9年52日",
+			id: "9 tahun 52 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1591,7 +1722,11 @@ const photobookData = [
 		memberAge: {
 			jp: "28歳69日",
 			id: "28 tahun 69 hari"
-		},
+		},	
+        // groupAge: {
+			// jp: "-",
+			// id: "-"
+		// },
 		type: {
 			jp: "ミニフォトブック",
 			id: "Mini Photobook"
@@ -1625,6 +1760,10 @@ const photobookData = [
 		memberAge: {
 			jp: "21歳245日",
 			id: "21 tahun 245 hari"
+		},	
+        groupAge: {
+			jp: "7年223日",
+			id: "7 tahun 223 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1669,6 +1808,10 @@ const photobookData = [
 		memberAge: {
 			jp: "24歳185日",
 			id: "24 tahun 185 hari"
+		},	
+        groupAge: {
+			jp: "8年23日",
+			id: "8 tahun 23 hari"
 		},
 		type: {
 			jp: "フォトブック",
@@ -1714,6 +1857,10 @@ const photobookData = [
 		memberAge: {
 			jp: "28歳316日",
 			id: "28 tahun 316 hari"
+		},	
+        groupAge: {
+			jp: "9年322日",
+			id: "9 tahun 322 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1759,6 +1906,10 @@ const photobookData = [
 		memberAge: {
 			jp: "21歳300日",
 			id: "21 tahun 300 hari"
+		},	
+        groupAge: {
+			jp: "8年153日",
+			id: "8 tahun 153 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1803,6 +1954,10 @@ const photobookData = [
 		memberAge: {
 			jp: "23歳47日",
 			id: "23 tahun 47 hari"
+		},	
+        groupAge: {
+			jp: "8年222日",
+			id: "8 tahun 222 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1847,7 +2002,11 @@ const photobookData = [
 		memberAge: {
 			jp: "24歳332日",
 			id: "24 tahun 332 hari"
-		},
+		},	
+        // groupAge: {
+			// jp: "-",
+			// id: "-"
+		// },
 		type: {
 			jp: "フォトブック",
 			id: "Photobook"
@@ -1892,6 +2051,10 @@ const photobookData = [
 		memberAge: {
 			jp: "30歳3日",
 			id: "30 tahun 3 hari"
+		},	
+        groupAge: {
+			jp: "8年298日",
+			id: "8 tahun 298 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1937,6 +2100,10 @@ const photobookData = [
 		memberAge: {
 			jp: "25歳202日",
 			id: "25 tahun 202 hari"
+		},	
+        groupAge: {
+			jp: "8年311日",
+			id: "8 tahun 311 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -1982,6 +2149,10 @@ const photobookData = [
 		memberAge: {
 			jp: "24歳72日",
 			id: "24 tahun 72 hari"
+		},	
+        groupAge: {
+			jp: "10年232日",
+			id: "10 tahun 232 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2027,6 +2198,10 @@ const photobookData = [
 		memberAge: {
 			jp: "20歳300日",
 			id: "20 tahun 300 hari"
+		},	
+        groupAge: {
+			jp: "3年289日",
+			id: "3 tahun 289 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2072,10 +2247,6 @@ const photobookData = [
 			id: "Kodansha"
 		},
 		releaseDate: "2023-01-24",
-		memberAge: {
-			jp: "-",
-			id: "-"
-		},
 		type: {
 			jp: "グループ写真集",
 			id: "Group Photobook"
@@ -2105,6 +2276,10 @@ const photobookData = [
 		memberAge: {
 			jp: "29歳181日",
 			id: "29 tahun 181 hari"
+		},	
+        groupAge: {
+			jp: "11年180日",
+			id: "11 tahun 180 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2151,10 +2326,14 @@ const photobookData = [
 			jp: "24歳283日",
 			id: "24 tahun 283 hari"
 		},
+        groupAge: {
+			jp: "11年272日",
+			id: "11 tahun 272 hari"
+		},
 		type: {
 			jp: "写真集",
 			id: "Photobook"
-		},
+		},	
 		location: {
 			jp: "アメリカ（ニューヨーク）",
 			id: "Amerika (New York)"
@@ -2199,7 +2378,12 @@ const photobookData = [
 		memberAge: {
 			jp: "21歳357日",
 			id: "21 tahun 357 hari"
+		},	
+        groupAge: {
+			jp: "6年307日",
+			id: "6 tahun 307 hari"
 		},
+
 		type: {
 			jp: "写真集",
 			id: "Photobook"
@@ -2244,6 +2428,10 @@ const photobookData = [
 		memberAge: {
 			jp: "24歳200日",
 			id: "24 tahun 200 hari"
+		},	
+        groupAge: {
+			jp: "4年343日",
+			id: "4 tahun 343 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2289,6 +2477,10 @@ const photobookData = [
 		memberAge: {
 			jp: "23歳5日",
 			id: "23 tahun 5 hari"
+		},	
+        groupAge: {
+			jp: "5年10日",
+			id: "5 tahun 10 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2334,6 +2526,10 @@ const photobookData = [
 		memberAge: {
 			jp: "22歳0日",
 			id: "22 tahun"
+		},	
+        groupAge: {
+			jp: "5年44日",
+			id: "5 tahun 44 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2375,10 +2571,6 @@ const photobookData = [
 			id: "Magazine House"
 		},
 		releaseDate: "2024-02-20",
-		memberAge: {
-			jp: "-",
-			id: "-"
-		},
 		type: {
 			jp: "グループ写真集",
 			id: "Group Photobook"
@@ -2424,6 +2616,10 @@ const photobookData = [
 			jp: "24歳268日",
 			id: "24 tahun 268 hari"
 		},
+        groupAge: {
+			jp: "7年229日",
+			id: "7 tahun 229 hari"
+		},
 		type: {
 			jp: "写真集",
 			id: "Photobook"
@@ -2431,7 +2627,7 @@ const photobookData = [
 		location: {
 			jp: "ハモサビーチ（米国カリフォルニア州）",
 			id: "Hermosa Beach (California, AS)"
-		},
+		},	
 		salesfirst: 79932,
 		note: {
 			jp: "カメラマン須江隆治の所属はSee",
@@ -2473,10 +2669,14 @@ const photobookData = [
 			jp: "22歳225日",
 			id: "22 tahun 225 hari"
 		},
+        groupAge: {
+			jp: "7年291日",
+			id: "7 tahun 291 hari"
+		},
 		type: {
 			jp: "写真集",
 			id: "Photobook"
-		},
+		},	
 		location: {
 			jp: "香港、マカオ",
 			id: "Hong Kong, Makau"
@@ -2517,6 +2717,10 @@ const photobookData = [
 		memberAge: {
 			jp: "25歳170日",
 			id: "25 tahun 170 hari"
+		},	
+        groupAge: {
+			jp: "5年334日",
+			id: "5 tahun 334 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2562,6 +2766,10 @@ const photobookData = [
 		memberAge: {
 			jp: "20歳287日",
 			id: "20 tahun 287 hari"
+		},	
+        groupAge: {
+			jp: "8年75日",
+			id: "8 tahun 75 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2607,6 +2815,10 @@ const photobookData = [
 		memberAge: {
 			jp: "19歳173日",
 			id: "19 tahun 173 hari"
+		},	
+        groupAge: {
+			jp: "2年350日",
+			id: "2 tahun 350 hari"
 		},
 		type: {
 			jp: "写真集",
@@ -2621,6 +2833,14 @@ const photobookData = [
 			jp: "5期生初の写真集。",
 			id: "Photobook pertama gen-5."
 		},
+		comment: {
+			jp: "未来は待っているものではない。自分が作るものだ。五百城茉央は、一歩ずつ、確実に夢に向かって歩いている。この写真集を手にした時、彼女が作ろうとしている未来が、ほんの少し見えたのはないだろうか？",
+			id: "Masa depan bukanlah sesuatu yang tinggal ditunggu. Masa depan adalah sesuatu yang kita ciptakan sendiri. Ioki Mao melangkah maju menuju mimpinya, setapak demi setapak, dengan pasti. Saat kamu memegang photobook ini, bukankah kamu bisa sedikit melihat masa depan yang sedang berusaha ia ciptakan?"
+		},
+		commentName: {
+			jp: "――秋元康――",
+			id: "――Akimoto Yasushi――"
+		},	
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-seven.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-rakuten.jpg",	
 		imageTsutaya: "https://ik.imagekit.io/moearchive/web/pbcover/mirai-no-tsukurikata-kinokuniya.jpg",	
@@ -2647,49 +2867,133 @@ const photobookData = [
 		},
         releaseDate: "2025-02-12",
         memberAge: {
-			jp: "22歳110日",
-			id: "22 Tahun 110 hari" },
+			jp: "24歳277日",
+			id: "24 Tahun 277 hari"
+		},	
+        groupAge: {
+			jp: "8年158日",
+			id: "8 tahun 158 hari"
+		},
         type: {
 			jp: "写真集",
-			id: "Photobook" },
+			id: "Photobook"
+		},
         location: {
 			jp: "オーストラリア",
-			id: "Australia" },
+			id: "Australia"
+		},
 		salesfirst: 82397,
+		comment: {
+			jp: "写真集のタイトルを考えて欲しいと頼まれた時は、ページをめくりながら思い浮かんだ言葉をいくつか提出する。 そして、本人に選んでもらうわけだが、与田祐希が『ヨーダ』を選ぶとはなあ。そんなセンスの彼女の魅力が溢れた写真集だと思う",
+			id: "Saat diminta untuk memikirkan judul photobook, biasanya saya sambil membalik-balik halamannya dan mengajukan beberapa kata yang terlintas di kepala. Lalu, orangnya sendiri yang akan memilih. Tapi, siapa sangka Yuki Yoda memilih 'Yoda'. Rasanya, photobook ini benar-benar penuh dengan pesona dan selera unik yang dimiliki olehnya."
+		},
+		commentName: {
+			jp: "――秋元康――",
+			id: "――Akimoto Yasushi――"
+		},	
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/n46-yoda-yooda-7net.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/n46-yoda-yooda-rakuten.jpg",	
 		imageKinokuniya: "https://ik.imagekit.io/moearchive/web/pbcover/n46-yoda-yooda-kinokuniya.jpg",
         download: "https://drive.google.com/file/d/1Jt1QLj0L8A4mKEzLHoMgbeIxF2vBnjEH/view?usp=drive_link"
     },
     {
-        image: "https://m.media-amazon.com/images/I/51yeVmRupZL.jpg",
+        image: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nagi-monologue.jpg",
 		count: "初",
         title: {
-			jp: "?????????",
-			id: "?????????" },
+			jp: "モノローグ",
+			id: "Monologue"
+		},
         name: {
 			jp: "井上 和",
-			id: "Inoue Nagi" },
+			id: "Inoue Nagi"
+		},
 		photographer: {
 			jp: "中村和孝",
-			id: "Nakamura Kazutaka" },
+			id: "Nakamura Kazutaka"
+		},
 		publisher: {
 			jp: "講談社",
-			id: "Kodansha" },
+			id: "Kodansha"
+		},
         releaseDate: "2025-04-22",
         memberAge: {
-			jp: "20歳64日",
-			id: "20 Tahun 64 hari" },
+			jp: "20歳65日",
+			id: "20 Tahun 65 hari"
+		},	
+        groupAge: {
+			jp: "3年81日",
+			id: "3 tahun 81 hari"
+		},
         type: {
 			jp: "写真集",
-			id: "Photobook" },
+			id: "Photobook"
+		},
         location: {
 			jp: "イタリア　サルディーニャ島&ローマ",
-			id: "Italia (Pulau Sardinia & Roma)" },
+			id: "Italia (Pulau Sardinia & Roma)"
+		},
 		// salesfirst: ,
-		// imageSevenNet: "",
-		// imageRakuten: "",	
-		// imageKinokuniya: "",
+		comment: {
+			jp: "井上和の心の中には、もう一人の井上和がいる。そして、この二人はいつも対話しながら、生きている。心の中から聞こえてくる声は、彼女の信念だ。",
+			id: "Di dalam hati Inoue Nagi, ada sosok Inoue Nagi yang lain. Kedua sosok ini selalu berdialog satu sama lain, berjalan bersama dalam hidupnya. Suara yang terdengar dari dalam hatinya itulah yang menjadi keyakinan dan prinsip hidupnya."
+		},
+		commentName: {
+			jp: "――秋元康――",
+			id: "――Akimoto Yasushi――"
+		},	
+		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nagi-monologue-7net.jpg",
+		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nagi-monologue-rakuten.jpg",	
+		imageTsutaya: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nagi-monologue-tsutaya.jpg",
+        // download: ""
+    },
+    {
+        image: "https://ik.imagekit.io/moearchive/web/pbcover/kanjou-no-sukima.jpg",
+		count: "初",
+        title: {
+			jp: "感情の隙間",
+			id: "Kanjou no Sukima"
+		},
+        name: {
+			jp: "筒井 あやめ",
+			id: "Tsutsui Ayame"
+		},
+		photographer: {
+			jp: "細居幸次郎",
+			id: "Hosoi Kojiro"
+		},
+		publisher: {
+			jp: "光文社",
+			id: "Kobunsha"
+		},
+        releaseDate: "2025-06-03",
+        memberAge: {
+			jp: "20歳356日",
+			id: "20 Tahun 356 hari"
+		},
+        groupAge: {
+			jp: "6年285日",
+			id: "6 Tahun 285 hari"
+		},		
+        type: {
+			jp: "写真集",
+			id: "Photobook"
+		},
+        location: {
+			jp: "スペイン（バルセロナ、ジローナ、マヨルカ島）",
+			id: "Spanyol (Barcelona, ​​​​Girona, Mallorca)"
+		},
+		// salesfirst: ,
+		comment: {
+			jp: "筒井あやめの表情は豊かだ。この写真集をめくってもらえば、わかるだろう。 カメラを向ける度に、新しい彼女が誕生する。 注目して欲しいのは、カメラ目線ではない時だ。 カメラの存在を忘れたその一瞬、彼女の感情の隙間が美しい。",
+			id: "Ekspresi Tsutsui Ayame begitu kaya. Kamu akan menyadarinya saat membalik halaman-halaman photobook ini. Setiap kali kamera diarahkan padanya, selalu lahir sosok baru darinya. Yang patut diperhatikan adalah saat dia tidak menatap ke arah kamera. Dalam sekejap ketika ia lupa akan keberadaan kamera, celah-celah emosinya justru tampak begitu indah."
+		},
+		commentName: {
+			jp: "――秋元康――",
+			id: "――Akimoto Yasushi――"
+		},	
+		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/kanjou-no-sukima-7net.jpg",
+		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/kanjou-no-sukima-rakuten.jpg",	
+		imageKinokuniya: "https://ik.imagekit.io/moearchive/web/pbcover/kanjou-no-sukima-kinokuniya.jpg",
         // download: ""
     },
     // {
@@ -2769,6 +3073,7 @@ function createPhotobook() {
         const hasSalesFirstWeek = item.salesfirst;
 		
         const hasMemberAge = item.memberAge?.id || item.memberAge?.jp;
+        const hasGroupAge = item.groupAge?.id || item.groupAge?.jp;
         const hasComment = item.comment?.id || item.comment?.jp || item.commentName?.id || item.commentName?.jp;
 
         // Cek apakah memiliki 7net, Rakuten, atau Kinokuniya
@@ -2833,6 +3138,13 @@ function createPhotobook() {
                         <span>
                             <p id="idn">${item.memberAge?.id || ''}</p>
                             <p id="jpn">${item.memberAge?.jp || ''}</p>
+                        </span>
+                    </div>
+                    <div style="display: ${hasGroupAge ? 'flex' : 'none'};">
+                        <span><p id="idn">Masa di Grup Saat Rilis</p><p id="jpn">在籍期間</p></span><span>:</span>
+                        <span>
+                            <p id="idn">${item.groupAge?.id || ''}</p>
+                            <p id="jpn">${item.groupAge?.jp || ''}</p>
                         </span>
                     </div>
                     <div>
