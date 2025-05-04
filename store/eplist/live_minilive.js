@@ -1,17 +1,38 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="67"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive38.jpg"><div class="epsname">38th</div><span class="epsbadgeNew"></span></div>
-				<div class="episodelist buttonEpsList" data-episode="59"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive37.jpg"><div class="epsname">37th</div></div>
-				<div class="episodelist buttonEpsList" data-episode="58"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive36.jpg"><div class="epsname">36th</div></div>				
-				<div class="episodelist buttonEpsList" data-episode="49"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive35.jpg"><div class="epsname">35th</div></div>
-				<div class="episodelist buttonEpsList" data-episode="47"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive34.jpg"><div class="epsname">34th</div></div>
-				<div class="episodelist buttonEpsList" data-episode="35"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive33.jpg"><div class="epsname">33rd</div></div>
-				<div class="episodelist buttonEpsList" data-episode="26"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive32.jpg"><div class="epsname">32nd</div></div>
-				<div class="episodelist buttonEpsList" data-episode="15"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive31.jpg"><div class="epsname">31st</div></div>
-				<div class="episodelist buttonEpsList" data-episode="13"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive30.jpg"><div class="epsname">30th</div></div>
-				<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive29.jpg"><div class="epsname">29th</div></div>
-				<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive28.jpg"><div class="epsname">28th</div></div>
-			</div>
-		</div>
-`);
+const episodes = [
+  { number: "67", name: "38th", thumbnail: "38.jpg" },
+  { number: "59", name: "37th", thumbnail: "37.jpg" },
+  { number: "58", name: "36th", thumbnail: "36.jpg" },
+  { number: "49", name: "35th", thumbnail: "35.jpg" },
+  { number: "47", name: "34th", thumbnail: "34.jpg" },
+  { number: "35", name: "33rd", thumbnail: "33.jpg" },
+  { number: "26", name: "32nd", thumbnail: "32.jpg" },
+  { number: "15", name: "31st", thumbnail: "31.jpg" },
+  { number: "13", name: "30th", thumbnail: "30.jpg" },
+  { number: "08", name: "29th", thumbnail: "29.jpg" },
+  { number: "05", name: "28th", thumbnail: "28.jpg" }
+];
+
+const update = 1; // Episode terbaru yang diberi badge "New" (Episode 67)
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((episode, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${episode.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_minilive${episode.thumbnail}">
+      <div class="epsname">${episode.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);
+

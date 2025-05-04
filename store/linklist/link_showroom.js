@@ -13,10 +13,17 @@ const descEpisodeSynopsis = {
 "07" : "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Kaki Haruka sebagai kamioshi-nya yang punya fansub ini.",
 "08" : "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Ichinose Miku sebagai oshi yang punya fansub ini di gen-5.",
 "09" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang pertama adalah Setoguchi Mitsuki.",
-"10" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Yada Moeka.",
-"11" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Kaibe Akari.",
-"12" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Nagashima Rio.",
-"13" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah Kawabata Hina.",
+"10" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Yada Moeka.",
+"11" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Kaibe Akari.",
+"12" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Nagashima Rio.",
+"13" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Kawabata Hina.",
+"14" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Okoshi Hinano.",
+"15" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Suzuki Yuuna.",
+"16" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Ozu Reina.",
+"17" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Atago Kokone.",
+"18" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang selanjutnya adalah dari Morihira Urumi.",
+"19" : "Rilisan khusus dari MoeFang kali ini adalah Nogiobi pertama kalinya gen-6. Yang terakhir adalah dari Masuda Mirine."
+
 };
 console.log(descEpisodeSynopsis);
 
@@ -38,6 +45,12 @@ const nameShow = {
 	"11" : "SHOWROOM のぎおび",
 	"12" : "SHOWROOM のぎおび",
 	"13" : "SHOWROOM のぎおび",
+	"14" : "SHOWROOM のぎおび",
+	"15" : "SHOWROOM のぎおび",
+	"16" : "SHOWROOM のぎおび",
+	"17" : "SHOWROOM のぎおび",
+	"18" : "SHOWROOM のぎおび",
+	"19" : "SHOWROOM のぎおび",
 };
 console.log(nameShow);
 
@@ -59,6 +72,13 @@ const descEpisode = {
 	"11" : "| 250416 NOGIOBI (Kaibe Akari)",
 	"12" : "| 250417 NOGIOBI (Nagashima Rio)",
 	"13" : "| 250418 NOGIOBI (Kawabata Hina)",
+	"14" : "| 250421 NOGIOBI (Okoshi Hinano)",
+	"15" : "| 250422 NOGIOBI (Suzuki Yuuna)",
+	"16" : "| 250423 NOGIOBI (Ozu Reina)",
+	"17" : "| 250424 NOGIOBI (Atago Kokone)",
+	"18" : "| 250425 NOGIOBI (Morihira Urumi)",
+	"19" : "| 250428 NOGIOBI (Masuda Mirine)",
+	
 };
 console.log(descEpisode);
 
@@ -80,6 +100,13 @@ const descOnAirDate = {
 	"11" : "16 April 2025",
 	"12" : "17 April 2025",
 	"13" : "18 April 2025",
+	"14" : "21 April 2025",
+	"15" : "22 April 2025",
+	"16" : "23 April 2025",
+	"17" : "24 April 2025",
+	"18" : "25 April 2025",
+	"19" : "28 April 2025"
+
   };
 console.log(descOnAirDate);
 
@@ -102,12 +129,12 @@ const memberParticipate = {
 	"11" : "海邉朱莉",
 	"12" : "長嶋凛桜",
 	"13" : "川端晃菜",
-	// "XX" : "愛宕心響",
-	// "XX" : "大越ひなの",
-	// "XX" : "小津玲奈",
-	// "XX" : "鈴木佑捺",
-	// "XX" : "増田三莉音",
-	// "XX" : "森平麗心",
+	"14" : "大越ひなの",
+	"15" : "鈴木佑捺",
+	"16" : "小津玲奈",
+	"17" : "愛宕心響",
+	"18" : "森平麗心",
+	"19" : "増田三莉音",
   };
 console.log(memberParticipate);
 
@@ -130,6 +157,13 @@ const imageThumbBig = {
 	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari.jpg",
 	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio.jpg",
 	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina.jpg",
+	"14" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250421_SR-OkoshiHinano.jpg",
+	"15" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250422_SR-SuzukiYuuna.jpg",
+	"16" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250423_SR-OzuReina.jpg",
+	"17" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250424_SR-AtagoKokone.jpg",
+	"18" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250425_SR-MorihiraUrumi.jpg",
+	"19" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250428_SR-MasudaMirine.jpg",
+
   };
 console.log(imageThumbBig);
 
@@ -152,6 +186,13 @@ const imageThumbA = {
 	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari1.jpg",
 	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio1.jpg",
 	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina1.jpg",
+	"14" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250421_SR-OkoshiHinano1.jpg",
+	"15" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250422_SR-SuzukiYuuna1.jpg",
+	"16" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250423_SR-OzuReina1.jpg",
+	"17" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250424_SR-AtagoKokone1.jpg",
+	"18" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250425_SR-MorihiraUrumi1.jpg",
+	"19" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250428_SR-MasudaMirine1.jpg",
+
   };
 console.log(imageThumbA);
 
@@ -172,7 +213,13 @@ const imageThumbB = {
 	"10" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250415_SR-YadaMoeka2.jpg",
 	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari2.jpg",
 	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio2.jpg",
-	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina2.jpg",
+	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina2.jpg",	
+	"14" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250421_SR-OkoshiHinano2.jpg",
+	"15" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250422_SR-SuzukiYuuna2.jpg",
+	"16" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250423_SR-OzuReina2.jpg",
+	"17" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250424_SR-AtagoKokone2.jpg",
+	"18" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250425_SR-MorihiraUrumi2.jpg",
+	"19" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250428_SR-MasudaMirine2.jpg",
   };
 console.log(imageThumbB);
 
@@ -193,7 +240,15 @@ const imageThumbC = {
 	"10" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250415_SR-YadaMoeka3.jpg",
 	"11" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250416_SR-KaibeAkari3.jpg",
 	"12" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250417_SR-NagashimaRio3.jpg",
-	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina3.jpg",
+	"13" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250418_SR-KawabataHina3.jpg",	
+	"14" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250421_SR-OkoshiHinano3.jpg",
+	"15" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250422_SR-SuzukiYuuna3.jpg",
+	"16" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250423_SR-OzuReina3.jpg",
+	"17" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250424_SR-AtagoKokone3.jpg",
+	"18" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250425_SR-MorihiraUrumi3.jpg",
+	"19" : "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250428_SR-MasudaMirine3.jpg"
+
+
   };
 console.log(imageThumbC);
 
@@ -220,6 +275,12 @@ const linkHardsub = {
 	"11" : "https://sfl.gl/sWAS",
 	"12" : "https://sfl.gl/45jQ8S",
 	"13" : "https://sfl.gl/BQFDhesR",
+	"14" : "https://sfl.gl/krlGo",
+	"15" : "https://sfl.gl/Fx4vnD",
+	"16" : "https://sfl.gl/FXvm",
+	"17" : "https://sfl.gl/qRbprA",
+	"18" : "https://sfl.gl/SGQ9",
+	"19" : "https://sfl.gl/S0X6ik",
   };
 console.log(linkHardsub);
 
@@ -239,6 +300,12 @@ const linkTrakteer = {
 	"11" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
 	"12" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
 	"13" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"14" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"15" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"16" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"17" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"18" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+	"19" : "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
   };
 console.log(linkTrakteer);
 
@@ -260,5 +327,11 @@ const subLanguage = {
 	"11" : "Bahasa Indonesia",
 	"12" : "Bahasa Indonesia",
 	"13" : "Bahasa Indonesia",
+	"14" : "Bahasa Indonesia",
+	"15" : "Bahasa Indonesia",
+	"16" : "Bahasa Indonesia",
+	"17" : "Bahasa Indonesia",
+	"18" : "Bahasa Indonesia",
+	"19" : "Bahasa Indonesia",
   };
 console.log(subLanguage);

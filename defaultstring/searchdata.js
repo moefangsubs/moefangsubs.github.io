@@ -29,6 +29,11 @@ const searchData = {
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/chounogistar-",
         "episodeRange": { "start": 1, "end": 80 }
     },
+    "Nogizaka Star Tanjou! SIX": {
+        "baseUrl": "nogizaka-star-tanjou-six.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/six",
+        "episodeRange": { "start": 1, "end": 1 }
+    },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-",
@@ -120,7 +125,7 @@ const searchData = {
     "Ano Sakamichi o Nobotte Hanasou": {
         "baseUrl": "ano-sakamichi-o-nobotte-hanasou.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/anosaka",
-        "episodeRange": { "start": 1, "end": 2 }
+        "episodeRange": { "start": 1, "end": 6 }
     },
 	
 // ~~~~~~~~~~~~~~~	
@@ -1159,7 +1164,7 @@ const searchData = {
     "Madder (Ioki Mao)": {
         "baseUrl": "madder.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/madder",
-        "episodeRange": { "start": 1, "end": 2 }
+        "episodeRange": { "start": 1, "end": 4 }
     },
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",
@@ -1667,6 +1672,12 @@ const searchData = {
 			"11" : "250416 SHOWROOM (Kaibe Akari)",
 			"12" : "250417 SHOWROOM (Nagashima Rio)",
 			"13" : "250418 SHOWROOM (Kawabata Hina)",
+			"14" : "250421 SHOWROOM (Okoshi Hinano)",
+			"15" : "250422 SHOWROOM (Suzuki Yuuna)",
+			"16" : "250423 SHOWROOM (Ozu Reina)",
+			"17" : "250424 SHOWROOM (Atago Kokone)",
+			"18" : "250425 SHOWROOM (Morihira Urumi)",
+			"19" : "250428 SHOWROOM (Masuda Mirine)",
         },
         "thumbnail": {
 			"01" : "230302_SR-IkedaTeresa.jpg",
@@ -1682,6 +1693,12 @@ const searchData = {
 			"11" : "250416_SR-KaibeAkari.jpg",
 			"12" : "250417_SR-NagashimaRio.jpg",
 			"13" : "250418_SR-KawabataHina.jpg",
+			"14" : "250421_SR-OkoshiHinano.jpg",
+			"15" : "250422_SR-SuzukiYuuna.jpg",
+			"16" : "250423_SR-OzuReina.jpg",
+			"17" : "250424_SR-AtagoKokone.jpg",
+			"18" : "250425_SR-MorihiraUrumi.jpg",
+			"19" : "250428_SR-MasudaMirine.jpg",
         }
     },
     "[RANDOM]": {

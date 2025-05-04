@@ -18,10 +18,10 @@ console.log(nameShow);
 const descEpisode = {
 "01" : "| Episode 1",
 "02" : "| Episode 2",
-// "03" : "| Episode 3",
-// "04" : "| Episode 4",
-// "05" : "| Episode 5",
-// "06" : "| Episode 6",
+"03" : "| Episode 3",
+"04" : "| Episode 4",
+"05" : "| Episode 5",
+"06" : "| Episode 6",
 // "07" : "| Episode 7",
 // "08" : "| Episode 8",
 // "09" : "| Episode 9",
@@ -37,6 +37,10 @@ console.log(descEpisode);
 const descOnAirDate = {
     "01": "17 April 2025",
     "02": "17 April 2025",
+    "03": "24 April 2025",
+    "04": "24 April 2025",
+    "05": "1 Mei 2025",
+    "06": "1 Mei 2025",
   };
 console.log(descOnAirDate);
 
@@ -118,10 +122,10 @@ console.log(imageThumbD);
 const linkHardsub = {
     "01": "https://sfl.gl/kFoftj",
     "02": "https://sfl.gl/vRyL5zg",
-    // "03": "",
-    // "04": "",
-    // "05": "",
-    // "06": "",
+    "03": "https://sfl.gl/2W9VeF",
+    "04": "https://sfl.gl/mmgH",
+    "05": "https://sfl.gl/wXBLPqWk",
+    "06": "https://sfl.gl/3MVXdu",
 	// "07": "",
 	// "08": "",
 	// "09": "",

@@ -1,10 +1,30 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38docu-d.jpg"><div class="epsname">Type D</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38under-c.jpg"><div class="epsname">Type C</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38under-b.jpg"><div class="epsname">Type B</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38under-a.jpg"><div class="epsname">Type A</div><span class="epsbadgeNew"></span></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "04", name: "Type D", thumbnail: "38docu-d.jpg" },
+  { number: "03", name: "Type C", thumbnail: "38under-c.jpg" },
+  { number: "02", name: "Type B", thumbnail: "38under-b.jpg" },
+  { number: "01", name: "Type A", thumbnail: "38under-a.jpg" }
+];
+
+const update = 1; // Episode terbaru yang diberi badge "New" (Episode 04)
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((episode, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${episode.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/${episode.thumbnail}">
+      <div class="epsname">${episode.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

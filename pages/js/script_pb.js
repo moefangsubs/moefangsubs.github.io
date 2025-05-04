@@ -2932,7 +2932,7 @@ const photobookData = [
 			jp: "イタリア　サルディーニャ島&ローマ",
 			id: "Italia (Pulau Sardinia & Roma)"
 		},
-		// salesfirst: ,
+		salesfirst: 92461,
 		comment: {
 			jp: "井上和の心の中には、もう一人の井上和がいる。そして、この二人はいつも対話しながら、生きている。心の中から聞こえてくる声は、彼女の信念だ。",
 			id: "Di dalam hati Inoue Nagi, ada sosok Inoue Nagi yang lain. Kedua sosok ini selalu berdialog satu sama lain, berjalan bersama dalam hidupnya. Suara yang terdengar dari dalam hatinya itulah yang menjadi keyakinan dan prinsip hidupnya."

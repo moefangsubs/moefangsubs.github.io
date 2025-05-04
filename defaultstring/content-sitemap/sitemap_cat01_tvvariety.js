@@ -7,10 +7,11 @@ document.write(`
 		<div class="button-container">		
 			<a href="nogizaka-skits-act-1.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiskits1.png"/><div class="button-text"><div class="stats complete"></div>NOGIZAKA SKITS</div></a>
 			<a href="nogizaka-skits-act-2.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiskits2.png"/><div class="button-text"><div class="stats complete"></div>NOGIZAKA SKITS ACT 2</div></a>
-			<a href="nogizaka-star-tanjou.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar1.png"/><div class="button-text"><div class="stats complete"></div>NOGIZAKA STAR TANJOU</div></a>
-			<a href="nogizaka-star-tanjou-2.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar2.png"/><div class="button-text"><div class="stats complete"></div>NOGIZAKA STAR TANJOU 2</div></a>
-			<a href="shin-nogizaka-star-tanjou.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar3.png"/><div class="button-text"><div class="stats complete"></div>SHIN-NOGIZAKA STAR TANJOU</div></a>
-			<a href="chou-nogizaka-star-tanjou.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar4.png"/><div class="button-text"><div class="stats progress"></div>CHOU-NOGIZAKA STAR TANJOU</div></a>
+			<a href="nogizaka-star-tanjou.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar1.png"/><div class="button-text"><div class="stats complete"></div>NOGIZAKA STAR TANJOU!</div></a>
+			<a href="nogizaka-star-tanjou-2.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar2.png"/><div class="button-text"><div class="stats complete"></div>NOGIZAKA STAR TANJOU! 2</div></a>
+			<a href="shin-nogizaka-star-tanjou.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar3.png"/><div class="button-text"><div class="stats complete"></div>SHIN-NOGIZAKA STAR TANJOU!</div></a>
+			<a href="chou-nogizaka-star-tanjou.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar4.png"/><div class="button-text"><div class="stats progress"></div>CHOU-NOGIZAKA STAR TANJOU!</div></a>
+			<a href="nogizaka-star-tanjou-six.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar6.png"/><div class="button-text"><div class="stats progress"></div>NOGIZAKA STAR TANJOU! SIX</div></a>
 			<a href="nogizaka-otameshichuu.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_otameshichuu2.png"/><div class="button-text"><div class="stats progress"></div>NOGIZAKA OTAMESHICHUU</div></a>
 			<a href="hinatazaka46-desu-chotto-ii-desu-ka.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hinachoi.png"/><div class="button-text"><div class="stats uncontie"></div>HINATAZAKA46 DESU. CHOTTO II DESU KA?</div></a>
 			<a href="sakura-meets.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_sakurameets.png"/><div class="button-text"><div class="stats done"></div>SAKURA MEETS</div></a>

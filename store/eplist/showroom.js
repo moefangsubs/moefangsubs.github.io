@@ -1,20 +1,45 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="13"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/250418_SR-KawabataHina.jpg"><div class="epsname">Kawabata Hina</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="12"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/250417_SR-NagashimaRio.jpg"><div class="epsname">Nagashima Rio</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="11"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/250416_SR-KaibeAkari.jpg"><div class="epsname">Kaibe Akari</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="10"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/250415_SR-YadaMoeka.jpg"><div class="epsname">Yada Moeka</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="09"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/250414_SR-SetoguchiMitsuki.jpg"><div class="epsname">Setoguchi Mitsuki</div><span class="epsbadgeNew"></span></div>
+const episodes = [
+  { number: "19", name: "Masuda Mirine", thumbnail: "250428_SR-MasudaMirine.jpg" },
+  { number: "18", name: "Morihira Urumi", thumbnail: "250425_SR-MorihiraUrumi.jpg" },
+  { number: "17", name: "Atago Kokone", thumbnail: "250424_SR-AtagoKokone.jpg" },
+  { number: "16", name: "Ozu Reina", thumbnail: "250423_SR-OzuReina.jpg" },
+  { number: "15", name: "Suzuki Yuuna", thumbnail: "250422_SR-SuzukiYuuna.jpg" },
+  { number: "14", name: "Okoshi Hinano", thumbnail: "250421_SR-OkoshiHinano.jpg" },
+  { number: "13", name: "Kawabata Hina", thumbnail: "250418_SR-KawabataHina.jpg" },
+  { number: "12", name: "Nagashima Rio", thumbnail: "250417_SR-NagashimaRio.jpg" },
+  { number: "11", name: "Kaibe Akari", thumbnail: "250416_SR-KaibeAkari.jpg" },
+  { number: "10", name: "Yada Moeka", thumbnail: "250415_SR-YadaMoeka.jpg" },
+  { number: "09", name: "Setoguchi Mitsuki", thumbnail: "250414_SR-SetoguchiMitsuki.jpg" },
+  { number: "08", name: "Ichinose Miku", thumbnail: "241202_SR-IchinoseMiku.jpg" },
+  { number: "07", name: "Kaki Haruka", thumbnail: "241128_SR-KakiHaruka.jpg" },
+  { number: "06", name: "Inoue, Sugawara", thumbnail: "241009-NEKOJITA.jpg" },
+  { number: "05", name: "Kaki, Ikeda, Ogawa", thumbnail: "240918-NEKOJITA.jpg" },
+  { number: "04", name: "Kaki Haruka", thumbnail: "240528_SR-KakiHaruka.jpeg" },
+  { number: "03", name: "Okuda Iroha", thumbnail: "230307_SR-OkudaIroha.jpg" },
+  { number: "02", name: "Ogawa Aya", thumbnail: "230303_SR-OgawaAya.jpg" },
+  { number: "01", name: "Ikeda Teresa", thumbnail: "230302_SR-IkedaTeresa.jpg" }
+];
 
-<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241202_SR-IchinoseMiku.jpg"><div class="epsname">Ichinose Miku</div></div>
-<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241128_SR-KakiHaruka.jpg"><div class="epsname">Kaki Haruka</div></div>
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241009-NEKOJITA.jpg"><div class="epsname">Inoue, Sugawara</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240918-NEKOJITA.jpg"><div class="epsname">Kaki, Ikeda, Ogawa</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240528_SR-KakiHaruka.jpeg"><div class="epsname">Kaki Haruka</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230307_SR-OkudaIroha.jpg"><div class="epsname">Okuda Iroha</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230303_SR-OgawaAya.jpg"><div class="epsname">Ogawa Aya</div></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230302_SR-IkedaTeresa.jpg"><div class="epsname">Ikeda Teresa</div></div>
-</div>
-</div>
-`);
+const update = 6; // Episode terbaru yang diberi badge "New" (Episode 14-19)
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((episode, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${episode.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/${episode.thumbnail}">
+      <div class="epsname">${episode.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

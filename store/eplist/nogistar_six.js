@@ -1,13 +1,8 @@
 const episodes = [
-  "06",
-  "05",
-  "04",
-  "03",
-  "02",
   "01"
 ];
 
-const update = 4;
+const update = 1;
 
 let html = `
   <div class="scroll-container">
@@ -17,7 +12,7 @@ let html = `
 episodes.forEach((num, index) => {
   html += `
     <div class="episodelist buttonEpsList" data-episode="${num}">
-      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/anosaka${num}.jpg">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/six${num}.jpg">
       <div class="epsname">Episode ${parseInt(num, 10)}</div>
       ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
     </div>
