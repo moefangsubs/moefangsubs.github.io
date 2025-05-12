@@ -9,6 +9,8 @@ const descEpisodeSynopsis = {
 	"03" : "Episode 3 Spicy Sessions menghadirkan Namioka Shintaro dan Oshima Maho dari Penthouse, band beranggotakan enam orang dengan dua vokalis utama. Dibentuk pada 2019 oleh Namioka Shintaro, lulusan Universitas Tokyo, band ini mengusung soundscape urban yang khas. Lima dari enam anggotanya adalah alumni Universitas Tokyo, dan banyak yang bekerja sebagai pegawai perusahaan sambil bermusik. Lagu mereka, \"Koi ni Ochitara\" dan \"Living Room\", memuncaki iTunes R&B Soul Ranking pada 2021. Tahun lalu, mereka merilis album \"Balcony\" dan sukses menggelar tur di lima kota besar Jepang. Pada 24 Januari 2024, mereka merilis single digital \"FRIDAY'S High!\".",
 	"04" : "Episode 4 kali ini menghadirkan penyanyi berbakat May J. sebagai bintang tamu, yang dikenal luas lewat suara emasnya dalam lagu tema versi Jepang film \"Ana to Yuki no Joou\" (Frozen) dan penampilannya di \"Kouhaku Uta Gassen\" 2014. Lahir pada tahun 1988 dari ayah Jepang dan ibu asal Iran, May J. tumbuh dalam lingkungan yang kental dengan pendidikan seni, memulai les piano dan balet sejak usia 3 tahun, serta vokal klasik sejak 8 tahun. Debut resminya terjadi pada 2006 dengan mini album \"All My Girls\", dan kini, setelah melahirkan anak pertamanya pada 2023, ia kembali aktif di dunia musik dengan merilis album orisinal terbarunya \"Aurora\" pada April 2024.",
 	"05" : "Episode kali ini Spicy Sessions mengundang bintang tamu Kawasaki Takaya, penyanyi dan penulis lagu asal Nasushiobara, Prefektur Tochigi. Lahir tahun 1995, Takaya pindah ke Tokyo usai lulus SMA pada 2014 untuk menimba ilmu di sekolah musik. Debut albumnya, \"I Believe in You\", dirilis pada 2018, dengan lagu \"Mahou no Juutan\" yang viral di media sosial pada 2020 dan kini telah diputar lebih dari 300 juta kali. Pada April tahun ini, ia kembali merilis single terbaru berjudul \"Stardust Memory\", dan terus menarik perhatian lintas generasi.",
+	"06": "Episode kali ini Spicy Sessions mengundang bintang tamu Ms. OOJA-san, penyanyi asal Prefektur Mie yang lahir pada tahun 1982. Setelah lulus SMA, ia bekerja sebagai penjaga toko pakaian di sebuah departemen store lokal, sambil memulai aktivitas bermusik di klub-klub skena Nagoya. Sekitar sepuluh tahun kemudian, di usia 28 tahun, ia debut major lewat single \"It's OK\". Setahun setelahnya, lagu tema drama TBS 'Renai Neet' yang berjudul \"Be...\" berhasil mencapai lebih dari 1 juta unduhan. Selain karya orisinal, lagu-lagu cover miliknya juga terus memikat banyak orang. Tahun 2024, Ms. OOJA-san menggelar konser luar negeri pertamanya di Tiongkok."
+
 };
 
 // =======================
@@ -45,6 +47,7 @@ const descOnAirDate = {
 "03" : "23 Maret 2024",
 "04" : "27 April 2024",
 "05" : "18 Mei 2024",
+"06" : "29 Juni 2024",
   };
 console.log(descOnAirDate);
 
@@ -58,6 +61,7 @@ const descSong1 = {
 	"03": "Penthouse『…恋に落ちたら』",
 	"04": "May J.『Sweetest Crime』",
 	"05": "川崎鷹也『Stardust Memory』",
+	"06": "Ms.OOJA『Be...』",
 };
 const descSong2 = {
 	"01": "Ray Charles『Georgia On My Mind』",
@@ -65,6 +69,7 @@ const descSong2 = {
 	"03": "Derek and the Dominos『Layla』 ",
 	"04": "宇多田ヒカル『First Love』",
 	"05": "HY『366日』",
+	"06": "中山美穂 & WANDS『世界中の誰よりきっと』",
 };
 const descSong3 = {
 	"01": "玉置浩二『ロマン』",
@@ -72,6 +77,7 @@ const descSong3 = {
 	"03": "DREAMS COME TRUE『やさしいキスをして』 ",
 	"04": "映画『Aladdin（アラジン）』より『A Whole New World』",
 	"05": "コブクロ『轍 -わだち-』 ",
+	"06": "TWICE『Feel Special』",
 };
 const descSong4 = {
 	"01": "ミュージカル『ムーラン・ルージュ』より『Come What May』 ",
@@ -79,6 +85,7 @@ const descSong4 = {
 	"03": "德永英明『壊れかけのRadio』",
 	"04": "Lionel Richie & Diana Ross『Endless Love』",
 	"05": "川崎鷹也『魔法の絨毯』",
+	"06": "黒沢薫『愛とは… duet with Ms.OOJA』",
 };
 const descSong5 = {
 	"01": "椎名林檎『丸の内サディスティック』",
@@ -86,8 +93,9 @@ const descSong5 = {
 	"03": "ミュージカル『Les Misérables（レ・ミゼラブル）』より『On My Own』 ",
 	"04": "コレサワ『たばこ』",
 	"05": "My Little Lover『Hello, Again ～昔からある場所～』 ",
+	"06": "ONE OK ROCK『Wherever you are』",
 };
-	
+
 // =======================
 // PARTISIPASI ORANG & TAMU
 // =======================
@@ -109,6 +117,7 @@ const additionalGuests = {
 	"03": "浪岡真太郎＆大島真帆（Penthouse）",
 	"04": "May J.",
 	"05": "川崎鷹也",
+	"06": "Ms. OOJA",
 };
 
 const guestArtis = {};

@@ -1,23 +1,42 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_rei.jpg"><div class="epsname">(A) Seimiya Rei</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_ayame.jpg"><div class="epsname">(A) Tsutsui Ayame</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_yakubo.jpg"><div class="epsname">(A) Yakubo Mio</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_yumiki.jpg"><div class="epsname">(A) Yumiki Nao</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_kaki.jpg"><div class="epsname">(B) Kaki Haruka [1]</div></div>
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_kaki.jpg"><div class="epsname">(B) Kaki Haruka [2]</div></div>
-<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_kitagawa.jpg"><div class="epsname">(B) Kitagawa Yuri</div></div>
-<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_kuromi.jpg"><div class="epsname">(B) Kuromi Haruka</div></div>
-<div class="episodelist buttonEpsList" data-episode="09"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_miyu.jpg"><div class="epsname">(B) Matsuo Miyu</div></div>
-<div class="episodelist buttonEpsList" data-episode="10"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_endo.jpg"><div class="epsname">(C) Endo Sakura</div></div>
-<div class="episodelist buttonEpsList" data-episode="11"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_yuna.jpg"><div class="epsname">(C) Shibata Yuna</div></div>
-<div class="episodelist buttonEpsList" data-episode="12"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_seira.jpg"><div class="epsname">(C) Hayakawa Seira</div></div>
-<div class="episodelist buttonEpsList" data-episode="13"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_runa.jpg"><div class="epsname">(C) Hayashi Runa</div></div>
-<div class="episodelist buttonEpsList" data-episode="14"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_kakehashi.jpg"><div class="epsname">(D) Kakehashi Sayaka</div></div>
-<div class="episodelist buttonEpsList" data-episode="15"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_kanagawa.jpg"><div class="epsname">(D) Kanagawa Saya</div></div>
-<div class="episodelist buttonEpsList" data-episode="16"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_rika.jpg"><div class="epsname">(D) Sato Rika</div></div>
-<div class="episodelist buttonEpsList" data-episode="17"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_26pv_tamura.jpg"><div class="epsname">(D) Tamura Mayu</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "01", thumbnail: "nogi_26pv_rei.jpg", name: "(A) Seimiya Rei" },
+  { number: "02", thumbnail: "nogi_26pv_ayame.jpg", name: "(A) Tsutsui Ayame" },
+  { number: "03", thumbnail: "nogi_26pv_yakubo.jpg", name: "(A) Yakubo Mio" },
+  { number: "04", thumbnail: "nogi_26pv_yumiki.jpg", name: "(A) Yumiki Nao" },
+  { number: "05", thumbnail: "nogi_26pv_kaki.jpg", name: "(B) Kaki Haruka [1]" },
+  { number: "06", thumbnail: "nogi_26pv_kaki.jpg", name: "(B) Kaki Haruka [2]" },
+  { number: "07", thumbnail: "nogi_26pv_kitagawa.jpg", name: "(B) Kitagawa Yuri" },
+  { number: "08", thumbnail: "nogi_26pv_kuromi.jpg", name: "(B) Kuromi Haruka" },
+  { number: "09", thumbnail: "nogi_26pv_miyu.jpg", name: "(B) Matsuo Miyu" },
+  { number: "10", thumbnail: "nogi_26pv_endo.jpg", name: "(C) Endo Sakura" },
+  { number: "11", thumbnail: "nogi_26pv_yuna.jpg", name: "(C) Shibata Yuna" },
+  { number: "12", thumbnail: "nogi_26pv_seira.jpg", name: "(C) Hayakawa Seira" },
+  { number: "13", thumbnail: "nogi_26pv_runa.jpg", name: "(C) Hayashi Runa" },
+  { number: "14", thumbnail: "nogi_26pv_kakehashi.jpg", name: "(D) Kakehashi Sayaka" },
+  { number: "15", thumbnail: "nogi_26pv_kanagawa.jpg", name: "(D) Kanagawa Saya" },
+  { number: "16", thumbnail: "nogi_26pv_rika.jpg", name: "(D) Sato Rika" },
+  { number: "17", thumbnail: "nogi_26pv_tamura.jpg", name: "(D) Tamura Mayu" }
+];
+
+const update =0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

@@ -1,14 +1,32 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-shoujo21.jpg"><div class="epsname">Episode 1</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-shoujo22.jpg"><div class="epsname">Episode 2</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-shoujo23.jpg"><div class="epsname">Episode 3</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-shoujo24.jpg"><div class="epsname">Episode 4</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-shoujo25.jpg"><div class="epsname">Episode 5</div></div>
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg"><div class="epsname">Extra - 山下</div></div>
-<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg"><div class="epsname">Extra - 久保</div></div>
-<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg"><div class="epsname">Extra - 大園</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "01", thumbnail: "nogikoi-shoujo21.jpg", name: "Episode 1" },
+  { number: "02", thumbnail: "nogikoi-shoujo22.jpg", name: "Episode 2" },
+  { number: "03", thumbnail: "nogikoi-shoujo23.jpg", name: "Episode 3" },
+  { number: "04", thumbnail: "nogikoi-shoujo24.jpg", name: "Episode 4" },
+  { number: "05", thumbnail: "nogikoi-shoujo25.jpg", name: "Episode 5" },
+  { number: "06", thumbnail: "nogikoi.jpg", name: "Extra - 山下" },
+  { number: "07", thumbnail: "nogikoi.jpg", name: "Extra - 久保" },
+  { number: "08", thumbnail: "nogikoi.jpg", name: "Extra - 大園" },
+];
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

@@ -1,8 +1,27 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/yakubonoheya4.jpg"><div class="epsname">Episode 4</div></div>
-				<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/yakubonoheya3.jpg"><div class="epsname">Episode 3</div></div>
-			</div>
-		</div>
-`);
+const episodes = [];
+for (let i = 4; i >= 3; i--) {
+  episodes.push(i.toString().padStart(2, "0"));
+}
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((num, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${num}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/yakubonoheya${parseInt(num, 10)}.jpg">
+      <div class="epsname">Episode ${parseInt(num, 10)}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

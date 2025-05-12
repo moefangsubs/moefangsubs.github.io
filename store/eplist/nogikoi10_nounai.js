@@ -1,25 +1,45 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Intro 齋藤</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Intro 星野</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Intro 山下</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Intro 遠藤</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-prologue.jpg"><div class="epsname">Prologue</div></div>
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-1.jpg"><div class="epsname">Episode 1</div></div>
-<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-2.jpg"><div class="epsname">Episode 2</div></div>
-<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-3.jpg"><div class="epsname">Episode 3</div></div>
-<div class="episodelist buttonEpsList" data-episode="09"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-4.jpg"><div class="epsname">Episode 4</div></div>
-<div class="episodelist buttonEpsList" data-episode="10"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Meeting Part 1</div></div>
-<div class="episodelist buttonEpsList" data-episode="11"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Meeting Part 2</div></div>
-<div class="episodelist buttonEpsList" data-episode="12"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Meeting Part 3</div></div>
-<div class="episodelist buttonEpsList" data-episode="13"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Individual</div></div>
-<div class="episodelist buttonEpsList" data-episode="14"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Confession 齋藤</div></div>
-<div class="episodelist buttonEpsList" data-episode="15"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Confession 星野</div></div>
-<div class="episodelist buttonEpsList" data-episode="16"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Confession 山下</div></div>
-<div class="episodelist buttonEpsList" data-episode="17"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Confession 遠藤</div></div>
-<div class="episodelist buttonEpsList" data-episode="18"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">Introduction</div></div>
-<div class="episodelist buttonEpsList" data-episode="19"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/noginounai-0.jpg"><div class="epsname">True End</div></div>
-</div>
-</div>
-`);
+
+const episodes = [
+  { number: "01", thumbnail: "nogikoi-noginounai-0.jpg", name: "Intro 齋藤" },
+  { number: "02", thumbnail: "nogikoi-noginounai-0.jpg", name: "Intro 星野" },
+  { number: "03", thumbnail: "nogikoi-noginounai-0.jpg", name: "Intro 山下" },
+  { number: "04", thumbnail: "nogikoi-noginounai-0.jpg", name: "Intro 遠藤" },
+  { number: "05", thumbnail: "nogikoi-noginounai-prologue.jpg", name: "Prologue" },
+  { number: "06", thumbnail: "nogikoi-noginounai-1.jpg", name: "Episode 1" },
+  { number: "07", thumbnail: "nogikoi-noginounai-2.jpg", name: "Episode 2" },
+  { number: "08", thumbnail: "nogikoi-noginounai-3.jpg", name: "Episode 3" },
+  { number: "09", thumbnail: "nogikoi-noginounai-4.jpg", name: "Episode 4" },
+  { number: "10", thumbnail: "nogikoi-noginounai-0.jpg", name: "Meeting Part 1" },
+  { number: "11", thumbnail: "nogikoi-noginounai-0.jpg", name: "Meeting Part 2" },
+  { number: "12", thumbnail: "nogikoi-noginounai-0.jpg", name: "Meeting Part 3" },
+  { number: "13", thumbnail: "nogikoi-noginounai-0.jpg", name: "Individual" },
+  { number: "14", thumbnail: "nogikoi-noginounai-0.jpg", name: "Confession 齋藤" },
+  { number: "15", thumbnail: "nogikoi-noginounai-0.jpg", name: "Confession 星野" },
+  { number: "16", thumbnail: "nogikoi-noginounai-0.jpg", name: "Confession 山下" },
+  { number: "17", thumbnail: "nogikoi-noginounai-0.jpg", name: "Confession 遠藤" },
+  { number: "18", thumbnail: "nogikoi-noginounai-0.jpg", name: "Introduction" },
+  { number: "19", thumbnail: "nogikoi-noginounai-0.jpg", name: "True End" }
+];
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

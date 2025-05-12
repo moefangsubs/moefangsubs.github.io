@@ -1,7 +1,26 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_timeflies_10nenayumi.jpg"><div class="epsname">10nen no Ayumi</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "01", thumbnail: "nogi_timeflies_10nenayumi.jpg", name: "10nen no Ayumi" }
+];
+
+const update =0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

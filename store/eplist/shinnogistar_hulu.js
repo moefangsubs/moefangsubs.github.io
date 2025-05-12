@@ -1,41 +1,60 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="35"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen35.jpg"><div class="epsname">Episode 35</div></div>
-<div class="episodelist buttonEpsList" data-episode="34"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen34.jpg"><div class="epsname">Episode 34</div></div>
-<div class="episodelist buttonEpsList" data-episode="33"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen33.jpg"><div class="epsname">Episode 33</div></div>
-<div class="episodelist buttonEpsList" data-episode="32"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen32.jpg"><div class="epsname">Episode 32</div></div>
-<div class="episodelist buttonEpsList" data-episode="31"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen31.jpg"><div class="epsname">Episode 31</div></div>
-<div class="episodelist buttonEpsList" data-episode="30"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen30.jpg"><div class="epsname">Episode 30</div></div>
-<div class="episodelist buttonEpsList" data-episode="29"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen29.jpg"><div class="epsname">Episode 29</div></div>
-<div class="episodelist buttonEpsList" data-episode="28"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen28.jpg"><div class="epsname">Episode 28</div></div>
-<div class="episodelist buttonEpsList" data-episode="27"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen27.jpg"><div class="epsname">Episode 27</div></div>
-<div class="episodelist buttonEpsList" data-episode="26"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen26.jpg"><div class="epsname">Episode 26</div></div>
-<div class="episodelist buttonEpsList" data-episode="25"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen25.jpg"><div class="epsname">Episode 25</div></div>
-<div class="episodelist buttonEpsList" data-episode="24"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen24.jpg"><div class="epsname">Episode 24</div></div>
-<div class="episodelist buttonEpsList" data-episode="23"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen23.jpg"><div class="epsname">Episode 23</div></div>
-<div class="episodelist buttonEpsList" data-episode="22"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen22.jpg"><div class="epsname">Episode 22</div></div>
-<div class="episodelist buttonEpsList" data-episode="21"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen21.jpg"><div class="epsname">Episode 21</div></div>
-<div class="episodelist buttonEpsList" data-episode="20"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen20.jpg"><div class="epsname">Episode 20</div></div>
-<div class="episodelist buttonEpsList" data-episode="19"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen19.jpg"><div class="epsname">Episode 19</div></div>
-<div class="episodelist buttonEpsList" data-episode="18"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen18.jpg"><div class="epsname">Episode 18</div></div>
-<div class="episodelist buttonEpsList" data-episode="17"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen17.jpg"><div class="epsname">Episode 17</div></div>
-<div class="episodelist buttonEpsList" data-episode="16"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen16.png"><div class="epsname">Episode 16</div></div>
-<div class="episodelist buttonEpsList" data-episode="15"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen15.jpg"><div class="epsname">Episode 15</div></div>
-<div class="episodelist buttonEpsList" data-episode="14"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen14.jpg"><div class="epsname">Episode 14</div></div>
-<div class="episodelist buttonEpsList" data-episode="13"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen13.jpg"><div class="epsname">Episode 13</div></div>
-<div class="episodelist buttonEpsList" data-episode="12"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen12.jpg"><div class="epsname">Episode 12</div></div>
-<div class="episodelist buttonEpsList" data-episode="11"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen11.jpg"><div class="epsname">Episode 11</div></div>
-<div class="episodelist buttonEpsList" data-episode="10"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen10.jpg"><div class="epsname">Episode 10</div></div>
-<div class="episodelist buttonEpsList" data-episode="09"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen9.jpg"><div class="epsname">Episode 9</div></div>
-<div class="episodelist buttonEpsList" data-episode="08"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen8.jpg"><div class="epsname">Episode 8</div></div>
-<div class="episodelist buttonEpsList" data-episode="07"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen7.jpg"><div class="epsname">Episode 7</div></div>
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen6.jpg"><div class="epsname">Episode 6</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen5.jpg"><div class="epsname">Episode 5</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen4.jpg"><div class="epsname">Episode 4</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen3.jpg"><div class="epsname">Episode 3</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen2.jpg"><div class="epsname">Episode 2</div></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick=applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen1.jpg"><div class="epsname">Episode 1</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "35", thumbnail: "35.jpg", name: "Episode 35" },
+  { number: "34", thumbnail: "34.jpg", name: "Episode 34" },
+  { number: "33", thumbnail: "33.jpg", name: "Episode 33" },
+  { number: "32", thumbnail: "32.jpg", name: "Episode 32" },
+  { number: "31", thumbnail: "31.jpg", name: "Episode 31" },
+  { number: "30", thumbnail: "30.jpg", name: "Episode 30" },
+  { number: "29", thumbnail: "29.jpg", name: "Episode 29" },
+  { number: "28", thumbnail: "28.jpg", name: "Episode 28" },
+  { number: "27", thumbnail: "27.jpg", name: "Episode 27" },
+  { number: "26", thumbnail: "26.jpg", name: "Episode 26" },
+  { number: "25", thumbnail: "25.jpg", name: "Episode 25" },
+  { number: "24", thumbnail: "24.jpg", name: "Episode 24" },
+  { number: "23", thumbnail: "23.jpg", name: "Episode 23" },
+  { number: "22", thumbnail: "22.jpg", name: "Episode 22" },
+  { number: "21", thumbnail: "21.jpg", name: "Episode 21" },
+  { number: "20", thumbnail: "20.jpg", name: "Episode 20" },
+  { number: "19", thumbnail: "19.jpg", name: "Episode 19" },
+  { number: "18", thumbnail: "18.jpg", name: "Episode 18" },
+  { number: "17", thumbnail: "17.jpg", name: "Episode 17" },
+  { number: "16", thumbnail: "16.png", name: "Episode 16" },
+  { number: "15", thumbnail: "15.jpg", name: "Episode 15" },
+  { number: "14", thumbnail: "14.jpg", name: "Episode 14" },
+  { number: "13", thumbnail: "13.jpg", name: "Episode 13" },
+  { number: "12", thumbnail: "12.jpg", name: "Episode 12" },
+  { number: "11", thumbnail: "11.jpg", name: "Episode 11" },
+  { number: "10", thumbnail: "10.jpg", name: "Episode 10" },
+  { number: "09", thumbnail: "9.jpg", name: "Episode 9" },
+  { number: "08", thumbnail: "8.jpg", name: "Episode 8" },
+  { number: "07", thumbnail: "7.jpg", name: "Episode 7" },
+  { number: "06", thumbnail: "6.jpg", name: "Episode 6" },
+  { number: "05", thumbnail: "5.jpg", name: "Episode 5" },
+  { number: "04", thumbnail: "4.jpg", name: "Episode 4" },
+  { number: "03", thumbnail: "3.jpg", name: "Episode 3" },
+  { number: "02", thumbnail: "2.jpg", name: "Episode 2" },
+  { number: "01", thumbnail: "1.jpg", name: "Episode 1" }
+];
+
+const update =0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/shinstartanjou_chousen${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

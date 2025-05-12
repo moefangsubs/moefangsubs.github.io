@@ -20,8 +20,7 @@ const episodes = [
   { number: "01", name: "Ikeda Teresa", thumbnail: "230302_SR-IkedaTeresa.jpg" }
 ];
 
-const update = 6; // Episode terbaru yang diberi badge "New" (Episode 14-19)
-
+const update = 6;
 let html = `
   <div class="scroll-container">
     <div class="imglist">

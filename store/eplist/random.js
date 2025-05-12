@@ -1,55 +1,75 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="49"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/250102_hodoukyou_bts.jpg"><div class="epsname">250102</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="48"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241109_haishinchuuhodoukyou.jpg"><div class="epsname">241109</div></div>
-<div class="episodelist buttonEpsList" data-episode="47"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/241102_anothersky_asuka.jpg"><div class="epsname">241102</div></div>
-<div class="episodelist buttonEpsList" data-episode="46"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240721_sumahoganai.jpg"><div class="epsname">240721</div></div>
-<div class="episodelist buttonEpsList" data-episode="45"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240103_waraidane.jpg"><div class="epsname">240103</div></div>
-<div class="episodelist buttonEpsList" data-episode="44"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240416_himutaro.jpg"><div class="epsname">240416</div></div>
-<div class="episodelist buttonEpsList" data-episode="43"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240223_himubus_fix.jpg"><div class="epsname">240223</div></div>
-<div class="episodelist buttonEpsList" data-episode="42"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/240218_zenkokuboroiiyado.jpg"><div class="epsname">240218</div></div>
-<div class="episodelist buttonEpsList" data-episode="41"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/231117_lalalife.jpg"><div class="epsname">231117</div></div>
-<div class="episodelist buttonEpsList" data-episode="40"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/231114_haishinchuumonopoly.jpg"><div class="epsname">231114</div></div>
-<div class="episodelist buttonEpsList" data-episode="39"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/231111_yonimo2023setorikangaete.jpg"><div class="epsname">231111</div></div>
-<div class="episodelist buttonEpsList" data-episode="38"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230902_doyounanisuru.jpg"><div class="epsname">230902</div></div>
-<div class="episodelist buttonEpsList" data-episode="37"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230627_bananasand.jpg"><div class="epsname">230627</div></div>
-<div class="episodelist buttonEpsList" data-episode="36"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230523_petitbrunch.jpg"><div class="epsname">230523</div></div>
-<div class="episodelist buttonEpsList" data-episode="35"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230516_petitbrunch.jpg"><div class="epsname">230516</div></div>
-<div class="episodelist buttonEpsList" data-episode="34"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230508_petitbrunch.jpg"><div class="epsname">230508</div></div>
-<div class="episodelist buttonEpsList" data-episode="33"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/230418_akitadeayanechannikikitai.jpg"><div class="epsname">230418</div></div>
-<div class="episodelist buttonEpsList" data-episode="32"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/221213_realsound.jpg"><div class="epsname">221213</div></div>
-<div class="episodelist buttonEpsList" data-episode="31"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/221130_petitbrunch.jpg"><div class="epsname">221130</div></div>
-<div class="episodelist buttonEpsList" data-episode="30"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/221123_petitbrunch.jpg"><div class="epsname">221123</div></div>
-<div class="episodelist buttonEpsList" data-episode="29"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/221105_cupstar_itv.jpg"><div class="epsname">221105</div></div>
-<div class="episodelist buttonEpsList" data-episode="28"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220618_yonimo2022melody.jpg"><div class="epsname">220618</div></div>
-<div class="episodelist buttonEpsList" data-episode="27"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220910_realsound.jpg"><div class="epsname">220910</div></div>
-<div class="episodelist buttonEpsList" data-episode="26"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220902_realsound.jpg"><div class="epsname">220902</div></div>
-<div class="episodelist buttonEpsList" data-episode="25"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220721_uratorechaimashita.jpg"><div class="epsname">220721</div></div>
-<div class="episodelist buttonEpsList" data-episode="24"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220728-yoda_yuuki_kanyuu.jpg"><div class="epsname">220728</div></div>
-<div class="episodelist buttonEpsList" data-episode="23"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220726_seventeen_kubo.jpg"><div class="epsname">220726</div></div>
-<div class="episodelist buttonEpsList" data-episode="22"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220715_disney_endo.jpg"><div class="epsname">220715</div></div>
-<div class="episodelist buttonEpsList" data-episode="21"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220707_suenaga_kakehashi.jpg"><div class="epsname">220707</div></div>
-<div class="episodelist buttonEpsList" data-episode="20"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220514_eigaongaku.jpg"><div class="epsname">220514</div></div>
-<div class="episodelist buttonEpsList" data-episode="19"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/210410_heyheyneo_skz.jpg"><div class="epsname">220410</div></div>
-<div class="episodelist buttonEpsList" data-episode="18"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/200331_sonotokicupstar.jpg"><div class="epsname">カップスター</div></div>
-<div class="episodelist buttonEpsList" data-episode="17"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/190506_lifeikuterika.jpg"><div class="epsname">190506</div></div>
-<div class="episodelist buttonEpsList" data-episode="16"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/219327_abema2ndgen.jpg"><div class="epsname">210327</div></div>
-<div class="episodelist buttonEpsList" data-episode="15"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/211211_marutto_saturday.jpg"><div class="epsname">211211</div></div>
-<div class="episodelist buttonEpsList" data-episode="14"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/210916_toppafile.jpg"><div class="epsname">210916</div></div>
-<div class="episodelist buttonEpsList" data-episode="13"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/211215_realsound.jpg"><div class="epsname">211215</div></div>
-<div class="episodelist buttonEpsList" data-episode="12"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/211031_hirumae_shibata.jpg"><div class="epsname">211031</div></div>
-<div class="episodelist buttonEpsList" data-episode="11"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/210625_sakagami_yoda.jpg"><div class="epsname">210625</div></div>
-<div class="episodelist buttonEpsList" data-episode="10"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/210825_suenaga_kakehashi.jpg"><div class="epsname">210825</div></div>
-<div class="episodelist buttonEpsList" data-episode="09"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/200707_suenaga_kakehashi.jpg"><div class="epsname">200707</div></div>
-<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/210809_cinemaaddict_nanase.jpg"><div class="epsname">210809</div></div>
-<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/201214_thegift_hikaru.jpg"><div class="epsname">201214</div></div>
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/200712_shinigami.jpg"><div class="epsname">死神遣いの事件帖</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/161013_kyodoki_nanami.jpg"><div class="epsname">161013</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/180827_natsu_omoide.jpg"><div class="epsname">180827</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/170217_showroom_nanami.jpg"><div class="epsname">170217</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/191124_sorakibun.jpg"><div class="epsname">191124</div></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/190308_anothersky_asuka.jpg"><div class="epsname">190308</div></div>
-</div>
-</div>
-`);
+const episodes = [
+	{ number: "49", thumbnail: "250102_hodoukyou_bts.jpg", name: "250102" },
+	{ number: "48", thumbnail: "241109_haishinchuuhodoukyou.jpg", name: "241109" },
+	{ number: "47", thumbnail: "241102_anothersky_asuka.jpg", name: "241102" },
+	{ number: "46", thumbnail: "240721_sumahoganai.jpg", name: "240721" },
+	{ number: "45", thumbnail: "240103_waraidane.jpg", name: "240103" },
+	{ number: "44", thumbnail: "240416_himutaro.jpg", name: "240416" },
+	{ number: "43", thumbnail: "240223_himubus_fix.jpg", name: "240223" },
+	{ number: "42", thumbnail: "240218_zenkokuboroiiyado.jpg", name: "240218" },
+	{ number: "41", thumbnail: "231117_lalalife.jpg", name: "231117" },
+	{ number: "40", thumbnail: "231114_haishinchuumonopoly.jpg", name: "231114" },
+	{ number: "39", thumbnail: "231111_yonimo2023setorikangaete.jpg", name: "231111" },
+	{ number: "38", thumbnail: "230902_doyounanisuru.jpg", name: "230902" },
+	{ number: "37", thumbnail: "230627_bananasand.jpg", name: "230627" },
+	{ number: "36", thumbnail: "230523_petitbrunch.jpg", name: "230523" },
+	{ number: "35", thumbnail: "230516_petitbrunch.jpg", name: "230516" },
+	{ number: "34", thumbnail: "230508_petitbrunch.jpg", name: "230508" },
+	{ number: "33", thumbnail: "230418_akitadeayanechannikikitai.jpg", name: "230418" },
+	{ number: "32", thumbnail: "221213_realsound.jpg", name: "221213" },
+	{ number: "31", thumbnail: "221130_petitbrunch.jpg", name: "221130" },
+	{ number: "30", thumbnail: "221123_petitbrunch.jpg", name: "221123" },
+	{ number: "29", thumbnail: "221105_cupstar_itv.jpg", name: "221105" },
+	{ number: "28", thumbnail: "220618_yonimo2022melody.jpg", name: "220618" },
+	{ number: "27", thumbnail: "220910_realsound.jpg", name: "220910" },
+	{ number: "26", thumbnail: "220902_realsound.jpg", name: "220902" },
+	{ number: "25", thumbnail: "220721_uratorechaimashita.jpg", name: "220721" },
+	{ number: "24", thumbnail: "220728-yoda_yuuki_kanyuu.jpg", name: "220728" },
+	{ number: "23", thumbnail: "220726_seventeen_kubo.jpg", name: "220726" },
+	{ number: "22", thumbnail: "220715_disney_endo.jpg", name: "220715" },
+	{ number: "21", thumbnail: "220707_suenaga_kakehashi.jpg", name: "220707" },
+	{ number: "20", thumbnail: "220514_eigaongaku.jpg", name: "220514" },
+	{ number: "19", thumbnail: "210410_heyheyneo_skz.jpg", name: "220410" },
+	{ number: "18", thumbnail: "200331_sonotokicupstar.jpg", name: "カップスター" },
+	{ number: "17", thumbnail: "190506_lifeikuterika.jpg", name: "190506" },
+	{ number: "16", thumbnail: "219327_abema2ndgen.jpg", name: "210327" },
+	{ number: "15", thumbnail: "211211_marutto_saturday.jpg", name: "211211" },
+	{ number: "14", thumbnail: "210916_toppafile.jpg", name: "210916" },
+	{ number: "13", thumbnail: "211215_realsound.jpg", name: "211215" },
+	{ number: "12", thumbnail: "211031_hirumae_shibata.jpg", name: "211031" },
+	{ number: "11", thumbnail: "210625_sakagami_yoda.jpg", name: "210625" },
+	{ number: "10", thumbnail: "210825_suenaga_kakehashi.jpg", name: "210825" },
+	{ number: "09", thumbnail: "200707_suenaga_kakehashi.jpg", name: "200707" },
+	{ number: "08", thumbnail: "210809_cinemaaddict_nanase.jpg", name: "210809" },
+	{ number: "07", thumbnail: "201214_thegift_hikaru.jpg", name: "201214" },
+	{ number: "06", thumbnail: "200712_shinigami.jpg", name: "死神遣いの事件帖" },
+	{ number: "05", thumbnail: "161013_kyodoki_nanami.jpg", name: "161013" },
+	{ number: "04", thumbnail: "180827_natsu_omoide.jpg", name: "180827" },
+	{ number: "03", thumbnail: "170217_showroom_nanami.jpg", name: "170217" },
+	{ number: "02", thumbnail: "191124_sorakibun.jpg", name: "191124" },
+	{ number: "01", thumbnail: "190308_anothersky_asuka.jpg", name: "190308" },
+];
+
+const update = 1;
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

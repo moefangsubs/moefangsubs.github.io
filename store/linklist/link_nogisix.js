@@ -28,6 +28,7 @@ console.log(descEpisode);
 
 const descOnAirDate = {
 	"01": "28 April 2025",
+	"02": "5 Mei 2025",
 };
 console.log(descOnAirDate);
 
@@ -37,6 +38,7 @@ console.log(descOnAirDate);
 
 const descSong1 = {
 	"01": "いきものがかり 「じょいふる」",
+	"02": "ポルノグラフィティ 「メリッサ」",
 };
 
 // =======================
@@ -45,6 +47,7 @@ const descSong1 = {
 
 const descSong2 = {
 	"01": "絢香 「にじいろ」",
+	"02": "松たか子 「明日、春が来たら」",
 };
 
 
@@ -54,6 +57,7 @@ const descSong2 = {
 
 const descSong3 = {
 	"01": "平原綾香 「Jupiter」",
+	"02": "竹内まりや 「いのちの歌」",
 };
 
 
@@ -63,6 +67,7 @@ const descSong3 = {
 
 const memberParticipate = {
 	"01": "乃木坂46 6期生、久保史緒里",
+	"02": "乃木坂46 6期生、井上和",
 };
 
 console.log(memberParticipate);
@@ -136,6 +141,7 @@ const linkHardsub = {
 
 const linkSoftsub = {
 	"01" : "https://sfl.gl/vromf",
+	"02" : "https://sfl.gl/JzRW3",
 };
 
 // =======================

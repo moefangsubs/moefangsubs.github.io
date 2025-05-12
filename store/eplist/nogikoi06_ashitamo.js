@@ -1,10 +1,29 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-maiyan.jpg"><div class="epsname">Shiraishi Mai (Sweet)</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-maiyan.jpg"><div class="epsname">Shiraishi Mai (Bitter)</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-ikuchan.jpg"><div class="epsname">Ikuta Erika (Sweet)</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-ikuchan.jpg"><div class="epsname">Ikuta Erika (Bitter)</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "01", thumbnail: "nogikoi-ashitamo-maiyan.jpg", name: "Shiraishi Mai (Sweet)" },
+  { number: "02", thumbnail: "nogikoi-ashitamo-maiyan.jpg", name: "Shiraishi Mai (Bitter)" },
+  { number: "03", thumbnail: "nogikoi-ashitamo-ikuchan.jpg", name: "Ikuta Erika (Sweet)" },
+  { number: "04", thumbnail: "nogikoi-ashitamo-ikuchan.jpg", name: "Ikuta Erika (Bitter)" }
+];
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/nogikoi/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

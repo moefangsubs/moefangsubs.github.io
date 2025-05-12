@@ -1,9 +1,27 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
+const episodes = [
+  { number: "04", thumbnail: "nogi_30manatsu_a.jpg", name: "(A) Natsu Gakkyoku-hen~" },
+  { number: "13", thumbnail: "nogi_30manatsu_d.jpg", name: "(D) ~Zentai Gakkyoku-hen~" }
+];
 
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_30manatsu_a.jpg"><div class="epsname">(A) Natsu Gakkyoku-hen~</div></div>
-<div class="episodelist buttonEpsList" data-episode="13"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_30manatsu_d.jpg"><div class="epsname">(D) ~Zentai Gakkyoku-hen~</div></div>
-</div>
-</div>
-`);
+const update =0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

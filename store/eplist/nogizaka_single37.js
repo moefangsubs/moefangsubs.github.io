@@ -1,10 +1,29 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_37hongkong-d.jpg"><div class="epsname">Type D</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_37hongkong-c.jpg"><div class="epsname">Type C</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_37hongkong-b.jpg"><div class="epsname">Type B</div><span class="epsbadgeNew"></span></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_37hongkong-a.jpg"><div class="epsname">Type A</div><span class="epsbadgeNew"></span></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "04", label: "Type D", thumbnail: "d.jpg" },
+  { number: "03", label: "Type C", thumbnail: "c.jpg" },
+  { number: "02", label: "Type B", thumbnail: "b.jpg" },
+  { number: "01", label: "Type A", thumbnail: "a.jpg" }
+];
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_37hongkong-${ep.thumbnail}">
+      <div class="epsname">${ep.label}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

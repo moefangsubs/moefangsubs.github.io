@@ -1,7 +1,27 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220401_renkayononaka.jpg"><div class="epsname">Movie</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "01", name: "Movie", thumbnail: "220401_renkayononaka.jpg" }
+];
+
+const update = 0; // Jumlah episode terbaru yang diberi badge "New" (misalnya hanya episode 01)
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

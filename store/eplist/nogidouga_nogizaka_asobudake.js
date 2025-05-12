@@ -1,16 +1,34 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="50b"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake50b.jpg"><div class="epsname">Episode 50 後編</div></div>
-				<div class="episodelist buttonEpsList" data-episode="50a"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake50a.jpg"><div class="epsname">Episode 50 前編</div></div>
-				<div class="episodelist buttonEpsList" data-episode="49"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake49.jpg"><div class="epsname">Episode 49</div></div>
-				<div class="episodelist buttonEpsList" data-episode="48"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake48.jpg"><div class="epsname">Episode 48</div></div>
-				<div class="episodelist buttonEpsList" data-episode="47"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake47.jpg"><div class="epsname">Episode 47</div></div>
-				
-				<div class="episodelist buttonEpsList" data-episode="44b"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake44b.jpg"><div class="epsname">Episode 44 後編</div></div>
-				<div class="episodelist buttonEpsList" data-episode="44a"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake44a.jpg"><div class="epsname">Episode 44 前編</div></div>
-				<div class="episodelist buttonEpsList" data-episode="18"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake18.jpg"><div class="epsname">Episode 18</div></div>
-				<div class="episodelist buttonEpsList" data-episode="17"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake17.jpg"><div class="epsname">Episode 17</div></div>
-			</div>
-		</div>
-`);
+const episodes = [
+  { eps: "50b", label: "Episode 50 後編" },
+  { eps: "50a", label: "Episode 50 前編" },
+  { eps: "49",  label: "Episode 49" },
+  { eps: "48",  label: "Episode 48" },
+  { eps: "47",  label: "Episode 47" },
+  { eps: "44b", label: "Episode 44 後編" },
+  { eps: "44a", label: "Episode 44 前編" },
+  { eps: "18",  label: "Episode 18" },
+  { eps: "17",  label: "Episode 17" }
+];
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.eps}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/asobudake${ep.eps}.jpg">
+      <div class="epsname">${ep.label}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

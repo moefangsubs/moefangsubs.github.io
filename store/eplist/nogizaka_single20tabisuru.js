@@ -1,12 +1,31 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_20tabi_06.jpg"><div class="epsname">Yamaguchi</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_20tabi_03.jpg"><div class="epsname">Aomori</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_20tabi_05.jpg"><div class="epsname">Kyoto</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_20tabi_02.jpg"><div class="epsname">Kochi</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_20tabi_04.jpg"><div class="epsname">Matsusaka</div></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_20tabi_01.jpg"><div class="epsname">Kanazawa</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "06", thumbnail: "nogi_20tabi_06.jpg", name: "Yamaguchi" },
+  { number: "05", thumbnail: "nogi_20tabi_03.jpg", name: "Aomori" },
+  { number: "04", thumbnail: "nogi_20tabi_05.jpg", name: "Kyoto" },
+  { number: "03", thumbnail: "nogi_20tabi_02.jpg", name: "Kochi" },
+  { number: "02", thumbnail: "nogi_20tabi_04.jpg", name: "Matsusaka" },
+  { number: "01", thumbnail: "nogi_20tabi_01.jpg", name: "Kanazawa" }
+];
+
+const update =0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

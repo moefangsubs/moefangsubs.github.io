@@ -5,8 +5,7 @@ const episodes = [
   { number: "01", name: "Type A", thumbnail: "38under-a.jpg" }
 ];
 
-const update = 1; // Episode terbaru yang diberi badge "New" (Episode 04)
-
+const update = 0;
 let html = `
   <div class="scroll-container">
     <div class="imglist">
@@ -15,7 +14,7 @@ let html = `
 episodes.forEach((episode, index) => {
   html += `
     <div class="episodelist buttonEpsList" data-episode="${episode.number}">
-      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/${episode.thumbnail}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/bonus/nogi_${episode.thumbnail}">
       <div class="epsname">${episode.name}</div>
       ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
     </div>
