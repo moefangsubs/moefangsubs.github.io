@@ -133,6 +133,7 @@ console.log(imageThumbD);
 
 const linkHardsub = {
 	"01" : "https://sfl.gl/PhUz4W",
+	"02" : "https://sfl.gl/JzRW3",
 };
 
 // =======================
@@ -141,7 +142,7 @@ const linkHardsub = {
 
 const linkSoftsub = {
 	"01" : "https://sfl.gl/vromf",
-	"02" : "https://sfl.gl/JzRW3",
+	"02" : "https://sfl.gl/z6uZ1VQj",
 };
 
 // =======================
