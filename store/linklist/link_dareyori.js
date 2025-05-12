@@ -93,7 +93,7 @@ console.log(linkHardsub);
 
 
 const linkTrakteer = {
-"01" : "https://trakteer.id/moefangsubs/showcase/shiawase-nante-nakereba-ii-no-ni-2024-CgGSB",
+"01" : "https://trakteer.id/moefangsubs/showcase/dare-yori-mo-tsuyoku-dakishimete-ZtJWH",
 };
 console.log(linkTrakteer);
 
