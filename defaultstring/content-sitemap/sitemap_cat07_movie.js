@@ -5,6 +5,7 @@ document.write(`
 	<div class="category-flex">
 		<span class="st-categorytitle">Movie<span>
 		<div class="button-container">
+			<a href="dare-yori-mo-tsuyoku-dakishimete.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_dareyori.png"/><div class="button-text">DARE YORI MO TSUYOKU DAKISHIMETE</div></a>
 			<a href="shinmai-kisha-torokko.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_torokko.png"/><div class="button-text">SHINMAI KISHA TOROKKO WATASHI GA YARANEBA DARE GA YARU!</div></a>
 			<a href="shiawase-nakereba.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_shiawasenakereba.png"/><div class="button-text">SHIAWASE NANTE, NAKEREBA II NO NI.</div></a>
 			<a href="sayounara-konbanwa.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_sayounarakonbanwa.png"/><div class="button-text">SAYOUNARA KONBANWA</div></a>

@@ -1,17 +1,37 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="46"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi12bdl-4.jpg"><div class="epsname">BDL 12 DAY 4</div></div>
-				<div class="episodelist buttonEpsList" data-episode="45"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi12bdl-3.jpg"><div class="epsname">BDL 12 DAY 3</div></div>
-				<div class="episodelist buttonEpsList" data-episode="44"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi12bdl-2.jpg"><div class="epsname">BDL 12 DAY 2</div></div>
-				<div class="episodelist buttonEpsList" data-episode="43"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi12bdl-1.jpg"><div class="epsname">BDL 12 DAY 1</div></div>
-				<div class="episodelist buttonEpsList" data-episode="20"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi11bdl-5.jpg"><div class="epsname">BDL 11 DAY 5</div></div>
-				<div class="episodelist buttonEpsList" data-episode="19"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi11bdl-4.jpg"><div class="epsname">BDL 11 DAY 4</div></div>
-				<div class="episodelist buttonEpsList" data-episode="18"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi11bdl-3.jpg"><div class="epsname">BDL 11 DAY 3</div></div>
-				<div class="episodelist buttonEpsList" data-episode="17"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi11bdl-2.jpg"><div class="epsname">BDL 11 DAY 2</div></div>
-				<div class="episodelist buttonEpsList" data-episode="16"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi11bdl-1.jpg"><div class="epsname">BDL 11 DAY 1</div></div>
-				<div class="episodelist buttonEpsList" data-episode="11"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi1bdl.jpg"><div class="epsname">BDL 1</div></div>
-				<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogi10bdlday2.jpg"><div class="epsname">BDL 10 DAY 2</div></div>
-			</div>
-		</div>
-`);
+const episodes = [
+  { number: "46", thumbnail: "live_nogi12bdl-4.jpg", name: "BDL 12 DAY 4" },
+  { number: "45", thumbnail: "live_nogi12bdl-3.jpg", name: "BDL 12 DAY 3" },
+  { number: "44", thumbnail: "live_nogi12bdl-2.jpg", name: "BDL 12 DAY 2" },
+  { number: "43", thumbnail: "live_nogi12bdl-1.jpg", name: "BDL 12 DAY 1" },
+  { number: "20", thumbnail: "live_nogi11bdl-5.jpg", name: "BDL 11 DAY 5" },
+  { number: "19", thumbnail: "live_nogi11bdl-4.jpg", name: "BDL 11 DAY 4" },
+  { number: "18", thumbnail: "live_nogi11bdl-3.jpg", name: "BDL 11 DAY 3" },
+  { number: "17", thumbnail: "live_nogi11bdl-2.jpg", name: "BDL 11 DAY 2" },
+  { number: "16", thumbnail: "live_nogi11bdl-1.jpg", name: "BDL 11 DAY 1" },
+  { number: "11", thumbnail: "live_nogi1bdl.jpg", name: "BDL 1" },
+  { number: "07", thumbnail: "live_nogi10bdlday2.jpg", name: "BDL 10 DAY 2" }
+];
+
+const update = 4; // Misalnya 4 episode terbaru diberi badge "New"
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/${ep.thumbnail}">
+      <div class="epsname">${ep.name}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

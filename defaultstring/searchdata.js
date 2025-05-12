@@ -32,7 +32,7 @@ const searchData = {
     "Nogizaka Star Tanjou! SIX": {
         "baseUrl": "nogizaka-star-tanjou-six.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/six",
-        "episodeRange": { "start": 1, "end": 1 }
+        "episodeRange": { "start": 1, "end": 2 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
@@ -120,7 +120,7 @@ const searchData = {
     "Spicy Sessions": {
         "baseUrl": "spicy-sessions.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions",
-        "episodeRange": { "start": 1, "end": 5 }
+        "episodeRange": { "start": 1, "end": 6 }
     },
     "Ano Sakamichi o Nobotte Hanasou": {
         "baseUrl": "ano-sakamichi-o-nobotte-hanasou.html",
@@ -1164,7 +1164,7 @@ const searchData = {
     "Madder (Ioki Mao)": {
         "baseUrl": "madder.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/madder",
-        "episodeRange": { "start": 1, "end": 4 }
+        "episodeRange": { "start": 1, "end": 5 }
     },
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",
@@ -1297,6 +1297,16 @@ const searchData = {
 // ~~~ FILM
 // ~~~~~~~~~~~~~~~
 
+    "Dare Yori mo Tsuyoku Dakishimete (Kubo Shiori)": {
+        "baseUrl": "dare-yori-mo-tsuyoku-dakishimete.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/",
+        "name": {
+			"01" : "(2025)"
+        },
+        "thumbnail": {
+			"01" : "dareyori.jpg"
+        }
+    },
     "Spring (Inoue Nagi)": {
         "baseUrl": "spring.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/",

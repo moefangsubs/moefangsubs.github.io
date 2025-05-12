@@ -1,11 +1,31 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="12"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220627_kichijojiwalkers12.jpg"><div class="epsname">Episode 12</div></div>
-				<div class="episodelist buttonEpsList" data-episode="10"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220613_kichijojiwalkers10.jpg"><div class="epsname">Episode 10</div></div>
-				<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220530_kichijojiwalkers8.jpg"><div class="epsname">Episode 8</div></div>
-				<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220503_kichijojiwalkers4.jpg"><div class="epsname">Episode 4</div></div>
-				<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220418_kichijojiwalkers2.jpg"><div class="epsname">Episode 2</div></div>
-			</div>
-		</div>
-`);
+const episodes = [
+  { number: "12", filename: "220627_kichijojiwalkers12.jpg" },
+  { number: "10", filename: "220613_kichijojiwalkers10.jpg" },
+  { number: "08", filename: "220530_kichijojiwalkers8.jpg" },
+  { number: "04", filename: "220503_kichijojiwalkers4.jpg" },
+  { number: "02", filename: "220418_kichijojiwalkers2.jpg" }
+];
+
+const update = 1; // contoh: hanya episode terbaru yang dikasih badge
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/${ep.filename}">
+      <div class="epsname">Episode ${parseInt(ep.number, 10)}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

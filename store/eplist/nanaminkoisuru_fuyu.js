@@ -1,11 +1,28 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/nanaminfuyu_05.jpg"><div class="epsname">Episode 05</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/nanaminfuyu_04.jpg"><div class="epsname">Episode 04</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/nanaminfuyu_03.jpg"><div class="epsname">Episode 03</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/nanaminfuyu_02.jpg"><div class="epsname">Episode 02</div></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/nanaminfuyu_01.jpg"><div class="epsname">Episode 01</div></div>
-</div>
-</div>
-`);
+const episode = [];
+	for (let i = 5; i >= 1; i--) {
+	  episode.push(i.toString().padStart(2, "0"));
+	}
+console.log(episode);
+
+const updateFuyu = 0;
+let htmlFuyu = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episode.forEach((num, index) => {
+  htmlFuyu += `
+    <div class="episodelist buttonEpsList" data-episode="${num}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/nanaminfuyu_${num}.jpg">
+      <div class="epsname">Episode ${num}</div>
+      ${index < updateFuyu ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+htmlFuyu += `
+    </div>
+  </div>
+`;
+
+document.write(htmlFuyu);

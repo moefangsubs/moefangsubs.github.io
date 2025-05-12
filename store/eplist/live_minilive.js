@@ -12,8 +12,7 @@ const episodes = [
   { number: "05", name: "28th", thumbnail: "28.jpg" }
 ];
 
-const update = 1; // Episode terbaru yang diberi badge "New" (Episode 67)
-
+const update = 0;
 let html = `
   <div class="scroll-container">
     <div class="imglist">

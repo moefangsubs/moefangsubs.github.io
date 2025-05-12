@@ -1,29 +1,48 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="22"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_22.jpg"><div class="epsname">Episode 22</div></div>
-				<div class="episodelist buttonEpsList" data-episode="21"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_21.jpg"><div class="epsname">Episode 21</div></div>
-				<div class="episodelist buttonEpsList" data-episode="20"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_20.jpg"><div class="epsname">Episode 20</div></div>
-				<div class="episodelist buttonEpsList" data-episode="19"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_19.jpg"><div class="epsname">Episode 19</div></div>
-				<div class="episodelist buttonEpsList" data-episode="18"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_18.jpg"><div class="epsname">Episode 18</div></div>
-				<div class="episodelist buttonEpsList" data-episode="17"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_17.jpg"><div class="epsname">Episode 17</div></div>
-				<div class="episodelist buttonEpsList" data-episode="16"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_16.jpg"><div class="epsname">Episode 16</div></div>
-				<div class="episodelist buttonEpsList" data-episode="15"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_15.jpg"><div class="epsname">Episode 15</div></div>
-				<div class="episodelist buttonEpsList" data-episode="14"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_14.jpg"><div class="epsname">Episode 14</div></div>
-				<div class="episodelist buttonEpsList" data-episode="13"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_13.jpg"><div class="epsname">Episode 13</div></div>
-				<div class="episodelist buttonEpsList" data-episode="12"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_12.jpg"><div class="epsname">Episode 12</div></div>
-				<div class="episodelist buttonEpsList" data-episode="11"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_11.jpg"><div class="epsname">Episode 11</div></div>
-				<div class="episodelist buttonEpsList" data-episode="10"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_10.jpg"><div class="epsname">Episode 10</div></div>
-				<div class="episodelist buttonEpsList" data-episode="09"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_09.jpg"><div class="epsname">Episode 9</div></div>
-				<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_08.jpg"><div class="epsname">Episode 8</div></div>
-				<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_07.jpg"><div class="epsname">Episode 7</div></div>
-				<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_06.jpg"><div class="epsname">Episode 6</div></div>
-				<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_05.jpg"><div class="epsname">Episode 5</div></div>
-				<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_04.jpg"><div class="epsname">Episode 4</div></div>
-				<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_03.jpg"><div class="epsname">Episode 3</div></div>
-				<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_02.jpg"><div class="epsname">Episode 2</div></div>
-				<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo_01.jpg"><div class="epsname">Episode 1</div></div>
-				<div class="episodelist buttonEpsList" data-episode="00"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/mameo.jpg"><div class="epsname">Mangamichi</div></div>
-			</div>
-		</div>
-`);
+const episodes = [
+  { number: "22", thumbnail: "mameo_22.jpg", title: "Episode 22" },
+  { number: "21", thumbnail: "mameo_21.jpg", title: "Episode 21" },
+  { number: "20", thumbnail: "mameo_20.jpg", title: "Episode 20" },
+  { number: "19", thumbnail: "mameo_19.jpg", title: "Episode 19" },
+  { number: "18", thumbnail: "mameo_18.jpg", title: "Episode 18" },
+  { number: "17", thumbnail: "mameo_17.jpg", title: "Episode 17" },
+  { number: "16", thumbnail: "mameo_16.jpg", title: "Episode 16" },
+  { number: "15", thumbnail: "mameo_15.jpg", title: "Episode 15" },
+  { number: "14", thumbnail: "mameo_14.jpg", title: "Episode 14" },
+  { number: "13", thumbnail: "mameo_13.jpg", title: "Episode 13" },
+  { number: "12", thumbnail: "mameo_12.jpg", title: "Episode 12" },
+  { number: "11", thumbnail: "mameo_11.jpg", title: "Episode 11" },
+  { number: "10", thumbnail: "mameo_10.jpg", title: "Episode 10" },
+  { number: "09", thumbnail: "mameo_09.jpg", title: "Episode 9" },
+  { number: "08", thumbnail: "mameo_08.jpg", title: "Episode 8" },
+  { number: "07", thumbnail: "mameo_07.jpg", title: "Episode 7" },
+  { number: "06", thumbnail: "mameo_06.jpg", title: "Episode 6" },
+  { number: "05", thumbnail: "mameo_05.jpg", title: "Episode 5" },
+  { number: "04", thumbnail: "mameo_04.jpg", title: "Episode 4" },
+  { number: "03", thumbnail: "mameo_03.jpg", title: "Episode 3" },
+  { number: "02", thumbnail: "mameo_02.jpg", title: "Episode 2" },
+  { number: "01", thumbnail: "mameo_01.jpg", title: "Episode 1" },
+  { number: "00", thumbnail: "mameo.jpg", title: "Mangamichi" }
+];
+
+const update = 0; 
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/${ep.thumbnail}">
+      <div class="epsname">${ep.title}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

@@ -1,8 +1,27 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/210927_tft_podcast_endo.jpg"><div class="epsname">210927</div></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/210922_tft.jpg"><div class="epsname">210922</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "02", filename: "210927_tft_podcast_endo", label: "210927" },
+  { number: "01", filename: "210922_tft", label: "210922" }
+];
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/${ep.filename}.jpg">
+      <div class="epsname">${ep.label}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

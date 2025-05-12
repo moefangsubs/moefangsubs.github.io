@@ -1,14 +1,33 @@
-document.write(`
-<div class="scroll-container">
-<div class="imglist">
-<div class="episodelist buttonEpsList" data-episode="08"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220812-shiosukeitv.jpg"><div class="epsname">Interview</div></div>
-<div class="episodelist buttonEpsList" data-episode="07"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/220729-shiosukeitv.jpg"><div class="epsname">Interview</div></div>
-<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke06.jpg"><div class="epsname">Episode 6 [END]</div></div>
-<div class="episodelist buttonEpsList" data-episode="05"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke05.jpg"><div class="epsname">Episode 5</div></div>
-<div class="episodelist buttonEpsList" data-episode="04"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke04.jpg"><div class="epsname">Episode 4</div></div>
-<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke03.jpg"><div class="epsname">Episode 3</div></div>
-<div class="episodelist buttonEpsList" data-episode="02"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke02.jpg"><div class="epsname">Episode 2</div></div>
-<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke01.jpg"><div class="epsname">Episode 1</div></div>
-</div>
-</div>
-`);
+const episodes = [
+  { number: "08", thumbnail: "220812-shiosukeitv.jpg", title: "Interview" },
+  { number: "07", thumbnail: "220729-shiosukeitv.jpg", title: "Interview" },
+  { number: "06", thumbnail: "shiosuke06.jpg", title: "Episode 6 [END]" },
+  { number: "05", thumbnail: "shiosuke05.jpg", title: "Episode 5" },
+  { number: "04", thumbnail: "shiosuke04.jpg", title: "Episode 4" },
+  { number: "03", thumbnail: "shiosuke03.jpg", title: "Episode 3" },
+  { number: "02", thumbnail: "shiosuke02.jpg", title: "Episode 2" },
+  { number: "01", thumbnail: "shiosuke01.jpg", title: "Episode 1" }
+];
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/docrandom/${ep.thumbnail}">
+      <div class="epsname">${ep.title}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

@@ -1,5 +1,26 @@
 [
     {
+        "title": "Nogizaka Star Tanjou! SIX #02",
+        "url": "nogizaka-star-tanjou-six.html?episode=02",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six02.jpg"
+    },
+	{
+         "title": "Spicy Sessions #06",
+         "url": "spicy-sessions.html?episode=06",
+         "image": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions06.jpg"
+     },
+    {
+        "title": "Madder (Ioki Mao) #5",
+        "url": "madder.html?episode=05",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/madder/madder05.jpg"
+    },
+    {
+        "title": "Dare Yori mo Tsuyoku Dakishimete (Kubo Shiori)",
+        "url": "dare-yori-mo-tsuyoku-dakishimete.html?episode=01",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/random/dareyori.jpg"
+    },
+	
+    {
         "title": "Nogizaka Star Tanjou! SIX #01",
         "url": "nogizaka-star-tanjou-six.html?episode=01",
         "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six01.jpg"

@@ -1,8 +1,26 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="56"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/nantebida56.jpg"><div class="epsname">Episode 56</div></div>
-				<div class="episodelist buttonEpsList" data-episode="55"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/nantebida55.jpg"><div class="epsname">Episode 55</div></div>
-			</div>
-		</div>
-`);
+const episodes = [
+  "56", "55"
+];
+
+const update = 0;
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((num, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${num}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/variety/nantebida${num}.jpg">
+      <div class="epsname">Episode ${parseInt(num, 10)}</div>
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

@@ -1,13 +1,32 @@
-document.write(`
-		<div class="scroll-container">
-			<div class="imglist">
-				<div class="episodelist buttonEpsList" data-episode="66"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_omitatekaigen6.jpg"></div>
-				<div class="episodelist buttonEpsList" data-episode="51"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_bokuaonatsugasumi.jpg"></div>
-				<div class="episodelist buttonEpsList" data-episode="23"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_hinata4thomotenashikai.jpg"></div>
-				<div class="episodelist buttonEpsList" data-episode="10"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_tif2022nogizaka.jpg"></div>
-				<div class="episodelist buttonEpsList" data-episode="06"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_5thomitatekai2.jpg"></div>
-				<div class="episodelist buttonEpsList" data-episode="03"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_jamexpo20202021.jpg"></div>
-				<div class="episodelist buttonEpsList" data-episode="01"><img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/live_nogiskitslive.jpg"></div>
-			</div>
-		</div>
-`);
+const episodes = [
+  { number: "66", thumbnail: "live_omitatekaigen6.jpg" },
+  { number: "51", thumbnail: "live_bokuaonatsugasumi.jpg" },
+  { number: "23", thumbnail: "live_hinata4thomotenashikai.jpg" },
+  { number: "10", thumbnail: "live_tif2022nogizaka.jpg" },
+  { number: "06", thumbnail: "live_5thomitatekai2.jpg" },
+  { number: "03", thumbnail: "live_jamexpo20202021.jpg" },
+  { number: "01", thumbnail: "live_nogiskitslive.jpg" }
+];
+
+const update = 1; // Jumlah episode terbaru yang diberi badge "New" (misalnya hanya episode 66)
+
+let html = `
+  <div class="scroll-container">
+    <div class="imglist">
+`;
+
+episodes.forEach((ep, index) => {
+  html += `
+    <div class="episodelist buttonEpsList" data-episode="${ep.number}">
+      <img onclick="applyEffect(this)" src="https://ik.imagekit.io/moearchive/thumb/other/${ep.thumbnail}">
+      ${index < update ? '<span class="epsbadgeNew"></span>' : ''}
+    </div>
+  `;
+});
+
+html += `
+    </div>
+  </div>
+`;
+
+document.write(html);

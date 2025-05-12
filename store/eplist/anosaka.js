@@ -1,11 +1,8 @@
-const episodes = [
-  "06",
-  "05",
-  "04",
-  "03",
-  "02",
-  "01"
-];
+const episodes = [];
+	for (let i = 06; i >= 1; i--) {
+	  episodes.push(i.toString().padStart(2, "0"));
+	}
+console.log(episodes);
 
 const update = 4;
 

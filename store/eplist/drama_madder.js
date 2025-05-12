@@ -1,11 +1,10 @@
-const episodes = [
-  "04",
-  "03",
-  "02",
-  "01"
-];
+const episodes = [];
+	for (let i = 05; i >= 1; i--) {
+	  episodes.push(i.toString().padStart(2, "0"));
+	}
+console.log(episodes);
 
-const update = 2; // Jumlah episode baru
+const update = 1; // Jumlah episode baru
 
 let html = `
   <div class="scroll-container">
