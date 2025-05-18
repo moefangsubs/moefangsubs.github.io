@@ -1894,6 +1894,8 @@ const searchData = {
 			"65": "250130 Nogizaka46 37thSG Underlive DAY 3",
 			"66": "250406 Nogizaka46 First Performance \"Hajimemashite, 6kisei Desu\"",	
             "67": "240321 Nogizaka46 Mini Live 38th Single \"Navel Orange\"",
+			"68": "250517 Nogizaka46 13th Year Birthday Live DAY 1",
+			// "69": "250518 Nogizaka46 13th Year Birthday Live DAY 2",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1963,6 +1965,8 @@ const searchData = {
 			"65": "live_underlive37.jpg",
 			"66": "live_omitatekaigen6.jpg",
             "67": "live_minilive38.jpg",
+            "68": "live_nogi13bdl-1.jpg",
+            // "69": "live_nogi13bdl-2.jpg",
         }
     },
    "Nogizaka46 12th Birthday Live 10 Hour 123 Song One Day Live -Talk-": {
