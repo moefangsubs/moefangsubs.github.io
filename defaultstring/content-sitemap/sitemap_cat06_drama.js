@@ -5,6 +5,7 @@ document.write(`
 	<div class="category-flex">
 		<span class="st-categorytitle">Drama<span>
 		<div class="button-container">
+			<a href="truck-girl-2.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_truckgirl2.png"/><div class="button-text">TRUCK GIRL 2 (2025)</div></a>
 			<a href="madder.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_madder.png"/><div class="button-text">MADDER : SONO JIKEN, WATASHI GA HANNIN DESU (2025)</div></a>
 			<a href="spring.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_spring.png"/><div class="button-text">SPRING! (2025)</div></a>
 			<a href="miren-kakure-bocchitachi.html"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_miren.png"/><div class="button-text">MIREN ~KAKURE BOCCHITACHI~ (2025)</div></a>

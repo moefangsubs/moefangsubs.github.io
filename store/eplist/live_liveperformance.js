@@ -1,4 +1,5 @@
 const episodes = [
+  { number: "70", thumbnail: "live_hinata5thomotenashikai.jpg" },
   { number: "66", thumbnail: "live_omitatekaigen6.jpg" },
   { number: "51", thumbnail: "live_bokuaonatsugasumi.jpg" },
   { number: "23", thumbnail: "live_hinata4thomotenashikai.jpg" },

@@ -1,10 +1,10 @@
 const episodes = [];
-	for (let i = 49; i >= 1; i--) {
+	for (let i = 51; i >= 1; i--) {
 	  episodes.push(i.toString().padStart(2, "0"));
 	}
 console.log(episodes);
 
-const update = 0;
+const update = 2;
 
 let html = `
   <div class="scroll-container">

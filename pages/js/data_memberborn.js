@@ -53,53 +53,51 @@ const prefectureData = {
 const memberData = {
  "nogi": {
   "3期": [
-		["伊藤理々杏", "Ito Riria", "itouriria", "okinawa", "nogi37"],
-		["岩本蓮加", "Iwamoto Renka", "iwamotorenka", "tokyo", "nogi37"],
-		["梅澤美波", "Umezawa Minami", "umezawaminami", "kanagawa", "nogi37"],
-		["久保史緒里", "Kubo Shiori", "kuboshiori", "miyagi", "nogi37"],
-		["佐藤楓", "Sato Kaede", "satoukaede", "aichi", "nogi37"],
-		["中村麗乃", "Nakamura Reno", "nakamurareno", "tokyo", "nogi37"],
-		["吉田綾乃ｸﾘｽﾃｨｰ", "Yoshida Ayano Christie", "yoshidaayanochristie", "oita", "nogi37"],
+		["伊藤理々杏", "Ito Riria", "itouriria", "okinawa", "nogi38"],
+		["岩本蓮加", "Iwamoto Renka", "iwamotorenka", "tokyo", "nogi38"],
+		["梅澤美波", "Umezawa Minami", "umezawaminami", "kanagawa", "nogi38"],
+		["久保史緒里", "Kubo Shiori", "kuboshiori", "miyagi", "nogi38"],
+		["吉田綾乃ｸﾘｽﾃｨｰ", "Yoshida Ayano Christie", "yoshidaayanochristie", "oita", "nogi38"],
   ],
   "4期": [
-		["遠藤さくら", "Endo Sakura", "endousakura", "aichi", "nogi37"],
-		["賀喜遥香", "Kaki Haruka", "kakiharuka", "tochigi", "nogi37"],
-		["金川紗耶", "Kanagawa Saya", "kanagawasaya", "hokkaido", "nogi37"],
-		["黒見明香", "Kuromi Haruka", "kuromiharuka", "tokyo", "nogi37"],
-		["佐藤璃果", "Sato Rika", "satourika", "iwate", "nogi37"],
-		["柴田柚菜", "Shibata Yuna", "shibatayuna", "chiba", "nogi37"],
-		["田村真佑", "Tamura Mayu", "tamuramayu", "saitama", "nogi37"],
-		["筒井あやめ", "Tsutsui Ayame", "tsutsuiayame", "aichi", "nogi37"],
-		["林瑠奈", "Hayashi Runa", "hayashiruna", "kanagawa", "nogi37"],
-		["松尾美佑", "Matsuo Miyu", "matsuomiyu", "chiba", "nogi37"],
-		["矢久保美緒", "Yakubo Mio", "yakubomio", "tokyo", "nogi37"],
-		["弓木奈於", "Yumiki Nao", "yumikinao", "kyoto", "nogi37"]
+		["遠藤さくら", "Endo Sakura", "endousakura", "aichi", "nogi38"],
+		["賀喜遥香", "Kaki Haruka", "kakiharuka", "tochigi", "nogi38"],
+		["金川紗耶", "Kanagawa Saya", "kanagawasaya", "hokkaido", "nogi38"],
+		["黒見明香", "Kuromi Haruka", "kuromiharuka", "tokyo", "nogi38"],
+		["佐藤璃果", "Sato Rika", "satourika", "iwate", "nogi38"],
+		["柴田柚菜", "Shibata Yuna", "shibatayuna", "chiba", "nogi38"],
+		["田村真佑", "Tamura Mayu", "tamuramayu", "saitama", "nogi38"],
+		["筒井あやめ", "Tsutsui Ayame", "tsutsuiayame", "aichi", "nogi38"],
+		["林瑠奈", "Hayashi Runa", "hayashiruna", "kanagawa", "nogi38"],
+		["松尾美佑", "Matsuo Miyu", "matsuomiyu", "chiba", "nogi38"],
+		["矢久保美緒", "Yakubo Mio", "yakubomio", "tokyo", "nogi38"],
+		["弓木奈於", "Yumiki Nao", "yumikinao", "kyoto", "nogi38"]
   ],
   "5期": [
-		["五百城茉央", "Ioki Mao", "iokimao", "hyogo", "nogi37"],
-		["池田瑛紗", "Ikeda Teresa", "ikedateresa", "tokyo", "nogi37"],
-		["一ノ瀬美空", "Ichinose Miku", "ichinosemiku", "fukuoka", "nogi37"],
-		["井上和", "Inoue Nagi", "inouenagi", "kanagawa", "nogi37"],
-		["岡本姫奈", "Okamoto Hina", "okamotohina", "aichi", "nogi37"],
-		["小川彩", "Ogawa Aya", "ogawaaya", "chiba", "nogi37"],
-		["奥田いろは", "Okuda Iroha", "okudairoha", "chiba", "nogi37"],
-		["川﨑桜", "Kawasaki Sakura", "kawasakisakura", "kanagawa", "nogi37"],
-		["菅原咲月", "Sugawara Satsuki", "sugawarasatsuki", "chiba", "nogi37"],
-		["冨里奈央", "Tomisato Nao", "tomisatonao", "chiba", "nogi37"],
-		["中西アルノ", "Nakanishi Aruno", "nakanishiaruno", "chiba", "nogi37"]
+		["五百城茉央", "Ioki Mao", "iokimao", "hyogo", "nogi38"],
+		["池田瑛紗", "Ikeda Teresa", "ikedateresa", "tokyo", "nogi38"],
+		["一ノ瀬美空", "Ichinose Miku", "ichinosemiku", "fukuoka", "nogi38"],
+		["井上和", "Inoue Nagi", "inouenagi", "kanagawa", "nogi38"],
+		["岡本姫奈", "Okamoto Hina", "okamotohina", "aichi", "nogi38"],
+		["小川彩", "Ogawa Aya", "ogawaaya", "chiba", "nogi38"],
+		["奥田いろは", "Okuda Iroha", "okudairoha", "chiba", "nogi38"],
+		["川﨑桜", "Kawasaki Sakura", "kawasakisakura", "kanagawa", "nogi38"],
+		["菅原咲月", "Sugawara Satsuki", "sugawarasatsuki", "chiba", "nogi38"],
+		["冨里奈央", "Tomisato Nao", "tomisatonao", "chiba", "nogi38"],
+		["中西アルノ", "Nakanishi Aruno", "nakanishiaruno", "chiba", "nogi38"]
   ],
   "6期": [
-		["矢田萌華", "Yada Moeka", "yadamoeka", "akita", "nogi-6ki"],
-		["川端晃菜", "Kawabata Hina", "kawabatahina", "tokyo", "nogi-6ki"],
-		["瀬戸口心月", "Setoguchi Mitsuki", "setoguchimitsuki", "kagoshima", "nogi-6ki"],
-		["海邉朱莉", "Kaibe Akari", "kaibeakari", "hyogo", "nogi-6ki"],		
-		["長嶋凛桜", "Nagashima Rio", "nagashimario", "hokkaido", "nogi-6ki"],
-		["森平麗心", "Morihira Urumi", "morihiraurumi", "tokyo", "nogi-6ki"],
-		["愛宕心響", "Atago Kokone", "atagokokone", "hyogo", "nogi-6ki"],
-		["鈴木佑捺", "Suzuki Yuuna", "suzukiyuuna", "yamanashi", "nogi-6ki"],
-		["大越ひなの", "Okoshi Hinano", "okoshihinano", "shizuoka", "nogi-6ki"],
-		["小津玲奈", "Ozu Reina", "ozureina", "tokyo", "nogi-6ki"],
-		["増田三莉音", "Masuda Mirine", "masudamirine", "osaka", "nogi-6ki"]
+		["矢田萌華", "Yada Moeka", "yadamoeka", "akita", "nogi38"],
+		["川端晃菜", "Kawabata Hina", "kawabatahina", "tokyo", "nogi38"],
+		["瀬戸口心月", "Setoguchi Mitsuki", "setoguchimitsuki", "kagoshima", "nogi38"],
+		["海邉朱莉", "Kaibe Akari", "kaibeakari", "hyogo", "nogi38"],		
+		["長嶋凛桜", "Nagashima Rio", "nagashimario", "hokkaido", "nogi38"],
+		["森平麗心", "Morihira Urumi", "morihiraurumi", "tokyo", "nogi38"],
+		["愛宕心響", "Atago Kokone", "atagokokone", "hyogo", "nogi38"],
+		["鈴木佑捺", "Suzuki Yuuna", "suzukiyuuna", "yamanashi", "nogi38"],
+		["大越ひなの", "Okoshi Hinano", "ookoshihinano", "shizuoka", "nogi38"],
+		["小津玲奈", "Ozu Reina", "ozureina", "tokyo", "nogi38"],
+		["増田三莉音", "Masuda Mirine", "masudamirine", "osaka", "nogi38"]
 	]
  },
  "gradn": {
@@ -157,7 +155,9 @@ const memberData = {
 	["山下美月", "Yamashita Mizuki", "yamashitamizuki", "tokyo", "nogi35"],
 	["阪口珠美", "Sakaguchi Tamami", "sakaguchitamami", "tokyo", "nogi35"],
 	["向井葉月", "Mukai Hazuki", "mukaihazuki", "tokyo", "nogi36"],
-	["与田祐希", "Yoda Yuuki", "yodayuuki", "fukuoka", "nogi37"]
+	["与田祐希", "Yoda Yuuki", "yodayuuki", "fukuoka", "nogi37"],
+	["佐藤楓", "Sato Kaede", "satoukaede", "aichi", "nogi37"],
+	["中村麗乃", "Nakamura Reno", "nakamurareno", "tokyo", "nogi37"],
   ],
   "4期": [
 	["北川悠理", "Kitagawa Yuri", "kitagawayuri", "california", "nogi31"],
@@ -212,6 +212,26 @@ const memberData = {
 	["村井優", "Murai Yuu", "muraiyuu", "tokyo", "saku11"],
 	["村山美羽", "Murayama Miu", "murayamamiu", "tokyo", "saku11"],
 	["山下瞳月", "Yamashita Shizuki", "yamashitashizuki", "kyoto", "saku11"]
+  ],
+  "4期": [
+	// ["浅井恋乃未", "Asai Konomi", "asaikononi", "saitama", "saku11"],
+	// ["稲熊ひな", "Inaguma Hina", "inagumahina", "aichi", "saku11"],
+	// ["勝又春", "Katsumata Haru", "katsumataharu", "kyoto", "saku11"],
+	// ["佐藤愛桜", "Sato Neo", "satouneo", "Saga", "saku11"],
+	// ["中川智尋", "Nakagawa Chihiro", "nakagawachihiro", "nagasaki", "saku11"],
+	// ["松本和子", "Matsumoto Wako", "matsumotowako", "chiba", "saku11"],
+	// ["目黒陽色", "Meguro Hiiro", "megurohiiro", "saitama", "saku11"],
+	// ["山川宇衣", "Yamakawa Ui", "yamakawaui", "miyagi", "saku11"],
+	// ["山田桃実", "Yamada Momomi", "yamadamomomi", "okayama", "saku11"]
+	["浅井恋乃未", "Asai Konomi", "anon", "saitama", "saku11"],
+	["稲熊ひな", "Inaguma Hina", "anon", "aichi", "saku11"],
+	["勝又春", "Katsumata Haru", "anon", "kyoto", "saku11"],
+	["佐藤愛桜", "Sato Neo", "anon", "Saga", "saku11"],
+	["中川智尋", "Nakagawa Chihiro", "anon", "nagasaki", "saku11"],
+	["松本和子", "Matsumoto Wako", "anon", "chiba", "saku11"],
+	["目黒陽色", "Meguro Hiiro", "anon", "saitama", "saku11"],
+	["山川宇衣", "Yamakawa Ui", "anon", "miyagi", "saku11"],
+	["山田桃実", "Yamada Momomi", "anon", "okayama", "saku11"]
   ]
  },
  "grads": {
@@ -236,30 +256,42 @@ const memberData = {
  "hina": {
   "1期": [],
   "2期": [
-	["金村美玖", "Kanemura Miku", "kanemuramiku", "saitama", "hinata13"],
-	["河田陽菜", "Kawata Hina", "kawatahina", "yamaguchi", "hinata13"],
-	["小坂菜緒", "Kosaka Nao", "kosakanao", "osaka", "hinata13"],
-	["富田鈴花", "Tomita Suzuka", "tomitasuzuka", "kanagawa", "hinata13"],
-	["松田好花", "Matsuda Konoka", "matsudakonoka", "kyoto", "hinata13"]
+	["金村美玖", "Kanemura Miku", "kanemuramiku", "saitama", "hinata14"],
+	["河田陽菜", "Kawata Hina", "kawatahina", "yamaguchi", "hinata14"],
+	["小坂菜緒", "Kosaka Nao", "kosakanao", "osaka", "hinata14"],
+	["富田鈴花", "Tomita Suzuka", "tomitasuzuka", "kanagawa", "hinata14"],
+	["松田好花", "Matsuda Konoka", "matsudakonoka", "kyoto", "hinata14"]
   ],
   "3期": [
-	["上村ひなの", "Kamimura Hinano", "kamimurahinano", "tokyo", "hinata13"],
-	["髙橋未来虹", "Takahashi Mikuni", "takahashimikuni", "tokyo", "hinata13"],
-	["森本茉莉", "Morimoto Marie", "morimotomarii", "tokyo", "hinata13"],
-	["山口陽世", "Yamaguchi Haruyo", "yamaguchiharuyo", "tottori", "hinata13"]
+	["上村ひなの", "Kamimura Hinano", "kamimurahinano", "tokyo", "hinata14"],
+	["髙橋未来虹", "Takahashi Mikuni", "takahashimikuni", "tokyo", "hinata14"],
+	["森本茉莉", "Morimoto Marie", "morimotomarii", "tokyo", "hinata14"],
+	["山口陽世", "Yamaguchi Haruyo", "yamaguchiharuyo", "tottori", "hinata14"]
   ],
   "4期": [
-	["石塚瑶季", "Ishizuka Tamaki", "ishizukatamaki", "tokyo", "hinata13"],
-	["小西夏菜実", "Konishi Nanami", "konishinanami", "hyogo", "hinata13"],
-	["清水理央", "Shimizu Rio", "shimizurio", "chiba", "hinata13"],
-	["正源司陽子", "Shogenji Yoko", "shogenjiyoko", "hyogo", "hinata13"],
-	["竹内希来里", "Takeuchi Kirari", "takeuchikirari", "hiroshima", "hinata13"],
-	["平尾帆夏", "Hirao Honoka", "hiraohonoka", "tottori", "hinata13"],
-	["平岡海月", "Hiraoka Mitsuki", "hiraokamitsuki", "fukui", "hinata13"],
-	["藤嶌果歩", "Fujishima Kaho", "fujishimakaho", "hokkaido", "hinata13"],
-	["宮地すみれ", "Miyachi Sumire", "miyachisumire", "kanagawa", "hinata13"],
-	["山下葉留花", "Yamashita Haruka", "yamashitaharuka", "aichi", "hinata13"],
-	["渡辺莉奈", "Watanabe Rina", "watanaberina", "fukuoka", "hinata13"]
+	["石塚瑶季", "Ishizuka Tamaki", "ishizukatamaki", "tokyo", "hinata14"],
+	["小西夏菜実", "Konishi Nanami", "konishinanami", "hyogo", "hinata14"],
+	["清水理央", "Shimizu Rio", "shimizurio", "chiba", "hinata14"],
+	["正源司陽子", "Shogenji Yoko", "shogenjiyoko", "hyogo", "hinata14"],
+	["竹内希来里", "Takeuchi Kirari", "takeuchikirari", "hiroshima", "hinata14"],
+	["平尾帆夏", "Hirao Honoka", "hiraohonoka", "tottori", "hinata14"],
+	["平岡海月", "Hiraoka Mitsuki", "hiraokamitsuki", "fukui", "hinata14"],
+	["藤嶌果歩", "Fujishima Kaho", "fujishimakaho", "hokkaido", "hinata14"],
+	["宮地すみれ", "Miyachi Sumire", "miyachisumire", "kanagawa", "hinata14"],
+	["山下葉留花", "Yamashita Haruka", "yamashitaharuka", "aichi", "hinata14"],
+	["渡辺莉奈", "Watanabe Rina", "watanaberina", "fukuoka", "hinata14"]
+  ],
+  "5期": [
+	["大田美月", "Oota Mizuki", "ootamizuki", "osaka", "hinata14"],
+	["大野愛実", "Oono Manami", "oonomanami", "tokyo", "hinata14"],
+	["片山紗希", "Katayama Saki", "katayamasaki", "saitama", "hinata14"],
+	["蔵盛妃那乃", "Kuramori Hinano", "kuramorihinano", "osaka", "hinata14"],
+	["坂井新奈", "Sakai Niina", "sakainiina", "kanagawa", "hinata14"],
+	["佐藤優羽", "Sato Yuu", "satouyuu", "fukuoka", "hinata14"],
+	["下田衣珠季", "Shimoda Izuki", "shimodaizuki", "chiba", "hinata14"],
+	["高井俐香", "Takai Rika", "takairika", "hyogo", "hinata14"],
+	["鶴崎仁香", "Tsurusaki Niko", "tsurusakiniko", "kanagawa", "hinata14"],
+	["松尾桜", "Matsuo Sakura", "matsuosakura", "kanagawa", "hinata14"],
   ]
  },
  "gradh": {

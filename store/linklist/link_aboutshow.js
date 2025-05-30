@@ -105,7 +105,9 @@ const acaraData = {
 	deathgame: "Seorang penulis skenario yang dikucilkan dari industri TV beralih menjadi 'penulis game maut' dalam drama balas dendam, menggunakan kreativitas dan sifat kejamnya untuk membalas dendam dengan mengatur permainan maut yang mematikan.",
 	miren: "Kosaka Kento, seorang editor majalah manga Comic Boon, diam-diam menjalin hubungan dengan Fukada Yuzu, seorang mangaka idola populer. Di tempat kerja, mereka berpura-pura hanya memiliki hubungan profesional sebagai editor dan penulis. Namun, hubungan mereka terguncang ketika Suzuki Minami, rekan lamanya, muncul sebagai karyawan baru.",
 	madder: "Nakano Akane, siswi jenius dengan nilai ujian masuk sempurna pertama dalam sejarah Seiran Gakuen, merasa hidup membosankan karena terlalu pintar. Namun, setelah bertemu Kurokawa Yu, pemuda yang dicurigai sebagai pelaku pembunuhan, ia tertarik pada dunia kejahatan dan mulai membuat kekacauan kecil di sekolah. Hingga akhirnya, pembunuhan sungguhan terjadi dan memicu rangkaian kasus mengejutkan yang mengguncang seluruh Jepang.",
+	truckgirl2: "Kurate Jun, seorang pengemudi truk wanita, menjadi sorotan di media sosial berkat unggahan positifnya yang membagikan kesehariannya bekerja di dunia yang didominasi pria, serta sisi ceria saat makan dan minum dengan penuh semangat. Popularitas yang tak terduga ini membawa pengaruh besar, baik bagi dirinya maupun orang-orang di sekitarnya, termasuk rekan-rekan di kantor Kameo Transport. Meski harus menghadapi dilema dan tekanan akibat ekspektasi publik, Jun terus tumbuh bersama rekan-rekannya dalam sebuah kisah komedi penuh kehangatan, perjuangan, dan semangat pantang menyerah.",
 	nogifettucine: "Nogizaka46 x Fettucine Gummi merupakan short drama kolaborasi antara Nogizaka46 dengan produk manisan Fettucine Gummi. Di short drama ini memperkenalkan juga coupling di single ke-25 \"Sayonara, stay with me\"",
+
 	// ------------
 	// // ------------
 	// // ------------

@@ -53,6 +53,8 @@ const descEpisodeSynopsis = {
 	"47" : "Episode dadakan ini merupakan episode spesial untuk Mukai Hazuki, yang akan lulus, mencoba berbagai hal yang ia inginkan disini bersama Suzuki Taku.",
 	"48" : "Di episode 48 (yang harusnya disiarkan di episode 47) ini para otameshi girls akan mencoba tantangan kebersihan, dimana para member akan ditantang seberapa gesit mereka dalam bersih-bersih di berbagai segmen disini. Dimulai dari mengepel, hingga siapa yang lapnya paling hitam dan kotor.",
 	"49" : "Di episode 49 ini, para otameshi girls yaitu Yakubo Mio, Kuromi Haruka dan Sato Rika akan mencoba tantangan soal mikan atau jeruk khas Jepang.",
+	"50" : "Di episode 51 kali ini menampilkan tantangan seru bertema \"roke-ben\" atau yang kita kenal dengan istilah 'katering' bersama Kuromi Haruka, Sato Rika, dan Yakubo Mio. Mereka mengikuti kuis seputar katering demi bisa membuat “roke-ben impian” di akhir acara.",
+	"51" : "Di episode 51 kali ini adalah edisi spesial kelulusan Sato Kaede yang akan segera meninggalkan grup. Ia akan mencoba kembali tantangan-tantangan dari episode sebelumnya yang belum berhasil ia taklukkan. Meskipun sering tampil dan menciptakan banyak momen seru, Kaede belum pernah sekalipun terpilih sebagai \"myakuari girl\" — dan kali ini ia siap membuktikan dirinya. Kaede akan ditemani bersama Okamoto Hina dan Tomisato Nao yang dikenal dekat dengan Kaede. Di bagian akhir, mereka mengunjungi tempat penuh kenangan untuk mengenang perjalanan Kaede bersama gen-3.",
 };
 
 
@@ -134,6 +136,8 @@ const descOnAirDate = {
 	"47" : "28 Desember 2024",
 	"48" : "25 Januari 2025",
 	"49" : "22 Februari 2025",
+	"50" : "29 Maret 2025",
+	"51" : "5 Mei 2025",
   };
 
 
@@ -191,6 +195,8 @@ const memberParticipate = {
 	"47" : "伊藤理々杏、向井葉月、佐藤楓、岡本姫奈",
 	"48" : "伊藤理々杏、吉田綾乃クリスティー、矢久保美緒、小川彩、冨里奈央",
 	"49" : "伊藤理々杏、黒見明香、佐藤璃果、矢久保美緒",
+	"50" : "伊藤理々杏、黒見明香、佐藤璃果、矢久保美緒",
+	"51" : "伊藤理々杏、佐藤楓、岡本姫奈、冨里奈央",
   };
 
 
@@ -324,6 +330,8 @@ const linkHardsub = {
 	"47" : "https://lokerwfh.net/7M3lcfQ",
 	"48" : "https://lokerwfh.net/y7kaan",
 	"49" : "https://sfl.gl/QqLlk90",
+	"50" : "https://sfl.gl/CnrzVm",
+	"51" : "https://sfl.gl/4GnP2PzB",
   };
   
 // =======================
@@ -380,6 +388,8 @@ const linkSoftsub = {
 	"47" : "https://lokerwfh.net/X00KttOi",
 	"48" : "https://lokerwfh.net/GLVoA",
 	"49" : "https://sfl.gl/HoJUFpcD",
+	"50" : "https://sfl.gl/rmJV9",
+	"51" : "https://sfl.gl/D7vWB9pf",
   };
 
 // =======================

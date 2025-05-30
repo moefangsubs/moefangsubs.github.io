@@ -7,7 +7,6 @@ document.write(`
 		<div class="button-container">
 			<a href="#"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogitalkvarietyshow.png"/><div class="button-text">NOGIZAKA x TALK VARIETY SHOW (GIRLS TALK)</div></a>
 			<a href="#"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_var_itsonme.png"/><div class="button-text">IT'S ON ME ~WATASHI NO OGORI DESU~</div></a>
-			<a href="#"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_truckgirl2.png"/><div class="button-text">TRUCK GIRL 2 (2025)</div></a>
 			<a href="#"><img src="https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_ryosangataruka.png"/><div class="button-text">RYOSANGATA RUKA (2025)</div></a>
 
 		</div>

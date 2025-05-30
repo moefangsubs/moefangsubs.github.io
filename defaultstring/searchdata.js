@@ -32,12 +32,12 @@ const searchData = {
     "Nogizaka Star Tanjou! SIX": {
         "baseUrl": "nogizaka-star-tanjou-six.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/six",
-        "episodeRange": { "start": 1, "end": 2 }
+        "episodeRange": { "start": 1, "end": 5 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-",
-        "episodeRange": { "start": 1, "end": 49 }
+        "episodeRange": { "start": 1, "end": 51 }
     },
     "Hinatazaka46 desu. Chotto ii desu ka?": {
         "baseUrl": "hinatazaka46-desu-chotto-ii-desu-ka.html",
@@ -1161,10 +1161,15 @@ const searchData = {
 // ~~~ DRAMA
 // ~~~~~~~~~~~~~~~
 
+    "Truck Girl 2 (Endo Sakura)": {
+        "baseUrl": "truck-girl-2.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/truckgirl2",
+        "episodeRange": { "start": 1, "end": 3 }
+    },
     "Madder (Ioki Mao)": {
         "baseUrl": "madder.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/madder",
-        "episodeRange": { "start": 1, "end": 5 }
+        "episodeRange": { "start": 1, "end": 8 }
     },
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",
@@ -1503,7 +1508,10 @@ const searchData = {
 			"05" : "Vol.5 (Kaki Haruka & Sugawara Satsuki)",
 			"06" : "Vol.6 (Hayashi Runa & Ichinose Miku)",
 			"07" : "Vol.7 (Kanagawa Saya & Kawasaki Sakura)",
-			"08" : "Vol.8 (Tsutsui Ayame & Ioki Mao)"
+			"08" : "Vol.8 (Tsutsui Ayame & Ioki Mao)",
+			"09" : "Vol.9 (Yoda Yuuki & Endo Sakura)",
+			"10" : "Vol.10 (Kubo Shiori x Okuda Iroha)",
+			"11" : "Vol.11 (Yumiki Nao x Okamoto Hina)"
         },
         "thumbnail": {
 			"00" : "00.jpg",
@@ -1514,7 +1522,10 @@ const searchData = {
 			"05" : "05.jpg",
 			"06" : "06.jpg",
 			"07" : "07.jpg",
-			"07" : "08.jpg"
+			"08" : "08.jpg",
+			"09" : "09.jpg",
+			"10" : "10.jpg",
+			"11" : "11.jpg"
         }
     },
 
@@ -1895,7 +1906,8 @@ const searchData = {
 			"66": "250406 Nogizaka46 First Performance \"Hajimemashite, 6kisei Desu\"",	
             "67": "240321 Nogizaka46 Mini Live 38th Single \"Navel Orange\"",
 			"68": "250517 Nogizaka46 13th Year Birthday Live DAY 1",
-			// "69": "250518 Nogizaka46 13th Year Birthday Live DAY 2",
+			"69": "250518 Nogizaka46 13th Year Birthday Live DAY 2",
+			"70": "250527 Hinatazaka46 5th-gen Omotenashikai",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1966,7 +1978,8 @@ const searchData = {
 			"66": "live_omitatekaigen6.jpg",
             "67": "live_minilive38.jpg",
             "68": "live_nogi13bdl-1.jpg",
-            // "69": "live_nogi13bdl-2.jpg",
+            "69": "live_nogi13bdl-2.jpg",
+			"70": "live_hinata5thomotenashikai.jpg",
         }
     },
    "Nogizaka46 12th Birthday Live 10 Hour 123 Song One Day Live -Talk-": {

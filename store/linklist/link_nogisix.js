@@ -29,6 +29,10 @@ console.log(descEpisode);
 const descOnAirDate = {
 	"01": "28 April 2025",
 	"02": "5 Mei 2025",
+	"03": "12 Mei 2025",
+	"04": "19 Mei 2025",
+	"05": "26 Mei 2025",
+	"06": "2 Juni 2025",
 };
 console.log(descOnAirDate);
 
@@ -39,6 +43,9 @@ console.log(descOnAirDate);
 const descSong1 = {
 	"01": "いきものがかり 「じょいふる」",
 	"02": "ポルノグラフィティ 「メリッサ」",
+	"03": "MY LITTLE LOVER 「Hello, Again 〜昔からある場所〜」",
+	"04": "大塚愛 「PEACH」",
+	"05": "フレデリック 「オドループ」",
 };
 
 // =======================
@@ -48,6 +55,9 @@ const descSong1 = {
 const descSong2 = {
 	"01": "絢香 「にじいろ」",
 	"02": "松たか子 「明日、春が来たら」",
+	"03": "緑黄色社会 「Mela!」",
+	"04": "木村カエラ 「リルラ リルハ」",
+	"05": "Uru 「プロローグ」",
 };
 
 
@@ -58,6 +68,9 @@ const descSong2 = {
 const descSong3 = {
 	"01": "平原綾香 「Jupiter」",
 	"02": "竹内まりや 「いのちの歌」",
+	"03": "SHISHAMO 「僕に彼女ができたんだ」",
+	"04": "平井堅 「POP STAR」",
+	"05": "いきものががり 「コイスルオトメ」",
 };
 
 
@@ -68,6 +81,10 @@ const descSong3 = {
 const memberParticipate = {
 	"01": "乃木坂46 6期生、久保史緒里",
 	"02": "乃木坂46 6期生、井上和",
+	"03": "乃木坂46 6期生、小川彩",
+	"04": "乃木坂46 6期生、賀喜遥香",
+	"05": "乃木坂46 6期生、つついあやめ",
+	"06": "乃木坂46 6期生、五百城茉央",
 };
 
 console.log(memberParticipate);
@@ -134,6 +151,10 @@ console.log(imageThumbD);
 const linkHardsub = {
 	"01" : "https://sfl.gl/PhUz4W",
 	"02" : "https://sfl.gl/JzRW3",
+	"03" : "https://sfl.gl/9P3bZlXK",
+	"04" : "https://sfl.gl/zKZGgeJ",
+	"05" : "https://sfl.gl/s94zVK",
+
 };
 
 // =======================
@@ -143,6 +164,10 @@ const linkHardsub = {
 const linkSoftsub = {
 	"01" : "https://sfl.gl/vromf",
 	"02" : "https://sfl.gl/z6uZ1VQj",
+	"03" : "https://sfl.gl/uXi4",
+	"04" : "https://sfl.gl/yKzeMGZr",
+	"05" : "https://sfl.gl/0w35kU",
+
 };
 
 // =======================

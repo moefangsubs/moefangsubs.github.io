@@ -41,10 +41,11 @@ li {
 }
 
 .stickmember {
-    width: max-content;
+    /* width: max-content; */
+    width: 150px;
     padding: 10pt;
-    border-radius: 1vw;
-    border: 2pt solid white;
+    border-radius: .5vw;
+    /* border: 2pt solid white; */
     box-shadow: 4px 4px 0px 1px #ffffff40;
 }
 
@@ -60,7 +61,8 @@ li {
   .pgen2{background:#dfd9fe;}
   .pgen3{background:#a6d7ff;}
   .pgen4{background:#ffd19e;}
-  .pgen5{background:#cdcdcd;}
+  .pgen5{background:#fd5fd8;}
+  .pgen6{background:#1eebad;}
   .pnoog{background:#281d30;} 
   
 /*--- text color nogizaka ---*/
@@ -68,14 +70,16 @@ li {
   .ngen2{color:#7f63ff;}
   .ngen3{color:#316bcb;}
   .ngen4{color:#f38400;}
-  .ngen5{color:#595959;} 
-  .nnoog{color:#684b7d;} 
+  .ngen5{color:#880069;} 
+  .ngen6{color:#09684b;} 
+  .nnoog{color:#b87be4;} 
 
 
 /*--- background color sakurazaka ---*/
-  .sgen1{background:#E36DA3;}
-  .sgen2{background:#FA7FB8;}
-  .sgen3{background:#FEA3CD;}
+  .sgen1{background:#e473a6;}
+  .sgen2{background:#e784b1;}
+  .sgen3{background:#ea96bc;}
+  .sgen4{background:#eea7c7;}
   .sakog{background:#5D0D32;}
   .kykog{background:#142c0b;}
   
@@ -84,20 +88,23 @@ li {
   .hgen2{background:#47a1ff;}
   .hgen3{background:#61aeff;}
   .hgen4{background:#7abbff;}
+  .hgen5{background:#93c1f1;}
   .hinog{background:#0d2c4c;}
   
 /*--- text color sakurazaka ---*/
   .stextgen1{color:#FFD1E6;}
   .stextgen2{color:#E23886;}
   .stextgen3{color:#EC056F;}
+  .stextgen4{color:#EC056F;}
   .stextog{color:#EC056F;} 
-  .ktextog{color:#2a5a18;} 
+  .ktextog{color:#58b834;} 
   
 /*--- text color hinatazaka ---*/
   .htextgen1{color:#1b5899;}
   .htextgen2{color:#2067b2;}
   .htextgen3{color:#2476cc;}
   .htextgen4{color:#2985e5;}
+  .htextgen5{color:#2985e5;}
   .htextog{color:#abd4ff;} 
 
 
@@ -171,6 +178,8 @@ li {
 .dorange { padding: 3pt;background: #F0A010; color:white;}
 .dorange:before { content:"Orange"}
 
+.dxxx { padding: 3pt;background: #3d3d3d78; color:white;}
+.dxxx:before { content:"???"}
 
 /*--- keterangan warna official ---*/
 
@@ -260,11 +269,21 @@ li {
 .pgreenpearl { content:url("https://ik.imagekit.io/moearchive/penlight/pengreenpearl.png");}
 
 
+.pxxx { content:url("https://ik.imagekit.io/moearchive/penlight/penxxx.png");}
+
+
 #rotsticka {height:90px;}
 #rotstickb {height:90px;}
-#picmember {position: relative;width:75px;justify-content: center;}
+#picmember {
+    position: relative;
+    width: 75px;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    justify-content: center;
+    margin-top: 5pt;
+}
 .picog {opacity:.9}
-#memname {text-align:center;font-size:16pt;font-weight:900;bottom:0;cursor:pointer;}
+#memname {text-align:center;font-size:16pt;bottom:0;cursor:pointer;}
 
 #memname:hover ~ #rotsticka {
   color:purple;

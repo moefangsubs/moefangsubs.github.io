@@ -9,7 +9,10 @@ const descEpisodeSynopsis = {
 	"03" : "Ujian sekolah yang menentukan posisi sosial dan masa depan siswa, mendadak dibatalkan. Di meja Eto ditemukan teka-teki silang misterius yang seolah mengantisipasi kejadian itu, mendorongnya untuk mencari pelaku pembatalan. Sementara itu, Akane diam-diam menyusun rencana berikutnya dan menyadap ruang kepala sekolah, di mana ia mendengar para guru menduga kebocoran soal ujian sebagai penyebab, dan menuduh guru sastra klasik, Minowa, sebagai dalangnya. Mendengar ini, Miyauchi yang menguping langsung memberi tahu Eto, dan mereka menyadari adanya konflik di antara para guru. Namun, saat mereka kebingungan menentukan langkah selanjutnya, Akane sengaja membocorkan informasi tentang kata sandi komputer Minowa, secara halus memanipulasi mereka untuk menyelidiki lebih jauh.",
 	"04" : "Atas usul Akane, ujian integritas sekolah diundur dan ia menyelipkan kartu berisi tautan ke jawaban ujian di barang-barang milik para “jenius bodoh”, berharap mereka tergoda untuk berbuat curang demi ambisi dan kepentingan pribadi—namun hasilnya di luar dugaan. Sementara itu, Kurokawa menemukan alat penyadap di ruang kepala sekolah dan segera menyadari siapa pelakunya. Ia menegur Akane dengan sindiran tajam, menyebut aksinya hanyalah permainan anak-anak, yang justru membuat ketertarikan Akane terhadapnya semakin besar. Di sisi lain, Shinozaki memancing rasa penasaran teman-temannya, termasuk Akane, dengan membicarakan pembunuh misterius yang sedang menghebohkan publik, namun enggan membocorkan apa pun. Di tengah rasa bosannya, Akane pun kembali mengunjungi toko listrik langganannya, di mana Kurokawa, yang melihat wajah muramnya, mengajaknya untuk menyegarkan pikiran.",
 	"05" : "Di atap sekolah, ditemukan jasad tanpa lengan kiri, memicu kepanikan di antara guru dan murid. Saat keributan terjadi, Akane melihat Kurokawa menatap dingin dari kerumunan, mirip dengan kejadian pembunuhan sebelumnya di taman. Setelah semua dipulangkan, Akane kembali ke TKP dan dihadapkan oleh beberapa teman sekelas yang menuduhnya sebagai pelaku, dengan dugaan motif cemburu. Tuduhan yang sembrono itu membuat Akane tertawa, namun penyelidikan polisi mengarah padanya setelah ditemukan pisau yang dibelinya terekam kamera toko. Meski mengakui kepemilikan pisau, Akane berhasil membalikkan situasi saat diinterogasi, lalu segera pergi dari kantor polisi dan dengan penuh amarah mendatangi Kurokawa.",
-
+    "06": "Kurokawa tiba-tiba menyerahkan diri ke polisi sambil membawa dua lengan manusia yang terpotong. Sementara semua orang lega karena pelaku tertangkap, Akane justru dilanda kekosongan dan curiga ada sesuatu yang janggal. Ia kemudian mengunjungi rumah keluarga Shinozaki bersama Iyohara atas permintaan ayah mendiang Shinozaki, yang juga CEO perusahaan besar yang kini sedang dilanda skandal internal. Saat Akane menyadari bahwa sang ayah mencoba menggali informasi dari mereka, ia berpura-pura menunjukkan rasa duka agar bisa masuk ke kamar Shinozaki, di mana ia menemukan data mengejutkan dalam tablet pribadi.",
+	"07": "Akane diam-diam menyelinap keluar dari pertandingan kuis dan mengunjungi kedai kopi tua yang berkaitan dengan Kurokawa, namun segera diusir saat menyebut namanya. Di luar, Eto yang membuntutinya muncul dan diminta bantuan oleh Akane. Setelah berhasil masuk ke ruang belakang, Akane menemukan foto mencurigakan dan surat tersembunyi, yang mengarah pada kesimpulan baru. Eto, yang menyaksikan aksinya, akhirnya mengonfrontasi Akane atas kecurigaannya selama ini—menuduhnya sebagai pelaku berbagai insiden, termasuk kebocoran data, meski belum punya bukti yang cukup. Namun saat Akane meremehkannya, Eto justru mengambil langkah tak terduga.",
+	"08": "Tahun 2002, Kurokawa muda menjadi asisten ayahnya yang seorang politisi, namun merasa tertekan dalam dunia penuh kepentingan. Satu-satunya pelariannya adalah kedai kopi tempat ia bertemu Ryoko, keponakan pemilik yang kemudian menjadi kekasihnya. Hubungan mereka ditentang keras oleh sang ayah setelah mengetahui latar belakang Ryoko, bahkan sampai ikut campur ketika tahu Ryoko hamil. Tanpa sepengetahuan Kurokawa, Ryoko akhirnya pergi meninggalkan semuanya demi membesarkan anaknya sendiri. Setelah menemukan surat dari masa lalu, Akane kembali ke kedai dan mengajukan pertanyaan penting pada sang pemilik.",
+	"09": "Seorang perempuan mengaku sebagai pelaku pembunuhan berantai yang sedang diburu dan menyerahkan buku catatan berisi detail yang melebihi data polisi. Saat diminta menjelaskan, ia menceritakan kembali kasus pembunuhan berantai yang terjadi enam tahun lalu di sekitar Seiran Gakuen, dan menyebut seorang siswa yang terobsesi pada Kurokawa sebagai pelaku sebenarnya. Menurutnya, siswa itu perlahan berubah menjadi pembunuh akibat ejekan dan penyebaran meme kejam oleh teman-temannya saat reuni kelas, yang memicu amukan tak terkendali.",
 };
 
 // =======================
@@ -35,9 +38,9 @@ const descEpisode = {
 "03" : "| Episode 3",
 "04" : "| Episode 4",
 "05" : "| Episode 5",
-// "06" : "| Episode 6",
-// "07" : "| Episode 7",
-// "08" : "| Episode 8",
+"06" : "| Episode 6",
+"07" : "| Episode 7",
+"08" : "| Episode 8",
 // "09" : "| Episode 9",
 // "10" : "| Episode 10 [TAMAT]",
   };
@@ -54,6 +57,9 @@ const descOnAirDate = {
 	"03" : "24 April 2025",
 	"04" : "1 Mei 2025",
 	"05" : "8 Mei 2025",
+	"06" : "15 Mei 2025",
+	"07" : "22 Mei 2025",
+	"08" : "29 Mei 2025",
   };
 console.log(descOnAirDate);
 
@@ -138,9 +144,9 @@ const linkHardsub = {
     "03": "https://sfl.gl/7lN1m",
     "04": "https://sfl.gl/q5FQf",
     "05": "https://sfl.gl/UyHu",
-    // "06": "",
-	// "07": "",
-	// "08": "",
+    "06": "https://sfl.gl/ZEGKNr",
+	"07": "https://sfl.gl/0mxhn",
+	"08": "https://sfl.gl/0GnR3G",
 	// "09": "",
 	// "10": "",
   };

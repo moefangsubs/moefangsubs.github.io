@@ -1,5 +1,5 @@
 const episodes = [
-  // { number: "69", thumbnail: "live_nogi13bdl-2.jpg", name: "BDL 13 DAY 2" },
+  { number: "69", thumbnail: "live_nogi13bdl-2.jpg", name: "BDL 13 DAY 2" },
   { number: "68", thumbnail: "live_nogi13bdl-1.jpg", name: "BDL 13 DAY 1" },
   { number: "46", thumbnail: "live_nogi12bdl-4.jpg", name: "BDL 12 DAY 4" },
   { number: "45", thumbnail: "live_nogi12bdl-3.jpg", name: "BDL 12 DAY 3" },
@@ -14,7 +14,7 @@ const episodes = [
   { number: "07", thumbnail: "live_nogi10bdlday2.jpg", name: "BDL 10 DAY 2" }
 ];
 
-const update = 1;
+const update = 2;
 
 let html = `
   <div class="scroll-container">

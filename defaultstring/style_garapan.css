@@ -50,14 +50,16 @@ body.garapan_bokuao { background-color: #013471;}
 /* body.main_site::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/fuyunotabi5b.jpg');} */
 /* background-image: url('https://ik.imagekit.io/moearchive/kakkiwed50.webp'); */
 body.main_site::before {
-    background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/6kiseibubka.jpg');
+    background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nnmnts2.jpg');
+    /* background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/6kiseibubka.jpg'); */
     /* background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/endosaku_monologue.jpg'); */
     /* background-image: url('https://ik.imagekit.io/moearchive/kakki23th.webp'); */
     /* background-image: url('https://ik.imagekit.io/moearchive/dalle_saachan.jpg'); */
     /* filter: grayscale(0.4) brightness(0.8) contrast(1.4); */
     /* filter: grayscale(1) brightness(0); */
 }
-body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/endosaku_monologue.jpg');}
+body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nnmnts.jpg');}
+/* body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/endosaku_monologue.jpg');} */
 /* body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/kakisaku.png');} */
 /* body.main_sitemap::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogifra.webp'); */
 
@@ -140,6 +142,7 @@ body.shotenintantei::before{background-image: url('https://ik.imagekit.io/moearc
 body.deathgame::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/deathgame.jpg');}
 body.miren::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/miren.jpeg');}
 body.madder::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/madder.jpg');}
+body.truckgirl2::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/truckgirl2.jpg');}
 body.nogizakafettucine::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/nogizakafettucine.jpg');}
 
 body.yononaka::before{background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/yononaka.jpg');}

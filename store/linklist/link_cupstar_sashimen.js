@@ -13,6 +13,9 @@ const descEpisodeSynopsis = {
 "06" : "Di episode 6 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Hayashi Runa & Ichinose Miku yang dipilih dengan sebutan kombinasi 'Duo yang Mudah Dibentuk'.",
 "07" : "Di episode 7 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Kanagawa Saya & Kawasaki Sakura yang dipilih dengan sebutan kombinasi 'teman sebangku' karena namanya berada saling bersebelahan.",
 "08" : "Di episode 8 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Tsutsui Ayame dengan Ioki Mao. Meskipun hampir tidak pernah melihat keduanya bersama, namun mereka terpilih karena ada kesamaan yaitu sama-sama orang yang bahkan berani pergi sendiri.",
+"09" : "Di episode 9 kali ini, Sashimen menampilkan Yoda Yuuki dan Endo Sakura! Jangan lewatkan obrolan seru dari \"duo center mendadak\" yang penuh kejutan!",
+"10" : "Di episode 10 kali ini, Kubo Shiori dan Okuda Iroha hadir sebagai bintang tamu! Saksikan keseruan \"duo panggung\" yang dipenuhi cerita menarik seputar dunia teater",
+"11" : "Di episode terakhir seri Sashimen kali ini, giliran Yumiki Nao dan Okamoto Hina yang tampil! Simak dinamika \"duo tak terduga\" dalam episode penuh kejutan ini."
 };
 console.log(descEpisodeSynopsis);
 
@@ -40,6 +43,9 @@ const descEpisode = {
 "06" : "| Vol.6 (Hayashi Runa & Ichinose Miku)",
 "07" : "| Vol.7 (Kanagawa Saya & Kawasaki Sakura)",
 "08" : "| Vol.8 (Tsutsui Ayame & Ioki Mao)",
+"09" : "| Vol.9 (Yoda Yuuki & Endo Sakura)",
+"10" : "| Vol.10 (Kubo Shiori x Okuda Iroha)",
+"11" : "| Vol.11 (Yumiki Nao x Okamoto Hina)"
 };
 console.log(descEpisode);
 
@@ -58,6 +64,9 @@ const descOnAirDate = {
 "06" : "3 Oktober 2024",
 "07" : "7 November 2024",
 "08" : "6 Desember 2024",
+"09" : "8 Januari 2025",
+"10" : "6 Februari 2025",
+"11" : "6 Maret 2025"
   };
 console.log(descOnAirDate);
 
@@ -76,6 +85,9 @@ const memberParticipate = {
 "06" : "林瑠奈、一ノ瀬美空",
 "07" : "金川紗耶、川﨑桜",
 "08" : "筒井あやめ、五百城茉央",
+"09" : "与田祐希、遠藤さくら",
+"10" : "久保史緒里、奥田いろは",
+"11" : "弓木奈於、岡本姫奈"
   };
 console.log(memberParticipate);
 
@@ -150,6 +162,9 @@ const linkHardsub = {
 "06" : "https://sfl.gl/iD4jeR",
 "07" : "https://sfl.gl/db0T",
 "08" : "https://sfl.gl/O3iJ",
+"09" : "https://sfl.gl/esIliSH",
+"10" : "https://sfl.gl/avN47NR",
+"11" : "https://sfl.gl/oRGE37"
   };
 console.log(linkHardsub);
 

@@ -73,6 +73,7 @@ const descEpisodeSynopsis = {
 	"67" : "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-38 \"Navel Orange\" ini dengan Mini live secara streaming. Sebuah single awal 2025 ini centernya adalah W-center, Inoue Nagi dan Nakanishi Aruno yang kembali menjadi center setelah single ke-29.",
 	"68" : "Kali ini Nogizaka46 merayakan ulang tahun ke-13 lewat konser \"13th YEAR BIRTHDAY LIVE\" di Stadion Ajinomoto selama dua hari. Konser ini diisi penampilan meriah dari gen-3 hingga gen-5, dan debut gen-6 dalam acara tahunan ini. Konser dipenuhi kejutan, medley 46 menit nonstop, dan momen emosional antara senpai dan kouhai. Tim merah dan biru tampil bergantian sebelum bersatu dalam nuansa ungu khas grup.",
 	"69" : "Kali ini Nogizaka46 merayakan ulang tahun ke-13 lewat konser \"13th YEAR BIRTHDAY LIVE\" di Stadion Ajinomoto selama dua hari. Konser ini diisi penampilan meriah dari gen-3 hingga gen-5, dan debut gen-6 dalam acara tahunan ini. Konser dipenuhi kejutan, medley 46 menit nonstop, dan momen emosional antara senpai dan kouhai. Tim merah dan biru tampil bergantian sebelum bersatu dalam nuansa ungu khas grup. Ditambah perayaan ulang tahun Suzuki Yuuna menambah kesan spesial. Di akhir, Nakanishi Aruno menyampaikan rasa cintanya pada Nogizaka46 dan harapan besar untuk tahun ke-14.",
+	"70" : "Pada 27 Mei 2025, Hinatazaka46 menggelar acara spesial bertajuk Omotenashikai di Yoyogi National Gymnasium untuk memperkenalkan 10 member gen-5 yang baru saja bergabung. Dalam suasana penuh semangat dan haru, para member menampilkan berbagai bakat seperti tari, musik, bela diri, hingga memasak dan seni tradisional Jepang, serta menyapa para Ohisama dengan penuh percaya diri meski sempat diliputi rasa gugup. Acara ini juga menampilkan pertunjukan live yang meriah dengan kolaborasi antara penampilan alat musik dan tarian, disusul dengan parade busana kasual, serta penampilan lagu-lagu populer Hinatazaka46 termasuk lagu debut gen-5 \"German Iris\", yang mendapat sambutan hangat. Acara ditutup dengan encore penuh emosi dan pesan komitmen dari para member baru untuk terus berkembang dan membawa semangat baru bagi Hinatazaka46.",
 
 };
 
@@ -104,7 +105,7 @@ const nameShow = {
 	"20" : "乃木坂46 11th YEAR BIRTHDAY LIVE -秋元真夏卒業コンサート-",
 	"21" : "乃木坂46 鈴木絢音卒業セレモニー",
 	"22" : "乃木坂46 32nd SG アンダーライブ",
-	"23" : "日向坂46 4期生おもてなし会",
+	"23" : "日向坂46 4期生 おもてなし会",
 	"24" : "乃木坂46 齋藤飛鳥卒業コンサート DAY 1",
 	"25" : "乃木坂46 齋藤飛鳥卒業コンサート DAY 2",
 	"26" : "乃木坂46 32ndシングル「人は夢を二度見る」発売記念ミニライブ",
@@ -150,7 +151,8 @@ const nameShow = {
 	"66" : "乃⽊坂46 初披露の会 「はじめまして、6期生です」",
 	"67" : "乃木坂46 38thシングル「ネーブルオレンジ」発売記念ミニライブ",
 	"68" : "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 1",
-	"68" : "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 2",
+	"69" : "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 2",
+	"70" : "日向坂46 5期生 おもてなし会",
 };
 console.log(nameShow);
 
@@ -229,6 +231,7 @@ const descEpisode = {
 	"67" : "| Nogizaka46 Mini Live 38th Single \"Navel Orange\"",
 	"68" : "| Nogizaka46 13th Year Birthday Live DAY 1",
 	"69" : "| Nogizaka46 13th Year Birthday Live DAY 2",
+	"70" : "| Hinatazaka46 5th-gen Omotenashikai",
 };
 console.log(descEpisode);
 
@@ -306,6 +309,7 @@ const descOnAirDate = {
 	"67" : "17 April 2025",
 	"68" : "17 Mei 2025",
 	"69" : "18 Mei 2025",
+	"70" : "27 Mei 2025",
 };
 console.log(descOnAirDate);
 
@@ -384,6 +388,7 @@ const memberParticipate = {
 	"67" : "乃木坂46 ",
 	"68" : "乃木坂46 ",
 	"69" : "乃木坂46 ",
+	"70" : "日向坂46 5期生",
 };
 console.log(memberParticipate);
 
@@ -463,6 +468,7 @@ const imageThumbBig = {
 	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38.jpg",
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2.jpg",
+	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai.jpg",
 };
 console.log(imageThumbBig);
 
@@ -541,6 +547,7 @@ const imageThumbA = {
 	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38a.jpg",
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1a.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2a.jpg",
+	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai1.jpg",
 };
 console.log(imageThumbA);
 
@@ -618,6 +625,7 @@ const imageThumbB = {
 	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38b.jpg",
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1b.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2b.jpg",
+	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai2.jpg",
 };
 console.log(imageThumbB);
 
@@ -695,6 +703,7 @@ const imageThumbC = {
 	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38c.jpg",
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1c.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2c.jpg",
+	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai3.jpg",
 };
 console.log(imageThumbC);
 
@@ -778,6 +787,7 @@ const imageThumbD = {
 	"67" : "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive38d.jpg",
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1d.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2d.jpg",
+	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai4.jpg",
 };
 console.log(imageThumbD);
 
@@ -856,6 +866,7 @@ const linkHardsub = {
 	"67" : "https://sfl.gl/7LB87L",
 	"68" : "",
 	"69" : "",
+	"70" : "",
 };
 console.log(linkHardsub);
 
@@ -934,6 +945,7 @@ const linkTrakteer = {
 	"67" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-mini-live-38th-single-navel-orange-vBuGE",
 	"68" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-13th-birthday-live-DFOp2",
 	"69" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-13th-birthday-live-DFOp2",
+	"70" : "https://trakteer.id/moefangsubs/showcase/hinatazaka46-5th-gen-omotenashikai-At5la",
 };
 console.log(linkTrakteer);
 
@@ -1012,6 +1024,7 @@ const filePassword = {
 	"67" : "(tidak ada password)",
 	"68" : "(tidak ada password)",
 	"69" : "(tidak ada password)",
+	"70" : "(tidak ada password)",
 };
 console.log(filePassword);
 
