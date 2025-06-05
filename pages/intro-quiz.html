@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Quiz - Tebak Judul Lagu Sakamichi</title>
+    <link rel="stylesheet" href="css/style_introquiz.css">
+    <!-- Add 8-bit font -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+	<script type="module" src="js/script_introquiz.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen">
+            <h1 class="move">Sakamichi Intro Quiz</h1>
+            <h3 class="move quote">v.1.0 by MoeFang</h3>
+            <p>Tebak judul lagu dari intro lagu idol favoritmu!</p>
+            <p class="subtext">Dengan sekali dengar, bisakah kamu menebaknya?</p>
+            <div class="input-group">
+                <input type="text" id="username" placeholder="Masukkan nama kamu">
+                <button id="start-btn">Mulai</button>
+            </div>
+        </div>
+
+        <!-- Difficulty Selection -->
+        <div id="difficulty-screen" class="screen hidden">
+            <h2 class="move">Pilih Tingkat Kesulitan</h2>
+            <p>Klik 2x tombol untuk melanjutkan</p>
+            <div class="options-container">
+                <button class="option-btn" data-difficulty="easy" data-duration="3">
+                    EASY<br><span>3 detik</span>
+                </button>
+                <button class="option-btn" data-difficulty="medium" data-duration="2">
+                    MEDIUM<br><span>2 detik</span>
+                </button>
+                <button class="option-btn" data-difficulty="hard" data-duration="1">
+                    HARD<br><span>1 detik</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Song Count Selection -->
+        <div id="count-screen" class="screen hidden">
+            <h2 class="move">Pilih Jumlah Lagu</h2>
+            <p>Klik 2x tombol untuk melanjutkan</p>
+            <div class="options-container">
+                <button class="option-btn" data-count="10">
+                    10 Lagu
+                </button>
+                <button class="option-btn" data-count="25">
+                    25 Lagu
+                </button>
+                <button class="option-btn" data-count="50">
+                    50 Lagu
+                </button>
+            </div>
+        </div>
+
+        <!-- Group Selection -->
+        <div id="group-screen" class="screen hidden">
+            <h2 class="move">Pilih Grup</h2>
+            <div class="group-grid">
+                <label class="group-option">
+                    <input type="checkbox" id="nogi-check" checked>
+                    <img src="ico/8bit_nogi.png" alt="Nogizaka46">
+                </label>
+                <label class="group-option">
+                    <input type="checkbox" id="saku-check">
+                    <img src="ico/8bit_saku.png" alt="Sakurazaka46">
+                </label>
+                <label class="group-option">
+                    <input type="checkbox" id="keya-check">
+                    <img src="ico/8bit_keya.png" alt="Keyakizaka46">
+                </label>
+                <label class="group-option">
+                    <input type="checkbox" id="hina-check">
+                    <img src="ico/8bit_hina.png" alt="Hinatazaka46">
+                </label>
+            </div>
+            <button id="start-quiz-btn">START!</button>
+			<p id="catatan">Sebelum mulai, direkomendasiin pake headset biar kedengeran :)</p>
+        </div>
+
+	<div id="loading-screen" class="screen hidden">
+		<h2>Loading lagu dan efek suara...</h2>
+		<div class="spinner"></div>
+		<p>Mohon tunggu sebentar 🎧</p>
+	</div>
+
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen hidden">
+            <div class="progress-container">
+                <div class="progress-text">1/10</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 10%"></div>
+                </div>
+            </div>
+            <div class="lives-container">
+                <span id="lives">❤️❤️❤️</span>
+            </div>
+            <div class="quiz-container">
+                <div class="play-container">
+                    <button id="play-btn" class="play-button">
+                        <div class="play-triangle"></div>
+                    </button>
+                </div>
+                <div class="options-container rotated" id="quiz-options">
+                    <div class="option-row">
+                        <button class="quiz-option" data-option="A">Option A</button>
+                        <button class="quiz-option" data-option="B">Option B</button>
+                    </div>
+                    <div class="option-row">
+                        <button class="quiz-option" data-option="C">Option C</button>
+                        <button class="quiz-option" data-option="D">Option D</button>
+                    </div>
+                </div>
+            </div>
+			<div>
+				<div class="quiz-tools">
+					<button id="replay-btn" class="tool-btn" disabled>Replay</button>
+					<button id="extend1-btn" class="tool-btn" disabled>+1s</button>
+					<button id="extend2-btn" class="tool-btn" disabled>+2s</button>
+					<button id="skip-btn" class="tool-btn">Skip</button>
+				</div>
+				<p id="minicatatan">Setiap tombol mengurangi 1 nyawa</p>
+            </div>
+            <div class="quiz-settings">
+                <label class="auto-confirm-label">
+                    <input type="checkbox" id="auto-confirm" checked>
+                    <span class="checkmark"></span>　No confirmation
+                </label>
+            </div>
+			<div class="timeout-container">
+				<div class="timeout-bar"></div>
+			</div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen hidden">
+			<h1 id="result-title" class="move"><b>Selamat!</b></h1>
+			<h3 id="result-score" class="move">Kamu benar 9 dari 10!</h3>
+			<p id="result-message" class="move">Itu bukti kalo kamu penggemar beratnya Nogizaka46!</p>
+        </div>
+
+        <!-- Confirmation Popup -->
+        <div id="confirm-popup" class="popup hidden">
+            <div class="popup-content">
+                <p>Apakah kamu yakin dengan pilihan ini?</p>
+                <div class="popup-buttons">
+                    <button id="confirm-yes">Ya</button>
+                    <button id="confirm-no">Tidak</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Answer Feedback -->
+        <div id="feedback-popup" class="feedback-popup hidden">
+            <p id="feedback-text"></p>
+        </div>
+    </div>
+
+    <audio id="audio-player"></audio>
+    <audio id="bg-music" loop>
+        <source src="https://files.catbox.moe/0qlt9a.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Pisahkan database ke file terpisah -->
+</body>
+</html>
