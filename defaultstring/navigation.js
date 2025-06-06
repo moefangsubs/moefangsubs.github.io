@@ -65,7 +65,6 @@ document.write(`
 		<a href="../pages/intro-quiz.html">Intro Quiz</a>
 		</div>
 	</li>
-	<li><a href="../order.html">Request Sub</a></li>
 	<a class="floatingButton searchbar"><img src="../sprite/search.svg" alt="Search" class="search-icon"></a>
 	</ul>
 </nav>
@@ -110,7 +109,6 @@ document.write(`
 		</div>
 	</li>
 	
-	<li><a href="../order.html">Request Sub</a></li>
 	<li><a href="#">Masterlist</a></li>
 	 <a class="floatingButton"><img src="../sprite/search.svg" alt="Search" class="search-icon"></a>
 	</ul>

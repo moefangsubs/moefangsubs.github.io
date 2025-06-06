@@ -19,7 +19,14 @@
 	border-radius: 8pt;
 	border:0 solid black;
 	}
-	
+.trakteer-marquee {
+	/* height: fit-content; */
+	height: 3%;
+	}
+.trakteer-topsupporter {
+    height: 450px;
+}
+
 @media (max-width: 1280px) {
 	.trakteer-tenagangesub, .trakteer-marquee, .trakteer-topsupporter {
 		display: none;
@@ -95,6 +102,54 @@
 }
 
 
+/* ------------------------------------------ */
+/* Sidebar - widget */
+/* ------------------------------------------ */
+
+
+  .moefang-widget {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #6a0dad;
+    color: #fff;
+    font-size: 18px;
+    border: 3px solid #150720;
+    border-radius: 8px;
+    padding: 12px 16px;
+    box-shadow: 0 0 10px #150720;
+    z-index: 9999;
+    text-align: center;
+    transition: all .5s ease;
+  }
+
+  .moefang-widget:hover {
+    transform: scale(1.05);
+    background-color: #C772FF;
+    color: #6a0dad !important;
+    box-shadow: 0 0 10px #fff;
+    border: 3px solid #fff;
+  }
+
+  .moefang-widget a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+  }
+
+  .moefang-widget span {
+    display: block;
+    font-size: 8px;
+    margin-top: 4px;
+    color: #ffccff;
+  }
+  
+  @media screen and (max-width: 1280px) {
+	.moefang-widget {
+		display: none;
+		}
+	}
 /* ------------------------------------------ */
 /* Sidebar - no slot */
 /* ------------------------------------------ */
