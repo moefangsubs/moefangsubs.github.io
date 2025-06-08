@@ -46,6 +46,7 @@ const descSong1 = {
 	"03": "MY LITTLE LOVER 「Hello, Again 〜昔からある場所〜」",
 	"04": "大塚愛 「PEACH」",
 	"05": "フレデリック 「オドループ」",
+	"06": "Foorin 「パプリカ」",
 };
 
 // =======================
@@ -58,6 +59,7 @@ const descSong2 = {
 	"03": "緑黄色社会 「Mela!」",
 	"04": "木村カエラ 「リルラ リルハ」",
 	"05": "Uru 「プロローグ」",
+	"06": "YUI 「CHE.R.RY」",
 };
 
 
@@ -71,6 +73,7 @@ const descSong3 = {
 	"03": "SHISHAMO 「僕に彼女ができたんだ」",
 	"04": "平井堅 「POP STAR」",
 	"05": "いきものががり 「コイスルオトメ」",
+	"06": "ASIAN KUNG-FU GENERATION 「ソラニン」",
 };
 
 
@@ -154,6 +157,7 @@ const linkHardsub = {
 	"03" : "https://sfl.gl/9P3bZlXK",
 	"04" : "https://sfl.gl/zKZGgeJ",
 	"05" : "https://sfl.gl/s94zVK",
+	"06" : "https://sfl.gl/eFiI",
 
 };
 
@@ -167,6 +171,7 @@ const linkSoftsub = {
 	"03" : "https://sfl.gl/uXi4",
 	"04" : "https://sfl.gl/yKzeMGZr",
 	"05" : "https://sfl.gl/0w35kU",
+	"06" : "https://sfl.gl/GdpjWso",
 
 };
 

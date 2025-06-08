@@ -32,7 +32,7 @@ const searchData = {
     "Nogizaka Star Tanjou! SIX": {
         "baseUrl": "nogizaka-star-tanjou-six.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/six",
-        "episodeRange": { "start": 1, "end": 5 }
+        "episodeRange": { "start": 1, "end": 6 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
@@ -120,7 +120,7 @@ const searchData = {
     "Spicy Sessions": {
         "baseUrl": "spicy-sessions.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions",
-        "episodeRange": { "start": 1, "end": 6 }
+        "episodeRange": { "start": 1, "end": 7 }
     },
     "Ano Sakamichi o Nobotte Hanasou": {
         "baseUrl": "ano-sakamichi-o-nobotte-hanasou.html",
@@ -132,6 +132,16 @@ const searchData = {
 // ~~~ NOGI DOUGA
 // ~~~~~~~~~~~~~~~	
 
+    "Ganbare Nogizaka": {
+        "baseUrl": "nogidouga-ganbare-nogizaka.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/ganbare",
+        "episodeRange": { "start": 1, "end": 1 }
+    },
+    "It's on Me": {
+        "baseUrl": "nogidouga-its-on-me.html",
+        "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/itsonme",
+        "episodeRange": { "start": 1, "end": 3 }
+    },
     "Nogizaka Asobu Dake": {
         "baseUrl": "nogidouga-nogizaka-asobu-dake.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/asobudake",
@@ -1164,12 +1174,12 @@ const searchData = {
     "Truck Girl 2 (Endo Sakura)": {
         "baseUrl": "truck-girl-2.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/truckgirl2",
-        "episodeRange": { "start": 1, "end": 3 }
+        "episodeRange": { "start": 1, "end": 4 }
     },
     "Madder (Ioki Mao)": {
         "baseUrl": "madder.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/madder",
-        "episodeRange": { "start": 1, "end": 8 }
+        "episodeRange": { "start": 1, "end": 9 }
     },
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",

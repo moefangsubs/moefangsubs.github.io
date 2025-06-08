@@ -13,6 +13,7 @@ const descEpisodeSynopsis = {
 	"07": "Akane diam-diam menyelinap keluar dari pertandingan kuis dan mengunjungi kedai kopi tua yang berkaitan dengan Kurokawa, namun segera diusir saat menyebut namanya. Di luar, Eto yang membuntutinya muncul dan diminta bantuan oleh Akane. Setelah berhasil masuk ke ruang belakang, Akane menemukan foto mencurigakan dan surat tersembunyi, yang mengarah pada kesimpulan baru. Eto, yang menyaksikan aksinya, akhirnya mengonfrontasi Akane atas kecurigaannya selama ini—menuduhnya sebagai pelaku berbagai insiden, termasuk kebocoran data, meski belum punya bukti yang cukup. Namun saat Akane meremehkannya, Eto justru mengambil langkah tak terduga.",
 	"08": "Tahun 2002, Kurokawa muda menjadi asisten ayahnya yang seorang politisi, namun merasa tertekan dalam dunia penuh kepentingan. Satu-satunya pelariannya adalah kedai kopi tempat ia bertemu Ryoko, keponakan pemilik yang kemudian menjadi kekasihnya. Hubungan mereka ditentang keras oleh sang ayah setelah mengetahui latar belakang Ryoko, bahkan sampai ikut campur ketika tahu Ryoko hamil. Tanpa sepengetahuan Kurokawa, Ryoko akhirnya pergi meninggalkan semuanya demi membesarkan anaknya sendiri. Setelah menemukan surat dari masa lalu, Akane kembali ke kedai dan mengajukan pertanyaan penting pada sang pemilik.",
 	"09": "Seorang perempuan mengaku sebagai pelaku pembunuhan berantai yang sedang diburu dan menyerahkan buku catatan berisi detail yang melebihi data polisi. Saat diminta menjelaskan, ia menceritakan kembali kasus pembunuhan berantai yang terjadi enam tahun lalu di sekitar Seiran Gakuen, dan menyebut seorang siswa yang terobsesi pada Kurokawa sebagai pelaku sebenarnya. Menurutnya, siswa itu perlahan berubah menjadi pembunuh akibat ejekan dan penyebaran meme kejam oleh teman-temannya saat reuni kelas, yang memicu amukan tak terkendali.",
+	"10": "Ihara, siswi jenius di sekolah elit Seiran, mengaku telah mengalami kembali kejahatan Akane lewat catatannya dan bahkan mengungkap dirinya sebagai pelaku pembunuhan pertama dalam kasus lama yang menjerat Kurokawa. Dibesarkan oleh ibu tunggal dan terobsesi dengan kesempurnaan, Ihara mulai meremehkan orang lain dan malu pada latar belakang keluarganya, hingga tanpa sengaja membunuh sang ibu. Jenazah ibunya ditemukan dengan kondisi mengenaskan, memicu rangkaian kejadian tragis. Di balik semua ini, muncul misteri mengapa Kurokawa menanggung dosa Ihara dan melakukan pembunuhan lanjutan, serta bagaimana obsesi Akane pada Kurokawa mengubahnya menjadi pembunuh.?"
 };
 
 // =======================
@@ -41,8 +42,8 @@ const descEpisode = {
 "06" : "| Episode 6",
 "07" : "| Episode 7",
 "08" : "| Episode 8",
-// "09" : "| Episode 9",
-// "10" : "| Episode 10 [TAMAT]",
+"09" : "| Episode 9",
+"10" : "| Episode 10 [TAMAT]",
   };
 console.log(descEpisode);
 
@@ -59,7 +60,8 @@ const descOnAirDate = {
 	"05" : "8 Mei 2025",
 	"06" : "15 Mei 2025",
 	"07" : "22 Mei 2025",
-	"08" : "29 Mei 2025",
+	"08" : "5 Juni 2025",
+	"08" : "12 Juni 2025",
   };
 console.log(descOnAirDate);
 
@@ -147,7 +149,7 @@ const linkHardsub = {
     "06": "https://sfl.gl/ZEGKNr",
 	"07": "https://sfl.gl/0mxhn",
 	"08": "https://sfl.gl/0GnR3G",
-	// "09": "",
+	"09": "https://sfl.gl/J9BB6",
 	// "10": "",
   };
 console.log(linkHardsub);

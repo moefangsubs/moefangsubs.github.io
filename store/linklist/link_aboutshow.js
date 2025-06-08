@@ -30,6 +30,8 @@ const acaraData = {
 	nogidougaDekirumon: "\"Hitori de Dekirumon\" merupakan acara khusus yang disiarkan dalam platform Nogi Douga dimana para member gen-5 Nogizaka46 menantang berbagai hal dengan sendirian saja sambil memutar kamera yang juga sendirian.",
     nogidougaBurari: "\"Nogizaka Burari\" merupakan konten dari Nogi Douga di mana satu member dari Nogizaka46 diminta untuk merancang \"Jika menghabiskan liburan bersama member, apa yang akan dilakukan, dengan siapa, dan di mana?\" sebagai tema. Mereka akan menghabiskan hari libur sesuai dengan rencana ideal mereka sambil mengambil foto selfie, dan konten ini akan memberikan gambaran tentang pengalaman tersebut.",
 	kaettekitayakubochannel: "Kaettekita! Yakubo Channel, merupakan season kedua dari seri Yakubo Channel dengan MC Yakubo Mio dan kameramen Hayashi Runa dari gen-4 yang berisi konten segmen ulasan makanan para member gen-5 saat Manatsu no Zenkoku Tour 2024.",
+	nogidougaItsonme: "\"It's on me\" berarti \"Aku yang traktir\", adalah acara tantangan dari Nogi Douga di mana para member mencoba menyelesaikan misi yang diberikan oleh tim acara. Jika mereka berhasil, maka biaya untuk dua orang—yaitu si penantang dan member yang menemaninya—akan ditraktir oleh tim acara. Namun jika gagal, maka mereka harus membayar sendiri",
+	nogidougaGanbarenogi: "Ganbare Nogizaka, sebuah cara baru yang mendukung keinginan para member Nogizaka46 untuk \"menantang diri\" kini dimulai!",
 	
 	// ------------
 	// ------------
