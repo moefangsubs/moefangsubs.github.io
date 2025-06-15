@@ -1,5 +1,5 @@
 const episodes = [];
-	for (let i = 09; i >= 1; i--) {
+	for (let i = 10; i >= 1; i--) {
 	  episodes.push(i.toString().padStart(2, "0"));
 	}
 console.log(episodes);

@@ -33,6 +33,7 @@ const descOnAirDate = {
 	"04": "19 Mei 2025",
 	"05": "26 Mei 2025",
 	"06": "2 Juni 2025",
+	"07": "9 Juni 2025",
 };
 console.log(descOnAirDate);
 
@@ -47,6 +48,7 @@ const descSong1 = {
 	"04": "大塚愛 「PEACH」",
 	"05": "フレデリック 「オドループ」",
 	"06": "Foorin 「パプリカ」",
+	"07": "東京事変 「女の子は誰でも」",
 };
 
 // =======================
@@ -60,6 +62,7 @@ const descSong2 = {
 	"04": "木村カエラ 「リルラ リルハ」",
 	"05": "Uru 「プロローグ」",
 	"06": "YUI 「CHE.R.RY」",
+	"07": "KOH＋ 「KISSして」",
 };
 
 
@@ -74,6 +77,7 @@ const descSong3 = {
 	"04": "平井堅 「POP STAR」",
 	"05": "いきものががり 「コイスルオトメ」",
 	"06": "ASIAN KUNG-FU GENERATION 「ソラニン」",
+	"07": "三浦大知 「(RE)PLAY」",
 };
 
 
@@ -88,6 +92,7 @@ const memberParticipate = {
 	"04": "乃木坂46 6期生、賀喜遥香",
 	"05": "乃木坂46 6期生、つついあやめ",
 	"06": "乃木坂46 6期生、五百城茉央",
+	"07": "乃木坂46 6期生、一ノ瀬美空",
 };
 
 console.log(memberParticipate);
@@ -158,6 +163,7 @@ const linkHardsub = {
 	"04" : "https://sfl.gl/zKZGgeJ",
 	"05" : "https://sfl.gl/s94zVK",
 	"06" : "https://sfl.gl/eFiI",
+	"07" : "https://sfl.gl/gGL4K",
 
 };
 
@@ -172,6 +178,7 @@ const linkSoftsub = {
 	"04" : "https://sfl.gl/yKzeMGZr",
 	"05" : "https://sfl.gl/0w35kU",
 	"06" : "https://sfl.gl/GdpjWso",
+	"07" : "https://sfl.gl/Z4Hs",
 
 };
 

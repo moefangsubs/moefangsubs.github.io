@@ -8,8 +8,8 @@ const descEpisodeSynopsis = {
 	"02" : "Jun terus menerima berbagai curhatan dari para pengikutnya dan merespons dengan sikap positif yang tulus. Suatu hari, ia mendapat permintaan kerja khusus dari klien baru yang ternyata juga ingin meminta saran pribadi. Dengan berbicara langsung, Jun menyadari pentingnya komunikasi tatap muka. Saat melihat kembali pesan-pesan yang masuk, ia menemukan sebuah hal yang mencurigakan dalam salah satu curhatan, yang bisa saja membawa perubahan besar.",
 	"03" : "Saat truknya rusak, Jun harus menumpang di truk milik Sakurajima, rekan kerja yang ia kira hanya peduli pada latihan otot. Namun di perjalanan, ia mulai melihat sisi lain dari Sakurajima yang bijak dan penuh perhatian, dan belajar banyak dari cara kerja serta kepeduliannya terhadap orang lain. Ketika mereka sampai di tujuan berikutnya, mereka bertemu klien yang kesulitan mengangkat barang, dan Jun ikut membantu sambil terus menyerap nilai-nilai kerja sama dan kepedulian dari sekitarnya.",
 	"04" : "Jun menjalani liputan harian bersama penulis eksentrik bernama Tsurusu yang selalu berbicara dengan nada musikal, membuat Jun kebingungan. Sementara itu, rekan-rekan Jun di perusahaan antusias, dan Kanta merasa khawatir akan kedekatan mereka selama liputan. Meski awalnya hanya menjalankan tugas, Tsurusu mulai kagum pada semangat Jun terhadap pekerjaannya, namun diam-diam ia merasa hampa karena tidak bisa mencintai profesinya sendiri. Jun pun mencoba menyemangatinya.",
-	// "05" : "Jun mengikuti pelatihan keselamatan untuk sopir profesional dan bertemu Abukuma, peserta lain yang cerewet dan penuh semangat membela keadilan, tapi ternyata dia sendiri pernah berbuat salah secara diam-diam. Saat Jun mengunjungi klien bernama Miyahara, pria itu curiga istrinya berselingkuh dan meminta saran. Jun menyarankan agar langsung bertanya, yang membuat Miyahara langsung menelepon sang istri di tempat—dan situasinya pun berkembang tak terduga.",
-	// "06" : "",
+	"05" : "Jun mengikuti pelatihan keselamatan untuk sopir profesional dan bertemu Abukuma, peserta lain yang cerewet dan penuh semangat membela keadilan, tapi ternyata dia sendiri pernah berbuat salah secara diam-diam. Saat Jun mengunjungi klien bernama Miyahara, pria itu curiga istrinya berselingkuh dan meminta saran. Jun menyarankan agar langsung bertanya, yang membuat Miyahara langsung menelepon sang istri di tempat—dan situasinya pun berkembang tak terduga.",
+	"06" : "Jun menerima kabar mendadak dari adiknya, Miu, bahwa ibu mereka, tiba-tiba jatuh sakit. Ia pun segera bergegas pulang ke kampung halamannya di Hokkaido. Untungnya, kondisi sang ibu tidak terlalu serius. Namun, Jun secara tidak sengaja mendengar percakapan Miu dan ibunya yang membuat Jun merasa campur aduk. Di tengah situasi itu, Jun mampir ke perusahaan pengangkutan milik keluarga temannya, dan di sana ia diberi tahu oleh sang direktur bahwa mereka sedang kekurangan tenaga kerja. Karena bisa tetap berada di dekat keluarganya, Jun pun ditawari untuk bekerja di sana."
 };
 
 // =======================
@@ -32,8 +32,8 @@ const descEpisode = {
 "02" : "| Episode 2",
 "03" : "| Episode 3",
 "04" : "| Episode 4",
-// "05" : "| Episode 5",
-// "06" : "| Episode 6 [END]",
+"05" : "| Episode 5",
+"06" : "| Episode 6 [END]"
   };
 console.log(descEpisode);
 
@@ -47,8 +47,8 @@ const descOnAirDate = {
 	"02" : "17 Mei 2025",
 	"03" : "24 Mei 2025",
 	"04" : "31 Mei 2025",
-	// "05" : "7 Juni 2025",
-	// "06" : "14 Juni 2025",
+	"05" : "7 Juni 2025",
+	"06" : "14 Juni 2025",
   };
 console.log(descOnAirDate);
 
@@ -127,8 +127,8 @@ const linkHardsub = {
 	"02" : "https://sfl.gl/lHp4U1T",
 	"03" : "https://sfl.gl/aS2A",
 	"04" : "https://sfl.gl/6gw7",
-	// "05" : "",
-	// "06" : "",
+	"05" : "https://sfl.gl/EYwr",
+	"06" : "https://sfl.gl/IikD2UHe",
   };
 console.log(linkHardsub);
 

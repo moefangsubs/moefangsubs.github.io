@@ -1,5 +1,55 @@
 [
     {
+        "title": "Nogizaka Star Tanjou! SIX #07",
+        "url": "nogizaka-star-tanjou-six.html?episode=07",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six07.jpg"
+    },
+	{
+         "title": "Ano Sakamichi o Nobotte Hanasou #07",
+         "url": "ano-sakamichi-o-nobotte-hanasou.html?episode=07",
+         "image": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka07.jpg"
+     },
+	{
+         "title": "Ano Sakamichi o Nobotte Hanasou #08",
+         "url": "ano-sakamichi-o-nobotte-hanasou.html?episode=08",
+         "image": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka08.jpg"
+     },
+	{
+         "title": "Ano Sakamichi o Nobotte Hanasou #09",
+         "url": "ano-sakamichi-o-nobotte-hanasou.html?episode=09",
+         "image": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka09.jpg"
+     },
+	{
+         "title": "Ano Sakamichi o Nobotte Hanasou #10",
+         "url": "ano-sakamichi-o-nobotte-hanasou.html?episode=10",
+         "image": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka10.jpg"
+     },
+	{
+         "title": "Ano Sakamichi o Nobotte Hanasou #11",
+         "url": "ano-sakamichi-o-nobotte-hanasou.html?episode=11",
+         "image": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka11.jpg"
+     },
+	{
+         "title": "Ano Sakamichi o Nobotte Hanasou #12",
+         "url": "ano-sakamichi-o-nobotte-hanasou.html?episode=12",
+         "image": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka12.jpg"
+     },
+    {
+        "title": "Madder (Ioki Mao) #10 [TAMAT]",
+        "url": "madder.html?episode=10",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/madder/madder10.jpg"
+    },
+    {
+        "title": "Truck Girl 2 (Endo Sakura) #5",
+        "url": "truck-girl-2.html?episode=05",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/truckgirl/truckgirl205.jpg"
+    },
+    {
+        "title": "Truck Girl 2 (Endo Sakura) #6 [TAMAT]",
+        "url": "truck-girl-2.html?episode=06",
+        "image": "https://ik.imagekit.io/mLsKqNSuB/post/truckgirl/truckgirl206.jpg"
+    },
+    {
         "title": "Nogizaka Star Tanjou! SIX #06",
         "url": "nogizaka-star-tanjou-six.html?episode=06",
         "image": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six06.jpg"

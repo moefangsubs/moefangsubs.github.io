@@ -150,7 +150,7 @@ const linkHardsub = {
 	"07": "https://sfl.gl/0mxhn",
 	"08": "https://sfl.gl/0GnR3G",
 	"09": "https://sfl.gl/J9BB6",
-	// "10": "",
+	"10": "https://sfl.gl/JDswp8",
   };
 console.log(linkHardsub);
 

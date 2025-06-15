@@ -22,10 +22,12 @@ const descEpisode = {
 "04" : "| Episode 4",
 "05" : "| Episode 5",
 "06" : "| Episode 6",
-// "07" : "| Episode 7",
-// "08" : "| Episode 8",
-// "09" : "| Episode 9",
-// "10" : "| Episode 10 [TAMAT]",
+"07" : "| Episode 7",
+"08" : "| Episode 8",
+"09" : "| Episode 9",
+"10" : "| Episode 10",
+"11" : "| Episode 11",
+"12" : "| Episode 12 [TAMAT]"
   };
 console.log(descEpisode);
 
@@ -41,6 +43,12 @@ const descOnAirDate = {
     "04": "24 April 2025",
     "05": "1 Mei 2025",
     "06": "1 Mei 2025",
+    "07": "15 Mei 2025",
+    "08": "15 Mei 2025",
+    "09": "22 Mei 2025",
+    "10": "22 Mei 2025",
+    "11": "29 Mei 2025",
+    "12": "29 Mei 2025"
   };
 console.log(descOnAirDate);
 
@@ -126,10 +134,12 @@ const linkHardsub = {
     "04": "https://sfl.gl/mmgH",
     "05": "https://sfl.gl/wXBLPqWk",
     "06": "https://sfl.gl/3MVXdu",
-	// "07": "",
-	// "08": "",
-	// "09": "",
-	// "10": "",
+	"07": "https://sfl.gl/IM7Vjcv",
+	"08": "https://sfl.gl/BQ4caAb",
+	"09": "https://sfl.gl/dOsIQ",
+	"10": "https://sfl.gl/vxLmhHUR",
+	"11": "https://sfl.gl/DOmRrZn",
+	"12": "https://sfl.gl/vVl7cCUn"
   };
 console.log(linkHardsub);
 

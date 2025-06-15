@@ -32,7 +32,7 @@ const searchData = {
     "Nogizaka Star Tanjou! SIX": {
         "baseUrl": "nogizaka-star-tanjou-six.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/six",
-        "episodeRange": { "start": 1, "end": 6 }
+        "episodeRange": { "start": 1, "end": 7 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
@@ -125,7 +125,7 @@ const searchData = {
     "Ano Sakamichi o Nobotte Hanasou": {
         "baseUrl": "ano-sakamichi-o-nobotte-hanasou.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/anosaka",
-        "episodeRange": { "start": 1, "end": 6 }
+        "episodeRange": { "start": 1, "end": 12 }
     },
 	
 // ~~~~~~~~~~~~~~~	
@@ -1174,12 +1174,12 @@ const searchData = {
     "Truck Girl 2 (Endo Sakura)": {
         "baseUrl": "truck-girl-2.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/truckgirl2",
-        "episodeRange": { "start": 1, "end": 4 }
+        "episodeRange": { "start": 1, "end": 6 }
     },
     "Madder (Ioki Mao)": {
         "baseUrl": "madder.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/docrandom/madder",
-        "episodeRange": { "start": 1, "end": 9 }
+        "episodeRange": { "start": 1, "end": 10 }
     },
     "Miren Kakure Bocchitachi (Yumiki Nao)": {
         "baseUrl": "miren-kakure-bocchitachi.html",
