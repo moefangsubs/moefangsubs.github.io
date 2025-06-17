@@ -517,3 +517,38 @@ body {
 		right: -6px;
 		top: -2pt;
 	}
+	
+/* ####################### */
+
+.keterangan {
+    font-family: 'DFPOPMix-W5';
+    color: #87278f;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    padding: 0pt;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-content: start;
+}
+
+.keterangan span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10pt;
+    align-content: center;
+    align-items: center;
+}
+
+.keterangan span .jp {
+    background-color: #87278f;
+	padding: 5pt;
+	border-radius: 5pt;
+	color: white;
+}
