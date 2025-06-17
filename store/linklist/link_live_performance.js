@@ -74,6 +74,7 @@ const descEpisodeSynopsis = {
 	"68" : "Kali ini Nogizaka46 merayakan ulang tahun ke-13 lewat konser \"13th YEAR BIRTHDAY LIVE\" di Stadion Ajinomoto selama dua hari. Konser ini diisi penampilan meriah dari gen-3 hingga gen-5, dan debut gen-6 dalam acara tahunan ini. Konser dipenuhi kejutan, medley 46 menit nonstop, dan momen emosional antara senpai dan kouhai. Tim merah dan biru tampil bergantian sebelum bersatu dalam nuansa ungu khas grup.",
 	"69" : "Kali ini Nogizaka46 merayakan ulang tahun ke-13 lewat konser \"13th YEAR BIRTHDAY LIVE\" di Stadion Ajinomoto selama dua hari. Konser ini diisi penampilan meriah dari gen-3 hingga gen-5, dan debut gen-6 dalam acara tahunan ini. Konser dipenuhi kejutan, medley 46 menit nonstop, dan momen emosional antara senpai dan kouhai. Tim merah dan biru tampil bergantian sebelum bersatu dalam nuansa ungu khas grup. Ditambah perayaan ulang tahun Suzuki Yuuna menambah kesan spesial. Di akhir, Nakanishi Aruno menyampaikan rasa cintanya pada Nogizaka46 dan harapan besar untuk tahun ke-14.",
 	"70" : "Pada 27 Mei 2025, Hinatazaka46 menggelar acara spesial bertajuk Omotenashikai di Yoyogi National Gymnasium untuk memperkenalkan 10 member gen-5 yang baru saja bergabung. Dalam suasana penuh semangat dan haru, para member menampilkan berbagai bakat seperti tari, musik, bela diri, hingga memasak dan seni tradisional Jepang, serta menyapa para Ohisama dengan penuh percaya diri meski sempat diliputi rasa gugup. Acara ini juga menampilkan pertunjukan live yang meriah dengan kolaborasi antara penampilan alat musik dan tarian, disusul dengan parade busana kasual, serta penampilan lagu-lagu populer Hinatazaka46 termasuk lagu debut gen-5 \"German Iris\", yang mendapat sambutan hangat. Acara ditutup dengan encore penuh emosi dan pesan komitmen dari para member baru untuk terus berkembang dan membawa semangat baru bagi Hinatazaka46.",
+	"71" : "Sakurazaka46 gen-4 menggelar acara perkenalan bertajuk \"First Showcase\" pada 12 Juni di Ariake Arena, Tokyo. Sebanyak 9 member baru yang bergabung sejak April menampilkan berbagai bakat seperti permainan biola, saksofon, gitar, seni bela diri, hingga lukisan dan paduan suara. Dalam sesi live, lagu-lagu seperti \"Jigoujitoku\", \"Drone Senkaichuu\", dan \"Shindafuri\" dibawakan dengan intensitas tinggi, menampilkan kemampuan menari dan ekspresi emosi yang mengesankan. Masing-masing member juga menyampaikan pesan mendalam mengenai harapan dan semangat mereka untuk menjadi bagian dari Sakurazaka46. ",
 
 };
 
@@ -153,6 +154,7 @@ const nameShow = {
 	"68" : "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 1",
 	"69" : "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 2",
 	"70" : "日向坂46 5期生 おもてなし会",
+	"71" : "櫻坂46 四期生 First Showcase",
 };
 console.log(nameShow);
 
@@ -232,6 +234,7 @@ const descEpisode = {
 	"68" : "| Nogizaka46 13th Year Birthday Live DAY 1",
 	"69" : "| Nogizaka46 13th Year Birthday Live DAY 2",
 	"70" : "| Hinatazaka46 5th-gen Omotenashikai",
+	"71" : "| Sakurazaka46 4th-gen First Showcase",
 };
 console.log(descEpisode);
 
@@ -310,6 +313,7 @@ const descOnAirDate = {
 	"68" : "17 Mei 2025",
 	"69" : "18 Mei 2025",
 	"70" : "27 Mei 2025",
+	"71" : "12 Juni 2025",
 };
 console.log(descOnAirDate);
 
@@ -345,7 +349,7 @@ const memberParticipate = {
 	"24" : "乃木坂46 ",
 	"25" : "乃木坂46 ",
 	"26" : "乃木坂46 ",
-	"27" : "桜坂46",
+	"27" : "櫻坂46",
 	"28" : "乃木坂46 ",
 	"29" : "乃木坂46 ",
 	"30" : "乃木坂46 ",
@@ -354,11 +358,11 @@ const memberParticipate = {
 	"33" : "乃木坂46 ",
 	"34" : "乃木坂46  33枚目シングルアンダーメンバー",
 	"35" : "乃木坂46 ",
-	"36" : "桜坂46 3期生",
+	"36" : "櫻坂46 3期生",
 	"37" : "日向坂46 4期生",
 	"38" : "乃木坂46 5期生",
 	"39" : "日向坂46 4期生",
-	"40" : "桜坂46 3期生",
+	"40" : "櫻坂46 3期生",
 	"41" : "乃木坂46 5期生",
 	"42" : "僕が見たかった青空",
 	"43" : "乃木坂46 ",
@@ -389,6 +393,7 @@ const memberParticipate = {
 	"68" : "乃木坂46 ",
 	"69" : "乃木坂46 ",
 	"70" : "日向坂46 5期生",
+	"71" : "櫻坂46 4期生",
 };
 console.log(memberParticipate);
 
@@ -469,6 +474,7 @@ const imageThumbBig = {
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai.jpg",
+	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase.jpg",
 };
 console.log(imageThumbBig);
 
@@ -548,6 +554,7 @@ const imageThumbA = {
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1a.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2a.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai1.jpg",
+	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase1.jpg",
 };
 console.log(imageThumbA);
 
@@ -626,6 +633,7 @@ const imageThumbB = {
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1b.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2b.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai2.jpg",
+	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase2.jpg",
 };
 console.log(imageThumbB);
 
@@ -704,6 +712,7 @@ const imageThumbC = {
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1c.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2c.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai3.jpg",
+	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase3.jpg",
 };
 console.log(imageThumbC);
 
@@ -788,6 +797,7 @@ const imageThumbD = {
 	"68" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1d.jpg",
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2d.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai4.jpg",
+	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase4.jpg",
 };
 console.log(imageThumbD);
 
@@ -867,6 +877,7 @@ const linkHardsub = {
 	"68" : "",
 	"69" : "",
 	"70" : "",
+	"71" : "",
 };
 console.log(linkHardsub);
 
@@ -946,6 +957,7 @@ const linkTrakteer = {
 	"68" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-13th-birthday-live-DFOp2",
 	"69" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-13th-birthday-live-DFOp2",
 	"70" : "https://trakteer.id/moefangsubs/showcase/hinatazaka46-5th-gen-omotenashikai-At5la",
+	"71" : "https://trakteer.id/moefangsubs/showcase/sakurazaka46-4th-gen-first-showcase-9zbJl",
 };
 console.log(linkTrakteer);
 
@@ -1025,6 +1037,7 @@ const filePassword = {
 	"68" : "(tidak ada password)",
 	"69" : "(tidak ada password)",
 	"70" : "(tidak ada password)",
+	"71" : "(tidak ada password)",
 };
 console.log(filePassword);
 

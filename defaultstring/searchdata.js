@@ -1918,6 +1918,7 @@ const searchData = {
 			"68": "250517 Nogizaka46 13th Year Birthday Live DAY 1",
 			"69": "250518 Nogizaka46 13th Year Birthday Live DAY 2",
 			"70": "250527 Hinatazaka46 5th-gen Omotenashikai",
+			"71": "250612 Sakurazaka46 4th Gen First Showcase",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1990,6 +1991,7 @@ const searchData = {
             "68": "live_nogi13bdl-1.jpg",
             "69": "live_nogi13bdl-2.jpg",
 			"70": "live_hinata5thomotenashikai.jpg",
+			"71": "live_sakura46th1stshowcase.jpg",
         }
     },
    "Nogizaka46 12th Birthday Live 10 Hour 123 Song One Day Live -Talk-": {

@@ -40,6 +40,7 @@ const songCodeToCompname = {
 	s035 : "チャンスは平等",
 	s036 : "チートデイ",
 	s037 : "歩道橋",
+	s038 : "ネーブルオレンジ",
 	
 	a001: "透明な色",
 	a002: "それぞれの椅子",
@@ -141,7 +142,18 @@ const memberNameToSlug = {
 	"川﨑桜": "kawasaki_sakura",
 	"菅原咲月": "sugawara_satsuki",
 	"冨里奈央": "tomisato_nao",
-	"中西アルノ": "nakanishi_aruno"
+	"中西アルノ": "nakanishi_aruno",
+	"矢田萌華": "yada_moeka",
+	"川端晃菜": "kawabata_hina",
+	"瀬戸口心月": "setoguchi_mitsuki",
+	"海邉朱莉": "kaibe_akari",
+	"長嶋凛桜": "nagashima_rio",
+	"森平麗心": "morihira_urumi",
+	"愛宕心響": "atago_kokone",
+	"鈴木佑捺": "suzuki_yuuna",
+	"大越ひなの": "ookoshi_hinano",
+	"小津玲奈": "ozu_reina",
+	"増田三莉音": "masuda_mirine"
 
 };
 
@@ -227,6 +239,10 @@ const generationStyles = {
     songFrom: { background: "#202020c4", color: "#ffffff" },
     songTitle: { background: "#d2d2d2c4", color: "#ffffff" },
   },
+  "6": {
+    songFrom: { background: "#184b3d", color: "#ffffff" },
+    songTitle: { background: "#08c794", color: "#ffffff" },
+  },
 };
 
 // Mengambil data lagu dari JSON dan memulai tampilan
@@ -267,7 +283,7 @@ function updateDisplay() {
   const membersContainer = document.getElementById("members-container");
   membersContainer.innerHTML = ""; // Reset kontainer member
 
-  ["members5", "members4", "members3", "members2", "members1"].forEach((key) => {
+  ["members6", "members5", "members4", "members3", "members2", "members1"].forEach((key) => {
     if (currentSong[key] && currentSong[key].length > 0) {
       const memberDiv = document.createElement("div");
       memberDiv.id = key;

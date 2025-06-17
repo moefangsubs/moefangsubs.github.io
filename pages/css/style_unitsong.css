@@ -155,7 +155,7 @@ button:hover {
 	transition: transform 0.3s ease;
 }
 
-#members5, #members4, #members3, #members2, #members1 {
+#members6 img, #members5, #members4, #members3, #members2, #members1 {
     border-bottom: solid;
     border-top: solid;
     border-width: 2pt 0pt;
@@ -166,10 +166,13 @@ button:hover {
 
 
 
-#members5 img, #members4 img, #members3 img, #members2 img, #members1 img {
+#members6 img, #members5 img, #members4 img, #members3 img, #members2 img, #members1 img {
     width: 75pt !important;
-    height: 75pt !important;
-	
+    height: 75pt !important;	
+    background: white !important;
+}
+
+#members6 img {
 }
 .member-photo:hover {
   transform: scale(1.1);

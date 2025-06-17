@@ -262,6 +262,13 @@ document.addEventListener("DOMContentLoaded", function() {
 		},
 		"38": {
 			SgLyrics: "秋元康",
+			SgComposer: "中村泰輔",
+			SgArranger: "樫原伸彦",
+			SgMVDirector: "池田大",
+			SgMVChoreo: "CRE8BOY",
+		},
+		"39": {
+			SgLyrics: "秋元康",
 			SgComposer: "???",
 			SgArranger: "???",
 			SgMVDirector: "???",
@@ -272,7 +279,7 @@ document.addEventListener("DOMContentLoaded", function() {
 	const photoMember = {
 		generalUrl: "https://ik.imagekit.io/moearchive/web/memberprofile/",
 
-		// Special case mapping for certain singles
+		// mapping for certain singles
 		specialCases: {
 			16: 15,
 			18: 17,
@@ -283,6 +290,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			30: 28,
 			32: 31,
 			34: 33,
+			39: 38,
 		},
 
 		// Special links for specific members in specific singles
@@ -469,7 +477,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		35: ["山下美月", "阪口珠美", "清宮レイ"],
 		36: "掛橋沙耶香",
 		37: "向井葉月",
-		38: ["与田祐希", "中村麗乃"],
+		38: ["与田祐希", "中村麗乃", "佐藤楓"],
 	};
 	// Table MADAMADA, with the title “不参加"
 	const HiatusMadamada = {
@@ -784,6 +792,13 @@ document.addEventListener("DOMContentLoaded", function() {
 			members2nd: ["小川彩", "川﨑桜", "久保史緒里", "池田瑛紗", "梅澤美波", "五百城茉央", "一ノ瀬美空"],
 			members1st: ["賀喜遥香", "井上和", "中西アルノ", "遠藤さくら"]
 		},
+		"39": {
+			singleTitle: "Same numbers",
+			center: "賀喜遥香",
+			members3rd: ["冨里奈央", "弓木奈於", "菅原咲月","五百城茉央","小川彩","筒井あやめ","岡本姫奈"],
+			members2nd: ["梅澤美波","中西アルノ","遠藤さくら","井上和","池田瑛紗","久保史緒里"],
+			members1st: ["川﨑桜","賀喜遥香","一ノ瀬美空"]
+		},
 
 		// [all other singles]
 	};
@@ -821,6 +836,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		"35": "#C7D2D4",
 		"36": "#EEE1FF",
 		"37": "#FBDFB0",
+		"38": "#E6DCE4",
 		"38": "#E6DCE4"
 	};
 
@@ -1051,6 +1067,12 @@ document.addEventListener("DOMContentLoaded", function() {
 			announcementDate: "2025/03/02",
 			airingChannel: "乃木坂工事中 #503",
 			releaseDate: "2025/03/26"
+		},
+		{
+			num: 39,
+			announcementDate: "2025/06/15",
+			airingChannel: "乃木坂工事中 #518",
+			releaseDate: "2025/07/30"
 		}
 	];
 

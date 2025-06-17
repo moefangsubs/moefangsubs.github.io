@@ -39,6 +39,7 @@ const songCodeToCompname = {
 	s035 : "チャンスは平等",
 	s036 : "チートデイ",
 	s037 : "歩道橋",
+	s038 : "ネーブルオレンジ",
   
 	a001: "透明な色",
 	a002: "それぞれの椅子",
@@ -139,7 +140,18 @@ const memberNameToSlug = {
 			"川﨑桜": "kawasaki_sakura",
 			"菅原咲月": "sugawara_satsuki",
 			"冨里奈央": "tomisato_nao",
-			"中西アルノ": "nakanishi_aruno"
+			"中西アルノ": "nakanishi_aruno",
+			"矢田萌華": "yada_moeka",
+			"川端晃菜": "kawabata_hina",
+			"瀬戸口心月": "setoguchi_mitsuki",
+			"海邉朱莉": "kaibe_akari",
+			"長嶋凛桜": "nagashima_rio",
+			"森平麗心": "morihira_urumi",
+			"愛宕心響": "atago_kokone",
+			"鈴木佑捺": "suzuki_yuuna",
+			"大越ひなの": "ookoshi_hinano",
+			"小津玲奈": "ozu_reina",
+			"増田三莉音": "masuda_mirine"
 };
 
 // Struktur untuk memetakan foto member
