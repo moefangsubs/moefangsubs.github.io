@@ -105,17 +105,6 @@ const imageThumbD = {
   };
 console.log(imageThumbD);
 
-
-// =======================
-// LINK HARDSUB
-// =======================
-
-const linkHardsub = {
-	"57" : "https://lokerwfh.net/VLKzVK",
-	"62" : "https://lokerwfh.net/8Rfavny",
-  };
-console.log(linkHardsub);
-
 // =======================
 // LINK TRAKTEER
 // =======================
