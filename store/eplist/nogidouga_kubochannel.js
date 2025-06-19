@@ -1,8 +1,8 @@
 const episodes = [
-  "62", "57"
+  "116", "115", "114", "62", "57", 
 ];
 
-const update = 0;
+const update = 3;
 let html = `
   <div class="scroll-container">
     <div class="imglist">

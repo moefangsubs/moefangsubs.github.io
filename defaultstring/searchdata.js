@@ -150,7 +150,7 @@ const searchData = {
     "Kubo Channel": {
         "baseUrl": "nogidouga-kubo-channel.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/kubochannel_",
-        "episodes": ["57", "62"]
+        "episodes": ["57", "62", "114", "115", "116"]
     },
     "Hitori de Dekirumon": {
         "baseUrl": "nogidouga-hitori-de-dekirumon.html",

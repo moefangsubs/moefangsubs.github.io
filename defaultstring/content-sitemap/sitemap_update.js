@@ -3,11 +3,11 @@ document.write(`
 <br/>
 <div class="caption">Selamat Datang di MoeFang Subs!
 <br>
- Kami mulai 'mengudara' dari <strong>6 Juli 2020</strong>, yang berarti sudah <span id="countup-days">...</span> hari kami menemani kalian, dan total <span data-count-to="1450" data-duration="10000" class="counter">0</span> takarir dengan lebih dari 80 judul (per 17 Juni 2025).</div>
+ Kami mulai 'mengudara' dari <strong>6 Juli 2020</strong>, yang berarti sudah <span id="countup-days">...</span> hari kami menemani kalian, dan total <span data-count-to="1453" data-duration="10000" class="counter">0</span> takarir dengan lebih dari 80 judul (per 17 Juni 2025).</div>
 <div class="whatsnew">
 	<div class="titlenew">
     <span class="update-header"></span>
-    <span class="update-date">8, 15, 17 Juni 2025</span>
+    <span class="update-date">8, 15, 17, 19 Juni 2025</span>
 	</div>
     <div class="links-container"></div>
 </div>
