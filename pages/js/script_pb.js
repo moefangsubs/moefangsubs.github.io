@@ -2944,7 +2944,7 @@ const photobookData = [
 		imageSevenNet: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nagi-monologue-7net.jpg",
 		imageRakuten: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nagi-monologue-rakuten.jpg",	
 		imageTsutaya: "https://ik.imagekit.io/moearchive/web/pbcover/n46-nagi-monologue-tsutaya.jpg",
-        // download: ""
+        download: "https://drive.google.com/file/d/1xeLOSbP2wO9xIcoHs0r1tVbFoMIo5tHv/view?usp=drive_link"
     },
     {
         image: "https://ik.imagekit.io/moearchive/web/pbcover/kanjou-no-sukima.jpg",
