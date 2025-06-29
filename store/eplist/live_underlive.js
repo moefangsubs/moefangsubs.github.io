@@ -1,4 +1,5 @@
 const episodes = [
+  { number: "72", thumbnail: "live_underlive38.jpg", name: "38SG" },
   { number: "65", thumbnail: "live_underlive37.jpg", name: "37SG Day 3" },
   { number: "62", thumbnail: "live_underlive36.jpg", name: "36SG Day 3" },
   { number: "61", thumbnail: "live_underlive36.jpg", name: "36SG Day 2" },
@@ -10,7 +11,7 @@ const episodes = [
   { number: "02", thumbnail: "live_underlive2021.jpg", name: "2021" }
 ];
 
-const update = 0;
+const update = 1;
 
 let html = `
   <div class="scroll-container">

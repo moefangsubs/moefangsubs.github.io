@@ -32,7 +32,7 @@ const searchData = {
     "Nogizaka Star Tanjou! SIX": {
         "baseUrl": "nogizaka-star-tanjou-six.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/six",
-        "episodeRange": { "start": 1, "end": 7 }
+        "episodeRange": { "start": 1, "end": 9 }
     },
     "Nogizaka Otameshichuu": {
         "baseUrl": "nogizaka-otameshichuu.html",
@@ -120,7 +120,7 @@ const searchData = {
     "Spicy Sessions": {
         "baseUrl": "spicy-sessions.html",
         "thumbnailBaseUrl": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions",
-        "episodeRange": { "start": 1, "end": 7 }
+        "episodeRange": { "start": 1, "end": 9 }
     },
     "Ano Sakamichi o Nobotte Hanasou": {
         "baseUrl": "ano-sakamichi-o-nobotte-hanasou.html",
@@ -1919,6 +1919,7 @@ const searchData = {
 			"69": "250518 Nogizaka46 13th Year Birthday Live DAY 2",
 			"70": "250527 Hinatazaka46 5th-gen Omotenashikai",
 			"71": "250612 Sakurazaka46 4th Gen First Showcase",
+			"72": "250405 Nogizaka46 38thSG Underlive & Sato Kaede Graduation Ceremony",
         },
         "thumbnail": {
             "01": "live_nogiskitslive.jpg",
@@ -1992,6 +1993,7 @@ const searchData = {
             "69": "live_nogi13bdl-2.jpg",
 			"70": "live_hinata5thomotenashikai.jpg",
 			"71": "live_sakura46th1stshowcase.jpg",
+			"72": "live_underlive38.jpg",
         }
     },
    "Nogizaka46 12th Birthday Live 10 Hour 123 Song One Day Live -Talk-": {

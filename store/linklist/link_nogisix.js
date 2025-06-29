@@ -34,6 +34,8 @@ const descOnAirDate = {
 	"05": "26 Mei 2025",
 	"06": "2 Juni 2025",
 	"07": "9 Juni 2025",
+	"08" : "16 Juni 2025",
+	"09" : "23 Juni 2025",
 };
 console.log(descOnAirDate);
 
@@ -49,6 +51,8 @@ const descSong1 = {
 	"05": "フレデリック 「オドループ」",
 	"06": "Foorin 「パプリカ」",
 	"07": "東京事変 「女の子は誰でも」",
+	"08" : "Official髭男dism 「ノーダウト」",
+	"09" : "竹内まりや 「駅	1987」",
 };
 
 // =======================
@@ -63,6 +67,8 @@ const descSong2 = {
 	"05": "Uru 「プロローグ」",
 	"06": "YUI 「CHE.R.RY」",
 	"07": "KOH＋ 「KISSして」",
+	"08" : "菅田将暉 「さよならエレジー」",
+	"09" : "高橋優 「明日はきっといい日になる	2015」",
 };
 
 
@@ -78,6 +84,8 @@ const descSong3 = {
 	"05": "いきものががり 「コイスルオトメ」",
 	"06": "ASIAN KUNG-FU GENERATION 「ソラニン」",
 	"07": "三浦大知 「(RE)PLAY」",
+	"08" : "ケラケラ 「スターラブレイション」",
+	"09" : "大塚愛 「クラゲ、流れ星」",
 };
 
 
@@ -93,6 +101,8 @@ const memberParticipate = {
 	"05": "乃木坂46 6期生、つついあやめ",
 	"06": "乃木坂46 6期生、五百城茉央",
 	"07": "乃木坂46 6期生、一ノ瀬美空",
+	"08": "乃木坂46 6期生、伊藤理々杏",
+	"09": "乃木坂46 6期生、吉田綾乃クリスティー",
 };
 
 console.log(memberParticipate);
@@ -164,6 +174,8 @@ const linkHardsub = {
 	"05" : "https://sfl.gl/s94zVK",
 	"06" : "https://sfl.gl/eFiI",
 	"07" : "https://sfl.gl/gGL4K",
+	"08" : "https://sfl.gl/xMgy8",
+	"09" : "https://sfl.gl/u7mUCAT",
 
 };
 
@@ -179,6 +191,8 @@ const linkSoftsub = {
 	"05" : "https://sfl.gl/0w35kU",
 	"06" : "https://sfl.gl/GdpjWso",
 	"07" : "https://sfl.gl/Z4Hs",
+	"08" : "https://sfl.gl/bl3euFi",
+	"09" : "https://sfl.gl/ptdfpQt",
 
 };
 

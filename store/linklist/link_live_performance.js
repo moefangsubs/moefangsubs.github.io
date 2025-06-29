@@ -75,6 +75,8 @@ const descEpisodeSynopsis = {
 	"69" : "Kali ini Nogizaka46 merayakan ulang tahun ke-13 lewat konser \"13th YEAR BIRTHDAY LIVE\" di Stadion Ajinomoto selama dua hari. Konser ini diisi penampilan meriah dari gen-3 hingga gen-5, dan debut gen-6 dalam acara tahunan ini. Konser dipenuhi kejutan, medley 46 menit nonstop, dan momen emosional antara senpai dan kouhai. Tim merah dan biru tampil bergantian sebelum bersatu dalam nuansa ungu khas grup. Ditambah perayaan ulang tahun Suzuki Yuuna menambah kesan spesial. Di akhir, Nakanishi Aruno menyampaikan rasa cintanya pada Nogizaka46 dan harapan besar untuk tahun ke-14.",
 	"70" : "Pada 27 Mei 2025, Hinatazaka46 menggelar acara spesial bertajuk Omotenashikai di Yoyogi National Gymnasium untuk memperkenalkan 10 member gen-5 yang baru saja bergabung. Dalam suasana penuh semangat dan haru, para member menampilkan berbagai bakat seperti tari, musik, bela diri, hingga memasak dan seni tradisional Jepang, serta menyapa para Ohisama dengan penuh percaya diri meski sempat diliputi rasa gugup. Acara ini juga menampilkan pertunjukan live yang meriah dengan kolaborasi antara penampilan alat musik dan tarian, disusul dengan parade busana kasual, serta penampilan lagu-lagu populer Hinatazaka46 termasuk lagu debut gen-5 \"German Iris\", yang mendapat sambutan hangat. Acara ditutup dengan encore penuh emosi dan pesan komitmen dari para member baru untuk terus berkembang dan membawa semangat baru bagi Hinatazaka46.",
 	"71" : "Sakurazaka46 gen-4 menggelar acara perkenalan bertajuk \"First Showcase\" pada 12 Juni di Ariake Arena, Tokyo. Sebanyak 9 member baru yang bergabung sejak April menampilkan berbagai bakat seperti permainan biola, saksofon, gitar, seni bela diri, hingga lukisan dan paduan suara. Dalam sesi live, lagu-lagu seperti \"Jigoujitoku\", \"Drone Senkaichuu\", dan \"Shindafuri\" dibawakan dengan intensitas tinggi, menampilkan kemampuan menari dan ekspresi emosi yang mengesankan. Masing-masing member juga menyampaikan pesan mendalam mengenai harapan dan semangat mereka untuk menjadi bagian dari Sakurazaka46. ",
+	"72" : "Konser yang digelar pada 5 Juni di Pia Arena MM ini menampilkan sembilan member Under, dengan Shibata Yuna sebagai center untuk lagu Under \"Koukanshinkei Yuui\", sekaligus memimpin penampilan nonstop berdurasi 1 jam 20 menit. Konser ini juga menjadi panggung perpisahan bagi Sato Kaede yang menggelar upacara kelulusannya dengan penuh haru, membawakan lagu solo dan berduet dengan rekan satu angkatannya. Acara ini turut berkolaborasi dengan festival musik baru di Yokohama serta menampilkan karya seni kolase perjalanan Under Live. Momentum ini menandai akhir era bagi Sato dan awal baru dengan bergabungnya generasi ke-6, yang debutnya digelar sehari setelah konser.",
+",
 
 };
 
@@ -155,6 +157,7 @@ const nameShow = {
 	"69" : "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 2",
 	"70" : "日向坂46 5期生 おもてなし会",
 	"71" : "櫻坂46 四期生 First Showcase",
+	"72" : "乃木坂46 38thSG アンダーライブ & 佐藤楓卒業セレモニー",
 };
 console.log(nameShow);
 
@@ -235,6 +238,7 @@ const descEpisode = {
 	"69" : "| Nogizaka46 13th Year Birthday Live DAY 2",
 	"70" : "| Hinatazaka46 5th-gen Omotenashikai",
 	"71" : "| Sakurazaka46 4th-gen First Showcase",
+	"72" : "| Nogizaka46 38thSG Underlive & Sato Kaede Graduation Ceremony",
 };
 console.log(descEpisode);
 
@@ -314,6 +318,7 @@ const descOnAirDate = {
 	"69" : "18 Mei 2025",
 	"70" : "27 Mei 2025",
 	"71" : "12 Juni 2025",
+	"72" : "5 April 2025",
 };
 console.log(descOnAirDate);
 
@@ -394,6 +399,7 @@ const memberParticipate = {
 	"69" : "乃木坂46 ",
 	"70" : "日向坂46 5期生",
 	"71" : "櫻坂46 4期生",
+	"72" : "乃木坂46 ",
 };
 console.log(memberParticipate);
 
@@ -475,6 +481,7 @@ const imageThumbBig = {
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai.jpg",
 	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase.jpg",
+	"72" : "https://ik.imagekit.io/mLsKqNSuB/post/live/38thunderlive.jpg",
 };
 console.log(imageThumbBig);
 
@@ -555,6 +562,7 @@ const imageThumbA = {
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2a.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai1.jpg",
 	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase1.jpg",
+	"72" : "https://ik.imagekit.io/mLsKqNSuB/post/live/38thunderlive-a.jpg",
 };
 console.log(imageThumbA);
 
@@ -634,6 +642,7 @@ const imageThumbB = {
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2b.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai2.jpg",
 	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase2.jpg",
+	"72" : "https://ik.imagekit.io/mLsKqNSuB/post/live/38thunderlive-b.jpg",
 };
 console.log(imageThumbB);
 
@@ -713,6 +722,7 @@ const imageThumbC = {
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2c.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai3.jpg",
 	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase3.jpg",
+	"72" : "https://ik.imagekit.io/mLsKqNSuB/post/live/38thunderlive-c.jpg",
 };
 console.log(imageThumbC);
 
@@ -798,6 +808,7 @@ const imageThumbD = {
 	"69" : "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2d.jpg",
 	"70" : "https://ik.imagekit.io/mLsKqNSuB/post/live/hinata5thomotenashikai4.jpg",
 	"71" : "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase4.jpg",
+	"72" : "https://ik.imagekit.io/mLsKqNSuB/post/live/38thunderlive-d.jpg",
 };
 console.log(imageThumbD);
 
@@ -878,6 +889,7 @@ const linkHardsub = {
 	"69" : "",
 	"70" : "",
 	"71" : "",
+	"72" : "",
 };
 console.log(linkHardsub);
 
@@ -958,6 +970,7 @@ const linkTrakteer = {
 	"69" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-13th-birthday-live-DFOp2",
 	"70" : "https://trakteer.id/moefangsubs/showcase/hinatazaka46-5th-gen-omotenashikai-At5la",
 	"71" : "https://trakteer.id/moefangsubs/showcase/sakurazaka46-4th-gen-first-showcase-9zbJl",
+	"72" : "https://trakteer.id/moefangsubs/showcase/nogizaka46-38th-sg-underlive-bNlgJ",
 };
 console.log(linkTrakteer);
 
@@ -1038,6 +1051,7 @@ const filePassword = {
 	"69" : "(tidak ada password)",
 	"70" : "(tidak ada password)",
 	"71" : "(tidak ada password)",
+	"72" : "(tidak ada password)",
 };
 console.log(filePassword);
 
