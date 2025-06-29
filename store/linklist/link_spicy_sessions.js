@@ -88,7 +88,7 @@ const descSong3 = {
 	"05": "コブクロ『轍 -わだち-』 ",
 	"06": "TWICE『Feel Special』",
 	"07": "一青窈『ハナミズキ』",
-	"08": "-",
+	"08": "Mrs. GREEN APPLE『点猫の唄』",
 };
 const descSong4 = {
 	"01": "ミュージカル『ムーラン・ルージュ』より『Come What May』 ",
@@ -98,7 +98,7 @@ const descSong4 = {
 	"05": "川崎鷹也『魔法の絨毯』",
 	"06": "黒沢薫『愛とは… duet with Ms.OOJA』",
 	"07": "スターダストレビュー『トワイライト・アヴェニュー』",
-	"08": "-",
+	"08": "あいみょん『君はロックを聴かない』",
 };
 const descSong5 = {
 	"01": "椎名林檎『丸の内サディスティック』",
@@ -107,7 +107,11 @@ const descSong5 = {
 	"04": "コレサワ『たばこ』",
 	"05": "My Little Lover『Hello, Again ～昔からある場所～』 ",
 	"06": "ONE OK ROCK『Wherever you are』",
-	"08": "-",
+	"08": "手嶌葵『明日への手紙』",
+};
+
+const descSong6 = {
+	"08": "『Beauty and the Beast』",
 };
 
 // =======================
