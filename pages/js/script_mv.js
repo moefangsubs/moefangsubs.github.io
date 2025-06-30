@@ -1479,6 +1479,20 @@ const slidesData = [
         type: "d"
       },
     ]
+  },
+  {
+    id: "slide45",
+    title: "SAME NUMBERS",
+    num: "39th Single",
+    image: "https://ik.imagekit.io/moearchive/singlealbum/n46_39.jpg",
+    links: [
+      {
+        href: "https://drive.google.com/file/d/1Iwz18WXtx9wjBSAE_0BI7CYoEH8VrVK6",
+        text: "Same numbers",
+        span: "選抜",
+        type: "x"
+      }
+    ]
   }
 ];	
 
