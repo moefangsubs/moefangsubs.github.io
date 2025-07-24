@@ -1,0 +1,39 @@
+{
+	"url": "nogizaka-books",
+	"nameShowTitle": "Nogizaka Books",
+	"nameShow": "乃木坂46Books",
+	"descSynopsis": "Dalam BluRay Nogizaka46 Hashimoto Nanami no Koisuru Bungaku terdapat bonus, salah satunya Nogizaka Books. Di video singkat ini, member terpilih akan menyampaikan buku novel favoritnya baru-baru ini.",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_nogibooks.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Fuyu",
+			"descEpsListName": "Fuyu",
+			"descOnAirDate": "19 Februari - 18 Maret 2016",
+			"memberParticipate": "深川麻衣、齋藤飛鳥、星野みなみ、寺田蘭世、高山一実",
+			"linkHardsub": "https://lokerwfh.net/71qcr9v",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogizakabooks_fuyu.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-fuyu.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-fuyu1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-fuyu2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-fuyu3.jpg",
+			"descEpisodeSynopsis": "Di edisi Fuyu no Tabi, para member tersebut antara lain Terada Ranze, Takayama Kazumi, Fukagawa Mai, Hoshino Minami dan Saito Asuka."
+		},
+		"02": {
+			"descEpisode": "| Natsu",
+			"descEpsListName": "Natsu",
+			"descOnAirDate": "28 Oktober - 2 Desember 2016",
+			"memberParticipate": "寺田蘭世、星野みなみ、樋口日奈、高山一実、中元日芽香、齋藤飛鳥",
+			"linkHardsub": "https://lokerwfh.net/Zc0i0S73",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogizakabooks_natsu.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-natsu.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-natsu1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-natsu2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koisurubungaku/nogizakabooks-natsu3.jpg",
+			"descEpisodeSynopsis": "Di edisi Natsu no Tabi, para member tersebut antara lain Terada Ranze, Takayama Kazumi, Higuchi Hina, Nakamoto Himeka, Hoshino Minami dan Saito Asuka."
+		}
+	}
+}

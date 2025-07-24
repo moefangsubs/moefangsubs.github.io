@@ -1,0 +1,75 @@
+{
+	"url": "bokuao-random",
+	"nameShowTitle": "Bokuao Random Content",
+	"descSynopsis": "Berbagai video random mengenai grup Boku ga Mitakatta Aozora",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04"
+	],
+	"newUpdateCount": 2,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_bokuao.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 230615 Nogizaka46 Koushiki Rival Member Reveal",
+			"descEpsListName": "",
+			"descOnAirDate": "15 Juni 2023",
+			"linkHardsub": "https://lokerwfh.net/UwQOr",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/230615-pengenalan-member-nogizaka46-koushiki-rival-SmGH8",
+			"filePassword": "BokuAo",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/230615_pengenalan.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230615.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230615a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230615b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230615c.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 Koushi Rival Group mengadakan live streaming pada 15 Juni 2023 dalam rangka memperkenalkan membernya yang terpilih, yang diketahui sebanyak 23 member. Dan telah diputuskan juga melalui event ini yaitu nama resmi grup rival-nya dan judul lagu debutnya.",
+			"nameShow": "乃木坂46公式ライバルメンバー発表会"
+		},
+		"02": {
+			"descEpisode": "| 230624 Mezamashi Doyoubi - Pengenalan Member",
+			"descEpsListName": "",
+			"descOnAirDate": "24 Juni 2023",
+			"linkHardsub": "https://lokerwfh.net/zeoF0a",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/mezamashi-doyoubi-pengenalan-member-bokuao-RXYFt",
+			"filePassword": "-",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/230624_mezamashi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230624-mezamashi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230624-mezamashi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230624-mezamashi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230624-mezamashi-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara Mezamashi Doyoubi, mereka akan memperkenalkan para member Boku ga Mitakatta Aozora dengan total 23 member, yang terbagi ke beberapa part, yang mana kali ini adalah bagian pertama dengan mengenalkan 7 member.",
+			"nameShow": "めざましどようび"
+		},
+		"03": {
+			"descEpisode": "| 230701 Mezamashi Doyoubi - Pengenalan Member",
+			"descEpsListName": "",
+			"descOnAirDate": "1 Juli 2023",
+			"linkHardsub": "https://lokerwfh.net/h9i8ir",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/mezamashi-doyoubi-pengenalan-member-bokuao-RXYFt",
+			"filePassword": "-",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/230701_mezamashi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230701-mezamashi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230701-mezamashi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230701-mezamashi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230701-mezamashi-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara Mezamashi Doyoubi, mereka akan memperkenalkan para member Boku ga Mitakatta Aozora dengan total 23 member, yang terbagi ke beberapa part, yang mana kali ini adalah bagian kedua.",
+			"nameShow": "めざましどようび"
+		},
+		"04": {
+			"descEpisode": "| 230708 Mezamashi Doyoubi - Pengenalan Member",
+			"descEpsListName": "",
+			"descOnAirDate": "8 Juli 2023",
+			"linkHardsub": "https://lokerwfh.net/Q3s2SFs",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/mezamashi-doyoubi-pengenalan-member-bokuao-RXYFt",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/230708_mezamashi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230708-mezamashi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230708-mezamashi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230708-mezamashi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/230708-mezamashi-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara Mezamashi Doyoubi, mereka akan memperkenalkan para member Boku ga Mitakatta Aozora dengan total 23 member, yang terbagi ke beberapa part, yang mana kali ini adalah bagian ketiga.",
+			"nameShow": "めざましどようび"
+		}
+	},
+	"memberParticipate": "僕が見たかった青空"
+}

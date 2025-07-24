@@ -1,0 +1,305 @@
+/* Import variables from the main style.css */
+ @import url('style.css');
+ 
+ /* --- Root Variables for Calendar --- */
+ :root {
+	--bgnogi: linear-gradient(180deg,rgba(129, 79, 162, 1) 0%, rgba(129, 79, 162, 1) 62%, rgba(115, 70, 144, 1) 65%, rgba(115, 70, 144, 1) 84%, rgba(100, 61, 126, 1) 86%, rgba(100, 61, 126, 1) 100%);
+	--bgkeya: linear-gradient(180deg,rgba(43, 171, 53, 1) 0%, rgba(43, 171, 53, 1) 62%, rgba(38, 149, 46, 1) 65%, rgba(38, 149, 46, 1) 84%, rgba(32, 128, 39, 1) 86%, rgba(32, 128, 39, 1) 100%);
+	--bgsaku: linear-gradient(180deg,rgba(233, 88, 129, 1) 0%, rgba(233, 88, 129, 1) 62%, rgba(230, 64, 111, 1) 65%, rgba(230, 64, 111, 1) 84%, rgba(227, 40, 93, 1) 86%, rgba(227, 40, 93, 1) 100%);
+	--bghina: linear-gradient(180deg,rgba(46, 171, 221, 1) 0%, rgba(46, 171, 221, 1) 62%, rgba(33, 157, 208, 1) 65%, rgba(33, 157, 208, 1) 84%, rgba(29, 140, 185, 1) 86%, rgba(29, 140, 185, 1) 100%);
+	--bgboku: linear-gradient(180deg,rgba(0, 110, 214, 1) 0%, rgba(0, 110, 214, 1) 62%, rgba(0, 96, 187, 1) 65%, rgba(0, 96, 187, 1) 84%, rgba(0, 82, 161, 1) 86%, rgba(0, 82, 161, 1) 100%);
+	
+	/* --bgnogi: #8b57ad; */
+	/* --bgkeya: #1b6a21; */
+	/* --bgsaku: #f3a1b8; */
+	/* --bghina: #7bcaea; */
+	/* --bgboku: #007aaf; */
+	
+	--bggradnogi: linear-gradient(180deg,rgba(72, 38, 95, 1) 0%, rgba(72, 38, 95, 1) 62%, rgba(58, 30, 76, 1) 65%, rgba(58, 30, 76, 1) 84%, rgba(43, 23, 57, 1) 86%, rgba(43, 23, 57, 1) 100%);
+	--bggradkeya: linear-gradient(180deg,rgba(21, 85, 26, 1) 0%, rgba(21, 85, 26, 1) 62%, rgba(16, 64, 19, 1) 65%, rgba(16, 64, 19, 1) 84%, rgba(10, 42, 13, 1) 86%, rgba(10, 42, 13, 1) 100%);
+	--bggradsaku: linear-gradient(180deg,rgba(142, 18, 53, 1) 0%, rgba(142, 18, 53, 1) 62%, rgba(118, 15, 44, 1) 65%, rgba(118, 15, 44, 1) 84%, rgba(94, 12, 35, 1) 86%, rgba(94, 12, 35, 1) 100%);
+	--bggradhina: linear-gradient(180deg,rgba(0, 72, 104, 1) 0%, rgba(0, 72, 104, 1) 62%, rgba(0, 63, 91, 1) 65%, rgba(0, 63, 91, 1) 84%, rgba(0, 54, 78, 1) 86%, rgba(0, 54, 78, 1) 100%);
+ }
+
+ /* --- General Body and Font Styles --- */
+ body {
+	background-color: var(--moe-tint7);
+	color: var(--moe);
+	font-family: 'Space Mono', monospace;
+ }
+ 
+h1,.note {
+	text-align: center;
+	font-family: 'Space Mono', monospace !important;
+}
+ 
+h1 {
+    color: var(--moe);
+    text-align: center;
+	font-weight: 700;
+    border-bottom: 2px solid var(--moe-tint6);
+    padding-bottom: 15px;
+}
+ 
+.caption {
+	text-align: justify;
+	font-size: 1.2em;
+	font-family: 'Space Mono', monospace !important;
+	line-height: 1.6;
+	/* max-width: 800px; */
+	margin: 0 auto 1em auto;
+ }
+ 
+.note {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 2em;
+ }
+ 
+.jpn {
+	font-family: "M PLUS Rounded 1c", sans-serif;
+ }
+ 
+ /* --- Birthday Announcement Banner --- */
+.hbd-container {
+    width: 90%;
+    /* max-width: 700px; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+}
+ 
+.hbd {
+    position: relative;
+    width: 100%;
+    background: #ffffff50;    
+    /* padding: 15px; */
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* margin: 5px auto; */
+    text-align: left;
+    color: var(--moe-shade-min2);
+    border: 5px solid var(--moe-tint5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.hbd.is-today::before {
+	content: "🎉";
+	font-size: 50px;
+	opacity: 0.2;
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+    z-index:1;
+ }
+ 
+.hbd-content {
+    flex-grow: 1;
+    padding-left: 20px;
+    z-index: 2;
+}
+.hbd-content p { margin: 2px 0; }
+.hbd-content p.line1 { font-size: 1.1em; font-family: 'Space Mono', monospace; }
+.hbd-content p.line2 { font-size: 1.5em; 	font-family: 'Space Mono', monospace !important; font-weight: 700; }
+.hbd-content p.line3 { font-size: 1em; font-family: 'Space Mono', monospace; }
+.hbd-content p span { color: var(--moe-shade-max1); font-weight: bold; font-family: 'Space Mono', monospace; }
+ 
+.hbd-photo {
+	width: 80px;
+	height: 80px;
+	margin-left: 15px;
+	overflow: hidden;
+ }
+ 
+.hbd-photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+ }
+ 
+ 
+ /* --- Filter Buttons --- */
+.dropdown {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	margin: 2em auto;
+ }
+ 
+.dropdown-btn {
+	padding: 8px 16px;
+	font-size: 1em;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	font-weight: 700;
+	color: var(--moe);
+	background-color: transparent;
+	border: 2px solid var(--moe-tint5);
+	cursor: pointer;
+	transition: all 0.3s ease;
+ }
+ 
+.dropdown-btn:hover,.dropdown-btn.active {
+	color: white;
+	background-color: var(--moe);
+	border-color: var(--moe);
+ }
+ 
+ /* --- Calendar Layout --- */
+.calendar-container {
+	width: 100%;
+ }
+ 
+.namabulan {
+	background: var(--moe);
+	color: #fff;
+	font-size: 1.8em;
+	font-weight: 700;
+	font-family: 'Space Mono', monospace;
+	padding: 10px 20px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	text-align: center;
+	transition: background-color 0.5s ease;
+ }
+ 
+.calendarlist {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	gap: 15px;
+ }
+ 
+ /* --- Member Card Styles --- */
+.member-card {
+	display: flex;
+	align-items: center;
+	position: relative;
+	color: white;
+	height: 120px;
+	padding: 10px;
+	overflow: hidden;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+ }
+.member-card:hover{
+	/* transform: translateY(-7px); */
+	transform: scale(1.05);
+	z-index:999;
+    border: 2pt solid var(--moe);
+    box-shadow: 3pt 3pt 0 var(--moe-tint3);
+ }
+ 
+.pictm {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+    margin-right: 15px;
+    position: relative;
+    z-index: 1;
+    /* border: 4px solid white; */
+}
+.pictm img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+ }
+ 
+.mem-data {
+	position: relative;
+	width: 100%;
+	text-align: right;
+	z-index: 1;
+ }
+ 
+.jptx {
+    font-size: 1.9em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.romaji {
+	font-size: 1.2em;
+ }
+.date {
+	font-size: 0.9em;
+	font-weight: bold;
+ }
+.countupdate {
+	font-size: 0.85em;
+	color: yellow;
+	font-weight: 400;
+	margin-top: 5px;
+ }
+ 
+.gen {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    min-width: 30px;
+    height: 30px;
+    color: white;
+    font-size: 0.7em;
+    /* font-weight: bold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    border: 1px solid white;
+}
+/* --- Group Specific Colors --- */
+
+/* Active Members Card Background */
+.nogi { background: var(--bgnogi); }
+.saku { background: var(--bgsaku); }
+.hina { background: var(--bghina); }
+.boku { background: var(--bgboku); }
+
+/* Active Members Gen Background */
+.nogi .gen { background: var(--bgnogi); }
+.saku .gen { background: var(--bgsaku); }
+.hina .gen { background: var(--bghina); }
+.boku .gen { background: var(--bgboku); }
+
+/* Graduated Members Card Background */
+.gradn { background: var(--bggradnogi); }
+.gradk { background: var(--bggradkeya); }
+.grads { background: var(--bggradsaku); }
+.gradh { background: var(--bggradhina); }
+
+/* Graduated Members Gen Background */
+.gradn .gen { background: var(--bggradnogi); }
+.gradk .gen { background: var(--bggradkeya); }
+.grads .gen { background: var(--bggradsaku); }
+.gradh .gen { background: var(--bggradhina); }
+
+/* Text Colors */
+.nogi .jptx, .nogi .romaji, .gradn .jptx, .gradn .romaji,
+.saku .jptx, .saku .romaji, .grads .jptx, .grads .romaji,
+.hina .jptx, .hina .romaji, .gradh .jptx, .gradh .romaji,
+.boku .jptx, .boku .romaji { color: white; text-shadow: 1px 1px 2px #00000050; }
+.gradk .jptx, .gradk .romaji { color: var(--bgkeya); text-shadow: 1px 1px 2px #00000050; }
+ /* --- Responsive Design --- */
+ @media (max-width: 768px) {
+	.calendarlist {
+	    grid-template-columns: 1fr;
+	}
+	.hbd-container {
+	    width: 95%;
+	}
+	.hbd.is-today::before {
+	    display: none;
+	}
+	.hbd-content {
+	    text-align: center;
+	    padding-left: 0;
+	}
+	.hbd-photo {
+	    display: none; /* Hide photo on smaller screens if needed */
+	}
+ }

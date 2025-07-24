@@ -1,0 +1,61 @@
+{
+	"url": "nogizaka-skits-bd-1",
+	"nameShowTitle": "Nogizaka Skits Bd/Dvd Box Vol.1",
+	"descSynopsis": "Konten-konten Nogizaka Skits versi Blu-Ray edisi ke-1.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_nogiskitsdvd1.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Making of Vol. 1",
+			"descEpsListName": "Making of",
+			"descOnAirDate": "8 Januari 2021",
+			"memberParticipate": "遠藤さくら、賀喜遥香、掛橋沙耶香、金川紗耶、北川悠理、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、早川聖来、林瑠奈、松尾美佑、矢久保美緒、弓木奈於",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-skits-making-of-BRqhI",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/nskitsbd01_makingof1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-01c.jpg",
+			"descEpisodeSynopsis": "Nogizaka Skits ini adalah bonus dari BluRay/DVD-Box Vol.1 nya yang telah dijual 8 Januari 2021. Di kesempatan kali ini adalah making of dari Nogizaka Skits ACT 1.",
+			"nameShow": "ノギザカスキッツ　メイキング"
+		},
+		"02": {
+			"descEpisode": "| NG Scene",
+			"descEpsListName": "NG Scene",
+			"descOnAirDate": "8 Januari 2021",
+			"memberParticipate": "遠藤さくら、賀喜遥香、掛橋沙耶香、金川紗耶、北川悠理、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、早川聖来、林瑠奈、松尾美佑、矢久保美緒、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/obU34Y",
+			"linkTrakteer": "",
+			"filePassword": "nogizakaskits_bd",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/nskitsbd01_ngscene.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-ngscene-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-ngscene-01.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-ngscene-02.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-ngscene-03.jpg",
+			"descEpisodeSynopsis": "Nogizaka Skits ini adalah bonus dari BluRay/DVD-Box Vol.1 nya yang telah dijual 8 Januari 2021. Di kesempatan kali ini adalah NG Scene alias scene gagal dari beberapa skits di ACT 1.",
+			"nameShow": "ノギザカスキッツ　ムチャ振りコント未公開映像「メンタリストAYAME」"
+		},
+		"03": {
+			"descEpisode": "| Muchaburi Conte : Mentallist Ayame",
+			"descEpsListName": "Muchaburi Conte",
+			"descOnAirDate": "8 Januari 2021",
+			"memberParticipate": "遠藤さくら、賀喜遥香、掛橋沙耶香、金川紗耶、北川悠理、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、早川聖来、林瑠奈、松尾美佑、矢久保美緒、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/XyT7TT6W",
+			"linkTrakteer": "",
+			"filePassword": "nogizakaskits_bd",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/nskitsbd01_mucaburiayame.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-muchaburiayame-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-muchaburiayame-01.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-muchaburiayame-02.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-muchaburiayame-03.jpg",
+			"descEpisodeSynopsis": "Nogizaka Skits ini adalah bonus dari BluRay/DVD-Box Vol.1 nya yang telah dijual 8 Januari 2021. Di kesempatan kali ini adalah skits versi \"extended\" dari skits Mentallist Ayame bagian pertama.",
+			"nameShow": "ノギザカスキッツ　ムチャ振りコント未公開映像「メンタリストAYAME」"
+		}
+	}
+}

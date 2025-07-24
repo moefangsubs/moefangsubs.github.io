@@ -1,0 +1,32 @@
+{
+	"url": "utabangumi-the-first-take",
+	"nameShowTitle": "The First Take",
+	"nameShow": "THE FIRST TAKE",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_thefirsttake.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 210922 THE FIRST TAKE",
+			"descEpsListName": "",
+			"descOnAirDate": "22 September 2021",
+			"memberParticipate": "生田絵梨花、久保史緒里、賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/fW6yPP",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/210922_tft.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/210922_nogizaka_thefirsttake.jpg",
+			"descEpisodeSynopsis": "Episode 153 menghadirkan Ikuta Erika, Kubo Shiori, dan Kaki Haruka dari grup idola populer Nogizaka46. Mengikuti penampilan Sakura Endo yang tak terduga dan menyegarkan di episode sebelumnya, kali ini tiga anggota yang suaranya dikenal luas mempersembahkan penampilan SATU KALI PENGAMBILAN dari lagu cinta baru yang memilukan dari Nogizaka46 'yasashiidakenara' (Jika hanya untuk bersikap baik), hanya di THE FIRST TAKE."
+		},
+		"02": {
+			"descEpisode": "| 210927 THE FIRST TAKE Podcast",
+			"descEpsListName": "",
+			"descOnAirDate": "27 September 2021",
+			"memberParticipate": "遠藤さくら",
+			"linkHardsub": "https://lokerwfh.net/Dcnx",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/210927_tft_podcast_endo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/tft-podcast-endo.jpg",
+			"descEpisodeSynopsis": "Endo Sakura diwawancarai Setelah penampilannya di THE FIRST TAKE dengan membawakan lagu populer Nogizaka46 \"Kikkake\" beberapa waktu yang lalu. Wawancaranya seputar perasaannya tampil di FIRST TAKE dan pandangannya terhadap Nogizaka46."
+		}
+	}
+}

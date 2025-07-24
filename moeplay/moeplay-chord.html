@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoePlay Chord</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_chord.css">
+
+    <!-- Firebase (sesuai permintaan) -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+</head>
+<body>
+    <div id="main">
+        <!-- Navbar akan dimuat oleh script -->
+        <div id="navbar-container"></div>
+
+        <div class="container">
+            <!-- Kontainer untuk daftar lagu -->
+            <div id="chord-list-container">
+                <div class="logo-container">
+                    <img src="../sprite/moechord.svg" alt="MoeChord Logo" class="moechord-logo">
+                </div>
+                <div id="nogizaka46-list" class="group-container">
+                    <h2 class="group-title ngz">Nogizaka46</h2>
+                    <div class="song-list"></div>
+                </div>
+                <div id="sakurazaka46-list" class="group-container">
+                    <h2 class="group-title skr">Sakurazaka46</h2>
+                    <div class="song-list"></div>
+                </div>
+                <div id="hinatazaka46-list" class="group-container">
+                    <h2 class="group-title hnt">Hinatazaka46</h2>
+                    <div class="song-list"></div>
+                </div>
+                 <div id="loading-list" class="loading-indicator">Memuat daftar lagu...</div>
+            </div>
+
+            <!-- Kontainer untuk tampilan detail chord -->
+            <div id="chord-detail-container" style="display: none;">
+                <div id="chord-info">
+                    <h2 id="song-title-ro"></h2>
+                    <h4 id="song-title-jp" class="jpn"></h4>
+                </div>
+
+                <div id="spotify-player-container">
+                    <iframe id="spotify-embed" style="border:0; width:100%; height:152px;" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
+                <div id="controls-container">
+                    <div class="control-label">Auto Scroll</div>
+                    <div class="speed-buttons">
+                        <button class="speed-btn" data-speed="0">■</button>
+                        <button class="speed-btn" data-speed="2">2x</button>
+                        <button class="speed-btn" data-speed="1.5">1.5x</button>
+                        <button class="speed-btn" data-speed="1">1x</button>
+                        <button class="speed-btn" data-speed="0.75">0.75x</button>
+                        <button class="speed-btn" data-speed="0.5">0.5x</button>
+                        <button class="speed-btn" data-speed="0.2">0.2x</button>
+                    </div>
+                </div>
+
+                <div id="loading-chord" class="loading-indicator">Memuat chord...</div>
+                <div id="chord-content"></div>
+            </div>
+        </div>
+
+        <!-- Footer akan dimuat oleh script -->
+        <div id="footer-container"></div>
+    </div>
+
+    <!-- Kepala dan kaki -->
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/footer.js"></script>
+
+    <!-- Script utama untuk halaman chord -->
+    <script src="../js/script_chord.js"></script>
+</body>
+</html>

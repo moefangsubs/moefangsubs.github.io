@@ -1,0 +1,89 @@
+{
+	"url": "nogikoi-enjiru-girls",
+	"nameShowTitle": "Nogikoi Enjiru Girls",
+	"nameShow": "乃木恋・演じるガールズ",
+	"descSynopsis": "Dalam aplikasi game smartphone Nogizaka46 \"Nogikoi ~sakamichi no shita de, ano hi boku wa koi o shita ~\" pada 10 Oktober 2019 mengadakan event \"Enjiru Girls! -Bibop Gekiken\". Dibintangi oleh member gen-4, yaitu Endo Sakura, Kaki Haruka dan Tsutsui Ayame. Menghadirkan episode 0 hingga 3 yang semuanya berkaitan dengan jalan cerita.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_nogikoienjiru.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "7 November 2019",
+			"memberParticipate": "遠藤さくら、賀喜遥香、筒井あやめ",
+			"linkHardsub": "https://lokerwfh.net/Uc3hIByc",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-enjiru01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-01c.jpg"
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "10 November 2019",
+			"memberParticipate": "遠藤さくら、賀喜遥香、筒井あやめ",
+			"linkHardsub": "https://lokerwfh.net/YDjvV",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-enjiru02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-02c.jpg"
+		},
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "13 November 2019",
+			"memberParticipate": "遠藤さくら、賀喜遥香、筒井あやめ",
+			"linkHardsub": "https://lokerwfh.net/8cfqA7",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-enjiru03.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-03.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-03a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-03b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-03c.jpg"
+		},
+		"04": {
+			"descEpisode": "| Individual - Endo Sakura",
+			"descEpsListName": "PV 遠藤",
+			"descOnAirDate": "10 November 2019",
+			"memberParticipate": "遠藤さくら",
+			"linkHardsub": "https://lokerwfh.net/3H54eKl",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-pv1.jpg",
+			"imageThumbA": "doc/blank.png",
+			"imageThumbB": "doc/blank.png",
+			"imageThumbC": "doc/blank.png"
+		},
+		"05": {
+			"descEpisode": "| Individual - Kaki Haruka",
+			"descEpsListName": "PV 賀喜",
+			"descOnAirDate": "10 November 2019",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/kwCAQY",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-pv2.jpg",
+			"imageThumbA": "doc/blank.png",
+			"imageThumbB": "doc/blank.png",
+			"imageThumbC": "doc/blank.png"
+		},
+		"06": {
+			"descEpisode": "| Individual - Tsutsui Ayame",
+			"descEpsListName": "PV 筒井",
+			"descOnAirDate": "10 November 2019",
+			"memberParticipate": "筒井あやめ",
+			"linkHardsub": "https://lokerwfh.net/jLQs7n",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-07-enjirugirls-pv3.jpg",
+			"imageThumbA": "doc/blank.png",
+			"imageThumbB": "doc/blank.png",
+			"imageThumbC": "doc/blank.png"
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"url": "hinakoi-films",
+	"nameShowTitle": "Hinakoi Films",
+	"nameShow": "ひな恋・君と僕の、ひなたの初恋",
+	"descSynopsis": "Untuk merayakan ulang tahun pertama HINAKOI, project \"HINAKOI FILMS 'Kimi to Boku no, Hinata no Hatsukoi'\" telah diluncurkan. Project ini diatur dalam setting yang sama dengan permainan, SMA Hinatazaka, di mana member Hinatazaka46 muncul sebagai teman sekelas dan adik kelas karakter utama. Yang pertama ini, \"Kimi to Boku no Hinata no Hatsukoi - Bunkasai Matsuri Magic wa Totsuzen ni Hen -\" menampilkan Kageyama Yuuka, Takamoto Ayaka, Kawata Hina, Tomita Suzuka, Matsuda Konoka, dan Miyata Manamo. Film pendek empat episode menggambarkan awal dari hubungan cinta selama persiapan untuk Hinakosai, festival budaya yang diadakan di SMA Hinatazaka.",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_hinakoibunkasai.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descEpsListName": "Episode 1",
+			"linkHardsub": "https://lokerwfh.net/L7Go1T",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/hinakoi-bunkasai01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai-01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai-01c.jpg"
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descEpsListName": "Episode 2",
+			"linkHardsub": "https://lokerwfh.net/87ytZAH",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/hinakoi-bunkasai02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai-02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinakoi/hinakoi-bunkasai-02c.jpg"
+		}
+	},
+	"descOnAirDate": "15 November 2021",
+	"memberParticipate": "高本彩花、影山優佳、松田好花、富田鈴花、河田陽菜、宮田愛萌"
+}

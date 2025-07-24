@@ -1,0 +1,232 @@
+[
+    {
+        "id": "aokiyuho",
+        "nama_jp": "青木宙帆",
+        "nama_romaji": "Aoki Yuho",
+        "lahir": "2003.06.13",
+        "asal": "沖縄県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/aokiyuho.png",
+        "status": "aktif"
+    },
+    {
+        "id": "akitarian",
+        "nama_jp": "秋田莉杏",
+        "nama_romaji": "Akita Rian",
+        "lahir": "2007.07.09",
+        "asal": "兵庫県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/akitarian.png",
+        "status": "aktif"
+    },
+    {
+        "id": "annoaoi",
+        "nama_jp": "安納蒼衣",
+        "nama_romaji": "Anno Aoi",
+        "lahir": "2007.01.30",
+        "asal": "埼玉県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/annoaoi.png",
+        "status": "aktif"
+    },
+    {
+        "id": "itoyuzu",
+        "nama_jp": "伊藤ゆず",
+        "nama_romaji": "Ito Yuzu",
+        "lahir": "2001.08.11",
+        "asal": "千葉県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/itoyuzu.png",
+        "status": "aktif"
+    },
+    {
+        "id": "imaiyuki",
+        "nama_jp": "今井優希",
+        "nama_romaji": "Imai Yuki",
+        "lahir": "2005.08.28",
+        "asal": "愛知県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/imaiyuki.png",
+        "status": "aktif"
+    },
+    {
+        "id": "iwamotoriko",
+        "nama_jp": "岩本理瑚",
+        "nama_romaji": "Iwamoto Riko",
+        "lahir": "2007.11.25",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/iwamotoriko.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kanazawaami",
+        "nama_jp": "金澤亜美",
+        "nama_romaji": "Kanazawa Ami",
+        "lahir": "2007.02.14",
+        "asal": "神奈川県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/kanazawaami.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kinoshitaai",
+        "nama_jp": "木下藍",
+        "nama_romaji": "Kinoshita Ai",
+        "lahir": "2009.08.19",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/kinoshitaai.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kudoyua",
+        "nama_jp": "工藤唯愛",
+        "nama_romaji": "Kudo Yua",
+        "lahir": "2009.08.04",
+        "asal": "北海道",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/kudoyua.png",
+        "status": "aktif"
+    },
+    {
+        "id": "shiogamanana",
+        "nama_jp": "塩釜菜那",
+        "nama_romaji": "Shiogama Nana",
+        "lahir": "2002.07.07",
+        "asal": "鹿児島県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/shiogamanana.png",
+        "status": "aktif"
+    },
+    {
+        "id": "sugiuraeren",
+        "nama_jp": "杉浦英恋",
+        "nama_romaji": "Sugiura Eren",
+        "lahir": "2008.06.19",
+        "asal": "愛知県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/sugiuraeren.png",
+        "status": "aktif"
+    },
+    {
+        "id": "sunagamiuna",
+        "nama_jp": "須永心海",
+        "nama_romaji": "Sunaga Miuna",
+        "lahir": "2005.04.11",
+        "asal": "埼玉県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/sunagamiuna.png",
+        "status": "aktif"
+    },
+    {
+        "id": "nishimoriaya",
+        "nama_jp": "西森杏弥",
+        "nama_romaji": "Nishimori Aya",
+        "lahir": "2003.07.18",
+        "asal": "高知県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/nishimoriaya.png",
+        "status": "aktif"
+    },
+    {
+        "id": "hagiwarakokoka",
+        "nama_jp": "萩原心花",
+        "nama_romaji": "Hagiwara Kokoka",
+        "lahir": "2006.06.30",
+        "asal": "静岡県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/hagiwarakokoka.png",
+        "status": "aktif"
+    },
+    {
+        "id": "hasegawahitomi",
+        "nama_jp": "長谷川稀未",
+        "nama_romaji": "Hasegawa Hitomi",
+        "lahir": "2003.03.24",
+        "asal": "埼玉県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/hasegawahitomi.png",
+        "status": "aktif"
+    },
+    {
+        "id": "hayasakisuzuki",
+        "nama_jp": "早﨑すずき",
+        "nama_romaji": "Hayasaki Suzuki",
+        "lahir": "2005.03.13",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/hayasakisuzuki.png",
+        "status": "aktif"
+    },
+    {
+        "id": "miyakoshiyuria",
+        "nama_jp": "宮腰友里亜",
+        "nama_romaji": "Miyakoshi Yuria",
+        "lahir": "2004.10.24",
+        "asal": "福井県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/miyakoshiyuria.png",
+        "status": "aktif"
+    },
+    {
+        "id": "mochinagamana",
+        "nama_jp": "持永真奈",
+        "nama_romaji": "Mochinaga Mana",
+        "lahir": "2004.01.25",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/mochinagamana.png",
+        "status": "aktif"
+    },
+    {
+        "id": "yaegashimiisa",
+        "nama_jp": "八重樫美伊咲",
+        "nama_romaji": "Yaegashi Miisa",
+        "lahir": "2010.03.05",
+        "asal": "宮城県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/yaegashimiisa.png",
+        "status": "aktif"
+    },
+    {
+        "id": "yagitoa",
+        "nama_jp": "八木仁愛",
+        "nama_romaji": "Yagi Toa",
+        "lahir": "2007.05.01",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/yagitoa.png",
+        "status": "aktif"
+    },
+    {
+        "id": "yanagihorikaren",
+        "nama_jp": "柳堀花怜",
+        "nama_romaji": "Yanagihori Karen",
+        "lahir": "2005.07.24",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/yanagihorikaren.png",
+        "status": "aktif"
+    },
+    {
+        "id": "yamaguchiyuan",
+        "nama_jp": "山口結杏",
+        "nama_romaji": "Yamaguchi Yuan",
+        "lahir": "2004.10.14",
+        "asal": "兵庫県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/yamaguchiyuan.png",
+        "status": "aktif"
+    },
+    {
+        "id": "yoshimotococona",
+        "nama_jp": "吉本此那",
+        "nama_romaji": "Yoshimoto Cocona",
+        "lahir": "2005.12.05",
+        "asal": "石川県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/bokuao5/yoshimotococona.png",
+        "status": "aktif"
+    }
+]

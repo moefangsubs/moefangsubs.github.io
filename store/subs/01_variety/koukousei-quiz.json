@@ -1,0 +1,25 @@
+{
+	"url": "koukousei-quiz",
+	"nameShowTitle": "Koukousei Quiz",
+	"descSynopsis": "Sebuah turnamen yang disponsori Nippon Television dan diadakan setiap musim panas.",
+	"availableEpisode": [
+		"210511"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_koukouseiquiz.png",
+	"IMGThumbnailEps": "",
+	"episodes": {
+		"210511": {
+			"descEpisode": "| 210511",
+			"descOnAirDate": "11 Mei 2021",
+			"memberParticipate": "佐々木久美、佐々木美玲、加藤史帆、河田陽菜、小坂菜緒、上村ひなの",
+			"linkHardsub": "https://lokerwfh.net/2qNSa",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/210511_koukousei.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/koukousei-210511.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/koukousei-210511a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/koukousei-210511b.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Yang saya garap kali ini adalah episode berdurasi 3 menit dengan penantang dari Hinatazaka46. Mereka terbagi menjadi 2 tim masing-masing 3 orang untuk menjawab 2 pertanyaan secara kreatif.",
+			"nameShow": "高校生クイス 参加募集中"
+		}
+	}
+}

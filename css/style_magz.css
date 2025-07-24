@@ -1,0 +1,227 @@
+* {
+	font-family: 'Space Mono', monospace;
+}
+ .titlehead {
+	margin-bottom: 1rem;
+}
+ #headtitle {
+	font-size: var(--font2);
+	color: var(--moe);
+	text-align: center;
+}
+ .desc {
+	display: block;
+	text-align: center;
+	margin-bottom: 2rem;
+	color: var(--moe-shade-min1);
+}
+ .dbcat {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+ .dbcat a {
+	display: block;
+	padding: 1rem;
+	border: 2px solid var(--moe);
+	text-align: center;
+	font-weight: bold;
+	color: var(--moe);
+	background-color: transparent;
+}
+ #magazine-viewer h1 {
+	text-align: center;
+	margin-bottom: 1.5rem;
+	color: var(--moe);
+}
+ #viewer-controls {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin-bottom: 2rem;
+}
+ .control-btn {
+	padding: 0.5rem 1rem;
+	border: 2px solid var(--moe);
+	background: transparent;
+	cursor: pointer;
+	font-weight: bold;
+	color: var(--moe);
+}
+/* Text Viewer Styles */
+ #text-viewer {
+	margin: 0 auto;
+	max-width: 800px;
+	color: var(--moe-shade-min2);
+}
+ #text-viewer .text-block {
+	font-family: 'Space Mono', monospace;
+	border-bottom: 1px dashed var(--moe-tint5);
+	padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+ #text-viewer .q {
+	font-weight: bold;
+	color: var(--moe-shade-max1);
+	font-size: 1.2rem;
+	margin-bottom: 0.75rem;
+}
+ #text-viewer .a {
+	line-height: 1.8;
+	text-align: justify;
+}
+ #text-viewer .caption {
+	line-height: 1.8;
+	text-align: justify;
+	font-style: italic;
+	color: var(--moe-shade-min1);
+}
+/* ----------------------------- */
+/* Image Viewer   */
+/* ----------------------------- */
+ #image-viewer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	padding: 2rem 0;
+}
+/* Mode "no" (Gambar Tunggal) */
+ .static-image-container {
+	width: 90vw;
+	display: flex;
+	justify-content: center;
+}
+ .static-image-container img {
+	max-width: 600px;
+	width: 100%;
+	height: auto;
+	display: block;
+	box-shadow: 8px 8px 0px -2px var(--moe);
+}
+/* Mode "duo" (PC - 2 Gambar Berdampingan) */
+ .duo-spread {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	width: 90vw;
+	max-width: 1280px;
+}
+ .duo-spread-page {
+	width: 50%;
+}
+ .duo-spread-page img {
+	width: 100%;
+	height: auto;
+	display: block;
+	box-shadow: 8px 8px 0px -2px var(--moe);
+}
+/* Mode "duo" & "flip" (Mobile) */
+ .image-slider {
+	position: relative;
+	width: 90vw;
+	max-width: 600px;
+	aspect-ratio: 1 / 1.414;
+	overflow: hidden;
+}
+ .image-slider img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0;
+	transition: opacity 0.4s ease-in-out;
+	box-shadow: 8px 8px 0px -2px var(--moe);
+}
+ .image-slider img.active {
+	opacity: 1;
+}
+/* Mode "flip" (PC - Flipping Book) */
+ #book-container {
+	perspective: 2500px;
+}
+ .book {
+	position: relative;
+	transform-style: preserve-3d;
+	width: 90vw;
+	max-width: 1280px;
+	aspect-ratio: 2 / 1.414;
+    /* Selalu lebar di PC */
+}
+ .book-page {
+	position: absolute;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	left: 50%;
+	transform-origin: left center;
+	transition: transform 0.9s ease-in-out;
+	transform-style: preserve-3d;
+}
+ .book-page.flipped {
+	transform: rotateY(-180deg);
+}
+ .book.is-closed .book-page.cover {
+	transform: translateX(-50%);
+	z-index: 999;
+}
+ .book.is-closed .book-page:not(.cover) {
+	transform: translateX(-50%);
+	opacity: 0;
+}
+ .book-page .page-face {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background-color: white;
+}
+ .book-page .page-face img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+}
+ .book-page .page-front {
+	transform: rotateY(0deg);
+	box-shadow: 4px 4px 0px -2px var(--moe);
+}
+ .book-page .page-back {
+	transform: rotateY(180deg);
+	box-shadow: -4px 4px 0px -2px var(--moe);
+}
+/* Tombol Navigasi Umum */
+ #image-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+ #image-nav button {
+	position: absolute;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	font-size: 4rem;
+	color: rgba(255, 255, 255, 0);
+	transition: all 0.3s ease;
+	font-family: 'Times New Roman', Times, serif;
+}
+ #image-nav button:hover {
+	background: rgba(46, 0, 82, 0.1);
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow: 0 0 10px var(--moe-shade-min2);
+}
+ #prev-page-btn {
+	left: 0;
+}
+ #next-page-btn {
+	right: 0;
+}

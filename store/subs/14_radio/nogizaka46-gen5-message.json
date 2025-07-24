@@ -1,0 +1,76 @@
+{
+	"url": "nogizaka46-gen5-message",
+	"nameShowTitle": "Gen-5 First Message",
+	"descSynopsis": "Ini merupakan lembar profil para member baru gen-5, beserta perkenalan diri mereka pertama kali dengan para penggemar.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_5thgenmsg.png",
+	"episodes": {
+		"01": {
+			"descEpsListName": "Ioki Mao",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-01-ioki.jpg"
+		},
+		"02": {
+			"descEpsListName": "Ikeda Teresa",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-02-teresa.jpg"
+		},
+		"03": {
+			"descEpsListName": "Ichinose Miku",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki03.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-03-miku.jpg"
+		},
+		"04": {
+			"descEpsListName": "Inoue Nagi",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki04.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-04-nagi.jpg"
+		},
+		"05": {
+			"descEpsListName": "Okamoto Hina",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki05.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-05-hina.jpg"
+		},
+		"06": {
+			"descEpsListName": "Ogawa Aya",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki06.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-06-aya.jpg"
+		},
+		"07": {
+			"descEpsListName": "Okuda Iroha",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki07.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-07-iroha.jpg"
+		},
+		"08": {
+			"descEpsListName": "Kawasaki Sakura",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki08.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-08-sakura.jpg"
+		},
+		"09": {
+			"descEpsListName": "Sugawara Satsuki",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki09.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-09-satsuki.jpg"
+		},
+		"10": {
+			"descEpsListName": "Tomisato Nao",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki10.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-10-nao.jpg"
+		},
+		"11": {
+			"descEpsListName": "Nakanishi Aruno",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki11.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-11-aruno.jpg"
+		}
+	}
+}

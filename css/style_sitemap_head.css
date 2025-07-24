@@ -1,0 +1,168 @@
+body {
+    /* background-color: var(--moe-tint7); */
+    background-color: var(--moe-shade-min1);
+    font-family: 'Space Mono', monospace;
+    color: var(--moe-shade-min2);
+    margin: 0;
+    padding: 0;
+}
+
+.sitemap-container {
+    /* padding: 2rem 1rem; */
+    /* width: 90%; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+}
+
+.scontainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upd {
+	background: var(--moe-tint6);
+    z-index: -1;
+}
+
+.grp {
+    background-color: var(--moe-tint5);
+    z-index: -1;
+}
+/* DIV 1: SALAM PEMBUKA */
+#salam-pembuka {
+    width: 90%;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#salam-pembuka .caption {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.hai {
+	font-size: 2rem;
+	font-weight: bold;
+}
+.whats {
+    font-size: 1.1rem;
+}
+
+#salam-pembuka .caption strong {
+    color: var(--moe-tint6);
+}
+
+#salam-pembuka .caption .counter,
+#salam-pembuka .caption #countup-days {
+    font-weight: bold;
+    color: var(--moe-tint6);
+}
+.warning-footer {
+	margin-top: 0 !important;
+}
+
+/* -- Notification Slider Styles -- */
+.notifsitemap-wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    position: relative;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    z-index: 5;
+}
+
+.notifsitemap-shadow {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    background: var(--moe-tint5);
+    transform: translate(3px, 3px);
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+
+.notifsitemap-container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+
+.notifsitemap-container::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 3;
+    background: var(--moe-shade-max1);
+    clip-path: var(--pixel-update-clip-path-border);
+    pointer-events: none;
+}
+
+.notifsitemap-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-height: 50px;
+    overflow: hidden;
+    width: 100%;
+    min-height: 70pt;
+}
+
+.notifsitemap-li {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.notifsitemap-li.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+.notifsitemap-li::before {
+    content: '';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+/* --- Style Berdasarkan Tipe Notifikasi --- */
+
+/* Tipe: experiment */
+.notif-experiment { background-color: #F9A825; color: #D63346; }
+.notif-experiment::before { background-image: url('../sprite/element/experiment.svg'); }
+
+/* Tipe: notice */
+.notif-notice { background-color: var(--moe-tint4); color: var(--moe); }
+.notif-notice::before { background-image: url('../sprite/element/info.svg'); }
+
+/* Tipe: feature */
+.notif-feature { background-color: var(--moe-tint1); color: var(--moe-tint6); }
+.notif-feature::before { background-image: url('../sprite/element/bell.svg'); }

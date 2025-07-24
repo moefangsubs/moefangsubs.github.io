@@ -1,0 +1,46 @@
+{
+	"url": "densetsu-no-head-sho-spinoff",
+	"nameShowTitle": "Densetsu no Head Sho - Spin-Off (2024)",
+	"nameShow": "伝説の頭 翔 「頭（ヘッド）たちの仁義なき頭脳戦（ブレインバトル）",
+	"descSynopsis": "Sebuah drama spin-off dari \"Densetsu no Head Shou\" telah lahir! Tatsujin, Seyama, dan Toujou memutuskan untuk berpartisipasi dalam sebuah \"Permainan Kematian.\" Tanpa disengaja, seorang siswi SMA yang serius, Kaede, terseret ke dalamnya! Karena Kaede, yang berperan sebagai wasit, memiliki \"perasaan yang sedikit berbeda,\" arah permainan kematian ini menjadi penuh gejolak.",
+	"availableEpisode": [
+		"240802",
+		"240816",
+		"240908"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_densetsunohead.png",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}-densetsu-no-head-sho-spinoff.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}-densetsu-no-head-sho-spinoff-a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}-densetsu-no-head-sho-spinoff-b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}-densetsu-no-head-sho-spinoff-c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}-densetsu-no-head-sho-spinoff-d.jpg",
+	"filePassword" : "SatchanwithYankees",
+	"episodes": {
+		"240802": {
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "2 Agustus 2024",
+			"linkHardsub": "https://sfl.gl/4dyvvkm",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240802-densetsu-no-head-sho-spin-off-6aMkt",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240802_densetsu_no_head_sho_spinoff.jpg",
+			"descEpisodeSynopsis": "Dalam drama spin-off \"Head tachi no Jingi Naki Zunou-sen\" dari drama malam Jumat \"Densetsu no Head Sho\", Sugawara Satsuki tampil memerankan peran Kaede, tokoh heroine yang khusus untuk spin-off drama ini. Kaede adalah putri dari pemilik tempat yang menjadi tempat berkumpulnya Grand Cross, dan merupakan seorang siswi SMA dengan kepribadian yang serius. Perhatikan bagaimana Kaede, yang awalnya takut kepada tiga berandalan ini, perlahan-lahan menunjukkan sisi barunya melalui death game!"
+		},
+		"240816": {
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "16 Agustus 2024",
+			"linkHardsub": "https://sfl.gl/DPAzRgLE",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240816-densetsu-no-head-sho-spin-off-2-j4tYQ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240802_densetsu_no_head_sho_spinoff.jpg",
+			"descEpisodeSynopsis": "Di episode 2 ini, Kaede kembali menjadi wasit dalam death game yang kedua. Apakah tiga berandalan ini bisa memenangkan game tersebut? Ataukah akan keok lagi?"
+		},
+		"240908": {
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "8 September 2024",
+			"linkHardsub": "https://sfl.gl/cw05Xq",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240908-densetsu-no-head-sho-spin-off-3-YZF3k",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240802_densetsu_no_head_sho_spinoff.jpg",
+			"descEpisodeSynopsis": "Di episode terakhir ini ini, Kaede kembali menjadi wasit dalam death game terakhir, yaitu menentukan kursi termewah dan paling biasa saja. Apakah dengan kursi itu, para berandalan bisa menarik hati Kaede?"
+		}
+	},
+	"descEpisode": "| Spin-off Episode {{eps}}",
+	"memberParticipate": "菅原咲月"
+}

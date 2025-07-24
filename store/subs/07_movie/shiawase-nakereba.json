@@ -1,0 +1,26 @@
+{
+	"url": "shiawase-nakereba",
+	"nameShowTitle": "Shiawase Nante, Inakareba Ii no ni (2024)",
+	"descSynopsis": "Ex-member Nogizaka46, Kitagawa Yuri, merilis karya pertamanya sebagai penulis naskah dan pemeran utama! Kitagawa Yuri, yang lulus dari Nogizaka46 pada Juni 2023 sebagai member dari gen-4, telah menyelesaikan karya orisinal yang telah ia rencanakan dan tulis sejak masih aktif, dimana Kitagawa sendiri menjadi pemeran utamanya juga. Selain Kitagawa, sebagai pemeran utama lainnya, tampil 11 member gen-4 lain yang merupakan teman seangkatannya di Nogizaka46, termasuk Endo Sakura dan Kaki Haruka yang saat ini aktif sebagai ace grup. Karya ini merupakan yang pertama dalam sejarah Nogizaka46, di mana mantan member menulis naskah asli dan skripnya, sementara member yang aktif berperan dalam film tersebut.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_shiawasenakereba.png",
+	"episodes": {
+		"01": {
+			"descEpsListName": "Movie",
+			"descOnAirDate": "17 Mei 2024",
+			"memberParticipate": "北川悠理、賀喜遥香、田村真佑、清宮レイ、柴田柚菜、筒井あやめ、遠藤さくら、佐藤璃果、矢久保美緒、弓木奈於、黒見明香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/bhBkaPO",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shiawase-nante-nakereba-ii-no-ni-2024-CgGSB",
+			"filePassword": "KitagawaYuri-Kenan-with-4kisei",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiawasenakereba.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiawasenakereba.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiawasenakereba1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiawasenakereba2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiawasenakereba3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiawasenakereba4.jpg",
+			"nameShow": "しあわせなんて、なければいいのに。"
+		}
+	}
+}

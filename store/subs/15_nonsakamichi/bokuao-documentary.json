@@ -1,0 +1,75 @@
+{
+	"url": "bokuao-documentary",
+	"nameShowTitle": "Bokuao Documentary",
+	"descSynopsis": "Berbagai video dokumenter dari Boku ga Mitakatta Aozora",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_bokuaodoc.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| BokuAo Training Camp Documentary (ft. Yellow Base Spring member)",
+			"descEpsListName": "Training Camp Doc",
+			"descOnAirDate": "18 Juli 2023",
+			"linkHardsub": "https://lokerwfh.net/ZpuanV",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/bokuao-documentary-LzsvD",
+			"filePassword": "BokuAoDocu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/bokuaodoc1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc1.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc1c.jpg",
+			"descEpisodeSynopsis": "Ini adalah dokumenter dari YouTube resmi Boku ga Mitakatta Aozora, dimana terbagi menjadi beberapa bagian menyesuaikan warna kepribadian member. Di bagian pertama ini adalah member dengan warna イエベ春.",
+			"nameShow": "Documentary of 僕青合宿 featuring “イエベ春” member"
+		},
+		"02": {
+			"descEpisode": "| BokuAo Training Camp Documentary (ft. Blue Base Summer member)",
+			"descEpsListName": "Training Camp Doc",
+			"descOnAirDate": "25 Juli 2023",
+			"linkHardsub": "https://lokerwfh.net/vEdz2zB",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/bokuao-documentary-LzsvD",
+			"filePassword": "BokuAoDocu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/bokuaodoc2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc2c.jpg",
+			"descEpisodeSynopsis": "Ini adalah dokumenter dari YouTube resmi Boku ga Mitakatta Aozora, dimana terbagi menjadi beberapa bagian menyesuaikan warna kepribadian member. Di bagian pertama ini adalah member dengan warna ブルベ夏.",
+			"nameShow": "Documentary of 僕青合宿 featuring “ブルベ夏” member"
+		},
+		"03": {
+			"descEpisode": "| BokuAo Training Camp Documentary (ft. Yellow Base Autumn & Blue Base Winter member)",
+			"descEpsListName": "Training Camp Doc",
+			"descOnAirDate": "28 Juli 2023",
+			"linkHardsub": "https://lokerwfh.net/pGbZ5",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/bokuao-documentary-LzsvD",
+			"filePassword": "BokuAoDocu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/bokuaodoc3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc3.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc3a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc3b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuaodoc3c.jpg",
+			"descEpisodeSynopsis": "Ini adalah dokumenter dari YouTube resmi Boku ga Mitakatta Aozora, dimana terbagi menjadi beberapa bagian menyesuaikan warna kepribadian member. Di bagian pertama ini adalah member dengan warna イエベ秋 ＆ ブルベ冬.",
+			"nameShow": "Documentary of 僕青合宿 featuring “イエベ秋＆ブルベ冬” member"
+		},
+		"04": {
+			"descEpisode": "| BokuAo Documentary ~Seishun no Kiseki~",
+			"descEpsListName": "Docu",
+			"descOnAirDate": "1 Agustus 2023",
+			"linkHardsub": "https://lokerwfh.net/6exvNar",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/bokuao-documentary-LzsvD",
+			"filePassword": "BokuAoDocu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bokuao/bokuao-seishunnokiseki.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuao-seishunnokiseki.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuao-seishunnokiseki-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuao-seishunnokiseki-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bokuao/bokuao-seishunnokiseki-c.jpg",
+			"descEpisodeSynopsis": "Ini adalah video trailer dokumenter dari YouTube resmi Boku ga Mitakatta Aozora dalam mempromosikan bonus apa saja yang terdapat dalam berbagai Type single debutnya yang dirilis akhir Agustus.",
+			"nameShow": "僕青ドキュメント〜青春のキセキ〜"
+		}
+	},
+	"memberParticipate": "僕が見たかった青空"
+}

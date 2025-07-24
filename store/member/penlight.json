@@ -1,0 +1,313 @@
+{
+  "伊藤理々杏": {
+    "penlight": {
+      "Lname": "紫",
+      "Lcolor": "rgb(114, 0, 204)",
+      "Rname": "赤",
+      "Rcolor": "rgb(204, 4, 0)"
+    }
+  },
+  "岩本蓮加": {
+    "penlight": {
+      "Lname": "赤",
+      "Lcolor": "rgb(204, 4, 0)",
+      "Rname": "ピンク",
+      "Rcolor": "rgb(203, 1, 131)"
+    }
+  },
+  "梅澤美波": {
+    "penlight": {
+      "Lname": "青",
+      "Lcolor": "rgb(0, 0, 204)",
+      "Rname": "水色",
+      "Rcolor": "rgb(0, 202, 202)"
+    }
+  },
+  "久保史緒里": {
+    "penlight": {
+      "Lname": "水色",
+      "Lcolor": "rgb(0, 202, 202)",
+      "Rname": "黄",
+      "Rcolor": "rgb(183, 201, 0)"
+    }
+  },
+  "吉田綾乃クリスティー": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "紫",
+      "Rcolor": "rgb(114, 0, 204)"
+    }
+  },
+  "遠藤さくら": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "白",
+      "Rcolor": "rgb(24, 26, 27)"
+    }
+  },
+  "賀喜遥香": {
+    "penlight": {
+      "Lname": "オレンジ",
+      "Lcolor": "rgb(204, 116, 0)",
+      "Rname": "緑",
+      "Rcolor": "rgb(52, 204, 0)"
+    }
+  },
+  "金川紗耶": {
+    "penlight": {
+      "Lname": "水色",
+      "Lcolor": "rgb(0, 202, 202)",
+      "Rname": "赤",
+      "Rcolor": "rgb(204, 4, 0)"
+    }
+  },
+  "黒見明香": {
+    "penlight": {
+      "Lname": "紫",
+      "Lcolor": "rgb(114, 0, 204)",
+      "Rname": "緑",
+      "Rcolor": "rgb(52, 204, 0)"
+    }
+  },
+  "佐藤璃果": {
+    "penlight": {
+      "Lname": "桃",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "ターコイズ",
+      "Rcolor": "rgb(0, 202, 160)"
+    }
+  },
+  "柴田柚菜": {
+    "penlight": {
+      "Lname": "青",
+      "Lcolor": "rgb(0, 0, 204)",
+      "Rname": "黄緑",
+      "Rcolor": "rgb(41, 111, 17)"
+    }
+  },
+  "田村真佑": {
+    "penlight": {
+      "Lname": "紫",
+      "Lcolor": "rgb(114, 0, 204)",
+      "Rname": "水色",
+      "Rcolor": "rgb(0, 202, 202)"
+    }
+  },
+  "筒井あやめ": {
+    "penlight": {
+      "Lname": "紫",
+      "Lcolor": "rgb(114, 0, 204)",
+      "Rname": "紫",
+      "Rcolor": "rgb(114, 0, 204)"
+    }
+  },
+  "林瑠奈": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "ピンク",
+      "Rcolor": "rgb(203, 1, 131)"
+    }
+  },
+  "松尾美佑": {
+    "penlight": {
+      "Lname": "ターコイズ",
+      "Lcolor": "rgb(0, 202, 160)",
+      "Rname": "白",
+      "Rcolor": "rgb(24, 26, 27)"
+    }
+  },
+  "矢久保美緒": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "黄色",
+      "Rcolor": "rgb(183, 201, 0)"
+    }
+  },
+  "弓木奈於": {
+    "penlight": {
+      "Lname": "赤",
+      "Lcolor": "rgb(204, 4, 0)",
+      "Rname": "黄緑",
+      "Rcolor": "rgb(41, 111, 17)"
+    }
+  },
+  "五百城茉央": {
+    "penlight": {
+      "Lname": "ターコイズ",
+      "Lcolor": "rgb(0, 202, 160)",
+      "Rname": "青",
+      "Rcolor": "rgb(0, 0, 204)"
+    }
+  },
+  "池田瑛紗": {
+    "penlight": {
+      "Lname": "緑",
+      "Lcolor": "rgb(52, 204, 0)",
+      "Rname": "白",
+      "Rcolor": "rgb(24, 26, 27)"
+    }
+  },
+  "一ノ瀬美空": {
+    "penlight": {
+      "Lname": "水色",
+      "Lcolor": "rgb(0, 202, 202)",
+      "Rname": "水色",
+      "Rcolor": "rgb(0, 202, 202)"
+    }
+  },
+  "井上和": {
+    "penlight": {
+      "Lname": "赤",
+      "Lcolor": "rgb(204, 4, 0)",
+      "Rname": "白",
+      "Rcolor": "rgb(24, 26, 27)"
+    }
+  },
+  "岡本姫奈": {
+    "penlight": {
+      "Lname": "紫",
+      "Lcolor": "rgb(114, 0, 204)",
+      "Rname": "青",
+      "Rcolor": "rgb(0, 0, 204)"
+    }
+  },
+  "小川彩": {
+    "penlight": {
+      "Lname": "白",
+      "Lcolor": "rgb(24, 26, 27)",
+      "Rname": "白",
+      "Rcolor": "rgb(24, 26, 27)"
+    }
+  },
+  "奥田いろは": {
+    "penlight": {
+      "Lname": "黄緑",
+      "Lcolor": "rgb(41, 111, 17)",
+      "Rname": "ピンク",
+      "Rcolor": "rgb(203, 1, 131)"
+    }
+  },
+  "川﨑桜": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "緑",
+      "Rcolor": "rgb(52, 204, 0)"
+    }
+  },
+  "菅原咲月": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "水色",
+      "Rcolor": "rgb(0, 202, 202)"
+    }
+  },
+  "冨里奈央": {
+    "penlight": {
+      "Lname": "ターコイズ",
+      "Lcolor": "rgb(0, 202, 160)",
+      "Rname": "ターコイズ",
+      "Rcolor": "rgb(0, 202, 160)"
+    }
+  },
+  "中西アルノ": {
+    "penlight": {
+      "Lname": "水色",
+      "Lcolor": "rgb(0, 202, 202)",
+      "Rname": "ターコイズ",
+      "Rcolor": "rgb(0, 202, 160)"
+    }
+  },
+  "愛宕心響": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "青",
+      "Rcolor": "rgb(0, 0, 204)"
+    }
+  },
+  "大越ひなの": {
+    "penlight": {
+      "Lname": "白",
+      "Lcolor": "rgb(24, 26, 27)",
+      "Rname": "黄",
+      "Rcolor": "rgb(183, 201, 0)"
+    }
+  },
+  "小津玲奈": {
+    "penlight": {
+      "Lname": "紫",
+      "Lcolor": "rgb(114, 0, 204)",
+      "Rname": "ターコイズ",
+      "Rcolor": "rgb(0, 202, 160)"
+    }
+  },
+  "海邉朱莉": {
+    "penlight": {
+      "Lname": "青",
+      "Lcolor": "rgb(0, 0, 204)",
+      "Rname": "赤",
+      "Rcolor": "rgb(204, 4, 0)"
+    }
+  },
+  "川端晃菜": {
+    "penlight": {
+      "Lname": "緑",
+      "Lcolor": "rgb(52, 204, 0)",
+      "Rname": "水色",
+      "Rcolor": "rgb(0, 202, 202)"
+    }
+  },
+  "鈴木佑捺": {
+    "penlight": {
+      "Lname": "白",
+      "Lcolor": "rgb(24, 26, 27)",
+      "Rname": "水色",
+      "Rcolor": "rgb(0, 202, 202)"
+    }
+  },
+  "瀬戸口心月": {
+    "penlight": {
+      "Lname": "青",
+      "Lcolor": "rgb(0, 0, 204)",
+      "Rname": "黄",
+      "Rcolor": "rgb(183, 201, 0)"
+    }
+  },
+  "長嶋凛桜": {
+    "penlight": {
+      "Lname": "ピンク",
+      "Lcolor": "rgb(203, 1, 131)",
+      "Rname": "オレンジ",
+      "Rcolor": "rgb(204, 116, 0)"
+    }
+  },
+  "増田三莉音": {
+    "penlight": {
+      "Lname": "青",
+      "Lcolor": "rgb(0, 0, 204)",
+      "Rname": "青",
+      "Rcolor": "rgb(0, 0, 204)"
+    }
+  },
+  "森平麗心": {
+    "penlight": {
+      "Lname": "黄",
+      "Lcolor": "rgb(183, 201, 0)",
+      "Rname": "黄",
+      "Rcolor": "rgb(183, 201, 0)"
+    }
+  },
+  "矢田萌華": {
+    "penlight": {
+      "Lname": "白",
+      "Lcolor": "rgb(24, 26, 27)",
+      "Rname": "紫",
+      "Rcolor": "rgb(114, 0, 204)"
+    }
+  },

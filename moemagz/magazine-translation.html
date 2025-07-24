@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- Title -->
+    <title>MoeFang Subs | MV Subs 48 & 46</title>
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- Kepala dan kaki wkwkwk -->
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_magz.css">
+</head>
+<body>
+
+<div id="main">
+    <div id="magazine-list-view" class="container">
+        <div class="titlehead"><div id="headtitle">MAGAZINE TRANSLATION</div></div>
+        <span class="desc">Sekarang kamu bisa menikmati membaca terjemahan magazine dengan dua mode, yaitu mode yang editan langsung dari versi scannya yang sudah saya edit, dan versi hanya teks saja.</span>
+        <div id="magazine-list-container" class="dbcat">
+            </div>
+    </div>
+
+    <div id="magazine-viewer" class="container" style="display: none;">
+        <h1 id="magazine-title" class="font1"></h1>
+        <div id="viewer-controls">
+            <button id="back-to-list" class="control-btn boxs1">← Back to List</button>
+            <button id="toggle-mode" class="control-btn boxs1">Mode Teks</button>
+        </div>
+
+        <div id="image-viewer">
+            <div id="book-container">
+                </div>
+            <div id="image-nav">
+                <button id="prev-page-btn">‹</button>
+                <button id="next-page-btn">›</button>
+            </div>
+        </div>
+
+        <div id="text-viewer" style="display: none;">
+            </div>
+    </div>
+</div>
+
+<script src="../js/script_magz.js"></script>
+</body>
+</html>

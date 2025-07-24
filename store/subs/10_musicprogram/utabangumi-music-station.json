@@ -1,0 +1,21 @@
+{
+	"url": "utabangumi-music-station",
+	"nameShowTitle": "Music Station",
+	"nameShow": "MUSIC STATION",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_musicstation.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 221223 Music Station Ultra Super Live 2022",
+			"descEpsListName": "221223",
+			"descOnAirDate": "23 Desember 2022",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/J7uE",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221223_msteultra2022_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221223-msteultra2022-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat last stage-nya Saito Asuka di MUSIC STATION Ultra Super Live 2022 dengan membawakan single kelulusannya \"Koko ni wa nai mono\". Sebelum itu, seperti biasa ada sedikit sesi talk-nya bersama MC dengan Nogizaka46. Silakan~"
+		}
+	}
+}

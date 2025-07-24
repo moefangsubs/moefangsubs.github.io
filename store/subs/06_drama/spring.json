@@ -1,0 +1,26 @@
+{
+	"url": "spring",
+	"nameShowTitle": "Spring! (2025)",
+	"availableEpisode": [
+		"01"
+	],
+	"newUpdateCount": 1,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_spring.png",
+	"filePassword" : "",
+	"episodes": {
+		"01": {
+			"descEpsListName": "Drama",
+			"descOnAirDate": "21 Maret 2025",
+			"memberParticipate": "井上和",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/spring-inoue-nagi-ZT33z",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250321-spring.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/spring/250321-spring.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/spring/250321-spring-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/spring/250321-spring-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/spring/250321-spring-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/spring/250321-spring-d.jpg",
+			"descEpisodeSynopsis": "Ousaka Aoi, seorang siswa teladan sekaligus anggota klub kaligrafi, mengalami kegagalan saat mengikuti ujian masuk universitas negeri yang diidamkannya. Saat berada dalam keputusasaan, ia bertemu dengan teman sekelasnya, Tasuku Murase, anggota klub basket yang juga gagal diterima di jurusan yang sama. Satu-satunya kesempatan terakhir mereka adalah ujian tahap akhir yang hanya memiliki 10 kursi tersedia dan mengandalkan esai sebagai penentu utama. Tanpa persiapan menghadapi esai, Aoi hampir menyerah hingga Tasuku dengan gigih membujuknya untuk belajar bersama, bahkan memperkenalkannya pada guru bahasa Jepang, Sayama. Dengan kepribadian yang bertolak belakang—Aoi yang pendiam dan Tasuku yang ceria—keduanya pun memulai perjuangan intensif menghadapi ujian. Dalam prosesnya, mereka tak hanya belajar menulis esai, tetapi juga menemukan perspektif baru tentang diri sendiri dan satu sama lain. Namun, sehari sebelum ujian, Aoi mendengar sebuah rahasia mengejutkan tentang Tasuku dari adik kelasnya, Rin Hayase, yang diam-diam menyimpan perasaan pada Tasuku.",
+			"nameShow": "第23回テレビ朝日新人シナリオ大賞『スプリング！』"
+		}
+	}
+}

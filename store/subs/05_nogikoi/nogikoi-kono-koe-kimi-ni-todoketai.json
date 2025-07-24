@@ -1,0 +1,48 @@
+{
+	"url": "nogikoi-kono-koe-kimi-ni-todoketai",
+	"nameShowTitle": "Nogikoi Kono Koe Kimi ni Todoketai",
+	"nameShow": "乃木恋・夏の声～この声、君に届けたい～",
+	"descSynopsis": "\"Kono Koe, Kimi ni Todoketai\" merupakan event dari Nogikoi pada bulan Juli 2018, dengan partisipasi 3 member Nogizaka46, yaitu Hoshino Minami, Kitano Hinako dan Iori Sagara.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_nogikoikonokoe.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Movie",
+			"descEpsListName": "TV CM",
+			"memberParticipate": "星野みなみ、北野日奈子、相楽伊織",
+			"linkHardsub": "https://lokerwfh.net/I1Lse1",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-natsunokoe.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-04-konokoe-cm.jpg"
+		},
+		"02": {
+			"descEpisode": "| Individual - Hoshino Minami",
+			"descEpsListName": "PV 星野",
+			"memberParticipate": "星野みなみ",
+			"linkHardsub": "https://lokerwfh.net/pCLbuK",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-04-konokoe-pv-minami.jpg"
+		},
+		"03": {
+			"descEpisode": "| Individual - Kitano Hinako",
+			"descEpsListName": "PV 北野",
+			"memberParticipate": "北野日奈子",
+			"linkHardsub": "https://lokerwfh.net/C3fVdD",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-04-konokoe-pv-kitano.jpg"
+		},
+		"04": {
+			"descEpisode": "| Individual - Sagara Iori",
+			"descEpsListName": "PV 相楽",
+			"memberParticipate": "相楽伊織",
+			"linkHardsub": "https://lokerwfh.net/7GcbdJ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-04-konokoe-pv-sagara.jpg"
+		}
+	},
+	"descOnAirDate": "Juli 2018"
+}

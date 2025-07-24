@@ -1,0 +1,40 @@
+{
+	"url": "nogizaka46-issho-ni-kokusho-kokusan-o-manabou",
+	"nameShowTitle": "Nogizaka46 Issho ni Kokusho Kokusan o Manabou!",
+	"nameShow": "乃木坂46と一緒に、国消国産を学ぼう！",
+	"descSynopsis": "Ini adalah program YouTube di mana member Nogizaka46 mengunjungi lokasi produksi pertanian dan berbagi daya tarik 'pangan dan pertanian' melalui pengalaman seperti bercocok tanam dan memanen. Dalam episodenya, JA Group mendistribusikan video di mana member Nogizaka46 melaporkan kinerja para petani, JA, dll., berdasarkan tiga tema yaitu 'pertanian perkotaan', 'pertanian baru', dan 'pertanian cerdas'.",
+	"availableEpisode": [
+		"19",
+		"20"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_kokusho.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kokusho{{eps}}.jpg",
+	"episodes": {
+		"19": {
+			"descEpisode": "| Episode 19 前編",
+			"descOnAirDate": "30 November 2022",
+			"memberParticipate": "岩本蓮加、向井葉月",
+			"linkHardsub": "https://lokerwfh.net/RHdFWwa2",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-to-isshoni-kokushokokusan-o-manabou-pJAK4",
+			"filePassword": "kokusho19-mukairenka",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho19.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho19a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho19b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho19c.jpg",
+			"descEpisodeSynopsis": "Episode 19 kali ini adalah bagian pertama dimana Iwamoto Renka & Mukai Hazuki pergi ke Hokkaido untuk menemui petani yang menggunakan AI sebagai alat bantunya dalam pertanian. Seperti apakah itu?"
+		},
+		"20": {
+			"descEpisode": "| Episode 20 後編",
+			"descOnAirDate": "9 Desember 2022",
+			"memberParticipate": "岩本蓮加、向井葉月",
+			"linkHardsub": "https://lokerwfh.net/5o7kcnkN",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-to-isshoni-kokushokokusan-o-manabou-pJAK4",
+			"filePassword": "kokusho20-mukairenka",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho20.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho20a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho20b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kokushokokusan/kokusho20c.jpg",
+			"descEpisodeSynopsis": "Episode 20 kali ini adalah bagian kedua dimana Iwamoto Renka & Mukai Hazuki pergi ke Hokkaido untuk menemui petani yang menggunakan AI sebagai alat bantunya dalam pertanian. Seperti apakah itu?"
+		}
+	}
+}

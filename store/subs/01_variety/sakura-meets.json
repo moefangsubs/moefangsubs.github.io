@@ -1,0 +1,69 @@
+{
+	"url": "sakura-meets",
+	"nameShowTitle": "Sakura Meets",
+	"nameShow": "サクラミーツ",
+	"descSynopsis": "\"Sakura Meets?\" merupakan acara variety dari Barabara Daisakusen untuk member Sakurazaka46. Isinya para member akan menantang sketsa komedi dan berkolaborasi dengan komedian-komedian Jepang.",
+	"availableEpisode": [
+		"17",
+		"18",
+		"26",
+		"27"
+	],
+	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_sakurameets.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/sakurameets-{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/sakura-meets-GEEXU",
+	"episodes": {
+		"17": {
+			"descEpisode": "| Episode 17",
+			"descOnAirDate": "10 Agustus 2023",
+			"memberParticipate": "武元唯衣",
+			"additionalGuests" : "チョコレートプラネット",
+			"linkHardsub": "https://lokerwfh.net/7XHOjmva",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-17.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-17a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-17b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-17c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-17d.jpg",
+			"descEpisodeSynopsis": "Di episode 17 pilihan MoeFang Subs kali ini sketsa komedi berjudul \"Tobita-sensei\", sebuah sketsa komedi dari komedian Chocolate Planet. Dan yang akan bermain bersamanya adalah Takemoto Yui."
+		},
+		"18": {
+			"descEpisode": "| Episode 18",
+			"descOnAirDate": "17 Agustus 2023",
+			"memberParticipate": "井上梨名、大沼晶保、武元唯衣、増本綺良",
+			"additionalGuests" : "チョコレートプラネット",
+			"linkHardsub": "https://lokerwfh.net/P2JVW",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-18.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-18a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-18b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-18c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-18d.jpg",
+			"descEpisodeSynopsis": "Di episode 18 pilihan MoeFang Subs kali ini adalah paruh kedua bersama komedian Chocolate Planet. Para member bersama dengan ChocoPla akan bermain permainan ChocoPla yang sudah dipilih oleh Takemoto Yui."
+		},
+		"26": {
+			"descEpisode": "| Episode 26",
+			"descOnAirDate": "19 Oktober 2023",
+			"memberParticipate": "井上梨名、大沼晶保、武元唯衣、増本綺良",
+			"additionalGuests" : "さらば青春の光",
+			"linkHardsub": "https://lokerwfh.net/BFHvs8a",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-26.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-26a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-26b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-26c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-26d.jpg",
+			"descEpisodeSynopsis": "Di episode 26 pilihan MoeFang Subs kali ini dari komedian Saraba Seishun no Hikari. Dan yang akan bermain bersamanya adalah Takemoto Yui, Inoue Rina, Onuma Akiho, Masumoto Kira."
+		},
+		"27": {
+			"descEpisode": "| Episode 27",
+			"descOnAirDate": "26 Oktober 2023",
+			"memberParticipate": "井上梨名、大沼晶保、武元唯衣、増本綺良",
+			"additionalGuests" : "さらば青春の光",
+			"linkHardsub": "https://lokerwfh.net/SoveO8B",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-27.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-27a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-27b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-27c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/sakurameets/sakurameets-27d.jpg",
+			"descEpisodeSynopsis": "Di episode 27 pilihan MoeFang Subs kali ini adalah paruh kedua bersama Saraba Seishun no Hikari. Disini mereka akan mencoba tantangan berupa menelepon member Sakurazaka dan mencoba agar mereka mengatakan suatu kata yang telah ditentukan. Apakah para member berhasil?"
+		}
+	}
+}

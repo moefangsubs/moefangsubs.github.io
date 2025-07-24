@@ -1,0 +1,35 @@
+{
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_koroshitaotto.png",
+	"url": "koroshita-otto-ga-kaettekimashita",
+	"nameShowTitle": "Koroshita Otto ga Kaettekimashita (2025)",
+	"nameShow": "殺した夫が帰ってきました",
+	"descSynopsis": "Suzukura Mana adalah seorang calon desainer di sebuah perusahaan pakaian. Ia telah bekerja keras sebagai asisten dan hampir mencapai mimpinya untuk debut, namun ia menyimpan rahasia yang tidak bisa diceritakan kepada siapa pun. Sebenarnya, untuk mendapatkan kehidupannya yang damai saat ini, ia telah membunuh suaminya yang sering melakukan kekerasan padanya. Suatu hari, suami yang ia kira telah tewas itu tiba-tiba muncul di hadapannya dalam keadaan hilang ingatan, dan mereka pun akhirnya tinggal bersama. Saat Mana menghabiskan waktu dengan suaminya, ia mulai mengenal sisi yang lebih hangat dari suaminya yang belum pernah ia ketahui sebelumnya. Kemudian, sebuah kebenaran yang mengejutkan pun terungkap.",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"newUpdateCount": 2,
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/koroshita{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/koroshita/koroshita{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/koroshita-otto-ga-kaettekimashita-qu3hB",
+	"filePassword": "SuamiYangKubunuhBalikLagiCoy",
+	"memberParticipate": "山下美月",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "11 Juli 2025",
+			"memberParticipate": "山下美月",
+			"linkHardsub": "https://sfl.gl/4dxdP"
+		},
+		"02": {
+			"descOnAirDate": "18 Juli 2025",
+			"descEpisodeSynopsis": "Sebuah surat dari pengirim tak dikenal sampai di rumah Mana, membuatnya terkejut. Kenangan masa kecilnya kembali, saat ia dianiaya ibunya dan bergantung pada dukungan tetangganya, Matsuki. Mana mencurigai Kazuki sebagai pengirim surat itu. Kecurigaannya semakin dalam setelah ia melihat Kazuki bertemu diam-diam dengan seorang petugas polisi. Di saat yang sama, Mana jatuh sakit dan Kazuki merawatnya dengan penuh perhatian, membuat niat Kazuki yang sebenarnya menjadi tidak jelas.",
+			"linkHardsub": "https://sfl.gl/YBlMZF5"
+		},
+		"03": {
+			"descOnAirDate": "25 Juli 2025",
+			"descEpisodeSynopsis": "Mana akhirnya meraih mimpinya untuk debut sebagai desainer. Seiring waktu yang ia habiskan bersama Kazuki, hubungan mereka secara tak terduga menjadi lebih dekat. Mana merasa bimbang untuk menerima Kazuki, dan kenangan pahit tentang cinta pertamanya kembali muncul. Atas permintaan Kazuki, Mana memutuskan untuk menceritakan masa lalunya. Sementara itu, identitas kerangka yang ditemukan di pegunungan Prefektur Miyagi terungkap, dan polisi menyampaikan berita yang mengejutkan kepada Mana.",
+			"linkHardsub": ""
+		}
+	},
+	"descEpisode": "| Episode {{eps}}"
+}

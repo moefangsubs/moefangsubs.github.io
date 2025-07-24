@@ -1,0 +1,51 @@
+{
+	"url": "nogikoi-goodbye-ensemble",
+	"nameShowTitle": "Nogikoi Goodbye Ensemble",
+	"nameShow": "乃木恋・グッバイアンサンブル",
+	"descSynopsis": "Nogikoi tahun 2020 merilis event \"Goodbye Ensemble\". Dengan 3 episode dibintangi oleh Shiraishi Mai, Akimoto Manatsu, Takayama Kazumi dan Matsumura Sayuri. Plot ceritanya menggambarkan kerinduan Maiyan pada teman-temannya saat mengunjungi sebuah toko tempat mereka biasa berkumpul",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_nogikoigoodbye.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogikoi-goodbye-ensemble-TMcyc",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "31 Maret - 10 April 2020",
+			"memberParticipate": "白石麻衣、秋元真夏",
+			"linkHardsub": "https://lokerwfh.net/V5WJ2",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-goodbye01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-1c.jpg"
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "31 Maret - 10 April 2020",
+			"memberParticipate": "白石麻衣、高山一実",
+			"linkHardsub": "https://lokerwfh.net/ukbEUTO",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-goodbye02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-2c.jpg"
+		},
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "31 Maret - 10 April 2020",
+			"memberParticipate": "白石麻衣、松村沙友里",
+			"linkHardsub": "https://lokerwfh.net/Ebvus1i3",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-goodbye03.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-3a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-3b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-goodbye-3c.jpg"
+		}
+	}
+}

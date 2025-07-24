@@ -1,0 +1,64 @@
+{
+	"url": "hinasanpo-in-yokohama",
+	"nameShowTitle": "Hinasanpo in Yokohama",
+	"descSynopsis": "\"Hina Sanpo in Yokohama\" adalah konten yang diunggah ke situs web khusus dalam rangka merayakan ulang tahun ke-4 debut Hinatazaka46 melalui \"4kaime no Hinatansai\". Konten ini diunggah untuk rute member gen-1 pada 24 Maret 2023, dan untuk rute member gen-2 pada 25 Maret 2023. Rute \"Hina Sanpo in Yokohama\" mencakup landmark seperti Yokohama Landmark Tower, Yokohama Cosmo World, Yokohama Red Brick Warehouse, Yokohama Customs, Gedung Kantor Pusat Pemerintah Prefektur Kanagawa, Taman Yamashita, dan Stadion Yokohama.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_hinasanpoyokohama.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Gen-1",
+			"descEpsListName": "Gen-1",
+			"descOnAirDate": "3 April 2023",
+			"memberParticipate": "佐々木久美、潮紗理菜",
+			"linkHardsub": "https://lokerwfh.net/GHUsCj",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hinasanpo-in-yokohama-96OAU",
+			"filePassword": "hinasanpo-in-yk-gen1",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/hinasanpoyk1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk1.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk1c.jpg",
+			"descEpisodeSynopsis": "Untuk kali ini adalah dari gen-1 yang penanggungjawabnya adalah Sasaki Kumi dan Ushio Sarina.",
+			"nameShow": "ひなさんぽ in 横浜",
+			"linkRAW": "https://www.hinatazaka46.com/s/official/page/4th-anniversary"
+		},
+		"02": {
+			"descEpisode": "| Gen-2",
+			"descEpsListName": "Gen-2",
+			"descOnAirDate": "3 April 2023",
+			"memberParticipate": "河田陽菜、富田鈴花",
+			"linkHardsub": "https://lokerwfh.net/Vbb8vsi",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hinasanpo-in-yokohama-96OAU",
+			"filePassword": "hinasanpo-in-yk-gen2",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/hinasanpoyk2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk2c.jpg",
+			"descEpisodeSynopsis": " Untuk kali ini adalah dari gen-2 yang penanggungjawabnya adalah Kawata Hina dan Tomita Suzuka.",
+			"nameShow": "ひなさんぽ in 横浜",
+			"linkRAW": "https://www.hinatazaka46.com/s/official/page/4th-anniversary"
+		},
+		"03": {
+			"descEpisode": "| Gen-3",
+			"descEpsListName": "Gen-3",
+			"descOnAirDate": "3 April 2023",
+			"memberParticipate": "髙橋未来虹、山口陽世",
+			"linkHardsub": "https://lokerwfh.net/98vTB",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hinasanpo-in-yokohama-96OAU",
+			"filePassword": "hinasanpo-in-yk-gen3",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/hinasanpoyk3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk3.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk3a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk3b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinasanpoyk/hinasanpoyk3c.jpg",
+			"descEpisodeSynopsis": "Untuk kali ini adalah dari gen-3 yang penanggungjawabnya adalah Takahashi Mikuni dan Yamaguchi Haruyo.",
+			"nameShow": "ひなさんぽ in 横浜",
+			"linkRAW": "https://www.hinatazaka46.com/s/official/page/4th-anniversary"
+		}
+	}
+}

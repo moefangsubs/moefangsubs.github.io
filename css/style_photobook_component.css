@@ -1,0 +1,235 @@
+/* -- Reusable Styles for Photobook Component -- */
+ .photobook-container {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     margin-top: 20px;
+}
+.photobook {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid var(--moe);
+    padding: 15px;
+    background-color: var(--moe-tint7);
+    gap: 20px;
+    transition: var(--all);
+    justify-content: center;
+}
+ .photobook:hover {
+     border-color: var(--moe-tint2);
+     background-color: white;
+     box-shadow: 4px 4px 0px 0px var(--moe);
+}
+ .imgprev {
+     width: 25%;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+}
+ .imgprev figure {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+     margin: 0;
+     gap: 5px;
+}
+ .imgprev figure img {
+     width: 100%;
+     max-width: 200px;
+     border: 1px solid var(--moe-tint5);
+}
+ .imgprev figcaption {
+     font-size: 9pt;
+     text-align: center;
+}
+ .count {
+     position: absolute;
+     color: white;
+     background: var(--moe-tint1);
+     min-width: 25px;
+     height: 25px;
+     padding: 0 5px;
+     display: flex;
+     border: 1px solid white;
+     border-radius: 50%;
+     font-size: 10pt;
+     z-index: 9;
+     right: 5px;
+     top: 5px;
+     justify-content: center;
+     align-items: center;
+}
+ .content {
+     display: flex;
+     flex-direction: column;
+     width: 75%;
+}
+ .pb-title {
+     text-align: center;
+     margin-bottom: 20px;
+}
+ .title {
+     font-size: 28pt;
+     font-weight: bold;
+     color: var(--moe);
+     display: block;
+}
+ .member {
+     font-size: 16pt;
+     color: var(--moe-shade-max1);
+}
+ .pb-desc {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     font-size: 10pt;
+     gap: 8px;
+}
+ .pb-desc div {
+     display: flex;
+     width: 100%;
+     border-bottom: 1px dashed var(--moe-tint5);
+     padding-bottom: 8px;
+}
+ .pb-desc div span:nth-of-type(1) {
+     width: 35%;
+     font-weight: bold;
+}
+ .pb-desc div span:nth-of-type(2) {
+     width: 2%;
+}
+ .pb-desc div span:nth-of-type(3) {
+     width: 63%;
+}
+ .obicomment {
+     border: 1px solid var(--moe-tint4);
+     background-color: var(--moe-tint6);
+     width: 90%;
+     display: flex;
+     padding: 15px;
+     flex-direction: column;
+     text-align: center;
+     margin: 20px auto 10px auto;
+     gap: 10px;
+}
+ .obicomment span:nth-of-type(1) {
+     font-style: italic;
+}
+ .obicomment span:nth-of-type(2) {
+     font-size: 9pt;
+     font-weight: bold;
+}
+ .otherversion {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 10px;
+     margin-top: 15px;
+}
+ .otherversion figure {
+     width: calc(33.33% - 10px);
+     margin: 0;
+     text-align: center;
+}
+ .otherversion figure img {
+     width: auto;
+     border: 1px solid var(--moe-tint5);
+     max-height: 200px;
+}
+ .otherversion figure figcaption {
+     font-size: 8pt;
+     margin-top: 5px;
+}
+ .download {
+     margin-top: 20px;
+     text-align: center;
+}
+ .download a {
+     display: inline-block;
+     padding: 10px 20px;
+     border: 2px solid var(--moe);
+     background-color: var(--moe);
+     color: white;
+     font-weight: bold;
+     text-decoration: none;
+     transition: var(--all);
+}
+ .download a:hover {
+     background-color: white;
+     color: var(--moe);
+}
+ .photobook-lang-switch {
+     position: sticky;
+     bottom: 20px;
+     right: 20px;
+     height: 44px;
+     z-index: 1000;
+     backdrop-filter: blur(5px);
+     padding: 0 15px;
+     border-radius: 22px;
+     border: 1px solid var(--moe-tint4);
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     font-weight: bold;
+     font-size: 11pt;
+     color: var(--moe);
+     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+ .photobook-lang-switch .check-toggle {
+     display: none;
+}
+ .photobook-lang-switch label {
+     width: 50px;
+     height: 26px;
+     background-color: var(--moe-tint4);
+     border-radius: 13px;
+     cursor: pointer;
+     position: relative;
+     transition: var(--all);
+}
+ .photobook-lang-switch label::after {
+     content: '';
+     position: absolute;
+     width: 20px;
+     height: 20px;
+     background-color: white;
+     border-radius: 50%;
+     top: 3px;
+     left: 4px;
+     transition: var(--all);
+}
+ .photobook-lang-switch .check-toggle:checked + label {
+     background-color: var(--moe);
+}
+ .photobook-lang-switch .check-toggle:checked + label::after {
+     transform: translateX(23px);
+}
+ .hidden {
+     display: none !important;
+}
+ @media (max-width: 768px) {
+     .photobook {
+         flex-direction: column;
+    }
+     .imgprev, .content {
+         width: 100%;
+    }
+     .imgprev {
+         align-items: center;
+    }
+     .pb-desc div span:nth-of-type(1) {
+         width: 40%;
+    }
+     .pb-desc div span:nth-of-type(3) {
+         width: 58%;
+    }
+     .otherversion figure {
+         width: calc(50% - 10px);
+    }
+}

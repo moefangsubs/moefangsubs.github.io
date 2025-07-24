@@ -1,0 +1,86 @@
+{
+	"url": "shotenin-tantei-sakura",
+	"nameShowTitle": "Shotenin Tantei Sakura (2024)",
+	"nameShow": "書店員探偵サクラ",
+	"descSynopsis": "Sebuah lanjutan dari karya sebelumnya \"Hikkoshi Tantei Sakura\". Kisah ini menampilkan Tendo Sakura yang bekerja di toko buku dan terlibat dalam sebuah insiden di tur misteri penulis idolanya, di mana ia kembali terjun untuk memecahkan misteri tersebut.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_shotenintantei.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shotenin-tantei-sakura-QpwUc",
+	"filePassword" : "DetektifSakocangIsBack",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descOnAirDate": "5 November 2024",
+			"descEpsListName": "Episode 1",
+			"linkHardsub": "https://sfl.gl/Z6wU",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei01b.jpg",
+			"descEpisodeSynopsis": "Tendo Sakura dengan mengajak rekannya saat itu Makino, menghadiri sebuah acara yang diadakan oleh seorang penulis terkenal, Matilda Satoru."
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descOnAirDate": "6 November 2024",
+			"descEpsListName": "Episode 2",
+			"linkHardsub": "https://sfl.gl/Xpznw0",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei02b.jpg",
+			"descEpisodeSynopsis": "Setelah di dalam villa tempat acara diadakan, Tendo Sakura bertabrakan dengan penulis Matilda Satoru."
+		},
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descOnAirDate": "7 November 2024",
+			"descEpsListName": "Episode 3",
+			"linkHardsub": "https://sfl.gl/1sMSquV",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei03.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei03.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei03a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei03b.jpg",
+			"descEpisodeSynopsis": "Di pagi yang damai, Matilda Satoru ditemukan terkapar di kamarnya. Tendo Sakura semakin bersemangat untuk mengungkap kasus ini bersama detektif sungguhan yang sebelumnya pernah bersamanya."
+		},
+		"04": {
+			"descEpisode": "| Episode 4",
+			"descOnAirDate": "8 November 2024",
+			"descEpsListName": "Episode 4",
+			"linkHardsub": "https://sfl.gl/OYFk",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei04.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei04b.jpg",
+			"descEpisodeSynopsis": "Pihak polisi detektif berdiskusi mengenai dua surat wasiat yang ia dapati di TKP dengan orang-orang di vila tersebut."
+		},
+		"05": {
+			"descEpisode": "| Episode 5",
+			"descOnAirDate": "9 November 2024",
+			"descEpsListName": "Episode 5",
+			"linkHardsub": "https://sfl.gl/49GZzKl",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei05.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei05b.jpg",
+			"descEpisodeSynopsis": "Tendo Sakura yang penasaran akan surat wasiat kedua yang berupa teka-teki itu segera memecahkan misteri."
+		},
+		"06": {
+			"descEpisode": "| Episode 6 [TAMAT]",
+			"descOnAirDate": "10 November 2024",
+			"descEpsListName": "Episode 6",
+			"linkHardsub": "https://sfl.gl/OMnYpL8G",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shotenintantei06.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/shotenintantei/shotenintantei06b.jpg",
+			"descEpisodeSynopsis": "Tendo Sakura mengetahui bahwa Sato-lah yang berniat membunuh Matilda Satoru, dan Sato pun menceritakan alasan kenapa ia berniat melakukan itu."
+		}
+	},
+	"memberParticipate": "遠藤さくら"
+}

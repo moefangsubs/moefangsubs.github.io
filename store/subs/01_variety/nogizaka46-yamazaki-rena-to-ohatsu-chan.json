@@ -1,0 +1,191 @@
+{
+	"url": "nogizaka46-yamazaki-rena-to-ohatsu-chan",
+	"nameShowTitle": "Nogizaka46 Yamazaki Rena to Ohatsu-chan",
+	"nameShow": "乃木坂46山崎怜奈とおはつちゃん",
+	"descSynopsis": "\"Nogizaka46 Yamazaki Rena to Ohatsu-chan\" merupakan acara dimana Yamazaki Rena dari gen-2 menjadi MC, dan para member Nogizaka46 akan mencoba pengalaman pertama mereka yang telah lama ditunggu-tunggu dan diinginkan (ohatsu)!",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"11",
+		"12",
+		"13",
+		"15",
+		"17",
+		"19",
+		"20",
+		"21",
+		"22",
+		"23",
+		"24"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ohatsuchan.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/ohatsu-{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nohatsu/ohatsu-{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nohatsu/ohatsu-{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nohatsu/ohatsu-{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nohatsu/ohatsu-{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nohatsu/ohatsu-{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-yamazaki-rena-to-ohatsu-chan-GRma3",
+	"linkFont": "https://drive.google.com/uc?export=download&id=1lsRJ9KQvxy4NwbuxCAC-hHK_fUt7pOnV",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descOnAirDate": "29 Agustus 2020",
+			"memberParticipate": "山崎怜奈、大园桃子",
+			"linkHardsub": "https://lokerwfh.net/yFALN3",
+			"filePassword": "ohatsu1",
+			"descEpisodeSynopsis": "Nah, di episode pertama ini adalah si kalem Oozono Momoko-san~! Kira-kira, keseruan apa aja yang terjadi disini!?"
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descOnAirDate": "05 September 2020",
+			"memberParticipate": "山崎怜奈、梅澤美波",
+			"linkHardsub": "https://lokerwfh.net/9YiOB5",
+			"filePassword": "ohatsu2",
+			"descEpisodeSynopsis": "Kali ini ohatsu-channya adalah Umezawa-san~! Ada hal yang bikin kita terheran-heran disana. Apakah itu!?"
+		},
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descOnAirDate": "12 September 2020",
+			"memberParticipate": "山崎怜奈、吉田綾乃クリスティー",
+			"linkHardsub": "https://lokerwfh.net/YgWXnxH",
+			"filePassword": "ohatsu3",
+			"descEpisodeSynopsis": "Kali ini ohatsu-channya adalah Ayati! Ohatsu-nya dia berbeda dari yang lain, yaitu ohatsu membuat pisau dapur.. Keseruan apa saja selama proses pembuatannya??"
+		},
+		"04": {
+			"descEpisode": "| Episode 4",
+			"descOnAirDate": "19 September 2020",
+			"memberParticipate": "山崎怜奈、佐藤楓",
+			"linkHardsub": "https://lokerwfh.net/m4EAuSFD",
+			"filePassword": "ohatsu4",
+			"descEpisodeSynopsis": "ali ini ohatsu-channya adalah Kaede! Ohatsu-nya kali ini adalah gara-gara kecanduan main game Atsumori, dia jadi pengen mancing untuk pertama kalinya! Keseruan apa aja selama memancing? Dan dapat ikan apa aja?!"
+		},
+		"05": {
+			"descEpisode": "| Episode 5",
+			"descOnAirDate": "26 September 2020",
+			"memberParticipate": "山崎怜奈、向井葉月",
+			"linkHardsub": "https://lokerwfh.net/bBkVNF",
+			"filePassword": "ohatsu5",
+			"descEpisodeSynopsis": "Kali ini ohatsu-channya adalah Hazuki! Spesial buat dia ada 2 ohatsu, dan episode ini episode pertamanya. Ohatsu-nya kali ini adalah menantang dirinya untuk rafing/arung jeram demi menghilangkan ketakutannya terhadap air! Keseruan apa aja selama rafting?!"
+		},
+		"06": {
+			"descEpisode": "| Episode 6",
+			"descOnAirDate": "03 Oktober 2020",
+			"memberParticipate": "山崎怜奈、山下美月",
+			"linkHardsub": "https://lokerwfh.net/tzFma",
+			"filePassword": "ohatsu6",
+			"descEpisodeSynopsis": "Di episode ke-6, ohatsu-channya adalah sang pro idol, Yamashita Mizuki! Namun sayangnya, di episodenya ini dia sedang tidak bisa hadir ke studio. Yamashita akan mencoba sesuatu yang.. yaa.. begitulah."
+		},
+		"07": {
+			"descEpisode": "| Episode 7",
+			"descOnAirDate": "10 Oktober 2020",
+			"memberParticipate": "山崎怜奈、向井葉月",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/ohatsu-05.jpg",
+			"linkHardsub": "https://lokerwfh.net/GEHjZ",
+			"filePassword": "ohatsu7",
+			"descEpisodeSynopsis": "Di episode ke-7 kali ini adalah bagian kedua dari Ohatsu-nya Mukai Hazuki. Setelah rafting, dia akan mencoba hal lain yang gak kalah serunya. So, tonton saja ya!"
+		},
+		"08": {
+			"descEpisode": "| Episode 8",
+			"descOnAirDate": "17 Oktober 2020",
+			"memberParticipate": "山崎怜奈、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/DXQk9Rkz",
+			"filePassword": "ohatsu8",
+			"descEpisodeSynopsis": "Di episode ke-8 kali ini adalah gilirannya member gen-4 Yumiki Nao! Yumiki ohatsunya disini akan mencoba bagaimana rasanya tinggal di apartemen yang mewah! Hmm... apa aja ya yang akan dia lakukan disana?"
+		},
+		"11": {
+			"descEpisode": "| Episode 11",
+			"descOnAirDate": "07 November 2020",
+			"memberParticipate": "山崎怜奈、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/9vl0Gie6",
+			"filePassword": "ohatsu11",
+			"descEpisodeSynopsis": "Di episode ke-11 kali ini adalah gilirannya member gen-4 Tamura Mayu! Mayutan ohatsunya disini akan mencoba menjadi seorang seiyuu atau pengisi suara. Kira-kira tantangan apa saja agar bisa mencapai impiannya itu?"
+		},
+		"12": {
+			"descEpisode": "| Episode 12",
+			"descOnAirDate": "14 November 2020",
+			"memberParticipate": "山崎怜奈、早川聖来",
+			"linkHardsub": "https://lokerwfh.net/asuH1",
+			"filePassword": "ohatsu12",
+			"descEpisodeSynopsis": "Di episode ke-12 kali ini adalah Hayakawa Seira yang katanya ingin refreshing alias penyegaran diri dengan mencoba taekwondo yang telah dia inginkan sejak kecil. Apakah Seira berhasil refreshing dengan berbagai teknik dalam taekwondo?"
+		},
+		"13": {
+			"descEpisode": "| Episode 13",
+			"descOnAirDate": "21 November 2020",
+			"memberParticipate": "山崎怜奈、中村麗乃",
+			"linkHardsub": "https://lokerwfh.net/tRmn",
+			"filePassword": "ohatsu13",
+			"descEpisodeSynopsis": "Pada episode ke-13 kali ini adalah dari gen-3, Nakamura Reno yang ingin membuat melonpan terbaiknya seumur hidup. Namun sebelum membuatnya, Reno akan mencoba berbagai jenis melonpan, dari melonpan sampai ke bentuk yang membuatnya ragu apakah melonpan atau bukan."
+		},
+		"15": {
+			"descEpisode": "| Episode 15",
+			"descOnAirDate": "05 Desember 2020",
+			"memberParticipate": "山崎怜奈、伊藤理々杏",
+			"linkHardsub": "https://lokerwfh.net/5AVsG",
+			"filePassword": "ohatsu15",
+			"descEpisodeSynopsis": "Pada episode ke-15 kali ini adalah masih dari gen-3, Ito Riria yang ingin mencoba berkemah sendirian atau solo camp. Riria yang mengaku dirinya sebagai tipe orang rumahan ini merasa ingin mencoba menikmati alam untuk menyembuhkan diri dari kesibukannya sebagai idola di Nogizaka. Meski dia akan mencobanya sendirian, namun para staff memberinya 3 kartu bantuan kalau-kalau Riria mengalami kesusahan."
+		},
+		"17": {
+			"descEpisode": "| Episode 17",
+			"descOnAirDate": "19 Desember 2020",
+			"memberParticipate": "山崎怜奈、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/xhl6WHfz",
+			"filePassword": "ohatsu17",
+			"descEpisodeSynopsis": "Pada episode ke-17 kali ini adalah dari gen-4 Kuromi Haruka yang saat itu masih belum genap setahun di Nogizaka. Ohatsu-nya adalah melatih diri agar bisa mengendarai sepeda. Di usianya yang sudah dewasa ini dia merasa malu belum bisa mengendarai sepeda sehingga ia menyembunyikan hal itu. Dan kali ini dia akan belajar bersama seorang sensei yang biasa melatih sepeda kenapa anak SD! Apakah dia akan berhasil?"
+		},
+		"19": {
+			"descEpisode": "| Episode 19",
+			"descOnAirDate": "16 Januari 2021",
+			"memberParticipate": "山崎怜奈、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/4H2mGqVK",
+			"filePassword": "ohatsu19",
+			"descEpisodeSynopsis": "Pada episode ke-19 kali ini adalah dari gen-4 Matsuo Miyu yang saat itu masih belum genap setahun di Nogizaka. Ohatsu-nya adalah keinginannya untuk bisa melakukan backflip. Sejak SMP selama 3 tahun ia tergabung dalam klub cheerleading. Meskipun cheerleading adalah hal yang disukainya, berapapun ia berlatih backflip selalu berakhir dengan gagal. Dengan bimbingan sensei yang merupakan mantan kandidat olimpiade, apakah ia mampu melakukan backflip-nya?"
+		},
+		"20": {
+			"descEpisode": "| Episode 20",
+			"descOnAirDate": "23 Januari 2021",
+			"memberParticipate": "山崎怜奈、清宮レイ",
+			"linkHardsub": "https://lokerwfh.net/CRRal4T",
+			"filePassword": "ohatsu20",
+			"descEpisodeSynopsis": "Pada episode ke-20 kali ini masih dari gen-4 yaitu Seimiya Rei. Ohatsu-nya adalah keinginannya untuk bisa mengalami pengalaman sebagai CA atau pramugari, karena adalah sosok yang ia kagumi ketika masih tinggal di Amerika. Dengan bimbingan pramugari dari JAL, apakah ia cocok dengan pekerjaan itu?"
+		},
+		"21": {
+			"descEpisode": "| Episode 21",
+			"descOnAirDate": "30 Januari 2021",
+			"memberParticipate": "山崎怜奈、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/yxHBCHi",
+			"filePassword": "ohatsu21",
+			"descEpisodeSynopsis": "Di episode 21 ini, Yakubo Mio ingin dihipnotis! Ya, satu keinginan yang mungkin terdengar aneh diantara Ohatsu lainnya. Ada beberapa hal yang ingin ia bisa seperti memakan wasabi dan bawang. Apakah ia berhasil dihipnotis? Atau dia yang menghipnotis?"
+		},
+		"22": {
+			"descEpisode": "| Episode 22",
+			"descOnAirDate": "06 Februari 2021",
+			"memberParticipate": "山崎怜奈、林瑠奈",
+			"linkHardsub": "https://lokerwfh.net/LVUG8pbi",
+			"filePassword": "ohatsu22",
+			"descEpisodeSynopsis": "Di episode 22 kali ini, ohatsu-channya adalah Hayashi Runa yang ingin mengucapkan terima kasih kepada guru pembimbingnya ketika ia SMP, karena berkat beliau, Runa bisa seperti sekarang. Ia ingin membawakan lagu Sangatsu Kokonoka dengan menggunakan alat musik. Apakah berhasil dengan baik? Dan bagaimana reaksi gurunya, Yamada-sensei?"
+		},
+		"23": {
+			"descEpisode": "| Episode 23",
+			"descOnAirDate": "13 Februari 2021",
+			"memberParticipate": "山崎怜奈、柴田柚菜",
+			"linkHardsub": "https://lokerwfh.net/yd4F",
+			"filePassword": "ohatsu23",
+			"descEpisodeSynopsis": "Pada episode 23 ini, Shibata Yuna memanfaatkan kesempatan ini dengan menantang berbagai ohatsu! Dengan waktu yang ditentukan yaitu 3 jam, apakah Yuna bisa menyelesaikan semua ohatsu dengan baik? Ataukah banyak yang gagal?"
+		},
+		"24": {
+			"descEpisode": "| Episode 24",
+			"descOnAirDate": "20 Februari 2021",
+			"memberParticipate": "山崎怜奈",
+			"linkHardsub": "https://lokerwfh.net/LJF7",
+			"filePassword": "ohatsu24",
+			"descEpisodeSynopsis": "Episode terakhir ini, Yamazaki Rena selaku MC acara ini akan menebak pertanyaan Ohatsu sebanyak 10 pertanyaan, dan jika ia menjawab dengan salah, ia mendapatkan hukuman yang telah di-vote saat itu oleh para penggemar. Dari 10 pertanyaan soal para kouhai-nya yang mengikuti Ohatsu-chan itu apakah Renachi bisa menebak semuanya dengan benar?"
+		}
+	}
+}

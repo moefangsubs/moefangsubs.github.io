@@ -1,0 +1,158 @@
+body {
+    font-family: "Space Mono", monospace;
+    background-color: var(--moe-tint7);
+    color: var(--moe);
+    margin: 0;
+    /* padding: 20px; */
+}
+
+#main-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 40px;
+}
+h1 {
+    color: var(--moe);
+    text-align: center;
+    border-bottom: 2px solid var(--moe-tint6);
+    padding-bottom: 15px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* Kontrol Dropdown */
+.controls {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.controls label {
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.controls select {
+    padding: 8px 12px;
+    border: 2px solid var(--moe-tint6);
+    background-color: white;
+    color: var(--moe);
+    font-family: "Space Mono", monospace;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.controls select:focus {
+    outline: none;
+    border-color: var(--moe);
+}
+
+/* Kontainer Grafik */
+#chart-container {
+    width: 100%;
+}
+
+/* Baris Grafik */
+.chart-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    background-color: var(--moe-tint7);
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+
+.chart-row:hover {
+    background-color: var(--moe-tint6);
+}
+
+/* Info Single (Cover & Nomor) */
+.single-info {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 120px;
+    position: relative;
+}
+
+.single-cover {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid var(--moe-tint4);
+    cursor: pointer;
+}
+
+.single-number {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 5px;
+    width: 45px;
+    text-align: right;
+}
+
+/* Tooltip untuk Cover */
+.single-info .tooltip-text {
+    visibility: hidden;
+    width: max-content;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.9em;
+    pointer-events: none;
+}
+
+.single-info:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Wadah Bar & Label Hari */
+.bar-wrapper {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+.bar {
+    height: 60px;
+    margin-left: 10pt;
+    transition: width 5s cubic-bezier(0.25, 1, 0.5, 1);
+    min-width: 2px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* KELAS BARU UNTUK TEKS DI DALAM BAR */
+.bar-text {
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 0 10px;
+    line-height: 1.4;
+    white-space: pre;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+
+.days-label {
+    font-weight: 700;
+    margin-left: 10px;
+    font-size: 0.9em;
+    color: var(--moe);
+    width: 70px;
+    flex-shrink: 0;
+}

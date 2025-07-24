@@ -1,0 +1,18 @@
+{
+	"01": {
+		"type"	: "experiment",
+		"note"	: "Fitur login & like masih dalam tahap eksperimental. Bila sering menghadapi kendala dari sisi server, maka dimungkinkan akan dihapus dan dikembalikan ke metode lama."
+	},
+	"02": {
+		"type"	: "notice",
+		"note"	: "Mulai 2025, kami melakukan update garapan terlebih dahulu bagi para supporter di Trakteer, dan untuk update di website ini akan ada jeda beberapa hari."
+	},
+	"03": {
+		"type"	: "feature",
+		"note"	: "Kamu bisa like tiap postingan di sini, dan akan otomatis tercatat dalam 'Favorit' di navigation bar."
+	},
+	"04": {
+		"type"	: "feature",
+		"note"	: "Dengan mengklik panah di sebelah daftar lagu pada variety musik, kamu akan diarahkan ke pencarian YouTube sesuai lagu yang diklik."
+	}
+}

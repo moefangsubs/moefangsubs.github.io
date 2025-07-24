@@ -1,0 +1,39 @@
+{
+	"url": "nogizaka-fractal-yakubo-no-heya",
+	"nameShowTitle": "Yakubo no Heya",
+	"nameShow": "乃木フラ presents 矢久保の部屋",
+	"descSynopsis": "\"Yakubo no Heya\" adalah acara resmi Nogi Fractal yang dibawakan oleh Yakubo Mio, supporter resmi Nogi Fractal. Siarannya selalu diadakan di NogiFra Official X (Twitter) sebulan sekali.",
+	"availableEpisode": [
+		"03",
+		"04"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_yakubonoheya.png",
+	"episodes": {
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descOnAirDate": "26 Juli 2022",
+			"memberParticipate": "矢久保美緒、賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/M0EoZQnw",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/yakubo-no-heya-3-yakubo-mio-kaki-haruka-YW6MS",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/yakubonoheya3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya3.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya3a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya3b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya3c.jpg",
+			"descEpisodeSynopsis": "Di episode 3, dengan kedatangan member gen-4 Kaki Haruka mereka akan berbincang dan mengadakan kuis seputar Nogizaka Fractal."
+		},
+		"04": {
+			"descEpisode": "| Episode 4",
+			"descOnAirDate": "19 Agustus 2022",
+			"memberParticipate": "矢久保美緒、菅原咲月、井上和、池田瑛紗、中西アルノ、小川彩、冨里奈央、一ノ瀬美空",
+			"linkHardsub": "https://lokerwfh.net/lwjJH4w",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/yakubo-no-heya-4-yakubo-mio-gen-5-LV8dM",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/yakubonoheya4.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya4.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya4a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya4b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubonoheya4c.jpg",
+			"descEpisodeSynopsis": "Di episode 4, Yakubo akan menyelinap ke tempat syuting member gen-5 yang sedang melakukan proses pemotretan dan rekaman untuk Nogifra."
+		}
+	}
+}

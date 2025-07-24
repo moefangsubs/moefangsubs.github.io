@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- Title -->
+    <title>MoeData</title>
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- Kepala dan kaki wkwkwk -->
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_database.css">
+
+</head>
+<body>
+
+<div class="db-container">
+<img class="logo" src="../sprite/moedata.svg" />
+
+<p>Selamat datang di MoeFang Database. Disini saya akan mencoba memberikan visualisasi berbagai data mengenai grup kesayangan kita Nogizaka46, dan sedikit untuk grup lain.</p>
+<br/>
+	<span>MEMBER DATABASE</span>
+	<div class="db-group">
+		<a class="active n46" href="../moedata/member.html">Member</a>
+		<a class="active n46" href="../moedata/nogizaka46-photobook.html">Photobook</a>
+		<a class="active n46" href="../moedata/nogizaka46-member-hashtag.html">Hashtag</a>
+		<a class="none n46x" href="#">Penlight</a>
+		<a class="active skm" href="../moedata/member-born-map.html">Map Tempat Lahir</a>
+		<a class="active skm" href="../moedata/member-calendar.html">Kalender</a>
+	</div>
+	<br/>
+	<span>FORMATION DATABASE</span>
+	<div class="db-group">
+		<a class="active n46" href="../moedata/nogizaka46-formation-senbatsu.html">Formasi Senbatsu</a>
+		<a class="active n46" href="../moedata/nogizaka46-formation-under.html">Formasi Under</a>
+		<a class="active n46" href="../moedata/nogizaka46-senbatsu-and-under-center.html">Center Senbatsu & Under</a>
+		<a class="active n46" href="../moedata/nogizaka46-senbatsu-average-rank.html">Peringkat Rerata Senbatsu</a>		
+	</div>
+	<br/>	
+	<span>SINGLE DATABASE</span>
+	<div class="db-group">
+		<a class="active n46" href="../moedata/song.html">Daftar Lagu</a>
+		<a class="active n46" href="../moedata/nogizaka46-song-list-senbatsu.html">Daftar Lagu Senbatsu</a>
+		<a class="active n46" href="../moedata/nogizaka46-song-list-senbatsu-coupling.html">Daftar Lagu Coupling</a>
+		<a class="active n46" href="../moedata/nogizaka46-song-list-under.html">Daftar Lagu Under</a>
+		<a class="active n46" href="../moedata/nogizaka46-song-list-unit.html">Daftar Lagu Unit</a>
+		<a class="active n46" href="../moedata/nogizaka46-song-list-solo.html">Daftar Lagu Solo</a>
+		<a class="active n46" href="../moedata/nogizaka46-song-list-generation.html">Daftar Lagu Generasi</a>
+		<a class="active n46" href="../moedata/nogizaka46-single-range.html">Rentang Single</a>	
+		<a class="active n46" href="../moedata/nogizaka46-song-abbreviation.html">Singkatan Lagu</a>	
+	</div>
+	<br/>	
+	<span>GROUP DATABASE</span>
+	<div class="db-group">
+		<a class="active skm" href="../moedata/sakamichi-group-chronology.html">Kronologi Sakamichi Group</a>	
+	</div>
+	<br/>
+	<span>APA ITU?</span>
+	<div class="db-group">
+		<a class="active n46" href="../moedata/nogizaka46-glossary.html">Kamus Nogizaka46</a>		
+		<a class="active n46" href="../moedata/nogizaka46-what-is-handshake.html">Apa itu Handshake?</a>
+		<a class="active n46" href="../moedata/nogizaka46-what-is-seitansai.html">Apa itu Seitansai?</a>
+	</div>
+
+</div>
+</body>
+
+</html>

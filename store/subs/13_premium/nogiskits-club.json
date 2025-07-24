@@ -1,0 +1,46 @@
+{
+	"url": "nogiskits-club",
+	"nameShowTitle": "Nogizaka Skits Club",
+	"descSynopsis": "Ini adalah video khusus (lebih tepatnya video ucapan) yang sudah mendaftar club dalam situs resmi Nogizaka Skits.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_nogiskitsclub.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 201228 Hayakawa Seira",
+			"descEpsListName": "201228 早川",
+			"descOnAirDate": "28 Desember 2020",
+			"memberParticipate": "早川聖来",
+			"linkHardsub": "https://lokerwfh.net/r4uw",
+			"filePassword": "skitsclub",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/nskitclub_20201228.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskitsclub-1-seira.jpg",
+			"nameShow": "スキッツクラブ「祝！オープン記念コメント【FROM 早川聖来】」"
+		},
+		"02": {
+			"descEpisode": "| 201231 Kaki Haruka",
+			"descEpsListName": "201231 賀喜",
+			"descOnAirDate": "31 Desember 2020",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/1Abne504",
+			"filePassword": "skitsclub",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/nskitclub_20201231.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskitsclub-2-kakki.jpg",
+			"nameShow": "スキッツクラブ「年末のご挨拶【FROM 賀喜遥香】」"
+		},
+		"03": {
+			"descEpisode": "| 210101 Endo Sakura",
+			"descEpsListName": "210101 遠藤",
+			"descOnAirDate": "1 Januari 2021",
+			"memberParticipate": "遠藤さくら",
+			"linkHardsub": "https://lokerwfh.net/3IOUsS0R",
+			"filePassword": "skitsclub",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/nskitclub_20210101.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskitsclub-3-endo.jpg",
+			"nameShow": "スキッツクラブ「」"
+		}
+	}
+}

@@ -1,0 +1,431 @@
+{
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_otameshichuu2.png",
+	"url": "nogizaka-otameshichuu",
+	"nameShowTitle": "Nogizaka Otameshichuu",
+	"nameShow": "乃木坂お試し中",
+	"descSynopsis": "\"Nogizaka Otameshichuu\" merupakan variety show para member Under. Slot acara ini menggantikan variety sebelumnya, Nogi Eigo. Di awal episode hingga episode 10, pembawa acaranya adalah dari gen-2, Terada Ranze. Karena memutuskan lulus, episode setelahnya dibawakan oleh Ito Riria dari gen-3. MC ini didampingi partnernya dari seorang komedian Suzuki Taku. Variety ini akan mencoba berbagai tantangan secara acak.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16",
+		"17",
+		"18",
+		"19",
+		"20",
+		"21",
+		"22",
+		"23",
+		"24",
+		"25",
+		"26",
+		"27",
+		"28",
+		"29",
+		"30",
+		"31",
+		"32",
+		"33",
+		"34",
+		"35",
+		"36",
+		"37",
+		"38",
+		"39",
+		"40",
+		"41",
+		"42",
+		"43",
+		"44",
+		"45",
+		"46",
+		"47",
+		"48",
+		"49",
+		"50",
+		"51"
+	],
+	"newUpdateCount": 2,
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_otameshichuu2.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-otameshichuu-softsub-hardsub-0Ex5b",
+	"linkRAW": "https://www.akari46.cloud/search/label/Otameshichuu",
+	"RawSource": "Akari46 / Aidoru",
+	"filePassword": "otameshichuu{{eps}}",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "27 Februari 2021",
+			"memberParticipate": "寺田蘭世、和田まあや、伊藤純奈、渡辺みり愛、吉田綾乃クリスティー",
+			"linkHardsub": "https://lokerwfh.net/PhTR",
+			"linkSoftsub": "https://lokerwfh.net/r7hFiJT",
+			"descEpisodeSynopsis": "Episode pertama kali ini dibuka dengan diskusi, tantangan apa saja yang ingin mereka tantang dalam Otameshichuu kedepannya."
+		},
+		"02": {
+			"descOnAirDate": "27 Maret 2021",
+			"memberParticipate": "寺田蘭世、和田まあや、伊藤純奈、渡辺みり愛、吉田綾乃クリスティー",
+			"linkHardsub": "https://lokerwfh.net/eRi3iO",
+			"linkSoftsub": "https://lokerwfh.net/6KDI8x",
+			"descEpisodeSynopsis": "Episode 2 kali ini melanjutkan episode sebelumnya yaitu tantangan apa saja yang ingin mereka tantang."
+		},
+		"03": {
+			"descOnAirDate": "24 April 2021",
+			"memberParticipate": "寺田蘭世、鈴木絢音、伊藤理々杏、佐藤楓、阪口珠美",
+			"linkHardsub": "https://lokerwfh.net/VJ1wgvA",
+			"linkSoftsub": "https://lokerwfh.net/fBqvXdTx",
+			"descEpisodeSynopsis": "Episode 3 kali ini \"action\" dari \"rapat\" di episode 1 dan 2. Dan Otameshi kali ini adalah mencoba wig dan berpenampilan yang sangat berbeda! Bersama Suzuki Ayane, Sakaguchi Tamami, Ito Riria dan Sato Kaede yang akan diajak menantang ini! Seperti apa keseruannya?"
+		},
+		"04": {
+			"descOnAirDate": "29 Mei 2021",
+			"memberParticipate": "寺田蘭世、鈴木絢音、伊藤理々杏、佐藤楓、阪口珠美",
+			"linkHardsub": "https://lokerwfh.net/ORP3g8",
+			"linkSoftsub": "https://lokerwfh.net/l0LDXTL",
+			"descEpisodeSynopsis": "Di episode 4 Otameshi kali ini adalah mencoba gekikara atau makanan pedas! Bersama Suzuki Ayane, Sakaguchi Tamami, Ito Riria dan Sato Kaede yang akan menantang kegiatan yang idenya dari Ayane! Seperti apa keseruannya?"
+		},
+		"05": {
+			"descOnAirDate": "26 Juni 2021",
+			"memberParticipate": "寺田蘭世、山崎怜奈、中村麗乃、柴田柚菜、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/KVf7YFG5",
+			"linkSoftsub": "https://lokerwfh.net/Eeg9kFt",
+			"descEpisodeSynopsis": "Di episode 5 Otameshi kali ini adalah kompetisi sepeda motor! Bersama Yamazaki Rena, Nakamura Reno, Shibata Yuna dan Yumiki Nao yang akan menantang kegiatan yang idenya dari Higuchi Hina! Seperti apa keseruannya?"
+		},
+		"06": {
+			"descOnAirDate": "31 Juli 2021",
+			"memberParticipate": "寺田蘭世、山崎怜奈、中村麗乃、柴田柚菜、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/oPqTdq",
+			"linkSoftsub": "https://lokerwfh.net/n37HMLM",
+			"descEpisodeSynopsis": "Di episode 6 Otameshi kali ini adalah mencobah hal-hal yang berhubungan dengan first-class! Masih seperti di episode sebelumnya bersama Yamazaki Rena, Nakamura Reno, Shibata Yuna dan Yumiki Nao yang akan menantang kegiatan yang mana hukumannya dari Wada Maaya! Seperti apa keseruannya?"
+		},
+		"07": {
+			"descOnAirDate": "28 Agustus 2021",
+			"memberParticipate": "寺田蘭世、伊藤純奈、渡辺みり愛、林瑠奈、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/S6ku2u",
+			"linkSoftsub": "https://lokerwfh.net/3bPGZcLL",
+			"descEpisodeSynopsis": "Di episode 7 Otameshi kali ini adalah pertarungan antara tim Junna-Kuromi dan Miria-Runa agar hubungan gen-2 dan gen-4 semakin dekat. Ditambah sesi terakhirnya adalah obrolan sesama gen-2, dimana Junna dan Miria adalah terakhir kalinya tampil disini karena telah mengumumkan kelulusannya. Cukup banyak obrolan disini, dan yang pasti keseruannya juga ada!"
+		},
+		"08": {
+			"descOnAirDate": "21 September 2021",
+			"memberParticipate": "寺田蘭世、和田まあや、佐藤楓、林瑠奈、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/vIhcR",
+			"linkSoftsub": "https://lokerwfh.net/R4poMu",
+			"descEpisodeSynopsis": "Di episode 8 Otameshichuu kali ini adalah pertarungan antara Wada Maaya (yang akhirnya ikut berpartisipasi), Sato Kaede, Hayashi Runa dan Kuromi Haruka dengan membawa tema otameshi liburan musim panas."
+		},
+		"09": {
+			"descOnAirDate": "30 Oktober 2021",
+			"memberParticipate": "寺田蘭世、和田まあや、向井葉月、佐藤璃果、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/Gxxz",
+			"linkSoftsub": "https://lokerwfh.net/QNcXrfFH",
+			"descEpisodeSynopsis": "Di episode 9 Otameshichuu kali ini adalah otameshi penuh semangat! Bersama yang pertama kali hadir Mukai Hazuki, Sato Rika dan Yakubo Mio akan membuat episode ini sangat meriah! Seperti apakah otameshi penuh semangat ini?"
+		},
+		"10": {
+			"descOnAirDate": "27 November 2021",
+			"memberParticipate": "寺田蘭世、和田まあや、向井葉月、佐藤璃果、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/gv7A5u",
+			"linkSoftsub": "https://lokerwfh.net/UzUKLm",
+			"descEpisodeSynopsis": "Di episode 10 Otameshichuu kali ini adalah episode spesial kelulusan Terada Ranze. Dengan diproduksi oleh Suzuki Taku-san, para member akan memancing ikan dan memakan hidangan ikan segar hasil tangkapan mereka sendiri. Bersama Wada Maaya, Mukai Hazuki, Yakubo Mio dan Sato Rika akan seru-seruan bersama Terada Ranze. Tak lupa juga di akhir acara ada pengumuman MC terbarunya yaitu Ito Riria."
+		},
+		"11": {
+			"descOnAirDate": "25 Desember 2021",
+			"memberParticipate": "伊藤理々杏、中村麗乃、吉田綾乃クリスティー、柴田柚菜、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/LHoL",
+			"linkSoftsub": "https://lokerwfh.net/7CVby",
+			"descEpisodeSynopsis": "Episode 11 ini menjadi pembuka dimana Ito Riria dari gen-3 menjadi MC Otameshichuu untuk pertama kalinya. Untuk merayakan 'pelantikan'-nya sebagai pembawa acara, kali ini otameshi-nya bertemakan Okinawa, yang sudah kita tau kalau Ririan ini member yang berasal dari Okinawa. Bersama otameshi girls-nya Nakamura Reno, Yoshida Ayano Christie, Shibata Yuna dan Matsuo Miyu akan menantang pengetahuan mereka mengenai Okinawa."
+		},
+		"12": {
+			"descOnAirDate": "29 Januari 2022",
+			"memberParticipate": "伊藤理々杏、中村麗乃、吉田綾乃クリスティー、柴田柚菜、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/3eBpiJ",
+			"linkSoftsub": "https://lokerwfh.net/J1ALUTmR",
+			"descEpisodeSynopsis": "Episode 12 otameshi-nya bertemakan variety show ulasan makanan. Bersama otameshi girls-nya sama seperti di episode sebelumnya yaitu Nakamura Reno, Yoshida Ayano Christie, Shibata Yuna dan Matsuo Miyu mereka akan ditantang seberapa mampukah mereka dalam kegiatan-kegiatan yang berhubungan dengan ulasan makanan, yang memungkinan mereka bisa tampil dalam acara ulasan makanan."
+		},
+		"13": {
+			"descOnAirDate": "26 Februari 2022",
+			"memberParticipate": "伊藤理々杏、阪口珠美、佐藤楓、金川紗耶、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/Eivwh5",
+			"linkSoftsub": "https://lokerwfh.net/LI3R5a",
+			"descEpisodeSynopsis": "Di episode 13 kali ini, para member akan menantang diri di luar ruangan! Ya, karena belakangan ini di Jepang sedang viral yang namanya kemah musim dingin. Dengan begitu, para otameshi girls yaitu Sakaguchi Tamami, Sato Kaede, Kanagawa Saya dan Yakubo Mio akan mencoba berkemah dengan berbagai kegiatan yang berhubungan dengan kemah."
+		},
+		"14": {
+			"descOnAirDate": "26 Maret 2022",
+			"memberParticipate": "伊藤理々杏、阪口珠美、佐藤楓、金川紗耶、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/Ur1ea9",
+			"linkSoftsub": "https://lokerwfh.net/FvgocUeV",
+			"descEpisodeSynopsis": "Di episode 14 kali ini adalah bagian kedua dari kegiatan berkemah di musim dingin! Masih dengan Sakaguchi Tamami, Sato Kaede, Kanagawa Saya dan Yakubo Mio sekarang akan mencoba membuat kari dengan bahan-bahan yang telah disediakan."
+		},
+		"15": {
+			"descOnAirDate": "30 April 2022",
+			"memberParticipate": "伊藤理々杏、和田まあや、吉田綾乃クリスティー、佐藤璃果、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/W9svpZx",
+			"linkSoftsub": "https://lokerwfh.net/uBPZ",
+			"descEpisodeSynopsis": "Di episode 15 kali ini adalah otameshi oogiri! Membernya adalah Wada Maaya, Yoshida Ayano Christie, Sato Rika dan Matsuo Miyu. Mereka akan menantang diri sejauh mana mereka bisa melakukan oogiri dengan 3 tantangan yang disediakan."
+		},
+		"16": {
+			"descOnAirDate": "28 Mei 2022",
+			"memberParticipate": "伊藤理々杏、和田まあや、吉田綾乃クリスティー、佐藤璃果、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/wy1Ks",
+			"linkSoftsub": "https://lokerwfh.net/lxqKB",
+			"descEpisodeSynopsis": "Di episode 16 kali ini adalah otameshi burikko! Membernya masih sama dengan episode sebelumnya yaitu Wada Maaya, Yoshida Ayano Christie, Sato Rika dan Matsuo Miyu. Mereka akan menantang diri sejauh mana mereka bisa melakukan burikko terbaik dengan berbagai tantangan."
+		},
+		"17": {
+			"descOnAirDate": "25 Juni 2022",
+			"memberParticipate": "伊藤理々杏、向井葉月、佐藤楓、金川紗耶、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/CElWmRLF",
+			"linkSoftsub": "https://lokerwfh.net/iQTb3QZ3",
+			"descEpisodeSynopsis": "Di episode 17 kali ini adalah otameshi yukata! Tema yang sesuai musim panas sudah pasti menggunakan yukata. Member yang berpartisipasi adalah Sato Kaede, Mukai Hazuki, Kanagawa Saya dan Yumiki Nao. Bukan untuk melawak, tapi mereka harus mengeluarkan keimutan diri mereka masing-masing dengan melakukan total 3 skenario di area kuil."
+		},
+		"18": {
+			"descOnAirDate": "27 Juli 2022",
+			"memberParticipate": "伊藤理々杏、向井葉月、佐藤楓、金川紗耶、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/kwOzJC3",
+			"linkSoftsub": "https://lokerwfh.net/CHPI65",
+			"descEpisodeSynopsis": "Di episode 18 kali ini adalah otameshi yukata part 2. Member yang berpartisipasi adalah Sato Kaede, Mukai Hazuki, Kanagawa Saya dan Yumiki Nao. Bukan untuk melawak, tapi mereka harus mengeluarkan keimutan diri mereka masing-masing dengan melakukan total 3 skenario di area kuil."
+		},
+		"19": {
+			"descOnAirDate": "27 Agustus 2022",
+			"memberParticipate": "伊藤理々杏、向井葉月、佐藤楓、金川紗耶、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/tRlez",
+			"linkSoftsub": "https://lokerwfh.net/hW8k",
+			"descEpisodeSynopsis": "Di episode 19 ini masih dengan member di episode sebelumnya, mereka pergi ke area Shibamata dan mencoba membuat haiku berdasarkan 3 tema, yaitu makanan manis, permohonan dan alam."
+		},
+		"20": {
+			"descOnAirDate": "24 September 2022",
+			"memberParticipate": "伊藤理々杏、和田まあや、阪口珠美、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/BVQn1KI",
+			"linkSoftsub": "https://lokerwfh.net/wyqXqhr",
+			"descEpisodeSynopsis": "Di episode 20, sebagai bagian dari proyek kelulusan Maaya-san, para member melakukan otameshi tur mengemudi yang mencakup semua yang ingin dilakukan Maaya-san. Dimulai dari Kuil Nogi yang terkait dengan grup ini menuju Semenanjung Miura di Prefektur Kanagawa."
+		},
+		"21": {
+			"descOnAirDate": "29 Oktober 2022",
+			"memberParticipate": "伊藤理々杏、和田まあや、樋口日奈、阪口珠美、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/D1zFwu",
+			"linkSoftsub": "https://lokerwfh.net/OsuVRwth",
+			"descEpisodeSynopsis": "Di episode 21, merupakan kelanjutan dari episode spesial kelulusan Wada Maaya. Namun spesialnya pada episode yang berdurasi satu jam ini hadir juga Higuchi Hina yang sama-sama mengumumkan kelulusannya. Disini Chima, Maaya dan Taku-san akan melakukan three-talk, membicarakan kenangan dan berbagai yang dihadapi selama di Nogizaka. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"22": {
+			"descOnAirDate": "26 November 2022",
+			"memberParticipate": "伊藤理々杏、向井葉月、中村麗乃、吉田綾乃クリスティー、黒見明香、五百城茉央、奥田いろは",
+			"linkHardsub": "https://lokerwfh.net/dh5C",
+			"linkSoftsub": "https://lokerwfh.net/RNzH",
+			"descEpisodeSynopsis": "Di episode 22 adalah episode spesial Natal dimana untuk pertama kalinya gen-5 ikut berpartisipasi dalam acara Under ini, yaitu Ioki Mao dan Okuda Iroha. Pada paruh pertama kali ini adalah para member melakukan kegiatan tukar hadiah yang sebelumnya sudah dibeli oleh mereka dengan harga maksimal 4600 yen. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"23": {
+			"descOnAirDate": "24 Desember 2022",
+			"memberParticipate": "伊藤理々杏、向井葉月、中村麗乃、吉田綾乃クリスティー、黒見明香、五百城茉央、奥田いろは",
+			"linkHardsub": "https://lokerwfh.net/7hURY",
+			"linkSoftsub": "https://lokerwfh.net/b0aKb",
+			"descEpisodeSynopsis": "Di episode 23 adalah episode spesial Natal dimana untuk pertama kalinya gen-5 ikut berpartisipasi dalam acara Under ini, yaitu Ioki Mao dan Okuda Iroha. Pada paruh kedua kali ini para member berlomba memperebutkan daging ayam premium yang hanya satu dengan cara balap mobil mainan ChoroQ. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"24": {
+			"descOnAirDate": "28 Januari 2023",
+			"memberParticipate": "伊藤理々杏、向井葉月、中村麗乃、吉田綾乃クリスティー、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/nkUnZlwA",
+			"linkSoftsub": "https://lokerwfh.net/cT8Pt",
+			"descEpisodeSynopsis": "Di episode 24 ini adalah para member yaitu Mukai Hazuki, Yoshida Ayano Christie, Nakamura Reno, dan Kuromi Haruka melakukan dua pertandingan kartu. Dan Ito Riria juga Suzuki Taku ikut berpartisipasi di game kartu kedua. Keseruan seperti apakah disana? Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"25": {
+			"descOnAirDate": "25 Februari 2023",
+			"memberParticipate": "伊藤理々杏、金川紗耶、佐藤璃果、池田瑛紗、菅原咲月",
+			"linkHardsub": "https://lokerwfh.net/iYVxx61P",
+			"linkSoftsub": "https://lokerwfh.net/FZmXV",
+			"descEpisodeSynopsis": "Di episode 25 kali ini adalah para member pertama-tama melihat scene yang tidak dirilis ke televisi, lalu melakukannya. Membernya ada yang baru berpartisipasi dari gen-5, yaitu Sugawara Satsuki dan juga Ikeda Teresa ikut memeriahkan episode ini. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"26": {
+			"descOnAirDate": "26 Maret 2023",
+			"memberParticipate": "伊藤理々杏、金川紗耶、佐藤璃果、池田瑛紗、菅原咲月",
+			"linkHardsub": "https://lokerwfh.net/u8bYuPIU",
+			"linkSoftsub": "https://lokerwfh.net/WyqajR",
+			"descEpisodeSynopsis": "Di episode 26 kali ini dengan member yang sama seperti episode sebelumnya, mereka akan menantang diri untuk melatih diri memuji orang lain dengan tujuan bisa bertahan di dunia entertainment dan menjadi value tambahan untuk mereka. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"27": {
+			"descOnAirDate": "29 April 2023",
+			"memberParticipate": "伊藤理々杏、清宮レイ、林瑠奈、松尾美佑、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/7e2FvTbB",
+			"linkSoftsub": "https://lokerwfh.net/dmkrW3DP",
+			"descEpisodeSynopsis": "Di episode 27 ini, adalah tantangan menjadi seoarang announcer atau penyiar. Ada 4 member penantangnya, yaitu Hayashi Runa, Matsuo Miyu, Yumiki Nao, dan Seimiya Rei yang pertama kali berpartisipasi di acara ini. Otameshichuu Announcer ini adalah bagian pertama. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"28": {
+			"descOnAirDate": "28 Mei 2023",
+			"memberParticipate": "伊藤理々杏、清宮レイ、林瑠奈、松尾美佑、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/0LQBw",
+			"linkSoftsub": "https://lokerwfh.net/ah2Y",
+			"descEpisodeSynopsis": "Di episode 28 ini, adalah tantangan menjadi seoarang announcer atau penyiar. Ada 4 member penantangnya, yaitu Hayashi Runa, Matsuo Miyu, Yumiki Nao, dan Seimiya Rei yang pertama kali berpartisipasi di acara ini. Otameshichuu Announcer ini adalah bagian kedua dari episode sebelumnya. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"29": {
+			"descOnAirDate": "24 Juni 2023",
+			"memberParticipate": "伊藤理々杏、金川紗耶、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/0y6fqPWO",
+			"linkSoftsub": "https://lokerwfh.net/XN9G",
+			"descEpisodeSynopsis": "Di episode 29 ini adalah yang seharusnya Kanagawa Saya yang telah mengumpulkan shiisa alias patung singa Okinawa bersama Yumiki Nao dan Ito Riria pergi ke Okinawa, namun ditunda karena angin topan menerjang Jepang selatan. Maka diadakanlah beberapa games yang seharusnya diadakan di Okinawa dengan hadiah uang saku. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"30": {
+			"descOnAirDate": "29 Juli 2023",
+			"memberParticipate": "伊藤理々杏、中村麗乃",
+			"linkHardsub": "https://lokerwfh.net/x2wgFphn",
+			"linkSoftsub": "https://lokerwfh.net/s76J",
+			"descEpisodeSynopsis": "Di episode 30 ini adalah episode spesial untuk merayakan masuknya senbatsu, Ito Riria yang sudah lama tidak masuk, dan Nakamura Reno yang pertama kali masuk senbatsu. Seharusnya episode ini bersama Ikeda Teresa, namun jadwalnya yang padat, berakhir hanya berdua saja yang mendapat hadiah mengunjungi 2 tempat yang sudah dipilih Suzuki Taku yang mana ia juga tidak dapat ikut serta karena barter pekerjaan dengan partner-nya. Seperti biasa mohon maaf bila ada salah penerjemahan."
+		},
+		"31": {
+			"descOnAirDate": "26 Agustus 2023",
+			"memberParticipate": "伊藤理々杏、吉田綾乃クリスティー、佐藤楓、小川彩、冨里奈央",
+			"linkHardsub": "https://lokerwfh.net/bvUpTtl",
+			"linkSoftsub": "https://lokerwfh.net/zGNphF9",
+			"descEpisodeSynopsis": "Di episode 31 ini adalah episode menantang kemampuan diri para member di depan televisi. Ada 2 member gen-5 yang pertama kalinya berpartisipasi dalam acara ini, yaitu Ogawa Aya dan Tomisato Nao. Bersama senpainya, Sato Kaede dan Yoshida Ayano Christie, akan menantang berbagai rintangan."
+		},
+		"32": {
+			"descOnAirDate": "30 September 2023",
+			"memberParticipate": "伊藤理々杏、吉田綾乃クリスティー、佐藤楓、小川彩、冨里奈央",
+			"linkHardsub": "https://lokerwfh.net/Aq3PetKJ",
+			"linkSoftsub": "https://lokerwfh.net/Xh4dbiNF",
+			"descEpisodeSynopsis": "Di episode 32 ini adalah episode menantang kemampuan diri para member dalam kamiwaza atau keahlian. Ada 2 member gen-5 yang pertama kalinya berpartisipasi dalam acara ini, yaitu Ogawa Aya dan Tomisato Nao. Bersama senpainya, Sato Kaede dan Yoshida Ayano Christie, akan menantang berbagai rintangan. Para member ini akan memilih berbagai kamiwaza yang ingin mereka tantang."
+		},
+		"33": {
+			"descOnAirDate": "28 Oktober 2023",
+			"memberParticipate": "伊藤理々杏、黒見明香、清宮レイ、林瑠奈、岡本姫奈",
+			"linkHardsub": "https://lokerwfh.net/jnT3gR",
+			"linkSoftsub": "https://lokerwfh.net/IKhpui",
+			"descEpisodeSynopsis": "Di episode 33 ini adalah episode olahraga basket. Yang menjadi otameshi girls kali ini ada dari Kuromi Haruka, Seimiya Rei, Hayashi Runa, dan yang baru pertama kali tampil di Otameshichuu, Okamoto Hina dari gen-5. Disini mereka akan melakukan berbagai hal, seperti menguji teknik-teknik dasar basket, dan pengetahuan seputar basket."
+		},
+		"34": {
+			"descOnAirDate": "26 November 2023",
+			"memberParticipate": "伊藤理々杏、黒見明香、清宮レイ、林瑠奈、岡本姫奈",
+			"linkHardsub": "https://lokerwfh.net/4MqBnV",
+			"linkSoftsub": "https://lokerwfh.net/GxrPqRt",
+			"descEpisodeSynopsis": "Di episode 34 ini adalah para member Otameshi girls di episode sebelumnya menantang diri pada pengetahuan soal Era Reiwa. Dari makanan, budaya dan mainan yang biasa dilakukan pada era tersebut. Keseruan apa saja di Otameshichuu yang syuting sambil jalan-jalan ini?"
+		},
+		"35": {
+			"descOnAirDate": "23 Desember 2023",
+			"memberParticipate": "伊藤理々杏、吉田綾乃クリスティー、佐藤璃果、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/SoEx",
+			"linkSoftsub": "https://lokerwfh.net/cSJg0",
+			"descEpisodeSynopsis": "Di episode 35 ini adalah episode penutup di penghujung tahun 2023. Maka dari itu, ditutup dengan makan hidangan nabe yang dibuat oleh para otameshi girls, termasuk Ito Riria karena ada satu member yang berhalangan hadir. Otameshi girls kali ini ada Yoshida Ayano Christie, Sato Rika, dan Matsuo Miyu. Di akhir segmen, ada segmen dimana hal apa yang ingin orang-orang puji terhadap keberhasilannya di tahun ini."
+		},
+		"36": {
+			"descOnAirDate": "27 Januari 2024",
+			"memberParticipate": "伊藤理々杏、吉田綾乃クリスティー、佐藤璃果、松尾美佑",
+			"linkHardsub": "https://sfl.gl/tb92Kh",
+			"linkSoftsub": "https://sfl.gl/662NHcO0",
+			"descEpisodeSynopsis": "Di episode 36 ini para otameshi girls beserta Suzuki Taku yang ikut menjadi pemain mencoba keberuntungannya dari berbagai segmen."
+		},
+		"37": {
+			"descOnAirDate": "24 Februari 2024",
+			"memberParticipate": "伊藤理々杏、金川紗耶、弓木奈於",
+			"linkHardsub": "https://sfl.gl/8oY8XD",
+			"linkSoftsub": "https://sfl.gl/SQ0V",
+			"descEpisodeSynopsis": "Di episode 37 ini adalah bagian pertama dari hadiah untuk Kanagawa Saya yang telah mengumpulkan tiga otameshisha pergi jalan-jalan ke kampung halamannya Riria, Okinawa!"
+		},
+		"38": {
+			"descOnAirDate": "30 Maret 2024",
+			"memberParticipate": "伊藤理々杏、金川紗耶、弓木奈於",
+			"linkHardsub": "https://sfl.gl/2ClT",
+			"linkSoftsub": "https://sfl.gl/iJ4J",
+			"descEpisodeSynopsis": "Di episode 38 ini adalah bagian terakhir dari hadiah untuk Kanagawa Saya yang telah mengumpulkan tiga otameshisha pergi jalan-jalan ke kampung halamannya Riria, Okinawa! Kemana lagi kah tujuan mereka selama disana?"
+		},
+		"39": {
+			"descOnAirDate": "27 April 2024",
+			"memberParticipate": "伊藤理々杏、柴田柚菜、佐藤璃果、松尾美佑",
+			"linkHardsub": "https://sfl.gl/BC3i",
+			"linkSoftsub": "https://sfl.gl/9WIcLqS",
+			"descEpisodeSynopsis": "Di episode 39 ini adalah otameshi angka 4. Meskipun seharusnya ada 4 member gen-4, namun satu orang terhalang jadwal, maka Riria ikut menjadi bagian otameshi girls meskipun dia tidak ada hubungannya dengan angka 4."
+		},
+		"40": {
+			"descOnAirDate": "25 Mei 2024",
+			"memberParticipate": "伊藤理々杏、柴田柚菜、佐藤璃果、松尾美佑",
+			"linkHardsub": "https://sfl.gl/SAmsB3",
+			"linkSoftsub": "https://sfl.gl/6HEL",
+			"descEpisodeSynopsis": "Di episode 40 ini dengan otameshi girls di episode sebelumnya pergi mengunjungi perkebunan stroberi, dan mencoba otameshi kecocokan dirinya sebagai idola dengan stoberi!"
+		},
+		"41": {
+			"descOnAirDate": "29 Juni 2024",
+			"memberParticipate": "伊藤理々杏、佐藤楓、向井葉月、田村真佑、五百城茉央",
+			"linkHardsub": "https://sfl.gl/cweqN",
+			"linkSoftsub": "https://sfl.gl/b6QXkBY",
+			"descEpisodeSynopsis": "Di episode 41 ini para otameshi girls akan mencoba berbagai segmen yang ada hubungannya antara musim hujan yang sedang terjadi dengan aktifitas sebagai idol."
+		},
+		"42": {
+			"descOnAirDate": "13 Juli 2024",
+			"memberParticipate": "伊藤理々杏、阪口珠美、清宮レイ",
+			"linkHardsub": "https://sfl.gl/X1HfL",
+			"linkSoftsub": "https://sfl.gl/K9fvR2gn",
+			"descEpisodeSynopsis": "Di episode 42 ini adalah episode spesial kelulusan Sakaguchi Tamami dan Seimiya Rei, dimana mereka berdua ingin mencoba sesuatu sebagai keinginan terakhirnya dalam tampil di acara Otameshichuu ini. Tamami yang ingin memakai baju lolita, sedangkan Rei akan mencoba pengalaman membuat mochi"
+		},
+		"43": {
+			"descOnAirDate": "31 Agustus 2024",
+			"memberParticipate": "伊藤理々杏、佐藤楓、向井葉月、田村真佑、五百城茉央",
+			"linkHardsub": "https://sfl.gl/P9EDN4",
+			"linkSoftsub": "https://sfl.gl/wq6PI9l",
+			"descEpisodeSynopsis": "Di episode 43 ini para otameshi girls akan mencoba berolahraga tenis, yang masih dikenal jarang oleh masyarakat."
+		},
+		"44": {
+			"descOnAirDate": "28 September 2024",
+			"memberParticipate": "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
+			"linkHardsub": "https://sfl.gl/Xs6d",
+			"linkSoftsub": "https://sfl.gl/6oLcQy",
+			"descEpisodeSynopsis": "Di episode 44 ini para otameshi girls akan bersantai untuk menyajikan takoyaki, sebuah segmen yang disarankan oleh MC Ito Riria. Seperti apakah hasil takoyaki dari para member ini?"
+		},
+		"45": {
+			"descOnAirDate": "26 Oktober 2024",
+			"memberParticipate": "伊藤理々杏、黒見明香、林瑠奈、岡本姫奈、奥田いろは",
+			"linkHardsub": "https://sfl.gl/xm9CQu",
+			"linkSoftsub": "https://sfl.gl/0XXv8pb",
+			"descEpisodeSynopsis": "Di episode 45 ini dengan otameshi girls yang sama di episode sebelumnya akan mencoba hal-hal yang digemari para ojisan, seperti permainan kata, mahjong, dan pijat refleksi kaki."
+		},
+		"46": {
+			"descOnAirDate": "30 November 2024",
+			"memberParticipate": "伊藤理々杏、矢久保美緒、小川彩、冨里奈央",
+			"linkHardsub": "https://sfl.gl/XXD4cazD",
+			"linkSoftsub": "https://sfl.gl/FaEqqIt",
+			"descEpisodeSynopsis": "Di episode 46 ini para otameshi girls akan mencoba tantangan seputar ubi manis, yang sangat cocok untuk musim di akhir tahun ini. Para otameshi girls akan mencoba memanen ubi, mencoba seruan pedagang ubi keliling, dan membuat iklan ubi."
+		},
+		"47": {
+			"descOnAirDate": "28 Desember 2024",
+			"memberParticipate": "伊藤理々杏、向井葉月、佐藤楓、岡本姫奈",
+			"linkHardsub": "https://lokerwfh.net/7M3lcfQ",
+			"linkSoftsub": "https://lokerwfh.net/X00KttOi",
+			"descEpisodeSynopsis": "Episode dadakan ini merupakan episode spesial untuk Mukai Hazuki, yang akan lulus, mencoba berbagai hal yang ia inginkan disini bersama Suzuki Taku."
+		},
+		"48": {
+			"descOnAirDate": "25 Januari 2025",
+			"memberParticipate": "伊藤理々杏、吉田綾乃クリスティー、矢久保美緒、小川彩、冨里奈央",
+			"linkHardsub": "https://lokerwfh.net/y7kaan",
+			"linkSoftsub": "https://lokerwfh.net/GLVoA",
+			"descEpisodeSynopsis": "Di episode 48 (yang harusnya disiarkan di episode 47) ini para otameshi girls akan mencoba tantangan kebersihan, dimana para member akan ditantang seberapa gesit mereka dalam bersih-bersih di berbagai segmen disini. Dimulai dari mengepel, hingga siapa yang lapnya paling hitam dan kotor."
+		},
+		"49": {
+			"descOnAirDate": "22 Februari 2025",
+			"memberParticipate": "伊藤理々杏、黒見明香、佐藤璃果、矢久保美緒",
+			"linkHardsub": "https://sfl.gl/QqLlk90",
+			"linkSoftsub": "https://sfl.gl/HoJUFpcD",
+			"descEpisodeSynopsis": "Di episode 49 ini, para otameshi girls yaitu Yakubo Mio, Kuromi Haruka dan Sato Rika akan mencoba tantangan soal mikan atau jeruk khas Jepang."
+		},
+		"50": {
+			"descOnAirDate": "29 Maret 2025",
+			"memberParticipate": "伊藤理々杏、黒見明香、佐藤璃果、矢久保美緒",
+			"linkHardsub": "https://sfl.gl/CnrzVm",
+			"linkSoftsub": "https://sfl.gl/rmJV9",
+			"descEpisodeSynopsis": "Di episode 50 kali ini menampilkan tantangan seru bertema \"roke-ben\" atau yang kita kenal dengan istilah 'katering' bersama Kuromi Haruka, Sato Rika, dan Yakubo Mio. Mereka mengikuti kuis seputar katering demi bisa membuat “roke-ben impian” di akhir acara."
+		},
+		"51": {
+			"descOnAirDate": "5 Mei 2025",
+			"memberParticipate": "伊藤理々杏、佐藤楓、岡本姫奈、冨里奈央",
+			"linkHardsub": "https://sfl.gl/4GnP2PzB",
+			"linkSoftsub": "https://sfl.gl/D7vWB9pf",
+			"descEpisodeSynopsis": "Di episode 51 kali ini adalah edisi spesial kelulusan Sato Kaede yang akan segera meninggalkan grup. Ia akan mencoba kembali tantangan-tantangan dari episode sebelumnya yang belum berhasil ia taklukkan. Meskipun sering tampil dan menciptakan banyak momen seru, Kaede belum pernah sekalipun terpilih sebagai \"myakuari girl\" — dan kali ini ia siap membuktikan dirinya. Kaede akan ditemani bersama Okamoto Hina dan Tomisato Nao yang dikenal dekat dengan Kaede. Di bagian akhir, mereka mengunjungi tempat penuh kenangan untuk mengenang perjalanan Kaede bersama gen-3."
+		}
+	}
+}

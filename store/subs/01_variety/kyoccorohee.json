@@ -1,0 +1,65 @@
+{
+	"url": "kyoccorohee",
+	"nameShowTitle": "KYOCCOROHEE",
+	"nameShow": "キョコロヒー",
+	"descSynopsis": "\"Kyoccorohee\" merupakan acara variety di mana Saito Kyoko dan Hikorohi, yang dikenal karena suara mereka yang bernada rendah, mendalami pesona tarian, namun di tengah-tengah acara, konsepnya berubah menjadi \"Midnight Weird Talk Variety\"",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04"
+	],
+	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_kyoccorohee.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kyoccorohee-{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kyokkorohee-UlAEk",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descOnAirDate": "31 Maret 2021",
+			"memberParticipate": "齊藤京子",
+			"additionalGuests"	: "ヒコロヒー",
+			"linkHardsub": "https://lokerwfh.net/iHYzck",
+			"linkSoftsub": "https://lokerwfh.net/15gBGI",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-01b.jpg",
+			"descEpisodeSynopsis": "Di episode kali ini, mereka akan menonton VTR tentang tarian kontemporer."
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descOnAirDate": "7 April 2021",
+			"memberParticipate": "齊藤京子",
+			"additionalGuests"	: "ヒコロヒー",
+			"linkHardsub": "https://lokerwfh.net/njjOI",
+			"linkSoftsub": "https://lokerwfh.net/7vkJy",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-02b.jpg",
+			"descEpisodeSynopsis": "Di episode kali ini, mereka akan menonton VTR penjelasan tarian dari koreografer profesional Takahiro-sensei!"
+		},
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descOnAirDate": "14 April 2021",
+			"memberParticipate": "齊藤京子",
+			"additionalGuests"	: "ヒコロヒー",
+			"linkHardsub": "https://lokerwfh.net/HtWKhuFz",
+			"linkSoftsub": "https://lokerwfh.net/7wb9gWv4",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-03a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-03b.jpg",
+			"descEpisodeSynopsis": "Di episode Kyoccorohee kali ini, mereka akan menonton VTR para penari profesional akan menirukan ritme dari seorang geinin. Tak kalah juga sesi sebelumnya adalah sesi ngobrol bareng!"
+		},
+		"04": {
+			"descEpisode": "| Episode 4",
+			"descOnAirDate": "21 April 2021",
+			"memberParticipate": "齊藤京子",
+			"additionalGuests"	: "ヒコロヒー",
+			"linkHardsub": "https://lokerwfh.net/xKYm2N",
+			"linkSoftsub": "https://lokerwfh.net/tqr7J9rB",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-04a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-04b.jpg",
+			"descEpisodeSynopsis": "Di episode Kyoccorohee kali ini, mereka akan melihat submission dari akun-akun TikTok yang mengikuti kompetisi dari Kyoccorohee."
+		}
+	}
+}

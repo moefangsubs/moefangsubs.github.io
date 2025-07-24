@@ -1,46 +1,102 @@
 <!DOCTYPE html>
-<html lang="en" data-page-name="chounogi">
-
+<html lang="id">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MoeFang Subs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Halaman Tidak Ditemukan</title>
 
-	<!-- JavaScript load default head -->
-	<script type="text/javascript" src="defaultstring/head-default.js"></script>
+    <script type="text/javascript" src="../js/navbar.js" defer></script>
+    <script type="text/javascript" src="../js/script_by.js" defer></script>
+	<link rel="stylesheet" href="../css/style.css">
 
-	<!-- JavaScript untuk kebutuhan data yang di load -->
-	<script type="text/javascript" src="defaultstring/script.js"></script>
-	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            /* Variabel warna dari style.css Anda */
+            --moe: #440079;
+            --moe-shade-max1: #5a00a0;
+            --moe-tint6: #e7c7ff;
+            --moe-tint7: #f8efff;
+        }
+
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background-color: var(--moe-tint7);
+			color: var(--moe-shade-max1);
+			font-family: 'Space Mono', monospace;
+			text-align: center;
+			margin: 0;
+			/* padding: 0 20px; */
+			box-sizing: border-box;
+		}
+
+		.container-404 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			align-content: center;
+			margin-top: 25pt;
+			margin-bottom: 25pt;
+		}
+
+        .svg-404 {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .message-404 {
+            font-size: clamp(1rem, 4vw, 1.5rem);
+            margin: 1rem 0;
+			font-weight: bold;
+        }
+
+        .redirect-404 {
+            font-size: 1rem;
+            color: grey;
+        }
+		
+		.warning-footer{
+		margin-top: 0 !important;
+		}
+    </style>
 </head>
-<style>
-body::before{background-image: url('https://i.pinimg.com/736x/10/1c/ee/101cee27c70a996f57a1f852d859ac9a.jpg');}
+<body>
 
-.notfound-container {
-  position: absolute;
-  top: 50%; right: 50%;
-  transform: translate(50%,-50%);
-  color: white;
+    <div class="container-404">
+        <img src="../sprite/404.svg" class="svg-404">
+        <p class="message-404">Halaman yang kamu cari tidak ditemukan.</p>
+        <p class="redirect-404" id="redirect-message">
+            Akan dialihkan ke halaman utama dalam <span id="countdown">5</span> detik...
+        </p>
+    </div>
 
-span#\#codenotfound {
-    font-size: 80pt;
-    text-align: center;
-    font-weight: 900;
-    display: block;
-}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const countdownElement = document.getElementById('countdown');
+            let timeLeft = 5;
 
-span#\#notfoundcapt {
-    display: block;
-  text-align: center;
-}
-</style>
-<body class="garapan_nogizaka">
-<script src="defaultstring/navigation.js"></script>
+            const countdownInterval = setInterval(() => {
+                timeLeft--;
+                countdownElement.textContent = timeLeft;
 
-<div class="notfound-container">
-	<span id="#codenotfound">404</span>
-	<span id="#notfoundcapt">Halaman yang kamu cari tidak dapat ditemukan.</span>
-</div>
+                if (timeLeft <= 0) {
+                    clearInterval(countdownInterval);
+                    // Arahkan ke index.html di direktori induk
+                    window.location.href = '../index.html';
+                }
+            }, 1000);
+        });
+    </script>
 
 </body>
 </html>

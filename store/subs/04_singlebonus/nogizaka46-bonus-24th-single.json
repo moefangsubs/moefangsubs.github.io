@@ -1,0 +1,39 @@
+{
+	"url": "nogizaka46-bonus-24th-single",
+	"nameShowTitle": "Nogizaka46 Bonus 24th Single　\"Yoake Made Tsuyogaranakute Mo Ii\"",
+	"descSynopsis": "Di single ke-24, \"Yoake made Tsuyogaranakutemo Ii\" menyertakan dokumenter tiap generasi sebagai konten bonus pada DVD.",
+	"availableEpisode": [
+		"03",
+		"04"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi24th.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-bonus-24th-single-documentary-3rd-4th-gen-0t7uF",
+	"episodes": {
+		"03": {
+			"descEpisode": "| Bonus Type C - Documentary of 3rd Generation",
+			"descEpsListName": "Gen-3",
+			"memberParticipate": "伊藤理々杏、岩本蓮加、梅澤美波、久保史緒里、吉田綾乃クリスティー、大園桃子、山下美月、阪口珠美、向井葉月、与田祐希、佐藤楓、中村麗乃",
+			"linkHardsub": "https://lokerwfh.net/hD8Kn",
+			"filePassword": "24DocuGen3",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_24doc_3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc3ki-0.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc3ki-1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc3ki-2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc3ki-3.jpg",
+			"nameShow": "Documentary of 乃木坂46 3期生編"
+		},
+		"04": {
+			"descEpisode": "| Bonus Type D - Documentary of 4th Generation",
+			"descEpsListName": "Gen-4",
+			"memberParticipate": "遠藤さくら、賀喜遥香、掛橋沙耶香、金川紗耶、北川悠理、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、早川聖来、林瑠奈、松尾美佑、矢久保美緒、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/mpJDIi4",
+			"filePassword": "24DocuGen4",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_24doc_4.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc4ki-0.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc4ki-1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc4ki-2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus24/24doc4ki-3.jpg",
+			"nameShow": "Documentary of 乃木坂46 4期生編"
+		}
+	}
+}

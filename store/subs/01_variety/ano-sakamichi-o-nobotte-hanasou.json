@@ -1,0 +1,93 @@
+{
+	"url": "ano-sakamichi-o-nobotte-hanasou",
+	"nameShowTitle": "Ano Sakamichi o Nobotte Hanasou",
+	"nameShow": "あの坂道をのぼって話そう",
+	"descSynopsis": "\"Ano Sakamichi o Nobotte Hanasou\" adalah program pertama yang dirancang dan diproduksi oleh mantan member gen-1 Nogizaka46 yang kini menjadi penyiar Nippon TV, Ichiki Rena, untuk menyampaikan rasa terima kasih serta pesona grup-grup Sakamichi. Program ini menghadirkan para kapten dari masing-masing grup, yaitu Umezawa Minami dari Nogizaka46, Matsuda Rina dari Sakurazaka46, dan Sasaki Kumi dari Hinatazaka46 yang bersama-sama melakukan perjalanan santai ke berbagai tempat menikmati kuliner, berbelanja, sekaligus berbagi cerita jujur tentang kegelisahan, peran sebagai kapten, masa depan mereka, dan tentang grup masing-masing.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12"
+	],
+	"newUpdateCount": 6,
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_anosaka.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/anosaka{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/anosaka/anosaka{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/ano-sakamichi-o-nobotte-hanasou-Guaik",
+	"filePassword": "3KaptenSakamichiJalanJalanXChikirena",
+	"memberParticipate": "市來玲奈、梅澤美波、松田里奈、佐々木久美",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descOnAirDate": "17 April 2025",
+			"linkHardsub": "https://sfl.gl/kFoftj"
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descOnAirDate": "17 April 2025",
+			"linkHardsub": "https://sfl.gl/vRyL5zg"
+		},
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descOnAirDate": "24 April 2025",
+			"linkHardsub": "https://sfl.gl/2W9VeF"
+		},
+		"04": {
+			"descEpisode": "| Episode 4",
+			"descOnAirDate": "24 April 2025",
+			"linkHardsub": "https://sfl.gl/mmgH"
+		},
+		"05": {
+			"descEpisode": "| Episode 5",
+			"descOnAirDate": "1 Mei 2025",
+			"linkHardsub": "https://sfl.gl/wXBLPqWk"
+		},
+		"06": {
+			"descEpisode": "| Episode 6",
+			"descOnAirDate": "1 Mei 2025",
+			"linkHardsub": "https://sfl.gl/3MVXdu"
+		},
+		"07": {
+			"descEpisode": "| Episode 7",
+			"descOnAirDate": "15 Mei 2025",
+			"linkHardsub": "https://sfl.gl/IM7Vjcv"
+		},
+		"08": {
+			"descEpisode": "| Episode 8",
+			"descOnAirDate": "15 Mei 2025",
+			"linkHardsub": "https://sfl.gl/BQ4caAb"
+		},
+		"09": {
+			"descEpisode": "| Episode 9",
+			"descOnAirDate": "22 Mei 2025",
+			"linkHardsub": "https://sfl.gl/dOsIQ"
+		},
+		"10": {
+			"descEpisode": "| Episode 10",
+			"descOnAirDate": "22 Mei 2025",
+			"linkHardsub": "https://sfl.gl/vxLmhHUR"
+		},
+		"11": {
+			"descEpisode": "| Episode 11",
+			"descOnAirDate": "29 Mei 2025",
+			"linkHardsub": "https://sfl.gl/DOmRrZn"
+		},
+		"12": {
+			"descEpisode": "| Episode 12 [TAMAT]",
+			"descOnAirDate": "29 Mei 2025",
+			"linkHardsub": "https://sfl.gl/vVl7cCUn"
+		}
+	}
+}

@@ -1,0 +1,236 @@
+[
+	{
+		"num": 1,
+		"announcementDate": "2011/10/3",
+		"airingChannel": "乃木坂ってこど？#14",
+		"releaseDate": "2012/02/22"
+	},
+	{
+		"num": 2,
+		"announcementDate": "2012/03/19",
+		"airingChannel": "乃木坂ってこど？#24",
+		"releaseDate": "2012/05/2"
+	},
+	{
+		"num": 3,
+		"announcementDate": "2012/06/18",
+		"airingChannel": "乃木坂ってこど？#37",
+		"releaseDate": "2012/08/22"
+	},
+	{
+		"num": 4,
+		"announcementDate": "2012/10/8",
+		"airingChannel": "乃木坂ってこど？#53",
+		"releaseDate": "2012/12/19"
+	},
+	{
+		"num": 5,
+		"announcementDate": "2013/01/7",
+		"airingChannel": "乃木坂ってこど？#65",
+		"releaseDate": "2013/03/13"
+	},
+	{
+		"num": 6,
+		"announcementDate": "2013/04/22",
+		"airingChannel": "乃木坂ってこど？#80",
+		"releaseDate": "2013/07/3"
+	},
+	{
+		"num": 7,
+		"announcementDate": "2013/10/7",
+		"airingChannel": "乃木坂ってこど？#104",
+		"releaseDate": "2013/11/27"
+	},
+	{
+		"num": 8,
+		"announcementDate": "2014/01/27",
+		"airingChannel": "乃木坂ってこど？#119",
+		"releaseDate": "2014/04/2"
+	},
+	{
+		"num": 9,
+		"announcementDate": "2014/05/12",
+		"airingChannel": "乃木坂ってこど？#133",
+		"releaseDate": "2014/07/9"
+	},
+	{
+		"num": 10,
+		"announcementDate": "2014/08/4",
+		"airingChannel": "乃木坂ってこど？#145",
+		"releaseDate": "2014/10/8"
+	},
+	{
+		"num": 11,
+		"announcementDate": "2015/01/19",
+		"airingChannel": "乃木坂ってこど？#168",
+		"releaseDate": "2015/03/18"
+	},
+	{
+		"num": 12,
+		"announcementDate": "2015/05/11",
+		"airingChannel": "乃木坂工事中 #4",
+		"releaseDate": "2015/07/22"
+	},
+	{
+		"num": 13,
+		"announcementDate": "2015/08/31",
+		"airingChannel": "乃木坂工事中 #18",
+		"releaseDate": "2015/10/28"
+	},
+	{
+		"num": 14,
+		"announcementDate": "2016/02/1",
+		"airingChannel": "乃木坂工事中 #41",
+		"releaseDate": "2016/03/23"
+	},
+	{
+		"num": 15,
+		"announcementDate": "2016/06/6",
+		"airingChannel": "乃木坂工事中 #54",
+		"releaseDate": "2016/07/27"
+	},
+	{
+		"num": 16,
+		"announcementDate": "2016/10/17",
+		"airingChannel": "乃木坂工事中 #57",
+		"releaseDate": "2016/11/9"
+	},
+	{
+		"num": 17,
+		"announcementDate": "2017/01/30",
+		"airingChannel": "乃木坂工事中 #90",
+		"releaseDate": "2017/03/22"
+	},
+	{
+		"num": 18,
+		"announcementDate": "2017/07/10",
+		"airingChannel": "乃木坂工事中 #112",
+		"releaseDate": "2017/08/9"
+	},
+	{
+		"num": 19,
+		"announcementDate": "2017/09/4",
+		"airingChannel": "乃木坂工事中 #120",
+		"releaseDate": "2017/10/11"
+	},
+	{
+		"num": 20,
+		"announcementDate": "2018/03/12",
+		"airingChannel": "乃木坂工事中 #146",
+		"releaseDate": "2018/04/25"
+	},
+	{
+		"num": 21,
+		"announcementDate": "2018/07/2",
+		"airingChannel": "乃木坂工事中 #162",
+		"releaseDate": "2018/08/8"
+	},
+	{
+		"num": 22,
+		"announcementDate": "2018/10/1",
+		"airingChannel": "乃木坂工事中 #175",
+		"releaseDate": "2018/11/14"
+	},
+	{
+		"num": 23,
+		"announcementDate": "2019/04/15",
+		"airingChannel": "乃木坂工事中 #202",
+		"releaseDate": "2019/05/29"
+	},
+	{
+		"num": 24,
+		"announcementDate": "2019/07/15",
+		"airingChannel": "乃木坂工事中 #215",
+		"releaseDate": "2019/09/4"
+	},
+	{
+		"num": 25,
+		"announcementDate": "2020/02/3",
+		"airingChannel": "乃木坂工事中 #243",
+		"releaseDate": "2020/03/25"
+	},
+	{
+		"num": 26,
+		"announcementDate": "2020/11/16",
+		"airingChannel": "乃木坂工事中 #284",
+		"releaseDate": "2021/01/27"
+	},
+	{
+		"num": 27,
+		"announcementDate": "2021/04/19",
+		"airingChannel": "乃木坂工事中 #305",
+		"releaseDate": "2021/06/9"
+	},
+	{
+		"num": 28,
+		"announcementDate": "2021/08/16",
+		"airingChannel": "乃木坂工事中 #322",
+		"releaseDate": "2021/09/22"
+	},
+	{
+		"num": 29,
+		"announcementDate": "2022/02/21",
+		"airingChannel": "乃木坂工事中 #348",
+		"releaseDate": "2022/03/23"
+	},
+	{
+		"num": 30,
+		"announcementDate": "2022/07/18",
+		"airingChannel": "乃木坂工事中 #369",
+		"releaseDate": "2022/08/31"
+	},
+	{
+		"num": 31,
+		"announcementDate": "2022/11/7",
+		"airingChannel": "乃木坂工事中 #385",
+		"releaseDate": "2022/12/7"
+	},
+	{
+		"num": 32,
+		"announcementDate": "2023/02/20",
+		"airingChannel": "乃木坂工事中 #399",
+		"releaseDate": "2023/03/29"
+	},
+	{
+		"num": 33,
+		"announcementDate": "2023/06/26",
+		"airingChannel": "乃木坂工事中 #417",
+		"releaseDate": "2023/08/23"
+	},
+	{
+		"num": 34,
+		"announcementDate": "2023/11/6",
+		"airingChannel": "乃木坂工事中 #436",
+		"releaseDate": "2023/12/6"
+	},
+	{
+		"num": 35,
+		"announcementDate": "2024/02/19",
+		"airingChannel": "乃木坂工事中 #450",
+		"releaseDate": "2024/04/10"
+	},
+	{
+		"num": 36,
+		"announcementDate": "2024/07/15",
+		"airingChannel": "乃木坂工事中 #471",
+		"releaseDate": "2024/08/21"
+	},
+	{
+		"num": 37,
+		"announcementDate": "2024/11/09",
+		"airingChannel": "240911 乃木坂配信中",
+		"releaseDate": "2024/12/11"
+	},
+	{
+		"num": 38,
+		"announcementDate": "2025/03/02",
+		"airingChannel": "乃木坂工事中 #503",
+		"releaseDate": "2025/03/26"
+	},
+	{
+		"num": 39,
+		"announcementDate": "2025/06/15",
+		"airingChannel": "乃木坂工事中 #518",
+		"releaseDate": "2025/07/30"
+	}
+]

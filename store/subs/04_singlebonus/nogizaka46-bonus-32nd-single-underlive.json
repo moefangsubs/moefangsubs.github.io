@@ -1,0 +1,46 @@
+{
+	"url": "nogizaka46-bonus-32nd-single-underlive",
+	"nameShowTitle": "Nogizaka46 Bonus 32nd Single \"Hito wa Yume o Nido Miru\" Underlive",
+	"descSynopsis": "Single ke-32 \"Hito wa Yume wo Nido Miru\" yang dirilis pada 29 Maret 2023 merilis PV untuk gen-5, dan 31st Single Under Live beserta before & after selama konsernya.",
+	"availableEpisode": [
+		"11",
+		"12"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi32ndunderlive.png",
+	"episodes": {
+		"11": {
+			"descEpisode": "| Bonus Type D - 31st Under Live Selection",
+			"descEpsListName": "(D) 31st Underlive",
+			"descOnAirDate": "29 Maret 2023",
+			"memberParticipate": "北川悠理、黒見明香、吉田綾乃クリスティー、矢久保美緒、佐藤璃果、向井葉月、伊藤理々杏、松尾美佑、中村麗乃、佐藤楓",
+			"linkHardsub": "https://lokerwfh.net/deuQs",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-32nd-bonus-single-qwJHl",
+			"filePassword": "32_UnderLive",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_32underlive-d1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d1.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d1c.jpg",
+			"nameShow": "31stシングルアンダーライブ",
+			"linkRAW": "https://chr0balord46.blogspot.com/2023/03/bonus-nogizaka46-32nd-single-hito-wa.html",
+			"linkFont": "https://drive.google.com/file/d/17SCgASYgq2QA_Kgxo8Z08BkZT5Sz8W6t/view?usp=drive_link"
+		},
+		"12": {
+			"descEpisode": "| Bonus Type D - Before & After 31st Under Live",
+			"descEpsListName": "(D) Before & After",
+			"descOnAirDate": "29 Maret 2023",
+			"memberParticipate": "北川悠理、黒見明香、吉田綾乃クリスティー、矢久保美緒、佐藤璃果、向井葉月、伊藤理々杏、松尾美佑、中村麗乃、佐藤楓",
+			"linkHardsub": "https://lokerwfh.net/ZGnYt",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-32nd-bonus-single-qwJHl",
+			"filePassword": "32_UnderLive",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_32underlive-d2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus32nd/32underlive-d2c.jpg",
+			"nameShow": "Before&After of アンダーライブ",
+			"linkRAW": "https://chr0balord46.blogspot.com/2023/03/bonus-nogizaka46-32nd-single-hito-wa.html",
+			"linkFont": "https://drive.google.com/file/d/17SCgASYgq2QA_Kgxo8Z08BkZT5Sz8W6t/view?usp=drive_link"
+		}
+	}
+}

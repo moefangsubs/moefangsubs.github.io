@@ -1,0 +1,38 @@
+{
+	"url": "utabangumi-best-hits",
+	"nameShowTitle": "Best Hits",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_besthits.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| BEST HITS 2021 \"Saigo no Tight Hug\"",
+			"descEpsListName": "211111",
+			"descOnAirDate": "11 November 2021",
+			"linkHardsub": "https://lokerwfh.net/2V0wnr",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/211111_best_hits.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/211111-best-hits-a.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/211111-best-hits-b.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/211111-best-hits-c.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/211111-best-hits-d.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan pertama di layar televisi, lagu kelulusannya Ikuta Erika berjudul \"Saigo no Tight Hug\" dalam BEST HITS 2021 pada tanggal 11 November 2021.",
+			"nameShow": "BEST HITS 2021"
+		},
+		"02": {
+			"descEpisode": "| BEST HITS 2022 \"Koko ni wa nai mono\"",
+			"descEpsListName": "221110",
+			"descOnAirDate": "10 November 2022",
+			"linkHardsub": "https://lokerwfh.net/sx2fpZ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221110_best_hits.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221110-best-hits.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/221110-best-hits-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/221110-best-hits-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/221110-best-hits-c.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan pertama di layar televisi, single kelulusannya Saito Asuka berjudul \"Koko ni wa nai mono\" dalam BEST HITS 2022 pada tanggal 10 November 2022. Sama seperti tahun sebelumnya dimana Ikuchan tampil membawakan lagu kelulusannya disini. ",
+			"nameShow": "BEST HITS 2022"
+		}
+	},
+	"memberParticipate": "乃木坂46"
+}

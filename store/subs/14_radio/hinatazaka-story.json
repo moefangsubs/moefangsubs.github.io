@@ -1,0 +1,59 @@
+{
+	"url": "hinatazaka-story",
+	"nameShowTitle": "Hinatazaka Story",
+	"descSynopsis": "Manga ini terdiri dari 3 chapter, karya seorang mangaka Tanabe Yoichiro. Kemudian diterjemahkan dalam bahasa Inggris pada 30 April 2020 di forum Stage48 oleh nick Naovulpix. Dilansir dari Ameblo, menurut Tanabe sendiri ini adalah manga cerita pendek \"spesial\" yang memiliki rasa yang berbeda dari seri Hinata+ lainnya. Juga menurutnya, chapter pertamanya berfokus pada sebuah kasus yang paling membekas dalam karyanya.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_hinastory.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "~Chapter 1~",
+			"descEpisodeSynopsis": "Pada chapter pertama memang sebuah komikalisasi dari sebuah buku, dan chapter 2 dan 3-nya adalah \"penggambaran\" chapter asli dari sebuah wawancara di Hinata+. Awalnya, Tanabe-san meminta untuk membuat versi gambarnya, dan akhirnya bisa terwujud.",
+			"imageManga00": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-00.jpg",
+			"imageManga01": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-01.jpg",
+			"imageManga02": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-02.jpg",
+			"imageManga03": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-03.jpg",
+			"imageManga04": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-04.jpg",
+			"imageManga05": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-05.jpg",
+			"imageManga06": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-06.jpg",
+			"imageManga07": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-07.jpg",
+			"imageManga08": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-08.jpg",
+			"imageManga09": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-09.jpg",
+			"imageManga10": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-10.jpg",
+			"imageManga11": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-11.jpg",
+			"imageManga12": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-12.jpg"
+		},
+		"02": {
+			"descEpisode": "~Chapter 2~",
+			"descEpisodeSynopsis": "Pada chapter kedua ini berfokus pada \"penggambaran\" wawancara Saito Kyoko di Hinata+, yang lalu digambar oleh seorang mangaka Tanabe Yoichiro.",
+			"imageManga00": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH01-00.jpg",
+			"imageManga01": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-01.jpg",
+			"imageManga02": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-02.jpg",
+			"imageManga03": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-03.jpg",
+			"imageManga04": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-04.jpg",
+			"imageManga05": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-05.jpg",
+			"imageManga06": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-06.jpg",
+			"imageManga07": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-07.jpg",
+			"imageManga08": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-08.jpg",
+			"imageManga09": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-09.jpg",
+			"imageManga10": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-10.jpg",
+			"imageManga11": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH02-11.jpg"
+		},
+		"03": {
+			"descEpisode": "~Chapter 3~",
+			"descEpisodeSynopsis": "Pada chapter terakhir ini berfokus pada \"penggambaran\" kisah Kosaka Nao dalam wawancaranya di Hinata+, yang lalu digambar oleh seorang mangaka Tanabe Yoichiro.",
+			"imageManga01": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-01.jpg",
+			"imageManga02": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-02.jpg",
+			"imageManga03": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-03.jpg",
+			"imageManga04": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-04.jpg",
+			"imageManga05": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-05.jpg",
+			"imageManga06": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-06.jpg",
+			"imageManga07": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-07.jpg",
+			"imageManga08": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-08.jpg",
+			"imageManga09": "https://ik.imagekit.io/mLsKqNSuB/post/hinatazakastory/CH03-09.jpg"
+		}
+	}
+}

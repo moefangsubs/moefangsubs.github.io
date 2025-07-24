@@ -1,0 +1,45 @@
+{
+	"url": "school-of-lock",
+	"nameShowTitle": "School Of Lock！",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_sol.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Girls Lock! Episode 93",
+			"descEpsListName": "Girls Lock!",
+			"descOnAirDate": "3 Februari 2017",
+			"memberParticipate": "橋本奈々未",
+			"linkHardsub": "https://youtu.be/FbpgemP8B5A",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/170217_showroom_nanami.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/moearchive/thumb/docrandom/sol_girlslock_170203.jpg",
+			"descEpisodeSynopsis": "Menggantikan Kawaguchi Haruna sejak 20 April 2015, berlanjut selama satu tahun 10 bulan. Dengan kelulusannya dari Nogizaka46 dan pensiun dari dunia hiburan, hingga di episode 93 ini tanggal 23 Februari 2017 adalah hari terakhirnya sebagai bagian dari School of Locks! (yang mana setelah itu diganti Hirate Yurina)",
+			"nameShow": "GIRLS LOCK!"
+		},
+		"02": {
+			"descEpisode": "| School of Lock! Vol. 21",
+			"descEpsListName": "School of Lock!",
+			"descOnAirDate": "26 Agustus 2021",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://drive.google.com/file/d/1_vVnoti-5GjkycEo4a8L-Kj5WHswKWx0/preview",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sol_nogizakalock_210826.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/210826-sol-kakki.jpg",
+			"descEpisodeSynopsis": "Di volume 21 ini, Kaki Haruka akan memperkenalkan single baru ke-28 Nogizaka46 berjudul \"Kimi ni Shikarareta\" dimana dia terpilih menjadi center untuk pertama kalinya. Tidak hanya itu, disini dia berbicara bagaimana perasaannya saat terpilih.",
+			"nameShow": "SCHOOL OF LOCK!"
+		},
+		"03": {
+			"descEpisode": "| School of Lock! Vol. 69",
+			"descEpsListName": "School of Lock!",
+			"descOnAirDate": "28 Juli 2022",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://drive.google.com/file/d/1T48PKFJsWKCDWk9MYVlHjo_QMzAe7nZ7/view?usp=sharing",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sol_nogizakalock_220728.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220728-sol-kakki.jpg",
+			"descEpisodeSynopsis": "Di volume 69 ini, Kaki Haruka akan memutarkan secara full main single yang baru ke-30 Nogizaka46 berjudul \"Suki to iu no wa Rock daze!\" dimana dia kembali terpilih menjadi center untuk kedua kalinya. Disini dia berbicara bagaimana perasaannya saat terpilih. ",
+			"nameShow": "SCHOOL OF LOCK!"
+		}
+	}
+}

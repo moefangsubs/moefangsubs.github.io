@@ -1,0 +1,102 @@
+/* -- Styles for Member Participation (Garapan) Page -- */
+
+/* Profile Header Styles */
+.profile-container {
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Vertically align items */
+    width: 90%;
+    margin: 2rem auto;
+    background-color: var(--moe-tint4);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+}
+
+.profile-data .data-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.member-plat-jp-animated {
+    font-size: 3.5em; /* Adjusted size for this page */
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    white-space: pre;
+}
+
+.member-plat-jp-animated span {
+    display: inline-block;
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+}
+
+.member-plat-id {
+    font-size: 1.5em;
+    font-style: italic;
+    color: var(--moe-tint7);
+    margin-top: -10px;
+}
+
+/* Garapan Section & Grid Styles */
+.song-participation-section {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.gen-title { /* Added style for this class */
+	font-size: 2em;
+	text-align: center;
+	color: var(--moe);
+	border-bottom: 3px solid var(--moe-tint4);
+	padding-bottom: 10px;
+	margin-bottom: 1.5em;
+}
+
+.garapan-grid-container {
+    width: 100%; /* Changed from 90% to fit inside the new wrapper */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.garapan-item {
+    width: 200px;
+    background-color: var(--moe-tint6);
+    padding: 5pt;
+    overflow: hidden;
+    box-shadow: 2px 2px 1px 0 var(--moe-tint3);
+    transition: transform 0.3s ease;
+    color: var(--moe-shade-min1);
+}
+
+.garapan-item:hover {
+    transform: scale(1.05);
+}
+
+.garapan-item img {
+    width: 100%;
+    height: 112px; /* 16:9 aspect ratio for 200px width */
+    object-fit: cover;
+    display: block;
+}
+
+.garapan-item .title {
+    padding: 8px 5px;
+    font-size: 0.9em;
+    min-height: 50px;
+    font-weight: bold;
+    line-height: 1.4;
+}

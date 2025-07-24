@@ -1,0 +1,85 @@
+{
+	"url": "utabangumi-tmd",
+	"nameShowTitle": "The Music Day",
+	"nameShow": "THE MUSIC DAY",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_themusicday.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 220702 THE MUSIC DAY Sakamichi Medley",
+			"descOnAirDate": "2 Juli 2022",
+			"descEpsListName": "220702 坂道",
+			"memberParticipate": "坂道シリーズ",
+			"linkHardsub": "https://lokerwfh.net/AymuB",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/the-music-day-sakamichi-all-performance-juHX7",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/220702_tmd_medley.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-medley.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-medleya.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-medleyb.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-medleyc.jpg",
+			"descEpisodeSynopsis": "Pada tanggal 2 Juli, edisi kesepuluh dari acara musik spesial pertengahan tahun Nippon TV, \"THE MUSIC DAY\", ditayangkan mulai pukul 15:00 hingga 22:54 JST. Acara ini kembali digelar di Makuhari Messe Chiba. Terakhir kali diadakan di tempat ini pada tahun 2019, tetapi belum kembali lagi sejak itu karena pandemi COVID-19. Tiga grup Sakamichi ikut tampil dalam acara ini. Dalam part ini adalah medley 3 grup Sakamichi, berkolaborasi penampilan dengan 3 idol era Showa."
+		},
+		"02": {
+			"descEpisode": "| 220702 THE MUSIC DAY Nogizaka46 - Hadashi de Summer CUT",
+			"descOnAirDate": "2 Juli 2022",
+			"descEpsListName": "220702 乃木坂",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/sLukO",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/the-music-day-sakamichi-all-performance-juHX7",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/220702_tmd_nogia.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogib.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogiba.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogibb.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogibc.jpg",
+			"descEpisodeSynopsis": "Pada tanggal 2 Juli, edisi kesepuluh dari acara musik spesial pertengahan tahun Nippon TV, \"THE MUSIC DAY\", ditayangkan mulai pukul 15:00 hingga 22:54 JST. Acara ini kembali digelar di Makuhari Messe Chiba. Terakhir kali diadakan di tempat ini pada tahun 2019, tetapi belum kembali lagi sejak itu karena pandemi COVID-19. Tiga grup Sakamichi ikut tampil dalam acara ini. Dalam part ini adalah penampilan Nogizaka46 dengan membawakan lagu Hadashi de Summer."
+		},
+		"03": {
+			"descEpisode": "| 220702 THE MUSIC DAY Nogizaka46 - Synchronicity +Talk CUT",
+			"descOnAirDate": "2 Juli 2022",
+			"descEpsListName": "220702 乃木坂",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/YlV0rx85",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/the-music-day-sakamichi-all-performance-juHX7",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/220702_tmd_nogib.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogia.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogiaa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogiab.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-nogiac.jpg",
+			"descEpisodeSynopsis": "Pada tanggal 2 Juli, edisi kesepuluh dari acara musik spesial pertengahan tahun Nippon TV, \"THE MUSIC DAY\", ditayangkan mulai pukul 15:00 hingga 22:54 JST. Acara ini kembali digelar di Makuhari Messe Chiba. Terakhir kali diadakan di tempat ini pada tahun 2019, tetapi belum kembali lagi sejak itu karena pandemi COVID-19. Tiga grup Sakamichi ikut tampil dalam acara ini. Dalam part ini adalah penampilan Nogizaka46 yang membawakan lagu No.1 pilihan netizen melalui interview di jalanan dengan memfokuskan pada liriknya \"Synchronicity\"."
+		},
+		"04": {
+			"descEpisode": "| 220702 THE MUSIC DAY Sakurazaka46 - Omotta yori mo Sabishikunai +Talk CUT",
+			"descOnAirDate": "2 Juli 2022",
+			"descEpsListName": "220702 櫻坂",
+			"memberParticipate": "桜坂46",
+			"linkHardsub": "https://lokerwfh.net/zIqen7",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/the-music-day-sakamichi-all-performance-juHX7",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/220702_tmd_saku.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-saku.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-sakua.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-sakub.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-sakuc.jpg",
+			"descEpisodeSynopsis": "Pada tanggal 2 Juli, edisi kesepuluh dari acara musik spesial pertengahan tahun Nippon TV, \"THE MUSIC DAY\", ditayangkan mulai pukul 15:00 hingga 22:54 JST. Acara ini kembali digelar di Makuhari Messe Chiba. Terakhir kali diadakan di tempat ini pada tahun 2019, tetapi belum kembali lagi sejak itu karena pandemi COVID-19. Tiga grup Sakamichi ikut tampil dalam acara ini. Dalam part ini adalah penampilan Sakurazaka46 yang membawakan lagu No.1 pilihan netizen melalui interview di jalanan dengan memfokuskan pada liriknya \"Omotta yori mo Sabishikunai\"."
+		},
+		"05": {
+			"descEpisode": "| 220702 THE MUSIC DAY Hinatazaka46 - Nandodemo Nandodemo + Talk CUT",
+			"descOnAirDate": "2 Juli 2022",
+			"descEpsListName": "220702 日向坂",
+			"memberParticipate": "日向坂46",
+			"linkHardsub": "https://lokerwfh.net/jM09c4",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/the-music-day-sakamichi-all-performance-juHX7",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/220702_tmd_hinata.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-hinata.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-hinataa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-hinatab.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220702-tmd-hinatac.jpg",
+			"descEpisodeSynopsis": "Pada tanggal 2 Juli, edisi kesepuluh dari acara musik spesial pertengahan tahun Nippon TV, \"THE MUSIC DAY\", ditayangkan mulai pukul 15:00 hingga 22:54 JST. Acara ini kembali digelar di Makuhari Messe Chiba. Terakhir kali diadakan di tempat ini pada tahun 2019, tetapi belum kembali lagi sejak itu karena pandemi COVID-19. Tiga grup Sakamichi ikut tampil dalam acara ini. Dalam part ini adalah penampilan Hinatazaka46 yang membawakan lagu No.1 pilihan netizen melalui interview di jalanan dengan memfokuskan pada liriknya \"Nando demo Nando demo\"."
+		}
+	}
+}

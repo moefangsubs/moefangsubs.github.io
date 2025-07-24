@@ -1,0 +1,172 @@
+{
+	"url": "nogidouga-hitori-de-dekirumon",
+	"nameShowTitle": "Hitori de Dekirumon",
+	"nameShow": "ひとりでできるもん",
+	"descSynopsis": "\"Hitori de Dekirumon\" merupakan acara khusus yang disiarkan dalam platform Nogi Douga dimana para member gen-5 Nogizaka46 menantang berbagai hal dengan sendirian saja sambil memutar kamera yang juga sendirian.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16",
+		"17",
+		"18",
+		"19",
+		"20",
+		"21",
+		"22"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hitoridedekirumon.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/hitori_{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/hitoridedekirumon/hitoridedekirumon{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/hitoridedekirumon/hitoridedekirumon{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/hitoridedekirumon/hitoridedekirumon{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/hitoridedekirumon/hitoridedekirumon{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/hitoridedekirumon/hitoridedekirumon{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hitori-de-dekirumon-YuZnU",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "1 Januari 2023",
+			"memberParticipate": "井上和",
+			"linkHardsub": "https://lokerwfh.net/1C9b8",
+			"descEpisodeSynopsis": "Episode 1 ini adalah Inoue Nagi dimana ia mencoba memasak ala tahun baru, yaitu ozouni."
+		},
+		"02": {
+			"descOnAirDate": "2 Januari 2023",
+			"memberParticipate": "菅原咲月",
+			"linkHardsub": "https://lokerwfh.net/dQrCTRh",
+			"descEpisodeSynopsis": "Episode 2 ini adalah dari member Sugawara Satsuki dimana ia akan bepergian sendirian ke tempat wisata, yaitu Tokyo Skytree."
+		},
+		"03": {
+			"descOnAirDate": "3 Januari 2023",
+			"memberParticipate": "川﨑桜",
+			"linkHardsub": "https://lokerwfh.net/XADq4r0",
+			"descEpisodeSynopsis": "Episode 3 kali ini adalah dari Kawasaki Sakura, dimana ia ingin sekali mencoba main ski setelah sekian lama karena karyawisata di sekolah SMA-nya saat itu dibatalkan karena ada pandemi, dan akhirnya sekarang bisa terwujudkan!"
+		},
+		"04": {
+			"descOnAirDate": "2 Februari 2023",
+			"memberParticipate": "五百城茉央",
+			"linkHardsub": "https://lokerwfh.net/vvPWcd",
+			"descEpisodeSynopsis": "Episode 4 kali ini adalah dari Ioki Mao, dimana ia akan mencoba kakizome atau ucapan doa dalam menyambut tahun baru. Ia akan mencoba menulis 3 kakizome dengan masing-masing berbeda tema."
+		},
+		"05": {
+			"descOnAirDate": "16  Februari 2023",
+			"memberParticipate": "一ノ瀬美空",
+			"linkHardsub": "https://lokerwfh.net/4FtaC55I",
+			"descEpisodeSynopsis": "Episode 5 kali ini adalah dari Ichinose Miku, dimana ia akan meningkatkan kemampuannya sebagai seorang perempuan dengan melatih memasak. Maka dari itu, ia akan berbelanja dengan uang 2000 yen dan pergi membeli bahan-bahan yang akan ia masak, terdiri dari 2 menu yaitu hamburger rebus dan sup sayuran."
+		},
+		"06": {
+			"descOnAirDate": "31 Maret 2023",
+			"memberParticipate": "岡本姫奈",
+			"linkHardsub": "https://lokerwfh.net/VmmwtZw6",
+			"descEpisodeSynopsis": "Episode 6 kali ini adalah dari Okamoto Hina, dimana ia akan mencoba permainan-permainan atletik yang sudah lama ia tidak lakukan sekitar 6 tahun lamanya. Seperti apakah keseruannya?"
+		},
+		"07": {
+			"descOnAirDate": "14 April 2023",
+			"memberParticipate": "小川彩",
+			"linkHardsub": "https://lokerwfh.net/TunQvO",
+			"descEpisodeSynopsis": "Episode 7 kali ini adalah dari Ogawa Aya. Member termuda ini akan mencoba snowboarding yang telah lama ia inginkan selama 3 tahun lamanya. Seperti apakah keseruannya?"
+		},
+		"08": {
+			"descOnAirDate": "28 April 2023",
+			"memberParticipate": "中西アルノ",
+			"linkHardsub": "https://lokerwfh.net/jlabWt",
+			"descEpisodeSynopsis": "Episode 8 kali ini adalah dari Nakanishi Aruno, dimana ia akan mencoba memancing di laut karena keinginannya untuk membuatnya menjadi hobi selain hanya menonton film saja. Seperti apakah keseruannya? Apakah berhasil mendapat ikannya?"
+		},
+		"09": {
+			"descOnAirDate": "19 Mei 2023",
+			"memberParticipate": "冨里奈央",
+			"linkHardsub": "https://lokerwfh.net/0HsS6Y",
+			"descEpisodeSynopsis": "Episode 9 kali ini adalah dari Tomisato Nao, dimana ia mengunjungi sebuah tempat yang memelihara berbagai hewan kecil, dan ia ingin mencoba berinteraksi dengan burung hantu, kelinci dan juga ular! Seperti apakah keseruannya?"
+		},
+		"10": {
+			"descOnAirDate": "3 Juni 2023",
+			"memberParticipate": "奥田いろは",
+			"linkHardsub": "https://lokerwfh.net/LGS1fZ",
+			"descEpisodeSynopsis": "Episode 10 kali ini adalah dari Okuda Iroha, dimana ia mengunjungi sebuah tempat pembuatan kerajinan tangan yaitu tembikar. Ia akan membuat 2 buah alat makan, yaitu piring pasta dan mangkuk teh."
+		},
+		"11": {
+			"descOnAirDate": "16 Juni 2023",
+			"memberParticipate": "池田瑛紗",
+			"linkHardsub": "https://lokerwfh.net/YVcmfX",
+			"descEpisodeSynopsis": "Episode 11 kali ini adalah dari Ikeda Teresa, dimana ia akan membuat sebuah tart stroberi sendiri, yang mana ternyata ini adalah untuk kue ulang tahunnya sendiri."
+		},
+		"12": {
+			"descOnAirDate": "14 Juli 2023",
+			"memberParticipate": "五百城茉央",
+			"linkHardsub": "https://lokerwfh.net/4OFGAkq",
+			"descEpisodeSynopsis": "Episode 12 kali ini adalah kembali dari Ioki Mao, dimana ia ingin membuat yomogi mochi, dimulai dari berburu tanaman yomogi di ladang hingga mengolahnya sendiri di dapur."
+		},
+		"13": {
+			"descOnAirDate": "18 Agustus 2023",
+			"memberParticipate": "小川彩",
+			"linkHardsub": "https://lokerwfh.net/aqPu",
+			"descEpisodeSynopsis": "Episode 13 kali ini adalah kembali dari Ogawa Aya, dimana ia ingin mencoba membuat kembang api mainan, sehingga ia mengunjungi tempat pembuatannya langsung. Apakah ia berhasil membuat kembang api mainan yang indah?"
+		},
+		"14": {
+			"descOnAirDate": "4 September 2023",
+			"memberParticipate": "川﨑桜",
+			"linkHardsub": "https://lokerwfh.net/xmc11S",
+			"descEpisodeSynopsis": "Episode 14 kali ini adalah kembali dari Kawasaki Sakura, dimana ia ingin membuat amezaiku (seni permen tradisional Jepang yang dibentuk berbagai jenis baik hewan, manusia, dan lain sebagainya). Namun sebelum itu, ia akan berganti pakaian dengan menggunakan yukata modern."
+		},
+		"15": {
+			"descOnAirDate": "20 Oktober 2023",
+			"memberParticipate": "菅原咲月",
+			"linkHardsub": "https://lokerwfh.net/RXZr",
+			"descEpisodeSynopsis": "Episode 15 kali ini adalah kembali dari Sugawara Satsuki, dimana ia ingin membuat lilin, karena belakangan ini ia tengah menyukainya dan selalu menggunakan lilin beraroma ketika hendak tidur."
+		},
+		"16": {
+			"descOnAirDate": "17 November 2023",
+			"memberParticipate": "井上和",
+			"linkHardsub": "https://lokerwfh.net/g9YP",
+			"descEpisodeSynopsis": "Episode 16 kali ini adalah kembali dari Inoue Nagi, dimana ia akan pergi ke toko buku di daerah Shibuya dan membeli beberapa buku kesukaanya. Namun ia diberi batas berat, yaitu maksimal 2 kilogram, alasannya karena ia sudah bergabung dengan Nogizaka46 selama 2 tahun."
+		},
+		"17": {
+			"descOnAirDate": "3 Januari 2024",
+			"memberParticipate": "中西アルノ",
+			"linkHardsub": "https://lokerwfh.net/NRV7aU",
+			"descEpisodeSynopsis": "Episode 17 kali ini adalah kembali dari Nakanishi Aruno, dimana ia akan mencicipi osechi, yaitu sebuah set hidangan yang umumnya hidangan laut dan dihidangkan ketika menyambut tahun baru. Aruno yang belum pernah mencoba sebagian besar hidangan di dalamnya, kini ia akan mencicipi semuanya."
+		},
+		"18": {
+			"descOnAirDate": "26 Januari 2024",
+			"memberParticipate": "奥田いろは",
+			"linkHardsub": "https://lokerwfh.net/LSCy7WL",
+			"descEpisodeSynopsis": "Episode 18 kali ini kembali dari Okuda Iroha, dimana ia ingin mencoba membuat karpet bulu. Motif yang ingin dia buat adalah makanan favoritnya, yaitu naan. Apakah Iroha-chan berhasil? "
+		},
+		"19": {
+			"descOnAirDate": "9 Februari 2024",
+			"memberParticipate": "岡本姫奈",
+			"linkHardsub": "https://lokerwfh.net/liaDUZ00",
+			"descEpisodeSynopsis": "Episode 19 kali ini kembali dari Okamoto Hina. Kali ini dia datang ke Yomiuri Land, dan pertama kalinya mencoba masuk ke rumah hantu! Jika ia berhasil, ia akan bisa bebas ke berbagai wahana yang ada disana sebagai hadiah."
+		},
+		"20": {
+			"descOnAirDate": "15 Maret 2024",
+			"memberParticipate": "冨里奈央",
+			"linkHardsub": "https://lokerwfh.net/ZGtm",
+			"descEpisodeSynopsis": "Episode 20 kali ini kembali di seri hewan bersama Tomisato Nao. Di episode sebelumnya, Nao yang hanya sekadar mengunjungi tempat hewan yaitu burung hantu, kali ini dia ingin mencoba pergi ke shelter anjing dan mengajak salah satu anjing disana untuk berkeliling kota."
+		},
+		"21": {
+			"descOnAirDate": "30 April 2024",
+			"memberParticipate": "一ノ瀬美空",
+			"linkHardsub": "https://sfl.gl/uJ5kU2A",
+			"descEpisodeSynopsis": "Episode 21 kali ini kembali dari Ichinose Miku, dimana ia ingin mempelajari suatu yang sangat penting, yaitu table manner atau etika saat di meja makan terutama saat-saat formal dan di restoran bintang. Apakah Miikyun berhasil mempelajarinya?"
+		},
+		"22": {
+			"descOnAirDate": "27 Juni 2024",
+			"memberParticipate": "池田瑛紗",
+			"linkHardsub": "https://sfl.gl/ciorTn5",
+			"descEpisodeSynopsis": "Episode 22 kali ini kembali dari Ikeda Teresa, dimana ia akan mencoba berendam kaki dengan tujuan refreshing karena dirinya sempat kakinya cedera."
+		}
+	}
+}

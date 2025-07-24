@@ -1,0 +1,44 @@
+{
+	"url": "nogizaka46-bonus-30th-single-zenkoku-tour",
+	"nameShowTitle": "Nogizaka46 Bonus 30th Single \"Suki to Iu no wa Rock da ze!\" Zenkoku Tour",
+	"descSynopsis": "Single ke-30 \"Suki to Iu no wa Rock daze!\" merilis 2 versi bonusnya, yaitu PV dari gen-5 dan juga lagu-lagu pilihan dalam Manatsu no Zenkoku Tour 2021, terbagi menjadi beberapa section.",
+	"availableEpisode": [
+		"04",
+		"13"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi30thzenkoku.png",
+	"episodes": {
+		"04": {
+			"descEpisode": "| Bonus Type A",
+			"descEpsListName": "(A) Natsu Gakkyoku-hen~",
+			"descOnAirDate": "31 Agustus 2022",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/ih6Slp3K",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-30th-single-bonus-manatsu-no-zenkoku-tour-2021-live-selection-ZrL94",
+			"filePassword": "30zenkoku_natsu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_30manatsu_a.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-a.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-a1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-a2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-a3.jpg",
+			"nameShow": "「真夏の全国ツアー2021」～夏楽曲編～",
+			"linkRAW": "https://chr0balord46.blogspot.com/2022/09/bonus-nogizaka46-manatsu-no-zenkoku.html"
+		},
+		"13": {
+			"descEpisode": "| Bonus Type D",
+			"descEpsListName": "(D) ~Zentai Gakkyoku-hen~",
+			"descOnAirDate": "31 Agustus 2022",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/fPd9KJH",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-30th-single-bonus-manatsu-no-zenkoku-tour-2021-live-selection-ZrL94",
+			"filePassword": "30zenkoku_allmember",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_30manatsu_d.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-d.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-d1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-d2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus30th/30zenkoku2021-d3.jpg",
+			"nameShow": "「真夏の全国ツアー2021」～全体楽曲編～",
+			"linkRAW": "https://chr0balord46.blogspot.com/2022/09/bonus-nogizaka46-manatsu-no-zenkoku.html"
+		}
+	}
+}
