@@ -1,9 +1,37 @@
 document.addEventListener('DOMContentLoaded', () => {
+	// ------
+
+	document.addEventListener('contextmenu', event => {
+		event.preventDefault();
+	});
+	const disableEvents = ['copy', 'paste', 'cut'];
+	disableEvents.forEach(event => {
+		document.addEventListener(event, e => e.preventDefault());
+	});
+	document.addEventListener('keydown', event => {
+		if (event.key === 'F12') {
+			event.preventDefault();
+		}
+		if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+			event.preventDefault();
+		}
+		if (event.ctrlKey && event.shiftKey && event.key === 'J') {
+			event.preventDefault();
+		}
+		if (event.ctrlKey && event.key === 'U') {
+			event.preventDefault();
+		}
+	});
 
     // --- 1. DEFINISI HTML DAN CSS (DITARUH DI LUAR AGAR TIDAK DIBUAT BERULANG KALI) ---
 
     // Definisi CSS navbar. Sama persis dengan file lama Anda.
     const navbarCSS = `
+		* {
+			-webkit-user-select: none !important;
+			-ms-user-select: none !important;
+			user-select: none !important;
+		}
 		#main-header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: transparent; transition: background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out; padding: 10px 0; }
 		#main-header.scrolled { background-color: var(--moe-shade-max1, #4a148c); box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
 		.navbar-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
@@ -75,6 +103,9 @@ document.addEventListener('DOMContentLoaded', () => {
         .construction-popup-box p { margin: 0; font-size: 1.2rem; font-weight: bold; }
         .construction-popup-close { position: absolute; top: -10px; right: -10px; background-color: white; color: var(--moe, #6a1b9a); border: 2px solid var(--moe, #6a1b9a); border-radius: 50%; width: 30px; height: 30px; font-size: 20px; line-height: 26px; text-align: center; cursor: pointer; font-weight: bold; }
     `;
+	const antiCopyStyleEl = document.createElement('style');
+	antiCopyStyleEl.innerHTML = navbarCSS;
+	document.head.appendChild(antiCopyStyleEl);
 
     // Injeksi CSS ke head. Cukup dilakukan sekali saat halaman dimuat.
     const styleEl = document.createElement('style');
