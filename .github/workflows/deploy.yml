@@ -16,6 +16,9 @@ jobs:
         run: |
           mkdir -p js
           echo "${{ secrets.FIREBASE_CONFIG }}" > js/firebase-init.js
+      
+      - name: Force add ignored file 📌
+        run: git add --force js/firebase-init.js
 
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v4
