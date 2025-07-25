@@ -21,7 +21,6 @@ jobs:
       
       - name: Remove .gitignore to allow file to be added 🗑️
         run: rm .gitignore
-
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v4
         with:
