@@ -1,0 +1,22 @@
+{
+	"url": "nogibingo",
+	"nameShowTitle": "NOGIBINGO!",
+	"nameShow": "NOGIBINGO!",
+	"descSynopsis": "\"NOGIBINGO!\" adalah program yang menguji apakah Nogizaka46 bisa menjadi grup idola nasional jika mereka melakukan persis seperti yang dilakukan AKB48 dengan AKBINGO!-nya.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogibingo.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/{{eps}}",
+	"episodes": {
+		"01": {
+			"descEpisode": "| NOGIBINGO!4 特定映像",
+			"descOnAirDate": "16 Oktober 2015",
+			"memberParticipate": "乃木坂46 2期生",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nikibingo-nogibingo4-bonus-dvd-PsxnY",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogibingo4-nikibingo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nikibingo.jpg",
+			"descEpisodeSynopsis": "Dalam bonus NOGIBINGO!4 terdapat satu segmen yaitu NIKIBINGO!, sebuah kegiatan bincang-bincang secara jujur hanya para member gen-2. Tidak hanya bincang kesan mereka dalam acara utamanya, mereka akan sharing soal kehidupan sesama gen-2 sambil makan yang sudah disediakan staff."
+		}
+	}
+}

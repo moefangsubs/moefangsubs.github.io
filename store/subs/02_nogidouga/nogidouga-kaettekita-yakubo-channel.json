@@ -1,0 +1,25 @@
+{
+	"url": "nogidouga-kaettekita-yakubo-channel",
+	"nameShowTitle": "Kaettekita! Yakubo Channel",
+	"nameShow": "帰ってきた！矢久保チャンネル",
+	"descSynopsis": "Kaettekita! Yakubo Channel, merupakan season kedua dari seri Yakubo Channel dengan MC Yakubo Mio dan kameramen Hayashi Runa dari gen-4 yang berisi konten segmen ulasan makanan para member gen-5 saat Manatsu no Zenkoku Tour 2024.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_kaettekitayakubochannel.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/kaettekitayakubochannel{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kaettekita-yakubo-channel-XPbL4",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1 Osaka-hen DAY 1",
+			"descOnAirDate": "2 Agustus 2024",
+			"memberParticipate": "矢久保美緒、林瑠奈、川﨑桜",
+			"linkHardsub": "https://sfl.gl/YdHx",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/kaettekitayakubochannel01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/kaettekitayakubochannel01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/kaettekitayakubochannel01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/kaettekitayakubochannel01c.jpg",
+			"descEpisodeSynopsis": "Episode kali ini berlokasi di Osaka bersama gen-5 Kawasaki Sakura."
+		}
+	}
+}

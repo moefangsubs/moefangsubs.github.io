@@ -1,0 +1,28 @@
+{
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_nemurubaka.png",
+	"url": "nemuru-baka",
+	"nameShowTitle": "Nemuru Baka (2025)",
+	"descSynopsis": "Mahasiswi bernama Irisu Yumi tinggal satu kamar di asrama dengan seniornya, Kujirai Ruka. Saat kehidupan Yumi menjadi semakin malas dan akademisnya terancam, Ruka justru aktif dalam band indie-nya, meskipun mulai merasa menemui batasan.",
+	"availableEpisode": [
+		"01"
+	],
+	"episodes": {
+		"01": {
+			"descEpsListName": "Movie",
+			"descEpisode": "Movie",
+			"descOnAirDate": "20 Maret 2025",
+			"memberParticipate": "久保史緒里",
+			"linkHardsub": "https://sfl.gl/vaSnjbEV",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nemuru-baka-2025-xMAUx",
+			"filePassword": "SiBodohTidur_Ngigau_DibikinLagu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nemurubaka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nemurubaka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nemurubaka1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nemurubaka2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nemurubaka3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nemurubaka4.jpg",
+			"nameShow": "ネムルバカ",
+			"linkRAW": "https://48idol.tv/video/841757"
+		}
+	}
+}

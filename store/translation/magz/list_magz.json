@@ -1,0 +1,16 @@
+{
+  "01": { "file": "anan_ozono_momoko_2108.json", "flip_mode": "no" },
+  "02": { "file": "bubka_kakehashi_sayaka_2111.json", "flip_mode": "duo" },
+  "03": { "file": "seventeen_tomisato_nao_2207.json", "flip_mode": "no" },
+  "04": { "file": "nogisatsu_vol20_2208.json", "flip_mode": "duo" },
+  "05": { "file": "friday_gen5_2208.json", "flip_mode": "flip" },
+  "06": { "file": "nikkansports_ichinose_miku_2208.json", "flip_mode": "no" },
+  "07": { "file": "whitegraph_kaki_haruka_2306.json", "flip_mode": "flip" },
+  "08": { "file": "blt_summer_candy_sugawara_satsuki_2308.json", "flip_mode": "no" },
+  "09": { "file": "bis_gen5_2309.json", "flip_mode": "duo" },
+  "10": { "file": "nikkei_sugawara_satsuki_2309.json", "flip_mode": "no" },
+  "11": { "file": "blt_ichinose_miku_2310.json", "flip_mode": "duo" },
+  "12": { "file": "brody_ikeda_teresa_2310.json", "flip_mode": "flip" },
+  "13": { "file": "brody_tomisato_nao_2310.json", "flip_mode": "flip" },
+  "14": { "file": "nikkei_ikeda_teresa_2502.json", "flip_mode": "flip" }
+}

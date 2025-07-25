@@ -1,0 +1,120 @@
+/* -- Styles for Single Participation Grid -- */
+ .partisipasi-container {
+     display: flex;
+     flex-wrap: wrap;
+     width: 80%;
+     gap: 2px;
+     padding: 10px;
+     justify-content: center;
+}
+ .partisipasi-item {
+     position: relative;
+     width: 65px;
+     text-align: center;
+     cursor: pointer;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+     overflow: hidden;
+}
+ .partisipasi-item .single-label {
+     font-size: 1em;
+     font-weight: bold;
+     color: var(--moe-shade-min1);
+     padding: 2px 0;
+}
+ .partisipasi-item .single-thumb {
+     width: 100%;
+     display: block;
+}
+ .partisipasi-item .single-pos {
+     font-size: 12px;
+     font-weight: bold;
+     padding: 3px 0;
+     color: white;
+}
+ #single-tooltip {
+     position: absolute;
+     background: var(--moe);
+     color: white;
+     padding: 8px 12px;
+     font-size: 14px;
+     z-index: 1000;
+     pointer-events: none;
+     opacity: 0;
+     transition: opacity 0.2s;
+     max-width: 300px;
+     text-align: center;
+}
+/* -- Styles for Song Participation Tables -- */
+ .song-participation-section {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+ .song-category-container {
+     width: 80%;
+     border-radius: 8px;
+}
+ .song-category-container h3 {
+     color: var(--moe-font-color-main);
+     text-align: center;
+     margin-bottom: 15px;
+}
+ .song-participation-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 20px;
+     border: 1px solid var(--moe-tint5);
+}
+ .song-header-row th {
+     background-color: var(--moe);
+     color: white;
+     padding: 10px;
+     text-align: left;
+     font-weight: bold;
+     border: 1px solid var(--moe-tint5);
+}
+ .song-data-row td {
+     background-color: var(--moe-tint5);
+     color: var(--moe-shade-min1);
+     padding: 5px;
+     border: 1px solid var(--moe-tint4);
+}
+ .song-jp-title {
+     font-size: 0.7em;
+     color: var(--moe-shade-min1);
+}
+/* -- Common Link Style & Keterangan Box -- */
+ a.partisipasi-link {
+     background-color: transparent;
+     padding: 5pt;
+     border: 1pt solid white;
+     border-radius: 1pt;
+     color: white;
+     transition: all 0.3s ease;
+     width: max-content;
+}
+ a.partisipasi-link:hover {
+     background-color:white;
+     color: var(--moe);
+}
+ .keterangan-container {
+     margin-top: 20px;
+     margin-bottom: 30pt;
+     padding: 15px;
+     border: 2px solid var(--moe-tint4);
+     width: 80%;
+}
+ .keterangan-container h3 {
+     text-align: center;
+     margin-bottom: 15px;
+}
+ .partisipasi-keterangan {
+     max-width: 80%;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ .partisipasi-keterangan li {
+     margin-bottom: 8px;
+}

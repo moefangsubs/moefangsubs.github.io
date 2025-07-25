@@ -1,0 +1,61 @@
+/* -- Styles for Activity, Hiatus, Graduation Sections -- */
+ .katsudo-container, .sotsu-container, .hiatus-container {
+     width: 100%;
+     padding: 20px 0 20px 10%;
+     display: flex;
+     gap: 20pt;
+     flex-direction: column;
+     color: white;
+}
+ .katsudo-container {
+     background-color: var(--moe-tint3);
+}
+ .hiatus-container {
+     background-color: var(--moe-tint2);
+}
+ .sotsu-container {
+     background-color: var(--moe-tint1);
+}
+ .katsudo-container h2, .sotsu-container h2, .hiatus-container h2 {
+     color: var(--moe-tint6);
+}
+ .katsudo-grid, .sotsu-grid {
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 12px;
+}
+ .katsudo-row, .sotsu-row {
+     display: flex;
+     border-bottom: 1px solid rgba(238, 238, 238, 0.5);
+     padding: 10px 0;
+}
+ .katsudo-label, .sotsu-label {
+     flex: 1;
+     min-width: 200px;
+}
+ .katsudo-label-id, .sotsu-label-id {
+     font-size: 1em;
+     font-weight: 500;
+     color: white;
+}
+ .katsudo-label-jp, .sotsu-label-jp {
+     font-size: 0.7em;
+     color: var(--moe-tint6);
+     margin-top: 3px;
+}
+ .katsudo-value, .sotsu-value {
+     font-size: 0.9em;
+     text-align: justify;
+     flex: 2;
+     padding-left: 15px;
+     color: white;
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+     padding-right: 80pt;
+}
+ .separator-hiatus {
+     border-bottom: 2px solid var(--moe-tint4) !important;
+     padding: 15px 0 0 0 !important;
+     margin-bottom: 15px;
+}

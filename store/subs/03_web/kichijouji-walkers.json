@@ -1,0 +1,74 @@
+{
+	"url": "kichijouji-walkers",
+	"nameShowTitle": "Kichijouji Walkers",
+	"nameShow": "吉祥寺ウォーカーズ",
+	"descSynopsis": "\"Kichijoji Walkers\" adalah proyek khusus terkait dengan drama TV \"Kichijoji Losers\" yang disiarkan di TV Tokyo. Dalam proyek ini menjelajahi lokasi syuting, toko terkenal, dan tempat-tempat tidak diketahui di Kichijoji yang muncul dalam drama. Sebagai support role dalam drama Kichijoji Losers, Iwamoto Renka dan Tashima Meru (HKT48) mendapatkan project khusus untuk mereview daerah Kichijoji. Kichijoji merupakan sebuah daerah di kota Musashino di Tokyo. Daerah ini populer dengan berbagai toko, restoran, bar, dan kedai kopi.",
+	"availableEpisode": [
+		"02",
+		"04",
+		"08",
+		"10",
+		"12"
+	],
+	"newUpdateCount": 1,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_kichijoji.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kichijoji-walkers-iwamoto-renka-hardsub-softsub-mOZGa",
+	"episodes": {
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descEpsListName": "",
+			"descOnAirDate": "18 April 2022",
+			"linkHardsub": "https://lokerwfh.net/BAOp6",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220418_kichijojiwalkers2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220418-kichijojiwalkers-2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220418-kichijojiwalkers-2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220418-kichijojiwalkers-2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220418-kichijojiwalkers-2c.jpg"
+		},
+		"04": {
+			"descEpisode": "| Episode 4",
+			"descEpsListName": "",
+			"descOnAirDate": "13 Mei 2022",
+			"linkHardsub": "https://lokerwfh.net/N9Gqoa7z",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220503_kichijojiwalkers4.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220503-kichijojiwalkers-4.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220503-kichijojiwalkers-4a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220503-kichijojiwalkers-4b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220503-kichijojiwalkers-4c.jpg"
+		},
+		"08": {
+			"descEpisode": "| Episode 8",
+			"descEpsListName": "",
+			"descOnAirDate": "30 Mei 2022",
+			"linkHardsub": "https://lokerwfh.net/bAZay",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220530_kichijojiwalkers8.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220530-kichijojiwalkers-8.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220530-kichijojiwalkers-8a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220530-kichijojiwalkers-8b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220530-kichijojiwalkers-8c.jpg"
+		},
+		"10": {
+			"descEpisode": "| Episode 10",
+			"descEpsListName": "",
+			"descOnAirDate": "13 Juni 2022",
+			"linkHardsub": "https://lokerwfh.net/TrFVb",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220613_kichijojiwalkers10.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220613-kichijojiwalkers-10.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220613-kichijojiwalkers-10a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220613-kichijojiwalkers-10b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220613-kichijojiwalkers-10c.jpg"
+		},
+		"12": {
+			"descEpisode": "| Episode 12",
+			"descEpsListName": "",
+			"descOnAirDate": "27 Juni 2022",
+			"linkHardsub": "https://lokerwfh.net/kJBlBbSN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220627_kichijojiwalkers12.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220627-kichijojiwalkers-12.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220627-kichijojiwalkers-12a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220627-kichijojiwalkers-12b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220627-kichijojiwalkers-12c.jpg"
+		}
+	},
+	"memberParticipate": "岩本蓮加"
+}

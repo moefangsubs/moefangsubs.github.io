@@ -1,0 +1,67 @@
+{
+	"url": "nogikoi-mousou-joshi-koi-o-kataru",
+	"nameShowTitle": "Nogikoi Mousou Joshi, Koi o Kataru",
+	"descSynopsis": "Nogikoi Mousou Joshi Koi o Kataru ini adalah seri dari Nogikoi pada Januari 2018 lalu. Disini yang akan bertindak adalah Saito Asuka, Hori Miona dan Yoda Yuuki, dengan setiap episodenya memiliki cerita-cerita yang berbeda.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_nogimousou.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-nogikoi-mousou-shoujo-koi-o-kataru-01-04-px76G",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1 \"Pembukaan\"",
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "15 Januari 2018",
+			"memberParticipate": "齋藤飛鳥、堀未央奈、与田祐希",
+			"linkHardsub": "https://lokerwfh.net/p4XvUyW",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoishoujo-01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-01c.jpg",
+			"nameShow": "乃木恋・女子、恋を語る。「オープニング」"
+		},
+		"02": {
+			"descEpisode": "| Episode 2 \"Alat Latihan Ciuman\"",
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "16 Januari 2018",
+			"memberParticipate": "齋藤飛鳥、堀未央奈、与田祐希",
+			"linkHardsub": "https://lokerwfh.net/2bRJEI",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoishoujo-02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-02c.jpg",
+			"nameShow": "乃木恋・女子、恋を語る。「キスの練習グッズ」"
+		},
+		"03": {
+			"descEpisode": "| Episode 3 \"Kemarin, dengannya...\"",
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "17 Januari 2018",
+			"memberParticipate": "齋藤飛鳥、堀未央奈、与田祐希",
+			"linkHardsub": "https://lokerwfh.net/meyRwwcP",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoishoujo-03.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-03.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-03a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-03b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-03c.jpg",
+			"nameShow": "乃木恋・女子、恋を語る。「昨日、あの彼と…」"
+		},
+		"04": {
+			"descEpisode": "| Episode 4 \"Hadiah\"",
+			"descEpsListName": "Episode 4",
+			"descOnAirDate": "18 Januari 2018",
+			"memberParticipate": "齋藤飛鳥、堀未央奈、与田祐希",
+			"linkHardsub": "https://lokerwfh.net/UDUkopsm",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoishoujo-04.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-04.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-04a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-04b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-01-mousou-joshi-04c.jpg",
+			"nameShow": "乃木恋・女子、恋を語る。「プレゼント」"
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"url": "kotoge-eiji-no-nante-bi-da",
+	"nameShowTitle": "Kotoge Eiji no Nante Bi da!",
+	"nameShow": " 小峠英二のなんて美だ！",
+	"descSynopsis": "\"Kotoge Eiji no Nante Bi da!\" merupakan acara dengan tagline 'Bahkan bagi pemula pun bisa mudah belajar tentang seni, sebuah acara variety seni paling mudah di akses di Jepang'.",
+	"availableEpisode": [
+		"55",
+		"56"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nantebida.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/nantebida{{eps}}.jpg",
+	"episodes": {
+		"55": {
+			"descEpisode": "| Episode 55",
+			"descOnAirDate": "25 Oktober 2022",
+			"memberParticipate": "池田瑛紗",
+			"linkHardsub": "https://lokerwfh.net/FQpVGFTK",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kotouge-eiji-no-nante-bi-da-ikeda-teresa-gUSmL",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida55.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida55a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida55b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida55c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida55d.jpg",
+			"descEpisodeSynopsis": "Di episode 55 ini merupakan awal Ikeda Teresa berpartisipasi menjadi MC regular. Disini membahas seni tentang kehidupan seniman Andy Warhol dari semasa kecilnya. Dan kebetulan pameran Andy Warhol diadakan di Kyoto."
+		},
+		"56": {
+			"descEpisode": "| Episode 56",
+			"descOnAirDate": "1 November 2022",
+			"memberParticipate": "池田瑛紗",
+			"linkHardsub": "https://lokerwfh.net/0QiqGGm",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kotouge-eiji-no-nante-bi-da-ikeda-teresa-gUSmL",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida56.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida56a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida56b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida56c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nantebida56d.jpg",
+			"descEpisodeSynopsis": "Di episode 56 ini melanjutkan cerita kehidupan seniman ternama Andy Warhol dari era pertengahan sampai era terakhirnya menjelang beliau wafat, khususnya gejolaknya sebagai seorang seniman. Dan kebetulan pameran Andy Warhol diadakan di Kyoto."
+		}
+	}
+}

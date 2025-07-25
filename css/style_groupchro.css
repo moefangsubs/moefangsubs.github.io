@@ -1,0 +1,242 @@
+:root {
+	--bgnogi: #9b2ca2;
+	--bgsaku: #ff91b7;
+	--bghina: #78dbff;
+	--bgkeya: #4bac40;
+	--bgaudi: linear-gradient(90deg,rgba(155, 44, 162, 1) 0%, rgba(75, 172, 64, 1) 50%, rgba(120, 219, 255, 1) 100%);
+	--timeline-line: var(--moe-tint4);
+    --moe-tint5: #d5a0ff;
+    --moe-shade-min2: #18002b;
+    --moe-tint7: #f8efff;
+    --moe: #440079;
+}
+
+body {
+	background-color: var(--moe-shade-min2);
+	color: var(--moe-tint7);
+	font-family: "Space Mono", monospace;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+    color: var(--moe-tint5);
+    text-align: center;
+    padding: 50pt 0pt;
+}
+
+.page-subtitle {
+	text-align: center;
+	font-size: 1.5rem;
+	color: var(--moe-tint5);
+	margin-top: 0;
+	margin-bottom: 4rem;
+	font-weight: normal;
+}
+
+/* Timeline Container */
+.timeline {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.timeline::after {
+	content: "";
+	position: absolute;
+	width: 6px;
+	background-color: var(--timeline-line);
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+}
+
+.timeline-item {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+.timeline-item::after {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background: white;
+	top: 25px;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.timeline-left {
+    left: 3px;
+}
+.timeline-left::after {
+	right: -10px;
+}
+
+.timeline-right {
+	left: 49.7%;
+}
+.timeline-right::after {
+	left: -10px;
+}
+
+/* Panah penunjuk */
+.timeline-right::before {
+    content: " ";
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    border: 20px solid;
+    border-color: transparent transparent transparent transparent;
+}
+
+.timeline-left::before {
+    content: " ";
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    border: 20px solid;
+    border-color: transparent transparent transparent transparent;
+}
+
+/* Konten di dalam box */
+.timeline-content {
+    padding: 20px 30px;
+    position: relative;
+    color: #020003;
+    top: -20pt;
+}
+
+.date-header {
+	position: relative;
+	padding-left: 65px;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.date-header::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.timeline-content .date {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: var(--moe);
+	margin: 0;
+}
+
+/* --- STYLING GRUP --- */
+.timeline-item.nogizaka .date-header::before { background-image: url("../sprite/element/group/8bit_nogi.png"); }
+.timeline-item.nogizaka .timeline-content { border: 5pt solid var(--bgnogi); box-shadow: 5pt 5pt 0 var(--bgnogi); color: white; background: var(--moe-shade-min2); }
+.timeline-item.nogizaka .timeline-content .date { color: white; }
+.timeline-left.nogizaka::before { border-left-color: var(--bgnogi); }
+.timeline-right.nogizaka::before { border-right-color: var(--bgnogi); }
+.timeline-item.nogizaka .timeline-content .event-title { color: var(--bgnogi); }
+
+.timeline-item.sakurazaka .date-header::before { background-image: url("../sprite/element/group/8bit_saku.png"); }
+.timeline-item.sakurazaka .timeline-content { border: 5pt solid var(--bgsaku); box-shadow: 5pt 5pt 0 var(--bgsaku); color: white; background: var(--moe-shade-min2); }
+.timeline-item.sakurazaka .timeline-content .date { color: white; }
+.timeline-left.sakurazaka::before { border-left-color: var(--bgsaku); }
+.timeline-right.sakurazaka::before { border-right-color: var(--bgsaku); }
+.timeline-item.sakurazaka .timeline-content .event-title { color: var(--bgsaku); }
+
+.timeline-item.hinatazaka .date-header::before { background-image: url("../sprite/element/group/8bit_hina.png"); }
+.timeline-item.hinatazaka .timeline-content { border: 5pt solid var(--bghina); box-shadow: 5pt 5pt 0 var(--bghina); color: white; background: var(--moe-shade-min2); }
+.timeline-item.hinatazaka .timeline-content .date { color: white; }
+.timeline-left.hinatazaka::before { border-left-color: var(--bghina); }
+.timeline-right.hinatazaka::before { border-right-color: var(--bghina); }
+.timeline-item.hinatazaka .timeline-content .event-title { color: var(--bghina); }
+
+.timeline-item.keyakizaka .date-header::before { background-image: url("../sprite/element/group/8bit_keya.png"); }
+.timeline-item.keyakizaka .timeline-content { border: 5pt solid var(--bgkeya); box-shadow: 5pt 5pt 0 var(--bgkeya); color: white; background: var(--moe-shade-min2); }
+.timeline-item.keyakizaka .timeline-content .date { color: white; }
+.timeline-left.keyakizaka::before { border-left-color: var(--bgkeya); }
+.timeline-right.keyakizaka::before { border-right-color: var(--bgkeya); }
+.timeline-item.keyakizaka .timeline-content .event-title { color: var(--bgkeya); }
+
+.timeline-item.audition .date-header::before { background-image: url("../sprite/element/group/8bit_audi.png"); }
+.timeline-item.audition .timeline-content { border: 5pt solid white; box-shadow: 5pt 5pt 0 white; color: white; background: var(--moe-shade-min2); }
+.timeline-item.audition .timeline-content .date { color: white; }
+.timeline-left.audition::before { border-left-color: var(--bgaudi); }
+.timeline-right.audition::before { border-right-color: var(--bgaudi); }
+.timeline-item.audition .timeline-content .event-title { color: var(--moe-tint5); }
+
+/* --- STYLING KONTEN & TOMBOL SUMBER --- */
+.timeline-content .event-title { font-size: 1.8rem; font-weight: bold; margin: 0 0 10px 0; text-align: left; }
+.timeline-content .member-count { font-style: italic; font-size: 0.9em; opacity: 0.8; margin-bottom: 10px; }
+.timeline-content .note { font-size: 1.2rem; line-height: 1.5; font-weight: normal; text-align: justify; }
+
+/* BARU: Styling untuk kontainer dan tombol sumber */
+.source-links-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.source-link-button {
+    display: inline-block;
+    padding: 6px 14px;
+    border-width: 3px;
+    border-style: solid;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 0; /* Sesuai permintaan */
+    transition: background-color 0.2s, color 0.2s;
+    background: transparent;
+}
+
+/* Warna tombol disesuaikan dengan tema grup */
+.timeline-item.nogizaka .source-link-button { border-color: var(--bgnogi); color: var(--bgnogi); }
+.timeline-item.nogizaka .source-link-button:hover { background: var(--bgnogi); color: white; }
+
+.timeline-item.sakurazaka .source-link-button { border-color: var(--bgsaku); color: var(--bgsaku); }
+.timeline-item.sakurazaka .source-link-button:hover { background: var(--bgsaku); color: white; }
+
+.timeline-item.hinatazaka .source-link-button { border-color: var(--bghina); color: var(--bghina); }
+.timeline-item.hinatazaka .source-link-button:hover { background: var(--bghina); color: white; }
+
+.timeline-item.keyakizaka .source-link-button { border-color: var(--bgkeya); color: var(--bgkeya); }
+.timeline-item.keyakizaka .source-link-button:hover { background: var(--bgkeya); color: white; }
+
+.timeline-item.audition .source-link-button { border-color: white; color: white; }
+.timeline-item.audition .source-link-button:hover { background: white; color: var(--moe-shade-min2); }
+
+
+/* Responsive (Mobile View) */
+@media screen and (max-width: 768px) {
+    /* ... (sebagian besar tetap sama) ... */
+	.page-title { font-size: 2rem; }
+	.page-subtitle { font-size: 1rem; }
+	.timeline::after { left: 31px; }
+	.timeline-item { width: 100%; padding-left: 70px; padding-right: 25px; }
+	.timeline-item::before { left: 60px; border-width: 10px 10px 10px 0; }
+	.timeline-left::before,
+	.timeline-right::before { border-left-color: transparent; }
+	.timeline-right.nogizaka::before, .timeline-left.nogizaka::before { border-right-color: var(--bgnogi); }
+	.timeline-right.sakurazaka::before, .timeline-left.sakurazaka::before { border-right-color: var(--bgsaku); }
+	.timeline-right.hinatazaka::before, .timeline-left.hinatazaka::before { border-right-color: var(--bghina); }
+	.timeline-right.keyakizaka::before, .timeline-left.keyakizaka::before { border-right-color: var(--bgkeya); }
+	.timeline-right.audition::before, .timeline-left.audition::before { border-right-color: white; }
+	.timeline-left, .timeline-right { left: 0%; }
+	.timeline-left::after, .timeline-right::after { left: 18px; }
+}

@@ -1,0 +1,49 @@
+{
+	"url": "nogizaka46-bonus-38th-single",
+	"nameShowTitle": "Nogizaka46 Bonus 38th Single \"Navel Orange\"",
+	"descSynopsis": "Single ke-38 \"Navel Orange\" yang dirilis pada 26 Maret 2025 merilis 37th Single Under Live beserta interview pada member Under. Untuk tipe D sendiri adalah di balik layar pembuatan MV 'Natsukashisa no Saki'.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi38th.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-38th-bonus-amW7w",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Bonus Type A - 37thSG Under Live & Behind The Scene Part 1",
+			"descEpsListName": "Type A",
+			"linkHardsub": "https://sfl.gl/dbsMBrp",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38under-a.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus38th/37underlive-a.jpg",
+			"nameShow": "乃木坂46 36thSG アンダーライブ／アンダーライブの裏側で Part 1"
+		},
+		"02": {
+			"descEpisode": "| Bonus Type B - 37thSG Under Live & Behind The Scene Part 2",
+			"descEpsListName": "Type B",
+			"linkHardsub": "https://sfl.gl/omySV",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38under-b.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus38th/37underlive-b.jpg",
+			"nameShow": "乃木坂46 36thSG アンダーライブ／アンダーライブの裏側で Part 2"
+		},
+		"03": {
+			"descEpisode": "| Bonus Type C - 37thSG Under Live & Behind The Scene Part 3",
+			"descEpsListName": "Type C",
+			"linkHardsub": "https://sfl.gl/hNMANj2L",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38under-c.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus38th/37underlive-c.jpg",
+			"nameShow": "乃木坂46 36thSG アンダーライブ／アンダーライブの裏側で Part 3"
+		},
+		"04": {
+			"descEpisode": "| Bonus Type D - Behind The Scene of MV 'Natsukashisa no Saki'",
+			"descEpsListName": "Type D",
+			"linkHardsub": "https://sfl.gl/mwhIhPoM",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_38docu-d.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus38th/natsukashisa-d.jpg",
+			"nameShow": "乃木坂46 Documentary 「懐かしさの先」"
+		}
+	},
+	"descOnAirDate": "26 Maret 2025",
+	"memberParticipate": "乃木坂46"
+}

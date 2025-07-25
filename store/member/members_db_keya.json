@@ -1,0 +1,112 @@
+[
+    {
+        "id": "haradamayu",
+        "nama_jp": "原田まゆ",
+        "nama_romaji": "Harada Mayu",
+        "lahir": "1998.05.02",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/haradamayu.png",
+        "status": "lulus"
+    },
+    {
+        "id": "imaizumiyui",
+        "nama_jp": "今泉佑唯",
+        "nama_romaji": "Imaizumi Yui",
+        "lahir": "1998.09.30",
+        "asal": "神奈川県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/imaizumiyui.png",
+        "status": "lulus"
+    },
+    {
+        "id": "shidamanaka",
+        "nama_jp": "志田愛佳",
+        "nama_romaji": "Shida Manaka",
+        "lahir": "1998.11.23",
+        "asal": "新潟県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/shidamanaka.png",
+        "status": "lulus"
+    },
+    {
+        "id": "yonetaninanami",
+        "nama_jp": "米谷奈々未",
+        "nama_romaji": "Yonetani Nanami",
+        "lahir": "2000.02.24",
+        "asal": "大阪府",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/yonetaninanami.png",
+        "status": "lulus"
+    },
+    {
+        "id": "odanana",
+        "nama_jp": "織田奈那",
+        "nama_romaji": "Oda Nana",
+        "lahir": "1998.06.04",
+        "asal": "静岡県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/odanana.png",
+        "status": "lulus"
+    },
+    {
+        "id": "suzumotomiyu",
+        "nama_jp": "鈴本美愉",
+        "nama_romaji": "Suzumoto Miyu",
+        "lahir": "1997.12.05",
+        "asal": "愛知県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/suzumotomiyu.png",
+        "status": "lulus"
+    },
+    {
+        "id": "hirateyurina",
+        "nama_jp": "平手友梨奈",
+        "nama_romaji": "Hirate Yurina",
+        "lahir": "2001.06.25",
+        "asal": "愛知県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/hirateyurina.png",
+        "status": "lulus"
+    },
+    {
+        "id": "nagasawananako",
+        "nama_jp": "長沢菜々香",
+        "nama_romaji": "Nagasawa Nanako",
+        "lahir": "1997.04.23",
+        "asal": "山形県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/nagasawananako.png",
+        "status": "lulus"
+    },
+    {
+        "id": "ishimorinijika",
+        "nama_jp": "石森虹花",
+        "nama_romaji": "Ishimori Nijika",
+        "lahir": "1997.05.07",
+        "asal": "宮城県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/ishimorinijika.png",
+        "status": "lulus"
+    },
+    {
+        "id": "satoshiori",
+        "nama_jp": "佐藤詩織",
+        "nama_romaji": "Sato Shiori",
+        "lahir": "1996.11.16",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/satoshiori.png",
+        "status": "lulus"
+    },
+    {
+        "id": "nagahamaneru",
+        "nama_jp": "長濱ねる",
+        "nama_romaji": "Nagahama Neru",
+        "lahir": "1998.09.04",
+        "asal": "長崎県",
+        "gen": "1.5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/nagahamaneru.png",
+        "status": "lulus"
+    }
+]

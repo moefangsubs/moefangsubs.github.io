@@ -1,0 +1,212 @@
+{
+	"小津玲奈": {
+		"datestart"	: "2025.05.23",
+		"dateend"	: "未定",
+		"period"	: "未定",
+		"reason"	: "Studi",
+		"note"		: "Saat pengumuman hiatusnya, Ozu Rena adalah siswi SMA kelas 3. Alasan hiatusnya adalah untuk fokus pada pendidikannya, yang diperkirakan untuk persiapan ujian masuk universitas. Dia menyatakan tidak dapat berpartisipasi dalam 'Manatsu no Zenkoku Tour 2025', menandakan hiatus yang cukup panjang. Hiatus dimulai pada bulan Juni, yang berarti dia akan absen setidaknya selama 3 bulan (Juni-Agustus), dan kemungkinan bisa berlanjut hingga akhir tahun ajaran pada bulan Maret tahun depan. Informasi lebih lanjut dapat dilihat di blog resminya.",
+		"url"		: "https://www.nogizaka46.com/s/n46/diary/detail/103464"
+	},
+	"久保史緒里": {
+		"datestart"	: "2018.06.30",
+		"dateend"	: "2018.09.02",
+		"period"	: "2 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Kubo Shiori mengumumkan hiatus karena kondisi kesehatan yang kurang baik. Dia membuat comeback kejutan pada konser Manatsu no Zenkoku Tour di Miyagi pada 2 September 2018.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/45783"
+	},
+	"中西アルノ": {
+		"datestart"	: "2022.03.03",
+		"dateend"	: "2022.04.27",
+		"period"	: "2 bulan",
+		"reason"	: "Skandal",
+		"note"		: "Nakanishi Aruno menghentikan aktivitasnya setelah beberapa postingan SNS masa lalunya terungkap dan menjadi kontroversi. Menurut teks, beberapa postingan tersebut adalah rekayasa untuk menimbulkan kehebohan, sehingga hiatus ini lebih bertujuan untuk melindunginya daripada sebagai hukuman. Dia kembali beraktivitas mulai dari acara '5th Generation Omitatekai' kedua pada 27 April 2022.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/65320"
+	},
+	"岡本姫奈": [
+		{
+			"datestart"	: "2022.03.18",
+			"dateend"	: "2022.04.27",
+			"period"	: "1 bulan",
+			"reason"	: "Pelanggaran Aturan",
+			"note"		: "Hiatus pertama Okamoto Hina disebabkan oleh pelanggaran aturan, di mana dia mengunggah foto member di SNS sebelum pengumuman resmi kelulusan audisi gen-5. Dia kembali beraktivitas di acara '5th Generation Omitatekai' kedua.",
+			"url"		: "https://www.nogizaka46.com/s/n46/news/detail/65362"
+		},
+		{
+			"datestart"	: "2023.03.31",
+			"dateend"	: "2023.10.11",
+			"period"	: "6 bulan",
+			"reason"	: "Sakit",
+			"note"		: "Hiatus kedua karena masalah kesehatan yang telah berlangsung selama beberapa bulan, yang menyebabkannya sering absen dari acara meet & greet. Dia secara resmi mengumumkan hiatus pada 31 Maret 2023 dan kembali pada 11 Oktober 2023.",
+			"url"		: "https://www.nogizaka46.com/s/n46/news/detail/66321"
+		}
+	],
+	"林瑠奈": {
+		"datestart"	: "2023.05.17",
+		"dateend"	: "2023.10.02",
+		"period"	: "5 bulan",
+		"reason"	: "Sakit & Studi",
+		"note"		: "Meskipun hiatus resminya diumumkan pada 10 Juni 2023, Hayashi Runa sudah tidak aktif sejak Mei karena kondisi kesehatan yang kurang baik dan untuk fokus pada pendidikannya. Dia kembali beraktivitas pada hari ulang tahunnya yang ke-20, yaitu 2 Oktober 2023.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/66481"
+	},
+	"賀喜遥香": {
+		"datestart"	: "2023.09.09",
+		"dateend"	: "2023.10.12",
+		"period"	: "1 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Setelah menyelesaikan Manatsu no Zenkoku Tour 2023 meskipun dalam kondisi kurang sehat, Kaki Haruka mengambil masa istirahat selama satu bulan atas saran dokter untuk memulihkan kondisinya.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/66704"
+	},
+	"金川紗耶": {
+		"datestart"	: "2023.10.31",
+		"dateend"	: "2024.01.10",
+		"period"	: "2 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Kanagawa Saya mengumumkan hiatus pada hari ulang tahunnya karena kondisi kesehatan yang terus menurun. Akibatnya, dia tidak berpartisipasi dalam single ke-34 dan memprioritaskan pemulihan.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/66818"
+	},
+	"岩本蓮加": {
+		"datestart"	: "2025.01.14",
+		"dateend"	: "2025.02.22",
+		"period"	: "1 bulan",
+		"reason"	: "Skandal",
+		"note"		: "Iwamoto Renka mengumumkan hiatus setelah foto pribadinya dengan seorang pria tersebar di media sosial X. Dia kembali secara bertahap dimulai dengan partisipasi sebagian dalam konser kelulusan Yoda Yuuki.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/100785"
+	},
+	"冨里奈央": {
+		"datestart"	: "2025.02.08",
+		"dateend"	: "2025.03.02",
+		"period"	: "1 bulan",
+		"reason"	: "Studi & Istirahat",
+		"note"		: "Tomisato Nao mengambil istirahat selama sebulan setelah menyelesaikan masa SMA-nya, untuk beristirahat sejenak sebelum kembali fokus penuh pada aktivitas grup. Alasan spesifiknya tidak diungkapkan secara detail.",
+		"url"		: "https://www.nogizaka46.com/s/n46/diary/detail/103199"
+	},
+	"秋元真夏": {
+		"datestart"	: "2011.09.22",
+		"dateend"	: "2012.10.08",
+		"period"	: "13 bulan",
+		"reason"	: "Studi",
+		"note"		: "Akimoto Manatsu harus hiatus karena peraturan sekolahnya yang melarang aktivitas di dunia hiburan. Dia kembali aktif secara penuh setelah lulus SMA, dimulai dari single ke-4 'Seifuku no Mannequin'.",
+		"url"		: null
+	},
+	"生田絵梨花": {
+		"datestart"	: "2014.04.20",
+		"dateend"	: "2014.08.30",
+		"period"	: "4 bulan",
+		"reason"	: "Studi",
+		"note"		: "Ikuta Erika mengambil hiatus untuk fokus pada persiapan ujian masuk universitas musik. Dia kembali saat konser final Manatsu no Zenkoku Tour 2014 dan menjadi center untuk lagu baru saat itu, 'Nandome no Aozora ka?'.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/18049"
+	},
+	"橋本奈々未": {
+		"datestart"	: "2014.08.16",
+		"dateend"	: "2014.08.30",
+		"period"	: "1 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Hashimoto Nanami dirawat di rumah sakit karena syok anafilaksis. Dia terpaksa absen dari sisa Manatsu no Zenkoku Tour 2014, namun sempat muncul untuk menyapa penggemar di hari terakhir tur.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/19990"
+	},
+	"山崎怜奈": {
+		"datestart"	: "2015.05.22",
+		"dateend"	: "2015.10.28",
+		"period"	: "5 bulan",
+		"reason"	: "Studi",
+		"note"		: "Yamazaki Rena mengumumkan hiatus untuk fokus pada pendidikannya. Dia kembali beraktivitas untuk single ke-13 'Ima, Hanashitai Dareka ga Iru'.",
+		"url"		: null
+	},
+	"桜井玲香": {
+		"datestart"	: "2016.07.21",
+		"dateend"	: "2016.08.28",
+		"period"	: "1 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Sakurai Reika absen dari beberapa pertunjukan Manatsu no Zenkoku Tour 2016 karena kondisi kesehatan yang kurang baik dan kembali pada konser final di Tokyo. Setelah itu, dia masih sering absen dari beberapa kegiatan tanpa pengumuman hiatus resmi.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/33688"
+	},
+	"中元日芽香": {
+		"datestart"	: "2017.01.28",
+		"dateend"	: "2017.03.19",
+		"period"	: "2 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Nakamoto Himeka mengumumkan hiatus karena alasan kesehatan dan kembali beraktivitas melalui siaran langsung radio 'Rajira-! Sunday'.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/36683"
+	},
+	"北野日奈子": {
+		"datestart"	: "2017.11.16",
+		"dateend"	: "2018.03.24",
+		"period"	: "4 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Kitano Hinako mengumumkan hiatus karena kondisi kesehatan yang kurang baik. Dia kembali beraktivitas dengan tampil secara langsung di acara Nogizaka 46 Hour TV.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/41857"
+	},
+	"山下美月": {
+		"datestart"	: "2019.04.13",
+		"dateend"	: "2019.07.03",
+		"period"	: "3 bulan",
+		"reason"	: "Sakit & Pekerjaan solo",
+		"note"		: "Karena jadwal yang padat untuk syuting drama 'Den'ei Shoujo -VIDEO GIRL MAI 2019-' dan kondisi kesehatan, Yamashita Mizuki tidak berpartisipasi dalam aktivitas single ke-23. Ini lebih merupakan pembatasan aktivitas grup untuk fokus pada pekerjaan solo. Dia kembali untuk Manatsu no Zenkoku Tour 2019.",
+		"url"		: "https://www.nogizaka46.com/s/n46/diary/detail/49965"
+	},
+	"大園桃子": {
+		"datestart"	: "2019.06.24",
+		"dateend"	: "2019.08.30",
+		"period"	: "2 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Ozono Momoko mengumumkan absen dari seluruh rangkaian Manatsu no Zenkoku Tour 2019 karena masalah kesehatan. Dia kembali pada hari pertama konser final tur di Tokyo.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/51795"
+	},
+	"井上小百合": {
+		"datestart"	: "2019.07.01",
+		"dateend"	: "2019.12.31",
+		"period"	: "6 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Inoue Sayuri absen dari Manatsu no Zenkoku Tour 2019 karena kondisi lutut kronisnya yang memburuk. Meskipun absen dari kegiatan grup, ia tetap aktif dalam pekerjaan panggung individu dan kembali ke aktivitas grup pada acara Kouhaku Uta Gassen.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/51795"
+	},
+	"北川悠理": {
+		"datestart"	: "2019.07.03",
+		"dateend"	: "2019.08.14",
+		"period"	: "1 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Bukan hiatus resmi, melainkan serangkaian absen karena kondisi kesehatan selama sebulan yang menyebabkannya melewatkan empat pertunjukan Manatsu no Zenkoku Tour 2019 sebelum akhirnya kembali.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/51786"
+	},
+	"佐々木琴子": {
+		"datestart"	: "2020.02.14",
+		"dateend"	: "2020.03.07",
+		"period"	: "1 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Lebih merupakan absen karena sakit daripada hiatus. Sasaki Kotoko, yang telah mengumumkan kelulusannya, melewatkan konser 8th Birthday Live yang seharusnya menjadi penampilan live terakhirnya karena kondisi kesehatannya.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/54941"
+	},
+	"星野みなみ": {
+		"datestart"	: "2021.09.25",
+		"dateend"	: "2021.11.07",
+		"period"	: "1 bulan",
+		"reason"	: "Skandal",
+		"note"		: "Hoshino Minami menangguhkan aktivitasnya setelah sebuah majalah mingguan memberitakan tentang hubungannya dengan seorang pria. Dia kembali melalui siaran langsung radio 'Rajira-! Sunday'.",
+		"url"		: null
+	},
+	"早川聖来": {
+		"datestart"	: "2022.06.24",
+		"dateend"	: "2022.10.02",
+		"period"	: "3 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Hiatus Hayakawa Seira dimulai setelah pertunjukan musikalnya dibatalkan karena kesehatannya yang menurun. Dia secara resmi diumumkan hiatus pada 10 Juli dan kembali setelah beristirahat selama sekitar 3 bulan.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/65633"
+	},
+	"清宮レイ": {
+		"datestart"	: "2022.09.17",
+		"dateend"	: "2023.03.29",
+		"period"	: "6 bulan",
+		"reason"	: "Sakit",
+		"note"		: "Seimiya Rei hiatus karena masalah kesehatan dan tidak berpartisipasi dalam single ke-31. Dia kembali sebagai member Under untuk single ke-32.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/65857"
+	},
+	"掛橋沙耶香": {
+		"datestart"	: "2022.08.30",
+		"dateend"	: "2024.08.19",
+		"period"	: "2 tahun",
+		"reason"	: "Kecelakaan",
+		"note"		: "Kakehashi Sayaka mengalami cedera serius termasuk patah tulang wajah setelah jatuh dari panggung saat konser pada 29 Agustus 2022. Setelah menjalani masa pemulihan selama dua tahun, dia lulus dari grup tanpa kembali beraktivitas secara penuh. Upacara kelulusannya disiarkan secara online.",
+		"url"		: "https://www.nogizaka46.com/s/n46/news/detail/100462"
+	}
+}

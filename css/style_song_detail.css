@@ -1,0 +1,326 @@
+/* -- Styles for Song Detail Page -- */
+
+:root {
+    font-family: sans-serif;
+    color: white;
+}
+* {
+    font-family: "Space Mono", monospace;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--moe-tint6); /* Disesuaikan dengan screenshot */
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* -- Wrapper Styles -- */
+#content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#song-detail-wrapper {
+    width: 1000px;
+    max-width: 100%;
+}
+
+/* Sembunyikan kontainer lirik asli dari HTML */
+#lyrics-wrapper {
+    display: none;
+}
+
+/* -- Song Detail Card Styles -- */
+.song-info-card {
+    background-color: var(--moe-tint4);
+    padding: 12px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px outset var(--moe-tint6);
+    box-shadow: 2px 2px 0 var(--moe-tint6);
+}
+
+.song-info-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* border: 5px solid var(--moe-tint6); */
+    flex-shrink: 0;
+}
+
+.song-info-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.song-info-details h1 {
+    margin: 0 0 3px 0;
+    font-size: 2.3em;
+    color: var(--moe-tint7);
+    text-shadow: 2px 2px 0 var(--moe-tint1);
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+}
+
+.song-info-details .romaji-title {
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: var(--moe-tint7);
+    text-shadow: 2px 2px 0 var(--moe-tint1);
+}
+
+.song-info-extra-details {
+    margin-top: 15px;
+    font-size: 0.85em;
+    width: 100%;
+    border-collapse: collapse;
+    color: var(--moe-tint7);
+}
+.song-info-extra-details td {
+    padding: 5px 3px;
+    border-bottom: 1px solid var(--moe-tint7);
+    vertical-align: top;
+}
+.song-info-extra-details td:first-child {
+    font-weight: bold;
+    width: 240px;
+    white-space: nowrap;
+}
+.song-info-extra-details tr:last-child td {
+    border-bottom: none;
+}
+
+/* --- New Download Button Styles --- */
+.download-links-container {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+a.download-link {
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    padding: 5pt;
+    border: 1pt solid white;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: max-content;
+}
+
+a.download-link:hover {
+    background-color: white;
+    color: var(--moe);
+}
+a.download-link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+/* --- End of New Styles --- */
+
+
+/* -- Formation Card -- */
+.formation-card {
+    background-color: var(--moe-tint7);
+    color: var(--moe) !important;
+    padding: 15px;
+    margin-bottom: 15pt;
+    border: 2px inset var(--moe-tint6);
+    box-shadow: 2px 2px 0 var(--moe-tint6);
+}
+
+.formation-card h2 {
+    margin-top: 0; margin-bottom: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 var(--moe-tint6);
+    border-bottom: 2px dotted var(--moe-tint5);
+    padding-bottom: 5px;
+}
+
+.formation-row {
+    display: flex; flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px; margin-bottom: 12px;
+    padding-bottom: 8pt;
+    border-bottom: 2px dotted var(--moe-tint5);
+}
+.formation-row:last-child { border-bottom: none; }
+
+.member-photo-container { text-align: center; }
+.member-photo {
+    width: 80px; height: 80px;
+    border: 3px solid var(--moe-tint6);
+    object-fit: cover;
+    background-color: var(--moe-tint4);
+}
+.member-name {
+    font-size: 1em; margin-top: 3px;
+    color: var(--moe-tint3) !important;
+    text-shadow: 1px 1px 0 var(--moe-tint6);
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+}
+.formation-note {
+    text-align: center; font-style: italic;
+    font-size: 0.8em; margin-top: 15px;
+    color: var(--moe-tint3);
+    text-shadow: 1px 1px 0 var(--moe-tint6);
+    border-top: 1px dashed var(--moe-tint5);
+    padding-top: 5px;
+}
+
+.center-highlight .member-photo { animation: center-border-glow 0.7s infinite alternate; }
+@keyframes center-border-glow {
+    from { border-color: var(--moe-tint8); box-shadow: 0 0 8px var(--moe-tint8); }
+    to { border-color: var(--moe-tint6); box-shadow: 0 0 2px var(--moe-tint6); }
+}
+
+/* --- New Media & Lyrics Layout --- */
+.media-lyrics-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.spotify-card {
+    flex: 0 0 30%;
+}
+.spotify-card iframe {
+    width: 100%;
+}
+
+.lyrics-box {
+    flex: 1 1 70%;
+    background-color: var(--moe-tint7);
+    color: var(--moe) !important;
+    padding: 15px;
+    border: 2px inset var(--moe-tint6);
+    box-shadow: 2px 2px 0 var(--moe-tint6);
+    max-height: 550px;
+    display: flex;
+    flex-direction: column;
+}
+.lyrics-box h2 {
+    margin: 0 0 10px 0; padding-bottom: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 var(--moe-tint6);
+    border-bottom: 2px dotted var(--moe-tint5);
+}
+.lyrics-box .lyrics-content {
+    white-space: pre-wrap;
+    line-height: 1.6;
+    font-size: 0.9em;
+    overflow-y: auto; /* Enable vertical scroll */
+    flex-grow: 1;
+    color: var(--moe-tint3);
+}
+/* --- End of New Layout Styles --- */
+
+/* -- Song List Page Styles -- */
+.songlist-header h1 {
+    text-align: center; color: white;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 0 var(--moe-tint4);
+}
+.songlist-header p {
+    text-align: justify; color: var(--moe-tint7);
+    max-width: 800px;
+    margin: 10px auto 30px auto;
+}
+.songlist-group {
+    display: flex; background-color: white;
+    margin: 0 auto 20px auto;
+    gap: 15px; padding: 15px; max-width: 1000px;
+}
+.songlist-cover {
+    height: 150px; object-fit: cover;
+    border: 2px solid var(--moe-tint4); flex-shrink: 0;
+}
+.songlist-info {
+    display: flex; flex-direction: column;
+    width: 100%; color: var(--moe-tint2);
+}
+.songlist-title-bar {
+    display: flex; align-items: baseline;
+    flex-wrap: wrap; gap: 10px;
+    border-bottom: 3px solid var(--moe-tint3);
+    padding-bottom: 5px; margin-bottom: 5px;
+}
+.songlist-number {
+    background-color: var(--moe-tint1); color: white;
+    font-size: 1.3em; padding: 5px 10px;
+    font-weight: bold; white-space: nowrap;
+}
+.songlist-main-song a {
+    font-size: 1.3em; color: var(--moe-tint1);
+    font-weight: bold; text-decoration: none;
+}
+.songlist-main-song a:hover { color: var(--moe-tint3); }
+
+.songlist-tracks a {
+    display: block; font-size: 1.1em;
+    color: var(--moe-tint2); padding: 8px 5px;
+    border-bottom: 1px dotted var(--moe-tint4);
+    text-decoration: none;
+}
+.songlist-tracks a:hover { background-color: #f5f5f5; }
+.songlist-tracks a:last-child { border-bottom: none; }
+
+
+/* -- Responsive Media Queries -- */
+@media (max-width: 768px) {
+    #content-wrapper {
+        flex-direction: column; width: 95%;
+        gap: 0; margin: 10px auto;
+    }
+
+    /* Song Detail Page Responsive */
+    #song-detail-wrapper {
+        width: 100%; padding: 0;
+    }
+
+    .song-info-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .song-info-card img {
+        width: 150px; height: 150px;
+    }
+    .song-info-details h1 { font-size: 2em; }
+    .song-info-details .romaji-title { font-size: 1.1em; }
+
+	.media-lyrics-container {
+		display: block;
+	}
+	.spotify-card {
+		flex: 0 0 100%;
+	}
+	.lyrics-box {
+		flex: 1 1 100%;
+	}
+    /* Song List Page Responsive */
+	.songlist-cover {
+		height: 250px;
+		border: 5px solid var(--moe-tint4);
+	}
+    .songlist-group {
+        flex-direction: column;
+        align-items: center; padding: 10px;
+    }
+	.songlist-title-bar {
+		flex-direction: row; align-items: center;
+		flex-wrap: nowrap; gap: 5px;
+	}
+	
+}

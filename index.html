@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">	
+	
+    <!-- Title -->
+    <title>MoeFang Subs Site Map</title>
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	
+    <link rel="stylesheet" href="css/style_main.css">
+</head>
+<body>
+    <div class="form-container" id="welcome-back-box" style="display: none; text-align: center;">
+        <h1>Halo, <span id="welcome-username"></span>!</h1>
+        <p style="font-size: 1rem; opacity: 0.8;">Kamu sudah login</p>
+        <div class="button-group">
+            <a href="sitemap.html" class="btn-submit" style="text-decoration: none;">Jelajah Situs</a>
+        </div>
+    </div>
+
+    <div class="form-container" id="login-box" style="display:none;">
+        <h1>Selamat Datang</h1>
+        <p style="text-align: center; margin-bottom: 25px;">Login atau daftar dengan akun Google</p>
+        
+        <div class="button-group">
+             <button type="button" class="btn-submit btn-google" id="google-login-btn">
+                <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo">
+                <span>Login dengan Google</span>
+            </button>
+        </div>
+    </div>
+    
+    <p id="message-area" class="message-area"></p>
+    
+    <div class="mylogo">
+        <span>Website masih dalam tahap pembangunan</span>
+        <img src="sprite/main.svg"/> 
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="js/firebase-init.js"></script>
+    <script src="js/firebase-auth.js"></script>
+</body>
+</html>

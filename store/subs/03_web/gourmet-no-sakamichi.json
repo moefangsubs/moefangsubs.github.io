@@ -1,0 +1,312 @@
+{
+	"url": "gourmet-no-sakamichi",
+	"nameShowTitle": "Gourmet no Sakamichi",
+	"nameShow": "グルメの坂道",
+	"descSynopsis": "\"Gurume no Sakamichi\" adalah program di mana member Nogizaka46 menjelajahi lebih dari 1000 restoran setiap tahun yang direkomendasikan oleh Forin Debu Hasshi untuk menikmati 'hidangan yang harus dimakan sekarang.'",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16",
+		"17",
+		"18",
+		"19",
+		"20",
+		"21",
+		"22",
+		"23",
+		"24",
+		"25",
+		"26",
+		"27",
+		"28",
+		"29",
+		"30"
+	],
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/gourmet-smash-{{eps}}alt.jpg",
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_gourmet.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1",
+			"descOnAirDate": "9 Desember 2020",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://lokerwfh.net/a08KLj",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-01asuka.jpg",
+			"descEpisodeSynopsis": "Dalam episode pertama, Saito Asuka menjadi pembuka seri ini."
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"descOnAirDate": "14 Desember 2020",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://lokerwfh.net/irISEQdx",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-01asuka.jpg",
+			"descEpisodeSynopsis": "Episode 2 masih oleh Saito Asuka untuk me-review makanan."
+		},
+		"03": {
+			"descEpisode": "| Episode 3",
+			"descOnAirDate": "16 Desember 2020",
+			"memberParticipate": "向井葉月",
+			"linkHardsub": "https://lokerwfh.net/n8HchMrk",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-03hazuki.jpg",
+			"descEpisodeSynopsis": "Kali ini episodenya Mukai Hazuki, dimana dia akan mencoba makanan gyoza dari 'Gyoza Shack' di Sangenjaya."
+		},
+		"04": {
+			"descEpisode": "| Episode 4",
+			"descOnAirDate": "21 Desember 2020",
+			"memberParticipate": "向井葉月",
+			"linkHardsub": "https://lokerwfh.net/Qe8L",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-03hazuki.jpg",
+			"descEpisodeSynopsis": "Melanjutkan makan makannya Mukai Hazuki di restoran serba gyoza."
+		},
+		"05": {
+			"descEpisode": "| Episode 5",
+			"descOnAirDate": "23 Desember 2020",
+			"memberParticipate": "星野みなみ",
+			"linkHardsub": "https://lokerwfh.net/e9Ufv",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-05minami.jpg",
+			"descEpisodeSynopsis": "Di episode 5 kali ini adalah eternal imouto Hoshino Minami!"
+		},
+		"06": {
+			"descEpisode": "| Episode 6",
+			"descOnAirDate": "28 Desember 2020",
+			"memberParticipate": "星野みなみ",
+			"linkHardsub": "https://lokerwfh.net/2Zhloa8F",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-05minami.jpg",
+			"descEpisodeSynopsis": "Melanjutkan makan makannya Hoshino Minami di restoran serba keju!"
+		},
+		"07": {
+			"descEpisode": "| Episode 7",
+			"descOnAirDate": "30 Desember 2020",
+			"memberParticipate": "大園桃子",
+			"linkHardsub": "https://lokerwfh.net/cfyO6D",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-07momoko.jpg",
+			"descEpisodeSynopsis": "Di episode 7 kali ini adalah Momoko!"
+		},
+		"08": {
+			"descEpisode": "| Episode 8",
+			"descOnAirDate": "4 Januari 2021",
+			"memberParticipate": "大園桃子",
+			"linkHardsub": "https://lokerwfh.net/WDmHeW",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-07momoko.jpg",
+			"descEpisodeSynopsis": "Melanjutkan episodenya Momoko. Tiap ngesub ini pasti bawaannya lapar! Hahaha~"
+		},
+		"09": {
+			"descEpisode": "| Episode 9",
+			"descOnAirDate": "6 Januari 2021",
+			"memberParticipate": "高山一実",
+			"linkHardsub": "https://lokerwfh.net/fgZKIB",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-09kazumin.jpg",
+			"descEpisodeSynopsis": "Di episode 9 kali ini adalah Takayama Kazumi atau Kazumin! "
+		},
+		"10": {
+			"descEpisode": "| Episode 10",
+			"descOnAirDate": "11 Januari 2021",
+			"memberParticipate": "高山一実",
+			"linkHardsub": "https://lokerwfh.net/Vklx",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-09kazumin.jpg",
+			"descEpisodeSynopsis": "Melanjutkan gourmet punyanya Takayama Kazumi~"
+		},
+		"11": {
+			"descEpisode": "| Episode 11",
+			"descOnAirDate": "13 Januari 2021",
+			"memberParticipate": "金川紗耶、掛橋沙耶香",
+			"linkHardsub": "https://lokerwfh.net/H95J",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-11sayakayancha.jpg",
+			"descEpisodeSynopsis": "Di episode 10 kali ini adalah berdua bareng Sayaka dan Yanchan! Mungkin ini yang terakhir dari Gourmet no Sakamichi dimana para member datang langsung ke restorannya, karena ke depannya hanya mencoba makanannya tanpa ke restorannya."
+		},
+		"12": {
+			"descEpisode": "| Episode 12",
+			"descOnAirDate": "18 Januari 2021",
+			"memberParticipate": "金川紗耶、掛橋沙耶香",
+			"linkHardsub": "https://lokerwfh.net/1d6xfgus",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-11sayakayancha.jpg",
+			"descEpisodeSynopsis": "Masih bareng Sayaka dan Yanchan! "
+		},
+		"13": {
+			"descEpisode": "| Episode 13",
+			"descOnAirDate": "20 Januari 2021",
+			"memberParticipate": "和田まあや",
+			"linkHardsub": "https://lokerwfh.net/6HjmV46",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-13maaya.jpg",
+			"descEpisodeSynopsis": "Episode Wada Maaya ini adalah episode pertama untuk membawa pulang/takeout makanannya dari restoran karena aturan penanganan Covid di Jepang pada saat itu. "
+		},
+		"14": {
+			"descEpisode": "| Episode 14",
+			"descOnAirDate": "25 Januari 2021",
+			"memberParticipate": "阪口珠美、岩本蓮加",
+			"linkHardsub": "https://lokerwfh.net/PxCn",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-14tamamirenka.jpg",
+			"descEpisodeSynopsis": "Di episode kali ini Gourmet no Sakamichi berganti tema. Dimana (kemungkinan besar) ada varian baru Covid-19, jadi yang tadinya member nyamperin ke restorannya sekarang makanannya yang nyamperin. Juga ada slogan \"yummy\" Okey, di episode 14 ini ada Sakaguchi Tamami bareng Iwamoto Renka! Tidak seperti biasa, 2 episode-nya ini mencoba restoran yang beda juga."
+		},
+		"15": {
+			"descEpisode": "| Episode 15",
+			"descOnAirDate": "27 Januari 2021",
+			"memberParticipate": "阪口珠美、岩本蓮加",
+			"linkHardsub": "https://lokerwfh.net/Azev",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-14tamamirenka.jpg",
+			"descEpisodeSynopsis": "Kita lanjut episodenya Sakaguchi Tamami bareng Iwamoto Renka. "
+		},
+		"16": {
+			"descEpisode": "| Episode 16",
+			"descOnAirDate": "1 Februari 2021",
+			"memberParticipate": "堀未央奈、渡辺みり愛",
+			"linkHardsub": "https://lokerwfh.net/IzfbLv",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-16mionamiria.jpg",
+			"descEpisodeSynopsis": "Di episode kali ini datang dari gen-2, Watanabe Miria bareng Hori Miona! Sama seperti sebelumnya, 2 episode-nya ini mencoba restoran yang beda juga."
+		},
+		"17": {
+			"descEpisode": "| Episode 17",
+			"descOnAirDate": "3 Februari 2021",
+			"memberParticipate": "堀未央奈、渡辺みり愛",
+			"linkHardsub": "https://lokerwfh.net/g8EB03",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/batch-softsub-gourmet-no-sakamichi-ep-1-17-lge5w",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-16mionamiria.jpg",
+			"descEpisodeSynopsis": "Masih bareng Watanabe Miria dengan Hori Miona. "
+		},
+		"18": {
+			"descEpisode": "| Episode 18",
+			"descOnAirDate": "8 Februari 2021",
+			"memberParticipate": "伊藤純奈、寺田蘭世",
+			"linkHardsub": "https://lokerwfh.net/dQmklzIM",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-18-19-MEaKL",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-18ranzejunna.jpg",
+			"descEpisodeSynopsis": "Di episode kali ini datang dari gen-2, Terada Ranze bareng Ito Junna! Sama seperti sebelumnya, 2 episode-nya ini mencoba restoran yang beda juga. "
+		},
+		"19": {
+			"descEpisode": "| Episode 19",
+			"descOnAirDate": "10 Februari 2021",
+			"memberParticipate": "伊藤純奈、寺田蘭世",
+			"linkHardsub": "https://lokerwfh.net/aTlS",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-18-19-MEaKL",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-18ranzejunna.jpg",
+			"descEpisodeSynopsis": "Masih bareng Terada Ranze dengan Ito Junna. "
+		},
+		"20": {
+			"descEpisode": "| Episode 20",
+			"descOnAirDate": "15 Februari 2021",
+			"memberParticipate": "柴田柚菜、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/2z9EH9GQ",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-20-21-P77NK",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-20runasaya.jpg",
+			"descEpisodeSynopsis": "Di episode kali ini datang dari gen-4, Kanagawa Saya (yang udah dua kali) bareng Shibata Yuna yang baru pertama kali! Sama seperti sebelumnya, 2 episode-nya ini mencoba restoran yang beda juga."
+		},
+		"21": {
+			"descEpisode": "| Episode 21",
+			"descOnAirDate": "17 Februari 2021",
+			"memberParticipate": "柴田柚菜、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/Ggpx8z1",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-20-21-P77NK",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-20runasaya.jpg",
+			"descEpisodeSynopsis": "Masih bareng Yanchan dengan Yunachan."
+		},
+		"22": {
+			"descEpisode": "| Episode 22",
+			"descOnAirDate": "22 Februari 2021",
+			"memberParticipate": "阪口珠美、佐藤楓",
+			"linkHardsub": "https://lokerwfh.net/K3q7l29X",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-22-23-nzNcY",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-22tamamikaede.jpg",
+			"descEpisodeSynopsis": "Di episode kali ini datang dari gen-3, Sakaguchi Tamami (yang udah dua kali) bareng Sato Kaede yang baru pertama kali! Sama seperti sebelumnya, 2 episode-nya ini mencoba restoran yang beda juga."
+		},
+		"23": {
+			"descEpisode": "| Episode 23",
+			"descOnAirDate": "25 Februari 2021",
+			"memberParticipate": "阪口珠美、佐藤楓",
+			"linkHardsub": "https://lokerwfh.net/pNsZeo",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-22-23-nzNcY",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-22tamamikaede.jpg",
+			"descEpisodeSynopsis": "Masih bareng Tamami dengan Denchan. "
+		},
+		"24": {
+			"descEpisode": "| Episode 24",
+			"descOnAirDate": "1 Maret 2021",
+			"memberParticipate": "早川聖来、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/tbq9rYGv",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-24-25-8sbhn",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-24seiramayu.jpg",
+			"descEpisodeSynopsis": "Episode kali ini adalah dari gen-4, yaitu Hayakawa Seira dengan Tamura Mayu. Sama seperti sebelumnya, 2 episode-nya ini mencoba restoran dan masakan yang berbeda juga."
+		},
+		"25": {
+			"descEpisode": "| Episode 25",
+			"descOnAirDate": "3 Maret 2021",
+			"memberParticipate": "早川聖来、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/SHRAkjI8",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-24-25-8sbhn",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-24seiramayu.jpg",
+			"descEpisodeSynopsis": "Masih bersama Seira dan Mayutan. "
+		},
+		"26": {
+			"descEpisode": "| Episode 26",
+			"descOnAirDate": "8 Maret 2021",
+			"memberParticipate": "筒井あやめ、林瑠奈",
+			"linkHardsub": "https://lokerwfh.net/6XystBKU",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-26-27-33yaS",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-26ayameruna.jpg",
+			"descEpisodeSynopsis": "Episode kali ini masih dari gen-4, yaitu Hayashi Runa dengan dek Tsutsui Ayame. Sama seperti sebelumnya, 2 episode-nya ini mencoba restoran dan masakan yang berbeda juga."
+		},
+		"27": {
+			"descEpisode": "| Episode 27",
+			"descOnAirDate": "10 Maret 2021",
+			"memberParticipate": "筒井あやめ、林瑠奈",
+			"linkHardsub": "https://lokerwfh.net/BIr2Xd",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-26-27-33yaS",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-26ayameruna.jpg",
+			"descEpisodeSynopsis": "Episode kali ini masih bersama Hayashi Runa dan Ayame."
+		},
+		"28": {
+			"descEpisode": "| Episode 28",
+			"descOnAirDate": "28 Maret 2021",
+			"memberParticipate": "松尾美佑、佐藤璃果",
+			"linkHardsub": "https://lokerwfh.net/biJ2s1oJ",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-28-29-aTiii",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-28miyurika.jpg",
+			"descEpisodeSynopsis": "Episode kali ini masih dari gen-4, yaitu Matsuo Miyu dengan Sato Rika. Masih dengan 2 episode yang berbeda. "
+		},
+		"29": {
+			"descEpisode": "| Episode 29",
+			"descOnAirDate": "17 Maret 2021",
+			"memberParticipate": "松尾美佑、佐藤璃果",
+			"linkHardsub": "https://lokerwfh.net/7z1KDC",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-28-29-aTiii",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-28miyurika.jpg",
+			"descEpisodeSynopsis": "Masih bersama Miyuchan dan Rika."
+		},
+		"30": {
+			"descEpisode": "| Episode 30",
+			"descOnAirDate": "22 Maret 2021",
+			"memberParticipate": "伊藤理々杏、吉田綾乃クリスティー",
+			"linkHardsub": "https://lokerwfh.net/6V8iLAM",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/softsub-gourmet-no-sakamichi-ep-30-Lb6GI",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/gourmetsakamichi/Gourmet-30yoshidariria.jpg",
+			"descEpisodeSynopsis": "Sebagai penutup dari Gourmet no Sakamichi season pertama, kali ini adalah dari gen-3, yaitu Ito Riria dengan Yoshida Ayano Christie. Khusus ini yang akan bertugas shokurepo-nya adalah mereka berdua."
+		}
+	}
+}

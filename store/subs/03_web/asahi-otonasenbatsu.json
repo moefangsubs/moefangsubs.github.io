@@ -1,0 +1,25 @@
+{
+	"url": "asahi-otonasenbatsu",
+	"nameShowTitle": "Asahi X Nogizaka46 Otona Senbatsu Tadashii Nomikata Kenkyuchuu",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_asahi.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Asahi Beer Otona Senbatsu Tadashii Nomikata",
+			"descEpsListName": "220725",
+			"descOnAirDate": "25 Juli 2022",
+			"memberParticipate": "秋元真夏、齋藤飛鳥、鈴木絢音、久保史緒里、梅澤美波、山下美月、与田祐希、遠藤さくら、賀喜遥香",
+			"linkHardsub": "https://drive.google.com/uc?id=1HPAmf1EDQZNY1_jwDGh4nEUEy6_JebTD",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220725-nogizaka46-asahi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220725-nogizaka46-asahi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220725-nogizaka46-asahi1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220725-nogizaka46-asahi2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220725-nogizaka46-asahi3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/220725-nogizaka46-asahi4.jpg",
+			"descEpisodeSynopsis": "Project kolaborasi dengan HikamiSubs berjudul \"Nogizaka46 Otona Senbatsu Tadashii Nomikata Kenkyuchuu\" merupakan konten dari Asahi Beer yang bertujuan untuk memberantas cara-cara minum yang tidak pantas dan mempromosikan pengembangan budaya minuman beralkohol yang sehat bersama dengan 'Otona Senbatsu' atau member-member pilihan yang sudah dewasa.",
+			"nameShow": "乃木坂46 おとな選抜 正しい飲み方研究中"
+		}
+	}
+}

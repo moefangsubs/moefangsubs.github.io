@@ -1,0 +1,388 @@
+{
+	"伊藤理々杏": {
+		"type1"				: "INFP",
+		"official"			: "yes",
+		"url"				: "Nogizaka Burari #15"
+	},
+	"岩本蓮加": {
+		"type1"				: "ISFP",
+		"official"			: "yes",
+		"url"				: "Nekojita Showroom 231011"
+	},
+	"梅澤美波": {
+		"type1"				: "教えません (Tidak ingin memberitahu)",
+		"url"				: "Nekojita Showroom 240703",
+		"official"			: "yes",
+		"predict1"			: "ENFJ",
+		"predicturl1"		: "https://16labo.jp/nogizaka-mbti/",
+		"predict2"			: "INFJ",
+		"predicturl2"		: "https://www.psyctest.cn/",
+		"predict3"			: "ESTJ",
+		"predicturl3"		: "https://www.personality-database.com/"
+	},
+	"大園桃子": {
+		"official"			: "no",
+		"predict1"			: "ISFP",
+		"predicturl1"		: "https://roilly-idol.com/nogizaka46-mbti",
+		"predict2"			: "ENFP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"久保史緒里": {
+		"type1"				: "絶対に公表しない (Tidak ingin dipublikasikan)",
+		"url"				: "Nogizaka ANN 250611",
+ 		"official"			: "yes",
+ 		"predict1"			: "INTP",
+ 		"predicturl1"		: "https://16labo.jp/nogizaka-mbti/",
+ 		"predict2"			: "ISFJ",
+ 		"predicturl2"		: "https://www.psyctest.cn/",
+ 		"predict3"			: "ESFJ",
+ 		"predicturl3"		: "https://www.personality-database.com/"
+	},
+	"阪口珠美": {
+ 		"official"			: "no",
+ 		"predict1"			: "ENFP",
+ 		"predicturl1"		: "https://www.psyctest.cn/",
+ 		"predict2"			: "ESFP",
+ 		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"佐藤楓": {
+		"type1"				: "恥ずかしい (Malu)",
+ 		"url"				: "Nekojita Showroom 240703",
+ 		"official"			: "yes",
+ 		"predict1"			: "ISFP",
+ 		"predicturl1"		: "https://www.psyctest.cn/",
+ 		"predict2"			: "ENFP",
+ 		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"中村麗乃": {
+		"type1"				: "ESFP",
+ 		"url"				: "Nekojita Showroom 231011",
+ 		"official"			: "yes"
+	},
+	"向井葉月": {
+ 		"official"			: "no",
+ 		"predict1"			: "ISFP",
+ 		"predicturl1"		: "https://www.psyctest.cn/",
+ 		"predict2"			: "ENFP",
+ 		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"山下美月": {
+		"type1"				: "ISTJ",
+ 		"url"				: "Nogizaka Burari #15",
+ 		"official"			: "yes"
+	},
+	"吉田綾乃クリスティー": {
+ 		"official"			: "no",
+ 		"predict1"			: "ISFP",
+ 		"predicturl1"		: "https://www.personality-database.com/",
+ 		"predict2"			: "ISFJ",
+ 		"predicturl2"		: "https://www.psyctest.cn/"
+	},
+	"与田祐希": {
+		"type1"				: "ISTP-A",
+ 		"url"				: ["Magz Interview", "https://bisweb.jp/model/150541"],
+ 		"official"			: "yes"
+    },
+	"遠藤さくら": {
+		"type1"				: "分かりません (Tidak tahu)",
+		"url"				: ["Magz Interview", "https://nonno.hpplus.jp/entertainment/e-topic/157981/"],
+		"official"			: "yes",
+		"predict1"			: "ISTJ",
+		"predicturl1"		: "https://roilly-idol.com/nogizaka46-mbti",
+		"predict2"			: "ENFP",
+		"predicturl2"		: "https://16labo.jp/nogizaka-mbti/",
+		"predict3"			: "ISFJ",
+		"predicturl3"		: "https://www.personality-database.com/"
+	},
+	"賀喜遥香": {
+ 		"official"			: "no",
+		"predict1"			: "ISFP",
+		"predicturl1"		: "https://16labo.jp/nogizaka-mbti/",
+		"predict2"			: "INFP",
+		"predicturl2"		: "https://www.psyctest.cn/",
+		"predict3"			: "ISFJ",
+		"predicturl3"		: "https://www.personality-database.com/"
+	},
+	"掛橋沙耶香": {
+ 		"official"			: "no",
+		"predict1"			: "INFP",
+		"predicturl1"		: "https://roilly-idol.com/nogizaka46-mbti",
+		"predict2"			: "ISFP",
+		"predicturl2"		: "https://www.psyctest.cn/",
+		"predict3"			: "ISTP",
+		"predicturl3"		: "https://www.personality-database.com/"
+	},
+	"金川紗耶": {
+		"type1"				: "絶対に公表しない (Tidak ingin dipublikasikan)",
+		"url"				: "Nogizaka ANN 250611",
+ 		"official"			: "yes",
+		"predict1"			: "ESFJ",
+		"predicturl1"		: "https://roilly-idol.com/nogizaka46-mbti",
+		"predict2"			: "ESFP",
+		"predicturl2"		: "https://www.psyctest.cn/",
+		"predict3"			: "ESFP",
+		"predicturl3"		: "https://www.personality-database.com/"
+	},
+	"北川悠理": {
+ 		"official"			: "no",
+		"predict1"			: "ENFP",
+		"predicturl1"		: "https://roilly-idol.com/nogizaka46-mbti",
+		"predict2"			: "INTP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"黒見明香": {
+ 		"official"			: "no",
+		"predict1"			: "ESFP",
+		"predicturl1"		: "https://www.psyctest.cn/",
+		"predict2"			: "INTP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"佐藤璃果": {
+		"type1"				: "内緒 (rahasia)",
+		"url"				: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/102802"],
+		"official"			: "yes",
+		"predict1"			: "ESFP",
+		"predicturl1"		: "https://www.psyctest.cn/",
+		"predict2"			: "ISFP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"柴田柚菜": {
+		"type1"				: "内緒 (rahasia)",
+		"url"				: "https://www.nogizaka46.com/s/n46/diary/detail/102729",
+		"official"			: "yes",
+		"predict1"			: "ENFP",
+		"predicturl1"		: "https://www.psyctest.cn/",
+		"predict2"			: "ISFP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"清宮レイ": {
+		"type1"				: "内緒 (rahasia)",
+		"url"				: "Radio - 乃木談 #147 (240119)",
+		"official"			: "yes",
+		"predict1"			: "ENFP",
+		"predicturl1"		: "https://www.psyctest.cn/",
+		"predict2"			: "ENFP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"田村真佑": {
+		"type1"				: "ISFP",
+		"url"				: "Nekojita Showroom 230913",
+		"official"			: "yes"
+	},
+	"筒井あやめ": {
+		"type1"				: "ISTJ-A",
+		"url"				: "bisweb.jp",
+		"official"			: "yes"
+	},
+	"早川聖来": {
+ 		"official"			: "no",
+		"predict1"			: "ESFP",
+		"predicturl1"		: "https://www.psyctest.cn/",
+		"predict2"			: "ISFP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"林瑠奈": {
+		"type1"				: "INTJ",
+		"url"				: ["Blog 231203", "https://www.nogizaka46.com/s/n46/diary/detail/102123"],
+		"official"			: "yes"
+	},
+	"松尾美佑": {
+		"type1"				: "内緒 (rahasia)",
+		"url"				: "Radio - 乃木談 #147 (240119)",
+		"official"			: "no",
+		"predict1"			: "ISFP",
+		"predicturl1"		: "https://www.psyctest.cn/",
+		"predict2"			: "ISFP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"矢久保美緒": {
+		"type1"				: "INTJ",
+		"url"				: ["Instagram (Q&A Stories)", "https://nogizaka-46bunno1.blog.jp/archives/88241847.html"],
+		"official"			: "yes"
+	},
+	"弓木奈於": {
+		"type1"				: "INFP",
+		"url"				: "Nekojita Showroom 230913",
+		"official"			: "yes"
+	},
+	"五百城茉央": {
+		"type1"				: "内緒 (rahasia)",
+		"url"				: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/101910"],
+		"official"			: "no",
+		"predict1"			: "ISFJ",
+		"predicturl1"		: "https://www.psyctest.cn/",
+		"predict2"			: "ISFP",
+		"predicturl2"		: "https://www.personality-database.com/"
+	},
+	"池田瑛紗": {
+		"type1"				: "INTP",
+		"url"				: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/100344"],
+		"official"			: "yes"
+	},
+	"一ノ瀬美空": {
+		"type1"				: "ENFP",
+		"url"				: ["Magz Interview", "https://ar-mag.jp/articles/-/16551?display=full"],
+		"official"			: "yes"
+	},
+	"井上和": {
+		"type1"				: "INTP",
+		"url"				: ["Magz Interview", "https://nonno.hpplus.jp/entertainment/e-topic/160070/"],
+		"official"			: "yes"
+	},
+	"岡本姫奈": {
+		"type1"				: "INFP",
+		"url"				: ["Yakubo no Heya #27", "https://www.youtube.com/watch?v=pk15FajRd5s"],
+		"official"			: "yes"
+	},
+	"小川彩": {
+		"type1"				: "INTP",
+		"url"				: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/101567"],
+		"official"			: "yes"
+	},
+	"奥田いろは": {
+		"type1"				: "INFJ",
+		"url"				: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/100396"],
+		"type2"				: "INFP-T",
+		"source2"			: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/101970"],
+		"official"			: "yes"
+	},
+	"川崎桜": {
+		"type1"				: "INFP",
+		"url"				: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/101671"],
+		"official"			: "yes"
+	},
+	"菅原咲月": {
+		"type1"				: "INFP",
+		"url"				: ["Message - 2023.05.02 17:48", "https://weibo.com/5617891490/MEI5pE4lQ"],
+		"official"			: "yes"
+	},
+	"冨里奈央": {
+ 		"official"			: "no",
+		"predict1"			: "INFJ",
+		"predicturl1"		: "https://www.personality-database.com/",
+		"predict2"			: "ISFP",
+		"predicturl2"		: "https://www.psyctest.cn/",
+		"predict3"			: "INFJ",
+		"predicturl3"		: "https://www.personality-database.com/"
+	},
+	"中西アルノ": {
+		"type1"				: "INFP",
+		"url"				: ["Blog", "https://www.nogizaka46.com/s/n46/diary/detail/100339"],
+		"official"			: "yes"
+	},
+	"愛宕心響": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},  
+	"大越ひなの": {
+		"type1"				: "絶対に公表しない (Tidak ingin dipublikasikan)",
+		"url"				: "Nogizaka ANN 250611",
+ 		"official"			: "yes",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},
+	"小津玲奈": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},
+	"海邉朱莉": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},
+	"川端晃菜": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},
+	"鈴木佑捺": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},  
+	"瀬戸口心月": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},
+	"長嶋凛桜": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},
+	"増田三莉音": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+	},
+	"森平麗心": {
+		"type1"				: "ISFP",
+ 		"url"				: ["Blog Relay 250530", "https://www.nogizaka46.com/s/n46/diary/detail/103481"],
+ 		"official"			: "yes"
+	},
+	"矢田萌華": {
+		"type1"				: "",
+ 		"url"				: "",
+ 		"official"			: "no",
+ 		"predict1"			: "",
+ 		"predicturl1"		: "",
+ 		"predict2"			: "",
+ 		"predicturl2"		: "",
+ 		"predict3"			: "",
+ 		"predicturl3"		: ""
+  }
+}

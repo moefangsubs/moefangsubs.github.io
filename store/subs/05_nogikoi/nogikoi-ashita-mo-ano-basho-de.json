@@ -1,0 +1,56 @@
+{
+	"url": "nogikoi-ashita-mo-ano-basho-de",
+	"nameShowTitle": "Nogikoi Ashita mo Ano Basho de",
+	"nameShow": "乃木恋・明日も、あの場所で",
+	"descSynopsis": "Nogikoi kali ini berformat multi-ending, di mana akhir cerita berubah berdasarkan pilihan pengguna. Video ini juga mencakup dua ending. Dengan tema 'Pilihan Takdir dan Pertemuan', video ini diproduksi dengan pengaturan dan kostum yang tidak dapat ditemui di tempat lain, dengan keterlibatan Shiraishi dan Ikuta.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_ashita.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogikoi-ashita-mo-ano-basho-de-Q90FB",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Shiraishi Mai (Sweet)",
+			"descEpsListName": "Shiraishi Mai (Sweet)",
+			"descOnAirDate": "11 Januari 2019",
+			"memberParticipate": "白石麻衣",
+			"linkHardsub": "https://lokerwfh.net/wQmiRF6b",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-maiyan.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-06-ashitamo-mai.jpg",
+			"descEpisodeSynopsis": "Nogikoi Ashita mo ano Basho de kali ini bagian pertamanya adalah Shiraishi Mai, dan terdapat dua ending, yaitu \"sweet ending\" dan \"bitter ending\"."
+		},
+		"02": {
+			"descEpisode": "| Shiraishi Mai (Bitter)",
+			"descEpsListName": "Shiraishi Mai (Bitter)",
+			"descOnAirDate": "11 Januari 2019",
+			"memberParticipate": "白石麻衣",
+			"linkHardsub": "https://lokerwfh.net/apalJA",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-maiyan.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-06-ashitamo-mai.jpg",
+			"descEpisodeSynopsis": "Nogikoi Ashita mo ano Basho de kali ini bagian pertamanya adalah Shiraishi Mai, dan terdapat dua ending, yaitu \"sweet ending\" dan \"bitter ending\"."
+		},
+		"03": {
+			"descEpisode": "| Ikuta Erika (Sweet)",
+			"descEpsListName": "Ikuta Erika (Sweet)",
+			"descOnAirDate": "16 Januari 2019",
+			"memberParticipate": "生田絵梨花",
+			"linkHardsub": "https://lokerwfh.net/zX3ytlj",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-ikuchan.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-06-ashitamo-ikuta.jpg",
+			"descEpisodeSynopsis": "Nogikoi Ashita mo ano Basho de kali ini bagian keduanya adalah Ikuta Erika, sama seperti punyanya Maiyan terdapat dua ending, yaitu \"sweet ending\" dan \"bitter ending\"."
+		},
+		"04": {
+			"descEpisode": "| Ikuta Erika (Bitter)",
+			"descEpsListName": "Ikuta Erika (Bitter)",
+			"descOnAirDate": "16 Januari 2019",
+			"memberParticipate": "生田絵梨花",
+			"linkHardsub": "https://lokerwfh.net/4dqcX",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-ashitamo-ikuchan.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-06-ashitamo-ikuta.jpg",
+			"descEpisodeSynopsis": "Nogikoi Ashita mo ano Basho de kali ini bagian keduanya adalah Ikuta Erika, sama seperti punyanya Maiyan terdapat dua ending, yaitu \"sweet ending\" dan \"bitter ending\"."
+		}
+	}
+}

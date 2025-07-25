@@ -1,0 +1,39 @@
+{
+	"url": "nogizaka-fettucine-gummy",
+	"nameShowTitle": "Nogizaka 46 X Fettucine Gummy 'Mayottara Hazumuhou (2020)'",
+	"descSynopsis": "Nogizaka46 x Fettucine Gummi merupakan short drama kolaborasi antara Nogizaka46 dengan produk manisan Fettucine Gummi. Di short drama ini memperkenalkan juga coupling di single ke-25 \"Sayonara, stay with me\"",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_fettuci.png",
+	"filePassword" : "",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Season 1",
+			"descEpsListName": "Part 1",
+			"descOnAirDate": "8 April 2020",
+			"memberParticipate": "与田祐希、遠藤さくら、賀喜遥香、久保史緒里",
+			"linkHardsub": "https://lokerwfh.net/d4pWV",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogifettuci1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-1.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-1c.jpg",
+			"nameShow": "乃木坂４６ x フェットチーネグミ 「迷ったら、ハズむほう。」"
+		},
+		"02": {
+			"descEpisode": "| Season 2",
+			"descEpsListName": "Part 2",
+			"descOnAirDate": "29 September 2020",
+			"memberParticipate": "齋藤飛鳥、生田絵梨花、秋元真夏、松村沙友里",
+			"linkHardsub": "https://lokerwfh.net/gszz",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogifettuci2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/fettucinegummy/nogimayottara-2c.jpg",
+			"nameShow": "乃木坂４６ x フェットチーネグミ 「迷ったら、ハズむほう。」"
+		}
+	}
+}

@@ -1,0 +1,266 @@
+/* =============================================================== */
+/* == STYLING UTAMA UNTUK HALAMAN MV SUBS == */
+/* =============================================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* --- Container Utama --- */
+#mv-page-container {
+	width: 100%;
+	padding: 2rem 0;
+	font-family: 'Space Mono', monospace;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#mv-page-container h1 {
+	width: 90%;
+	font-size: 2rem;
+	color: var(--moe-tint5);
+	text-align: center;
+	margin: 0 0 1rem 0;
+	padding: 5pt 0;
+}
+
+#mv-page-container .head {
+	width: 90%;
+	padding: 1rem 0 2rem 0;
+	margin: 0;
+	color: var(--moe);
+	text-align: justify;
+}
+
+
+/* =============================================================== */
+/* == GRUP DAN JUDUL GRUP (AKB48, Sakurazaka46, etc) == */
+/* =============================================================== */
+.mv-group-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+
+.mv-group {
+	width: 90%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.mv-group h2 {
+	align-self: flex-start;
+}
+
+.akb:before, .skr:before, .hnt:before, .bao:before, .n46:before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.akb:before {background-image: url('../ico/8bit_48g.png');}
+.skr:before {background-image: url('../ico/8bit_saku.png');}
+.hnt:before {background-image: url('../ico/8bit_hina.png');}
+.n46:before {background-image: url('../ico/8bit_n46.png');}
+/* Tambahkan .bao:before jika ada ikonnya */
+
+
+/* =============================================================== */
+/* == CONTAINER SINGLE/ALBUM == */
+/* =============================================================== */
+.single-container {
+	width: 100%;
+	border: 3px solid var(--moe-tint5);
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin-bottom: 1.5rem;
+}
+
+.single-container .single-title {
+	font-size: 1.7rem;
+	font-weight: bold;
+	padding: 5px;
+	color: var(--moe);
+}
+
+.download {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	gap: 15px;
+}
+
+.cdcover {
+	width: 25%;
+	flex-shrink: 0;
+}
+
+.cdcover img {
+	width: 100%;
+	height: auto;
+	border-left: 9pt solid #e1e1e1;
+	box-shadow: 3px 3px 0 var(--moe-tint3);
+	padding: 5px;
+	background: var(--moe-tint4);
+}
+
+.songlist {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* =============================================================== */
+/* == DAFTAR LAGU (SONGLIST) == */
+/* =============================================================== */
+.songlist .mvv, .songlist .mvx {
+	width: 100%;
+	margin: 2px 0;
+	padding: 5px;
+	border-top: 1px dashed var(--moe-tint4);
+	border-bottom: 1px dashed var(--moe-tint4);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.mvx {
+	color: #737373 !important;
+}
+
+.mvv {
+	color: var(--moe);
+	background: var(--moe-tint6);
+}
+
+.song-cover {
+	list-style-type: none;
+	margin-right: 10px;
+	flex-shrink: 0;
+	display: flex; /* Ditambahkan untuk menangani beberapa gambar */
+    gap: 4px;     /* Jarak antar gambar */
+}
+
+.song-cover img {
+	width: 55px;
+	height: 55px;
+	object-fit: cover;
+	display: block;
+}
+
+.song-cover img.grayscale {
+	filter: grayscale(100%);
+	opacity: 0.6;
+}
+
+.song-title {
+	list-style-type: none;
+	flex-grow: 1;
+}
+
+.song-title p {
+	margin: 0;
+	padding: 0 5px;
+}
+
+.song-title .ro {
+	font-size: 1.3rem;
+	padding-bottom: 2px;
+}
+
+.song-title .roa {
+	font-size: 1.3rem;
+}
+
+.song-title .jp {
+	padding-top: 2px;
+	font-size: 0.8rem;
+	opacity: 0.8;
+}
+
+.song-title .cat {
+	display: inline-block;
+	padding: 3px 6px;
+	background: var(--moe-tint5);
+	margin-top: 5px;
+	font-size: 8pt;
+	font-weight: 400;
+	color: white;
+}
+
+/* --- TOMBOL DOWNLOAD --- */
+.song-download {
+	list-style-type: none;
+	flex-shrink: 0;
+}
+
+.song-download a {
+	font-weight: bold;
+	cursor: pointer;
+	border: 1px solid white;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	background: var(--moe-tint4);
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	margin-right: 5px;
+	transition: all 0.2s ease-in-out;
+}
+
+.song-download a:before {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../sprite/element/download.svg');
+}
+
+.song-download a:hover {
+	background: var(--moe-tint5);
+	box-shadow: 6px 6px 0 var(--moe-tint3);
+	transform: translate(-2px, -2px);
+}
+
+/* =============================================================== */
+/* == RESPONSIVE ADJUSTMENTS == */
+/* =============================================================== */
+
+@media screen and (max-width: 768px) {
+	#mv-page-container h1 {
+		font-size: 1.5rem;
+	}
+
+	.download {
+		flex-direction: column;
+	}
+
+	.cdcover, .songlist {
+		width: 100%; /* Mengisi lebar penuh */
+	}
+
+	.cdcover {
+		width: 50%;
+		margin: 0 auto 1rem auto;
+	}
+
+	.song-title .ro, .song-title .roa {
+		font-size: 1.1rem;
+	}
+}

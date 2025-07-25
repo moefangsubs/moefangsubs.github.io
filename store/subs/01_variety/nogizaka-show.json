@@ -1,0 +1,40 @@
+{
+	"url": "nogizaka-show",
+	"nameShowTitle": "NOGIZAKA46 SHOW!",
+	"nameShow": "NOGIZAKA46 SHOW!",
+	"descSynopsis": "Sebuah acara dari induknya AKB48SHOW, merupakan acara yang mencakup penampilan live di studio, wawancara, percakapan, sketsa, liputan lokasi, dan dokumenter yang memperkenalkan pesona para member dari berbagai sudut kepada penggemar. Untuk NOGIZAKA46 SHOW! sendiri dimulai dari 1 Maret 2014, dimana merupakan saingan resmi AKB48, memiliki acara terpisah yang disebut 'Bessatsu Nogizaka46 SHOW!' yang ditayangkan secara tidak teratur.",
+	"availableEpisode": [
+		"142",
+		"38"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ngzshow.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogishow{{eps}}.jpg",
+	"episodes": {
+		"142": {
+			"descEpisode": "| Episode 142 (14)",
+			"descOnAirDate": "18 Februari 2017",
+			"memberParticipate": "橋本奈々未、桜井玲香",
+			"linkHardsub": "https://lokerwfh.net/Ktves",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-show-ep3-softsub-hardsub-abzmY",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-142.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-142a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-142b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-142e.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-142f.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan santai kali ini MoeFang mencoba merilis episode ke-14 dari NOGIZAKA46 SHOW! atau AKB48 Show episode 142. Kali ini spesial episode dimana kapten Sakurai Reika mengobrol dengan Hashimoto Nanami yang memutuskan lulus dari grup."
+		},
+		"38": {
+			"descEpisode": "| Episode 38 (3)",
+			"descOnAirDate": "2 Agustus 2014",
+			"memberParticipate": "桜井玲香、白石麻衣、西野七瀬、橋本奈々未、若月佑美、秋元真夏、生駒里奈、松村沙友理、松井玲奈",
+			"linkHardsub": "https://lokerwfh.net/2wWT5",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-show-ep3-softsub-hardsub-abzmY",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-38.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-38a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-38b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-38c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/nogizaka46show/nogizaka46show-38d.jpg",
+			"descEpisodeSynopsis": "Kali ini member yang akan melakukan skits adalah Shiraishi Mai, Nishino Nanase, Akimoto Manatsu dan Hashimoto Nanami. Juga ada part 2 berdialog bareng Sakurai Reika dengan Wakatsuki Yumi, Ikoma Rina dan Matsumura Sayuri."
+		}
+	}
+}

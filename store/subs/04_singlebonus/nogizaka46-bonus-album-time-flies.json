@@ -1,0 +1,26 @@
+{
+	"url": "nogizaka46-bonus-album-time-flies",
+	"nameShowTitle": "Nogizaka46 Bonus Best Album \"Time Flies\"",
+	"descSynopsis": "Dalam koleksi ini dirilis juga 'Nogizaka46 10th Anniversary Documentary Movie \"10nen no Ayumi\"', sebuah video berdurasi panjang yang berisi perjalanan sejarah Nogizaka46 dari awal dibentuk hingga saat Best Album ini dirilis.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_timeflies.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 10th Anniversary Documantary Movie - 10nen no Ayumi",
+			"descEpsListName": "10nen no Ayumi",
+			"descOnAirDate": "15 Desember 2021",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/oMBYj8lR",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-10nen-no-ayumi-hardsub-softsub-z50gh",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_timeflies_10nenayumi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus-album-timeflies/10nenayumi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus-album-timeflies/10nenayumi-1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus-album-timeflies/10nenayumi-2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus-album-timeflies/10nenayumi-3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/bonus-album-timeflies/10nenayumi-4.jpg",
+			"nameShow": "\"10th Anniversary \"Documentary Movie「10年の歩み」"
+		}
+	}
+}

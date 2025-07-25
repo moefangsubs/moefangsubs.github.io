@@ -1,0 +1,242 @@
+{
+	"url": "nogizaka-skits-act-1",
+	"nameShowTitle": "Nogizaka Skits",
+	"nameShow": "ノギザカスキッツ",
+	"descSynopsis": "Nogizaka Skits merupakan acara variety show menggantikan 'Nogizaka Doko e' sebagai acara utama Nogizaka46 gen-4. Acara ini masih bersama komedian Saraba Seishun no Hikari, yaitu Morita dan Higashi Bukuro. Mereka berdua juga turut ikut berperan dalam berbagai sketsa komedi.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16",
+		"17",
+		"18",
+		"19",
+		"20"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiskits1.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/nskit-01-{{eps}}a.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskits/nogskits-act1-{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskits/nogskits-act1-{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskits/nogskits-act1-{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskits/nogskits-act1-{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskits/nogskits-act1-{{eps}}d.jpg",
+	"linkTrakteerA": "https://trakteer.id/moefangsubs/showcase/batch-softsub-nogizaka-skits-act1-IfYaZ",
+	"TrakteerA" : "Hardsub & Softsub",
+	"linkFont": "https://drive.google.com/uc?export=download&id=1lsRJ9KQvxy4NwbuxCAC-hHK_fUt7pOnV",
+	"linkRAW": "https://misaka46.blogspot.com/search/label/Nogizaka%20Skits",
+	"RawSource":"Misaka46",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "16 Juni 2020",
+			"descSkitsA": "「キャプテンユリ」",
+			"descSkitsB": "「まゆたんは愛されたい」",
+			"memberParticipate": "掛橋沙耶香、北川悠理、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、矢久保美緒、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/c4nqcWDy",
+			"linkSoftsub": "https://lokerwfh.net/V2nIzfe",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-Dc8iF"
+		},
+		"02": {
+			"descOnAirDate": "23 Juni 2020",
+			"descSkitsA": "「オーディション」",
+			"descSkitsB": "「FUWANちゃん」",
+			"memberParticipate": "遠藤さくら、賀喜遥香、掛橋沙耶香、金川紗耶、清宮レイ、田村真佑、筒井あやめ、早川聖来、柴田柚菜、田村真佑、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/BUgDSfb",
+			"linkSoftsub": "https://lokerwfh.net/YIpe7fjn",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-Dc8iF"
+		},
+		"03": {
+			"descOnAirDate": "30 Juni 2020",
+			"descSkitsA": "「麗しのレイランド様」～コンビニ編～",
+			"descSkitsB": "「週刊スキッツ編集部」",
+			"memberParticipate": "清宮レイ、筒井あやめ、早川聖来 、賀喜遥香、金川紗耶、柴田柚菜、田村真佑、早川聖来",
+			"linkHardsub": "https://lokerwfh.net/yCU9wq",
+			"linkSoftsub": "https://lokerwfh.net/zYMOQO",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-Dc8iF"
+		},
+		"04": {
+			"descOnAirDate": "7 Juli 2020",
+			"descSkitsA": "「キャプテンユリ」 第2話",
+			"descSkitsB": "「メンタルリストAYAME」",
+			"memberParticipate": "掛橋沙耶香、北川悠理、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、林瑠奈、松尾美佑、矢久保美緒、弓木奈於、掛橋沙耶香、北川悠理、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/kdDd",
+			"linkSoftsub": "https://lokerwfh.net/kifXb",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-Dc8iF"
+		},
+		"05": {
+			"descOnAirDate": "14 Juli 2020",
+			"descSkitsA": "「天使と悪魔」",
+			"descSkitsB": "「やんちゃなやんちゃん」",
+			"memberParticipate": "遠藤さくら、金川紗耶、筒井あやめ、早川聖来、賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/26Qv",
+			"linkSoftsub": "https://lokerwfh.net/sgPa",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-Dc8iF"
+		},
+		"06": {
+			"descOnAirDate": "21 Juli 2020",
+			"descSkitsA": "「保険ポリスは許さない」",
+			"descSkitsB": "「まいどCAFE」",
+			"memberParticipate": "掛橋沙耶香、清宮レイ、賀喜遥香、早川聖来",
+			"linkHardsub": "https://lokerwfh.net/4xhl",
+			"linkSoftsub": "https://lokerwfh.net/M3YxBV1",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep06-10-y2gGM"
+		},
+		"07": {
+			"descOnAirDate": "28 Juli 2020",
+			"descSkitsA": "「第8世代オーディション」",
+			"descSkitsB": "「スマイルガールズ」",
+			"memberParticipate": "遠藤さくら、掛橋沙耶香、北川悠理、田村真佑、林瑠奈、弓木奈於、柴田柚菜、清宮レイ、早川聖来",
+			"linkHardsub": "https://lokerwfh.net/bImZE",
+			"linkSoftsub": "https://lokerwfh.net/eQzA",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep06-10-y2gGM"
+		},
+		"08": {
+			"descOnAirDate": "4 Agustus 2020",
+			"descSkitsA": "「ホワイトエンジェルの災難」",
+			"descSkitsB": "「やんちゃなやんちゃん」 第2話",
+			"memberParticipate": "遠藤さくら、佐藤璃果、北川悠理、筒井あやめ、賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/2FavjBCv",
+			"linkSoftsub": "https://lokerwfh.net/EtofPTMK",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep06-10-y2gGM"
+		},
+		"09": {
+			"descOnAirDate": "11 Agustus 2020",
+			"descSkitsA": "「潜入!アイドル道場」",
+			"descSkitsB": "「まゆたんは愛されたい」",
+			"memberParticipate": "金川紗耶、黒見明香、清宮レイ、田村真佑、林瑠奈、松尾美佑、矢久保美緒、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/y802ynP",
+			"linkSoftsub": "https://lokerwfh.net/vIE4daX",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep06-10-y2gGM"
+		},
+		"10": {
+			"descOnAirDate": "18 Agustus 2020",
+			"descSkitsA": "「キャプテンユリ」 第3話",
+			"descSkitsB": "「ギャルの恩返し」",
+			"memberParticipate": "遠藤さくら、掛橋沙耶香、北川悠理、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、矢久保美緒、筒井あやめ、早川聖来",
+			"linkHardsub": "https://lokerwfh.net/hZ4sJw",
+			"linkSoftsub": "https://lokerwfh.net/tI7Iy",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep06-10-y2gGM"
+		},
+		"11": {
+			"descOnAirDate": "25 Agustus 2020",
+			"descSkitsA": "「スーパーセレブお嬢様・早小路セイラ」",
+			"descSkitsB": "「保険ポリスは許さない」 第2話",
+			"memberParticipate": "佐藤璃果、筒井あやめ、早川聖来、掛橋沙耶香、清宮レイ、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/fa5Z2JYM",
+			"linkSoftsub": "https://lokerwfh.net/xgOeYE",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep11-15-q5XC6"
+		},
+		"12": {
+			"descOnAirDate": "1 September 2020",
+			"descSkitsA": "「メンタルリストAYAME」 第2話",
+			"descSkitsB": "「やんちゃなやんちゃん」 第3話",
+			"memberParticipate": "遠藤さくら、賀喜遥香、金川紗耶、黒見明香、佐藤璃果、筒井あやめ、松尾美佑、弓木奈於、賀喜遥香、金川紗耶、早川聖来",
+			"linkHardsub": "https://lokerwfh.net/QseO",
+			"linkSoftsub": "https://lokerwfh.net/dvWJHj",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep11-15-q5XC6"
+		},
+		"13": {
+			"descOnAirDate": "8 September 2020",
+			"descSkitsA": "「麗しのレイランド様」",
+			"descSkitsB": "「妄想少女かっきー」",
+			"memberParticipate": "遠藤さくら、賀喜遥香、清宮レイ、林瑠奈、賀喜遥香、黒見明香、筒井あやめ",
+			"linkHardsub": "https://lokerwfh.net/O3k3t",
+			"linkSoftsub": "https://lokerwfh.net/lwjeusB",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep11-15-q5XC6"
+		},
+		"14": {
+			"descOnAirDate": "15 September 2020",
+			"descSkitsA": "「かつ家」",
+			"descSkitsB": "「FUWANちゃん」 第2話",
+			"memberParticipate": "掛橋沙耶香、北川悠理、佐藤璃果、林瑠奈、弓木奈於、遠藤さくら、金川紗耶、筒井あやめ、矢久保美緒",
+			"linkHardsub": "https://lokerwfh.net/8YMm",
+			"linkSoftsub": "https://lokerwfh.net/ITgL",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep11-15-q5XC6"
+		},
+		"15": {
+			"descOnAirDate": "22 September 2020",
+			"descSkitsA": "「キュンキュン病棟24時」",
+			"descSkitsB": "「スマイルガールズ」 第2話",
+			"memberParticipate": "遠藤さくら、佐藤璃果、清宮レイ、田村真佑、矢久保美緒、松尾美佑、柴田柚菜、清宮レイ、早川聖来、林瑠奈、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/LDfp",
+			"linkSoftsub": "https://lokerwfh.net/bCva",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep11-15-q5XC6"
+		},
+		"16": {
+			"descOnAirDate": "29 September 2020",
+			"descSkitsA": "「モーリーズエンジェル」",
+			"descSkitsB": "「キュンキュン病棟24時」 第2話",
+			"memberParticipate": "掛橋沙耶香、金川紗耶、清宮レイ、田村真佑、弓木奈於、遠藤さくら、佐藤璃果、清宮レイ、田村真佑、矢久保美緒、松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/mnhl",
+			"linkSoftsub": "https://lokerwfh.net/GcWPbW",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep16-5N1VY"
+		},
+		"17": {
+			"descOnAirDate": "6 Oktober 2020",
+			"descSkitsA": "「陰キャアイドル・刹那少女」",
+			"descSkitsB": "「やんちゃなやんちゃん」 第4話",
+			"memberParticipate": "早川聖来、林瑠奈、弓木奈於、賀喜遥香、金川紗耶、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/PWPOw8",
+			"linkSoftsub": "https://lokerwfh.net/1rLeh",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep17-hip3V"
+		},
+		"18": {
+			"descOnAirDate": "13 Oktober 2020",
+			"descSkitsA": "「恋愛シスターさくら」",
+			"descSkitsB": "「保険ポリスは許さない」 第3話",
+			"memberParticipate": "遠藤さくら、柴田柚菜、早川聖来、掛橋沙耶香、佐藤璃果、清宮レイ、松尾美佑、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/yl29",
+			"linkSoftsub": "https://lokerwfh.net/QDplNRcQ",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep18-1F9ft"
+		},
+		"19": {
+			"descOnAirDate": "20 Oktober 2020",
+			"descSkitsA": "「まゆたんは愛されたい」 第3話",
+			"descSkitsB": "「かつ家」 第2話",
+			"memberParticipate": "北川悠理、田村真佑、林瑠奈、賀喜遥香、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、筒井あやめ",
+			"linkHardsub": "https://lokerwfh.net/0FuUEIC7",
+			"linkSoftsub": "https://lokerwfh.net/RK1b",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep19-iOesr"
+		},
+		"20": {
+			"descOnAirDate": "27 Oktober 2020",
+			"descSkitsA": "第1回ノギスキキャラデミー賞",
+			"descSkitsB": "",
+			"memberParticipate": "遠藤さくら、賀喜遥香、掛橋沙耶香、金川紗耶、北川悠理、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、早川聖来、林瑠奈、松尾美佑、矢久保美緒、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/ZyTDDmNl",
+			"linkSoftsub": "https://lokerwfh.net/dq6hZU",
+			"TrakteerB": "HULU",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogisuki-machisowakan-act-1-ep20-X7I8X"
+		}
+	}
+}

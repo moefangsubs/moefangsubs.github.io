@@ -1,0 +1,42 @@
+{
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_ryosangataruka.png",
+	"url": "ryosangata-ruka",
+	"nameShowTitle": "Ryosangata Ruka: Puramo Buin no Aoki Gyakushu (2025)",
+	"nameShow": "量産型ルカ -プラモ部員の青き逆襲-",
+	"descSynopsis": "Takamine Ruka (alias Takaruka) dan Seto Ruka (alias Setoruka) adalah siswi SMA biasa yang bersekolah di SMA Nozomigaoka. Kedua sahabat masa kecil ini selalu bersama sejak mereka muda, sehingga mereka dijuluki \"Rukaruka\" oleh orang-orang di sekitar mereka. Suatu hari, di tahun ketiga SMA, Takaruka merasa resah dengan perkataan seorang teman yang berkata padanya, \"Sama saja jika kamu hanya datang ke sekolah dan pulang setiap hari.\" Saat itu, ia menemukan sebuah ruang kelas yang dihias dengan permen di bagian belakang gedung sekolah dan diundang masuk... Ternyata, itu adalah klub model kit, yang berada di ambang penutupan. Keduanya memutuskan untuk membuat model kit atas desakan penasihat mereka, Yomota-sensei, yang dijuluki \"Yomo-san,\" dan terpikat oleh pesona misterius dari model-model tersebut, yang secara bertahap menarik siswa lain dan pihak sekolah untuk ikut terlibat...",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"newUpdateCount": 3,
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ruka{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/ryosangata-ruka-fZbjJ",
+	"filePassword": "RukaRuka-KakkiMenmen!",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "3 Juli 2025",
+			"memberParticipate": "賀喜遥香、筒井あやめ",
+			"linkHardsub": "https://sfl.gl/KL2UaDnr"
+		},
+		"02": {
+			"descOnAirDate": "10 Juli 2025",
+			"descEpisodeSynopsis": "Di suatu hari libur, saat sepeda Setoruka rusak dan ia kebingungan, seorang pengendara motor wanita muncul di hadapannya. Begitu matanya bertemu dengan lampu motor, Setoruka langsung jatuh hati pada motor tersebut. Keesokan harinya, Takaruka menyadari ada yang aneh dengan tingkah Setoruka yang kini memegang majalah motor... Sementara itu, Yomo-san mencoba berbagai cara untuk mengajak Rukaruka bergabung dengan klub model kit...",
+			"memberParticipate": "賀喜遥香、筒井あやめ",
+			"linkHardsub": "https://sfl.gl/0jSyC"
+		},
+		"03": {
+			"descOnAirDate": "17 Juli 2025",
+			"descEpisodeSynopsis": "Takaruka dan Setoruka akhirnya berhasil bergabung dengan klub model kit! Tepat ketika mereka berpikir telah lolos dari krisis pembubaran, sebuah fakta mengejutkan terungkap: klub akan dibubarkan jika tidak memiliki tiga anggota sebelum akhir semester pertama! Untuk menyelamatkan klub sekali lagi, Rukaruka mencari satu anggota tambahan. Mereka kemudian mengincar Wataru, seorang siswa yang tidak ikut klub. Namun, membujuk Wataru yang memiliki masalah pribadi ternyata sulit, hingga akhirnya pecah pertengkaran antara Takaruka dan Wataru...",
+			"memberParticipate": "賀喜遥香、筒井あやめ",
+			"linkHardsub": "https://sfl.gl/Rswx"
+		}
+	},
+	"descEpisode": "| Episode {{eps}}"
+}
+

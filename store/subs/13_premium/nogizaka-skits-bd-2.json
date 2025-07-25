@@ -1,0 +1,25 @@
+{
+	"url": "nogizaka-skits-bd-2",
+	"nameShowTitle": "Nogizaka Skits Bd/Dvd Box Vol.2",
+	"descSynopsis": "Konten-konten Nogizaka Skits versi Blu-Ray edisi ke-2.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_nogiskitsdvd2.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Making of Vol. 2",
+			"descEpsListName": "Making of",
+			"descOnAirDate": "2 April 2021",
+			"memberParticipate": "遠藤さくら、賀喜遥香、掛橋沙耶香、金川紗耶、北川悠理、黒見明香、佐藤璃果、柴田柚菜、清宮レイ、田村真佑、筒井あやめ、早川聖来、林瑠奈、松尾美佑、矢久保美緒、弓木奈於",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-skits-making-of-vol2-k7UkX",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/nskitsbd01_makingof2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogiskitsbonus/nogiskibd-makingof-02c.jpg",
+			"descEpisodeSynopsis": "Nogizaka Skits ini adalah bonus dari BluRay/DVD-Box Vol.2 nya yang telah dijual 2 April 2021. Di kesempatan kali ini adalah making of dari Nogizaka Skits ACT 1 paruh kedua.",
+			"nameShow": "ノギザカスキッツ　メイキング"
+		}
+	}
+}

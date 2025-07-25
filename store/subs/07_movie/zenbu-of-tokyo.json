@@ -1,0 +1,27 @@
+{
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_zenbuoftokyo.png",
+	"url": "zenbu-of-tokyo",
+	"nameShowTitle": "Zenbu of Tokyo (2024)",
+	"descSynopsis": "Seorang ketua kelas bernama Ikezono telah menyusun jadwal karyawisata yang sempurna untuk grupnya di Tokyo. Namun, pada hari tur, ia ditinggalkan sendirian karena semua anggota grupnya ternyata memiliki agenda rahasia masing-masing dan berpencar ke seluruh kota. Misi mereka beragam, mulai dari mengikuti audisi idola, membeli merchandise edisi terbatas, hingga mengejar laki-laki idaman. Meskipun bingung dan sendirian, Ikezono memutuskan untuk tetap menjalankan rencana perjalanannya, sementara kisah ini secara bersamaan mengikuti petualangan para siswi lain dalam upaya mereka mencapai tujuan pribadi mereka di berbagai lokasi di Tokyo.",
+	"availableEpisode": [
+		"01"
+	],
+	"episodes": {
+		"01": {
+			"descEpsListName": "Movie",
+			"descEpisode": "Movie",
+			"descOnAirDate": "25 Oktober 2024",
+			"memberParticipate": "正源司陽子、渡辺莉奈、藤嶌果歩、石塚瑶季、小西夏菜実、竹内希来里、平尾帆夏、平岡海月、清水理央、宮地すみれ、山下葉留花",
+			"linkHardsub": "https://sfl.gl/0VtLifq",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/zenbu-of-tokyo-EfXq0",
+			"filePassword": "KuInginKelilingTokyo-Bersama-TemanSMA",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/zenbuoftokyo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/zenbuoftokyo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/zenbuoftokyo1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/zenbuoftokyo2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/zenbuoftokyo3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/zenbuoftokyo4.jpg",
+			"nameShow": "ゼンブ・オブ・トーキョー"
+		}
+	}
+}

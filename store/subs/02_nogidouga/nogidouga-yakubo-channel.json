@@ -1,0 +1,35 @@
+{
+	"url": "nogidouga-yakubo-channel",
+	"nameShowTitle": "Yakubo Channel",
+	"nameShow": "矢久保チャンネル",
+	"descSynopsis": "Yakubo Channel (mengambil alih Kubo Channel), merupakan segmen food report dimana Yakubo Mio dari gen-4 akan melaporkan apa yang dimakan oleh para member Nogizaka46 saat Manatsu no Zenkoku Tour 2022.",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_yakubochannel.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/yakubochannel{{eps}}.jpg",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "22 Juli 2022",
+			"memberParticipate": "矢久保美緒、五百城茉央",
+			"linkHardsub": "https://drive.google.com/file/d/1aA_z73GDioF5aUuiCsy9bUEDE_wnOyjk/view",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel01c.jpg",
+			"descEpisodeSynopsis": "Episode kali ini berlokasi di Osaka bersama gen-5 Ioki Mao."
+		},
+		"02": {
+			"descOnAirDate": "27 Juli 2022",
+			"memberParticipate": "矢久保美緒、和田まあや、林瑠奈、小川彩",
+			"linkHardsub": "https://drive.google.com/file/d/1kRw5GPMq64UqFahAF-MwM30UBVa-BH10/view",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yakubochannel02c.jpg",
+			"descEpisodeSynopsis": "Di episode 2 kali ini berlokasi di Hiroshima bersama gen-5 Ogawa Aya dan dari senpai gen-1 Wada Maaya yang asli wong Hiroshima."
+		}
+	},
+	"descEpisode": "| Episode {{eps}}"
+}

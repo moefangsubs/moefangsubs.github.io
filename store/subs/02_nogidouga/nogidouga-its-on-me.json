@@ -1,0 +1,40 @@
+{
+	"url": "nogidouga-its-on-me",
+	"nameShowTitle": "It's on Me ~Watashi no Ogori desu~",
+	"nameShow": "イッツオンミー〜私の奢りです〜",
+	"descSynopsis": "\"It's on me\" berarti \"Aku yang traktir\", adalah acara tantangan dari Nogi Douga di mana para member mencoba menyelesaikan misi yang diberikan oleh tim acara. Jika mereka berhasil, maka biaya untuk dua orang—yaitu si penantang dan member yang menemaninya—akan ditraktir oleh tim acara. Namun jika gagal, maka mereka harus membayar sendiri",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"newUpdateCount": 3,
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_itsonme.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/itsonme{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/itsonme/itsonme{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/itsonme/itsonme{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/itsonme/itsonme{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/itsonme/itsonme{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/itsonme/itsonme{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/its-on-me-GYvBC",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "1 Januari 2025",
+			"memberParticipate": "池田瑛紗、五百城茉央",
+			"linkHardsub": "https://sfl.gl/yrrx",
+			"descEpisodeSynopsis": "Kali ini, yang menantang misi adalah Ikeda Teresa. Tanpa memberi tahu apa-apa, ia mengajak Ioki Mao ke sebuah kafe yang stylish. Apakah Ikeda akan berhasil menyelesaikan misinya?"
+		},
+		"02": {
+			"descOnAirDate": "22 Februari 2025",
+			"memberParticipate": "弓木奈於、川﨑桜",
+			"linkHardsub": "https://sfl.gl/aXkVIA",
+			"descEpisodeSynopsis": "Kali ini, yang menantang misi adalah Yumiki Nao. Ia mengundang kouhai yang akrab dengannya, Kawasaki Sakura, ke sebuah restoran yakiniku bergaya Kyoto dengan harapan, \"Aku ingin dia makan makanan enak\". Meskipun Yumiki terlihat agak kurang percaya diri dan berkata, \"Sepertinya ini tidak akan semudah itu,\" akankah ia berhasil menyelesaikan dua misi yang diberikan?"
+		},
+		"03": {
+			"descOnAirDate": "19 Maret 2025",
+			"memberParticipate": "田村真佑、小川彩",
+			"linkHardsub": "https://sfl.gl/p721",
+			"descEpisodeSynopsis": "Kali ini, yang menantang misi adalah Tamura Mayu. Tamura, yang mengaku menyukai jou mino (bagian dari daging sapi), mengajak Ogawa Aya, kouhai yang juga merupakan member dari Mayutan Kyoukai, ke sebuah restoran horumon (menu daging organ/sapi khas Jepang). Setelah mendengar isi misinya, Tamura tampak sedikit khawatir sambil berkata, \"Karena Aaya itu anak yang baik…\". Namun ia langsung menegaskan semangatnya, \"Aku akan benar-benar menilainya dengan baik!\". Akankah Tamura berhasil menyelesaikan dua misi yang diberikan?"
+		}
+	}
+}

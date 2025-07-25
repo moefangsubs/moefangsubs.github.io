@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- Title -->
+    <title>MoeData</title>
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- Kepala dan kaki wkwkwk -->
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_calendar.css">
+
+	<!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+
+</head>
+<body>
+
+    <div id="main">
+        <div class="container">
+            <h1>MEMBER BIRTHDAY CALENDAR</h1>
+            <p class="caption">
+                Halaman ini hanya sebagai referensi bagi kalian yang ingin tahu ultahnya oshi kalian, atau member lainnya. Dalam list ini adalah urutan tanggal lahir member Sakamichi Series (Nogizaka46, Keyakizaka46, Sakurazaka46, Hinatazaka46) dan Boku ga Mitakatta Aozora. Semua data berdasarkan dari website resmi masing-masing grup, 48pedia, Stage48. Dengan tampilan baru, kami membuatnya lebih cepat dan responsif. Pada versi sebelumnya, kami menghapus member yang sudah graduate, namun sekarang tidak (kecuali member Kenkyuusei). Foto individual akan diupdate pada perilisan single/album baru dari masing-masing grup dan sudah terpajang di official website-nya.
+            </p>
+            <h6 class="note"><i>Recently Update (250734) : Nogizaka46 39th, Hinatazaka46 13rd, Sakurazaka46 12th, BokuAo 5th</i></h6>
+
+            <div id="hbd-container" class="hbd-container">
+                </div>
+
+            <div class="dropdown">
+              <button class="dropdown-btn active" data-filter="all">全</button>
+              <button class="dropdown-btn" data-filter="nogi">乃</button>
+              <button class="dropdown-btn" data-filter="saku">櫻</button>
+              <button class="dropdown-btn" data-filter="hina">日</button>
+              <button class="dropdown-btn" data-filter="boku">僕青</button>
+              <button class="dropdown-btn" data-filter="gradn">卒業 乃</button>
+              <button class="dropdown-btn" data-filter="gradk">卒業 欅</button>
+              <button class="dropdown-btn" data-filter="grads">卒業 櫻</button>
+              <button class="dropdown-btn" data-filter="gradh">卒業 日</button>
+            </div>
+
+            <div id="calendar-container" class="calendar-container">
+                </div>
+        </div>
+    </div>
+    <script src="../js/script_calendar.js"></script>
+</body>
+</html>

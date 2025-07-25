@@ -1,0 +1,100 @@
+{
+	"url": "ryosangata-riko-season-3",
+	"nameShowTitle": "Ryosangata Riko: Saigo no Puramo Joshi no Jinsei Kumitate Ki (2024)",
+	"nameShow": "量産型リコ -最後のプラモ女子の人生組み立て記-",
+	"descSynopsis": "Komukai Riko, anak kedua dalam keluarganya, kembali ke rumah setelah kematian kakeknya dan menemukan model plastik setengah jadi. Dipandu ke toko langganan sang kakek, Riko memutuskan menyelesaikan model tersebut dan menghabiskan musim panas di rumah, demi memahami kakeknya dan keluarganya lebih dalam.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_ryosangatarikos3.png",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangatarikos3/ryosangatarikos3-{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangatarikos3/ryosangatarikos3-{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangatarikos3/ryosangatarikos3-{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangatarikos3/ryosangatarikos3-{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangatarikos3/ryosangatarikos3-{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/ryosangata-riko-season-3-XM6cV",
+	"filePassword" : "Season3RikoMerakit",
+	"episodes": {
+		"01": {
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "28 Juni 2024",
+			"linkHardsub": "https://sfl.gl/HvI0SW",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-01.jpg",
+			"descEpisodeSynopsis": "Komukai Riko mendengar kabar duka tentang kematian kakeknya dan memutuskan untuk pulang ke kampung halaman. Saat berada di rumah, Riko menemukan 'model kit yang belum selesai' dari barang peninggalan kakeknya. Merasa harus menyelesaikan apa yang tertunda, Riko pun menuju 'Toko Model Kit Yajima.'"
+		},
+		"02": {
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "5 Juli 2024",
+			"linkHardsub": "https://sfl.gl/EJx2U",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-02.jpg",
+			"descEpisodeSynopsis": "Saat tinggal di rumah orang tua, Riko dan keluarganya kedatangan keponakan mereka, Yuuto. Senang bisa bertemu kembali, keluarga pergi belanja, meninggalkan Riko dan Yuuto di rumah. Riko pun merencanakan sebuah ide untuk membuat model kit bersama Yuuto."
+		},
+		"03": {
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "12 Juli 2024",
+			"linkHardsub": "https://sfl.gl/oLQdWL",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-03.jpg",
+			"descEpisodeSynopsis": "Suatu hari, ketiga bersaudara Riko menyadari bahwa rumah mereka penuh dengan pernak-pernik idola yang misterius. Ternyata, idola tersebut adalah orang yang menjadi kegemaran sang ibu! Ketiga bersaudara itu pun mulai menyelidiki lebih jauh untuk menghindari invasi idola di rumah mereka..."
+		},
+		"04": {
+			"descEpsListName": "Episode 4",
+			"descOnAirDate": "19 Juli 2024",
+			"linkHardsub": "https://sfl.gl/8HUOjAb9",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-04.jpg",
+			"descEpisodeSynopsis": "Ayah Riko, Koichiro, adalah sosok ayah yang baik hati yang rela menghadapi bahaya demi keluarganya. Saat Riko menghadapi masalah di pekerjaan, ia mencoba untuk curhat pada ayahnya. Namun, karena tegang, Koichiro tidak dapat mengucapkan sepatah kata pun."
+		},
+		"05": {
+			"descEpsListName": "Episode 5",
+			"descOnAirDate": "26 Juli 2024",
+			"linkHardsub": "https://sfl.gl/fuhmoc",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-05.jpg",
+			"descEpisodeSynopsis": "Riko ingin pergi ke festival kembang api di kota sebelah bersama ayahnya, Koichiro. Namun, sebuah insiden membuat Koichiro batal datang. Kecewa, Riko pergi ke Toko Model Kit Yajima untuk mengalihkan pikirannya."
+		},
+		"06": {
+			"descEpsListName": "Episode 6",
+			"descOnAirDate": "2 Agustus 2024",
+			"linkHardsub": "https://sfl.gl/ekmedu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-06.jpg",
+			"descEpisodeSynopsis": "Yumi, yang sedang tinggal di rumah keluarga, memiliki masalah dalam hubungan pernikahannya. Khawatir, Riko mengajak Yumi ke Toko Model Kit Yajima untuk membuat model kit bersama. Di sana, sisi hati Yumi yang belum pernah ia ungkapkan akhirnya terlihat..."
+		},
+		"07": {
+			"descEpsListName": "Episode 7",
+			"descOnAirDate": "9 Agustus 2024",
+			"linkHardsub": "https://sfl.gl/fU6b",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-07.jpg",
+			"descEpisodeSynopsis": "Riko dan teman masa kecilnya, Asai, pergi untuk membantu seseorang. Di tengah misi mereka, tiba-tiba muncul seekor babi hutan ganas! Setelah berjuang dan Asai terluka, Riko pergi ke Toko Model Kit Yajima untuk mengobati lukanya."
+		},
+		"08": {
+			"descEpsListName": "Episode 8",
+			"descOnAirDate": "16 Agustus 2024",
+			"linkHardsub": "https://sfl.gl/dXzl",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-08.jpg",
+			"descEpisodeSynopsis": "Riko mengetahui bahwa adik perempuannya, Kae, sedang bingung soal masa depannya. Untuk memperkenalkan hobi yang disukainya, Riko mengajak Kae ke Toko Model Kit Yajima. Saat melihat Riko menikmati hobi dan merampungkan model kitnya, Kae pun menemukan inspirasi..."
+		},
+		"09": {
+			"descEpsListName": "Episode 9",
+			"descOnAirDate": "23 Agustus 2024",
+			"linkHardsub": "https://sfl.gl/Lmj0",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-09.jpg",
+			"descEpisodeSynopsis": "Di kota Toichi, tempat keluarga Riko tinggal, sedang ada rencana pengembangan resor pemandian air panas. Saat perusahaan resor tiba-tiba menegosiasikan penggusuran, terjadilah perdebatan besar dalam keluarga Komukai! Bagi Riko dan keluarganya, apa arti keadilan sebenarnya?"
+		},
+		"10": {
+			"descEpsListName": "Episode 10",
+			"descOnAirDate": "30 Agustus 2024",
+			"linkHardsub": "https://sfl.gl/OiZR1P0P",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ryosangatarikos3-10.jpg",
+			"descEpisodeSynopsis": "Keluarga Komukai terpecah antara setuju dan tidak setuju soal penggusuran. Riko menemukan model kit milik kakeknya yang menyimpan kenangan lama. Dia pun mengusulkan agar mereka membuat model kit bersama sebagai keluarga. Akankah hati mereka yang terpecah bisa kembali bersatu...?"
+		}
+	},
+	"descEpisode": "| Episode {{eps}}",
+	"memberParticipate": "与田祐希"
+}

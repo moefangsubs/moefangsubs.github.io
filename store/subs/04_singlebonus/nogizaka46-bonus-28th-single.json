@@ -1,0 +1,28 @@
+{
+	"url": "nogizaka46-bonus-28th-single",
+	"nameShowTitle": "Nogizaka46 Bonus 28th Single \"Kimi ni Shikarareta\"",
+	"descSynopsis": "Single ke-28 \"Kimi ni Shikarareta\" yang dirilis pada 22 September 2021 ini mencakup 3 dokumenter para member yang lulus, antara lain Terada Ranze, Takayama Kazumi, dan Ozono Momoko. Juga satu video pembuatan/making of pembuatan MV di single ini.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_nogi28th.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Bonus Type A - Dokumenter Terada Ranze",
+			"descEpsListName": "Terada Ranze",
+			"descOnAirDate": "22 September 2021",
+			"memberParticipate": "寺田蘭世",
+			"linkHardsub": "https://lokerwfh.net/WSupkSG",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/28th-single-bonus-documentary-of-terada-ranze-mMVJH",
+			"filePassword": "ranran",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/nogi_28doc_terada.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/bonus28/28-doc-ranze.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/bonus28/28-doc-ranze-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/bonus28/28-doc-ranze-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/bonus28/28-doc-ranze-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/bonus28/28-doc-ranze-d.jpg",
+			"nameShow": "Documentary of Ranze Terada",
+			"linkRAW": "https://chr0balord46.blogspot.com/2021/09/documentary-documentary-of-terada-ranze.html"
+		}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"url": "hamasuka-housoubu",
+	"nameShowTitle": "Hamasuka Housou-Bu",
+	"nameShow": "ハマスカ放送部",
+	"descSynopsis": "Hamasuka Housou-bu merupakan acara bincang-bincang mengenai musik yang disiarkan di TV Asahi dari 8 Oktober 2021. Acara ini dipandu oleh Okamoto Hama (OKAMOTO'S) dan Saito Asuka.",
+	"availableEpisode": [
+		"80"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hamasuka.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/hamasuka{{eps}}.jpg",
+	"episodes": {
+		"80": {
+			"descEpisode": "| Episode 80",
+			"descOnAirDate": "2 Oktober 2023",
+			"memberParticipate": "齋藤飛鳥、ハマ・オカモト",
+			"linkHardsub": "https://lokerwfh.net/whRdTj",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/231002-hamasuka-housoubu-80-saito-asuka-NLPGG",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/hamasuka80.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/hamasuka80a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/hamasuka80b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/hamasuka80c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/hamasuka80d.jpg",
+			"descEpisodeSynopsis": "Dalam episode khusus kali ini, ex-member Nogizaka46, Saito Asuka akan menantang dirinya untuk mengambil latihan dalam tes SIM kendaraan roda empat. Berbagai pelajaran Asuka harus menyelesaikannya dalam waktu yang singkat karena instrukturnya memiliki waktu yang terbatas. Apakah Asuka berhasil?"
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"url": "mtv",
+	"nameShowTitle": "MTV",
+	"descSynopsis": "MTV Unplugged adalah seri musik yang ditayangkan MTV, menampilkan musisi terkenal memainkan alat musik akustik.",
+	"availableEpisode": [
+		"211211",
+		"211228",
+		"220108"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_mtv.png",
+	"episodes": {
+		"211211": {
+			"descEpisode": "| MTV Unplugged 2021",
+			"descEpsListName": "211211",
+			"descOnAirDate": "11 Desember 2021",
+			"memberParticipate": "生田絵梨花、樋口日奈、久保史緒里、遠藤さくら、賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/WFY7bOc",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/mtv-unplugged-2021-ikuta-erika-FanUP",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mtv_unplugged_2021.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/moefang/post/random/211211-mtv-unplugged0.jpg",
+			"imageThumbA": "https://ik.imagekit.io/moefang/post/random/211211-mtv-unplugged1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/moefang/post/random/211211-mtv-unplugged2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/moefang/post/random/211211-mtv-unplugged3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/moefang/post/random/211211-mtv-unplugged4.jpg",
+			"descEpisodeSynopsis": "Pada 11 Desember 2021, Saluran musik Jepang MTV Japan menayangkan remake dari “MTV Unplugged Ikuta Erika from Nogizaka46” tahun 2017. “MTV Unplugged Nogizaka46” sekali lagi akan menghadirkan Ikuta Erika dengan suaranya yang luar biasa disertai kali ini oleh member Nogizaka46 Higuchi Hina, Kubo Shiori, Endo Sakura dan Kaki Haruka. Lagu-lagu tersebut dipilih oleh Ikuta Erika. Selanjutnya, saluran tersebut membawakan serial empat bagian “MTV INSIDE: Nogizaka46 – 10th Anniversary” untuk menandai ulang tahun ke-10 Nogizaka46.",
+			"nameShow": "MTV Unplugged 2021"
+		},
+		"211228": {
+			"descEpisode": "| MTV Inside Episode 1",
+			"descEpsListName": "211228",
+			"descOnAirDate": "28 Desember 2021",
+			"memberParticipate": "生田絵梨花、樋口日奈、久保史緒里、遠藤さくら、賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/Oub3S",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/mtv-inside-nogizaka46-10th-anniversary-j5sSa",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mtv_inside_1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/moefang/post/random/211228-mtvinside-01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/moefang/post/random/211228-mtvinside-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/moefang/post/random/211228-mtvinside-01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/moefang/post/random/211228-mtvinside-01c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/moefang/post/random/211228-mtvinside-01d.jpg",
+			"descEpisodeSynopsis": "MTV INSIDE: Nogizaka46 ～10th Anniversary～ episode 1 dimana Ikuta Erika yang baru saja lulus dari Nogizaka46. Disini kita akan melihat jejak perjalanan Ikuchan dari awal dia menyukai musikal sampai kelulusannya. Buat oshinya Ikuchan penting banget nonton ini deh!",
+			"nameShow": "MTV Inside Episode 1"
+		},
+		"220108": {
+			"descEpisode": "| MTV Unplugged 2021 Making of",
+			"descEpsListName": "220108",
+			"descOnAirDate": "8 Januari 2022",
+			"memberParticipate": "生田絵梨花、樋口日奈、久保史緒里、遠藤さくら、賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/oj7Du",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/220108-making-of-mtv-unplugged-nogizaka46-XZggH",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mtv_unplugged_2021_making.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/moefang/post/random/220108-making-of-mtv-unplugged.jpg",
+			"imageThumbA": "https://ik.imagekit.io/moefang/post/random/220108-making-of-mtv-unplugged-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/moefang/post/random/220108-making-of-mtv-unplugged-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/moefang/post/random/220108-making-of-mtv-unplugged-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/moefang/post/random/220108-making-of-mtv-unplugged-d.jpg",
+			"descEpisodeSynopsis": "Pada 11 Desember 2021, telah ditayangkan “MTV Unplugged Nogizaka46” yang mana sekali lagi menghadirkan Ikuta Erika dengan suaranya yang luar biasa bersama Higuchi Hina, Kubo Shiori, Endo Sakura dan Kaki Haruka. Dalam kesempatan ini, saya mencoba sub untuk bagian Making of-nya.",
+			"nameShow": "MTV Unplugged 2021 Making of"
+		}
+	}
+}

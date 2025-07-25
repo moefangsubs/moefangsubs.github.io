@@ -1,0 +1,118 @@
+:root {
+	--all: all 0.3s ease;
+    --gold: #ffd700;
+    --silver: #c0c0c0;
+    --bronze: #cd7f32;
+    --success: #28a745;
+    --danger: #dc3545;
+}
+
+body {
+    background-color: var(--moe-tint6);
+    color: var(--moe);
+    margin: 0;
+    /* padding: 20px; */
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Filter Styles */
+.filter-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.filter-container label {
+    margin: 0 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.filter-container input {
+    margin-right: 5px;
+}
+
+/* Grid View Styles */
+#main h1, #main p {
+    text-align: center;
+}
+
+.member-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.rank-card {
+    background-color: var(--moe-tint5);
+    padding: 15px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 4px 4px 0px 0px var(--moe);
+    transition: var(--all);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--moe);
+}
+
+.rank-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.rank-1 { background-color: var(--gold); }
+.rank-2 { background-color: var(--silver); }
+.rank-3 { 
+    background-color: var(--bronze);
+    color: white;
+}
+.rank-3 .rank-number, .rank-3 .member-name-ro {
+    color: white;
+}
+.rank-3 a {
+    color: white;
+}
+
+
+.rank-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid var(--moe);
+    background: white;
+}
+
+.rank-card .rank-number { font-size: 1.8em; font-weight: bold; color: var(--moe-shade-min1); }
+.rank-card .member-name-jp { font-family: "M PLUS Rounded 1c", sans-serif; font-size: 1.1em; font-weight: bold; margin: 10px 0 0; }
+.rank-card .member-name-ro { font-family: "Space Mono", monospace; font-size: 0.8em; text-transform: capitalize; margin-bottom: 10px; font-weight: normal; }
+.rank-card .percentage { font-size: 2em; font-weight: bold; margin: 10px 0; }
+.rank-card .single-count { font-size: 0.9em; }
+
+/* Detail View Styles */
+#detail-view { padding: 10px; }
+.detail-header { display: flex; gap: 20px; align-items: center; margin-bottom: 30px; position: relative; }
+.detail-header img { width: 100px; height: 130px; object-fit: cover; border: 3px solid var(--moe); }
+.detail-header-info { display: flex; flex-direction: column; }
+.detail-name-jp { font-family: "M PLUS Rounded 1c", sans-serif; font-size: 2em; font-weight: bold; }
+.detail-name-ro { font-family: "Space Mono", monospace; text-transform: capitalize; margin-bottom: 10px; }
+.detail-button { background: var(--moe); color: white; padding: 8px 15px; text-decoration: none; display: inline-block; width: fit-content; box-shadow: 2px 2px 0px 0px var(--moe-shade-min1); }
+.detail-close-btn { position: absolute; top: 0; right: 0; font-size: 2em; cursor: pointer; font-weight: bold; }
+.single-participation-list { display: flex; flex-direction: column; gap: 10px; }
+.single-item { display: flex; align-items: center; gap: 15px; background: var(--moe-tint7); padding: 10px; box-shadow: 4px 4px 0px -2px var(--moe); }
+.single-item img { width: 60px; height: 60px; }
+.single-item-title { flex-grow: 1; font-family: "Space Mono", monospace; }
+.single-item-status { font-size: 2em; }
+.status-yes { color: var(--success); }
+.status-no { color: var(--danger); }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .rank-card {
+       flex: 1 1 40%;
+       max-width: 40%;
+    }
+}

@@ -1,0 +1,109 @@
+{
+	"url": "spicy-sessions",
+	"nameShowTitle": "SPICY SESSIONS",
+	"nameShow": "Spicy Sessions",
+	"descSynopsis": "Spicy Sessions adalah program musik baru dari TBS Channel yang wajib ditonton para pecinta musik, menampilkan sesi \"menggugah selera\" bersama tamu istimewa. Dipandu oleh Kurosawa Kaoru dari Gospellers sebagai MC utama, setiap episode menghadirkan satu tamu musisi ternama untuk berkolaborasi dalam penampilan live, sesi improvisasi dengan band studio, dan diskusi mendalam tentang akar musik mereka. Program ini juga menampilkan Nakanishi Aruno dari Nogizaka46 sebagai co-host yang turut menyumbangkan suara vokalnya. Sebagai bonus unik, di segmen akhir, Kurosawa yang pencinta kari memperkenalkan hidangan kari lezat pilihannya sambil mengobrol santai.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08"
+	],
+	"newUpdateCount": 1,
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_spicysessions.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/spicysessions{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/spicysessions/spicysessions{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/spicy-sessions-dnh5k",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "16 Desember 2023",
+			"descSong1": "平原綾香『からっぽのハート』",
+			"descSong2": "Ray Charles『Georgia On My Mind』",
+			"descSong3": "玉置浩二『ロマン』",
+			"descSong4": "ミュージカル『ムーラン・ルージュ』より『Come What May』 ",
+			"descSong5": "椎名林檎『丸の内サディスティック』",
+			"additionalGuests": "平原綾香",
+			"descEpisodeSynopsis": "Episode perdana menampilkan penyanyi ternama Hirahara Ayaka, yang merayakan 20 tahun debutnya, tampil bersama band orisinal program ini."
+		},
+		"02": {
+			"descOnAirDate": "23 Februari 2024",
+			"descSong1": "クリス・ハート『monochromatic』",
+			"descSong2": "Kiroro『未来へ』",
+			"descSong3": "CHEMISTRY『Pieces of a Dream』",
+			"descSong4": "クリス・ハート『I Love You』",
+			"descSong5": "乃木坂46『思い出が止まらなくなる』 ",
+			"additionalGuests": "クリス・ハート",
+			"descEpisodeSynopsis": "Episode 2 dari Spicy Sessions menghadirkan Chris Hart, penyanyi asal San Francisco yang jatuh cinta pada J-POP sejak remaja dan pindah ke Jepang di usia 26 tahun. Setelah memenangkan kompetisi karaoke pada 2012, ia debut dengan album Heart Song dan sukses di industri musik. Vakum pada 2018, ia kembali pada 2021 dan merayakan 10 tahun kariernya. Chris juga berbagi kisah tentang perjalanannya mempelajari bahasa Jepang dan pengalamannya sebelum terjun ke dunia musik."
+		},
+		"03": {
+			"descOnAirDate": "23 Maret 2024",
+			"descSong1": "Penthouse『…恋に落ちたら』",
+			"descSong2": "Derek and the Dominos『Layla』 ",
+			"descSong3": "DREAMS COME TRUE『やさしいキスをして』 ",
+			"descSong4": "德永英明『壊れかけのRadio』",
+			"descSong5": "ミュージカル『Les Misérables（レ・ミゼラブル）』より『On My Own』 ",
+			"additionalGuests": "浪岡真太郎＆大島真帆（Penthouse）",
+			"descEpisodeSynopsis": "Episode 3 Spicy Sessions menghadirkan Namioka Shintaro dan Oshima Maho dari Penthouse, band beranggotakan enam orang dengan dua vokalis utama. Dibentuk pada 2019 oleh Namioka Shintaro, lulusan Universitas Tokyo, band ini mengusung soundscape urban yang khas. Lima dari enam anggotanya adalah alumni Universitas Tokyo, dan banyak yang bekerja sebagai pegawai perusahaan sambil bermusik. Lagu mereka, \"Koi ni Ochitara\" dan \"Living Room\", memuncaki iTunes R&B Soul Ranking pada 2021. Tahun lalu, mereka merilis album \"Balcony\" dan sukses menggelar tur di lima kota besar Jepang. Pada 24 Januari 2024, mereka merilis single digital \"FRIDAY'S High!\"."
+		},
+		"04": {
+			"descOnAirDate": "27 April 2024",
+			"descSong1": "May J.『Sweetest Crime』",
+			"descSong2": "宇多田ヒカル『First Love』",
+			"descSong3": "映画『Aladdin（アラジン）』より『A Whole New World』",
+			"descSong4": "Lionel Richie & Diana Ross『Endless Love』",
+			"descSong5": "コレサワ『たばこ』",
+			"additionalGuests": "May J.",
+			"descEpisodeSynopsis": "Episode 4 kali ini menghadirkan penyanyi berbakat May J. sebagai bintang tamu, yang dikenal luas lewat suara emasnya dalam lagu tema versi Jepang film \"Ana to Yuki no Joou\" (Frozen) dan penampilannya di \"Kouhaku Uta Gassen\" 2014. Lahir pada tahun 1988 dari ayah Jepang dan ibu asal Iran, May J. tumbuh dalam lingkungan yang kental dengan pendidikan seni, memulai les piano dan balet sejak usia 3 tahun, serta vokal klasik sejak 8 tahun. Debut resminya terjadi pada 2006 dengan mini album \"All My Girls\", dan kini, setelah melahirkan anak pertamanya pada 2023, ia kembali aktif di dunia musik dengan merilis album orisinal terbarunya \"Aurora\" pada April 2024."
+		},
+		"05": {
+			"descOnAirDate": "18 Mei 2024",
+			"descSong1": "川崎鷹也『Stardust Memory』",
+			"descSong2": "HY『366日』",
+			"descSong3": "コブクロ『轍 -わだち-』 ",
+			"descSong4": "川崎鷹也『魔法の絨毯』",
+			"descSong5": "My Little Lover『Hello, Again ～昔からある場所～』 ",
+			"additionalGuests": "川崎鷹也",
+			"descEpisodeSynopsis": "Episode kali ini Spicy Sessions mengundang bintang tamu Kawasaki Takaya, penyanyi dan penulis lagu asal Nasushiobara, Prefektur Tochigi. Lahir tahun 1995, Takaya pindah ke Tokyo usai lulus SMA pada 2014 untuk menimba ilmu di sekolah musik. Debut albumnya, \"I Believe in You\", dirilis pada 2018, dengan lagu \"Mahou no Juutan\" yang viral di media sosial pada 2020 dan kini telah diputar lebih dari 300 juta kali. Pada April tahun ini, ia kembali merilis single terbaru berjudul \"Stardust Memory\", dan terus menarik perhatian lintas generasi."
+		},
+		"06": {
+			"descOnAirDate": "29 Juni 2024",
+			"descSong1": "Ms.OOJA『Be...』",
+			"descSong2": "中山美穂 & WANDS『世界中の誰よりきっと』",
+			"descSong3": "TWICE『Feel Special』",
+			"descSong4": "黒沢薫『愛とは… duet with Ms.OOJA』",
+			"descSong5": "ONE OK ROCK『Wherever you are』",
+			"additionalGuests": "Ms. OOJA",
+			"descEpisodeSynopsis": "Episode kali ini Spicy Sessions mengundang bintang tamu Ms. OOJA-san, penyanyi asal Prefektur Mie yang lahir pada tahun 1982. Setelah lulus SMA, ia bekerja sebagai penjaga toko pakaian di sebuah departemen store lokal, sambil memulai aktivitas bermusik di klub-klub skena Nagoya. Sekitar sepuluh tahun kemudian, di usia 28 tahun, ia debut major lewat single \"It's OK\". Setahun setelahnya, lagu tema drama TBS 'Renai Neet' yang berjudul \"Be...\" berhasil mencapai lebih dari 1 juta unduhan. Selain karya orisinal, lagu-lagu cover miliknya juga terus memikat banyak orang. Tahun 2024, Ms. OOJA-san menggelar konser luar negeri pertamanya di Tiongkok."
+		},
+		"07": {
+			"descOnAirDate": "2 Agustus 2024",
+			"descSong1": "スターダストレビュー『木蘭の涙』",
+			"descSong2": "Sam Cooke『Bring It On Home to Me』",
+			"descSong3": "一青窈『ハナミズキ』",
+			"descSong4": "スターダストレビュー『トワイライト・アヴェニュー』",
+			"additionalGuests": "根本要",
+			"descEpisodeSynopsis": "Episode kali ini Spicy Sessions mengundang bintang tamu Nemoto Kaname, musisi yang memulai kariernya saat masih SMA dengan membentuk band bersama teman sekelasnya, termasuk Kakinuma Kiyoshi. Pada tahun 1981, mereka resmi debut melalui album \"Stardust Revue\". Hingga kini, grup tersebut telah menelurkan 46 album dan tampil dalam lebih dari 2.600 konser. Meski telah berkiprah selama 43 tahun, Nemoto tetap berperan aktif sebagai sosok sentral dalam Stardust Revue."
+		},
+		"08": {
+			"descOnAirDate": "31 Agustus 2024",
+			"descSong1": "黒沢薫『薫風』 ",
+			"descSong2": "RADWIMPS『なんでもないや』",
+			"descSong3": "Mrs. GREEN APPLE『点猫の唄』",
+			"descSong4": "あいみょん『君はロックを聴かない』",
+			"descSong5": "手嶌葵『明日への手紙』",
+			"descSong6": "『Beauty and the Beast』",
+			"additionalGuests": "",
+			"descEpisodeSynopsis": "Berbeda dari biasanya, episode ini direkam di studio tanpa penonton. Satu-satunya pengiring adalah Yudai Sato yang memainkan grand piano. Kurosawa dan Aruno masing-masing membawakan lagu solo, lalu mereka berdiskusi tentang lagu-lagu yang akan dijadikan duet bersama."
+		}
+	},
+	"descEpisode": "| Episode {{eps}}",
+	"memberParticipate": "中西アルノ"
+}

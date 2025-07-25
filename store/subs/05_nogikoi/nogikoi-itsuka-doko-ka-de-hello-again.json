@@ -1,0 +1,31 @@
+{
+	"url": "nogikoi-itsuka-doko-ka-de-hello-again",
+	"nameShowTitle": "Nogikoi Itsuka Doko Ka de Hello Again",
+	"nameShow": "乃木恋・いつか、どこかで-Hello Again-",
+	"descSynopsis": "Aplikasi game resmi Nogizaka46 \"Nogikoi\" menghadirkan event \"Itsuka doko ka de ~Hello Again~\" mulai pukul 15:00 pada tanggal 10 Desember 2018. Konsep dari seri ini adalah \"perpisahan dan reuni\" dimana sang perempuan telah menjadi tumbuh dewasa. Dalam aplikasinya, untuk Nanase maupun Wakatsuki terdiri dari 8 episode dan 1 video ending. Nah, yang dibagikan disini adalah video endingnya.",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_nogikoihelloagain.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Nishino Nanase ver.",
+			"descEpsListName": "Nishino Nanase",
+			"memberParticipate": "西野七瀬",
+			"linkHardsub": "https://lokerwfh.net/9lVPWM4",
+			"filePassword": "nogikoihellonanase",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-hello-nanase.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-05-itsukadokokade-nanase.jpg"
+		},
+		"02": {
+			"descEpisode": "| Wakatsuki Yumi ver.",
+			"descEpsListName": "Wakatsuki Yumi",
+			"memberParticipate": "若月佑美",
+			"linkHardsub": "https://lokerwfh.net/xItoqc",
+			"filePassword": "nogikoihelloyumi",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi-hello-yumi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-05-itsukadokokade-yumi.jpg"
+		}
+	}
+}

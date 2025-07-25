@@ -1,0 +1,132 @@
+{
+	"url": "nogizaka-romance",
+	"nameShowTitle": "Nogizaka Romance",
+	"nameShow": "乃木坂浪漫",
+	"descSynopsis": "Garapan santai kali ini datang dari koleksi lama, tahun 2012. Nogizaka Roman atau Nogizaka Romance adalah semacam \"visualisasi\" cerita dari para novelis dan penulis terkenal, yang lalu dimainkan oleh member-member Nogizaka46. Kalau kalian menyukai sastra tidak ada salahnya menonton ini.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12",
+		"13"
+	],
+	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiroman.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/mLsKqNSuB/post/nogiroman/nogiroman-0{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiroman/nogiroman-0{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-romance-qIQuW",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "2 April 2012",
+			"memberParticipate": "生駒里奈",
+			"LiteraturName" : "夢十夜 (Yume Juu-ya)",
+			"LiteraturAuthor" : "夏目漱石 (Natsume Souseki)",
+			"linkHardsub": "https://lokerwfh.net/GEVPa",
+			"linkSoftsub": "https://lokerwfh.net/hgV0k0L"
+		},
+		"02": {
+			"descOnAirDate": "3 April 2012",
+			"memberParticipate": "橋本奈々未",
+			"LiteraturName" : "堕落論 (Darakuron)",
+			"LiteraturAuthor" : "坂口安吾 (Sakaguchi Ango)",
+			"linkHardsub": "https://lokerwfh.net/TBXd",
+			"linkSoftsub": "https://lokerwfh.net/gq6SnL"
+		},
+		"03": {
+			"descOnAirDate": "4 April 2012",
+			"memberParticipate": "白石麻衣",
+			"LiteraturName" : "蒲団 (Futon)",
+			"LiteraturAuthor" : "田山花袋 (Tayama Katai)",
+			"linkHardsub": "https://lokerwfh.net/HWvhB",
+			"linkSoftsub": "https://lokerwfh.net/mm9iUDE"
+		},
+		"04": {
+			"descOnAirDate": "5 April 2012",
+			"memberParticipate": "桜井玲香",
+			"LiteraturName" : "女生徒 (Joseito)",
+			"LiteraturAuthor" : "太宰治 (Dazai Osamu)",
+			"linkHardsub": "https://lokerwfh.net/vAGGy",
+			"linkSoftsub": "https://lokerwfh.net/EuyzlM"
+		},
+		"05": {
+			"descOnAirDate": "9 April 2012",
+			"memberParticipate": "松村沙友里",
+			"LiteraturName" : "夫婦善哉 (Meoto Zenzai)",
+			"LiteraturAuthor" : "織田作之助 (Oda Sakunosuke)",
+			"linkHardsub": "https://lokerwfh.net/SdJn",
+			"linkSoftsub": "https://lokerwfh.net/tPgbOX"
+		},
+		"06": {
+			"descOnAirDate": "10 April 2012",
+			"memberParticipate": "高山一実",
+			"LiteraturName" : "山椒大夫 (Sanjou Dayuu)",
+			"LiteraturAuthor" : "森鷗外 (Mori Ougai)",
+			"linkHardsub": "https://lokerwfh.net/68i3",
+			"linkSoftsub": "https://lokerwfh.net/W7VQ1"
+		},
+		"07": {
+			"descOnAirDate": "11 April 2012",
+			"memberParticipate": "生田絵梨花",
+			"LiteraturName" : "野菊の墓 (Nogiku no Haka)",
+			"LiteraturAuthor" : "伊藤左千夫 (Itou Sachio)",
+			"linkHardsub": "https://lokerwfh.net/FvWV",
+			"linkSoftsub": "https://lokerwfh.net/Oq5F"
+		},
+		"08": {
+			"descOnAirDate": "12 April 2012",
+			"memberParticipate": "中田花奈",
+			"LiteraturName" : "銀河鉄道の夜 (Gin'ga Tetsudou no Yoru)",
+			"LiteraturAuthor" : "宮沢賢治 (Miyazawa Kenji)",
+			"linkHardsub": "https://lokerwfh.net/txCa",
+			"linkSoftsub": "https://lokerwfh.net/BLXkUPd"
+		},
+		"09": {
+			"descOnAirDate": "16 April 2012",
+			"memberParticipate": "白石麻衣",
+			"LiteraturName" : "濹東綺譚 (Bokuto Kitan)",
+			"LiteraturAuthor" : "永井荷風 (Nagai Kafuu)",
+			"linkHardsub": "https://lokerwfh.net/Is5tj",
+			"linkSoftsub": "https://lokerwfh.net/2xTE"
+		},
+		"10": {
+			"descOnAirDate": "17 April 2012",
+			"memberParticipate": "桜井玲香",
+			"LiteraturName" : "或る女 (Aru Onna)",
+			"LiteraturAuthor" : "有島武郎 (Arishima Takeo)",
+			"linkHardsub": "https://lokerwfh.net/XI9t",
+			"linkSoftsub": "https://lokerwfh.net/dhhDSXc"
+		},
+		"11": {
+			"descOnAirDate": "18 April 2012",
+			"memberParticipate": "井上小百合",
+			"LiteraturName" : "檸檬 (Lemon)",
+			"LiteraturAuthor" : "梶井基次郎 (Kajii Motojiro)",
+			"linkHardsub": "https://lokerwfh.net/EVuEi9g6",
+			"linkSoftsub": "https://lokerwfh.net/ZWnfZxZH"
+		},
+		"12": {
+			"descOnAirDate": "19 April 2012",
+			"memberParticipate": "生駒里奈",
+			"LiteraturName" : "一握の砂 (Ichiaku no Suna)",
+			"LiteraturAuthor" : "石川啄木 (Ishikawa Takuboku)",
+			"linkHardsub": "https://lokerwfh.net/HILItjsE",
+			"linkSoftsub": "https://lokerwfh.net/7rUOCbY"
+		},
+		"13": {
+			"descOnAirDate": "23 April 2012",
+			"memberParticipate": "橋本奈々未",
+			"LiteraturName" : "汚れっちまった悲しみに (Yogorecchimatta Kanashimi ni)",
+			"LiteraturAuthor" : "中原中也 (Nakahara Chuuya)",
+			"linkHardsub": "https://lokerwfh.net/vBjR8",
+			"linkSoftsub": "https://lokerwfh.net/RJlLU7"
+		}
+	},
+	"descEpisode": "| Episode {{eps}}"
+}

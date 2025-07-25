@@ -1,0 +1,511 @@
+{
+	"秋元真夏": {
+		"adana1": "まなったん (Manattan)",
+		"adana2": "まなつ (Manatsu)",
+		"adana3": "真夏さん (Manatsu-san)",
+		"adanahina1": "生まれながらの釣りったん (Umarenagara no Tsurittan)",
+		"adanaasuka1": "最後の晩餐 (Saigo no Bansan)",
+		"adanaother1": "嫂子 (Sǎozi) - julukan di Tiongkok"
+	},
+	"生田絵梨花": {
+		"adana1": "いくちゃん (Ikuchan)",
+		"adana2": "いくたどん (Ikutadon)",
+		"adana3": "社長 (Shachou)",
+		"adana4": "エリカ様 (Erika-sama)",
+		"adanahina1": "常識知らずの変人 (Joushiki shirazu no Henjin)",
+		"adanaother1": "花花 (Huāhuā) - julukan di Tiongkok"
+	},
+	"生駒里奈": {
+		"adana1": "いこまちゃん (Ikomachan)",
+		"adana2": "いこまっち (Ikomacchi)",
+		"adana3": "山のおじさん (Yama no Ojisan)",
+		"adanahina1": "しゃくれ少年 (Shakure Shounen)"
+	},
+	"伊藤万理華": {
+		"adana1": "まりっか (Marikka)",
+		"adanahina1": "押し売り番長 (Oshiuri Banchou)"
+	},
+	"井上小百合": {
+		"adana1": "さゆにゃん (Sayunyan)",
+		"adana2": "さゆ (Sayu)",
+		"adanahina1": "見せかけ天使 (Misekake Tenshi)"
+	},
+	"衛藤美彩": {
+		"adana1": "みさみさ (Misa Misa)",
+		"adana2": "みさ先輩 (Misa-senpai)",
+		"adanahina1": "ビー玉ババア (Biidama Babaa)",
+		"adanaother1": "misa - julukan di Tiongkok"
+	},
+	"川後陽菜": {
+		"adana1": "ひな (Hina)",
+		"adana2": "かわごP (Kawago-P)",
+		"adana3": "ひなぴょん (Hinapyon)",
+		"adana4": "てぃーちゃん (Tiichan)",
+		"adanahina1": "魔法少女腹黒 (Mahou Shoujo Haraguro)"
+	},
+	"川村真洋": {
+		"adana1": "ろってぃー (Rotty)",
+		"adanahina1": "関西の柴犬 (Kansai no Shiba Inu)"
+	},
+	"齋藤飛鳥": {
+		"adana1": "あしゅ (Ashu)",
+		"adana2": "あしゅりん (Ashurin)",
+		"adanahina1": "ロリ手羽先 (Rori Tebasaki)",
+		"adanaother1": "小鳥 (Xiǎo niǎo) - julukan di Tiongkok"
+	},
+	"斎藤ちはる": {
+		"adana1": "ちはるん (Chiharun)",
+		"adana2": "ちーちゃん (Chiichan)",
+		"adanahina1": "テルマエ・ロマエ (Terumae Romae)"
+	},
+	"斉藤優里": {
+		"adana1": "ゆったん (Yuttan)",
+		"adanahina1": "出っ歯たん (Deppatan)"
+	},
+	"桜井玲香": {
+		"adana1": "れいか (Reika)",
+		"adana2": "キャップ (Cap)",
+		"adana3": "れかたん (Rekatan)",
+		"adanahina1": "顔面うるさい (Ganmen Urusai)",
+		"adanaother1": "蛇 (Shé) - julukan di Tiongkok"
+	},
+	"白石麻衣": {
+		"adana1": "まいやん (Maiyan)",
+		"adana2": "黒石さん (Kuroishi-san)",
+		"adanahina1": "女神 (Megami)",
+		"adanaother1": "老白 (Lǎo bái) - julukan di Tiongkok"
+	},
+	"高山一実": {
+		"adana1": "かずみん (Kazumin)",
+		"adana2": "ずー (Zuu)",
+		"adanahina1": "おばちゃんビューティー (Obachan Beauty)"
+	},
+	"中田花奈": {
+		"adana1": "かなりん (Kanarin)",
+		"adanahina1": "セクシーベルーガ (Sexy Beluga)"
+	},
+	"中元日芽香": {
+		"adana1": "ひめたん (Himetan)",
+		"adana2": "めーちゃん (Meechan)",
+		"adanahina1": "バカリボン (Baka Ribbon)"
+	},
+	"西野七瀬": {
+		"adana1": "ななせまる (Nanasemaru)",
+		"adana2": "なぁちゃん (Naachan)",
+		"adanahina1": "おさわりの西野 (Osawari no Nishino)",
+		"adanaother1": "七仔 (Qī zǐ) - julukan di Tiongkok"
+	},
+	"能條愛未": {
+		"adana1": "あみあみ (Amiami)",
+		"adana2": "ジョンソン (Jonson)",
+		"adana3": "じょーさん (Jo-san)",
+		"adana4": "あみちゃん先輩 (Amichan-senpai)",
+		"adanahina1": "ルージュ愛未 (Rouge Ami)"
+	},
+	"樋口日奈": {
+		"adana1": "ひなちま (Hinachima)",
+		"adana2": "ちま (Chima)",
+		"adanahina1": "ニセ京都人 (Nise Kyoutojin)"
+	},
+	"星野みなみ": {
+		"adana1": "みなみ (Minami)",
+		"adanahina1": "デーモンささやき (Demon Sasayaki)",
+		"adanaother1": "小祖宗 (Xiǎo zǔzong) - julukan di Tiongkok"
+	},
+	"松村沙友理": {
+		"adana1": "さゆりん (Sayurin)",
+		"adana2": "さゆりんご (Sayuringo)",
+		"adana3": "まっちゅん (Macchun)",
+		"adanahina1": "痛いキャラ、21歳。 (Itai Chara, 21-sai.)",
+		"adanaother1": "苹果 (Píngguǒ) - julukan di Tiongkok"
+	},
+	"若月佑美": {
+		"adana1": "わかつき (Wakatsuki)",
+		"adana2": "若様 (Wakasama)",
+		"adana3": "みゅうみゅう (Myumyu)",
+		"adanahina1": "顔芸のプロ (Kaogei no Pro)",
+		"adanaother1": "月月 (Yuè yuè) - julukan di Tiongkok"
+	},
+	"和田まあや": {
+		"adana1": "まあや (Maaya)",
+		"adanahina1": "バカな愛されまあや♥ (Baka na Aisare Maaya♥)"
+    },
+	"伊藤かりん": {
+		"adana1": "かりん (Karin)",
+		"adana2": "かりんちゃん (Karinchan)",
+		"adana3": "かりん党 (Karintou)",
+		"adanahina1": "アゴ (Ago)"
+	},
+	"伊藤純奈": {
+		"adana1": "じゅんな (Junna)",
+		"adana2": "ずんな (Zunna)",
+		"adanahina1": "猫かぶり (Nekokaburi)"
+	},
+	"北野日奈子": {
+		"adana1": "きいちゃん (Kiichan)",
+		"adanahina1": "女優じゃないほうのきいちゃん (Joyuu janai hou no Kiichan)"
+	},
+	"相楽伊織": {
+		"adana1": "いおり (Iori)",
+		"adana2": "いおりん (Iorin)",
+		"adanahina1": "洗練された川後 (Senren sareta Kawago)"
+	},
+	"佐々木琴子": {
+		"adana1": "ことこ (Kotoko)",
+		"adana2": "KTK",
+		"adanahina1": "棒読みの琴子 (Bouyomi no Kotoko)"
+	},
+	"新内眞衣": {
+		"adana1": "まいちゅん (Maichun)",
+		"adanahina1": "OLBBA (Babaa)"
+	},
+	"鈴木絢音": {
+		"adana1": "あーちゃん (Aachan)",
+		"adana2": "あやねちゃん (Ayanechan)",
+		"adanaasuka1": "まろやか隠し味噌 (Maroyaka Kakushi Miso)"
+	},
+	"寺田蘭世": {
+		"adana1": "らんぜ (Ranze)",
+		"adana2": "らんらん (Ranran)"
+	},
+	"堀未央奈": {
+		"adana1": "みおな (Miona)",
+		"adana2": "ほりちゃん (Horichan)"
+	},
+	"山崎怜奈": {
+		"adana1": "れなち (Renachi)",
+		"adana2": "ざきさん (Zakisan)"
+	},
+	"渡辺みり愛": {
+		"adana1": "みりあ (Miria)",
+		"adana2": "みりりん (Miririn)",
+		"adanahina1": "見せかけロリ (Misekake Rori)"
+    },
+	"伊藤理々杏": {
+		"adana1": "りりあん (Ririan)",
+		"adana2": "りりあ (Riria)",
+		"adanaaya1": "リリエッタ (Ririetta)"
+	},
+	"岩本蓮加": {
+		"adana1": "れんたん (Rentan)",
+		"adanaasuka1": "性別を超えたNO.1 (Seibetsu o Koeta NO.1)"
+	},
+	"梅澤美波": {
+		"adana1": "みなみん (Minamin)",
+		"adana2": "うめちゃん (Umechan)",
+		"adana3": "梅マヨ (Ume Mayo)",
+		"adana4": "うめ (Ume)",
+		"adana5": "梅 (Ume)",
+		"adanaasuka1": "ラブリータイプのIKKOさん (Lovely Type no IKKO-san)"
+	},
+	"大園桃子": {
+		"adana1": "ももこ (Momoko)",
+		"adana2": "ももちゃん (Momochan)",
+		"adana3": "ぞのっち (Zonocchi)"
+	},
+	"久保史緒里": {
+		"adana1": "くぼちゃん (Kubochan)",
+		"adana2": "しーちゃん (Shiichan)",
+		"adana3": "しおり (Shiori)",
+		"adana4": "くぼし (Kuboshi)",
+		"adanaasuka1": "最優秀半透明 (Saiyuushuu Hantoumei)"
+	},
+	"阪口珠美": {
+		"adana1": "たまちゃん (Tamachan)",
+		"adanaasuka1": "ひな壇芸人 (Hinadan Geinin)"
+	},
+	"佐藤楓": {
+		"adana1": "でんちゃん (Denchan)",
+		"adana2": "でんのすけ (Dennosuke)"
+	},
+	"中村麗乃": {
+		"adana1": "れの (Reno)",
+		"adana2": "れのちゃん (Renochan)",
+		"adana3": "ちょこれーの (Choco-reno)",
+		"adanaaya1": "れのびー (Renobii)"
+	},
+	"向井葉月": {
+		"adana1": "はづき (Hazuki)",
+		"adana2": "はづちゃん (Hazuchan)"
+	},
+	"山下美月": {
+		"adana1": "づっきー (Zukkii)",
+		"adana2": "みづき (Mizuki)",
+		"adana3": "山 (Yama)",
+		"adanaasuka1": "目バキ船長 (Mebaki Senchou)"
+	},
+	"吉田綾乃クリスティー": {
+		"adana1": "あやてぃー (Ayatie)",
+		"adanaother1": "吉クリ (YoshiChri) - Nogizaka Star Tanjou! SIX #09"
+	},
+	"与田祐希": {
+		"adana1": "よだちゃん (Yodachan)",
+		"adana2": "よだっちょ (Yodaccho)",
+		"adana3": "よだっち (Yodacchi)",
+		"adanaasuka1": "ばくだんおにぎり (Bakudan Onigiri)"
+    },
+	"遠藤さくら": {
+		"adana1": "さくちゃん (Sakuchan)",
+		"adana2": "さくら (Sakura)",
+		"adana3": "えんぴー (Enpii)",
+		"adana4": "えんさく (Ensaku)",
+		"adanaasuka1": "あすかの子 (Asuka no Ko)"
+	},
+	"賀喜遥香": {
+		"adana1": "かっきー (Kakkii)",
+		"adana2": "はるか (Haruka)",
+		"adanaasuka1": "新海誠さん こちらです (Shinkai Makoto-san Kochira desu)"
+	},
+	"掛橋沙耶香": {
+		"adana1": "さぁちゃん (Saachan)",
+		"adana2": "さやか (Sayaka)"
+	},
+	"金川紗耶": {
+		"adana1": "やんちゃん (Yanchan)",
+		"adana2": "さや (Saya)",
+		"adana3": "やん (Yan)",
+		"adanaasuka1": "北の最終兵器 (Kita no Saishuu Heiki)",
+		"adanaasuka2": "キツネの理想形 (Kitsune no Risoukei)"
+	},
+	"北川悠理": {
+		"adana1": "ゆりちゃん (Yurichan)",
+		"adana2": "ゆり (Yuri)",
+		"adana3": "ゆりゆり (Yuriyuri)"
+	},
+	"黒見明香": {
+		"adana1": "くろみん (Kuromin)",
+		"adana2": "くろみちゃん (Kuromichan)"
+	},
+	"佐藤璃果": {
+		"adana1": "りかちゃん (Rikachan)",
+		"adana2": "リカタン (Rikatan)",
+		"adana3": "りかち (Rikachi)"
+	},
+	"柴田柚菜": {
+		"adana1": "ゆんちゃん (Yunchan)",
+		"adana2": "ゆなちゃん (Yunachan)",
+		"adana3": "ゆな (Yuna)",
+		"adana4": "ゆん (Yun)",
+		"adanaasuka1": "本格麦焼酎いちころ (Honkaku Mugi-shochu Ichikoro)"
+	},
+	"清宮レイ": {
+		"adana1": "レイちゃん (Reichan)",
+		"adana2": "レイレイ (Reirei)",
+		"adana3": "れい (Rei)"
+	},
+	"田村真佑": {
+		"adana1": "まゆたん (Mayutan)",
+		"adana2": "たむちゃん (Tamuchan)",
+		"adana3": "まゆ (Mayu)",
+		"adana4": "まゆ姉 (Mayu-nee)",
+		"adanaasuka1": "乃木坂のマネキン (Nogizaka no Mannequin)"
+	},
+	"筒井あやめ": {
+		"adana1": "あやめん (Ayamen)",
+		"adana2": "あやめちゃん (Ayamechan)",
+		"adana3": "あやちゃん (Ayachan)",
+		"adana4": "あやめ (Ayame)",
+		"adanaasuka1": "革命児のウォーミングアップ (Kakumeiji no Warming Up)",
+		"adanaaya1": "メロメロン (Meromeron)"
+	},
+	"早川聖来": {
+		"adana1": "せーら (Seera)",
+		"adana2": "せーたん (Seetan)",
+		"adana3": "せーちゃん (Seechan)",
+		"adana4": "せいら (Seira)",
+		"adanaasuka1": "あんぱんからあんぱん女 (Anpan kara Anpan Onna)"
+	},
+	"林瑠奈": {
+		"adana1": "るなぴ (Runapi)",
+		"adana2": "るなちゃん (Runachan)",
+		"adana3": "るる (Ruru)",
+		"adana4": "林 (Hayashi)",
+		"adanasakuchan1": "るるる (Rururu)",
+		"adanaasuka1": "お戯れバンド (Ozare Bando)",
+		"adanaaya1": "ルナペペ (Runapepe)",
+		"adanaaya2": "リンリン (Rinrin)"
+	},
+	"松尾美佑": {
+		"adana1": "ミュウ (Myuu)",
+		"adana2": "みゆたん (Miyutan)",
+		"adana3": "みゆちゃん (Miyuchan)",
+		"adana4": "ミュウちゃん (Myuuchan)"
+	},
+	"矢久保美緒": {
+		"adana1": "みっちゃん (Micchan)",
+		"adana2": "みお (Mio)",
+		"adana3": "みおちゃん (Miochan)",
+		"adana4": "みおみお (Miomio)",
+		"adana5": "やくぼ (Yakubo)",
+		"adana6": "謝罪ちゃん (Shazaichan)"
+	},
+	"弓木奈於": {
+		"adana1": "なおちゃん (Naochan)",
+		"adana2": "ゆみっきー (Yumikkii)",
+		"adana3": "弓木ちゃん (Yumikichan)",
+		"adana4": "なお (Nao)",
+		"adanaasuka": "壊れたスピーカー (Kowareta Speaker)"
+	},
+	"五百城茉央": {
+		"adana1": "いおちゃん (Io-chan)",
+		"adana2": "いおちゃん (Ioki-chan)",
+		"adana3": "まおちゃん (Mao-chan)",
+		"adana4": "まちゃおん (Machaon)",
+		"adanaaya1": "キッキ (Kikki)"
+	},
+	"池田瑛紗": {
+		"adana1": "てれぱん (Terepan)",
+		"adana2": "テレパン (Terepan)",
+		"adana3": "てれさちゃん (Teresa-chan)",
+		"adana4": "てれちゃん (Tere-chan)",
+		"adana5": "てれさ (Teresa)",
+		"adanaaya1": "テレサパン (Teresapan)"
+	},
+	"一ノ瀬美空": {
+		"adana1": "みーきゅん (Miikyun)",
+		"adana2": "みっく (Mikku)",
+		"adana3": "みく (Miku)",
+		"adana4": "みくちゃん (Miku-chan)",
+		"adanaaya1": "くぅちゃん (Kuuchan)"
+	},
+	"井上和": {
+		"adana1": "なぎ (Nagi)",
+		"adana2": "なぎちゃん (Nagi-chan)",
+		"adana3": "にゃぎ (Nyagi)",
+		"adana4": "和様 (Nagisama)",
+		"adanaaya1": "のんちゃん (Nonchan)"
+	},
+	"岡本姫奈": {
+		"adana1": "おかひな (Okahina)",
+		"adana2": "ひなだに (Hinadani)",
+		"adana3": "ひーちゃん (Hiichan)",
+		"adana4": "ひなだに (Hinadani)",
+		"adana4": "ひーナッツ (Hiinatsu)",
+		"adanaaya1": "ナッツ (Nattsu)"
+	},
+	"小川彩": {
+		"adana1": "あーや (Aaya)",
+		"adana2": "彩 (Aya)",
+		"adana3": "あやちゃん (Aya-chan)",
+		"adanaasuka1": "孫の代まで届くあすか (Mago no dai made todoku Asuka / Asuka (yang) sampai ke generasi cucu)",
+		"adanaother1": "小川屋 (Ogawaya)"
+	},
+	"奥田いろは": {
+		"adana1": "いろは (Iroha)",
+		"adana1": "いろはちゃん (Iroha-chan)",
+		"adana1": "いろぱ (Iropa)",
+		"adana1": "いろっぱ (Iroppa)",
+		"adanaaya1": "イロハット (Irohatto)",
+		"adanaother1": "いろり (Irori) - Nogizaka Star Tanjou!"
+	},
+	"川﨑桜": {
+		"adana1": "さくたん (Sakutan)",
+		"adana2": "桜ちゃん (Sakura-chan)",
+		"adanaaya1": "さくさく (Sakusaku)",
+		"adanaother1": "川﨑選手 (Kawasaki-senshu) - Nogizaka Star Tanjou!"
+	},
+	"菅原咲月": {
+		"adana1": "さつきちゃん (Satsuki-chan)",
+		"adana2": "さっちゃん (Satchan)",
+		"adana3": "さちゃん (Sachan)",
+		"adana4": "さちこ (Sachiko)",
+		"adana5": "ちゅき (Chuki)",
+		"adana6": "さつき (Satsuki)",
+		"adana7": "菅原道真 (Sugawara Michizane)",
+		"adana8": "ざね (Zane)",
+		"adana9": "ざねっち (Zanecchi)",
+		"adana10": "ママ (Mama)",
+		"adanasakutan1": "しゃつ (Shatsu)",
+		"adanaasuka1": "アクとり大吉先生 (Aku-tori Daikichi-sensei)",
+		"adanaaya1": "つっきー (Tsukkii)",
+		"adanaother1": "小吉 (Shokichi) - Nogizaka Koujichuu",
+		"adanaother2": "すがわらさつき (Sugawara Satsuki) - Nogizaka Star Tanjou!"
+	},
+	"冨里奈央": {
+		"adana1": "なおちゃん (Nao-chan)",
+		"adanaaya1": "なおなお (Naonao)"
+	},
+	"中西アルノ": {
+		"adana1": "アルノ (Aruno)",
+		"adana2": "アルノちゃん (Aruno-chan)",
+		"adana3": "アルさん (Aru-san)",
+		"adanaaya1": "アルル (Aruru)",
+		"adanaasuka1": "センスは抜群 感度はmediocre (平凡)（Sensu wa batsugun, kando wa mediocre (heibon))",
+		"adanaother1": "青山ネモフィラ (Aoyama Nemofira) - NHK Haiku",
+		"adanaother2": "せんせい (Sensei) - Nogizaka Star Tanjou!"
+	},
+  
+
+	"愛宕心響": {
+		"adana1": "ここねん (Kokonen)",
+		"adana2": "心響ちゃん (Kokone-chan)",
+		"adanaaya1": "こっこ (Kokko)"
+	},  
+	"大越ひなの": {
+		"adana1": "ひなの (Hinano)",
+		"adana2": "ひなのちゃん (Hinano-chan)",
+		"adana3": "のんちゃん (Nonchan)",
+		"adanaaya1": "なのなの (Nanonano)"
+	},
+	"小津玲奈": {
+		"adana1": "おづちゃん (Ozu-chan)",
+		"adana2": "小津ちゃん (Ozu-chan)",
+		"adana3": "玲奈ちゃん (Reina-chan)",
+		"adana4": "おづっち (Ozucchi)",
+		"adanaaya1": "じゃんれな (Janrena)"
+	},
+	"海邉朱莉": {
+		"adana1": "あかり (Akari)",
+		"adana1": "あかりちゃん (Akari-chan)",
+		"adana1": "朱莉ちゃん (Akari-chan)",
+		"adanaaya1": "あかしー (Akashii)",
+		"adanaother1": "かいべ (Kaibe) - Nogizaka Star Tanjou! SIX"
+	},
+	"川端晃菜": {
+		"adana1": "ひーつん (Hitsun)",
+		"adana2": "ひなちゃん (Hina-chan)",
+		"adana3": "晃菜ちゃん (Hina-chan)",
+		"adana4": "つんちゃん (Tsunchan)",
+		"adanaaya1": "かわっそ (Kawasso)",
+		"adanaother1": "つんちゃん (Tsunchan) - Nogizaka Star Tanjou! SIX"
+	},
+	"鈴木佑捺": {
+		"adana1": "ゆうな (Yuuna)",
+		"adana1": "ゆうなちゃん (Yuuna-chan)",
+		"adana1": "佑捺ちゃん (Yuuna-chan)",
+		"adanaaya1": "ゆうちゃん (Yuuchan)"
+	},  
+	"瀬戸口心月": {
+		"adana1": "みつき (Mitsuki)",
+		"adana1": "みつきちゃん (Mitsuki-chan)",
+		"adana1": "心月ちゃん (Mitsuki-chan)",
+		"adanaaya1": "せとぴょん (Setopyon)",
+		"adanaother1": "ぴょん (Pyon) - Nogizaka Star Tanjou! SIX"
+	},
+	"長嶋凛桜": {
+		"adana1": "りおたん (Riotan)",
+		"adana2": "凛桜たん (Riotan)",
+		"adana3": "りおちゃん (Riochan)",
+		"adanaaya1": "まりお (Mario)"
+	},
+	"増田三莉音": {
+		"adana1": "みりね (Mirine)",
+		"adana2": "みりねちゃん (Mirine-chan)",
+		"adana3": "三莉音ちゃん (Mirine-chan)",
+		"adana4": "ミリオン (Mirion)",
+		"adana5": "みりねたん (Mirinetan)",
+		"adanaaya1": "ねりさん (Nerisan)"
+	},
+	"森平麗心": {
+		"adana1": "うるみん (Urumin)",
+		"adana2": "うるみちゃん (Urumi-chan)",
+		"adana3": "うるちゃん (Uruchan)",
+		"adanaaya1": "もりへー (Morihee)"
+	},
+	"矢田萌華": {
+		"adana1": "やだちゃん (Yada-chan)",
+		"adana2": "もえみん (Moemin)",
+		"adanaaya1": "やだもん (Yadamon)",
+		"adanaother1": "やんだ (Yanda) - Nogizaka Star Tanjou! SIX"
+  }
+}

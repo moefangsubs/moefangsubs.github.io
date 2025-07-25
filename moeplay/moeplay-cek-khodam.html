@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-page-name="chounogi">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>MoePlay</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script type="text/javascript" src="../js/script_by.js"></script>
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	
+	<meta property="og:title" content="Cek Khodam" />
+    <meta property="og:description" content="Daripada bete, cek apa khodam-mu di Nogizaka46!" />
+    <meta property="og:image" content="https://ik.imagekit.io/moearchive/web/ogimage/page_checkkhodam.png" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style_cekkhodam.css">
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+</head>
+
+<body>
+<div class="contentpage">
+	<div class="container">
+        <div class="titlehead">
+	        <div id="title">Cek Khodam</div>
+			<div id="creator">By MoeFang</div>
+        </div>
+        <p>Khodam apa yang ada dalam dirimu di Nogizaka46?
+		<br />
+		<br />
+		Silakan tulis nama lengkapmu</p>
+        <div class="input-group">
+            <input type="text" id="nameInput" placeholder="Nama lengkap">
+			<br>
+            <button id="checkButton" onclick="checkKhodam()">Periksa!</button>
+        </div>
+        <div id="loadingAnalyze" class="loading" style="display: none;">Menganalisa 0%</div>
+        <div id="loadingDetermine" class="loading" style="display: none;">Menentukan khodam 0%</div>
+        <div id="result" class="result" style="display: none;"></div>
+        <p id="shareMessage" style="display: none; font-size: 14pt; text-align: center;">
+            Jangan lupa share ke yang lain agar mereka tahu sosok asli yang ada di dalam dirinya!
+        </p>
+		<br />
+		<br />
+        <button id="retryButton" onclick="reset()" style="display: none; margin: 0 auto;">Cek Kembali</button>
+		<button id="shareButton" onclick="generateImage()" style="display: none;">Share!</button>
+    </div>
+</div>
+    <script src="../js/script_cekkhodam.js"></script>
+</body>
+</html>

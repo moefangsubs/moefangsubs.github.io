@@ -1,0 +1,452 @@
+[
+    {
+        "id": "kanemuramiku",
+        "nama_jp": "金村美玖",
+        "nama_romaji": "Kanemura Miku",
+        "lahir": "2002.09.10",
+        "asal": "埼玉県",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/kanemuramiku.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kawatahina",
+        "nama_jp": "河田陽菜",
+        "nama_romaji": "Kawata Hina",
+        "lahir": "2001.07.23",
+        "asal": "山口県",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/kawatahina.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kosakanao",
+        "nama_jp": "小坂菜緒",
+        "nama_romaji": "Kosaka Nao",
+        "lahir": "2002.09.07",
+        "asal": "大阪府",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/kosakanao.png",
+        "status": "aktif"
+    },
+    {
+        "id": "tomitasuzuka",
+        "nama_jp": "富田鈴花",
+        "nama_romaji": "Tomita Suzuka",
+        "lahir": "2001.01.18",
+        "asal": "神奈川県",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/tomitasuzuka.png",
+        "status": "aktif"
+    },
+    {
+        "id": "matsudakonoka",
+        "nama_jp": "松田好花",
+        "nama_romaji": "Matsuda Konoka",
+        "lahir": "1999.04.27",
+        "asal": "京都府",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/matsudakonoka.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kamimurahinano",
+        "nama_jp": "上村ひなの",
+        "nama_romaji": "Kamimura Hinano",
+        "lahir": "2004.04.12",
+        "asal": "東京都",
+        "gen": "3期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/kamimurahinano.png",
+        "status": "aktif"
+    },
+    {
+        "id": "takahashimikuni",
+        "nama_jp": "髙橋未来虹",
+        "nama_romaji": "Takahashi Mikuni",
+        "lahir": "2003.09.27",
+        "asal": "東京都",
+        "gen": "3期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/takahashimikuni.png",
+        "status": "aktif"
+    },
+    {
+        "id": "morimotomarii",
+        "nama_jp": "森本茉莉",
+        "nama_romaji": "Morimoto Marie",
+        "lahir": "2004.02.23",
+        "asal": "東京都",
+        "gen": "3期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/morimotomarii.png",
+        "status": "aktif"
+    },
+    {
+        "id": "yamaguchiharuyo",
+        "nama_jp": "山口陽世",
+        "nama_romaji": "Yamaguchi Haruyo",
+        "lahir": "2004.02.23",
+        "asal": "鳥取県",
+        "gen": "3期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/yamaguchiharuyo.png",
+        "status": "aktif"
+    },
+    {
+        "id": "ishizukatamaki",
+        "nama_jp": "石塚瑶季",
+        "nama_romaji": "Ishizuka Tamaki",
+        "lahir": "2004.08.06",
+        "asal": "東京都",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/ishizukatamaki.png",
+        "status": "aktif"
+    },
+    {
+        "id": "konishinanami",
+        "nama_jp": "小西夏菜実",
+        "nama_romaji": "Konishi Nanami",
+        "lahir": "2004.10.03",
+        "asal": "兵庫県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/konishinanami.png",
+        "status": "aktif"
+    },
+    {
+        "id": "shimizurio",
+        "nama_jp": "清水理央",
+        "nama_romaji": "Shimizu Rio",
+        "lahir": "2005.01.15",
+        "asal": "千葉県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/shimizurio.png",
+        "status": "aktif"
+    },
+    {
+        "id": "shogenjiyoko",
+        "nama_jp": "正源司陽子",
+        "nama_romaji": "Shogenji Yoko",
+        "lahir": "2007.02.14",
+        "asal": "兵庫県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/shogenjiyoko.png",
+        "status": "aktif"
+    },
+    {
+        "id": "takeuchikirari",
+        "nama_jp": "竹内希来里",
+        "nama_romaji": "Takeuchi Kirari",
+        "lahir": "2006.02.20",
+        "asal": "広島県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/takeuchikirari.png",
+        "status": "aktif"
+    },
+    {
+        "id": "hiraohonoka",
+        "nama_jp": "平尾帆夏",
+        "nama_romaji": "Hirao Honoka",
+        "lahir": "2003.07.31",
+        "asal": "鳥取県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/hiraohonoka.png",
+        "status": "aktif"
+    },
+    {
+        "id": "hiraokamitsuki",
+        "nama_jp": "平岡海月",
+        "nama_romaji": "Hiraoka Mitsuki",
+        "lahir": "2002.04.09",
+        "asal": "福井県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/hiraokamitsuki.png",
+        "status": "aktif"
+    },
+    {
+        "id": "fujishimakaho",
+        "nama_jp": "藤嶌果歩",
+        "nama_romaji": "Fujishima Kaho",
+        "lahir": "2006.08.07",
+        "asal": "北海道",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/fujishimakaho.png",
+        "status": "aktif"
+    },
+    {
+        "id": "miyachisumire",
+        "nama_jp": "宮地すみれ",
+        "nama_romaji": "Miyachi Sumire",
+        "lahir": "2005.12.31",
+        "asal": "神奈川県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/miyachisumire.png",
+        "status": "aktif"
+    },
+    {
+        "id": "yamashitaharuka",
+        "nama_jp": "山下葉留花",
+        "nama_romaji": "Yamashita Haruka",
+        "lahir": "2003.05.20",
+        "asal": "愛知県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/yamashitaharuka.png",
+        "status": "aktif"
+    },
+    {
+        "id": "watanaberina",
+        "nama_jp": "渡辺莉奈",
+        "nama_romaji": "Watanabe Rina",
+        "lahir": "2009.02.07",
+        "asal": "福岡県",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/watanaberina.png",
+        "status": "aktif"
+    },
+    {
+        "id": "ootamizuki",
+        "nama_jp": "大田美月",
+        "nama_romaji": "Oota Mizuki",
+        "lahir": "2006.12.07",
+        "asal": "大阪府",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/ootamizuki.png",
+        "status": "aktif"
+    },
+    {
+        "id": "oonomanami",
+        "nama_jp": "大野愛実",
+        "nama_romaji": "Oono Manami",
+        "lahir": "2007.05.05",
+        "asal": "東京都",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/oonomanami.png",
+        "status": "aktif"
+    },
+    {
+        "id": "katayamasaki",
+        "nama_jp": "片山紗希",
+        "nama_romaji": "Katayama Saki",
+        "lahir": "2006.12.26",
+        "asal": "埼玉県",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/katayamasaki.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kuramorihinano",
+        "nama_jp": "蔵盛妃那乃",
+        "nama_romaji": "Kuramori Hinano",
+        "lahir": "2006.01.23",
+        "asal": "大阪府",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/kuramorihinano.png",
+        "status": "aktif"
+    },
+    {
+        "id": "sakainiina",
+        "nama_jp": "坂井新奈",
+        "nama_romaji": "Sakai Niina",
+        "lahir": "2009.03.14",
+        "asal": "神奈川県",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/sakainiina.png",
+        "status": "aktif"
+    },
+    {
+        "id": "satouyuu",
+        "nama_jp": "佐藤優羽",
+        "nama_romaji": "Sato Yuu",
+        "lahir": "2006.09.10",
+        "asal": "福岡県",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/satouyuu.png",
+        "status": "aktif"
+    },
+    {
+        "id": "shimodaizuki",
+        "nama_jp": "下田衣珠季",
+        "nama_romaji": "Shimoda Izuki",
+        "lahir": "2006.12.26",
+        "asal": "千葉県",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/shimodaizuki.png",
+        "status": "aktif"
+    },
+    {
+        "id": "takairika",
+        "nama_jp": "高井俐香",
+        "nama_romaji": "Takai Rika",
+        "lahir": "2007.08.01",
+        "asal": "兵庫県",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/takairika.png",
+        "status": "aktif"
+    },
+    {
+        "id": "tsurusakiniko",
+        "nama_jp": "鶴崎仁香",
+        "nama_romaji": "Tsurusaki Niko",
+        "lahir": "2004.03.27",
+        "asal": "神奈川県",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/tsurusakiniko.png",
+        "status": "aktif"
+    },
+    {
+        "id": "matsuosakura",
+        "nama_jp": "松尾桜",
+        "nama_romaji": "Matsuo Sakura",
+        "lahir": "2005.06.08",
+        "asal": "神奈川県",
+        "gen": "5期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata14/matsuosakura.png",
+        "status": "aktif"
+    },
+    {
+        "id": "kakizakimemi",
+        "nama_jp": "柿崎芽実",
+        "nama_romaji": "Kakizaki Memi",
+        "lahir": "2001.12.02",
+        "asal": "長野県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/kakizakimemi.png",
+        "status": "lulus"
+    },
+    {
+        "id": "iguchimao",
+        "nama_jp": "井口眞緒",
+        "nama_romaji": "Iguchi Mao",
+        "lahir": "1995.11.10",
+        "asal": "新潟県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/iguchimao.png",
+        "status": "lulus"
+    },
+    {
+        "id": "kageyamayuuka",
+        "nama_jp": "影山優佳",
+        "nama_romaji": "Kageyama Yuuka",
+        "lahir": "2001.05.08",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata9/kageyamayuuka.png",
+        "status": "lulus"
+    },
+    {
+        "id": "ushiosarina",
+        "nama_jp": "潮紗理菜",
+        "nama_romaji": "Ushio Sarina",
+        "lahir": "1997.12.26",
+        "asal": "神奈川県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata10/ushiosarina.png",
+        "status": "lulus"
+    },
+    {
+        "id": "saitokyoko",
+        "nama_jp": "齊藤京子",
+        "nama_romaji": "Saito Kyoko",
+        "lahir": "1997.09.05",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata10/saitokyoko.png",
+        "status": "lulus"
+    },
+    {
+        "id": "katoshiho",
+        "nama_jp": "加藤史帆",
+        "nama_romaji": "Kato Shiho",
+        "lahir": "1998.02.02",
+        "asal": "東京都",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata12/katoshiho.png",
+        "status": "lulus"
+    },
+    {
+        "id": "sasakikumi",
+        "nama_jp": "佐々木久美",
+        "nama_romaji": "Sasaki Kumi",
+        "lahir": "1996.01.22",
+        "asal": "千葉県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata12/sasakikumi.png",
+        "status": "lulus"
+    },
+    {
+        "id": "sasakimirei",
+        "nama_jp": "佐々木美玲",
+        "nama_romaji": "Sasaki Mirei",
+        "lahir": "1999.12.17",
+        "asal": "兵庫県",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata12/sasakimirei.png",
+        "status": "lulus"
+    },
+    {
+        "id": "takasemana",
+        "nama_jp": "高瀬愛奈",
+        "nama_romaji": "Takase Mana",
+        "lahir": "1998.09.20",
+        "asal": "大阪府",
+        "gen": "1期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata12/takasemana.png",
+        "status": "lulus"
+    },
+    {
+        "id": "watanabemiho",
+        "nama_jp": "渡邉美穂",
+        "nama_romaji": "Watanabe Miho",
+        "lahir": "2000.02.24",
+        "asal": "埼玉県",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata7/watanabemiho.png",
+        "status": "lulus"
+    },
+    {
+        "id": "miyatamanamo",
+        "nama_jp": "宮田愛萌",
+        "nama_romaji": "Miyata Manamo",
+        "lahir": "1998.04.28",
+        "asal": "東京都",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata7/miyatamanamo.png",
+        "status": "lulus"
+    },
+    {
+        "id": "nibuakari",
+        "nama_jp": "丹生明里",
+        "nama_romaji": "Nibu Akari",
+        "lahir": "2001.02.15",
+        "asal": "埼玉県",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata12/nibuakari.png",
+        "status": "lulus"
+    },
+    {
+        "id": "hamagishihiyori",
+        "nama_jp": "濱岸ひより",
+        "nama_romaji": "Hamagishi Hiyori",
+        "lahir": "2002.09.28",
+        "asal": "福岡県",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata12/hamagishihiyori.png",
+        "status": "lulus"
+    },
+    {
+        "id": "higashimuramei",
+        "nama_jp": "東村芽依",
+        "nama_romaji": "Higashimura Mei",
+        "lahir": "1998.08.23",
+        "asal": "奈良県",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata12/higashimuramei.png",
+        "status": "lulus"
+    },
+    {
+        "id": "kishihonoka",
+        "nama_jp": "岸帆夏",
+        "nama_romaji": "Kishi Honoka",
+        "lahir": "2004.08.15",
+        "asal": "東京都",
+        "gen": "4期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/hinata10/kishihonoka.png",
+        "status": "lulus"
+    }
+]

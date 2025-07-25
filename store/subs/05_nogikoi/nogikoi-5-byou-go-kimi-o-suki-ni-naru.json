@@ -1,0 +1,81 @@
+{
+	"url": "nogikoi-5-byou-go-kimi-o-suki-ni-naru",
+	"nameShowTitle": "Nogikoi\t5-Byou Go Kimi o Suki ni Naru",
+	"nameShow": "乃木恋・5秒後、キミを好きになる",
+	"descSynopsis": "Dalam perayaan The 5th Anniversary Campaign, pada 31 Maret-4 April 2021 diadakan event \"5byougo, Kimi o Suki ni naru\". Dibintangi oleh member baru gen-4, yaitu Hayashi Runa, Matsuo Miyu, Kuromi Haruka, Sato Rika dan Yumiki Nao.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_nogikoi5byou.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Opening",
+			"descEpsListName": "Opening",
+			"memberParticipate": "佐藤璃果、弓木奈於、松尾美佑、林瑠奈、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/5dZn",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi5byo-01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-01c.jpg"
+		},
+		"02": {
+			"descEpisode": "| Ending",
+			"descEpsListName": "Ending",
+			"memberParticipate": "佐藤璃果、弓木奈於、松尾美佑、林瑠奈、黒見明香",
+			"linkHardsub": "https://lokerwfh.net/U23mh",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi5byo-02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-02c.jpg"
+		},
+		"03": {
+			"descEpisode": "| Individual - Sato Rika",
+			"descEpsListName": "PV 佐藤",
+			"memberParticipate": "佐藤璃果",
+			"linkHardsub": "https://lokerwfh.net/TaKEg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-pv-rika.jpg"
+		},
+		"04": {
+			"descEpisode": "| Individual - Yumiki Nao",
+			"descEpsListName": "PV 弓木",
+			"memberParticipate": "弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/ZDrH8Jc8",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-pv-yumiki.jpg"
+		},
+		"05": {
+			"descEpisode": "| Individual - Matsuo Miyu",
+			"descEpsListName": "PV 松尾",
+			"memberParticipate": "松尾美佑",
+			"linkHardsub": "https://lokerwfh.net/6NNafFh",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-pv-miyu.jpg"
+		},
+		"06": {
+			"descEpisode": "| Individual - Hayashi Runa",
+			"descEpsListName": "PV 林",
+			"memberParticipate": "林瑠奈",
+			"linkHardsub": "https://lokerwfh.net/7sumJ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-pv-runa.jpg"
+		},
+		"07": {
+			"descEpisode": "| Individual - Kuromi Haruka",
+			"descEpsListName": "PV 黒見",
+			"memberParticipate": "黒見明香",
+			"linkHardsub": "https://lokerwfh.net/8c7O6d",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoi-09-5byougo-pv-kuromi.jpg"
+		}
+	},
+	"descOnAirDate": "31 Maret - 4 April 2021"
+}

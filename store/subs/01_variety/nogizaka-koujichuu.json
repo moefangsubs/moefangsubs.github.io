@@ -1,0 +1,42 @@
+{
+	"url": "nogizaka-koujichuu",
+	"nameShowTitle": "Nogizaka Koujichuu",
+	"nameShow": "乃木坂工事中",
+	"descSynopsis": "\"Nogizaka Under Construction\" atau \"Nogizaka Koujichuu\" merupakan acara variety show dari Nogizaka46 dengan MC duo komedian Bananaman. Acara ini bisa dibilang kelanjutan dari acara sebelumnya, yaitu \"Nogizaka tte, Doko?\" yang tayang di stasiun TV yang sama, TV Tokyo pada hari minggu pukul 24:00-24:30 JST. Setiap minggunya pada awalnya, satu member dipilih untuk mempresentasikan program yang ingin dia lakukan. Dibandingkan dengan \"Nogizaka tte, Doko?\", dimana setiap member sebagai protagonis project, yang akan lebih menunjukkan karakteristik dan pesona masing-masing member. Namun tipe seperti itu dibatalkan setelah ep25.",
+	"availableEpisode": [
+		"01",
+		"02"
+	],
+	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_koujichuu.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 230 未公開",
+			"descOnAirDate": "18 Agustus 2021",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/cNUotBZX",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-mokuhyou-taiseichuu-kushizashi-part-rc0nZ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-mokuhyou-kushizashi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-d.jpg",
+			"descEpisodeSynopsis": "Disini saya mau ngerilis cut 5 menit dari BluRay Nogizaka Koujichuu Mokuhyou Tasseichuu dari part Endo Sakura dan Kaki Haruka melakukan trik sulap, pastinya bagian 未公開 atau yang tidak dirilis dalam tayangan disiarkan, yaitu Endo akan melakukan trik sulap menusuk Kakki (sambungan dari episode 230)."
+		},
+		"02": {
+			"descEpisode": "| Episode 139-140 未公開",
+			"descOnAirDate": "18 Agustus 2021",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/UIH81M",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-bd-senshuken-ratu-no-otak-2-part-0HSmP",
+			"filePassword": "MaayavsReno",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2.jpg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-senshuken-nootak2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2d.jpg",
+			"descEpisodeSynopsis": "Dalam BluRay Nogizaka Koujichuu Senshuken kaisaichuu, terdapat 2 episode full pencarian Ratu No-Otak kedua yang mana telah diraih oleh Wada Maaya beberapa tahun yang lalu. Di full episode ini pastinya ada bagian 未公開 atau yang tidak dirilis dalam tayangan yang disiarkan."
+		}
+	}
+}

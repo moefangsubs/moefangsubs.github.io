@@ -1,0 +1,27 @@
+{
+	"url": "nogizaka-tokyo-pasokon-club",
+	"nameShowTitle": "Nogizaka46 Tokyo Pasokon Club",
+	"nameShow": "乃木坂46 東京パソコンクラブ",
+	"descSynopsis": "\"Tokyo Pasokon Club\" merupakan acara para member Nogizaka46 untuk mempelajari tentang bahasa pemograman khususnya membuat sebuah game dari awal.",
+	"availableEpisode": [
+		"48"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_tokyopc.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/pasokon{{eps}}.jpg",
+	"episodes": {
+		"48": {
+			"descEpisode": "| Episode 48",
+			"descOnAirDate": "2 Juni 2021",
+			"memberParticipate": "吉田綾乃クリスティー、林瑠奈、弓木奈於",
+			"linkHardsub": "https://lokerwfh.net/iP07NuPm",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-tokyo-pasokon-club-w1bzK",
+			"filePassword": "pasokon48",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48d.jpg",
+			"descEpisodeSynopsis": "Garapan spesial kali ini adalah menggarap satu episode dari Tokyo Pasokon Club, dimana Hayashi Runa menjadi anggota reguler baru dalam acara ini setelah Kanagawa Saya tidak dapat lagi berpartisipasi dalam acara ini. Bersama Yumiki Nao dan Yoshida Ayano Christie, dibimbing oleh orang yang mahir dalam pemograman, mereka akan belajar membuat game. Game kali ini adalah game 3D, dan sebelum itu, mereka mencoba bermain game lawas, Crash Bandicoot."
+		}
+	}
+}

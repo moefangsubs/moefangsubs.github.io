@@ -1,0 +1,22 @@
+{
+	"url": "compilation",
+	"nameShowTitle": "Compilation",
+	"descSynopsis": "Kompilasi video yang dibuat oleh MoeFang.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_compilation.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Compilation Nogizaka46 Performance @ Kouhaku Uta Gassen 2015-2022",
+			"descEpsListName": "紅白 2015-2022",
+			"descOnAirDate": "2015 - 2022",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/iH9NLa7",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogizaka46_kouhaku2015_2022.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nogizaka46-kouhaku2015-2022.jpg",
+			"descEpisodeSynopsis": "Membuka tahun 2023 ini dengan garapan kompilasi penampilan Nogizaka46 di Kouhaku Uta Gassen dimulai dari 2015 hingga 2022 kemarin. VIdeo ini saya gabungkan dan dengan resolusi 1080p biar yang nonton jadi lebih bening. 2015 adalah awal Nogizaka46 tampil di Kouhaku dengan membawakan \"Kimi no Na wa Kibou\", berlanjut ke tahun-tahun berikutnya hingga kemarin 2022 menjadi akhir perjalanan Saito Asuka dengan membawakan \"Hadashi de Summer\" yang merupakan lagu dimana dia menjadi center senbatsu pertama",
+			"nameShow": "NHK 紅白歌合戦"
+		}
+	}
+}

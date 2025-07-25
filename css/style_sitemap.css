@@ -1,0 +1,212 @@
+/* -- Styles for Sitemap Page Components -- */
+/* Welcome Header */
+ .welcome {
+     width: 100%;
+     height: 0;
+     padding-bottom: 20%;
+     position: relative;
+     background-color: var(--moe-shade-min1);
+     margin-bottom: 3rem;
+     overflow: hidden;
+}
+ .welcome-content {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ img.welcome-title {
+     width: 30%;
+     max-width: 100%;
+}
+ @media only screen and (max-width: 700px) {
+     .welcome {
+         height: 10rem;
+    }
+     img.welcome-title {
+         width: 50%;
+    }
+}
+/* Acara Slider */
+ .acara-wrapper {
+     position: relative;
+     width: 100%;
+}
+ .acara-nav {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 10;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     background-color: var(--moe);
+     color: white;
+     border: none;
+     cursor: pointer;
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     opacity: 0.7;
+     transition: opacity 0.3s;
+     visibility: visible;
+}
+ .acara-nav:hover {
+    opacity: 1;
+}
+ .acara-nav-left {
+    left: 10px;
+}
+ .acara-nav-right {
+    right: 10px;
+}
+ .acara-container {
+     height: auto;
+     display: flex;
+     overflow: hidden;
+     overflow-x: auto;
+     overflow-y: hidden;
+     scrollbar-width: none;
+     -ms-overflow-style: none;
+     position: relative;
+     transition: all 0.5s ease;
+     flex-direction: column;
+     color: var(--moe);
+}
+ .acara-container::-webkit-scrollbar {
+     height: 0px;
+}
+ .acara-title {
+     font-weight: bold;
+     color: var(--moe);
+}
+ .update-date {
+     color: var(--moe-tint2);
+     padding: 5pt;
+     margin-left: -10pt;
+     text-decoration: none;
+     font-size: 15pt;
+}
+ .acara-list {
+     display: flex;
+     overflow-x: auto;
+     scroll-snap-type: x proximity;
+     scroll-behavior: smooth;
+     scrollbar-width: none;
+     -ms-overflow-style: none;
+     gap: 0px;
+     padding-bottom: 10px;
+}
+ .acara-list::-webkit-scrollbar {
+     display: none;
+}
+ .acara {
+     border-radius: 5pt;
+     padding: 10pt;
+     display: flex;
+     flex-direction: column;
+     color: var(--moe-shade-min2);
+     transition: var(--all);
+     scroll-snap-align: start;
+     flex: 0 0 auto;
+}
+ .acara:hover {
+     transform: scale(95%);
+     background-color: var(--moe-tint6);
+}
+ .acara:hover .boxs2 {
+     border-radius: 0pt !important;
+     box-shadow: 6px 6px 0px 3px var(--moe);
+     -webkit-box-shadow: 6px 6px 0px 3px var(--moe);
+     -moz-box-shadow: 6px 6px 0px 3px var(--moe);
+}
+ .acara a {
+     color: var(--moe);
+     display: flex;
+     flex-direction: column;
+}
+ .acara img {
+     max-width: 300px;
+     aspect-ratio: 16 / 9;
+     object-fit: cover;
+     border-radius: 5pt;
+}
+ span.acara-name {
+     padding-top: 5pt;
+}
+ .eps {
+     margin-left:5pt;
+     font-style: normal;
+     font-weight: 800;
+     color: var(--moe-tint4);
+}
+ #acara-member {
+     font-size: 14pt;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     color: var(--moe);
+}
+ #acara-member h6 {
+     border: 1pt solid var(--moe);
+     border-radius: 0pt;
+     padding: 2pt;
+     margin-right: 5pt;
+     font-weight: 400;
+     -webkit-font-smoothing: antialiased;
+}
+/* Other Fansub List */
+ .acara-container ul {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ .acara-container li {
+     width: 48%;
+     margin-bottom: 10px;
+     padding: 8px 40px 8px 12px;
+     background-color: var(--moe-tint5);
+     border-radius: 4px;
+     box-sizing: border-box;
+     position: relative;
+     overflow: hidden;
+}
+ .acara-container li a {
+     color: #333;
+     text-decoration: none;
+     display: block;
+     width: calc(100% - 30px);
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     position: relative;
+     z-index: 1;
+}
+ .acara-container li::after {
+     content: "";
+     position: absolute;
+     right: 10px;
+     top: 50%;
+     transform: translateY(-50%);
+     width: 24px;
+     height: 24px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+     z-index: 0;
+}
+/* Partner Logos */
+ .acara-container li a[title="Kuneeel"]::after {
+     background-image: url('https://ik.imagekit.io/moearchive/partners/kuneeel.png');
+}
+ .acara-container li a[title="Runsubs"]::after {
+     background-image: url('https://ik.imagekit.io/moearchive/partners/runsubs.png');
+}

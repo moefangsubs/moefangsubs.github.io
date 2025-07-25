@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- Title -->
+    <title>Nogizaka46 Karaoke Player</title>
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" href="../css/style_song_karaoke.css">
+</head>
+<body>
+    <div class="music-container">
+        <div class="mediaandplaylist">
+            <div class="media">
+                <div class="blurry"></div>
+                <div class="forpadding">
+                    <div class="media-info">
+                        <div class="cdimg">
+                            <img id="cd-cover" src="https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_x.jpg" alt="Album Cover"/>
+                        </div>
+                        <div class="song">
+                            <div class="titlesong" id="title-song">Pilih Lagu</div>
+                            <div class="singersong" id="singer-song">Nogizaka46 Karaoke</div>
+                        </div>
+                    </div>
+                    <div class="player-controls">
+                        <audio id="audio-player" preload="metadata"></audio>
+                        <div class="progress-container" id="progress-container">
+                            <div class="progress-bar" id="progress-bar"></div>
+                        </div>
+                        <div class="time-display">
+                            <span id="current-time">0:00</span>
+                            <span id="total-duration">0:00</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="main-controls">
+                                <button id="repeat-btn" class="control-btn"><i class="fas fa-repeat"></i></button>
+                                <button id="prev-btn" class="control-btn"><i class="fas fa-backward"></i></button>
+                                <button id="play-pause-btn" class="control-btn play"><i class="fas fa-play"></i></button>
+                                <button id="next-btn" class="control-btn"><i class="fas fa-forward"></i></button>
+                                <button id="shuffle-btn" class="control-btn"><i class="fas fa-random"></i></button>
+                            </div>
+                            <div class="volume-container">
+                                <i class="fas fa-volume-high control-btn" id="volume-icon"></i>
+                                <input type="range" id="volume-slider" class="volume-slider" min="0" max="1" step="0.01" value="0.5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playlist">
+                <div class="playlist-inside" id="playlist-inside">
+                    <a href="#" class="songlist">Memuat daftar putar...</a>
+                </div>
+            </div>
+        </div>
+        <div class="lyrics">
+            <div class="lyrics-animation" id="lyrics-animation">
+                <span>Pilih lagu dari daftar putar untuk memulai... 🎶</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/script_karaoke.js"></script>
+</body>
+</html>

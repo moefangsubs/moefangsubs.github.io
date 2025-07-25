@@ -1,0 +1,249 @@
+/* style_sitemap_garapan.css (FINAL - Responsive Clip-Path) */
+
+/* Variabel dari generator kita definisikan di sini */
+:root {
+    /* ================== UNTUK MOBILE (Radius Besar) ================== */
+    --pixel-clip-path-outer-phone: polygon(0px calc(100% - 35px), 5px calc(100% - 35px), 5px calc(100% - 25px), 10px calc(100% - 25px), 10px calc(100% - 15px), 15px calc(100% - 15px), 15px calc(100% - 10px), 25px calc(100% - 10px), 25px calc(100% - 5px), 35px calc(100% - 5px), 35px 100%, calc(100% - 35px) 100%, calc(100% - 35px) calc(100% - 5px), calc(100% - 25px) calc(100% - 5px), calc(100% - 25px) calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(100% - 15px) calc(100% - 15px), calc(100% - 10px) calc(100% - 15px), calc(100% - 10px) calc(100% - 25px), calc(100% - 5px) calc(100% - 25px), calc(100% - 5px) calc(100% - 35px), 100% calc(100% - 35px), 100% 35px, calc(100% - 5px) 35px, calc(100% - 5px) 25px, calc(100% - 10px) 25px, calc(100% - 10px) 15px, calc(100% - 15px) 15px, calc(100% - 15px) 10px, calc(100% - 25px) 10px, calc(100% - 25px) 5px, calc(100% - 35px) 5px, calc(100% - 35px) 0px, 35px 0px, 35px 5px, 25px 5px, 25px 10px, 15px 10px, 15px 15px, 10px 15px, 10px 25px, 5px 25px, 5px 35px, 0px 35px);
+    --pixel-clip-path-border-phone: polygon(0px calc(100% - 35px), 5px calc(100% - 35px), 5px calc(100% - 25px), 10px calc(100% - 25px), 10px calc(100% - 15px), 15px calc(100% - 15px), 15px calc(100% - 10px), 25px calc(100% - 10px), 25px calc(100% - 5px), 35px calc(100% - 5px), 35px 100%, calc(100% - 35px) 100%, calc(100% - 35px) calc(100% - 5px), calc(100% - 25px) calc(100% - 5px), calc(100% - 25px) calc(100% - 10px), calc(100% - 15px) calc(100% - 10px), calc(100% - 15px) calc(100% - 15px), calc(100% - 10px) calc(100% - 15px), calc(100% - 10px) calc(100% - 25px), calc(100% - 5px) calc(100% - 25px), calc(100% - 5px) calc(100% - 35px), 100% calc(100% - 35px), 100% 35px, calc(100% - 5px) 35px, calc(100% - 5px) 25px, calc(100% - 10px) 25px, calc(100% - 10px) 15px, calc(100% - 15px) 15px, calc(100% - 15px) 10px, calc(100% - 25px) 10px, calc(100% - 25px) 5px, calc(100% - 35px) 5px, calc(100% - 35px) 0px, 35px 0px, 35px 5px, 25px 5px, 25px 10px, 15px 10px, 15px 15px, 10px 15px, 10px 25px, 5px 25px, 5px 35px, 0px 35px, 0px 50%, 5px 50%, 5px 35px, 10px 35px, 10px 25px, 15px 25px, 15px 15px, 25px 15px, 25px 10px, 35px 10px, 35px 5px, calc(100% - 35px) 5px, calc(100% - 35px) 10px, calc(100% - 25px) 10px, calc(100% - 25px) 15px, calc(100% - 15px) 15px, calc(100% - 15px) 25px, calc(100% - 10px) 25px, calc(100% - 10px) 35px, calc(100% - 5px) 35px, calc(100% - 5px) calc(100% - 35px), calc(100% - 10px) calc(100% - 35px), calc(100% - 10px) calc(100% - 25px), calc(100% - 15px) calc(100% - 25px), calc(100% - 15px) calc(100% - 15px), calc(100% - 25px) calc(100% - 15px), calc(100% - 25px) calc(100% - 10px), calc(100% - 35px) calc(100% - 10px), calc(100% - 35px) calc(100% - 5px), 35px calc(100% - 5px), 35px calc(100% - 10px), 25px calc(100% - 10px), 25px calc(100% - 15px), 15px calc(100% - 15px), 15px calc(100% - 25px), 10px calc(100% - 25px), 10px calc(100% - 35px), 5px calc(100% - 35px), 5px 50%, 0px 50%);
+
+    /* ================= UNTUK DESKTOP (Radius Kecil) ================= */
+    --pixel-clip-path-outer-desktop: polygon(0px calc(100% - 20px), 4px calc(100% - 20px), 4px calc(100% - 12px), 8px calc(100% - 12px), 8px calc(100% - 8px), 12px calc(100% - 8px), 12px calc(100% - 4px), 20px calc(100% - 4px), 20px 100%, calc(100% - 20px) 100%, calc(100% - 20px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 20px), 100% calc(100% - 20px), 100% 20px, calc(100% - 4px) 20px, calc(100% - 4px) 12px, calc(100% - 8px) 12px, calc(100% - 8px) 8px, calc(100% - 12px) 8px, calc(100% - 12px) 4px, calc(100% - 20px) 4px, calc(100% - 20px) 0px, 20px 0px, 20px 4px, 12px 4px, 12px 8px, 8px 8px, 8px 12px, 4px 12px, 4px 20px, 0px 20px);
+    --pixel-clip-path-border-desktop: polygon(0px calc(100% - 20px), 4px calc(100% - 20px), 4px calc(100% - 12px), 8px calc(100% - 12px), 8px calc(100% - 8px), 12px calc(100% - 8px), 12px calc(100% - 4px), 20px calc(100% - 4px), 20px 100%, calc(100% - 20px) 100%, calc(100% - 20px) calc(100% - 4px), calc(100% - 12px) calc(100% - 4px), calc(100% - 12px) calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) calc(100% - 12px), calc(100% - 4px) calc(100% - 12px), calc(100% - 4px) calc(100% - 20px), 100% calc(100% - 20px), 100% 20px, calc(100% - 4px) 20px, calc(100% - 4px) 12px, calc(100% - 8px) 12px, calc(100% - 8px) 8px, calc(100% - 12px) 8px, calc(100% - 12px) 4px, calc(100% - 20px) 4px, calc(100% - 20px) 0px, 20px 0px, 20px 4px, 12px 4px, 12px 8px, 8px 8px, 8px 12px, 4px 12px, 4px 20px, 0px 20px, 0px 50%, 4px 50%, 4px 20px, 8px 20px, 8px 12px, 12px 12px, 12px 8px, 20px 8px, 20px 4px, calc(100% - 20px) 4px, calc(100% - 20px) 8px, calc(100% - 12px) 8px, calc(100% - 12px) 12px, calc(100% - 8px) 12px, calc(100% - 8px) 20px, calc(100% - 4px) 20px, calc(100% - 4px) calc(100% - 20px), calc(100% - 8px) calc(100% - 20px), calc(100% - 8px) calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) calc(100% - 8px), calc(100% - 20px) calc(100% - 8px), calc(100% - 20px) calc(100% - 4px), 20px calc(100% - 4px), 20px calc(100% - 8px), 12px calc(100% - 8px), 12px calc(100% - 12px), 8px calc(100% - 12px), 8px calc(100% - 20px), 4px calc(100% - 20px), 4px 50%, 0px 50%);
+}
+
+* {
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#daftar-garapan {
+    width: 90%;
+	max-width:1920px;
+}
+
+#daftar-garapan .div-subcategory {
+    margin-bottom: 3rem;
+}
+#daftar-garapan h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--moe);
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    /* background: var(--moe-tint6); */
+}
+.garapan-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.3rem 1rem;
+}
+
+.garapan-grid a {
+    text-decoration: none;
+    color: var(--moe-shade-min2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.garapan-grid a span {
+	display: block;
+	padding-top: 0.75rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cat-acara {
+    width: 100%;
+    aspect-ratio: 2.08 / 1;
+    position: relative;
+}
+
+.cat-acara img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    clip-path: var(--pixel-clip-path-outer-phone);
+    animation-name: movelagup;
+    animation-duration: 3s;
+} 
+
+.cat-acara-border {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: var(--moe-shade-max1);
+    clip-path: var(--pixel-clip-path-border-phone);
+    animation-name: movelagup;
+    animation-duration: 3s;
+}
+
+.cat-acara-shade1,
+.cat-acara-shade2 {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: var(--pixel-clip-path-outer-phone);
+
+}
+.cat-acara-shade1 {
+    z-index: -1;
+    background: var(--moe-tint2);
+    transform: translateY(5px);}
+
+.cat-acara-shade2 {
+    z-index: -2;
+    background: var(--moe-tint3);
+    transform: translateY(10px);
+}
+
+.cat-acara:hover {
+    transform: scale(1.1);
+	z-index:5;
+}
+.cat-acara:hover .cat-acara-border {
+	background: var(--moe-tint2);
+}
+.cat-acara:hover .cat-acara-shade1 {
+    background: var(--moe-tint4);
+}
+
+.cat-acara:hover .cat-acara-shade2 {
+    background: var(--moe-tint4);
+}
+
+/* ========================= */
+.garapan-update-wrapper {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    /* transform: rotate(15deg); */
+    z-index: 2;
+    animation-name: newupdate;
+    animation-duration: .76s;
+}
+
+.garapan-update-border {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: black;
+    clip-path: var(--pixel-update-clip-path-border);
+}
+
+.garapan-update {
+    position: relative;
+    z-index: 0;
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+
+.garapan-update-tail {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: white;
+    bottom: -4px;
+    left: 50%;
+    margin-left: -6px;
+    transform: rotate(45deg);
+    z-index: 1;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+/* ========================= */
+@media (min-width: 576px) {
+    .garapan-grid a {
+        width: calc(50% - 0.5rem);
+    }
+}
+@media (min-width: 992px) {
+    .garapan-grid a {
+        width: calc(33.333% - 0.67rem);
+    }
+    /* ### GANTI CLIP-PATH UNTUK DESKTOP ### */
+    .cat-acara img {
+        clip-path: var(--pixel-clip-path-outer-desktop);
+    }
+    .cat-acara-border {
+        clip-path: var(--pixel-clip-path-border-desktop);
+    }
+    .cat-acara-shade1, .cat-acara-shade2 {
+        clip-path: var(--pixel-clip-path-outer-desktop);
+    }
+}
+@media (min-width: 1200px) {
+    .garapan-grid a {
+        width: calc(25% - 0.75rem);
+    }
+}
+
+
+/* ============== */
+
+
+@keyframes movelagup {
+    0% {
+        transform: translateY(0px);
+    }
+    49% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    99% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes newupdate {
+    0% {
+        transform: rotate(15deg) translateY(0px);
+    }
+    49% {
+        transform: rotate(15deg) translateY(0px);
+    }
+    50% {
+        transform: rotate(15deg) translateY(3px);
+    }
+    99% {
+        transform: rotate(15deg) translateY(3px);
+    }
+    100% {
+        transform: rotate(15deg) translateY(0px);
+    }
+}

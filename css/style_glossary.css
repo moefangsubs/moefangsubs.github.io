@@ -1,0 +1,126 @@
+/* File: style_glossary.css */
+
+.glossary-body {
+    background-color: var(--moe-tint5);
+}
+
+* {
+    border-radius: 0 !important;
+    font-family: "Space Mono", monospace;
+}
+
+.container {
+    width: 90%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--moe-shade-min2);
+    margin-bottom: 1rem;
+}
+
+.intro-text {
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto 2rem auto;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+/* Toggle Buttons */
+.toggle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 3rem;
+}
+
+.toggle-btn {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    padding: 8px 12px;
+    background-color: var(--moe);
+    color: white;
+    border: 2px solid var(--moe-shade-min2);
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-btn:hover {
+    background-color: var(--moe-shade-max1);
+}
+
+.toggle-btn.active {
+    background-color: var(--moe-shade-min2);
+    color: white;
+}
+
+/* Glossary Content Area */
+#glossary-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 90%;
+}
+.category-section h2 {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 2rem;
+    color: var(--moe-shade-min1);
+    border-bottom: 3px solid var(--moe-shade-min1);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.glossary-item {
+    background-color: var(--moe-tint7);
+    border: 2px solid var(--moe);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 4px 4px 0px 0px var(--moe);
+    font-family: "Space Mono", monospace;
+}
+
+.glossary-item .istilah_jp {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--moe-shade-min2);
+    margin: 0 0 0.25rem 0;
+}
+
+.glossary-item .istilah_ro {
+    font-family: "Space Mono", monospace;
+    font-size: 1.1rem;
+    color: var(--moe-shade-max1);
+    margin: 0 0 1rem 0;
+    font-style: italic;
+}
+
+.glossary-item p {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    text-align: justify;
+    line-height: 1.7;
+    margin: 0.5rem 0 0 0;
+    font-size: 1rem;
+    color: var(--moe-shade-min3);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    .toggle-btn {
+        font-size: 0.8rem;
+        padding: 6px 10px;
+    }
+    .glossary-item .istilah_jp {
+        font-size: 1.5rem;
+    }
+    .glossary-item .istilah_ro {
+        font-size: 1rem;
+    }
+}

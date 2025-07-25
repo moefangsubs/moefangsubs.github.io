@@ -1,0 +1,53 @@
+{
+	"url": "cupstar-asusanpo",
+	"nameShowTitle": "Asusanpo",
+	"nameShow": "あすさんぽ",
+	"descSynopsis": "Seri Sapporo Ichiban ke-3 ini berjudul Asusanpo. Member gen-4 (Endo Sakura, Kakehashi Sayaka, Kanagawa Saya) diberikan sebuah kegiatan untuk memperkenalkan senpainya, Saito Asuka-san pada pesona lokal Jepang, karena mereka mendengar kalau Asuka-san selalu di luar negeri dan tampaknya sudah mengarahkan pandangannya dari Jepang sepenuhnya. Untuk menyampaikan pesona yang tidak ditemukan di luar negeri, mereka mencoba mengajak Asuka.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_waraa_asusanpo.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/asusanpo-hardsub-softsub-19X7h",
+	"filePassword": "asusanpo",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Episode 1 (Hakata-hen)",
+			"descEpsListName": "",
+			"descOnAirDate": "7 Juni 2019",
+			"linkHardsub": "https://lokerwfh.net/jkKrsj",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/asusanpo_1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-1.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-1c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-1d.jpg"
+		},
+		"02": {
+			"descEpisode": "| Episode 2 (Mie-hen)",
+			"descEpsListName": "",
+			"descOnAirDate": "15 Juni 2019",
+			"linkHardsub": "https://lokerwfh.net/edVB",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/asusanpo_2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-2c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-2d.jpg"
+		},
+		"03": {
+			"descEpisode": "| Episode 3 (Kobe-hen)",
+			"descEpsListName": "",
+			"descOnAirDate": "23 Juni 2019",
+			"linkHardsub": "https://lokerwfh.net/CVAatE4",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/asusanpo_3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-3.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-3a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-3b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-3c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/asusanpo-3d.jpg"
+		}
+	},
+	"memberParticipate": "齋藤飛鳥、遠藤さくら、掛橋沙耶香、金川紗耶"
+}

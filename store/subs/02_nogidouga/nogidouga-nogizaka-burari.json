@@ -1,0 +1,174 @@
+{
+	"url": "nogidouga-nogizaka-burari",
+	"nameShowTitle": "Nogizaka Burari",
+	"nameShow": "乃木坂ぶらり",
+	"descSynopsis": "\"Nogizaka Burari\" merupakan konten dari Nogi Douga di mana satu member dari Nogizaka46 diminta untuk merancang \"Jika menghabiskan liburan bersama member, apa yang akan dilakukan, dengan siapa, dan di mana?\" sebagai tema. Mereka akan menghabiskan hari libur sesuai dengan rencana ideal mereka sambil mengambil foto selfie, dan konten ini akan memberikan gambaran tentang pengalaman tersebut.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16",
+		"17"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiburari.png",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-burari-tSBLr",
+	"linkRAW": "https://www.akari46.cloud/search?q=Nogizaka+Burari",
+	"rawSource": "Akari46 / Aidoru",
+	"filePassword": "nogiburari{{eps}}",
+	"episodes": {
+		"01": {
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "24 Maret 2023",
+			"memberParticipate": "鈴木絢音、佐藤璃果",
+			"linkHardsub": "https://lokerwfh.net/MKxN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari01.jpg",
+			"descEpisodeSynopsis": "Episode 1 kali ini adalah pertama dan terakhirnya buat Suzuki Ayane, dimana ia ingin pergi ke Asakusa dengan berbagai kegiatan, dan memilih Sato Rika sebagai partner jalan-jalannya kali ini sambil merayakan Rika-chan yang pertama kali masuk senbatsu. Seperti apakah keseruannya?"
+		},
+		"02": {
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "21 April 2023",
+			"memberParticipate": "井上和、遠藤さくら",
+			"linkHardsub": "https://lokerwfh.net/J4zaN8",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari02.jpg",
+			"descEpisodeSynopsis": "Episode 2 kali ini adalah Inoue Nagi, dan ia memilih ingin bersama senpai yang dikaguminya, Endo Sakura. Jalan-jalan kali ini adalah sekitaran Tokyo, dimana ingin mengunjungi tempat mitarashi dango, makanan kesukaannya senpainya, dan ingin pergi ke toko buku. Seperti apakah keseruannya?"
+		},
+		"03": {
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "12 Mei 2023",
+			"memberParticipate": "菅原咲月、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/ytLlD",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari03.jpg",
+			"descEpisodeSynopsis": "Episode 3 kali ini adalah Sugawara Satsuki, dan ia memilih ingin bersama senpai yang dekat dengannya, Tamura Mayu. Jalan-jalan kali ini adalah pergi ke sebuah toko dessert, lalu setelah itu mereka menuju Sumida Aquarium."
+		},
+		"04": {
+			"descEpsListName": "Episode 4",
+			"descOnAirDate": "12 Juni 2023",
+			"memberParticipate": "岩本蓮加、柴谷柚菜",
+			"linkHardsub": "https://lokerwfh.net/4yyMJU",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari04.jpg",
+			"descEpisodeSynopsis": "Episode 4 kali ini adalah Iwamoto Renka, dan ia memilih ingin bersama kouhai yang katanya ingin berbicara dengannya, yaitu Shibata Yuna. Jalan-jalan kali ini adalah pergi ke berbagai toko di Shimokitazawa, mulai dari pernak-pernik, baju bekas, furnitur dan kafe."
+		},
+		"05": {
+			"descEpsListName": "Episode 5",
+			"descOnAirDate": "21 Juli 2023",
+			"memberParticipate": "伊藤理々杏、賀喜遥香",
+			"linkHardsub": "https://lokerwfh.net/fVehDX0b",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari05.jpg",
+			"descEpisodeSynopsis": "Episode 5 kali ini adalah Ito Riria, dan ia memilih ingin bersama kouhai yang sehobi dengannya, yaitu Kaki Haruka. Jalan-jalan kali ini adalah pergi ke Animate, dimana mereka begitu menikmati berbagai goods anime, lalu di akhir mereka mencoba pergi ke game center."
+		},
+		"06": {
+			"descEpsListName": "Episode 6",
+			"descOnAirDate": "10 Agustus 2023",
+			"memberParticipate": "冨里奈央、佐藤楓",
+			"linkHardsub": "https://lokerwfh.net/IOnguiB",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari06.jpg",
+			"descEpisodeSynopsis": "Episode 6 kali ini adalah Tomisato Nao, dan ia memilih ingin bersama senpainya yang sekarang makin dekat dan menganggapnya kakak sendiri, Sato Kaede. Jalan-jalan kali ini adalah pergi ke Yomiuri Land Tokyo. Disana mereka berdua akan mencoba berbagai wahana dari yang santai sampai yang paling menantang."
+		},
+		"07": {
+			"descEpsListName": "Episode 7",
+			"descOnAirDate": "28 September 2023",
+			"memberParticipate": "一ノ瀬美空、田村真佑",
+			"linkHardsub": "https://lokerwfh.net/U6pp4Eur",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari07.jpg",
+			"descEpisodeSynopsis": "Episode 7 kali ini adalah Ichinose, dan ia memilih ingin bersama senpainya yang sekarang makin dekat, Tamura Mayu. Jalan-jalan kali ini adalah pergi ke toko pembuatan baju dimana dia ingin punya baju yang samaan dengan Mayutan. Lalu dilanjut dengan menantang panjat tebing yang mana kedua orang ini baru pertama kali mencobanya. Setelah lelah, mereka pergi ke kedai yakiniku sambil ngobrol santai disana.<"
+		},
+		"08": {
+			"descEpsListName": "Episode 8",
+			"descOnAirDate": "13 Oktober 2023",
+			"memberParticipate": "筒井あやめ、清宮レイ",
+			"linkHardsub": "https://lokerwfh.net/C7kWsH",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari08.jpg",
+			"descEpisodeSynopsis": "Episode 8 kali ini adalah Tsutsui Ayame yang ingin berkemah alias nge-BBQ bareng sohibnya, Seimiya Rei. Sepanjang video kita akan menyaksikan kemah ala-ala mereka, lalu ditambah dengan obrolan randomnya mereka. Di akhir video, mereka turun dari tempat mereka kemah dan pergi ke sungai."
+		},
+		"09": {
+			"descEpsListName": "Episode 9",
+			"descOnAirDate": "22 Desember 2023",
+			"memberParticipate": "矢久保美緒、林瑠奈",
+			"linkHardsub": "https://lokerwfh.net/zEmwmG4z",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari09.jpg",
+			"descEpisodeSynopsis": "Episode 9 kali ini adalah Yakubo Mio, yang sama-sama memilih teman dekatnya sesama gen-4, Hayashi Runa. Mio-chan yang berkeinginan mencoba ke kedai restoran Cina sederhana namun belum punya pengalaman, maka ia berkesempatan mengajak Runa yang sudah sering pergi ke kedai Cina. Setelah itu perjalanan mereka diakhiri dengan melihat iluminasi atau pameran lampu sambil membuat dekorasi lilin untuk natal."
+		},
+		"10": {
+			"descEpsListName": "Episode 10",
+			"descOnAirDate": "2 Februari 2024",
+			"memberParticipate": "梅澤美波、小川彩",
+			"linkHardsub": "https://sfl.gl/Lzx8Qf",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari10.jpg",
+			"descEpisodeSynopsis": "Episode 10 kali ini adalah dari Umezawa Minami, sang kapten yang begitu menyayangi member paling muda saat ini, Ogawa Aya. Ia ingin mengajak Aya pergi mencoba afternoon tea."
+		},
+		"11": {
+			"descEpsListName": "Episode 11",
+			"descOnAirDate": "27 Februari 2024",
+			"memberParticipate": "久保史緒里、向井葉月",
+			"linkHardsub": "https://sfl.gl/RBxgO",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari11.jpg",
+			"descEpisodeSynopsis": "Episode 11 kali ini adalah bagian pertama dari perjalanan Kubo Shiori bersama sahabatnya Mukai Hazuki ke kampung halamannya di Sendai. Bagian pertama ini mereka berdua akan pergi ke akuarium."
+		},
+		"12": {
+			"descEpsListName": "Episode 12",
+			"descOnAirDate": "5 Maret 2024",
+			"memberParticipate": "久保史緒里、向井葉月",
+			"linkHardsub": "https://sfl.gl/7plNDpg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari12.jpg",
+			"descEpisodeSynopsis": "Episode 12 kali ini adalah bagian kedua dari perjalanan Kubo Shiori bersama sahabatnya Mukai Hazuki ke kampung halamannya di Sendai. Bagian kedua sekaligus terakhir ini memperlihatkan keseruan mereka untuk mencari ohagi, pergi ke air terjun, dan terakhir bermain tenis meja. Begitu juga terdapat deep talk diantara mereka berdua."
+		},
+		"13": {
+			"descEpsListName": "Episode 13",
+			"descOnAirDate": "22 Maret 2024",
+			"memberParticipate": "吉田綾乃クリスティー、岩本連加",
+			"linkHardsub": "https://sfl.gl/YZwDsOf",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari13.jpg",
+			"descEpisodeSynopsis": "Episode 13 kali ini adalah duo gamer Yoshida Ayano Christie dan Iwamoto Renka, dimana Ayatie mengajak Renka pergi ke game center, lalu diakhiri dengan karaoke sambil cosplay lolita."
+		},
+		"14": {
+			"descEpsListName": "Episode 14",
+			"descOnAirDate": "12 April 2024",
+			"memberParticipate": "中西アルノ、向井葉月",
+			"linkHardsub": "https://sfl.gl/zhSy9dHY",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari14.jpg",
+			"descEpisodeSynopsis": "Episode 14 kali ini adalah Nakanishi Aruno ingin mengajak Mukai Hazuki ke Odaiba, dan disana mereka akan mencoba berbagai wahana,"
+		},
+		"15": {
+			"descEpsListName": "Episode 15",
+			"descOnAirDate": "2 Mei 2024",
+			"memberParticipate": "山下美月、伊藤理々杏",
+			"linkHardsub": "https://sfl.gl/CrqKLL",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari15.jpg",
+			"descEpisodeSynopsis": "Episode 15 kali ini adalah pertama dan terakhir kalinya Yamashita Mizuki berpartisipasi disini. Yama akan mengajak sahabatnya, Ito Riria untuk berkeliling kota diawali dengan bermain trampolin bersama-sama."
+		},
+		"16": {
+			"descEpsListName": "Episode 16",
+			"descOnAirDate": "29 Juni 2024",
+			"memberParticipate": "川﨑桜、筒井あやめ",
+			"linkHardsub": "https://sfl.gl/h6voRD",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari16.jpg",
+			"descEpisodeSynopsis": "Episode 16 kali ini adalah Kawasaki Sakura yang ingin mengajak Tsutsui Ayame, dimana menurutnya Ayame adalah orang yang punya kesan melow, sehingga ia mengajaknya ke akuarium untuk berfoto dengan ubur-ubur disana."
+		},
+		"17": {
+			"descEpsListName": "Episode 17",
+			"descOnAirDate": "25 Oktober 2024",
+			"memberParticipate": "金川紗耶、冨里奈央",
+			"linkHardsub": "https://sfl.gl/jN4eU",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari17.jpg",
+			"descEpisodeSynopsis": "Episode 17 kali ini adalah Kanagawa Saya yang ingin mengajak Tomisato Nao, yang menurutnya semakin dekat akhir-akhir ini, sehingga ingin mengajaknya kencan dimulai dari mengajaknya ke kafe anjing, pijat refleksi dan dinner di restoran mewah."
+		}
+	},
+	"descEpisode": "| Episode {{eps}}"
+}

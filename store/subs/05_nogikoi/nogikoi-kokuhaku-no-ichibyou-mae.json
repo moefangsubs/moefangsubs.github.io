@@ -1,0 +1,24 @@
+{
+	"url": "nogikoi-kokuhaku-no-ichibyou-mae",
+	"nameShowTitle": "Nogikoi Kokuhaku no Ichibyou Mae",
+	"nameShow": "乃木恋・告白の一秒前",
+	"descSynopsis": "\"Kokuhaku no Ichibyou mae\" merupakan event dari Nogikoi tahun 2022 dimana yang berpartisipasinya hanya member baru, yaitu gen-5. Yang kami share disini adalah hanya bagian movie 1 dan 2. Member gen-5 ada 11 orang jadi di dalamnya ada 22 video.",
+	"availableEpisode": [
+		"01"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_koi_kokuhaku1byou.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Individual",
+			"descEpsListName": "Prologue",
+			"linkHardsub": "https://lokerwfh.net/CVjk",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/nogikoi/nogikoi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoikokuhaku.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoikokuhaku1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoikokuhaku2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/nogikoi/nogikoikokuhaku3.jpg"
+		}
+	},
+	"descOnAirDate": "30 Juli 2022",
+	"memberParticipate": "五百城茉央、池田瑛紗、一ノ瀬美空、井上和、岡本姫奈、小川彩、奥田いろは、川﨑桜、菅原咲月、冨里奈央、中西アルノ"
+}

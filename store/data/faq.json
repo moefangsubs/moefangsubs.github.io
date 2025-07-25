@@ -1,0 +1,31 @@
+{
+	"warning": {
+		"1" : "Dilarang menghapus dan/atau menambahkan watermark, apalagi mengklaim subtitle hasil sendiri",
+		"2" : "Dilarang mengunggah konten ini baik di akun sosial media dan/atau fanshare apapun dengan alasan dan tujuan apapun",
+		"3" : "Dilarang meng-encode ulang dengan mengganti isi subtitlenya, baik sedikit atau keseluruhan ",
+		"4" : "Dilarang mengedit segala isi di sub ini",
+		"5" : "Dilarang menyalin style ciri khas MoeFang Subs",
+		"6" : "Dilarang membagikan direct langsung ke Google Drive. Mohon hargai waktu dan tenaga yang sudah saya curahkan kemari"
+	},
+	"howto-softsub": {
+		"1" : "Unduh RAW dari berbagai penyedia, atau tombol link yang sudah saya disediakan. Jika sudah ada,  bisa dilewati langkah ini.",
+		"2" : "Setelah itu, silakan unduh tombol 'Softsub' bila diatas tersedia.",
+		"3" : "Untuk yang mengunduh via web, sebelum diarahkan ke Google Drive, diharuskan melewati shortlink. Kecuali untuk supporter Trakteer langsung diarahkan.",
+		"4" : "Setelah unduhan selesai, simpan softsub dengan RAW di folder yang sama, dan berikan nama yang sama juga. Untuk pengguna smartphone, simpan font di folder yang sama juga.",
+		"5" : "Untuk pengguna PC/Laptop, wajib menginstall font yang terdapat dalam zip softsub (bila tersedia) dan/atau button font (bila tersedia) agar menghindari ketidakcocokan jenis font.",
+		"6" : "Putar videonya dengan player selain bawaan Windows seperti POTPlayer, MPC, dan lain-lain. Bagi pengguna smartphone, silakan gunakan pemutar seperti VLC atau yang lainnya."
+	},
+	"howto-hardsub": {
+		"1" : "Download file hardsub diatas",
+		"2" : "Untuk yang mengunduh via web, sebelum diarahkan ke Google Drive, diharuskan melewati shortlink. Kecuali untuk supporter Trakteer langsung diarahkan.",
+		"3" : "Bila berekstensi zip, silakan ekstrak menggunakan 7Zip/WinRar (PC) ZArchiver (Smartphone). Tidak direkomendasikan untuk extract menggunakan aplikasi bawaan."
+	},
+	"faq": {
+		"1" : "Jika saat menekan tombol diatas dan error sebelum masuk ke Google Drive, maka penyedia shortlink sedang dalam maintenance, dan saya tidak bisa memperbaikinya.",
+		"2" : "Jika saat mengunduh di Google Drive terkena quota terbatas alias tulisan 'Sorry, you can't view or download this file at this time', mohon untuk sebelumnya hapus cache/history, dan wajib dalam keadaan login akun Google-mu.",
+		"3" : "Jika saat mengunduh di Google Drive ada error dengan gambar video player crash, maka ada error dari Google Drive, bukan dari saya.",
+		"4" : "Jika saat mengunduh di Google Drive ternyata salah file/episode, segera infokan lewat sosial media (khususnya Instagram).",
+		"5" : "Jika saat mengunduh di Google Drive ada error dengan 'That's an error', maka bisa saja saya memasukan link yang salah. Mohon infokan lewat sosial media (khususnya Instagram).",
+		"6" : "Jika saat mengunduh di Google Drive ada error dengan 'Sorry, unable to open the file at present', maka ada kemungkinan besar file tersebut dihapus, atau terhapus, atau salah memasukan link yang salah. Kasus ini sangat jarang, tapi jika itu terjadi, segera infokan lewat sosial media (khususnya Instagram)."
+	}
+}

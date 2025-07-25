@@ -1,0 +1,138 @@
+{
+	"url": "cupstar-sashimen",
+	"nameShowTitle": "Cupstar Sashimen",
+	"nameShow": "サシメン",
+	"descSynopsis": "Setelah sekian lama, dari Sapporo Ichiban Cupstar, dimulailah proyek baru bernama \"Sashimen\". Dalam proyek ini, para member Nogizaka46 akan muncul setiap bulannya dengan berpasangan, dan mereka akan menikmati percakapan sambil menikmati rasa Cupstar yang tidak biasa bagi mereka.",
+	"availableEpisode": [
+		"00",
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11"
+	],
+	"newUpdateCount": 3,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_cupstarsashimen.png",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sashimen/sashimen{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-cupstar-sashimen-9eYqV",
+	"episodes": {
+		"00": {
+			"descEpisode": "| Vol.0 (Yoda Yuuki & Ikeda Teresa)",
+			"descEpsListName": "Episode 0",
+			"descOnAirDate": "19 April 2024",
+			"memberParticipate": "与田祐希、池田瑛紗",
+			"linkHardsub": "https://lokerwfh.net/krxpWh",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen00.jpg",
+			"descEpisodeSynopsis": "Di episode 0 kali ini, member yang pertama kali memakan Cupstar bersama adalah Yoda Yuuki dari gen-3 dengan Ikeda Teresa dari gen-5."
+		},
+		"01": {
+			"descEpisode": "| Vol.1 (Yamashita Mizuki & Tamura Mayu)",
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "2 Mei 2024",
+			"memberParticipate": "山下美月、田村真佑",
+			"linkHardsub": "https://sfl.gl/nj4Z6X74",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen01.jpg",
+			"descEpisodeSynopsis": "Di episode 1 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Yamashita Mizuki & Tamura Mayu yang dipilih dengan sebutan kombinasi 'dua orang yang bisa melakukan apa saja'."
+		},
+		"02": {
+			"descEpisode": "| Vol.2 (Umezawa Minami & Yumiki Nao)",
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "6 Juni 2024",
+			"memberParticipate": "梅澤美波、弓木奈於",
+			"linkHardsub": "https://sfl.gl/xtdKqt",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen02.jpg",
+			"descEpisodeSynopsis": "Di episode 2 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Umezawa Minami & Yumiki Nao yang dipilih dengan sebutan kombinasi 'si serius dan si penggoda'."
+		},
+		"03": {
+			"descEpisode": "| Vol.3 (Endo Sakura & Ogawa Aya)",
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "4 Juli 2024",
+			"memberParticipate": "遠藤さくら、小川彩",
+			"linkHardsub": "https://sfl.gl/imEeeOf",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen03.jpg",
+			"descEpisodeSynopsis": "Di episode 3 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Endo Sakura & Ogawa Aya yang dipilih dengan sebutan kombinasi 'mereka yang disayang sama teman-teman seangkatannya'."
+		},
+		"04": {
+			"descEpisode": "| Vol.4 (Ito Riria & Inoue Nagi)",
+			"descEpsListName": "Episode 4",
+			"descOnAirDate": "1 Agustus 2024",
+			"memberParticipate": "伊藤理々杏、井上和",
+			"linkHardsub": "https://sfl.gl/6Xcwlp9",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen04.jpg",
+			"descEpisodeSynopsis": "Di episode 4 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Ito Riria & Inoue Nagi yang dipilih dengan sebutan kombinasi 'Dua orang yang sangat cinta anime'."
+		},
+		"05": {
+			"descEpisode": "| Vol.5 (Kaki Haruka & Sugawara Satsuki)",
+			"descEpsListName": "Episode 5",
+			"descOnAirDate": "5 September 2024",
+			"memberParticipate": "賀喜遥香、菅原咲月",
+			"linkHardsub": "https://sfl.gl/aHuovi",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen05.jpg",
+			"descEpisodeSynopsis": "Di episode 5 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Kaki Haruka & Sugawara Satsuki yang dipilih dengan sebutan kombinasi 'sering diandalkan oleh teman seangkatan'."
+		},
+		"06": {
+			"descEpisode": "| Vol.6 (Hayashi Runa & Ichinose Miku)",
+			"descEpsListName": "Episode 6",
+			"descOnAirDate": "3 Oktober 2024",
+			"memberParticipate": "林瑠奈、一ノ瀬美空",
+			"linkHardsub": "https://sfl.gl/iD4jeR",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen06.jpg",
+			"descEpisodeSynopsis": "Di episode 6 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Hayashi Runa & Ichinose Miku yang dipilih dengan sebutan kombinasi 'Duo yang Mudah Dibentuk'."
+		},
+		"07": {
+			"descEpisode": "| Vol.7 (Kanagawa Saya & Kawasaki Sakura)",
+			"descEpsListName": "Episode 7",
+			"descOnAirDate": "7 November 2024",
+			"memberParticipate": "金川紗耶、川﨑桜",
+			"linkHardsub": "https://sfl.gl/db0T",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen07.jpg",
+			"descEpisodeSynopsis": "Di episode 7 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Kanagawa Saya & Kawasaki Sakura yang dipilih dengan sebutan kombinasi 'teman sebangku' karena namanya berada saling bersebelahan."
+		},
+		"08": {
+			"descEpisode": "| Vol.8 (Tsutsui Ayame & Ioki Mao)",
+			"descEpsListName": "Episode 8",
+			"descOnAirDate": "6 Desember 2024",
+			"memberParticipate": "筒井あやめ、五百城茉央",
+			"linkHardsub": "https://sfl.gl/O3iJ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen08.jpg",
+			"descEpisodeSynopsis": "Di episode 8 kali ini, pasangan member yang akan memakan Cupstar bersama adalah Tsutsui Ayame dengan Ioki Mao. Meskipun hampir tidak pernah melihat keduanya bersama, namun mereka terpilih karena ada kesamaan yaitu sama-sama orang yang bahkan berani pergi sendiri."
+		},
+		"09": {
+			"descEpisode": "| Vol.9 (Yoda Yuuki & Endo Sakura)",
+			"descEpsListName": "Episode 9",
+			"descOnAirDate": "8 Januari 2025",
+			"memberParticipate": "与田祐希、遠藤さくら",
+			"linkHardsub": "https://sfl.gl/esIliSH",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen09.jpg",
+			"descEpisodeSynopsis": "Di episode 9 kali ini, Sashimen menampilkan Yoda Yuuki dan Endo Sakura! Jangan lewatkan obrolan seru dari \"duo center mendadak\" yang penuh kejutan!"
+		},
+		"10": {
+			"descEpisode": "| Vol.10 (Kubo Shiori x Okuda Iroha)",
+			"descEpsListName": "Episode 10",
+			"descOnAirDate": "6 Februari 2025",
+			"memberParticipate": "久保史緒里、奥田いろは",
+			"linkHardsub": "https://sfl.gl/avN47NR",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen10.jpg",
+			"descEpisodeSynopsis": "Di episode 10 kali ini, Kubo Shiori dan Okuda Iroha hadir sebagai bintang tamu! Saksikan keseruan \"duo panggung\" yang dipenuhi cerita menarik seputar dunia teater"
+		},
+		"11": {
+			"descEpisode": "| Vol.11 (Yumiki Nao x Okamoto Hina)",
+			"descEpsListName": "Episode 11",
+			"descOnAirDate": "6 Maret 2025",
+			"memberParticipate": "弓木奈於、岡本姫奈",
+			"linkHardsub": "https://sfl.gl/oRGE37",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sashimen11.jpg",
+			"descEpisodeSynopsis": "Di episode terakhir seri Sashimen kali ini, giliran Yumiki Nao dan Okamoto Hina yang tampil! Simak dinamika \"duo tak terduga\" dalam episode penuh kejutan ini."
+		}
+	}
+}

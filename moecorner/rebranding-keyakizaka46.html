@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisis Rebranding: Keyakizaka46 ke Sakurazaka46</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Serene Blossom -->
+    <!-- Application Structure Plan: The application uses a narrative, single-page scrolling structure to guide the user through the complex story of Keyakizaka46's rebranding. The structure is designed for intuitive exploration, starting with a broad overview, moving to an interactive timeline, then diving into a detailed analysis of key factors, and concluding with a clear comparison. This non-linear but guided approach was chosen because the rebranding was a multi-faceted issue, not a single event. A user can either follow the narrative flow or use the navigation to jump to specific points of interest. Key interactions include clicking timeline events to reveal detailed information and a corresponding sales chart, which provides both qualitative and quantitative context simultaneously. This structure facilitates understanding by breaking down a complex topic into digestible, interconnected sections. -->
+    <!-- Visualization & Content Choices: 
+        1. Report Info: Timeline of Keyakizaka46's key eras (singles, major events). Goal: Show the chronological progression and pivotal moments. Viz/Presentation: Interactive vertical timeline using HTML/CSS/JS. Interaction: Clicking an event updates a central content panel with text analysis and a chart. Justification: A timeline is the most intuitive way to present a historical narrative. Linking it to dynamic content panels makes the experience rich and engaging.
+        2. Report Info: First-week sales data for each single. Goal: Compare commercial success over time and identify trends. Viz/Presentation: Bar Chart via Chart.js (Canvas). Interaction: Chart updates dynamically based on the selected timeline event. Tooltips show exact figures. Justification: A bar chart provides an instant, clear visual of sales performance, which is a key metric of success and pressure. Dynamic updates create a direct link between a specific era and its commercial impact.
+        3. Report Info: Abstract factors leading to rebranding (Center dependency, creative stagnation, etc.). Goal: Organize and explain complex, non-quantitative concepts. Viz/Presentation: Card-based grid layout using HTML/Tailwind CSS. Interaction: None needed, information is presented clearly in digestible chunks. Justification: A card layout breaks down dense analysis into thematic, easy-to-read sections, improving comprehension.
+        4. Report Info: Comparison of Keyakizaka46 and Sakurazaka46 concepts. Goal: Compare the two group identities side-by-side. Viz/Presentation: A structured HTML table. Interaction: None needed, static comparison for clarity. Justification: A table is the most effective tool for a direct, point-by-point comparison.
+    -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FDFBF8; /* Warm off-white */
+            color: #4A4A4A; /* Dark Gray */
+        }
+        .bg-primary { background-color: #FDFBF8; }
+        .bg-secondary { background-color: #F5F1ED; } /* Light Taupe */
+        .text-accent { color: #D8BFD8; } /* Pale Lilac */
+        .border-accent { border-color: #D8BFD8; }
+        .bg-accent { background-color: #D8BFD8; }
+        .bg-accent-light { background-color: #EAE3EA; }
+        .nav-link {
+            cursor: pointer;
+            padding: 8px 16px;
+            border-radius: 9999px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .nav-link:hover, .nav-link.active {
+            background-color: #4A4A4A;
+            color: #FDFBF8;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 40px;
+            padding-bottom: 2rem;
+            border-left: 2px solid #EAE3EA;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .timeline-item:last-child {
+            border-left: 2px solid transparent;
+            padding-bottom: 0;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -9px;
+            top: 4px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #FDFBF8;
+            border: 2px solid #D8BFD8;
+            transition: background-color 0.3s;
+        }
+        .timeline-item.active::before {
+            background-color: #D8BFD8;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 40vh;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-primary">
+
+    <header class="sticky top-0 z-50 bg-primary/80 backdrop-blur-md shadow-sm">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <h1 class="text-xl md:text-2xl font-bold text-gray-800">Keyakizaka46 → Sakurazaka46</h1>
+                <nav id="navbar" class="flex flex-wrap justify-center space-x-2 md:space-x-4 mt-2 md:mt-0 text-sm md:text-base">
+                    <a data-target="intro" class="nav-link active">Pendahuluan</a>
+                    <a data-target="timeline" class="nav-link">Kronologi</a>
+                    <a data-target="analysis" class="nav-link">Faktor Kunci</a>
+                    <a data-target="comparison" class="nav-link">Perbandingan</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+
+        <section id="intro" class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800">Analisis Rebranding: Sebuah Kelahiran Kembali</h2>
+            <p class="max-w-3xl mx-auto text-lg text-gray-600">
+                Keyakizaka46 adalah sebuah fenomena. Dengan citra pemberontak dan lirik yang tajam, mereka mendefinisikan ulang apa itu 'idol group'. Namun, di puncak popularitasnya, grup ini mengambil keputusan drastis: mengakhiri sejarahnya dan terlahir kembali sebagai Sakurazaka46. Aplikasi ini akan membedah secara mendalam mengapa grup sefenomenal Keyakizaka46 harus 'mati' untuk bisa melanjutkan perjalanannya, menganalisis faktor-faktor kompleks di balik salah satu transisi paling signifikan dalam sejarah J-Pop.
+            </p>
+        </section>
+
+        <section id="timeline" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Kronologi Interaktif</h2>
+            <p class="text-center max-w-3xl mx-auto text-gray-600 mb-12">Jelajahi perjalanan Keyakizaka46 dari debut hingga 'The Last Live'. Klik setiap era pada linimasa untuk melihat detail analisis dan data penjualan single. Ini akan menunjukkan bagaimana setiap langkah, baik kesuksesan maupun kesulitan, berkontribusi pada keputusan final untuk melakukan rebranding.</p>
+            <div class="grid md:grid-cols-12 gap-8">
+                <div id="timeline-nav" class="md:col-span-4">
+                    <!-- Timeline items will be injected by JS -->
+                </div>
+                <div class="md:col-span-8 bg-secondary p-6 rounded-lg shadow-md min-h-[400px]">
+                    <div id="timeline-content">
+                        <!-- Content will be injected by JS -->
+                    </div>
+                    <div class="chart-container mt-6">
+                        <canvas id="salesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="analysis" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Analisis Faktor-Faktor Kunci</h2>
+            <p class="text-center max-w-3xl mx-auto text-gray-600 mb-12">Rebranding bukanlah keputusan yang didasari satu alasan tunggal. Ini adalah puncak dari berbagai masalah kompleks yang terakumulasi selama bertahun-tahun. Bagian ini menguraikan empat faktor utama yang saling terkait dan mendorong Keyakizaka46 ke titik di mana perubahan total menjadi satu-satunya jalan keluar.</p>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-secondary p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">1. Ketergantungan pada Center Absolut</h3>
+                    <p class="text-gray-700">Identitas Keyakizaka46 sangat menyatu dengan center-nya, Hirate Yurina. Energi, ekspresi, dan karismanya yang luar biasa menjadi fondasi dari citra pemberontak grup. Namun, sistem ini menjadi pedang bermata dua. Kesuksesan besar menciptakan ketergantungan yang ekstrem, membuat grup sulit membayangkan masa depan tanpanya. Ketika Hirate keluar pada Januari 2020, "konsep Keyakizaka46" itu sendiri terasa hancur, bukan sekadar kehilangan satu member.</p>
+                </div>
+                <div class="bg-secondary p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">2. Kebuntuan Kreatif & Stagnasi</h3>
+                    <p class="text-gray-700">Setelah single ke-8 "Kuroi Hitsuji" (Domba Hitam) yang sangat introspektif, Keyakizaka46 mengalami kebuntuan. Single ke-9 yang ditunggu-tunggu tidak pernah dirilis meskipun kabarnya sudah direkam. Ini menandakan adanya kesulitan besar dalam menentukan arah kreatif selanjutnya. Citra gelap dan penderitaan yang begitu kuat telah mencapai puncaknya, dan manajemen tampaknya tidak menemukan cara untuk melampauinya tanpa mengulangi formula yang sama.</p>
+                </div>
+                <div class="bg-secondary p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">3. Dampak Internal & Morale Member</h3>
+                    <p class="text-gray-700">Membawakan konsep yang begitu berat secara emosional terus-menerus berdampak pada para member. Beberapa member mengalami hiatus karena masalah kesehatan dan tekanan mental. Selain itu, sistem center absolut membatasi kesempatan bagi member lain untuk bersinar dan menunjukkan potensi mereka, yang berpotensi menimbulkan frustrasi internal. Dokumenter grup mengisyaratkan adanya perjuangan berat di balik layar untuk menjaga kesatuan dan semangat grup.</p>
+                </div>
+                <div class="bg-secondary p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold mb-3 text-gray-800">4. Strategi "Kelahiran Kembali"</h3>
+                    <p class="text-gray-700">Menghadapi semua masalah ini, manajemen dan para member memilih jalan yang paling radikal namun paling logis: "kelahiran kembali". Daripada memaksakan kelanjutan nama Keyakizaka46 dengan beban sejarah dan citra yang berat, mereka memilih untuk memulai dari nol. Rebranding menjadi Sakurazaka46 bukanlah pengakuan kegagalan, melainkan sebuah strategi untuk melepaskan masa lalu, membebaskan para member dari konsep yang membelenggu, dan menciptakan masa depan baru yang lebih fleksibel dan berkelanjutan.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="comparison" class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">Perbandingan Konsep: Keyaki vs. Sakura</h2>
+            <p class="text-center max-w-3xl mx-auto text-gray-600 mb-12">Perubahan nama lebih dari sekadar kosmetik; ini adalah perombakan fundamental dari identitas grup. Tabel di bawah ini menyoroti perbedaan utama antara Keyakizaka46 dan Sakurazaka46, menunjukkan bagaimana grup baru ini dirancang secara sadar untuk mengatasi masalah yang dihadapi pendahulunya.</p>
+            <div class="overflow-x-auto">
+                <table class="min-w-full bg-secondary rounded-lg shadow-md">
+                    <thead class="bg-accent-light">
+                        <tr>
+                            <th class="p-4 text-left font-bold text-gray-700">Aspek</th>
+                            <th class="p-4 text-left font-bold text-gray-700">Keyakizaka46 (2015-2020)</th>
+                            <th class="p-4 text-left font-bold text-gray-700">Sakurazaka46 (2020-Sekarang)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-accent">
+                            <td class="p-4 font-semibold">Konsep & Citra</td>
+                            <td class="p-4">Pemberontakan, perlawanan terhadap masyarakat, lirik gelap dan filosofis. Warna dominan hijau tua & hitam.</td>
+                            <td class="p-4">Kecantikan yang kuat, ekspresi individual, pertumbuhan. Warna dominan putih & merah muda sakura.</td>
+                        </tr>
+                        <tr class="border-b border-accent">
+                            <td class="p-4 font-semibold">Sistem Center</td>
+                            <td class="p-4">Center absolut dan permanen (Hirate Yurina untuk 8 single utama).</td>
+                            <td class="p-4">Sistem center yang fleksibel dan berganti di setiap single, memberikan kesempatan pada banyak member.</td>
+                        </tr>
+                        <tr class="border-b border-accent">
+                            <td class="p-4 font-semibold">Struktur Grup</td>
+                            <td class="p-4">Satu grup besar (Kanji Keyaki) dengan sub-grup (Hiragana Keyaki, yang kemudian menjadi Hinatazaka46).</td>
+                            <td class="p-4">Sistem "Sakura Eight," di mana 8 member front line berpartisipasi di semua lagu dalam satu single untuk konsistensi.</td>
+                        </tr>
+                        <tr>
+                            <td class="p-4 font-semibold">Pesan Utama</td>
+                            <td class="p-4">"Kau tidak harus menjadi seperti yang orang lain inginkan."</td>
+                            <td class="p-4">"Mari kita lampaui ekspektasi dan tunjukkan warna kita masing-masing."</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer class="text-center pt-8 border-t border-gray-200">
+            <p class="text-gray-500">Analisis dibuat berdasarkan informasi publik, wawancara, dan dokumenter hingga tahun 2024.</p>
+        </footer>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const timelineData = [
+                {
+                    year: '2016',
+                    title: 'Debut Fenomenal: Silent Majority',
+                    sales: 251523,
+                    content: `
+                        <h3 class="text-xl font-bold mb-2">Era Awal: Guncangan di Dunia Idol</h3>
+                        <p class="text-gray-700">Keyakizaka46 debut dengan "Silent Majority," sebuah lagu yang sama sekali tidak terdengar seperti lagu debut idol pada umumnya. Dengan lirik yang menyerukan individualitas dan perlawanan, serta koreografi militeristik yang dipimpin oleh center Hirate Yurina, mereka langsung menjadi sensasi nasional. Ini adalah momen di mana DNA Keyakizaka46 terbentuk: gelap, serius, dan memberontak.</p>
+                    `
+                },
+                {
+                    year: '2017',
+                    title: 'Puncak Pemberontakan: Fukyouwaon',
+                    sales: 632667,
+                    content: `
+                        <h3 class="text-xl font-bold mb-2">Puncak Popularitas dan Intensitas</h3>
+                        <p class="text-gray-700">"Fukyouwaon" (Discord) menjadi lagu anthem Keyakizaka46. Teriakan ikonik Hirate "Boku wa yada!" (Aku menolak!) merangkum seluruh citra grup. Penjualan meroket, dan popularitas mereka mencapai puncaknya. Namun, intensitas konsep ini juga mulai menunjukkan dampaknya, dengan beberapa member mulai mengalami kelelahan fisik dan mental yang terlihat saat tampil di acara akhir tahun.</p>
+                    `
+                },
+                {
+                    year: '2018',
+                    title: 'Eksplorasi Artistik: Ambivalent',
+                    sales: 812450,
+                    content: `
+                        <h3 class="text-xl font-bold mb-2">Penjualan Tertinggi, Retakan Mulai Terlihat</h3>
+                        <p class="text-gray-700">"Ambivalent" mencatatkan penjualan minggu pertama tertinggi dalam sejarah grup. Secara musik, lagu ini lebih 'upbeat' namun liriknya tetap mencerminkan konflik batin. Pada titik ini, rumor tentang kondisi Hirate Yurina dan ketidakharmonisan internal mulai beredar di kalangan penggemar. Grup mulai tampil tanpa Hirate di beberapa kesempatan, yang sebelumnya tidak terpikirkan.</p>
+                    `
+                },
+                {
+                    year: '2019',
+                    title: 'Karya Masterpiece: Kuroi Hitsuji',
+                    sales: 750382,
+                    content: `
+                        <h3 class="text-xl font-bold mb-2">Puncak Artistik dan Awal Stagnasi</h3>
+                        <p class="text-gray-700">"Kuroi Hitsuji" (Domba Hitam) dianggap sebagai puncak karya artistik Keyakizaka46. Lagu ini sangat naratif dan emosional, berbicara tentang pengorbanan dan penerimaan. Namun, setelah single ini, grup memasuki masa hiatus panjang tanpa merilis single baru. Single ke-9 yang dinanti-nanti tidak pernah terwujud, menandakan adanya masalah serius di balik layar.</p>
+                    `
+                },
+                 {
+                    year: 'Jan 2020',
+                    title: 'Momen Krusial: Hirate Yurina Keluar',
+                    sales: 0,
+                    content: `
+                        <h3 class="text-xl font-bold mb-2">Fondasi Runtuh</h3>
+                        <p class="text-gray-700">Manajemen secara mengejutkan mengumumkan bahwa Hirate Yurina telah "keluar" (脱退 - dattai), sebuah istilah yang lebih kuat dari "lulus" (卒業 - sotsugyou). Ini menjadi titik balik yang tak terhindarkan. Tanpa center absolutnya, identitas Keyakizaka46 menjadi kosong. Grup tidak bisa lagi melanjutkan konsep yang sama, dan masa depan menjadi sangat tidak pasti. Ini adalah pemicu utama yang memaksa adanya perubahan radikal.</p>
+                    `
+                },
+                {
+                    year: 'Okt 2020',
+                    title: 'Konser Terakhir: The Last Live',
+                    sales: 0,
+                    content: `
+                        <h3 class="text-xl font-bold mb-2">Penutupan Babak & Kelahiran Kembali</h3>
+                        <p class="text-gray-700">Keyakizaka46 mengadakan konser terakhir mereka, "THE LAST LIVE," di mana mereka membawakan lagu-lagu hits mereka untuk terakhir kalinya. Di akhir konser, mereka secara simbolis 'meninggalkan' panggung Keyakizaka46 yang gelap dan muncul kembali di panggung baru yang putih bersih dengan lagu pertama Sakurazaka46, "Nobody's fault". Ini adalah akhir dan awal yang baru, dilakukan di momen yang sama.</p>
+                    `
+                }
+            ];
+
+            const timelineNav = document.getElementById('timeline-nav');
+            const timelineContentEl = document.getElementById('timeline-content');
+            const salesChartCanvas = document.getElementById('salesChart');
+            let salesChart;
+
+            function createChart() {
+                const ctx = salesChartCanvas.getContext('2d');
+                salesChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: [],
+                        datasets: [{
+                            label: 'Penjualan Minggu Pertama (Oricon)',
+                            data: [],
+                            backgroundColor: 'rgba(216, 191, 216, 0.6)',
+                            borderColor: 'rgba(216, 191, 216, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: {
+                                    callback: function(value) {
+                                        return value / 1000 + 'k';
+                                    }
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        let label = context.dataset.label || '';
+                                        if (label) {
+                                            label += ': ';
+                                        }
+                                        if (context.parsed.y !== null) {
+                                            label += new Intl.NumberFormat('id-ID').format(context.parsed.y);
+                                        }
+                                        return label;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+
+            function updateContent(index) {
+                const item = timelineData[index];
+                timelineContentEl.innerHTML = item.content;
+                
+                const allTimelineItems = document.querySelectorAll('.timeline-item');
+                allTimelineItems.forEach(el => el.classList.remove('active'));
+                allTimelineItems[index].classList.add('active');
+
+                const chartLabels = timelineData.slice(0, index + 1).map(d => d.title.split(':')[0]);
+                const chartData = timelineData.slice(0, index + 1).map(d => d.sales);
+
+                salesChart.data.labels = chartLabels;
+                salesChart.data.datasets[0].data = chartData;
+                salesChart.update();
+            }
+
+            timelineData.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'timeline-item';
+                div.dataset.index = index;
+                div.innerHTML = `
+                    <p class="font-bold text-gray-800">${item.title}</p>
+                    <p class="text-sm text-gray-500">${item.year}</p>
+                `;
+                div.addEventListener('click', () => {
+                    updateContent(index);
+                });
+                timelineNav.appendChild(div);
+            });
+            
+            createChart();
+            updateContent(0);
+
+            // Navigation scroll
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = e.target.getAttribute('data-target');
+                    const targetElement = document.getElementById(targetId);
+                    if(targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80, // offset for sticky header
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Active nav link on scroll
+            const sections = document.querySelectorAll('section');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(link => {
+                            link.classList.toggle('active', link.getAttribute('data-target') === entry.target.id);
+                        });
+                    }
+                });
+            }, { rootMargin: '-20% 0px -80% 0px' });
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        });
+    </script>
+</body>
+</html>
