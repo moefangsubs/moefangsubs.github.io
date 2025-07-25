@@ -15,7 +15,9 @@ jobs:
       - name: Create Firebase Init file 📝
         run: |
           mkdir -p js
-          echo "${{ secrets.FIREBASE_CONFIG }}" > js/firebase-init.js
+          cat <<EOF > js/firebase-init.js
+          ${{ secrets.FIREBASE_CONFIG }}
+          EOF
       
       - name: Remove .gitignore to allow file to be added 🗑️
         run: rm .gitignore
