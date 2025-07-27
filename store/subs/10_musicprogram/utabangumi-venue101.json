@@ -4,13 +4,14 @@
 	"nameShow": "Venue 101",
 	"availableEpisode": [
 		"01",
-		"02"
+		"02",
+		"03"
 	],
+	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_venue101.png",
 	"episodes": {
 		"01": {
-			"descEpisode": "| 221126 VENUE101",
-			"descEpsListName": "221126",
+			"descEpisode": "| 221126",
 			"descOnAirDate": "26 November 2022",
 			"memberParticipate": "乃木坂46、生田絵梨花",
 			"linkHardsub": "https://lokerwfh.net/7KuKRIPo",
@@ -20,11 +21,10 @@
 			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/221126-venue101-nogizaka46-a.jpg",
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/221126-venue101-nogizaka46-b.jpg",
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/221126-venue101-nogizaka46-c.jpg",
-			"descEpisodeSynopsis": "Di kesempatan kali ini, Venue 101 menghadirkan tamu Nogizaka46. Karena Ikuta Erika, lulusan dari Nogizaka juga, kali ini suasanya agak sedikit berbeda ditambah dengan dibawakannya lagu kelulusannya Asuka, \"Koko ni wa nai mono\" membuat tema kali ini adalah cerita seputar kouhai-senpai khususnya Gen-1 dan Saito Asuka."
+			"descEpisodeSynopsis": "Di kesempatan kali ini, Venue101 menghadirkan tamu Nogizaka46. Karena Ikuta Erika, lulusan dari Nogizaka juga, kali ini suasanya agak sedikit berbeda ditambah dengan dibawakannya lagu kelulusannya Asuka, \"Koko ni wa nai mono\" membuat tema kali ini adalah cerita seputar kouhai-senpai khususnya Gen-1 dan Saito Asuka."
 		},
 		"02": {
-			"descEpisode": "| 230318 VENUE101",
-			"descEpsListName": "230318",
+			"descEpisode": "| 230318",
 			"descOnAirDate": "18 Maret 2023",
 			"memberParticipate": "乃木坂46、生田絵梨花",
 			"linkHardsub": "https://lokerwfh.net/pY5u",
@@ -34,7 +34,20 @@
 			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230318-venue101-nogizaka46-a.jpg",
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230318-venue101-nogizaka46-b.jpg",
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230318-venue101-nogizaka46-c.jpg",
-			"descEpisodeSynopsis": "Di kesempatan kali ini, Venue 101 kembali menghadirkan tamu Nogizaka46. Mereka akan membawakan single terbarunya \"Hito wa Yume o Nido miru\", tapi sebelum itu, kita akan mengetahui sosok seperti apakah mereka w-center kali ini Yamashita Mizuki dan Kubo Shiori."
+			"descEpisodeSynopsis": "Di kesempatan kali ini, Venue101 kembali menghadirkan tamu Nogizaka46. Mereka akan membawakan single terbarunya \"Hito wa Yume o Nido miru\", tapi sebelum itu, kita akan mengetahui sosok seperti apakah mereka w-center kali ini Yamashita Mizuki dan Kubo Shiori."
+		},
+		"03": {
+			"descEpisode": "| 250726",
+			"descOnAirDate": "26 Juli 2025",
+			"memberParticipate": "乃木坂46、生田絵梨花",
+			"linkHardsub": "https://sfl.gl/TYqlUhug",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/250726-venue101-ikuta-erika-nogizaka46-tgaOe",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250726_venue101_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250726-venue101-nogizaka46.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250726-venue101-nogizaka46-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250726-venue101-nogizaka46-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250726-venue101-nogizaka46-c.jpg",
+			"descEpisodeSynopsis": "Di kesempatan kali ini, Venue101 kembali menghadirkan tamu Nogizaka46. Mereka akan membawakan single terbarunya \"Same numbers\", tapi sebelum itu, kita akan membahas beberapa hal tentang apa yang selalu terjadi ketika tur musim panas."
 		}
 	}
 }

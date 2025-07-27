@@ -6,9 +6,10 @@
 	"descSynopsis": "Suzukura Mana adalah seorang calon desainer di sebuah perusahaan pakaian. Ia telah bekerja keras sebagai asisten dan hampir mencapai mimpinya untuk debut, namun ia menyimpan rahasia yang tidak bisa diceritakan kepada siapa pun. Sebenarnya, untuk mendapatkan kehidupannya yang damai saat ini, ia telah membunuh suaminya yang sering melakukan kekerasan padanya. Suatu hari, suami yang ia kira telah tewas itu tiba-tiba muncul di hadapannya dalam keadaan hilang ingatan, dan mereka pun akhirnya tinggal bersama. Saat Mana menghabiskan waktu dengan suaminya, ia mulai mengenal sisi yang lebih hangat dari suaminya yang belum pernah ia ketahui sebelumnya. Kemudian, sebuah kebenaran yang mengejutkan pun terungkap.",
 	"availableEpisode": [
 		"01",
-		"02"
+		"02",
+		"03"
 	],
-	"newUpdateCount": 2,
+	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/koroshita{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/koroshita/koroshita{{eps}}.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/koroshita-otto-ga-kaettekimashita-qu3hB",
@@ -17,7 +18,6 @@
 	"episodes": {
 		"01": {
 			"descOnAirDate": "11 Juli 2025",
-			"memberParticipate": "山下美月",
 			"linkHardsub": "https://sfl.gl/4dxdP"
 		},
 		"02": {
@@ -28,7 +28,7 @@
 		"03": {
 			"descOnAirDate": "25 Juli 2025",
 			"descEpisodeSynopsis": "Mana akhirnya meraih mimpinya untuk debut sebagai desainer. Seiring waktu yang ia habiskan bersama Kazuki, hubungan mereka secara tak terduga menjadi lebih dekat. Mana merasa bimbang untuk menerima Kazuki, dan kenangan pahit tentang cinta pertamanya kembali muncul. Atas permintaan Kazuki, Mana memutuskan untuk menceritakan masa lalunya. Sementara itu, identitas kerangka yang ditemukan di pegunungan Prefektur Miyagi terungkap, dan polisi menyampaikan berita yang mengejutkan kepada Mana.",
-			"linkHardsub": ""
+			"linkHardsub": "https://sfl.gl/uKGTAtbh"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
