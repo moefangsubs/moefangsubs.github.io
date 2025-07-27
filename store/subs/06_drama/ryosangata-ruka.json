@@ -9,7 +9,7 @@
 		"02",
 		"03"
 	],
-	"newUpdateCount": 3,
+	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ruka{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}a.jpg",
@@ -18,23 +18,26 @@
 	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}d.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/ryosangata-ruka-fZbjJ",
 	"filePassword": "RukaRuka-KakkiMenmen!",
+	"memberParticipate": "賀喜遥香、筒井あやめ",
 	"episodes": {
 		"01": {
 			"descOnAirDate": "3 Juli 2025",
-			"memberParticipate": "賀喜遥香、筒井あやめ",
 			"linkHardsub": "https://sfl.gl/KL2UaDnr"
 		},
 		"02": {
 			"descOnAirDate": "10 Juli 2025",
 			"descEpisodeSynopsis": "Di suatu hari libur, saat sepeda Setoruka rusak dan ia kebingungan, seorang pengendara motor wanita muncul di hadapannya. Begitu matanya bertemu dengan lampu motor, Setoruka langsung jatuh hati pada motor tersebut. Keesokan harinya, Takaruka menyadari ada yang aneh dengan tingkah Setoruka yang kini memegang majalah motor... Sementara itu, Yomo-san mencoba berbagai cara untuk mengajak Rukaruka bergabung dengan klub model kit...",
-			"memberParticipate": "賀喜遥香、筒井あやめ",
 			"linkHardsub": "https://sfl.gl/0jSyC"
 		},
 		"03": {
 			"descOnAirDate": "17 Juli 2025",
 			"descEpisodeSynopsis": "Takaruka dan Setoruka akhirnya berhasil bergabung dengan klub model kit! Tepat ketika mereka berpikir telah lolos dari krisis pembubaran, sebuah fakta mengejutkan terungkap: klub akan dibubarkan jika tidak memiliki tiga anggota sebelum akhir semester pertama! Untuk menyelamatkan klub sekali lagi, Rukaruka mencari satu anggota tambahan. Mereka kemudian mengincar Wataru, seorang siswa yang tidak ikut klub. Namun, membujuk Wataru yang memiliki masalah pribadi ternyata sulit, hingga akhirnya pecah pertengkaran antara Takaruka dan Wataru...",
-			"memberParticipate": "賀喜遥香、筒井あやめ",
 			"linkHardsub": "https://sfl.gl/Rswx"
+		},
+		"04": {
+			"descOnAirDate": "24 Juli 2025",
+			"descEpisodeSynopsis": "Setoruka sedang menyirami bunga di taman sambil bersenandung. Suara nyanyiannya yang merdu terdengar oleh Endo Rui dari klub musik ringan, yang kemudian memintanya menjadi vokalis untuk bandnya. Agar tidak diketahui oleh Takaruka, Setoruka mulai berlatih secara diam-diam dan menjadi sering absen dari kegiatan klub. Takaruka pun menjadi cemas karena merasa Setoruka menyembunyikan sesuatu. Di tengah situasi tersebut, tibalah hari pertunjukan rutin klub musik ringan. Pertemuan dengan Rui telah menumbuhkan benih-benih cinta di hati Setoruka.",
+			"linkHardsub": "https://sfl.gl/G7eH"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
