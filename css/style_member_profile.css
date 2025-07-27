@@ -1,19 +1,21 @@
 /* -- Styles for Member Profile Section -- */
- .profile-container {
-     display: flex;
-     gap: 20px;
-     align-items: flex-start;
-     width: 100%;
-     background-color: var(--moe-tint4);
-     color: white;
-     justify-content: center;
+.profile-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%;
+    background-color: var(--moe-tint4);
+    color: white;
+    justify-content: center;
 }
+
 .profile-photo {
     padding-top: 30pt;
     padding-left: 10pt;
     width: auto;
     left: 9pt;
 }
+
 .profile-full {
     max-width: 250pt;
     height: 100%;
@@ -24,257 +26,394 @@
     left: 5pt;
     box-shadow: 1px 1px 1px 1px #00000014;
 }
- .graduated-photo {
-     max-width: 200px !important;
-     height: 200px !important;
-     border-radius: 50%;
-     object-fit: cover;
-     border: 6px solid white;
-     box-shadow: 1px 1px 1px 1px #00000014;
-     margin-left: 10pt;
+
+.graduated-photo {
+    max-width: 200px !important;
+    height: 200px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid white;
+    box-shadow: 1px 1px 1px 1px #00000014;
+    margin-left: 10pt;
 }
+
 /* Special member photo exceptions */
- .profile-photo .graduated-photo[alt="ANDO Mikumo"],
- .profile-photo .graduated-photo[alt="Ichiki Rena"],
- .profile-photo .graduated-photo[alt="NOUJO Ami"],
- .profile-photo .graduated-photo[alt="MUKAI Hazuki"],
- .profile-photo .graduated-photo[alt="YODA Yuuki"],
- .profile-photo .graduated-photo[alt="SATO Kaede"],
- .profile-photo .graduated-photo[alt="KAKEHASHI Sayaka"],
- .profile-photo .graduated-photo[alt="SEIMIYA Rei"],
- .profile-photo .graduated-photo[alt="MATSUI Rena"],
- .profile-photo .graduated-photo[alt="NISHIKAWA Nanami"],
- .profile-photo .graduated-photo[alt="YADA Risako"],
- .profile-photo .graduated-photo[alt="YONETOKU Kyoka"] {
-     max-width: 250pt !important;
-     height: auto !important;
-     border-radius: 4px !important;
-     border: none !important;
-     box-shadow: 1px 1px 1px 1px #00000014 !important;
+.profile-photo .graduated-photo[alt="ANDO Mikumo"],
+.profile-photo .graduated-photo[alt="Ichiki Rena"],
+.profile-photo .graduated-photo[alt="NOUJO Ami"],
+.profile-photo .graduated-photo[alt="MUKAI Hazuki"],
+.profile-photo .graduated-photo[alt="YODA Yuuki"],
+.profile-photo .graduated-photo[alt="SATO Kaede"],
+.profile-photo .graduated-photo[alt="KAKEHASHI Sayaka"],
+.profile-photo .graduated-photo[alt="SEIMIYA Rei"],
+.profile-photo .graduated-photo[alt="MATSUI Rena"],
+.profile-photo .graduated-photo[alt="NISHIKAWA Nanami"],
+.profile-photo .graduated-photo[alt="YADA Risako"],
+.profile-photo .graduated-photo[alt="YONETOKU Kyoka"] {
+    max-width: 250pt !important;
+    height: auto !important;
+    border-radius: 4px !important;
+    border: none !important;
+    box-shadow: 1px 1px 1px 1px #00000014 !important;
 }
- .profile-data {
-     width: 80%;
-     padding-top: 20pt;
+
+.profile-data {
+    width: 80%;
+    padding-top: 20pt;
 }
- .member-plat-header {
-     display: flex;
-     justify-content: flex-start;
-     flex-direction: column;
+
+.member-plat-header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
- .member-plat-jp-animated {
-     font-size: 4.5em;
-     font-weight: bold;
-     font-family: "M PLUS Rounded 1c", sans-serif !important;
-     text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
-     display: flex;
-     white-space: pre;
+
+.member-plat-jp-animated {
+    font-size: 4.5em;
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    white-space: pre;
 }
- .member-plat-jp-animated span {
-     display: inline-block;
-     font-family: "M PLUS Rounded 1c", sans-serif !important;
-     animation: retroWave 5s infinite ease-in-out;
-     animation-delay: calc(var(--i) * 0.1s);
-     transform-origin: bottom center;
+
+.member-plat-jp-animated span {
+    display: inline-block;
+    font-family: "M PLUS Rounded 1c", sans-serif !important;
+    animation: retroWave 5s infinite ease-in-out;
+    animation-delay: calc(var(--i) * 0.1s);
+    transform-origin: bottom center;
 }
- @keyframes retroWave {
-     0%, 100% {
-         transform: translateY(0px) rotateX(0deg);
-         opacity: 1;
+
+@keyframes retroWave {
+    0%, 100% {
+        transform: translateY(0px) rotateX(0deg);
+        opacity: 1;
     }
-     25% {
-         transform: translateY(-10px) rotateX(10deg);
-         opacity: 0.8;
+    25% {
+        transform: translateY(-10px) rotateX(10deg);
+        opacity: 0.8;
     }
-     50% {
-         transform: translateY(5px) rotateX(-5deg);
-         opacity: 1;
+    50% {
+        transform: translateY(5px) rotateX(-5deg);
+        opacity: 1;
     }
-     75% {
-         transform: translateY(-5px) rotateX(5deg);
-         opacity: 0.9;
+    75% {
+        transform: translateY(-5px) rotateX(5deg);
+        opacity: 0.9;
     }
 }
- .data-grid {
-     display: flex;
-     flex-direction: column;
-     gap: 8px;
-     margin-bottom: 15px;
+
+.data-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
 }
- .data-row {
-     display: flex;
-     width: 100%;
+
+.data-row {
+    display: flex;
+    width: 100%;
 }
- .data-label {
-     width: 30%;
-     font-weight: bold;
+
+.data-label {
+    width: 30%;
+    font-weight: bold;
 }
- .data-value {
-     width: 70%;
+
+.data-value {
+    width: 70%;
 }
+
 /* -- SNS Links Styles -- */
- .sns-links {
-     gap: 5pt;
-     display: flex;
-     flex-wrap: wrap;
-     margin-top: 5px;
+.sns-links {
+    gap: 5pt;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
 }
- .insta, .inspb, .web, .youtube, .twitter, .twittpb, .tiktok, .weibo, .spotify, .linemusic, .applemusic, .amazonmusic {
-     border-radius: 1pt;
-     display: flex;
-     width: fit-content;
-     height: 20pt;
-     padding: 5pt 10pt;
-     position: relative;
-     align-items: center;
-     font-size: 10pt;
-     color: white;
-     transition: all 0.2s ease-in-out !important;
-     box-shadow: 1px 1px 1px 1px #00000014;
+
+.insta, .inspb, .web, .youtube, .twitter, .twittpb, .tiktok, .weibo, .spotify, .linemusic, .applemusic, .amazonmusic {
+    border-radius: 1pt;
+    display: flex;
+    width: fit-content;
+    height: 20pt;
+    padding: 5pt 10pt;
+    position: relative;
+    align-items: center;
+    font-size: 10pt;
+    color: white;
+    transition: all 0.2s ease-in-out !important;
+    box-shadow: 1px 1px 1px 1px #00000014;
 }
- .insta:before, .web:before, .youtube:before, .twitter:before,.twittpb:before, .tiktok:before, .weibo:before, .spotify:before, .linemusic:before, .applemusic:before, .amazonmusic:before {
-     content: "";
-     display: inline-block;
-     background-size: contain;
-     background-repeat: no-repeat;
-     width: 16px;
-     height: 16px;
-     margin-right: 5px;
-     vertical-align: middle;
+
+.insta:before, .web:before, .youtube:before, .twitter:before,.twittpb:before, .tiktok:before, .weibo:before, .spotify:before, .linemusic:before, .applemusic:before, .amazonmusic:before {
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
 }
- .insta:before, .inspb:before {
-     background-image: url('../../ico/ig.png');
+
+.insta:before, .inspb:before {
+    background-image: url('../../ico/ig.png');
 }
- .web:before {
-     background-image: url('../../ico/ww.png');
+
+.web:before {
+    background-image: url('../../ico/ww.png');
 }
- .youtube:before {
-     background-image: url('../../ico/yt.png');
+
+.youtube:before {
+    background-image: url('../../ico/yt.png');
 }
- .twitter:before, .twittpb:before {
-     background-image: url('../../ico/x.png');
+
+.twitter:before, .twittpb:before {
+    background-image: url('../../ico/x.png');
 }
- .twittpb:before {
-     filter: invert(1);
+
+.twittpb:before {
+    filter: invert(1);
 }
- .tiktok:before {
-     background-image: url('../../ico/tk.png');
+
+.tiktok:before {
+    background-image: url('../../ico/tk.png');
 }
- .weibo:before {
-     background-image: url('../../ico/we.png');
+
+.weibo:before {
+    background-image: url('../../ico/we.png');
 }
- .spotify:before{
-     background-image: url('../../ico/spb.png');
+
+.spotify:before{
+    background-image: url('../../ico/spb.png');
 }
- .linemusic:before{
-     background-image: url('../../ico/lim.png');
+
+.linemusic:before{
+    background-image: url('../../ico/lim.png');
 }
- .applemusic:before{
-     background-image: url('../../ico/apmg.png');
+
+.applemusic:before{
+    background-image: url('../../ico/apmg.png');
 }
- .amazonmusic:before{
-     background-image: url('../../ico/amz.png');
+
+.amazonmusic:before{
+    background-image: url('../../ico/amz.png');
 }
- .web {
-     background: linear-gradient(45deg, #ffffff 0%, rgb(191,191,191) 100%);
-     color: purple;
+
+.web {
+    background: linear-gradient(45deg, #ffffff 0%, rgb(191,191,191) 100%);
+    color: purple;
 }
- .insta {
-     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+
+.insta {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
- .inspb {
-     background: #bc1888;
-     color: white;
+
+.inspb {
+    background: #bc1888;
+    color: white;
 }
- .youtube {
-     background: linear-gradient(90deg, #FD6362 0%, #F7358C 100%);
+
+.youtube {
+    background: linear-gradient(90deg, #FD6362 0%, #F7358C 100%);
 }
- .twitter {
-     background: black;
+
+.twitter {
+    background: black;
 }
- .twittpb {
-     background: white;
-     color: black !important;
+
+.twittpb {
+    background: white;
+    color: black !important;
 }
- .tiktok {
-     background: linear-gradient(45deg, #7AF5FE 0%, #0AEFFF 15%, #3BCBF3 50%, #FF3CA9 100%);
-     color: black !important;
+
+.tiktok {
+    background: linear-gradient(45deg, #7AF5FE 0%, #0AEFFF 15%, #3BCBF3 50%, #FF3CA9 100%);
+    color: black !important;
 }
- .weibo {
-     background: linear-gradient(180deg, #FFEEA4 0%, #FFD83F 100%);
-     color: #E6162D !important;
+
+.weibo {
+    background: linear-gradient(180deg, #FFEEA4 0%, #FFD83F 100%);
+    color: #E6162D !important;
 }
- .spotify {
-     background: #25D865;
-     color: black !important;
+
+.spotify {
+    background: #25D865;
+    color: black !important;
 }
- .linemusic {
-     background: #0EE072;
-     color: white !important;
+
+.linemusic {
+    background: #0EE072;
+    color: white !important;
 }
- .applemusic {
-     background: linear-gradient(125deg, rgba(240,87,100,1) 0%, rgba(215,106,152,1) 30%, rgba(143,96,255,1) 63%, rgba(59,161,237,1) 100%);
+
+.applemusic {
+    background: linear-gradient(125deg, rgba(240,87,100,1) 0%, rgba(215,106,152,1) 30%, rgba(143,96,255,1) 63%, rgba(59,161,237,1) 100%);
 }
- .amazonmusic {
-     background: #3CD0D9;
+
+.amazonmusic {
+    background: #3CD0D9;
 }
+
 /* Hover Effects */
- .insta:hover {
-     background: linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
+.insta:hover {
+    background: linear-gradient(45deg, #bc1888 0%, #cc2366 25%, #dc2743 50%, #e6683c 75%, #f09433 100%);
 }
- .inspb:hover {
-     background: #e6683c;
+
+.inspb:hover {
+    background: #e6683c;
 }
- .web:hover {
-     background: purple;
-     color: white !important;
+
+.web:hover {
+    background: purple;
+    color: white !important;
 }
- .web:hover:before {
-     filter: grayscale() brightness(3) contrast(3);
+
+.web:hover:before {
+    filter: grayscale() brightness(3) contrast(3);
 }
- .twitter:hover {
-     background: white !important;
-     color: black !important;
+
+.twitter:hover {
+    background: white !important;
+    color: black !important;
 }
- .twitter:hover:before {
-     filter: invert(1);
+
+.twitter:hover:before {
+    filter: invert(1);
 }
- .twittpb:hover {
-     background: black !important;
-     color: white !important;
+
+.twittpb:hover {
+    background: black !important;
+    color: white !important;
 }
- .twittpb:hover:before {
-     filter: invert(0);
+
+.twittpb:hover:before {
+    filter: invert(0);
 }
- .youtube:hover {
-     background: white !important;
-     color: #FF0033 !important;
+
+.youtube:hover {
+    background: white !important;
+    color: #FF0033 !important;
 }
- .tiktok:hover {
-     background: black !important;
-     color: #08F2EB !important;
+
+.tiktok:hover {
+    background: black !important;
+    color: #08F2EB !important;
 }
- .weibo:hover{
-     background: #E64054! important;
-     color: #FFD83F! important;
+
+.weibo:hover{
+    background: #E64054! important;
+    color: #FFD83F! important;
 }
- .spotify:hover {
-     background: black !important;
-     color: #25D865 !important;
+
+.spotify:hover {
+    background: black !important;
+    color: #25D865 !important;
 }
- .spotify:hover:before{
-     background-image: url('../../ico/spa.png');
+
+.spotify:hover:before{
+    background-image: url('../../ico/spa.png');
 }
- .linemusic:hover {
-     background: white;
-     color: #0EE072 !important;
+
+.linemusic:hover {
+    background: white;
+    color: #0EE072 !important;
 }
- .linemusic:hover:before{
-     background-image: url('../../ico/limb.png');
+
+.linemusic:hover:before{
+    background-image: url('../../ico/limb.png');
 }
- .applemusic:hover {
-     background: linear-gradient(326deg, rgba(240,87,100,1) 0%, rgba(215,106,152,1) 30%, rgba(143,96,255,1) 63%, rgba(59,161,237,1) 100%);
+
+.applemusic:hover {
+    background: linear-gradient(326deg, rgba(240,87,100,1) 0%, rgba(215,106,152,1) 30%, rgba(143,96,255,1) 63%, rgba(59,161,237,1) 100%);
 }
- .amazonmusic:hover {
-     color: #3CD0D9 !important;
-     background: white !important;
+
+.amazonmusic:hover {
+    color: #3CD0D9 !important;
+    background: white !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.profile-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: nowrap;
+	}
+	.profile-photo {
+		padding-left: 0;
+	}
+	.profile-full {
+		max-width: 120pt;
+	}
+	.member-plat-header {
+		align-items: center;
+	}
+	.member-plat-jp-animated {
+		font-size: 3.2em;
+	}
+	.profile-data {
+		padding-top: 0;
+	}
+	.data-row {
+		display: flex;
+		width: 100%;
+		border-top: 1pt dashed var(--moe-shade-max2);
+		padding: 10pt 0;
+		gap: 5pt;
+		align-content: center;
+		align-items: center;
+	}
+	.sns-links {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 5px;
+		flex-direction: row;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+	}
+	h6.note {
+		text-align: center;
+		font-size: 0.8em;
+	}
+	a.partisipasi-link {
+		width: auto !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.katsudo-container, .sotsu-container, .hiatus-container {
+		width: 100%;
+		padding: 20px 10px !important;
+		display: flex;
+		gap: 0pt;
+		color: white;
+		align-items: center;
+		align-content: center;
+		flex-direction: column;
+	}
+	.katsudo-grid, .sotsu-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 12px;
+		width: 90%;
+	}
+	.katsudo-label, .sotsu-label {
+		display: flex;
+		gap: 5pt;
+		align-content: flex-start;
+		align-items: flex-start;
+		flex-direction: column;
+		width: 30%;
+	}
+	.katsudo-value, .sotsu-value {
+		padding-right: 0px !important;
+	}
 }

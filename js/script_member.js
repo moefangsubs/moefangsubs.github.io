@@ -55,22 +55,30 @@
 
 			// ⬇️ Buat tabel ringkasan jumlah member
 			const summary = `
-<p class="summary-title">Nogizaka46 saat ini memiliki <strong>${totalAktif}</strong> member aktif, dan <strong>${totalGraduated}</strong> member yang sudah lulus. Untuk lengkapnya silakan lihat tabel ini.</p>
-<table class="summary-table" cellpadding="5" cellspacing="0" border="1">
-<tr>
-<th>gen-3</th><th>gen-4</th><th>gen-5</th><th>gen-6</th>
-<th>member aktif</th><th>graduated</th>
-</tr>
-<tr>
-<td>${aktifPerGen["3期"]}</td>
-<td>${aktifPerGen["4期"]}</td>
-<td>${aktifPerGen["5期"]}</td>
-<td>${aktifPerGen["6期"]}</td>
-<td>${totalAktif}</td>
-<td>${totalGraduated}</td>
-</tr>
-</table>
-`;
+			<p class="summary-title">Nogizaka46 saat ini memiliki <strong>${totalAktif}</strong> member aktif, dan <strong>${totalGraduated}</strong> member yang sudah lulus. Untuk lengkapnya silakan lihat tabel ini.</p>
+			<table class="summary-table" cellpadding="5" cellspacing="0" border="1">
+				<thead>
+					<tr>
+						<th>Gen-3</th>
+						<th>Gen-4</th>
+						<th>Gen-5</th>
+						<th>Gen-6</th>
+						<th>Member aktif</th>
+						<th>Graduated</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td data-label="gen-3"><span>${aktifPerGen["3期"]}</span></td>
+						<td data-label="gen-4"><span>${aktifPerGen["4期"]}</span></td>
+						<td data-label="gen-5"><span>${aktifPerGen["5期"]}</span></td>
+						<td data-label="gen-6"><span>${aktifPerGen["6期"]}</span></td>
+						<td data-label="member aktif"><span>${totalAktif}</span></td>
+						<td data-label="graduated"><span>${totalGraduated}</span></td>
+					</tr>
+				</tbody>
+			</table>
+			`;
 			container.insertAdjacentHTML("beforeend", summary);
 
 			// ⬇️ CSS warna border per generasi aktif

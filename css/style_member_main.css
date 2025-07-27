@@ -86,3 +86,35 @@
 .member-data.active .member-name {
 	color: black;
 }
+
+/* -- Responsive styles for summary table -- */
+@media (max-width: 700px) {
+    .summary-table thead {
+        display: none;
+    }
+    .summary-table tr {
+        border: none;
+    }
+    .summary-table td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+    .summary-table td:first-child {
+         border-top: 1px solid #aaa;
+    }
+    .summary-table td:last-child {
+        border-bottom: 1px solid #aaa;
+    }
+    .summary-table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-align: left;
+        padding-right: 1em;
+    }
+    .summary-table td span::after {
+        content: " orang";
+    }
+}
