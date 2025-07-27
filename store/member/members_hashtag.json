@@ -1,0 +1,296 @@
+{
+	"ito_riria":{
+		"name": "伊藤理々杏",
+		"gen": "3期生",
+		"talk": "ririatalk",
+		"insta": "ririagram",
+		"blog": "ririablog"
+	},
+	"iwamoto_renka":{
+		"name": "岩本蓮加",
+		"gen": "3期生",
+		"talk": "今日のれんか",
+		"insta": "れんかぐらむ",
+		"blog": "renkablog"
+	},
+	"umezawa_minami":{
+		"name": "梅澤美波",
+		"gen": "3期生",
+		"talk": "うめとーく",
+		"insta": ["umegram","うめぐらむ"],
+		"blog": "umeblog"
+	},
+	"kubo_shiori":{
+		"name": "久保史緒里",
+		"gen": "3期生",
+		"talk": "shioritalk",
+		"insta": "shiorigram",
+		"blog": "shioriblog"
+	},
+	"sato_kaede":{
+		"name": "佐藤楓",
+		"gen": "3期生",
+		"talk": "kaedetalk",
+		"insta": "kaedegram",
+		"blog": "kaedeblog"
+	},
+	"nakamura_reno":{
+		"name": "中村麗乃",
+		"gen": "3期生",
+		"talk": "renotalk",
+		"insta": ["renogram","れのぐらむ"],
+		"blog": "renoblog"
+	},
+	"yoshida_ayano_christie":{
+		"name": "吉田綾乃ｸﾘｽﾃｨ―",
+		"gen": "3期生",
+		"talk": "あやてぃーめっせーじ",
+		"insta": "あやてぃーぐらむ",
+		"blog": "あやてぃーぶろぐ"
+	},
+	"yoda_yuuki":{
+		"name": "与田祐希",
+		"gen": "3期生",
+		"talk": "yodatalk",
+		"insta": "yodagram",
+		"blog": "yodablog"
+	},
+	"endo_sakura":{
+		"name": "遠藤さくら",
+		"gen": "4期生",
+		"talk": "sakutalk",
+		"insta": "",
+		"blog": "sakublog"
+	},
+	"kaki_haruka":{
+		"name": "賀喜遥香",
+		"gen": "4期生",
+		"talk": "kakitalk",
+		"insta": "",
+		"blog": "kakiblog"
+	},
+	"kanagawa_saya":{
+		"name": "金川紗耶",
+		"gen": "4期生",
+		"talk": "sayatalk",
+		"insta": "sayagram",
+		"blog": "sayablog"
+	},
+	"shibata_yuna":{
+		"name": "柴田柚菜",
+		"gen": "4期生",
+		"talk": "yunatalk",
+		"insta": "",
+		"blog": "yunablog"
+	},
+	"tamura_mayu":{
+		"name": "田村真佑",
+		"gen": "4期生",
+		"talk": "mayutalk",
+		"insta": "mayugram",
+		"blog": "mayublog"
+	},
+	"tsutsui_ayame":{
+		"name": "筒井あやめ",
+		"gen": "4期生",
+		"talk": ["ayametalk", "あやめとーく"],
+		"insta": "",
+		"blog": "ayameblog"
+	},
+	"yakubo_mio":{
+		"name": "矢久保美緒",
+		"gen": "4期生",
+		"talk": "miotalk",
+		"insta": "miogram",
+		"blog": "mioblog"
+	},
+	"kuromi_haruka":{
+		"name": "黒見明香",
+		"gen": "4期生",
+		"talk": "mail963",
+		"insta": ["963gram","kuromigram","くろみんぐらむ"],
+		"blog": "blog963"
+	},
+	"sato_rika":{
+		"name": "佐藤璃果",
+		"gen": "4期生",
+		"talk": "licatalk",
+		"insta": ["licagram","licamera"],
+		"blog": "licablog"
+	},
+	"hayashi_runa":{
+		"name": "林瑠奈",
+		"gen": "4期生",
+		"talk": "hayashimail",
+		"insta": "",
+		"blog": "はやしぶろぐ"
+	},
+	"matsuo_miyu":{
+		"name": "松尾美佑",
+		"gen": "4期生",
+		"talk": "miyutalk",
+		"insta": "",
+		"blog": "miyublog"
+	},
+	"yumiki_nao":{
+		"name": "弓木奈於",
+		"gen": "4期生",
+		"talk": "yumikitalk",
+		"insta": "",
+		"blog": "yumikiblog"
+	},
+	"ioki_mao":{
+		"name": "五百城茉央",
+		"gen": "5期生",
+		"talk": "きっきのめーる",
+		"insta": "",
+		"blog": "きっきのにっき"
+	},
+	"ikeda_teresa":{
+		"name": "池田瑛紗",
+		"gen": "5期生",
+		"talk": "terepantalk",
+		"insta": "",
+		"blog": ["てれぱんぶろぐ","てれぶろ"]
+	},
+	"ichinose_miku":{
+		"name": "一ノ瀬美空",
+		"gen": "5期生",
+		"talk": "みーきゅんとーく",
+		"insta": "",
+		"blog": "みーきゅんぶろぐ"
+	},
+	"inoue_nagi":{
+		"name": "井上和",
+		"gen": "5期生",
+		"talk": "nagitalk",
+		"insta": "",
+		"blog": "nagiblog"
+	},
+	"okamoto_hina":{
+		"name": "岡本姫奈",
+		"gen": "5期生",
+		"talk": "hinadanitalk",
+		"insta": "",
+		"blog": "hinadaniblog"
+	},
+	"ogawa_aya":{
+		"name": "小川彩",
+		"gen": "5期生",
+		"talk": ["あーやとーく","ayatalk"],
+		"insta": "",
+		"blog": "あーやぶろぐ"
+	},
+	"okuda_iroha":{
+		"name": "奥田いろは",
+		"gen": "5期生",
+		"talk": ["イロハとおはなし","irohatalk"],
+		"insta": "",
+		"blog": "イロハのキモチ"
+	},
+	"kawasaki_sakura":{
+		"name": "川崎桜",
+		"gen": "5期生",
+		"talk": "sakutantalk",
+		"insta": "",
+		"blog": "sakutanblog"
+	},
+	"sugawara_satsuki":{
+		"name": "菅原咲月",
+		"gen": "5期生",
+		"talk": "さつきとーく",
+		"insta": "",
+		"blog": "さつきぶろぐ"
+	},
+	"tomisato_nao":{
+		"name": "冨里奈央",
+		"gen": "5期生",
+		"talk": "なおもちトーク",
+		"insta": "",
+		"blog": "なおもちブログ"
+	},
+	"nakanishi_aruno":{
+		"name": "中西アルノ",
+		"gen": "5期生",
+		"talk": "arutalk",
+		"insta": "",
+		"blog": ["arunoblog","arublog"]
+	},	
+	"yada_moeka":{
+		"name": "矢田萌華",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"kawabata_hina":{
+		"name": "川端晃菜",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"setoguchi_mitsuki":{
+		"name": "瀬戸口心月",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"kaibe_akari":{
+		"name": "海邉朱莉",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"nagashima_rio":{
+		"name": "長嶋凛桜",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"morihira_urumi":{
+		"name": "森平麗心",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"atago_kokone":{
+		"name": "愛宕心響",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"suzuki_yuuna":{
+		"name": "鈴木佑捺",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"okoshi_hinano":{
+		"name": "大越ひなの",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"ozu_reina":{
+		"name": "小津玲奈",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	},
+	"masuda_mirine":{
+		"name": "増田三莉音",
+		"gen": "6期生",
+		"talk": "",
+		"insta": "",
+		"blog": ""
+	}
+}
