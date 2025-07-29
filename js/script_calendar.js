@@ -18,12 +18,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const getGroupClass = (group, status) => {
         if (status === 'lulus') {
-            // Kasus khusus untuk Keyakizaka karena tidak punya grup aktif
+            // Special case for Keyakizaka as it has no active group
             if (group === 'keya') return 'gradk';
             return `grad${group.charAt(0)}`;
         }
         return group;
     };
+
+    // --- Style Injection for Birthday Glow ---
+    const addBirthdayGlowStyles = () => {
+        const style = document.createElement('style');
+        style.textContent = `
+            :root {
+                /* Define solid colors for glow effect */
+                --glow-nogi: #814fa2;
+                --glow-saku: #e95881;
+                --glow-hina: #2eabdd;
+                --glow-boku: #006ed6;
+                --glow-gradn: #48265f;
+                --glow-gradk: #1b6a21;
+                --glow-grads: #8e1235;
+                --glow-gradh: #004868;
+            }
+
+            @keyframes glowing {
+                0% { box-shadow: 0 0 5px var(--glow-color, #fff); }
+                50% { box-shadow: 0 0 25px 8px var(--glow-color, #fff); }
+                100% { box-shadow: 0 0 5px var(--glow-color, #fff); }
+            }
+
+            .member-card.is-birthday-card {
+                animation: glowing 2s infinite ease-in-out;
+                border: 2pt solid var(--glow-color);
+            }
+
+            /* Assign the correct glow color variable to each group */
+            .nogi.is-birthday-card { --glow-color: var(--glow-nogi); }
+            .saku.is-birthday-card { --glow-color: var(--glow-saku); }
+            .hina.is-birthday-card { --glow-color: var(--glow-hina); }
+            .boku.is-birthday-card { --glow-color: var(--glow-boku); }
+            .gradn.is-birthday-card { --glow-color: var(--glow-nogi); }
+            .gradk.is-birthday-card { --glow-color: var(--glow-gradk); }
+            .grads.is-birthday-card { --glow-color: var(--glow-grads); }
+            .gradh.is-birthday-card { --glow-color: var(--glow-gradh); }
+        `;
+        document.head.appendChild(style);
+    };
+
 
     // --- Data Fetching and Processing ---
     async function loadAllMembers() {
@@ -86,8 +127,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const daysUntil = nextBirthday.diff(today, 'days');
             
             if (daysUntil === 0) {
-                birthdayGirls.push({ ...member, age: age + 1 });
+                // FIX 1: Correctly use the calculated age.
+                // The 'age' variable already represents the new age on the birthday.
+                birthdayGirls.push({ ...member, age: age });
             } else {
+                // For upcoming birthdays, it's correct to show 'age + 1'
                 upcomingBirthdays.push({ ...member, daysUntil, age: age + 1, photoURL: member.photoURL });
             }
         });
@@ -134,6 +178,7 @@ document.addEventListener('DOMContentLoaded', () => {
         calendarContainer.innerHTML = '';
         moment.locale('id');
         const months = moment.months();
+        const today = moment();
 
         const groupedByMonth = members.reduce((acc, member) => {
             const monthIndex = member.birthDate.getMonth();
@@ -167,6 +212,12 @@ document.addEventListener('DOMContentLoaded', () => {
             sortedMembers.forEach(member => {
                 const card = document.createElement('div');
                 card.className = `member-card ${member.groupClass}`;
+                
+                // FIX 3: Add 'is-birthday-card' class if it's the member's birthday
+                if (today.month() === member.birthDate.getMonth() && today.date() === member.birthDate.getDate()) {
+                    card.classList.add('is-birthday-card');
+                }
+
                 card.innerHTML = `
                     <div class="pictm">
                         <img src="${member.photoURL}" alt="${member.nameRomaji}" loading="lazy">
@@ -195,11 +246,15 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (now.isBefore(lastBirthday)){
             years--; 
-            lastBirthday.subtract(1, 'year');
         }
         
-        const daysSinceLastBirthday = now.diff(lastBirthday, 'days');
-        element.textContent = `Usia: ${years} tahun ${daysSinceLastBirthday} hari`;
+        // Recalculate last birthday with correct year count
+        const correctLastBirthday = birthDate.clone().add(years, 'years');
+        const daysSinceLastBirthday = now.diff(correctLastBirthday, 'days');
+
+        // FIX 2: Show emoji on birthday instead of "0 hari"
+        const daysText = daysSinceLastBirthday === 0 ? '✨' : `${daysSinceLastBirthday} hari`;
+        element.textContent = `Usia: ${years} tahun ${daysText}`;
     }
 
     function updateAllCounters() {
@@ -231,6 +286,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 let groupColorVar = defaultColor;
 
                 if (filter !== 'all') {
+                    // We get the background property, which is a gradient. We need to parse it or use a solid color.
+                    // For simplicity, we reference the root variable for the gradient.
+                    // The glow color logic handles the actual solid color needed.
                     groupColorVar = getComputedStyle(document.documentElement).getPropertyValue(`--bg${filter}`).trim() || defaultColor;
                 }
                 
@@ -238,7 +296,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Cek jika ada member di bulan ini setelah filter
                     let nextSibling = header.nextElementSibling;
                     if (nextSibling && nextSibling.classList.contains('calendarlist') && nextSibling.hasChildNodes()) {
-                        header.style.backgroundColor = groupColorVar;
+                        header.style.background = groupColorVar; // Set the gradient background
                         header.style.display = 'block';
                     } else {
                         header.style.display = 'none';
@@ -249,5 +307,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Initial Load ---
+    addBirthdayGlowStyles(); // Inject the necessary CSS for the glow effect
     loadAllMembers();
 });

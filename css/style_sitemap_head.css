@@ -166,3 +166,102 @@ body {
 /* Tipe: feature */
 .notif-feature { background-color: var(--moe-tint1); color: var(--moe-tint6); }
 .notif-feature::before { background-image: url('../sprite/element/bell.svg'); }
+
+/* --- Sitemap Birthday Announcement --- */
+#sitemap-hbd-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sitemap-hbd-wrapper {
+    width: 100%;
+    position: relative;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    z-index: 5;
+}
+
+.sitemap-hbd-shadow {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    background: var(--moe-tint5);
+    transform: translate(3px, 3px);
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+
+.sitemap-hbd-main {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+
+.sitemap-hbd-main::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 3;
+    background: var(--moe-shade-max1);
+    clip-path: var(--pixel-update-clip-path-border);
+    pointer-events: none;
+}
+
+.sitemap-hbd-item {
+    position: relative;
+    width: 100%;
+    background-color: var(--moe-tint7);
+    color: var(--moe);
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: left;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sitemap-hbd-item::before {
+	content: "🎉";
+	font-size: 50px;
+	opacity: 0.2;
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	transform: translateY(-50%);
+    z-index:1;
+}
+ 
+.sitemap-hbd-content {
+    flex-grow: 1;
+    padding-left: 20px;
+    z-index: 2;
+}
+
+.sitemap-hbd-content p { margin: 2px 0; }
+.sitemap-hbd-content p.line1 { font-size: 1.1em; font-family: 'Space Mono', monospace; }
+.sitemap-hbd-content p.line2 { font-size: 1.5em; font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 700; }
+.sitemap-hbd-content p.line3 { font-size: 1em; font-family: 'Space Mono', monospace; }
+.sitemap-hbd-content p span { color: var(--moe-shade-max1); font-weight: bold; font-family: 'Space Mono', monospace; }
+ 
+.sitemap-hbd-photo {
+    width: 80px;
+    /* height: 80px; */
+    min-width: 80px;
+    margin: 1pt 7pt;
+    overflow: hidden;
+}
+ 
+.sitemap-hbd-photo img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
