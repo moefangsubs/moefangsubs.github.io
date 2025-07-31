@@ -1,0 +1,227 @@
+{
+  "ongoing": {
+    "title": "ON GOING",
+    "description": "Ini adalah garapan utama yang akan selalu dikerjakan oleh MoeFang Subs. Kalian tidak bisa merequest garapan di bawah meskipun mengalami penundaan.",
+    "categories": [
+      {
+        "name": "Variety Show",
+        "items": [
+          {
+            "title": "Nogizaka Star Tanjou SIX!",
+            "link": "../moesubs/subs.html?show=nogizaka-star-tanjou-six"
+          },
+          {
+            "title": "Nogizaka Otameshichuu",
+            "link": "../moesubs/subs.html?show=nogizaka-otameshichuu"
+          }
+        ]
+      },
+      {
+        "name": "Nogi Douga",
+        "items": [
+          {
+            "title": "Nogizaka Burari #18",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-burari"
+          }
+        ]
+      },
+      {
+        "name": "Single Bonus",
+        "items": [
+          {
+            "title": "Nogizaka46 39th Single Bonus 6th-gen Individual PV"
+          }
+        ]
+      },
+      {
+        "name": "Cupstar Series",
+        "items": [
+          {
+            "title": "Ane to Itsumademo",
+            "link": "../moesubs/subs.html?show=cupstar-ane-to-itsumademo"
+          }
+        ]
+      },
+      {
+        "name": "Drama",
+        "items": [
+          {
+            "title": "Ryosangata Ruka",
+            "link": "../moesubs/subs.html?show=ryosangata-ruka"
+          }
+        ]
+      }
+    ]
+  },
+  "queue": {
+    "title": "QUEUE",
+    "description": "Ini adalah garapan utama yang dikerjakan oleh MoeFang Subs, namun dalam antrian. Alasannya karena kesibukan lain, ada request, atau hal lain yang menyebabkan garapan di bawah masuk ke kategori ini. Kalian tidak bisa merequest garapan di bawah ini.",
+    "categories": [
+      {
+        "name": "Nogi Douga",
+        "items": [
+          {
+            "title": "Nogizaka Burari #19",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-burari"
+          },
+          {
+            "title": "Nogizaka Burari #20",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-burari"
+          },
+          {
+            "title": "It's on Me #4",
+            "link": "../moesubs/subs.html?show=nogidouga-its-on-me"
+          },
+          {
+            "title": "Ganbare Nogizaka #2",
+            "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
+          },
+          {
+            "title": "Ganbare Nogizaka #3",
+            "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
+          },
+          {
+            "title": "Girl Talk #1 Part A"
+          },
+          {
+            "title": "Girl Talk #1 Part B"
+          },
+          {
+            "title": "Girl Talk #2 Part A"
+          },
+          {
+            "title": "Girl Talk #2 Part B"
+          }
+        ]
+      },
+      {
+        "name": "Documentary",
+        "items": [
+          {
+            "title": "Nogizaka Touhikou Season 1 #11",
+            "link": "../moesubs/subs.html?show=nogizaka-escape"
+          },
+          {
+            "title": "Nogizaka Touhikou Season 1 #12",
+            "link": "../moesubs/subs.html?show=nogizaka-escape"
+          },
+          {
+            "title": "Nogizaka Touhikou Season 2",
+            "link": "../moesubs/subs.html?show=nogizaka-escape"
+          },
+          {
+            "title": "Nogizaka Touhikou Season 3",
+            "link": "../moesubs/subs.html?show=nogizaka-escape"
+          }
+        ]
+      }
+    ]
+  },
+  "request": {
+    "title": "REQUEST",
+    "description": "Ini adalah garapan yang dikerjakan oleh MoeFang Subs berdasarkan request yang sudah disepakati lewat DM Instagram. Untuk waktu perilisan tentatif, tergantung perjanjian dan ketersediaan pengerjaannya.",
+    "categories": [
+      {
+        "name": "Variety Show",
+        "items": [
+          {
+            "title": "Saito Asuka no Konya wa Nonde Kaerou #2",
+            "link": "../moesubs/subs.html?show=saito-asuka-no-konya-wa-nonde-kaerou",
+            "isRequest": true
+          },
+          {
+            "title": "Spicy Sessions",
+            "link": "../moesubs/subs.html?show=spicy-sessions",
+            "isRequest": true
+          }
+        ]
+      },
+      {
+        "name": "Nogi Douga",
+        "items": [
+          {
+            "title": "Asobu Dake #54",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #58",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #59",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #60",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #64",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #65",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #66",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          }
+        ]
+      },
+      {
+        "name": "Drama",
+        "items": [
+          {
+            "title": "Koroshita Otto ga Kaettekimashita",
+            "link": "../moesubs/subs.html?show=koroshita-otto-ga-kaettekimashita",
+            "isRequest": true
+          }
+        ]
+      }
+    ]
+  },
+  "dropped": {
+    "title": "DROPPED",
+    "description": "Ini adalah garapan yang sudah di-drop alias tidak dikerjakan oleh MoeFang Subs. Kami bisa saja sewaktu-waktu mengerjakan kembali garapan di bawah ini. Juga, kalian bisa me-request garapan yang ada di bawah ini (kecuali 'SakaAo').",
+    "categories": [
+      {
+        "name": "Variety",
+        "items": [
+          {
+            "title": "Nogizaka Romance",
+            "link": "../moesubs/subs.html?show=nogizaka-romance",
+            "tooltip": "Hanya garapan santai"
+          },
+          {
+            "title": "Sakura Meets",
+            "link": "../moesubs/subs.html?show=sakura-meets",
+            "tooltip": "Hanya garapan santai"
+          },
+          {
+            "title": "Sakamichi no Mukou ni Wa Aozora ga Hirogatteita",
+            "link": "../moesubs/subs.html?show=sakamichi-no-mukou-ni-wa-aozora-ga-hirogatteita",
+            "tooltip": "Sudah diambilalih oleh fansub lain (HikamiSubs & Poripori Subs)"
+          }
+        ]
+      },
+      {
+        "name": "Web Contents",
+        "items": [
+          {
+            "title": "Hinatazaka Channel",
+            "link": "../moesubs/subs.html?show=hinatazaka-channel",
+            "tooltip": "Sepi peminat :("
+          }
+        ]
+      }
+    ]
+  }
+}

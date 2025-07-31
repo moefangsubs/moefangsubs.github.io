@@ -111,12 +111,12 @@ document.addEventListener('DOMContentLoaded', function() {
 			<div class="link">
 				<div class="link-form">
 					<a href="../request.html" class="f1">Request Sub</a>
-					<a href="#" class="f2">Join Contributor</a>
+					<a href="../moesubs/garapan.html" class="f2">Daftar Garapan</a>
 				</div>
 				<div class="link-sns">
-					<a href="http://instagram.com/moefang_"><img src="../sprite/element/insta.svg" /></a>
-					<a href="http://twitter.com/FangMoe"><img src="../sprite/element/twitter.svg" /></a>
-					<a href="http://discordapp.com/users/981149278300962816"><img src="../sprite/element/discord.svg" /></a>
+					<a href="http://instagram.com/moefang_" target="_blank"><img src="../sprite/element/insta.svg" /></a>
+					<a href="http://twitter.com/FangMoe" target="_blank"><img src="../sprite/element/twitter.svg" /></a>
+					<a href="http://discordapp.com/users/981149278300962816" target="_blank"><img src="../sprite/element/discord.svg" /></a>
 				</div>
 			</div>
         </div>

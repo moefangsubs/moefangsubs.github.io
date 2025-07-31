@@ -1,0 +1,227 @@
+@import url('style.css');
+
+/* --- Variabel Global (diambil dari style_subs.css) --- */
+:root {
+	--pixel-border-clip-path-outer: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
+	--pixel-border-clip-path-border: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
+}
+
+/* --- Tata Letak Halaman Garapan --- */
+body.garapan-page {
+    height: auto;
+    min-height: 100vh;
+    background-color: var(--moe-tint7);
+}
+
+#garapan-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+    gap: 2rem;
+}
+
+/* --- Gaya Kontainer per Bagian --- */
+.garapan-section {
+    position: relative;
+	padding-bottom: 3px;
+	padding-right: 3px;
+}
+
+.garapan-section-item {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    clip-path: var(--pixel-border-clip-path-outer);
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1.5rem;
+    backdrop-filter: blur(5px);
+}
+
+.garapan-section-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: var(--moe-shade-max1);
+    clip-path: var(--pixel-border-clip-path-border);
+    pointer-events: none;
+}
+
+.pixel-border-shadow {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1; 
+	background: var(--moe-tint5);
+	transform: translate(3px, 3px);
+	clip-path: var(--pixel-border-clip-path-outer);
+}
+
+/* --- Konten di dalam kontainer --- */
+.section-title {
+    font-size: 20pt;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    border-bottom: 2px solid var(--moe-tint5);
+    padding-bottom: 0.5rem;
+}
+
+.section-description {
+    font-size: 10pt;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.garapan-category h3 {
+    font-size: 16pt;
+    font-weight: 700;
+    color: var(--moe-shade-max3);
+    margin: 1.5rem 0 0.8rem 0;
+}
+
+.garapan-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.garapan-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0.5rem;
+    margin-left: 15pt;
+    border: 2px solid var(--moe-tint5);
+    background-color: var(--moe-tint6);
+    min-height: 40px;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 11pt;
+}
+
+.item-label {
+    background-color: #ff4757;
+    color: white;
+    padding: 2px 6px;
+    font-size: 9pt;
+    font-weight: 700;
+    border-radius: 3px;
+}
+
+.item-tooltip-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: help;
+}
+
+.item-tooltip-icon {
+    background-color: var(--moe-tint4);
+    color: white;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10pt;
+}
+
+.item-tooltip-text {
+    visibility: hidden;
+    width: 220px;
+    background-color: var(--moe-shade-min1);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    z-index: 10;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -110px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.item-tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--moe-shade-min1) transparent transparent transparent;
+}
+
+.item-tooltip-wrapper:hover .item-tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* --- Tombol Aksi --- */
+.item-action-link {
+    display: block;
+}
+
+.item-action-button-wrapper {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background: var(--moe-tint4);
+}
+.item-action-button-wrapper .pixel-border-item {
+    background-color: transparent;
+}
+.item-action-button-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.item-action-button {
+    border: none;
+    color: var(--moe);
+    background: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.item-action-button-wrapper .pixel-border-item:hover {
+    background: var(--moe);
+}
+.item-action-button-wrapper .pixel-border-item:hover .item-action-button {
+    color: white;
+}
+.item-action-button-wrapper .pixel-border-item::after {
+    background: var(--moe);
+}
