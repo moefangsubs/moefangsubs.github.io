@@ -349,35 +349,59 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const navbarHTML = `
-            <header id="main-header">
-              <nav class="navbar-container">
-                <a href="../index.html" class="navbar-logo">
-                  <img src="https://moefangsubs.github.io/sprite/logonew2024.svg" alt="Moefangsubs Logo">
-                </a>
-                <div class="burger-menu"><span></span><span></span><span></span></div>
-                <ul class="nav-menu">
-                  <li class="nav-item"><a href="../sitemap.html">HOME</a></li>
-                  <li class="nav-item has-submenu"><a href="#" class="submenu-toggle">MV <span class="arrow"></span></a>
-					<ul class="submenu">
-						<li><a href="../moedownload/sub-mv-nogizaka46.html">Nogizaka46</a></li>
-						<li><a href="../moedownload/sub-mv-48-46.html">Sakamichi</a></li>
-						<li><a href="../moedownload/sub-mv-bokuao.html">BokuAo</a></li>
+			<header id="main-header">
+				<nav class="navbar-container">
+					<a href="../index.html" class="navbar-logo">
+						<img src="https://moefangsubs.github.io/sprite/logonew2024.svg" alt="Moefangsubs Logo">
+					</a>
+					<div class="burger-menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<ul class="nav-menu">
+						<li class="nav-item">
+							<a href="../sitemap.html">SITEMAP</a>
+						</li>
+						<li class="nav-item has-submenu">
+							<a href="#" class="submenu-toggle">MV <span class="arrow"></span>
+							</a>
+							<ul class="submenu">
+								<li><a href="../moedownload/sub-mv-nogizaka46.html">Nogizaka46</a></li>
+								<li><a href="../moedownload/sub-mv-48-46.html">Sakamichi</a></li>
+								<li><a href="../moedownload/sub-mv-bokuao.html">BokuAo</a></li>
+							</ul>
+						</li>
+						<li class="nav-item has-submenu">
+							<a href="#" class="submenu-toggle">TRANSLATION <span class="arrow"></span>
+							</a>
+							<ul class="submenu">
+								<li><a href="#">Blog</a></li>
+								<li><a href="../moemagz/magazine-translation.html">Magazine</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="../moeplay/moeplay-chord.html">CHORD</a>
+						</li>
+						<li class="nav-item">
+							<a href="../moedata/database.html">DB</a>
+						</li>
+						<li class="nav-item has-submenu">
+							<a href="#" class="submenu-toggle">OTHER <span class="arrow"></span>
+							</a>
+							<ul class="submenu">
+								<li><a href="../moedownload/folder-icon.html">Folder Icon</a></li>
+								<li><a href="#">Fansub List</a></li>
+								<li><a href="#">Color Palette</a></li>
+								<li><a href="#">Masterlist</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a href="../moeplay/moeplay.html">PLAY</a>
+						</li> ${userGreetingHTML}
 					</ul>
-				</li>
-                  <li class="nav-item has-submenu"><a href="#" class="submenu-toggle">TRANSLATION <span class="arrow"></span></a>
-					<ul class="submenu">
-						<li><a href="#">Blog</a></li>
-						<li><a href="../moemagz/magazine-translation.html">Magazine</a></li>
-					</ul>
-					</li>
-                  <li class="nav-item"><a href="../moeplay/moeplay-chord.html">CHORD</a></li>
-                  <li class="nav-item"><a href="../moedata/database.html">DB</a></li>
-                  <li class="nav-item has-submenu"><a href="#" class="submenu-toggle">OTHER <span class="arrow"></span></a><ul class="submenu"><li><a href="../moedownload/folder-icon.html">Folder Icon</a></li><li><a href="#">Fansub List</a></li><li><a href="#">Color Palette</a></li><li><a href="#">Masterlist</a></li></ul></li>
-                  <li class="nav-item"><a href="../moeplay/moeplay.html">PLAY</a></li>
-                  ${userGreetingHTML}
-                </ul>
-              </nav>
-            </header>`;
+				</nav>
+			</header>`;
         
         document.body.insertAdjacentHTML('afterbegin', navbarHTML);
 
