@@ -1,6 +1,6 @@
 {
   "ongoing": {
-    "title": "ON GOING",
+    "title": "🔰 ON GOING",
     "description": "Ini adalah garapan utama yang akan selalu dikerjakan oleh MoeFang Subs. Kalian tidak bisa merequest garapan di bawah meskipun mengalami penundaan.",
     "categories": [
       {
@@ -54,7 +54,7 @@
     ]
   },
   "queue": {
-    "title": "QUEUE",
+    "title": "📃 QUEUE",
     "description": "Ini adalah garapan utama yang dikerjakan oleh MoeFang Subs, namun dalam antrian. Alasannya karena kesibukan lain, ada request, atau hal lain yang menyebabkan garapan di bawah masuk ke kategori ini. Kalian tidak bisa merequest garapan di bawah ini.",
     "categories": [
       {
@@ -118,7 +118,7 @@
     ]
   },
   "request": {
-    "title": "REQUEST",
+    "title": "✨ REQUEST",
     "description": "Ini adalah garapan yang dikerjakan oleh MoeFang Subs berdasarkan request yang sudah disepakati lewat DM Instagram. Untuk waktu perilisan tentatif, tergantung perjanjian dan ketersediaan pengerjaannya.",
     "categories": [
       {
@@ -189,7 +189,7 @@
     ]
   },
   "dropped": {
-    "title": "DROPPED",
+    "title": "❌ DROPPED",
     "description": "Ini adalah garapan yang sudah di-drop alias tidak dikerjakan oleh MoeFang Subs. Kami bisa saja sewaktu-waktu mengerjakan kembali garapan di bawah ini. Juga, kalian bisa me-request garapan yang ada di bawah ini (kecuali 'SakaAo').",
     "categories": [
       {
