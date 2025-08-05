@@ -21,12 +21,30 @@ h1 {
 
 .intro {
     font-family: "Space Mono", monospace;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 2rem;
     font-size: 1.1rem;
     line-height: 1.6;
 }
-
+/* --- STYLING UNTUK NARASI --- */
+#narrative-container {
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--moe-tint7);
+	color: var(--moe) !important;
+}
+#narrative-container h2 {
+    margin-top: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    border-bottom: 2px solid var(--moe-tint5);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+#narrative-container p {
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0;
+}
 /* Style untuk kontainer kontrol */
 .controls-container {
     display: flex;
@@ -36,7 +54,26 @@ h1 {
     gap: 15px 25px;
     margin-bottom: 2rem;
 }
-
+.intro ul {
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 1rem 0;
+    text-align: left;
+}
+.intro li {
+    margin-bottom: 0.75rem;
+    padding-left: 1.2rem;
+    position: relative;
+    text-align: justify;
+}
+.intro li::before {
+    content: '»';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--moe);
+    font-weight: bold;
+}
 .controls {
     display: flex;
     align-items: center;
@@ -226,13 +263,14 @@ input:checked + .slider:before {
         border-radius: 4px;
         padding: 10px;
     }
-    #sales-table td {
-        display: grid;
-        grid-template-columns: 100px 1fr;
-        align-items: center;
-        padding: 8px 0;
-        border-bottom: none;
-    }
+	#sales-table td {
+		display: grid;
+		grid-template-columns: 100px 1fr;
+		align-items: center;
+		padding: 8px 0;
+		border-bottom: none;
+		gap: 10%;
+	}
     #sales-table td:before {
         content: attr(data-label);
         font-weight: bold;

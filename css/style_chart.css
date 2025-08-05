@@ -1,0 +1,31 @@
+
+:root {
+    /* -- WARNA -- */
+    --chart-color-oricon-day: rgb(33, 150, 243);
+    --chart-color-oricon-week: rgb(255, 152, 0);
+    --chart-color-billboard: rgb(96, 125, 139);
+    --chart-color-background: white;
+    --chart-color-grid: rgba(75, 0, 121, 0.15);
+    --chart-color-font: var(--moe-shade-min2, #2e0052);
+    --chart-color-title: var(--moe-shade-min1, #440079);
+
+    /* -- FONT -- */
+    --chart-font-family-title: "M PLUS Rounded 1c", sans-serif;
+    --chart-font-family-body: "Space Mono", monospace;
+    --chart-font-family-axis: "M PLUS Rounded 1c", sans-serif;
+    
+    --chart-font-size-title: 18px;
+    --chart-font-size-legend: 12px;
+    --chart-font-size-tooltip: 12px;
+    --chart-font-size-axis: 12px;
+
+    /* -- PENGATURAN DATA LABELS (ANGKA DI GRAFIK) -- */
+    /* Untuk Grafik Garis & Batang Vertikal */
+    --chart-datalabel-color-desktop: white;
+    --chart-datalabel-bgcolor-desktop: rgba(75, 0, 121, 0.7);
+    --chart-datalabel-fontsize-desktop: 12px;
+
+    /* Khusus untuk Grafik Batang Horizontal (Mobile & Desktop) */
+    --chart-datalabel-color-horizontal: white;
+    --chart-datalabel-fontsize-horizontal: 12px;
+}

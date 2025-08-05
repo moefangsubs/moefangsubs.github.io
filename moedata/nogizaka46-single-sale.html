@@ -7,45 +7,45 @@
     <meta name="robots" content="index, follow">
     <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
 
-    <title>MoeData | Grafik & Data Penjualan Single Nogizaka46</title>
+    <title>MoeData | Analisis Penjualan Single Nogizaka46</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
     <script src="../js/firebase-init.js"></script>
     <script src="../js/firebase-auth.js"></script>
 
-	<script type="text/javascript" src="../js/navbar.js"></script>
-	<script type="text/javascript" src="../js/footer.js"></script>
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/footer.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style_rank.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_chart.css">
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
-
 </head>
 <body>
-
     <div id="main-container">
-        <h1>Grafik & Data Penjualan Single Nogizaka46</h1>
-        <p class="intro">
-            Visualisasi data penjualan single Nogizaka46. Gunakan menu di bawah untuk mengubah rentang data dan tampilan grafik. Tabel di bawah akan ikut menyesuaikan.
-        </p>
+        <h1>Penjualan Single Nogizaka46</h1>
+        <p class="intro" id="intro-narrative">
+            </p>
 
         <div class="controls-container">
             <div class="controls">
-                <label for="range-filter">Rentang:</label>
+                <label for="range-filter">Pilih Era:</label>
                 <select id="range-filter">
                     <option value="new_era" selected>Era Baru (32 ~)</option>
-                    <option value="covid_era">Era COVID (26 ~ 31)</option>
+                    <option value="covid_era">Era Pandemi (26 ~ 31)</option>
+                    <option value="golden_era">Era Keemasan (16 ~ 25)</option>
+                    <option value="climbing_era">Era Pendakian (8 ~ 15)</option>
+                    <option value="early_era">Era Awal (1 ~ 7)</option>
                     <option value="all">Semua Single (1 ~ 39)</option>
-                    <option value="last_10">10 Terakhir</option>
                 </select>
             </div>
             <div class="controls">
@@ -64,21 +64,42 @@
                     <button data-type="horizontalBar" class="chart-type-btn">Horizontal</button>
                 </div>
             </div>
-             <div class="controls">
+            <div class="controls">
                 <label for="toggle-datalabels">Angka:</label>
                 <label class="toggle-switch">
                     <input type="checkbox" id="toggle-datalabels" checked>
                     <span class="slider"></span>
                 </label>
             </div>
+            <div class="controls">
+                <label for="metric-filter">Metrik:</label>
+                <select id="metric-filter">
+                    <option value="both" selected>Oricon & Billboard</option>
+                    <option value="oricon">Hanya Oricon</option>
+                    <option value="billboard">Hanya Billboard</option>
+                </select>
+            </div>
+            <div class="controls">
+                <label for="period-filter">Periode:</label>
+                <select id="period-filter">
+                    <option value="both" selected>Harian & Mingguan</option>
+                    <option value="daily">Hanya Harian</option>
+                    <option value="weekly">Hanya Mingguan</option>
+                </select>
+            </div>
         </div>
 
         <div class="chart-wrapper boxs2">
             <canvas id="salesChart"></canvas>
-             <div id="loading-spinner" class="spinner-container">
+            <div id="loading-spinner" class="spinner-container">
                 <div class="spinner"></div>
                 <p>Memuat data...</p>
             </div>
+        </div>
+
+        <div id="narrative-container" class="boxs1">
+            <h2 id="narrative-title"></h2>
+            <p id="narrative-text"></p>
         </div>
         
         <div id="table-container" class="boxs2">
@@ -90,10 +111,8 @@
                             <th class="col-num">#</th>
                             <th class="col-title">Judul</th>
                             <th class="col-sales">Oricon Day 1</th>
-                            <th class="col-sales">Oricon Week 1</th>
-                            <th class="col-diff">+/-</th>
-                            <th class="col-sales">Billboard Week 1</th>
-                            <th class="col-diff">+/-</th>
+                            <th class="col-sales">Oricon Week 1 (+/-)</th>
+                            <th class="col-sales">Billboard Week 1 (+/-)</th>
                         </tr>
                     </thead>
                     <tbody id="sales-table-body">
@@ -102,7 +121,6 @@
             </div>
         </div>
     </div>
-
     <script src="../js/script_rank.js"></script>
 </body>
 </html>
