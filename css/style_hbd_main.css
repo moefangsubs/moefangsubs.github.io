@@ -1,0 +1,120 @@
+/*
+ * HBD Animation Styles
+ */
+
+/* Override body styles from style_main.css */
+body {
+    background-color: #ff9933 !important;
+    overflow: hidden !important;
+}
+
+body::before {
+    background-image: none !important;
+    display: none !important;
+}
+
+#sprite-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+.form-container {
+    background-color: #cb540094 !important;
+    box-shadow: 8px 8px 0px 0px #c739002e !important;
+}
+.btn-submit {
+    background-color: var(--kakki-o1) !important;
+}
+
+.btn-submit, .btn-link {
+    border: 2px solid var(--kakki-o1) !important;
+}
+
+.btn-submit:hover {
+    background-color: var(--kakki-g4) !important;
+    border: 2px solid var(--kakki-o2) !important;
+}
+
+
+/* Individual sprite style */
+.sprite {
+    position: absolute;
+    bottom: -500px;
+    animation-name: move-up;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    will-change: transform;
+    max-width: 250px;
+}
+
+/* The fixed image in the corner */
+#kakki-corner {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    max-width: 40%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* Keyframes for the upward movement */
+@keyframes move-up {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-200vh);
+        opacity: 0.8;
+    }
+}
+
+/* Ensure content stays on top */
+.form-container, #message-area {
+    position: relative;
+    z-index: 10;
+}
+
+/* Media query to adjust kakki image on smaller screens */
+@media (max-width: 768px) {
+    #kakki-corner {
+        width: 200px;
+    }
+}
+
+/* --- Animasi Spark dari MoePlay --- */
+#spark-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Di belakang sprite HBD */
+    pointer-events: none;
+}
+
+.spark {
+    position: absolute;
+    opacity: 0;
+    animation-name: twinkle;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2);
+    }
+}
