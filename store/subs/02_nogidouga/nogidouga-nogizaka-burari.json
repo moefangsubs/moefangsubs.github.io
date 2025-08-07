@@ -20,8 +20,10 @@
 		"14",
 		"15",
 		"16",
-		"17"
+		"17",
+		"18"
 	],
+	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogiburari.png",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiburari/nogiburari{{eps}}a.jpg",
@@ -168,6 +170,14 @@
 			"linkHardsub": "https://sfl.gl/jN4eU",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari17.jpg",
 			"descEpisodeSynopsis": "Episode 17 kali ini adalah Kanagawa Saya yang ingin mengajak Tomisato Nao, yang menurutnya semakin dekat akhir-akhir ini, sehingga ingin mengajaknya kencan dimulai dari mengajaknya ke kafe anjing, pijat refleksi dan dinner di restoran mewah."
+		},
+		"18": {
+			"descEpsListName": "Episode 18",
+			"descOnAirDate": "29 November 2024",
+			"memberParticipate": "松尾美佑、梅澤美波",
+			"linkHardsub": "https://sfl.gl/GNJl62",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogiburari18.jpg",
+			"descEpisodeSynopsis": "Matsuo Miyu mengajak senpai yang ia hormati, Umezawa Minami, untuk mengunjungi sebuah bumi perkemahan yang merupakan tempat favoritnya. Di tengah alam yang asri, keduanya yang ternyata sudah ahli berkemah, menghabiskan waktu bersama dengan sangat terampil. Matsuo, yang sudah lama ingin berbicara berdua secara mendalam, akhirnya mendapatkan kesempatannya di depan api unggun."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

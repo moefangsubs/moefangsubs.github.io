@@ -17,9 +17,11 @@
 		"10",
 		"11",
 		"12",
-		"13"
+		"13",
+		"14",
+		"15"
 	],
-	"newUpdateCount": 1,
+	"newUpdateCount": 2,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
@@ -159,7 +161,34 @@
 			"additionalSenpai"	: "弓木奈於",
 			"linkHardsub": "https://sfl.gl/xiviUX",
 			"linkSoftsub": "https://sfl.gl/EQJvKLux"
+		},
+		"14": {
+			"descOnAirDate": "28 Juli 2025",
+			"descSong1": "PUFFY「渚にまつわるエトセトラ」",
+			"descSong2": "プリンセス　プリンセス「世界でいちばん熱い夏」",
+			"descSong3": "YUI「Rolling star」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai"	: "林瑠奈",
+			"linkHardsub": "https://sfl.gl/fJvW6",
+			"linkSoftsub": "https://sfl.gl/FlOTm"
+		},
+		"15": {
+			"descOnAirDate": "4 Agustus 2025",
+			"descSong1": "松浦亜弥「ね〜え?」",
+			"descSong2": "YOASOBI「あの夢をなぞって」",
+			"descSong3": "片平里菜「女の子は泣かない」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai"	: "岡本姫奈",
+			"linkHardsub": "https://sfl.gl/NDG2sf0n",
+			"linkSoftsub": "https://sfl.gl/99Qn"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
 }
+
+
+
+
+
+
+
