@@ -348,7 +348,9 @@ document.addEventListener('DOMContentLoaded', () => {
 			const trackIdMatch = spotifyUrl.match(/track[/:]([a-zA-Z0-9]+)/);
 			if (trackIdMatch && trackIdMatch[1]) {
 				const trackId = trackIdMatch[1];
+				// URL yang digenerate skrip:
 				const spotifyEmbedUrl = `https://open.spotify.com/embed/track/${trackId}?utm_source=generator&theme=0`;
+				// Elemen iframe yang dibuat:
 				spotifyCard = `<div class="spotify-card"><iframe src="${spotifyEmbedUrl}" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>`;
 			}
 		}

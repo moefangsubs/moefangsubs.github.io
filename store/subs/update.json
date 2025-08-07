@@ -1,5 +1,27 @@
 [
   {
+    "date": "250807",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "14" },
+      { "showId": "nogizaka-star-tanjou-six", "eps": "15" },
+      { "showId": "nogidouga-nogizaka-burari", "eps": "18" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "01" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "02" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "03" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "04" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "05" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "06" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "07" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "08" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "09" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "10" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "11" },
+      { "showId": "nogizaka46-bonus-39th-single", "eps": "12" },
+      { "showId": "ryosangata-ruka", "eps": "05" },
+      { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "04" }
+    ]
+  },
+  {
     "date": "250727",
     "updates": [
       { "showId": "nogizaka-star-tanjou-six", "eps": "13" },
@@ -29,15 +51,6 @@
       { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "02" },
       { "showId": "nemuru-baka", "eps": "01" },
       { "showId": "zenbu-of-tokyo", "eps": "01" }
-    ]
-  },
-  {
-    "date": "250629",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "08" },
-      { "showId": "nogizaka-star-tanjou-six", "eps": "09" },
-      { "showId": "under-live", "eps": "10" },
-      { "showId": "spicy-sessions", "eps": "08" }
     ]
   }
 ]

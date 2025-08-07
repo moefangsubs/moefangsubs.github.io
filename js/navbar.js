@@ -370,6 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
 								<li><a href="../moedownload/sub-mv-nogizaka46.html">Nogizaka46</a></li>
 								<li><a href="../moedownload/sub-mv-48-46.html">Sakamichi</a></li>
 								<li><a href="../moedownload/sub-mv-bokuao.html">BokuAo</a></li>
+								<li><a href="../moedownload/sub-mv-random.html">Random J-Pop</a></li>
 							</ul>
 						</li>
 						<li class="nav-item has-submenu">

@@ -7,7 +7,8 @@
 	"availableEpisode": [
 		"01",
 		"02",
-		"03"
+		"03",
+		"04"
 	],
 	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/koroshita{{eps}}.jpg",
@@ -29,6 +30,16 @@
 			"descOnAirDate": "25 Juli 2025",
 			"descEpisodeSynopsis": "Mana akhirnya meraih mimpinya untuk debut sebagai desainer. Seiring waktu yang ia habiskan bersama Kazuki, hubungan mereka secara tak terduga menjadi lebih dekat. Mana merasa bimbang untuk menerima Kazuki, dan kenangan pahit tentang cinta pertamanya kembali muncul. Atas permintaan Kazuki, Mana memutuskan untuk menceritakan masa lalunya. Sementara itu, identitas kerangka yang ditemukan di pegunungan Prefektur Miyagi terungkap, dan polisi menyampaikan berita yang mengejutkan kepada Mana.",
 			"linkHardsub": "https://sfl.gl/uKGTAtbh"
+		},
+		"04": {
+			"descOnAirDate": "1 Agustus 2025",
+			"descEpisodeSynopsis": "Mana mengakui tragedi yang terjadi pada malam lima tahun lalu, namun detektif Nishigaki dari Kepolisian Prefektur Miyagi menyimpulkan bahwa insiden tersebut adalah kecelakaan akibat hujan deras dan membebaskannya. Setelah itu, Mana mengunjungi kembali apartemen tempat ia dulu tinggal di Morioka. Tak disangka, di sana telah menanti sesosok figur yang tak terduga. Pertemuan ini membawa kisah yang rumit antara masa lalu dan masa kini ke sebuah titik balik yang menentukan...",
+			"linkHardsub": "https://sfl.gl/R8CWQux"
+		},
+		"05": {
+			"descOnAirDate": "8 Agustus 2025",
+			"descEpisodeSynopsis": "Setelah bertemu kembali dengan Matsuki, Mana mulai menceritakan masa lalunya kepada Yuma. Dulu, ia diselamatkan oleh seorang rekan kerja wanita saat sedang bekerja, yang kemudian menjadi sahabat karibnya dan menginspirasi mimpinya untuk menjadi seorang desainer. Namun, hari-hari damai mereka harus berakhir, ketika sebuah insiden pada malam hujan lebat lima tahun lalu secara tragis memisahkan takdir mereka berdua.",
+			"linkHardsub": ""
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

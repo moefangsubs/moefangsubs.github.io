@@ -8,7 +8,8 @@
 		"01",
 		"02",
 		"03",
-		"04"
+		"04",
+		"05"
 	],
 	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ruka{{eps}}.jpg",
@@ -39,8 +40,12 @@
 			"descOnAirDate": "24 Juli 2025",
 			"descEpisodeSynopsis": "Setoruka sedang menyirami bunga di taman sambil bersenandung. Suara nyanyiannya yang merdu terdengar oleh Endo Rui dari klub musik ringan, yang kemudian memintanya menjadi vokalis untuk bandnya. Agar tidak diketahui oleh Takaruka, Setoruka mulai berlatih secara diam-diam dan menjadi sering absen dari kegiatan klub. Takaruka pun menjadi cemas karena merasa Setoruka menyembunyikan sesuatu. Di tengah situasi tersebut, tibalah hari pertunjukan rutin klub musik ringan. Pertemuan dengan Rui telah menumbuhkan benih-benih cinta di hati Setoruka.",
 			"linkHardsub": "https://sfl.gl/G7eH"
+		},
+		"05": {
+			"descOnAirDate": "31 Juli 2025",
+			"descEpisodeSynopsis": "Akibat undian yang tidak menguntungkan, klub model kit harus menanggung tugas berat membersihkan seluruh kolam renang. Usaha untuk meminta bantuan dari klub lain pun sia-sia, membuat mereka semakin terpojok. Di tengah situasi genting tersebut, sebuah ide muncul: mengadakan balapan tamiya antar klub dengan satu aturan sederhana, yang kalah harus membersihkan kolam. Kini, balapan sengit di tengah musim panas pun dimulai, dan nasib setiap klub dipertaruhkan.",
+			"linkHardsub": "https://sfl.gl/DrVzW"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
 }
-
