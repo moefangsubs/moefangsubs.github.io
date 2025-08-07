@@ -1,0 +1,95 @@
+:root {
+	--kakki-o1 :#ff983d;
+	--kakki-o2 :#ffb347;
+	--kakki-o3 :#ffd480;
+	--kakki-g1 :#a3d978;
+	--kakki-g2 :#6cbf5a;
+	--kakki-g3 :#49982a;
+	--kakki-g4 :#2f7f33;
+	--kakki-g5 :#1c5f20;
+	--kakki-x1 :#f2e8cf;
+	--kakki-x2 :#d9ca9b;
+	
+	--oren01 : #ff983d;
+	--oren02 : #ffb347;
+	--oren03 : #ffd480;
+	--oren04 : #ff8000;
+	--oren05 : #ffad5c;
+	--oren06 : #ffc880;
+	--oren07 : #ffe0a3;
+	--oren08 : #fff3cc;
+	--oren09 : #ffc966;
+	--oren10 : #ffdb99;
+	
+	--dark01 :#e67300;
+	--dark02 :#b35900;
+}
+
+body {
+    background-color: var(--oren04) !important;
+}
+
+#main-header.scrolled {
+    background-color: #ff6600 !important;
+}
+
+@media (max-width: 992px) {
+	.nav-menu {
+		background-color: var(--kakki-g4) !important;
+	}
+}
+#salam-pembuka .caption .counter, #salam-pembuka .caption #countup-days {
+    color: var(--kakki-g4) !important;
+}
+
+#salam-pembuka .caption strong {
+    color: var(--kakki-g4) !important;
+}
+
+.wadah-pola {
+    background-image: url('../sprite/gradi_orange.svg') !important;
+}
+
+.sitemap-hbd-shadow,
+.notifsitemap-shadow,
+.update-item-shadow {
+    background: var(--dark01) !important;
+}
+.upd {
+    background: var(--kakki-o2) !important;
+}
+
+.update-item::after {
+    background: var(--kakki-o2) !important;
+}
+.member-item a {
+    color: var(--kakki-g3) !important;
+}
+.member-item::after {
+    background: var(--kakki-g3) !important;
+}
+.member-item:hover {
+    background-color: var(--kakki-g1) !important;
+}
+.grp {
+    background-color: var(--kakki-o1) !important;
+}
+
+#daftar-garapan h3 {
+    color: var(--kakki-g4) !important;
+}
+
+.cat-acara-border {
+    background: var(--kakki-g4) !important;
+}
+
+.cat-acara-shade1 {
+    background: var(--kakki-g5) !important;
+}
+.cat-acara-shade2 {
+    background: var(--kakki-g5) !important;
+}
+
+.warning-footer {
+    background: linear-gradient(0deg,rgba(255, 51, 0, 1) 0%, rgba(255, 51, 0, 1) 80%, rgba(255, 77, 0, 1) 80%, rgba(255, 77, 0, 1) 93%, rgba(255, 102, 0, 1) 93%, rgba(255, 102, 0, 1) 100%) !important;
+}
