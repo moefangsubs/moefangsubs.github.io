@@ -11,7 +11,8 @@
 		"05",
 		"06",
 		"07",
-		"08"
+		"08",
+		"09"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_spicysessions.png",
@@ -102,6 +103,16 @@
 			"descSong6": "『Beauty and the Beast』",
 			"additionalGuests": "",
 			"descEpisodeSynopsis": "Berbeda dari biasanya, episode ini direkam di studio tanpa penonton. Satu-satunya pengiring adalah Yudai Sato yang memainkan grand piano. Kurosawa dan Aruno masing-masing membawakan lagu solo, lalu mereka berdiskusi tentang lagu-lagu yang akan dijadikan duet bersama."
+		},
+		"09": {
+			"descOnAirDate": "28 September 2024",
+			"descSong1": "SIRUP『Do Well』",
+			"descSong2": "宇多田ヒカル『In My Room』",
+			"descSong3": "Stevie Wonder『Superstition』",
+			"descSong4": "ゴスペラーズ『永遠に』",
+			"descSong5": "Ariana Grande and John Legend『Beauty and the Beast』",
+			"additionalGuests": "SIRUP",
+			"descEpisodeSynopsis": "Bintang tamu Spicy Sessions kali ini adalah SIRUP, seorang penyanyi R&B yang mewakili Jepang. Hubungannya dengan Kurosawa telah terjalin lebih dari 10 tahun, bahkan SIRUP menganggapnya seperti sosok ayah di Tokyo. Berawal dari klub musik tiup di SMP dan SMA, ia memulai kariernya dengan nama KYOtaro sebelum akhirnya debut sebagai SIRUP pada tahun 2017. Salah satu lagunya yang paling terkenal, \"LOOP\", yang telah diputar lebih dari 41 juta kali, ternyata memiliki kisah menarik di baliknya sebagai lagu yang hampir tidak jadi dirilis."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}",
