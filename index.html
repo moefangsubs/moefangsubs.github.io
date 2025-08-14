@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-language" content="en">
     <meta name="robots" content="index, follow">
     <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">	
 	
-    <!-- Title -->
     <title>MoeFang Subs Site Map</title>
 	
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	
     <link rel="stylesheet" href="css/style_main.css">
+    
+    <style>
+        #bg-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+    </style>
 </head>
 <body>
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="https://ik.imagekit.io/moephotos/samenumbers.webm/ik-video.mp4?updatedAt=1755144036148" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
     <div class="form-container" id="welcome-back-box" style="display: none; text-align: center;">
         <h1>Halo, <span id="welcome-username"></span>!</h1>
         <p style="font-size: 1rem; opacity: 0.8;">Kamu sudah login</p>
