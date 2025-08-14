@@ -36,19 +36,22 @@ body {
     z-index: 1;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/samenumbers01.png');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    z-index: -1;
-}
+/* body::before { */
+    /* content: ""; */
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* background-image: url('https://ik.imagekit.io/moearchive/web/bodybg/samenumbers01.png'); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* opacity: 0.9; */
+    /* z-index: -1; */
+    /* transition: opacity 1s ease-in-out; */
+/* } */
+
+
 .mylogo {
     position: absolute;
     right: 10px;
