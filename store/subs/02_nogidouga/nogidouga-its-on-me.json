@@ -6,9 +6,10 @@
 	"availableEpisode": [
 		"01",
 		"02",
-		"03"
+		"03",
+		"04"
 	],
-	"newUpdateCount": 3,
+	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_itsonme.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/itsonme{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/itsonme/itsonme{{eps}}.jpg",
@@ -35,6 +36,12 @@
 			"memberParticipate": "田村真佑、小川彩",
 			"linkHardsub": "https://sfl.gl/p721",
 			"descEpisodeSynopsis": "Kali ini, yang menantang misi adalah Tamura Mayu. Tamura, yang mengaku menyukai jou mino (bagian dari daging sapi), mengajak Ogawa Aya, kouhai yang juga merupakan member dari Mayutan Kyoukai, ke sebuah restoran horumon (menu daging organ/sapi khas Jepang). Setelah mendengar isi misinya, Tamura tampak sedikit khawatir sambil berkata, \"Karena Aaya itu anak yang baik…\". Namun ia langsung menegaskan semangatnya, \"Aku akan benar-benar menilainya dengan baik!\". Akankah Tamura berhasil menyelesaikan dua misi yang diberikan?"
+		},
+		"04": {
+			"descOnAirDate": "23 Juni 2025",
+			"memberParticipate": "岡本姫奈、柴田柚菜",
+			"linkHardsub": "https://sfl.gl/yqNo4ApQ",
+			"descEpisodeSynopsis": "Tantangan kali ini datang dari Okamoto Hina yang mengaku hobi memancing. Ia mengundang Shibata Yuna ke sebuah restoran di mana mereka bisa langsung memasak ikan yang mereka tangkap. Okamoto berhasil memancing ikan kakap merah dan Shibata mendapatkan shima-aji, kemudian keduanya menikmati hasil tangkapan dengan metode memasak favorit masing-masing. Selain itu, mereka juga akan berbagi banyak cerita pribadi, mulai dari makanan yang tidak disukai hingga kegiatan di hari libur. Akankah Okamoto berhasil menyelesaikan misinya?"
 		}
 	}
 }

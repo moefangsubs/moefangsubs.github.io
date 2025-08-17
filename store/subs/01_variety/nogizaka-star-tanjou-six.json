@@ -19,9 +19,10 @@
 		"12",
 		"13",
 		"14",
-		"15"
+		"15",
+		"16"
 	],
-	"newUpdateCount": 2,
+	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
@@ -181,6 +182,16 @@
 			"additionalSenpai"	: "岡本姫奈",
 			"linkHardsub": "https://sfl.gl/NDG2sf0n",
 			"linkSoftsub": "https://sfl.gl/99Qn"
+		},
+		"16": {
+			"descOnAirDate": "11 Agustus 2025",
+			"descSong1": "ケツメイシ「夏の思い出」",
+			"descSong2": "井上陽水「少年時代」",
+			"descSong3": "相川七瀬「夢見る少女じゃいられない」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai"	: "菅原咲月",
+			"linkHardsub": "https://sfl.gl/j1FB7",
+			"linkSoftsub": "https://sfl.gl/WXMsutNe"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

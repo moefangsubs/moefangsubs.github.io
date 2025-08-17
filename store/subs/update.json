@@ -1,5 +1,14 @@
 [
   {
+    "date": "250817",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "16" },
+      { "showId": "saito-asuka-no-konya-wa-nonde-kaerou", "eps": "02" },
+      { "showId": "nogidouga-its-on-me", "eps": "04" },
+      { "showId": "nogidouga-nogizaka-asobu-dake", "eps": "54" }
+    ]
+  },
+  {
     "date": "250811",
     "updates": [
       { "showId": "spicy-sessions", "eps": "09" },
@@ -27,20 +36,6 @@
       { "showId": "nogizaka46-bonus-39th-single", "eps": "12" },
       { "showId": "ryosangata-ruka", "eps": "05" },
       { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "04" }
-    ]
-  },
-  {
-    "date": "250727",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "13" },
-      { "showId": "showroom", "eps": "22" },
-      { "showId": "showroom", "eps": "23" },
-      { "showId": "ryosangata-ruka", "eps": "04" },
-      { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "03" },
-      { "showId": "cupstar-ane-to-itsumademo", "eps": "01" },
-      { "showId": "utabangumi-tvtokyo-ongakusai-2025", "eps": "01" },
-      { "showId": "utabangumi-music-station", "eps": "02" },
-      { "showId": "utabangumi-venue101", "eps": "03" }
     ]
   }
 ]
