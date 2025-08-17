@@ -52,10 +52,6 @@
             "link": "../moesubs/subs.html?show=nogidouga-nogizaka-burari"
           },
           {
-            "title": "It's on Me #4",
-            "link": "../moesubs/subs.html?show=nogidouga-its-on-me"
-          },
-          {
             "title": "Ganbare Nogizaka #2",
             "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
           },
@@ -108,11 +104,6 @@
         "name": "Variety Show",
         "items": [
           {
-            "title": "Saito Asuka no Konya wa Nonde Kaerou #2",
-            "link": "../moesubs/subs.html?show=saito-asuka-no-konya-wa-nonde-kaerou",
-            "isRequest": true
-          },
-          {
             "title": "Spicy Sessions",
             "link": "../moesubs/subs.html?show=spicy-sessions",
             "isRequest": true
@@ -122,11 +113,6 @@
       {
         "name": "Nogi Douga",
         "items": [
-          {
-            "title": "Asobu Dake #54",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
-            "isRequest": true
-          },
           {
             "title": "Asobu Dake #58",
             "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",

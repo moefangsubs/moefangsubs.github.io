@@ -12,8 +12,10 @@
 		"48",
 		"49",
 		"50a",
-		"50b"
+		"50b",
+		"54"
 	],
+	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_asobudake.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/asobudake{{eps}}.jpg",
 	"episodes": {
@@ -141,6 +143,20 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake50bd.jpg",
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Seperti bagian sebelumnya, dalam bagian kedua ini pun kedua orang tidak pernah meninggalkan kotatsu. Dan tidak ada yang terjadi. Silakan menontonnya dengan sikap santai, mungkin sambil melakukan sesuatu yang lain.",
+			"nameShow": "乃木坂あそぶだけ"
+		},
+		"54": {
+			"descEpisode": "| Episode 54",
+			"descOnAirDate": "26 April 2024",
+			"memberParticipate": "梅澤美波、遠藤さくら、田村真佑",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-asobu-dake-54-yfcN7",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake54.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake54a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake54b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake54c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake54d.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Menjalani peran double sebagai kapten Nogizaka46 sekaligus seorang okami (pemilik kedai)? Umezawa Minami di episode ini membuka restoran kecil bernama \"Ume no Ya\"! Ia akan menjamu para tamunya dengan hidangan spesial racikan sang okami dan perbincangan yang menarik.",
 			"nameShow": "乃木坂あそぶだけ"
 		}
 	}
