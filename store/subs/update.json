@@ -1,5 +1,14 @@
 [
   {
+    "date": "250818",
+    "updates": [
+      { "showId": "nogidouga-nogizaka-asobu-dake", "eps": "58" },
+      { "showId": "ryosangata-ruka", "eps": "07" },
+      { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "06" },
+      { "showId": "random-subs", "eps": "50" }
+    ]
+  },
+  {
     "date": "250817",
     "updates": [
       { "showId": "nogizaka-star-tanjou-six", "eps": "16" },

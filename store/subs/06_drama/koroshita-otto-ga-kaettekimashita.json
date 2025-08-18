@@ -9,7 +9,8 @@
 		"02",
 		"03",
 		"04",
-		"05"
+		"05",
+		"06"
 	],
 	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/koroshita{{eps}}.jpg",
@@ -41,6 +42,11 @@
 			"descOnAirDate": "8 Agustus 2025",
 			"descEpisodeSynopsis": "Setelah bertemu kembali dengan Matsuki, Mana mulai menceritakan masa lalunya kepada Yuma. Dulu, ia diselamatkan oleh seorang rekan kerja wanita saat sedang bekerja, yang kemudian menjadi sahabat karibnya dan menginspirasi mimpinya untuk menjadi seorang desainer. Namun, hari-hari damai mereka harus berakhir, ketika sebuah insiden pada malam hujan lebat lima tahun lalu secara tragis memisahkan takdir mereka berdua.",
 			"linkHardsub": "https://sfl.gl/ZSrVll"
+		},
+		"06": {
+			"descOnAirDate": "15 Agustus 2025",
+			"descEpisodeSynopsis": "Kebenaran mengenai insiden yang menimpa Kamisaka Ai dan Suzukura Mana 5 tahun lalu akhirnya terungkap. Di tengah hujan lebat dalam perjalanan menuju kantor polisi, sebuah tragedi tak terduga menimpa mereka. Yuma, yang diberitahu kebenarannya oleh Ai, mengungkapkan perasaannya terhadap Mana, namun masih ada hal yang belum ia mengerti. Alasan mengapa Ai harus hidup sebagai \"Suzukura Mana\" akan segera terkuak. Ketika rahasia tersebut terbongkar, Ai harus menentukan jalan mana yang akan ia pilih. Inilah akhir kisah dari Ai dan Yuma, dua insan yang dipertemukan oleh takdir yang aneh.",
+			"linkHardsub": "https://sfl.gl/vCJb8hm"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
