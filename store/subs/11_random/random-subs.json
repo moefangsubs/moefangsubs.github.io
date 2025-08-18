@@ -51,7 +51,8 @@
 		"46",
 		"47",
 		"48",
-		"49"
+		"49",
+		"50"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
@@ -839,6 +840,22 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250102-hodoukyou-bts-c.jpg",
 			"descEpisodeSynopsis": "Sebuah video singkat dari Nogi Douga yang akan memperlihatkan dibalik layar pembuatan MV \"Hodoukyou\" sekaligus saat penayangan pertama di Nogizaka Haishinchuu.",
 			"nameShow": "のぎ動画 歩道橋 メイキング付きSpecial Edition"
+		},
+		"50": {
+			"descEpisode": "| Hontou ni Atta Kowai Hanashi 2025",
+			"descEpsListName": "250816",
+			"descOnAirDate": "16 Agustus 2025",
+			"memberParticipate": "金村美玖",
+			"linkHardsub": "https://sfl.gl/m9US5",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hontou-ni-atta-kowai-hanashi-xMG4J",
+			"filePassword": "CeyitaCeyemFR",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250816_kowaibanashi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-kowaibanashi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-kowaibanashi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-kowaibanashi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-kowaibanashi-c.jpg",
+			"descEpisodeSynopsis": "Mai diminta untuk membantu salah satu cabang restoran tempatnya bekerja. Karena penugasan jangka panjang selama satu bulan ini berlokasi jauh, perusahaan menyiapkan sebuah apartemen untuknya. Namun, kamar yang disediakan terasa gelap bahkan di siang hari, dan di dindingnya terdapat bekas seperti \"sesuatu yang tertempel telah dilepas secara paksa\", menciptakan suasana yang ganjil.",
+			"nameShow": "ほんとうにあった怖い話 夏の特別編2025 「或る訳ありの部屋」"
 		}
 	}
 }

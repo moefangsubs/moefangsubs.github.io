@@ -13,9 +13,10 @@
 		"49",
 		"50a",
 		"50b",
-		"54"
+		"54",
+		"58"
 	],
-	"newUpdateCount": 1,
+	"newUpdateCount": 2,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_asobudake.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/asobudake{{eps}}.jpg",
 	"episodes": {
@@ -157,6 +158,20 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake54d.jpg",
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Menjalani peran double sebagai kapten Nogizaka46 sekaligus seorang okami (pemilik kedai)? Umezawa Minami di episode ini membuka restoran kecil bernama \"Ume no Ya\"! Ia akan menjamu para tamunya dengan hidangan spesial racikan sang okami dan perbincangan yang menarik.",
+			"nameShow": "乃木坂あそぶだけ"
+		},
+		"58": {
+			"descEpisode": "| Episode 58",
+			"descOnAirDate": "26 Juli 2024",
+			"memberParticipate": "久保史緒里、吉田綾乃クリスティー、一ノ瀬美空、井上和",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-asobu-dake-58-hDxDH",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake58.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake58a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake58b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake58c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake58d.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Dalam episode memancing edisi kali ini, para member akan mencoba tantangan memancing di laut lepas dari atas perahu. Meskipun terlihat seperti hanya 'Asobu dake' atau bersenang-senang, berbagai rintangan tak terduga ternyata menanti dan bahkan membuat salah satu dari mereka meneteskan air mata.",
 			"nameShow": "乃木坂あそぶだけ"
 		}
 	}

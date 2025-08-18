@@ -10,7 +10,8 @@
 		"03",
 		"04",
 		"05",
-		"06"
+		"06",
+		"07"
 	],
 	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ruka{{eps}}.jpg",
@@ -51,6 +52,11 @@
 			"descOnAirDate": "7 Agustus 2025",
 			"descEpisodeSynopsis": "Takaruka menemukan seekor kucing yang terjebak di pohon dan berhasil menyelamatkannya dengan bantuan Wataru. Namun, ketika badai topan mendekat pada malam harinya, rasa khawatir membawa Takaruka kembali ke sekolah, di mana ia bertemu Rei yang juga mencari kucing yang sama. Setelah menemukan si kucing, mereka terpaksa berteduh dari hujan di ruang Klub Model Kit. Di sana, mereka bertemu Yomo-san dan terjebak tidak bisa pulang. Malam yang tak terduga di tengah badai ini pun akan menyatukan mereka melalui sebuah kegiatan yang sama sekali tidak mereka rencanakan.",
 			"linkHardsub": "https://sfl.gl/gjMFs"
+		},
+		"07": {
+			"descOnAirDate": "14 Agustus 2025",
+			"descEpisodeSynopsis": "Takaruka dan Setoruka mengunjungi sebuah open campus karena ingin melanjutkan studi ke universitas yang sama. Suatu hari, terinspirasi oleh cerita teman sekelasnya yang begitu fokus pada impiannya, Setoruka mulai merenungkan kembali apa yang sesungguhnya ia sukai. Karena tidak dapat menceritakan isi hatinya kepada Takaruka dan merasa bimbang akan masa depannya, ia mendatangi ruang klub model kit. Di tengah kegelisahannya, ia mencoba merakit model kit atas saran dari Yomo-san. Sembari mengingat kembali sebuah peristiwa di masa lalu, Setoruka pun kembali ke titik awal dari \"kesukaan\" sejatinya",
+			"linkHardsub": "https://sfl.gl/6PVZOLDF"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
