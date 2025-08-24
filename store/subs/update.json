@@ -1,5 +1,14 @@
 [
   {
+    "date": "250824",
+    "updates": [
+      { "showId": "nogidouga-girls-talk", "eps": "01a" },
+      { "showId": "nogidouga-girls-talk", "eps": "01b" },
+      { "showId": "nogidouga-girls-talk", "eps": "02a" },
+      { "showId": "nogidouga-girls-talk", "eps": "02b" }
+    ]
+  },
+  {
     "date": "250818",
     "updates": [
       { "showId": "nogidouga-nogizaka-asobu-dake", "eps": "58" },
