@@ -1,5 +1,11 @@
 [
   {
+    "date": "250826",
+    "updates": [
+      { "showId": "random", "eps": "01" }
+    ]
+  },
+  {
     "date": "250824",
     "updates": [
       { "showId": "nogidouga-girls-talk", "eps": "01a" },
