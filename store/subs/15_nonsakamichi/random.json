@@ -1,0 +1,27 @@
+{
+	"url": "random",
+	"nameShowTitle": "Random",
+	"availableEpisode": [
+		"01"
+	],
+	"newUpdateCount": 1,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_random.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 250816 Another Sky (Tsuda Kenjiro)",
+			"descEpsListName": "250816",
+			"descOnAirDate": "16 Agustus 2025",
+			"linkHardsub": "https://sfl.gl/jsmHLfPh",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/another-sky-tsuda-kenjiro-TR4Tb",
+			"filePassword": "TsudaKenjirokeJakarta",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250816_anothersky.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-anothersky.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-anothersky1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-anothersky2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-anothersky3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-anothersky4.jpg",
+			"descEpisodeSynopsis": "Another Sky adalah acara mingguan yang menampilkan orang-orang terkenal mengunjungi luar negeri, gabungan antara cuplikan lokasi dan segmen studio. Dalam episode ini, Tsuda Kenjiro, seorang aktor sekaligus pengisi suara anime terkenal, akan mengunjungi tempat dimana dulu ia pernah dibesarkan selama 7 tahun, yaitu Jakarta,.",
+			"nameShow": "アナザースカイ"
+		}
+	}
+}
