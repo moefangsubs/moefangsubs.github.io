@@ -13,9 +13,11 @@
 		"07",
 		"08",
 		"09",
-		"10"
+		"10",
+		"11",
+		"12"
 	],
-	"newUpdateCount": 4,
+	"newUpdateCount": 2,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_nogiescape.png",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape{{eps}}a.jpg",
@@ -108,12 +110,14 @@
 			"descEpisode": "Episode 11 - Thailand 前編",
 			"descOnAirDate": "27 September 2024",
 			"memberParticipate": "与田祐希、筒井あやめ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogiescape11.jpg",
 			"descEpisodeSynopsis": "Yoda Yuuki dari gen-3 dan Tsutsui Ayame dari gen-4 memulai perjalanan luar negeri pertama mereka ke Thailand. Tanpa rencana bantuan, mereka berjuang dengan bahasa dan logistik, mulai dari transportasi hingga belanja dan makan. Meski berbeda generasi, mereka merasa nyaman satu sama lain, menjadikan perjalanan ini santai dan sesuai ritme mereka sendiri."
 		},
 		"12": {
 			"descEpisode": "Episode 12 - Thailand 後編",
 			"descOnAirDate": "4 Oktober 2024",
 			"memberParticipate": "与田祐希、筒井あやめ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogiescape12.jpg",
 			"descEpisodeSynopsis": "Lanjutan perjalanan Thailand oleh Yoda Yuuki dan Tsutsui Ayame. Di bar hotel, mereka menikmati pemandangan senja sambil berbincang santai, berbagi cerita khas hubungan \"yodamen\"dari sebutan akrab mereka). Tsutsui sempat meneteskan air mata karena alasan mendalam. Hari kedua, mereka menuju resor Pattaya dan Pulau Lan, mencoba naik gajah dan sea walk, menutup perjalanan Thailand dengan gaya santai mereka yang khas."
 		}
 	}

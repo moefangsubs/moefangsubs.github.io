@@ -58,32 +58,12 @@
           {
             "title": "Ganbare Nogizaka #3",
             "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
-          },
-          {
-            "title": "Girl Talk #1 Part A"
-          },
-          {
-            "title": "Girl Talk #1 Part B"
-          },
-          {
-            "title": "Girl Talk #2 Part A"
-          },
-          {
-            "title": "Girl Talk #2 Part B"
           }
         ]
       },
       {
         "name": "Documentary",
         "items": [
-          {
-            "title": "Nogizaka Touhikou Season 1 #11",
-            "link": "../moesubs/subs.html?show=nogizaka-escape"
-          },
-          {
-            "title": "Nogizaka Touhikou Season 1 #12",
-            "link": "../moesubs/subs.html?show=nogizaka-escape"
-          },
           {
             "title": "Nogizaka Touhikou Season 2",
             "link": "../moesubs/subs.html?show=nogizaka-escape"
@@ -136,16 +116,6 @@
           {
             "title": "Asobu Dake #66",
             "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
-            "isRequest": true
-          }
-        ]
-      },
-      {
-        "name": "Drama",
-        "items": [
-          {
-            "title": "Koroshita Otto ga Kaettekimashita",
-            "link": "../moesubs/subs.html?show=koroshita-otto-ga-kaettekimashita",
             "isRequest": true
           }
         ]

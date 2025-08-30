@@ -336,7 +336,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const showName = episodeData.nameShow || showData.nameShow;
             if (showName) items.push(`<li><span class="info-label l-tv">Nama Acara</span><span class="info-value jpn">${showName}</span></li>`);
         }
-        if (episodeData.descOnAirDate) items.push(`<li><span class="info-label l-dt">Tanggal Siar</span><span class="info-value">${episodeData.descOnAirDate}</span></li>`);
+        if (episodeData.descOnAirDate) items.push(`<li><span class="info-label l-dt">Tanggal Rilis</span><span class="info-value">${episodeData.descOnAirDate}</span></li>`);
         const participants = episodeData.memberParticipate || showData.memberParticipate;
         if (participants) items.push(`<li><span class="info-label l-us">Partisipan</span><span class="info-value">${processMemberNames(participants)}</span></li>`);
         if (episodeData.additionalSenpai) items.push(`<li><span class="info-label l-se">Tamu (Senpai)</span><span class="info-value">${processMemberNames(episodeData.additionalSenpai)}</span></li>`);

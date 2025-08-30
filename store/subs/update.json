@@ -1,5 +1,17 @@
 [
   {
+    "date": "250830",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "17" },
+      { "showId": "cupstar-ane-to-itsumademo", "eps": "02" },
+      { "showId": "nogizaka-escape", "eps": "11" },
+      { "showId": "nogizaka-escape", "eps": "12" },
+      { "showId": "ryosangata-ruka", "eps": "08" },
+      { "showId": "ryosangata-ruka", "eps": "09" },
+      { "showId": "showroom", "eps": "24" }
+    ]
+  },
+  {
     "date": "250826",
     "updates": [
       { "showId": "random", "eps": "01" }

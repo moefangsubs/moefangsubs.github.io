@@ -4,7 +4,8 @@
 	"nameShow": "カップスター劇場　姉といつまでも",
 	"descSynopsis": "Di suatu tempat di Tokyo, hiduplah tiga orang kakak beradik yang rukun. Saat mereka makan Cupstar di rumah yang mereka tinggali, terkadang terjadi hal-hal yang aneh. Ini adalah sebuah cerita singkat tentang mereka.",
 	"availableEpisode": [
-		"01"
+		"01",
+		"02"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_cupstarane.png",
@@ -21,6 +22,17 @@
 			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/cupstaritsumademo-01a.jpg",
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/cupstaritsumademo-01b.jpg",
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/cupstaritsumademo-01c.jpg"
+		},
+		"02": {
+			"descEpisode": "| Episode 2",
+			"memberParticipate": "遠藤さくら、井上和、瀬戸口心月",
+			"descOnAirDate": "21 Agustus 2025",
+			"linkHardsub": "https://sfl.gl/rqhHcn",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/cupstaritsumademo-02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/cupstaritsumademo-02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/cupstaritsumademo-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/cupstaritsumademo-02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/cupstaritsumademo-02c.jpg"
 		}
 	}
 }
