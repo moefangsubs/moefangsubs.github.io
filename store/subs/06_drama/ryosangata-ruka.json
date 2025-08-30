@@ -11,9 +11,11 @@
 		"04",
 		"05",
 		"06",
-		"07"
+		"07",
+		"08",
+		"09"
 	],
-	"newUpdateCount": 1,
+	"newUpdateCount": 2,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ruka{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}a.jpg",
@@ -57,6 +59,16 @@
 			"descOnAirDate": "14 Agustus 2025",
 			"descEpisodeSynopsis": "Takaruka dan Setoruka mengunjungi sebuah open campus karena ingin melanjutkan studi ke universitas yang sama. Suatu hari, terinspirasi oleh cerita teman sekelasnya yang begitu fokus pada impiannya, Setoruka mulai merenungkan kembali apa yang sesungguhnya ia sukai. Karena tidak dapat menceritakan isi hatinya kepada Takaruka dan merasa bimbang akan masa depannya, ia mendatangi ruang klub model kit. Di tengah kegelisahannya, ia mencoba merakit model kit atas saran dari Yomo-san. Sembari mengingat kembali sebuah peristiwa di masa lalu, Setoruka pun kembali ke titik awal dari \"kesukaan\" sejatinya",
 			"linkHardsub": "https://sfl.gl/6PVZOLDF"
+		},
+		"08": {
+			"descOnAirDate": "21 Agustus 2025",
+			"descEpisodeSynopsis": "Pada hari Halloween, terjadi sebuah insiden di mana hanya Takaruka yang mengenakan kostum di kelasnya. Sepulang sekolah, saat Takaruka merasa sangat lelah setelah melewati hari yang sial itu, Yomo-san dan Natsu yang sangat antusias menikmati Halloween justru mengusulkan untuk membuat sebuah model kit dengan tema khusus. Antusiasme mereka pun menyebar hingga melampaui lingkup klub dan melibatkan seluruh sekolah.",
+			"linkHardsub": "https://sfl.gl/ccIstwta"
+		},
+		"09": {
+			"descOnAirDate": "28 Agustus 2025",
+			"descEpisodeSynopsis": "Takaruka dikejutkan oleh Setoruka yang mengatakan ia tidak ingin masuk ke universitas yang sama dan lebih memilih untuk meniti karier sebagai pengisi suara. Kebingungan Takaruka berubah menjadi kekesalan karena sikap Setoruka yang seolah tidak peduli, hingga akhirnya mereka berdua pun bertengkar. Yomo-san, yang mengetahui masalah tersebut dari Wataru, memanggil Takaruka ke ruang klub model kit dan memberinya sebuah model kit. Meskipun mencoba merakitnya, Takaruka yang tidak bisa berkonsentrasi memutuskan untuk berhenti sejenak. Di sisi lain, Rei dari klub tari mengalami cedera saat latihan.",
+			"linkHardsub": "https://sfl.gl/uSqXoRM5"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

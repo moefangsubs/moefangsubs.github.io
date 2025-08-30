@@ -148,7 +148,8 @@ section#pricing {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1rem;
     margin-bottom: 1rem;
-    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .price-card {
@@ -156,6 +157,7 @@ section#pricing {
     background-color: white;
     text-align: center;
     padding: 1.5rem 1rem;
+    min-width: 17%;
 }
 
 .price-card:hover {

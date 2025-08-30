@@ -20,7 +20,8 @@
 		"13",
 		"14",
 		"15",
-		"16"
+		"16",
+		"17"
 	],
 	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
@@ -192,6 +193,16 @@
 			"additionalSenpai"	: "菅原咲月",
 			"linkHardsub": "https://sfl.gl/j1FB7",
 			"linkSoftsub": "https://sfl.gl/WXMsutNe"
+		},
+		"17": {
+			"descOnAirDate": "11 Agustus 2025",
+			"descSong1": "ケツメイシ「夏の思い出」",
+			"descSong2": "井上陽水「少年時代」",
+			"descSong3": "相川七瀬「夢見る少女じゃいられない」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai"	: "金川紗耶",
+			"linkHardsub": "https://sfl.gl/eQo4N2",
+			"linkSoftsub": "https://sfl.gl/EtkXRnS"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
