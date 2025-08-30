@@ -286,3 +286,23 @@ div#faq-main {
     #content-buttons { grid-template-columns: 1fr; }
     #content-buttons .full-width { grid-column: span 1; }
 }
+
+
+/* === Tambahan untuk Download Counter === */
+#content-buttons .dl-button .download-icon {
+    width: 16px;
+    height: 16px;
+}
+
+#content-buttons .dl-button .download-count {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    color: var(--moe-tint3);
+    /* margin-left: 6px; */
+    min-width: 2ch;
+    text-align: left;
+}
+
+#content-buttons .dl-button:hover .download-icon {
+    filter: none; /* Kembalikan warna ikon saat di-hover */
+}

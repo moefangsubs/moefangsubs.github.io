@@ -191,18 +191,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		episodeListContainer.appendChild(episodeList);
 	}
     
-	// script_subs.js
-
 	async function renderEpisodeContent(showData, episodeNumber, showPath, initialLikeData = null) {
-		// PERBAIKAN: Definisikan episodeData di sini
 		const episodeData = showData.episodes[episodeNumber];
 		if (!episodeData) {
 			console.error(`Data untuk episode ${episodeNumber} tidak ditemukan.`);
 			contentContainer.innerHTML = '<h2>Error: Data episode tidak ditemukan.</h2>';
-			return; // Hentikan eksekusi jika data episode tidak ada
+			return;
 		}
 
-		// ... (sisa kode fungsi tetap sama) ...
 		contentContainer.innerHTML = ''; // Hapus konten lama
 		contentContainer.insertAdjacentHTML('beforeend', buildHeader(showData, episodeData, episodeNumber, initialLikeData));
 		contentContainer.insertAdjacentHTML('beforeend', buildThumbnails(showData, episodeData, episodeNumber));
@@ -219,10 +215,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		addImagePopupListeners();
 		setupLikeFeature(showData.url, episodeNumber, initialLikeData);
 
-		// BARU: Kirim event kustom dengan data episode
-		document.dispatchEvent(new CustomEvent('episodeRendered', { 
-			detail: { episodeData } 
-		}));
+		// =================== PERUBAHAN DI SINI =================== //
+        // Panggil fungsi setup untuk download counter setelah semua HTML dirender.
+        setupDownloadCounters(showData.url, episodeNumber);
+		// ========================================================= //
 	}   
 	
     function buildHeader(showData, episodeData, episodeNumber, likeData = null) {
@@ -303,7 +299,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			content += `<img src="${thumbUrl}" class="main-thumb" alt="Main Thumbnail" loading="lazy">`;
 		});
 		if (smallThumbs.length > 0) {
-		// BARU: Tambahkan class 'three-items' jika ada 3 gambar
 		const gridClass = smallThumbs.length === 3 ? 'small-thumbs-grid three-items' : 'small-thumbs-grid';
 		content += `<div class="${gridClass}">`;
 			smallThumbs.forEach(thumb => {
@@ -360,7 +355,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		for (let i = 1; i <= 6; i++) {
 			const song = episodeData[`descSong${i}`];
 			if (song) {
-				// PERUBAHAN: Menambahkan wrapper untuk tombol YouTube
 				const button = `
 					<div class="pixel-border-wrapper yt-button-wrapper">
 						<div class="pixel-border-item">
@@ -384,9 +378,9 @@ document.addEventListener('DOMContentLoaded', () => {
         return '';
     }
 
+	// =================== PERUBAHAN DI SINI =================== //
 	function buildButtons(showData, episodeData) {
 		const trakteerLinks = [];
-		// ... (kode untuk mengisi trakteerLinks tetap sama) ...
 		const trakteerKeys = ['linkTrakteer', 'linkTrakteerA', 'linkTrakteerB', 'linkTrakteerC', 'linkTrakteerD'];
 		const addedKeys = new Set();
 		trakteerKeys.forEach(key => {
@@ -407,13 +401,11 @@ document.addEventListener('DOMContentLoaded', () => {
 				addedKeys.add(key);
 			}
 		});
-		// AKHIR DARI KODE YANG SAMA
 
 		let buttonHTML = '';
 		const hasHardsub = !!episodeData.linkHardsub;
 		const hasSoftsub = !!episodeData.linkSoftsub;
 
-		// Helper function untuk membuat wrapper tombol
 		const createButtonWrapper = (content, customClass = '') => `
 			<div class="pixel-border-wrapper dl-button-wrapper ${customClass}">
 				<div class="pixel-border-item">${content}</div>
@@ -422,11 +414,21 @@ document.addEventListener('DOMContentLoaded', () => {
 		`;
 
 		if (hasHardsub) {
-			const button = `<a href="${episodeData.linkHardsub}" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>HARDSUB</span></a>`;
+			const button = `
+                <a href="${episodeData.linkHardsub}" id="hardsub-btn" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);">
+                    <span>HARDSUB</span>
+                    <img src="../sprite/element/downbut.svg" class="download-icon" alt="Unduh">
+                    <span class="download-count">...</span>
+                </a>`;
 			buttonHTML += createButtonWrapper(button, !hasSoftsub ? 'full-width' : '');
 		}
 		if (hasSoftsub) {
-			const button = `<a href="${episodeData.linkSoftsub}" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>SOFTSUB</span></a>`;
+			const button = `
+                <a href="${episodeData.linkSoftsub}" id="softsub-btn" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);">
+                    <span>SOFTSUB</span>
+                    <img src="../sprite/element/downbut.svg" class="download-icon" alt="Unduh">
+                    <span class="download-count">...</span>
+                </a>`;
 			buttonHTML += createButtonWrapper(button, !hasHardsub ? 'full-width' : '');
 		}
 		trakteerLinks.forEach(link => {
@@ -448,6 +450,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (buttonHTML) return `<div id="content-buttons">${buttonHTML}</div>`;
 		return '';
 	}
+	// ========================================================= //
 
 	function buildPasswordBox(showData, episodeData, episodeNumber) {
 		const passwordTemplate = episodeData.filePassword || showData.filePassword;
@@ -490,7 +493,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-	// --- BARU: FUNGSI UNTUK IMAGE POPUP --- //
 	function addImagePopupListeners() {
 		const popupOverlay = document.getElementById('image-popup-overlay');
 		const popupImage = document.getElementById('popup-image');
@@ -501,19 +503,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		thumbnails.forEach(thumb => {
 			thumb.addEventListener('click', (e) => {
 				popupImage.src = e.target.src;
-				// Ganti style.display dengan classList.add
 				popupOverlay.classList.add('visible'); 
 			});
 		});
 
 		popupOverlay.addEventListener('click', (e) => {
 			if (e.target === popupOverlay) {
-				// Ganti style.display dengan classList.remove
 				popupOverlay.classList.remove('visible'); 
-				// Kita bisa tunda pengosongan src agar tidak hilang sebelum transisi selesai
 				setTimeout(() => {
 					popupImage.src = '';
-				}, 300); // 300ms, sesuaikan dengan durasi transisi di CSS
+				}, 300); 
 			}
 		});
 	}
