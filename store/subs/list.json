@@ -115,6 +115,7 @@
 		"nogizaka-fettucine-gummy"
 	],
 	"07_movie": [
+		"yamada-kun-to-lv999-no-koi-o-suru",
 		"nemuru-baka",
 		"zenbu-of-tokyo",
 		"dare-yori-mo-tsuyoku-dakishimete",
@@ -123,20 +124,23 @@
 		"sayounara-konbanwa",
 		"yo-no-naka-ni-taete-sakura-no-nakariseba"
 	],
-	"08_documentary": [
+	"08_stage": [
+		"yumeji-kuukou"
+	],
+	"09_documentary": [
 		"hashimoto-nanami-no-koisuru-bungaku-fuyu",
 		"hashimoto-nanami-no-koisuru-bungaku-natsu",
 		"nogizaka-books",
 		"nogizaka-escape"
 	],
-	"09_sapporo": [
+	"10_sapporo": [
 		"cupstar-matsumuraa",
 		"cupstar-asusanpo",
 		"cupstar-nogimart-no-hibi",
 		"cupstar-sashimen",
 		"cupstar-ane-to-itsumademo"
 	],
-	"10_musicprogram": [
+	"11_musicprogram": [
 		"utabangumi-best-hits",
 		"utabangumi-cdtv",
 		"utabangumi-music-blood",
@@ -150,12 +154,12 @@
 		"utabangumi-the-first-take",
 		"utabangumi-happyou-kotoshi"
 	],
-	"11_random": [
+	"12_random": [
 		"compilation",
 		"showroom",
 		"random-subs"
 	],
-	"12_concert": [
+	"13_concert": [
 		"birthday-live",
 		"zenkoku-tour",
 		"under-live",
@@ -165,7 +169,7 @@
 		"shinzanmono",
 		"live-performance"
 	],
-	"13_premium": [
+	"14_premium": [
 		"nogizaka46-12th-bdl-talk",
 		"nogizaka-skits-bd-1",
 		"nogizaka-skits-bd-2",
@@ -176,12 +180,12 @@
 		"shin-nogizaka-star-tanjou-hulu",
 		"shin-nogizaka-star-tanjou-hajimete-talk"
 	],
-	"14_radio": [
+	"15_radio": [
 		"school-of-lock",
 		"hinatazaka-story",
 		"nogizaka46-gen5-message"
 	],
-	"15_nonsakamichi": [
+	"16_nonsakamichi": [
 		"bokuao-random",
 		"bokuao-documentary",
 		"sakamichi-no-mukou-ni-wa-aozora-ga-hirogatteita",

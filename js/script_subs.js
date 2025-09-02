@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const episodeListContainer = document.getElementById('episode-list-container');
     const popupContainer = document.getElementById('popup-container');
     const redirectBtn = document.getElementById('popup-redirect-btn');
-    // Pastikan elemen loading-overlay ada di HTML Anda
     const loadingOverlay = document.getElementById('loading-overlay'); 
     
     const DATA_PATH_PREFIXES = [
@@ -15,19 +14,21 @@ document.addEventListener('DOMContentLoaded', () => {
         '../store/subs/05_nogikoi/',
         '../store/subs/06_drama/',
         '../store/subs/07_movie/',
-        '../store/subs/08_documentary/',
-        '../store/subs/09_sapporo/',
-        '../store/subs/10_musicprogram/',
-        '../store/subs/11_random/',
-        '../store/subs/12_concert/',
-        '../store/subs/13_premium/',
-        '../store/subs/14_radio/',
-        '../store/subs/15_nonsakamichi/'
+        '../store/subs/08_stage/',
+        '../store/subs/09_documentary/',
+        '../store/subs/10_sapporo/',
+        '../store/subs/11_musicprogram/',
+        '../store/subs/12_random/',
+        '../store/subs/13_concert/',
+        '../store/subs/14_premium/',
+        '../store/subs/15_radio/',
+        '../store/subs/16_nonsakamichi/'
     ];
     const MEMBERS_DATA_PATH = '../store/member/members.json';
+    const WARNINGS_DATA_PATH = '../store/subs/warn.json';
 
-    // Variabel untuk menyimpan data yang sedang aktif
     let membersData = null;
+    let warningsData = null;
     let currentShowData = null;
     let currentShowPath = null;
 
@@ -35,54 +36,88 @@ document.addEventListener('DOMContentLoaded', () => {
 	async function init() {
         if(loadingOverlay) loadingOverlay.style.display = 'flex';
 
-		const params = new URLSearchParams(window.location.search);
-		const showName = params.get('show');
-		let episodeNumber = params.get('eps');
+        const params = new URLSearchParams(window.location.search);
+        const showName = params.get('show');
+        let episodeNumber = params.get('eps');
 
-		if (!showName) {
-			handleNoShowSelected();
+        if (!showName) {
+            handleNoShowSelected();
             if(loadingOverlay) loadingOverlay.style.display = 'none';
-			return;
-		}
+            return;
+        }
 
-		try {
-			const showInfo = await fetchShowData(showName);
-			if (!showInfo) throw new Error(`Show data for "${showName}" not found.`);
-			
-			currentShowData = showInfo.data;
-			currentShowPath = showInfo.path;
-			document.title = `${currentShowData.nameShowTitle} | MoeFang Subs`;
-			
-			if (!membersData) membersData = await fetchData(MEMBERS_DATA_PATH);
-			
-            // Jika tidak ada episode di URL, gunakan episode pertama yang tersedia
+        try {
+            // Muat data pendukung terlebih dahulu
+            if (!membersData) membersData = await fetchData(MEMBERS_DATA_PATH);
+            if (!warningsData) warningsData = await fetchData(WARNINGS_DATA_PATH);
+
+            // Ambil data acara
+            const showInfo = await fetchShowData(showName);
+            if (!showInfo) throw new Error(`Show data for "${showName}" not found.`);
+            
+            currentShowData = showInfo.data;
+            currentShowPath = showInfo.path;
+            document.title = `${currentShowData.nameShowTitle} | MoeFang Subs`;
+            
+            // --- LOGIKA UTAMA UNTUK MENANGANI EPISODE ---
+            const isSingleEpisodeView = currentShowPath.includes('07_movie/') || currentShowPath.includes('08_stage/');
+
+            // 1. Pastikan `availableEpisode` ada untuk movie/stage, bahkan jika kosong di JSON
+            if (isSingleEpisodeView && (!currentShowData.availableEpisode || currentShowData.availableEpisode.length === 0)) {
+                currentShowData.availableEpisode = ["01"];
+            }
+
+            // 2. Jika parameter `eps` TIDAK ADA di URL, tentukan episode default.
+            // Ini sekarang akan berfungsi untuk movie/stage karena `availableEpisode` dijamin ada.
             if (!episodeNumber && currentShowData.availableEpisode && currentShowData.availableEpisode.length > 0) {
-                episodeNumber = currentShowData.availableEpisode[0];
-                // Perbarui URL tanpa reload untuk konsistensi
+                // Untuk movie/stage/single-eps, ini akan langsung memuat episode satu-satunya.
+                episodeNumber = currentShowData.availableEpisode[0]; 
+                
+                // Perbarui URL agar konsisten
                 const newUrl = `?show=${showName}&eps=${episodeNumber}`;
                 history.replaceState({ episode: episodeNumber }, '', newUrl);
             }
 
-			renderEpisodeList(currentShowData, episodeNumber);
-			addEpisodeNavigationHandler();
+            // 3. Panggil fungsi renderWarningBox SETELAH episodeNumber final ditentukan
+            renderWarningBox(currentShowPath, showName, episodeNumber);
+            
+            // 4. Atur tata letak halaman berdasarkan jenis acara
+            if (isSingleEpisodeView) {
+                const episodeListWrapper = document.querySelector('#episode-list-container')?.closest('.pixel-border-wrapper');
+                if (episodeListWrapper) {
+                    episodeListWrapper.remove();
+                }
 
-			if (episodeNumber) {
-                // Untuk load awal, kita tunggu data like sebelum menampilkan apapun
-				const episodeId = `${currentShowData.url}_eps_${episodeNumber}`;
+                const contentContainerWrapper = document.querySelector('#content-container')?.closest('.pixel-border-wrapper');
+                if (contentContainerWrapper) {
+                    contentContainerWrapper.style.flex = '1 1 100%';
+                    contentContainerWrapper.style.maxWidth = '100%';
+                }
+            } else {
+                // Hanya render daftar episode untuk acara multi-episode
+                renderEpisodeList(currentShowData, episodeNumber);
+                addEpisodeNavigationHandler();
+            }
+
+            // 5. Render konten episode jika episodeNumber berhasil ditentukan
+            if (episodeNumber) {
+                const episodeId = `${currentShowData.url}_eps_${episodeNumber}`;
                 const initialLikeData = await getLikeStatus(episodeId);
-				await renderEpisodeContent(currentShowData, episodeNumber, currentShowPath, initialLikeData);
-			} else {
-				handleShowWithoutEpisode();
-			}
-			window.addEventListener('popstate', handlePopState);
+                await renderEpisodeContent(currentShowData, episodeNumber, currentShowPath, initialLikeData);
+            } else {
+                // Jika tidak ada episode yang bisa ditampilkan sama sekali
+                handleShowWithoutEpisode();
+            }
+            
+            window.addEventListener('popstate', handlePopState);
 
-		} catch (error) {
-			console.error('Error loading show data:', error);
-			contentContainer.innerHTML = '<h2>Error: Acara tidak ditemukan.</h2><p>Pastikan parameter URL `show` sudah benar dan file JSON ada.</p>';
-		} finally {
+        } catch (error) {
+            console.error('Error loading show data:', error);
+            contentContainer.innerHTML = '<h2>Error: Acara tidak ditemukan.</h2><p>Pastikan parameter URL `show` sudah benar dan file JSON ada.</p>';
+        } finally {
             if(loadingOverlay) loadingOverlay.style.display = 'none';
         }
-	}
+    }
 
     // --- DATA FETCHING & STATE HANDLERS --- //
     async function fetchData(url) {
@@ -102,6 +137,60 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         return null;
     }
+    
+    function renderWarningBox(showPath, showName, currentEpisode) {
+        if (!warningsData || !showPath || !showName) return;
+
+        const oldWarning = document.getElementById('show-warning-box-wrapper');
+        if (oldWarning) oldWarning.remove();
+
+        const fullShowPath = `${showPath}${showName}.json`;
+        
+        const warning = warningsData.find(w => {
+            if (!w.targets || !Array.isArray(w.targets)) return false;
+
+            return w.targets.some(target => {
+                const [targetPath, targetQuery] = target.split('?');
+                
+                if (targetPath !== fullShowPath) {
+                    return false;
+                }
+
+                if (targetQuery) {
+                    const targetParams = new URLSearchParams(targetQuery);
+                    const targetEpisode = targetParams.get('episodes');
+                    return currentEpisode === targetEpisode;
+                } else {
+                    return true;
+                }
+            });
+        });
+
+        if (warning) {
+            const warningHTML = buildWarningHTML(warning);
+            contentContainer.insertAdjacentHTML('afterbegin', warningHTML);
+        }
+    }
+
+    function buildWarningHTML(warning) {
+        let content = `<p>${warning.text}`;
+        
+        let i = 1;
+        while (warning[`a${i}`] && warning[`directurl${i}`]) {
+            content += `<a href="${warning[`directurl${i}`]}" target="_blank" rel="noopener noreferrer">${warning[`a${i}`]}</a>`;
+            i++;
+        }
+        content += `</p>`;
+        
+        return `
+            <div class="pixel-border-wrapper warning-box-wrapper" id="show-warning-box-wrapper">
+                <div class="pixel-border-item warning-box type-${warning.type}">
+                    ${content}
+                </div>
+                <div class="pixel-border-shadow"></div>
+            </div>`;
+    }
+
 
     function handleNoShowSelected() {
         popupContainer.style.display = 'flex';
@@ -123,25 +212,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function handleShowWithoutEpisode() {
         contentContainer.innerHTML = `<div class="content-section"><h2>Pilih Episode</h2><p>Silakan pilih episode dari daftar di kiri untuk melihat detailnya.</p></div>`;
-        if (window.innerWidth <= 900) episodeListContainer.scrollIntoView({ behavior: 'smooth' });
+        if (window.innerWidth <= 900 && episodeListContainer) {
+            episodeListContainer.scrollIntoView({ behavior: 'smooth' });
+        }
     }
 
     // --- DYNAMIC NAVIGATION LOGIC --- //
     function addEpisodeNavigationHandler() {
+        if (!episodeListContainer) return;
         episodeListContainer.addEventListener('click', (event) => {
             const episodeLink = event.target.closest('.episode-item');
             if (!episodeLink) return;
             event.preventDefault();
             const url = new URL(episodeLink.href);
             const newEpisodeNumber = url.searchParams.get('eps');
-            if (currentShowData && newEpisodeNumber) loadEpisode(newEpisodeNumber);
+            if (currentShowData && newEpisodeNumber) {
+                loadEpisode(newEpisodeNumber);
+            }
         });
     }
 
     function loadEpisode(episodeNumber) {
         if (!currentShowData || !episodeNumber) return;
-        // Panggil renderEpisodeContent tanpa data like awal, ini akan memicu background fetch
+
+        renderWarningBox(currentShowPath, currentShowData.url, episodeNumber);
+        
         renderEpisodeContent(currentShowData, episodeNumber, currentShowPath);
+        
         const listContainer = document.getElementById('episode-list');
         if (listContainer) {
             const currentActive = listContainer.querySelector('.active');
@@ -165,6 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- RENDERING & HELPER FUNCTIONS --- //
 	function renderEpisodeList(showData, activeEpisode) {
+        if (!episodeListContainer) return;
 		const episodeList = document.createElement('div');
 		episodeList.id = 'episode-list';
 		const reversedEpisodes = showData.availableEpisode.slice().reverse();
@@ -196,11 +294,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (!episodeData) {
 			console.error(`Data untuk episode ${episodeNumber} tidak ditemukan.`);
 			contentContainer.innerHTML = '<h2>Error: Data episode tidak ditemukan.</h2>';
-			return;
+			return; 
 		}
 
-		contentContainer.innerHTML = ''; // Hapus konten lama
-		contentContainer.insertAdjacentHTML('beforeend', buildHeader(showData, episodeData, episodeNumber, initialLikeData));
+        const warningBox = contentContainer.querySelector('#show-warning-box-wrapper');
+        contentContainer.innerHTML = ''; 
+        if(warningBox) contentContainer.appendChild(warningBox);
+
+		contentContainer.insertAdjacentHTML('beforeend', buildHeader(showData, episodeData, episodeNumber, showPath, initialLikeData));
 		contentContainer.insertAdjacentHTML('beforeend', buildThumbnails(showData, episodeData, episodeNumber));
 		contentContainer.insertAdjacentHTML('beforeend', buildSynopsis(showData, episodeData, episodeNumber));
 		contentContainer.insertAdjacentHTML('beforeend', buildInfoList(showData, episodeData, showPath));
@@ -215,48 +316,57 @@ document.addEventListener('DOMContentLoaded', () => {
 		addImagePopupListeners();
 		setupLikeFeature(showData.url, episodeNumber, initialLikeData);
 
-		// =================== PERUBAHAN DI SINI =================== //
-        // Panggil fungsi setup untuk download counter setelah semua HTML dirender.
-        setupDownloadCounters(showData.url, episodeNumber);
-		// ========================================================= //
+		document.dispatchEvent(new CustomEvent('episodeRendered', { 
+			detail: { episodeData } 
+		}));
 	}   
 	
-    function buildHeader(showData, episodeData, episodeNumber, likeData = null) {
-        const episodeDesc = episodeData.descEpisode || `| Episode ${episodeNumber}`;
-        const user = auth.currentUser;
-        const isDisabled = user ? '' : 'disabled';
-        const likeCount = likeData ? likeData.likeCount : '...';
-        const likeIconSrc = likeData ? `../sprite/element/like_${likeData.userHasLiked ? 'v' : 'x'}.svg` : '../sprite/element/like_x.svg';
+	function buildHeader(showData, episodeData, episodeNumber, showPath, likeData = null) {
+		const episodeDesc = episodeData.descEpisode || `| Episode ${episodeNumber}`;
+		const user = typeof auth !== 'undefined' ? auth.currentUser : null;
+		const isDisabled = user ? '' : 'disabled';
+		const likeCount = likeData ? likeData.likeCount : '...';
+		const likeIconSrc = likeData ? `../sprite/element/like_${likeData.userHasLiked ? 'v' : 'x'}.svg` : '../sprite/element/like_x.svg';
 
-        return `
-            <div id="content-header">
-                <div class="header-title">
-                    <h1>${showData.nameShowTitle}</h1>
-                    <h3>${episodeDesc}</h3>
-                </div>
-                <div class="header-like">
-                    <button class="like-button" id="like-btn" title="Sukai" ${isDisabled}>
-                        <img src="${likeIconSrc}" alt="Like">
-                    </button>
-                    <span class="like-count" id="like-count">${likeCount}</span>
-                </div>
-            </div>`;
-    }
+		let mainTitle = '';
+		let subTitleHTML = '';
+
+		if (showPath && showPath.includes('12_random/')) {
+			mainTitle = episodeDesc.replace('|', '').trim();
+			subTitleHTML = '';
+		} else {
+			mainTitle = showData.nameShowTitle;
+			subTitleHTML = `<h3>${episodeDesc}</h3>`;
+		}
+
+		return `
+			<div id="content-header">
+				<div class="header-title">
+					<h1>${mainTitle}</h1>
+					${subTitleHTML}
+				</div>
+				<div class="header-like">
+					<button class="like-button" id="like-btn" title="Sukai" ${isDisabled}>
+						<img src="${likeIconSrc}" alt="Like">
+					</button>
+					<span class="like-count" id="like-count">${likeCount}</span>
+				</div>
+			</div>`;
+	}
 
     async function setupLikeFeature(show, eps, initialLikeData) {
         const episodeId = `${show}_eps_${eps}`;
         const likeButton = document.getElementById('like-btn');
         const likeCountSpan = document.getElementById('like-count');
+        
+        if (!likeButton || !likeCountSpan) return;
         const likeIcon = likeButton.querySelector('img');
 
-        if (!likeButton || !likeCountSpan) return;
-
-        // Jika bukan load awal, ambil data di latar belakang
         if (!initialLikeData) {
             try {
                 const { likeCount, userHasLiked } = await getLikeStatus(episodeId);
                 likeCountSpan.textContent = likeCount;
-                likeIcon.src = `../sprite/element/like_${userHasLiked ? 'v' : 'x'}.svg`;
+                if (likeIcon) likeIcon.src = `../sprite/element/like_${userHasLiked ? 'v' : 'x'}.svg`;
             } catch (error) {
                 console.error("Error getting like status:", error);
                 likeCountSpan.textContent = "N/A";
@@ -269,7 +379,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 await toggleLike(show, eps);
                 const { likeCount, userHasLiked } = await getLikeStatus(episodeId);
                 likeCountSpan.textContent = likeCount;
-                likeIcon.src = `../sprite/element/like_${userHasLiked ? 'v' : 'x'}.svg`;
+                if (likeIcon) likeIcon.src = `../sprite/element/like_${userHasLiked ? 'v' : 'x'}.svg`;
             } catch (error) {
                 console.error("Failed to toggle like:", error);
                 alert(error.message);
@@ -378,7 +488,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return '';
     }
 
-	// =================== PERUBAHAN DI SINI =================== //
 	function buildButtons(showData, episodeData) {
 		const trakteerLinks = [];
 		const trakteerKeys = ['linkTrakteer', 'linkTrakteerA', 'linkTrakteerB', 'linkTrakteerC', 'linkTrakteerD'];
@@ -414,21 +523,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		`;
 
 		if (hasHardsub) {
-			const button = `
-                <a href="${episodeData.linkHardsub}" id="hardsub-btn" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);">
-                    <span>HARDSUB</span>
-                    <img src="../sprite/element/downbut.svg" class="download-icon" alt="Unduh">
-                    <span class="download-count">...</span>
-                </a>`;
+			const button = `<a href="${episodeData.linkHardsub}" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>HARDSUB</span></a>`;
 			buttonHTML += createButtonWrapper(button, !hasSoftsub ? 'full-width' : '');
 		}
 		if (hasSoftsub) {
-			const button = `
-                <a href="${episodeData.linkSoftsub}" id="softsub-btn" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);">
-                    <span>SOFTSUB</span>
-                    <img src="../sprite/element/downbut.svg" class="download-icon" alt="Unduh">
-                    <span class="download-count">...</span>
-                </a>`;
+			const button = `<a href="${episodeData.linkSoftsub}" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>SOFTSUB</span></a>`;
 			buttonHTML += createButtonWrapper(button, !hasHardsub ? 'full-width' : '');
 		}
 		trakteerLinks.forEach(link => {
@@ -450,7 +549,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (buttonHTML) return `<div id="content-buttons">${buttonHTML}</div>`;
 		return '';
 	}
-	// ========================================================= //
 
 	function buildPasswordBox(showData, episodeData, episodeNumber) {
 		const passwordTemplate = episodeData.filePassword || showData.filePassword;
@@ -496,7 +594,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	function addImagePopupListeners() {
 		const popupOverlay = document.getElementById('image-popup-overlay');
 		const popupImage = document.getElementById('popup-image');
-		const thumbnails = document.querySelectorAll('.small-thumbs-grid img');
+		const thumbnails = document.querySelectorAll('#content-thumbnails img');
 
 		if (!popupOverlay || !popupImage) return;
 
@@ -512,7 +610,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				popupOverlay.classList.remove('visible'); 
 				setTimeout(() => {
 					popupImage.src = '';
-				}, 300); 
+				}, 300);
 			}
 		});
 	}

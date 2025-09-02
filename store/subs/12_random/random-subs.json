@@ -52,9 +52,12 @@
 		"47",
 		"48",
 		"49",
-		"50"
+		"50",
+		"51",
+		"52",
+		"53"
 	],
-	"newUpdateCount": 1,
+	"newUpdateCount": 3,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
 		"01": {
@@ -133,7 +136,6 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/kyodoki-nanami00.jpg",
 			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/kyodoki-nanami01.jpg",
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/kyodoki-nanami02.jpg",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Video cut kurang dari satu menit, dimana Hashimoto Nanami mengunjungi Sapporo Daiichi High School sebagai Kepala Polisi Satu Hari.",
 			"nameShow": "今日ドキッ！  一日警察署長 橋本奈々未"
 		},
@@ -259,9 +261,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/211215_realsound.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/211215-realsound.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Di kesempatan kali ini saya mencoba sub 3 menit dari Real Sound. Real Sound melakukan wawancara dengan Higuchi Hina dan Suzuki Ayane, dengan fokus pada album baru Nogizaka46 \"Time flies\". Namun dalam video ini adalah menyampaikan kesan pertama baik Hinachima pada Ayane maupun sebaliknya.",
 			"nameShow": "Real Sound 「大人っぽさと髪の毛にびっくり！？」"
 		},
@@ -291,9 +290,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/211211_marutto_saturday.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/211211-marutto-saturday-nogizaka46.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Seperti biasa MoeFang merilis garapan santai, kali ini videonya cuman 2 menit. Di sini ada Manatsu, Kiichan, Yoda dan Kakki. Mereka diwawancarai siapa member yang paling banyak berubah dalam 10 tahun terakhir sejak pembentukan grup tahun 2011 yang lalu. Kalau yang mau download sebagai koleksi, silakan~",
 			"nameShow": "まるっと！サタデー"
 		},
@@ -467,9 +463,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220902_realsound.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220902-realsound.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Real Sound melakukan wawancara dengan Tsutsui Ayame dan Kakehashi Sayaka, dengan fokus pada single baru Nogizaka46 yang ke-30 \"Suki to Iu no wa Rock da ze\". Video ini menyampaikan hal yang mereka sukai baik Ayamen ke Saachan maupun sebaliknya.",
 			"nameShow": "Real Sound 「甘えん坊なところにキュン！」"
 		},
@@ -483,9 +476,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220910_realsound.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220910-realsound.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Real Sound melakukan wawancara dengan Shibata Yuna dan Tamura Mayu dengan fokus pada single baru Nogizaka46 yang ke-30 \"Suki to Iu no wa Rock da ze\". Video ini menyampaikan hal yang mereka sukai baik Mayutan ke Yuna maupun sebaliknya. Tak lupa juga mereka akan menjawab pertanyaan dari member sebelumnya, Ayamen dan Saachan.",
 			"nameShow": "Real Sound 「頭を撫でればよかった！」"
 		},
@@ -515,9 +505,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221105_cupstar_itv.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221105-cupstar-interview.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Di kesempatan kali ini, gen-5 Inoue Nagi dan Sugawara Satsuki mendapat interview singkat dalam channel YouTube-nya Sapporo Ichiban mengenai CM yang telah mereka perankan, dan pengalamannya saat syuting NogiMart bersama member senpai dan Tokyo03.",
 			"nameShow": "井上和・菅原咲月にインタビュー！"
 		},
@@ -563,9 +550,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221213_realsound.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221213-realsound.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Di kesempatan kali ini saya kembali mencoba sub pendek dari Real Sound. Real Sound kali ini melakukan wawancara dengan Shibata Yuna dan Hayashi Runa dengan fokus pada single baru Nogizaka46 yang ke-31 \"Koko ni wa nai mono\". Video ini menyampaikan hal yang mereka tidak miliki (nai mono) baik Runa ke Yuna maupun sebaliknya.",
 			"nameShow": "Real Sound 「思ってもない回答に驚き！」"
 		},
@@ -691,9 +675,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/231114_haishinchuumonopoly.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/231114-ngzhaishinchuu-34monopoly.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Ini adalah penampilan pertama dari single Nogizaka46 berjudul \"Monopoly\". Center-nya untuk kali ini adalah dari gen-4, Kaki Haruka dan Endo Sakura. Bagi yang ingin menyaksikannya, silakan.",
 			"nameShow": "乃木坂配信中"
 		},
@@ -819,9 +800,6 @@
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/241109_haishinchuuhodoukyou.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/241109-ngzhaishinchuu-37hodoukyou.jpg",
-			"imageThumbA": "doc/blank.png",
-			"imageThumbB": "doc/blank.png",
-			"imageThumbC": "doc/blank.png",
 			"descEpisodeSynopsis": "Ini adalah penampilan pertama dari single terbaru Nogizaka46 yang ke-37 berjudul \"Hodoukyou\". Center-nya untuk kali ini adalah dari gen-4, Endo Sakura, yang juga formasi senbatsunya diumumkan di waktu yang sama. Bagi yang ingin menyaksikannya, silakan.",
 			"nameShow": "乃木坂配信中"
 		},
@@ -856,6 +834,41 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250816-kowaibanashi-c.jpg",
 			"descEpisodeSynopsis": "Mai diminta untuk membantu salah satu cabang restoran tempatnya bekerja. Karena penugasan jangka panjang selama satu bulan ini berlokasi jauh, perusahaan menyiapkan sebuah apartemen untuknya. Namun, kamar yang disediakan terasa gelap bahkan di siang hari, dan di dindingnya terdapat bekas seperti \"sesuatu yang tertempel telah dilepas secara paksa\", menciptakan suasana yang ganjil.",
 			"nameShow": "ほんとうにあった怖い話 夏の特別編2025 「或る訳ありの部屋」"
+		},
+		"51": {
+			"descEpisode": "| 250713 Sakigake! Arley Emer",
+			"descEpsListName": "250713",
+			"descOnAirDate": "13 Juli 2025",
+			"memberParticipate": "一ノ瀬美空、菅原咲月",
+			"linkHardsub": "https://sfl.gl/X8OxAWb",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250713_sakigake.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250713-sakigake.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250713-sakigake1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250713-sakigake2.jpg",
+			"descEpisodeSynopsis": "Ichinose Miku dan Sugawara Satsuki berpartisipasi dalam \"Syuting Mainan\" dan bermain dengan bersemangat menggunakan mainan nostalgia dari era Showa dan Heisei yang kembali populer di era Reiwa.",
+			"nameShow": "先駆け！アーレーイーマー"
+		},
+		"52": {
+			"descEpisode": "| 250729 NHK News Kaidoki",
+			"descEpsListName": "250729",
+			"descOnAirDate": "29 Juli 2025",
+			"memberParticipate": "鈴木佑捺‎‎",
+			"linkHardsub": "https://sfl.gl/p9yKY",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250729_news-nhk-kaidoki.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250729-news-nhk-kaidoki.jpg",
+			"descEpisodeSynopsis": "Dalam segmen \"Kiratto Talk\", Suzuki Yuuna menceritakan perjalanannya bergabung dengan Nogizaka46. Sebagai member pertama dari Prefektur Yamanashi, ia mengungkapkan rasa senangnya. Terakhir, ia menuliskan tujuannya di Nogizaka46.",
+			"nameShow": "NHK Newsかいドキ"
+		},
+		"53": {
+			"descEpisode": "| 250731 NHK Shizuoka 'Tappuri Shizuoka'",
+			"descEpsListName": "250731",
+			"descOnAirDate": "31 Juli 2025",
+			"memberParticipate": "大越ひなの",
+			"linkHardsub": "https://sfl.gl/ZT0aj",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250731_tappuri-shizuoka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250731-tappuri-shizuoka.jpg",
+			"descEpisodeSynopsis": "Dalam segmen \"Tappuri Shizuoka\", Okoshi Hinano berbagi kebahagiaannya kembali ke kampung halamannya, Shizuoka, sebagai member Nogizaka46.",
+			"nameShow": "NHK総合テレビ 静岡放送局 「たっぷり静岡」"
 		}
 	}
 }

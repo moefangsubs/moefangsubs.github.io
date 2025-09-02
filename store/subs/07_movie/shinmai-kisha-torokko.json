@@ -1,9 +1,6 @@
 {
 	"url": "shinmai-kisha-torokko",
 	"nameShowTitle": "Shinmai Kisha Torokko Watashi ga Yaraneba Dare ga Yaru!",
-	"availableEpisode": [
-		"01"
-	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_torokko.png",
 	"episodes": {
 		"01": {
