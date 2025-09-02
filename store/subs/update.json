@@ -1,5 +1,15 @@
 [
   {
+    "date": "250903",
+    "updates": [
+      { "showId": "yamada-kun-to-lv999-no-koi-o-suru", "eps": "01" },
+      { "showId": "yumeji-kuukou", "eps": "01" },
+      { "showId": "random-subs", "eps": "51" },
+      { "showId": "random-subs", "eps": "52" },
+      { "showId": "random-subs", "eps": "53" }
+    ]
+  },
+  {
     "date": "250830",
     "updates": [
       { "showId": "nogizaka-star-tanjou-six", "eps": "17" },
@@ -24,54 +34,6 @@
       { "showId": "nogidouga-girls-talk", "eps": "01b" },
       { "showId": "nogidouga-girls-talk", "eps": "02a" },
       { "showId": "nogidouga-girls-talk", "eps": "02b" }
-    ]
-  },
-  {
-    "date": "250818",
-    "updates": [
-      { "showId": "nogidouga-nogizaka-asobu-dake", "eps": "58" },
-      { "showId": "ryosangata-ruka", "eps": "07" },
-      { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "06" },
-      { "showId": "random-subs", "eps": "50" }
-    ]
-  },
-  {
-    "date": "250817",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "16" },
-      { "showId": "saito-asuka-no-konya-wa-nonde-kaerou", "eps": "02" },
-      { "showId": "nogidouga-its-on-me", "eps": "04" },
-      { "showId": "nogidouga-nogizaka-asobu-dake", "eps": "54" }
-    ]
-  },
-  {
-    "date": "250811",
-    "updates": [
-      { "showId": "spicy-sessions", "eps": "09" },
-      { "showId": "ryosangata-ruka", "eps": "06" },
-      { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "05" }
-    ]
-  },
-  {
-    "date": "250807",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "14" },
-      { "showId": "nogizaka-star-tanjou-six", "eps": "15" },
-      { "showId": "nogidouga-nogizaka-burari", "eps": "18" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "01" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "02" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "03" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "04" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "05" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "06" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "07" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "08" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "09" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "10" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "11" },
-      { "showId": "nogizaka46-bonus-39th-single", "eps": "12" },
-      { "showId": "ryosangata-ruka", "eps": "05" },
-      { "showId": "koroshita-otto-ga-kaettekimashita", "eps": "04" }
     ]
   }
 ]

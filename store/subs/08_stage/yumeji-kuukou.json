@@ -1,0 +1,28 @@
+{
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_yumeji.png",
+	"url": "yumeji-kuukou",
+	"nameShowTitle": "Yumeji Kuukou (2022)",
+	"descSynopsis": "Di sebuah bandara regional, seorang pria menantikan barang bawaannya di tengah orang-orang yang kebetulan berada di sana. Percakapan santai yang dipicu oleh sebuah \"mimpi\" mempertemukan berbagai kisah kehidupan mereka, di mana setiap interaksi kecilnya diam-diam diawasi oleh 15 kamera tersembunyi. Akankah \"barang bawaan\" pria itu muncul, dan apakah sebenarnya yang dimaksud dengan \"barang bawaan\" itu? Jaru Jaru bersama No Meets mempersembahkan sebuah komedi humanis satu malam yang akan membuat Anda tertawa kecil sekaligus merasa lega. Drama komedi ini disiarkan langsung dari bandara yang disewa khusus pada tengah malam dengan kerja sama istimewa dari JAL. Melalui layar kaca, Anda akan diajak untuk mengintip kebodohan, kelemahan, dan sisi menggemaskan dari umat manusia.",
+	"availableEpisode": [
+		"01"
+	],
+	"newUpdateCount": 1,
+	"episodes": {
+		"01": {
+			"descEpsListName": "Stage",
+			"descEpisode": "Stage",
+			"descOnAirDate": "16 April 2022",
+			"memberParticipate": "清宮レイ",
+			"linkHardsub": "https://sfl.gl/QIUD7X",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/yumeji-kuukou-2022-FbIWg",
+			"filePassword": "MimpidanKenyataan-itu-Beriringan",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/yumeji.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yumeji.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yumeji1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yumeji2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yumeji3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/yumeji4.jpg",
+			"nameShow": "夢路空港"
+		}
+	}
+}

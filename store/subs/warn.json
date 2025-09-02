@@ -1,0 +1,71 @@
+[
+	{
+		"type": "warning",
+		"text": "⚠️ Garapan ini tidak dilanjutkan. Silakan menuju ",
+		"targets": [
+			"../store/subs/16_nonsakamichi/sakamichi-no-mukou-ni-wa-aozora-ga-hirogatteita.json"
+		],
+		"directurl1": "https://poriporisubs.blogspot.com/search/label/SAKAAO",
+		"a1": "PoriPori Subs",
+		"directurl2": "https://hikamisubs.wordpress.com/sakaao-subtitle-indonesia/",
+		"a2": " dan Hikami Subs"
+	},
+	{
+		"type": "info",
+		"text": "ℹ️ Untuk garapan BOKUAO lainnya silakan menuju ",
+		"targets": [
+			"../store/subs/16_nonsakamichi/bokuao-documentary.json",
+			"../store/subs/16_nonsakamichi/bokuao-random.json"
+		],
+		"directurl1": "https://poriporisubs.blogspot.com/",
+		"a1": "PoriPori Subs",
+		"directurl2": "https://hikamisubs.wordpress.com/boku-ga-mitakatta-aozora/",
+		"a2": " dan Hikami Subs"
+	},
+	{
+		"type": "info",
+		"text": "ℹ️ Untuk garapan lainnya dari acara ini silakan menuju ",
+		"targets": [
+			"../store/subs/01_variety/nogizaka-koujichuu.json"
+		],
+		"directurl1": "https://kuneeel.blogspot.com/",
+		"a1": "Kuneeel Subs"
+	},
+	{
+		"type": "request",
+		"text": "🧧 Ini adalah garapan request by order via DM Instagram",
+		"targets": [
+			"../store/subs/01_variety/spicy-sessions.json",
+			"../store/subs/01_variety/ano-sakamichi-o-nobotte-hanasou.json",
+			"../store/subs/01_variety/saito-asuka-no-konya-wa-nonde-kaerou.json?episodes=01",
+			"../store/subs/01_variety/saito-asuka-no-konya-wa-nonde-kaerou.json?episodes=02",
+			"../store/subs/02_nogidouga/nogidouga-nogizaka-asobu-dake.json?episodes=54",
+			"../store/subs/02_nogidouga/nogidouga-nogizaka-asobu-dake.json?episodes=58",
+			"../store/subs/06_drama/koroshita-otto-ga-kaettekimashita.json",
+			"../store/subs/07_movie/shinmai-kisha-torokko.json",
+			"../store/subs/07_movie/zenbu-of-tokyo.json",
+			"../store/subs/08_stage/yumeji-kuukou.json",
+			"../store/subs/12_random/showroom.json?episodes=20",
+			"../store/subs/12_random/showroom.json?episodes=21",
+			"../store/subs/12_random/showroom.json?episodes=22",
+			"../store/subs/12_random/showroom.json?episodes=23",
+			"../store/subs/12_random/showroom.json?episodes=24",
+			"../store/subs/14_premium/nogizaka46-12th-bdl-talk.json?episodes=01"
+		]
+	},
+	{
+		"type": "stop",
+		"text": "🛑 Garapan ini kami hentikan penggarapannya",
+		"targets": [
+			"../store/subs/01_variety/kyoccorohee.json",
+			"../store/subs/01_variety/nogizaka-romance.json"
+		]
+	},
+	{
+		"type": "notreq",
+		"text": "🆖 Garapan ini tidak dapat di-request untuk minta didahulukan",
+		"targets": [
+			"../store/subs/09_documentary/nogizaka-escape.json"
+		]
+	}
+]

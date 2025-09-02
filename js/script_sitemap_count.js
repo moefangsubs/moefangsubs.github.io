@@ -41,10 +41,26 @@ document.addEventListener('DOMContentLoaded', () => {
      * Otomatis A: Menghitung total episode dari semua file JSON garapan.
      */
     async function calculateGarapanCount() {
-        // ... (Fungsi ini tidak berubah dari versi sebelumnya)
         let totalEpisodes = 0;
         const listJsonPath = '../store/subs/list.json';
-        const DATA_PATH_PREFIXES = { "01_variety": "../store/subs/01_variety/", "02_nogidouga": "../store/subs/02_nogidouga/", "03_web": "../store/subs/03_web/", "04_singlebonus": "../store/subs/04_singlebonus/", "05_nogikoi": "../store/subs/05_nogikoi/", "06_drama": "../store/subs/06_drama/", "07_movie": "../store/subs/07_movie/", "08_documentary": "../store/subs/08_documentary/", "09_sapporo": "../store/subs/09_sapporo/", "10_musicprogram": "../store/subs/10_musicprogram/", "11_random": "../store/subs/11_random/", "12_concert": "../store/subs/12_concert/", "13_premium": "../store/subs/13_premium/", "14_radio": "../store/subs/14_radio/", "15_nonsakamichi": "../store/subs/15_nonsakamichi/" };
+        const DATA_PATH_PREFIXES = { 
+		"01_variety": "../store/subs/01_variety/",
+		"02_nogidouga": "../store/subs/02_nogidouga/",
+		"03_web": "../store/subs/03_web/",
+		"04_singlebonus": "../store/subs/04_singlebonus/",
+		"05_nogikoi": "../store/subs/05_nogikoi/",
+		"06_drama": "../store/subs/06_drama/",
+		"07_movie": "../store/subs/07_movie/",
+		"08_stage": "../store/subs/08_stage/",
+		"08_documentary": "../store/subs/08_documentary/",
+		"10_sapporo": "../store/subs/10_sapporo/",
+		"11_musicprogram": "../store/subs/11_musicprogram/",
+		"12_random": "../store/subs/12_random/",
+		"13_concert": "../store/subs/13_concert/",
+		"14_premium": "../store/subs/14_premium/",
+		"15_radio": "../store/subs/15_radio/",
+		"16_nonsakamichi": "../store/subs/16_nonsakamichi/"
+		};
         const response = await fetch(listJsonPath);
         const showList = await response.json();
         for (const categoryKey in showList) {
@@ -193,12 +209,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const showList = await response.json();
 
         for (const categoryKey in showList) {
-            if (categoryKey !== "11_random") {
+            if (categoryKey !== "12_random") {
                 totalTitles += showList[categoryKey].length;
             } else {
-                // Logika khusus untuk kategori "11_random"
+                // Logika khusus untuk kategori "12_random"
                 for (const showId of showList[categoryKey]) {
-                    const filePath = `../store/subs/11_random/${showId}.json`;
+                    const filePath = `../store/subs/12_random/${showId}.json`;
                     try {
                         const showResponse = await fetch(filePath);
                         if (!showResponse.ok) continue;
