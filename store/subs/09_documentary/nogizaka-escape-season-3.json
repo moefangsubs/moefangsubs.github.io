@@ -1,0 +1,115 @@
+{
+	"url": "nogizaka-escape-season-3",
+	"nameShowTitle": "Nogizaka, Touhikou Season 3",
+	"nameShow": "乃木坂、逃避行。　Season 3",
+	"descSynopsis": "Member Nogizaka46 meninggalkan kehidupan sehari-hari yang sibuk untuk sejenak melarikan diri. Dua member yang dipilih berdasarkan kombinasi tertentu akan memilih \"tempat yang sangat ingin mereka kunjungi sekarang\" dan merencanakan perjalanan 1 malam 2 hari mereka sendiri. Melalui perjalanan yang hanya dilakukan oleh dua orang, acara variety berbentuk dokumenter ini mengamati sisi asli para member dan hubungan mereka berdua!",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10",
+		"11",
+		"12"
+	],
+	"newUpdateCount": 2,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_nogiescape3.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogiescape3-{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape3-{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape3-{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape3-{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape3-{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape3-{{eps}}d.jpg",
+	"linkTrakteer": "",
+	"episodes": {
+		"01": {
+			"descEpisode": "Episode 1 - Yamagata & Fukushima 前編",
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "4 Juli 2025",
+			"memberParticipate": "弓木奈於、中西アルノ",
+			"descEpisodeSynopsis": "Yumiki Nao dari gen-4 dan Nakanishi Aruno dari gen-5 Nogizaka46 melakukan sebuah perjalanan ke Yamagata. Setelah singgah di toko onigiri lokal untuk mengisi perut, mereka langsung menuju ke arung jeram di Sungai Mogami. Di luar dugaan, keduanya terombang-ambing oleh arus deras dan menikmati alam bebas dengan penuh kegembiraan, yang juga membawa pada sebuah pertemuan dengan \"seseorang yang tak tergantikan\". Tidak hanya itu, mereka juga mengunjungi sebuah \"power spot\" untuk Yumiki yang merasa kurang beruntung akhir-akhir ini, dan menikmati hidangan lengkap daging sapi Yamagata yang lezat di penginapan pilihan Nakanishi. Kisah rahasia keluarga yang belum pernah terungkap pun ikut terkuak, menandai dimulainya perjalanan unik dari duo \"tricky\" Nogizaka46 ini."
+		},
+		"02": {
+			"descEpisode": "Episode 2 - Yamagata & Fukushima 後編",
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "12 Juli 2025",
+			"memberParticipate": "弓木奈於、中西アルノ",
+			"descEpisodeSynopsis": "Ini adalah bagian kedua dari perjalanan Yumiki Nao dan Nakanishi Aruno. Untuk pertama kalinya, mereka berbicara berdua saja tentang perasaan terhadap grup dan kekhawatiran yang sedang dihadapi, sebuah sesi obrolan yang memperdalam ikatan keduanya dan wajib ditonton. Pada hari kedua, perjalanan berlanjut dengan makan ceri sepuasnya di Yamagata, kemudian mereka pindah ke Fukushima untuk bersenang-senang di Tohoku Safari Park. Setelah puas berinteraksi dengan hewan-hewan yang sangat unik, keduanya mengenang kembali perjalanan mereka di hadapan pemandangan Danau Inawashiro yang indah."
+		},
+		"03": {
+			"descEpisode": "Episode 3 - Ehime 前編",
+			"descEpsListName": "Episode 3",
+			"descOnAirDate": "18 Juli 2025",
+			"memberParticipate": "遠藤さくら、五百城茉央",
+			"descEpisodeSynopsis": "Endo Sakura dari gen-4 dan Ioki Mao dari gen-5 Nogizaka46 melakukan perjalanan ke Ehime. Setibanya di bandara, mereka langsung membeli barang couple dan menuju ke tujuan utama, yaitu \"Dogo Haikara Dori\". Setelah menikmati wisata kuliner dan berburu oleh-oleh, keduanya melakukan pertandingan tenis meja di sebuah penginapan onsen, sesuai dengan keinginan lama Ioki. Dalam pertandingan tersebut, Ioki menantang Endo yang dikenal mahir dalam bermain tenis meja. Ini adalah perjalanan santai dari pasangan kalem yang menikmati pesona Ehime melalui tamasya, kuliner, dan olahraga."
+		},
+		"04": {
+			"descEpisode": "Episode 4 - Ehime 後編",
+			"descEpsListName": "Episode 4",
+			"descOnAirDate": "25 Juli 2025",
+			"memberParticipate": "遠藤さくら、五百城茉央",
+			"descEpisodeSynopsis": "Ini adalah bagian kedua dari perjalanan Endo Sakura dan Ioki Mao di Ehime. Pada hari kedua, mereka menuju tujuan utama perjalanan, yaitu bersepeda di \"Shimanami Kaido\". Keduanya mengendarai sepeda tandem menuju Pulau Oshima, namun tak disangka mereka mengalami kesulitan besar karena ini adalah pengalaman pertama. Selain bersepeda, mereka juga menikmati hidangan laut Setouchi, es krim soft serve edisi terbatas, serta mencoba pengalaman lokakarya eksklusif yang hanya ada di sana. Perjalanan santai pertama mereka ini akan memperlihatkan bagaimana hubungan keduanya berkembang."
+		},
+		"05": {
+			"descEpisode": "Episode 5 - Niigata 前編",
+			"descEpsListName": "Episode 5",
+			"descOnAirDate": "1 Agustus 2025",
+			"memberParticipate": "久保史緒里、井上和",
+			"descEpisodeSynopsis": "Kubo Shiori dari gen-3 dan Inoue Nagi dari gen-5 Nogizaka46 melakukan perjalanan ke Pulau Sado. Tujuan utama pada hari pertama adalah \"memasak makan malam bersama\". Saat berkeliling mencari bahan untuk membuat makanan favorit Inoue dan masakan lokal Sado, berbagai episode tak terduga dari keduanya pun terungkap. Untuk mengisi perut, mereka mengunjungi sebuah restoran sushi putar populer di mana sisi polos Inoue sebagai junior terekspos, dan \"Rapat Draft Sushi\" yang mendadak diadakan atas usul Kubo pun menjadi sangat meriah. Puncaknya adalah saat makan malam, di mana keahlian memasak keduanya dalam menyiapkan hidangan mewah menjadi pemandangan yang wajib ditonton. Perjalanan penuh semangat dan obrolan tanpa henti dari keduanya pun dimulai."
+		},
+		"06": {
+			"descEpisode": "Episode 6 - Niigata 後編",
+			"descEpsListName": "Episode 6",
+			"descOnAirDate": "8 Agustus 2025",
+			"memberParticipate": "久保史緒里、井上和",
+			"descEpisodeSynopsis": "Ini adalah bagian kedua dari perjalanan Kubo Shiori dan Inoue Nagi di Pulau Sado. Meskipun keduanya dikenal akrab, pada malam pertama mereka saling mengungkapkan perasaan mendalam yang belum pernah dibicarakan sebelumnya, dan Inoue memberikan sebuah hadiah kejutan yang telah lama disiapkannya. Mengusung tema \"Wisata Klasik\" di hari kedua, mereka menikmati alam dengan mencoba perahu 'tarai-bune' di tempat terkenal lalu mencicipi hidangan laut khas Sado. Perjalanan berlanjut ke Tambang Emas Sado, sebuah situs warisan dunia, untuk memecahkan pesan misterius dari adik laki-laki Inoue tentang \"batangan emas murni yang berat\" dan mencari tahu alasan obsesinya terhadap tempat itu."
+		},
+		"07": {
+			"descEpisode": "Episode 7 - Hyogo 前編",
+			"descEpsListName": "Episode 7",
+			"descOnAirDate": "15 Agustus 2025",
+			"memberParticipate": "岩本莲加、冨里奈央",
+			"descEpisodeSynopsis": "Iwamoto Renka dari gen-3 dan Tomisato Nao dari gen-5 Nogizaka46 melakukan perjalanan ke Prefektur Hyogo. Mereka mengawalinya di sebuah stasiun peristirahatan di Pulau Awaji dengan menikmati burger lokal dan es krim langka, lalu langsung berbelanja oleh-oleh. Saat menuju tujuan hari pertama, \"Nijigen no Mori\", keduanya sangat antusias dengan atraksi Godzilla. Kemudian, di area Crayon Shin-chan yang sangat ingin dikunjungi Tomisato, sebuah insiden tak terduga membuat mereka tertawa terbahak-bahak. Menjelang senja, perjalanan dilanjutkan ke sebuah pondok sewaan pribadi dengan pemandangan laut, di mana mereka menikmati barbeku otentik sambil bersantai berdua saja, menikmati alam Pulau Awaji sepenuhnya."
+		},
+		"08": {
+			"descEpisode": "Episode 8 - Hyogo 後編",
+			"descEpsListName": "Episode 8",
+			"descOnAirDate": "22 Agustus 2025",
+			"memberParticipate": "岩本莲加、冨里奈央",
+			"descEpisodeSynopsis": "Ini adalah bagian kedua dari perjalanan Iwamoto Renka dan Tomisato Nao di Hyogo. Pada hari kedua, mereka pindah dari Pulau Awaji ke Kota Kobe untuk berkencan di tempat-tempat wisata klasik. Keduanya menikmati wisata kuliner sesuka hati di pecinan dan bahkan rela mengantre panjang demi mendapatkan xiao long bao yang populer. Perjalanan berlanjut ke sebuah akuarium berkonsep baru yang sangat dinantikan oleh Tomisato yang menyukai binatang. Di sana, mereka sangat antusias saat berinteraksi dengan berbagai ikan dan hewan yang unik, hingga akhirnya dibuat jatuh hati oleh seekor hewan tertentu."
+		},
+		"09": {
+			"descEpisode": "Episode 9 - Mie 前編",
+			"descEpsListName": "Episode 9",
+			"descOnAirDate": "29 Agustus 2025",
+			"memberParticipate": "伊藤理々杏、岡本姫奈",
+			"descEpisodeSynopsis": "Ito Riria dari generasi ke-3 dan Okamoto Hina dari generasi ke-5 Nogizaka46 melakukan perjalanan ke Prefektur Mie. Mereka mengawalinya dengan mengisi perut di sebuah restoran populer yang menyajikan \"Kaiten Yakiniku\" daging Matsusaka. Dari keduanya yang sering makan yakiniku bersama, terungkap sebuah fakta tak terduga yang baru bisa dibicarakan sekarang. Perjalanan berlanjut ke Akuarium Toba, yang memiliki jumlah spesies terbanyak di Jepang, di mana mereka menikmati pertunjukan dan Riria menjadi sangat antusias dengan \"sesuatu\". Kemudian, saat menuju penginapan dengan pemandangan indah, mereka menikmati makan malam mewah sambil asyik membicarakan sebuah drama yang sedang digandrungi. Ini adalah bagian pertama dari perjalanan dua pencinta anime dan manga dalam menikmati pemandangan yang menakjubkan."
+		},
+		"10": {
+			"descEpisode": "Episode 10 - Mie 後編",
+			"descEpsListName": "Episode 10",
+			"descOnAirDate": "5 September 2025",
+			"memberParticipate": "伊藤理々杏、岡本姫奈",
+			"descEpisodeSynopsis": "Ini adalah bagian kedua dari perjalanan Ito Riria dan Okamoto Hina di Mie. Setelah menikmati makan malam mewah, keduanya mengobrol tentang kegiatan mereka saat ini sambil diterpa angin malam, hingga sebuah episode yang mengungkap ikatan tersembunyi mereka pun terkuak. Pada pagi hari kedua, mereka sangat antusias mencoba pesiar petualangan di Desa Mediterania Shima dan mengadakan sesi foto di tengah pemandangan kota yang indah. Perjalanan kemudian dilanjutkan ke tujuan utama, yaitu \"Kuil Agung Ise\". Sebelum berdoa, mereka berganti pakaian dengan yukata di Okage Yokocho, menikmati wisata kuliner, dan mengakhiri perjalanan mereka di kuil yang telah lama didambakan tersebut."
+		},
+		"11": {
+			"descEpisode": "Episode 11 -  前編",
+			"descEpsListName": "Episode 11",
+			"descOnAirDate": "12 September 2025",
+			"memberParticipate": "",
+			"descEpisodeSynopsis": ""
+		},
+		"12": {
+			"descEpisode": "Episode 12 -  後編",
+			"descEpsListName": "Episode 12",
+			"descOnAirDate": "19 September 2025",
+			"memberParticipate": "",
+			"descEpisodeSynopsis": ""
+		}
+	}
+}
