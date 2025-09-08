@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="warning-footer">
 			<div class="about">
 				<img class="foot-label" src="../sprite/main.svg"/>
-				<span>Data Update : 3 September 2025 05:05 WIB</span>
+				<span>Data Update : 8 September 2025 23:30 WIB</span>
 				<span>Data bisa saja ada kesalahan input.</span>
 				<span>Jika menemukannya dan/atau ingin ada masukan, mohon hubungi admin via DM Instagram</span>
 			</div>
