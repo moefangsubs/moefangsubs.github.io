@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		"06_drama": "../store/subs/06_drama/",
 		"07_movie": "../store/subs/07_movie/",
 		"08_stage": "../store/subs/08_stage/",
-		"08_documentary": "../store/subs/08_documentary/",
+		"09_documentary": "../store/subs/09_documentary/",
 		"10_sapporo": "../store/subs/10_sapporo/",
 		"11_musicprogram": "../store/subs/11_musicprogram/",
 		"12_random": "../store/subs/12_random/",
