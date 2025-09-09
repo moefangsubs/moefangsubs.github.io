@@ -138,93 +138,93 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 	
-	async function showFavoritesPopup() {
-        const modalHTML = `
-            <div class="favorites-popup-overlay active" id="favorites-modal">
-                <div class="favorites-popup-box">
-                    <h2>⭐ Favoritku ⭐</h2>
-                    <ul class="favorites-list">
-                        <li class="loading-fav">
-                            <img src="../sprite/element/loading.svg" alt="Memuat..." style="width: 60px; height: 60px;">
-                        </li>
-                    </ul>
-                </div>
-            </div>`;
-        document.body.insertAdjacentHTML('beforeend', modalHTML);
+	// async function showFavoritesPopup() {
+        // const modalHTML = `
+            // <div class="favorites-popup-overlay active" id="favorites-modal">
+                // <div class="favorites-popup-box">
+                    // <h2>⭐ Favoritku ⭐</h2>
+                    // <ul class="favorites-list">
+                        // <li class="loading-fav">
+                            // <img src="../sprite/element/loading.svg" alt="Memuat..." style="width: 60px; height: 60px;">
+                        // </li>
+                    // </ul>
+                // </div>
+            // </div>`;
+        // document.body.insertAdjacentHTML('beforeend', modalHTML);
 
-        const newModal = document.getElementById('favorites-modal');
-        const listContainer = newModal.querySelector('.favorites-list');
+        // const newModal = document.getElementById('favorites-modal');
+        // const listContainer = newModal.querySelector('.favorites-list');
 
-        const closeModal = () => newModal.remove();
-        newModal.addEventListener('click', (e) => {
-            if (e.target.id === 'favorites-modal') closeModal();
-        });
+        // const closeModal = () => newModal.remove();
+        // newModal.addEventListener('click', (e) => {
+            // if (e.target.id === 'favorites-modal') closeModal();
+        // });
 
-        try {
-            const user = auth.currentUser;
-            if (!user) {
-                listContainer.innerHTML = '<li class="loading-fav">Gagal memuat: Anda tidak login.</li>';
-                return;
-            }
+        // try {
+            // const user = auth.currentUser;
+            // if (!user) {
+                // listContainer.innerHTML = '<li class="loading-fav">Gagal memuat: Anda tidak login.</li>';
+                // return;
+            // }
 
-            // 1. Ambil daftar 'like' dari Firestore
-            const likesSnapshot = await db.collection('users').doc(user.uid).collection('likes').get();
-            if (likesSnapshot.empty) {
-                listContainer.innerHTML = '<li class="loading-fav">Kamu belum punya favorit.</li>';
-                return;
-            }
-            const favorites = likesSnapshot.docs.map(doc => doc.data());
+            // // 1. Ambil daftar 'like' dari Firestore
+            // const likesSnapshot = await db.collection('users').doc(user.uid).collection('likes').get();
+            // if (likesSnapshot.empty) {
+                // listContainer.innerHTML = '<li class="loading-fav">Kamu belum punya favorit.</li>';
+                // return;
+            // }
+            // const favorites = likesSnapshot.docs.map(doc => doc.data());
 
-            // 2. Ambil list.json untuk menentukan urutan dan path
-            const listData = await fetch('../store/subs/list.json').then(res => res.json());
-            const allShowsOrder = Object.values(listData).flat();
+            // // 2. Ambil list.json untuk menentukan urutan dan path
+            // const listData = await fetch('../store/subs/list.json').then(res => res.json());
+            // const allShowsOrder = Object.values(listData).flat();
 
-            const findShowPath = (showName) => {
-                for (const category in listData) {
-                    if (listData[category].includes(showName)) {
-                        return `../store/subs/${category}/`;
-                    }
-                }
-                return null;
-            };
+            // const findShowPath = (showName) => {
+                // for (const category in listData) {
+                    // if (listData[category].includes(showName)) {
+                        // return `../store/subs/${category}/`;
+                    // }
+                // }
+                // return null;
+            // };
 
-            // 3. Ambil detail untuk setiap item favorit
-            const detailPromises = favorites.map(async (fav) => {
-                const path = findShowPath(fav.show);
-                if (!path) return null;
-                try {
-                    const showData = await fetch(`${path}${fav.show}.json`).then(res => res.json());
-                    const episodeData = showData.episodes[fav.eps];
-                    if (!episodeData) return null;
+            // // 3. Ambil detail untuk setiap item favorit
+            // const detailPromises = favorites.map(async (fav) => {
+                // const path = findShowPath(fav.show);
+                // if (!path) return null;
+                // try {
+                    // const showData = await fetch(`${path}${fav.show}.json`).then(res => res.json());
+                    // const episodeData = showData.episodes[fav.eps];
+                    // if (!episodeData) return null;
                     
-                    const episodeText = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|/g, '').trim() : `Episode ${fav.eps}`;
-                    return {
-                        url: `../moesubs/subs.html?show=${fav.show}&eps=${fav.eps}`,
-                        displayText: `${showData.nameShowTitle} ${episodeText}`,
-                        order: allShowsOrder.indexOf(fav.show) // Simpan urutan untuk sorting
-                    };
-                } catch {
-                    return null;
-                }
-            });
+                    // const episodeText = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|/g, '').trim() : `Episode ${fav.eps}`;
+                    // return {
+                        // url: `../moesubs/subs.html?show=${fav.show}&eps=${fav.eps}`,
+                        // displayText: `${showData.nameShowTitle} ${episodeText}`,
+                        // order: allShowsOrder.indexOf(fav.show) // Simpan urutan untuk sorting
+                    // };
+                // } catch {
+                    // return null;
+                // }
+            // });
 
-            // 4. Tunggu semua detail selesai di-fetch, filter yang gagal, dan urutkan
-            let favoriteDetails = (await Promise.all(detailPromises)).filter(Boolean);
-            favoriteDetails.sort((a, b) => a.order - b.order);
+            // // 4. Tunggu semua detail selesai di-fetch, filter yang gagal, dan urutkan
+            // let favoriteDetails = (await Promise.all(detailPromises)).filter(Boolean);
+            // favoriteDetails.sort((a, b) => a.order - b.order);
 
-            // 5. Tampilkan hasilnya
-            if (favoriteDetails.length === 0) {
-                listContainer.innerHTML = '<li class="loading-fav">Data favorit tidak ditemukan.</li>';
-            } else {
-                listContainer.innerHTML = favoriteDetails.map(item => 
-                    `<li class="favorites-list-item"><a href="${item.url}">${item.displayText}</a></li>`
-                ).join('');
-            }
-        } catch (error) {
-            console.error("Error showing favorites popup:", error);
-            listContainer.innerHTML = '<li class="loading-fav">Gagal memuat favorit.</li>';
-        }
-    }
+            // // 5. Tampilkan hasilnya
+            // if (favoriteDetails.length === 0) {
+                // listContainer.innerHTML = '<li class="loading-fav">Data favorit tidak ditemukan.</li>';
+            // } else {
+                // listContainer.innerHTML = favoriteDetails.map(item => 
+                    // `<li class="favorites-list-item"><a href="${item.url}">${item.displayText}</a></li>`
+                // ).join('');
+            // }
+        // } catch (error) {
+            // console.error("Error showing favorites popup:", error);
+            // listContainer.innerHTML = '<li class="loading-fav">Gagal memuat favorit.</li>';
+        // }
+    // }
 	
 	
 	function showChangeUsernameModal() {
@@ -341,7 +341,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 <li class="nav-item has-submenu nav-greeting">
                     <a href="#" class="submenu-toggle">Halo, <span id="navbar-username-display">${displayName}</span> <span class="arrow"></span></a>
                     <ul class="submenu">
-                        <li><a href="#" id="favorites-btn">Favorit</a></li>
                         <li><a href="#" id="change-username-btn">Ganti Username</a></li>
                         <li><a href="#" id="logout-btn">Logout</a></li>
                     </ul>
@@ -449,7 +448,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             if (isFunctionalLink) {
                 e.preventDefault();
-                if (id === 'favorites-btn') showFavoritesPopup();
+                // if (id === 'favorites-btn') showFavoritesPopup();
                 if (id === 'change-username-btn') showChangeUsernameModal();
                 if (id === 'logout-btn') showLogoutConfirm();
                 if (link.classList.contains('submenu-toggle') && window.matchMedia("(max-width: 992px)").matches) {

@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const popupContainer = document.getElementById('popup-container');
     const redirectBtn = document.getElementById('popup-redirect-btn');
     const loadingOverlay = document.getElementById('loading-overlay'); 
+    const faqContainerWrapper = document.getElementById('faq-container-wrapper');
+    const faqContainer = document.getElementById('faq-container');
     
     const DATA_PATH_PREFIXES = [
         '../store/subs/01_variety/', 
@@ -26,11 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
     const MEMBERS_DATA_PATH = '../store/member/members.json';
     const WARNINGS_DATA_PATH = '../store/subs/warn.json';
+    const FAQ_DATA_PATH = '../store/data/faq.json';
 
     let membersData = null;
     let warningsData = null;
     let currentShowData = null;
     let currentShowPath = null;
+    let faqData = null;
 
     // --- MAIN INITIALIZATION --- //
 	async function init() {
@@ -48,8 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Muat data pendukung terlebih dahulu
-            if (!membersData) membersData = await fetchData(MEMBERS_DATA_PATH);
-            if (!warningsData) warningsData = await fetchData(WARNINGS_DATA_PATH);
+            [membersData, warningsData, faqData] = await Promise.all([
+                fetchData(MEMBERS_DATA_PATH),
+                fetchData(WARNINGS_DATA_PATH),
+                fetchData(FAQ_DATA_PATH)
+            ]);
 
             // Ambil data acara
             const showInfo = await fetchShowData(showName);
@@ -62,26 +69,18 @@ document.addEventListener('DOMContentLoaded', () => {
             // --- LOGIKA UTAMA UNTUK MENANGANI EPISODE ---
             const isSingleEpisodeView = currentShowPath.includes('07_movie/') || currentShowPath.includes('08_stage/');
 
-            // 1. Pastikan `availableEpisode` ada untuk movie/stage, bahkan jika kosong di JSON
             if (isSingleEpisodeView && (!currentShowData.availableEpisode || currentShowData.availableEpisode.length === 0)) {
                 currentShowData.availableEpisode = ["01"];
             }
 
-            // 2. Jika parameter `eps` TIDAK ADA di URL, tentukan episode default.
-            // Ini sekarang akan berfungsi untuk movie/stage karena `availableEpisode` dijamin ada.
             if (!episodeNumber && currentShowData.availableEpisode && currentShowData.availableEpisode.length > 0) {
-                // Untuk movie/stage/single-eps, ini akan langsung memuat episode satu-satunya.
                 episodeNumber = currentShowData.availableEpisode[0]; 
-                
-                // Perbarui URL agar konsisten
                 const newUrl = `?show=${showName}&eps=${episodeNumber}`;
                 history.replaceState({ episode: episodeNumber }, '', newUrl);
             }
 
-            // 3. Panggil fungsi renderWarningBox SETELAH episodeNumber final ditentukan
             renderWarningBox(currentShowPath, showName, episodeNumber);
             
-            // 4. Atur tata letak halaman berdasarkan jenis acara
             if (isSingleEpisodeView) {
                 const episodeListWrapper = document.querySelector('#episode-list-container')?.closest('.pixel-border-wrapper');
                 if (episodeListWrapper) {
@@ -94,18 +93,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     contentContainerWrapper.style.maxWidth = '100%';
                 }
             } else {
-                // Hanya render daftar episode untuk acara multi-episode
                 renderEpisodeList(currentShowData, episodeNumber);
                 addEpisodeNavigationHandler();
             }
 
-            // 5. Render konten episode jika episodeNumber berhasil ditentukan
             if (episodeNumber) {
-                const episodeId = `${currentShowData.url}_eps_${episodeNumber}`;
-                const initialLikeData = await getLikeStatus(episodeId);
-                await renderEpisodeContent(currentShowData, episodeNumber, currentShowPath, initialLikeData);
+                await renderEpisodeContent(currentShowData, episodeNumber, currentShowPath);
+                renderFaq(currentShowData, episodeNumber);
             } else {
-                // Jika tidak ada episode yang bisa ditampilkan sama sekali
                 handleShowWithoutEpisode();
             }
             
@@ -238,7 +233,8 @@ document.addEventListener('DOMContentLoaded', () => {
         renderWarningBox(currentShowPath, currentShowData.url, episodeNumber);
         
         renderEpisodeContent(currentShowData, episodeNumber, currentShowPath);
-        
+        renderFaq(currentShowData, episodeNumber);
+
         const listContainer = document.getElementById('episode-list');
         if (listContainer) {
             const currentActive = listContainer.querySelector('.active');
@@ -289,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		episodeListContainer.appendChild(episodeList);
 	}
     
-	async function renderEpisodeContent(showData, episodeNumber, showPath, initialLikeData = null) {
+	async function renderEpisodeContent(showData, episodeNumber, showPath) {
 		const episodeData = showData.episodes[episodeNumber];
 		if (!episodeData) {
 			console.error(`Data untuk episode ${episodeNumber} tidak ditemukan.`);
@@ -301,7 +297,7 @@ document.addEventListener('DOMContentLoaded', () => {
         contentContainer.innerHTML = ''; 
         if(warningBox) contentContainer.appendChild(warningBox);
 
-		contentContainer.insertAdjacentHTML('beforeend', buildHeader(showData, episodeData, episodeNumber, showPath, initialLikeData));
+		contentContainer.insertAdjacentHTML('beforeend', buildHeader(showData, episodeData, episodeNumber, showPath));
 		contentContainer.insertAdjacentHTML('beforeend', buildThumbnails(showData, episodeData, episodeNumber));
 		contentContainer.insertAdjacentHTML('beforeend', buildSynopsis(showData, episodeData, episodeNumber));
 		contentContainer.insertAdjacentHTML('beforeend', buildInfoList(showData, episodeData, showPath));
@@ -314,20 +310,10 @@ document.addEventListener('DOMContentLoaded', () => {
 		addSongButtonListeners();
 		addPasswordButtonListeners();
 		addImagePopupListeners();
-		setupLikeFeature(showData.url, episodeNumber, initialLikeData);
-
-		document.dispatchEvent(new CustomEvent('episodeRendered', { 
-			detail: { episodeData } 
-		}));
 	}   
 	
-	function buildHeader(showData, episodeData, episodeNumber, showPath, likeData = null) {
+	function buildHeader(showData, episodeData, episodeNumber, showPath) {
 		const episodeDesc = episodeData.descEpisode || `| Episode ${episodeNumber}`;
-		const user = typeof auth !== 'undefined' ? auth.currentUser : null;
-		const isDisabled = user ? '' : 'disabled';
-		const likeCount = likeData ? likeData.likeCount : '...';
-		const likeIconSrc = likeData ? `../sprite/element/like_${likeData.userHasLiked ? 'v' : 'x'}.svg` : '../sprite/element/like_x.svg';
-
 		let mainTitle = '';
 		let subTitleHTML = '';
 
@@ -345,50 +331,9 @@ document.addEventListener('DOMContentLoaded', () => {
 					<h1>${mainTitle}</h1>
 					${subTitleHTML}
 				</div>
-				<div class="header-like">
-					<button class="like-button" id="like-btn" title="Sukai" ${isDisabled}>
-						<img src="${likeIconSrc}" alt="Like">
-					</button>
-					<span class="like-count" id="like-count">${likeCount}</span>
-				</div>
 			</div>`;
 	}
-
-    async function setupLikeFeature(show, eps, initialLikeData) {
-        const episodeId = `${show}_eps_${eps}`;
-        const likeButton = document.getElementById('like-btn');
-        const likeCountSpan = document.getElementById('like-count');
-        
-        if (!likeButton || !likeCountSpan) return;
-        const likeIcon = likeButton.querySelector('img');
-
-        if (!initialLikeData) {
-            try {
-                const { likeCount, userHasLiked } = await getLikeStatus(episodeId);
-                likeCountSpan.textContent = likeCount;
-                if (likeIcon) likeIcon.src = `../sprite/element/like_${userHasLiked ? 'v' : 'x'}.svg`;
-            } catch (error) {
-                console.error("Error getting like status:", error);
-                likeCountSpan.textContent = "N/A";
-            }
-        }
-
-        likeButton.onclick = async () => {
-            likeButton.disabled = true;
-            try {
-                await toggleLike(show, eps);
-                const { likeCount, userHasLiked } = await getLikeStatus(episodeId);
-                likeCountSpan.textContent = likeCount;
-                if (likeIcon) likeIcon.src = `../sprite/element/like_${userHasLiked ? 'v' : 'x'}.svg`;
-            } catch (error) {
-                console.error("Failed to toggle like:", error);
-                alert(error.message);
-            } finally {
-                likeButton.disabled = false;
-            }
-        };
-    }
-
+	
 	function buildThumbnails(showData, episodeData, episodeNumber) {
 		const mainThumbsList = [];
 		const primaryBigThumb = showData.imageThumbBigPattern?.replace('{{eps}}', episodeNumber) || episodeData.imageThumbBig;
@@ -564,6 +509,71 @@ document.addEventListener('DOMContentLoaded', () => {
 				</div>
 			</div>`;
 	}
+    
+    // --- FAQ Logic ---
+    function renderFaq(showData, episodeNumber) {
+        if (!faqContainerWrapper || !faqData) return;
+
+        let html = '';
+        const episodeData = showData.episodes[episodeNumber];
+
+        const buildFaqSection = (id, title, data, isDropdown) => {
+            const content = Object.values(data).map(item => `<li>${item}</li>`).join('');
+            const listType = id === 'faq-warning' ? 'ul' : 'ol';
+            
+            return `
+                <div id="${id}" class="faq-item pixel-border-wrapper">
+                    <div class="pixel-border-item">
+                        <div class="faq-header ${isDropdown ? '' : 'no-dropdown'}">
+                            <span>${title}</span>
+                        </div>
+                        <div class="faq-content">
+                            <${listType}>${content}</${listType}>
+                        </div>
+                    </div>
+                    <div class="pixel-border-shadow"></div>
+                </div>`;
+        };
+
+        html += buildFaqSection('faq-warning', 'PERINGATAN', faqData.warning, false);
+        if (episodeData.linkSoftsub) {
+            html += buildFaqSection('faq-softsub', 'CARA PENGGUNAAN SOFTSUB', faqData['howto-softsub'], true);
+        }
+        if (episodeData.linkHardsub) {
+            html += buildFaqSection('faq-hardsub', 'CARA PENGGUNAAN HARDSUB', faqData['howto-hardsub'], true);
+        }
+        html += buildFaqSection('faq-main', 'FAQ', faqData.faq, true);
+        
+        faqContainer.innerHTML = html;
+        faqContainerWrapper.style.display = 'block';
+
+        const setupAccordion = () => {
+            const headers = faqContainer.querySelectorAll('.faq-header:not(.no-dropdown)');
+            headers.forEach(header => {
+                header.addEventListener('click', () => {
+                    const content = header.nextElementSibling;
+                    const isActive = header.classList.contains('active');
+
+                    headers.forEach(h => {
+                        h.classList.remove('active');
+                        h.nextElementSibling.classList.remove('visible');
+                    });
+
+                    if (!isActive) {
+                        header.classList.add('active');
+                        content.classList.add('visible');
+                    }
+                });
+            });
+        };
+        setupAccordion();
+        
+        const warningHeader = document.querySelector('#faq-warning .faq-header');
+        if (warningHeader) {
+            const content = warningHeader.nextElementSibling;
+            content.classList.add('visible');
+        }
+    }
 
     function processMemberNames(namesString) {
         if (!namesString || !membersData) return namesString;
