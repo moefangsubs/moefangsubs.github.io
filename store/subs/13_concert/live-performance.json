@@ -10,7 +10,8 @@
 		"06",
 		"07",
 		"08",
-		"09"
+		"09",
+		"10"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
@@ -161,6 +162,19 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/sakura46th1stshowcase4.jpg",
 			"descEpisodeSynopsis": "Sakurazaka46 gen-4 menggelar acara perkenalan bertajuk \"First Showcase\" pada 12 Juni di Ariake Arena, Tokyo. Sebanyak 9 member baru yang bergabung sejak April menampilkan berbagai bakat seperti permainan biola, saksofon, gitar, seni bela diri, hingga lukisan dan paduan suara. Dalam sesi live, lagu-lagu seperti \"Jigoujitoku\", \"Drone Senkaichuu\", dan \"Shindafuri\" dibawakan dengan intensitas tinggi, menampilkan kemampuan menari dan ekspresi emosi yang mengesankan. Masing-masing member juga menyampaikan pesan mendalam mengenai harapan dan semangat mereka untuk menjadi bagian dari Sakurazaka46. ",
 			"nameShow": "櫻坂46 四期生 First Showcase"
+		},
+		"10": {
+			"descEpisode": "| Hirate Yurina 1st Live 'Rei'",
+			"descEpsListName": "",
+			"descOnAirDate": "21 Agustus 2025",
+			"memberParticipate": "平手友梨奈",
+			"linkHardsub": "https://sfl.gl/Ok7UDq",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/250821-hirate-yurina-1st-live-rei-UfziO",
+			"filePassword": "FaasutoRaibu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_hirateyurina1stlive.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/hirateyurina1stlive.jpg",
+			"descEpisodeSynopsis": "Hirate Yurina telah menggelar konser tunggal perdananya, \"Hirate Yurina 1st LIVE 'Rei'\", pada 21 Agustus, di mana ia menampilkan beberapa lagu termasuk karya solonya seperti \"bleeding love\", \"ALL I WANT\", dan \"Eeny, meeny, miny, moe\", serta lagu-lagu dari masa grupnya dan lagu cover. Di akhir konser, diumumkan bahwa lagu baru ciptaannya yang berjudul \"I’m human\" akan dirilis secara digital pada 26 Agustus. Lagu ini memadukan lirik tentang pergulatan batin dan keinginan untuk hidup dengan musik yang gelap dan berat, menghasilkan karya yang sangat khas.",
+			"nameShow": "平手友梨奈 1st LIVE “零”"
 		}
 	}
 }
