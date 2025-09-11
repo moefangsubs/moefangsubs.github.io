@@ -1,5 +1,13 @@
 [
   {
+    "date": "250911",
+    "updates": [
+      { "showId": "spicy-sessions", "eps": "10" },
+      { "showId": "zenkoku-tour", "eps": "13" },
+      { "showId": "live-performance", "eps": "10" }
+    ]
+  },
+  {
     "date": "250908",
     "updates": [
       { "showId": "zenkoku-tour", "eps": "11" },

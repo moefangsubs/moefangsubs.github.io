@@ -12,7 +12,8 @@
 		"06",
 		"07",
 		"08",
-		"09"
+		"09",
+		"10"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_spicysessions.png",
@@ -113,6 +114,16 @@
 			"descSong5": "Ariana Grande and John Legend『Beauty and the Beast』",
 			"additionalGuests": "SIRUP",
 			"descEpisodeSynopsis": "Bintang tamu Spicy Sessions kali ini adalah SIRUP, seorang penyanyi R&B yang mewakili Jepang. Hubungannya dengan Kurosawa telah terjalin lebih dari 10 tahun, bahkan SIRUP menganggapnya seperti sosok ayah di Tokyo. Berawal dari klub musik tiup di SMP dan SMA, ia memulai kariernya dengan nama KYOtaro sebelum akhirnya debut sebagai SIRUP pada tahun 2017. Salah satu lagunya yang paling terkenal, \"LOOP\", yang telah diputar lebih dari 41 juta kali, ternyata memiliki kisah menarik di baliknya sebagai lagu yang hampir tidak jadi dirilis."
+		},
+		"10": {
+			"descOnAirDate": "26 Oktober 2024",
+			"descSong1": "森山良子『涙そうそう』",
+			"descSong2": "テレサ・テン『時の流れに身をまかせ』",
+			"descSong3": "Carole King『You've Got a Friend』",
+			"descSong4": "夏川りみ with 黒沢薫『満天の星の夜』",
+			"descSong5": "松原みき『真夜中のドア～stay with me』",
+			"additionalGuests": "夏川りみ",
+			"descEpisodeSynopsis": "Bintang tamu Spicy Sessions kali ini adalah Natsukawa Rimi, seorang penyanyi berasal dari Okinawa, yang terkenal lagu covernya berjudul 'Nada Sousou'."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}",
