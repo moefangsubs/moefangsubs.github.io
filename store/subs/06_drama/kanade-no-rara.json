@@ -1,0 +1,44 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_kanadenorara.png",
+    "url": "kanade-no-rara",
+    "nameShowTitle": "Kanade no Lala",
+    "nameShow": "奏でのララ",
+    "descSynopsis": "Tanaka Lala, seorang gadis gyaru yang hidupnya selalu berpusat pada makeup, cinta, dan bersenang-senang. Segalanya berubah ketika ia bertemu dengan Kuga Kanade, seorang jenius seni lukis, dan hatinya terpikat oleh karya seni pemuda itu. Pertemuan tersebut mendorong Lala untuk pertama kalinya dalam hidup mengikuti sebuah kompetisi seni. Melalui tantangan ini, ia mulai menemukan arti \"kesukaan\" yang sesungguhnya bagi dirinya sendiri dan bertumbuh sebagai pribadi.",
+    "availableEpisode": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05"
+    ],
+    "newUpdateCount": 5,
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/kanadenorara{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/kanadenorara{{eps}}.jpg",
+    "filePassword": "AayaGyaru",
+    "memberParticipate": "小川彩",
+    "episodes": {
+        "01": {
+            "descOnAirDate": "26 Agustus 2025",
+            "linkHardsub": "https://sfl.gl/Z6UN"
+        },
+        "02": {
+            "descOnAirDate": "2 September 2025",
+            "linkHardsub": "https://sfl.gl/b5SJYSPf"
+        },
+        "03": {
+            "descOnAirDate": "8 September 2025",
+            "linkHardsub": "https://sfl.gl/U7e3i1a"
+        },
+        "04": {
+            "descOnAirDate": "16 September 2025",
+            "linkHardsub": "https://sfl.gl/9kg07sjD"
+        },
+        "05": {
+            "descOnAirDate": "23 September 2025",
+            "linkHardsub": "https://sfl.gl/oSEGctC"
+        }
+    },
+    "descEpisode": "| Episode {{eps}}"
+}
+
+

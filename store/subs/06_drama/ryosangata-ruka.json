@@ -13,9 +13,10 @@
 		"06",
 		"07",
 		"08",
-		"09"
+		"09",
+		"10"
 	],
-	"newUpdateCount": 2,
+	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/ruka{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ryosangataruka/ruka{{eps}}a.jpg",
@@ -69,6 +70,11 @@
 			"descOnAirDate": "28 Agustus 2025",
 			"descEpisodeSynopsis": "Takaruka dikejutkan oleh Setoruka yang mengatakan ia tidak ingin masuk ke universitas yang sama dan lebih memilih untuk meniti karier sebagai pengisi suara. Kebingungan Takaruka berubah menjadi kekesalan karena sikap Setoruka yang seolah tidak peduli, hingga akhirnya mereka berdua pun bertengkar. Yomo-san, yang mengetahui masalah tersebut dari Wataru, memanggil Takaruka ke ruang klub model kit dan memberinya sebuah model kit. Meskipun mencoba merakitnya, Takaruka yang tidak bisa berkonsentrasi memutuskan untuk berhenti sejenak. Di sisi lain, Rei dari klub tari mengalami cedera saat latihan.",
 			"linkHardsub": "https://sfl.gl/uSqXoRM5"
+		},
+		"10": {
+			"descOnAirDate": "4 September 2025",
+			"descEpisodeSynopsis": "Hari kelulusan telah tiba. Akankah Takaruka dengan Setoruka, yang selalu menghabiskan waktu bersama di ruang klub, bisa berbaikan?",
+			"linkHardsub": "https://sfl.gl/vFnJw"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

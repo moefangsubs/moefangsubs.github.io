@@ -33,7 +33,55 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_10th-bdl2c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_10th-bdl2d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-10, Nogizaka46 mengadakan acara tahunannya yaitu 10th Birthday Live di Nissan Stadium selama 2 hari. Dalam 2 hari tersebut mereka menyanyikan serangkaian lagu-lagu dari single pertama hingga single terakhir ke-29. Yang mengejutkannya adalah kehadiran para OG (Old Girl) atau para lulusan. Hari pertama kita diberikan penampilan Ikoma Rina dan Ito Marika. Dan di hari ke-2 yang kami kerjakan ini adalah 5 orang lulusan, yaitu antara lain Nishino Nanase, Shiraishi Mai, Ikuta Erika, Takayama Kazumi dan Matsumura Sayuri.",
-			"nameShow": "乃木坂46 10th YEAR BIRTHDAY LIVE"
+			"nameShow": "乃木坂46 10th YEAR BIRTHDAY LIVE",
+			"setlist":{
+			  "main": {
+				"00": ["OVERTURE", null],
+				"01": ["Influencer", ["齋藤飛鳥", "山下美月"]],
+				"02": ["Nigemizu", ["与田祐希", "岩本蓮加"]],
+				"03": ["Itsuka Dekiru kara Kyou Dekiru", ["齋藤飛鳥", "賀喜遥香"]],
+				"04": ["Skydiving", ["秋元真夏", "梅澤美波"]],
+				"05": ["Sanbanme no Kaze", "与田祐希"],
+				"06": ["Nichijou", "久保史緒里"],
+				"07": ["Dare yori Soba ni Itai", "佐藤楓"],
+				"08": ["Caravan wa Nemuranai", "齋藤飛鳥"],
+				"09": ["Jikochuu de Ikou!", "齋藤飛鳥"],
+				"10": ["Sora Tobira", "梅澤美波"],
+				"11": ["Kaerimichi wa Toomawari Shitaku Naru", "西野七瀬"],
+				"12": ["Arifureta Renai", ["齋藤飛鳥", "山下美月"]],
+				"13": ["Yoake Made Tsuyogaranakutemoii", "遠藤さくら"],
+				"14": ["Sing Out!", "齋藤飛鳥"],
+				"15": ["Yonbanme no Hikari", "遠藤さくら"],
+				"16": ["Mainichi ga Brand new day", "久保史緒里"],
+				"17": ["I see...", "賀喜遥香"],
+				"18": ["Shiawase no Hogoshoku", ["秋元真夏", "齋藤飛鳥"]],
+				"19": ["Synchronicity", "白石麻衣"],
+				"20": ["Sekaijuu no Rinjin yo", null],
+				"21": ["Route 246", "齋藤飛鳥"],
+				"22": ["Boku wa Boku o Suki ni Naru", "山下美月"],
+				"23": ["Gomen ne Fingers Crossed", "遠藤さくら"],
+				"24": ["Kimi ni Shikarareta", "賀喜遥香"],
+				"25": ["Saigo no Tight Hug", "生田絵梨花"],
+				"26": ["Zetsubou no Ichibyou Mae", "井上和"],
+				"27": ["Todokanakutatte...", "佐藤楓"],
+				"28": ["Actually...", "中西アルノ"],
+				"29": ["Seifuku no Mannequin", "遠藤さくら"],
+				"30": ["Sekai de Ichiban Kodoku na Lover", "齋藤飛鳥"],
+				"31": ["Tanin no Sorani", null],
+				"32": ["Oide Shampoo", "秋元真夏"],
+				"33": ["Natsu no Free&Easy", "賀喜遥香"],
+				"34": ["Taiyou Knock", "筒井あやめ"],
+				"35": ["Hadashi de Summer", "齋藤飛鳥"],
+				"36": ["Kikkake", null],
+				"37": ["Sayonara no Imi", "秋元真夏"],
+				"38": ["Kimi no Na wa Kibou", "齋藤飛鳥"]
+			  },
+			  "encore": {
+				"01": ["Girls Rule", "白石麻衣"],
+				"02": ["Romance no Start", "西野七瀬"],
+				"03": ["Nogizaka no Uta", null]
+			  }
+			}
 		},
 		"02": {
 			"descEpisode": "| Nogizaka46 1st Year Birthday Live",
@@ -49,7 +97,40 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_1st-bdlc.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_1st-bdld.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 1st YEAR BIRTHDAY LIVE adalah konser Nogizaka46 yang diadakan pada tanggal 22 Februari 2013 dalam rangka merayakan ulang tahun mereka yang ke satu tahun. Konsernya diadakan di Makuhari Messe Chiba, yang pada saat itu adalah venue terbesar yang mereka kunjungi selama tur. Pada hari itu, mereka membawakan total 27 lagu, termasuk 24 lagu dari single debutnya 'Guru Curtain' pada bulan Februari 2012 hingga single 'Seifuku no Mannequin', dan lagu baru 'Kimi no Na wa Kibou' beserta couplingnya yang akan dirilis sebagai bagian dari single ke-5.",
-			"nameShow": "乃木坂46 1st YEAR BIRTHDAY LIVE"
+			"nameShow": "乃木坂46 1st YEAR BIRTHDAY LIVE",
+			  "setlist": {
+				"main": {
+				  "01": ["Guruguru Curtain", null],
+				  "02": ["Aitakatta kamoshirenai", null],
+				  "03": ["Hidari Mune no Yuuki", null],
+				  "04": ["Shiroi Kumo ni notte", null],
+				  "05": ["Ushinaitakunai kara", null],
+				  "06": ["Oide Shampoo", null],
+				  "07": ["House!", null],
+				  "08": ["Ookami ni Kuchibue o", null],
+				  "09": ["Mizutama Moyou", null],
+				  "10": ["Guuzen o Iiwake ni shite", null],
+				  "11": ["Kokoro no Kusuri", null],
+				  "12": ["Hashire! Bicycle", null],
+				  "13": ["Sekkachi na Katatsumuri", null],
+				  "14": ["Hito wa naze Hashiru no ka?", null],
+				  "15": ["Namida ga mada Kanashimi datta Koro", null],
+				  "16": ["Kairyuu no Shima yo", null],
+				  "17": ["Oto ga denai Guitar", null],
+				  "18": ["Seifuku no Mannequin", null],
+				  "19": ["Yasashisa nara Ma ni atteru", null],
+				  "20": ["Shibuya Blues", null],
+				  "21": ["Koko ja nai Dokoka", null],
+				  "22": ["Haru no Melody", null],
+				  "23": ["Yubi Bouenkyou", null]
+				},
+				"encore": {
+				  "01": ["Kimi no Na wa Kibou", null],
+				  "02": ["13-nichi no Kinyoubi", null],
+				  "03": ["Shakiism", null],
+				  "04": ["Nogizaka no Uta", null]
+				}
+			  }
 		},
 		"03": {
 			"descEpisode": "| Nogizaka46 11th Year Birthday Live DAY 1",
@@ -65,7 +146,49 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl1c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl1d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-11, Nogizaka46 mengadakan acara tahunannya yaitu 11th Birthday Live di Yokohama Arena selama 5 hari. Dalam 5 hari tersebut, hari pertama adalah penampilan seluruh member. Day 1 ini adalah sejarah Nogizaka46 dimana untuk terakhir kalinya BDL diikuti oleh dari generasi ke-1 hingga generasi ke-5.",
-			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE"
+			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE",
+			"setlist": {
+			"main": {
+			  "01": ["Nogizaka no Uta", null],
+			  "02": ["Yoake made Tsuyogaranakutemoii", "遠藤さくら"],
+			  "03": ["Omoide First", "岩本蓮加"],
+			  "04": ["Nichijou", "鈴木絢音"],
+			  "05": ["Hadashi de Summer", "梅澤美波"],
+			  "06": ["Gomen ne Fingers crossed", "遠藤さくら"],
+			  "07": ["Hito Natsu no Nagasa yori...", "秋元真夏"],
+			  "08": ["Nigemizu", ["与田祐希", "岩本蓮加"]],
+			  "09": ["Sing Out!", "山下美月"],
+			  "10": ["Kotodamahou", ["久保史緒里", "山下美月", "与田祐希"]],
+			  "11": ["Tanin no Sorani", "遠藤さくら"],
+			  "12": ["Zetsubou no Ichibyou Mae", "井上和"],
+			  "13": ["Actually...", "中西アルノ"],
+			  "14": ["Todokanakutatte...", "佐藤楓"],
+			  "15": ["Guruguru Curtain", "秋元真夏"],
+			  "16": ["Suki toiu no wa Rock daze!", "賀喜遥香"],
+			  "17": ["Suki ni natte mita", "山下美月"],
+			  "18": ["Passionfruit no Tabekata", ["梅澤美波", "久保史緒里", "与田祐希", "遠藤さくら"]],
+			  "19": ["Under's Love", ["伊藤理々杏", "松尾美佑"]],
+			  "20": ["Sentou Rhapsody", ["梅澤美波", "山下美月", "与田祐希", "金川紗耶", "田村真佑"]],
+			  "21": ["Amai Evidence", ["久保史緒里", "伊藤理々杏", "中村麗乃", "柴田柚菜", "林瑠奈"]],
+			  "22": ["Warui Seibun", "中村麗乃"],
+			  "23": ["Koko ni wa nai Mono", "遠藤さくら"],
+			  "24": ["Boku wa Boku o Suki ni naru", "山下美月"],
+			  "25": ["Sayonara no Imi", "秋元真夏"],
+			  "26": ["Kachi Aru Mono", ["久保史緒里", "阪口珠美", "中村麗乃", "遠藤さくら", "賀喜遥香", "北川悠理", "金川紗耶", "佐藤璃果"]],
+			  "27": ["Zenbu Yume no Mama", "与田祐希"],
+			  "28": ["Yasashisa to wa", "井上和"],
+			  "29": ["Boku ga Te o Tataku Hou e", "久保史緒里"],
+			  "30": ["I see...", "賀喜遥香"],
+			  "31": ["Kaerimichi wa Toomawari shitaku naru", "遠藤さくら"],
+			  "32": ["Arifureta Renai", ["山下美月", "賀喜遥香"]],
+			  "33": ["Kikkake", ["秋元真夏", "梅澤美波"]]
+			},
+			"encore": {
+			  "01": ["Girls Rule", null],
+			  "02": ["Danke Schoen", null],
+			  "03": ["Kimi no Na wa Kibou", "梅澤美波"]
+			}
+			}
 		},
 		"04": {
 			"descEpisode": "| Nogizaka46 11th Year Birthday Live DAY 2 (Gen-5)",
@@ -81,7 +204,42 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl2c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl2d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-11, Nogizaka46 mengadakan acara tahunannya yaitu 11th Birthday Live di Yokohama Arena selama 5 hari. Dalam 5 hari tersebut, hari kedua adalah penampilan dari gen-5. Day 2 ini merupakan kedua kalinya gen-5 mengikuti konser ulang tahun Nogizaka46.",
-			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -5th Members Live-"
+			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -5th Members Live-",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Zetsubou no Ichibyou Mae", "井上和"],
+			  "02": ["Jikochuu de Ikou!", "菅原咲月"],
+			  "03": ["Kimi ni Shikarareta", "奥田いろは"],
+			  "04": ["Actually...", "中西アルノ"],
+			  "05": ["Sekkachi na Katatsumuri", ["五百城茉央", "一ノ瀬美空", "奥田いろは", "川﨑桜"]],
+			  "06": ["Hoka no Hoshi kara", ["池田瑛紗", "小川彩", "冨里奈央", "岡本姫奈", "中西アルノ"]],
+			  "07": ["Kodoku Kyoudai", ["菅原咲月", "井上和"]],
+			  "08": ["Taiyou Knock", "冨里奈央"],
+			  "09": ["Threefold choice", ["一ノ瀬美空", "池田瑛紗", "川﨑桜"]],
+			  "10": ["Another Ghost", ["小川彩", "中西アルノ", "奥田いろは"]],
+			  "11": ["Nichijou", "奥田いろは"],
+			  "12": ["Sing Out!", "岡本姫奈"],
+			  "13": ["Route 246", "井上和"],
+			  "14": ["Wilderness world", "中西アルノ"],
+			  "15": ["Suki toiu no wa Rock daze!", "川﨑桜"],
+			  "16": ["Boku dake no Hikari", "井上和"],
+			  "17": ["Tenbyou no Uta (Mrs. GREEN APPLE)", "奥田いろは"],
+			  "18": ["First Love (Utada Hikaru)", "中西アルノ"],
+			  "19": ["Story (AI)", "井上和"],
+			  "20": ["Tabidachi no Hi ni... (Kawashima Ai)", null],
+			  "21": ["17-funkan", "川﨑桜"],
+			  "22": ["Unubore Beach", "五百城茉央"],
+			  "23": ["Romance no Start", "冨里奈央"],
+			  "24": ["Danke Schoen", null],
+			  "25": ["Band-aid Hagasu youna Wakarekata", "菅原咲月"]
+			},
+			"encore": {
+			  "01": ["Yubi Bouenkyou", null],
+			  "02": ["Shakiism", null],
+			  "03": ["Kokoro ni mo nai Koto", "池田瑛紗"]
+			}
+			}
 		},
 		"05": {
 			"descEpisode": "| Nogizaka46 11th Year Birthday Live DAY 3 (Gen-4)",
@@ -97,7 +255,44 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl3c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl3d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-11, Nogizaka46 mengadakan acara tahunannya yaitu 11th Birthday Live di Yokohama Arena selama 5 hari. Dalam 5 hari tersebut, hari ketiga adalah penampilan dari gen-4. Day 3 ini dihadiri 15 member gen-4 tanpa Kakehashi Sayaka.",
-			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -4th Members Live-"
+			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -4th Members Live-",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Yoake made Tsuyogaranakutemoii", "遠藤さくら"],
+			  "02": ["Gomen ne Fingers crossed", "遠藤さくら"],
+			  "03": ["Kimi ni Shikarareta", "賀喜遥香"],
+			  "04": ["Suki toiu no wa Rock daze!", "賀喜遥香"],
+			  "05": ["Kimi no Na wa Kibou", "清宮レイ"],
+			  "06": ["Synchronicity", "松尾美佑"],
+			  "07": ["Kikkake", "林瑠奈"],
+			  "08": ["Fantastic Sanshoku Pan", ["賀喜遥香", "田村真佑", "金川紗耶"]],
+			  "09": ["Arakajime Katarareru Romance", ["北川悠理", "松尾美佑", "遠藤さくら", "清宮レイ", "矢久保美緒"]],
+			  "10": ["Fuusen wa Ikiteiru", ["弓木奈於", "佐藤璃果", "筒井あやめ", "柴田柚菜", "林瑠奈", "黒見明香"]],
+			  "11": ["Seifuku no Mannequin", "黒見明香"],
+			  "12": ["Anastasia", "柴田柚菜"],
+			  "13": ["Omoide First", "筒井あやめ"],
+			  "14": ["Boku no Koto, Shitteru?", "佐藤璃果"],
+			  "15": ["Koko ni Iru Riyuu", "早川聖来"],
+			  "16": ["Wilderness world", "金川紗耶"],
+			  "17": ["Guruguru Curtain", "遠藤さくら"],
+			  "18": ["Sing Out!", "田村真佑"],
+			  "19": ["Tanin no Sorani", "矢久保美緒"],
+			  "20": ["Yonbanme no Hikari", "遠藤さくら"],
+			  "21": ["Out of the blue", "早川聖来"],
+			  "22": ["Nekojita Chamomile Tea", "田村真佑"],
+			  "23": ["Toshoshitsu no Kimi e", null],
+			  "24": ["Kiss no Shuriken", "遠藤さくら"],
+			  "25": ["Jumping Joker Flash", "筒井あやめ"],
+			  "26": ["I see...", "賀喜遥香"]
+			},
+			"encore": {
+			  "01": ["Ato no Matsuri", ["北川悠理", "林瑠奈", "遠藤さくら", "賀喜遥香", "弓木奈於"]],
+			  "02": ["House!", null],
+			  "03": ["Psychokinesis no Kanousei", "柴田柚菜"],
+			  "04": ["Oide Shampoo", "賀喜遥香"]
+			}
+			}
 		},
 		"06": {
 			"descEpisode": "| Nogizaka46 11th Year Birthday Live DAY 4 (Gen-3)",
@@ -113,7 +308,42 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl4c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl4d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-11, Nogizaka46 mengadakan acara tahunannya yaitu 11th Birthday Live di Yokohama Arena selama 5 hari. Dalam 5 hari tersebut, hari keempat adalah penampilan dari gen-3, sang pemimpin era baru Nogizaka46. Day 4 ini dihadiri 11 member gen-3.",
-			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -3rd Members Live-"
+			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -3rd Members Live-",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Boku wa Boku o Suki ni naru", "山下美月"],
+			  "02": ["Soratobira", "梅澤美波"],
+			  "03": ["Sanbanme no Kaze", "与田祐希"],
+			  "04": ["Tokitokimekimeki", "岩本蓮加"],
+			  "05": ["Jibun ja nai Kanji", "山下美月"],
+			  "06": ["Shitto no Kenri", ["向井葉月", "山下美月", "与田祐希"]],
+			  "07": ["Threefold choice", ["梅澤美波", "佐藤楓", "吉田綾乃クリスティー"]],
+			  "08": ["Otona e no Chikamichi", ["久保史緒里", "阪口珠美", "中村麗乃"]],
+			  "09": ["Kokoro no Monologue", ["伊藤理々杏", "岩本蓮加"]],
+			  "10": ["Ushinaitakunai kara", null],
+			  "11": ["Wakaregiwa, Motto Suki ni naru", "吉田綾乃クリスティー"],
+			  "12": ["Sabita Compass", "中村麗乃"],
+			  "13": ["Inochi wa Utsukushii", "向井葉月"],
+			  "14": ["Hadashi de Summer", "与田祐希"],
+			  "15": ["Girls Rule", "山下美月"],
+			  "16": ["Settei Ondo", "吉田綾乃クリスティー"],
+			  "17": ["Sekai de Ichiban Kodoku na Lover", "佐藤楓"],
+			  "18": ["Yokubou no Reincarnation", "阪口珠美"],
+			  "19": ["Otonatachi ni wa Shiji sarenai", "岩本蓮加"],
+			  "20": ["Mirai no Kotae", ["久保史緒里", "山下美月"]],
+			  "21": ["Mainichi ga Brand new day", "久保史緒里"],
+			  "22": ["Boku no Shoudou", "伊藤理々杏"],
+			  "23": ["Boku ga Te o Tataku Hou e", "久保史緒里"]
+			},
+			"encore": {
+			  "01": ["Sonna Baka na...", null],
+			  "02": ["Korogatta Kane o Narase!", null],
+			  "03": ["Omoide First", "梅澤美波"],
+			  "04": ["Sanbanme no Kaze", null]
+			}
+			}
+			
 		},
 		"07": {
 			"descEpisode": "| Nogizaka46 11th Year Birthday Live DAY 5 (Akimoto Manatsu Graduation Concert)",
@@ -129,7 +359,46 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl5c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_11th-bdl5d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-11, Nogizaka46 mengadakan acara tahunannya yaitu 11th Birthday Live di Yokohama Arena selama 5 hari. Dalam 5 hari tersebut, hari kelima atau hari terakhir ini adalah konser kelulusan kapten kedua, Akimoto Manatsu sekaligus gen-1 terakhir. Di bagian akhir seperti biasa akan ada pesan-pesan dari member ke Manatsu, dan Manatsu ke Umezawa Minami yang kini menjadi kapten ketiga.",
-			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -秋元真夏卒業コンサート-"
+			"nameShow": "乃木坂46 11th YEAR BIRTHDAY LIVE -秋元真夏卒業コンサート-",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Guruguru Curtain", "秋元真夏"],
+			  "02": ["Oide Shampoo", "秋元真夏"],
+			  "03": ["Hashire! Bicycle", "秋元真夏"],
+			  "04": ["Seifuku no Mannequin", "秋元真夏"],
+			  "05": ["Girls Rule", "秋元真夏"],
+			  "06": ["Taiyou Knock", "秋元真夏"],
+			  "07": ["Band-aid Hagasu youna Wakarekata", ["秋元真夏", "菅原咲月", "5期生"]],
+			  "08": ["Jumping Joker Flash", ["秋元真夏", "筒井あやめ", "4期生"]],
+			  "09": ["Boku no Shoudou", ["秋元真夏", "伊藤理々杏", "3期生"]],
+			  "10": ["Kuchiyakusoku", "秋元真夏"],
+			  "11": ["Gomen ne Smoothie", ["秋元真夏", "阪口珠美", "田村真佑"]],
+			  "12": ["Sakana-tachi no LOVE SONG", null],
+			  "13": ["Namida ga mada Kanashimi datta Koro", "秋元真夏"],
+			  "14": ["Against", "秋元真夏"],
+			  "15": ["Influencer", ["秋元真夏", "遠藤さくら"]],
+			  "16": ["Synchronicity", "秋元真夏"],
+			  "17": ["Suki toiu no wa Rock daze!", "秋元真夏"],
+			  "18": ["Kaerimichi wa Toomawari shitaku naru", "秋元真夏"],
+			  "19": ["Saigo no Tight Hug", "秋元真夏"],
+			  "20": ["Kotodamahou", null],
+			  "21": ["Boukyaku to Bigaku", null],
+			  "22": ["Daikirai na Hazu datta", null],
+			  "23": ["Hito Natsu no Nagasa yori...", null]
+			},
+			"encore": {
+			  "01": ["Bokutachi no Sayonara", null],
+			  "02": ["Nidome no Kiss kara", null],
+			  "03": ["Nogizaka no Uta", "秋元真夏"]
+			},
+			"w-encore": {
+			  "01": ["House!", null]
+			},
+			"t-encore": {
+			  "01": ["Girls Rule", null]
+			}
+			}
 		},
 		"08": {
 			"descEpisode": "| Nogizaka46 12th Year Birthday Live DAY 1",
@@ -145,7 +414,44 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl1c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl1d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-12, Nogizaka46 mengadakan acara tahunannya yaitu 12th Birthday Live di Saitama Super Arena selama 4 hari. Setiap harinya mereka membawakan setlist yang berbeda-beda dengan total 123 lagu, meringkas sejarah Nogizaka dari single pertama hingga single terbaru yang ke-35. Hari ke-1 mereka membawakan lagu dari single yang dirilis tahun 2011 hingga 2014, dimana gen-3, 4 dan 5 belum berpartisipasi di single tersebut.",
-			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 1"
+			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 1",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Guruguru Curtain", "梅澤美波"],
+			  "02": ["Natsu no Free&Easy", "与田祐希"],
+			  "03": ["13-nichi no Kinyoubi", "伊藤理々杏"],
+			  "04": ["Oide Shampoo", "山下美月"],
+			  "05": ["Kizuitara Kataomoi", ["遠藤さくら", "伊藤理々杏", "阪口珠美", "佐藤楓", "向井葉月", "山下美月", "与田祐希", "柴田柚菜", "田村真佑", "筒井あやめ", "矢久保美緒", "松尾美佑", "五百城茉央", "井上和", "川﨑桜", "菅原咲月"]],
+			  "06": ["Barrette", ["賀喜遥香", "岩本蓮加", "梅澤美波", "久保史緒里", "中村麗乃", "吉田綾乃クリスティー", "黒見明香", "佐藤璃果", "林瑠奈", "弓木奈於", "池田瑛紗", "一ノ瀬美空", "岡本姫奈", "小川彩", "奥田いろは", "冨里奈央", "中西アルノ"]],
+			  "07": ["Sekkachi na Katatsumuri", ["山下美月", "向井葉月", "与田祐希", "筒井あやめ", "矢久保美緒", "五百城茉央", "川﨑桜"]],
+			  "08": ["Kodoku Kyoudai", ["井上和", "菅原咲月"]],
+			  "09": ["Hoka no Hoshi kara", ["池田瑛紗", "伊藤理々杏", "岩本蓮加", "久保史緒里", "清宮レイ", "松尾美佑", "中西アルノ"]],
+			  "10": ["Guuzen o Iiwake ni shite", ["梅澤美波", "阪口珠美", "柴田柚菜", "一ノ瀬美空"]],
+			  "11": ["Umareta Mama de", ["吉田綾乃クリスティー", "佐藤楓", "与田祐希", "遠藤さくら", "賀喜遥香", "田村真佑", "矢久保美緒", "佐藤璃果", "弓木奈於", "五百城茉央", "井上和", "岡本姫奈", "小川彩", "川﨑桜", "菅原咲月", "冨里奈央"]],
+			  "12": ["Ano Hi Boku wa Tossa ni Uso o Tsuita", ["林瑠奈", "伊藤理々杏", "岩本蓮加", "梅澤美波", "久保史緒里", "阪口珠美", "向井葉月", "柴田柚菜", "筒井あやめ", "黒見明香", "松尾美佑", "池田瑛紗", "一ノ瀬美空", "奥田いろは", "中西アルノ"]],
+			  "13": ["Yubi Bouenkyou", null],
+			  "14": ["Sonna Baka na...", null],
+			  "15": ["Hashire! Bicycle", "遠藤さくら"],
+			  "16": ["Seifuku no Mannequin", ["井上和", "梅澤美波", "阪口珠美", "佐藤楓", "向井葉月", "山下美月", "吉田綾乃クリスティー", "与田祐希", "遠藤さくら", "賀喜遥香", "清宮レイ", "矢久保美緒", "佐藤璃果", "弓木奈於", "小川彩", "川﨑桜"]],
+			  "17": ["Oto ga denai Guitar", ["筒井あやめ", "伊藤理々杏", "岩本蓮加", "黒見明香", "五百城茉央"]],
+			  "18": ["Sekai de Ichiban Kodoku na Lover", ["遠藤さくら", "梅澤美波", "佐藤楓", "山下美月", "賀喜遥香", "柴田柚菜", "田村真佑", "松尾美佑", "池田瑛紗", "一ノ瀬美空", "岡本姫奈", "奥田いろは", "菅原咲月", "冨里奈央"]],
+			  "19": ["Ushinaitakunai kara", ["久保史緒里", "林瑠奈", "中西アルノ"]],
+			  "20": ["Yasashisa to wa", ["伊藤理々杏", "中村麗乃", "吉田綾乃クリスティー", "柴田柚菜", "五百城茉央", "一ノ瀬美空", "奥田いろは"]],
+			  "21": ["Nani mo dekizu ni Soba ni Iru", ["与田祐希", "岩本蓮加", "梅澤美波", "久保史緒里", "向井葉月", "山下美月", "遠藤さくら", "賀喜遥香", "田村真佑", "筒井あやめ", "黒見明香", "弓木奈於", "池田瑛紗", "井上和", "川﨑桜", "菅原咲月", "冨里奈央"]],
+			  "22": ["Nandome no Aozora ka?", "久保史緒里"],
+			  "23": ["Hito wa naze Hashiru no ka?", "向井葉月"],
+			  "24": ["Romance no Start", "井上和"],
+			  "25": ["Romantic Ikayaki", "遠藤さくら"],
+			  "26": ["Girls Rule", "山下美月"],
+			  "27": ["Nogizaka no Uta", "梅澤美波"]
+			},
+			"encore": {
+			  "01": ["House!", "賀喜遥香"],
+			  "02": ["Danke Schoen", "久保史緒里"],
+			  "03": ["Kimi no Na wa Kibou", "山下美月"]
+			}
+			}
 		},
 		"09": {
 			"descEpisode": "| Nogizaka46 12th Year Birthday Live DAY 2",
@@ -161,7 +467,46 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl2c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl2d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-12, Nogizaka46 mengadakan acara tahunannya yaitu 12th Birthday Live di Saitama Super Arena selama 4 hari. Setiap harinya mereka membawakan setlist yang berbeda-beda dengan total 123 lagu, meringkas sejarah Nogizaka dari single pertama hingga single terbaru yang ke-35. Hari ke-2 mereka membawakan lagu dari single yang dirilis tahun 2015 hingga 2017, dimana gen-3 untuk pertama kalinya bergabung saat itu.",
-			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 2"
+			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 2",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Inochi wa Utsukushii", "井上和"],
+			  "02": ["Ima, Hanashitai Dareka ga Iru", ["久保史緒里", "山下美月"]],
+			  "03": ["Jiyuu no Kanata", "松尾美佑"],
+			  "04": ["Kodoku na Aozora", "久保史緒里"],
+			  "05": ["Boku ga Iru Basho", "遠藤さくら"],
+			  "06": ["Nigemizu", ["与田祐希", "岩本蓮加"]],
+			  "07": ["Threefold choice", ["梅澤美波", "田村真佑", "池田瑛紗"]],
+			  "08": ["Arakajime Katarareru Romance", ["伊藤理々杏", "向井葉月", "柴田柚菜", "矢久保美緒", "佐藤璃果", "小川彩"]],
+			  "09": ["Ikuate no nai Bokutachi", ["林瑠奈", "松尾美佑"]],
+			  "10": ["Otona e no Chikamichi", ["岩本蓮加", "清宮レイ", "黒見明香", "一ノ瀬美空", "岡本姫奈", "川﨑桜"]],
+			  "11": ["Secret Graffiti", ["阪口珠美", "伊藤理々杏", "梅澤美波", "久保史緒里", "向井葉月", "吉田綾乃クリスティー", "柴田柚菜", "筒井あやめ", "矢久保美緒", "林瑠奈", "松尾美佑", "弓木奈於", "池田瑛紗", "井上和", "小川彩", "奥田いろは", "菅原咲月", "中西アルノ"]],
+			  "12": ["Fuusen wa Ikiteiru", ["佐藤楓", "岩本蓮加", "中村麗乃", "遠藤さくら", "田村真佑", "黒見明香", "佐藤璃果", "五百城茉央", "一ノ瀬美空", "岡本姫奈", "川﨑桜", "冨里奈央"]],
+			  "13": ["Border", "冨里奈央", "5期生"],
+			  "14": ["Keisha suru", "清宮レイ", "4期生"],
+			  "15": ["Harujion ga Saku Koro", "梅澤美波", "3期生"],
+			  "16": ["Sanbanme no Kaze", "与田祐希", "3期生"],
+			  "17": ["Boku no Shoudou", "伊藤理々杏", "3期生"],
+			  "18": ["Settei Ondo", "梅澤美波", ["3期生", "4期生", "5期生"]],
+			  "19": ["Fuminshou", ["久保史緒里", "山下美月", "阪口珠美", "中村麗乃", "向井葉月", "吉田綾乃クリスティー", "与田祐希", "遠藤さくら", "筒井あやめ", "矢久保美緒", "佐藤璃果", "林瑠奈", "弓木奈於"]],
+			  "20": ["Live Kami", ["中西アルノ", "五百城茉央", "池田瑛紗", "井上和", "岡本姫奈", "川﨑桜", "冨里奈央"]],
+			  "21": ["Another Ghost", ["筒井あやめ", "伊藤理々杏", "岩本蓮加", "梅澤美波", "阪口珠美", "吉田綾乃クリスティー", "遠藤さくら", "田村真佑", "黒見明香", "佐藤璃果", "松尾美佑", "一ノ瀬美空", "小川彩", "菅原咲月"]],
+			  "22": ["Sayonara no Imi", ["久保史緒里", "林瑠奈", "五百城茉央", "井上和", "奥田いろは", "中西アルノ"]],
+			  "23": ["Hito Natsu no Nagasa yori...", ["賀喜遥香", "伊藤理々杏", "岩本蓮加", "向井葉月", "吉田綾乃クリスティー", "柴田柚菜", "筒井あやめ", "佐藤璃果", "弓木奈於", "一ノ瀬美空", "小川彩", "菅原咲月", "冨里奈央"]],
+			  "24": ["Kikkake", "遠藤さくら"],
+			  "25": ["Influencer", ["与田祐希", "井上和"]],
+			  "26": ["Taiyou Knock", "遠藤さくら"],
+			  "27": ["Skydiving", "梅澤美波"],
+			  "28": ["Hadashi de Summer", "山下美月"],
+			  "29": ["Itsuka Dekiru kara Kyou Dekiru", "久保史緒里"]
+			},
+			"encore": {
+			  "01": ["Offshore Girl", null],
+			  "02": ["Omoide First", null],
+			  "03": ["Kanashimi no Wasurekata", "久保史緒里"]
+			}
+			}
 		},
 		"10": {
 			"descEpisode": "| Nogizaka46 12th Year Birthday Live DAY 3",
@@ -177,7 +522,45 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl3c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl3d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-12, Nogizaka46 mengadakan acara tahunannya yaitu 12th Birthday Live di Saitama Super Arena selama 4 hari. Setiap harinya mereka membawakan setlist yang berbeda-beda dengan total 123 lagu, meringkas sejarah Nogizaka dari single pertama hingga single terbaru yang ke-35. Hari ke-3 mereka membawakan lagu dari single yang dirilis tahun 2018 hingga 2020, dimana gen-4 untuk pertama kalinya bergabung saat itu.",
-			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 3"
+			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 3",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Synchronicity", "梅澤美波"],
+			  "02": ["Soratobira", "梅澤美波"],
+			  "03": ["Unubore Beach", "小川彩"],
+			  "04": ["Sayonara Stay with me", null],
+			  "05": ["Jikochuu de Ikou!", "井上和"],
+			  "06": ["Heikousen", ["岩本蓮加", "久保史緒里", "阪口珠美", "与田祐希"]],
+			  "07": ["Kokoro no Monologue", ["遠藤さくら", "賀喜遥香"]],
+			  "08": ["Kotodamahou", ["久保史緒里", "山下美月", "与田祐希"]],
+			  "09": ["Kokuhaku no Junban", ["佐藤楓", "吉田綾乃クリスティー", "柴田柚菜", "弓木奈於"]],
+			  "10": ["Fantastic Sanshoku Pan", ["梅澤美波", "山下美月", "小川彩"]],
+			  "11": ["~Do my best~ ja Imi wa nai", ["岩本蓮加", "久保史緒里", "阪口珠美", "遠藤さくら", "柴田柚菜", "黒見明香", "林瑠奈", "松尾美佑", "一ノ瀬美空", "奥田いろは", "菅原咲月", "冨里奈央", "中西アルノ"]],
+			  "12": ["Atarashii Sekai", ["向井葉月", "伊藤理々杏", "梅澤美波", "佐藤楓", "吉田綾乃クリスティー", "田村真佑", "筒井あやめ", "矢久保美緒", "佐藤璃果", "弓木奈於", "五百城茉央", "池田瑛紗", "井上和", "岡本姫奈", "小川彩", "川﨑桜"]],
+			  "13": ["Caravan wa Nemuranai", "五百城茉央", "5期生"],
+			  "14": ["Mainichi ga Brand new day", "久保史緒里", "3期生"],
+			  "15": ["Yonbanme no Hikari", "遠藤さくら", "4期生"],
+			  "16": ["Kiss no Shuriken", "遠藤さくら", "4期生"],
+			  "17": ["I see...", "賀喜遥香", "4期生"],
+			  "18": ["Nichijou", ["久保史緒里", "伊藤理々杏", "岩本蓮加", "向井葉月", "吉田綾乃クリスティー", "柴田柚菜", "清宮レイ", "矢久保美緒", "佐藤璃果", "林瑠奈", "松尾美佑", "弓木奈於", "池田瑛紗", "岡本姫奈", "小川彩", "奥田いろは", "冨里奈央", "中西アルノ"]],
+			  "19": ["Against", ["阪口珠美", "佐藤楓", "伊藤理々杏", "向井葉月", "吉田綾乃クリスティー", "柴田柚菜", "清宮レイ", "矢久保美緒", "佐藤璃果", "林瑠奈", "池田瑛紗", "岡本姫奈", "小川彩", "奥田いろは", "冨里奈央", "中西アルノ"]],
+			  "20": ["Route 246", ["井上和", "岩本蓮加", "梅澤美波", "中村麗乃", "山下美月", "与田祐希", "遠藤さくら", "賀喜遥香", "田村真佑", "筒井あやめ", "黒見明香", "松尾美佑", "弓木奈於", "五百城茉央", "一ノ瀬美空", "川﨑桜", "菅原咲月"]],
+			  "21": ["Sekaijuu no Rinjin yo", ["伊藤理々杏", "久保史緒里", "柴田柚菜", "林瑠奈", "奥田いろは", "冨里奈央"]],
+			  "22": ["Dare yori Soba ni Itai", ["中西アルノ", "佐藤楓", "向井葉月", "吉田綾乃クリスティー", "清宮レイ", "矢久保美緒", "黒見明香", "佐藤璃果", "小川彩"]],
+			  "23": ["Boku no Koto, Shitteru?", "山下美月"],
+			  "24": ["Yoake made Tsuyogaranakutemoii", "遠藤さくら"],
+			  "25": ["Arifureta Renai", ["山下美月", "賀喜遥香"]],
+			  "26": ["Anna ni Suki datta no ni...", "久保史緒里"],
+			  "27": ["Kaerimichi wa Toomawari shitaku naru", "与田祐希"],
+			  "28": ["Sing Out!", "井上和"]
+			},
+			"encore": {
+			  "01": ["Tokitokimekimeki", "岩本蓮加"],
+			  "02": ["Jibun ja nai Kanji", "山下美月"],
+			  "03": ["Shiawase no Hogoshoku", "梅澤美波"]
+			}
+			}
 		},
 		"11": {
 			"descEpisode": "| Nogizaka46 12th Year Birthday Live DAY 4",
@@ -193,7 +576,45 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_12th-bdl4d.jpg",
 			"descEpisodeSynopsis": "Memperingati ulang tahunnya yang ke-12, Nogizaka46 mengadakan acara tahunannya yaitu 12th Birthday Live di Saitama Super Arena selama 4 hari. Setiap harinya mereka membawakan setlist yang berbeda-beda dengan total 123 lagu, meringkas sejarah Nogizaka dari single pertama hingga single terbaru yang ke-35. Hari ke-4 mereka membawakan lagu dari single yang dirilis tahun 2021 hingga 2024, dimana gen-5 untuk pertama kalinya bergabung saat itu.",
-			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 4"
+			"nameShow": "乃木坂46 12th YEAR BIRTHDAY LIVE DAY 4",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Ohitorisama Tengoku", "井上和"],
+			  "02": ["Monopoly", ["遠藤さくら", "賀喜遥香"]],
+			  "03": ["Hito wa Yume o Nido Miru", ["久保史緒里", "山下美月"]],
+			  "04": ["Kachi Aru Mono", ["久保史緒里", "阪口珠美", "中村麗乃", "遠藤さくら", "賀喜遥香", "佐藤璃果"]],
+			  "05": ["Zabunzazabun", ["与田祐希", "筒井あやめ"]],
+			  "06": ["Moshimo Kokoro ga Toumei nara", ["梅澤美波", "中村麗乃", "田村真佑", "松尾美佑"]],
+			  "07": ["Ato no Matsuri", ["林瑠奈", "川﨑桜", "遠藤さくら", "賀喜遥香", "弓木奈於"]],
+			  "08": ["Inochi no Boutoku", ["小川彩", "奥田いろは", "菅原咲月", "冨里奈央", "中西アルノ", "柴田柚菜", "松尾美佑"]],
+			  "09": ["Sabita Compass", ["清宮レイ", "伊藤理々杏", "岩本蓮加", "阪口珠美", "佐藤楓", "中村麗乃", "向井葉月", "吉田綾乃クリスティー", "矢久保美緒", "黒見明香", "佐藤璃果", "林瑠奈", "弓木奈於"]],
+			  "10": ["Warui Seibun", ["中村麗乃", "伊藤理々杏", "佐藤楓", "向井葉月", "吉田綾乃クリスティー", "矢久保美緒", "黒見明香", "佐藤璃果", "林瑠奈", "松尾美佑"]],
+			  "11": ["Omoide ga Tomaranaku naru", ["中西アルノ", "伊藤理々杏", "阪口珠美", "佐藤楓", "中村麗乃", "吉田綾乃クリスティー", "清宮レイ", "矢久保美緒", "佐藤璃果", "林瑠奈", "松尾美佑", "岡本姫奈", "小川彩", "奥田いろは"]],
+			  "12": ["Boku ga Te o Tataku Hou e", "久保史緒里", "3期生"],
+			  "13": ["Jumping Joker Flash", "筒井あやめ", "4期生"],
+			  "14": ["Zetsubou no Ichibyou Mae", "井上和", "5期生"],
+			  "15": ["Itsu no Hi ni ka, Ano Uta o...", "小川彩", "5期生"],
+			  "16": ["17-funkan", "川﨑桜", ["5期生", "3期生", "4期生"]],
+			  "17": ["Wilderness world", ["賀喜遥香", "岩本蓮加", "梅澤美波", "久保史緒里", "山下美月", "与田祐希", "遠藤さくら", "柴田柚菜", "清宮レイ", "田村真佑", "筒井あやめ", "林瑠奈", "弓木奈於", "五百城茉央", "一ノ瀬美空", "井上和", "川﨑桜", "菅原咲月", "中西アルノ"]],
+			  "18": ["Funde shimatta", ["松尾美佑", "伊藤理々杏", "阪口珠美", "佐藤楓", "向井葉月", "吉田綾乃クリスティー", "矢久保美緒", "黒見明香", "佐藤璃果", "岡本姫奈", "小川彩", "奥田いろは", "冨里奈央"]],
+			  "19": ["Actually...", ["中西アルノ", "岩本蓮加", "梅澤美波", "山下美月", "与田祐希", "遠藤さくら", "柴田柚菜", "清宮レイ", "田村真佑", "筒井あやめ", "弓木奈於", "五百城茉央", "池田瑛紗", "一ノ瀬美空", "井上和", "川﨑桜", "菅原咲月"]],
+			  "20": ["Saigo no Tight Hug", ["久保史緒里", "賀喜遥香", "奥田いろは"]],
+			  "21": ["Koko ni wa nai Mono", ["遠藤さくら", "伊藤理々杏", "岩本蓮加", "中村麗乃", "田村真佑", "小川彩"]],
+			  "22": ["Dareka no Kata", "井上和"],
+			  "23": ["Gomen ne Fingers crossed", "遠藤さくら"],
+			  "24": ["Band-aid Hagasu youna Wakarekata", "菅原咲月"],
+			  "25": ["Zenbu Yume no Mama", "与田祐希"],
+			  "26": ["Kimi ni Shikarareta", "賀喜遥香"],
+			  "27": ["Boku wa Boku o Suki ni naru", "山下美月"]
+			},
+			"encore": {
+			  "01": ["Chance wa Byoudou", "山下美月"],
+			  "02": ["Tanin no Sorani", null],
+			  "03": ["Suki toiu no wa Rock daze!", "賀喜遥香"],
+			  "04": ["Nogizaka no Uta", "梅澤美波"]
+			}
+			}
 		},
 		"12": {
 			"descEpisode": "| Nogizaka46 13th Year Birthday Live DAY 1",
@@ -209,7 +630,68 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl1d.jpg",
 			"descEpisodeSynopsis": "Kali ini Nogizaka46 merayakan ulang tahun ke-13 lewat konser \"13th YEAR BIRTHDAY LIVE\" di Stadion Ajinomoto selama dua hari. Konser ini diisi penampilan meriah dari gen-3 hingga gen-5, dan debut gen-6 dalam acara tahunan ini. Konser dipenuhi kejutan, medley 46 menit nonstop, dan momen emosional antara senpai dan kouhai. Tim merah dan biru tampil bergantian sebelum bersatu dalam nuansa ungu khas grup.",
-			"nameShow": "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 1"
+			"nameShow": "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 1",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Oide Shampoo", "井上和"],
+			  "02": ["Natsu no Free&Easy", "久保史緒里"],
+			  "03": ["Hadashi de Summer", "遠藤さくら"],
+			  "04": ["Suki toiu no wa Rock daze!", "賀喜遥香"],
+			  "05": ["Navel Orange", ["井上和", "中西アルノ"]],
+			  "06": ["Guruguru Curtain", "梅澤美波"],
+			  "07": ["Hidari Mune no Yuuki", "梅澤美波"],
+			  "08": ["Ushinaitakunai kara", "奥田いろは"],
+			  "09": ["Guuzen o Iiwake ni shite", ["梅澤美波", "一ノ瀬美空", "金川紗耶", "菅原咲月"]],
+			  "10": ["Hashire! Bicycle", "久保史緒里"],
+			  "11": ["Girls Rule", "一ノ瀬美空"],
+			  "12": ["Senpuuki", "小川彩"],
+			  "13": ["Ningen toiu Gakki", "田村真佑"],
+			  "14": ["Sonna Baka na...", "小川彩"],
+			  "15": ["Kizuitara Kataomoi", "賀喜遥香"],
+			  "16": ["Nandome no Aozora ka?", "久保史緒里"],
+			  "17": ["Taiyou Knock", ["池田瑛紗", "遠藤さくら", "田村真佑", "弓木奈於", "五百城茉央", "川﨑桜", "冨里奈央", "中西アルノ"]],
+			  "18": ["Muhyoujou", ["筒井あやめ", "井上和"]],
+			  "19": ["Popippappapaa", "菅原咲月"],
+			  "20": ["Harujion ga Saku Koro", "五百城茉央"],
+			  "21": ["Sayonara no Imi", "遠藤さくら"],
+			  "22": ["Buranko", "林瑠奈"],
+			  "23": ["Itsuka Dekiru kara Kyou Dekiru", "久保史緒里"],
+			  "24": ["Jikochuu de Ikou!", "井上和"],
+			  "25": ["Nichijou", "久保史緒里"],
+			  "26": ["Sing Out!", "中西アルノ"],
+			  "27": ["Shiawase no Hogoshoku", "梅澤美波"],
+			  "28": ["Kimi ni Shikarareta", "賀喜遥香"],
+			  "29": ["Under's Love", "柴田柚菜"],
+			  "30": ["Koko ni wa nai Mono", "遠藤さくら"],
+			  "31": ["Monopoly", ["遠藤さくら", "賀喜遥香"]],
+			  "32": ["Shadougawa", "筒井あやめ"],
+			  "33": ["Cheat Day", "井上和"],
+			  "34": ["Ohitorisama Tengoku", "井上和", "赤チーム"],
+			  "35": ["I see...", "賀喜遥香", "赤チーム"],
+			  "36": ["Actually...", "中西アルノ", "青チーム"],
+			  "37": ["Gomen ne Fingers crossed", "遠藤さくら", "青チーム"],
+			  "38": ["Influencer", ["井上和", "中西アルノ"], ["赤チーム", "青チーム"]],
+			  "39": ["Kikkake", ["井上和", "中西アルノ"], ["赤チーム", "青チーム"]],
+			  "40": ["Time Limit Kataomoi", "矢田萌華", "6期生"],
+			  "41": ["Band-aid Hagasu youna Wakarekata", "菅原咲月", "5期生"],
+			  "42": ["Jumping Joker Flash", "筒井あやめ", "4期生"],
+			  "43": ["Sanbanme no Kaze", "久保史緒里", "3期生"],
+			  "44": ["Settei Ondo", "梅澤美波"],
+			  "45": ["Synchronicity", "梅澤美波"],
+			  "46": ["Hito wa Yume o Nido Miru", "久保史緒里"],
+			  "47": ["Kaerimichi wa Toomawari shitaku naru", "池田瑛紗"],
+			  "48": ["Boku wa Boku o Suki ni naru", "賀喜遥香"],
+			  "49": ["Hodoukyou", "遠藤さくら"],
+			  "50": ["Kimi no Na wa Kibou", ["井上和", "中西アルノ"]]
+			},
+			"encore": {
+			  "01": ["Romance no Start", "賀喜遥香"],
+			  "02": ["Arakajime Katarareru Romance", null],
+			  "03": ["Skydriving", "梅澤美波"],
+			  "04": ["Nogizaka no Uta", "梅澤美波"]
+			}
+			}
 		},
 		"13": {
 			"descEpisode": "| Nogizaka46 13th Year Birthday Live DAY 2",
@@ -225,7 +707,67 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_13th-bdl2d.jpg",
 			"descEpisodeSynopsis": "Kali ini Nogizaka46 merayakan ulang tahun ke-13 lewat konser \"13th YEAR BIRTHDAY LIVE\" di Stadion Ajinomoto selama dua hari. Konser ini diisi penampilan meriah dari gen-3 hingga gen-5, dan debut gen-6 dalam acara tahunan ini. Konser dipenuhi kejutan, medley 46 menit nonstop, dan momen emosional antara senpai dan kouhai. Tim merah dan biru tampil bergantian sebelum bersatu dalam nuansa ungu khas grup. Ditambah perayaan ulang tahun Suzuki Yuuna menambah kesan spesial. Di akhir, Nakanishi Aruno menyampaikan rasa cintanya pada Nogizaka46 dan harapan besar untuk tahun ke-14.",
-			"nameShow": "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 2"
+			"nameShow": "乃木坂46 13th YEAR BIRTHDAY LIVE DAY 2",
+			"setlist": {
+			"main": {
+			  "00": ["OVERTURE", null],
+			  "01": ["Taiyou Knock", "中西アルノ"],
+			  "02": ["Hashire! Bicycle", "筒井あやめ"],
+			  "03": ["Kimi ni Shikarareta", "賀喜遥香"],
+			  "04": ["Cheat Day", "井上和"],
+			  "05": ["Jikochuu de Ikou!", "池田瑛紗"],
+			  "06": ["Navel Orange", ["井上和", "中西アルノ"]],
+			  "07": ["Oide Shampoo", "遠藤さくら"],
+			  "08": ["Namida ga mada Kanashimi datta Koro", "伊藤理々杏"],
+			  "09": ["Seifuku no Mannequin", "井上和"],
+			  "10": ["Sekai de Ichiban Kodoku na Lover", "梅澤美波"],
+			  "11": ["Barrette", "田村真佑"],
+			  "12": ["Kodoku Kyoudai", ["遠藤さくら", "賀喜遥香"]],
+			  "13": ["Koko ni Iru Riyuu", "池田瑛紗"],
+			  "14": ["Natsu no Free&Easy", "冨里奈央"],
+			  "15": ["Keisha suru", "弓木奈於"],
+			  "16": ["Inochi wa Utsukushii", "菅原咲月"],
+			  "17": ["Ima, Hanashitai Dareka ga Iru", ["中西アルノ", "久保史緒里", "林瑠奈"]],
+			  "18": ["Hadashi de Summer", "久保史緒里"],
+			  "19": ["Fuusen wa Ikiteiru", "岡本姫奈"],
+			  "20": ["Rewind Ano Hi", ["井上和", "池田瑛紗", "一ノ瀬美空"]],
+			  "21": ["Nigemizu", ["筒井あやめ", "川﨑桜"]],
+			  "22": ["Synchronicity", "梅澤美波"],
+			  "23": ["Kaerimichi wa Toomawari shitaku naru", "五百城茉央"],
+			  "24": ["Yoake made Tsuyogaranakutemoii", "遠藤さくら"],
+			  "25": ["Wilderness world", "金川紗耶"],
+			  "26": ["Boku wa Boku o Suki ni naru", "一ノ瀬美空"],
+			  "27": ["Sabita Compass", "柴田柚菜"],
+			  "28": ["Suki toiu no wa Rock daze!", "賀喜遥香"],
+			  "29": ["Hito wa Yume o Nido Miru", "久保史緒里"],
+			  "30": ["Funde shimatta", "松尾美佑"],
+			  "31": ["Chance wa Byoudou", ["梅澤美波", "久保史緒里"]],
+			  "32": ["Hodoukyou", "遠藤さくら"],
+			  "33": ["Actually...", "中西アルノ", "青チーム"],
+			  "34": ["Gomen ne Fingers crossed", "遠藤さくら", "青チーム"],
+			  "35": ["Ohitorisama Tengoku", "井上和", "赤チーム"],
+			  "36": ["I see...", "賀喜遥香", "赤チーム"],
+			  "37": ["Influencer", ["井上和", "中西アルノ"], ["赤チーム", "青チーム"]],
+			  "38": ["Kimi no Na wa Kibou", ["井上和", "中西アルノ"], ["赤チーム", "青チーム"]],
+			  "39": ["Time Limit Kataomoi", ["矢田萌華", "6期生"]],
+			  "40": ["Band-aid Hagasu youna Wakarekata", "菅原咲月", "5期生"],
+			  "41": ["Jumping Joker Flash", "筒井あやめ", "4期生"],
+			  "42": ["Sanbanme no Kaze", "久保史緒里", "3期生"],
+			  "43": ["Settei Ondo", "梅澤美波"],
+			  "44": ["Guruguru Curtain", "矢田萌華"],
+			  "45": ["Girls Rule", "梅澤美波"],
+			  "46": ["Sing Out!", "久保史緒里"],
+			  "47": ["Monopoly", ["遠藤さくら", "賀喜遥香"]],
+			  "48": ["Tanin no Sorani", ["井上和", "中西アルノ"]]
+			},
+			"encore": {
+			  "01": ["House!", "池田瑛紗"],
+			  "02": ["Danke Schoen", "久保史緒里"],
+			  "03": ["Sonna Baka na...", "梅澤美波"],
+			  "04": ["Soratobira", "梅澤美波"],
+			  "05": ["Nogizaka no Uta", "梅澤美波"]
+			}
+			}
 		}
 	}
 }

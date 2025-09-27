@@ -1,0 +1,59 @@
+{
+	"url": "utabangumi-24-hour-tv",
+	"nameShowTitle": "24 Hour Television",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03"
+	],
+	"newUpdateCount": 3,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_24hourtv.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/24-hour-tv-charity-live-6PeNY",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 240831 24 Hour TV Charity Live - Song for Noto",
+			"descOnAirDate": "31 Agustus 2024",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/lEsmPm5",
+			"filePassword": "24hourtv2024",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/24hourtv_2024.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2024.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2024a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2024b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2024c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2024d.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 tampil dalam acara \"Song for Noto! 24-Hour TV Charity Live\", sebuah konser amal yang bertujuan untuk membantu korban bencana di Semenanjung Noto.",
+			"nameShow": "Song for 能登! 24時間テレビチャリティーライブ"
+		},
+		"02": {
+			"descEpisode": "| 250831 24 Hour TV Charity Live - Song for Children 'Kikkake'",
+			"descOnAirDate": "31 Agustus 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/0CbgK",
+			"filePassword": "24hourtv2025",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/24hourtv_2025A.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025A.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Aa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Ab.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Ac.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Ad.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 tampil kembali dalam acara \"Song for Children! 24-Hour TV Charity Live\". Dalam kesempatan terpisah, Arata Yuri-san, siswi kelas 3 SMP yang sangat menyukai Kubo Shiori, diberi kesempatan untuk bermain piano bersama oshi-nya ini di tengah keterbatasannya sebagai penyandang tunanetra.",
+			"nameShow": "24時間テレビ48-愛は地球を救う-"
+		},
+		"03": {
+			"descEpisode": "| 250831 24 Hour TV Charity Live - Song for Children",
+			"descOnAirDate": "31 Agustus 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/0EwFnIR",
+			"filePassword": "24hourtv2025",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/24hourtv_2025B.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025B.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Ba.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Bb.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Bc.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/24hourtv_2025Bd.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 tampil kembali dalam acara \"Song for Children! 24-Hour TV Charity Live\". Melanjutkan kesuksesan tahun lalu, konser amal yang terhubung dengan program 24-Hour TV ini akan kembali digelar selama 2 hari pada 30 dan 31 Agustus di Tokyo Ariake Arena, dengan tujuan untuk mendukung anak-anak yang membutuhkan. Acara ini akan terhubung secara langsung dengan venue utama di Ryogoku Kokugikan dan dimeriahkan oleh berbagai artis ternama yang akan menyalurkan donasi melalui kekuatan musik.",
+			"nameShow": "24時間テレビ48-愛は地球を救う-"
+		}
+	}
+}

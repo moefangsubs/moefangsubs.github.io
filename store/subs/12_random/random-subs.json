@@ -55,9 +55,10 @@
 		"50",
 		"51",
 		"52",
-		"53"
+		"53",
+		"54"
 	],
-	"newUpdateCount": 3,
+	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
 		"01": {
@@ -869,6 +870,23 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250731-tappuri-shizuoka.jpg",
 			"descEpisodeSynopsis": "Dalam segmen \"Tappuri Shizuoka\", Okoshi Hinano berbagi kebahagiaannya kembali ke kampung halamannya, Shizuoka, sebagai member Nogizaka46.",
 			"nameShow": "NHK総合テレビ 静岡放送局 「たっぷり静岡」"
+		},
+		"54": {
+			"descEpisode": "| 231025 Ito Riria to Jaspresso no Denpahou",
+			"descEpsListName": "231025",
+			"descOnAirDate": "25 Oktober 2023",
+			"memberParticipate": "伊藤理々杏",
+			"linkHardsub": "https://sfl.gl/kk7liXc",
+			"linkTrakteer": "",
+			"filePassword": "denpahou",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/231025-itoriria-denpahou.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/231025-itoriria-denpahou.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/231025-itoriria-denpahou1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/231025-itoriria-denpahou2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/231025-itoriria-denpahou3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/231025-itoriria-denpahou4.jpg",
+			"descEpisodeSynopsis": "Sebuah drama manusia-yokai Ryukyu dengan nuansa baru yang mengisahkan gejolak perasaan seorang \"Kijimunaanchu\". Drama produksi stasiun TV lokal Okinawa ini menampilkan penggunaan dialek Uchinaaguchi yang otentik serta wujud Kijimunaa yang memukau dan wajib ditonton. Kijimunaa adalah roh paling terkenal di Okinawa yang mendiami pohon beringin. Tokoh utamanya, Kokomi, adalah seorang \"Kijimunaanchu\", makhluk yang terlahir dari Kijimunaa dan manusia. Demi menepati janji dengan mendiang ibunya, Kokomi meninggalkan pohon beringin untuk hidup layaknya manusia biasa. Satu-satunya momen yang paling dinantikannya setiap tahun adalah perayaan Halloween, satu-satunya hari di mana ia bisa menunjukkan wujud aslinya. Namun, sebuah insiden pada hari Halloween memaksanya untuk dihadapkan pada pilihan sulit: melanjutkan hidup sebagai \"manusia\" atau kembali menjadi \"Kijimunaa\". Kokomi pun harus mengambil sebuah keputusan besar yang akan menentukan takdirnya.",
+			"nameShow": "伊藤理々杏とジャスプレッソの電波砲"
 		}
 	}
 }

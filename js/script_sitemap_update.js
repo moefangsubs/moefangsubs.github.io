@@ -1,7 +1,49 @@
 // ../js/script_sitemap_update.js
+
 document.addEventListener('DOMContentLoaded', async () => {
     const updateContainer = document.getElementById('daftar-update');
     if (!updateContainer) return;
+
+    // BARU: Fungsi untuk menginisialisasi tombol kontrol
+    const setupViewControls = () => {
+        const controlsContainer = document.getElementById('view-controls-container');
+        if (!controlsContainer) return;
+
+        controlsContainer.innerHTML = `
+            <div class="view-controls">
+                <button id="slide-view-btn" class="view-btn active" title="Tampilan Slide">
+                    <img src="../sprite/element/view_slide.svg" alt="Slide View">
+                </button>
+                <button id="grid-view-btn" class="view-btn" title="Tampilan Grid">
+                    <img src="../sprite/element/view_grid.svg" alt="Grid View">
+                </button>
+            </div>
+        `;
+
+        const slideBtn = document.getElementById('slide-view-btn');
+        const gridBtn = document.getElementById('grid-view-btn');
+
+        slideBtn.addEventListener('click', () => {
+            if (updateContainer.classList.contains('grid-view')) {
+                updateContainer.classList.remove('grid-view');
+                slideBtn.classList.add('active');
+                gridBtn.classList.remove('active');
+                // Jalankan kembali pengecekan scroll untuk semua baris
+                document.querySelectorAll('.update-grid').forEach(grid => grid.dispatchEvent(new Event('scroll')));
+            }
+        });
+
+        gridBtn.addEventListener('click', () => {
+            if (!updateContainer.classList.contains('grid-view')) {
+                updateContainer.classList.add('grid-view');
+                gridBtn.classList.add('active');
+                slideBtn.classList.remove('active');
+            }
+        });
+    };
+    
+    // BARU: Panggil fungsi inisialisasi tombol
+    setupViewControls();
 
     try {
         const [updateResponse, listResponse, membersResponse] = await Promise.all([
@@ -40,7 +82,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             const { date, updates } = updateEntry;
             const sectionDiv = document.createElement('div');
             sectionDiv.className = 'update-section';
-            sectionDiv.innerHTML = `<h3 class="update-date">${formatUpdateDate(date)}</h3>`;
+            
+            // BARU: Tambahkan jumlah update di samping tanggal
+            const updateCount = updates.length; //
+            sectionDiv.innerHTML = `<h3 class="update-date">${formatUpdateDate(date)} <span class="update-count">[${updateCount} Update]</span></h3>`;
 
             const scrollContainer = document.createElement('div');
             scrollContainer.className = 'update-scroll-container';
@@ -74,9 +119,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                     let membersHTML = '';
                     
-                    // ### PERUBAHAN UTAMA - LOGIKA FALLBACK MEMBERPARTICIPATE ###
                     const membersRaw = episodeData.memberParticipate || showData.memberParticipate || [];
-                    // ########################################################
 
                     let membersArray = [];
                     if (typeof membersRaw === 'string' && membersRaw.length > 0) {
@@ -91,7 +134,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 							const memberId = memberMap.get(cleanedName);
                             const content = memberId ? `<a href="../moedata/member.html?id=${memberId}" target="_blank">${nameJP.trim()}</a>` : nameJP.trim();
                             
-                            // Mengubah return untuk menyertakan struktur wrapper dan shadow
                             return `
                                 <li class="member-item-wrapper">
                                     <div class="member-item-shadow"></div>
@@ -100,7 +142,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                             `;
                         });
 
-                        // Mengubah cara tombol '...' dibuat agar sesuai
                         if (memberItems.length > 5) {
                             const visibleItems = memberItems.slice(0, 5).join('');
                             const hiddenItemsHTML = encodeURIComponent(memberItems.slice(5).join(''));
@@ -112,10 +153,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     }
                     
                     const itemDiv = document.createElement('div');
-                    // 'itemDiv' sekarang menjadi pembungkus luar untuk positioning
                     itemDiv.className = 'update-item-wrapper'; 
                     
-                    // Kita buat HTML baru dengan div untuk bayangan dan konten
                     itemDiv.innerHTML = `
                         <div class="update-item-shadow"></div>
                         <div class="update-item">
@@ -130,23 +169,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 } catch (error) { console.error(`Error processing ${showId}:`, error); }
             }
             
-			
-					
             scrollContainer.appendChild(gridDiv);
-            // if (updates.length > 2) {
-                 // const btnLeft = document.createElement('button');
-                 // btnLeft.className = 'scroll-btn scroll-btn-left hidden';
-                 // btnLeft.innerHTML = '&#10094;';
-
-                 // const btnRight = document.createElement('button');
-                 // btnRight.className = 'scroll-btn scroll-btn-right';
-                 // btnRight.innerHTML = '&#10095;';
-                 
-                 // scrollContainer.appendChild(btnLeft);
-                 // scrollContainer.appendChild(btnRight);
-            // }
-
-
 			if (updates.length > 2) {
                  const btnLeft = document.createElement('button');
                  btnLeft.className = 'scroll-btn scroll-btn-left hidden';
@@ -160,32 +183,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                  scrollContainer.appendChild(btnRight);
             }
 			
-			
             sectionDiv.appendChild(scrollContainer);
             updateContainer.appendChild(sectionDiv);
         }
-
-        // updateContainer.addEventListener('click', (e) => {
-            // const target = e.target;
-
-            // if (target.matches('.scroll-btn')) {
-                // const scrollContainer = target.closest('.update-scroll-container');
-                // const grid = scrollContainer.querySelector('.update-grid');
-                // const scrollAmount = grid.querySelector('.update-item').offsetWidth * 2 + 32;
-
-                // if (target.matches('.scroll-btn-left')) {
-                    // grid.scrollLeft -= scrollAmount;
-                // } else if (target.matches('.scroll-btn-right')) {
-                    // grid.scrollLeft += scrollAmount;
-                // }
-            // }
-
-            // if (target.matches('.expand-btn')) {
-                // const list = target.parentElement;
-                // list.insertAdjacentHTML('beforeend', decodeURIComponent(target.dataset.more));
-                // target.remove();
-            // }
-        // });
 
 		updateContainer.addEventListener('click', (e) => {
             const scrollButton = e.target.closest('.scroll-btn');
@@ -194,7 +194,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (scrollButton) {
                 const scrollContainer = scrollButton.closest('.update-scroll-container');
                 const grid = scrollContainer.querySelector('.update-grid');
-                // Menggunakan wrapper untuk kalkulasi yang lebih stabil
                 const itemWidth = grid.querySelector('.update-item-wrapper')?.offsetWidth || 280;
                 const scrollAmount = itemWidth * 2 + 32;
 
@@ -212,27 +211,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const list = expandButtonWrapper.parentElement;
                     const hiddenItemsHTML = decodeURIComponent(expandButton.dataset.more);
 
-                    // --- METODE BARU YANG LEBIH STABIL ---
-                    // 1. Buat kontainer sementara di memori
                     const tempContainer = document.createElement('div');
                     tempContainer.innerHTML = `<ul>${hiddenItemsHTML}</ul>`;
 
-                    // 2. Ambil semua <li> baru dari kontainer sementara
                     const newItems = tempContainer.querySelector('ul').childNodes;
 
-                    // 3. Pindahkan setiap <li> baru ke dalam daftar yang asli
                     list.append(...newItems);
-                    // ------------------------------------
 
-                    // 4. Hapus seluruh <li> pembungkus tombol "..."
                     expandButtonWrapper.remove();
                 }
             }
         });
-
-
-
-
 
         document.querySelectorAll('.update-grid').forEach(grid => {
             const scrollCheck = () => {

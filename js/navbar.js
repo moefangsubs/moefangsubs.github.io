@@ -5,8 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		event.preventDefault();
 	});
 	const disableEvents = ['copy', 'paste', 'cut'];
-	disableEvents.forEach(event => {
-		document.addEventListener(event, e => e.preventDefault());
+	disableEvents.forEach(eventName => {
+		document.addEventListener(eventName, e => {
+			// HANYA blokir jika TIDAK ada class "allow-copy" di body
+			if (!document.body.classList.contains('allow-copy')) {
+				e.preventDefault();
+			}
+		});
 	});
 	document.addEventListener('keydown', event => {
 		if (event.key === 'F12') {
