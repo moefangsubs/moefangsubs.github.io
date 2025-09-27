@@ -8,63 +8,48 @@
 		"62",
 		"114",
 		"115",
-		"116"
+		"116",
+		"120"
 	],
-	"newUpdateCount": 2,
+	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_kubochannel.png",
-	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kubochannel_{{eps}}.jpg",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kubochannel_{{eps}}.jpg",	
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post//kubochannel/kubochannel{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post//kubochannel/kubochannel{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post//kubochannel/kubochannel{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post//kubochannel/kubochannel{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post//kubochannel/kubochannel{{eps}}d.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kubo-channel-GGnx0",
-	"filePassword": "NontonVideoBarengKubo&Guest",
 	"episodes": {
 		"57": {
 			"descOnAirDate": "16 Desember 2022",
 			"memberParticipate": "久保史緒里、齋藤飛鳥",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel57.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel57a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel57b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel57c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel57d.jpg",
 			"descEpisodeSynopsis": "Di episode 57 ini, Kubo Channel mendatangkan tamu dari gen-1, Saito Asuka yang telah mengumumkan kelulusannya. Di sini mereka akan melihat MV solo-nya Asuka \"Kore kara\", dan setelah itu kita akan mendengar cerita kecil di dalamnya."
 		},
 		"62": {
 			"descOnAirDate": "7 Februari 2023",
 			"memberParticipate": "久保史緒里、賀喜遥香",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel62.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel62a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel62b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel62c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel62d.jpg",
 			"descEpisodeSynopsis": "Di episode 62 ini, Kubo Channel kedatangan tamu dari gen-4, Kaki Haruka, yang masih sama seperti di episode sebelumnya. Di sini mereka akan melihat tayangan 10th Birthday Live dimana Akimoto Manatsu menjadi center dari lagu \"Sayonara no Imi\", dan setelah itu kita akan mendengar cerita kecil tentang kedekatan mereka bersama Manatsu-san."
 		},
 		"114": {
 			"descOnAirDate": "27 Mei 2025",
 			"memberParticipate": "久保史緒里、瀬戸口心月、矢田萌華",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel114.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel114a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel114b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel114c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel114d.jpg",
 			"descEpisodeSynopsis": "Episode ini menandai kemunculan perdana member gen-6, Setoguchi Mitsuki dan Yada Moeka, bersama Kubo Shiori dalam segmen \"Time Limit Kataomoi\". Mereka mengenang pengalaman syuting MV pertama mereka, membagikan kesan jujur dan cerita di balik layar. Kubo juga mendengar kesan pertama kedua juniornya terhadap dirinya, sambil tak bisa menyembunyikan kegugupan sebagai MC. Percakapan bertiga mencerminkan kepolosan khas gen baru, hingga membuat Kubo merasa malu pada dirinya sendiri."
 		},
 		"115": {
 			"descOnAirDate": "3 Juni 2025",
 			"memberParticipate": "久保史緒里、瀬戸口心月、矢田萌華",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel115.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel115a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel115b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel115c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel115d.jpg",
 			"descEpisodeSynopsis": "Episode ini mengungkap kisah di balik video pengumuman member baru yang direkam di kampung halaman masing-masing. Dalam prosesnya, mereka berjuang agar tak ketahuan oleh siswa lain saat syuting di sekolah. Kisah masa seleksi mereka juga diangkat, termasuk saat mereka harus diam-diam bolak-balik Tokyo untuk latihan, menyembunyikan rahasia dari teman-teman dan keluarga. Menjelang 13th YEAR BIRTHDAY LIVE, Setoguchi dan Yada berbagi kegelisahan mereka, dan Kubo memberikan saran hangat sebagai senpai."
 		},
 		"116": {
 			"descOnAirDate": "10 Juni 2025",
 			"memberParticipate": "久保史緒里、瀬戸口心月、矢田萌華",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel116.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel116a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel116b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel116c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/kubochannel/kubochannel116d.jpg",
 			"descEpisodeSynopsis": "Episode ini menampilkan penampilan panggung pertama Setoguchi dan Yada di First Performance \"Hajimemashite, 6kisei desu\", termasuk cuplikan perkenalan satu menit dan unjuk bakat mereka. Mereka berbagi cerita tentang pemilihan kostum dan pengalaman panggung perdana yang penuh kebaruan. Percakapan berlanjut dengan bahasan saling pandang satu sama lain, hal-hal yang dinantikan dalam Zenkoku Tour mendatang, kata-kata dari Umezawa Minami, serta koneksi unik lewat dialek daerah mereka."
+		},
+		"120": {
+			"descOnAirDate": "8 September 2025",
+			"memberParticipate": "久保史緒里、賀喜遥香",
+			"descEpisodeSynopsis": "Kaki Haruka, yang merupakan bintang tamu dengan penampilan terbanyak di program ini, kembali hadir. Di tengah berlangsungnya Manatsu no Zenkoku Tour 2025, disini mereka berdua akan menonton MV dari single ke-39, \"Same numbers\", yang menempatkan Kaki sebagai center. Saking banyaknya hal yang ingin ditanyakan, Shiori Kubo secara tidak biasa justru dibuat kebingungan hingga kewalahan."
 		}
 	}
 }

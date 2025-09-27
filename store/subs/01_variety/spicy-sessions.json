@@ -13,7 +13,8 @@
 		"07",
 		"08",
 		"09",
-		"10"
+		"10",
+		"11"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_spicysessions.png",
@@ -123,7 +124,17 @@
 			"descSong4": "夏川りみ with 黒沢薫『満天の星の夜』",
 			"descSong5": "松原みき『真夜中のドア～stay with me』",
 			"additionalGuests": "夏川りみ",
-			"descEpisodeSynopsis": "Bintang tamu Spicy Sessions kali ini adalah Natsukawa Rimi, seorang penyanyi berasal dari Okinawa, yang terkenal lagu covernya berjudul 'Nada Sousou'."
+			"descEpisodeSynopsis": "Episode Spicy Sessions kali ini menghadirkan bintang tamu Natsukawa Rimi, penyanyi asal Ishigaki, Okinawa, yang sejak kecil telah meraih berbagai penghargaan bergengsi hingga mencatat sejarah sebagai pemenang termuda Grand Prix di Nagasaki Kayousai; debutnya pada 1999 lewat single \"Yuubae ni Yurete\" menjadi awal perjalanan karier gemilang yang semakin bersinar dengan hit fenomenal \"Nada Sousou\" pada 2001 yang bertahan 116 minggu di tangga lagu, membawanya tampil di Kouhaku Uta Gassen serta tur internasional ke Taiwan, Singapura, Shanghai, hingga Amerika Selatan, dan kini ia merayakan 25 tahun kiprahnya dengan suara merdu yang memikat hati pendengar di seluruh dunia."
+		},
+		"11": {
+			"descOnAirDate": "30 November 2024",
+			"descSong1": "Little Glee Monster『Come Alive』",
+			"descSong2": "三浦大知『ふれあうだけで～Always with you～』",
+			"descSong3": "Daniel Caesar & H.E.R.『Best Part』",
+			"descSong4": "Little Glee Monster『ECHO』",
+			"descSong5": "aiko『カブトムシ』",
+			"additionalGuests": "かれん × miyou (Little Glee Monster)",
+			"descEpisodeSynopsis": "Episode Spicy Sessions kali ini juga menghadirkan Karen dan miyou dari Little Glee Monster, grup vokal wanita berbakat yang terbentuk pada 2013 melalui audisi pencarian penyanyi kelas dunia, lalu debut mayor setahun kemudian dengan lagu \"Houkago High Five\"; kesuksesan mereka kian bersinar saat berhasil menggelar konser tunggal impian di Nippon Budokan pada 2017 serta tampil perdana di Kouhaku Uta Gassen, dan setelah kedatangan anggota baru pada 2022, mereka terus memperluas kiprahnya dengan merilis album \"UNLOCK\" pada 2024 sekaligus merayakan 10 tahun perjalanan penuh prestasi dengan konser ulang tahun yang membangkitkan antusiasme para penggemar."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}",

@@ -21,9 +21,12 @@
 		"14",
 		"15",
 		"16",
-		"17"
+		"17",
+		"18",
+		"19",
+		"20"
 	],
-	"newUpdateCount": 1,
+	"newUpdateCount": 3,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
@@ -203,14 +206,37 @@
 			"additionalSenpai"	: "金川紗耶",
 			"linkHardsub": "https://sfl.gl/eQo4N2",
 			"linkSoftsub": "https://sfl.gl/EtkXRnS"
+		},
+		"18": {
+			"descOnAirDate": "1 September 2025",
+			"descSong1": "miwa「君に出会えたから」",
+			"descSong2": "いきものがかり「帰りたくなったよ」",
+			"descSong3": "大原櫻子「Over The Rainbow」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai"	: "柴田柚菜",
+			"linkHardsub": "https://sfl.gl/Fkg6izO",
+			"linkSoftsub": "https://sfl.gl/GdaY"
+		},
+		"19": {
+			"descOnAirDate": "8 September 2025",
+			"descSong1": "森高千里「ララ サンシャイン」",
+			"descSong2": "Da-iCE「I wonder」",
+			"descSong3": "藤原さくら「Soup」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai"	: "小川彩",
+			"linkHardsub": "https://sfl.gl/kk6r",
+			"linkSoftsub": "https://sfl.gl/pINTJ4z"
+		},
+		"20": {
+			"descOnAirDate": "22 September 2025",
+			"descSong1": "SUPER BEAVER「小さな革命」",
+			"descSong2": "スピッツ「チェリー」",
+			"descSong3": "V6「WAになっておどろう」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai"	: "中西アルノ",
+			"linkHardsub": "https://sfl.gl/1mvmXW",
+			"linkSoftsub": "https://sfl.gl/tifCoJ3"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
 }
-
-
-
-
-
-
-

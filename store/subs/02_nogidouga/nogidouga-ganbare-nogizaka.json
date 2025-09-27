@@ -4,9 +4,11 @@
 	"nameShow": "がんばれ乃木坂",
 	"descSynopsis": "Ganbare Nogizaka, sebuah cara baru yang mendukung keinginan para member Nogizaka46 untuk \"menantang diri\" kini dimulai!",
 	"availableEpisode": [
-		"01"
+		"01",
+		"02",
+		"03"
 	],
-	"newUpdateCount": 1,
+	"newUpdateCount": 2,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ganbare.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/ganbare{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ganbare/ganbare{{eps}}.jpg",
@@ -19,13 +21,19 @@
 		"01": {
 			"descOnAirDate": "24 Januari 2025",
 			"memberParticipate": "柴田柚菜、松尾美佑、林瑠奈",
-			"linkHardsub": "https://sfl.gl/K4R3jJ",
 			"descEpisodeSynopsis": "Di episode perdana yang spesial ini, Shibata Yuna mencoba tantangan untuk menguasai backflip! Sebagai mantan atlet senam ritmik, Shibata memulai latihan dengan target bisa berhasil dalam waktu singkat. Namun, seiring berjalannya waktu, situasinya mulai tidak berjalan sesuai harapan..."
 		},
 		"02": {
 			"descOnAirDate": "18 April 2025",
 			"memberParticipate": "弓木奈於、吉田綾乃クリスティー、田村真佑、菅原咲月、冨里奈央、賀喜遥香",
+			"linkHardsub": "",
 			"descEpisodeSynopsis": "Di episode ke-2 ini, Yumiki Nao menantang dirinya untuk mencoba pantomim! Pertunjukan utamanya dijadwalkan hanya 3 hari lagi. Yumiki mulai berlatih dari dasar, dan akan menampilkan sebuah pertunjukan berbentuk cerita dengan menggunakan lagu-lagu dari Nogizaka46. Akankah hasil latihannya bisa ditampilkan dengan baik...!?"
+		},
+		"03": {
+			"descOnAirDate": "27 Juni 2025",
+			"memberParticipate": "久保史緒里、田村真佑",
+			"linkHardsub": "",
+			"descEpisodeSynopsis": "Dalam episode 3 ini, Kubo Shiori akan mencoba mendapatkan lisensi berkuda. Keinginannya ini muncul setelah ia mengagumi kegiatan berkuda saat membintangi sebuah drama Taiga. Di tengah jadwalnya yang padat, ia menyempatkan diri untuk mengikuti les selama tiga hari dan kemudian menghadapi ujian. Meskipun menghadapi berbagai kesulitan, Kubo tetap bersemangat dan tekun berlatih. Akankah ia berhasil lulus ujian?"
 		}
 	}
 }

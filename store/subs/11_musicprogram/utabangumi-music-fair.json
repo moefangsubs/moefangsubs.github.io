@@ -1,0 +1,28 @@
+{
+	"url": "utabangumi-music-fair",
+	"nameShowTitle": "SHIONOGI MUSIC FAIR",
+	"nameShow": "SHIONOGI MUSIC FAIR",
+	"availableEpisode": [
+		"01"
+	],
+	"newUpdateCount": 1,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_musicfair.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Music Fair",
+			"descEpsListName": "230320",
+			"descOnAirDate": "9 Agustus 2025",
+			"linkHardsub": "https://sfl.gl/S1QBTF5",
+			"filePassword": "musicfair",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/music-fair-M8U9S",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250809_musicfair.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250809_musicfair.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250809_musicfair1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250809_musicfair2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250809_musicfair3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/250809_musicfair4.jpg",
+			"descEpisodeSynopsis": "Disini kita akan melihat bincang-bincang dari Nogizaka46 bersama guest NEWS dan Moritaka Chisato-san.  Mereka juga akan menampilkan 'Same numbers' dan penampilan bersama Moritaka Chisato yaitu \"Watashi no Natsu\""
+		}
+	},
+	"memberParticipate": "乃木坂46"
+}

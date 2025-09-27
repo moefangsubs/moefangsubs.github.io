@@ -660,26 +660,64 @@ document.addEventListener('DOMContentLoaded', () => {
 		copyBtn.onclick = () => {
 			const passwordToCopy = display.dataset.password;
 			const originalContent = copyBtn.innerHTML;
+			const overrideStyle = document.createElement('style');
+			overrideStyle.id = 'temp-copy-override';
+			overrideStyle.innerHTML = `
+			  body.allow-copy, body.allow-copy * {
+				-webkit-user-select: text !important;
+				-ms-user-select: text !important;
+				user-select: text !important;
+			  }
+			`;
 			const showFeedback = (message) => {
 				copyBtn.textContent = message;
 				setTimeout(() => {
 					copyBtn.innerHTML = originalContent;
 				}, 1500);
 			};
-			if (navigator.clipboard && window.isSecureContext) {
-				navigator.clipboard.writeText(passwordToCopy)
-					.then(() => showFeedback('Copied!'))
-					.catch(err => {
-						console.error('Gagal menyalin dengan API modern:', err);
-						showFeedback('Failed!');
-					});
-			} else {
-				fallbackCopyTextToClipboard(passwordToCopy)
-					.then(() => showFeedback('Copied!'))
-					.catch(err => {
-						console.error('Gagal menyalin dengan fallback:', err);
-						showFeedback('Failed!');
-					});
+			const cleanup = () => {
+				const styleElement = document.getElementById('temp-copy-override');
+				if (styleElement) {
+					document.head.removeChild(styleElement);
+				}
+				document.body.classList.remove('allow-copy');
+			};
+			const fallbackCopyTextToClipboard = (text) => {
+				const textArea = document.createElement("textarea");
+				textArea.value = text;
+				// Styling agar tidak terlihat oleh pengguna
+				textArea.style.position = "fixed";
+				textArea.style.top = "-9999px";
+				textArea.style.left = "-9999px";
+				document.body.appendChild(textArea);
+				textArea.focus();
+				textArea.select();
+				try {
+					document.execCommand('copy');
+					showFeedback('Copied!');
+				} catch (err) {
+					console.error('Fallback copy gagal:', err);
+					showFeedback('Failed!');
+				} finally {
+					document.body.removeChild(textArea);
+				}
+			};
+			try {
+				document.head.appendChild(overrideStyle);
+				document.body.classList.add('allow-copy');
+
+				if (navigator.clipboard && window.isSecureContext) {
+					navigator.clipboard.writeText(passwordToCopy)
+						.then(() => showFeedback('Copied!'))
+						.catch(() => fallbackCopyTextToClipboard(passwordToCopy)); // Coba fallback jika gagal
+				} else {
+					fallbackCopyTextToClipboard(passwordToCopy);
+				}
+			} catch (err) {
+				console.error('Proses copy gagal total:', err);
+				showFeedback('Failed!');
+			} finally {
+				setTimeout(cleanup, 100);
 			}
 		};
 	}

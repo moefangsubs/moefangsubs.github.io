@@ -1,0 +1,113 @@
+{
+	"url": "hinatazaka46-bonus-15th-single",
+	"nameShow": "日向坂46 15枚シングル「お願いバッハ!」特典映像 五期生個人PV",
+	"nameShowTitle": "Hinatazaka46 Bonus 15th Single",
+	"descSynopsis": "Dalam single ke-15 'Onegai Bach!', member generasi baru yaitu gen-5 menampilkan individual PV-nya.",
+	"availableEpisode": [
+		"01",
+		"02",
+		"03",
+		"04",
+		"05",
+		"06",
+		"07",
+		"08",
+		"09",
+		"10"
+	],
+	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_bonus_hinata15th.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hinatazaka46-15th-bonus-individual-pv-5IrNZ",
+	"filePassword": "OnegaiBach!KojinPV-DedekGen5",
+	"episodes": {
+		"01": {
+			"descEpisode": "Type C - Ota Mizuki",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "大田美月",
+			"linkHardsub": "https://sfl.gl/EUUXZsbJ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_c1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_c1.jpg",
+			"nameShow": "みづきイズム"
+		},
+		"02": {
+			"descEpisode": "Type C - Ono Manami",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "大野愛実",
+			"linkHardsub": "https://sfl.gl/nLUbE",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_c2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_c2.jpg",
+			"nameShow": "テザリングおんなのこ"
+		},
+		"03": {
+			"descEpisode": "Type C - Katayama Saki",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "片山紗希",
+			"linkHardsub": "https://sfl.gl/tBsp04f0",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_c3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_c3.jpg",
+			"nameShow": "カワイイマシマシアザトコイメ"
+		},
+		"04": {
+			"descEpisode": "Type C - Kuramori Hinano",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "蔵盛妃那乃",
+			"linkHardsub": "https://sfl.gl/YpuS6P",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_c4.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_c4.jpg",
+			"nameShow": "蔵盛兄妹"
+		},
+		"05": {
+			"descEpisode": "Type C - Sakai Niina",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "坂井新奈",
+			"linkHardsub": "https://sfl.gl/rVSU6",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_c5.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_c5.jpg",
+			"nameShow": "正直ものにーなちゃん"
+		},
+		"06": {
+			"descEpisode": "Type D - Sato Yuu",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "佐藤優羽",
+			"linkHardsub": "https://sfl.gl/62ih1B",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_d1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_d1.jpg",
+			"nameShow": "麻雀 in Yu Mind"
+		},
+		"07": {
+			"descEpisode": "Type D - Shimoda Izuki",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "下田衣珠季",
+			"linkHardsub": "https://sfl.gl/LXYq0",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_d2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_d2.jpg",
+			"nameShow": "打打打打下田！"
+		},
+		"08": {
+			"descEpisode": "Type D - Takai Rika",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "高井俐香",
+			"linkHardsub": "https://sfl.gl/4dB3iS2",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_d3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_d3.jpg",
+			"nameShow": "サウンドスケープ"
+		},
+		"09": {
+			"descEpisode": "Type D - Tsurusaki Niko",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "鶴崎仁香",
+			"linkHardsub": "https://sfl.gl/x0Zx",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_d4.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_d4.jpg",
+			"nameShow": "伝説の通販女王"
+		},
+		"10": {
+			"descEpisode": "Type D - Matsuo Sakura",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "松尾桜",
+			"linkHardsub": "https://sfl.gl/8YA3q",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/bonus/hinata_15kojinpv_d5.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinata-bonus-15/hinata_15kojinpv_d5.jpg",
+			"nameShow": "神対応 ー御手振特別的訓練ー"
+		}
+	}
+}

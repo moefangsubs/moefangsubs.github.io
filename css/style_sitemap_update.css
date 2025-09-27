@@ -291,7 +291,75 @@
 	animation-duration: 0.5s;
 }
 
+
+
+/* ======================================= */
+/* KONTROL TOMBOL VIEW SLIDE/GRID     */
+/* ======================================= */
+
+.view-controls {
+	display: none; /* Sembunyikan di mobile */
+	justify-content: flex-end;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 0 1rem 1.5rem 0;
+}
+
+.view-btn {
+	border: none;
+	background-color: transparent;
+	padding: 5px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.view-btn img {
+	width: 90%;
+	height: 90%;
+	display: block;
+}
+
+.view-btn.active {
+	background-color: var(--moe-tint7);
+}
+
+.view-btn:not(.active) {
+	background-color: var(--moe-tint6);
+	opacity: 0.6;
+	cursor: default;
+}
+
+/* ======================================= */
+/* STYLING JUMLAH UPDATE         */
+/* ======================================= */
+
+.update-count {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--moe-tint1);
+    margin-left: 10px;
+}
+
+
 @media (min-width: 769px) {
+	.view-controls {
+		display: flex;
+	}
+
+	#daftar-update.grid-view .update-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+		overflow-x: hidden;
+	}
+
+	#daftar-update.grid-view .scroll-btn {
+		display: none; 
+	}
 	.scroll-btn {
 		display: block;
 		position: absolute;
