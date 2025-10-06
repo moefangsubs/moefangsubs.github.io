@@ -403,7 +403,11 @@ document.addEventListener('DOMContentLoaded', () => {
 						</li>
 						<li class="nav-item">
 							<a href="../moeplay/moeplay.html">PLAY</a>
-						</li> ${userGreetingHTML}
+						</li>
+						<li class="nav-item">
+							<a href="../request.html">Request</a>
+						</li>
+						${userGreetingHTML}
 					</ul>
 				</nav>
 			</header>`;

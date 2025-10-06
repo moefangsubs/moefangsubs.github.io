@@ -1,0 +1,63 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_buzz.png",
+    "url": "shinu-made-buzztero",
+    "nameShowTitle": "Shinu made Buzztero!! (2025)",
+    "nameShow": "死ぬまでバズってろ!!",
+    "descSynopsis": "Asano Kanako adalah seorang pekerja paruh waktu berusia 26 tahun yang menyambung hidup dengan bekerja di sebuah restoran pasta. Hidupnya berubah drastis dalam semalam setelah video kecelakaan tabrak lari yang tidak sengaja ia rekam menjadi viral di media sosial. Dibanjiri oleh pujian, notifikasi \"like\", dan repost yang tak henti-hentinya, Kanako tenggelam dalam sensasi menyenangkan yang baru pertama kali ia rasakan dan berubah menjadi Tapako, seorang influencer yang mengatasnamakan \"keadilan\" untuk mengungkap berbagai kasus. Demi menjadi viral, tindakannya yang menghalalkan segala cara secara bertahap menumpulkan rasa etisnya. Namun, keadilan yang berlebihan itu justru melahirkan kebencian baru, dan tak lama kemudian ia menjadi sasaran fitnah serta kritik anonim, hingga tanpa disadari Tapako sendiri telah terjerumus ke dalam pusaran balas dendam yang mengerikan.",
+    "availableEpisode": [],
+    "newUpdateCount": 0,
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shinubuzz{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shinubuzz/shinubuzz{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shinubuzz/shinubuzz{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shinubuzz/shinubuzz{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shinubuzz/shinubuzz{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shinubuzz/shinubuzz{{eps}}d.jpg",
+	"linkTrakteer": "",
+    "filePassword": "YodaViral",
+    "memberParticipate": "与田祐希",
+    "episodes": {
+        "01": {
+            "descOnAirDate": "16 Oktober 2025",
+            "linkHardsub": ""
+        },
+        "02": {
+            "descOnAirDate": "23 Oktober 2025",
+            "linkHardsub": ""
+        },
+        "03": {
+            "descOnAirDate": "30 Oktober 2025",
+            "linkHardsub": ""
+        },
+        "04": {
+            "descOnAirDate": "6 November 2025",
+            "linkHardsub": ""
+        },
+        "05": {
+            "descOnAirDate": "13 November 2025",
+            "linkHardsub": ""
+        },
+        "06": {
+            "descOnAirDate": "20 November 2025",
+            "linkHardsub": ""
+        },
+        "07": {
+            "descOnAirDate": "27 November 2025",
+            "linkHardsub": ""
+        },
+        "08": {
+            "descOnAirDate": "4 Desember 2025",
+            "linkHardsub": ""
+        },
+        "09": {
+            "descOnAirDate": "11 Desember 2025",
+            "linkHardsub": ""
+        },
+        "10": {
+            "descOnAirDate": "18 Desember 2025",
+            "linkHardsub": ""
+        }
+    },
+    "descEpisode": "| Episode {{eps}}"
+}
+
+

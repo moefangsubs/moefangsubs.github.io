@@ -1,0 +1,25 @@
+{
+	"url": "nogidouga-ayame-ni-osusume",
+	"nameShowTitle": "Ayame ni Osusume",
+	"nameShow": "あやめにオススメ！",
+	"descSynopsis": "Konten baru yang dibawakan oleh Ayame Tsutsui, \"Ayame ni Osusume!\", akhirnya dimulai! Di setiap episodenya, seorang member yang disebut \"Susumen\" akan hadir untuk mempresentasikan hal-hal yang ingin direkomendasikannya.",
+	"availableEpisode": [],
+	"newUpdateCount": 0,
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ayameniosusume.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/ayamesusume{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}d.jpg",
+	"linkTrakteer": "",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "2025",
+			"memberParticipate": "筒井あやめ、井上和",
+			"descEpisodeSynopsis": "Untuk episode perdana, Inoue Nagi akan memaparkan pesona dari permainan kartu \"Hanafuda\". Namun, Ayame tampak kesulitan memahami peraturannya yang terbilang rumit, sehingga menjadi sebuah tantangan bagi Nagi untuk membuat Ayame, sang lawan yang sulit ditaklukkan, berhasil terpikat oleh pesona permainan tersebut.",
+			"linkHardsub": ""
+		}
+	},
+	"descEpisode": "| Episode {{eps}}"
+}

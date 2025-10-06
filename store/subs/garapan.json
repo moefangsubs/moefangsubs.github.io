@@ -17,6 +17,15 @@
         ]
       },
       {
+        "name": "Nogi Douga",
+        "items": [
+          {
+            "title": "Ganbare Nogizaka",
+            "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
+          }
+        ]
+      },
+      {
         "name": "Cupstar Series",
         "items": [
           {
@@ -29,8 +38,20 @@
         "name": "Drama",
         "items": [
           {
-            "title": "Ryosangata Ruka",
-            "link": "../moesubs/subs.html?show=ryosangata-ruka"
+            "title": "Futari Escape",
+            "link": "../moesubs/subs.html?status=comingsoon"
+          },
+          {
+            "title": "Shinu made Buzztero!!",
+            "link": "../moesubs/subs.html?status=comingsoon"
+          },
+          {
+            "title": "Shin Tokyo Minakami Keisatsu",
+            "link": "../moesubs/subs.html?status=comingsoon"
+          },
+          {
+            "title": "Koisuru Keigo 24 Ji Season 2",
+            "link": "../moesubs/subs.html?status=comingsoon"
           }
         ]
       }
@@ -41,23 +62,11 @@
     "description": "Ini adalah garapan utama yang dikerjakan oleh MoeFang Subs, namun dalam antrian. Alasannya karena kesibukan lain, ada request, atau hal lain yang menyebabkan garapan di bawah masuk ke kategori ini. Kalian tidak bisa merequest garapan di bawah ini.",
     "categories": [
       {
-        "name": "Nogi Douga",
+        "name": "Web",
         "items": [
           {
-            "title": "Nogizaka Burari #19",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-burari"
-          },
-          {
-            "title": "Nogizaka Burari #20",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-burari"
-          },
-          {
-            "title": "Ganbare Nogizaka #2",
-            "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
-          },
-          {
-            "title": "Ganbare Nogizaka #3",
-            "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
+            "title": "Nogizaka46 6kisei Kadouchuu",
+            "link": "../moesubs/subs.html?status=comingsoon"
           }
         ]
       },
@@ -66,11 +75,11 @@
         "items": [
           {
             "title": "Nogizaka Touhikou Season 2",
-            "link": "../moesubs/subs.html?show=nogizaka-escape"
+            "link": "../moesubs/subs.html?status=comingsoon"
           },
           {
             "title": "Nogizaka Touhikou Season 3",
-            "link": "../moesubs/subs.html?show=nogizaka-escape"
+            "link": "../moesubs/subs.html?status=comingsoon"
           }
         ]
       }
@@ -115,6 +124,21 @@
           },
           {
             "title": "Asobu Dake #66",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #70",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #72 前編",
+            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "isRequest": true
+          },
+          {
+            "title": "Asobu Dake #72 後編",
             "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           }

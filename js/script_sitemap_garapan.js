@@ -1,4 +1,4 @@
-// ../js/script_sitemap_garapan.js (FINAL - Dengan Fitur Label Baru)
+// ../js/script_sitemap_garapan.js (FINAL - Dengan Link Tujuan yang Benar)
 document.addEventListener('DOMContentLoaded', () => {
 
     // ========== LOGIC FOR DIV 1: SALAM PEMBUKA (Tidak berubah) ==========
@@ -12,40 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         countupDaysSpan.textContent = calculateDays("2020-07-06");
     }
-	
-	
-	// =====================================
-	// Karena logika perhitungan dan animasi angka sudah dipindahkan ke script_sitemap_count.js, kita harus menghapus logika animasi yang duplikat dari script_sitemap_garapan.js agar tidak berjalan dua kali.
-	// =====================================
-	
-    // const counters = document.querySelectorAll('.counter');
-    // if (counters.length > 0) {
-        // const animate = (counter, countTo, duration) => {
-            // let startTime = null;
-            // const step = (currentTime) => {
-                // if (!startTime) startTime = currentTime;
-                // const progress = Math.min((currentTime - startTime) / duration, 1);
-                // const currentNum = Math.floor(progress * countTo);
-                // counter.textContent = currentNum.toLocaleString('id-ID');
-                // if (progress < 1) {
-                    // window.requestAnimationFrame(step);
-                // }
-            // };
-            // window.requestAnimationFrame(step);
-        // };
-        // counters.forEach(counter => {
-            // const countTo = parseFloat(counter.dataset.countTo);
-            // const duration = parseFloat(counter.dataset.duration);
-            // animate(counter, countTo, duration);
-        // });
-    // }	
-	// =====================================
 
     // ========== LOGIC FOR DIV 3: DAFTAR GARAPAN ==========
     const garapanContainer = document.getElementById('daftar-garapan');
     if (garapanContainer) {
         const listJsonPath = '../store/subs/list.json';
-        const updateJsonPath = '../store/subs/update.json'; // BARU: Path ke update.json
+        const updateJsonPath = '../store/subs/update.json';
+        const comingsoonJsonPath = '../store/subs/comingsoon.json'; 
 
         const categoryDetails = {
             "01_variety": { name: "TV VARIETY SHOW", path: '../store/subs/01_variety' },
@@ -79,19 +52,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const buildGarapanList = async () => {
             try {
-                // BARU: Ambil data dari list.json dan update.json
-                const [listResponse, updateResponse] = await Promise.all([
+                const [listResponse, updateResponse, comingsoonResponse] = await Promise.all([
                     fetch(listJsonPath),
-                    fetch(updateJsonPath) 
+                    fetch(updateJsonPath),
+                    fetch(comingsoonJsonPath) 
                 ]);
 
                 if (!listResponse.ok) throw new Error('Failed to fetch list.json');
                 if (!updateResponse.ok) throw new Error('Failed to fetch update.json');
+                if (!comingsoonResponse.ok) throw new Error('Failed to fetch comingsoon.json');
 
                 const showList = await listResponse.json();
                 const updatesByDate = await updateResponse.json();
+                const comingSoonList = await comingsoonResponse.json();
 
-                // BARU: Buat daftar acara yang baru diupdate untuk pengecekan cepat
+                const comingSoonShows = new Set();
+                for (const category in comingSoonList) {
+                    comingSoonList[category].forEach(showId => {
+                        comingSoonShows.add(showId);
+                    });
+                }
+
                 const updatedShows = new Set();
                 updatesByDate.forEach(entry => {
                     entry.updates.forEach(update => {
@@ -118,20 +99,32 @@ document.addEventListener('DOMContentLoaded', () => {
                         showsData.forEach(data => {
                             if (data && data.url && data.nameShowTitle && data.IMGSitemap) {
                                 
-                                // BARU: Cek apakah acara ini ada di daftar update
+                                const a = document.createElement('a'); // Pindahkan pembuatan elemen 'a' ke atas
+
                                 let badgeHTML = '';
-                                if (updatedShows.has(data.url)) {
+                                let linkHref = `../moesubs/subs.html?show=${data.url}`;
+
+                                if (comingSoonShows.has(data.url)) {
+                                    a.classList.add('is-coming-soon'); // TAMBAHKAN BARIS INI
+                                    linkHref = `../moesubs/subs.html?status=comingsoon`;
+                                    badgeHTML = `
+                                        <div class="garapan-comingsoon-wrapper">
+                                            <div class="garapan-comingsoon-border"></div>
+                                            <div class="garapan-comingsoon">COMING SOON</div>
+                                            <div class="garapan-comingsoon-tail"></div>
+                                        </div>
+                                    `;
+                                } else if (updatedShows.has(data.url)) {
                                     badgeHTML = `
                                         <div class="garapan-update-wrapper">
                                             <div class="garapan-update-border"></div>
                                             <div class="garapan-update">NEW!</div>
-											<div class="garapan-update-tail"></div>
+                                            <div class="garapan-update-tail"></div>
                                         </div>
                                     `;
                                 }
                                 
-                                const a = document.createElement('a');
-                                a.href = `../moesubs/subs.html?show=${data.url}`;
+                                a.href = linkHref;
                                 a.innerHTML = `
                                     <div class="cat-acara">
                                         <img src="${data.IMGSitemap}" alt="${data.nameShowTitle}" loading="lazy">
