@@ -110,8 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			</div>
 			<div class="link">
 				<div class="link-form">
-					<a href="../request.html" class="f1">Request Sub</a>
-					<a href="../moesubs/garapan.html" class="f2">Daftar Garapan</a>
+					<a href="../moesubs/garapan.html" class="f1">Daftar Garapan</a>
 				</div>
 				<div class="link-sns">
 					<a href="http://instagram.com/moefang_" target="_blank"><img src="../sprite/element/insta.svg" /></a>

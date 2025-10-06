@@ -1,0 +1,27 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogikadouchuu.png",
+    "url": "nogizaka46-6kisei-kadouchuu",
+    "nameShowTitle": "Nogizaka46 6kisei Kadouchuu",
+    "nameShow": "乃木坂46 6期生稼働中",
+    "descSynopsis": "Sebuah variety perjalanan pertama untuk gen-6 Nogizaka46, dimana mereka yang baru bergabung akan berkeliling Jepang untuk melakukan promosi dadakan demi memperkenalkan diri mereka, mengunjungi tempat-tempat bersejarah bagi Nogizaka46 sambil menikmati kuliner lokal dan mempererat ikatan antar member. Episode perdana akan menampilkan Rio Nagashima dan Moka Yada yang mengunjungi Fukuoka, di mana mereka akan meminta liputan dari media lokal, membuat materi promosi di toko kaset, serta menikmati tempat yang direkomendasikan oleh senior mereka, Miku Ichinose. Mereka juga akan mencoba membuat mentaiko orisinal sebagai hadiah ulang tahun untuk Haruka Kaki. Selain itu, pada 3 Oktober 2025, akan tayang pula program spesial di Lemino Premium yang akan mengulas kembali acara debut generasi ke-6 pada bulan April 2025. Dalam program ini, para member generasi ke-6 bersama senior mereka, Minami Umezawa, Satsuki Sugawara, dan Aya Ogawa, akan menonton ulang penampilan pertama mereka, lengkap dengan cerita di balik layar dan perasaan mereka saat itu.",
+    "availableEpisode": [],
+    "newUpdateCount": 0,
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogikadouchuu{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogikadouchuu/nogikadouchuu{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogikadouchuu/nogikadouchuu{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogikadouchuu/nogikadouchuu{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogikadouchuu/nogikadouchuu{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogikadouchuu/nogikadouchuu{{eps}}d.jpg",
+	"linkTrakteer": "",
+    "filePassword": "Gen6AcaraBaru-JalanJalan",
+    "episodes": {
+        "01": {
+            "descOnAirDate": "6 Oktober 2025",
+			"memberParticipate": "矢田萌華、長嶋凛桜",
+            "linkHardsub": ""
+        }
+    },
+    "descEpisode": "| Episode {{eps}}"
+}
+
+

@@ -1,3 +1,4 @@
+// ../js/script_subs.js (FINAL - Dengan penanganan Coming Soon)
 document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIG & DOM ELEMENTS --- //
     const contentContainer = document.getElementById('content-container');
@@ -36,13 +37,83 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentShowPath = null;
     let faqData = null;
 
+    // --- FUNGSI BARU UNTUK MENAMPILKAN PESAN COMING SOON --- //
+    function renderComingSoon() {
+        // Sembunyikan daftar episode
+        if (episodeListContainer) {
+            const wrapper = episodeListContainer.closest('.pixel-border-wrapper');
+            if (wrapper) wrapper.style.display = 'none';
+        }
+
+        // Atur agar content container memenuhi lebar
+        const contentWrapper = contentContainer.closest('.pixel-border-wrapper');
+        if (contentWrapper) {
+            contentWrapper.style.flex = '1 1 100%';
+            contentWrapper.style.maxWidth = '100%';
+        }
+
+        // Tambahkan style khusus untuk pesan
+        const style = document.createElement('style');
+        style.textContent = `
+            .status-message-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                min-height: 50vh;
+                text-align: center;
+                color: var(--moe-shade-min2);
+                padding: 2rem;
+            }
+            .status-message-container h1 {
+                font-size: 4rem;
+                font-weight: 900;
+                color: var(--moe);
+                margin: 0;
+            }
+            .status-message-container p {
+                font-size: 1.2rem;
+                margin-top: 1rem;
+            }
+            @media (max-width: 768px) {
+                .status-message-container h1 {
+                    font-size: 2.5rem;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+        
+        // Tampilkan pesan di content container
+        contentContainer.innerHTML = `
+            <div class="status-message-container">
+                <h1>Coming Soon</h1>
+                <p>Akan kami garap secepatnya ketika sudah tersedia.</p>
+            </div>
+        `;
+
+        // Ubah judul halaman
+        document.title = "Coming Soon | MoeFang Subs";
+
+        // Sembunyikan loading
+        if(loadingOverlay) loadingOverlay.style.display = 'none';
+    }
+
+
     // --- MAIN INITIALIZATION --- //
 	async function init() {
         if(loadingOverlay) loadingOverlay.style.display = 'flex';
 
         const params = new URLSearchParams(window.location.search);
         const showName = params.get('show');
+        const status = params.get('status'); // Ambil parameter status
         let episodeNumber = params.get('eps');
+
+        // --- MODIFIKASI KUNCI ADA DI SINI --- //
+        // Jika URL memiliki ?status=comingsoon, jalankan fungsi khusus dan hentikan proses
+        if (status === 'comingsoon') {
+            renderComingSoon();
+            return; // Hentikan eksekusi fungsi init lebih lanjut
+        }
 
         if (!showName) {
             handleNoShowSelected();
@@ -51,14 +122,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            // Muat data pendukung terlebih dahulu
             [membersData, warningsData, faqData] = await Promise.all([
                 fetchData(MEMBERS_DATA_PATH),
                 fetchData(WARNINGS_DATA_PATH),
                 fetchData(FAQ_DATA_PATH)
             ]);
 
-            // Ambil data acara
             const showInfo = await fetchShowData(showName);
             if (!showInfo) throw new Error(`Show data for "${showName}" not found.`);
             
@@ -66,7 +135,6 @@ document.addEventListener('DOMContentLoaded', () => {
             currentShowPath = showInfo.path;
             document.title = `${currentShowData.nameShowTitle} | MoeFang Subs`;
             
-            // --- LOGIKA UTAMA UNTUK MENANGANI EPISODE ---
             const isSingleEpisodeView = currentShowPath.includes('07_movie/') || currentShowPath.includes('08_stage/');
 
             if (isSingleEpisodeView && (!currentShowData.availableEpisode || currentShowData.availableEpisode.length === 0)) {
@@ -113,6 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if(loadingOverlay) loadingOverlay.style.display = 'none';
         }
     }
+
+    // (Salin sisa fungsi dari file script_subs.js Anda yang ada di sini...)
+    // ... fetchData, fetchShowData, renderWarningBox, buildWarningHTML, dll ...
+    // ... pastikan semua fungsi dari file asli Anda ada di bawah ini ...
 
     // --- DATA FETCHING & STATE HANDLERS --- //
     async function fetchData(url) {

@@ -25,6 +25,7 @@
 		"saito-asuka-no-konya-wa-nonde-kaerou"
 	],
 	"02_nogidouga": [
+		"nogidouga-ayame-ni-osusume",
 		"nogidouga-its-on-me",
 		"nogidouga-ganbare-nogizaka",
 		"nogidouga-girls-talk",
@@ -35,7 +36,8 @@
 		"nogidouga-yakubo-channel",
 		"nogidouga-kaettekita-yakubo-channel"
 	],
-	"03_web": [		
+	"03_web": [
+		"nogizaka46-6kisei-kadouchuu",
 		"gourmet-no-sakamichi",
 		"nogizaka-fractal-yakubo-no-heya",
 		"line-live-kubo-shiori-no-nogizaka-noborizaka",
@@ -92,6 +94,10 @@
 		"hinakoi-films"
 	],
 	"06_drama": [
+		"futari-escape",
+		"shinu-made-buzztero",
+		"shin-tokyo-minakami-keisatsu",
+		"koisuru-keigo-24ji-season-2",
 		"kanade-no-rara",
 		"kimi-wa-yotsuha-no-clover",
 		"ryosangata-ruka",
@@ -118,6 +124,7 @@
 		"nogizaka-fettucine-gummy"
 	],
 	"07_movie": [
+		"hikuidori-o-kuu",
 		"yamada-kun-to-lv999-no-koi-o-suru",
 		"nemuru-baka",
 		"zenbu-of-tokyo",
@@ -134,7 +141,9 @@
 		"hashimoto-nanami-no-koisuru-bungaku-fuyu",
 		"hashimoto-nanami-no-koisuru-bungaku-natsu",
 		"nogizaka-books",
-		"nogizaka-escape"
+		"nogizaka-escape",
+		"nogizaka-escape-season-2",
+		"nogizaka-escape-season-3"
 	],
 	"10_sapporo": [
 		"cupstar-matsumuraa",
