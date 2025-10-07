@@ -1,5 +1,16 @@
 [
   {
+    "date": "251007",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "21" },
+      { "showId": "nogizaka-otameshichuu", "eps": "52" },
+      { "showId": "nogizaka-otameshichuu", "eps": "53" },
+      { "showId": "nogizaka-otameshichuu", "eps": "54" },
+      { "showId": "nogizaka-otameshichuu", "eps": "55" },
+      { "showId": "futari-escape", "eps": "01" }
+    ]
+  },
+  {
     "date": "250927",
     "updates": [
       { "showId": "nogizaka-star-tanjou-six", "eps": "18" },
@@ -51,29 +62,6 @@
       { "showId": "spicy-sessions", "eps": "10" },
       { "showId": "zenkoku-tour", "eps": "13" },
       { "showId": "live-performance", "eps": "10" }
-    ]
-  },
-  {
-    "date": "250908",
-    "updates": [
-      { "showId": "zenkoku-tour", "eps": "11" },
-      { "showId": "zenkoku-tour", "eps": "12" }
-    ]
-  },
-  {
-    "date": "250905",
-    "updates": [
-      { "showId": "zenkoku-tour", "eps": "10" }
-    ]
-  },
-  {
-    "date": "250903",
-    "updates": [
-      { "showId": "yamada-kun-to-lv999-no-koi-o-suru", "eps": "01" },
-      { "showId": "yumeji-kuukou", "eps": "01" },
-      { "showId": "random-subs", "eps": "51" },
-      { "showId": "random-subs", "eps": "52" },
-      { "showId": "random-subs", "eps": "53" }
     ]
   }
 ]
