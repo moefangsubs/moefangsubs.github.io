@@ -5,28 +5,11 @@
 	"nameShow": "乃木坂スター誕生！SIX",
 	"descSynopsis": "Serial variety musik Nogizaka Star Tanjou! yang sebelumnya dibintangi oleh para senpai dari gen-4 dan 5 Nogizaka46, kini memasuki musim baru! Di musim ini, para member gen-6 yang bergabung pada musim semi 2025 akan menantang diri mereka! Meskipun baru saja debut, mereka akan mengasah kemampuan vokal mereka dengan membawakan lagu-lagu legendaris lintas zaman! MC yang akan mendampingi perkembangan para member gen-6 adalah Ozwald! Selain itu, para member senpai juga akan mendukung mereka yang untuk pertama kalinya mencoba tampil dalam variety show dan talk show! Bersama Ozwald dan para senpai, pesona fresh para member gen-6 akan disajikan untuk para penonton!",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10",
-		"11",
-		"12",
-		"13",
-		"14",
-		"15",
-		"16",
-		"17",
-		"18",
-		"19",
-		"20"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
+		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+		"21"
 	],
-	"newUpdateCount": 3,
+	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
@@ -236,6 +219,14 @@
 			"additionalSenpai"	: "中西アルノ",
 			"linkHardsub": "https://sfl.gl/1mvmXW",
 			"linkSoftsub": "https://sfl.gl/tifCoJ3"
+		},
+		"21": {
+			"descOnAirDate": "29 September 2025",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"linkHardsub": "https://sfl.gl/siAnYx",
+			"linkSoftsub": "https://sfl.gl/27shs6",
+			"TrakteerB": "HULU - Gen-6 bermain Pop-up Pirate",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogizaka-star-tanjou-six-vMle0"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
