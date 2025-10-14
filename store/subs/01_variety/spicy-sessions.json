@@ -14,7 +14,8 @@
 		"08",
 		"09",
 		"10",
-		"11"
+		"11",
+		"12"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_spicysessions.png",
@@ -135,8 +136,89 @@
 			"descSong5": "aiko『カブトムシ』",
 			"additionalGuests": "かれん × miyou (Little Glee Monster)",
 			"descEpisodeSynopsis": "Episode Spicy Sessions kali ini juga menghadirkan Karen dan miyou dari Little Glee Monster, grup vokal wanita berbakat yang terbentuk pada 2013 melalui audisi pencarian penyanyi kelas dunia, lalu debut mayor setahun kemudian dengan lagu \"Houkago High Five\"; kesuksesan mereka kian bersinar saat berhasil menggelar konser tunggal impian di Nippon Budokan pada 2017 serta tampil perdana di Kouhaku Uta Gassen, dan setelah kedatangan anggota baru pada 2022, mereka terus memperluas kiprahnya dengan merilis album \"UNLOCK\" pada 2024 sekaligus merayakan 10 tahun perjalanan penuh prestasi dengan konser ulang tahun yang membangkitkan antusiasme para penggemar."
-		}
+		},
+		"12": {
+			"descOnAirDate": "28 Desember 2024",
+			"descSong1": "Tani Yuuki『おかえり』",
+			"descSong2": "DEEN『このまま君だけを奪い去りたい』 ",
+			"descSong3": "RADWIMPS『愛にできることはまだあるかい』",
+			"descSong4": "Tani Yuuki『W/X/Y』",
+			"descSong5": "家入レオ『Silly』",
+			"additionalGuests": "Tani Yuuki",
+			"descEpisodeSynopsis": "Spicy Sessions episode ke-12 ini dihadiri bintang tamu seorang musisi yang memulai kariernya di media sosial pada tahun 2015. Namanya melejit lewat single \"Myra\" pada tahun 2020, dan semakin populer berkat lagu \"W/X/Y\" yang telah diputar lebih dari 700 juta kali, sebuah pencapaian langka di Jepang. Pemenang Penghargaan Pendatang Baru Terbaik di Japan Record Awards ini akan merayakan ulang tahun debutnya yang ke-5 dengan menggelar konser solo di Nippon Budokan pada tahun 2025."
+		},
+		"13": {
+			"descOnAirDate": "22 Februari 2025",
+			"descSong1": "SING LIKE TALKING『Spirit Of Love』",
+			"descSong2": "『Spirit Of Love』",
+			"descSong3": "Eagles『Hotel California』",
+			"descSong4": "小田和正『Oh! Yeah!』 ",
+			"descSong5": "SING LIKE TALKING『Rise』",
+			"additionalGuests": "佐藤竹善",
+			"descEpisodeSynopsis": ""
+		},
+		"14": {
+			"descOnAirDate": "29 Maret 2025",
+			"descSong1": "家入レオ『雨風空虹』",
+			"descSong2": "中森明菜『飾りじゃないのよ涙は』",
+			"descSong3": "斉藤和義『歌うたいのバラッド』",
+			"descSong4": "秦基博『鱗（うろこ）』",
+			"descSong5": "徳永英明『レイニー　ブルー』",
+			"additionalGuests": "家入レオ",
+			"descEpisodeSynopsis": ""
+		},
+		"15": {
+			"descOnAirDate": "26 April 2025",
+			"descSong1": "私立恵比寿中学『明日』",
+			"descSong2": "サンボマスター『輝きだして走ってく』",
+			"descSong3": "JUDY AND MARY『そばかす』",
+			"descSong4": "私立恵比寿中学『SCHOOL DAYS』",
+			"descSong5": "サザンオールスターズ『いとしのエリー』",
+			"additionalGuests": "真山りか、安本彩花 (私立恵比寿中学)",
+			"descEpisodeSynopsis": ""
+		},
+		"16": {
+			"descOnAirDate": "31 Mei 2025",
+			"descSong1": "一青窈『耳をすます』",
+			"descSong2": "小阪明子『あなた』",
+			"descSong3": "Alicia Keys『If I Ain't Got You』",
+			"descSong4": "ゴスペラーズ『あたらしい世界』",
+			"descSong5": "松田聖子『赤いスイートピー』",
+			"additionalGuests": "一青窈",
+			"descEpisodeSynopsis": ""
+		},
+		"17": {
+			"descOnAirDate": "28 Juni 2025",
+			"descSong1": "K『SPRING OUT!!!』",
+			"descSong2": "Stevie Wonder『Isn't She Lovely』",
+			"descSong3": "Lady Gaga and Bruno Mars『Die With A Smile』",
+			"descSong4": "K『Friends before Lovers』",
+			"descSong5": "東京事変『修羅場』",
+			"additionalGuests": "K",
+			"descEpisodeSynopsis": ""
+		},
+		"18": {
+			"descOnAirDate": "28 Juli 2025",
+			"descSong1": "土岐麻子『KAPPA』",
+			"descSong2": "斉藤由貴『土曜日のタマネギ』",
+			"descSong3": "Michael Jackson『HUMAN NATURE』",
+			"descSong4": "土岐麻子『僕は愛を語れない』",
+			"descSong5": "荒井由実『ひこうき雲』",
+			"additionalGuests": "土岐麻子",
+			"descEpisodeSynopsis": ""
+		},
+		"19": {
+			"descOnAirDate": "30 Agustus 2025",
+			"descSong1": "CENT『ラブシンドローム』",
+			"descSong2": "PUFFY『愛のしるし』",
+			"descSong3": "THE BLUE HEARTS『青空』",
+			"descSong4": "BiSH『スパーク』",
+			"descSong5": "ポルノグラフィティ『アゲハ蝶』",
+			"additionalGuests": "セントチヒロ・チッチ",
+			"descEpisodeSynopsis": ""
+		}	
 	},
 	"descEpisode": "| Episode {{eps}}",
 	"memberParticipate": "中西アルノ"
 }
+

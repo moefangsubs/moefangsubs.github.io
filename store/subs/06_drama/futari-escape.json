@@ -4,8 +4,10 @@
     "nameShowTitle": "Futari Escape (2025)",
     "nameShow": "ふたりエスケープ",
     "descSynopsis": "Kisah ini berpusat pada dua wanita yang tinggal bersama: seorang mangaka tidak populer bernama \"Kouhai\" yang selalu dikejar tenggat waktu, dan teman serumahnya, \"Senpai\", seorang pengangguran yang menyebut dirinya sebagai \"ahli melarikan diri dari kenyataan\". Kouhai, yang seringkali melewati tenggat waktunya hingga merepotkan editornya, adalah penggemar berat pengisi suara Akari Tamura dan sering mengirim surel ke acara radionya dengan nama samaran \"Yurihime Nitaro\", serta mengunggah foto kesehariannya di media sosial dengan akun \"yurihime2taro\". Di sisi lain, Senpai adalah kakak kelas Kouhai di SMA yang dulunya populer karena penampilannya yang menawan. Meskipun kini menganggur dan sering disebut oleh Kouhai hanya \"bermodal tampang\", Senpai sangat peduli pada teman serumahnya itu. Setiap kali Kouhai merasa tertekan oleh pekerjaannya, Senpai yang memiliki SIM akan menemaninya dalam berbagai upaya \"melarikan diri dari kenyataan\", mulai dari berkendara tanpa tujuan menggunakan mobil sewaan hingga melakukan hal-hal mewah lainnya.",
-    "availableEpisode": ["01"],
-    "newUpdateCount": 1,
+    "availableEpisode": [
+		"waiwai01", "01", "waiwai02", "02"
+	],
+    "newUpdateCount": 4,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/futariescape{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/futariescape{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/futariescape{{eps}}a.jpg",
@@ -16,15 +18,43 @@
     "filePassword": "RentanNaonaoKaburDariKenyataan",
     "memberParticipate": "岩本蓮加、冨里奈央",
     "episodes": {
+        "waiwai01": {
+			"descEpisode": "| Waiwai Escape #1",
+            "descOnAirDate": "3 Oktober 2025",
+			"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/waiwaiescape01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape01c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape01d.jpg",
+            "linkHardsub": "https://sfl.gl/k3f4gI",
+			"linkSoftsub": "https://sfl.gl/VeaLos9",
+			"linkRAW": "https://www.youtube.com/watch?v=zWPv_IEi3EA",
+			"RawSource": "IchijinshaTV"
+        },
         "01": {
             "descOnAirDate": "5 Oktober 2025",
 			"descEpisodeSynopsis": "Senpai, seorang \"pengangguran profesional\", tinggal bersama Kouhai, seorang mangaka yang selalu terdesak tenggat waktu. Suatu hari, Kouhai yang pekerjaannya tidak kunjung selesai merasa muak dengan telepon dari editornya dan meminta Senpai untuk menemaninya melarikan diri dari kenyataan. Meskipun awalnya menolak, provokasi Kouhai membuat Senpai setuju dan menyatakan akan menunjukkan \"cara melarikan diri dari kenyataan yang profesional\", lalu menjauhkan ponsel Kouhai dengan metode yang ekstrem.",
             "linkHardsub": "https://sfl.gl/WKZkUf"
         },
+        "waiwai02": {
+			"descEpisode": "| Waiwai Escape #2",
+            "descOnAirDate": "10 Oktober 2025",
+			"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/waiwaiescape02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape02c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape02d.jpg",
+            "linkHardsub": "https://sfl.gl/MzHq",
+			"linkSoftsub": "https://sfl.gl/aWS9r6Y",
+			"linkRAW": "https://www.youtube.com/watch?v=cTlF44lH7PU",
+			"RawSource": "IchijinshaTV"
+        },
         "02": {
             "descOnAirDate": "12 Oktober 2025",
 			"descEpisodeSynopsis": "Senpai, seorang \"pengangguran profesional\", dan Kouhai, seorang mangaka yang kelelahan karena naskahnya, mengunjungi sebuah taman untuk bersantai. Mereka kembali ke masa kecil dengan bermain di perosotan gurita, memainkan permainan \"Daruma-san ga Koronda\", dan membuat bola lumpur. Saat sedang asyik bermain, mereka disapa oleh anak-anak, yang akhirnya menantang Kouhai untuk bertanding sumo. Namun, setelah puas bermain dan kembali ke apartemen, mereka menyadari bahwa kunci mereka hilang. Tanpa diduga, Senpai pun tiba-tiba menyarankan agar mereka menginap di depan pintu masuk apartemen mereka malam itu.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/7GEw1"
         },
         "03": {
             "descOnAirDate": "19 Oktober 2025",

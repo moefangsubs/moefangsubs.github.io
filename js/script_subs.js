@@ -330,11 +330,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- RENDERING & HELPER FUNCTIONS --- //
 	function renderEpisodeList(showData, activeEpisode) {
-        if (!episodeListContainer) return;
+		if (!episodeListContainer) return;
 		const episodeList = document.createElement('div');
 		episodeList.id = 'episode-list';
 		const reversedEpisodes = showData.availableEpisode.slice().reverse();
+		
+		const useSpecificUpdate = showData.SpecificUpdate && Array.isArray(showData.SpecificUpdate);
 		const newCount = showData.newUpdateCount || 0;
+
 		reversedEpisodes.forEach((eps, index) => {
 			const episodeData = showData.episodes[eps];
 			let imageUrl = episodeData?.imageThumbEps || showData.IMGThumbnailEps?.replace('{{eps}}', eps) || '../sprite/placeholder.jpg';
@@ -344,13 +347,22 @@ document.addEventListener('DOMContentLoaded', () => {
 			episodeLink.className = 'episode-item';
 			if (eps === activeEpisode) episodeLink.classList.add('active');
 			episodeLink.innerHTML = `<img src="${imageUrl}" alt="${episodeText}" loading="lazy"><span>${episodeText}</span>`;
-			if (index < newCount) {
+			
+			let isNew = false;
+			if (useSpecificUpdate) {
+				isNew = showData.SpecificUpdate.includes(eps);
+			} else {
+				isNew = index < newCount;
+			}
+
+			if (isNew) {
 				episodeLink.classList.add('is-new');
 				const newLabel = document.createElement('div');
 				newLabel.className = 'new-label';
 				newLabel.textContent = 'NEW';
 				episodeLink.appendChild(newLabel);
 			}
+			
 			episodeList.appendChild(episodeLink);
 		});
 		episodeListContainer.innerHTML = '<h4>Daftar Episode</h4>';
@@ -408,18 +420,21 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	function buildThumbnails(showData, episodeData, episodeNumber) {
 		const mainThumbsList = [];
-		const primaryBigThumb = showData.imageThumbBigPattern?.replace('{{eps}}', episodeNumber) || episodeData.imageThumbBig;
+		const primaryBigThumb = episodeData.imageThumbBig || showData.imageThumbBigPattern?.replace('{{eps}}', episodeNumber);
 		if (primaryBigThumb) mainThumbsList.push(primaryBigThumb);
+
 		for (let i = 0; i <= 20; i++) {
 			const key = `imageManga${String(i).padStart(2, '0')}`;
 			if (episodeData[key]) mainThumbsList.push(episodeData[key]);
 		}
+
 		const smallThumbs = [
-			showData.imageThumbAPattern?.replace('{{eps}}', episodeNumber) || episodeData.imageThumbA,
-			showData.imageThumbBPattern?.replace('{{eps}}', episodeNumber) || episodeData.imageThumbB,
-			showData.imageThumbCPattern?.replace('{{eps}}', episodeNumber) || episodeData.imageThumbC,
-			showData.imageThumbDPattern?.replace('{{eps}}', episodeNumber) || episodeData.imageThumbD
+			episodeData.imageThumbA || showData.imageThumbAPattern?.replace('{{eps}}', episodeNumber),
+			episodeData.imageThumbB || showData.imageThumbBPattern?.replace('{{eps}}', episodeNumber),
+			episodeData.imageThumbC || showData.imageThumbCPattern?.replace('{{eps}}', episodeNumber),
+			episodeData.imageThumbD || showData.imageThumbDPattern?.replace('{{eps}}', episodeNumber)
 		].filter(Boolean);
+
 		if (mainThumbsList.length === 0 && smallThumbs.length === 0) return '';
 		let content = '<div id="content-thumbnails">';
 		mainThumbsList.forEach(thumbUrl => {
@@ -552,15 +567,18 @@ document.addEventListener('DOMContentLoaded', () => {
 			buttonHTML += createButtonWrapper(button, 'full-width');
 		});
 
-		const hasRaw = !!showData.linkRAW;
-		const hasFont = !!showData.linkFont;
-		if (hasRaw) {
-			const button = `<a href="${showData.linkRAW}" target="_blank" rel="noopener noreferrer" class="dl-button btn-extra" style="--border-color: var(--moe-tint4);"><span>RAW (${showData.RawSource || '?'})</span></a>`;
+		// --- PERBAIKAN DI SINI ---
+		const finalLinkRAW = episodeData.linkRAW || showData.linkRAW;
+		const finalRawSource = episodeData.RawSource || showData.RawSource || '?';
+		const hasFont = !!showData.linkFont; // Asumsi link font selalu global
+
+		if (finalLinkRAW) {
+			const button = `<a href="${finalLinkRAW}" target="_blank" rel="noopener noreferrer" class="dl-button btn-extra" style="--border-color: var(--moe-tint4);"><span>RAW (${finalRawSource})</span></a>`;
 			buttonHTML += createButtonWrapper(button, !hasFont ? 'full-width' : '');
 		}
 		if (hasFont) {
 			const button = `<a href="${showData.linkFont}" target="_blank" rel="noopener noreferrer" class="dl-button btn-extra" style="--border-color: var(--moe-tint4);"><span>FONT</span></a>`;
-			buttonHTML += createButtonWrapper(button, !hasRaw ? 'full-width' : '');
+			buttonHTML += createButtonWrapper(button, !finalLinkRAW ? 'full-width' : '');
 		}
 
 		if (buttonHTML) return `<div id="content-buttons">${buttonHTML}</div>`;

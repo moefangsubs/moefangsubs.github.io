@@ -2,39 +2,12 @@
 	"url": "showroom",
 	"nameShowTitle": "Showroom",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10",
-		"11",
-		"12",
-		"13",
-		"14",
-		"15",
-		"16",
-		"17",
-		"18",
-		"19",
-		"20",
-		"21",
-		"22",
-		"23",
-		"24",
-		"25",
-		"26",
-		"27",
-		"28",
-		"29",
-		"30",
-		"31"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
+		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
+		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
+		"31", "32", "33", "34", "35"
 	],
-	"newUpdateCount": 7,
+	"newUpdateCount": 4,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_showroom.png",
 	"episodes": {
 		"01": {
@@ -531,6 +504,75 @@
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Sugawara Satsuki.",
 			"nameShow": "SHOWROOM のぎおび"
+		},
+		"32": {
+			"descEpisode": "| 250922 NOGIOBI (Inoue Nagi)",
+			"descEpsListName": "Inoue Nagi",
+			"descOnAirDate": "22 September 2025",
+			"memberParticipate": "井上和",
+			"linkHardsub": "https://sfl.gl/NEBR",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250922_SR-InoueNagi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250922_SR-InoueNagi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250922_SR-InoueNagi1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250922_SR-InoueNagi2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250922_SR-InoueNagi3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Inoue Nagi.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"33": {
+			"descEpisode": "| 250929 NOGIOBI (Kaki Haruka)",
+			"descEpsListName": "Kaki Haruka",
+			"descOnAirDate": "29 September 2025",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://sfl.gl/rQ1I",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250929_SR-KakiHaruka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250929_SR-KakiHaruka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250929_SR-KakiHaruka1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250929_SR-KakiHaruka2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250929_SR-KakiHaruka3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Kaki Haruka sebagai kamioshi-nya yang punya fansub ini.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"34": {
+			"descEpisode": "| 251006 NOGIOBI (Tomisato Nao)",
+			"descEpsListName": "Tomisato Nao",
+			"descOnAirDate": "6 Oktober 2025",
+			"memberParticipate": "冨里奈央",
+			"linkHardsub": "https://sfl.gl/noZpdX",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251006_SR-TomisatoNao.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251006_SR-TomisatoNao.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251006_SR-TomisatoNao1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251006_SR-TomisatoNao2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251006_SR-TomisatoNao3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Tomisato Nao.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"35": {
+			"descEpisode": "| 251007 NOGIOBI (Ikeda Teresa)",
+			"descEpsListName": "Ikeda Teresa",
+			"descOnAirDate": "7 Oktober 2025",
+			"memberParticipate": "池田瑛紗",
+			"linkHardsub": "https://sfl.gl/af9OUp",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251007_SR-IkedaTeresa.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251007_SR-IkedaTeresa.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251007_SR-IkedaTeresa1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251007_SR-IkedaTeresa2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251007_SR-IkedaTeresa3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Ikeda Teresa.",
+			"nameShow": "SHOWROOM のぎおび"
 		}
 	}
 }
+
+
+
+
+
