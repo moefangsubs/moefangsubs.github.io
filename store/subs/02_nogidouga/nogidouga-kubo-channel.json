@@ -3,15 +3,9 @@
 	"nameShowTitle": "Kubo Channel",
 	"nameShow": "久保チャンネル",
 	"descSynopsis": "\"Kubo Channel\" merupakan acara khusus yang disiarkan dalam platform Nogi Douga yang dibuat di mana konten-konten di dalamnya dijelaskan oleh Kubo Shiori, yang memiliki kecintaan terbesar pada grup Nogizaka46 dan memiliki ingatan yang kuat. Program ini baik konser, MV maupun konten lainnya membuat yang menonton menjadi lebih menarik, dengan cerita di balik layar dari sudut pandang para member.",
-	"availableEpisode": [
-		"57",
-		"62",
-		"114",
-		"115",
-		"116",
-		"120"
-	],
-	"newUpdateCount": 1,
+	"availableEpisode": ["57", "62", "111", "112", "113", "114", "115", "116", "120"],
+	"newUpdateCount": 3,
+	"SpecificUpdate": ["111", "112", "113"],
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_kubochannel.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kubochannel_{{eps}}.jpg",	
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post//kubochannel/kubochannel{{eps}}.jpg",
@@ -30,6 +24,24 @@
 			"descOnAirDate": "7 Februari 2023",
 			"memberParticipate": "久保史緒里、賀喜遥香",
 			"descEpisodeSynopsis": "Di episode 62 ini, Kubo Channel kedatangan tamu dari gen-4, Kaki Haruka, yang masih sama seperti di episode sebelumnya. Di sini mereka akan melihat tayangan 10th Birthday Live dimana Akimoto Manatsu menjadi center dari lagu \"Sayonara no Imi\", dan setelah itu kita akan mendengar cerita kecil tentang kedekatan mereka bersama Manatsu-san."
+		},
+		"111": {
+			"descOnAirDate": "8 Maret 2025",
+			"memberParticipate": "久保史緒里、井上和、中西アルノ",
+			"descEpisodeSynopsis": "Di episode 111 ini, Kubo Shiori kedatangan dua tamu istimewa, Inoue Nagi dan Nakanishi Aruno, yang merupakan W-center untuk single ke-38. Mereka akan menonton bersama video musik \"Navel Orange\" dan membahas berbagai hal, mulai dari cerita di balik panggung saat penampilan perdana lagu tersebut, di mana terungkap ucapan tak terduga dari Inoue, hingga pengakuan Kubo mengenai sesuatu yang ia khawatirkan saat syuting video musik. Selain itu, keduanya juga akan berbagi tentang perasaan mereka pasca pengumuman senbatsu dan cerita makan bersama yang menunjukkan kedekatan hubungan mereka.",
+			"linkHardsub": "https://sfl.gl/Q0ttz"
+		},
+		"112": {
+			"descOnAirDate": "15 April 2025",
+			"memberParticipate": "久保史緒里、井上和、中西アルノ",
+			"descEpisodeSynopsis": "Di episode 112 ini, kita akan kembali ke acara \"Omitatekai Gen-5\" yang diadakan pada bulan Februari 2022. Inoue Nagi dan Nakanishi Aruno bersama Kubo Shiori akan menonton kembali momen perkenalan mereka yang unik serta penampilan \"Influencer\" yang mereka bawakan sebagai W-center.",
+			"linkHardsub": "https://sfl.gl/bNZXMfM"
+		},
+		"113": {
+			"descOnAirDate": "22 April 2025",
+			"memberParticipate": "久保史緒里、井上和、中西アルノ",
+			"descEpisodeSynopsis": "Di episode 113 ini, Inoue Nagi dan Nakanishi Aruno akan menonton kembali penampilan \"Zetsubou no Ichibyou Mae\" dari Zenkoku Tour tahun lalu, sambil mengenang ketegangan dan perasaan mereka saat itu dari sudut pandang masing-masing. Inoue bahkan meneteskan air mata saat teringat kembali emosi yang meluap ketika terpilih menjadi center musim panas selama dua tahun berturut-turut. Jangan lewatkan sesi bincang-bincang yang penuh kehangatan dan kejujuran di antara ketiganya.",
+			"linkHardsub": "https://sfl.gl/zIkR9Kvu"
 		},
 		"114": {
 			"descOnAirDate": "27 Mei 2025",

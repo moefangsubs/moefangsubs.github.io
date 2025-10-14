@@ -1,5 +1,23 @@
 [
   {
+    "date": "251014",
+    "updates": [
+      { "showId": "nogidouga-kubo-channel", "eps": "111" },
+      { "showId": "nogidouga-kubo-channel", "eps": "112" },
+      { "showId": "nogidouga-kubo-channel", "eps": "113" },
+      { "showId": "spicy-sessions", "eps": "12" },
+      { "showId": "showroom", "eps": "32" },
+      { "showId": "showroom", "eps": "33" },
+      { "showId": "showroom", "eps": "34" },
+      { "showId": "showroom", "eps": "35" },
+      { "showId": "kanade-no-rara", "eps": "06" },
+      { "showId": "kanade-no-rara", "eps": "07" },
+      { "showId": "futari-escape", "eps": "waiwai01" },
+      { "showId": "futari-escape", "eps": "waiwai02" },
+      { "showId": "futari-escape", "eps": "02" }
+    ]
+  },
+  {
     "date": "251008",
     "updates": [
       { "showId": "shin-tokyo-suijou-keisatsu", "eps": "01" }

@@ -19,7 +19,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["Acchan","田中文人"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1tvNhRW95Z86zijxvWHkTB2zG8dDthhFo"
+			"LinkDownMV1": "https://drive.google.com/file/d/1tvNhRW95Z86zijxvWHkTB2zG8dDthhFo",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1yIeBJFyWo5-BBpPxrGARCkj1TxDIyypv"
 		},
 		{
 			"titleJp": "左胸の勇気",
@@ -34,7 +38,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongCompJP": "小内喜文",
 			"SongArraJP": "佐々木裕",
-			"SongChoreo": "南流石"
+			"SongChoreo": "南流石",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1rFJhbkf5y_4cLN5KEcp4mCs1PzChsKSi"
 		},
 		{
 			"titleJp": "乃木坂の詩",
@@ -74,7 +82,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "夏まゆみ",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/12YY1ecyuSahfWMO_L5zsQGITpyZVIR5B"
+			"LinkDownMV1": "https://drive.google.com/file/d/12YY1ecyuSahfWMO_L5zsQGITpyZVIR5B",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1W5ZtPExoS2Ep5tsyBqSCTMNSEZZeDI1v"
 		},
 		{
 			"titleJp": "失いたくないから",
@@ -94,7 +106,11 @@
 			"SongArraJP": "塩川満己",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1BKDNtyvR26IHrfmgdMAEFPEaLwv1v-RT"
+			"LinkDownMV1": "https://drive.google.com/file/d/1BKDNtyvR26IHrfmgdMAEFPEaLwv1v-RT",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1vBYfpP6GiRS1cXXB4N_bmljqA-Iua0p5"
 		},
 		{
 			"titleJp": "白い雲にのって",
@@ -110,7 +126,11 @@
 			"members1": ["橋本奈々未","松村沙友理","生田絵梨花","生駒里奈","星野みなみ","白石麻衣","高山一実"],
 			"SongCompJP": "太田美知彦",
 			"SongArraJP": "太田美知彦",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1z-DThDdebzeBFAR3GZCLttm1cgTj3FgA"
 		}
 	],
 	"s02": [
@@ -132,7 +152,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1U8Wq6VZEAf0WyHEWn-tNojMte0X_wRpH"
+			"LinkDownMV1": "https://drive.google.com/file/d/1U8Wq6VZEAf0WyHEWn-tNojMte0X_wRpH",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1nulhG9etgZmaBTbytx65bVR_ipoaYhI-"
 		},
 		{
 			"titleJp": "心の薬",
@@ -148,7 +172,11 @@
 			"members1": ["橋本奈々未","桜井玲香","生駒里奈","中田花奈","白石麻衣"],
 			"SongCompJP": "MIKOTO",
 			"SongArraJP": "木之下慶行",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1cMjrw7JdpdlFA_WClrQYT_IuBzPEriNT"
 		},
 		{
 			"titleJp": "偶然を言い訳にして",
@@ -167,7 +195,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "振付稼業air:man",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1t9t_B7fjlCCEQ1hZJeRvAP_S8zm6cala"
+			"LinkDownMV1": "https://drive.google.com/file/d/1t9t_B7fjlCCEQ1hZJeRvAP_S8zm6cala",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=12X8FcEN6Qy0-3wkXgHa4fWEb0CDj313U"
 		},
 		{
 			"titleJp": "水玉模様",
@@ -183,7 +215,11 @@
 			"SongArraJP": "若田部誠",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1CGZX_Y_rYVFgC60M1uTkb2Bp2POvTI46"
+			"LinkDownMV1": "https://drive.google.com/file/d/1CGZX_Y_rYVFgC60M1uTkb2Bp2POvTI46",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1nTWsF_1HodOtoqj2UFd4fy-BYlBzjp5B"
 		},
 		{
 			"titleJp": "狼に口笛を",
@@ -204,7 +240,11 @@
 			"SongMVDirRO": "FUKUI Hideaki",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/13S3ev4YMrqiWzjLF5qUNMHPZVyfBnUI_"
+			"LinkDownMV1": "https://drive.google.com/file/d/13S3ev4YMrqiWzjLF5qUNMHPZVyfBnUI_",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "22 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1bzaCQbaqQd9ZkwwOAOUi8QIll_dn6oaq"
 		},
 		{
 			"titleJp": "ハウス！",
@@ -218,7 +258,11 @@
 			"members0": ["生田絵梨花","生駒里奈","市來玲奈","井上小百合","岩瀬佑美子","衛藤美彩","川村真洋","斉藤優里","桜井玲香","白石麻衣","高山一実","中田花奈","西野七瀬","能條愛未","橋本奈々未","畠中清羅","星野みなみ","松村沙友理","宮澤成良","若月佑美"],
 			"SongCompJP": "y@suo ohtani",
 			"SongArraJP": "y@suo ohtani",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "43.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1EGRBD8ToeekBepioi0Vh9cFocsftFNow"
 		}
 	],
 	"s03": [
@@ -240,7 +284,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/17y52wy32I5yGgDN7plHFnmupSayoU_28"
+			"LinkDownMV1": "https://drive.google.com/file/d/17y52wy32I5yGgDN7plHFnmupSayoU_28",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "26.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1trLZ5VaIsPnFsDHdnoMS70iPBGT7ePUy"
 		},
 		{
 			"titleJp": "せっかちなかたつむり",
@@ -258,7 +306,11 @@
 			"SongArraJP": "湯浅篤",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1kLIsIFQUcD0N6zBV1M6WMLP96ndIcdOX"
+			"LinkDownMV1": "https://drive.google.com/file/d/1kLIsIFQUcD0N6zBV1M6WMLP96ndIcdOX",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "37.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ZDGsrsdzK71yPVVdTOatlJ9NsAn7uoDg"
 		},
 		{
 			"titleJp": "涙がまだ悲しみだった頃",
@@ -280,7 +332,11 @@
 			"SongMVDirRO": "SEKI Kazuaki",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Ju5H7Z4qsz_BPocdC9MSTVipy6W6hrQr"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Ju5H7Z4qsz_BPocdC9MSTVipy6W6hrQr",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1SOLkLLqOjD7V9bFILBPunKT078AAKrqD"
 		},
 		{
 			"titleJp": "人はなぜ走るのか？",
@@ -299,7 +355,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1aDf1G77f0LxnFA9zSJRxaBPcT1KahmGF"
+			"LinkDownMV1": "https://drive.google.com/file/d/1aDf1G77f0LxnFA9zSJRxaBPcT1KahmGF",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "38 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1yPEKSH6HVOsRgJVjBpUtz9MK5SWpdPmH"
 		},
 		{
 			"titleJp": "音が出ないギター",
@@ -317,7 +377,11 @@
 			"SongArraJP": "シライシ紗トリ",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1govo5PY0cr8PH_tbCA39FlgQ4rt8C1Gm"
+			"LinkDownMV1": "https://drive.google.com/file/d/1govo5PY0cr8PH_tbCA39FlgQ4rt8C1Gm",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1B5EZN3AO_0bRfvvQEq7R0YVoAD7iVumR"
 		},
 		{
 			"titleJp": "海流の島よ",
@@ -331,7 +395,11 @@
 			"members0": ["安藤美雲","川後陽菜","中元日芽香","齋藤飛鳥","畠中清羅","樋口日奈","和田まあや"],
 			"SongCompJP": "Akira Sunset",
 			"SongArraJP": "京田誠一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=14JHqskesy8xoRHe1BD_OsRaastbT3Lz4"
 		}
 	],
 	"s04": [
@@ -353,7 +421,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1YA5eDHIVX1sFKllEV9n-ok3kWsZ0cB8U"
+			"LinkDownMV1": "https://drive.google.com/file/d/1YA5eDHIVX1sFKllEV9n-ok3kWsZ0cB8U",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1TmQK6WfiATSN1IXmErjxF0Kgk2ABI9BG"
 		},
 		{
 			"titleJp": "指望遠鏡",
@@ -372,7 +444,11 @@
 			"SongArraJP": "木村有希",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1jZ900OasZtgX7GkBQUfh37185vrqZd_D"
+			"LinkDownMV1": "https://drive.google.com/file/d/1jZ900OasZtgX7GkBQUfh37185vrqZd_D",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "24.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1eThDo4SVtEUTZeCW4h9Zf8mRZztL5Qbj"
 		},
 		{
 			"titleJp": "やさしさなら間に合ってる",
@@ -386,7 +462,11 @@
 			"members0": ["市來玲奈","井上小百合","齋藤飛鳥","高山一実","西野七瀬","能條愛未","深川麻衣","若月佑美"],
 			"SongCompJP": "松田純一",
 			"SongArraJP": "清水武仁",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=17hhZgvsNQj9MOjrYee5NgaLRCS9Pg8Tw"
 		},
 		{
 			"titleJp": "ここじゃないどこか",
@@ -403,7 +483,11 @@
 			"SongArraJP": "京田誠一",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1iqn6VwMUI7BP0nT6H0-UEtiuBlFvlFtX"
+			"LinkDownMV1": "https://drive.google.com/file/d/1iqn6VwMUI7BP0nT6H0-UEtiuBlFvlFtX",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "19.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1_It5wXDSwltcjB0O0l_yU35B8EozEFtU"
 		},
 		{
 			"titleJp": "春のメロディー",
@@ -424,7 +508,11 @@
 			"SongMVDirRO": "KAKIMOTO Kensaku",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1pLg0IKEXAymJkvM6PAScYtZM-M67g63j"
+			"LinkDownMV1": "https://drive.google.com/file/d/1pLg0IKEXAymJkvM6PAScYtZM-M67g63j",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18W1eJqws-CVID902Jm2BSpghmZTs5xQ4"
 		},
 		{
 			"titleJp": "渋谷ブルース",
@@ -437,7 +525,11 @@
 			"members0": ["白石麻衣","高山一実"],
 			"SongCompJP": "佐藤嘉風",
 			"SongArraJP": "佐藤嘉風",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "22.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ZbTqaOFsM9E78EmQHuWJ-NL_uCkDkKA5"
 		}
 	],
 	"s05": [
@@ -461,7 +553,11 @@
 			"HasMV": "yes",
 			"LinkDownMV1": "https://drive.google.com/file/d/1etGUlAuDJsVoczt4ugQo8n8Tb-Cc0lVw",
 			"LinkDownMV2": "https://drive.google.com/file/d/1yGYF72G6Je0YDRwR5AG9QkPPIZk6glSP",
-			"LinkMV2Desc": "Dance & Lip ver."
+			"LinkMV2Desc": "Dance & Lip ver.",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.18 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Ey6sB9jaQ6FX1oL0JGjcnQuTlxYIHPEp"
 		},
 		{
 			"titleJp": "シャキイズム",
@@ -480,7 +576,11 @@
 			"SongArraJP": "岡本健介",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1UarGLN2xkiI6A3MOz-Cdw3my_MLg9SHc"
+			"LinkDownMV1": "https://drive.google.com/file/d/1UarGLN2xkiI6A3MOz-Cdw3my_MLg9SHc",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.54 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Ofay3JpJFnv_HdV6VYfYP8Tq6wzJck2Q"
 		},
 		{
 			"titleJp": "ロマンティックいか焼き",
@@ -493,7 +593,11 @@
 			"members0": ["秋元真夏","生田絵梨花","生駒里奈","伊藤寧々","井上小百合","桜井玲香","白石麻衣","高山一実","中田花奈","永島聖羅","西野七瀬","橋本奈々未","深川麻衣","星野みなみ","松村沙友理","若月佑美"],
 			"SongCompJP": "横健介",
 			"SongArraJP": "重永亮介",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.48 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ALmK5Jx1IHCXmEXGWO3DYPRiU12Hw733"
 		},
 		{
 			"titleJp": "13日の金曜日",
@@ -513,7 +617,11 @@
 			"SongMVDirRO": "YAMADA Atsuhiro",
 			"SongChoreo": "南流石",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1S_vsPBj9nU5ER3WOU9oBmGauopyO_rup"
+			"LinkDownMV1": "https://drive.google.com/file/d/1S_vsPBj9nU5ER3WOU9oBmGauopyO_rup",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "25.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1rGxfgYatomZ5frVVKZVafbRskpwSUArM"
 		},
 		{
 			"titleJp": "でこぴん",
@@ -530,7 +638,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1OP_IUD3YJZq5vghppAX1iVj2Zk74jxN7"
+			"LinkDownMV1": "https://drive.google.com/file/d/1OP_IUD3YJZq5vghppAX1iVj2Zk74jxN7",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1gxo9kJjhl5wLZg4sNAzTLF3Mt43epSX7"
 		},
 		{
 			"titleJp": "サイコキネシスの可能性",
@@ -544,7 +656,11 @@
 			"members1": ["永島聖羅","井上小百合","秋元真夏","桜井玲香","西野七瀬","若月佑美","中田花奈","伊藤寧々"],
 			"SongCompJP": ["杉山勝彦","小倉しんこう"],
 			"SongArraJP": "京田誠一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1xDkN4mYCLjKQguB1RRWcdMiiK8dZGoIK"
 		}
 	],
 	"s06": [
@@ -566,7 +682,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/15HL1TKt7KiiUqr0pDXqjbNuGzfFph-4F"
+			"LinkDownMV1": "https://drive.google.com/file/d/15HL1TKt7KiiUqr0pDXqjbNuGzfFph-4F",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "38.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1L-rnG93fRpEllLPmzqRIp277VBbvNXQm"
 		},
 		{
 			"titleJp": "世界で一番 孤独なLover",
@@ -586,7 +706,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1BDKxxb5DKbIb0kHw5u7bZMj687cIIhG9"
+			"LinkDownMV1": "https://drive.google.com/file/d/1BDKxxb5DKbIb0kHw5u7bZMj687cIIhG9",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YQUNknS_typzISEjSLNfPduTwXBpq7ln"
 		},
 		{
 			"titleJp": "コウモリよ",
@@ -601,7 +725,11 @@
 			"SongArraJP": "高梨康治",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Of88-ag8RYOhBzGs8qUQ47Gy-hJlLgJ2"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Of88-ag8RYOhBzGs8qUQ47Gy-hJlLgJ2",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1PQWScKeJfI3-uXcGeucUIewmeOfW2R58"
 		},
 		{
 			"titleJp": "扇風機",
@@ -620,7 +748,12 @@
 			"SongCompJP": "角野寿和",
 			"SongArraJP": "野村陽一郎",
 			"SongMVDirJP": "池田一真",
-			"SongMVDirRO": "IKEDA Kazuma"
+			"SongMVDirRO": "IKEDA Kazuma",
+			"LinkDownMV1": "https://drive.google.com/file/d/1Of88-ag8RYOhBzGs8qUQ47Gy-hJlLgJ2/view?usp=drive_link",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "26.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1nuL5DG6v85iYaiSlNQwFzoJ3RWOMr39p"
 		},
 		{
 			"titleJp": "他の星から",
@@ -639,7 +772,11 @@
 			"SongArraJP": "Sugaya Bros.",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1LwjdXhnD8_QbeehA4JaCGOpq-RjoHdlm"
+			"LinkDownMV1": "https://drive.google.com/file/d/1LwjdXhnD8_QbeehA4JaCGOpq-RjoHdlm",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1XOmRdyLkrPs2TXISq8S2YzmLR9D4iXbb"
 		},
 		{
 			"titleJp": "人間という楽器",
@@ -654,7 +791,11 @@
 			"members1": ["柏幸奈","松村沙友理","生田絵梨花","若月佑美","白石麻衣","生駒里奈","深川麻衣","能條愛未","斉藤優里","井上小百合"],
 			"SongCompJP": "鐘撞行孝",
 			"SongArraJP": "TATOO",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1IqpwNhSKNoyF29C4iygr3BBWgEl7CWko"
 		}
 	],
 	"s07": [
@@ -676,7 +817,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1WLzclR8GQHN3_54se_B6sCQVyxe_UAUc"
+			"LinkDownMV1": "https://drive.google.com/file/d/1WLzclR8GQHN3_54se_B6sCQVyxe_UAUc",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Z4M__cGJhh_-z0VTJtH6nJVIDzVKfIQ_"
 		},
 		{
 			"titleJp": "月の大きさ",
@@ -694,7 +839,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1S4OGhMh9Xr2WEWnoaUaWzgcLIdcQt-M3"
+			"LinkDownMV1": "https://drive.google.com/file/d/1S4OGhMh9Xr2WEWnoaUaWzgcLIdcQt-M3",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=12sMPv82JJuaNTO7QUT5Tsumxd9WvAcfm"
 		},
 		{
 			"titleJp": "私のために　誰かのために",
@@ -707,7 +856,11 @@
 			"center": "白石麻衣",
 			"members0": ["衛藤美彩","川村真洋","白石麻衣","桜井玲香","高山一実"],
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=128PatRMAY2DJH3E2LBboDpP68R3CCHAx"
 		},
 		{
 			"titleJp": "そんなバカな・・・",
@@ -727,7 +880,11 @@
 			"SongArraJP": "Akira Sunset",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1kpBdUzvR80SEkozH_CnKOJ1QyANUYifp"
+			"LinkDownMV1": "https://drive.google.com/file/d/1kpBdUzvR80SEkozH_CnKOJ1QyANUYifp",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1bEWawkB3IChj0b23HDcUWC7damhQYbRt"
 		},
 		{
 			"titleJp": "初恋の人を今でも",
@@ -747,7 +904,11 @@
 			"SongMVDirRO": "TADOKORO Takashi",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1LKGSiRZiXfxcSSCFGhUnZJd-G4riPemE"
+			"LinkDownMV1": "https://drive.google.com/file/d/1LKGSiRZiXfxcSSCFGhUnZJd-G4riPemE",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "26.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1l2S2EzFoSnUq2-arTRz1tznG8h-PdWPm"
 		},
 		{
 			"titleJp": "やさしさとは",
@@ -762,7 +923,11 @@
 			"SongCompJP": "古川貴浩",
 			"SongArraJP": "古川貴浩",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=11oQeT9L4f-YtugMBA5Zjz2a9cS5P8NEd"
 		}
 	],
 	"s08": [
@@ -784,7 +949,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ebzsKtlJk223KMGiuImqBeP5Ud25wqw1"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ebzsKtlJk223KMGiuImqBeP5Ud25wqw1",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=10L9BcqR7xAt_D9w0NfkVFiWIQeW31Y7G"
 		},
 		{
 			"titleJp": "ロマンスのスタート",
@@ -804,7 +973,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1pfWMzxRrXJbRtphoFdEkNsGksl6-YJ1m"
+			"LinkDownMV1": "https://drive.google.com/file/d/1pfWMzxRrXJbRtphoFdEkNsGksl6-YJ1m",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=14UivkwKPzwnma-o6b0hQT_AlTEzHtzNU"
 		},
 		{
 			"titleJp": "吐息のメソッド",
@@ -820,7 +993,11 @@
 			"members1": ["堀未央奈","白石麻衣","西野七瀬","橋本奈々未","生駒里奈"],
 			"SongCompJP": "田中明仁",
 			"SongArraJP": "TATOO",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1o62fRthy2l5YoeJHDeODs2A4aMUeA4aU"
 		},
 		{
 			"titleJp": "孤独兄弟",
@@ -838,7 +1015,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "FUMIHITO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1aPT4l8ailStT_BAUVrQD2-nS7rcLrjdN"
+			"LinkDownMV1": "https://drive.google.com/file/d/1aPT4l8ailStT_BAUVrQD2-nS7rcLrjdN",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1PvSzfJqJu8QowMG2Pz6_ZfJShLYrtNy9"
 		},
 		{
 			"titleJp": "生まれたままで",
@@ -857,7 +1038,11 @@
 			"SongMVDirJP": "久保茂昭",
 			"SongMVDirRO": "KUBO Shigeaki",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1lzWt-1XUTtdViK56a8kubeXw4-dDeset"
+			"LinkDownMV1": "https://drive.google.com/file/d/1lzWt-1XUTtdViK56a8kubeXw4-dDeset",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Dp7c2XHPVkprKKgDnx10FbndyujctmOg"
 		},
 		{
 			"titleJp": "ダンケシェーン",
@@ -872,7 +1057,11 @@
 			"members1": ["桜井玲香","生田絵梨花","西野七瀬"],
 			"SongCompJP": ["Akira Sunset","C#"],
 			"SongArraJP": ["Akira Sunset","C#"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1_aJSAUkd6aK2Jt2cO8sEM5o7PHRek0JB"
 		}
 	],
 	"s09": [
@@ -894,7 +1083,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/10dxykxqLbyczCHTenNNlhuBhOUnca5Rl"
+			"LinkDownMV1": "https://drive.google.com/file/d/10dxykxqLbyczCHTenNNlhuBhOUnca5Rl",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "39 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1AY4s0tZiE45XvowASEXG0jZjm_wHTnxc"
 		},
 		{
 			"titleJp": "何もできずにそばにいる",
@@ -910,7 +1103,11 @@
 			"members1": ["松井玲奈","白石麻衣","西野七瀬","橋本奈々未","松村沙友理"],
 			"SongCompJP": "角野寿和",
 			"SongArraJP": "京田誠一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1oARjoVRLGia_1-HxOXZQBLrkKBP-lCfp"
 		},
 		{
 			"titleJp": "その先の出口",
@@ -930,7 +1127,11 @@
 			"SongArraJP": "Carlos K.",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1QgGkX-AgRvCO1VkrUVbc0HBIdxIDqeb6"
+			"LinkDownMV1": "https://drive.google.com/file/d/1QgGkX-AgRvCO1VkrUVbc0HBIdxIDqeb6",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1O8NNoL-EEOsY9-z03AuLCNXc8PZwcdAS"
 		},
 		{
 			"titleJp": "無口なライオン",
@@ -948,7 +1149,11 @@
 			"SongArraJP": ["Shusui","ヒロイズム"],
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/15ooTh7EzxarT0SbQUUs7mWK6et1IFR3A"
+			"LinkDownMV1": "https://drive.google.com/file/d/15ooTh7EzxarT0SbQUUs7mWK6et1IFR3A",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1SspRRYeeK9rGU-vTklre6UYSFjKBIqWA"
 		},
 		{
 			"titleJp": "ここにいる理由",
@@ -968,7 +1173,11 @@
 			"SongMVDirRO": "KONDO Daisuke",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1jY9lintbKry4MJ-w0ic1QtOiXg41C_o_"
+			"LinkDownMV1": "https://drive.google.com/file/d/1jY9lintbKry4MJ-w0ic1QtOiXg41C_o_",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=19N6VvWybH1zC-nnDIrs-vnSr-i2dRZT7"
 		},
 		{
 			"titleJp": "僕が行かなきゃ誰が行くんだ？",
@@ -982,7 +1191,11 @@
 			"members1": ["中田花奈","斉藤優里","桜井玲香","西野七瀬","若月佑美","井上小百合","伊藤万理華"],
 			"SongCompJP": "中土智博",
 			"SongArraJP": "中土智博",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1PZPRZZ28NGG-a4Rwtu0feJMQR2Nm-gSI"
 		}
 	],
 	"s10": [
@@ -1004,7 +1217,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1GI0SFjJGpsn_QTBCBHggxeaLy0v_BbPg"
+			"LinkDownMV1": "https://drive.google.com/file/d/1GI0SFjJGpsn_QTBCBHggxeaLy0v_BbPg",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=15BcOdx8mRoy3aZqJ1NiY2eGyNJSSfzPG"
 		},
 		{
 			"titleJp": "遠回りの愛情",
@@ -1019,7 +1236,11 @@
 			"SongCompJP": "Noda Akiko",
 			"SongArraJP": "野中“まさ”雄一",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "G-Rabby.計画"
+			"SongChoreo": "G-Rabby.計画",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1f_s9ipyh7PhZR2wMke6xHPJuGgmDCJyn"
 		},
 		{
 			"titleJp": "転がった鐘を鳴らせ！",
@@ -1036,7 +1257,11 @@
 			"SongArraJP": "田上陽一",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/15X6CRGxz8G1K9ilgzTiRFrFgTNtRZ2OU"
+			"LinkDownMV1": "https://drive.google.com/file/d/15X6CRGxz8G1K9ilgzTiRFrFgTNtRZ2OU",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1-974TAM8KwMU7yFvGSxh6Atd8_n5DeL8"
 		},
 		{
 			"titleJp": "私、起きる。",
@@ -1056,7 +1281,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/161z3qlcCyfOWjTn1PGAAm3KeU_nRE3-b"
+			"LinkDownMV1": "https://drive.google.com/file/d/161z3qlcCyfOWjTn1PGAAm3KeU_nRE3-b",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1B4xjD0uWG4VoAFDhVu-s9b2vS_ubSVZv"
 		},
 		{
 			"titleJp": "あの日　僕は咄嗟に嘘をついた",
@@ -1072,7 +1301,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1i6rRaTUf5OTt2x3JzqhjFZ-MsJmi3Wo5"
+			"LinkDownMV1": "https://drive.google.com/file/d/1i6rRaTUf5OTt2x3JzqhjFZ-MsJmi3Wo5",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Y7u5uj466aQTHlKwpgQ0POgoa2x-4th9"
 		},
 		{
 			"titleJp": "Tender days",
@@ -1087,7 +1320,11 @@
 			"members1": ["橋本奈々未","西野七瀬","生田絵梨花","白石麻衣","生駒里奈"],
 			"SongCompJP": ["SoichiroK","Nozomu.S"],
 			"SongArraJP": "Soulife",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ciF12DzYFmlPtbL_fSgeY_9xEQ8eGFae"
 		}
 	],
 	"s11": [
@@ -1109,7 +1346,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1KdgPV-B0yRtdOIpYtr5_Jqb2h6sFJ-RB"
+			"LinkDownMV1": "https://drive.google.com/file/d/1KdgPV-B0yRtdOIpYtr5_Jqb2h6sFJ-RB",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "37.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1m7L2GNS7mqUFeusnJWtnUXVieXuswp_q"
 		},
 		{
 			"titleJp": "あらかじめ語られるロマンス",
@@ -1128,7 +1369,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "ムライマユ",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1yqD7_xdj2yRigOyhAE-C229CqlNvismE"
+			"LinkDownMV1": "https://drive.google.com/file/d/1yqD7_xdj2yRigOyhAE-C229CqlNvismE",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=11JQxC4Mk9tyEkadjljMoZuCESzBYGEE0"
 		},
 		{
 			"titleJp": "立ち直り中",
@@ -1146,7 +1391,11 @@
 			"SongArraJP": "TATOO",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1zuskFDQKa2_hSyhyjLuCu22eJXGTC5CY"
+			"LinkDownMV1": "https://drive.google.com/file/d/1zuskFDQKa2_hSyhyjLuCu22eJXGTC5CY",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1tjkxRi876irTFv-tsjnPJ0N2GzGQChuM"
 		},
 		{
 			"titleJp": "ごめんね　ずっと・・・",
@@ -1158,7 +1407,11 @@
 			"members0": "西野七瀬",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/11mZ5O2BS_LFsMjnCKUI6PFqL8-KmfqWL"
+			"LinkDownMV1": "https://drive.google.com/file/d/11mZ5O2BS_LFsMjnCKUI6PFqL8-KmfqWL",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1nx4GeV3jDRCK-4U3cy_5V4BotA4VvrZV"
 		},
 		{
 			"titleJp": "君は僕と会わない方がよかったのかな",
@@ -1178,7 +1431,11 @@
 			"SongMVDirRO": "YAMADA Atsuhiro",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1XCYARjHpxGW1yZ9yh4ICPtnuUYAhceje"
+			"LinkDownMV1": "https://drive.google.com/file/d/1XCYARjHpxGW1yZ9yh4ICPtnuUYAhceje",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Vitl8DCAhegB2qX9J8k1X6EO2tubnl6o"
 		},
 		{
 			"titleJp": "ボーダー",
@@ -1193,7 +1450,11 @@
 			"SongCompJP": "中土智博",
 			"SongArraJP": "中土智博",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1L4xLyakd58adsTj4isO6g4lNl-qv4DGU"
 		}
 	],
 	"s12": [
@@ -1215,7 +1476,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1hwG5ZYKE0OmDs9jpLwlXIquCHhUhsKdt"
+			"LinkDownMV1": "https://drive.google.com/file/d/1hwG5ZYKE0OmDs9jpLwlXIquCHhUhsKdt",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1FHpmMt3gnDrcX33kzL-jVBp_d_LyUX8K"
 		},
 		{
 			"titleJp": "もう少しの夢",
@@ -1227,7 +1492,11 @@
 			"members0": "西野七瀬",
 			"SongCompJP": "丸谷マナブ",
 			"SongArraJP": "野中“まさ”雄一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1St0jUAW2ir9HxulBsrmLcNeDEk_bzeoQ"
 		},
 		{
 			"titleJp": "魚たちのLOVE SONG",
@@ -1245,7 +1514,11 @@
 			"SongArraJP": "渡辺拓也",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/12QvkVdZJiTTwdMCxgAwb_S_8j84uT2ZM"
+			"LinkDownMV1": "https://drive.google.com/file/d/12QvkVdZJiTTwdMCxgAwb_S_8j84uT2ZM",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=16dDDC-ljK8DPXw7O9BtV-UawL8JqXP_T"
 		},
 		{
 			"titleJp": "無表情",
@@ -1263,7 +1536,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "FUMIHITO/Acchan",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1htdN_aSC-X3jZrQLtv8SQn4IAkzPs3aP"
+			"LinkDownMV1": "https://drive.google.com/file/d/1htdN_aSC-X3jZrQLtv8SQn4IAkzPs3aP",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1PV9zugA00WOEYpbY7KYw_YqbQLbrKJKn"
 		},
 		{
 			"titleJp": "別れ際、もっと好きになる",
@@ -1283,7 +1560,11 @@
 			"SongMVDirRO": "YAMAGISHI Santa",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Hzlb4OxzZiTcNFjsz89V5kpoOYKphclk"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Hzlb4OxzZiTcNFjsz89V5kpoOYKphclk",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18oByPsBEwTGqvD3TD4KKO6u0uNbq-s6d"
 		},
 		{
 			"titleJp": "羽根の記憶",
@@ -1304,7 +1585,11 @@
 			"SongChoreo": "ムライマユ",
 			"SongLiveChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1LfdM034qmqXh3s56mTDPBZ4uFAaoXuAV"
+			"LinkDownMV1": "https://drive.google.com/file/d/1LfdM034qmqXh3s56mTDPBZ4uFAaoXuAV",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "38.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1VL7g6sw3hlnxkN-a-81ci9qCRyBHMHiG"
 		},
 		{
 			"titleJp": "制服を脱いでサヨナラを…",
@@ -1317,7 +1602,11 @@
 			"members0": ["齋藤飛鳥","星野みなみ"],
 			"SongCompJP": "古川貴浩",
 			"SongArraJP": "古川貴浩",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "37.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1gFBzuT6ehbw9JcS1T77u9R_7jbyT4csM"
 		}
 	],
 	"s13": [
@@ -1338,7 +1627,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1dUpNLy4tl9qUGPOj8l5x0207sGm9CsRi"
+			"LinkDownMV1": "https://drive.google.com/file/d/1dUpNLy4tl9qUGPOj8l5x0207sGm9CsRi",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1XJJQpBDPfA4PmJVgUdxyOAQ4fX2_xGad"
 		},
 		{
 			"titleJp": "嫉妬の権利",
@@ -1358,7 +1651,11 @@
 			"SongMVDirRO": "INOUE Tsuyoshi",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1cBWVYegyi1taWukj379SPVJaYXoZ6v8e"
+			"LinkDownMV1": "https://drive.google.com/file/d/1cBWVYegyi1taWukj379SPVJaYXoZ6v8e",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "38.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1GFichHXEuyZUiHn3wcLYeOfHgyB9Sxql"
 		},
 		{
 			"titleJp": "ポピパッパパー",
@@ -1378,7 +1675,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "FUMIHITO/Acchan",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1k5Al2nbaCwYLROypfa2JiSiK45XycJOC"
+			"LinkDownMV1": "https://drive.google.com/file/d/1k5Al2nbaCwYLROypfa2JiSiK45XycJOC",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1tCXMwsCZOMhRu7SFC5rZvkj1y9JgOh-5"
 		},
 		{
 			"titleJp": "大人への近道",
@@ -1397,7 +1698,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "G-Rabby.計画",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1PDKi_3ROJARLdHm1xiEgohGbCDLnAk8g"
+			"LinkDownMV1": "https://drive.google.com/file/d/1PDKi_3ROJARLdHm1xiEgohGbCDLnAk8g",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1SL1eAiJDrw9Kg_BAIpsdxWOQdRvGZbEo"
 		},
 		{
 			"titleJp": "悲しみの忘れ方",
@@ -1417,7 +1722,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1eC4sp2ZMKCEYmXxuip2a-R4xx_6JQdO4"
+			"LinkDownMV1": "https://drive.google.com/file/d/1eC4sp2ZMKCEYmXxuip2a-R4xx_6JQdO4",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YW4hsG7t6Cd9OYW4n9NfIWCAiuVeOX3r"
 		},
 		{
 			"titleJp": "隙間",
@@ -1432,7 +1741,11 @@
 			"SongCompJP": ["Akira Sunset","Carlos K."],
 			"SongArraJP": ["Akira Sunset","Carlos K."],
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "TAKAHIRO"
+			"SongChoreo": "TAKAHIRO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1lxYs8qeKmaWE_XtrU-UsqHO9xY6C4nE-"
 		}
 	],
 	"s14": [
@@ -1454,7 +1767,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["WARNER","菅尾なぎさ"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1WbV_IM96gDVSKRxQrv1LfNljNIaO6uOr"
+			"LinkDownMV1": "https://drive.google.com/file/d/1WbV_IM96gDVSKRxQrv1LfNljNIaO6uOr",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "41.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1-V1JARyRCz7iWPeRTZzKK2xebP0JM4J4"
 		},
 		{
 			"titleJp": "遥かなるブータン",
@@ -1474,7 +1791,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "FUMIHITO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1rlqMK2bvEOi7NwU2NIGh75uTQJGBeU61"
+			"LinkDownMV1": "https://drive.google.com/file/d/1rlqMK2bvEOi7NwU2NIGh75uTQJGBeU61",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1L0LMLHR5xAn4yZ72rn7eitk8lIcsxEHa"
 		},
 		{
 			"titleJp": "強がる蕾",
@@ -1491,7 +1812,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "ムライマユ",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1AP1CbuUehEwM3nXwrPsqcBlTY-qF3U0Z"
+			"LinkDownMV1": "https://drive.google.com/file/d/1AP1CbuUehEwM3nXwrPsqcBlTY-qF3U0Z",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1nlX6xTX4n4xKU1CJQlux3vGoINp42D8-"
 		},
 		{
 			"titleJp": "急斜面",
@@ -1509,7 +1834,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "G-Rabby.計画",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1m-F8uhKHE9vDkivUnlSuukkgktw6huvx"
+			"LinkDownMV1": "https://drive.google.com/file/d/1m-F8uhKHE9vDkivUnlSuukkgktw6huvx",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "25.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1293Fr9wGiyDoe9vEiYs7NBBvqWD9TkNp"
 		},
 		{
 			"titleJp": "釣り堀",
@@ -1526,7 +1855,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "ムライマユ",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1JKGrnEPmIJm6JFdKxE2MOnEj9WB9VVNm"
+			"LinkDownMV1": "https://drive.google.com/file/d/1JKGrnEPmIJm6JFdKxE2MOnEj9WB9VVNm",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ldEKeKxVSUKP6Z3wK-8xqY0CMhYJNTFW"
 		},
 		{
 			"titleJp": "不等号",
@@ -1546,7 +1879,11 @@
 			"SongMVDirRO": "IKEDA Chihiro",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-PZdyY2sJlq_4R0dJHG2Fu8eRoQhbjTL"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-PZdyY2sJlq_4R0dJHG2Fu8eRoQhbjTL",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18WEMSsEavPUI7hnxw4zZimA9-OBysfAl"
 		},
 		{
 			"titleJp": "憂鬱と風船ガム",
@@ -1560,7 +1897,11 @@
 			"members1": ["高山一実","井上小百合","生駒里奈","星野みなみ","桜井玲香","秋元真夏"],
 			"SongCompJP": ["HIROTOMO","Dr.Lilcom"],
 			"SongArraJP": "APAZZI",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1a1OGCwny1pOKVG1_3eKLNLFGfb-XQplQ"
 		}
 	],
 	"s15": [
@@ -1582,7 +1923,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1NREdsyUlIbPImlk219AQF4uBOuEUGONP"
+			"LinkDownMV1": "https://drive.google.com/file/d/1NREdsyUlIbPImlk219AQF4uBOuEUGONP",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1vJyyeE0tWcb_O43SvOf6R6bT7TyOoYP1"
 		},
 		{
 			"titleJp": "僕だけの光",
@@ -1598,7 +1943,11 @@
 			"SongCompJP": "Hiro Hoashi",
 			"SongArraJP": "Hiro Hoashi",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1QlHespu7WDChUM_Uad0XTfYISlfFhnRN"
 		},
 		{
 			"titleJp": "オフショアガール",
@@ -1614,7 +1963,11 @@
 			"SongArraJP": ["Akira Sunset","ha-j"],
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ay8SRgXL8tFRdQRDPP7W0mVNHNjw2akr"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ay8SRgXL8tFRdQRDPP7W0mVNHNjw2akr",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "25.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ZWk_maRcVC4vTp9lsl_X77qcyVmRdVFq"
 		},
 		{
 			"titleJp": "命の真実　ミュージカル「林檎売りとカメムシ」",
@@ -1627,7 +1980,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "TETSUHARU",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1si4uDhYHhlfRtK3AnnZ6B8GsnDCfvWn7"
+			"LinkDownMV1": "https://drive.google.com/file/d/1si4uDhYHhlfRtK3AnnZ6B8GsnDCfvWn7",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1GGgpKmkd7UwDFsU9hEQMEI4UuOM9ZpYK"
 		},
 		{
 			"titleJp": "白米様",
@@ -1646,7 +2003,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "木下菜津子",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1MPK4F6L_K1E9B5JDKp7-sqZJI4X1Jhp5"
+			"LinkDownMV1": "https://drive.google.com/file/d/1MPK4F6L_K1E9B5JDKp7-sqZJI4X1Jhp5",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1DtBABcazZjUAcOeS5OLc_V27DVHshnHM"
 		},
 		{
 			"titleJp": "シークレットグラフィティー",
@@ -1666,7 +2027,11 @@
 			"SongMVDirRO": "YAMAGISHI Santa",
 			"SongChoreo": "Acchan",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1MIVVThZ-TDrYDXOoJqCNqJeICDqPIDqe"
+			"LinkDownMV1": "https://drive.google.com/file/d/1MIVVThZ-TDrYDXOoJqCNqJeICDqPIDqe",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1fDCV4sv2dF26sYOR29-IrbKhNVyBq2BF"
 		},
 		{
 			"titleJp": "行くあてのない僕たち",
@@ -1680,7 +2045,11 @@
 			"SongCompJP": "大橋莉子",
 			"SongArraJP": "佐々木裕",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "38.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ujnJNfypkHA3LFvqHifag09qr9x_DMwS"
 		}
 	],
 	"s16": [
@@ -1703,7 +2072,11 @@
 			"SongChoreo": ["WARNER","菅尾なぎさ"],
 			"LinkMP3": "https://files.catbox.moe/hfgdhx.mp3",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1CrMEQ47wqfZ9yslXdEMkBE4VCaDQog58"
+			"LinkDownMV1": "https://drive.google.com/file/d/1CrMEQ47wqfZ9yslXdEMkBE4VCaDQog58",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1TMcr5QbwrLj4djn1jJ2Z0fje_wXBTFaI"
 		},
 		{
 			"titleJp": "孤独な青空",
@@ -1719,7 +2092,11 @@
 			"SongCompJP": "aokado",
 			"SongArraJP": "aokado",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "25.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1S-J3x89iNejLYJP9JGUpM23Xyhcp6aIi"
 		},
 		{
 			"titleJp": "あの教室",
@@ -1737,7 +2114,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "イデビアン・クルー（井手茂太）",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1DwVLCJtuxWQiNJPjFhi-EGGEsDIQr4Nm"
+			"LinkDownMV1": "https://drive.google.com/file/d/1DwVLCJtuxWQiNJPjFhi-EGGEsDIQr4Nm",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "23.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1IlwHgrvlloDP_5mW9489-fjgGesZ1sf2"
 		},
 		{
 			"titleJp": "ブランコ",
@@ -1757,7 +2138,11 @@
 			"SongMVDirRO": "ITO Shuto",
 			"SongChoreo": "Acchan",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1vR9ARhhCTOb1upII_5huIVgS72Efe9Q9"
+			"LinkDownMV1": "https://drive.google.com/file/d/1vR9ARhhCTOb1upII_5huIVgS72Efe9Q9",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1PMINPv5-WAjLnvzXxXRwJB7Sa0ANN3Ue"
 		},
 		{
 			"titleJp": "２度目のキスから",
@@ -1772,7 +2157,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "西田一生",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1v301yzDuD5m2mWeJxNGXTAgzZJzy1GsD"
+			"LinkDownMV1": "https://drive.google.com/file/d/1v301yzDuD5m2mWeJxNGXTAgzZJzy1GsD",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1t5CUZVTpm_-d_rS7SHjc_0MAdLPxUyWn"
 		},
 		{
 			"titleJp": "君に贈る花がない",
@@ -1791,7 +2180,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1xhZKKzyaA0iiQpsv_2WvwKnbBiq9UT0a"
+			"LinkDownMV1": "https://drive.google.com/file/d/1xhZKKzyaA0iiQpsv_2WvwKnbBiq9UT0a",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1HC65TlVhRTL6ZO1y2PR9bENt8wWP0fhP"
 		},
 		{
 			"titleJp": "ないものねだり",
@@ -1807,7 +2200,11 @@
 			"SongArraJP": ["丸谷マナブ","福田貴史"],
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1tglXhD0dQCGW3QJP0ohLeS4ht5DGU9tI"
+			"LinkDownMV1": "https://drive.google.com/file/d/1tglXhD0dQCGW3QJP0ohLeS4ht5DGU9tI",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "23.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1xo50FrvOK1zjdDaCJKlVJOlO6hNxXxWF"
 		}
 	],
 	"s17": [
@@ -1829,7 +2226,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Nq-cT3wFyKhyLND1eI3yC3ayr9VB-yx-"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Nq-cT3wFyKhyLND1eI3yC3ayr9VB-yx-",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1wQx4OrHpXwBVX1lGWw-eX2I_PVa62n6N"
 		},
 		{
 			"titleJp": "人生を考えたくなる",
@@ -1842,7 +2243,11 @@
 			"members0": ["秋元真夏","桜井玲香","中田花奈","若月佑美"],
 			"SongCompJP": "片桐周太郎",
 			"SongArraJP": "片桐周太郎",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "19.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Q80GYYuCZrQgtOXw8jsX7T_w93-AJOdz"
 		},
 		{
 			"titleJp": "意外BREAK",
@@ -1861,7 +2266,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1KVkWnizGfT47O3L8KVdI4H4NYRVJXi1G"
+			"LinkDownMV1": "https://drive.google.com/file/d/1KVkWnizGfT47O3L8KVdI4H4NYRVJXi1G",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1-CJDCqRmqCY9FZfX5zCH89A9zt8ycGY_"
 		},
 		{
 			"titleJp": "Another Ghost",
@@ -1880,7 +2289,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["Acchan","FUMIHITO"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1W2tTiZL6EeBVsrwjrbriICuMwv4uFBxb"
+			"LinkDownMV1": "https://drive.google.com/file/d/1W2tTiZL6EeBVsrwjrbriICuMwv4uFBxb",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1uArVx77CMfgwwP-RS3UK-iOxXT2ryQ7u"
 		},
 		{
 			"titleJp": "風船は生きている",
@@ -1900,7 +2313,11 @@
 			"SongMVDirRO": "TADA Takuya",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/152bXaX9sUD2jMSkZqK7ZvGMX2Lptcqfg"
+			"LinkDownMV1": "https://drive.google.com/file/d/152bXaX9sUD2jMSkZqK7ZvGMX2Lptcqfg",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YF9XdwC6_peeKirq3IN0kzeki7VF2CLO"
 		},
 		{
 			"titleJp": "三番目の風",
@@ -1921,7 +2338,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Cs0cxtmk8ejumHgZOJGpiDr14bgT8tAR"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Cs0cxtmk8ejumHgZOJGpiDr14bgT8tAR",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "42.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1HeCnS4RXqKgUFFlf4qySeC7zuTTO0kVh"
 		},
 		{
 			"titleJp": "当たり障りのない話",
@@ -1935,7 +2356,11 @@
 			"SongCompJP": "小網準",
 			"SongArraJP": "野中“まさ”雄一",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1CX0ycUHqmTAvJcZ3-tV3hgBV3FMQzLWH"
 		}
 	],
 	"s18": [
@@ -1957,7 +2382,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1JUMtOhKjZsiRzrpavVxrkdhMm7BR1TAZ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1JUMtOhKjZsiRzrpavVxrkdhMm7BR1TAZ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "37.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1vSKPK6cHEu4LEZlrAyTp4tLthjurDgjR"
 		},
 		{
 			"titleJp": "女は一人じゃ眠れない",
@@ -1978,7 +2407,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1_3x33cmTnOgM-Be61y1Tb7FT1GkL2oHj"
+			"LinkDownMV1": "https://drive.google.com/file/d/1_3x33cmTnOgM-Be61y1Tb7FT1GkL2oHj",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1KlnCsFaxN8KE3stypDg36hVl1BayoEjU"
 		},
 		{
 			"titleJp": "ひと夏の長さより・・・",
@@ -1994,7 +2427,11 @@
 			"SongCompJP": "aokado",
 			"SongArraJP": "aokado",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1yNZRLRtR95f6hLgCU5YOayolVmpd9IMn"
 		},
 		{
 			"titleJp": "アンダー",
@@ -2013,7 +2450,11 @@
 			"SongMVDirJP": "金森孝宏",
 			"SongMVDirRO": "Kanemori Takahiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1IYdR6tZVt1J6Djj4Kgq5-5UJIWGAzRwO"
+			"LinkDownMV1": "https://drive.google.com/file/d/1IYdR6tZVt1J6Djj4Kgq5-5UJIWGAzRwO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1mSTI5CKafEaHzuyhBrjmERIyUXeddC9b"
 		},
 		{
 			"titleJp": "ライブ神",
@@ -2034,7 +2475,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "akanen",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1sBrp-bdNjkgWAeAn8kZS12hPZWt7hApZ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1sBrp-bdNjkgWAeAn8kZS12hPZWt7hApZ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1r-JeAEXmeZ6NLkJyGDf6u4WmnvbAxn8P"
 		},
 		{
 			"titleJp": "未来の答え",
@@ -2055,7 +2500,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "菅尾なぎさ",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Ka-O6a-L9dBvuX2KcpB5rgnofNy6Im_a"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Ka-O6a-L9dBvuX2KcpB5rgnofNy6Im_a",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "40.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Q3OQXdaxS599Z6cjLrKemqGHK9YSeDeM"
 		},
 		{
 			"titleJp": "泣いたっていいじゃないか？",
@@ -2073,7 +2522,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1yrSMYe8ktZ1CgbZCQNfr_fuTKSa4BQfB"
+			"LinkDownMV1": "https://drive.google.com/file/d/1yrSMYe8ktZ1CgbZCQNfr_fuTKSa4BQfB",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1-i2Ux_vIIqOriyGVudjNmrjtZrcPEyQ6"
 		}
 	],
 	"s19": [
@@ -2095,7 +2548,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "小島亜斗",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1uBqqjEf55jNuaEih39Te0p78_RnThl9_"
+			"LinkDownMV1": "https://drive.google.com/file/d/1uBqqjEf55jNuaEih39Te0p78_RnThl9_",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1P9euvp5y7PQyoTNhRCeZidleb5ppzV0-"
 		},
 		{
 			"titleJp": "不眠症",
@@ -2112,7 +2569,11 @@
 			"SongCompJP": ["大貫和紀","河原レオ","高木龍一"],
 			"SongArraJP": ["大貫和紀","河原レオ","高木龍一"],
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "Acchan"
+			"SongChoreo": "Acchan",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1NGZ4-T1v-GfaAbI_G43Bo5C_heWWZGVD"
 		},
 		{
 			"titleJp": "まあいいか？",
@@ -2129,7 +2590,11 @@
 			"SongArraJP": "原広明",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1XpQPDkkrscxW7zpJO8vKSzwVrkX3zeRu"
+			"LinkDownMV1": "https://drive.google.com/file/d/1XpQPDkkrscxW7zpJO8vKSzwVrkX3zeRu",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "25.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1SbWpEnLpmlyZRZO0PwCqjn5IfU9FkkYQ"
 		},
 		{
 			"titleJp": "失恋お掃除人",
@@ -2148,7 +2613,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["Acchan","FUMIHITO"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1uifEQbLz3_ug--N_qvs_77-0o9r_tha5"
+			"LinkDownMV1": "https://drive.google.com/file/d/1uifEQbLz3_ug--N_qvs_77-0o9r_tha5",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=11nV5K2dIvJY_7U4POznTaNDEacKvIuPZ"
 		},
 		{
 			"titleJp": "My rule",
@@ -2168,7 +2637,11 @@
 			"SongMVDirRO": "HAYASHI Nozomu",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1stIt0Dhzx05ljBoOPzLzdh3K1JDdH99W"
+			"LinkDownMV1": "https://drive.google.com/file/d/1stIt0Dhzx05ljBoOPzLzdh3K1JDdH99W",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1i6u4cZWwmKNHb1lD19eHIjd6BYneJLhG"
 		},
 		{
 			"titleJp": "僕の衝動",
@@ -2189,7 +2662,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1RBY42P5xPwursXmHnophY9AXfXSZmDKs"
+			"LinkDownMV1": "https://drive.google.com/file/d/1RBY42P5xPwursXmHnophY9AXfXSZmDKs",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=17QxOWtgpUo-yTmfyiMaEYbvFDVOSJeM6"
 		},
 		{
 			"titleJp": "新しい花粉　～ミュージカル「見知らぬ世界」より～",
@@ -2200,7 +2677,11 @@
 			"songOutline": "Unit",
 			"UnitName": "",
 			"members0": ["生田絵梨花","久保史緒里"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "21.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1UXSyx4bdpSfqtI_HNzSoJ9yPfh_r83fZ"
 		}
 	],
 	"s20": [
@@ -2222,7 +2703,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1XTaYleODP2qm6UkyRn9kwEmVVUoYm5OJ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1XTaYleODP2qm6UkyRn9kwEmVVUoYm5OJ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Ym7Zv_gTS9ugDeRG2NUp6FiZfvhxLram"
 		},
 		{
 			"titleJp": "Against",
@@ -2243,7 +2728,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "福澤侑",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1llZP2oDk96TsK_Q07L3N9sqm8EDda70O"
+			"LinkDownMV1": "https://drive.google.com/file/d/1llZP2oDk96TsK_Q07L3N9sqm8EDda70O",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ijLff1E_-USxTANS-81Egs1QdBhj9OBN"
 		},
 		{
 			"titleJp": "雲になればいい",
@@ -2256,7 +2745,11 @@
 			"members0": ["生田絵梨花","衛藤美彩","桜井玲香"],
 			"SongCompJP": "丸谷マナブ",
 			"SongArraJP": "丸谷マナブ",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "24.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1WXgdb1UQXb_sm8R0ECk3O1rtM6MhwO8p"
 		},
 		{
 			"titleJp": "新しい世界",
@@ -2276,7 +2769,11 @@
 			"SongMVDirRO": "YOKOBORI Mitsunori",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Q0TMtBNCHbMj0g478mXiLsqHuMlNpxrS"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Q0TMtBNCHbMj0g478mXiLsqHuMlNpxrS",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1KszZveJQY0LeLDhFqp8R2_FDmomXBJVw"
 		},
 		{
 			"titleJp": "スカウトマン",
@@ -2297,7 +2794,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Acchan",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ZAxi7P--U1iZMTeVjIdV7Ls-TeUM1qsk"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ZAxi7P--U1iZMTeVjIdV7Ls-TeUM1qsk",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1hKRJccnUUU_MOeGYwQfKyLphnVJGDsv7"
 		},
 		{
 			"titleJp": "トキトキメキメキ",
@@ -2318,7 +2819,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "ムライマユ",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1INHevxca6v5jdBqg5tcXoFEEyWhCIZ5B"
+			"LinkDownMV1": "https://drive.google.com/file/d/1INHevxca6v5jdBqg5tcXoFEEyWhCIZ5B",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=19T9gl913GZCsEVY0yJfuMJRsgeCquu46"
 		},
 		{
 			"titleJp": "言霊砲",
@@ -2331,7 +2836,11 @@
 			"members0": ["大園桃子","久保史緒里","山下美月","与田祐希"],
 			"SongCompJP": ["Ryota Saito","TomoLow"],
 			"SongArraJP": ["TomoLow","Ryota Saito"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YPF5lVcg6odaLKF0H5Q2h3TcXqBEURGk"
 		}
 	],
 	"s21": [
@@ -2349,7 +2858,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["Acchan","FUMIHITO"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-v-U4kOBcJ4mWn--5uddT3tpKbGqRn72"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-v-U4kOBcJ4mWn--5uddT3tpKbGqRn72",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=10n9mxSFzg6WscpF2ejIjivD0pQzYh_S8"
 		},
 		{
 			"titleJp": "空扉",
@@ -2369,7 +2882,11 @@
 			"SongArraJP": "Dr.Lilcom",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1tYO2QWw9JQCVwSBZne1LU8FoLLp2-dyg"
+			"LinkDownMV1": "https://drive.google.com/file/d/1tYO2QWw9JQCVwSBZne1LU8FoLLp2-dyg",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1QNB0m0n7FlQb5eBXsg9Nh8B3JLtXUY89"
 		},
 		{
 			"titleJp": "三角の空き地",
@@ -2389,7 +2906,11 @@
 			"SongMVDirRO": "TSUKITA Shigeru",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/18Zu9uX7THNWJGGxpiYOCVSzY3fxlMU0H"
+			"LinkDownMV1": "https://drive.google.com/file/d/18Zu9uX7THNWJGGxpiYOCVSzY3fxlMU0H",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1zxdYDKQcGSSbZqKaq0nNHOAYxT0APQUI"
 		},
 		{
 			"titleJp": "自分じゃない感じ",
@@ -2406,7 +2927,11 @@
 			"SongCompJP": "ツキダタダシ",
 			"SongArraJP": "ツキダタダシ",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "Acchan"
+			"SongChoreo": "Acchan",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1CRLLTxNHBCOPhPc_3OQcWoJBg3akI08G"
 		},
 		{
 			"titleJp": "心のモノローグ",
@@ -2424,7 +2949,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1kTWGxOIp7p370-axYGt2RzgA95qTnIjT"
+			"LinkDownMV1": "https://drive.google.com/file/d/1kTWGxOIp7p370-axYGt2RzgA95qTnIjT",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YWJGKKUhiqu9hVLWGJCFpgHlmrfILg3P"
 		},
 		{
 			"titleJp": "地球が丸いなら",
@@ -2442,7 +2971,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "井手茂太",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1mNV-0GqkF3nzc0LYMj0odgLOtJZEfGBx"
+			"LinkDownMV1": "https://drive.google.com/file/d/1mNV-0GqkF3nzc0LYMj0odgLOtJZEfGBx",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1CXIL0gDpCvtmpHaHZ3pGaQJJw3-ENwaD"
 		},
 		{
 			"titleJp": "あんなに好きだったのに…",
@@ -2457,7 +2990,11 @@
 			"SongCompJP": "木下めろん",
 			"SongArraJP": "木下めろん",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Ptkd4nEAlMiwcKyCcB381Ua-pwC35IS1"
 		}
 	],
 	"s22": [
@@ -2479,7 +3016,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1I7oyNZns24wuAweZWO1H6xCMpcStU7nb"
+			"LinkDownMV1": "https://drive.google.com/file/d/1I7oyNZns24wuAweZWO1H6xCMpcStU7nb",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1aUhkhhr04lQr3hGoION1eS7nOV9TEZGI"
 		},
 		{
 			"titleJp": "キャラバンは眠らない",
@@ -2500,7 +3041,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Acchan",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1m8o_VP9Jhj0TNehxdfV73CLcwAVb6cEK"
+			"LinkDownMV1": "https://drive.google.com/file/d/1m8o_VP9Jhj0TNehxdfV73CLcwAVb6cEK",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1UjcHP9yQLIb6xwSxcqFLxHTWk5WSj-NO"
 		},
 		{
 			"titleJp": "つづく",
@@ -2516,7 +3061,11 @@
 			"SongArraJP": "若田部誠",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/14k-VnBewEz_lLuVsJJbpLaHJDCHlnDAO"
+			"LinkDownMV1": "https://drive.google.com/file/d/14k-VnBewEz_lLuVsJJbpLaHJDCHlnDAO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1cj-NBXmqUk6bhgD1p1fNSfN2fqi5wyG3"
 		},
 		{
 			"titleJp": "日常",
@@ -2536,7 +3085,11 @@
 			"SongMVDirRO": "IMAIZUMI Rikiya",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-SoDQ9bwbHp-01FtSzXbD63y2-OO5N3k"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-SoDQ9bwbHp-01FtSzXbD63y2-OO5N3k",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=14NY1BLFdfsQfY8aIBebC6V5TfIVr4nve"
 		},
 		{
 			"titleJp": "告白の順番",
@@ -2554,7 +3107,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1qeZ13fYvgVKOpx6CNGc33RJdlPlEzBAD"
+			"LinkDownMV1": "https://drive.google.com/file/d/1qeZ13fYvgVKOpx6CNGc33RJdlPlEzBAD",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1fmwj_aQ9mv5c9IetxXj2SNKQfR5YOMa1"
 		},
 		{
 			"titleJp": "ショパンの嘘つき",
@@ -2567,7 +3124,11 @@
 			"members0": ["生田絵梨花","白石麻衣","松村沙友理"],
 			"SongCompJP": "山本加津彦",
 			"SongArraJP": "山本加津彦",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1DXJq8C3VZj7Hx20if_bPfQgewwlLheI3"
 		},
 		{
 			"titleJp": "知りたいこと",
@@ -2580,7 +3141,11 @@
 			"members0": ["齋藤飛鳥","星野みなみ","山下美月","与田祐希"],
 			"SongCompJP": "佐々木裕",
 			"SongArraJP": "佐々木裕",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1UtPHOWhKB24JE2B3CFO1iub4W8-jgM4z"
 		}
 	],
 	"s23": [
@@ -2602,7 +3167,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1jUWoRXelT9EKt7lpM38gr6vs-uJcnhcU"
+			"LinkDownMV1": "https://drive.google.com/file/d/1jUWoRXelT9EKt7lpM38gr6vs-uJcnhcU",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "39.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1dKFSAtqJz8V2R3YfDU52tomH4HFfa0Rs"
 		},
 		{
 			"titleJp": "滑走路",
@@ -2621,7 +3190,11 @@
 			"SongMVDirRO": "KAMIYA Yuki",
 			"SongChoreo": "Acchan",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ARqEUULe3VoS_qXZZgjAxrK-Kg_3L2GX"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ARqEUULe3VoS_qXZZgjAxrK-Kg_3L2GX",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1gcsZzHsz-cwlwsPyJ6J4FpIlEviIiWvq"
 		},
 		{
 			"titleJp": "のような存在",
@@ -2639,7 +3212,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1i4CzGUxj203h6B7pdY5ek4uFxkhz9QiN"
+			"LinkDownMV1": "https://drive.google.com/file/d/1i4CzGUxj203h6B7pdY5ek4uFxkhz9QiN",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1XxJVbqDAn1f61sdaKwD-kSyqlzseBfPy"
 		},
 		{
 			"titleJp": "Am I Loving?",
@@ -2652,7 +3229,11 @@
 			"members0": ["星野みなみ","北野日奈子","鈴木絢音","堀未央奈","渡辺みり愛"],
 			"SongCompJP": "山田智和",
 			"SongArraJP": "APAZZI",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1EPFzdyKALnyF9qLo5SbJVAL25RWXbpZh"
 		},
 		{
 			"titleJp": "平行線",
@@ -2670,7 +3251,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1RnYx9rjoyJSbmKnxJZmZYiuyxRL5vHEI"
+			"LinkDownMV1": "https://drive.google.com/file/d/1RnYx9rjoyJSbmKnxJZmZYiuyxRL5vHEI",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1r9esxtgut9xAxoA4d50I5taXYLx_JbwZ"
 		},
 		{
 			"titleJp": "４番目の光",
@@ -2686,7 +3271,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1yttqTQEgJORFHvsPWBPy1mHH4BmqrTmy"
+			"LinkDownMV1": "https://drive.google.com/file/d/1yttqTQEgJORFHvsPWBPy1mHH4BmqrTmy",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YWscAtWjigW8E1SfH20KWpblJZE_bbB9"
 		},
 		{
 			"titleJp": "曖昧",
@@ -2699,7 +3288,11 @@
 			"members0": ["生田絵梨花","松村沙友理"],
 			"SongCompJP": "doubleglass",
 			"SongArraJP": "doubleglass",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1lShQXXOyENl8I8-mVx2-w2fAI4BS1mP7"
 		}
 	],
 	"s24": [
@@ -2722,7 +3315,11 @@
 			"SongChoreo": "CRE8BOY",
 			"LinkMP3": "https://files.catbox.moe/us3thc.mp3",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ZXJrKZcS1fga9sENTPnG1pouQePsCyT6"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ZXJrKZcS1fga9sENTPnG1pouQePsCyT6",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Rcx63PulkIlSYlgiqA33jjccVPrsO5I3"
 		},
 		{
 			"titleJp": "僕のこと、知ってる？",
@@ -2737,7 +3334,11 @@
 			"members1": ["大園桃子","堀未央奈","生田絵梨花","齋藤飛鳥","白石麻衣","高山一実","与田祐希"],
 			"SongCompJP": "中村泰輔",
 			"SongArraJP": "中村泰輔",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18fNsJxzPMv4YLcRWkGjJyoiyyT-GiQsH"
 		},
 		{
 			"titleJp": "路面電車の街",
@@ -2755,7 +3356,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1AP-4S38bDi0bxQFiz8uRtqvrm--pLk3_"
+			"LinkDownMV1": "https://drive.google.com/file/d/1AP-4S38bDi0bxQFiz8uRtqvrm--pLk3_",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "37.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ZyAqIvTEQMh4a-LMLLRHPN-5XGr6H3Ai"
 		},
 		{
 			"titleJp": "図書室の君へ",
@@ -2776,7 +3381,11 @@
 			"SongChoreo": "Acchan",
 			"LinkMP3": "https://files.catbox.moe/y3ekr6.mp3",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1756I8HqH_6VpCumVuDvYi73iiALhJeLJ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1756I8HqH_6VpCumVuDvYi73iiALhJeLJ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1OIuQDy44AQMNsayMlf7U-3mbFBA1ZOOI"
 		},
 		{
 			"titleJp": "時々 思い出してください",
@@ -2792,7 +3401,11 @@
 			"SongArraJP": ["杉山勝彦","谷地学"],
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1D7UgnPoN_Ubk9yIfQrzD0p-YnyEWSmxg"
+			"LinkDownMV1": "https://drive.google.com/file/d/1D7UgnPoN_Ubk9yIfQrzD0p-YnyEWSmxg",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "35.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1USoE3Y-p9qvMFQPuJGK-nqTAz9rX9Y6C"
 		},
 		{
 			"titleJp": "～Do my best～じゃ意味はない",
@@ -2812,7 +3425,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/11lUvZIjSiPVFEKXXDPwR81L-bJHpmSa4"
+			"LinkDownMV1": "https://drive.google.com/file/d/11lUvZIjSiPVFEKXXDPwR81L-bJHpmSa4",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "25.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1yO8Ux8uq3DFBldPV9C3Y_lUhYjvTOX2y"
 		},
 		{
 			"titleJp": "僕の思い込み",
@@ -2829,7 +3446,11 @@
 			"SongArraJP": "野中“まさ”雄一",
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
-			"LinkMP3": "https://files.catbox.moe/z3wnlk.mp3"
+			"LinkMP3": "https://files.catbox.moe/z3wnlk.mp3",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "27.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ZAmx9-3q5uNGWLo82r-bwzXmeafKh7jV"
 		}
 	],
 	"s25": [
@@ -2851,7 +3472,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1UEkycXLyMaBw3bd3YhJe-IY0ZYiq_3bV"
+			"LinkDownMV1": "https://drive.google.com/file/d/1UEkycXLyMaBw3bd3YhJe-IY0ZYiq_3bV",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "39.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1irWprFsga86jC3Axm_JDv_UrDurKnEo9"
+
 		},
 		{
 			"titleJp": "サヨナラ Stay with me",
@@ -2864,7 +3490,12 @@
 			"members1": ["秋元真夏","松村沙友理","生田絵梨花","齋藤飛鳥","遠藤さくら","久保史緒里","賀喜遥香","与田祐希"],
 			"SongCompJP": "シライシ紗トリ",
 			"SongArraJP": "シライシ紗トリ",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1-0Z-DiEs-aSmXW9sasJc0lgwppORzbEu"
+
 		},
 		{
 			"titleJp": "じゃあね。",
@@ -2880,7 +3511,12 @@
 			"SongArraJP": "菊池博人",
 			"SongLyricsJP": "白石麻衣",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1iQQiddesKKcWVhCh5O5EPskLY5x6LPxh"
+			"LinkDownMV1": "https://drive.google.com/file/d/1iQQiddesKKcWVhCh5O5EPskLY5x6LPxh",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "43.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1yHEYx8Lh9c8qXBp_p2ngnDEH3HvHTlsd"
+
 		},
 		{
 			"titleJp": "アナスターシャ",
@@ -2902,7 +3538,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Sumire Ono",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1MykwSQXRWq6P9B_l-CCCeltfKBw36pzS"
+			"LinkDownMV1": "https://drive.google.com/file/d/1MykwSQXRWq6P9B_l-CCCeltfKBw36pzS",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Z-HkZBpZpno2FBph31Us_3ANVo3FahcA"
+
 		},
 		{
 			"titleJp": "毎日がBrand new day",
@@ -2923,7 +3564,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "西田一生",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1PYooH55tTyt6Dkrpo9KIn8c5woCsx3cr"
+			"LinkDownMV1": "https://drive.google.com/file/d/1PYooH55tTyt6Dkrpo9KIn8c5woCsx3cr",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=10svKMD4VLxuBL8DOnEOCAdWzHFLggfzc"
+
 		},
 		{
 			"titleJp": "I see...",
@@ -2943,7 +3589,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1zBW_SZv0f0vB5xYWsU5UOXtpctQC5bu6"
+			"LinkDownMV1": "https://drive.google.com/file/d/1zBW_SZv0f0vB5xYWsU5UOXtpctQC5bu6",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=17Cjh-bR7q7aBc85Bmcf8pEVxKDot4xJU"
+
 		},
 		{
 			"titleJp": "ファンタスティック３色パン",
@@ -2956,7 +3607,12 @@
 			"members1": ["山下美月","齋藤飛鳥","梅澤美波"],
 			"SongCompJP": "ジンツチハシ",
 			"SongArraJP": "ジンツチハシ",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1vLMzlu6bRirBpgfxxDKmVbSl_lhvXOrS"
+
 		}
 	],
 	"s26": [
@@ -2980,7 +3636,12 @@
 			"HasMV": "yes",
 			"LinkDownMV1": "https://drive.google.com/file/d/1C8i-OaIJBBtBc_PcF-Km-T4CLR6AFCfE",
 			"LinkDownMV2": "https://drive.google.com/file/d/1Q7_fjcoJpkCICh_3OOnYNmPRJ5a-2j2j",
-			"LinkMV2Desc": "Anime ver."
+			"LinkMV2Desc": "Anime ver.",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "37.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1PIOeuqrgEmaNzLNxNegYZBUvH9cu_FSP"
+
 		},
 		{
 			"titleJp": "明日がある理由",
@@ -2996,7 +3657,12 @@
 			"members1": ["筒井あやめ","岩本蓮加","遠藤さくら"],
 			"SongCompJP": "YU-JIN",
 			"SongArraJP": "YU-JIN",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "40.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1G_ZffZqm1xA4jCYz6_OsHF_ZJM0PgAv4"
+
 		},
 		{
 			"titleJp": "Wilderness world",
@@ -3016,7 +3682,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1x2gG4w9hsHShQ5vSeJbmHlz17KVqI2wf"
+			"LinkDownMV1": "https://drive.google.com/file/d/1x2gG4w9hsHShQ5vSeJbmHlz17KVqI2wf",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1b0cXjqLIw340iZw6UDhk1YnaR4biS2oC"
+
 		},
 		{
 			"titleJp": "口ほどにもないKISS",
@@ -3036,7 +3707,12 @@
 			"SongMVDirRO": "KOROYASU Yusuke",
 			"SongChoreo": "カッチョイイカンパニー",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/10tQU7U-wgDNdE0jx9ASCRqHBeB7kpz_Z"
+			"LinkDownMV1": "https://drive.google.com/file/d/10tQU7U-wgDNdE0jx9ASCRqHBeB7kpz_Z",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "28.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ItJi8ECLd2-FGwi_XtrS4t2M0XR2XY44"
+
 		},
 		{
 			"titleJp": "冷たい水の中",
@@ -3053,7 +3729,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/11pkLUNmAy0SsCoRmFVpfdvnDg5B0BJaw"
+			"LinkDownMV1": "https://drive.google.com/file/d/11pkLUNmAy0SsCoRmFVpfdvnDg5B0BJaw",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "37.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1QKEiBDjv7MczIE_MHiquqZ4gg9-TF3VM"
+
 		},
 		{
 			"titleJp": "Out of the blue",
@@ -3074,7 +3755,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["田中文人","Acchan"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1eo9Z12egItBz5tqQe5s7p_1_Kn-YAwNx"
+			"LinkDownMV1": "https://drive.google.com/file/d/1eo9Z12egItBz5tqQe5s7p_1_Kn-YAwNx",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "36.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1QFq53HZce2RSgcE4hlGoZOjCp78m05m5"
+
 		},
 		{
 			"titleJp": "友情ピアス",
@@ -3091,7 +3777,12 @@
 			"SongArraJP": "カワノミチオ",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/12QGe4-ZmOkGHSY9mKbu2tBWgKljwj1U6"
+			"LinkDownMV1": "https://drive.google.com/file/d/12QGe4-ZmOkGHSY9mKbu2tBWgKljwj1U6",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "24.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1sqkYqgJaLR46f-PznyvZxFcWvOeOk1LE"
+
 		}
 	],
 	"s27": [
@@ -3113,7 +3804,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1QCg4oeZ-Xm064OUrha6ZY9PnTrzIP0J0"
+			"LinkDownMV1": "https://drive.google.com/file/d/1QCg4oeZ-Xm064OUrha6ZY9PnTrzIP0J0",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "33.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ZYhg-9gVfO29Z7TDtf8Ay3euo8L-st4V"
+
 		},
 		{
 			"titleJp": "全部 夢のまま",
@@ -3134,7 +3830,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "西田一生",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1TpfbNjSj4asKZ-8dq6tDBtrZ3UHOVmUH"
+			"LinkDownMV1": "https://drive.google.com/file/d/1TpfbNjSj4asKZ-8dq6tDBtrZ3UHOVmUH",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "34.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18j8DCKXnmAjRM-eZstitzPVNsurn0aSl"
+
 		},
 		{
 			"titleJp": "大人たちには指示されない",
@@ -3150,7 +3851,12 @@
 			"members1": ["大園桃子","岩本蓮加","中村麗乃"],
 			"SongCompJP": "BASEMINT",
 			"SongArraJP": "BASEMINT",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "32.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1thjdNc6LOuAacIP2xcoeVlgFIiLHg8o3"
+
 		},
 		{
 			"titleJp": "ざぶんざざぶん",
@@ -3168,7 +3874,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["田中文人","Acchan"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1dotIQwSW1gQXk68zr6-vWvpvNgFr6kca"
+			"LinkDownMV1": "https://drive.google.com/file/d/1dotIQwSW1gQXk68zr6-vWvpvNgFr6kca",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "29.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1yCYOQBXj5nNvvNfsXj9fw6ctlc0UNDPx"
+
 		},
 		{
 			"titleJp": "さ～ゆ～Ready?",
@@ -3184,7 +3895,12 @@
 			"SongCompJP": "川端正美",
 			"SongArraJP": "川端正美",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1NncbRgAGYllp3cICE1Hp1gsgwsZBIf2_"
+			"LinkDownMV1": "https://drive.google.com/file/d/1NncbRgAGYllp3cICE1Hp1gsgwsZBIf2_",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "41 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1rNtW3Z46Wnj9lHzQu5k2yE8Usxq-wXOE"
+
 		},
 		{
 			"titleJp": "錆びたコンパス",
@@ -3204,7 +3920,12 @@
 			"SongMVDirRO": "OKUBO Takuro",
 			"SongChoreo": "カッチョイイカンパニー",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1jBZilI4l-S_62vAKuElK9oqoqcjO2p4F"
+			"LinkDownMV1": "https://drive.google.com/file/d/1jBZilI4l-S_62vAKuElK9oqoqcjO2p4F",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "31.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1j8X0v27dGfPAq7PJGtO0b9SEBePiNL-h"
+
 		},
 		{
 			"titleJp": "猫舌カモミールティー",
@@ -3221,7 +3942,11 @@
 			"SongCompJP": "Shinobu Suzuki",
 			"SongArraJP": "Shinobu Suzuki",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": ["田中文人","Acchan"]
+			"SongChoreo": ["田中文人","Acchan"],
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "30.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=119FS9VpVCk4n_KXBinCLoSOc6S2jujCv"
 		}
 	],
 	"s28": [
@@ -3243,7 +3968,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1GWpBk6WTGKbHrTC_3WsqtETBOcB4KSs2"
+			"LinkDownMV1": "https://drive.google.com/file/d/1GWpBk6WTGKbHrTC_3WsqtETBOcB4KSs2",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "55.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1K59ejsj_eemQPxfUqLAjpVb3G-soXNcs"
+
 		},
 		{
 			"titleJp": "やさしいだけなら",
@@ -3256,7 +3986,12 @@
 			"members0": ["生田絵梨花","賀喜遥香","久保史緒里"],
 			"SongCompJP": "平賀伸明",
 			"SongArraJP": "野中“まさ”雄一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "47.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1raK1v2ZmmncwjbpzsCMpOuNSoY8Oe3n4"
+
 		},
 		{
 			"titleJp": "マシンガンレイン",
@@ -3276,7 +4011,12 @@
 			"SongMVDirRO": "IMAHARA Denki",
 			"SongChoreo": ["田中文人","松岡篤志"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Z3PCgZWuj6SA3LpHTG0E2dMgOS3_5lJ9"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Z3PCgZWuj6SA3LpHTG0E2dMgOS3_5lJ9",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "8.46 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1R_NA6-C0mCVEktEecp2ojs7pORztCKZD"
+
 		},
 		{
 			"titleJp": "もしも心が透明なら",
@@ -3294,7 +4034,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1RjgMbQV6IHry2FzpLCMm2Ww_nbPrpb0q"
+			"LinkDownMV1": "https://drive.google.com/file/d/1RjgMbQV6IHry2FzpLCMm2Ww_nbPrpb0q",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.15 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1iJ9enUi-Pg-ZOHmsYtRCX0A_glwqDHEI"
+
 		},
 		{
 			"titleJp": "私の色",
@@ -3310,7 +4055,12 @@
 			"SongArraJP": "YSU",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1SE4zX7oe9Bz2wQK6Dk8_KvrufyGsdz9o"
+			"LinkDownMV1": "https://drive.google.com/file/d/1SE4zX7oe9Bz2wQK6Dk8_KvrufyGsdz9o",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1jKU5FemQWMWEkM0Dt3D6I_CJa-1Yu0Ss"
+
 		},
 		{
 			"titleJp": "泥だらけ",
@@ -3330,7 +4080,12 @@
 			"SongArraJP": "CottON",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ssl9iyBVdnpIyvDJpWiYnlggbfD4AUtV"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ssl9iyBVdnpIyvDJpWiYnlggbfD4AUtV",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1kB4Yz358SAWkedFgWFQBuBrYKrpJr_YX"
+
 		},
 		{
 			"titleJp": "他人のそら似",
@@ -3344,7 +4099,12 @@
 			"members1": ["吉田綾乃クリスティー","与田祐希","弓木奈於","山崎怜奈","筒井あやめ","田村真佑","鈴木絢音","高山一実","新内眞衣","寺田蘭世","清宮レイ","和田まあや","山下美月","矢久保美緒"],
 			"SongCompJP": "youth case",
 			"SongArraJP": "佐々木博史",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "60 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1OvG82rXClhOPjH7GL5gImUTzlECFpyby"
+
 		}
 	],
 	"s29": [
@@ -3369,7 +4129,12 @@
 			"LinkDownMV1": "https://drive.google.com/file/d/1RVKGqqB1w490o1vxXomi3ebuiCviiLk0",
 			"LinkDownMV2": "https://drive.google.com/file/d/16oNXPYtvFUIMK8oevRgYY883JU5dpySu",
 			"LinkMV1Desc": "Drama ver.",
-			"LinkMV2Desc": "Dance ver."
+			"LinkMV2Desc": "Dance ver.",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "41.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1V9GITKm_2Y5Ul7Srr-vixHxJAPxjZMwh"
+
 		},
 		{
 			"titleJp": "深読み",
@@ -3385,7 +4150,12 @@
 			"SongCompJP": "高木龍一",
 			"SongArraJP": "高木龍一",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "Seishiro"
+			"SongChoreo": "Seishiro",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "45.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1WwmgHOotROQ9e02uuF-2LNn_3ln_y4MB"
+
 		},
 		{
 			"titleJp": "価値あるもの",
@@ -3405,7 +4175,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1nlfVBxC6qLDlSRNzGWfHE03AUq7MkmNu"
+			"LinkDownMV1": "https://drive.google.com/file/d/1nlfVBxC6qLDlSRNzGWfHE03AUq7MkmNu",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1iZUoFwR9T7yCB1uU41vcocNvKyHlDeRd"
+
 		},
 		{
 			"titleJp": "忘れないといいな",
@@ -3421,7 +4196,12 @@
 			"SongArraJP": "伊藤心太郎",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1JQAScYaHvliBkvj778LOxt9bgXDaVlfi"
+			"LinkDownMV1": "https://drive.google.com/file/d/1JQAScYaHvliBkvj778LOxt9bgXDaVlfi",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.56 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1DFarafuvqlMmbNpoRFjZwIUq0vAeF_4L"
+
 		},
 		{
 			"titleJp": "届かなくたって…",
@@ -3441,7 +4221,12 @@
 			"SongMVDirRO": "Hiroya \"Brian\" Nakano",
 			"SongChoreo": ["田中文人","松岡篤志"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1SXQHqe31gFnVHo76YLzbBmWVMkxbnHZE"
+			"LinkDownMV1": "https://drive.google.com/file/d/1SXQHqe31gFnVHo76YLzbBmWVMkxbnHZE",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1nk1Z37zBuPTllGhRtATXO72Q25iFdHhA"
+
 		},
 		{
 			"titleJp": "絶望の一秒前",
@@ -3461,7 +4246,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1dInElTTZFGCLziPOolr_-NHcjeVsZHOf"
+			"LinkDownMV1": "https://drive.google.com/file/d/1dInElTTZFGCLziPOolr_-NHcjeVsZHOf",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18cdfE1AQS4bDjejhnA7JFkWLeB9AfqQ7"
+
 		},
 		{
 			"titleJp": "好きになってみた",
@@ -3476,7 +4266,11 @@
 			"members1": ["久保史緒里","山下美月","与田祐希"],
 			"SongCompJP": "youth case",
 			"SongArraJP": ["youth case","石塚知生"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "50.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1J_s1uawl_Q9JbpGecN8AatN-6OmCjYaK"
 		}
 	],
 	"s30": [
@@ -3498,7 +4292,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ZNZqpqcsFBD2KYEPFNDau5iNS4JLOgi8"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ZNZqpqcsFBD2KYEPFNDau5iNS4JLOgi8",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "69.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Iqyej0vUqHgHQvdTlrCyBQZokR6oLdNs"
+
 		},
 		{
 			"titleJp": "Under's Love",
@@ -3518,7 +4317,12 @@
 			"SongMVDirRO": "KOBAYASHI Shinichiro",
 			"SongChoreo": ["田中文人","Acchan"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1MSBtNwnQK8zp1wnoU4fDjrwJVVvQv6Uq"
+			"LinkDownMV1": "https://drive.google.com/file/d/1MSBtNwnQK8zp1wnoU4fDjrwJVVvQv6Uq",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "55.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1jOUdsqiffcVAghUjkRrGMKBT1GFE4r56"
+
 		},
 		{
 			"titleJp": "僕が手を叩く方へ",
@@ -3537,7 +4341,12 @@
 			"SongArraJP": "藤谷一郎",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1gnyvtzWESPjKyToYh7PNFa-sUaDL3ZhR"
+			"LinkDownMV1": "https://drive.google.com/file/d/1gnyvtzWESPjKyToYh7PNFa-sUaDL3ZhR",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1sCcvvHz7CXecNSdJbgopYI6c2_r4P2UF"
+
 		},
 		{
 			"titleJp": "ジャンピングジョーカーフラッシュ",
@@ -3558,7 +4367,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "カッチョイイカンパニー",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1oqwwNguTU_bt_2Oi3stkxAvs9RQ2Fj1i"
+			"LinkDownMV1": "https://drive.google.com/file/d/1oqwwNguTU_bt_2Oi3stkxAvs9RQ2Fj1i",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1urJvmz-BlkqZjm5MpTtLChDA6YInAZXc"
+
 		},
 		{
 			"titleJp": "バンドエイド剥がすような別れ方",
@@ -3575,7 +4389,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1W0d0NJ6944UlwXIUslSf1rmhJO25Zry_"
+			"LinkDownMV1": "https://drive.google.com/file/d/1W0d0NJ6944UlwXIUslSf1rmhJO25Zry_",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1bPakEapQlg64Xp62vjfZAbuCA44Bo_hA"
+
 		},
 		{
 			"titleJp": "パッションフルーツの食べ方",
@@ -3588,7 +4407,12 @@
 			"members1": ["久保史緒里","梅澤美波","与田祐希","遠藤さくら"],
 			"SongCompJP": ["杉山勝彦","岡島かなた"],
 			"SongArraJP": "杉山勝彦",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1N3fh7c2_65JPq5cx_Ic03noIHTfXgJTl"
+
 		},
 		{
 			"titleJp": "夢を見る筋肉",
@@ -3603,7 +4427,12 @@
 			"members1": ["林瑠奈","伊藤理々杏"],
 			"SongCompJP": "月光テツヤ",
 			"SongArraJP": "あらケン",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "49.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1MdBn5pynxECestNRtfHgrGfn4VUxAmDN"
+
 		}
 	],
 	"s31": [
@@ -3625,7 +4454,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1NowlzGoh-7dMLYYqvwCseTZFHzlTmrdJ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1NowlzGoh-7dMLYYqvwCseTZFHzlTmrdJ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=16qc_R3-OccRI9koBIwggtyBziHdVJFYW"
+
 		},
 		{
 			"titleJp": "悪い成分",
@@ -3645,7 +4479,12 @@
 			"SongMVDirRO": "KOBAYASHI Shinichiro",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1y2COPJwTGsxKVXwHRGyBlqr8keq9zIS1"
+			"LinkDownMV1": "https://drive.google.com/file/d/1y2COPJwTGsxKVXwHRGyBlqr8keq9zIS1",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ktMnuUEmIXguYs7_BBE5HwNHKMbo4K-R"
+
 		},
 		{
 			"titleJp": "これから",
@@ -3662,7 +4501,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Z0xQyvrTzaBEAxWxdTkbO5889Hdy05Q6"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Z0xQyvrTzaBEAxWxdTkbO5889Hdy05Q6",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "6.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1gJ41TPRryPOBeGzkDs5_UxFdkUN2fY92"
+
 		},
 		{
 			"titleJp": "銭湯ラプソディー",
@@ -3675,7 +4519,12 @@
 			"members1": ["金川紗耶","与田祐希","山下美月","梅澤美波","田村真佑"],
 			"SongCompJP": "本田正樹",
 			"SongArraJP": "本田正樹",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1NkD8ON5zTfzwIXYgQcCqNmB1gu07aOEY"
+
 		},
 		{
 			"titleJp": "アトノマツリ",
@@ -3692,7 +4541,12 @@
 			"SongArraJP": "藤田卓也",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1g-Txt1PUOXXF7BtjpTfFeTXo4etqwa3W"
+			"LinkDownMV1": "https://drive.google.com/file/d/1g-Txt1PUOXXF7BtjpTfFeTXo4etqwa3W",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "6.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1_t29TtYB61YINpbARKzVM_HF9Hb_Yym3"
+
 		},
 		{
 			"titleJp": "甘いエビデンス",
@@ -3705,7 +4559,12 @@
 			"members1": ["林瑠奈","伊藤理々杏","久保史緒里","中村麗乃","柴田柚菜"],
 			"SongCompJP": "坂本麗衣",
 			"SongArraJP": "ツタナオヒコ",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18vUONgolsWJ_s55bgusHKEdkfIDGCNiY"
+
 		},
 		{
 			"titleJp": "17分間",
@@ -3725,7 +4584,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1OOn4YrKHNGS48m0XiLI97F6FUGBQc1cQ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1OOn4YrKHNGS48m0XiLI97F6FUGBQc1cQ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "12.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1EDl8yaCaH0O7tvENI5-VyZ4igUsaLzpa"
+
 		}
 	],
 	"s32": [
@@ -3747,7 +4611,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "yurinasia",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1HagA05rq0V0oJ6bOTNMhFXl0NjokmmOg"
+			"LinkDownMV1": "https://drive.google.com/file/d/1HagA05rq0V0oJ6bOTNMhFXl0NjokmmOg",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "wav",
+			"OffVocalsize": "57.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1cyjA5DfbXTxl2BtUKqVRpVduyJR3eKES"
+
 		},
 		{
 			"titleJp": "僕たちのサヨナラ",
@@ -3764,7 +4633,12 @@
 			"SongArraJP": "かわいえいじ",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1YsW-ucp1NEfRYPn3-lyR3v0oGmfCg3iM"
+			"LinkDownMV1": "https://drive.google.com/file/d/1YsW-ucp1NEfRYPn3-lyR3v0oGmfCg3iM",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "wav",
+			"OffVocalsize": "40.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=12m2qy98QrMLdco472xxgYs9dt6awlLSw"
+
 		},
 		{
 			"titleJp": "心にもないこと",
@@ -3784,7 +4658,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["田中文人","Acchan"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Zx22-VGQsGkLGUQsIhD2M-Nxml5gl2Hk"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Zx22-VGQsGkLGUQsIhD2M-Nxml5gl2Hk",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "3.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=11id0bIZUeeBvLo_I6z5znJpRT_JEZ7bS"
+
 		},
 		{
 			"titleJp": "黄昏はいつも",
@@ -3798,7 +4677,12 @@
 			"SongCompJP": "渡辺淳",
 			"SongArraJP": "渡辺淳",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "wav",
+			"OffVocalsize": "42.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=19QenwZp_L5dWVU7HvrV8W6DezD0pmfF7"
+
 		},
 		{
 			"titleJp": "Never say never",
@@ -3812,7 +4696,12 @@
 			"SongCompJP": "ナスカ",
 			"SongArraJP": ["ナスカ","the Third"],
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "CRE8BOY"
+			"SongChoreo": "CRE8BOY",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "3.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1_BPgu9beNWo94FA2enjKwEdiNnFkkhFw"
+
 		},
 		{
 			"titleJp": "さざ波は戻らない",
@@ -3831,7 +4720,12 @@
 			"SongMVDirJP": "瀬里義治",
 			"SongMVDirRO": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ifSknR2pDtDewwD1UwoHIHvmfkJTOMyN"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ifSknR2pDtDewwD1UwoHIHvmfkJTOMyN",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18enU1dqSjCaSM2M7cm6DcXGt6G3gv7Mu"
+
 		},
 		{
 			"titleJp": "涙の滑り台",
@@ -3844,7 +4738,12 @@
 			"members1": ["筒井あやめ","岩本蓮加","小川彩"],
 			"SongCompJP": ["福田貴史","3grass"],
 			"SongArraJP": "福田貴史",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "wav",
+			"OffVocalsize": "38.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1tA50ma53sPV1jpy0HsQTUNapERtO_lgW"
+
 		}
 	],
 	"s33": [
@@ -3866,7 +4765,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1LAnBD4vRlbg9cxCtuTwoE8J0utzVMY6-"
+			"LinkDownMV1": "https://drive.google.com/file/d/1LAnBD4vRlbg9cxCtuTwoE8J0utzVMY6-",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "34.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1oCAbm8qUVhPDQ4qXuIDXwu7Kf0Fdoty0"
+
 		},
 		{
 			"titleJp": "踏んでしまった",
@@ -3885,7 +4789,12 @@
 			"SongMVDirRO": "OZAMA Riku",
 			"SongChoreo": ["田中文人","Acchan"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1scqBjwDG4c-8O9JS1-cJGmgc2PrW6S6S"
+			"LinkDownMV1": "https://drive.google.com/file/d/1scqBjwDG4c-8O9JS1-cJGmgc2PrW6S6S",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "32.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1sppdIiBdGTL8IBn2kNygrFw6aBTySUz8"
+
 		},
 		{
 			"titleJp": "誰かの肩",
@@ -3901,7 +4810,12 @@
 			"SongCompJP": "山田智和",
 			"SongArraJP": "柱谷翔平",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "ムライマユ"
+			"SongChoreo": "ムライマユ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "36.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1vJ-KB4CFnb3fFc8tTkSgOTYkn2ODSXtD"
+
 		},
 		{
 			"titleJp": "マグカップとシンク",
@@ -3919,7 +4833,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ACDbFQZEWgYsaKb21qOHMGwDNDg-Zx1L"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ACDbFQZEWgYsaKb21qOHMGwDNDg-Zx1L",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "23.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1qdSHKZwF8PvoJar6SkmQhI3uwnZhxXGX"
+
 		},
 		{
 			"titleJp": "考えないようにする",
@@ -3939,7 +4858,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1UQ7GsS6S2W8mwuw61ezti4wGqOWyYI2h"
+			"LinkDownMV1": "https://drive.google.com/file/d/1UQ7GsS6S2W8mwuw61ezti4wGqOWyYI2h",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "33.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1UBl9F6WnxS3uouhMtzf0Id-0Pm_K2Eu9"
+
 		},
 		{
 			"titleJp": "お別れタコス",
@@ -3953,7 +4877,12 @@
 			"SongCompJP": "中谷信行",
 			"SongArraJP": "中谷信行",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": ["田中文人","Acchan"]
+			"SongChoreo": ["田中文人","Acchan"],
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "29.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1qGlcoemS7oDVAzxQngaVtYU_93l3EEzk"
+
 		},
 		{
 			"titleJp": "命の冒涜",
@@ -3969,7 +4898,12 @@
 			"SongCompJP": ["ミノシマシンゴ","新Q"],
 			"SongArraJP": ["ミノシマシンゴ","新Q"],
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "28.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1CjyhTrQtVgPv5blej9riJ5JSahssuyIM"
+
 		}
 	],
 	"s34": [
@@ -3992,7 +4926,12 @@
 			"SongChoreo": "WARNER",
 			"LinkMP3": "https://files.catbox.moe/s1ygld.mp3",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1HeVt5OAeGhDRc58eZCM4QgX1cWbqqHvD"
+			"LinkDownMV1": "https://drive.google.com/file/d/1HeVt5OAeGhDRc58eZCM4QgX1cWbqqHvD",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1BfmEKO4rKTiTP8DdsfWOUyg3UjzfCeF6"
+
 		},
 		{
 			"titleJp": "思い出が止まらなくなる",
@@ -4012,7 +4951,12 @@
 			"SongMVDirRO": "TOSHI Atsunori",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/14FwwYMklM8Fznsx-d5iqmuQ9n880a7L0"
+			"LinkDownMV1": "https://drive.google.com/file/d/14FwwYMklM8Fznsx-d5iqmuQ9n880a7L0",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ORQmiPmK2V5ejyGUABE8PTvWGj8-be0n"
+
 		},
 		{
 			"titleJp": "助手席をずっと空けていた",
@@ -4026,7 +4970,12 @@
 			"SongCompJP": "中村泰輔",
 			"SongArraJP": ["中村泰輔","TomoLow"],
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": ["田中文人","Acchan"]
+			"SongChoreo": ["田中文人","Acchan"],
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1UNxvBJx_zNdW4zcv1Eb0n5kZamzmKKjU"
+
 		},
 		{
 			"titleJp": "羊飼いよ",
@@ -4040,7 +4989,12 @@
 			"SongCompJP": "山本加津彦",
 			"SongArraJP": "山本加津彦",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "3.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1RhFmOgVkWdA8scfCfdAwr4cmbqObDuFW"
+
 		},
 		{
 			"titleJp": "手ごねハンバーグ",
@@ -4054,7 +5008,12 @@
 			"SongCompJP": "ツキダタダシ",
 			"SongArraJP": "野中“まさ”雄一",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "CRE8BOY"
+			"SongChoreo": "CRE8BOY",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1z6rKsC1DTcxpmGF_Xv2r4FS0VCOEa-GI"
+
 		},
 		{
 			"titleJp": "スタイリッシュ",
@@ -4068,7 +5027,12 @@
 			"SongCompJP": "柴矢俊彦",
 			"SongArraJP": "ツタナオヒコ",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1NSa_zNlWJOVhby9MdXd5N5RTR-oeFLe5"
+
 		},
 		{
 			"titleJp": "いつの日か、あの歌を…",
@@ -4088,7 +5052,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1_iOqbY_kDjhhZuVk7MlplWO-Gddt74tF"
+			"LinkDownMV1": "https://drive.google.com/file/d/1_iOqbY_kDjhhZuVk7MlplWO-Gddt74tF",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1QjJyXNxhAxOqtlrkLH3jTURWAF1zmvyH"
+
 		}
 	],
 	"s35": [
@@ -4110,7 +5079,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["田中文人","Acchan"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1klWzoEWzma9ElKSuvDKHnIlzQflpKN0D"
+			"LinkDownMV1": "https://drive.google.com/file/d/1klWzoEWzma9ElKSuvDKHnIlzQflpKN0D",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1W0Ww_eukl3KY44vyDqBhrPFwiUkcmEjk"
+
 		},
 		{
 			"titleJp": "車道側",
@@ -4130,7 +5104,12 @@
 			"SongMVDirRO": "ITO Shuto",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1zTrgGSl0iAuwQUTke7FDPawyoJVme4fe"
+			"LinkDownMV1": "https://drive.google.com/file/d/1zTrgGSl0iAuwQUTke7FDPawyoJVme4fe",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1jbNPw5BIKFTa-GY5V19uDSuhTi_U-wVa"
+
 		},
 		{
 			"titleJp": "「じゃあね」が切ない",
@@ -4151,7 +5130,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1lZd5slmCrYDJt6b6elc8tz8BaM_56PzG"
+			"LinkDownMV1": "https://drive.google.com/file/d/1lZd5slmCrYDJt6b6elc8tz8BaM_56PzG",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1H5HRjE0qivDAffj6HyJIP-EYl7lUUVHQ"
+
 		},
 		{
 			"titleJp": "あと7曲",
@@ -4162,7 +5146,11 @@
 			"songOutline": "Unit",
 			"UnitName": "",
 			"members1": ["川﨑桜","遠藤さくら","林瑠奈","賀喜遥香","弓木奈於","小川彩"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YKZnoIgoSbEYu72IDB6APFpCrPOpwcVs"
 		},
 		{
 			"titleJp": "ぶんぶくちゃがま",
@@ -4175,7 +5163,12 @@
 			"members0": ["冨里奈央","一ノ瀬美空","田村真佑","筒井あやめ","池田瑛紗"],
 			"SongCompJP": "上田起士",
 			"SongArraJP": "渡辺徹",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1gpU4QjMZoIPbd6Ox76JoOVIHBC08-kBT"
+
 		},
 		{
 			"titleJp": "サルビアの花を覚えているかい？",
@@ -4188,7 +5181,12 @@
 			"members1": ["五百城茉央","奥田いろは"],
 			"SongCompJP": "本田正樹",
 			"SongArraJP": "本田正樹",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ucyiwm5CRaglN3N7XHua0CDJF8t1i2Lt"
+
 		},
 		{
 			"titleJp": "夏桜",
@@ -4204,7 +5202,12 @@
 			"SongArraJP": "野中“まさ”雄一",
 			"SongLyricsJP": "山下美月",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Wj9EvUAgoNTZaR1c73SHN3_AEBeYwLvF"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Wj9EvUAgoNTZaR1c73SHN3_AEBeYwLvF",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1rX0JwVJXRVrQl1vygfyT1gx09qmXGhY6"
+
 		}
 	],
 	"s36": [
@@ -4226,7 +5229,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1DsLUtzoIVx24vHEPxqQznWXuDFvoptsJ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1DsLUtzoIVx24vHEPxqQznWXuDFvoptsJ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "3.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1pv7CMfN20NMAUdlrvCH6tgrBIAD9uaHR"
+
 		},
 		{
 			"titleJp": "あの光",
@@ -4240,7 +5248,12 @@
 			"SongCompJP": "BASEMINT",
 			"SongArraJP": "BASEMINT",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1seZbShDA2h6p7-jGMBWxESpw4s8yps_1"
+
 		},
 		{
 			"titleJp": "落とし物",
@@ -4259,7 +5272,12 @@
 			"SongMVDirJP": "松永侑 （MAZRI Inc.）",
 			"SongMVDirRO": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-wQK6kjqn8PksdUetdmjxkr2C2RIfn3K"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-wQK6kjqn8PksdUetdmjxkr2C2RIfn3K",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "3.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1_LVDkMKrPN9Klf0y5TwvtKgYFM5y0BZy"
+
 		},
 		{
 			"titleJp": "君にDitto",
@@ -4273,7 +5291,12 @@
 			"SongCompJP": "松原憲",
 			"SongArraJP": "高橋修平",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": ["田中文人","Acchan"]
+			"SongChoreo": ["田中文人","Acchan"],
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1uwu3maguw5Q7eCORWlFrTQPevwpch_mL"
+
 		},
 		{
 			"titleJp": "懐かない仔猫",
@@ -4287,7 +5310,12 @@
 			"SongCompJP": "渡辺淳",
 			"SongArraJP": "渡辺淳",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "西田一生"
+			"SongChoreo": "西田一生",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1SUKnCn45Rbaft2IISITL0Umbja1qfaRU"
+
 		},
 		{
 			"titleJp": "Keep in touch",
@@ -4301,7 +5329,12 @@
 			"SongCompJP": "佐伯一",
 			"SongArraJP": "佐伯一",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=10KvVHJ7-aov0Tx1wKP51yB2i3eX7IoYL"
+
 		},
 		{
 			"titleJp": "熱狂の捌け口",
@@ -4321,7 +5354,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "松岡篤志",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1KFWb4Zxa_oYzreCHUrCd1n7AcTjVfYJN"
+			"LinkDownMV1": "https://drive.google.com/file/d/1KFWb4Zxa_oYzreCHUrCd1n7AcTjVfYJN",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "2.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Kb2GI9dDI19qYxF-wLVl5-7H350s95q2"
+
 		}
 	],
 	"s37": [
@@ -4343,7 +5381,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1PakPRDaHBBOW375oszBclj52t7Y9CELj"
+			"LinkDownMV1": "https://drive.google.com/file/d/1PakPRDaHBBOW375oszBclj52t7Y9CELj",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1dNHvdMD7JzQyYBjsrCZBvSfTa8K6focD"
+
 		},
 		{
 			"titleJp": "相対性理論に異議を唱える",
@@ -4364,7 +5407,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1tI1-EXK9ckW__lwSqON3VRcVcrlLPzyX"
+			"LinkDownMV1": "https://drive.google.com/file/d/1tI1-EXK9ckW__lwSqON3VRcVcrlLPzyX",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "12.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1z0qPVkQcdEVedKn1aedFfr5QJKxgd9bm"
+
 		},
 		{
 			"titleJp": "世界一のダイヤモンド",
@@ -4377,7 +5425,12 @@
 			"members1": ["池田瑛紗","梅澤美波","賀喜遥香","菅原咲月"],
 			"SongCompJP": "山田智和",
 			"SongArraJP": "住谷翔平",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1UZl7OFNXUpzHJpmidpcIa2s3Cnk3TR_9"
+
 		},
 		{
 			"titleJp": "夕陽は何色か？",
@@ -4391,7 +5444,12 @@
 			"SongCompJP": "八木篤史",
 			"SongArraJP": "塩原大貴(SUPA LOVE)",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "ムライマユ"
+			"SongChoreo": "ムライマユ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1xv3AL9zb7HjgMwOoKUJhVBqdsqR10UDQ"
+
 		},
 		{
 			"titleJp": "乃木坂饅頭",
@@ -4404,7 +5462,12 @@
 			"members1": ["小川彩","川﨑桜","与田祐希","井上和","一ノ瀬美空"],
 			"SongCompJP": "成本智美",
 			"SongArraJP": "曽木琢磨(SUPA LOVE)",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "8.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1f6xlEObWi1kLJzLRmi3t8yMIYJZgztkU"
+
 		},
 		{
 			"titleJp": "雪が降る日にまた会おう",
@@ -4419,7 +5482,12 @@
 			"SongCompJP": "早川暁雄",
 			"SongArraJP": "早川暁雄",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "ムライマユ"
+			"SongChoreo": "ムライマユ",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1PyqP2Pf0BeqKcEPC5mo_SI3HZ_-FJvo0"
+
 		},
 		{
 			"titleJp": "それまでの猶予",
@@ -4439,7 +5507,12 @@
 			"SongMVDirRO": "YOSHIKAWA Eri",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1TumENTsFhZx6lhFFRw0B3Z65xo3OwoiK"
+			"LinkDownMV1": "https://drive.google.com/file/d/1TumENTsFhZx6lhFFRw0B3Z65xo3OwoiK",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Oi1t7HPQs4UvEeV-RVWGVB30rquM0uhf"
+
 		}
 	],
 	"s38": [
@@ -4461,7 +5534,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-sdGk62eyNXQ_HpexzF2rLDUGH4XnWSN"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-sdGk62eyNXQ_HpexzF2rLDUGH4XnWSN",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.7 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1wrby6frC6UOY-8WKbFeOwYzzaBf8Gu9E/view?usp=drive_link"
+
 		},
 		{
 			"titleJp": "懐かしさの先",
@@ -4481,7 +5559,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-tQOTVnHxGwzOsMBufyBmY7xKmnzqG5v"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-tQOTVnHxGwzOsMBufyBmY7xKmnzqG5v",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4 MB",
+			"OffVocallink": "https://drive.google.com/file/d/16KOq5j0FBu1L1BRlcGUsRPdtCCavQtKL/view?usp=drive_link"
+
 		},
 		{
 			"titleJp": "交感神経優位",
@@ -4500,7 +5583,12 @@
 			"SongMVDirRO": "SHIMADA Yoshiyuki",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-M2bymPRKQDMKTFCTkLUxhk6GfLKlC6W"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-M2bymPRKQDMKTFCTkLUxhk6GfLKlC6W",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1cUlunEnRvAUU2QwOQBBENhferMCxxqUd/view?usp=drive_link"
+
 		},
 		{
 			"titleJp": "タイムリミット片想い",
@@ -4520,7 +5608,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "WARNER",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-xXuKu_Tqk5qn3H3S_eU8PMhNYgEDfT-"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-xXuKu_Tqk5qn3H3S_eU8PMhNYgEDfT-",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.1 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1Ns7kip8hY94fqkAA2LvENIU557wjuQwH/view?usp=drive_link"
+
 		},
 		{
 			"titleJp": "天空の豆の木",
@@ -4532,7 +5625,12 @@
 			"members1": ["井上和","筒井あやめ"],
 			"SongCompJP": ["Kyosuke Yamanaka","Yuka Goto"],
 			"SongArraJP": "Kyosuke Yamanaka",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.6 MB",
+			"OffVocallink": "https://drive.google.com/file/d/185jOuO9-hPX16fMC8GcazukAocGV5jig/view?usp=drive_link"
+
 		},
 		{
 			"titleJp": "100日目",
@@ -4548,7 +5646,12 @@
 			"SongArraJP": "佐々木“コジロー”貴之",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-kBqpj1hpOpVjmaaP5t0w48SxyGl54Mi"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-kBqpj1hpOpVjmaaP5t0w48SxyGl54Mi",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.6 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1oUXnOlcv7SYr2YimHpkcokEGon2pEf2Z/view?usp=drive_link"
+
 		},
 		{
 			"titleJp": "キスのシルエット",
@@ -4562,7 +5665,12 @@
 			"SongCompJP": "原一博",
 			"SongArraJP": "原一博",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "shoji（s**t kingz）"
+			"SongChoreo": "shoji（s**t kingz）",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.1 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1k_KpcPxS7mgdxGJMSpksIpD8iTuxk32h/view?usp=drive_link"
+
 		}
 	],
 	"s39": [
@@ -4584,7 +5692,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Seishiro",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Iwz18WXtx9wjBSAE_0BI7CYoEH8VrVK6"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Iwz18WXtx9wjBSAE_0BI7CYoEH8VrVK6",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "7.2 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1Pj1_blmTmRewRoTiYN3q1J2iAztsSmOK/view?usp=drive_link"
+
 		},
 		{
 			"titleJp": "真夏日よ",
@@ -4599,7 +5712,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "ムライマユ",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1WOPr5P23f5wEYpxNfSS4eix-9adY_oSb"
+			"LinkDownMV1": "https://drive.google.com/file/d/1WOPr5P23f5wEYpxNfSS4eix-9adY_oSb",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "6.4 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1f85Is3WP1GC3nYmGPZTWWNMxhXc0TYzo/view?usp=drive_link"
 		},
 		{
 			"titleJp": "なぜ　僕たちは走るのか？",
@@ -4618,7 +5735,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "川村茜",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1LCXgV8IEBXLL39fiIEoy7RFe9mvf5hOA"
+			"LinkDownMV1": "https://drive.google.com/file/d/1LCXgV8IEBXLL39fiIEoy7RFe9mvf5hOA",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "6.4 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1QwKymGOEZB6_KtT5BjFfQE6-_2dxoeVT/view?usp=drive_link"
 		},
 		{
 			"titleJp": "あの頃におかえり",
@@ -4632,7 +5753,11 @@
 			"SongCompJP": "youth case",
 			"SongArraJP": "遠藤ナオキ",
 			"SongLyricsJP": "秋元康",
-			"HasMV": "no"
+			"HasMV": "no",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "6.5 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1kd0fhDtfJI_Me4hnbik-ls1Z2I6TX7cK/view?usp=drive_link"
 		},
 		{
 			"titleJp": "不道徳な夏",
@@ -4652,7 +5777,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1mG86M5VGx5zaZuaOkFy68EBmtj5akNZ_"
+			"LinkDownMV1": "https://drive.google.com/file/d/1mG86M5VGx5zaZuaOkFy68EBmtj5akNZ_",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.5 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1qRk_EwEjE0xF3Z_SvoSYSHClxwl9PMIB/view?usp=drive_link"
 		},
 		{
 			"titleJp": "ってかさ",
@@ -4670,7 +5799,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1chM8Ne5PhC47BlPsDCW51CJAhu983VIS"
+			"LinkDownMV1": "https://drive.google.com/file/d/1chM8Ne5PhC47BlPsDCW51CJAhu983VIS",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.5 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1CfzgX6DAUaG_cjidiBqIw2X19mHnNlas/view?usp=drive_link"
 		},
 		{
 			"titleJp": "君と猫",
@@ -4688,7 +5821,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "",
 			"HasMV": "no",
-			"LinkDownMV1": ""
+			"LinkDownMV1": "",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.6 MB",
+			"OffVocallink": "https://drive.google.com/file/d/1j95krfNj0MvwKQM7QJ0UVwAFA_GiCeO6/view?usp=drive_link"
 		}
 	],
 	"dig": [
@@ -4720,7 +5857,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ha5uJ7VHXdAfd-OSw9XED_qeAJQ3eqkL"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ha5uJ7VHXdAfd-OSw9XED_qeAJQ3eqkL",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "12.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1IVNIZUrAvV6gPj33kHoWFLADLyyLWgcB"
+
 		},
 		{
 			"titleJp": "Route 246",
@@ -4740,7 +5882,12 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": ["Acchan","FUMIHITO"],
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1-0d2XanQszyBUXynzrgLmZCj6UKHBcrr"
+			"LinkDownMV1": "https://drive.google.com/file/d/1-0d2XanQszyBUXynzrgLmZCj6UKHBcrr",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1hfWdqbE2gYpO1Jkmag1K2gLFIZaztNtj"
+
 		},
 		{
 			"titleJp": "1・2・3",
@@ -4750,7 +5897,12 @@
 			"songOutline": "Unit",
 			"UnitName": "からあげ姉妹",
 			"members1": ["生田絵梨花","松村沙友理"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "flac",
+			"OffVocalsize": "40.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Jmj2i4dpLXXzgocKnJuQasfHZ13W-CIi"
+
 		}
 	],
 	"a1": [
@@ -4765,7 +5917,11 @@
 			"members0": ["衛藤美彩","桜井玲香","若月佑美"],
 			"SongCompJP": "宮坂聡彦",
 			"SongArraJP": "佐々木裕",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=15rP2ELfvooP6wpkxKa8Ay2kmz0DhDVPD"
 		},
 		{
 			"titleJp": "革命の馬",
@@ -4779,7 +5935,11 @@
 			"SongCompJP": "伊勢佳史",
 			"SongArraJP": "伊勢佳史",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1cmh0ygeUq_UlW_sx0lU4gRwvh10lUJJw"
 		},
 		{
 			"titleJp": "僕がいる場所",
@@ -4795,7 +5955,11 @@
 			"SongCompJP": "杉山勝彦",
 			"SongArraJP": ["杉山勝彦","有木竜郎"],
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": "LICO"
+			"SongChoreo": "LICO",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1-pKtcuPWRPpWbahs0HeMmWKMEb4yDn5W"
 		},
 		{
 			"titleJp": "あなたのために弾きたい",
@@ -4807,7 +5971,11 @@
 			"members0": "生田絵梨花",
 			"SongCompJP": "近藤圭一",
 			"SongArraJP": "樫原伸彦",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "8.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1yb_eWEOgj7hQYC473FBpcefSsNgiaI1j"
 		},
 		{
 			"titleJp": "傾斜する",
@@ -4816,12 +5984,16 @@
 			"songTypeAvv": "-",
 			"songRelease": "2015.01.07",
 			"songOutline": "Unit",
-			"UnitName": "",
+			"UnitName": "こじ坂46",
 			"center": "小嶋陽菜 (AKB48)",
 			"members0": ["小嶋陽菜 (AKB48)","生駒里奈","川後陽菜","川村真洋","斉藤優里","中田花奈","永島聖羅","能條愛未","和田まあや","伊藤純奈","相楽伊織","佐々木琴子","鈴木絢音","寺田蘭世","山崎怜奈","渡辺みり愛"],
 			"SongCompJP": ["須藤哲平","長谷川湊"],
 			"SongArraJP": "佐々木裕",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Y1-OtbHc8gRfPRjeU2Y5FGV0Gf-XFNYi"
 		},
 		{
 			"titleJp": "なぞの落書き",
@@ -4834,7 +6006,11 @@
 			"members1": ["齋藤飛鳥","星野みなみ","堀未央奈"],
 			"SongCompJP": "片桐周太郎",
 			"SongArraJP": "野中“まさ”雄一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=14oNGDheBnc28Dm9SGs5eCCGk06Jnp30s"
 		},
 		{
 			"titleJp": "自由の彼方",
@@ -4849,7 +6025,11 @@
 			"members1": ["齋藤飛鳥","井上小百合","伊藤万理華"],
 			"SongCompJP": "山田智和",
 			"SongArraJP": "住谷翔平",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1en5YjZ8KQZ-6jKXAzKnkNL1hHOnRCMJo"
 		},
 		{
 			"titleJp": "ひとりよがり",
@@ -4861,7 +6041,11 @@
 			"members0": "西野七瀬",
 			"SongCompJP": "杉山勝彦",
 			"SongArraJP": ["杉山勝彦","有木竜郎"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "12.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=16jBoiXtA3mvVoQVvGaE2KxdpXVcYjZ_q"
 		}
 	],
 	"a2": [
@@ -4882,7 +6066,11 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "LICO",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1lIAsCVNlaoFSBF1hIFpiPWuv3Ur67v2L"
+			"LinkDownMV1": "https://drive.google.com/file/d/1lIAsCVNlaoFSBF1hIFpiPWuv3Ur67v2L",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "12.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1898hZHo99Ty_b0mVawNnoT5hlWA9aI_N"
 		},
 		{
 			"titleJp": "太陽に口説かれて",
@@ -4894,7 +6082,11 @@
 			"members0": ["秋元真夏","生田絵梨花","生駒里奈","伊藤万理華","井上小百合","衛藤美彩","齋藤飛鳥","桜井玲香","白石麻衣","高山一実","西野七瀬","橋本奈々未","星野みなみ","堀未央奈","松村沙友理","若月佑美"],
 			"SongCompJP": "フジノタカフミ",
 			"SongArraJP": "フジノタカフミ",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1rJxlnR0jcfmf0Z8_GJ-XywEihFGaE3kT"
 		},
 		{
 			"titleJp": "欲望のリインカーネーション",
@@ -4906,7 +6098,11 @@
 			"members0": ["川後陽菜","川村真洋","斎藤ちはる","斉藤優里","中田花奈","中元日芽香","能條愛未","樋口日奈","和田まあや"],
 			"SongCompJP": "渡辺未来",
 			"SongArraJP": "渡辺未来",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Cp0mVU9t5wLoHumQcQok-ZWQ_FJaJCly"
 		},
 		{
 			"titleJp": "空気感",
@@ -4919,7 +6115,11 @@
 			"members0": ["衛藤美彩","白石麻衣","高山一実","橋本奈々未","松村沙友理"],
 			"SongCompJP": "DR QUEENBEE",
 			"SongArraJP": "DR QUEENBEE",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1pxBPEFGN-Pp8u44d-FPJSxXk_GPFd-jv"
 		},
 		{
 			"titleJp": "光合成希望",
@@ -4931,7 +6131,11 @@
 			"members0": "西野七瀬",
 			"SongCompJP": "吉田博",
 			"SongArraJP": "野中“まさ”雄一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1zHlEtdu2qbTE7EPdTX0jRpwYADwzRtC6"
 		},
 		{
 			"titleJp": "Threefold choice",
@@ -4944,7 +6148,11 @@
 			"members0": ["齋藤飛鳥","星野みなみ","堀未央奈"],
 			"SongCompJP": "古川貴浩",
 			"SongArraJP": "古川貴浩",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "8.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1j1F8Wda2Esll33w22k8MPT9zsdH8xNBJ"
 		},
 		{
 			"titleJp": "低体温のキス",
@@ -4956,7 +6164,11 @@
 			"members0": "生田絵梨花",
 			"SongCompJP": "中谷あつこ",
 			"SongArraJP": "田上陽一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1oSiRddoXEc6HsblkicVLa2ZNd4o5vF3B"
 		},
 		{
 			"titleJp": "失恋したら、顔を洗え！",
@@ -4969,7 +6181,11 @@
 			"members0": ["中元日芽香","能條愛未"],
 			"SongCompJP": "さいとうくにあき",
 			"SongArraJP": "内田充",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1hfDQKGp4DZ-p3vOb7YtUaratF3K0zELO"
 		},
 		{
 			"titleJp": "かき氷の片想い",
@@ -4984,7 +6200,11 @@
 			"members1": ["伊藤かりん","北野日奈子","堀未央奈","寺田蘭世","新内眞衣"],
 			"SongCompJP": "白須賀悟",
 			"SongArraJP": "白須賀悟",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=10O5K7zBQDV6nvqQdJdYm8tjLL0wYwOja"
 		},
 		{
 			"titleJp": "環状六号線",
@@ -4997,7 +6217,11 @@
 			"members0": ["生駒里奈","伊藤万理華","井上小百合"],
 			"SongCompJP": "サイトウリョースケ",
 			"SongArraJP": "サイトウリョースケ",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1pDrApP5FXoAq0URtpUCbHoZZ0lBbn_0E"
 		},
 		{
 			"titleJp": "口約束",
@@ -5010,7 +6234,11 @@
 			"members0": ["秋元真夏","桜井玲香","中田花奈","若月佑美"],
 			"SongCompJP": "Amber",
 			"SongArraJP": "若田部誠",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=123-0fkWY8Jg1fEPxjW_4l4JSkGAaGyhg"
 		}
 	],
 	"a3": [
@@ -5027,7 +6255,11 @@
 			"members1": ["秋元真夏","堀未央奈","西野七瀬","白石麻衣","齋藤飛鳥","衛藤美彩"],
 			"SongCompJP": "菅井達司",
 			"SongArraJP": "菅井達司",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.7 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1MF6kCCBZMC5-c8T-E9EH7WrdqFQE8G5n"
 		},
 		{
 			"titleJp": "君が扇いでくれた",
@@ -5042,7 +6274,11 @@
 			"members1": ["山崎怜奈","渡辺みり愛","鈴木絢音"],
 			"SongCompJP": ["中山聡","足立優"],
 			"SongArraJP": "野中“まさ”雄一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1YQ_6RYVbyd9hk6y3y5dqPiaD9z2dsTLi"
 		},
 		{
 			"titleJp": "思い出ファースト",
@@ -5062,7 +6298,11 @@
 			"SongArraJP": "遠藤ナオキ",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1o0uMJ8G2YYKk4ALl6MBS17S6fjX7DsDQ"
+			"LinkDownMV1": "https://drive.google.com/file/d/1o0uMJ8G2YYKk4ALl6MBS17S6fjX7DsDQ",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Ilpu0gBIjdB3Et4jiofWWnTnTP3o8cnC"
 		},
 		{
 			"titleJp": "設定温度",
@@ -5074,7 +6314,11 @@
 			"members0": ["秋元真夏","生田絵梨花","生駒里奈","伊藤かりん","伊藤純奈","伊藤万理華","伊藤理々杏","井上小百合","岩本蓮加","梅澤美波","衛藤美彩","大園桃子","川後陽菜","川村真洋","北野日奈子","久保史緒里","齋藤飛鳥","斎藤ちはる","斉藤優里","阪口珠美","相楽伊織","桜井玲香","佐々木琴子","佐藤楓","白石麻衣","新内眞衣","鈴木絢音","高山一実","寺田蘭世","中田花奈","中村麗乃","中元日芽香","西野七瀬","能條愛未","樋口日奈","星野みなみ","堀未央奈","松村沙友理","向井葉月","山崎怜奈","山下美月","吉田綾乃クリスティー","与田祐希","若月佑美","渡辺みり愛","和田まあや"],
 			"SongCompJP": "石井亮輔",
 			"SongArraJP": "APAZZI",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1t9jvhceLpIdInEiNk5MaKDyPLgAhHuUa"
 		},
 		{
 			"titleJp": "Rewindあの日",
@@ -5087,7 +6331,11 @@
 			"members0": ["桜井玲香","西野七瀬","若月佑美"],
 			"SongCompJP": "藤木テツ",
 			"SongArraJP": "佐々木裕",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1MZCJsGEgaw8pzz21f2V1y6dUr-J--H44"
 		},
 		{
 			"titleJp": "ごめんね、スムージー",
@@ -5100,7 +6348,11 @@
 			"members0": ["伊藤万理華","井上小百合","中元日芽香"],
 			"SongCompJP": "YASUSHI WATANABE",
 			"SongArraJP": "YASUSHI WATANABE",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1G2m19jJW65zItf8DolO7KvAK7l-MduKe"
 		},
 		{
 			"titleJp": "醜い私",
@@ -5113,7 +6365,11 @@
 			"members0": ["衛藤美彩","斉藤優里","新内眞衣"],
 			"SongCompJP": "外山大輔",
 			"SongArraJP": "APAZZI",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1eh8SX7b-z-IHlZeiF5dtKzQmt3e3OqrZ"
 		},
 		{
 			"titleJp": "硬い殻のように抱きしめたい",
@@ -5125,7 +6381,11 @@
 			"members0": "齋藤飛鳥",
 			"SongCompJP": "杉山勝彦",
 			"SongArraJP": ["杉山勝彦","三谷秀甫","谷地学"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1lnnIKCgTySDUbrmrV0-fEMV-pR4dIOWG"
 		},
 		{
 			"titleJp": "満月が消えた",
@@ -5138,7 +6398,11 @@
 			"members0": ["生田絵梨花","生駒里奈","星野みなみ"],
 			"SongCompJP": "SaSA",
 			"SongArraJP": "SaSA",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "8.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1CTtDmkGlJ1k3I8g9c2an3wUXjhaBAT5W"
 		},
 		{
 			"titleJp": "ワタボコリ",
@@ -5151,7 +6415,11 @@
 			"members0": ["北野日奈子","寺田蘭世","堀未央奈"],
 			"SongCompJP": "ハサミマン",
 			"SongArraJP": "ハサミマン",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1GQkG85ICUGF8LviAUVGOMLnAIAG87YxU"
 		},
 		{
 			"titleJp": "流星ディスコティック",
@@ -5164,7 +6432,11 @@
 			"members0": ["白石麻衣","松村沙友理"],
 			"SongCompJP": "Masayoshi Kawabata",
 			"SongArraJP": "Masayoshi Kawabata",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "12.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=17mYKVOT0MAAuBBbrlA1nhMyEF2w9-nkm"
 		},
 		{
 			"titleJp": "忘却と美学",
@@ -5177,7 +6449,11 @@
 			"members0": ["秋元真夏","高山一実"],
 			"SongCompJP": "早川博隆",
 			"SongArraJP": "早川博隆",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.6 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1DaB2wOdb_LstlK-7YaBjr25upXrLcDwK"
 		}
 	],
 	"u1": [
@@ -5191,7 +6467,11 @@
 			"members0": "中元日芽香",
 			"SongCompJP": "小松清人",
 			"SongArraJP": "小松清人",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1zuVh3kumaAJglSEK_ngVaSiOGEtKUsMn"
 		},
 		{
 			"titleJp": "自惚れビーチ",
@@ -5206,7 +6486,11 @@
 			"members1": ["和田まあや","鈴木絢音","樋口日奈"],
 			"SongCompJP": "ツキダタダシ",
 			"SongArraJP": "ツキダタダシ",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=11FREaPGofX3rvwLnaBBqJV5jfiqmZtxD"
 		},
 		{
 			"titleJp": "その女",
@@ -5222,7 +6506,11 @@
 			"members1": ["樋口日奈","寺田蘭世","山崎怜奈"],
 			"SongCompJP": "HRK",
 			"SongArraJP": "APAZZI",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1k9dacsYrtvkcczJU4OxO1M0Y6hfeh6S-"
 		},
 		{
 			"titleJp": "誰よりそばにいたい",
@@ -5235,7 +6523,11 @@
 			"members0": ["伊藤かりん","伊藤純奈","川後陽菜","川村真洋","斎藤ちはる","相楽伊織","佐々木琴子","鈴木絢音","寺田蘭世","能條愛未","山崎怜奈","渡辺みり愛","和田まあや"],
 			"SongCompJP": "岩崎哲也",
 			"SongArraJP": "関根佑樹",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1NpO3VvaS6OsL3spvMrnI4Rg3BTKNsfgc"
 		}
 	],
 	"a4": [
@@ -5251,7 +6543,11 @@
 			"members1": ["梅澤美波","山下美月","齋藤飛鳥","白石麻衣","生田絵梨花","与田祐希"],
 			"SongCompJP": "杉山勝彦",
 			"SongArraJP": "野中“まさ”雄一",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.4 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Uo0o8lKMi3aq51mkKIEi3CsA39Yja0wE"
 		},
 		{
 			"titleJp": "もし君がいなければ",
@@ -5263,7 +6559,11 @@
 			"members0": "衛藤美彩",
 			"SongCompJP": "杉山勝彦",
 			"SongArraJP": ["杉山勝彦","有木竜郎"],
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1vVkr1F3WQdltPYN7Dtnbzahf1HZGzc3s"
 		},
 		{
 			"titleJp": "キスの手裏剣",
@@ -5278,7 +6578,11 @@
 			"members1": ["筒井あやめ","清宮レイ","遠藤さくら","柴田柚菜","賀喜遥香"],
 			"SongCompJP": "山田智和",
 			"SongArraJP": "住谷翔平",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1aoSObv4N2f6-parkd68eEjLFQLd1sKIR"
 		},
 		{
 			"titleJp": "頬杖をついては眠れない",
@@ -5291,7 +6595,11 @@
 			"members0": ["秋元真夏","斉藤優里","白石麻衣","新内眞衣","高山一実"],
 			"SongCompJP": "Super Mahirock",
 			"SongArraJP": "Huge M",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=10rTrGHE5NWbb28PB1aAW3bRSoEYleoCN"
 		},
 		{
 			"titleJp": "ぼっち党",
@@ -5304,7 +6612,11 @@
 			"members0": ["生田絵梨花","久保史緒里","桜井玲香"],
 			"SongCompJP": "庄司裕",
 			"SongArraJP": "庄司裕",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "7.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1p63ucWonRRV2Loe-QGkDweRwh7ZoR8DC"
 		},
 		{
 			"titleJp": "さゆりんご募集中",
@@ -5317,7 +6629,11 @@
 			"members0": ["松村沙友理","伊藤かりん","佐々木琴子","寺田蘭世"],
 			"SongCompJP": ["浦島健太","菊池博人"],
 			"SongArraJP": "浦島健太・菊池博人",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "9.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1KgZ7_QBu9or1Z9ItyBtzvpjVGqf8tLPF"
 		},
 		{
 			"titleJp": "ゴルゴンゾーラ",
@@ -5330,7 +6646,11 @@
 			"members0": ["北野日奈子","堀未央奈","渡辺みり愛"],
 			"SongCompJP": "BASEMINT",
 			"SongArraJP": "BASEMINT",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "10.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1ga4SlBDwVIjfvTPA60zjSyxeWk2TbpuQ"
 		},
 		{
 			"titleJp": "もうすぐ～ザンビ伝説～",
@@ -5343,7 +6663,11 @@
 			"members0": ["秋元真夏","伊藤純奈","伊藤理々杏","岩本蓮加","梅澤美波","大園桃子","久保史緒里","齋藤飛鳥","阪口珠美","佐藤楓","新内眞衣","鈴木絢音","寺田蘭世","中村麗乃","星野みなみ","堀未央奈","向井葉月","山下美月","吉田綾乃クリスティー","与田祐希","渡辺みり愛"],
 			"SongCompJP": "渡辺剛",
 			"SongArraJP": "渡辺剛",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "11.1 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1taknLHriijsvrYrw9pEL2qf_cFuLoQcO"
 		}
 	],
 	"b1": [
@@ -5365,7 +6689,12 @@
 			"SongArraJP": ["杉山勝彦","谷地学"],
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/16BjhXIJwI1qQZO-bJS_QP6gl6SclDid8"
+			"LinkDownMV1": "https://drive.google.com/file/d/16BjhXIJwI1qQZO-bJS_QP6gl6SclDid8",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "14.8 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=18oLgIAf7_PlMcSMN2nd_H_z7GpZVMepU"
+
 		},
 		{
 			"titleJp": "歳月の轍",
@@ -5381,7 +6710,12 @@
 			"SongArraJP": ["APAZZI","Akira Sunset"],
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1naf9knRZS-gf5gFxGr3omXiaJGDKCCJT"
+			"LinkDownMV1": "https://drive.google.com/file/d/1naf9knRZS-gf5gFxGr3omXiaJGDKCCJT",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "16.9 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1Q5z-u8gM7SCS6J0zS61XTG79SEeMcUqC"
+
 		},
 		{
 			"titleJp": "あなたからの卒業",
@@ -5397,7 +6731,12 @@
 			"SongArraJP": "野中“まさ”雄一",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1gFSf7YHjdFuPACj9suOcEmRshIkSxJHR"
+			"LinkDownMV1": "https://drive.google.com/file/d/1gFSf7YHjdFuPACj9suOcEmRshIkSxJHR",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "12.5 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1moCxxKvO-V3cVan1ke9sDSjEZK7POovw"
+
 		},
 		{
 			"titleJp": "Hard to say",
@@ -5416,7 +6755,12 @@
 			"SongArraJP": "SHiNTA",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1ZFx0wTmG-G7g1mSWPpV4ZHxDVhbepZ3w"
+			"LinkDownMV1": "https://drive.google.com/file/d/1ZFx0wTmG-G7g1mSWPpV4ZHxDVhbepZ3w",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "13.0 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1xAxWAdR0qCa7e8cf5UPm9vhIgiGZhX6K"
+
 		},
 		{
 			"titleJp": "ゆっくりと咲く花",
@@ -5434,7 +6778,111 @@
 			"SongArraJP": "野中“まさ”雄一",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1Ml5lu2L6k4qfIw-PxpAy-xOB0j8YeP67"
+			"LinkDownMV1": "https://drive.google.com/file/d/1Ml5lu2L6k4qfIw-PxpAy-xOB0j8YeP67",
+			"OffVocaltag": "AI",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "14.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1b1-OWXj0pxc_sObUzaZw_Ql74PdnkKth"
+		}
+	],
+	"akb38": [
+		{
+			"titleJp": "風の螺旋",
+			"titleRo": "Kaze no Rasen",
+			"songNumber": "AKB48 38th Single",
+			"songTypeAvv": "D",
+			"songRelease": "2014.11.26",
+			"songOutline": "Unit",
+			"UnitName": "こじ坂46",
+			"center": "小嶋陽菜 (AKB48)",
+			"members0": ["小嶋陽菜 (AKB48)","生駒里奈","伊藤純奈","川後陽菜","川村真洋","斉藤優里","相楽伊織","佐々木琴子","鈴木絢音","寺田蘭世","中田花奈","永島聖羅","能條愛未","山崎怜奈","渡辺みり愛","和田まあや"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "片桐周太郎",
+			"SongArraJP": "若田部誠",
+			"SongMVDirJP": "中村太洸",
+			"SongMVDirRO": "NAKAMURA Taikou",
+			"SongChoreo" :"LICO",
+			"HasMV": "yes",
+			"LinkDownMV1": "",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.27 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1D8gIumrZxFgw5tfe6_ajklbeSmHb4psv"
+		}
+	],
+	"akb47": [
+		{
+			"titleJp": "誰のことを一番 愛してる？",
+			"titleRo": "Dare no Koto o Ichiban Aishiteru?",
+			"songNumber": "AKB48 47th Single",
+			"songTypeAvv": "E",
+			"songRelease": "2017.03.15",
+			"songOutline": "Unit",
+			"UnitName": "坂道AKB",
+			"center": "平手友梨奈",
+			"members0": ["宮脇咲良","向井地美音","小嶋真子","岡田奈々","小栗有以","松井珠理奈","伊藤万理華","北野日奈子","齋藤飛鳥","寺田蘭世","星野みなみ","堀未央奈","今泉佑唯","菅井友香","平手友梨奈","渡辺梨加","渡邉理佐","長濱ねる"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "佐久間和宏",
+			"SongArraJP": "佐久間和宏",
+			"SongMVDirJP": "東市篤憲",
+			"SongMVDirRO": "TOSHI Atsunori",
+			"SongChoreo" :"TAKAHIRO",
+			"HasMV": "yes",
+			"LinkDownMV1": "",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.3 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1kPCPgu4V-3x72EF3YANjaKbSTs7AJkYb"
+		}
+	],
+	"akb51": [
+		{
+			"titleJp": "国境のない時代",
+			"titleRo": "Kokkyou no nai Jidai",
+			"songNumber": "AKB48 51st Single",
+			"songTypeAvv": "E",
+			"songRelease": "2018.03.14",
+			"songOutline": "Unit",
+			"UnitName": "坂道AKB",
+			"center": "長濱ねる",
+			"members0": ["宮脇咲良","向井地美音","岡田奈々","岡部麟","小栗有以","松井珠理奈","大園桃子","久保史緒里","齋藤飛鳥","堀未央奈","山下美月","与田祐希","今泉佑唯","小林由依","菅井友香","長濱ねる","渡邉理佐","加藤史帆"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "Yo-Hey",
+			"SongArraJP": "Yo-Hey",
+			"SongMVDirJP": "東市篤憲",
+			"SongMVDirRO": "TOSHI Atsunori",
+			"SongChoreo" :"TAKAHIRO",
+			"HasMV": "yes",
+			"LinkDownMV1": "",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "5.28 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=16RZfACCAQcmGfiOyJtU0FZq8aZcBjwJJ"
+		}
+	],
+	"akb55": [
+		{
+			"titleJp": "初恋ドア",
+			"titleRo": "Hatsukoi Door",
+			"songNumber": "AKB48 55th Single",
+			"songTypeAvv": "B",
+			"songRelease": "2019.03.13",
+			"songOutline": "Unit",
+			"UnitName": "坂道AKB",
+			"center": "山下美月",
+			"members0": ["矢作萌夏","福岡聖菜","山内瑞葵","岡部麟","小栗有以","下尾みう","坂口渚沙","梅山恋和","田中美久","瀧野由美子","梅澤美波","大園桃子","久保史緒里","山下美月","与田祐希","小池美波","小林由依","菅井友香","鈴本美愉","土生瑞穂","加藤史帆","小坂菜緒","齊藤京子","佐々木美玲","渡邉美穂"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": ["Akira Sunset","野口大志"],
+			"SongArraJP": ["Akira Sunset","野口大志"],
+			"SongMVDirJP": "東市篤憲",
+			"SongMVDirRO": "TOSHI Atsunori",
+			"SongChoreo" :"Ruu",
+			"HasMV": "yes",
+			"LinkDownMV1": "",
+			"OffVocaltag": "公式",
+			"OffVocalformat": "mp3",
+			"OffVocalsize": "4.2 MB",
+			"OffVocallink": "https://drive.google.com/uc?export=download&id=1NkILgMl3BEeN-d3nZovz_g3Au2eDM86Q"
 		}
 	]
 }

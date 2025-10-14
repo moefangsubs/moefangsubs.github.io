@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- Title -->
+    <title>MoeData | Sakamichi Penlight</title>
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- Kepala dan kaki wkwkwk -->
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+
+	<!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_member_main.css">    
+    <link rel="stylesheet" href="../css/style_penlight.css">
+
+	<!-- JS -->    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="../js/script_member_penlight.js" defer></script>
+    <script src="../js/script_member_penlight_song.js" defer></script>
+</head>
+<body>
+<div class="contentpage">
+    <div class="titlehead">
+        <div id="headtitle">SAKAMICHI PENLIGHT</div>
+    </div>
+
+    <div class="filter-controls">
+        <div class="filter-group">
+            <strong class="filter-label">Group:</strong>
+            <button class="filter-btn active" data-group="all">All</button>
+            <button class="filter-btn" data-group="nogizaka46">
+                <img src="../sprite/element/group/8bit_nogi.png" alt="Nogizaka46">
+            </button>
+            <button class="filter-btn" data-group="sakurazaka46">
+                <img src="../sprite/element/group/8bit_saku.png" alt="Sakurazaka46">
+            </button>
+            <button class="filter-btn" data-group="hinatazaka46">
+                <img src="../sprite/element/group/8bit_hina.png" alt="Hinatazaka46">
+            </button>
+             <button class="filter-btn" data-group="keyakizaka46">
+                <img src="../sprite/element/group/8bit_keya.png" alt="Keyakizaka46">
+            </button>
+        </div>
+        <div class="filter-group">
+            <strong class="filter-label">Generation:</strong>
+            <button class="filter-btn gen-btn active" data-gen="all">All</button>
+            <button class="filter-btn gen-btn" data-gen="gen1">1st</button>
+            <button class="filter-btn gen-btn" data-gen="gen2">2nd</button>
+            <button class="filter-btn gen-btn" data-gen="gen3">3rd</button>
+            <button class="filter-btn gen-btn" data-gen="gen4">4th</button>
+            <button class="filter-btn gen-btn" data-gen="gen5">5th</button>
+            <button class="filter-btn gen-btn" data-gen="gen6">6th</button>
+            <button class="filter-btn gen-btn" data-gen="grad">Graduated</button>
+        </div>
+    </div>
+
+    <div id="penlight-content">
+        <div class="pentitle" data-group-title="nogizaka46">Nogizaka46</div>
+        <div class="penlist" data-for="nogizaka46"></div>
+        <!-- <div class="song-list" data-song-for="nogizaka46"></div> -->
+
+        <div class="pentitle" data-group-title="sakurazaka46">Sakurazaka46</div>
+        <div class="penlist" data-for="sakurazaka46"></div>
+        <!-- <div class="song-list" data-song-for="sakurazaka46"></div> -->
+
+        <div class="pentitle" data-group-title="hinatazaka46">Hinatazaka46</div>
+        <div class="penlist" data-for="hinatazaka46"></div>
+        <!-- <div class="song-list" data-song-for="hinatazaka46"></div> -->
+    </div>
+
+</div>
+</body>
+</html>
