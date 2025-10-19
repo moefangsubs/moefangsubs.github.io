@@ -7,9 +7,9 @@
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
-		"21"
+		"21", "22", "23"
 	],
-	"newUpdateCount": 1,
+	"newUpdateCount": 2,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
@@ -227,6 +227,26 @@
 			"linkSoftsub": "https://sfl.gl/27shs6",
 			"TrakteerB": "HULU - Gen-6 bermain Pop-up Pirate",
             "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogizaka-star-tanjou-six-vMle0"
+		},
+		"22": {
+			"descOnAirDate": "6 Oktober 2025",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"linkHardsub": "https://sfl.gl/M14PYun",
+			"linkSoftsub": "https://sfl.gl/OwMtVR",
+			"TrakteerB": "HULU - Kelanjutan Game Berebut Kursi",
+            "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogizaka-star-tanjou-six-vMle0"
+		},
+		"23": {
+			"descOnAirDate": "13 Oktober 2025",
+			"descSong1": "Mrs. GREEN APPLE「StaRt」",
+			"descSong2": "Goose house「光るなら」",
+			"descSong3": "MAX「Shinin' on - Shinin' love」",
+			"descSong4": "MAX「GET MY LOVE!」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalSenpai": "",
+			"additionalGuests": "MAX",
+			"linkHardsub": "https://sfl.gl/oayr",
+			"linkSoftsub": "https://sfl.gl/GWhcM"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

@@ -1,5 +1,17 @@
 [
   {
+    "date": "251019",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "22" },
+      { "showId": "nogizaka-star-tanjou-six", "eps": "23" },
+      { "showId": "kanade-no-rara", "eps": "08" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "02" },
+      { "showId": "shinu-made-buzztero", "eps": "01" },
+      { "showId": "koisuru-keigo-24ji-season-2", "eps": "01" },
+      { "showId": "random-subs", "eps": "55" }
+    ]
+  },
+  {
     "date": "251014",
     "updates": [
       { "showId": "nogidouga-kubo-channel", "eps": "111" },
@@ -32,60 +44,6 @@
       { "showId": "nogizaka-otameshichuu", "eps": "54" },
       { "showId": "nogizaka-otameshichuu", "eps": "55" },
       { "showId": "futari-escape", "eps": "01" }
-    ]
-  },
-  {
-    "date": "250927",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "18" },
-      { "showId": "nogizaka-star-tanjou-six", "eps": "19" },
-      { "showId": "nogizaka-star-tanjou-six", "eps": "20" },
-      { "showId": "spicy-sessions", "eps": "11" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "01" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "02" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "03" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "04" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "05" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "06" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "07" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "08" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "09" },
-      { "showId": "hinatazaka46-bonus-15th-single", "eps": "10" },
-      { "showId": "nogidouga-kubo-channel", "eps": "120" },
-      { "showId": "nogidouga-ganbare-nogizaka", "eps": "02" },
-      { "showId": "nogidouga-ganbare-nogizaka", "eps": "03" },
-      { "showId": "cupstar-ane-to-itsumademo", "eps": "03" },
-      { "showId": "ryosangata-ruka", "eps": "10" },
-      { "showId": "kimi-wa-yotsuha-no-clover", "eps": "01" },
-      { "showId": "kimi-wa-yotsuha-no-clover", "eps": "02" },
-      { "showId": "kimi-wa-yotsuha-no-clover", "eps": "03" },
-      { "showId": "kanade-no-rara", "eps": "01" },
-      { "showId": "kanade-no-rara", "eps": "02" },
-      { "showId": "kanade-no-rara", "eps": "03" },
-      { "showId": "kanade-no-rara", "eps": "04" },
-      { "showId": "kanade-no-rara", "eps": "05" },
-      { "showId": "utabangumi-music-fair", "eps": "01" },
-      { "showId": "utabangumi-24-hour-tv", "eps": "01" },
-      { "showId": "utabangumi-24-hour-tv", "eps": "02" },
-      { "showId": "utabangumi-24-hour-tv", "eps": "03" },
-      { "showId": "random-subs", "eps": "54" },
-      { "showId": "showroom", "eps": "25" },
-      { "showId": "showroom", "eps": "26" },
-      { "showId": "showroom", "eps": "27" },
-      { "showId": "showroom", "eps": "28" },
-      { "showId": "showroom", "eps": "29" },
-      { "showId": "showroom", "eps": "30" },
-      { "showId": "showroom", "eps": "31" },
-      { "showId": "mini-live", "eps": "12" },
-      { "showId": "concert", "eps": "06" }
-    ]
-  },
-  {
-    "date": "250911",
-    "updates": [
-      { "showId": "spicy-sessions", "eps": "10" },
-      { "showId": "zenkoku-tour", "eps": "13" },
-      { "showId": "live-performance", "eps": "10" }
     ]
   }
 ]

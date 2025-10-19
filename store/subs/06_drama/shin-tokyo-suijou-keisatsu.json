@@ -1,10 +1,12 @@
 {
-    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_minakamikeisatsu.png",
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_suijoukeisatsu.png",
     "url": "shin-tokyo-suijou-keisatsu",
     "nameShowTitle": "Shin Tokyo Suijou Keisatsu (2025)",
     "nameShow": "新東京水上警察",
     "descSynopsis": "Untuk menanggulangi meningkatnya kejahatan di wilayah perairan, Departemen Kepolisian Metropolitan membentuk \"Departemen Kepolisian Air Tokyo\" atau Divisi Suijo. Namun, unit ini diisi oleh sekelompok individu dengan latar belakang dan prinsip yang berbeda. Dipimpin oleh Ikari Takuma, seorang detektif lokal berpengalaman lebih dari 20 tahun, divisi ini juga beranggotakan Kusakabe Shun, perwira ambisius dari markas besar, dan Arima Reiko, teknisi maritim yang bertugas sebagai pilot kapal. Bersama para anggota unik lainnya, mereka menangani berbagai kejahatan yang terjadi di laut dan sungai Tokyo, dan secara bertahap membangun kekompakan sebagai sebuah tim melalui setiap kasus yang mereka selesaikan.",
-    "availableEpisode": ["01"],
+    "availableEpisode": [
+		"01", "02"
+	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/suijoukeisatsu{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/suijoukeisatsu/suijoukeisatsu{{eps}}.jpg",
@@ -24,7 +26,7 @@
         "02": {
             "descOnAirDate": "14 Oktober 2025",
 			"descEpisodeSynopsis": "Penemuan jenazah Hattori Yoshimitsu, seorang penghuni panti jompo kaya, di pulau buatan Daiba Keenam mengarah pada perawatnya, Mikami Shingo. Dalam pengejaran, Mikami ditembak oleh buronan kriminal Tabuchi Hibiki, namun berhasil selamat. Ia kemudian mengaku bahwa kematian Hattori adalah bunuh diri, tetapi sebelum bisa memberi informasi lebih lanjut, penahanannya diambil alih oleh yurisdiksi lain. Penyelidikan pun beralih ke kasus pembunuhan berantai dengan racun yang juga terjadi di panti jompo tersebut.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/fUZJK8j"
         },
         "03": {
             "descOnAirDate": "21 Oktober 2025",
