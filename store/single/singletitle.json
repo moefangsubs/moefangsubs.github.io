@@ -152,5 +152,9 @@
 	},
 	"39" : {
 		"senbatsuTitle" : {"Same numbers" : "Same Numbers"}
+	},
+	"40" : {
+		"senbatsuTitle" : {"-" : "-"},
+		"underTitle" : {"-" : "-"}
 	}
 }
