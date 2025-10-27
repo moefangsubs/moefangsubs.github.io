@@ -1,0 +1,57 @@
+{
+	"url": "1day-my-beauty",
+	"nameShowTitle": "1Day My Beauty",
+	"availableEpisode": [
+		"01","02","03"
+	],
+	"newUpdateCount": 3,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_1day.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/1day-my-beauty-saito-asuka-D8gn1",
+	"episodes": {
+		"01": {
+			"descEpisode": "前編 Perawatan Rambut",
+			"descEpsListName": "250924",
+			"descOnAirDate": "24 September 2025",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://sfl.gl/EuWhC",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/1daymybeauty-asuka-01.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-01.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-01a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-01b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-01c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-01a.jpg",
+			"descEpisodeSynopsis": "\"1Day My Beauty\", sebuah program untuk menikmati \"pengalaman kecantikan khusus untuk diri sendiri\" dalam satu hari. Kali ini, kami mengikuti hari perawatan aktris sekaligus model, Asuka Saito. Pengalaman kecantikan yang menurutnya \"membuat penasaran dan ingin dicoba\" akan diperkenalkan dalam tiga bagian.",
+			"nameShow": "1Day My Beauty"
+		},
+		"02": {
+			"descEpisode": "中編 Postur Tubuh",
+			"descEpsListName": "250927",
+			"descOnAirDate": "27 September 2025",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://sfl.gl/52IL",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/1daymybeauty-asuka-02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-02c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-02a.jpg",
+			"descEpisodeSynopsis": "\"1Day My Beauty\", sebuah program untuk menikmati \"pengalaman kecantikan khusus untuk diri sendiri\" dalam satu hari. Kali ini, kami mengikuti hari perawatan aktris sekaligus model, Asuka Saito. Pengalaman kecantikan yang menurutnya \"membuat penasaran dan ingin dicoba\" akan diperkenalkan dalam tiga bagian.",
+			"nameShow": "1Day My Beauty"
+		},
+		"03": {
+			"descEpisode": "後編 Perawatan Kuku",
+			"descEpsListName": "250930",
+			"descOnAirDate": "30 September 2025",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://sfl.gl/GY5nxpqD",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/1daymybeauty-asuka-03.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-03.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-03a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-03b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-03c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/1daymybeauty-asuka-03a.jpg",
+			"descEpisodeSynopsis": "\"1Day My Beauty\", sebuah program untuk menikmati \"pengalaman kecantikan khusus untuk diri sendiri\" dalam satu hari. Kali ini, kami mengikuti hari perawatan aktris sekaligus model, Asuka Saito. Pengalaman kecantikan yang menurutnya \"membuat penasaran dan ingin dicoba\" akan diperkenalkan dalam tiga bagian.",
+			"nameShow": "1Day My Beauty"
+		}
+	}
+}

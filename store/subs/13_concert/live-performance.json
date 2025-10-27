@@ -11,7 +11,8 @@
 		"07",
 		"08",
 		"09",
-		"10"
+		"10",
+		"11"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
@@ -175,6 +176,18 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/hirateyurina1stlive.jpg",
 			"descEpisodeSynopsis": "Hirate Yurina telah menggelar konser tunggal perdananya, \"Hirate Yurina 1st LIVE 'Rei'\", pada 21 Agustus, di mana ia menampilkan beberapa lagu termasuk karya solonya seperti \"bleeding love\", \"ALL I WANT\", dan \"Eeny, meeny, miny, moe\", serta lagu-lagu dari masa grupnya dan lagu cover. Di akhir konser, diumumkan bahwa lagu baru ciptaannya yang berjudul \"I’m human\" akan dirilis secara digital pada 26 Agustus. Lagu ini memadukan lirik tentang pergulatan batin dan keinginan untuk hidup dengan musik yang gelap dan berat, menghasilkan karya yang sangat khas.",
 			"nameShow": "平手友梨奈 1st LIVE “零”"
+		},
+		"11": {
+			"descEpisode": "| Rakuten GirlsAward 2025 AUTUMN⧸WINTER",
+			"descEpsListName": "",
+			"descOnAirDate": "18 Oktober 2025",
+			"memberParticipate": "賀喜遥香、川﨑桜、一ノ瀬美空、梅澤美波、遠藤さくら、井上和、池田瑛紗、久保史緒里、冨里奈央、弓木奈於、菅原咲月、五百城茉央、小川彩、筒井あやめ、岡本姫奈",
+			"linkHardsub": "https://sfl.gl/smtfxb",
+			"filePassword": "FaasutoRaibu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_251018_rakutengirlsaward2025.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/251018_rakutengirlsaward2025.jpg",
+			"descEpisodeSynopsis": "Pada 18 Oktober, Nogizaka46 tampil di acara fesyen \"Rakuten GirlsAward 2025 AUTUMN/WINTER\". Dengan mengenakan gaun serba putih, mereka membawakan tiga lagu, yaitu \"Gomen ne Fingers crossed\", \"Ohitorisama Tengoku\", dan lagu terbaru mereka, \"Same numbers\".",
+			"nameShow": "Rakuten GirlsAward 2025 AUTUMN⧸WINTER"
 		}
 	}
 }

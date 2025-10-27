@@ -1,0 +1,41 @@
+{
+	"url": "utabangumi-dayday",
+	"nameShowTitle": "DayDay.",
+	"availableEpisode": [
+		"250324",
+		"250517"
+	],
+	"newUpdateCount": 2,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_dayday.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/dayday-6URJ6",
+	"episodes": {
+		"250324": {
+			"descEpisode": "| 250324 DayDay. 'Navel Orange' + Talk",
+			"descOnAirDate": "24 Maret 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/sgf7vlV",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/250324_dayday.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250324_dayday.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250324_dayday1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250324_dayday2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250324_dayday3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/250324_dayday4.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 disini menampilkan 'Navel Orange' untuk yang pertama kalinya di televisi.",
+			"nameShow": "DayDay."
+		},
+		"250517": {
+			"descEpisode": "| 250517 DayDay. SUPER LIVE 2025 DAY2",
+			"descOnAirDate": "17 Mei 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/azzIfz8",
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/250517_dayday.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250517_dayday.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250517_dayday1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250517_dayday2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250517_dayday3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/250517_dayday4.jpg",
+			"descEpisodeSynopsis": "Hari kedua \"DayDay. SUPER LIVE 2025\" berlangsung meriah dengan penampilan dari Nogizaka46, Aina, HANA, Liella!, dan Cho Toki Sen. Nogizaka46, sebagai penampil penutup, sukses memanaskan suasana dengan membawakan sederet lagu hits mereka, mulai dari \"Ohotorisama Tengoku\" hingga single terbaru \"Navel Orange\". ",
+			"nameShow": "DayDay. SUPER LIVE 2025"
+		}
+	}
+}

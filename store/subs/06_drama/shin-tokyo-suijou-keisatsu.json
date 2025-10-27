@@ -5,7 +5,7 @@
     "nameShow": "新東京水上警察",
     "descSynopsis": "Untuk menanggulangi meningkatnya kejahatan di wilayah perairan, Departemen Kepolisian Metropolitan membentuk \"Departemen Kepolisian Air Tokyo\" atau Divisi Suijo. Namun, unit ini diisi oleh sekelompok individu dengan latar belakang dan prinsip yang berbeda. Dipimpin oleh Ikari Takuma, seorang detektif lokal berpengalaman lebih dari 20 tahun, divisi ini juga beranggotakan Kusakabe Shun, perwira ambisius dari markas besar, dan Arima Reiko, teknisi maritim yang bertugas sebagai pilot kapal. Bersama para anggota unik lainnya, mereka menangani berbagai kejahatan yang terjadi di laut dan sungai Tokyo, dan secara bertahap membangun kekompakan sebagai sebuah tim melalui setiap kasus yang mereka selesaikan.",
     "availableEpisode": [
-		"01", "02"
+		"01", "02", "03"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/suijoukeisatsu{{eps}}.jpg",
@@ -30,10 +30,12 @@
         },
         "03": {
             "descOnAirDate": "21 Oktober 2025",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Ikari dari Kepolisian Perairan Tokyo mengetahui bahwa buronan Hibiki Tabuchi telah membajak kapal patroli \"Akatsuki\" dan menyandera petugas Reiko. Motifnya adalah balas dendam karena Ikari telah mengganggu bisnis penyelundupannya. Tabuchi berniat menabrakkan kapal tersebut ke lokasi upacara kepolisian, di mana mantan ketua gengnya ternyata hadir sebagai tamu. Ikari pun segera mengejar, berhasil melompat ke kapal \"Akatsuki\", melumpuhkan Tabuchi, dan berjuang menghentikan kapal yang melaju kencang untuk mencegah tabrakan.",
+            "linkHardsub": "https://sfl.gl/srO5MRiy"
         },
         "04": {
             "descOnAirDate": "28 Oktober 2025",
+			"descEpisodeSynopsis": "Saat Reiko mencoba menyelidiki trauma masa lalu Ikari terkait kecelakaan pesawat 38 tahun silam, sebuah insiden ledakan drone terjadi dan mulai diselidiki oleh tim mereka. Di tengah situasi tersebut, sebuah krisis lain muncul di markas Kepolisian Perairan. Seorang detektif, Fujisawa, yang sedang mengajak keluarganya tur, tiba-tiba ditikam dan disandera di atas kapal patroli \"Akatsuki\". Pelaku kemudian berusaha membajak kapal tersebut, memulai situasi penyanderaan yang menegangkan.",
             "linkHardsub": ""
         },
         "05": {
