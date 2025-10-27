@@ -30,12 +30,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const MEMBERS_DATA_PATH = '../store/member/members.json';
     const WARNINGS_DATA_PATH = '../store/subs/warn.json';
     const FAQ_DATA_PATH = '../store/data/faq.json';
+	const UPDATES_DATA_PATH = '../store/subs/update.json';
 
     let membersData = null;
     let warningsData = null;
     let currentShowData = null;
     let currentShowPath = null;
     let faqData = null;
+	let updatesData = null;
 
     // --- FUNGSI BARU UNTUK MENAMPILKAN PESAN COMING SOON --- //
     function renderComingSoon() {
@@ -108,7 +110,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const status = params.get('status'); // Ambil parameter status
         let episodeNumber = params.get('eps');
 
-        // --- MODIFIKASI KUNCI ADA DI SINI --- //
         // Jika URL memiliki ?status=comingsoon, jalankan fungsi khusus dan hentikan proses
         if (status === 'comingsoon') {
             renderComingSoon();
@@ -122,10 +123,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            [membersData, warningsData, faqData] = await Promise.all([
+            [membersData, warningsData, faqData, updatesData] = await Promise.all([
                 fetchData(MEMBERS_DATA_PATH),
                 fetchData(WARNINGS_DATA_PATH),
-                fetchData(FAQ_DATA_PATH)
+                fetchData(FAQ_DATA_PATH),
+				fetchData(UPDATES_DATA_PATH)
             ]);
 
             const showInfo = await fetchShowData(showName);
@@ -181,11 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if(loadingOverlay) loadingOverlay.style.display = 'none';
         }
     }
-
-    // (Salin sisa fungsi dari file script_subs.js Anda yang ada di sini...)
-    // ... fetchData, fetchShowData, renderWarningBox, buildWarningHTML, dll ...
-    // ... pastikan semua fungsi dari file asli Anda ada di bawah ini ...
-
+	
     // --- DATA FETCHING & STATE HANDLERS --- //
     async function fetchData(url) {
         const response = await fetch(url);
@@ -199,7 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 const data = await fetchData(`${prefix}${showName}.json`);
                 return { data: data, path: prefix };
             } catch (error) {
-                // Abaikan error dan coba path berikutnya
             }
         }
         return null;
@@ -330,30 +327,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- RENDERING & HELPER FUNCTIONS --- //
 	function renderEpisodeList(showData, activeEpisode) {
-		if (!episodeListContainer) return;
+		if (!episodeListContainer || !updatesData) return;
+
 		const episodeList = document.createElement('div');
 		episodeList.id = 'episode-list';
 		const reversedEpisodes = showData.availableEpisode.slice().reverse();
-		
-		const useSpecificUpdate = showData.SpecificUpdate && Array.isArray(showData.SpecificUpdate);
-		const newCount = showData.newUpdateCount || 0;
+		const showId = showData.url;
 
-		reversedEpisodes.forEach((eps, index) => {
+		reversedEpisodes.forEach(eps => {
 			const episodeData = showData.episodes[eps];
 			let imageUrl = episodeData?.imageThumbEps || showData.IMGThumbnailEps?.replace('{{eps}}', eps) || '../sprite/placeholder.jpg';
-			let episodeText = episodeData?.descEpsListName || episodeData?.descEpisode?.replace('|', '').trim() || `Episode ${eps}`;
+			let episodeText = episodeData?.descEpsListName || `Episode ${eps}`;
+			
 			const episodeLink = document.createElement('a');
 			episodeLink.href = `?show=${showData.url}&eps=${eps}`;
 			episodeLink.className = 'episode-item';
 			if (eps === activeEpisode) episodeLink.classList.add('active');
 			episodeLink.innerHTML = `<img src="${imageUrl}" alt="${episodeText}" loading="lazy"><span>${episodeText}</span>`;
 			
-			let isNew = false;
-			if (useSpecificUpdate) {
-				isNew = showData.SpecificUpdate.includes(eps);
-			} else {
-				isNew = index < newCount;
-			}
+			// Logika memeriksa setiap episode (eps) terhadap data dari update.json.
+			const isNew = updatesData.some(updateGroup =>
+				updateGroup.updates.some(update => 
+					update.showId === showId && update.eps === eps
+				)
+			);
 
 			if (isNew) {
 				episodeLink.classList.add('is-new');
@@ -365,6 +362,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			
 			episodeList.appendChild(episodeLink);
 		});
+
 		episodeListContainer.innerHTML = '<h4>Daftar Episode</h4>';
 		episodeListContainer.appendChild(episodeList);
 	}
@@ -567,10 +565,9 @@ document.addEventListener('DOMContentLoaded', () => {
 			buttonHTML += createButtonWrapper(button, 'full-width');
 		});
 
-		// --- PERBAIKAN DI SINI ---
 		const finalLinkRAW = episodeData.linkRAW || showData.linkRAW;
 		const finalRawSource = episodeData.RawSource || showData.RawSource || '?';
-		const hasFont = !!showData.linkFont; // Asumsi link font selalu global
+		const hasFont = !!showData.linkFont;
 
 		if (finalLinkRAW) {
 			const button = `<a href="${finalLinkRAW}" target="_blank" rel="noopener noreferrer" class="dl-button btn-extra" style="--border-color: var(--moe-tint4);"><span>RAW (${finalRawSource})</span></a>`;
@@ -775,7 +772,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			const fallbackCopyTextToClipboard = (text) => {
 				const textArea = document.createElement("textarea");
 				textArea.value = text;
-				// Styling agar tidak terlihat oleh pengguna
 				textArea.style.position = "fixed";
 				textArea.style.top = "-9999px";
 				textArea.style.left = "-9999px";
@@ -812,6 +808,5 @@ document.addEventListener('DOMContentLoaded', () => {
 		};
 	}
 
-    // --- START THE APP --- //
     init();
 });
