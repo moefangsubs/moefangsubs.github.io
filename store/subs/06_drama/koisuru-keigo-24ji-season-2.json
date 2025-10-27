@@ -5,7 +5,7 @@
     "nameShow": "恋する警護24時 season2",
     "descSynopsis": "Cerita berlanjut saat \"RACCO Securities\", perusahaan tempat Tatsunosuke bekerja, bergabung dengan \"Koala Security\" dan membentuk struktur baru bernama \"RACCOALA Securities\". Di tengah perubahan ini, Tatsunosuke kesulitan beradaptasi dan terus-menerus berselisih dengan rekan barunya, padahal kerja sama tim sangat penting untuk keberhasilan misi. Di sisi lain, Rika memutuskan untuk meningkatkan jenjang kariernya sebagai pengacara dengan melanjutkan studi ke London. Kini, Tatsunosuke dan Rika harus menghadapi berbagai ancaman baru yang dapat menghalangi hubungan cinta mereka.",
     "availableEpisode": [
-		"01"
+		"01", "02"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/koisurukeigos2-{{eps}}.jpg",
@@ -26,34 +26,41 @@
         "02": {
             "descOnAirDate": "24 Oktober 2025",
 			"descEpisodeSynopsis": "Tatsunosuke terus mengawal Igarashi yang dicurigai sebagai pembunuh berantai demi mengungkap kebenaran, meski terus berkonflik dengan rekannya, Chihaya. Ancaman baru muncul dari Wakaba, seorang wanita obsesif yang menguntit Igarashi dan tiba-tiba muncul di hadapan mereka saat dalam perjalanan. Di sisi lain, hubungan jarak jauh Tatsunosuke dengan Rika dimulai dengan sebuah insiden tak terduga saat mereka melakukan panggilan video.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/a80u7bCY"
         },
         "03": {
             "descOnAirDate": "31 Oktober 2025",
+			"descEpisodeSynopsis": "Setelah Igarashi kabur, Chihaya mengambil alih tugas pengawalannya, menganggap metode Tatsunosuke tidak memadai. Akibatnya, Tatsunosuke diturunkan dari kasus tersebut dan diberi tugas baru untuk mengawal seorang gadis SD bernama An Takamiya selama sehari. Sementara itu, Chihaya membawa Igarashi untuk menemui Mizuki Aida, wanita yang sangat ingin ditemuinya, di tengah persiapan pesta perusahaan baru Mizuki bersama tunangannya.",
             "linkHardsub": ""
         },
         "04": {
             "descOnAirDate": "7 November 2025",
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "05": {
             "descOnAirDate": "14 November 2025",
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "06": {
             "descOnAirDate": "21 November 2025",
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "07": {
             "descOnAirDate": "28 November 2025",
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "08": {
             "descOnAirDate": "5 Desember 2025",
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "09": {
             "descOnAirDate": "12 Desember 2025",
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         }
     },

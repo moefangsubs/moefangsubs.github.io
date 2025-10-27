@@ -2,16 +2,8 @@
 	"url": "under-live",
 	"nameShowTitle": "Under Live",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
+		"11"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_underlive.png",
@@ -175,6 +167,22 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/38thunderlive-d.jpg",
 			"descEpisodeSynopsis": "Konser yang digelar pada 5 Juni di Pia Arena MM ini menampilkan sembilan member Under, dengan Shibata Yuna sebagai center untuk lagu Under \"Koukanshinkei Yuui\", sekaligus memimpin penampilan nonstop berdurasi 1 jam 20 menit. Konser ini juga menjadi panggung perpisahan bagi Sato Kaede yang menggelar upacara kelulusannya dengan penuh haru, membawakan lagu solo dan berduet dengan rekan satu angkatannya. Acara ini turut berkolaborasi dengan festival musik baru di Yokohama serta menampilkan karya seni kolase perjalanan Under Live. Momentum ini menandai akhir era bagi Sato dan awal baru dengan bergabungnya generasi ke-6, yang debutnya digelar sehari setelah konser.",
 			"nameShow": "乃木坂46 38thSG アンダーライブ & 佐藤楓卒業セレモニー"
+		},
+		"11": {
+			"descEpisode": "| Nogizaka46 39thSG Underlive",
+			"descEpsListName": "39SG",
+			"descOnAirDate": "9 Oktober 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-39th-sg-underlive-wQ8mp",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_underlive39.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/39thunderlive.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/39thunderlive-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/39thunderlive-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/39thunderlive-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/39thunderlive-d.jpg",
+			"descEpisodeSynopsis": "Pertunjukan final '39thSG Under Live' Nogizaka46 digelar pada 9 Oktober di Yokohama BUNTAI. Dipimpin oleh Kanagawa Saya, 12 member menyajikan panggung yang energik, menampilkan segmen unik seperti \"39 Block\" dan medley \"Hot! Cool! Sexy!\", yang berpuncak pada lagu utama mereka, \"Fudoutoku na Natsu\". ",
+			"nameShow": "乃木坂46 39thSG アンダーライブ"
 		}
 	}
 }

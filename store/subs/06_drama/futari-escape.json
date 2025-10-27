@@ -5,9 +5,9 @@
     "nameShow": "ふたりエスケープ",
     "descSynopsis": "Kisah ini berpusat pada dua wanita yang tinggal bersama: seorang mangaka tidak populer bernama \"Kouhai\" yang selalu dikejar tenggat waktu, dan teman serumahnya, \"Senpai\", seorang pengangguran yang menyebut dirinya sebagai \"ahli melarikan diri dari kenyataan\". Kouhai, yang seringkali melewati tenggat waktunya hingga merepotkan editornya, adalah penggemar berat pengisi suara Akari Tamura dan sering mengirim surel ke acara radionya dengan nama samaran \"Yurihime Nitaro\", serta mengunggah foto kesehariannya di media sosial dengan akun \"yurihime2taro\". Di sisi lain, Senpai adalah kakak kelas Kouhai di SMA yang dulunya populer karena penampilannya yang menawan. Meskipun kini menganggur dan sering disebut oleh Kouhai hanya \"bermodal tampang\", Senpai sangat peduli pada teman serumahnya itu. Setiap kali Kouhai merasa tertekan oleh pekerjaannya, Senpai yang memiliki SIM akan menemaninya dalam berbagai upaya \"melarikan diri dari kenyataan\", mulai dari berkendara tanpa tujuan menggunakan mobil sewaan hingga melakukan hal-hal mewah lainnya.",
     "availableEpisode": [
-		"waiwai01", "01", "waiwai02", "02"
+		"waiwai01", "01", "waiwai02", "02", "waiwai03", "03", "04"
 	],
-    "newUpdateCount": 4,
+    "newUpdateCount": 3,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/futariescape{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/futariescape{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/futariescape{{eps}}a.jpg",
@@ -56,19 +56,33 @@
 			"descEpisodeSynopsis": "Senpai, seorang \"pengangguran profesional\", dan Kouhai, seorang mangaka yang kelelahan karena naskahnya, mengunjungi sebuah taman untuk bersantai. Mereka kembali ke masa kecil dengan bermain di perosotan gurita, memainkan permainan \"Daruma-san ga Koronda\", dan membuat bola lumpur. Saat sedang asyik bermain, mereka disapa oleh anak-anak, yang akhirnya menantang Kouhai untuk bertanding sumo. Namun, setelah puas bermain dan kembali ke apartemen, mereka menyadari bahwa kunci mereka hilang. Tanpa diduga, Senpai pun tiba-tiba menyarankan agar mereka menginap di depan pintu masuk apartemen mereka malam itu.",
             "linkHardsub": "https://sfl.gl/7GEw1"
         },
+        "waiwai03": {
+			"descEpisode": "| Waiwai Escape #3",
+            "descOnAirDate": "17 Oktober 2025",
+			"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/waiwaiescape03.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape03.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape03a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape03b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape03c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/futariescape/waiwaiescape03d.jpg",
+            "linkHardsub": "https://sfl.gl/toW3z",
+			"linkSoftsub": "https://sfl.gl/QgyS",
+			"linkRAW": "https://www.youtube.com/watch?v=aSIdQwm6EtI",
+			"RawSource": "IchijinshaTV"
+        },
         "03": {
             "descOnAirDate": "19 Oktober 2025",
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Setelah sang kouhai berhasil menyelesaikan naskah tepat waktu berkat bantuan senpai, mereka merayakannya dengan pesta mewah menggunakan seluruh upah naskah. Akibatnya, mereka terpaksa harus berhemat. Di tengah situasi tersebut, sang kouhai yang lelah dikejar tenggat waktu menyatakan ingin berhenti menjadi mangaka. Mendengar hal itu, senpai-nya pun mengajukan sebuah usulan.",
+            "linkHardsub": "https://sfl.gl/hA3vEls"
         },
         "04": {
             "descOnAirDate": "26 Oktober 2025",
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Setelah mulai jenuh dengan keseharian mereka yang hanya memakan ham mentah hasil dari upah naskah, sang senpai pun meminta kouhai untuk menggambar ilustrasi sushi. Berkat gambar tersebut, ia dapat merasakan nikmatnya sushi di alam mimpi, sehingga ia memohon agar kouhai membuat manga dengan tema sushi. Namun, yang digambar oleh kouhai justru seekor kucing putih. Ternyata, ia terinspirasi dari perkataan senpai bahwa \"imajinasi dapat menciptakan kehidupan\", dan menggambar kucing yang selama ini ingin dipeliharanya. Dari sanalah lahir \"kucing khayalan\" bernama \"Chikuwabu\" yang kemudian mereka rawat dengan penuh kasih sayang. Akan tetapi, kehidupan mereka bersama \"Chikuwabu\" tidak berlangsung lama...",
+            "linkHardsub": "https://sfl.gl/madSMJG"
         },
         "05": {
             "descOnAirDate": "2 November 2025",
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Setelah sang kouhai berhasil menunda tenggat waktu naskah, ia dan senpai-nya yang merupakan \"pengangguran profesional\" membahas tentang \"pilihan hidup\". Obrolan ini membawa mereka pada keputusan untuk mengikuti putaran rolet, yang mengarahkan mereka untuk pergi ke Kanazawa. Di sana, rolet kembali menentukan bahwa mereka harus makan omurice. Saat menyantapnya, sang kouhai bernostalgia dengan rasa masakan ibunya. Kini, rolet akan kembali menentukan tujuan perjalanan mereka selanjutnya.",
             "linkHardsub": ""
         },
         "06": {
