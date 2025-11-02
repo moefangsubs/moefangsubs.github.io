@@ -3,8 +3,10 @@
 	"nameShowTitle": "Ayame ni Osusume",
 	"nameShow": "あやめにオススメ！",
 	"descSynopsis": "Konten baru yang dibawakan oleh Ayame Tsutsui, \"Ayame ni Osusume!\", akhirnya dimulai! Di setiap episodenya, seorang member yang disebut \"Susumen\" akan hadir untuk mempresentasikan hal-hal yang ingin direkomendasikannya.",
-	"availableEpisode": [],
-	"newUpdateCount": 0,
+	"availableEpisode": [
+		"01", "02", "03"
+	],
+	"newUpdateCount": 3,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ayameniosusume.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/ayamesusume{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}.jpg",
@@ -12,13 +14,27 @@
 	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}b.jpg",
 	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}c.jpg",
 	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}d.jpg",
-	"linkTrakteer": "",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/ayame-ni-osusume-9OREh",
 	"episodes": {
 		"01": {
-			"descOnAirDate": "2025",
+			"descOnAirDate": "1 Juli 2025",
 			"memberParticipate": "筒井あやめ、井上和",
-			"descEpisodeSynopsis": "Untuk episode perdana, Inoue Nagi akan memaparkan pesona dari permainan kartu \"Hanafuda\". Namun, Ayame tampak kesulitan memahami peraturannya yang terbilang rumit, sehingga menjadi sebuah tantangan bagi Nagi untuk membuat Ayame, sang lawan yang sulit ditaklukkan, berhasil terpikat oleh pesona permainan tersebut.",
-			"linkHardsub": ""
+			"descEpisodeSynopsis": "Untuk episode perdana, Inoue Nagi akan memaparkan pesona dari permainan kartu \"Hanafuda\". Namun, Ayame tampak kesulitan memahami peraturannya yang terbilang rumit, sehingga menjadi sebuah tantangan bagi Nagi untuk membuat Ayame, sang lawan yang sulit ditaklukkan, berhasil terpikat oleh pesona permainan tersebut."
+		},
+		"02": {
+			"descOnAirDate": "17 Agustus 2025",
+			"memberParticipate": "筒井あやめ、田村真佑",
+			"descEpisodeSynopsis": "Dalam episode 2 dari konten baru \"Ayame ni Osusume!\" yang dibawakan oleh Tsutsui Ayame, teman seangkatannya, Tamura Mayu, akan merekomendasikan \"Kehidupan Bersama Kucing\". Mayutan akan memberikan presentasi penuh semangat untuk meyakinkan Ayame, yang mengaku sebagai pencinta anjing."
+		},
+		"03": {
+			"descOnAirDate": "26 September 2025",
+			"memberParticipate": "筒井あやめ、菅原咲月",
+			"descEpisodeSynopsis": "Di episode ini ini, Sugawara Satsuki akan merekomendasikan \"Meitantei Conan\"! Kepada Tsutsui yang biasanya tidak terlalu sering menonton anime, Satchan akan mempresentasikan daya tariknya dari sudut pandangnya yang unik."
+		},
+		"04": {
+			"descOnAirDate": "10 Oktober 2025",
+			"memberParticipate": "筒井あやめ、伊藤理々杏",
+			"descEpisodeSynopsis": "Kali ini, Ito Riria merekomendasikan \"kelinci\" yang sangat ia cintai! Sebagai seseorang yang pernah memeliharanya secara langsung, Riria akan menyampaikan pesona kelinci yang membuat Tsutsui, seorang pencinta anjing, akhirnya goyah. Selain itu, atas usulan Ito, Tsutsui juga akan berubah menjadi imut!"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

@@ -5,9 +5,9 @@
     "nameShow": "できても、できなくても",
     "descSynopsis": "Monou Sui, harus menghadapi kenyataan pahit saat divonis tidak subur setelah melakukan pemeriksaan pranikah. Hal ini membuatnya dicampakkan oleh kekasih yang telah dipacarinya selama 7 tahun, dan parahnya lagi, rumor tersebut menyebar di kantor hingga ia terpaksa mengundurkan diri. Di tengah keterpurukannya, baik secara fisik maupun mental, ia diselamatkan oleh seorang pria tampan yang lebih muda bernama Tsukidome Mao dari gangguan seorang pria hidung belang. Untuk lari dari rasa kehilangan yang mendalam, Sui pun mengajukan sebuah usulan tak terduga kepada Mao yang baru saja dikenalnya.",
     "availableEpisode": [
-		"01", "02", "03"
+		"01", "02", "03", "04"
 	],
-    "newUpdateCount": 3,
+    "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/dekideki{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/dekideki/dekideki{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/dekideki/dekideki{{eps}}a.jpg",
@@ -32,7 +32,7 @@
         },
         "04": {
             "descOnAirDate": "30 November 2025",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/LKP70"
         },
         "05": {
             "descOnAirDate": "6 November 2025",
