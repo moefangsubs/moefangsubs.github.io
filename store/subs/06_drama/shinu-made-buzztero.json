@@ -5,7 +5,7 @@
     "nameShow": "死ぬまでバズってろ!!",
     "descSynopsis": "Asano Kanako adalah seorang pekerja paruh waktu berusia 26 tahun yang menyambung hidup dengan bekerja di sebuah restoran pasta. Hidupnya berubah drastis dalam semalam setelah video kecelakaan tabrak lari yang tidak sengaja ia rekam menjadi viral di media sosial. Dibanjiri oleh pujian, notifikasi \"like\", dan repost yang tak henti-hentinya, Kanako tenggelam dalam sensasi menyenangkan yang baru pertama kali ia rasakan dan berubah menjadi Tapaco, seorang influencer yang mengatasnamakan \"keadilan\" untuk mengungkap berbagai kasus. Demi menjadi viral, tindakannya yang menghalalkan segala cara secara bertahap menumpulkan rasa etisnya. Namun, keadilan yang berlebihan itu justru melahirkan kebencian baru, dan tak lama kemudian ia menjadi sasaran fitnah serta kritik anonim, hingga tanpa disadari Tapaco sendiri telah terjerumus ke dalam pusaran balas dendam yang mengerikan.",
     "availableEpisode": [
-		"01", "02"
+		"01", "02", "03"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shinubuzz{{eps}}.jpg",
@@ -31,10 +31,11 @@
         "03": {
             "descOnAirDate": "30 Oktober 2025",
 			"descEpisodeSynopsis": "Kanako menerima ajakan makan dari Mami, seorang penggemar barunya, dengan harapan bisa mendapatkan gosip dari bar khusus artis yang sering Mami kunjungi. Di sisi lain, Watanabe khawatir Mami akan mengetahui bahwa Kanako adalah orang yang telah menyebarkan skandal ayahnya. Namun, obsesi Kanako untuk menjadi viral semakin tak terkendali, terlebih saat ia menerima video bukti perselingkuhan ayah Mami. Mengabaikan risiko dan masalah pribadi dengan mantan suaminya, Kanako pergi ke bar tersebut dan bertemu dengan seorang aktor populer, Kusunoki.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/melm"
         },
         "04": {
             "descOnAirDate": "6 November 2025",
+			"descEpisodeSynopsis": "Kanako menyusup ke pesta aktor Kusunoki Hayato, merekam skandalnya hingga viral dan membuatnya panik saat pengikutnya berkurang. Didorong rasa takut, ia kembali mendekati Kusunoki untuk mencari berita baru, tanpa menyadari bahwa Kusunoki telah mencurigainya sebagai penyebar video tersebut.",
             "linkHardsub": ""
         },
         "05": {

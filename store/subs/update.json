@@ -1,5 +1,19 @@
 [
   {
+    "date": "251102",
+    "updates": [
+      { "showId": "nogidouga-ayame-ni-osusume", "eps": "01" },
+      { "showId": "nogidouga-ayame-ni-osusume", "eps": "02" },
+      { "showId": "nogidouga-ayame-ni-osusume", "eps": "03" },
+      { "showId": "showroom", "eps": "34" },
+      { "showId": "kanade-no-rara", "eps": "10" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "04" },
+      { "showId": "shinu-made-buzztero", "eps": "03" },
+      { "showId": "koisuru-keigo-24ji-season-2", "eps": "03" },
+      { "showId": "dekitemo-dekinakutemo", "eps": "04" }
+    ]
+  },
+  {
     "date": "251026",
     "updates": [
       { "showId": "nogizaka-star-tanjou-six", "eps": "24" },
@@ -21,36 +35,6 @@
       { "showId": "utabangumi-dayday", "eps": "250517" },
       { "showId": "live-performance", "eps": "11" },
       { "showId": "under-live", "eps": "11" }
-    ]
-  },
-  {
-    "date": "251019",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "22" },
-      { "showId": "nogizaka-star-tanjou-six", "eps": "23" },
-      { "showId": "kanade-no-rara", "eps": "08" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "02" },
-      { "showId": "shinu-made-buzztero", "eps": "01" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "01" },
-      { "showId": "random-subs", "eps": "55" }
-    ]
-  },
-  {
-    "date": "251014",
-    "updates": [
-      { "showId": "nogidouga-kubo-channel", "eps": "111" },
-      { "showId": "nogidouga-kubo-channel", "eps": "112" },
-      { "showId": "nogidouga-kubo-channel", "eps": "113" },
-      { "showId": "spicy-sessions", "eps": "12" },
-      { "showId": "showroom", "eps": "32" },
-      { "showId": "showroom", "eps": "33" },
-      { "showId": "showroom", "eps": "34" },
-      { "showId": "showroom", "eps": "35" },
-      { "showId": "kanade-no-rara", "eps": "06" },
-      { "showId": "kanade-no-rara", "eps": "07" },
-      { "showId": "futari-escape", "eps": "waiwai01" },
-      { "showId": "futari-escape", "eps": "waiwai02" },
-      { "showId": "futari-escape", "eps": "02" }
     ]
   }
 ]

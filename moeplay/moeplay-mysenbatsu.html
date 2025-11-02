@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Senbatsu Ideal - MoePlay</title>
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/style_playsenba.css">
+</head>
+<body>
+    <div id="auth-container"></div>
+
+    <div class="senba-creator-container">
+        <div class="side-panel" id="member-pool-container">
+            <div class="builder-header">
+                <h3 class="jpn">メンバーリスト</h3>
+            </div>
+            <div class="member-filter">
+                <label class="switch">
+                    <input type="checkbox" id="include-graduates">
+                    <span class="slider round"></span>
+                </label>
+                <label for="include-graduates" class="jpn">卒業生を含む</label>
+            </div>
+            <div id="member-pool" class="custom-scrollbar"></div>
+        </div>
+
+        <div id="formation-builder">
+            <div class="builder-header">
+                <h2 id="builder-title" class="jpn" contenteditable="false" title="Klik untuk mengubah judul">あなたの選抜フォーメーション</h2>
+                <button id="focus-mode-btn" title="Focus Mode"><i class="fas fa-expand-alt"></i></button>
+            </div>
+            <p>Drag & drop member. Ukuran member akan menyesuaikan baris secara otomatis.</p>
+            
+            <div id="formation-grid">
+                <div class="row-wrapper">
+                    <span class="row-label jpn">3列</span>
+                    <div class="formation-row" id="row3"></div>
+                </div>
+                <div class="row-wrapper">
+                    <span class="row-label jpn">2列</span>
+                    <div class="formation-row" id="row2"></div>
+                </div>
+                <div class="row-wrapper">
+                    <span class="row-label jpn">フロント</span>
+                    <div class="formation-row" id="row1"></div>
+                </div>
+                <div id="formation-stats" class="info-datasingle"></div>
+            </div>
+
+            <div class="caption-wrapper">
+                <textarea id="caption-input" placeholder="Tulis caption untuk formasimu di sini..."></textarea>
+                <div id="auth-status" class="auth-message"></div>
+                <div class="button-group">
+                    <button id="reset-button" class="boxs1 jpn">RESET</button>
+                    <button id="save-button" class="boxs2">
+                        <span class="jpn">SIMPAN & BAGIKAN</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-panel" id="public-feed-container">
+            <div class="feed-header">
+                <h3 class="jpn">みんなの選抜</h3>
+                <button id="toggle-feed-btn" title="Show/Hide Feed"><i class="fas fa-eye-slash"></i></button>
+            </div>
+            <div id="public-feed" class="custom-scrollbar"></div>
+        </div>
+    </div>
+
+    <div id="senbatsu-modal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn">&times;</button>
+            <div class="modal-header">
+                <img id="modal-user-photo" src="" alt="User">
+                <h2 id="modal-title" class="jpn"></h2>
+                <div id="modal-like-info" class="like-container"></div>
+            </div>
+            <p id="modal-caption"></p>
+            <div id="modal-formation-grid">
+                </div>
+            <div id="modal-stats" class="info-datasingle"></div>
+        </div>
+    </div>
+    
+    <button id="show-feed-fab" title="Tampilkan Feed"><i class="fas fa-eye"></i></button>
+
+    <script src="../js/script_playsenba.js"></script>
+</body>
+</html>

@@ -5,9 +5,10 @@
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
-		"31", "32", "33", "34", "35"
+		"31", "32", "33", "34", "35", "36"
 	],
-	"newUpdateCount": 4,
+	"newUpdateCount": 1,
+	"SpecificUpdate": ["34"],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_showroom.png",
 	"episodes": {
 		"01": {
@@ -538,6 +539,22 @@
 			"nameShow": "SHOWROOM のぎおび"
 		},
 		"34": {
+			"descEpisode": "| 251001 NEKOJITA (Endo Sakura, Ichinose Miku)",
+			"descEpsListName": "Endo, Miku",
+			"descOnAirDate": "1 Oktober 2025",
+			"memberParticipate": "遠藤さくら、一ノ瀬美空",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251001-NEKOJITA.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251001-NEKOJITA.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251001-NEKOJITA1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251001-NEKOJITA2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251001-NEKOJITA3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan khusus dari MoeFang kali ini adalah NEKOJITA Endo Sakura dari gen-4 dan Ichinose Miku dari gen-5.",
+			"nameShow": "猫舌SHOWROOM 乃木坂46 にゃんば〜1"
+		},
+		"35": {
 			"descEpisode": "| 251006 NOGIOBI (Tomisato Nao)",
 			"descEpsListName": "Tomisato Nao",
 			"descOnAirDate": "6 Oktober 2025",
@@ -553,7 +570,7 @@
 			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Tomisato Nao.",
 			"nameShow": "SHOWROOM のぎおび"
 		},
-		"35": {
+		"36": {
 			"descEpisode": "| 251007 NOGIOBI (Ikeda Teresa)",
 			"descEpsListName": "Ikeda Teresa",
 			"descOnAirDate": "7 Oktober 2025",
