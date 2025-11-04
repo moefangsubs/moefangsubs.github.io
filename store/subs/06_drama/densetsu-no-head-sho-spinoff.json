@@ -17,7 +17,6 @@
 	"filePassword" : "SatchanwithYankees",
 	"episodes": {
 		"240802": {
-			"descEpsListName": "Episode 1",
 			"descOnAirDate": "2 Agustus 2024",
 			"linkHardsub": "https://sfl.gl/4dyvvkm",
 			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240802-densetsu-no-head-sho-spin-off-6aMkt",
@@ -25,7 +24,6 @@
 			"descEpisodeSynopsis": "Dalam drama spin-off \"Head tachi no Jingi Naki Zunou-sen\" dari drama malam Jumat \"Densetsu no Head Sho\", Sugawara Satsuki tampil memerankan peran Kaede, tokoh heroine yang khusus untuk spin-off drama ini. Kaede adalah putri dari pemilik tempat yang menjadi tempat berkumpulnya Grand Cross, dan merupakan seorang siswi SMA dengan kepribadian yang serius. Perhatikan bagaimana Kaede, yang awalnya takut kepada tiga berandalan ini, perlahan-lahan menunjukkan sisi barunya melalui death game!"
 		},
 		"240816": {
-			"descEpsListName": "Episode 2",
 			"descOnAirDate": "16 Agustus 2024",
 			"linkHardsub": "https://sfl.gl/DPAzRgLE",
 			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240816-densetsu-no-head-sho-spin-off-2-j4tYQ",
@@ -33,14 +31,15 @@
 			"descEpisodeSynopsis": "Di episode 2 ini, Kaede kembali menjadi wasit dalam death game yang kedua. Apakah tiga berandalan ini bisa memenangkan game tersebut? Ataukah akan keok lagi?"
 		},
 		"240908": {
-			"descEpsListName": "Episode 3",
 			"descOnAirDate": "8 September 2024",
 			"linkHardsub": "https://sfl.gl/cw05Xq",
 			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240908-densetsu-no-head-sho-spin-off-3-YZF3k",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240802_densetsu_no_head_sho_spinoff.jpg",
-			"descEpisodeSynopsis": "Di episode terakhir ini ini, Kaede kembali menjadi wasit dalam death game terakhir, yaitu menentukan kursi termewah dan paling biasa saja. Apakah dengan kursi itu, para berandalan bisa menarik hati Kaede?"
+			"descEpisodeSynopsis": "Di episode terakhir ini ini, Kaede kembali menjadi wasit dalam death game terakhir, yaitu menentukan kursi termewah dan paling biasa saja. Apakah dengan kursi itu, para berandalan bisa menarik hati Kaede?",
+			"thisEnd": true
 		}
 	},
+	"descEpsListName": "Episode {{eps}}",
 	"descEpisode": "| Spin-off Episode {{eps}}",
 	"memberParticipate": "菅原咲月"
 }

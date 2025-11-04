@@ -74,7 +74,8 @@
 		"10": {
 			"descOnAirDate": "4 September 2025",
 			"descEpisodeSynopsis": "Hari kelulusan telah tiba. Akankah Takaruka dengan Setoruka, yang selalu menghabiskan waktu bersama di ruang klub, bisa berbaikan?",
-			"linkHardsub": "https://sfl.gl/vFnJw"
+			"linkHardsub": "https://sfl.gl/vFnJw",
+			"thisEnd": true
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

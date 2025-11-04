@@ -1,132 +1,76 @@
 {
-	"url": "shiosuke-to-amami",
-	"nameShowTitle": "Shiosuke to Amami ~Soba ga Dekiru made Tantei~ (2022)",
-	"descSynopsis": "Kubo Shiori  membintangi serial original Paravi \"Shiosuke to Amami -Soba ga Dekiru Made Tante-\", sebuah spin-off dari drama TBS \"Ishiko to Haneo: Sonna Koto de Uttaemasu?\" dengan memerankan karakter bernama Amatsuyu Kayami, dan yang menjadi lawan lainnya adalah Shiozaki Keisuke (Oda Oideyasu)",
-	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08"
-	],
-	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_shiosuketoamami.png",
-	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shiosuke-to-amami-kubo-shiori-ivzsE",
-	"filePassword" : "",
-	"episodes": {
-		"01": {
-			"descEpisode": "| Episode 1",
-			"descEpsListName": "",
-			"descOnAirDate": "15 Juli 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/D9pgLcy",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke01.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke01.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke01a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke01b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke01c.jpg",
-			"descEpisodeSynopsis": "Shiozaki Keisuke, yang menawarkan menu rahasia di \"Soba Restaurant Shiozaki\" yang dapat menyelesaikan segala macam masalah. Saat sedang mendengarkan keluhan dari Saori, seorang wanita misterius muncul...",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		},
-		"02": {
-			"descEpisode": "| Episode 2",
-			"descEpsListName": "",
-			"descOnAirDate": "22 Juli 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/hFdRB0",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke02.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke02.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke02a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke02b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke02c.jpg",
-			"descEpisodeSynopsis": "Shiozaki mulai membuat deduksi pribadinya tentang Saori yang merasa dikhianati oleh kekasihnya. Namun, deduksinya disela oleh seorang mahasiswi yang tajam lidah...",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		},
-		"03": {
-			"descEpisode": "| Episode 3",
-			"descEpsListName": "",
-			"descOnAirDate": "5 Agustus 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/PMNPb",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke03.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke03.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke03a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke03b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke03c.jpg",
-			"descEpisodeSynopsis": "Aoi Obata, yang bekerja di firma hukum Ushio, memesan menu rahasia dari Shiozaki. Obata mengeluh bahwa teman sekelasnya di sekolah menengah telah membatalkan janji padanya empat kali...",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		},
-		"04": {
-			"descEpisode": "| Episode 4",
-			"descEpsListName": "",
-			"descOnAirDate": "18 Agustus 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/P31GHf",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke04.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke04.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke04a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke04b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke04c.jpg",
-			"descEpisodeSynopsis": "Seorang siswa SMA misterius yang datang ke \"Soba Restaurant Shiozaki\" selama lima hari berturut-turut. Bisakah Shiozaki menyelesaikan masalahnya yang berulang kali dilaporkan di aplikasi jual-beli online?",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		},
-		"05": {
-			"descEpisode": "| Episode 5",
-			"descEpsListName": "",
-			"descOnAirDate": "2 September 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/r8r6gS",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke05.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke05.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke05a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke05b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke05c.jpg",
-			"descEpisodeSynopsis": "Amami, yang sedang dalam perjalanan bisnis ke Tokyo, dikunjungi oleh pamannya, Akihito. Akihito bertanya kepada Shiozaki mengapa rekan kerjanya tidak ingin naik jabatan, tetapi Shiozaki tidak dapat menjawab...",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		},
-		"06": {
-			"descEpisode": "| Episode 6 [END]",
-			"descEpsListName": "",
-			"descOnAirDate": "16 September 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/Vh1w",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke06.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke06.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke06a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke06b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke06c.jpg",
-			"descEpisodeSynopsis": "Setelah menyadari bahwa Amami akan pergi ke luar negeri dan dia tidak dapat melakukan deduksi yang tepat, Shiozaki memutuskan untuk tidak lagi menggunakan menu rahasianya. Namun, suatu hari, teman masa kecilnya, Rina, memaksanya untuk memesan kembali...",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		},
-		"07": {
-			"descEpisode": "| 220729 Interview",
-			"descEpsListName": "",
-			"descOnAirDate": "29 Juli 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/G2PeuiiJ",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220729-shiosukeitv.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv1.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv2.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv3.jpg",
-			"descEpisodeSynopsis": "Disini kita akan melihat interaksi dari dua pemeran dalam drama spin-off ini, Oda Oideyasu dan Kubo Shiori",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		},
-		"08": {
-			"descEpisode": "| 220812 Interview",
-			"descEpsListName": "",
-			"descOnAirDate": "12 Agustus 2022",
-			"memberParticipate": "久保史緒里",
-			"linkHardsub": "https://lokerwfh.net/wR1z2uX",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220812-shiosukeitv.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv1.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv2.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv3.jpg",
-			"descEpisodeSynopsis": "Disini kita akan melihat interaksi dari dua pemeran dalam drama spin-off ini, Oda Oideyasu dan Kubo Shiori",
-			"nameShow": "塩介と甘実－蕎麦ができるまで探偵－"
-		}
-	}
+    "url": "shiosuke-to-amami",
+    "nameShowTitle": "Shiosuke to Amami ~Soba ga Dekiru made Tantei~ (2022)",
+    "nameShow": "塩介と甘実－蕎麦ができるまで探偵－",
+    "descSynopsis": "Kubo Shiori  membintangi serial original Paravi \"Shiosuke to Amami -Soba ga Dekiru Made Tante-\", sebuah spin-off dari drama TBS \"Ishiko to Haneo: Sonna Koto de Uttaemasu?\" dengan memerankan karakter bernama Amatsuyu Kayami, dan yang menjadi lawan lainnya adalah Shiozaki Keisuke (Oda Oideyasu)",
+    "availableEpisode": [
+		"01", "02", "03", "04", "05", "06", "07", "08"
+    ],
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_shiosuketoamami.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shiosuke{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/shiosuke{{eps}}c.jpg",
+    "linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shiosuke-to-amami-kubo-shiori-ivzsE",
+    "filePassword": "",
+    "episodes": {
+        "01": {
+            "descOnAirDate": "15 Juli 2022",
+            "linkHardsub": "https://lokerwfh.net/D9pgLcy",
+            "descEpisodeSynopsis": "Shiozaki Keisuke, yang menawarkan menu rahasia di \"Soba Restaurant Shiozaki\" yang dapat menyelesaikan segala macam masalah. Saat sedang mendengarkan keluhan dari Saori, seorang wanita misterius muncul..."
+        },
+        "02": {
+            "descOnAirDate": "22 Juli 2022",
+            "linkHardsub": "https://lokerwfh.net/hFdRB0",
+            "descEpisodeSynopsis": "Shiozaki mulai membuat deduksi pribadinya tentang Saori yang merasa dikhianati oleh kekasihnya. Namun, deduksinya disela oleh seorang mahasiswi yang tajam lidah..."
+        },
+        "03": {
+            "descOnAirDate": "5 Agustus 2022",
+            "linkHardsub": "https://lokerwfh.net/PMNPb",
+            "descEpisodeSynopsis": "Aoi Obata, yang bekerja di firma hukum Ushio, memesan menu rahasia dari Shiozaki. Obata mengeluh bahwa teman sekelasnya di sekolah menengah telah membatalkan janji padanya empat kali..."
+        },
+        "04": {
+            "descOnAirDate": "18 Agustus 2022",
+            "linkHardsub": "https://lokerwfh.net/P31GHf",
+            "descEpisodeSynopsis": "Seorang siswa SMA misterius yang datang ke \"Soba Restaurant Shiozaki\" selama lima hari berturut-turut. Bisakah Shiozaki menyelesaikan masalahnya yang berulang kali dilaporkan di aplikasi jual-beli online?"
+        },
+        "05": {
+            "descOnAirDate": "2 September 2022",
+            "linkHardsub": "https://lokerwfh.net/r8r6gS",
+            "descEpisodeSynopsis": "Amami, yang sedang dalam perjalanan bisnis ke Tokyo, dikunjungi oleh pamannya, Akihito. Akihito bertanya kepada Shiozaki mengapa rekan kerjanya tidak ingin naik jabatan, tetapi Shiozaki tidak dapat menjawab..."
+        },
+        "06": {
+            "descOnAirDate": "16 September 2022",
+            "linkHardsub": "https://lokerwfh.net/Vh1w",
+            "descEpisodeSynopsis": "Setelah menyadari bahwa Amami akan pergi ke luar negeri dan dia tidak dapat melakukan deduksi yang tepat, Shiozaki memutuskan untuk tidak lagi menggunakan menu rahasianya. Namun, suatu hari, teman masa kecilnya, Rina, memaksanya untuk memesan kembali...",
+            "thisEnd": true
+        },
+        "07": {
+            "descEpisode": "| 220729 Interview",
+            "descEpsListName": "220812 Interview",
+            "descOnAirDate": "29 Juli 2022",
+            "linkHardsub": "https://lokerwfh.net/G2PeuiiJ",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220729-shiosukeitv.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv.jpg",
+            "imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv1.jpg",
+            "imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv2.jpg",
+            "imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220729-shiosukeitv3.jpg",
+            "descEpisodeSynopsis": "Disini kita akan melihat interaksi dari dua pemeran dalam drama spin-off ini, Oda Oideyasu dan Kubo Shiori"
+        },
+        "08": {
+            "descEpisode": "| 220812 Interview",
+            "descEpsListName": "220812 Interview",
+            "descOnAirDate": "12 Agustus 2022",
+            "linkHardsub": "https://lokerwfh.net/wR1z2uX",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220812-shiosukeitv.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv.jpg",
+            "imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv1.jpg",
+            "imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv2.jpg",
+            "imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/220812-shiosukeitv3.jpg",
+            "descEpisodeSynopsis": "Disini kita akan melihat interaksi dari dua pemeran dalam drama spin-off ini, Oda Oideyasu dan Kubo Shiori"
+        }
+    },
+    "descEpisode": "| Episode {{eps}}",
+    "memberParticipate": "久保史緒里"
 }

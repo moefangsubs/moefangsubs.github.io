@@ -1,6 +1,7 @@
 {
 	"url": "actress",
 	"nameShowTitle": "Actress (2023)",
+	"nameShow": "アクトレス",
 	"descSynopsis": "5 tahun telah berlalu sejak insiden di cafe Dominand. Serangkaian insiden telah terjadi yang meniru novel \"Escape Beyond\", yang diterbitkan oleh aktris populer Mase Kanna, dan telah menjadi perbincangan di seluruh kota",
 	"availableEpisode": [
 		"01",
@@ -19,88 +20,46 @@
 	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/actress/actress{{eps}}c.jpg",
 	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/actress/actress{{eps}}d.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/actress-2023-z8XJI",
-	"filePassword" : "",
+	"filePassword" : "Actress-{{eps}}",
 	"episodes": {
 		"01": {
-			"descEpisode": "| Episode 1",
-			"descEpsListName": "Episode 1",
-			"descOnAirDate": "14 April 2023",
 			"linkHardsub": "https://lokerwfh.net/KqdPZ3l",
-			"filePassword": "Actress-01",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress01.jpg",
-			"descEpisodeSynopsis": "Suatu hari, Kotone  yang menikah dengan Kazushi dan ibu dari seorang anak, menerima panggilan telepon yang mencurigakan. Suara penelepon hanya terdengar sebagai \"Aku ingin berbicara denganmu soal Katayama Kiri-san\", dan panggilan terputus. Karena khawatir, Kotone menghubungi teman dekat Kiri, Nao, dan menanyakan apakah dia menghubungi Kiri baru-baru ini. Karena khawatir, Nao mencoba menelepon Kiri, namun panggilan terputus. Kiri tiba-tiba menghilang. Apakah dia telah terlibat dalam suatu insiden? Nao, bersama dengan Tomomi, seorang anggota senior agen detektif, berangkat untuk mencari Kiri. Kemudian sebuah kejadian tak terduga muncul.",
-			"nameShow": "アクトレス"
+			"descEpisodeSynopsis": "Suatu hari, Kotone  yang menikah dengan Kazushi dan ibu dari seorang anak, menerima panggilan telepon yang mencurigakan. Suara penelepon hanya terdengar sebagai \"Aku ingin berbicara denganmu soal Katayama Kiri-san\", dan panggilan terputus. Karena khawatir, Kotone menghubungi teman dekat Kiri, Nao, dan menanyakan apakah dia menghubungi Kiri baru-baru ini. Karena khawatir, Nao mencoba menelepon Kiri, namun panggilan terputus. Kiri tiba-tiba menghilang. Apakah dia telah terlibat dalam suatu insiden? Nao, bersama dengan Tomomi, seorang anggota senior agen detektif, berangkat untuk mencari Kiri. Kemudian sebuah kejadian tak terduga muncul."
 		},
 		"02": {
-			"descEpisode": "| Episode 2",
-			"descEpsListName": "Episode 2",
-			"descOnAirDate": "21 April 2023",
 			"linkHardsub": "https://lokerwfh.net/lBhgHm",
-			"filePassword": "Actress-02",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress02.jpg",
-			"descEpisodeSynopsis": "Suatu hari, Kotone  yang menikah dengan Kazushi dan ibu dari seorang anak, menerima panggilan telepon yang mencurigakan. Suara penelepon hanya terdengar sebagai \"Aku ingin berbicara denganmu soal Katayama Kiri-san\", dan panggilan terputus. Karena khawatir, Kotone menghubungi teman dekat Kiri, Nao, dan menanyakan apakah dia menghubungi Kiri baru-baru ini. Karena khawatir, Nao mencoba menelepon Kiri, namun panggilan terputus. Kiri tiba-tiba menghilang. Apakah dia telah terlibat dalam suatu insiden? Nao, bersama dengan Tomomi, seorang anggota senior agen detektif, berangkat untuk mencari Kiri. Kemudian sebuah kejadian tak terduga muncul.",
-			"nameShow": "アクトレス"
+			"descEpisodeSynopsis": "Suatu hari, Kotone  yang menikah dengan Kazushi dan ibu dari seorang anak, menerima panggilan telepon yang mencurigakan. Suara penelepon hanya terdengar sebagai \"Aku ingin berbicara denganmu soal Katayama Kiri-san\", dan panggilan terputus. Karena khawatir, Kotone menghubungi teman dekat Kiri, Nao, dan menanyakan apakah dia menghubungi Kiri baru-baru ini. Karena khawatir, Nao mencoba menelepon Kiri, namun panggilan terputus. Kiri tiba-tiba menghilang. Apakah dia telah terlibat dalam suatu insiden? Nao, bersama dengan Tomomi, seorang anggota senior agen detektif, berangkat untuk mencari Kiri. Kemudian sebuah kejadian tak terduga muncul."
 		},
 		"03": {
-			"descEpisode": "| Episode 3",
-			"descEpsListName": "Episode 3",
-			"descOnAirDate": "28 April 2023",
 			"linkHardsub": "https://lokerwfh.net/lFn5",
-			"filePassword": "Actress-03",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress03.jpg",
-			"descEpisodeSynopsis": "Perseteruan antara Kiri, Kanna dan produser Konosu terungkap. Kounosu memutuskan bahwa Kiri adalah pelakunya dan mendekati Nao dan Tomomi untuk mengetahui keberadaannya. Seiring dengan berjalannya investigasi, kecurigaan Kiri semakin mendalam. Bahkan Tomomi mulai mencurigai Kiri, tetapi hanya Nao yang percaya padanya dan melanjutkan pencariannya. Seorang pria bernama \"Mikki\" tinggal bersama Kiri. Dia adalah anggota teater Kirigumi yang melarikan diri dengan membawa uang teater dan menghilang. Perlahan-lahan, apa yang terjadi di sekitar Kiri sebelum dia menghilang menjadi jelas. Nao dan Kotone masing-masing melanjutkan pencarian mereka sendiri untuk menemukan Kiri. Kedua cerita mulai mendekati sebuah fakta yang sama",
-			"nameShow": "アクトレス"
+			"descEpisodeSynopsis": "Perseteruan antara Kiri, Kanna dan produser Konosu terungkap. Kounosu memutuskan bahwa Kiri adalah pelakunya dan mendekati Nao dan Tomomi untuk mengetahui keberadaannya. Seiring dengan berjalannya investigasi, kecurigaan Kiri semakin mendalam. Bahkan Tomomi mulai mencurigai Kiri, tetapi hanya Nao yang percaya padanya dan melanjutkan pencariannya. Seorang pria bernama \"Mikki\" tinggal bersama Kiri. Dia adalah anggota teater Kirigumi yang melarikan diri dengan membawa uang teater dan menghilang. Perlahan-lahan, apa yang terjadi di sekitar Kiri sebelum dia menghilang menjadi jelas. Nao dan Kotone masing-masing melanjutkan pencarian mereka sendiri untuk menemukan Kiri. Kedua cerita mulai mendekati sebuah fakta yang sama"
 		},
 		"04": {
-			"descEpisode": "| Episode 4",
-			"descEpsListName": "Episode 4",
-			"descOnAirDate": "5 Mei 2023",
 			"linkHardsub": "https://lokerwfh.net/VDa2T",
-			"filePassword": "Actress-04",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress04.jpg",
-			"descEpisodeSynopsis": "Nao mengejar anggota grup teater yang melarikan diri dengan uang teater Kiri. Anggota teater mengungkapkan bahwa ini adalah perangkap yang disusun oleh Konosu untuk mencuri karya Kiri. Sementara itu, Kotone mengunjungi rumah keluarga Kiri untuk memastikan keberadaannya dan bertemu dengan ibunya untuk pertama kalinya. Namun, ibu Kiri terlihat acuh tak acuh terhadap putrinya yang hilang. Kemudian, Kotone mengunjungi rumah sakit di mana \"Mizuta Mari\" dirawat dan mengetahui bahwa dia adalah teman sekamar Kiri. Ketika Kotone menyadari bahwa ada petunjuk tentang keberadaan Kiri di komputer pribadinya, ia pergi ke rumah Kiri bersama Nao dan Tomomi. Poin demi poin mulai terhubung, dan misteri hilangnya Kiri mulai terungkap.",
-			"nameShow": "アクトレス"
+			"descEpisodeSynopsis": "Nao mengejar anggota grup teater yang melarikan diri dengan uang teater Kiri. Anggota teater mengungkapkan bahwa ini adalah perangkap yang disusun oleh Konosu untuk mencuri karya Kiri. Sementara itu, Kotone mengunjungi rumah keluarga Kiri untuk memastikan keberadaannya dan bertemu dengan ibunya untuk pertama kalinya. Namun, ibu Kiri terlihat acuh tak acuh terhadap putrinya yang hilang. Kemudian, Kotone mengunjungi rumah sakit di mana \"Mizuta Mari\" dirawat dan mengetahui bahwa dia adalah teman sekamar Kiri. Ketika Kotone menyadari bahwa ada petunjuk tentang keberadaan Kiri di komputer pribadinya, ia pergi ke rumah Kiri bersama Nao dan Tomomi. Poin demi poin mulai terhubung, dan misteri hilangnya Kiri mulai terungkap."
 		},
 		"05": {
-			"descEpisode": "| Episode 5",
-			"descEpsListName": "Episode 5",
-			"descOnAirDate": "12 Mei 2023",
 			"linkHardsub": "https://lokerwfh.net/PnaR4f8F",
-			"filePassword": "Actress-05",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress05.jpg",
-			"descEpisodeSynopsis": "Nao, Tomomi dan Kotone mengunjungi kediaman Kiri dan mencari keberadaannya dari riwayat pencarian komputer. Yang muncul adalah keberadaan seorang penggemar fanatik Kanna bernama \"Zoomi\". Ketiganya menduga bahwa Kiri mungkin telah terlibat dalam suatu masalah karena mengikuti orang ini, dan mulai mencarinya. Jejak Kiri semakin lama semakin jelas. Akhirnya, Nao, Tomomi dan Kotone tiba di \"ZOOMI\". Apa yang terungkap tentang masa lalu Zoomi, hubungannya dengan pembunuhan Kanna dan tujuan sebenarnya? Dapatkah Nao dan yang lainnya menyelamatkan Kiri?",
-			"nameShow": "アクトレス"
+			"descEpisodeSynopsis": "Nao, Tomomi dan Kotone mengunjungi kediaman Kiri dan mencari keberadaannya dari riwayat pencarian komputer. Yang muncul adalah keberadaan seorang penggemar fanatik Kanna bernama \"Zoomi\". Ketiganya menduga bahwa Kiri mungkin telah terlibat dalam suatu masalah karena mengikuti orang ini, dan mulai mencarinya. Jejak Kiri semakin lama semakin jelas. Akhirnya, Nao, Tomomi dan Kotone tiba di \"ZOOMI\". Apa yang terungkap tentang masa lalu Zoomi, hubungannya dengan pembunuhan Kanna dan tujuan sebenarnya? Dapatkah Nao dan yang lainnya menyelamatkan Kiri?"
 		},
 		"06": {
-			"descEpisode": "| Episode 6",
-			"descEpsListName": "Episode 6",
-			"descOnAirDate": "19 Mei 2023",
 			"linkHardsub": "https://lokerwfh.net/kshJASX9",
-			"filePassword": "Actress-06",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress06.jpg",
-			"descEpisodeSynopsis": "Kiri dibebaskan dan bergabung kembali dengan Nao dan timnya. Mereka diberitahu untuk menyerahkan sisanya kepada polisi, namun Kiri ingin tetap terlibat dalam kasus ini sebagai seorang novelis bersama Nao. Mereka berjanji untuk tidak mengambil risiko lagi dan melanjutkan penyelidikan. Kiri mencurigai bahwa Konosu terlibat dalam pembunuhan Kanna dan menuju apartemennya. Namun, Kiri merasa diikuti oleh sosok yang mencurigakan.",
-			"nameShow": "アクトレス"
+			"descEpisodeSynopsis": "Kiri dibebaskan dan bergabung kembali dengan Nao dan timnya. Mereka diberitahu untuk menyerahkan sisanya kepada polisi, namun Kiri ingin tetap terlibat dalam kasus ini sebagai seorang novelis bersama Nao. Mereka berjanji untuk tidak mengambil risiko lagi dan melanjutkan penyelidikan. Kiri mencurigai bahwa Konosu terlibat dalam pembunuhan Kanna dan menuju apartemennya. Namun, Kiri merasa diikuti oleh sosok yang mencurigakan."
 		},
 		"07": {
-			"descEpisode": "| Episode 7",
-			"descEpsListName": "Episode 7",
-			"descOnAirDate": "26 Mei 2023",
 			"linkHardsub": "https://lokerwfh.net/gxuGn",
-			"filePassword": "Actress-07",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress07.jpg",
-			"descEpisodeSynopsis": "Kiri menjadi target berita online. Jika tidak menemukan pelaku sebenarnya sebelum besok, Kiri akan dituduh sebagai pelaku. Nao dan timnya mencari informasi dari Zoomi (Hieda) untuk mengungkap pelaku. Mereka mengetahui bahwa Kanna sebenarnya adalah Kato Kazumi dan manajernya, Kato Rie, adalah saudaranya Kanna. Mereka juga menemukan bahwa Rie mengelola akun media sosial Kanna dan Rie menghilang. Mereka mendatangi Oki, pacar Rie, dan menemukan postingan aneh di akun SNS Kanna. Oki mulai panik dan terlihat seperti menyadari sesuatu.",
-			"nameShow": "アクトレス"
+			"descEpisodeSynopsis": "Kiri menjadi target berita online. Jika tidak menemukan pelaku sebenarnya sebelum besok, Kiri akan dituduh sebagai pelaku. Nao dan timnya mencari informasi dari Zoomi (Hieda) untuk mengungkap pelaku. Mereka mengetahui bahwa Kanna sebenarnya adalah Kato Kazumi dan manajernya, Kato Rie, adalah saudaranya Kanna. Mereka juga menemukan bahwa Rie mengelola akun media sosial Kanna dan Rie menghilang. Mereka mendatangi Oki, pacar Rie, dan menemukan postingan aneh di akun SNS Kanna. Oki mulai panik dan terlihat seperti menyadari sesuatu."
 		},
 		"08": {
-			"descEpisode": "| Episode 8 [END]",
-			"descEpsListName": "Episode 8",
-			"descOnAirDate": "2 Juni 2023",
 			"linkHardsub": "https://lokerwfh.net/obgaD0",
-			"filePassword": "Actress-08",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress08.jpg",
 			"descEpisodeSynopsis": "Di bawah menara sutet tempat Rie berada, Nao dan Oki tiba di sana. Di tangan Rie yang berdiri di sana, dia memegang pisau yang tercemar oleh darah merah. \"Aku akan mengakhiri Mase Kanna,\" kata Rie sambil mulai menceritakan semua kebenaran. Kenangan masa kecil dengan Kazumi, janji saat Kazumi menjadi aktris, dan hidup yang dia persembahkan untuk Kazumi. Dan peristiwa yang terjadi antara Kazumi dan Rie. Dia menceritakan semuanya, dan ketika Rie hendak mengakhiri hidupnya sendiri, Nao mengutarakan teriakan dari hati yang tulus. Dan... \"Apa arti keluarga?\" Dengan jawaban dari pertanyaan ini yang dirasakan oleh masing-masing setelah peristiwa ini, Nao dan teman-temannya kembali ke kehidupan mereka masing-masing.",
-			"nameShow": "アクトレス"
+			"thisEnd": true
 		}
 	},
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/actress{{eps}}.jpg",
+	"descEpisode": "| Episode {{eps}}",
+	"descEpsListName": "Episode {{eps}}",
+	"descOnAirDatePattern": "230414", 
+	"OnAirEvery": 7,
 	"memberParticipate": "齊藤京子、森田ひかる、小林由依、大園玲、早川聖来、伊藤理々杏、林瑠奈"
 }

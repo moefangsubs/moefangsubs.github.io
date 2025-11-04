@@ -4,16 +4,7 @@
 	"nameShow": "デスゲームで待ってる",
 	"descSynopsis": "Seorang penulis skenario yang dikucilkan dari industri TV beralih menjadi 'penulis game maut' dalam drama balas dendam, menggunakan kreativitas dan sifat kejamnya untuk membalas dendam dengan mengatur permainan maut yang mematikan.",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_deathgame.png",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/deathgame/deathgame{{eps}}.jpg",
@@ -25,85 +16,51 @@
 	"filePassword" : "UmeDreamia",
 	"episodes": {
 		"01": {
-			"descEpisode": "| Episode 1",
-			"descEpsListName": "Episode 1",
-			"descOnAirDate": "24 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/6UshH",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame01.jpg",
 			"descEpisodeSynopsis": "Sejak kecil menyukai TV, Tomura menjadi penulis skenario dengan harapan membuat acara sukses. Namun, ia menghadapi budaya industri yang penuh penjilat dan pelecehan kekuasaan. Saat ia mengusulkan konsep 'menara wasabi', konsep itu diubah drastis menjadi game ekstrem dan ditayangkan, yang berujung pada kecelakaan fatal. Tomura disalahkan dan dikeluarkan dari industri, tetapi seorang wanita bernama Akizawa tertarik pada konsepnya dan menawarinya kesempatan baru."
 		},
 		"02": {
-			"descEpisode": "| Episode 2",
-			"descEpsListName": "Episode 2",
-			"descOnAirDate": "31 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/ubzqf",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame02.jpg",
 			"descEpisodeSynopsis": "Tomura, penulis yang disalahkan atas kecelakaan fatal dari acara yang ia buat, bertemu Akizawa, seorang produser yang memujinya dan mengajaknya bergabung dengan perusahaan pembuat death game, Dreamia. Setelah kejadian misterius menimpa mantan direktur acaranya, Tomura merasa ragu, namun ia memilih bergabung dan bertemu dengan tim Dreamia yang memiliki suasana damai meski mengelola permainan yang mematikan."
 		},
 		"03": {
-			"descEpisode": "| Episode 3",
-			"descEpsListName": "Episode 3",
-			"descOnAirDate": "7 November 2024",
 			"linkHardsub": "https://sfl.gl/q7L4",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame03.jpg",
 			"descEpisodeSynopsis": "Setelah bergabung dengan Dreamia, Tomura berencana menargetkan Yaguri, komedian yang pernah mem-bully-nya. Mengetahui rahasia kelam Yaguri, ia merancang permainan maut 'Ruang Pengakuan Asam Sulfat' di mana Yaguri harus mengakui dosanya untuk menghindari hukuman yang mematikan, dengan mempertaruhkan masa depan dan keselamatannya."
 		},
 		"04": {
-			"descEpisode": "| Episode 4",
-			"descEpsListName": "Episode 4",
-			"descOnAirDate": "14 November 2024",
 			"linkHardsub": "https://sfl.gl/XoLLAAmq",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame04.jpg",
 			"descEpisodeSynopsis": "Setelah dijadikan kambing hitam dalam kasus kecelakaan 'Wasabi,' Tomura beralih menjadi pembuat death game untuk membalas dendam. Ia mendapatkan bukti suara yang mengungkap penyalahgunaan kekuasaannya oleh kolega lama. Tomura mulai menyasar orang-orang terkait kasus tersebut, termasuk seorang tokoh senior industri TV, sebagai target death game berikutnya."
 		},
 		"05": {
-			"descEpisode": "| Episode 5",
-			"descEpsListName": "Episode 5",
-			"descOnAirDate": "21 November 2024",
 			"linkHardsub": "https://sfl.gl/GYHMjYG",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame05.jpg",
 			"descEpisodeSynopsis": "Tomura bertemu Akizawa, yang mengungkap trauma masa lalunya akibat program TV yang menghancurkan bisnis keluarganya. Akizawa dan Tomura menyadari bahwa musuh mereka adalah orang yang sama, produser yang membuat Tomura menjadi kambing hitam dalam 'Wasabi.' Mereka bersatu untuk balas dendam, sementara fakta baru terkait kecelakaan itu terungkap."
 		},
 		"06": {
-			"descEpisode": "| Episode 6",
-			"descEpsListName": "Episode 6",
-			"descOnAirDate": "28 November 2024",
 			"linkHardsub": "https://sfl.gl/QSNshHkz",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame06.jpg",
 			"descEpisodeSynopsis": "Perusahaan death game tempat Tomura bekerja dihancurkan untuk mencegah kebocoran informasi. Setelah bubar, Tomura dan rekan-rekannya menjalani kehidupan baru masing-masing. Tomura merasa kesempatan untuk balas dendam telah hilang, hingga Akizawa kembali muncul membawa sesuatu yang mengejutkan."
 		},
 		"07": {
-			"descEpisode": "| Episode 7",
-			"descEpsListName": "Episode 7",
-			"descOnAirDate": "5 Desember 2024",
 			"linkHardsub": "https://sfl.gl/2AZrdb0",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame07.jpg",
 			"descEpisodeSynopsis": "Tomura dan rekan-rekannya memutuskan untuk bangkit kembali setelah perusahaannya dihancurkan. Dengan nama baru, Fantasia, mereka memulai ulang tanpa membuat death game langsung. Mereka menciptakan konten bertema 'kematian sosial,' menargetkan influencer yang berisiko mengalami kehancuran akibat eksposur publik."
 		},
 		"08": {
-			"descEpisode": "| Episode 8",
-			"descEpsListName": "Episode 8",
-			"descOnAirDate": "12 Desember 2024",
 			"linkHardsub": "https://sfl.gl/CtwIkM",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame08.jpg",
 			"descEpisodeSynopsis": "Tomura dan rekan-rekannya membentuk perusahaan produksi program daring bernama Fantasia, yang fokus membuat acara bergaya death game. Mereka berhasil merilis program pertamanya, yang menjadi hit besar di internet. Fantasia pun memulai proyek baru dengan menargetkan Kure, mantan produser TV yang pernah menjebak Tomura atas insiden fatal di masa lalu. Meski penuh kemarahan terhadap kesuksesan acara daring tersebut, Kure menerima undangan dari Fantasia dan terjebak dalam permainan baru yang telah direncanakan dengan cermat untuk membalas dendam."
 		},
 		"09": {
-			"descEpisode": "| Episode 9",
-			"descEpsListName": "Episode 9",
-			"descOnAirDate": "19 Desember 2024",
 			"linkHardsub": "https://sfl.gl/kXZNprSX",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame09.jpg",
 			"descEpisodeSynopsis": "Tomura dan Akizawa memaksa Kure berpartisipasi dalam permainan mereka dan mengungkap kejahatannya ke seluruh dunia, termasuk memicu kematian ayah Akizawa dan menjebak Tomura dalam insiden wasabi. Setelah balas dendam mereka tuntas, Tomura menerima petunjuk baru dari AD Kiyoshi, yang menemukan bahwa Matsuo, mantan koleganya, mungkin telah menukar wasabi aman dengan wasabi berbahaya. Matsuo, yang kini menghilang setelah terlilit utang judi, menjadi kunci misteri yang lebih dalam dari insiden tersebut."
 		},
 		"10": {
-			"descEpisode": "| Episode 10 [TAMAT]",
-			"descEpsListName": "Episode 10",
-			"descOnAirDate": "26 Desember 2024",
 			"linkHardsub": "https://sfl.gl/eB8nd0",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame10.jpg",
-			"descEpisodeSynopsis": "Tomura, yang sebelumnya diusir dari dunia televisi akibat insiden wasabi, menyadari bahwa Matsuo adalah dalang sebenarnya di balik semua tragedi yang menimpanya, termasuk kebocoran informasi yang menyebabkan pembubaran Dreamia. Kini, Matsuo menculik rekan-rekan Tomura dan mengancam mengungkap rahasia mereka kecuali Tomura bersedia ikut serta dalam death game terakhirnya. Bertekad melindungi teman-temannya, Tomura menerima tantangan tersebut, memulai permainan terakhir yang penuh bahaya dan ketegangan di bawah kendali Matsuo. Apa tujuan akhir Matsuo, dan bagaimana nasib Tomura?"
+			"descEpisodeSynopsis": "Tomura, yang sebelumnya diusir dari dunia televisi akibat insiden wasabi, menyadari bahwa Matsuo adalah dalang sebenarnya di balik semua tragedi yang menimpanya, termasuk kebocoran informasi yang menyebabkan pembubaran Dreamia. Kini, Matsuo menculik rekan-rekan Tomura dan mengancam mengungkap rahasia mereka kecuali Tomura bersedia ikut serta dalam death game terakhirnya. Bertekad melindungi teman-temannya, Tomura menerima tantangan tersebut, memulai permainan terakhir yang penuh bahaya dan ketegangan di bawah kendali Matsuo. Apa tujuan akhir Matsuo, dan bagaimana nasib Tomura?",
+			"thisEnd": true
 		}
 	},
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgame{{eps}}.jpg",
+	"descEpisode": "| Episode {{eps}}",
+	"descEpsListName": "Episode {{eps}}",
+	"descOnAirDatePattern": "241024", 
+	"OnAirEvery": 7,
 	"memberParticipate": "梅澤美波"
 }
