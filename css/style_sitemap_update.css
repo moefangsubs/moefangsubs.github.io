@@ -6,6 +6,17 @@
 
 
 /* -------------------------------- */
+.updatesvg, #view-controls-container {
+    display: none;
+}
+
+.updatesvg.is-visible {
+    display: flex;
+}
+
+#view-controls-container.is-visible {
+    display: block; 
+}
 
 .wadah-pola {
     width: 100%;
@@ -19,7 +30,6 @@
 
 .updatesvg {
 	padding-top: 30pt;
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 }

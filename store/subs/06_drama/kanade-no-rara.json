@@ -14,48 +14,21 @@
     "filePassword": "AayaGyaru",
     "memberParticipate": "小川彩",
     "episodes": {
-        "01": {
-            "descOnAirDate": "26 Agustus 2025",
-            "linkHardsub": "https://sfl.gl/Z6UN"
-        },
-        "02": {
-            "descOnAirDate": "2 September 2025",
-            "linkHardsub": "https://sfl.gl/b5SJYSPf"
-        },
-        "03": {
-            "descOnAirDate": "8 September 2025",
-            "linkHardsub": "https://sfl.gl/U7e3i1a"
-        },
-        "04": {
-            "descOnAirDate": "16 September 2025",
-            "linkHardsub": "https://sfl.gl/9kg07sjD"
-        },
-        "05": {
-            "descOnAirDate": "23 September 2025",
-            "linkHardsub": "https://sfl.gl/oSEGctC"
-        },
-        "06": {
-            "descOnAirDate": "30 September 2025",
-            "linkHardsub": "https://sfl.gl/Hiuj9pM2"
-        },
-        "07": {
-            "descOnAirDate": "7 Oktober 2025",
-            "linkHardsub": "https://sfl.gl/2gGCD"
-        },
-        "08": {
-            "descOnAirDate": "14 Oktober 2025",
-            "linkHardsub": "https://sfl.gl/uXjU"
-        },
-        "09": {
-            "descOnAirDate": "21 Oktober 2025",
-            "linkHardsub": "https://sfl.gl/0TAMcg"
-        },
-        "10": {
-            "descOnAirDate": "28 Oktober 2025",
-            "linkHardsub": "https://sfl.gl/yqh3vcq"
-        }
+        "01": { "linkHardsub": "https://sfl.gl/Z6UN"},
+        "02": { "linkHardsub": "https://sfl.gl/b5SJYSPf"},
+        "03": { "linkHardsub": "https://sfl.gl/U7e3i1a"},
+        "04": { "linkHardsub": "https://sfl.gl/9kg07sjD"},
+        "05": { "linkHardsub": "https://sfl.gl/oSEGctC"},
+        "06": { "linkHardsub": "https://sfl.gl/Hiuj9pM2"},
+        "07": { "linkHardsub": "https://sfl.gl/2gGCD"},
+        "08": { "linkHardsub": "https://sfl.gl/uXjU"},
+        "09": { "linkHardsub": "https://sfl.gl/0TAMcg"},
+        "10": { "linkHardsub": "https://sfl.gl/yqh3vcq", "thisEnd": true }
     },
-    "descEpisode": "| Episode {{eps}}"
+	"descEpisode": "| Episode {{eps}}",
+	"descEpsListName": "Episode {{eps}}",
+	"descOnAirDatePattern": "250826", 
+	"OnAirEvery": 7
 }
 
 

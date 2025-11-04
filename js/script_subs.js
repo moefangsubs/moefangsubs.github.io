@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- FUNGSI BARU UNTUK MENAMPILKAN PESAN COMING SOON --- //
     function renderComingSoon() {
-        // Sembunyikan daftar episode
         if (episodeListContainer) {
             const wrapper = episodeListContainer.closest('.pixel-border-wrapper');
             if (wrapper) wrapper.style.display = 'none';
@@ -337,7 +336,13 @@ document.addEventListener('DOMContentLoaded', () => {
 		reversedEpisodes.forEach(eps => {
 			const episodeData = showData.episodes[eps];
 			let imageUrl = episodeData?.imageThumbEps || showData.IMGThumbnailEps?.replace('{{eps}}', eps) || '../sprite/placeholder.jpg';
-			let episodeText = episodeData?.descEpsListName || `Episode ${eps}`;
+			let episodeText = episodeData?.descEpsListName || 
+                              showData.descEpsListName?.replace('{{eps}}', eps) || 
+                              `Episode ${eps}`;
+
+			if (episodeData && (episodeData.thisEnd === true || episodeData.thisEnd === "yes")) {
+				episodeText += " [END]";
+			}
 			
 			const episodeLink = document.createElement('a');
 			episodeLink.href = `?show=${showData.url}&eps=${eps}`;
@@ -382,7 +387,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		contentContainer.insertAdjacentHTML('beforeend', buildHeader(showData, episodeData, episodeNumber, showPath));
 		contentContainer.insertAdjacentHTML('beforeend', buildThumbnails(showData, episodeData, episodeNumber));
 		contentContainer.insertAdjacentHTML('beforeend', buildSynopsis(showData, episodeData, episodeNumber));
-		contentContainer.insertAdjacentHTML('beforeend', buildInfoList(showData, episodeData, showPath));
+		contentContainer.insertAdjacentHTML('beforeend', buildInfoList(showData, episodeData, episodeNumber, showPath));
 		contentContainer.insertAdjacentHTML('beforeend', buildSkitsList(episodeData));
 		contentContainer.insertAdjacentHTML('beforeend', buildSongList(episodeData));
 		contentContainer.insertAdjacentHTML('beforeend', buildLiteraturList(episodeData));
@@ -395,7 +400,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	}   
 	
 	function buildHeader(showData, episodeData, episodeNumber, showPath) {
-		const episodeDesc = episodeData.descEpisode || `| Episode ${episodeNumber}`;
+		let episodeDesc = episodeData.descEpisode || `| Episode ${episodeNumber}`;
+		if (episodeData.thisEnd === true || episodeData.thisEnd === "yes") {
+			episodeDesc += " [TAMAT]";
+		}
 		let mainTitle = '';
 		let subTitleHTML = '';
 
@@ -461,9 +469,39 @@ document.addEventListener('DOMContentLoaded', () => {
         return content;
     }
 	
-	function buildInfoList(showData, episodeData, showPath) {
+
+		// --- Fungsi Helper untuk Tanggal Otomatis ---
+
+		/**
+		 * Mengubah string format YYMMDD menjadi objek Date JavaScript.
+		 * @param {string} dateStr - String tanggal (misal: "240628").
+		 * @returns {Date} Objek Date.
+		 */
+		function parseYYMMDD(dateStr) {
+			const year = parseInt(`20${dateStr.substring(0, 2)}`, 10);
+			const month = parseInt(dateStr.substring(2, 4), 10) - 1; // bulan di JS (0-11)
+			const day = parseInt(dateStr.substring(4, 6), 10);
+			return new Date(year, month, day);
+		}
+
+		/**
+		 * Memformat objek Date menjadi string bahasa Indonesia.
+		 * @param {Date} dateObj - Objek Date.
+		 * @returns {string} String tanggal (misal: "28 Juni 2024").
+		 */
+		function formatDateID(dateObj) {
+			return dateObj.toLocaleDateString('id-ID', {
+				day: 'numeric',
+				month: 'long',
+				year: 'numeric'
+			});
+		}
+		
+	function buildInfoList(showData, episodeData, episodeNumber, showPath) {
         let listHTML = '';
         const items = [];
+		
+        // --- Logika Nama Acara ---
         if (showPath && showPath.includes('04_singlebonus')) {
             if (showData.nameShow) items.push(`<li><span class="info-label l-sk">Single</span><span class="info-value jpn">${showData.nameShow}</span></li>`);
             if (episodeData.nameShow) items.push(`<li><span class="info-label l-cd">Judul Bonus</span><span class="info-value jpn">${episodeData.nameShow}</span></li>`);
@@ -471,13 +509,60 @@ document.addEventListener('DOMContentLoaded', () => {
             const showName = episodeData.nameShow || showData.nameShow;
             if (showName) items.push(`<li><span class="info-label l-tv">Nama Acara</span><span class="info-value jpn">${showName}</span></li>`);
         }
-        if (episodeData.descOnAirDate) items.push(`<li><span class="info-label l-dt">Tanggal Rilis</span><span class="info-value">${episodeData.descOnAirDate}</span></li>`);
+		
+		let airDateString = '';
+		if (episodeData.descOnAirDate) {
+			airDateString = episodeData.descOnAirDate;
+		} else if (showData.descOnAirDatePattern && showData.OnAirEvery && showData.availableEpisode) {
+            let baseDateStr = showData.descOnAirDatePattern;
+            let baseEpisode = showData.availableEpisode[0];
+            let interval = parseInt(showData.OnAirEvery, 10);
+            
+            const currentIndex = showData.availableEpisode.indexOf(episodeNumber);
+
+            if (showData.OnAirPatternRestarts && Array.isArray(showData.OnAirPatternRestarts)) {
+                for (let i = showData.OnAirPatternRestarts.length - 1; i >= 0; i--) {
+                    const restart = showData.OnAirPatternRestarts[i];
+                    const restartIndex = showData.availableEpisode.indexOf(restart.fromEpisode);
+                    
+                    if (currentIndex >= restartIndex) {
+                        baseDateStr = restart.newStartDate;
+                        baseEpisode = restart.fromEpisode;
+                        if (restart.newInterval) {
+                            interval = parseInt(restart.newInterval, 10);
+                        }
+                        break;
+                    }
+                }
+            }
+
+			try {
+				const baseDate = parseYYMMDD(baseDateStr);
+                const startIndex = showData.availableEpisode.indexOf(baseEpisode);
+
+				if (startIndex > -1 && currentIndex > -1 && !isNaN(interval)) {
+                    const episodesSinceStart = currentIndex - startIndex;
+					const daysToAdd = episodesSinceStart * interval;
+                    
+					baseDate.setDate(baseDate.getDate() + daysToAdd);
+					airDateString = formatDateID(baseDate);
+				}
+			} catch (e) {
+				console.error("Error saat kalkulasi tanggal otomatis:", e);
+			}
+		}
+		
+		if (airDateString) {
+            items.push(`<li><span class="info-label l-dt">Tanggal Rilis</span><span class="info-value">${airDateString}</span></li>`);
+        }
+
         const participants = episodeData.memberParticipate || showData.memberParticipate;
         if (participants) items.push(`<li><span class="info-label l-us">Partisipan</span><span class="info-value">${processMemberNames(participants)}</span></li>`);
         if (episodeData.additionalSenpai) items.push(`<li><span class="info-label l-se">Tamu (Senpai)</span><span class="info-value">${processMemberNames(episodeData.additionalSenpai)}</span></li>`);
         const guests = episodeData.additionalGuests || episodeData.guestArtis;
         if (guests) items.push(`<li><span class="info-label l-ar">Bintang Tamu</span><span class="info-value">${guests}</span></li>`);
-        if (items.length > 0) listHTML = `<div class="content-section"><h4>Informasi</h4><ul class="info-list">${items.join('')}</ul></div>`;
+        
+		if (items.length > 0) listHTML = `<div class="content-section"><h4>Informasi</h4><ul class="info-list">${items.join('')}</ul></div>`;
         return listHTML;
     }
     

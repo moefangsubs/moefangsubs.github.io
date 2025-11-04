@@ -19,50 +19,48 @@
     "memberParticipate": "山下美月",
     "episodes": {
         "01": {
-            "descOnAirDate": "7 Oktober 2025",
 			"descEpisodeSynopsis": "Kantor Polisi Perairan Tokyo yang baru dibentuk langsung dihadapkan pada sebuah kasus mengerikan ketika sebuah kotak styrofoam ditemukan mengapung di perairan. Di dalamnya, mereka menemukan potongan jari manusia yang telah menghitam bersama sebuah memo misterius yang sebagian isinya larut, namun masih terbaca tulisan yang tampak seperti \"Berikutnya adalah...\". Sebuah tim investigasi gabungan segera dibentuk untuk menangani kasus mutilasi yang meresahkan ini.",
             "linkHardsub": "https://sfl.gl/Xo0zDs"
         },
         "02": {
-            "descOnAirDate": "14 Oktober 2025",
 			"descEpisodeSynopsis": "Penemuan jenazah Hattori Yoshimitsu, seorang penghuni panti jompo kaya, di pulau buatan Daiba Keenam mengarah pada perawatnya, Mikami Shingo. Dalam pengejaran, Mikami ditembak oleh buronan kriminal Tabuchi Hibiki, namun berhasil selamat. Ia kemudian mengaku bahwa kematian Hattori adalah bunuh diri, tetapi sebelum bisa memberi informasi lebih lanjut, penahanannya diambil alih oleh yurisdiksi lain. Penyelidikan pun beralih ke kasus pembunuhan berantai dengan racun yang juga terjadi di panti jompo tersebut.",
             "linkHardsub": "https://sfl.gl/fUZJK8j"
         },
         "03": {
-            "descOnAirDate": "21 Oktober 2025",
 			"descEpisodeSynopsis": "Ikari dari Kepolisian Perairan Tokyo mengetahui bahwa buronan Hibiki Tabuchi telah membajak kapal patroli \"Akatsuki\" dan menyandera petugas Reiko. Motifnya adalah balas dendam karena Ikari telah mengganggu bisnis penyelundupannya. Tabuchi berniat menabrakkan kapal tersebut ke lokasi upacara kepolisian, di mana mantan ketua gengnya ternyata hadir sebagai tamu. Ikari pun segera mengejar, berhasil melompat ke kapal \"Akatsuki\", melumpuhkan Tabuchi, dan berjuang menghentikan kapal yang melaju kencang untuk mencegah tabrakan.",
             "linkHardsub": "https://sfl.gl/srO5MRiy"
         },
         "04": {
-            "descOnAirDate": "28 Oktober 2025",
 			"descEpisodeSynopsis": "Saat Reiko mencoba menyelidiki trauma masa lalu Ikari terkait kecelakaan pesawat 38 tahun silam, sebuah insiden ledakan drone terjadi dan mulai diselidiki oleh tim mereka. Di tengah situasi tersebut, sebuah krisis lain muncul di markas Kepolisian Perairan. Seorang detektif, Fujisawa, yang sedang mengajak keluarganya tur, tiba-tiba ditikam dan disandera di atas kapal patroli \"Akatsuki\". Pelaku kemudian berusaha membajak kapal tersebut, memulai situasi penyanderaan yang menegangkan.",
             "linkHardsub": "https://sfl.gl/sD03"
         },
         "05": {
-            "descOnAirDate": "4 November 2025",
-            "linkHardsub": "Di Kepolisian Perairan Tokyo, grup idola 'Re Rise' menjadi topik hangat, namun detektif Ikari Takuma tidak mengetahuinya. Rekannya, Hosono Yukiko, ternyata pernah membina salah satu anggota, Kitahara Moeka, dan mengkhawatirkannya. Tak lama kemudian, mayat Moeka ditemukan tenggelam. Saat penyelidikan dimulai, Arima Reiko mengenali pemberat pada mayat yang menuntun Ikari ke sebuah gudang, di mana rekaman CCTV menunjukkan Moeka datang sendiri. Sementara itu, Kusakabe dan Yukiko mendapat informasi bahwa Moeka berseteru dengan Sakagami Yua, saingannya di audisi. Di tengah kasus ini, \"teori konspirasi\" tentang adanya kekuatan besar di balik kematian Moeka mulai memanas di kalangan publik."
+            "descEpisodeSynopsis": "Di Kepolisian Perairan Tokyo, grup idola 'Re Rise' menjadi topik hangat, namun detektif Ikari Takuma tidak mengetahuinya. Rekannya, Hosono Yukiko, ternyata pernah membina salah satu anggota, Kitahara Moeka, dan mengkhawatirkannya. Tak lama kemudian, mayat Moeka ditemukan tenggelam. Saat penyelidikan dimulai, Arima Reiko mengenali pemberat pada mayat yang menuntun Ikari ke sebuah gudang, di mana rekaman CCTV menunjukkan Moeka datang sendiri. Sementara itu, Kusakabe dan Yukiko mendapat informasi bahwa Moeka berseteru dengan Sakagami Yua, saingannya di audisi. Di tengah kasus ini, \"teori konspirasi\" tentang adanya kekuatan besar di balik kematian Moeka mulai memanas di kalangan publik.",
+            "linkHardsub": ""
         },
         "06": {
-            "descOnAirDate": "11 November 2025",
+            "descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "07": {
-            "descOnAirDate": "18 November 2025",
+            "descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "08": {
-            "descOnAirDate": "25 November 2025",
+            "descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "09": {
-            "descOnAirDate": "2 November 2025",
+            "descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "10": {
-            "descOnAirDate": "9 Desember 2025",
+            "descEpisodeSynopsis": "",
             "linkHardsub": ""
         }
     },
+	"descOnAirDatePattern": "251007", 
+	"OnAirEvery": 7,
     "descEpisode": "| Episode {{eps}}"
 }
 

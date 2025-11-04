@@ -1,6 +1,7 @@
 {
 	"url": "saisho-wa-paa",
 	"nameShowTitle": "Saisho wa Paa! (2022)",
+	"nameShow": "最初はパー",
 	"descSynopsis": "Tonegawa Gota adalah putra pertama dari seorang politisi terkenal. Sejak kecil, dia tidak memiliki apapun yang dia inginkan dan dia hanya mengikuti ayahnya. Ayahnya ingin Tonegawa Gota menjadi seorang politisi seperti dirinya, tetapi, Tonegawa Gota memutuskan untuk mendaftar di pusat pelatihan komedian. Di sana, ia membentuk duo komedi dengan Sawamura Ginpei, yang tidak banyak bicara tentang dirinya sendiri.",
 	"availableEpisode": [
 		"01",
@@ -13,6 +14,7 @@
 		"08"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_saishowapaa.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/saishowapaa/saishowapaa{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/saishowapaa/saishowapaa{{eps}}a.jpg",
 	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/saishowapaa/saishowapaa{{eps}}b.jpg",
@@ -22,77 +24,42 @@
 	"filePassword" : "kakkipgnjdkomedian",
 	"episodes": {
 		"01": {
-			"descEpisode": "| Episode 1",
-			"descEpsListName": "Episode 1",
-			"descOnAirDate": "28 Oktober 2022",
 			"linkHardsub": "https://lokerwfh.net/pov7C20",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa01.jpg",
-			"descEpisodeSynopsis": "Episode 1 ini kita diperkenalkan seperti apa kegiatan di sekolah pelatihan komedian yang pengajarnya adalah Tadanori, yang tegas pada murid-muridnya. Banyak para siswa tidak suka dengan pengajar yang satu ini, apalagi Sawamura si mantan pegawai kantoran ini. Beda dengan yang lainnya punya alasan khusus ingin jadi komedian, Gota sendiri hanya ingin tidak menjadi politikus seperti ayahnya.",
-			"nameShow": "最初はパー"
+			"descEpisodeSynopsis": "Episode 1 ini kita diperkenalkan seperti apa kegiatan di sekolah pelatihan komedian yang pengajarnya adalah Tadanori, yang tegas pada murid-muridnya. Banyak para siswa tidak suka dengan pengajar yang satu ini, apalagi Sawamura si mantan pegawai kantoran ini. Beda dengan yang lainnya punya alasan khusus ingin jadi komedian, Gota sendiri hanya ingin tidak menjadi politikus seperti ayahnya."
 		},
 		"02": {
-			"descEpisode": "| Episode 2",
-			"descEpsListName": "Episode 2",
-			"descOnAirDate": "4 November 2022",
 			"linkHardsub": "https://lokerwfh.net/jYaCnd",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa02.jpg",
-			"descEpisodeSynopsis": "Episode 2 para calon komedian membawakan materi pertama mereka dengan sangat antusias. Mereka menuju ke Izakaya Dojo dan bergabung dengan anggota biasa, termasuk Sumire, Takeru, Yamato dan Minoru. Sumire kemudian mulai memutar ulang pertunjukan yang telah difilmkan di ponselnya, tetapi semua orang merasa gagal!　Para siswa benar-benar tertekan, bertanya-tanya apa tawa itu. Sawamura kemudian pergi ke rumah Gota bersamanya dan bertemu dengan ayah Gota, politisi Tonegawa Shuro. Shuro, yang mengolok-olok komedi, kemudian mulai berbicara kasar kepada Sawamura.",
-			"nameShow": "最初はパー"
+			"descEpisodeSynopsis": "Episode 2 para calon komedian membawakan materi pertama mereka dengan sangat antusias. Mereka menuju ke Izakaya Dojo dan bergabung dengan anggota biasa, termasuk Sumire, Takeru, Yamato dan Minoru. Sumire kemudian mulai memutar ulang pertunjukan yang telah difilmkan di ponselnya, tetapi semua orang merasa gagal!　Para siswa benar-benar tertekan, bertanya-tanya apa tawa itu. Sawamura kemudian pergi ke rumah Gota bersamanya dan bertemu dengan ayah Gota, politisi Tonegawa Shuro. Shuro, yang mengolok-olok komedi, kemudian mulai berbicara kasar kepada Sawamura."
 		},
 		"03": {
-			"descEpisode": "| Episode 3",
-			"descEpsListName": "Episode 3",
-			"descOnAirDate": "11 November 2022",
 			"linkHardsub": "https://lokerwfh.net/qGE9SRU",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa03.jpg",
-			"descEpisodeSynopsis": "Episode 3 di Sekolah Pelatihan Komedi Daikoku Entertainment, para siswa masih bekerja keras dalam karier komedi mereka saat ini. Namun, Gouta tidak hadir sementara teman-temannya bekerja keras menunjukkan materi manzai-nya. Ia mengkhawatirkan rekannya, Sawamura Ginpei yang telah absen sejak hari sebelumnya tanpa bisa dihubungi. Kemudian, dosen Tadanori Aida mengatakan kepada Gouta tanpa syarat yang tidak pasti bahwa Sawamura berhenti.",
-			"nameShow": "最初はパー"
+			"descEpisodeSynopsis": "Episode 3 di Sekolah Pelatihan Komedi Daikoku Entertainment, para siswa masih bekerja keras dalam karier komedi mereka saat ini. Namun, Gouta tidak hadir sementara teman-temannya bekerja keras menunjukkan materi manzai-nya. Ia mengkhawatirkan rekannya, Sawamura Ginpei yang telah absen sejak hari sebelumnya tanpa bisa dihubungi. Kemudian, dosen Tadanori Aida mengatakan kepada Gouta tanpa syarat yang tidak pasti bahwa Sawamura berhenti."
 		},
 		"04": {
-			"descEpisode": "| Episode 4",
-			"descEpsListName": "Episode 4",
-			"descOnAirDate": "18 November 2022",
 			"linkHardsub": "https://lokerwfh.net/Hh0tSQvQ",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa04.jpg",
-			"descEpisodeSynopsis": "Episode 4 saat Gouta diberitahu oleh Sawamura bahwa ia mengidap kanker stadium 4, ia bertekad untuk benar-benar melindungi satu-satunya partner-nya yang berharga di dunia. Sementara itu, para siswa di sekolah pelatihan, termasuk Sumire Amamiya, yang telah berlari menuju mimpinya untuk menjadi \"komedian profesional\", mulai memiliki perasaan rumitnya sendiri.",
-			"nameShow": "最初はパー"
+			"descEpisodeSynopsis": "Episode 4 saat Gouta diberitahu oleh Sawamura bahwa ia mengidap kanker stadium 4, ia bertekad untuk benar-benar melindungi satu-satunya partner-nya yang berharga di dunia. Sementara itu, para siswa di sekolah pelatihan, termasuk Sumire Amamiya, yang telah berlari menuju mimpinya untuk menjadi \"komedian profesional\", mulai memiliki perasaan rumitnya sendiri."
 		},
 		"05": {
-			"descEpisode": "| Episode 5",
-			"descEpsListName": "Episode 5",
-			"descOnAirDate": "25 November 2022",
 			"linkHardsub": "https://lokerwfh.net/cXWk5O",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa05.jpg",
-			"descEpisodeSynopsis": "Gouta merasakan keinginan yang sungguh-sungguh dari partner-nya, Sawamura yang berada di rumah sakit menunggu operasi kanker, untuk \"hidup untuk menunjukkan pada putrinya dia masuk TV\", dan mulai memikirkan cara untuk membiarkannya bertemu dengan keluarganya yang terasing. Gouta diam-diam menemukan taman kanak-kanak tempat istri Sawamura, Mayumi bekerja dan memohon padanya untuk datang ke rumah sakit bersamanya. Sementara itu, di sekolah pelatihan komedi, instruktur iblis Tadanori Aida melampiaskan kemarahannya pada pengkhianat yang menulis hal-hal buruk tentang dirinya dan muridnya di internet.",
-			"nameShow": "最初はパー"
+			"descEpisodeSynopsis": "Gouta merasakan keinginan yang sungguh-sungguh dari partner-nya, Sawamura yang berada di rumah sakit menunggu operasi kanker, untuk \"hidup untuk menunjukkan pada putrinya dia masuk TV\", dan mulai memikirkan cara untuk membiarkannya bertemu dengan keluarganya yang terasing. Gouta diam-diam menemukan taman kanak-kanak tempat istri Sawamura, Mayumi bekerja dan memohon padanya untuk datang ke rumah sakit bersamanya. Sementara itu, di sekolah pelatihan komedi, instruktur iblis Tadanori Aida melampiaskan kemarahannya pada pengkhianat yang menulis hal-hal buruk tentang dirinya dan muridnya di internet."
 		},
 		"06": {
-			"descEpisode": "| Episode 6",
-			"descEpsListName": "Episode 6",
-			"descOnAirDate": "2 Desember 2022",
 			"linkHardsub": "https://lokerwfh.net/c1OY",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa06.jpg",
-			"descEpisodeSynopsis": "Gouta merasakan keinginan yang sungguh-sungguh dari rekannya, Sawamura, yang berada di rumah sakit menunggu operasi kanker, untuk \"hidup untuk melihat putrinya di TV\", dan mulai memikirkan cara untuk membiarkannya bertemu dengan keluarganya yang terasing. Gota diam-diam menemukan taman kanak-kanak tempat istri Sawamura, Mayumi bekerja dan memohon padanya untuk datang ke rumah sakit bersamanya. Sementara itu, di sekolah pelatihan komedi, pengajar  Aida masih melampiaskan kemarahannya pada pengkhianat yang menulis hal-hal buruk tentang rekannya di internet. Selain itu, saat Aida menghadapkan mereka dengan realitas dunia komedi, para siswa, yang selama ini merasakan kerasnya situasi, mulai memikirkan kembali kehidupan mereka sendiri. Terlepas dari upaya Gouta, ayahnya terus meletakkan dasar bagi Gouta untuk mencalonkan diri.",
-			"nameShow": "最初はパー"
+			"descEpisodeSynopsis": "Gouta merasakan keinginan yang sungguh-sungguh dari rekannya, Sawamura, yang berada di rumah sakit menunggu operasi kanker, untuk \"hidup untuk melihat putrinya di TV\", dan mulai memikirkan cara untuk membiarkannya bertemu dengan keluarganya yang terasing. Gota diam-diam menemukan taman kanak-kanak tempat istri Sawamura, Mayumi bekerja dan memohon padanya untuk datang ke rumah sakit bersamanya. Sementara itu, di sekolah pelatihan komedi, pengajar  Aida masih melampiaskan kemarahannya pada pengkhianat yang menulis hal-hal buruk tentang rekannya di internet. Selain itu, saat Aida menghadapkan mereka dengan realitas dunia komedi, para siswa, yang selama ini merasakan kerasnya situasi, mulai memikirkan kembali kehidupan mereka sendiri. Terlepas dari upaya Gouta, ayahnya terus meletakkan dasar bagi Gouta untuk mencalonkan diri."
 		},
 		"07": {
-			"descEpisode": "| Episode 7",
-			"descEpsListName": "Episode 7",
-			"descOnAirDate": "9 Desember 2022",
 			"linkHardsub": "https://lokerwfh.net/LfNmWp",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa07.jpg",
-			"descEpisodeSynopsis": "Di Sekolah Pelatihan Komedi Hiburan Daikoku, para siswa menampilkan neta mereka di kelas seperti biasa. Namun, Gouta yang tidak bisa berkonsentrasi sama sekali, disibukkan dengan melihat jam tangannya ... Pada saat ini, satu-satunya partner pentingnya, Sawamura sedang menjalani operasi kanker. Sementara itu, kepala sekolah, Ootaguro, datang menemui Aida di ruang guru. Ootaguro dengan sedih mulai memberitahunya bahwa bangunan itu akan dihancurkan awal tahun depan. Dia juga mengatakan bahwa sekolah pelatihan tidak dapat dilanjutkan karena manajemen yang buruk.",
-			"nameShow": "最初はパー"
+			"descEpisodeSynopsis": "Di Sekolah Pelatihan Komedi Hiburan Daikoku, para siswa menampilkan neta mereka di kelas seperti biasa. Namun, Gouta yang tidak bisa berkonsentrasi sama sekali, disibukkan dengan melihat jam tangannya ... Pada saat ini, satu-satunya partner pentingnya, Sawamura sedang menjalani operasi kanker. Sementara itu, kepala sekolah, Ootaguro, datang menemui Aida di ruang guru. Ootaguro dengan sedih mulai memberitahunya bahwa bangunan itu akan dihancurkan awal tahun depan. Dia juga mengatakan bahwa sekolah pelatihan tidak dapat dilanjutkan karena manajemen yang buruk."
 		},
 		"08": {
-			"descEpisode": "| Episode 8 [END]",
-			"descEpsListName": "Episode 8",
-			"descOnAirDate": "16 Desember 2022",
 			"linkHardsub": "https://lokerwfh.net/FbsJBnPj",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/saishowapaa08.jpg",
 			"descEpisodeSynopsis": "Hari upacara kelulusan di Sekolah Pelatihan Komedi Hiburan Daikoku Entertainment tiba. Ruang kelas yang biasa digunakan untuk upacara dipenuhi dengan suasana pesta Natal, dan ruangannya dipenuhi dengan tamu undangan, termasuk keluarga siswa, teman, dan perwakilan media. Para siswa sangat bersemangat di ruang tunggu ketika mereka melihat auditorium penuh dengan tamu undangan yang menunggu pertunjukan dimulai. Mereka menghabiskan waktu yang tegang dan menegangkan untuk berganti kostum dan menyesuaikan neta mereka.",
-			"nameShow": "最初はパー"
+			"thisEnd": true
 		}
 	},
+	"descEpisode": "| Episode {{eps}}",
+	"descEpsListName": "Episode {{eps}}",
+	"descOnAirDatePattern": "221028", 
+	"OnAirEvery": 7,
 	"memberParticipate": "賀喜遥香"
 }

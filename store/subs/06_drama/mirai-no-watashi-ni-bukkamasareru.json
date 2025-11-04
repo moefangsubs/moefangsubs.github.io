@@ -4,38 +4,10 @@
 	"nameShow": "未来の私にブッかまされる！？",
 	"descSynopsis": "Igarashi Raito, seorang pegawai kantor pemerintah yang telah bekerja selama 10 tahun, hidup di bawah tekanan untuk \"tidak boleh gagal\" dalam masyarakat yang penuh risiko, di mana satu langkah kecil bisa berujung pada bencana besar. Selama ini, Raito menjalani hidup yang aman dan stabil. Namun, tiba-tiba muncul seorang pria tua yang mengaku sebagai \"Igarashi Raito dari masa depan.\" Dengan pandangan hidup yang dipengaruhi oleh tahun 2054 dan tindakan berani, pria tua ini mengguncang semua aspek kehidupan Raito yang selama ini ia tutupi—mulai dari impian dan pekerjaan, persahabatan, cinta, pernikahan, hingga keluarga. Di tengah hari-hari yang kacau setelah gagal melamar kekasihnya, Tsutsui Rin, Raito harus menghadapi benturan antara nilai-nilai dari \"masa depan\" tahun 2054 dan \"masa kini\" tahun 2024. Bisakah Raito menjalani hidupnya dengan baik?",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10",
-		"11",
-		"12",
-		"13",
-		"14",
-		"15",
-		"16",
-		"17",
-		"18",
-		"19",
-		"20",
-		"21",
-		"22",
-		"23",
-		"24",
-		"25",
-		"26",
-		"27",
-		"28",
-		"29",
-		"30",
-		"31",
-		"32"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
+		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
+		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
+		"31", "32"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_mirainowatashi.png",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/mirainowatashi/mirainowatashi{{eps}}.jpg",
@@ -47,230 +19,151 @@
 	"filePassword" : "KuboIstriMasaDepanku",
 	"episodes": {
 		"01": {
-			"descEpsListName": "Episode 1",
-			"descOnAirDate": "7 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/RpyNCiLj",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi01.jpg",
 			"descEpisodeSynopsis": "Igarashi Raito, seorang pegawai pemerintah, sedang menjalani \"hari terpenting dalam hidupnya\"—hari di mana ia tidak boleh gagal. Dia sedang menunggu kekasihnya, Tsutsui Rin, di sebuah restoran untuk melamarnya. Selama ini, Raito selalu menjalani hidup dengan prinsip \"aman dan stabil.\" Jika hari ini berjalan lancar, dia yakin akan mendapatkan kehidupan yang damai. Namun, tiba-tiba, seseorang yang mengaku sebagai dirinya dari masa depan 30 tahun kemudian muncul dan memperingatkan bahwa jika Raito tidak membatalkan lamaran ini, hidupnya akan berakhir dalam kegagalan besar."
 		},
 		"02": {
-			"descEpsListName": "Episode 2",
-			"descOnAirDate": "8 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/ZmLWgcFx",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi02.jpg",
 			"descEpisodeSynopsis": "Raito gagal melamar Rin akibat gangguan dari pria yang mengaku sebagai \"dirinya dari 30 tahun ke depan\" . Sesuai dengan prediksi pria itu, Raito kemudian mendapat tawaran dari teman seangkatannya di klub robotik semasa sekolah teknik, Shimizu, untuk bergabung dengan perusahaan rintisan robotik yang baru saja didirikannya. Meski tertekan dengan lamaran yang gagal dan bimbang untuk mengambil risiko, pria dari masa depan berusaha agar Raito menerima tawaran Shimizu. Sementara itu, Rin yang mulai curiga dengan perilaku aneh Raito, merasa khawatir."
 		},
 		"03": {
-			"descEpsListName": "Episode 3",
-			"descOnAirDate": "9 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/XeGsF6Y",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi03.jpg",
 			"descEpisodeSynopsis": "Rin yang tidak tahu apa-apa hampir bertemu dengan pria dari masa depan , membuat Raito panik. Meskipun berhasil mengelabui Rin, rahasia yang Raito sembunyikan semakin banyak. Rin pun mulai merasa ada yang tidak beres dengan Raito. Di tengah kebingungan ini, Raito harus fokus pada tugasnya sebagai pemimpin proyek festival daerah yang diberikan oleh atasannya, Takatsu. Saat Raito bekerja keras, rekan kerjanya, Miyamoto, menyadari bahwa Raito menyembunyikan perasaannya yang sebenarnya."
 		},
 		"04": {
-			"descEpsListName": "Episode 4",
-			"descOnAirDate": "10 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/A48ee",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi04.jpg",
 			"descEpisodeSynopsis": "Raito dihadapkan pada pilihan sulit—apakah dia akan mengejar mimpinya dengan menerima tawaran pekerjaan dari Shimizu atau tetap bekerja di kantor pemerintah? Di hari festival, banyak anak-anak berkumpul untuk mengikuti lomba roket botol plastik, yang menjadi acara utama dan berlangsung sangat meriah. Melihat antusiasme anak-anak yang terpukau oleh cerita dari tamu istimewa, mantan astronaut Tokioka Satoko, Raito terdorong untuk menanyakan sebuah pertanyaan kepada Tokioka. Di sisi lain, Rin, yang datang ke acara tersebut, merasa cemas melihat Raito yang tampak akrab berbicara dengan rekan kerjanya, Miyamoto."
 		},
 		"05": {
-			"descEpsListName": "Episode 5",
-			"descOnAirDate": "14 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/mdJkDde",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi05.jpg",
 			"descEpisodeSynopsis": "Agar bisa terhindar dari 'kegagalan besar dalam hidup,' Raito-ojiisan menyarankan Raito untuk bergabung di perusahaan rintisan milik Shimizu, teman semasa klub Robotika di sekolah kejuruan. Namun, perusahaan Shimizu, ROBOTUCOOL, menghadapi ancaman besar. Tepat sebelum prototipe produk baru selesai, Brian, anggota kunci perusahaan, tiba-tiba meninggalkan perusahaan. Berusaha mengatasi masalah, Raito pun bertemu kembali dengan teman-teman lamanya, meskipun kenangan kegagalan masa lalu kembali membayangi."
 		},
 		"06": {
-			"descEpsListName": "Episode 6",
-			"descOnAirDate": "15 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/myh7OO",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi06.jpg",
 			"descEpisodeSynopsis": "Raito merasa galau setelah mendengar bahwa teman-temannya dari masa sekolah kejuruan, termasuk Shimizu, tengah menghadapi masalah besar. Saat berbicara dengan pacarnya, Rin, Raito menyadari bahwa ia telah mengabaikan suatu keinginan dalam dirinya. Ketika ia berkunjung ke fasilitas penelitian ROBOTUCOOL, hubungannya dengan juniornya, Nice, dan Hime, malah menjadi tegang. Di sisi lain, Rin mulai menemukan kegembiraan baru ketika ia meremajakan pakaian bekas yang disumbangkan di toko laundry, memberikan kebahagiaan bagi penduduk setempat."
 		},
 		"07": {
-			"descEpsListName": "Episode 7",
-			"descOnAirDate": "16 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/pe3Q",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi07.jpg",
 			"descEpisodeSynopsis": "Raito pergi ke toko taiyaki langganannya dari masa sekolah bersama Raito-ojiisan. Kenangan manis tentang klub Robotika dan kata-kata Raito-ojiisan memberinya ide untuk mengajak Brian kembali ke ROBOTUCOOL. Sementara itu, Miyamoto, rekan kerja Raito di kantor pemerintahan, mengamati kebingungan Raito tentang pilihan antara 'stabilitas' dan 'mimpi.' Dalam perbincangan tentang keberanian untuk mengejar impian, Raito secara tak sengaja mengungkapkan sesuatu yang kurang bijak pada Miyamoto."
 		},
 		"08": {
-			"descEpsListName": "Episode 8",
 			"descOnAirDate": "17 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/mXnH1T",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi08.jpg",
 			"descEpisodeSynopsis": "Raito dengan semangat berbicara tentang rencananya mengajak Brian kembali ke ROBOTUCOOL. Meski Shimizu dan Hime masih merasa cemas, mereka didukung oleh Raito-ojiisan saat hari pelaksanaan rencana tiba. Namun, situasi tak terduga segera terjadi. Di sisi lain, Rin yang melihat perubahan dalam diri Raito merasa bingung, mengingat pengalaman masa lalu yang membuatnya lebih memilih kehidupan yang stabil dan keinginan untuk menikah."
 		},
 		"09": {
-			"descEpsListName": "Episode 9",
-			"descOnAirDate": "21 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/K2QoYJ8k",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi09.jpg",
 			"descEpisodeSynopsis": "Raito akhirnya merasa terpanggil untuk sepenuhnya bergabung di bidang pengembangan robot, namun ROBOTUCOOL berada dalam bahaya besar. Informasi rahasia tentang robot pembersih bocor dan diumumkan terlebih dahulu oleh perusahaan lain. Muncul kecurigaan tentang siapa pelakunya, menyebabkan rasa saling tidak percaya di antara anggota tim. Shimizu yang mulai kesulitan mengatasi masalah keuangan menyatakan bahwa pengkhianat harus segera disingkirkan. Sementara itu, kedatangan tamu tak terduga di ROBOTUCOOL menambah ketegangan."
 		},
 		"10": {
-			"descEpsListName": "Episode 10",
-			"descOnAirDate": "22 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/WPr2",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi10.jpg",
 			"descEpisodeSynopsis": "Raito mendapati identitas pengkhianat yang membocorkan informasi rahasia tentang robot pembersih, membuatnya terkejut. Ketika Raito-ojiisan menyarankan agar ia segera mengungkapkan hal ini pada tim, Raito justru ingin melindungi mereka. Berharap menemukan solusi, Raito mengunjungi mantan astronot, Tokioka, yang memberinya wawasan baru. Di saat yang sama, Shimizu merencanakan cara untuk menemukan sang pengkhianat, namun ini menimbulkan perdebatan dengan Brian."
 		},
 		"11": {
-			"descEpsListName": "Episode 11",
-			"descOnAirDate": "23 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/62DuyMl",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi11.jpg",
 			"descEpisodeSynopsis": "Demi menghindari kebangkrutan, Brian berusaha menciptakan produk baru yang lebih unggul dari robot pembersih sebelumnya. Raito, yang diberi tugas mengumpulkan komponen untuk prototipe, pergi ke pabrik lokal bersama Raito-ojiisan. Di sisi lain, Rin tampak menikmati pekerjaannya di toko laundry bersama anak-anak lokal, tetapi ada sesuatu yang berbeda dari sebelumnya."
 		},
 		"12": {
-			"descEpsListName": "Episode 12",
-			"descOnAirDate": "24 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/utzBZ1",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi12.jpg",
 			"descEpisodeSynopsis": "Akhirnya, sang 'pengkhianat' yang membocorkan informasi robot pembersih secara diam-diam mengaku di depan tim ROBOTUCOOL. Di ambang presentasi produk baru kepada para investor, ikatan tim kembali diuji. Bisakah Raito dan anggota lainnya melewati krisis dan menyelamatkan ROBOTUCOOL dari kebangkrutan? Sementara itu, Rin dihadapkan pada keputusan besar yang tak pernah ia bayangkan sebelumnya, yang membuat Raito terkejut."
 		},
 		"13": {
-			"descEpsListName": "Episode 13",
-			"descOnAirDate": "28 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/lITAs",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi13.jpg",
 			"descEpisodeSynopsis": "Di bar yang dikelola oleh Ayamama, Raito dan Ojisan melihat sesuatu yang tidak dapat dipercaya. Dalam iklan acara streaming, Rin muncul sebagai pemeran utama dalam acara realitas cinta 'Jangan Pergi! Kaguya-hime'. Dengan panik, Raito berlari menuju Rin. Sebenarnya, pada malam ketika lamaran Raito ditolak, sebuah kejadian tak terduga juga terjadi pada Rin…!?"
 		},
 		"14": {
-			"descEpsListName": "Episode 14",
-			"descOnAirDate": "29 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/pVFD33I",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi14.jpg",
 			"descEpisodeSynopsis": "Seperti Raito, Rin juga hidup dengan tujuan membuat ibunya merasa tenang dengan menjalani kehidupan yang stabil. Namun, menyaksikan perubahan pada Raito akhir-akhir ini membuatnya mempertimbangkan kemungkinan cara hidup yang berbeda. Melalui keterlibatannya dalam proyek daur ulang pakaian anak-anak di masyarakat, Rin mulai merasakan peluang baru dan mengunjungi Miyamoto, rekan kerja Raito di kantor kota. Apa yang Rin sampaikan kepada Miyamoto?"
 		},
 		"15": {
-			"descEpsListName": "Episode 15",
-			"descOnAirDate": "30 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/tQOy",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi15.jpg",
 			"descEpisodeSynopsis": "Rin menjawab wawancara majalah lokal tentang upayanya dalam mendaur ulang pakaian anak-anak. Upaya yang gigih untuk menghidupkan kembali pakaian dan mendaur ulang mulai menarik perhatian. Sambil mengukur anak-anak di tokonya, Rin terlihat puas, namun Hama yang datang berkunjung merasakan ada perubahan pada dirinya. Di sisi lain, Raito ingin menanyakan tujuan Rin untuk tampil dalam acara realitas cinta 'Jangan Pergi! Kaguya-hime'. Tengah malam, Raito mengunjungi rumah Rin, namun…"
 		},
 		"16": {
-			"descEpsListName": "Episode 16",
-			"descOnAirDate": "1 November 2024",
 			"linkHardsub": "https://sfl.gl/RS0V",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi16.jpg",
 			"descEpisodeSynopsis": "Tiga tahun lalu, Raito dan Rin pertama kali bertemu. Di kantor kota, Raito menanggapi keluhan dari seorang wanita tua yang tidak masuk akal dengan sikap serius, yang membuat Rin mulai merasakan sesuatu. Di sisi lain, sejak saat itu, Raito tetap menghargai Rin. Menjelang hari pertama penayangan acara realitas cinta yang diikuti Rin, Raito memberanikan diri untuk berbicara dengannya, namun suatu kejadian tak terduga terjadi pada Raito…"
 		},
 		"17": {
 			"descEpsListName": "Episode 17",
 			"descOnAirDate": "4 November 2024",
 			"linkHardsub": "https://sfl.gl/CzLBQ",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi17.jpg",
 			"descEpisodeSynopsis": "Sebagai pemeran utama 'Kaguya' dalam acara realitas cinta 'Jangan Pergi! Kaguya-hime', Rin berubah menjadi menawan dengan bantuan penata riasnya, Tsumugi. Pada hari rekaman, delapan pria berkumpul dengan harapan terpilih oleh Rin. Di antara peserta yang terdiri dari orang-orang terkenal, termasuk pemain sepak bola Murate, Raito juga tiba di tempat acara. Dengan aba-aba dari pembawa acara Take-tori no Okina, pertempuran cinta pun dimulai!"
 		},
 		"18": {
-			"descEpsListName": "Episode 18",
-			"descOnAirDate": "5 November 2024",
 			"linkHardsub": "https://sfl.gl/wbBIi3E",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi18.jpg",
 			"descEpisodeSynopsis": "Di episode kedua acara realitas cinta 'Jangan Pergi! Kaguya-hime', Rin menghadiri pesta koktail untuk mengevaluasi kecocokan dengan para peserta. Sementara para pria berlomba menonjolkan kekayaan dan latar belakang mereka, hanya Saionji, yang menjalankan lembaga bimbingan belajar, yang menegaskan bahwa 'yang penting adalah apakah kita bisa membayangkan masa depan bersama'. Raito juga berusaha mendekati Rin, tetapi kesulitan. Berkat bantuan Ojisan, dia akhirnya mendapatkan kesempatan, namun…?"
 		},
 		"19": {
-			"descEpsListName": "Episode 19",
-			"descOnAirDate": "6 November 2024",
 			"linkHardsub": "https://sfl.gl/ECIa",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi19.jpg",
 			"descEpisodeSynopsis": "Jarak antara Rin dan Raito semakin jauh, membuat Raito kehilangan kepercayaan diri. Khawatir bahwa masa depan akan berubah, Oba-san memutuskan untuk mencoba suatu strategi rahasia. Sementara itu, Rin yang masih ragu tentang siapa 'pasangan terbaik' bertekad untuk bertemu dengan seorang pria untuk memutuskan kebimbangannya. Di saat yang sama, Brian, yang melakukan penelitian pada teknologi 'gelembung ruang-waktu', meminta bantuan Raito untuk meningkatkan kekuatan alat tersebut."
 		},
 		"20": {
-			"descEpsListName": "Episode 20",
-			"descOnAirDate": "7 November 2024",
 			"linkHardsub": "https://sfl.gl/4VjKCzNN",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi20.jpg",
 			"descEpisodeSynopsis": "Hari terakhir 'Jangan Pergi! Kaguya-hime' tiba. Raito mengenakan alat khusus 'Kira-Kira Memory' yang dipercayakan oleh Brian dan menuju ke tempat acara. Saat Rin muncul dengan penampilan yang indah dan ekspresi penuh tekad, Raito tertegun. Saat para peserta menyatakan perasaan mereka kepada Rin, kekuatan 'gelembung ruang-waktu' di dalam alat tersebut lepas kendali…!? Siapa yang akhirnya akan dipilih Rin?"
 		},
 		"21": {
-			"descEpsListName": "Episode 21",
-			"descOnAirDate": "11 November 2024",
 			"linkHardsub": "https://sfl.gl/lhUKgrSi",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi21.jpg",
 			"descEpisodeSynopsis": "Di hari terakhir acara realitas cinta 'Jangan Pergi! Kaguya-hime,' pertempuran cinta berkembang ke arah yang tak terduga. Karena tindakannya yang didorong oleh perasaannya kepada Rin, Raito terjebak dalam situasi sulit. Ojisan dan Obasan yang khawatir pun datang, namun mereka kembali berselisih pendapat. Sementara itu, Shimizu dan tim Brian mulai merasa curiga setelah terus-menerus menonton video aktivasi 'Kira-Kira Memory' Raito."
 		},
 		"22": {
-			"descEpsListName": "Episode 22",
-			"descOnAirDate": "12 November 2024",
 			"linkHardsub": "https://sfl.gl/cxL58",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi22.jpg",
 			"descEpisodeSynopsis": "Tim Brian mencoba mengungkap fenomena aneh yang terjadi saat 'Kira-Kira Memory' Raito diaktifkan, melibatkan Raito dan Rin. Di sisi lain, Ojisan mengetahui bahwa hujan meteor yang seharusnya terjadi pada tahun 2040 datang 16 tahun lebih awal, membuatnya takut jika tindakannya telah mengubah masa depan secara drastis. Di saat yang sama, Rin, yang dipanggil oleh Tsumugi, seorang penata rambut, mengetahui fakta mengejutkan."
 		},
 		"23": {
-			"descEpsListName": "Episode 23",
-			"descOnAirDate": "13 November 2024",
 			"linkHardsub": "https://sfl.gl/1YvxFL3",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi23.jpg",
 			"descEpisodeSynopsis": "Rin terkejut saat Tsumugi, sang penata rambut, mengungkapkan sebuah rahasia yang tak terduga. Namun, perubahan aneh terjadi pada tubuh Rin, membuat Tsumugi panik. Ojisan yang secara kebetulan melihat keduanya menjadi terkejut dan segera menuju ke toko laundry milik Rin. Dia berniat berdiskusi dengan Obasan, tetapi identitasnya mulai dicurigai oleh Mari, seorang pegawai paruh waktu."
 		},
 		"24": {
-			"descEpsListName": "Episode 24",
-			"descOnAirDate": "14 November 2024",
 			"linkHardsub": "https://sfl.gl/TbdmqEW",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi24.jpg",
 			"descEpisodeSynopsis": "Ojisan berencana kembali ke masa depan 30 tahun kemudian bersama Obasan. Namun, tindakan mereka selama ini mulai meninggalkan dampak yang mengkhawatirkan pada dunia saat ini. Langit berubah warna secara misterius, menimbulkan keresahan di kalangan masyarakat. Sementara itu, para anggota ROBOTUCOOL terkejut melihat pemandangan yang tidak seharusnya terjadi di layar komputer mereka. Di gerbang kedatangan mesin waktu di Bar Neraka, suara langkah kaki seorang pria baru terdengar."
 		},
 		"25": {
-			"descEpsListName": "Episode 25",
-			"descOnAirDate": "18 November 2024",
 			"linkHardsub": "https://sfl.gl/2fC6ljY",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi25.jpg",
 			"descEpisodeSynopsis": "Perebutan teknologi 'Kira-Kira Memory' yang dikembangkan oleh tim Brian memicu kekacauan baru di ROBOTUCOOL. Saat mencoba menyelamatkan situasi, Ojisan dihadang oleh seorang pria baru dari masa depan. Ketika Ojisan bertanya apa maksudnya, pria itu dengan penuh amarah menjawab, 'Semuanya salahmu.' Di sisi lain, Rin mulai bimbang menentukan masa depan seperti apa yang seharusnya ia pilih di tengah babak baru hidupnya yang tak terduga."
 		},
 		"26": {
-			"descEpsListName": "Episode 26",
-			"descOnAirDate": "19 November 2024",
 			"linkHardsub": "https://sfl.gl/N7w4Mz5h",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi26.jpg",
 			"descEpisodeSynopsis": "Raito dan Rin masih belum bisa menyamakan visi masa depan mereka terkait 'pernikahan.' Meskipun ragu, Rin melanjutkan persiapannya untuk meluncurkan merek baru pakaian hasil daur ulang, mengejar mimpinya. Di sisi lain, seorang pria dari masa depan memanfaatkan salah satu anggota ROBOTUCOOL untuk mencapai tujuannya. Mengetahui rencana tersebut, para anggota ROBOTUCOOL mencoba memutar keadaan untuk membuat langkah penyelamatan."
 		},
 		"27": {
-			"descEpsListName": "Episode 27",
-			"descOnAirDate": "20 November 2024",
 			"linkHardsub": "https://sfl.gl/7S7DUP",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi27.jpg",
 			"descEpisodeSynopsis": "Tsumugi membawa sebuah foto dari masa depan 30 tahun kemudian. Rin dan Obasan menemukan keanehan pada foto itu dan segera menemui Om. Terkejut dengan temuan tersebut, Ojisan naik ke mesin waktu untuk memeriksa sesuatu di masa depan. Sementara itu, Raito dan anggota ROBOTUCOOL mencoba menggagalkan rencana pria dari masa depan untuk memperbaiki situasi."
 		},
 		"28": {
-			"descEpsListName": "Episode 28",
-			"descOnAirDate": "21 November 2024",
 			"linkHardsub": "https://sfl.gl/pQseRv",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi28.jpg",
 			"descEpisodeSynopsis": "Ojisan menaiki mesin waktu untuk memeriksa sesuatu di masa depan, tetapi mesin waktu itu mengalami gangguan yang tak terduga. Rin dan Tsumugi terkejut mendengar kabar tersebut, sementara Obasan mencoba menggali perasaan sebenarnya dari Tsumugi yang mengatakan tidak masalah jika tidak bisa kembali ke masa depan. Di sisi lain, Raito dan ROBOTUCOOL memperoleh informasi penting tentang 'gelembung ruang-waktu' dari pria masa depan tersebut."
 		},
 		"29": {
-			"descEpsListName": "Episode 29",
-			"descOnAirDate": "25 November 2024",
 			"linkHardsub": "https://sfl.gl/TYGH",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi29.jpg",
 			"descEpisodeSynopsis": "Rin melanjutkan persiapan bisnis penjualan pakaian daur ulang untuk anak-anak dan gaun hamil. Meski mendekati kelahiran, ia tetap bersemangat mengejar mimpinya. Melihat hal itu, Raito terus bergumul dengan konsep kemitraan yang tidak terikat pada 'pernikahan' seperti yang diinginkan Rin. Di sisi lain, ROBOTUCOOL membuat keputusan besar terkait 'gelembung ruang-waktu,' bahan utama teknologi perjalanan ruang dan waktu, meski anggota tim Brian merasa ragu dengan arah yang harus mereka ambil."
 		},
 		"30": {
-			"descEpsListName": "Episode 30",
-			"descOnAirDate": "26 November 2024",
 			"linkHardsub": "https://sfl.gl/aJsu",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi30.jpg",
 			"descEpisodeSynopsis": "Masih memikirkan hubungannya dengan Rin, Raito mengunjungi Ayamama. Di sana, ia mendengar berita mengejutkan: perubahan yang disebabkan oleh perjalanan waktu Ojisan dan Obasan telah mengubah masa depan secara drastis, sehingga asteroid Kairos diperkirakan akan menabrak bumi dalam 30 tahun, membawa ancaman kepunahan. Untuk mencegah kehancuran ini, Raito pergi mencari seseorang yang mungkin bisa membantu."
 		},
 		"31": {
-			"descEpsListName": "Episode 31",
-			"descOnAirDate": "27 November 2024",
 			"linkHardsub": "https://sfl.gl/gkKKH",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi31.jpg",
 			"descEpisodeSynopsis": "Bersama Ojisan dan anggota ROBOTUCOOL, Raito berusaha menemukan cara untuk mencegah asteroid Kairos menabrak bumi. Mereka bergabung dalam misi rahasia yang melibatkan mantan astronot Tokioka dan astronom Profesor Tenma. ROBOTUCOOL ditugaskan mengembangkan robot penting, sementara Raito menghadapi keputusan besar yang akan mengubah hidupnya. Meski masih bimbang tentang masa depannya dengan Rin, Ojisan memberikan kata-kata yang menginspirasi."
 		},
 		"32": {
-			"descEpsListName": "Episode 32",
-			"descOnAirDate": "28 November 2024",
 			"linkHardsub": "https://sfl.gl/O09L",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi32.jpg",
-			"descEpisodeSynopsis": "Di tengah proyek rahasia untuk mencegah tabrakan asteroid Kairos dengan bumi, Raito dihadapkan pada keputusan yang akan menentukan hidupnya. Siapa yang menunggunya di tempat ia mencari jawaban? Sementara itu, tim Brian dan anggota ROBOTUCOOL bekerja keras menyelesaikan robot penyelamat. Bisakah mereka menyelamatkan orang yang mereka cintai? Apakah Raito dan Rin akan menemukan masa depan yang sesuai untuk mereka? Apa keputusan akhir yang diambil Raito?"
+			"descEpisodeSynopsis": "Di tengah proyek rahasia untuk mencegah tabrakan asteroid Kairos dengan bumi, Raito dihadapkan pada keputusan yang akan menentukan hidupnya. Siapa yang menunggunya di tempat ia mencari jawaban? Sementara itu, tim Brian dan anggota ROBOTUCOOL bekerja keras menyelesaikan robot penyelamat. Bisakah mereka menyelamatkan orang yang mereka cintai? Apakah Raito dan Rin akan menemukan masa depan yang sesuai untuk mereka? Apa keputusan akhir yang diambil Raito?",
+			"thisEnd": true
 		}
 	},
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mirainowatashi{{eps}}.jpg",
 	"descEpisode": "| Episode {{eps}}",
+	"descEpsListName": "Episode {{eps}}",
+	"descOnAirDatePattern": "241007",
+	"OnAirEvery": 1,
+	"OnAirPatternRestarts": [
+		{ "fromEpisode": "05", "newStartDate": "241014" },
+		{ "fromEpisode": "09", "newStartDate": "241021" },
+		{ "fromEpisode": "13", "newStartDate": "241028" },
+		{ "fromEpisode": "17", "newStartDate": "241104" },
+		{ "fromEpisode": "21", "newStartDate": "241111" },
+		{ "fromEpisode": "25", "newStartDate": "241118" },
+		{ "fromEpisode": "29", "newStartDate": "241125" }
+	],
 	"memberParticipate": "久保史緒里"
 }

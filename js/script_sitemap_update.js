@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     const updateContainer = document.getElementById('daftar-update');
     if (!updateContainer) return;
 
-    // BARU: Fungsi untuk menginisialisasi tombol kontrol
     const setupViewControls = () => {
         const controlsContainer = document.getElementById('view-controls-container');
         if (!controlsContainer) return;
@@ -42,7 +41,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     };
     
-    // BARU: Panggil fungsi inisialisasi tombol
     setupViewControls();
 
     try {
@@ -83,7 +81,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sectionDiv = document.createElement('div');
             sectionDiv.className = 'update-section';
             
-            // BARU: Tambahkan jumlah update di samping tanggal
             const updateCount = updates.length; //
             sectionDiv.innerHTML = `<h3 class="update-date">${formatUpdateDate(date)} <span class="update-count">[${updateCount} Update]</span></h3>`;
 
@@ -114,8 +111,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                     if (!thumbUrl) thumbUrl = 'https://via.placeholder.com/320x180.png?text=No+Image';
 
                     const link = `../moesubs/subs.html?show=${showData.url}&eps=${epKey}`;
-                    const descEpisode = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${parseInt(episodeNumber, 10)}`;
+
+
+					let descEpisode = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${parseInt(episodeNumber, 10)}`;
+					if (episodeData.thisEnd === true || episodeData.thisEnd === "yes") {
+						descEpisode += " [TAMAT]";
+					}
 					const captionHTML = `<span><strong>${showData.nameShowTitle}</strong> ${descEpisode}</span>`;
+
+
 
                     let membersHTML = '';
                     
@@ -242,7 +246,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             new ResizeObserver(scrollCheck).observe(grid);
             scrollCheck();
         });
+		
+        const svgContainer = document.querySelector('.updatesvg');
+        const controlsContainer = document.getElementById('view-controls-container');
 
+        if (svgContainer) {
+            svgContainer.classList.add('is-visible');
+        }
+        if (controlsContainer) {
+            controlsContainer.classList.add('is-visible');
+        }
+		
     } catch (error) {
         console.error('Failed to load update data:', error);
         updateContainer.innerHTML = '<p style="text-align:center;">Gagal memuat daftar update.</p>';

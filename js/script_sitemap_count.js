@@ -1,4 +1,4 @@
-// ../js/script_sitemap_count.js (FINAL - Dengan semua perhitungan otomatis dan struktur JSON berbeda)
+// ../js/script_sitemap_count.js (VERSI PERBAIKAN)
 
 document.addEventListener('DOMContentLoaded', () => {
     // Fungsi utama untuk memulai semua perhitungan
@@ -44,23 +44,23 @@ document.addEventListener('DOMContentLoaded', () => {
         let totalEpisodes = 0;
         const listJsonPath = '../store/subs/list.json';
         const DATA_PATH_PREFIXES = { 
-		"01_variety": "../store/subs/01_variety/",
-		"02_nogidouga": "../store/subs/02_nogidouga/",
-		"03_web": "../store/subs/03_web/",
-		"04_singlebonus": "../store/subs/04_singlebonus/",
-		"05_nogikoi": "../store/subs/05_nogikoi/",
-		"06_drama": "../store/subs/06_drama/",
-		"07_movie": "../store/subs/07_movie/",
-		"08_stage": "../store/subs/08_stage/",
-		"09_documentary": "../store/subs/09_documentary/",
-		"10_sapporo": "../store/subs/10_sapporo/",
-		"11_musicprogram": "../store/subs/11_musicprogram/",
-		"12_random": "../store/subs/12_random/",
-		"13_concert": "../store/subs/13_concert/",
-		"14_premium": "../store/subs/14_premium/",
-		"15_radio": "../store/subs/15_radio/",
-		"16_nonsakamichi": "../store/subs/16_nonsakamichi/"
-		};
+            "01_variety": "../store/subs/01_variety/",
+            "02_nogidouga": "../store/subs/02_nogidouga/",
+            "03_web": "../store/subs/03_web/",
+            "04_singlebonus": "../store/subs/04_singlebonus/",
+            "05_nogikoi": "../store/subs/05_nogikoi/",
+            "06_drama": "../store/subs/06_drama/",
+            "07_movie": "../store/subs/07_movie/",
+            "08_stage": "../store/subs/08_stage/",
+            "09_documentary": "../store/subs/09_documentary/",
+            "10_sapporo": "../store/subs/10_sapporo/",
+            "11_musicprogram": "../store/subs/11_musicprogram/",
+            "12_random": "../store/subs/12_random/",
+            "13_concert": "../store/subs/13_concert/",
+            "14_premium": "../store/subs/14_premium/",
+            "15_radio": "../store/subs/15_radio/",
+            "16_nonsakamichi": "../store/subs/16_nonsakamichi/"
+        };
         const response = await fetch(listJsonPath);
         const showList = await response.json();
         for (const categoryKey in showList) {
@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /**
      * Otomatis B: Menghitung total MV dari berbagai file JSON dengan STRUKTUR BERBEDA.
-     * DIMODIFIKASI SECARA SIGNIFIKAN UNTUK FLEKSIBILITAS.
      */
     async function calculateMvCount() {
         // Konfigurasi file MV dan fungsi parser-nya masing-masing
@@ -177,27 +176,47 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         ];
 
+        // ***** PERBAIKAN: Bungkus SEMUA logika fungsi dalam try/catch *****
         try {
             // Ambil semua data JSON secara paralel
-            const dataPromises = mvFilesConfig.map(config =>
-                fetch(config.path).then(res => res.ok ? res.json() : null)
-            );
-            const allData = await Promise.all(dataPromises);
+			const dataPromises = mvFilesConfig.map(async (config) => {
+				try {
+					const res = await fetch(config.path);
+					if (!res.ok) {
+						console.error(`Gagal memuat: ${config.path}, Status: ${res.status}`);
+						return null; // Kembalikan null jika file tidak ada
+					}
+					// Coba parsing JSON
+					const data = await res.json();
+					return data;
+					
+				} catch (error) {
+					// Jika res.json() gagal (SyntaxError), ini akan tertangkap
+					console.error(`!!! ERROR PARSING JSON di file: ${config.path}`, error.message);
+					return null; // Kembalikan null agar Promise.all tidak berhenti
+				}
+			});
 
-            // Hitung total MV dengan menggunakan parser yang sesuai untuk setiap file
-            const totalMVs = allData.reduce((total, data, index) => {
-                const parser = mvFilesConfig[index].parser;
-                return total + parser(data);
-            }, 0);
+			const allData = await Promise.all(dataPromises);
 
+			// Hitung total MV
+			const totalMVs = allData.reduce((total, data, index) => {
+				if (data === null) return total; // Lewati file yang error atau tidak ada
+				
+				const parser = mvFilesConfig[index].parser;
+				return total + parser(data);
+			}, 0);
+
+            // ***** PERBAIKAN: Kembalikan nilai totalMVs *****
             return totalMVs;
 
+        // ***** PERBAIKAN: Tambahkan blok catch yang hilang *****
         } catch (error) {
-            console.error('Gagal menghitung total MV dari berbagai file:', error);
-            return 0; // Kembalikan 0 jika terjadi error
+            console.error('Terjadi error besar saat menghitung MV:', error);
+            return 0; // Kembalikan 0 agar Promise.all tidak gagal total
         }
+        // ***** PERBAIKAN: Kurung kurawal '}' yang nyasar di sini sudah dihapus *****
     }
-
 
     /**
      * BARU: Menghitung total judul acara dengan logika khusus.
@@ -291,3 +310,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Jalankan fungsi utama
     initCounter();
 });
+
+// ***** PERBAIKAN: Kurung kurawal '}' ekstra di akhir file sudah dihapus *****

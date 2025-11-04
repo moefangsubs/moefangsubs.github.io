@@ -19,51 +19,44 @@
     "memberParticipate": "白石麻衣",
     "episodes": {
         "01": {
-            "descOnAirDate": "17 Oktober 2025",
 			"descEpisodeSynopsis": "Perusahaan bodyguard Tatsunosuke merger, membentuk tim baru dengan anggota yang sulit akur, terutama dengan pemimpin baru, Chihaya. Misi pertama mereka adalah mengawal seorang mahasiswa yang salah dituduh sebagai pembunuh berantai. Namun, tugas ini terancam oleh bocornya informasi lokasi rahasia klien. Di tengah konflik profesional ini, hubungan asmara Tatsunosuke dengan Rika juga menghadapi tantangan saat Rika memutuskan untuk pergi ke London.",
             "linkHardsub": "https://sfl.gl/HFxu5"
         },
         "02": {
-            "descOnAirDate": "24 Oktober 2025",
 			"descEpisodeSynopsis": "Tatsunosuke terus mengawal Igarashi yang dicurigai sebagai pembunuh berantai demi mengungkap kebenaran, meski terus berkonflik dengan rekannya, Chihaya. Ancaman baru muncul dari Wakaba, seorang wanita obsesif yang menguntit Igarashi dan tiba-tiba muncul di hadapan mereka saat dalam perjalanan. Di sisi lain, hubungan jarak jauh Tatsunosuke dengan Rika dimulai dengan sebuah insiden tak terduga saat mereka melakukan panggilan video.",
             "linkHardsub": "https://sfl.gl/a80u7bCY"
         },
         "03": {
-            "descOnAirDate": "31 Oktober 2025",
 			"descEpisodeSynopsis": "Setelah Igarashi kabur, Chihaya mengambil alih tugas pengawalannya, menganggap metode Tatsunosuke tidak memadai. Akibatnya, Tatsunosuke diturunkan dari kasus tersebut dan diberi tugas baru untuk mengawal seorang gadis SD bernama An Takamiya selama sehari. Sementara itu, Chihaya membawa Igarashi untuk menemui Mizuki Aida, wanita yang sangat ingin ditemuinya, di tengah persiapan pesta perusahaan baru Mizuki bersama tunangannya.",
             "linkHardsub": "https://sfl.gl/QItQRG"
         },
         "04": {
-            "descOnAirDate": "7 November 2025",
 			"descEpisodeSynopsis": "Tim Kitazawa Tatsunosuke yang dikejutkan oleh insiden tak terduga yang menimpa Igarashi Sei, harus mengesampingkan rasa frustrasi mereka untuk menjalankan misi baru. Mereka ditugaskan untuk menjaga barang antik warisan di sebuah firma hukum atas permintaan atasan Kishimura Rika. Situasi menjadi rumit saat Rika, yang ternyata adalah pengacara keluarga pewaris, kembali dan salah paham melihat kedekatan Tatsunosuke dengan Chihaya. Di tengah ketegangan itu, salah seorang pewaris yang mencurigakan, Yugo, muncul di dekat lokasi.",
             "linkHardsub": ""
         },
         "05": {
-            "descOnAirDate": "14 November 2025",
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "06": {
-            "descOnAirDate": "21 November 2025",
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "07": {
-            "descOnAirDate": "28 November 2025",
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "08": {
-            "descOnAirDate": "5 Desember 2025",
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
         "09": {
-            "descOnAirDate": "12 Desember 2025",
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         }
     },
+	"descOnAirDatePattern": "251017", 
+	"OnAirEvery": 7,
     "descEpisode": "| Episode {{eps}}"
 }
 

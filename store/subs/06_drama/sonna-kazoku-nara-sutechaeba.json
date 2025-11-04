@@ -4,16 +4,7 @@
 	"nameShow": "そんな家族なら捨てちゃえば？",
 	"descSynopsis": "Ichika, gadis SMA yang hobi game kuis, hidup dalam keluarga dengan aturan aneh. Ayahnya, Reitaro, dilarang melewati selotip yang dipasang di seluruh rumah oleh ibunya, Kazumi. Orang tua Ichika tidak pernah berbicara satu sama lain, dan Reitaro harus hidup terpisah dalam kesendirian.",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_sonnakazoku.png",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sonnakazoku/sonnakazoku{{eps}}.jpg",
@@ -25,76 +16,54 @@
 	"filePassword" : "rentansebagaiichika",
 	"episodes": {
 		"01": {
-			"descEpsListName": "Episode 1",
-			"descOnAirDate": "18 Juli 2024",
 			"linkHardsub": "https://sfl.gl/ROpDL3",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku01.jpg",
 			"descEpisodeSynopsis": "Menjelang ulang tahunnya yang ke-18, Ichika mulai berbicara dengan ayahnya dan mengetahui bahwa aturan selotip ini dimulai karena ucapan yang melukai ibunya. Saat Reitaro melanggar aturan untuk mengubah situasi, Kazumi bereaksi keras. Lalu Reitaro memulihkan perasaannya di luar rumah, namun Sayako, yang sebelumnya menyelamatkan Reitaro dari kecelakaan di lampu merah, bertemu dengannya di jembatan. Reitaro menceritakan kehidupannya di rumah yang kemudian Sayako menasihatinya dengan lembut bahwa apa yang dialaminya adalah bentuk kekerasan dalam rumah tangga. Sementara itu, Ichika berusaha menahan kepergian ayahnya dan ingin memulihkan kembali keluarga mereka. Saat mendekati jawaban atas misteri selotip, Ichika menemukan sebuah kebohongan besar yang selama ini disembunyikan oleh kedua orang tuanya."
 		},
 		"02": {
-			"descEpsListName": "Episode 2",
-			"descOnAirDate": "25 Juli 2024",
 			"linkHardsub": "https://sfl.gl/xM7XqC",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku02.jpg",
 			"descEpisodeSynopsis": "Di tengah situasi tersebut, Ichika bertemu dengan Hikaru, seorang siswa pindahan dari Tokyo, yang memiliki ketertarikan pada aplikasi kuis yang sama. Hikaru, yang dibesarkan dalam keluarga ibu tunggal dan melarikan diri dari pacar ibunya yang menjadi penguntit, pindah ke kota Ichika. Ichika yang merasa terhubung dengan Hikaru, yang juga mengalami lingkungan keluarga yang rumit dan melarikan diri dari kenyataan melalui hobi kuisnya, membagikan masalah keluarga yang tidak nyaman. Hikaru kemudian menawarkan strategi untuk membantu Ichika."
 		},
 		"03": {
-			"descEpsListName": "Episode 3",
-			"descOnAirDate": "15 Agustus 2024",
 			"linkHardsub": "https://sfl.gl/cht0w",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku03.jpg",
 			"descEpisodeSynopsis": "Setelah diisolasi dari keluarganya oleh selotip kuning, Reitaro hidup dalam kesendirian di kamarnya, di mana terdapat satu foto keluarga. Foto tersebut diletakkan oleh istrinya, Kazumi, yang menempelkan selotip tersebut setelah terjadi suatu peristiwa. Bersama teman sekelasnya, Hikaru, Ichika berusaha mengungkap misteri di balik foto itu. Dalam foto tersebut, Reitaro, Kazumi, dan Ichika kecil terlihat tersenyum bahagia, tetapi sebagian foto telah dipotong. Menurut Kazumi, itu adalah peringatan bagi Reitaro. Tampaknya foto ini terkait dengan suatu peristiwa, tetapi kapan dan di mana foto ini diambil? Apa yang sebenarnya terjadi di masa lalu mereka? Ichika bekerja sama dengan Hikaru untuk mencari petunjuk. Di tengah pencarian ini, tiba-tiba Kazumi mulai bertindak tidak terkendali. Setelah termakan oleh bisikan wali kelas Ichika, Ogino, yang mengatakan bahwa Ichika dan Hikaru berpacaran, Kazumi dengan paksa membawa Ichika dan menerobos masuk ke rumah Hikaru."
 		},
 		"04": {
-			"descEpsListName": "Episode 4",
-			"descOnAirDate": "22 Agustus 2024",
 			"linkHardsub": "https://sfl.gl/fWl0",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku04.jpg",
 			"descEpisodeSynopsis": "Reitaro yang terpisah dari keluarganya dengan selotip, mengungkapkan keinginan hatinya kepada putrinya, Ichika, bahwa dia ingin makan bersama sebagai keluarga bertiga. Namun, saat Kazumi  melihat Reitaro berbicara dengan Ichika, dia marah besar. Sekali lagi, keluarga mereka menuju kehancuran. Sementara itu, Ichika menemukan foto di kamar Reitaro yang terkait dengan \"suatu peristiwa\" yang menyebabkan selotip ditempelkan. Bersama dengan teman sekelasnya, Hikaru, Ichika mencoba mengungkap misteri foto tersebut. Hikaru menemukan bahwa gerbang kuil yang terlihat di latar belakang foto itu sama dengan yang ada di poster kebun binatang. Ternyata, foto itu diambil di salah satu sudut kebun binatang. Bagian foto yang dipotong tampaknya menyimpan petunjuk, dan Ichika serta Hikaru menyimpulkan bahwa rahasia tersembunyi ada di bagian yang hilang itu. Mereka pun pergi ke kebun binatang untuk mencari lokasi pengambilan foto dan menyelidiki apa yang seharusnya terlihat dalam foto tersebut."
 		},
 		"05": {
-			"descEpsListName": "Episode 5",
-			"descOnAirDate": "29 Agustus 2024",
 			"linkHardsub": "https://sfl.gl/C7VJ",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku05.jpg",
 			"descEpisodeSynopsis": "Ichika, yang berharap agar keluarga yang terpisah menjadi satu kembali karena selotip, memutuskan untuk berbicara dengan ayahnya, Reitarou, yang selama ini tidak berbicara dengannya, dan bekerja sama dengan teman sekelasnya, Hikaru, untuk menggali misteri keluarga mereka. Namun, semakin Ichika bergerak, semakin besar pula tindakan liar ibunya, Kazumi. Ichika dan Hikaru berbicara di atap sekolah pada malam hari. Berbeda dengan Hikaru yang tetap bersemangat untuk memecahkan misteri \"foto keluarga\" dengan sikap positif, Ichika, yang diam dengan rasa cemas, mengungkapkan isi hatinya yang bertentangan kepada Hikaru. Ia memutuskan untuk memecahkan teka-teki keluarga dengan harapan keluarganya bisa hidup rukun kembali seperti dulu. Namun, semakin ia mendekati jawaban teka-teki dan kebenaran tentang keluarganya, semakin terasa bahwa keluarganya sedang menuju kehancuran."
 		},
 		"06": {
-			"descEpsListName": "Episode 6",
-			"descOnAirDate": "5 September 2024",
 			"linkHardsub": "https://sfl.gl/FkmNR",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku06.jpg",
 			"descEpisodeSynopsis": "Ichika, yang berharap agar keluarga yang terpisah menjadi satu kembali karena selotip yang ditempelkan oleh ibunya, Kazumi, memutuskan untuk berbicara dengan ayahnya, Reitarou , yang selama ini tidak berbicara dengannya, dan bekerja sama dengan teman sekelasnya, Hikaru, untuk menggali misteri keluarga mereka. Namun, retakan dalam keluarga terus melebar. Oginomenyaksikan Reitarou dan Sayako menghabiskan pagi di sebuah love hotel. Memanfaatkan hubungan mereka dan pekerjaannya sebagai \"guru bahasa Inggris yang seksi\" sebagai kelemahan, Ogino memaksa Sayako untuk membuat Kazumi dan Reitarou berpisah"
 		},
 		"07": {
-			"descEpsListName": "Episode 7",
-			"descOnAirDate": "12 September 2024",
 			"linkHardsub": "https://sfl.gl/V147",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku07.jpg",
 			"descEpisodeSynopsis": "Ichika menemukan bahwa dia memiliki saudara kembar yang sudah meninggal saat mencoba memecahkan misteri pita di rumahnya. Ketika berbicara dengan ibu Hikaru, dia menemukan petunjuk terakhir dari foto keluarga yang terpotong, yang membuatnya syok. Saat kembali ke rumah, dia menunjukkan foto tersebut kepada ibunya, yang panik dan menyebut nama saudara kembarnya, Shouki. Sementara itu, Hikaru mendapat masalah di sekolah setelah foto-foto tidak senonoh ibunya tersebar, membuatnya marah dan mengurung diri. Ichika berusaha menenangkan Hikaru, tetapi harus berhadapan dengan Kotoha, yang diam-diam merencanakan insiden tersebut."
 		},
 		"08": {
-			"descEpsListName": "Episode 8",
-			"descOnAirDate": "19 September 2024",
 			"linkHardsub": "https://sfl.gl/DQY5o",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku08.jpg",
 			"descEpisodeSynopsis": "Setelah memecahkan misteri foto keluarga, Ichika terungkap pada kenyataan tragis keluarganya. Meski ingin membangun kembali keluarganya yang terpisah, Ichika tak sanggup mengungkapkan kebenaran pada Hikaru dan mencoba menjauhinya. Sementara itu, Kotoha mendekati ayah Ichika, berusaha memanipulasinya. Ayah Ichika, yang kesepian, akhirnya menerima ajakan Sayako untuk menjalin hubungan lebih serius, meski menyadari risikonya. Di tengah semua itu, hubungan rumit antar keluarga dan kehancuran mereka mulai terbuka."
 		},
 		"09": {
-			"descEpsListName": "Episode 9",
-			"descOnAirDate": "26 September 2024",
 			"linkHardsub": "https://sfl.gl/OhyW9I",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku09.jpg",
 			"descEpisodeSynopsis": "Ichika akhirnya mengungkapkan pada Hikaru bahwa mereka adalah saudara kembar, dan meskipun kaget, Hikaru tetap menunjukkan rasa cintanya. Mereka berdua kemudian mencoba memahami mengapa Hikaru, yang seharusnya adalah Shouki, menjadi anak Sayako. Di sisi lain, ayah mereka, Reitarou, yang merasa bersalah atas perbuatan masa lalunya, akhirnya meminta cerai dari ibu Ichika. Pada ulang tahun ke-18 Ichika, kebenaran mengejutkan tentang keluarga mereka terungkap."
 		},
 		"10": {
-			"descEpsListName": "Episode 10",
-			"descOnAirDate": "3 Oktober 2024",
 			"linkHardsub": "https://sfl.gl/zBH98Y",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku10.jpg",
-			"descEpisodeSynopsis": "Ichika dan Hikaru, yang tanpa sadar jatuh cinta meski bersaudara, berusaha mengungkap mengapa mereka dipisahkan. Ibu mereka, Kazumi, terkejut mengetahui bahwa Hikaru adalah Shouki yang telah lama hilang. Reitarou akhirnya mengakui bahwa insiden di kebun binatang 15 tahun lalu terjadi karena kesalahannya. Konflik semakin memanas ketika Sayako datang menuntut penjelasan, dan hubungan rumit antar orang tua mereka akhirnya memuncak. Di tengah semua kekacauan ini, Ichika menemukan jawaban dari teka-teki hidupnya."
+			"descEpisodeSynopsis": "Ichika dan Hikaru, yang tanpa sadar jatuh cinta meski bersaudara, berusaha mengungkap mengapa mereka dipisahkan. Ibu mereka, Kazumi, terkejut mengetahui bahwa Hikaru adalah Shouki yang telah lama hilang. Reitarou akhirnya mengakui bahwa insiden di kebun binatang 15 tahun lalu terjadi karena kesalahannya. Konflik semakin memanas ketika Sayako datang menuntut penjelasan, dan hubungan rumit antar orang tua mereka akhirnya memuncak. Di tengah semua kekacauan ini, Ichika menemukan jawaban dari teka-teki hidupnya.",
+			"thisEnd": true
 		}
 	},
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sonnakazoku{{eps}}.jpg",
 	"descEpisode": "| Episode {{eps}}",
+	"descEpsListName": "Episode {{eps}}",
+	"descOnAirDatePattern": "240718",
+    "OnAirEvery": 7,
+    "OnAirPatternRestarts": [
+        { "fromEpisode": "03", "newStartDate": "240815" }
+    ],
 	"memberParticipate": "岩本連加"
 }

@@ -25,7 +25,8 @@
         },
         "03": {
             "descOnAirDate": "18 September 2025",
-            "linkHardsub": "https://sfl.gl/2ezPyu"
+            "linkHardsub": "https://sfl.gl/2ezPyu",
+			"thisEnd": true
         }
     },
     "descEpisode": "| Episode {{eps}}"
