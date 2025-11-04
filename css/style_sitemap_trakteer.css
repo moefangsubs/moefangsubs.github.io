@@ -1,0 +1,13 @@
+#trakteer-marquee-container.notifsitemap-container {
+    height: 52px;
+    min-height: 52px;
+    padding: 14px 0px;
+    box-sizing: border-box;
+}
+
+#trakteer-iframe {
+    width: 100%;
+    height: 50px;
+    border: none;
+    display: block;
+}
