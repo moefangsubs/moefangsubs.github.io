@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerHTML = `
         <div class="warning-footer">
 		<div class="online-counter" id="online-counter-widget">
-                <span><span class="pulse-dot"></span> Yang sedang online: ...</span>
+                <span><span class="pulse-dot"></span>...</span>
 			</div>
 			<div class="about">
 				<img class="foot-label" src="../sprite/main.svg"/>
@@ -176,9 +176,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (onlineCount === 0) {
                         onlineCounterText.innerHTML = '<span class="pulse-dot"></span> Menghubungkan...';
                     } else if (amITheOnlyOne) {
-                        onlineCounterText.innerHTML = '<span class="pulse-dot"></span> Yang sedang online: 1 orang (yourself)';
+                        onlineCounterText.innerHTML = '<span class="pulse-dot"></span>Online: 1 orang (yourself)';
                     } else {
-                        onlineCounterText.innerHTML = `<span class="pulse-dot"></span> Yang sedang online: ${onlineCount} orang`;
+                        onlineCounterText.innerHTML = `<span class="pulse-dot"></span>Online: ${onlineCount} orang`;
                     }
                 });
             
