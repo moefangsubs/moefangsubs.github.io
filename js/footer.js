@@ -28,6 +28,34 @@ document.addEventListener('DOMContentLoaded', function() {
             line-height: 1.5;
         }
 		
+		.online-counter {
+			display: none; 
+			width: 100%;
+			text-align: center;
+			padding: 10pt;
+			font-size: 1.05em;
+			color: white;
+			font-weight: 500;
+		}
+		
+        .pulse-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background-color: #39FF14; /* Warna hijau neon */
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+            /* Terapkan animasi: nama, durasi, perulangan, timing */
+            animation: pulse-fade 2s infinite ease-in-out;
+        }
+
+        @keyframes pulse-fade {
+            0% { opacity: 1; }
+            50% { opacity: 0.2; } /* Fade out ke 20% */
+            100% { opacity: 1; } /* Fade in kembali */
+        }
+		
 		.about {
 			display: flex;
 			justify-content: center;
@@ -102,6 +130,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const footerHTML = `
         <div class="warning-footer">
+		<div class="online-counter" id="online-counter-widget">
+                <span><span class="pulse-dot"></span> Yang sedang online: ...</span>
+			</div>
 			<div class="about">
 				<img class="foot-label" src="../sprite/main.svg"/>
 				<span>Data Update : 2 November 2025 20:29 JST</span>
@@ -122,4 +153,43 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.body.insertAdjacentHTML('beforeend', footerHTML);
 
+    // --- ▼▼▼ KODE JAVASCRIPT UNTUK WIDGET ONLINE ▼▼▼ ---
+    
+    // Pastikan rtdb dan auth (dari firebase-init.js) sudah ada
+    if (typeof rtdb !== 'undefined' && typeof auth !== 'undefined') {
+        
+        const onlineCounterWidget = document.getElementById('online-counter-widget');
+        const onlineCounterText = onlineCounterWidget.querySelector('span');
+        const onlineUsersRef = rtdb.ref('/onlineUsers');
+
+        // Kita hanya mau menjalankan ini jika user sudah login
+        auth.onAuthStateChanged(user => {
+            if (user) {
+                // ▼▼▼ PERBAIKAN 2: Tampilkan widget saat login ▼▼▼
+                onlineCounterWidget.style.display = 'block';
+
+				onlineUsersRef.on('value', (snapshot) => {
+                    const onlineCount = snapshot.numChildren();
+                    const amITheOnlyOne = (onlineCount === 1 && snapshot.hasChild(user.uid));
+
+                    // ▼▼▼ PERBAIKAN 3: Gunakan .innerHTML agar bisa render HTML ▼▼▼
+                    if (onlineCount === 0) {
+                        onlineCounterText.innerHTML = '<span class="pulse-dot"></span> Menghubungkan...';
+                    } else if (amITheOnlyOne) {
+                        onlineCounterText.innerHTML = '<span class="pulse-dot"></span> Yang sedang online: 1 orang (yourself)';
+                    } else {
+                        onlineCounterText.innerHTML = `<span class="pulse-dot"></span> Yang sedang online: ${onlineCount} orang`;
+                    }
+                });
+            
+            } else {
+                // Jika user logout, sembunyikan widget dan matikan listener
+                onlineCounterWidget.style.display = 'none';
+                onlineUsersRef.off('value'); // Berhenti mendengarkan data
+            }
+        });
+
+    } else {
+        console.warn('Firebase Realtime Database (rtdb) tidak terdefinisi. Widget online tidak akan jalan.');
+    }
 });

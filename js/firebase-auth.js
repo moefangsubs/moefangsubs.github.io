@@ -21,6 +21,20 @@ document.addEventListener('DOMContentLoaded', function() {
         if (user) {
             // Pengguna sudah login
             console.log('User is logged in:', user.displayName);
+
+            // --- ▼▼▼ KODE PRESENCE DITAMBAHKAN ▼▼▼ ---
+            // Pastikan rtdb (dari firebase-init.js) sudah terdefinisi
+            if (typeof rtdb !== 'undefined') {
+                // Buat referensi ke path status pengguna
+                const userStatusRef = rtdb.ref('/onlineUsers/' + user.uid);
+                
+                // Set status jadi online
+                userStatusRef.set(true);
+                
+                // Atur 'onDisconnect' untuk menghapus status ini
+                // Ini akan berjalan otomatis saat tab ditutup atau koneksi putus
+                userStatusRef.onDisconnect().remove();
+            }
             if (isIndexPage && welcomeBackBox) {
                 if (loginBox) loginBox.style.display = 'none'; // Sembunyikan login box
                 document.getElementById('welcome-username').textContent = user.displayName;
