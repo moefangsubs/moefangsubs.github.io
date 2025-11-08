@@ -5840,12 +5840,14 @@
 			"members3": ["小川彩", "弓木奈於", "中西アルノ", "梅澤美波", "菅原咲月", "筒井あやめ", "岡本姫奈"],
 			"members2": ["川﨑桜", "井上和", "久保史緒里", "一ノ瀬美空", "池田瑛紗"],
 			"members1": ["賀喜遥香", "瀬戸口心月", "矢田萌華", "遠藤さくら"],
-			"SongMVDirJP": "",
-			"SongMVDirRO": "",
-			"SongCompJP": "",
-			"SongArraJP": "",
+			"SongMVDirJP": "王一川（maxilla）",
+			"SongMVDirRO": "Y.WANG",
+			"SongCompJP": "LEE LAB",
+			"SongArraJP": "花村智志",
 			"SongLyricsJP": "秋元康",
-			"SongChoreo": ""
+			"SongChoreo": "",
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/1de6WSwdTL38p2JpaOIn_vzMJFMrrbjFP"
 		},
 		{
 			"titleJp": "????",

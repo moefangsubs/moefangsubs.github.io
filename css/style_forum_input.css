@@ -1,0 +1,168 @@
+/* Form Input Chat */
+.chat-form-container {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: var(--moe-tint3);
+    padding: 1rem 0;
+    z-index: 100;
+    border-top: 2px solid var(--moe-tint2);
+}
+
+.reply-info-box {
+    width: 90%;
+    max-width: none;
+    margin: 0 auto;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--moe-tint7);
+    padding: 5px 10px;
+    font-size: 0.9em;
+    color: var(--moe);
+    border-bottom: 1px solid var(--moe-tint5);
+}
+.reply-info-box #cancel-reply-btn {
+    background: none;
+    border: none;
+    color: var(--moe);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+#chat-form {
+    width: 90%; 
+    max-width: none;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.chat-form-input {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 0.25rem;
+}
+
+/* Toolbar Editor Teks */
+.chat-toolbar {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+.format-btn {
+    background: transparent;
+    color: var(--moe-shade-min1);
+    border: none;
+    cursor: pointer;
+    padding: 4px; 
+    clip-path: none;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+}
+.format-btn:hover {
+    background: transparent;
+    opacity: 1;
+}
+.format-btn img {
+    height: 40px;
+    display: block;
+}
+
+/* Style untuk Auto Kolase Toggle */
+.collage-toggle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--moe-shade-min1);
+    font-family: "Space Mono", monospace;
+    font-size: 0.8em;
+    margin-left: 5px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.collage-toggle input {
+    display: none;
+}
+.collage-toggle img {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.collage-toggle .collage-off-img { display: inline-block; }
+.collage-toggle .collage-on-img { display: none; }
+.collage-toggle input:checked ~ .collage-off-img { display: none; }
+.collage-toggle input:checked ~ .collage-on-img { display: inline-block; }
+
+.collage-toggle label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#chat-form textarea {
+    width: 100%;
+    border: 1px solid var(--moe-tint4);
+    background: var(--moe-tint7);
+    color: var(--moe-shade-min1);
+    padding: 0.5rem;
+    font-family: "Space Mono", monospace;
+    font-size: 1em;
+    box-sizing: border-box;
+    clip-path: var(--pixel-clip-path-outer-chat);
+    resize: none; 
+}
+
+.chat-submit-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    clip-path: none;
+    transition: all 0.2s;
+    flex-shrink: 0; 
+    align-self: flex-end;
+    margin-bottom: 8px;
+    opacity: 0.9;
+}
+.chat-submit-btn img {
+    height: 70pt;
+    width: 70pt;
+}
+.chat-submit-btn:hover {
+    background: transparent;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#show-chat-toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    background: var(--moe-tint2);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.2s;
+}
+#show-chat-toggle-btn img {
+    width: 32px;
+    height: 32px;
+}
+#show-chat-toggle-btn:hover {
+    background: var(--moe-tint1);
+    transform: translateX(-50%) scale(1.1);
+}

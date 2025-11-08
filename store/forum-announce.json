@@ -1,0 +1,18 @@
+{
+  "title": "Selamat Datang di MoeChat! (Beta)",
+  "message": "Halo, teman-teman! Selamat datang di MoeChat! Admin lagi iseng merancang proyek kecil-kecilan ini sebagai tempat kita <i>ngobrol</i> bareng. Saat ini, statusnya masih <b>Beta</b>.<br><br>Artinya? Fiturnya masih terbatas, dan kalau kalian nemu <i>bug</i>, jangan kaget. Mungkin saja project ini tidak akan saya lanjutkan atau bahkan dihapus ketika ada banyak bug, karena sangat pusing. Kalau nemu yang aneh-aneh, boleh lapor via DM Instagram.",
+  "image_note": {
+    "title": "PENTING: Soal Upload Gambar (Wajib Baca!)",
+    "message": "Forum ini <b>BELUM BISA</b> terima upload file langsung dari HP/komputer kalian. Malas bayar server.<br> Kalian harus upload gambar ke <b>pihak ketiga</b> dulu, baru <b>paste URL</b>-nya ke sini pakai tombol gambar di toolbar. <br><br><b>Saran tempat upload gratis:</b> <ul><li>Imgur</li><li>ImgBB</li><li>Postimages</li></ul>Atau bisa juga link langsung dari sumber lain."
+  },
+  "features_title": "Apa yang Bisa Dilakukan Sekarang?",
+  "features": [
+    "Format teks standar: <b>Bold</b>, <i>Italic</i>, <u>Underline</u>.",
+    "Sistem Balas (Reply): Klik tombol 'Balas' di chat buat <i>nyolek</i> pesan user lain.",
+    "Gambar Spoiler: Sembunyikan gambar (klik checkbox 'Spoiler' pas masukin URL).",
+    "Auto-Kolase: Kalau kirim 2-4 gambar sekaligus, otomatis jadi kolase kotak-kotak.",
+    "Like & Dislike"
+  ],
+  "closing_message": "⚠️ Segala bentuk chattingan SARA, Bullying, mengirim sesuatu yang tidak pantas, spamming, menghina member/user lain akan di-block. Silakan dicoba dan semoga betah!",
+  "timestamp": "7 November 2025"
+}

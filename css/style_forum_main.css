@@ -1,0 +1,236 @@
+/* Menggunakan variabel global dari style.css */
+
+/* Variabel clip-path pixelated (diambil dari style_sitemap_update.css) */
+:root {
+	--pixel-clip-path-outer-chat: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
+	--pixel-clip-path-border-chat: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
+}
+
+/* Animasi highlight untuk scroll */
+@keyframes highlight-message {
+    0% { box-shadow: 0 0 10px 5px var(--moe-tint2); }
+    100% { box-shadow: none; }
+}
+
+.forum-chat-wrapper {
+    width: 90%; 
+    max-width: none;
+    margin: 0 auto;
+    padding-bottom: 200px; /* Spasi untuk form input */
+    padding-top: 2rem;
+}
+
+.forum-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--moe); 
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    padding: 1rem 0;
+    line-height: 0; 
+}
+.forum-title img {
+    height: 50px; 
+    width: auto;
+    max-width: 90%;
+}
+
+/* Kotak Pengumuman */
+.announcement-box {
+    background: var(--moe-tint7);
+    border: 2px dashed var(--moe-tint5);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    color: var(--moe-shade-min1);
+    font-size: 0.95em;
+    clip-path: var(--pixel-clip-path-outer-chat);
+}
+.announcement-box h4 {
+    color: var(--moe);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2em;
+}
+.announcement-box p {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+.announcement-box ul {
+    margin: 0;
+    padding-left: 20px;
+}
+.announcement-box li {
+    margin-bottom: 4px;
+}
+.announcement-box .announce-date {
+    text-align: right;
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.8;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+/* Kontainer Feed Chat */
+.chat-feed-container {
+    width: 100%;
+    min-height: 300px;
+    background: white;
+    border: 2px solid var(--moe-tint5);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#chat-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.loading-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    color: var(--moe);
+    opacity: 0.7;
+}
+
+/* Navigasi Halaman */
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pagination-btn {
+    background: var(--moe-tint2);
+    color: white;
+    border: none;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    clip-path: var(--pixel-clip-path-outer-chat);
+    transition: all 0.2s;
+}
+.pagination-btn:hover {
+    background: var(--moe-tint1);
+}
+.pagination-btn:disabled {
+    background: var(--moe-tint5);
+    color: var(--moe-tint4);
+    cursor: not-allowed;
+}
+.pagination-info {
+    font-family: "Space Mono", monospace;
+    color: var(--moe-shade-min1);
+    font-weight: 700;
+}
+
+.chat-login-prompt {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    color: var(--moe);
+    margin-top: 1rem;
+    clip-path: var(--pixel-clip-path-outer-chat);
+    font-size: 1.1em;
+}
+
+.gatekeeper-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.gatekeeper-box {
+    background: var(--moe-tint7);
+    color: var(--moe-shade-min1);
+    border: 2px solid var(--moe);
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: "Space Mono", monospace;
+    clip-path: var(--pixel-clip-path-outer-chat);
+}
+
+.member-list-container {
+    width: 100%;
+    background: var(--moe-tint5);
+    border: 2px solid var(--moe-tint5);
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-top: 1.5rem;
+    clip-path: var(--pixel-clip-path-outer-chat);
+}
+
+.member-list-header {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+    color: var(--moe);
+    margin: 0 0 1rem 0;
+    border-bottom: 1px dashed var(--moe-tint4);
+    padding-bottom: 0.5rem;
+}
+
+.member-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.member-item {
+    padding: 3px 8px;
+    font-family: "Space Mono", monospace;
+    font-size: 0.9em;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+.member-item.admin.inactive {
+    background-color: transparent;
+    color: var(--kakki-g5);
+    opacity: 0.7;
+    border-color: var(--kakki-g3);
+}
+
+.member-item.admin.active {
+    background-color: var(--kakki-o3);
+    color: #f97500;
+    border-color: var(--kakki-o1);
+    opacity: 1;
+}
+.member-item.inactive {
+    background-color: transparent;
+    color: var(--moe-tint3);
+    opacity: 0.7;
+    border-color: var(--moe-tint3);
+}
+
+.member-item.active {
+    background-color: transparent;
+    color: var(--moe);
+    border-color: var(--moe);
+}
