@@ -1,0 +1,447 @@
+/* (🏖️) FILE INI DIUBAH UNTUK CSS CHECKBOX SPOILER */
+
+/* Modal Konfirmasi (Hapus & Image) */
+.confirm-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+}
+.confirm-modal-overlay.active {
+    display: flex;
+}
+
+.confirm-modal-wrapper {
+    position: relative;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.confirm-modal-shadow {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    background: var(--moe-tint5);
+    transform: translate(3px, 3px);
+    clip-path: var(--pixel-clip-path-outer-chat);
+}
+
+.confirm-modal-border {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 3;
+    background: var(--moe); /* Border tebal */
+    clip-path: var(--pixel-clip-path-border-chat);
+    pointer-events: none;
+}
+
+.confirm-modal {
+    position: relative;
+    z-index: 2;
+    background: white;
+    padding: 1.5rem;
+    clip-path: var(--pixel-clip-path-outer-chat);
+    color: var(--moe-shade-min1);
+}
+
+.confirm-modal-box {
+    display: none;
+}
+.confirm-modal-box.active {
+    display: block;
+}
+
+
+.confirm-modal h3 {
+    color: var(--moe);
+    margin-top: 0;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 700;
+}
+
+.confirm-modal p {
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+.confirm-modal textarea {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-family: "Space Mono", monospace;
+    border: 1px solid var(--moe-tint4);
+    background: var(--moe-tint7);
+    clip-path: var(--pixel-clip-path-outer-chat);
+    resize: vertical;
+    margin-bottom: 1rem;
+}
+.edit-history-container {
+    background: #f1f1f1;
+    border: 1px dashed #ccc;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 0.9em;
+    max-height: 100px;
+    overflow-y: auto;
+}
+.edit-history-container h4 {
+    margin: 0 0 5px 0;
+    color: #333;
+}
+.edit-history-container p {
+    font-size: 0.9em;
+    color: #555;
+    font-style: italic;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.edit-history-container p:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+
+/* Style untuk input modal */
+.modal-input-group {
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.confirm-modal-input {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    font-family: "Space Mono", monospace;
+    border: 1px solid var(--moe-tint4);
+    background: var(--moe-tint7);
+    clip-path: var(--pixel-clip-path-outer-chat);
+}
+.confirm-modal-input::placeholder {
+    color: var(--moe-tint4);
+}
+
+.paste-btn {
+    flex-shrink: 0;
+    background: var(--moe-tint5);
+    color: var(--moe-shade-min1);
+    border: none;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 0 0.75rem;
+    font-size: 0.9em;
+    clip-path: var(--pixel-clip-path-outer-chat);
+}
+.paste-btn:hover {
+    background: var(--moe-tint4);
+}
+
+/* (🏖️) CSS UNTUK CHECKBOX SPOILER BARU */
+.modal-spoiler-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+    font-size: 0.9em;
+    color: var(--moe-shade-min1);
+    -webkit-user-select: none;
+    user-select: none;
+}
+.modal-spoiler-toggle label {
+    cursor: pointer;
+}
+.modal-spoiler-toggle input[type="checkbox"] {
+    cursor: pointer;
+}
+/* (🏖️) SELESAI */
+
+
+.confirm-modal-buttons {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+.confirm-modal-buttons.admin-options {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.75rem;
+}
+
+.confirm-btn {
+    border: none;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    clip-path: var(--pixel-clip-path-outer-chat);
+    transition: all 0.2s;
+}
+
+.confirm-btn-no {
+    background: var(--moe-tint6);
+    color: var(--moe);
+}
+.confirm-btn-no:hover {
+    background: var(--moe-tint5);
+}
+
+.confirm-btn-yes {
+    background: #c70000;
+    color: white;
+}
+.confirm-btn-yes:hover {
+    background: #a30000;
+}
+
+/* Tombol "Soft Delete" (Admin) */
+.confirm-btn-soft-delete {
+    background: #ffb347; /* Oranye */
+    color: white;
+}
+.confirm-btn-soft-delete:hover {
+    background: #f57c00;
+}
+
+/* Tombol "Permanent Delete" (Admin) */
+.confirm-btn-perm-delete {
+    background: #c70000;
+    color: white;
+}
+.confirm-btn-perm-delete:hover {
+    background: #a30000;
+}
+
+/* Tombol "Simpan" (Edit) */
+.confirm-btn-save {
+    background: #388e3c;
+    color: white;
+}
+.confirm-btn-save:hover {
+    background: #2f7f33;
+}
+
+
+/* Ganti warna tombol OK untuk modal non-destruktif */
+.confirm-modal.image-prompt .confirm-btn-yes {
+    background: var(--moe);
+}
+.confirm-modal.image-prompt .confirm-btn-yes:hover {
+    background: var(--moe-shade-max1);
+}
+
+/* (BARU) Style Oshi Modal */
+.oshi-modal-box {
+    width: 95% !important;
+    max-width: 800px !important;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.oshi-modal-tabs {
+    display: flex;
+    border-bottom: 2px solid var(--moe);
+    margin-bottom: 1rem;
+    flex-shrink: 0; /* Mencegah tab mengecil */
+}
+.oshi-modal-tab {
+    padding: 10px 15px;
+    cursor: pointer;
+    opacity: 0.6;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+}
+.oshi-modal-tab.active {
+    opacity: 1;
+    border-bottom-color: var(--moe);
+}
+.oshi-modal-tab.nogi.active { border-bottom-color: #9b2ca2; }
+.oshi-modal-tab.saku.active { border-bottom-color: #ff91b7; }
+.oshi-modal-tab.hina.active { border-bottom-color: #78dbff; }
+.oshi-modal-tab.boku.active { border-bottom-color: #1b5ff1; }
+
+/* (BARU) Style untuk Checkbox Filter */
+.oshi-modal-filter {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9em;
+    color: var(--moe-shade-min1);
+    flex-shrink: 0;
+}
+.oshi-modal-filter label {
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.oshi-modal-filter input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.oshi-modal-content {
+    display: none;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.oshi-modal-content.active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* (PERUBAHAN) Menggunakan Flexbox */
+.oshi-member-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Jarak antar kartu */
+    justify-content: center; /* Pusatkan kartu */
+}
+
+/* (PERUBAHAN) Mengganti style item menjadi KARTU */
+.oshi-member-item {
+    width: 110px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: var(--moe-tint7); 
+    transition: all 0.2s;
+    overflow: hidden; 
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+}
+
+.oshi-member-item:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    border-color: var(--moe-tint4);
+}
+.oshi-member-item.selected {
+    opacity: 1;
+    color: white; /* Teks nama jadi putih */
+}
+
+/* (BARU) Style Foto Member */
+.oshi-member-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Foto kotak */
+    object-fit: contain; /* Tidak ter-crop */
+    background-color: #fff; /* Latar belakang putih untuk 'contain' */
+    display: block;
+}
+
+/* (PERUBAHAN) Style Nama Member */
+.oshi-member-name {
+    display: block;
+    padding: 8px 6px;
+    font-size: 0.8em;
+    text-align: center;
+    color: var(--moe-shade-min1);
+    white-space: normal;
+    word-wrap: break-word;
+    min-height: 2.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.oshi-member-item.selected .oshi-member-name {
+    color: white;
+    font-weight: bold;
+}
+
+/* Warna Seleksi Oshi (Sekarang di background kartu) */
+.oshi-member-item.nogi.selected { background-color: #9b2ca2; }
+.oshi-member-item.saku.selected { background-color: #ff91b7; }
+.oshi-member-item.hina.selected { background-color: #78dbff; }
+.oshi-member-item.boku.selected { background-color: #1b5ff1; }
+
+.oshi-member-item.kamioshi {
+    border-color: yellow !important;
+    box-shadow: 0 0 8px yellow;
+}
+.oshi-modal-box p.info {
+    font-size: 0.9em;
+    font-style: italic;
+    opacity: 0.8;
+    text-align: center;
+    margin: 1rem 0 0 0;
+    flex-shrink: 0;
+}
+
+/* (BARU) Style Bio Modal */
+.bio-modal-box textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    resize: none;
+    font-family: "Space Mono", monospace;
+}
+.bio-modal-box #bio-char-count {
+    text-align: right;
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+/* (BARU) Style Notifikasi Popup */
+.notifications-popup-box {
+    width: 90% !important;
+    max-width: 500px !important;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.notifications-list {
+    flex-grow: 1;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.notification-item {
+    padding: 10px;
+    border-bottom: 1px solid var(--moe-tint5);
+}
+.notification-item:last-child {
+    border-bottom: none;
+}
+.notification-item p {
+    margin: 0 0 5px 0;
+    font-size: 1em;
+    line-height: 1.4;
+}
+.notification-item a {
+    color: var(--moe-tint2);
+    text-decoration: none;
+    font-weight: bold;
+}
+.notification-item .notif-date {
+    font-size: 0.8em;
+    opacity: 0.7;
+}
+.notifications-popup-box .notif-empty {
+    text-align: center;
+    padding: 2rem;
+    opacity: 0.8;
+}

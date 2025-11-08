@@ -1,0 +1,528 @@
+/* Template untuk setiap pesan */
+.chat-message-wrapper {
+    position: relative;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    width: 100%;
+    box-sizing: border-box;
+    scroll-margin-top: 100px;
+}
+
+.chat-message-shadow {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    background: var(--moe-tint5); 
+    transform: translate(3px, 3px);
+    clip-path: var(--pixel-clip-path-outer-chat);
+}
+
+.chat-message {
+    position: relative;
+    z-index: 2;
+    background: white; 
+    clip-path: var(--pixel-clip-path-outer-chat);
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    animation: none;
+}
+
+/* Background chat milik sendiri */
+.chat-message-wrapper.my-message .chat-message {
+    background-color: var(--moe-tint6);
+}
+/* Background chat admin */
+.chat-message-wrapper.admin-post .chat-message {
+    background-color: var(--kakki-o3);
+}
+.chat-message-wrapper.admin-post.my-message .chat-message {
+    background-color: var(--kakki-o3);
+}
+
+
+.chat-message::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 3;
+    background: var(--moe-shade-max1); 
+    clip-path: var(--pixel-clip-path-border-chat);
+    pointer-events: none;
+}
+/* Border chat admin */
+.chat-message-wrapper.admin-post .chat-message::after {
+    background: var(--kakki-g4);
+}
+
+.chat-message-avatar {
+    flex-shrink: 0;
+}
+
+.chat-message-avatar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid var(--moe-tint6);
+}
+
+.chat-message-content {
+    flex-grow: 1;
+    width: calc(100% - 60px);
+}
+
+.chat-message-header {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap; 
+    gap: 8px;
+    margin-bottom: 0.25rem;
+}
+
+.chat-user-name {
+    font-weight: 700;
+    color: var(--moe);
+    font-size: 1.1em;
+}
+
+/* Style untuk Badge Admin SVG */
+.admin-badge-img {
+    height: 1.1em;
+    width: auto;
+    vertical-align: text-bottom;
+    position: relative;
+    top: 1pt;
+    left: -3pt;
+}
+
+.chat-message-wrapper.admin-post .chat-user-name {
+    color: var(--kakki-g5);
+}
+
+.chat-timestamp {
+    font-size: 0.8em;
+    color: var(--moe-tint4);
+}
+.chat-user-name[title*="Admin"] {
+    cursor: pointer;
+}
+
+.chat-message-wrapper.admin-post .chat-timestamp,
+.chat-message-wrapper.admin-post .chat-public-id {
+    color: var(--kakki-g2);
+}
+
+.chat-public-id {
+    font-size: 0.8em;
+    color: var(--moe-tint4);
+    font-family: "Space Mono", monospace;
+    text-decoration: none;
+}
+.chat-public-id:hover {
+    text-decoration: underline;
+}
+
+/* Timestamp (Edited) */
+.edited-timestamp {
+    font-size: 0.8em;
+    color: #999;
+    font-style: italic;
+    cursor: help;
+}
+
+/* Konten teks */
+.chat-message-text {
+    margin: 0 0 0.5rem 0;
+    color: var(--moe-shade-min1);
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+/* Style untuk Teks yang Dihapus */
+.chat-message-text.deleted-text {
+    color: #a0a0a0;
+    font-style: italic;
+}
+.original-deleted-text {
+    background: #f1f1f1;
+    border: 1px dashed #ccc;
+    padding: 8px;
+    margin-top: 5px;
+    color: #555;
+    font-style: italic;
+    font-size: 0.9em;
+    display: none;
+}
+.original-deleted-text.visible {
+    display: block;
+}
+
+/* Kontainer untuk gambar non-kolase */
+.message-image-container {
+    display: block; 
+    position: relative; 
+    line-height: 0;
+    max-width: 500px; 
+}
+.chat-message-text .message-image-link {
+    display: block;
+    line-height: 0;
+}
+
+.chat-message-text .message-image {
+    max-width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 4px;
+    border: 2px solid var(--moe-tint6);
+    margin-top: 0.5rem;
+    cursor: pointer;
+    display: block;
+}
+.chat-message-text a {
+    color: var(--moe-shade-max1);
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+/* Style untuk link balasan */
+.reply-link {
+    font-size: 0.9em;
+    font-style: italic;
+    color: var(--moe);
+    opacity: 0.8;
+    margin-bottom: 4px;
+    border-left: 3px solid var(--moe-tint5);
+    padding-left: 8px;
+    display: block;
+}
+.reply-link a {
+    color: var(--moe);
+    font-weight: bold;
+    text-decoration: none;
+    display: block; 
+}
+.reply-link a:hover {
+    text-decoration: underline;
+}
+
+/* Style untuk kutipan teks balasan */
+.reply-quote {
+    font-size: 0.95em;
+    color: #757575;
+    font-style: italic;
+    max-height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+/* Style untuk balasan ke chat yang dihapus */
+.reply-link.deleted-reply {
+    color: #a0a0a0;
+    font-style: italic;
+}
+.reply-link.deleted-reply .reply-quote {
+    color: #a0a0a0;
+    font-style: italic;
+}
+
+
+/* Aksi (Tombol) */
+.chat-message-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.chat-action-btn {
+    background: transparent;
+    border: none;
+    color: var(--moe);
+    font-family: "Space Mono", monospace;
+    font-size: 0.9em; 
+    padding: 2px 4px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.2s;
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+}
+.chat-action-btn:hover {
+    opacity: 1;
+    background: transparent; 
+}
+.chat-action-btn img {
+    width: 16px; 
+    height: 16px; 
+    display: block;
+}
+.chat-action-btn .btn-text {
+    opacity: 0;
+    max-width: 0;
+    overflow: hidden;
+    
+    transition: opacity 0.2s ease, max-width 0.3s ease, margin-left 0.3s ease;
+    
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-left: 0;
+}
+
+.chat-action-btn:hover .btn-text {
+    opacity: 1;
+    max-width: 100px;
+    margin-left: 5px;
+}
+
+.like-btn.has-votes .btn-text,
+.dislike-btn.has-votes .btn-text {
+    opacity: 1;
+    max-width: 100px;
+    margin-left: 5px;
+}
+
+.like-btn, .dislike-btn {
+    display: none;
+}
+.chat-message-wrapper:hover .like-btn,
+.chat-message-wrapper:hover .dislike-btn {
+    display: flex;
+}
+.like-btn.has-votes,
+.dislike-btn.has-votes {
+    display: flex;
+}
+/* ------------------------------------- */
+
+
+/* Style untuk Pesan Pinned */
+#pinned-messages-container {
+    margin-bottom: 1.5rem;
+}
+.pinned-message .chat-message {
+    background: var(--moe-tint5); 
+    border-left: 4px solid var(--moe);
+}
+.pinned-message .chat-message::after { background: var(--moe); }
+.pinned-message .chat-user-name { color: var(--moe-shade-max1); }
+
+/* Kolase Gambar */
+.collage-grid {
+    display: grid;
+    gap: 4px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 0.5rem;
+    border: 1px solid var(--moe-tint5);
+    max-width: 500px; 
+}
+.collage-grid .collage-item {
+    position: relative;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+.collage-grid .collage-item .message-image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.collage-grid .message-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.collage-grid .message-image:hover {
+    transform: scale(1.05);
+}
+
+.collage-count-1 {
+    grid-template-columns: 1fr;
+    aspect-ratio: 16 / 9;
+    max-height: 300px; 
+}
+
+.collage-count-2 {
+    grid-template-columns: 1fr 1fr;
+    aspect-ratio: 16 / 8;
+}
+
+.collage-count-3 {
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    aspect-ratio: 16 / 9;
+}
+.collage-count-3 .collage-item:first-child {
+    grid-row: span 2;
+}
+
+.collage-count-4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    aspect-ratio: 1 / 1; 
+}
+
+.spoiler-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+    border-radius: 4px;
+}
+
+.message-image-container.spoiler-image-wrapper,
+.collage-item.spoiler-image-wrapper {
+    display: block;
+    line-height: 0;
+}
+
+.spoiler-image-wrapper .spoiler-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease, backdrop-filter 0.3s ease;
+    pointer-events: none; 
+}
+.spoiler-image-wrapper .spoiler-overlay img {
+    width: 48px;
+    height: 48px;
+    opacity: 0.8;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+}
+
+.spoiler-image-wrapper::before {
+    content: 'Buka spoiler';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    color: white;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-shadow: 0 0 8px rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none; 
+}
+
+.spoiler-image-wrapper:hover::before {
+    opacity: 1;
+}
+
+.spoiler-image-wrapper:hover .spoiler-overlay {
+    opacity: 1;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.spoiler-image-wrapper.unspoiled::before {
+    opacity: 0;
+}
+.spoiler-image-wrapper.unspoiled .spoiler-overlay {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+}
+
+.spoiler-image-wrapper .message-image-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.spoiler-image-wrapper .message-image {
+    z-index: 1;
+}
+
+.chat-message-avatar {
+    flex-shrink: 0;
+    width: 140px;
+    text-align: center;
+    border-right-style: dashed;
+    border-right-width: thin;
+}
+
+.chat-message-avatar img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 2px solid var(--moe-tint6);
+}
+
+.chat-message-avatar .bio-text {
+    font-size: 0.75em;
+    color: var(--moe-shade-min1);
+    opacity: 0.8;
+    margin-top: 5px;
+    word-wrap: break-word;
+    max-height: 100px;
+    overflow: hidden;
+}
+
+/* Oshi List */
+.oshi-list {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+    max-height: 50px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.oshi-list.expanded {
+    max-height: 500px;
+}
+
+.oshi-item {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+    white-space: nowrap;
+}
+
+.oshi-item.nogi { background-color: #9b2ca2; color: white; }
+.oshi-item.saku { background-color: #ff91b7; color: white; }
+.oshi-item.hina { background-color: #78dbff; color: white; }
+.oshi-item.boku { background-color: #1b5ff1; color: white; }
+
+.oshi-item.kamioshi.nogi { background-color: white; color: #9b2ca2; border: 1px solid #9b2ca2; }
+.oshi-item.kamioshi.saku { background-color: white; color: #ff91b7; border: 1px solid #ff91b7; }
+.oshi-item.kamioshi.hina { background-color: white; color: #78dbff; border: 1px solid #78dbff; }
+.oshi-item.kamioshi.boku { background-color: white; color: #1b5ff1; border: 1px solid #1b5ff1; }
+
+.oshi-expand-btn {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: var(--moe);
+    cursor: pointer;
+    background: var(--moe-tint6);
+    border-radius: 3px;
+    padding: 2px 4px;
+    margin: 3px auto 0 auto;
+    display: inline-block;
+}

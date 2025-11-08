@@ -1,9 +1,6 @@
-// File: js/firebase-init.js
-
 const firebaseConfig = {
   apiKey: "AIzaSyDp6LHXi1-dmTKDq4eL_GB12mm_JFfeGfM",
   authDomain: "moefangsubs-ngz46.firebaseapp.com",
-  databaseURL: "https://moefangsubs-ngz46-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "moefangsubs-ngz46",
   storageBucket: "moefangsubs-ngz46.firebasestorage.app",
   messagingSenderId: "124881237230",
@@ -12,7 +9,5 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
-
 const auth = firebase.auth();
 const db = firebase.firestore();
-const rtdb = firebase.database();
