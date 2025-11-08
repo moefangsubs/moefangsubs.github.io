@@ -5,9 +5,11 @@ const firebaseConfig = {
   storageBucket: "moefangsubs-ngz46.firebasestorage.app",
   messagingSenderId: "124881237230",
   appId: "1:124881237230:web:360929b3c82ea9c17eefff",
-  measurementId: "G-V4L9TSQGTH"
+  measurementId: "G-V4L9TSQGTH",
+  databaseURL: "https://moefangsubs-ngz46-default-rtdb.asia-southeast1.firebasedatabase.app"
 };
 
 firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const db = firebase.firestore();
+const rtdb = firebase.database(); 
