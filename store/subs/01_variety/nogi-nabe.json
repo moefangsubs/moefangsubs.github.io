@@ -1,0 +1,40 @@
+{
+	"url": "nogi-nabe",
+	"nameShowTitle": "Nogi Nabe",
+	"nameShow": "のぎ鍋",
+	"descSynopsis": "Sebuah acara pendek kurang dari 4 menit, dimana member Nogizaka46 akan mengobrol santai sambil menyantap nabe berdua.",
+	"availableEpisode": [
+		"01", "02"
+	],
+	"newUpdateCount": 2,
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_noginabe.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabe{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogi-nabe-jAqF7",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "2 November 2023",
+			"memberParticipate": "遠藤さくら、中西アルノ、松尾美佑",
+			"linkHardsub": "https://sfl.gl/pDjBlT"
+		},
+		"02": {
+			"descOnAirDate": "9 November 2025",
+			"memberParticipate": "遠藤さくら、中西アルノ、松尾美佑",
+			"linkHardsub": "https://sfl.gl/i5O2"
+		},
+		"03": {
+			"descOnAirDate": "16 November 2025",
+			"memberParticipate": "遠藤さくら、中西アルノ、池田瑛紗",
+			"linkHardsub": ""
+		},
+		"04": {
+			"descOnAirDate": "23 November 2025",
+			"memberParticipate": "遠藤さくら、中西アルノ、池田瑛紗",
+			"linkHardsub": ""
+		}	
+	},
+	"descEpisode": "| Episode {{eps}}"
+}
+
+
+
