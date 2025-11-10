@@ -1,5 +1,26 @@
 [
   {
+    "date": "251110",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "25" },
+      { "showId": "nogizaka-star-tanjou-six", "eps": "26" },
+      { "showId": "nogi-nabe", "eps": "01" },
+      { "showId": "nogi-nabe", "eps": "02" },
+      { "showId": "nogidouga-girls-talk", "eps": "03A" },
+      { "showId": "futari-escape", "eps": "05" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "05" },
+      { "showId": "shinu-made-buzztero", "eps": "04" },
+      { "showId": "koisuru-keigo-24ji-season-2", "eps": "04" },
+      { "showId": "dekitemo-dekinakutemo", "eps": "05" },
+      { "showId": "strobe-edge-season-1", "eps": "01" },
+      { "showId": "strobe-edge-season-1", "eps": "02" },
+      { "showId": "strobe-edge-season-1", "eps": "03" },
+      { "showId": "strobe-edge-season-1", "eps": "04" },
+      { "showId": "strobe-edge-season-1", "eps": "05" },
+      { "showId": "strobe-edge-season-1", "eps": "06" }
+    ]
+  },
+  {
     "date": "251102",
     "updates": [
       { "showId": "nogidouga-ayame-ni-osusume", "eps": "01" },

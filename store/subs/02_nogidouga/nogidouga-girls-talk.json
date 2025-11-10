@@ -4,66 +4,51 @@
 	"nameShow": "乃木坂46×トークリアリティーショー Girl's talk",
 	"descSynopsis": "\"Nogizaka Girl's Talk\" merupakan sebuah program talk reality show yang menyajikan obrolan nyata para member tanpa naskah sama sekali. Acara ini akan menayangkan keseruan bincang-bincang santai dari tiga grup berbeda.",
 	"availableEpisode": [
-		"01a",
-		"01b",
-		"02a",
-		"02b"
+		"01A",
+		"01B",
+		"02A",
+		"02B",
+		"03A"
 	],
-	"newUpdateCount": 4,
+	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogitalkvarietyshow.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/nogitalk{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk{{eps}}d.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-girls-talk-NyHFK",
 	"episodes": {
-		"01a": {
+		"01A": {
 			"descEpisode": "| Episode 1 前編",
 			"descOnAirDate": "12 Juli 2024",
 			"memberParticipate": "久保史緒里、阪口珠美、中村麗乃、林瑠奈、松尾美佑、矢久保美緒、菅原咲月、五百城茉央、奥田いろは",
-			"imageThumbEps"	: "https://ik.imagekit.io/moearchive/thumb/variety/nogitalk01A.jpg",
-			"imageThumbBig"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01A.jpg",
-			"imageThumbA"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Aa.jpg",
-			"imageThumbB"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Ab.jpg",
-			"imageThumbC"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Ac.jpg",
-			"imageThumbD"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Ad.jpg",
-			"subLanguage"	: "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Di episode pertama paruh pertama ini, beragam topik akan dibahas, mulai dari pembicaraan yang sedikit serius seperti curahan hati Sakaguchi Tamami menjelang kelulusannya dan momen saat ia memantapkan keputusan, hingga percakapan ringan sehari-hari tentang selera makanan."
 		},
-		"01b": {
+		"01B": {
 			"descEpisode": "| Episode 1 後編",
 			"descOnAirDate": "16 Agustus 2024",
 			"memberParticipate": "林瑠奈、松尾美佑、矢久保美緒、菅原咲月、五百城茉央、奥田いろは",
-			"imageThumbEps"	: "https://ik.imagekit.io/moearchive/thumb/variety/nogitalk01B.jpg",
-			"imageThumbBig"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01B.jpg",
-			"imageThumbA"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Ba.jpg",
-			"imageThumbB"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Bb.jpg",
-			"imageThumbC"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Bc.jpg",
-			"imageThumbD"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk01Bd.jpg",
-			"subLanguage"	: "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Memasuki paruh kedua dari bincang-bincang santai ini, obrolan para member menjadi semakin memanas. Di satu sisi, sebuah fakta mengejutkan terungkap dari cerita masa kecil saat salah satu grup sedang menikmati waktu di restoran. Sementara itu, kelompok lainnya larut dalam obrolan penuh canda hingga suasana menjadi semakin heboh."
 		},
-		"02a": {
+		"02A": {
 			"descEpisode": "| Episode 2 前編",
 			"descOnAirDate": "30 Desember 2024",
 			"memberParticipate": "梅澤美波、佐藤楓、吉田綾乃クリスティー、遠藤さくら、賀喜遥香、筒井あやめ、池田瑛紗、岡本姫奈、中西アルノ",
-			"imageThumbEps"	: "https://ik.imagekit.io/moearchive/thumb/variety/nogitalk02A.jpg",
-			"imageThumbBig"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02A.jpg",
-			"imageThumbA"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Aa.jpg",
-			"imageThumbB"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Ab.jpg",
-			"imageThumbC"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Ac.jpg",
-			"imageThumbD"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Ad.jpg",
-			"subLanguage"	: "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Episode kedua ini juga akan disajikan dalam dua bagian, di mana tiga grup berbeda akan berkumpul. Sambil menikmati hidangan lezat, obrolan seru seputar masa lalu, masa kini, dan masa depan pun mengalir di antara mereka. Selain itu, salah satu grup juga akan melakukan napak tilas ke sebuah lokasi yang penuh kenangan."
 		},
-		"02b": {
+		"02B": {
 			"descEpisode": "| Episode 2 後編",
 			"descOnAirDate": "3 Januari 2025",
 			"memberParticipate": "梅澤美波、佐藤楓、吉田綾乃クリスティー、遠藤さくら、賀喜遥香、筒井あやめ、池田瑛紗、岡本姫奈、中西アルノ",
-			"imageThumbEps"	: "https://ik.imagekit.io/moearchive/thumb/variety/nogitalk02B.jpg",
-			"imageThumbBig"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02B.jpg",
-			"imageThumbA"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Ba.jpg",
-			"imageThumbB"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Bb.jpg",
-			"imageThumbC"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Bc.jpg",
-			"imageThumbD"	: "https://ik.imagekit.io/mLsKqNSuB/post/girlstalk/nogitalk02Bd.jpg",
-			"subLanguage"	: "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Pada paruh kedua ini, ketiga grup akan melanjutkan obrolan seru mereka. Pembicaraannya mencakup kilas balik tahun 2024, target untuk 2025, hingga berbagai hal seputar pekerjaan dan kehidupan pribadi. Mulai dari topik serius mengenai perasaan saat ini dan harapan di masa depan, sampai cerita-cerita yang mengundang tawa."
+		},
+		"03A": {
+			"descEpisode": "| Episode 3 前編",
+			"descOnAirDate": "28 Oktober 2025",
+			"memberParticipate": "鈴木佑捺‎‎、長嶋凛桜、川端晃菜、岩本蓮加、賀喜遥香、井上和、久保史緒里、柴田柚菜、黒見明香",
+			"descEpisodeSynopsis": "Kali ini, tiga grup telah berkumpul dengan tema \"Baseball\", \"Anime\", dan \"Nogizaka\". Nikmati obrolan bebas tanpa henti dari tiga orang yang memiliki kesukaan yang sama."
 		}
 	}
 }

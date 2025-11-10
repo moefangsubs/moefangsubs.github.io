@@ -1,0 +1,46 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_futariescape.png",
+    "url": "strobe-edge-season-1",
+    "nameShowTitle": "Strobe Edge Season 1 (2025)",
+    "nameShow": "ストロボ・エッジ Season1",
+    "descSynopsis": "Siswi SMA, Kinoshita Ninako, mulai tertarik pada teman sekelasnya, Ichinose Ren. Ninako, yang belum pernah jatuh cinta, perlahan menyadari perasaannya yang tumbuh untuk Ren dan memutuskan untuk menyatakan cintanya, namun ia baru tahu bahwa Ren sudah memiliki kekasih. Di sisi lain, Ninako juga harus menghadapi perasaan teman sekelasnya, Daiki Korenaga, yang menyukainya secara sepihak, serta permasalahan cinta sahabatnya, Sayuri Uehara.",
+    "availableEpisode": [
+		"01","02", "03", "04", "05", "06"
+	],
+    "newUpdateCount": 6,
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/strobeedges1-{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/strobeedge/strobeedges1-{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/strobe-edge-LPZLj",
+    "filePassword": "KosakaNao",
+    "memberParticipate": "小坂菜緒",
+    "episodes": {
+        "01": {
+            "descOnAirDate": "Oktober 2025",
+            "linkHardsub": "https://sfl.gl/gvApe"
+        },
+        "02": {
+            "descOnAirDate": "Oktober 2025",
+            "linkHardsub": "https://sfl.gl/blLQ"
+        },
+        "03": {
+            "descOnAirDate": "Oktober 2025",
+            "linkHardsub": "https://sfl.gl/5VnxbEIa"
+        },
+        "04": {
+            "descOnAirDate": "Oktober 2025",
+            "linkHardsub": "https://sfl.gl/eDG1951"
+        },
+        "05": {
+            "descOnAirDate": "Oktober 2025",
+            "linkHardsub": "https://sfl.gl/Eddi6yrX"
+        },
+        "06": {
+            "descOnAirDate": "Oktober 2025",
+            "linkHardsub": "https://sfl.gl/hOJZBy65"
+        }
+    },
+    "descEpisode": "| Episode {{eps}}"
+}
+
+
+
