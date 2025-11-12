@@ -199,11 +199,6 @@ body {
 	/* min-height: 350px; */
 	flex-grow: 1;
 }
-@media screen and (min-height: 800px) {
-    #formation-grid {
-        min-height: 350px;
-    }
-}
 
 .row-wrapper {
 	display: flex;
@@ -211,7 +206,6 @@ body {
 	gap: 15px;
 }
 
-/* PERUBAHAN: Warna label baris */
 .row-label {
 	font-family: "M PLUS Rounded 1c", sans-serif;
 	font-weight: 800;
@@ -223,17 +217,17 @@ body {
 }
 
 .formation-row {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	gap: 40px;
-	padding: 15px;
-	border-radius: 10px;
-	transition: background-color 0.3s ease;
-	border: 2px solid transparent;
-	flex-grow: 1;
-	min-height: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 40px; */
+    /* padding: 15px; */
+    /* border-radius: 10px; */
+    transition: background-color 0.3s ease;
+    border: 2px solid transparent;
+    flex-grow: 1;
+    min-height: 100px;
 }
 
 .formation-row.drag-over {
@@ -624,9 +618,9 @@ body {
 	margin-bottom: 10px;
 }
 
-#modal-formation-grid .formation-row {
-	min-height: 120px;
-}
+/* #modal-formation-grid .formation-row { */
+	/* min-height: 120px; */
+/* } */
 
 /* BARU: Style untuk info like di modal */
 #modal-like-info {
