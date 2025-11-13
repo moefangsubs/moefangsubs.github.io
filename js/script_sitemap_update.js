@@ -1,4 +1,4 @@
-// ../js/script_sitemap_update.js
+// ../js/script_sitemap_update.js (MODIFIED)
 
 document.addEventListener('DOMContentLoaded', async () => {
     const updateContainer = document.getElementById('daftar-update');
@@ -44,19 +44,24 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupViewControls();
 
     try {
-        const [updateResponse, listResponse, membersResponse] = await Promise.all([
+        // ========== MODIFIKASI DIMULAI: Tambah warnResponse ==========
+        const [updateResponse, listResponse, membersResponse, warnResponse] = await Promise.all([
             fetch('../store/subs/update.json'),
             fetch('../store/subs/list.json'),
-            fetch('../store/member/members.json')
+            fetch('../store/member/members.json'),
+            fetch('../store/subs/warn.json') // <-- BARU: Fetch warn.json
         ]);
 
         if (!updateResponse.ok) throw new Error('Failed to fetch update.json');
         if (!listResponse.ok) throw new Error('Failed to fetch list.json');
         if (!membersResponse.ok) throw new Error('Failed to fetch members.json');
+        if (!warnResponse.ok) throw new Error('Failed to fetch warn.json'); // <-- BARU: Cek warnResponse
 
         const updatesByDate = await updateResponse.json();
         const showListByCategory = await listResponse.json();
         const membersList = await membersResponse.json();
+        const warnData = await warnResponse.json(); // <-- BARU: Parse warn.json
+        // ========== MODIFIKASI SELESAI ==========
         
         const showPathMap = new Map();
         for (const category in showListByCategory) {
@@ -67,6 +72,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         
         const memberMap = new Map(membersList.map(m => [m.nama_jp, m.id]));
+
+        // ========== BARU: Membuat lookup set untuk item request ==========
+        const requestSet = new Set();
+        const requestWarning = warnData.find(w => w.type === 'request');
+        if (requestWarning && requestWarning.targets) {
+            requestWarning.targets.forEach(target => {
+                // target bisa berupa: "../store/subs/06_drama/strobe-edge-season-1.json"
+                // atau: "../store/subs/12_random/showroom.json?episodes=20"
+                requestSet.add(target);
+            });
+        }
+        // ========== SELESAI: lookup set ==========
 
         const formatUpdateDate = (dateStr) => {
             const year = `20${dateStr.substring(0, 2)}`;
@@ -92,7 +109,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             for (const updateItem of updates) {
                 const showId = updateItem.showId;
-                const episodeNumber = updateItem.eps;
+                const episodeNumber = updateItem.eps; // episodeNumber "01", "20", "03A"
 
                 const showJsonPath = showPathMap.get(showId);
                 if (!showJsonPath) continue;
@@ -105,7 +122,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const epKey = episodeNumber.toString().padStart(2, '0');
                     const episodeData = showData.episodes ? (showData.episodes[epKey] || showData.episodes[episodeNumber]) : {};
 
-                    if(!episodeData) continue;
+                    if(!episodeData) continue; // <-- Pastikan 'continue' bukan 'break'
 
                     let thumbUrl = episodeData.imageThumbBig || (showData.imageThumbBigPattern ? showData.imageThumbBigPattern.replace('{{eps}}', epKey) : null);
                     if (!thumbUrl) thumbUrl = 'https://via.placeholder.com/320x180.png?text=No+Image';
@@ -118,8 +135,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 						descEpisode += " [TAMAT]";
 					}
 					const captionHTML = `<span><strong>${showData.nameShowTitle}</strong> ${descEpisode}</span>`;
-
-
 
                     let membersHTML = '';
                     
@@ -156,11 +171,40 @@ document.addEventListener('DOMContentLoaded', async () => {
                         }
                     }
                     
+                    // ========== BARU: Logika Pengecekan Request ==========
+                    let requestBadgeHTML = '';
+                    
+                    // 1. Cek full show: "../store/subs/06_drama/strobe-edge-season-1.json"
+                    if (requestSet.has(showJsonPath)) {
+                        requestBadgeHTML = `
+                            <div class="update-request-wrapper">
+                                <div class="update-request-border"></div>
+                                <div class="update-request">REQUEST</div>
+                                <div class="update-request-tail"></div>
+                            </div>
+                        `;
+                    } else {
+                        // 2. Cek specific episode: "../store/subs/12_random/showroom.json?episodes=20"
+                        const specificEpPath = `${showJsonPath}?episodes=${episodeNumber}`; // Gunakan episodeNumber
+                        
+                        if (requestSet.has(specificEpPath)) {
+                             requestBadgeHTML = `
+                                <div class="update-request-wrapper">
+                                    <div class="update-request-border"></div>
+                                    <div class="update-request">REQUEST</div>
+                                    <div class="update-request-tail"></div>
+                                </div>
+                            `;
+                        }
+                    }
+                    // ========== SELESAI: Logika Request ==========
+
                     const itemDiv = document.createElement('div');
                     itemDiv.className = 'update-item-wrapper'; 
                     
+                    // ========== MODIFIKASI: Tambahkan requestBadgeHTML ==========
                     itemDiv.innerHTML = `
-                        <div class="update-item-shadow"></div>
+                        ${requestBadgeHTML} <div class="update-item-shadow"></div>
                         <div class="update-item">
                             <a href="${link}">
                                 <img src="${thumbUrl}" alt="${showData.nameShowTitle} - ${descEpisode}" class="update-item-thumb" loading="lazy">
@@ -169,6 +213,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                             ${membersHTML ? `<div class="members-container">${membersHTML}</div>` : ''}
                         </div>
                     `;
+                    // ========== MODIFIKASI SELESAI ==========
                     gridDiv.appendChild(itemDiv);
                 } catch (error) { console.error(`Error processing ${showId}:`, error); }
             }

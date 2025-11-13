@@ -135,13 +135,14 @@ document.addEventListener('DOMContentLoaded', function() {
 			</div>
 			<div class="about">
 				<img class="foot-label" src="../sprite/main.svg"/>
-				<span>Data Update : 2 November 2025 20:29 JST</span>
+				<span>Data Update : 13 November 2025 13:00 JST</span>
 				<span>Data bisa saja ada kesalahan input.</span>
 				<span>Jika menemukannya dan/atau ingin ada masukan, mohon hubungi admin via DM Instagram</span>
 			</div>
 			<div class="link">
 				<div class="link-form">
-					<a href="../moesubs/garapan.html" class="f1">Daftar Garapan</a>
+					<a href="../moesubs/request.html" class="f1">Request</a>
+					<a href="../moesubs/garapan.html" class="f2">Daftar Garapan</a>
 				</div>
 				<div class="link-sns">
 					<a href="http://instagram.com/moefang_" target="_blank"><img src="../sprite/element/insta.svg" /></a>
