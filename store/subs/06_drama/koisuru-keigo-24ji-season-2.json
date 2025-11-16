@@ -5,7 +5,7 @@
     "nameShow": "恋する警護24時 season2",
     "descSynopsis": "Cerita berlanjut saat \"RACCO Securities\", perusahaan tempat Tatsunosuke bekerja, bergabung dengan \"Koala Security\" dan membentuk struktur baru bernama \"RACCOALA Securities\". Di tengah perubahan ini, Tatsunosuke kesulitan beradaptasi dan terus-menerus berselisih dengan rekan barunya, padahal kerja sama tim sangat penting untuk keberhasilan misi. Di sisi lain, Rika memutuskan untuk meningkatkan jenjang kariernya sebagai pengacara dengan melanjutkan studi ke London. Kini, Tatsunosuke dan Rika harus menghadapi berbagai ancaman baru yang dapat menghalangi hubungan cinta mereka.",
     "availableEpisode": [
-		"01", "02", "03", "04"
+		"01", "02", "03", "04", "05"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/koisurukeigos2-{{eps}}.jpg",
@@ -35,11 +35,11 @@
             "linkHardsub": "https://sfl.gl/xSJtzO1m"
         },
         "05": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Tim pengawal curiga Kuga terlibat dalam insiden Igarashi. Meski Kuga menyangkal, Tatsunosuke tetap ragu. Saat tim menjalankan misi baru mengamankan acara merek mewah, terjadi pencurian di dekat Presiden Kazue. Di sisi lain, Tatsunosuke khawatir Rika mulai memakai sosial media di luar negeri, sementara Hara menyadari sikap Chihaya terhadap Tatsunosuke berubah sejak mereka menyelidiki kasus Igarashi bersama.",
+            "linkHardsub": "https://sfl.gl/dr7qFN"
         },
         "06": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Tatsunosuke mengunjungi Urushibara, pembunuh ayahnya, di penjara dan mendapat info mengejutkan tentang kasus Igarashi yang membuatnya mencurigai Kajiwara. Kajiwara kemudian menugaskan tim Tatsunosuke untuk mengamankan forum pendidikan besar yang VIP-nya diincar teroris. Misi ini rumit karena pemimpin tim keamanan lain menolak bekerja sama. Di sisi lain, Tatsunosuke tahu Rika akan pulang untuk menghadiri forum itu, sementara Hara mengkhawatirkan perubahan sikap Chihaya.",
             "linkHardsub": ""
         },
         "07": {

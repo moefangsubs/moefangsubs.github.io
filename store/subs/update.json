@@ -1,5 +1,23 @@
 [
   {
+    "date": "251116",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "27" },
+      { "showId": "nogizaka-tokyo-pasokon-club", "eps": "141" },
+      { "showId": "nogizaka-tokyo-pasokon-club", "eps": "142" },
+      { "showId": "nogizaka-tokyo-pasokon-club", "eps": "143" },
+      { "showId": "nogidouga-kubo-channel", "eps": "123" },
+      { "showId": "nogidouga-kubo-channel", "eps": "124" },
+      { "showId": "nogidouga-kubo-channel", "eps": "125" },
+      { "showId": "futari-escape", "eps": "06" },
+      { "showId": "futari-escape", "eps": "07" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "06" },
+      { "showId": "shinu-made-buzztero", "eps": "05" },
+      { "showId": "koisuru-keigo-24ji-season-2", "eps": "05" },
+      { "showId": "dekitemo-dekinakutemo", "eps": "06" }
+    ]
+  },
+  {
     "date": "251110",
     "updates": [
       { "showId": "nogizaka-star-tanjou-six", "eps": "25" },
@@ -32,30 +50,6 @@
       { "showId": "shinu-made-buzztero", "eps": "03" },
       { "showId": "koisuru-keigo-24ji-season-2", "eps": "03" },
       { "showId": "dekitemo-dekinakutemo", "eps": "04" }
-    ]
-  },
-  {
-    "date": "251026",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "24" },
-      { "showId": "1day-my-beauty", "eps": "01" },
-      { "showId": "1day-my-beauty", "eps": "02" },
-      { "showId": "1day-my-beauty", "eps": "03" },
-      { "showId": "cupstar-ane-to-itsumademo", "eps": "04" },
-      { "showId": "futari-escape", "eps": "waiwai03" },
-      { "showId": "futari-escape", "eps": "03" },
-      { "showId": "futari-escape", "eps": "04" },
-      { "showId": "kanade-no-rara", "eps": "09" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "03" },
-      { "showId": "shinu-made-buzztero", "eps": "02" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "02" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "01" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "02" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "03" },
-      { "showId": "utabangumi-dayday", "eps": "250324" },
-      { "showId": "utabangumi-dayday", "eps": "250517" },
-      { "showId": "live-performance", "eps": "11" },
-      { "showId": "under-live", "eps": "11" }
     ]
   }
 ]

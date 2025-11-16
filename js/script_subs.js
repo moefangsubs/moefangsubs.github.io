@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const participants = episodeData.memberParticipate || showData.memberParticipate;
-        if (participants) items.push(`<li><span class="info-label l-us">Partisipan</span><span class="info-value">${processMemberNames(participants)}</span></li>`);
+        if (participants) items.push(`<li><span class="info-label l-us">Member</span><span class="info-value">${processMemberNames(participants)}</span></li>`);
         if (episodeData.additionalSenpai) items.push(`<li><span class="info-label l-se">Tamu (Senpai)</span><span class="info-value">${processMemberNames(episodeData.additionalSenpai)}</span></li>`);
         const guests = episodeData.additionalGuests || episodeData.guestArtis;
         if (guests) items.push(`<li><span class="info-label l-ar">Bintang Tamu</span><span class="info-value">${guests}</span></li>`);

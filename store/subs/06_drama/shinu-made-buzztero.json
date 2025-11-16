@@ -5,7 +5,7 @@
     "nameShow": "死ぬまでバズってろ!!",
     "descSynopsis": "Asano Kanako adalah seorang pekerja paruh waktu berusia 26 tahun yang menyambung hidup dengan bekerja di sebuah restoran pasta. Hidupnya berubah drastis dalam semalam setelah video kecelakaan tabrak lari yang tidak sengaja ia rekam menjadi viral di media sosial. Dibanjiri oleh pujian, notifikasi \"like\", dan repost yang tak henti-hentinya, Kanako tenggelam dalam sensasi menyenangkan yang baru pertama kali ia rasakan dan berubah menjadi Tapaco, seorang influencer yang mengatasnamakan \"keadilan\" untuk mengungkap berbagai kasus. Demi menjadi viral, tindakannya yang menghalalkan segala cara secara bertahap menumpulkan rasa etisnya. Namun, keadilan yang berlebihan itu justru melahirkan kebencian baru, dan tak lama kemudian ia menjadi sasaran fitnah serta kritik anonim, hingga tanpa disadari Tapaco sendiri telah terjerumus ke dalam pusaran balas dendam yang mengerikan.",
     "availableEpisode": [
-		"01", "02", "03", "04"
+		"01", "02", "03", "04", "05"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shinubuzz{{eps}}.jpg",
@@ -35,11 +35,11 @@
             "linkHardsub": "https://sfl.gl/FMMyc"
         },
         "05": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Kanako mendapat sorotan setelah mengungkap skandal aktor Kusunoki, yang kini mencurigainya dan memasang perangkap. Kanako bersiap menemuinya, mengabaikan Watanabe yang tulus mencegahnya dan malah menyebutnya \"menyebalkan\", sehingga hubungan mereka retak. Kanako pun pergi menemui Kusunoki sendirian, mempertaruhkan nasibnya.",
+            "linkHardsub": "https://sfl.gl/E87Q"
         },
         "06": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Identitas Kanako terbongkar oleh Kusunoki, membuatnya terdesak. Sebagai streamer populer, Kanako makin dekat dengan Watanabe dan menceritakan masa lalu tragisnya dengan sang suami. Watanabe pun menyatakan cinta, berjanji akan melindunginya. Namun, saat Kanako bimbang merasakan \"kebahagiaan normal\", seseorang berpisau mendekatinya, dan identitas sosok misterius itu akhirnya terungkap!",
             "linkHardsub": ""
         },
         "07": {
