@@ -3,7 +3,7 @@
 	"nameShowTitle": "Kubo Channel",
 	"nameShow": "久保チャンネル",
 	"descSynopsis": "\"Kubo Channel\" merupakan acara khusus yang disiarkan dalam platform Nogi Douga yang dibuat di mana konten-konten di dalamnya dijelaskan oleh Kubo Shiori, yang memiliki kecintaan terbesar pada grup Nogizaka46 dan memiliki ingatan yang kuat. Program ini baik konser, MV maupun konten lainnya membuat yang menonton menjadi lebih menarik, dengan cerita di balik layar dari sudut pandang para member.",
-	"availableEpisode": ["57", "62", "111", "112", "113", "114", "115", "116", "120"],
+	"availableEpisode": ["57", "62", "111", "112", "113", "114", "115", "116", "120", "123", "124", "125"],
 	"newUpdateCount": 3,
 	"SpecificUpdate": ["111", "112", "113"],
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_kubochannel.png",
@@ -65,6 +65,25 @@
 			"descOnAirDate": "8 September 2025",
 			"memberParticipate": "久保史緒里、賀喜遥香",
 			"descEpisodeSynopsis": "Kaki Haruka, yang merupakan bintang tamu dengan penampilan terbanyak di program ini, kembali hadir. Di tengah berlangsungnya Manatsu no Zenkoku Tour 2025, disini mereka berdua akan menonton MV dari single ke-39, \"Same numbers\", yang menempatkan Kaki sebagai center. Saking banyaknya hal yang ingin ditanyakan, Shiori Kubo secara tidak biasa justru dibuat kebingungan hingga kewalahan."
+		},
+		"123": {
+			"descEpisode": "| Episode 123 FINAL!",
+			"descOnAirDate": "27 Oktober 2025",
+			"memberParticipate": "久保史緒里、梅澤美波",
+			"descEpisodeSynopsis": "Bagian pertama dari \"Kubo Channel FINAL Public Recording\" yang diadakan pada 4 Oktober dihadirkan. Dengan menyambut Umezawa Minami sebagai tamu yang pantas untuk edisi FINAL, mereka menonton \"Boku ga Te o Tataku Hou e\" bersama 150 penggemar. Lagu ini terpilih sebagai peringkat kedua dalam survei \"Video yang Ingin Ditonton\" yang dilakukan untuk calon penonton. Kubo Shiori memprediksi alasan lagu itu menempati posisi kedua, sekaligus mengungkapkan \"momen\" yang memicu keputusannya untuk lulus. Selain itu, terungkap pula perasaan yang dirasakan Umezawa pada periode yang sama, di mana keduanya banyak bercerita tentang episode yang baru bisa dibicarakan sekarang dan kondisi mental mereka saat itu."
+		},
+		"124": {
+			"descEpisode": "| Episode 124 FINAL!",
+			"descOnAirDate": "4 November 2025",
+			"memberParticipate": "久保史緒里、梅澤美波",
+			"descEpisodeSynopsis": "Bagian kedua dari \"Kubo Channel FINAL Public Recording\" menayangkan \"Sanbanme no Kaze\", yang terpilih sebagai peringkat pertama dalam survei \"Video yang Ingin Ditonton\". Keduanya mengaku memiliki kenangan khusus terhadap video konser ini. Mereka berbagi cerita tentang perasaan hingga akhirnya bisa tampil berlima, episode selama latihan, dan emosi spesial di atas panggung. Umezawa tak kuasa menahan air mata saat mengenang perjalanan mereka menuju Ajinomoto Stadium. Ini adalah bincang-bincang mengharukan yang memadukan semangatnya sebagai kapten dan cintanya kepada rekan-rekan."
+		},
+		"125": {
+			"descEpisode": "| Episode 125 FINAL! [END]",
+			"descOnAirDate": "11 November 2025",
+			"memberParticipate": "久保史緒里、梅澤美波",
+			"descEpisodeSynopsis": "\"Kubo Channel\" akhirnya mencapai episode terakhirnya di #125! Sebagai penutup yang pantas, ditayangkan \"rekaman super berharga\" berupa adegan Kubo Shiori dari \"Audisi Gen-3 Nogizaka46\". Kubo mengungkapkan perasaannya saat itu, mengaku bahwa ia \"mengira telah gagal\" setiap kali seleksi karena \"alasan tertentu\", dan akan terungkap pula alasan mengapa Kubo dan Umezawa saling yakin bahwa satu sama lain akan lolos. Meski mengaku \"takut menontonnya\", Kubo akan blak-blakan menceritakan kondisi mental serta kisah di balik layar audisi. Di awal acara, mereka akan melihat kembali sejarah \"Kubo Channel\" melalui angka dan mengungkap \"motto\" yang selalu dijunjung Kubo dalam acara ini. Sebagai penutup, \"rekaman super berharga\" dari \"orang itu\" juga akan ditayangkan! Episode pamungkas \"Kubo Channel\" ini dipersembahkan dari lokasi rekaman publik yang hangat, sekaligus menjadi ucapan terima kasih atas dukungan terhadap acara selama 4 setengah tahun."
 		}
-	}
+	},
+	"descEpisode": "| Episode {{eps}}"
 }

@@ -1,13 +1,21 @@
 {
 	"01": {
+		"type"	: "feature",
+		"note"	: "Ayo bergabung dengan MoeChat! Fitur eksperimen dimana kita bisa chatting disana."
+	},
+	"02": {
+		"type"	: "feature",
+		"note"	: "Suka bikin formasi senbatsu? Silakan buka PLAY dan Klik Senbatsu."
+	},
+	"03": {
 		"type"	: "experiment",
 		"note"	: "Mohon maaf, karena ada masalah dari sisi Firebase, jadi mulai sekarang hanya fitur login saja. Untuk fitur like sudah dihilangkan."
 	},
-	"02": {
+	"04": {
 		"type"	: "notice",
 		"note"	: "Mulai 2025, kami melakukan update garapan terlebih dahulu bagi para supporter di Trakteer, dan untuk update di website ini akan ada jeda beberapa hari."
 	},
-	"03": {
+	"05": {
 		"type"	: "feature",
 		"note"	: "Dengan mengklik panah di sebelah daftar lagu pada variety musik, kamu akan diarahkan ke pencarian YouTube sesuai lagu yang diklik."
 	}

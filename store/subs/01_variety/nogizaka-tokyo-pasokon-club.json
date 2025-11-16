@@ -4,24 +4,37 @@
 	"nameShow": "乃木坂46 東京パソコンクラブ",
 	"descSynopsis": "\"Tokyo Pasokon Club\" merupakan acara para member Nogizaka46 untuk mempelajari tentang bahasa pemograman khususnya membuat sebuah game dari awal.",
 	"availableEpisode": [
-		"48"
+		"48", "141", "142", "143"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_tokyopc.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/pasokon{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-tokyo-pasokon-club-w1bzK",
 	"episodes": {
 		"48": {
-			"descEpisode": "| Episode 48",
 			"descOnAirDate": "2 Juni 2021",
-			"memberParticipate": "吉田綾乃クリスティー、林瑠奈、弓木奈於",
-			"linkHardsub": "https://lokerwfh.net/iP07NuPm",
-			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka46-tokyo-pasokon-club-w1bzK",
-			"filePassword": "pasokon48",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/tokyopc/pasokon48d.jpg",
-			"descEpisodeSynopsis": "Garapan spesial kali ini adalah menggarap satu episode dari Tokyo Pasokon Club, dimana Hayashi Runa menjadi anggota reguler baru dalam acara ini setelah Kanagawa Saya tidak dapat lagi berpartisipasi dalam acara ini. Bersama Yumiki Nao dan Yoshida Ayano Christie, dibimbing oleh orang yang mahir dalam pemograman, mereka akan belajar membuat game. Game kali ini adalah game 3D, dan sebelum itu, mereka mencoba bermain game lawas, Crash Bandicoot."
+			"memberParticipate": "吉田綾乃クリスティー、林瑠奈、弓木奈於、佐藤璃果",
+			"descEpisodeSynopsis": "Garapan spesial kali ini adalah menggarap satu episode dari Tokyo Pasokon Club, dimana Hayashi Runa menjadi member reguler baru dalam acara ini setelah Kanagawa Saya tidak dapat lagi berpartisipasi dalam acara ini. Bersama Yumiki Nao dan Yoshida Ayano Christie, dibimbing oleh orang yang mahir dalam pemograman, mereka akan belajar membuat game. Game kali ini adalah game 3D, dan sebelum itu, mereka mencoba bermain game lawas, Crash Bandicoot."
+		},
+		"141": {
+			"descOnAirDate": "24 Oktober 2025",
+			"memberParticipate": "吉田綾乃クリスティー、弓木奈於、小川彩、冨里奈央、菅原咲月",
+			"descEpisodeSynopsis": "Malam ini, para member bersama dua tamu spesial memainkan game kerja sama \"PICO PARK\". Ini adalah game aksi kooperatif populer di mana poin pentingnya adalah bermain \"tanpa basa-basi\" dan tidak saling menyalahkan jika gagal. Cara mainnya sederhana: para pemain harus bekerja sama mengambil kunci di dalam stage dan kabur untuk menyelesaikannya. Tujuan mereka kali ini adalah menyelesaikan 4 stage pilihan."
+		},
+		"142": {
+			"descOnAirDate": "31 Oktober 2025",
+			"memberParticipate": "吉田綾乃クリスティー、弓木奈於、小川彩、冨里奈央、佐藤璃果",
+			"descEpisodeSynopsis": "Malam ini, para member yangsama beralih ke game legendaris dari Super Famicom, \"Super Donkey Kong\". Ini adalah game aksi klasik di mana pemain mengumpulkan pisang dan melewati berbagai rintangan. Mereka memulai dari stage 1-1 dan bermain secara bergantian, namun tampaknya harus berhenti di tengah permainan karena waktu habis."
+		},
+		"143": {
+			"descOnAirDate": "7 November 2025",
+			"memberParticipate": "吉田綾乃クリスティー、弓木奈於、小川彩、冨里奈央、佐藤璃果",
+			"descEpisodeSynopsis": "Malam ini, ditantang game panjat tebing kerja sama populer 'PEAK'. Tamu kali ini masih Tomisato dan Ogawa. 'PEAK' adalah game populer yang telah terjual 5 juta kopi, di mana pemain harus memanjat sambil menjaga stamina."
 		}
-	}
+	},
+	"descEpisode": "| Episode {{eps}}"
 }
