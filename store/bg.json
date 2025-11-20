@@ -1,0 +1,29 @@
+[
+    {
+        "type": "video",
+        "stat": "off",
+        "url": "https://ik.imagekit.io/moephotos/samenumbers0.webm"
+    },
+    {
+        "type": "image",
+        "stat": "off",
+        "url": "https://ik.imagekit.io/moearchive/terepan_wings.png"
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/terepan_wings.png",
+            "https://ik.imagekit.io/moearchive/dalle_saachan.jpg",
+            "https://ik.imagekit.io/moearchive/kakkizenkoku.jpg",
+            "https://ik.imagekit.io/moearchive/kakkiterepan.jpg",
+            "https://ik.imagekit.io/moearchive/saachansayoimi1.jpg",
+            "https://ik.imagekit.io/moearchive/nogizaka46_10th.jpg",
+            "https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single37.jpg",
+            "https://ik.imagekit.io/moearchive/kakkiwed.png",
+            "https://ik.imagekit.io/moearchive/gen6kataomoi.jpg",
+            "https://ik.imagekit.io/moearchive/gen5hinata.jpg",
+            "https://ik.imagekit.io/moearchive/takairika.png"
+        ]
+    }
+]
