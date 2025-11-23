@@ -11,7 +11,7 @@
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/terepan_wings.png",
             "https://ik.imagekit.io/moearchive/dalle_saachan.jpg",
@@ -24,6 +24,17 @@
             "https://ik.imagekit.io/moearchive/gen6kataomoi.jpg",
             "https://ik.imagekit.io/moearchive/gen5hinata.jpg",
             "https://ik.imagekit.io/moearchive/takairika.png"
+        ]
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/monopoly1.jpg",
+            "https://ik.imagekit.io/moearchive/monopoly2.jpg",
+            "https://ik.imagekit.io/moearchive/monopoly3.jpg",
+            "https://ik.imagekit.io/moearchive/monopoly4.jpg",
+            "https://ik.imagekit.io/moearchive/monopoly5.jpg"
         ]
     }
 ]
