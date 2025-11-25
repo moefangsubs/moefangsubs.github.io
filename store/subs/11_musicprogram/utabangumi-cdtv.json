@@ -2,19 +2,41 @@
 	"url": "utabangumi-cdtv",
 	"nameShowTitle": "Cdtv Live! Live!",
 	"availableEpisode": [
-		"01"
+		"230320",
+		"250804",
+		"251117"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_cdtv.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/230319-cdtv-live-live-nogizaka46-l5VRm",
 	"episodes": {
-		"01": {
-			"descEpisode": "| CDTV Live! Live! \"Hito wa Yume o Nido miru\"",
+		"230320": {
+			"descEpisode": "| \"Hito wa Yume o Nido miru\"",
 			"descEpsListName": "230320",
 			"descOnAirDate": "20 Maret 2023",
 			"linkHardsub": "https://lokerwfh.net/19ywpXV1",
-			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/230319-cdtv-live-live-nogizaka46-l5VRm",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230320_cdtvlivelive_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230319-cdtvlivelive-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan single ke-32 \"Hito wa Yume o Nido Miru\" untuk pertama kalinya secara full. Mari kita lihat penampilan mereka dengan W-center Yamashita Mizuki dan Kubo Shiori.",
+			"nameShow": "CDTV Live! Live!"
+		},
+		"250804": {
+			"descEpisode": "| \"Same numbers\"",
+			"descEpsListName": "250804",
+			"descOnAirDate": "4 Agustus 2025",
+			"linkHardsub": "https://sfl.gl/7dp8pu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250804_cdtvlivelive_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250804-cdtvlivelive-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan single ke-39 \"Same numbers\" untuk pertama kalinya secara full.",
+			"nameShow": "CDTV Live! Live!"
+		},
+		"251117": {
+			"descEpisode": "| \"Biryani\"",
+			"descEpsListName": "251117",
+			"descOnAirDate": "17 November 2025",
+			"linkHardsub": "https://sfl.gl/u1v9v",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251117_cdtvlivelive_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251117-cdtvlivelive-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan single ke-40 \"Biryani\" untuk pertama kalinya secara full. Mari kita lihat penampilan dengan W-center generasi baru, Yada Moeka dan Setoguchi Mitsuki.",
 			"nameShow": "CDTV Live! Live!"
 		}
 	},

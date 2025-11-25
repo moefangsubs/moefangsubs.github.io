@@ -1,5 +1,28 @@
 [
   {
+    "date": "251125",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "28" },
+      { "showId": "nogi-nabe", "eps": "03" },
+      { "showId": "nogi-nabe", "eps": "04" },
+      { "showId": "kyoccorohee", "eps": "213" },
+      { "showId": "cupstar-ane-to-itsumademo", "eps": "05" },
+      { "showId": "shinzanmono", "eps": "07" },
+      { "showId": "shinzanmono", "eps": "08" },
+      { "showId": "utabangumi-cdtv", "eps": "250804" },
+      { "showId": "utabangumi-cdtv", "eps": "251117" },
+      { "showId": "utabangumi-best-hits", "eps": "251113a" },
+      { "showId": "utabangumi-best-hits", "eps": "251113b" },
+      { "showId": "utabangumi-venue101", "eps": "251122" },
+      { "showId": "futari-escape", "eps": "08" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "07" },
+      { "showId": "shinu-made-buzztero", "eps": "06" },
+      { "showId": "koisuru-keigo-24ji-season-2", "eps": "06" },
+      { "showId": "dekitemo-dekinakutemo", "eps": "07" },
+      { "showId": "random-subs", "eps": "56" }
+    ]
+  },
+  {
     "date": "251116",
     "updates": [
       { "showId": "nogizaka-star-tanjou-six", "eps": "27" },
