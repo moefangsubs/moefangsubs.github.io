@@ -2,13 +2,15 @@
 	"url": "utabangumi-best-hits",
 	"nameShowTitle": "Best Hits",
 	"availableEpisode": [
-		"01",
-		"02"
+		"211111",
+		"221110",
+		"251113a",
+		"251113b"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_besthits.png",
 	"episodes": {
-		"01": {
-			"descEpisode": "| BEST HITS 2021 \"Saigo no Tight Hug\"",
+		"211111": {
+			"descEpisode": "| \"Saigo no Tight Hug\"",
 			"descEpsListName": "211111",
 			"descOnAirDate": "11 November 2021",
 			"linkHardsub": "https://lokerwfh.net/2V0wnr",
@@ -20,7 +22,7 @@
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan pertama di layar televisi, lagu kelulusannya Ikuta Erika berjudul \"Saigo no Tight Hug\" dalam BEST HITS 2021 pada tanggal 11 November 2021.",
 			"nameShow": "BEST HITS 2021"
 		},
-		"02": {
+		"221110": {
 			"descEpisode": "| BEST HITS 2022 \"Koko ni wa nai mono\"",
 			"descEpsListName": "221110",
 			"descOnAirDate": "10 November 2022",
@@ -32,6 +34,27 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/221110-best-hits-c.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan pertama di layar televisi, single kelulusannya Saito Asuka berjudul \"Koko ni wa nai mono\" dalam BEST HITS 2022 pada tanggal 10 November 2022. Sama seperti tahun sebelumnya dimana Ikuchan tampil membawakan lagu kelulusannya disini. ",
 			"nameShow": "BEST HITS 2022"
+		},
+		"251113a": {
+			"descEpisode": "| BEST HITS 2025 \"Biryani\"",
+			"descEpsListName": "251113",
+			"descOnAirDate": "13 November 2025",
+			"linkHardsub": "https://sfl.gl/EosLHVL",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251113a_best_hits.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251113a-best-hits.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan single terbaru Nogizaka46 berjudul \"Biryani\" dalam BEST HITS 2025. ",
+			"nameShow": "BEST HITS 2025"
+		},
+		"251113b": {
+			"descEpisode": "| BEST HITS 2025",
+			"descEpsListName": "251113",
+			"descOnAirDate": "13 November 2025",
+			"memberParticipate": "井上和",
+			"linkHardsub": "https://sfl.gl/vJoRbYw4",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251113b_best_hits.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251113b-best-hits.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan Inoue Nagi membawakan lagu 'Hatsukoi Cider' bersama member idol lain, antaralain Sasaki Maika(=LOVE), Yoshikawa Hiyori (Cho Tokimeki♡Sendenbu), Sakurai Yui (FRUITS ZIPPER), dan TSUZUMI (ME:I). ",
+			"nameShow": "BEST HITS 2025"
 		}
 	},
 	"memberParticipate": "乃木坂46"

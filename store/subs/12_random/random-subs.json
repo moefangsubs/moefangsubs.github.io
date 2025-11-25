@@ -8,7 +8,7 @@
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50", 
-		"51", "52", "53", "54", "55"
+		"51", "52", "53", "54", "55", "56"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
@@ -856,6 +856,23 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo4.jpg",
 			"descEpisodeSynopsis": "Sang pembuat gebrakan dari gen-6, Masuda Mirine, akan memberikan liputan super dari lokasi syuting iklan TV CupStar. Mulai dari wawancara dengan senpainya hingga kesannya saat pertama kali mencicipi rasa \"Hotate Shio\".",
 			"nameShow": "カップスター スペシャル企画　増田三莉音の鬼レポ"
+		},
+		"56": {
+			"descEpisode": "| 251108 Yo nimo Kimyou na Monogatari 2025",
+			"descEpsListName": "251108",
+			"descOnAirDate": "8 November 2025",
+			"memberParticipate": "与田祐希",
+			"linkHardsub": "https://sfl.gl/p4Yj2",
+			"linkTrakteer": "",
+			"filePassword": "Nana!Kai!",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251108_yonimo2025nanakai.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-d.jpg",
+			"descEpisodeSynopsis": "Saat Morisaki Hokuto pulang ke apartemennya, ia didatangi petugas pemerintah yang memintanya pindah karena adanya kebijakan nasional untuk menghapus lantai tujuh dari seluruh gedung akibat serangkaian insiden. Atas ajakan rekannya yang bernama Namikawa Nozomi, Morisaki bergabung dengan kelompok \"Warga Lantai Tujuh\" untuk menentang keputusan tersebut, dan kebersamaan dalam memperjuangkan nasib mereka membuat hubungan keduanya semakin dekat hingga suatu hari pemimpin kelompok tersebut ditangkap polisi.",
+			"nameShow": "251108 世にも奇妙な物語 35周年SP 秋の特別編 「七階闘争」"
 		}
 	}
 }

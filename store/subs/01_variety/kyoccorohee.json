@@ -7,7 +7,8 @@
 		"01",
 		"02",
 		"03",
-		"04"
+		"04",
+		"213"
 	],
 	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_kyoccorohee.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kyoccorohee-{{eps}}.jpg",
@@ -17,7 +18,6 @@
 			"descEpisode": "| Episode 1",
 			"descOnAirDate": "31 Maret 2021",
 			"memberParticipate": "齊藤京子",
-			"additionalGuests"	: "ヒコロヒー",
 			"linkHardsub": "https://lokerwfh.net/iHYzck",
 			"linkSoftsub": "https://lokerwfh.net/15gBGI",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
@@ -29,7 +29,6 @@
 			"descEpisode": "| Episode 2",
 			"descOnAirDate": "7 April 2021",
 			"memberParticipate": "齊藤京子",
-			"additionalGuests"	: "ヒコロヒー",
 			"linkHardsub": "https://lokerwfh.net/njjOI",
 			"linkSoftsub": "https://lokerwfh.net/7vkJy",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
@@ -41,7 +40,6 @@
 			"descEpisode": "| Episode 3",
 			"descOnAirDate": "14 April 2021",
 			"memberParticipate": "齊藤京子",
-			"additionalGuests"	: "ヒコロヒー",
 			"linkHardsub": "https://lokerwfh.net/HtWKhuFz",
 			"linkSoftsub": "https://lokerwfh.net/7wb9gWv4",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
@@ -53,13 +51,24 @@
 			"descEpisode": "| Episode 4",
 			"descOnAirDate": "21 April 2021",
 			"memberParticipate": "齊藤京子",
-			"additionalGuests"	: "ヒコロヒー",
 			"linkHardsub": "https://lokerwfh.net/xKYm2N",
 			"linkSoftsub": "https://lokerwfh.net/tqr7J9rB",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-00.jpg",
 			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-04a.jpg",
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-04b.jpg",
 			"descEpisodeSynopsis": "Di episode Kyoccorohee kali ini, mereka akan melihat submission dari akun-akun TikTok yang mengikuti kompetisi dari Kyoccorohee."
+		},
+		"213": {
+			"descEpisode": "| Episode 213 (Nogizaka46 CUT)",
+			"descOnAirDate": "17 November 2025",
+			"memberParticipate": "菅原咲月、小川彩、弓木奈於、齊藤京子",
+			"linkHardsub": "https://sfl.gl/Ea5Ak2B",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-213.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-213a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-213b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-213c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/kyoccorohee/kyoccorohee-213d.jpg",
+			"descEpisodeSynopsis": "Disini saya hanya meng-cut bagian Nogizaka46 saja, dimana Kyoko akan bermain kartu babanuki dengan Sugawara Satsuki, Ogawa Aya, dan Yumiki Nao. Lalu mereka bertiga akan meminta saran kepada Hiccorohee."
 		}
 	}
 }

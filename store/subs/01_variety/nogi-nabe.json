@@ -4,7 +4,7 @@
 	"nameShow": "のぎ鍋",
 	"descSynopsis": "Sebuah acara pendek kurang dari 4 menit, dimana member Nogizaka46 akan mengobrol santai sambil menyantap nabe berdua.",
 	"availableEpisode": [
-		"01", "02"
+		"01", "02", "03", "04"
 	],
 	"newUpdateCount": 2,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_noginabe.png",
@@ -14,27 +14,34 @@
 	"episodes": {
 		"01": {
 			"descOnAirDate": "2 November 2023",
-			"memberParticipate": "遠藤さくら、中西アルノ、松尾美佑",
+			"memberParticipate": "遠藤さくら、松尾美佑、中西アルノ",
 			"linkHardsub": "https://sfl.gl/pDjBlT"
 		},
 		"02": {
 			"descOnAirDate": "9 November 2025",
-			"memberParticipate": "遠藤さくら、中西アルノ、松尾美佑",
+			"memberParticipate": "遠藤さくら、松尾美佑、中西アルノ",
 			"linkHardsub": "https://sfl.gl/i5O2"
 		},
 		"03": {
 			"descOnAirDate": "16 November 2025",
-			"memberParticipate": "遠藤さくら、中西アルノ、池田瑛紗",
-			"linkHardsub": ""
+			"memberParticipate": "池田瑛紗、矢田萌華、中西アルノ",
+			"linkHardsub": "https://sfl.gl/9wE25"
 		},
 		"04": {
 			"descOnAirDate": "23 November 2025",
-			"memberParticipate": "遠藤さくら、中西アルノ、池田瑛紗",
+			"memberParticipate": "井上和、弓木奈於、中西アルノ",
+			"linkHardsub": "https://sfl.gl/XQEm1"
+		},
+		"05": {
+			"descOnAirDate": "30 November 2025",
+			"memberParticipate": "井上和、弓木奈於、中西アルノ",
 			"linkHardsub": ""
 		}	
 	},
 	"descEpisode": "| Episode {{eps}}"
 }
+
+
 
 
 
