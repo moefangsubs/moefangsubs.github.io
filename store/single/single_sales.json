@@ -44,7 +44,8 @@
         "s36": {"oricon_day1": 37.5, "oricon_week1": 51.0, "billboard_week1": 65.2},
         "s37": {"oricon_day1": 36.0, "oricon_week1": 48.4, "billboard_week1": 61.0},
         "s38": {"oricon_day1": 37.7, "oricon_week1": 48.4, "billboard_week1": 61.2},
-        "s39": {"oricon_day1": 43.5, "oricon_week1": 59.5, "billboard_week1": 77.6}
+        "s39": {"oricon_day1": 43.5, "oricon_week1": 59.5, "billboard_week1": 77.6},
+        "s40": {"oricon_day1": 42.6, "oricon_week1": 57.2, "billboard_week1": 73.6}
 		
     },
     "summary": {
