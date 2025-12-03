@@ -432,10 +432,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
-    // --- ADMIN RESULT LOGIC ---
-    async function renderAdminResult() {
-        mainApp.style.maxWidth = '1200px';
-        pageContent.innerHTML = '<h2>Memuat Hasil Live...</h2>';
+	async function renderAdminResult() {
+        mainApp.style.maxWidth = '100%';
+        mainApp.style.background = 'transparent'; 
+        mainApp.style.boxShadow = 'none';
+        
+        pageContent.innerHTML = '<div class="spinner"></div><h2>Memuat Hasil Live...</h2>';
         
         const navControls = document.getElementById('nav-controls');
         if(navControls) navControls.style.display = 'none'; 
@@ -447,103 +449,192 @@ document.addEventListener('DOMContentLoaded', async () => {
         const votes = [];
         snapshot.forEach(doc => votes.push(doc.data()));
 
-        pageContent.innerHTML = `<h1>HASIL SEMENTARA (${votes.length} Partisipan)</h1>`;
+        pageContent.innerHTML = `
+            <div class="res-voter-count">Total Voters: ${votes.length}</div>
+            <div class="result-container-wrapper">
+                <button id="res-prev" class="result-nav-btn">❮</button>
+                <div class="result-slides" id="result-slides"></div>
+                <button id="res-next" class="result-nav-btn">❯</button>
+            </div>
+        `;
 
+        const slidesContainer = document.getElementById('result-slides');
         const pollSections = POLL_CONFIG.filter(c => c.type === 'song' || c.type === 'member');
+        let currentSlide = 0;
 
         for (const config of pollSections) {
             const scores = {};
+            // Poin maksimal sesuai limit voting (misal 3 atau 5)
             const maxPoints = config.limit;
 
             votes.forEach(v => {
                 const userChoices = v[config.id] || [];
                 userChoices.forEach((choiceId, idx) => {
                     const points = maxPoints - idx;
-                    scores[choiceId] = (scores[choiceId] || 0) + points;
+                    if(points > 0) scores[choiceId] = (scores[choiceId] || 0) + points;
                 });
             });
 
             const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
-
-            const sectionDiv = document.createElement('div');
-            sectionDiv.className = 'result-section';
-            sectionDiv.innerHTML = `<h3 class="result-header">${config.title}</h3>`;
-
-            const top3Div = document.createElement('div');
-            top3Div.className = 'top-3-container';
-
-            const listDiv = document.createElement('div');
-            listDiv.className = 'rank-list';
-
-            const poolItems = getPollItems(config);
-
+            const rankedData = [];
             let currentRank = 1;
             
             sorted.forEach((item, idx) => {
                 const [id, score] = item;
-                
-                if (idx > 0) {
-                    const prevScore = sorted[idx - 1][1];
-                    if (score < prevScore) {
-                        currentRank = idx + 1;
-                    }
-                } else {
-                    currentRank = 1;
+                if (idx > 0 && score < sorted[idx - 1][1]) {
+                    currentRank = idx + 1;
                 }
-
+                
                 let meta = { title: id, img: '' };
-                if (config.source === 'songall') {
+                
+                if (config.type === 'song') {
+                    meta.img = getPollThumbnail(id);
+                    // Fallback to CD Cover logic if needed for admin display
                     for (const [key, value] of Object.entries(songData)) {
                         if (Array.isArray(value)) {
                             const found = value.find(s => s.titleRo === id);
                             if (found) {
-                                meta.img = getCoverArtUrl('nogizaka46', key, found);
+                                meta.cdCover = getCoverArtUrl('nogizaka46', key, found);
                                 break;
                             }
                         }
                     }
-                } else if (config.source === 'member') {
+                } else if (config.type === 'member') {
                     const found = memberData.find(m => m.nama_romaji === id);
                     if (found) meta.img = found.foto_profil;
                 }
 
-                if (currentRank <= 3) {
-                    const card = document.createElement('div');
-                    card.className = `rank-card rank-${currentRank} ${config.type}-card`;
-                    card.innerHTML = `
-                        <div class="rank-badge">${currentRank}</div>
-                        <img src="${meta.img}" onerror="this.src='https://ik.imagekit.io/moearchive/poll/nogi.png'">
-                        <div class="rank-name-small">${meta.title}</div>
-                        <div class="rank-votes">${score} Poin</div>
-                    `;
-                    top3Div.appendChild(card);
-                } else {
-                    const listItem = document.createElement('div');
-                    listItem.className = 'rank-list-item';
-                    listItem.innerHTML = `
-                        <div class="rank-num">#${currentRank}</div>
-                        <div class="rank-name">${meta.title}</div>
-                        <div class="rank-count">${score} Poin</div>
-                    `;
-                    listDiv.appendChild(listItem);
-                }
+                rankedData.push({ ...meta, score, rank: currentRank });
             });
 
-            sectionDiv.appendChild(top3Div);
+            const slide = document.createElement('div');
+            slide.className = 'result-slide';
             
-            if (listDiv.children.length > 0) {
-                const details = document.createElement('details');
-                const summary = document.createElement('summary');
-                summary.textContent = 'Lihat Peringkat Lengkap';
-                summary.style.cursor = 'pointer';
-                summary.style.padding = '10px';
+            slide.innerHTML = `
+                <div class="result-header-main">
+                    <h2 class="res-title">${config.title}</h2>
+                </div>
+                <div class="podium-container" id="podium-row-1"></div>
+                <div class="podium-row-2" id="podium-row-2"></div>
+                <div class="result-list-container"></div>
+            `;
+
+            const podiumRow1 = slide.querySelector('#podium-row-1');
+            const podiumRow2 = slide.querySelector('#podium-row-2');
+            const listContainer = slide.querySelector('.result-list-container');
+
+            // --- SPLIT DATA ---
+            // Kita paksa ambil Top 5 untuk display podium, berapapun limit votingnya
+            const top3Data = rankedData.slice(0, 3);   // Rank 1-3
+            const midData = rankedData.slice(3, 5);    // Rank 4-5
+            const listData = rankedData.slice(5);      // Rank 6+
+
+            const renderCard = (container, data) => {
+                const card = document.createElement('div');
+                card.className = `podium-card rank-${data.rank} ${config.type}-card`;
                 
-                details.appendChild(summary);
-                details.appendChild(listDiv);
-                sectionDiv.appendChild(details);
+                const fallbackImg = data.cdCover || 'https://ik.imagekit.io/moearchive/poll/nogi.png';
+                
+                card.innerHTML = `
+                    <div class="rank-badge">${data.rank}</div>
+                    <div class="podium-img-wrapper">
+                        <img src="${data.img}" onerror="this.src='${fallbackImg}'">
+                    </div>
+                    <div class="podium-info-wrapper">
+                        <div class="podium-name">${data.title}</div>
+                        <div class="podium-votes">${data.score} Poin</div>
+                    </div>
+                `;
+                
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    const rotateX = ((y - centerY) / centerY) * -10;
+                    const rotateY = ((x - centerX) / centerX) * 10;
+                    
+                    let transY = '';
+                    if (container === podiumRow1) {
+                         transY = `translateY(${data.rank === 1 ? '0' : (data.rank === 2 ? '30px' : '60px')})`;
+                    }
+                    
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05) ${transY}`;
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = ''; 
+                    card.style.removeProperty('transform');
+                });
+
+                container.appendChild(card);
+            };
+
+            // Render Row 1 (Top 3)
+            top3Data.forEach(d => renderCard(podiumRow1, d));
+
+            // Render Row 2 (Rank 4 & 5)
+            // Selalu tampilkan jika ada datanya, meskipun config.limit cuma 3
+            if (midData.length > 0) {
+                midData.forEach(d => renderCard(podiumRow2, d));
+                podiumRow2.style.display = 'flex';
+            } else {
+                podiumRow2.style.display = 'none';
             }
 
-            pageContent.appendChild(sectionDiv);
+            // Render List (Rest)
+            if (listData.length > 0) {
+                listData.forEach(data => {
+                    const row = document.createElement('div');
+                    row.className = 'res-list-item';
+                    row.innerHTML = `
+                        <span class="res-list-rank">#${data.rank}</span>
+                        <span class="res-list-name">${data.title}</span>
+                        <span class="res-list-score">${data.score} Poin</span>
+                    `;
+                    listContainer.appendChild(row);
+                });
+                
+                if (listData.length > 5) {
+                    const details = document.createElement('details');
+                    const summary = document.createElement('summary');
+                    summary.textContent = 'Lihat Peringkat Lengkap';
+                    summary.style.cursor = 'pointer';
+                    summary.style.padding = '10px';
+                    summary.style.textAlign = 'center';
+                    
+                    while (listContainer.firstChild) {
+                        details.appendChild(listContainer.firstChild);
+                    }
+                    details.insertBefore(summary, details.firstChild);
+                    listContainer.appendChild(details);
+                }
+            } else {
+                listContainer.style.display = 'none';
+            }
+
+            slidesContainer.appendChild(slide);
         }
+
+        const slides = document.querySelectorAll('.result-slide');
+        const updateSlider = () => {
+            slidesContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+            slides.forEach((s, i) => {
+                s.classList.toggle('active', i === currentSlide);
+            });
+        };
+
+        document.getElementById('res-prev').addEventListener('click', () => {
+            currentSlide = (currentSlide > 0) ? currentSlide - 1 : slides.length - 1;
+            updateSlider();
+        });
+
+        document.getElementById('res-next').addEventListener('click', () => {
+            currentSlide = (currentSlide < slides.length - 1) ? currentSlide + 1 : 0;
+            updateSlider();
+        });
+
+        updateSlider();
     }
 });
