@@ -5,7 +5,7 @@
     "nameShow": "死ぬまでバズってろ!!",
     "descSynopsis": "Asano Kanako adalah seorang pekerja paruh waktu berusia 26 tahun yang menyambung hidup dengan bekerja di sebuah restoran pasta. Hidupnya berubah drastis dalam semalam setelah video kecelakaan tabrak lari yang tidak sengaja ia rekam menjadi viral di media sosial. Dibanjiri oleh pujian, notifikasi \"like\", dan repost yang tak henti-hentinya, Kanako tenggelam dalam sensasi menyenangkan yang baru pertama kali ia rasakan dan berubah menjadi Tapaco, seorang influencer yang mengatasnamakan \"keadilan\" untuk mengungkap berbagai kasus. Demi menjadi viral, tindakannya yang menghalalkan segala cara secara bertahap menumpulkan rasa etisnya. Namun, keadilan yang berlebihan itu justru melahirkan kebencian baru, dan tak lama kemudian ia menjadi sasaran fitnah serta kritik anonim, hingga tanpa disadari Tapaco sendiri telah terjerumus ke dalam pusaran balas dendam yang mengerikan.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05", "06"
+		"01", "02", "03", "04", "05", "06", "07"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shinubuzz{{eps}}.jpg",
@@ -43,19 +43,12 @@
             "linkHardsub": "https://sfl.gl/YSFcy"
         },
         "07": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Terungkap bahwa Mami adalah pelaku yang menusuk Kanako dari belakang. Di tengah kondisi bersimbah darah dan nyaris meregang nyawa akibat melupakan dendam orang-orang yang pernah ia sakiti, Kanako justru tidak meminta pertolongan, melainkan menuntut perhatian publik melebihi keselamatannya sendiri. Ia bahkan nekat mengekspos wajahnya sambil berteriak \"Rekam aku!\" demi menjadi viral sebelum akhirnya kehilangan kesadaran. Saat Watanabe bergegas menuju rumah sakit dengan penuh kekhawatiran, sosok misterius bertudung tampak mengamati siaran langsung kejadian tersebut.",
+            "linkHardsub": "https://sfl.gl/dWlZy"
         },
         "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "10": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Setelah dibebaskan dari kantor polisi, Kanako dihadang oleh mantan suaminya, Motohashi, yang membangkitkan kembali ingatan trauma kekerasan dalam rumah tangga. Ternyata Motohashi adalah pelaku penembakan yang sedang meresahkan masyarakat, dan dengan santai ia mengaku menembak hanya karena kesal sambil menodongkan pistol. Ketakutan akan kembali dikuasai setelah alamat rumahnya ketahuan, Kanako menendang selangkangan mantan suaminya itu dan melarikan diri. Dalam kondisi tidak bisa pulang dan enggan melibatkan Watanabe, ia mengirim pesan perpisahan berisi \"Terima kasih untuk semuanya, dan maaf\" lalu pergi seorang diri menuju tujuan terakhirnya, menandai konklusi dari kisah hidup Kanako yang selalu mempertaruhkan nyawa demi menjadi viral.",
+			"thisEnd": true,
             "linkHardsub": ""
         }
     },
@@ -63,5 +56,3 @@
 	"OnAirEvery": 7,
     "descEpisode": "| Episode {{eps}}"
 }
-
-

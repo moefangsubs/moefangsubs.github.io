@@ -1,5 +1,24 @@
 [
   {
+    "date": "251207",
+    "updates": [
+      { "showId": "nogi-nabe", "eps": "05" },
+      { "showId": "futari-escape", "eps": "09" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "08" },
+      { "showId": "shinu-made-buzztero", "eps": "07" },
+      { "showId": "koisuru-keigo-24ji-season-2", "eps": "07" },
+      { "showId": "dekitemo-dekinakutemo", "eps": "08" },
+      { "showId": "random-subs", "eps": "57" },
+      { "showId": "random-subs", "eps": "58" },
+      { "showId": "utabangumi-music-station", "eps": "03" },
+      { "showId": "live-performance", "eps": "12" },
+      { "showId": "shinzanmono", "eps": "09" },
+      { "showId": "shinzanmono", "eps": "10" },
+      { "showId": "shinzanmono", "eps": "11" },
+      { "showId": "shinzanmono", "eps": "12" }
+    ]
+  },
+  {
     "date": "251128",
     "updates": [
       { "showId": "graduation-concert", "eps": "11" }
@@ -32,59 +51,6 @@
       { "showId": "koisuru-keigo-24ji-season-2", "eps": "06" },
       { "showId": "dekitemo-dekinakutemo", "eps": "07" },
       { "showId": "random-subs", "eps": "56" }
-    ]
-  },
-  {
-    "date": "251116",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "27" },
-      { "showId": "nogizaka-tokyo-pasokon-club", "eps": "141" },
-      { "showId": "nogizaka-tokyo-pasokon-club", "eps": "142" },
-      { "showId": "nogizaka-tokyo-pasokon-club", "eps": "143" },
-      { "showId": "nogidouga-kubo-channel", "eps": "123" },
-      { "showId": "nogidouga-kubo-channel", "eps": "124" },
-      { "showId": "nogidouga-kubo-channel", "eps": "125" },
-      { "showId": "futari-escape", "eps": "06" },
-      { "showId": "futari-escape", "eps": "07" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "06" },
-      { "showId": "shinu-made-buzztero", "eps": "05" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "05" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "06" }
-    ]
-  },
-  {
-    "date": "251110",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "25" },
-      { "showId": "nogizaka-star-tanjou-six", "eps": "26" },
-      { "showId": "nogi-nabe", "eps": "01" },
-      { "showId": "nogi-nabe", "eps": "02" },
-      { "showId": "nogidouga-girls-talk", "eps": "03A" },
-      { "showId": "futari-escape", "eps": "05" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "05" },
-      { "showId": "shinu-made-buzztero", "eps": "04" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "04" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "05" },
-      { "showId": "strobe-edge-season-1", "eps": "01" },
-      { "showId": "strobe-edge-season-1", "eps": "02" },
-      { "showId": "strobe-edge-season-1", "eps": "03" },
-      { "showId": "strobe-edge-season-1", "eps": "04" },
-      { "showId": "strobe-edge-season-1", "eps": "05" },
-      { "showId": "strobe-edge-season-1", "eps": "06" }
-    ]
-  },
-  {
-    "date": "251102",
-    "updates": [
-      { "showId": "nogidouga-ayame-ni-osusume", "eps": "01" },
-      { "showId": "nogidouga-ayame-ni-osusume", "eps": "02" },
-      { "showId": "nogidouga-ayame-ni-osusume", "eps": "03" },
-      { "showId": "showroom", "eps": "34" },
-      { "showId": "kanade-no-rara", "eps": "10" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "04" },
-      { "showId": "shinu-made-buzztero", "eps": "03" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "03" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "04" }
     ]
   }
 ]

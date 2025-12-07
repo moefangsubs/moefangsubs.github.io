@@ -1,0 +1,73 @@
+{
+  "categories": {
+    "variety_tv": [
+      "Nogizaka Under Construction",
+      "Soko Magattara, Sakurazaka?",
+      "Hinatazaka de Aimashou",
+    ],
+    "web_series": [
+      "Nogizaka Haishinchuu",
+      "Sakurazaka Channel",
+    ],
+    "stage_theater": [
+      "Sailor Moon Musical",
+      "Zambi The Stage",
+      "Odd Taxi"
+    ],
+    "drama": [
+      "Zambi",
+      "Borderless",
+      "Hatsumori Bemars"
+    ],
+    "movie": [
+      "Keep Your Hands Off Eizouken!",
+    ],
+    "concert": [
+      "Birthday Live",
+      "Zenkoku Tour",
+      "Graduation Concert"
+    ],
+    "performance": [
+      "CDTV",
+      "Music Station",
+      "FNS Kayousai",
+      "Buzz Rhythm"
+    ]
+  },
+  "bonus_single": {
+    "nogizaka": [
+      "Guru Guru Curtain",
+      "Oide Shampoo",
+      "Hashire! Bicycle",
+      "Seifuku no Mannequin",
+      "Kimi no Na wa Kibou",
+      "Girl's Rule",
+      "Barrette",
+      "Kizuitara Kataomoi",
+      "Natsu no Free & Easy",
+      "Nandome no Aozora ka?",
+      "Inochi wa Utsukushii"
+    ],
+    "sakurazaka": [
+      "Nobody's Fault",
+      "BAN",
+      "Nagaredama",
+      "Samidare yo",
+      "Sakurazuki",
+      "Start over!",
+      "Shounin Yokkyuu"
+    ],
+    "hinatazaka": [
+      "Kyun",
+      "Do Re Mi Sol La Si Do",
+      "Konna ni Suki ni Natchatte Ii no?",
+      "Sonna Koto Nai yo",
+      "Kimi Shika Katan",
+      "Tteka",
+      "Boku Nanka"
+    ],
+    "bokuao": [
+      "Sotsugyou made"
+    ]
+  }
+}

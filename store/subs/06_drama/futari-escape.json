@@ -5,7 +5,7 @@
     "nameShow": "ふたりエスケープ",
     "descSynopsis": "Kisah ini berpusat pada dua wanita yang tinggal bersama: seorang mangaka tidak populer bernama \"Kouhai\" yang selalu dikejar tenggat waktu, dan teman serumahnya, \"Senpai\", seorang pengangguran yang menyebut dirinya sebagai \"ahli melarikan diri dari kenyataan\". Kouhai, yang seringkali melewati tenggat waktunya hingga merepotkan editornya, adalah penggemar berat pengisi suara Akari Tamura dan sering mengirim surel ke acara radionya dengan nama samaran \"Yurihime Nitaro\", serta mengunggah foto kesehariannya di media sosial dengan akun \"yurihime2taro\". Di sisi lain, Senpai adalah kakak kelas Kouhai di SMA yang dulunya populer karena penampilannya yang menawan. Meskipun kini menganggur dan sering disebut oleh Kouhai hanya \"bermodal tampang\", Senpai sangat peduli pada teman serumahnya itu. Setiap kali Kouhai merasa tertekan oleh pekerjaannya, Senpai yang memiliki SIM akan menemaninya dalam berbagai upaya \"melarikan diri dari kenyataan\", mulai dari berkendara tanpa tujuan menggunakan mobil sewaan hingga melakukan hal-hal mewah lainnya.",
     "availableEpisode": [
-		"waiwai01", "01", "waiwai02", "02", "waiwai03", "03", "04", "05", "06", "07", "08"
+		"waiwai01", "01", "waiwai02", "02", "waiwai03", "03", "04", "05", "06", "07", "08", "09"
 	],
     "newUpdateCount": 3,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/futariescape{{eps}}.jpg",
@@ -102,16 +102,15 @@
         },
         "09": {
             "descOnAirDate": "30 November 2025",
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Suatu hari, Senpai tiba-tiba pergi dari rumah setelah berpamitan untuk melarikan diri sejenak. Seminggu kemudian, Kouhai mengenang masa SMA mereka yang bermula dari interaksi seru lewat coretan dinding perpustakaan bertuliskan \"Jadikan ini tempat bersantai\" yang dibalas \"Satu suara setuju\" tanpa saling mengetahui nama. Sambil bernostalgia, Kouhai mencari Senpai di tempat-tempat yang pernah didatangi bersama seperti taman dan pertokoan, namun saat kembali ke rumah tanpa hasil, sosok yang dicari ternyata sudah berada di sana.",
+            "linkHardsub": "https://sfl.gl/Fr50uV"
         },
         "10": {
             "descOnAirDate": "7 Desember 2025",
-			"descEpisodeSynopsis": "",
+			"thisEnd": true,
+			"descEpisodeSynopsis": "Dipicu oleh kejadian Senpai yang sempat tidak pulang, mereka berdua bermain mensyukuri keberadaan benda-benda sekitar seperti meja gambar dan tong sake mahal, namun kegiatan itu terhenti saat Kouhai menerima telepon pemutusan serialisasi dari editor. Menghadapi nasib sebagai pengangguran, mereka berdiskusi di kedai minum tanpa hasil dan memilih berjalan kaki menyusuri kota malam demi menunda realitas. Di tengah perjalanan mengenang pelarian masa lalu, Senpai tiba-tiba melontarkan usulan mengenai tema manga baru.",
             "linkHardsub": ""
         }
     },
     "descEpisode": "| Episode {{eps}}"
 }
-
-

@@ -5,7 +5,7 @@
     "nameShow": "恋する警護24時 season2",
     "descSynopsis": "Cerita berlanjut saat \"RACCO Securities\", perusahaan tempat Tatsunosuke bekerja, bergabung dengan \"Koala Security\" dan membentuk struktur baru bernama \"RACCOALA Securities\". Di tengah perubahan ini, Tatsunosuke kesulitan beradaptasi dan terus-menerus berselisih dengan rekan barunya, padahal kerja sama tim sangat penting untuk keberhasilan misi. Di sisi lain, Rika memutuskan untuk meningkatkan jenjang kariernya sebagai pengacara dengan melanjutkan studi ke London. Kini, Tatsunosuke dan Rika harus menghadapi berbagai ancaman baru yang dapat menghalangi hubungan cinta mereka.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05", "06"
+		"01", "02", "03", "04", "05", "06", "07"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/koisurukeigos2-{{eps}}.jpg",
@@ -43,16 +43,13 @@
             "linkHardsub": "https://sfl.gl/WYsakZK"
         },
         "07": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Tatsunosuke, Minato, dan Shiiya menemukan petunjuk baru dalam kasus Igarashi dari berkas pemberian Kajiwara, namun memilih merahasiakan spekulasi tersebut. Di tengah ketegangan tim akibat minimnya koordinasi pengamanan jelang acara, Tatsunosuke justru dibuat cemburu saat menjemput Rika yang pulang bersama teman prianya. Meski begitu, kehadiran Rika mencairkan suasana lewat keakrabannya dengan Mikumo, sementara diskusi hukumnya dengan Minato mengenai kasus Igarashi berujung pada penemuan fakta yang mengejutkan",
+            "linkHardsub": "https://sfl.gl/dXWK8"
         },
         "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Kecurigaan Tatsunosuke terhadap Chihaya dalam kasus pembunuhan Igarashi memuncak saat ia harus menyelamatkan Rika yang nyaris diculik oleh wanita itu. Di tengah krisis ancaman bom pada Forum Pendidikan dan hilangnya Minori, Tatsunosuke memohon waktu satu hari kepada Presiden Kazue untuk menyadarkan Chihaya sebelum terlambat. Sambil berpacu dengan waktu, Tatsunosuke bertekad mengungkap kebenaran kasus, tujuan asli Chihaya, serta memperjelas arah hubungannya dengan Rika",
+            "linkHardsub": "",
+			"thisEnd": true
         }
     },
 	"descOnAirDatePattern": "251017", 

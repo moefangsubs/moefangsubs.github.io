@@ -5,7 +5,7 @@
     "nameShow": "新東京水上警察",
     "descSynopsis": "Untuk menanggulangi meningkatnya kejahatan di wilayah perairan, Departemen Kepolisian Metropolitan membentuk \"Departemen Kepolisian Air Tokyo\" atau Divisi Suijo. Namun, unit ini diisi oleh sekelompok individu dengan latar belakang dan prinsip yang berbeda. Dipimpin oleh Ikari Takuma, seorang detektif lokal berpengalaman lebih dari 20 tahun, divisi ini juga beranggotakan Kusakabe Shun, perwira ambisius dari markas besar, dan Arima Reiko, teknisi maritim yang bertugas sebagai pilot kapal. Bersama para anggota unik lainnya, mereka menangani berbagai kejahatan yang terjadi di laut dan sungai Tokyo, dan secara bertahap membangun kekompakan sebagai sebuah tim melalui setiap kasus yang mereka selesaikan.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05", "06", "07"
+		"01", "02", "03", "04", "05", "06", "07", "08"
 	],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/suijoukeisatsu{{eps}}.jpg",
@@ -47,15 +47,16 @@
             "linkHardsub": "https://sfl.gl/e9TNsA8A"
         },
         "08": {
-            "descEpisodeSynopsis": "",
-            "linkHardsub": ""
+            "descEpisodeSynopsis": "Takuma Ikari diperintahkan oleh Kepala Hajime Tamamushi untuk menyelidiki kasus penemuan mayat di perahu yang hanyut, sementara Reiko Arima yang sedang bimbang menanggapi lamaran Shun Kusakabe akhirnya bergabung dalam investigasi tersebut setelah mendapat dukungan dari Yukiko Hosono. Korban bernama Koichi Katsura ditemukan tewas dalam kondisi terlilit rantai dan tertusuk harpun di dada, sebuah modus operandi yang menyerupai hukuman dewa laut dalam buku bergambar \"Kisah Soranagi\" sehingga kasus ini dijuluki \"Insiden Soranagi\". Mengingat kondisi mayat yang terendam air laut menyulitkan identifikasi waktu kematian, Reiko mengerahkan keahlian maritimnya untuk menganalisis data arus demi melacak titik awal dan waktu hanyutnya perahu tersebut.",
+            "linkHardsub": "https://sfl.gl/3akQih"
         },
         "09": {
-            "descEpisodeSynopsis": "",
+            "descEpisodeSynopsis": "Detektif Takuma Ikari menerima informasi bahwa Kenichi Kuroki, mantan ketua \"Wangan Warriors\" yang kini memimpin \"Wangan Ocean Human Career\", berencana melakukan aksi besar. Saat Ikari dan Reiko Arima melakukan pengintaian di restoran yang disebutkan, mereka terkejut melihat Kuroki datang bersama Toshio Osawa, senior yang sangat dihormati Reiko. Situasi memanas ketika Osawa memergoki kamera pengintai saat Kuroki terlibat keributan, membuat Kuroki menghadang Ikari dengan tuntutan surat perintah resmi. Di tengah kebingungan mengenai keterlibatan Osawa, insiden pembunuhan ruang tertutup terjadi di kapal observasi Antartika \"Kaisetsu\" tempat mayat membusuk ditemukan, namun Shun Kusakabe yang tiba di lokasi mendapati bukti CCTV telah disita oleh detektif kepolisian Wangan, sehingga ia hanya bisa merekam kerumunan penonton sebelum kembali ke markas.",
             "linkHardsub": ""
         },
         "10": {
-            "descEpisodeSynopsis": "",
+            "descEpisodeSynopsis": "Detektif Takuma Ikari meyakini keterlibatan Kenichi Kuroki dalam kasus penemuan mayat Sosuke Fukumoto di kapal observasi \"Kaisetsu\", terlebih karena nama Shingo Mikami yang merupakan staf perusahaan Kuroki tercatat dalam proyek pemindahan kapal tersebut. Berpacu dengan waktu sebelum seluruh personel dialihkan untuk siaga topan besar yang mendekat, tim memutuskan mempercepat penyelesaian kasus; Shun Kusakabe menginterogasi Mikami yang mengaku tidak tahu menahu soal latar belakang Kuroki, sementara Yukiko Hosono berhasil mengungkap bahwa pertemuan rahasia Kuroki dan Toshio Osawa ternyata turut dihadiri oleh kontraktor proyek serta pejabat Biro Pelabuhan.",
+			"thisEnd": true,
             "linkHardsub": ""
         }
     },
@@ -63,5 +64,3 @@
 	"OnAirEvery": 7,
     "descEpisode": "| Episode {{eps}}"
 }
-
-

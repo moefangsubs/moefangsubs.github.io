@@ -3,14 +3,13 @@
 	"nameShowTitle": "Music Station",
 	"nameShow": "MUSIC STATION",
 	"availableEpisode": [
-		"01",
-		"02"
+		"01", "02", "03"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_musicstation.png",
 	"episodes": {
 		"01": {
-			"descEpisode": "| 221223 Music Station Ultra Super Live 2022",
+			"descEpisode": "| 221223 Music Station Ultra Super Live 2022 'Koko ni wa nai mono'",
 			"descEpsListName": "221223",
 			"descOnAirDate": "23 Desember 2022",
 			"memberParticipate": "乃木坂46",
@@ -20,7 +19,7 @@
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat last stage-nya Saito Asuka di MUSIC STATION Ultra Super Live 2022 dengan membawakan single kelulusannya \"Koko ni wa nai mono\". Sebelum itu, seperti biasa ada sedikit sesi talk-nya bersama MC dengan Nogizaka46. Silakan~"
 		},
 		"02": {
-			"descEpisode": "| 250718 Music Station Super Summer Fes 2025",
+			"descEpisode": "| 250718 Music Station Super Summer Fes 2025 'Same numbers'",
 			"descEpsListName": "250718",
 			"descOnAirDate": "18 Juli 2025",
 			"memberParticipate": "乃木坂46",
@@ -28,6 +27,16 @@
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250718_mssupersummerfes2025_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250718-mssupersummerfes2025-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan kedua 'Same numbers' di televisi dengan center Kaki Haruka."
+		},
+		"03": {
+			"descEpisode": "| 251128 Music Station 'Biryani'",
+			"descEpsListName": "251128",
+			"descOnAirDate": "18 Juli 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/Bsg07d",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251128_musicstation_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251128-musicstation-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan 'Biryani' di televisi dengan w-center generasi baru, Setoguchi Mitsuki dan Yada Moeka."
 		}
 	}
 }

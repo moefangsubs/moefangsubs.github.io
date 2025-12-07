@@ -3,7 +3,7 @@
 	"nameShowTitle": "Shinzanmono",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06",
-		"07", "08"
+		"07", "08", "09", "10", "11", "12"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_shinzanmono.png",
 	"episodes": {
@@ -104,7 +104,7 @@
 			"nameShow": "新参者 LIVE at THEATER MILANO-Za"
 		},
 		"07": {
-			"descEpisode": "| Shinzanmono 2025 LIVE at THEATER MILANO-Za",
+			"descEpisode": "| Shinzanmono 2025 (日向坂46 5期生) 夜公演",
 			"descEpsListName": "日向坂46 5期生",
 			"descOnAirDate": "16 November 2025",
 			"memberParticipate": "大田美月、大野愛実、片山紗希、蔵盛妃那乃、坂井新奈、佐藤優羽、下田衣珠季、高井俐香、鶴崎仁香、松尾桜",
@@ -120,7 +120,7 @@
 			"nameShow": "新参者 二〇二五 LIVE at THEATER MILANO-Za"
 		},
 		"08": {
-			"descEpisode": "| Shinzanmono 2025 LIVE at THEATER MILANO-Za",
+			"descEpisode": "| Shinzanmono 2025 (乃木坂46 6期生) 夜公演",
 			"descEpsListName": "乃木坂46 6期生",
 			"descOnAirDate": "21 November 2025",
 			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺‎‎、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
@@ -136,18 +136,66 @@
 			"nameShow": "新参者 二〇二五 LIVE at THEATER MILANO-Za"
 		},
 		"09": {
-			"descEpisode": "| Shinzanmono 2025 LIVE at THEATER MILANO-Za",
+			"descEpisode": "| Shinzanmono 2025 (櫻坂46 4期生) 夜公演",
 			"descEpsListName": "櫻坂46 4期生",
 			"descOnAirDate": "23 November 2025",
 			"memberParticipate": "浅井恋乃未、稲熊ひな、勝又春、佐藤愛桜、中川智尋、松本和子、目黒陽色、山川宇衣、山田桃実",
 			"linkHardsub": "",
 			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shinzanmono-2025-guAKR",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/251123-shinzanmono-hinatazaka46.jpg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/251123-shinzanmono-sakurazaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/shinzanmono-2025-sakurazaka.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-hinatazaka46a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-hinatazaka46b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-hinatazaka46c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-hinatazaka46d.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-sakurazaka46a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-sakurazaka46b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-sakurazaka46c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/251123-shinzanmono-sakurazaka46d.jpg",
+			"descEpisodeSynopsis": "'Shinzanmono 2025 LIVE at THEATER MILANO-Za' kembali digelar di tahun 2025, sebuah panggung ritual peralihan yang intens dan emosional bagi generasi termuda dari Sakamichi, di mana Nogizaka46 gen-6, Sakurazaka46 gen-4, dan Hinatazaka46 gen-5 bertarung untuk membuktikan kelayakan mereka sebagai masa depan grup. Bukan sekadar konser, melainkan dokumentasi hidup perjuangan para \"pendatang baru\" yang berupaya keluar dari bayang-bayang senpai mereka melalui penampilan yang mentah, penuh ambisi, dan air mata, menandai dimulainya era baru bagi ketiga grup idola raksasa.",
+			"nameShow": "新参者 二〇二五 LIVE at THEATER MILANO-Za"
+		},
+		"10": {
+			"descEpisode": "| Shinzanmono 2025 (日向坂46 5期生) 最終公演",
+			"descEpsListName": "日向坂46 5期生",
+			"descOnAirDate": "26 November 2025",
+			"memberParticipate": "大田美月、大野愛実、片山紗希、蔵盛妃那乃、坂井新奈、佐藤優羽、下田衣珠季、高井俐香、鶴崎仁香、松尾桜",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shinzanmono-2025-guAKR",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/251126-shinzanmono-hinatazaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/shinzanmono-2025-hinatazaka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/251126-shinzanmono-hinatazaka46a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/251126-shinzanmono-hinatazaka46b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/251126-shinzanmono-hinatazaka46c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/251126-shinzanmono-hinatazaka46d.jpg",
+			"descEpisodeSynopsis": "'Shinzanmono 2025 LIVE at THEATER MILANO-Za' kembali digelar di tahun 2025, sebuah panggung ritual peralihan yang intens dan emosional bagi generasi termuda dari Sakamichi, di mana Nogizaka46 gen-6, Sakurazaka46 gen-4, dan Hinatazaka46 gen-5 bertarung untuk membuktikan kelayakan mereka sebagai masa depan grup. Bukan sekadar konser, melainkan dokumentasi hidup perjuangan para \"pendatang baru\" yang berupaya keluar dari bayang-bayang senpai mereka melalui penampilan yang mentah, penuh ambisi, dan air mata, menandai dimulainya era baru bagi ketiga grup idola raksasa.",
+			"nameShow": "新参者 二〇二五 LIVE at THEATER MILANO-Za"
+		},
+		"11": {
+			"descEpisode": "| Shinzanmono 2025 (櫻坂46 4期生) 最終公演",
+			"descEpsListName": "櫻坂46 4期生",
+			"descOnAirDate": "29 November 2025",
+			"memberParticipate": "浅井恋乃未、稲熊ひな、勝又春、佐藤愛桜、中川智尋、松本和子、目黒陽色、山川宇衣、山田桃実",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shinzanmono-2025-guAKR",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/251129-shinzanmono-sakurazaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/shinzanmono-2025-sakurazaka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/251129-shinzanmono-sakurazaka46a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/251129-shinzanmono-sakurazaka46b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/251129-shinzanmono-sakurazaka46c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/251129-shinzanmono-sakurazaka46d.jpg",
+			"descEpisodeSynopsis": "'Shinzanmono 2025 LIVE at THEATER MILANO-Za' kembali digelar di tahun 2025, sebuah panggung ritual peralihan yang intens dan emosional bagi generasi termuda dari Sakamichi, di mana Nogizaka46 gen-6, Sakurazaka46 gen-4, dan Hinatazaka46 gen-5 bertarung untuk membuktikan kelayakan mereka sebagai masa depan grup. Bukan sekadar konser, melainkan dokumentasi hidup perjuangan para \"pendatang baru\" yang berupaya keluar dari bayang-bayang senpai mereka melalui penampilan yang mentah, penuh ambisi, dan air mata, menandai dimulainya era baru bagi ketiga grup idola raksasa.",
+			"nameShow": "新参者 二〇二五 LIVE at THEATER MILANO-Za"
+		},
+		"12": {
+			"descEpisode": "| Shinzanmono 2025 (乃木坂46 6期生) 最終公演",
+			"descEpsListName": "乃木坂46 6期生",
+			"descOnAirDate": "30 November 2025",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺‎‎、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/shinzanmono-2025-guAKR",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/251130-shinzanmono-nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/shinzanmono-2025-nogizaka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/251130-shinzanmono-nogizaka46a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/251130-shinzanmono-nogizaka46b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/251130-shinzanmono-nogizaka46c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/251130-shinzanmono-nogizaka46d.jpg",
 			"descEpisodeSynopsis": "'Shinzanmono 2025 LIVE at THEATER MILANO-Za' kembali digelar di tahun 2025, sebuah panggung ritual peralihan yang intens dan emosional bagi generasi termuda dari Sakamichi, di mana Nogizaka46 gen-6, Sakurazaka46 gen-4, dan Hinatazaka46 gen-5 bertarung untuk membuktikan kelayakan mereka sebagai masa depan grup. Bukan sekadar konser, melainkan dokumentasi hidup perjuangan para \"pendatang baru\" yang berupaya keluar dari bayang-bayang senpai mereka melalui penampilan yang mentah, penuh ambisi, dan air mata, menandai dimulainya era baru bagi ketiga grup idola raksasa.",
 			"nameShow": "新参者 二〇二五 LIVE at THEATER MILANO-Za"
 		}

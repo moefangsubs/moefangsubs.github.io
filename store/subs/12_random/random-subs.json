@@ -8,7 +8,7 @@
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50", 
-		"51", "52", "53", "54", "55", "56"
+		"51", "52", "53", "54", "55", "56", "57", "58"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
@@ -873,6 +873,42 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-d.jpg",
 			"descEpisodeSynopsis": "Saat Morisaki Hokuto pulang ke apartemennya, ia didatangi petugas pemerintah yang memintanya pindah karena adanya kebijakan nasional untuk menghapus lantai tujuh dari seluruh gedung akibat serangkaian insiden. Atas ajakan rekannya yang bernama Namikawa Nozomi, Morisaki bergabung dengan kelompok \"Warga Lantai Tujuh\" untuk menentang keputusan tersebut, dan kebersamaan dalam memperjuangkan nasib mereka membuat hubungan keduanya semakin dekat hingga suatu hari pemimpin kelompok tersebut ditangkap polisi.",
 			"nameShow": "251108 世にも奇妙な物語 35周年SP 秋の特別編 「七階闘争」"
+		},
+		"57": {
+			"descEpisode": "| 251118 Shinya Futari no Emosanpo",
+			"descEpsListName": "251118",
+			"descOnAirDate": "18 November 2025",
+			"memberParticipate": "藤嶌果歩、正源司陽子",
+			"linkHardsub": "https://sfl.gl/x3mhZaz7",
+			"TrakteerB": "Unreleased Scene 1, 2, 3, 4",
+			"linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/shinya-futari-no-emosanpo-Z11R5",
+			"filePassword": "EmoSanpo-YokoKaho",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251118_emosanpo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpoa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpob.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpoc.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpod.jpg",
+			"descEpisodeSynopsis": "Acara bincang-bincang ini mempertemukan dua sosok dengan ikatan istimewa, seperti rival atau sahabat karib, untuk berjalan-jalan menyusuri kota di tengah malam sembari mencurahkan isi hati. Shogenji Yoko dan Fujishima Kaho dari Hinatazaka46 mengambil alih di pekan ketiga dan keempat acara ini dengan rute dari Yokohama Stadium menuju lokasi syuting video musik \"Kimi wa Honeydew\", di mana mereka saling mengungkapkan perasaan terpendam dan mensyukuri kedewasaan diri karena kini mampu membicarakan topik sensitif masa lalu dengan penuh tawa.",
+			"nameShow": "深夜、２人のエモさんぽ"
+		},
+		"58": {
+			"descEpisode": "| 251125 Shinya Futari no Emosanpo",
+			"descEpsListName": "251125",
+			"descOnAirDate": "25 November 2025",
+			"memberParticipate": "藤嶌果歩、正源司陽子",
+			"linkHardsub": "https://sfl.gl/lgANeDK",
+			"TrakteerB": "Unreleased Scene 5, 6, 7, 8",
+			"linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/shinya-futari-no-emosanpo-Z11R5",
+			"filePassword": "EmoSanpo-YokoKaho",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251125_emosanpo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpoa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpob.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpoc.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpod.jpg",
+			"descEpisodeSynopsis": "Acara bincang-bincang ini mempertemukan dua sosok dengan ikatan istimewa, seperti rival atau sahabat karib, untuk berjalan-jalan menyusuri kota di tengah malam sembari mencurahkan isi hati. Shogenji Yoko dan Fujishima Kaho dari Hinatazaka46 mengambil alih di pekan ketiga dan keempat acara ini dengan rute dari Yokohama Stadium menuju lokasi syuting video musik \"Kimi wa Honeydew\", di mana mereka saling mengungkapkan perasaan terpendam dan mensyukuri kedewasaan diri karena kini mampu membicarakan topik sensitif masa lalu dengan penuh tawa.",
+			"nameShow": "深夜、２人のエモさんぽ"
 		}
 	}
 }

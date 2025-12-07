@@ -1,0 +1,134 @@
+/* Base Font */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Checkbox & Radio */
+input[type="radio"], input[type="checkbox"] {
+    accent-color: #4b5563; /* Gray-600 */
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+/* Typography */
+.form-section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.input-label {
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+/* Input Styles */
+.std-input {
+    width: 100%;
+    border: 1px solid #000;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    outline: none;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+.std-input:focus {
+    border-color: #3b82f6;
+    ring: 2px solid #93c5fd;
+}
+
+.disabled-input {
+    background-color: #e5e7eb; /* Gray-200 */
+    border: 1px solid #9ca3af;
+    color: #9ca3af;
+    cursor: not-allowed;
+}
+
+/* Placeholder Box (Grey Box) */
+.grey-placeholder-box {
+    background-color: #aeaeae; 
+    border: 1px solid #000;
+    color: transparent;
+    cursor: not-allowed;
+}
+
+.grey-placeholder-box.active-input {
+    background-color: white;
+    color: black;
+    cursor: text;
+}
+
+/* Smooth Dropdown Animation */
+select {
+    transition: all 0.3s ease;
+}
+
+/* --- TAB NAVIGATION STYLES --- */
+.tab-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0; /* Menempel ke container utama */
+    padding-left: 1rem;
+}
+
+.tab-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #e5e7eb; /* Gray-200 */
+    border: 1px solid #9ca3af;
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-weight: 600;
+    color: #4b5563;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    top: 1px; /* Overlap border container */
+}
+
+.tab-button:hover {
+    background-color: #d1d5db;
+}
+
+.tab-button.active {
+    background-color: #e5e7eb; /* Samakan dengan main container bg */
+    border-color: #9ca3af;
+    border-bottom: 1px solid #e5e7eb; /* Hilangkan garis bawah agar menyatu */
+    color: #000;
+    z-index: 10;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Table Styles for Admin Tab */
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+.admin-table th, .admin-table td {
+    border: 1px solid #d1d5db;
+    padding: 0.75rem;
+    text-align: left;
+}
+.admin-table th {
+    background-color: #f3f4f6;
+    font-weight: 700;
+}
