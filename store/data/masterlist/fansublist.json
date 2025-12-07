@@ -1,0 +1,32 @@
+{
+  "moefang": {
+    "name": "MoeFang Subs",
+    "link_web": "https://moefangsubs.github.io",
+    "status": "active",
+    "language": "id",
+    "url_trakteer": "https://trakteer.id/moefangsubs",
+    "url_ig": "https://instagram.com/moefang_",
+    "url_fb": "",
+    "url_twitter": "https://twitter.com/FangMoe"
+  },
+  "kuneeel": {
+    "name": "Kuneeel",
+    "link_web": "https://kuneeel.blogspot.com",
+    "status": "active",
+    "language": "id",
+    "url_trakteer": "https://trakteer.id/kuneeel",
+    "url_ig": "https://www.instagram.com/kuneeelsub",
+    "url_fb": "",
+    "url_twitter": "https://twitter.com/kuneeelsub"
+  },
+  "beamsubs": {
+    "name": "Beam Subs",
+    "link_web": "https://beamsubs.com",
+    "status": "active",
+    "language": "en",
+    "url_trakteer": "",
+    "url_ig": "",
+    "url_fb": "",
+    "url_twitter": ""
+  }
+}

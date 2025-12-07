@@ -2,24 +2,15 @@
 	"url": "live-performance",
 	"nameShowTitle": "Live Performance",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10",
-		"11"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
+		"11", "12"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
 	"episodes": {
 		"01": {
 			"descEpisode": "| Nogizaka Skits Live",
-			"descEpsListName": "",
+			"descEpsListName": "210418",
 			"descOnAirDate": "18 April 2021",
 			"memberParticipate": "乃木坂46 3期生 & 4期生",
 			"linkHardsub": "",
@@ -35,7 +26,7 @@
 		},
 		"02": {
 			"descEpisode": "| Nogizaka46 Gen-4 @JAM EXPO 2020-2021",
-			"descEpsListName": "",
+			"descEpsListName": "210827",
 			"descOnAirDate": "27 Agustus 2021",
 			"memberParticipate": "乃木坂46 4期生",
 			"linkHardsub": "https://lokerwfh.net/k3KMv0p",
@@ -52,7 +43,7 @@
 		},
 		"03": {
 			"descEpisode": "| Nogizaka46 5th-gen 2nd Omitatekai",
-			"descEpsListName": "",
+			"descEpsListName": "220427",
 			"descOnAirDate": "27 April 2022",
 			"memberParticipate": "五百城茉央、池田瑛紗、一ノ瀬美空、井上和、岡本姫奈、小川彩、奥田いろは、川﨑桜、菅原咲月、冨里奈央、中西アルノ、秋元真夏、梅澤美波",
 			"linkHardsub": "",
@@ -68,7 +59,7 @@
 		},
 		"04": {
 			"descEpisode": "| Nogizaka46 Gen-5 @TIF 2022",
-			"descEpsListName": "",
+			"descEpsListName": "220807",
 			"descOnAirDate": "7 Agustus 2022",
 			"memberParticipate": "五百城茉央、池田瑛紗、一ノ瀬美空、井上和、岡本姫奈、小川彩、奥田いろは、川﨑桜、菅原咲月、冨里奈央、中西アルノ",
 			"linkHardsub": "https://lokerwfh.net/QSd7O",
@@ -85,7 +76,7 @@
 		},
 		"05": {
 			"descEpisode": "| Hinatazaka46 4th-gen Omotenashikai",
-			"descEpsListName": "",
+			"descEpsListName": "230212",
 			"descOnAirDate": "12 Februari 2023",
 			"memberParticipate": "日向坂46 4期生",
 			"linkHardsub": "",
@@ -101,7 +92,7 @@
 		},
 		"06": {
 			"descEpisode": "| Boku ga Mitakatta Aozora Stageplay \"NATSUGASUMI\"",
-			"descEpsListName": "",
+			"descEpsListName": "240721",
 			"descOnAirDate": "21 Juli 2024",
 			"memberParticipate": "僕が見たかった青空",
 			"linkHardsub": "https://sfl.gl/WuRi4z",
@@ -118,7 +109,7 @@
 		},
 		"07": {
 			"descEpisode": "| Nogizaka46 First Performance \"Hajimemashite, 6kisei Desu\"",
-			"descEpsListName": "",
+			"descEpsListName": "250406",
 			"descOnAirDate": "6 April 2025",
 			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺‎‎、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華、梅澤美波、菅原咲月",
 			"linkHardsub": "",
@@ -134,7 +125,7 @@
 		},
 		"08": {
 			"descEpisode": "| Hinatazaka46 5th-gen Omotenashikai",
-			"descEpsListName": "",
+			"descEpsListName": "250527",
 			"descOnAirDate": "27 Mei 2025",
 			"memberParticipate": "日向坂46 5期生",
 			"linkHardsub": "",
@@ -150,7 +141,7 @@
 		},
 		"09": {
 			"descEpisode": "| Sakurazaka46 4th-gen First Showcase",
-			"descEpsListName": "",
+			"descEpsListName": "250612",
 			"descOnAirDate": "12 Juni 2025",
 			"memberParticipate": "櫻坂46 4期生",
 			"linkHardsub": "",
@@ -166,7 +157,7 @@
 		},
 		"10": {
 			"descEpisode": "| Hirate Yurina 1st Live 'Rei'",
-			"descEpsListName": "",
+			"descEpsListName": "250821",
 			"descOnAirDate": "21 Agustus 2025",
 			"memberParticipate": "平手友梨奈",
 			"linkHardsub": "https://sfl.gl/Ok7UDq",
@@ -179,7 +170,7 @@
 		},
 		"11": {
 			"descEpisode": "| Rakuten GirlsAward 2025 AUTUMN⧸WINTER",
-			"descEpsListName": "",
+			"descEpsListName": "251018",
 			"descOnAirDate": "18 Oktober 2025",
 			"memberParticipate": "賀喜遥香、川﨑桜、一ノ瀬美空、梅澤美波、遠藤さくら、井上和、池田瑛紗、久保史緒里、冨里奈央、弓木奈於、菅原咲月、五百城茉央、小川彩、筒井あやめ、岡本姫奈",
 			"linkHardsub": "https://sfl.gl/smtfxb",
@@ -188,6 +179,31 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/251018_rakutengirlsaward2025.jpg",
 			"descEpisodeSynopsis": "Pada 18 Oktober, Nogizaka46 tampil di acara fesyen \"Rakuten GirlsAward 2025 AUTUMN/WINTER\". Dengan mengenakan gaun serba putih, mereka membawakan tiga lagu, yaitu \"Gomen ne Fingers crossed\", \"Ohitorisama Tengoku\", dan lagu terbaru mereka, \"Same numbers\".",
 			"nameShow": "Rakuten GirlsAward 2025 AUTUMN⧸WINTER"
+		},
+		"12": {
+			"descEpisode": "| Spicy Sessions -THE LIVE- 第1部",
+			"descEpsListName": "251129",
+			"descOnAirDate": "29 November 2025",
+			"memberParticipate": "中西アルノ",
+			"linkHardsub": "",
+			"descSong1": "椎名林檎&宮本浩次『獣ゆく細道』",
+			"descSong2": "Penthouse 『我愛你』",
+			"descSong3": "Derek and the Dominos 『Layla』",
+			"descSong4": "DREAMS COME TRUE 『やさしいキスをして』",
+			"descSong5": "黒沢薫 『夢見る頃を過ぎても』",
+			"descSong6": "スターダスト☆レビュー『今夜だけきっと』",
+			"descSong7": "Sam Cooke『Bring It On Home to Me』",
+			"descSong8": "一青窈『ハナミズキ』",
+			"descSong9": "小田和正『ラブ・ストーリーは突然に』",			
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/spicy-sessions-the-live-SkfTs",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_251129_spicysessions.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_251129_spicysessions.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_251129_spicysessions-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_251129_spicysessions-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_251129_spicysessions-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_251129_spicysessions-d.jpg",
+			"descEpisodeSynopsis": "Saksikan tayangan eksklusif \"Spicy Sessions -THE LIVE-\", acara langsung perdana dari program musik \"Spicy Sessions\" yang dipandu oleh Kurosawa Kaoru dari The Gospellers dan Nakanishi Arunodari Nogizaka46, yang telah digelar pada 24 Oktober 2025 di KT Zepp Yokohama, Kanagawa. Dalam segmen bertajuk \"Bagian 1\" ini, kami mempersembahkan paruh pertama acara yang dimeriahkan oleh Kaname Nemoto dari Stardust Revue, serta Shintaro Namioka, Maho Oshima, dan Shintaro Yano dari Penthouse. Jangan lewatkan panggung unik yang memadukan rasa antusias dan ketegangan mendebarkan dalam proses penciptaan musik ini.",
+			"nameShow": "Spicy Sessions -THE LIVE- 第1部"
 		}
 	}
 }

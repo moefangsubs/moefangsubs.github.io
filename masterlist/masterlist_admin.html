@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Database - Admin Idol Fansub</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style_ml.css">
+</head>
+<body class="bg-white min-h-screen text-gray-800 p-4 md:p-8">
+
+    <header class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center mb-6 border-b-2 border-transparent pb-2">
+        <h1 class="text-3xl font-bold text-black mb-4 md:mb-0 uppercase tracking-wide">INPUT DATABASE</h1>
+        <div class="text-right text-sm md:text-base font-medium">
+            Login sebagai: <span class="font-bold">MOEFANG</span>
+        </div>
+    </header>
+
+    <!-- TAB NAVIGATION -->
+    <div class="max-w-6xl mx-auto tab-container">
+        <button class="tab-button active" data-tab="tab-acara">ACARA</button>
+        <button class="tab-button" data-tab="tab-fansub">FANSUB LIST</button>
+        <button class="tab-button" data-tab="tab-admin">ADMIN & VOLUNTEER</button>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <main class="max-w-6xl mx-auto bg-gray-200 border border-gray-400 p-6 md:p-8 shadow-sm rounded-b-lg rounded-tr-lg">
+        
+        <!-- ====================== TAB 1: ACARA (FORM INPUT) ====================== -->
+        <div id="tab-acara" class="tab-content active">
+            <form id="dbForm" action="#" method="POST">
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    
+                    <!-- KOLOM KIRI -->
+                    <div class="flex flex-col gap-6">
+                        <h2 class="form-section-title">ACARA<span class="text-red-600">*</span></h2>
+                        
+                        <!-- CASCADING DROPDOWNS -->
+                        <div class="bg-gray-100 p-4 border border-gray-300 rounded-md shadow-sm">
+                            <label class="input-label mb-2 text-lg border-b border-gray-300 pb-1">Seleksi Judul Acara</label>
+                            
+                            <!-- 1. Dropdown Kategori -->
+                            <div class="mb-3">
+                                <label class="text-xs font-bold text-gray-500 uppercase">1. Kategori</label>
+                                <select id="catDropdown" class="std-input" required>
+                                    <option value="">– Pilih Kategori –</option>
+                                    <option value="variety_tv">Variety TV</option>
+                                    <option value="bonus_single">Bonus Single</option>
+                                    <option value="web_series">Web Content</option>
+                                    <option value="stage_theater">Stage/Theater</option>
+                                    <option value="drama">Drama</option>
+                                    <option value="movie">Movie</option>
+                                    <option value="concert">Concert</option>
+                                    <option value="performance">Performance</option>
+                                </select>
+                            </div>
+
+                            <!-- 2. Dropdown Nama Acara -->
+                            <div class="mb-3">
+                                <label class="text-xs font-bold text-gray-500 uppercase">2. Nama Acara</label>
+                                <select id="programDropdown" class="std-input disabled-input" disabled required>
+                                    <option value="">– Pilih Kategori Terlebih Dahulu –</option>
+                                </select>
+                                <p class="text-[10px] text-blue-600 mt-1 italic">
+                                    *Jika acara yang dicari tidak ada, DM admin MoeFang untuk menambahkan opsi
+                                </p>
+                            </div>
+
+                            <!-- 3. Dropdown Grup (Bonus Single) -->
+                            <div class="mb-3 hidden" id="groupDropdownContainer">
+                                <label class="text-xs font-bold text-gray-500 uppercase">3. Grup (Bonus Single)</label>
+                                <select id="groupDropdown" class="std-input">
+                                    <option value="">– Pilih Grup –</option>
+                                    <option value="nogizaka">Nogizaka46</option>
+                                    <option value="sakurazaka">Sakurazaka46</option>
+                                    <option value="hinatazaka">Hinatazaka46</option>
+                                    <option value="bokuao">Boku ga Mitakatta Aozora</option>
+                                </select>
+                            </div>
+
+                            <!-- 4. Dropdown Judul Single -->
+                            <div class="mb-1 hidden" id="singleDropdownContainer">
+                                <label class="text-xs font-bold text-gray-500 uppercase">4. Judul Single</label>
+                                <select id="singleDropdown" class="std-input disabled-input" disabled>
+                                    <option value="">– Pilih Grup Terlebih Dahulu –</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-[120px_1fr] items-start gap-2">
+                            <label class="input-label pt-2">Sub-judul</label>
+                            <textarea class="std-input h-24 resize-none"></textarea>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-[120px_1fr] items-start gap-2">
+                            <label class="input-label pt-2">Episode<span class="text-red-600">*</span></label>
+                            <div class="flex flex-col gap-1">
+                                <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+                                    <input type="number" id="episodeInput" min="0" class="std-input w-24" required>
+                                    <label class="flex items-center cursor-pointer select-none">
+                                        <input type="checkbox" id="unknownEpCheck">
+                                        <span>Tidak diketahui</span>
+                                    </label>
+                                </div>
+                                <p class="text-xs text-gray-600 mt-1 leading-relaxed">
+                                    Mohon ceklis 'tidak diketahui' jika ini garapan random, seperti member berpartisipasi dalam acara lain alias menjadi bintang tamu saja. Kalau kamu tahu episodenya, silakan input.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-[120px_1fr] items-start gap-2">
+                            <label class="input-label pt-2">Airing<span class="text-red-600">*</span></label>
+                            <div class="flex flex-col gap-1">
+                                <div class="flex flex-wrap items-center gap-4">
+                                <div class="flex gap-2 text-xs text-gray-600 text-center font-medium">
+                                    <div class="w-24">Tahun</div>
+                                    <div class="w-20">Bulan</div>
+                                    <div class="w-20">Tanggal</div>
+                                </div>
+                                    <div class="flex gap-2">
+                                        <select id="airingYear" class="std-input w-24 text-center" required>
+                                            <option value="" disabled selected>YYYY</option>
+                                            <script>for(let y=2026; y>=2015; y--) document.write(`<option value="${y}">${y}</option>`);</script>
+                                        </select>
+                                        <select id="airingMonth" class="std-input w-20 text-center" required>
+                                            <option value="" disabled selected>MM</option>
+                                            <script>for(let m=1; m<=12; m++) document.write(`<option value="${m.toString().padStart(2,'0')}">${m.toString().padStart(2,'0')}</option>`);</script>
+                                        </select>
+                                        <select id="airingDate" class="std-input w-20 text-center" required>
+                                            <option value="" disabled selected>DD</option>
+                                            <script>for(let d=1; d<=31; d++) document.write(`<option value="${d.toString().padStart(2,'0')}">${d.toString().padStart(2,'0')}</option>`);</script>
+                                        </select>
+                                    </div>
+                                    
+                                    <label class="flex items-center cursor-pointer select-none">
+                                        <input type="checkbox" id="unknownDateCheck">
+                                        <span class="text-sm">Tidak diketahui</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-[120px_1fr] items-start gap-2">
+                            <label class="input-label pt-1">Kategori<span class="text-red-600">*</span></label>
+                            <div>
+                                <!-- Radio Buttons ini LOCKED (disabled), diatur oleh JS berdasarkan Dropdown 1 -->
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 bg-gray-100 p-2 rounded border border-gray-300">
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="variety_tv" disabled> Variety TV</label>
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="bonus_single" disabled> Bonus Single</label>
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="web_series" disabled> Web Content</label>
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="stage_theater" disabled> Stage/Theater</label>
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="drama" disabled> Drama</label>
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="movie" disabled> Movie</label>
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="concert" disabled> Concert</label>
+                                    <label class="flex items-center text-gray-600 cursor-not-allowed"><input type="radio" name="kategori" value="performance" disabled> Performance</label>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-2 font-medium italic">Kategori otomatis terpilih berdasarkan dropdown judul acara di atas.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- KOLOM KANAN -->
+                    <div class="flex flex-col gap-8">
+                        
+                        <div class="flex flex-col gap-4">
+                            <h2 class="form-section-title">ALIH BAHASA<span class="text-red-600">*</span></h2>
+                            
+                            <div>
+                                <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-center gap-2 mb-2">
+                                    <label class="input-label">Fansub<span class="text-red-600">*</span></label>
+                                    <select id="fansubSelect" class="std-input" required>
+                                        <option value="">– pilih salah satu –</option>
+                                        <option value="moefang">MoeFang Subs</option>
+                                        <option value="other">Other Subs</option>
+                                    </select>
+                                </div>
+                                <div class="md:ml-[108px]">
+                                    <input type="text" id="otherFansubInput" class="std-input grey-placeholder-box" disabled placeholder="Nama fansub...">
+                                    <p class="text-xs text-gray-500 mt-1">Beri nama dengan benar, gunakan huruf besar di awal (kecuali seluruh kapital), intinya sesuai nama fansub itu sendiri.</p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-start gap-2 mt-2">
+                                <label class="input-label">Aktif?<span class="text-red-600">*</span></label>
+                                <div class="flex flex-col sm:flex-row gap-4">
+                                    <!-- Value disesuaikan dengan JSON -->
+                                    <label class="flex items-center"><input type="radio" name="status_fansub" value="active" required> Fansub aktif</label>
+                                    <label class="flex items-center"><input type="radio" name="status_fansub" value="inactive"> Fansub tidak aktif</label>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-center gap-2">
+                                <label class="input-label">Bahasa<span class="text-red-600">*</span></label>
+                                <div class="flex flex-row gap-6">
+                                    <!-- Value disesuaikan dengan JSON -->
+                                    <label class="flex items-center cursor-pointer">
+                                        <input type="radio" name="bahasa" value="id" required> 
+                                        <span class="flag-icon flag-icon-id flag-icon-squared"></span>　Indonesia
+                                    </label>
+                                    <label class="flex items-center cursor-pointer">
+                                        <input type="radio" name="bahasa" value="en"> 
+                                        <span class="flag-icon flag-icon-gb flag-icon-squared"></span>　Inggris
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <hr class="border-gray-400 mt-2">
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <h2 class="form-section-title">GRUP PARTISIPAN<span class="text-red-600">*</span></h2>
+                            
+                            <div class="grid grid-cols-2 md:grid-cols-4 gap-4" id="grupContainer">
+                                <label class="flex items-center"><input type="radio" name="grup" value="nogizaka" required> 乃木坂46</label>
+                                <label class="flex items-center"><input type="radio" name="grup" value="sakurazaka"> 櫻坂46</label>
+                                <label class="flex items-center"><input type="radio" name="grup" value="hinatazaka"> 日向坂46</label>
+                                <label class="flex items-center"><input type="radio" name="grup" value="bokuao"> 僕青</label>
+                            </div>
+                            
+                            <div id="grupError" class="text-red-600 text-sm hidden font-bold">Mohon pilih minimal satu grup.</div>
+
+                            <div class="mt-1">
+                                <label class="flex items-center cursor-pointer select-none">
+                                    <input type="checkbox" id="multiGroupCheck" class="w-4 h-4 mr-2">
+                                    <span>Dihadiri beberapa grup</span>
+                                </label>
+                            </div>
+
+                            <hr class="border-gray-400 mt-2">
+                        </div>
+                        
+                        <div class="flex flex-col gap-4">
+                            <h2 class="form-section-title">URL & THUMBNAIL<span class="text-red-600">*</span></h2>
+
+                            <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-center gap-2">
+                                <label class="input-label">URL Tipe<span class="text-red-600">*</span></label>
+                                <select class="std-input" required>
+                                    <option value="fansub_page">Fansub page URL</option>
+                                    <option value="direct_url">Direct URL</option>
+                                </select>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-start gap-2">
+                                <label class="input-label pt-2">URL<span class="text-red-600">*</span></label>
+                                <div class="flex flex-col gap-1 w-full">
+                                    <input type="url" class="std-input" required placeholder="http:// atau https://..." pattern="https?://.+" title="Wajib diawali dengan http:// atau https://">
+                                    <p class="text-xs text-red-600 mt-1 leading-relaxed font-medium">
+                                        ⚠️ Dilarang menginput direct URL jika fansub masih aktif, ataupun tidak aktif tapi link dari fansub masih tersedia. Direct URL hanya boleh jika fansub tersebut mengizinkannya.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-start gap-2">
+                                <label class="input-label pt-2">Thumbnail image</label>
+                                <div class="flex flex-col gap-1 w-full">
+                                    <input type="url" class="std-input" placeholder="http://...">
+                                    <p class="text-xs text-gray-600 mt-1">
+                                        Silakan input URL gambar yang sesuai dengan garapan ini. Jika tidak ada, akan otomatis diganti dengan placeholder.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr class="border-gray-400 mt-2">
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <h2 class="form-section-title flex items-center gap-2">
+                                PENGINPUT <i class="fas fa-lock text-sm"></i>
+                            </h2>
+
+                            <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-center gap-2">
+                                <label class="input-label">User</label>
+                                <input type="text" value="" class="std-input disabled-input" disabled>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-[100px_1fr] items-center gap-2">
+                                <label class="input-label">Status</label>
+                                <div class="flex items-center gap-2">
+                                    <span>Fansub Owner</span>
+                                    <i class="fas fa-check-circle text-black"></i>
+                                </div>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-1">Hanya dapat diubah oleh admin MoeFang. Ini adalah penanda penanggungjawab siapa yang input database ini.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="flex justify-end mt-12">
+                    <button type="submit" class="bg-gray-700 hover:bg-gray-800 text-white text-xl font-bold py-3 px-10 shadow-md transition-colors uppercase tracking-wider">
+                        SIMPAN
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+        <!-- ====================== TAB 2: FANSUB LIST ====================== -->
+        <div id="tab-fansub" class="tab-content">
+            <h2 class="text-2xl font-bold mb-4">Daftar Fansub Terdaftar</h2>
+            <div class="p-6 bg-white border border-gray-300 rounded shadow-sm text-center text-gray-500 italic">
+                -- Daftar fansub akan ditampilkan di sini --
+            </div>
+        </div>
+
+        <!-- ====================== TAB 3: ADMIN & VOLUNTEER ====================== -->
+        <div id="tab-admin" class="tab-content">
+            <h2 class="text-2xl font-bold mb-4">Admin & Volunteer List</h2>
+            <div class="overflow-x-auto">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Nickname</th>
+                            <th>Email</th>
+                            <th>Status</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MoeFang</td>
+                            <td>admin@moefang.com</td>
+                            <td><span class="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Active</span></td>
+                            <td>Fansub Owner</td>
+                        </tr>
+                        <tr>
+                            <td>Staff A</td>
+                            <td>staff.a@example.com</td>
+                            <td><span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Active</span></td>
+                            <td>Volunteer</td>
+                        </tr>
+                         <tr>
+                            <td>Staff B</td>
+                            <td>staff.b@example.com</td>
+                            <td><span class="bg-gray-100 text-gray-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">Inactive</span></td>
+                            <td>Volunteer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+    
+    <!-- External Logic Script -->
+    <script src="../js/script_ml_v1.js"></script>
+
+</body>
+</html>

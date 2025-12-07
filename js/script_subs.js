@@ -577,7 +577,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	function buildSongList(episodeData) {
 		const items = [];
-		for (let i = 1; i <= 6; i++) {
+		for (let i = 1; i <= 10; i++) {
 			const song = episodeData[`descSong${i}`];
 			if (song) {
 				const button = `

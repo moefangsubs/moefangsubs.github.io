@@ -4,9 +4,8 @@
 	"nameShow": "のぎ鍋",
 	"descSynopsis": "Sebuah acara pendek kurang dari 4 menit, dimana member Nogizaka46 akan mengobrol santai sambil menyantap nabe berdua.",
 	"availableEpisode": [
-		"01", "02", "03", "04"
+		"01", "02", "03", "04", "05"
 	],
-	"newUpdateCount": 2,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_noginabe.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabe{{eps}}.jpg",
@@ -35,7 +34,7 @@
 		"05": {
 			"descOnAirDate": "30 November 2025",
 			"memberParticipate": "井上和、弓木奈於、中西アルノ",
-			"linkHardsub": ""
+			"linkHardsub": "https://sfl.gl/23TUvNxD"
 		}	
 	},
 	"descEpisode": "| Episode {{eps}}"
