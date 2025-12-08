@@ -308,16 +308,21 @@ const ML_LOGIC = {
     addFansub: async () => {
         const name = document.getElementById('fs-name').value;
         const status = document.getElementById('fs-status').value === 'true';
+        
+        // Load All Inputs
         const web = document.getElementById('fs-web').value;
         const fb = document.getElementById('fs-fb').value;
+        const twitter = document.getElementById('fs-twitter').value;
+        const ig = document.getElementById('fs-ig').value;
         const trakteer = document.getElementById('fs-trakteer').value;
+        const kofi = document.getElementById('fs-kofi').value;
         
         let emailOwner = document.getElementById('fs-email').value;
 
         if (ML_LOGIC.role === 'admin') {
             emailOwner = ML_LOGIC.user.email;
         }
-		
+
         if (!name) return alert("Nama Fansub wajib diisi!");
         if (!emailOwner) return alert("Email wajib diisi!");
 
@@ -329,17 +334,79 @@ const ML_LOGIC = {
                 status: status,
                 link_web: web,
                 url_fb: fb,
+                url_twitter: twitter,
+                url_ig: ig,
                 url_trakteer: trakteer,
+                url_kofi: kofi,
                 email: emailOwner,
                 timestamp: firebase.firestore.FieldValue.serverTimestamp()
             });
             
             alert("Fansub berhasil ditambahkan!");
             document.getElementById('form-fansub').reset();
-            if(ML_LOGIC.role === 'admin') {
-                document.getElementById('fs-email').value = ML_LOGIC.user.email;
+            if(ML_LOGIC.role === 'admin') document.getElementById('fs-email').value = ML_LOGIC.user.email;
+            ML_LOGIC.loadFansubList();
+        } catch (e) {
+            alert("Error: " + e.message);
+        }
+    },
+
+    editFansub: async (id) => {
+        ML_LOGIC.editingFansubId = id;
+        
+        try {
+            const doc = await firebase.firestore().collection('masterlist_data').doc('fansub_parent').collection('list_fansubs').doc(id).get();
+            if (!doc.exists) return alert("Data tidak ditemukan!");
+            
+            const d = doc.data();
+            
+            document.getElementById('fs-name').value = d.name;
+            document.getElementById('fs-status').value = d.status ? 'true' : 'false';
+            document.getElementById('fs-email').value = d.email || '';
+            
+            // Populate Links
+            document.getElementById('fs-web').value = d.link_web || '';
+            document.getElementById('fs-fb').value = d.url_fb || '';
+            document.getElementById('fs-twitter').value = d.url_twitter || '';
+            document.getElementById('fs-ig').value = d.url_ig || '';
+            document.getElementById('fs-trakteer').value = d.url_trakteer || '';
+            document.getElementById('fs-kofi').value = d.url_kofi || '';
+            
+            if(d.logo && ML_LOGIC.role === 'leader') {
+                document.getElementById('fs-logo').value = d.logo;
             }
             
+            document.getElementById('form-fansub').scrollIntoView({ behavior: 'smooth' });
+        } catch (e) {
+            console.error("Gagal load edit:", e);
+        }
+    },
+
+    saveFansub: async () => {
+        if (!ML_LOGIC.editingFansubId) {
+            return alert("Mode Tambah Baru. Gunakan tombol Tambah.");
+        }
+
+        const id = ML_LOGIC.editingFansubId;
+        const status = document.getElementById('fs-status').value === 'true';
+        
+        const payload = {
+            status: status,
+            link_web: document.getElementById('fs-web').value,
+            url_fb: document.getElementById('fs-fb').value,
+            url_twitter: document.getElementById('fs-twitter').value,
+            url_ig: document.getElementById('fs-ig').value,
+            url_trakteer: document.getElementById('fs-trakteer').value,
+            url_kofi: document.getElementById('fs-kofi').value
+        };
+
+        try {
+            await firebase.firestore().collection('masterlist_data').doc('fansub_parent').collection('list_fansubs').doc(id).update(payload);
+            
+            alert("Perubahan disimpan!");
+            document.getElementById('form-fansub').reset();
+            ML_LOGIC.editingFansubId = null;
+            if(ML_LOGIC.role === 'admin') document.getElementById('fs-email').value = ML_LOGIC.user.email;
             ML_LOGIC.loadFansubList();
         } catch (e) {
             alert("Error: " + e.message);
