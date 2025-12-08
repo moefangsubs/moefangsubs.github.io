@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- STATE MANAGEMENT ---
     let salesChart;
     let fullData = [];
     let narrativeData = {};
@@ -9,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentMetric = 'both';
     let currentPeriod = 'both';
     const imageCache = {};
+
+    // --- ELEMENT SELECTORS ---
     const ctx = document.getElementById('salesChart');
     const chartWrapper = document.querySelector('.chart-wrapper');
     const rangeFilter = document.getElementById('range-filter');
@@ -23,18 +26,24 @@ document.addEventListener('DOMContentLoaded', () => {
     const narrativeContainer = document.getElementById('narrative-container');
     const narrativeTitle = document.getElementById('narrative-title');
     const narrativeText = document.getElementById('narrative-text');
+
     if (!ctx || !chartWrapper || !rangeFilter || !chartTypeControls || !dataLabelToggle || !xAxisStyleFilter || !metricFilter || !periodFilter || !loadingSpinner || !tableBody || !introNarrative || !narrativeContainer || !narrativeTitle || !narrativeText) {
         console.error("Elemen kontrol, narasi, atau tabel tidak lengkap!");
         return;
     }
+
     const getCssVariable = (variable) => getComputedStyle(document.documentElement).getPropertyValue(variable).trim();
+
+    // --- FUNGSI & PLUGIN ---
     async function fetchData() {
         try {
             const songPromise = fetch('../store/single/songall.json').then(res => res.json());
             const salesPromise = fetch('../store/single/single_sales.json').then(res => res.json());
             const [allSongsData, salesAndSummaryData] = await Promise.all([songPromise, salesPromise]);
+            
             const salesData = salesAndSummaryData.sales;
             narrativeData = salesAndSummaryData.summary;
+
             const processedData = [];
             Object.keys(allSongsData).forEach(key => {
                 if (key.startsWith('s') && allSongsData[key].length > 0) {
@@ -46,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             oricon_week1: salesData[key].oricon_week1 * 10000,
                             billboard_week1: salesData[key].billboard_week1 ? salesData[key].billboard_week1 * 10000 : null
                         };
-                        processedData.push({ key: key, singleNumber: singleNumber, number: String(singleNumber).padStart(2, '0'), title: aSide.titleJp, coverUrl: `https: 
+                        processedData.push({ key: key, singleNumber: singleNumber, number: String(singleNumber).padStart(2, '0'), title: aSide.titleJp, coverUrl: `https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_${key}a.jpg`, sales: exactSales });
                     }
                 }
             });
@@ -54,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
             introNarrative.innerHTML = narrativeData.intro;
         } catch (error) { console.error("Gagal memuat data:", error); loadingSpinner.innerHTML = `<p>Gagal memuat data.</p>`; }
     }
+
     function populateNarrative(filterKey) {
         const titleMap = {
             'all': 'Semua Single',
@@ -63,9 +73,11 @@ document.addEventListener('DOMContentLoaded', () => {
             'covid_era': 'Era Pandemi (Single 26-31)',
             'new_era': 'Era Baru (Single 32~)'
         };
+        
         narrativeTitle.textContent = titleMap[filterKey] || 'Analisis';
         narrativeText.textContent = narrativeData[filterKey] || 'Pilih rentang untuk melihat analisis.';
     }
+
     function populateTable(data, allData) {
         tableBody.innerHTML = '';
         const formatNumber = (num) => num ? num.toLocaleString('id-ID') : '-';
@@ -87,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
             tableBody.appendChild(row);
         });
     }
+
     const axisImagePlugin = {
         id: 'axisImagePlugin',
         afterDraw(chart) {
@@ -102,15 +115,18 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     };
+
     function drawImage(chart, url, x, y, size) {
         let img = imageCache[url];
         if (!img) { img = new Image(); img.src = url; img.onload = () => { imageCache[url] = img; chart.draw(); }; }
         if (img.complete) chart.ctx.drawImage(img, x, y, size, size);
     }
+    
     function createOrUpdateChart() {
         if (salesChart) salesChart.destroy();
         const isMobile = window.innerWidth <= 768;
         const type = isMobile ? 'horizontalBar' : currentChartType;
+        
         let data = [];
         switch (currentFilter) {
             case 'all': data = fullData; break;
@@ -120,13 +136,16 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'covid_era': data = fullData.filter(d => d.singleNumber >= 26 && d.singleNumber <= 31); break;
             case 'new_era': default: data = fullData.filter(d => d.singleNumber >= 32); break;
         }
+        
         populateTable(data, fullData);
         populateNarrative(currentFilter);
+
         const sourceDatasets = {
             oriconDay: { label: 'Oricon First Day', data: data.map(d => d.sales.oricon_day1), borderColor: getCssVariable('--chart-color-oricon-day') },
             oriconWeek: { label: 'Oricon First Week', data: data.map(d => d.sales.oricon_week1), borderColor: getCssVariable('--chart-color-oricon-week') },
             billboardWeek: { label: 'Billboard First Week', data: data.map(d => d.sales.billboard_week1), borderColor: getCssVariable('--chart-color-billboard') }
         };
+
         let activeDatasets = [];
         if (currentMetric === 'both' || currentMetric === 'oricon') {
             if(currentPeriod === 'both' || currentPeriod === 'daily') activeDatasets.push(sourceDatasets.oriconDay);
@@ -135,10 +154,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentMetric === 'both' || currentMetric === 'billboard') {
              if(currentPeriod === 'both' || currentPeriod === 'weekly') activeDatasets.push(sourceDatasets.billboardWeek);
         }
+        
         const chartData = {
             labels: data.map(d => ({ title: d.title, coverUrl: d.coverUrl, number: d.number })),
             datasets: activeDatasets
         };
+        
         const isHorizontal = type === 'horizontalBar';
         const formatCompactNumber = (value) => {
             if (value === null || value === undefined) return '';
@@ -146,6 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (value >= 1000) return (value / 1000).toFixed(0) + 'k';
             return value.toFixed(0);
         };
+        
         let datalabelsConfig;
         if (isHorizontal) {
             const numActiveDatasets = activeDatasets.length > 0 ? activeDatasets.length : 1;
@@ -169,6 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 padding: 4, formatter: formatCompactNumber
             };
         }
+
         const config = {
             type: type === 'line' ? 'line' : 'bar',
             data: chartData,
@@ -236,6 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         };
+
         config.data.datasets.forEach(dataset => {
             dataset.tension = 0;
             dataset.backgroundColor = dataset.borderColor;
@@ -245,21 +269,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 dataset.barThickness = 22;
             }
         });
+
         salesChart = new Chart(ctx, config);
         loadingSpinner.style.display = 'none';
     }
+
     function handleUpdate() {
         loadingSpinner.style.display = 'flex';
         setTimeout(createOrUpdateChart, 50);
     }
+    
     async function init() {
         await fetchData();
         handleUpdate();
+        
         rangeFilter.addEventListener('change', (e) => { currentFilter = e.target.value; handleUpdate(); });
         dataLabelToggle.addEventListener('change', (e) => { showDataLabels = e.target.checked; handleUpdate(); });
         xAxisStyleFilter.addEventListener('change', (e) => { xAxisStyle = e.target.value; handleUpdate(); });
         metricFilter.addEventListener('change', (e) => { currentMetric = e.target.value; handleUpdate(); });
         periodFilter.addEventListener('change', (e) => { currentPeriod = e.target.value; handleUpdate(); });
+
         chartTypeControls.addEventListener('click', (e) => {
             if (e.target.classList.contains('chart-type-btn')) {
                 chartTypeControls.querySelector('.active').classList.remove('active');
@@ -268,8 +297,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 handleUpdate();
             }
         });
+        
         let resizeTimer;
         window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(handleUpdate, 250); });
     }
+
     init();
 });
