@@ -1,18 +1,11 @@
-/*
- * HBD Animation Styles
- */
-
-/* Override body styles from style_main.css */
 body {
     background-color: #ff9933 !important;
     overflow: hidden !important;
 }
-
 body::before {
     background-image: none !important;
     display: none !important;
 }
-
 #sprite-container {
     position: fixed;
     top: 0;
@@ -29,18 +22,13 @@ body::before {
 .btn-submit {
     background-color: var(--kakki-o1) !important;
 }
-
 .btn-submit, .btn-link {
     border: 2px solid var(--kakki-o1) !important;
 }
-
 .btn-submit:hover {
     background-color: var(--kakki-g4) !important;
     border: 2px solid var(--kakki-o2) !important;
 }
-
-
-/* Individual sprite style */
 .sprite {
     position: absolute;
     bottom: -500px;
@@ -50,8 +38,6 @@ body::before {
     will-change: transform;
     max-width: 250px;
 }
-
-/* The fixed image in the corner */
 #kakki-corner {
     position: fixed;
     right: 0;
@@ -61,8 +47,6 @@ body::before {
     z-index: 2;
     pointer-events: none;
 }
-
-/* Keyframes for the upward movement */
 @keyframes move-up {
     from {
         transform: translateY(0);
@@ -73,38 +57,30 @@ body::before {
         opacity: 0.8;
     }
 }
-
-/* Ensure content stays on top */
 .form-container, #message-area {
     position: relative;
     z-index: 10;
 }
-
-/* Media query to adjust kakki image on smaller screens */
 @media (max-width: 768px) {
     #kakki-corner {
         width: 200px;
     }
 }
-
-/* --- Animasi Spark dari MoePlay --- */
 #spark-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0; /* Di belakang sprite HBD */
+    z-index: 0; 
     pointer-events: none;
 }
-
 .spark {
     position: absolute;
     opacity: 0;
     animation-name: twinkle;
     animation-timing-function: ease-in-out;
 }
-
 @keyframes twinkle {
     0% {
         opacity: 0;

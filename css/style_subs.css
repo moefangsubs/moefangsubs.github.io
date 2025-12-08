@@ -1,22 +1,15 @@
 @import url('style.css');
-
-/* --- Variabel Global --- */
 :root {
 	--pixel-border-clip-path-outer: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
 	--pixel-border-clip-path-border: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
 }
-
 * {
     box-sizing: border-box;
 }
-
-
-/* --- Tata Letak Halaman Utama --- */
 body.subs-page {
     height: auto;
     min-height: 100vh;
 }
-
 #subs-main-container {
     display: flex;
     flex-wrap: wrap;
@@ -26,32 +19,22 @@ body.subs-page {
     gap: 2rem;
     align-items: flex-start;
 }
-
-/* === KUNCI PERBAIKAN: Aturan Flex diterapkan pada WRAPPER === */
-/* Wrapper untuk #episode-list-container */
 #subs-main-container > .pixel-border-wrapper:first-child {
     flex: 0 1 calc(30% - 1rem);
     position: sticky;
     top: 2rem;
 }
-
-/* Wrapper untuk #content-container */
 #subs-main-container > .pixel-border-wrapper:nth-child(2) {
     flex: 0 1 calc(70% - 1rem);
 }
-/* ============================================================== */
-
 #episode-list-container {
-    /* Properti flex dihapus dari sini */
     max-height: 90vh;
     overflow-y: auto;
-    background-color: rgba(255, 255, 255, 0.85); /* Background dipindah ke item */
+    background-color: rgba(255, 255, 255, 0.85); 
     padding: 1rem;
     backdrop-filter: blur(5px);
 }
-
 #content-container {
-    /* Properti flex dihapus dari sini */
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -59,14 +42,11 @@ body.subs-page {
     padding: 1.5rem;
     backdrop-filter: blur(5px);
 }
-
-/* --- Gaya untuk Pixel Border (Reusable) --- */
 .pixel-border-wrapper {
 	position: relative;
 	padding-bottom: 3px;
 	padding-right: 3px;
 }
-
 .pixel-border-shadow {
 	content: "";
 	position: absolute;
@@ -79,15 +59,13 @@ body.subs-page {
 	transform: translate(3px, 3px);
 	clip-path: var(--pixel-border-clip-path-outer);
 }
-
 .pixel-border-item {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	z-index: 2; /* Di depan bayangan */
+	z-index: 2; 
 	clip-path: var(--pixel-border-clip-path-outer);
 }
-
 .pixel-border-item::after {
 	content: "";
 	position: absolute;
@@ -100,9 +78,6 @@ body.subs-page {
 	clip-path: var(--pixel-border-clip-path-border);
 	pointer-events: none;
 }
-
-
-/* --- Detail Konten --- */
 #content-header {
     display: flex;
     justify-content: space-between;
@@ -119,8 +94,6 @@ body.subs-page {
 .like-button:disabled { cursor: not-allowed; filter: grayscale(80%); }
 .like-button img { width: 45px; height: 45px; }
 .like-count { font-weight: bold; font-family: 'Space Mono', monospace; color: var(--moe); font-size: 1.2em; min-width: 2ch; text-align: center; }
-
-/* --- Daftar Episode --- */
 #episode-list-container h4 {
     margin: 0 0 1rem 0;
     font-size: 14pt;
@@ -141,9 +114,6 @@ body.subs-page {
 .new-label { position: absolute; top: -1px; right: -1px; background-color: #ff4757; color: white; padding: 2px 6px; font-size: 9pt; font-weight: 700; border-radius: 0 0 0 5px; z-index: 2; line-height: 1.2; }
 .episode-item.is-new { border-color: #ff4757; box-shadow: 0 0 9px 3px #ff4757; }
 .episode-item.is-new.active { box-shadow: 0 0 10px var(--moe-tint1); }
-
-
-/* --- Thumbnails, Sinopsis, Info, dll. --- */
 #content-thumbnails .main-thumb { width: 100%; }
 #content-thumbnails .small-thumbs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
 #content-thumbnails .small-thumbs-grid.three-items { grid-template-columns: 1fr 1fr 1fr; }
@@ -166,9 +136,6 @@ body.subs-page {
 .info-list .info-value a { text-decoration: none; font-weight: 400; }
 .info-list .info-value a:hover { color: var(--moe-shade-max2); }
 .song-list li { justify-content: space-between; }
-
-
-/* --- Tombol Download dan YouTube --- */
 #content-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 #content-buttons .full-width { grid-column: span 2; }
 #content-buttons .dl-button-wrapper { display: block; }
@@ -184,18 +151,12 @@ body.subs-page {
 .song-list .yt-button-wrapper .pixel-border-item:hover { background: var(--moe); }
 .song-list .yt-button-wrapper .pixel-border-item:hover .Youtube-btn { color: white; }
 .song-list .yt-button-wrapper .pixel-border-item::after { background: var(--moe); }
-
-
-/* --- Password Box --- */
 #password-section { margin-top: 1rem; }
 #password-section .pixel-border-item { padding: 1rem; background-color: var(--moe-tint7); text-align: center; }
 #password-box { display: flex; justify-content: center; align-items: center; gap: 10px; }
 #password-display { background: white; padding: 8px 12px; border: 2px solid var(--moe-tint4); font-family: 'Space Mono', monospace; color: var(--moe); text-align: center; letter-spacing: 2px; flex-grow: 1; min-width: 0; width: 100pt; height: 35pt; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 #password-box button { height: 35pt; padding: 8px 12px; border: 2px solid var(--moe-tint2); background-color: var(--moe-tint4); color: white; cursor: pointer; font-family: 'Space Mono', monospace; font-weight: 700; }
 #password-box button:hover { background-color: white; color: var(--moe); }
-
-
-/* --- Popup & Overlay --- */
 #popup-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); display: none; align-items: center; justify-content: center; z-index: 1000; }
 #popup-box { background: var(--moe-tint7); color: var(--moe); padding: 2rem; text-align: center; border: 5px solid var(--moe); }
 #popup-box h2 { margin-top: 0; }
@@ -204,13 +165,9 @@ body.subs-page {
 #image-popup-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.85); display: flex; align-items: center; justify-content: center; z-index: 2000; cursor: pointer; opacity: 0; visibility: hidden; transition: opacity 0.3s ease, visibility 0.3s ease; }
 #image-popup-overlay.visible { opacity: 1; visibility: visible; }
 #popup-image { max-width: 90%; max-height: 90vh; object-fit: contain; cursor: default; }
-
-
-/* --- FAQ Container --- */
 #faq-container-wrapper {
     width: 90%;
     max-width: 1400px;
-    /* margin: 2rem auto; */
 }
 #faq-container {
     display: flex;
@@ -220,14 +177,12 @@ body.subs-page {
     padding: 17pt 0pt;
     align-items: center;
 }
-
 div#faq-warning,
 div#faq-softsub,
 div#faq-hardsub,
 div#faq-main {
     width: 95%;
 }
-
 .faq-item .pixel-border-item { display: flex; flex-direction: column; }
 .faq-header { padding: 0.8rem 1.2rem; font-weight: 700; font-size: 1.2em; cursor: pointer; user-select: none; display: flex; justify-content: space-between; align-items: center; transition: filter 0.2s ease; }
 .faq-header:hover { filter: brightness(1.1); }
@@ -239,8 +194,6 @@ div#faq-main {
 .faq-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-in-out, padding 0.3s ease; padding: 0 1.5rem; }
 .faq-content.visible { padding: 1rem 1.5rem 1.5rem; max-height: 1000px; }
 .faq-content ul, .faq-content ol { margin: 0; padding-left: 25px; display: flex; flex-direction: column; gap: 0.8rem; line-height: 1.6; }
-
-/* Warna Spesifik FAQ */
 #faq-warning .pixel-border-item {
     background-color: #d32f2f;
 }
@@ -251,9 +204,6 @@ div#faq-main {
 #faq-softsub .faq-header, #faq-hardsub .faq-header, #faq-softsub .faq-content, #faq-hardsub .faq-content { color: white; }
 #faq-main .pixel-border-item { background-color: var(--moe); }
 #faq-main .faq-header, #faq-main .faq-content { color: var(--moe-tint7); }
-
-
-/* --- Penyesuaian Responsif --- */
 @media (max-width: 900px) {
 	#subs-main-container {
 		width: 90%;
@@ -274,7 +224,6 @@ div#faq-main {
 		width: 100%;
 	}
 }
-
 @media (max-width: 600px) {
     #content-header h1 { font-size: 18pt; }
     #content-header h3 { font-size: 12pt; }
@@ -286,8 +235,6 @@ div#faq-main {
     #content-buttons { grid-template-columns: 1fr; }
     #content-buttons .full-width { grid-column: span 1; }
 }
-
-/* --- Warning/Info Box --- */
 .warning-box-wrapper {
     width: 100%;
 }
@@ -302,15 +249,13 @@ div#faq-main {
     margin: 0;
 }
 .warning-box a {
-    color: #FFEB3B; /* Kuning cerah agar kontras */
+    color: #FFEB3B; 
     font-weight: 700;
     text-decoration: underline;
 }
 .warning-box a:hover {
     color: white;
 }
-
-/* Warna berdasarkan Tipe */
 .warning-box.type-warning {
 	background: #8B0000; 
 	background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);
@@ -320,17 +265,15 @@ div#faq-main {
 	background: #4682B4;
 	background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
 	background: linear-gradient(to right, #182848, #4b6cb7);
-
 }
 .warning-box.type-request {
     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); /* Emas */
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); 
 }
 .warning-box.type-stop {
 	background: #d32f2f;
 	background: -webkit-linear-gradient(to right, #e65245, #e43a15);
 	background: linear-gradient(to right, #e65245, #e43a15);
-
 }
 .warning-box.type-notreq {
 	background: #36454F;

@@ -1,18 +1,14 @@
-/* css/style_songcategory.css */
-
 body {
     background-color: var(--moe-tint6);
     color: var(--moe);
     font-family: 'Space Mono', monospace;
 }
-
 #main-content {
     width: 90%;
     max-width: 1200px;
     margin: 2rem auto;
     padding: 1rem;
 }
-
 #main-content h1 {
     font-size: 2.5rem;
     color: var(--moe);
@@ -23,7 +19,6 @@ body {
     align-items: center;
     text-align: center;
 }
-
 #main-content p {
     font-size: 1rem;
     color: var(--moe-shade-min1);
@@ -31,11 +26,9 @@ body {
     align-items: center;
     text-align: center;
 }
-
 .category-wrapper {
     margin-bottom: 2.5rem;
 }
-
 .category-title {
     font-size: 1.8rem;
     color: var(--moe-shade-max1);
@@ -47,7 +40,6 @@ body {
     align-items: center;
     gap: 1rem;
 }
-
 .category-title-img {
     width: 50px;
     height: 50px;
@@ -55,13 +47,11 @@ body {
     object-fit: cover;
     border: 2px solid var(--moe-tint5);
 }
-
 .song-list-container {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
-
 .song-item {
     display: flex;
     background-color: #ffffff;
@@ -72,19 +62,16 @@ body {
     transition: all 0.3s ease;
     box-shadow: 4px 4px 0px 0px var(--moe-tint5);
 }
-
 .song-item:hover {
     transform: translate(-4px, -4px);
     box-shadow: 8px 8px 0px 0px var(--moe-tint4);
 }
-
 .song-item-img img {
     width: 120px;
     height: 120px;
     object-fit: cover;
     border: 2px solid var(--moe-tint6);
 }
-
 .song-item-details {
     flex-grow: 1;
     display: flex;
@@ -92,38 +79,32 @@ body {
     justify-content: flex-start;
     min-height: 120px;
 }
-
 .song-titles .jpn {
     display: block;
     font-size: 1.6rem;
     font-weight: bold;
     color: var(--moe-shade-min1);
 }
-
 .song-titles .romaji {
     display: block;
     font-size: 1rem;
     color: var(--moe-shade-max1);
     margin-top: 0.25rem;
 }
-
 .song-meta {
     font-size: 0.9rem;
     color: var(--moe-shade-min2);
     margin-top: 0.5rem;
 }
-
 .song-unit-name {
     font-weight: bold;
     color: var(--moe-shade-max2);
 }
-
 .song-item-action {
     align-self: flex-end;
-    margin-top: auto; /* Push button to the bottom */
-    margin-left: auto; /* Push button to the right */
+    margin-top: auto; 
+    margin-left: auto; 
 }
-
 .details-button {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -133,30 +114,24 @@ body {
     font-weight: bold;
     transition: background-color 0.2s ease;
 }
-
 .details-button:hover {
     background-color: var(--moe-shade-max2);
 }
-
-/* Member Photo Grid */
 .member-photo-grid {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
 }
-
 .member-photo-grid-item {
     width: 45px;
     height: 45px;
     object-fit: cover;
     border: 2px solid var(--moe-tint6);
 }
-
 .status-lulus {
     filter: grayscale(100%) brightness(0.7);
 }
-
 @media (max-width: 600px) {
     .song-item {
         flex-direction: column;
@@ -165,28 +140,22 @@ body {
     .song-item-img {
         align-self: center;
     }
-
     .song-item-details {
         min-height: auto;
     }
-
     .song-meta, .song-titles {
         margin-bottom: 0.75rem;
     }
-    
     .song-item-action {
         align-self: flex-end;
         text-align: right;
     }
-
     #main-content h1 {
         font-size: 1.8rem;
     }
-
     .category-title {
         font-size: 1.4rem;
     }
-
     .song-titles .jpn {
         font-size: 1.3rem;
     }

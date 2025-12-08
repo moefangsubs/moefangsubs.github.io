@@ -1,5 +1,3 @@
-/* -- Styles for Sitemap Page Components -- */
-/* Welcome Header */
  .welcome {
      width: 100%;
      height: 0;
@@ -31,7 +29,6 @@
          width: 50%;
     }
 }
-/* Acara Slider */
  .acara-wrapper {
      position: relative;
      width: 100%;
@@ -160,7 +157,6 @@
      font-weight: 400;
      -webkit-font-smoothing: antialiased;
 }
-/* Other Fansub List */
  .acara-container ul {
      display: flex;
      flex-wrap: wrap;
@@ -203,7 +199,6 @@
      background-position: center;
      z-index: 0;
 }
-/* Partner Logos */
  .acara-container li a[title="Kuneeel"]::after {
      background-image: url('https://ik.imagekit.io/moearchive/partners/kuneeel.png');
 }

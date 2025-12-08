@@ -1,43 +1,34 @@
-/* General Styling for Chord Page */
 :root {
 	--pixel-update-clip-path-outer: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
 	--pixel-update-clip-path-border: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
 }
-
 .warning-footer {
 	margin-top: 50pt !important;
 }
-
 body {
 	background-color: var(--moe-tint7);
 	color: var(--moe);
 }
-
 .container {
 	width: 90%;
 	max-width: 800px;
 	margin-top: 2rem;
 	margin-bottom: 3rem;
 }
-
 .loading-indicator {
 	text-align: center;
 	padding: 2rem;
 	font-size: 1.2em;
 	color: var(--moe-shade-max1);
 }
-
-/* Chord List View */
 #chord-list-container .logo-container {
 	text-align: center;
 	margin-bottom: 2rem;
 }
-
 #chord-list-container .moechord-logo {
 	width: 200px;
 	opacity: 0.9;
 }
-
 .group-container {
 	display: flex;
 	margin-bottom: 1.5rem;
@@ -46,7 +37,6 @@ body {
 	align-content: center;
 	align-items: center;
 }
-
 .group-title {
 	margin: 0 0 1rem 0;
 	padding-bottom: 0.5rem;
@@ -66,11 +56,9 @@ body {
 	vertical-align: sub;
 	top: 0;
 }
-
 .ngz:before { background-image: url('../ico/8bit_nogi.png');}
 .skr:before { background-image: url('../ico/8bit_saku.png');}
 .hnt:before { background-image: url('../ico/8bit_hina.png');}
-
 .song-list {
 	display: flex;
 	flex-direction: row;
@@ -87,7 +75,6 @@ body {
 	padding-right: 3px;
 	transition: all 1s ease;
 }
-
 .song-item-shadow {
 	content: "";
 	position: absolute;
@@ -100,7 +87,6 @@ body {
 	transform: translate(2px, 2px);
 	clip-path: var(--pixel-update-clip-path-outer);
 }
-
 .song-item {
 	width: max-content;
 	height: 100%;
@@ -115,7 +101,6 @@ body {
 	clip-path: var(--pixel-update-clip-path-outer);
 	transition: all 0.2s ease;
 }
-
 .song-item::after {
 	content: "";
 	position: absolute;
@@ -128,48 +113,35 @@ body {
 	clip-path: var(--pixel-update-clip-path-border);
 	pointer-events: none;
 }
-
 .song-item-wrapper:hover .song-item {
 	transform: scale(1.1);
 	background-color: var(--moe-tint4);
 	color: white;
 	z-index:5;
 }
-
 .song-item-wrapper:hover .song-item-shadow {
 	transform: translate(6px, 6px);
 }
-/* END MODIFICATION */
-
-
-/* Chord Detail View */
 #chord-info {
 	text-align: center;
 	margin-bottom: 1.5rem;
 }
-
 #song-title-ro {
 	font-size: 2em;
 	margin: 0;
 	color: var(--moe-shade-min2);
 }
-
 #song-title-jp {
 	font-size: 1.2em;
 	margin: 0;
 	font-weight: 500;
 	color: var(--moe-shade-max1);
 }
-
-/* Spotify Player */
 #spotify-player-container {
-	/* position: sticky; */
 	top: 10px;
 	z-index: 1000;
 	transition: all 0.3s ease-in-out;
 }
-
-/* Controls */
 #controls-container {
 	position: sticky;
 	display: flex;
@@ -187,7 +159,6 @@ body {
 	display: flex;
 	gap: 2pt;
 }
-
 #controls-container.floating {
     position: fixed;
     bottom: 10px;
@@ -199,12 +170,10 @@ body {
     top: auto;
     z-index: 999;
 }
-
 .control-label {
 	font-weight: bold;
 	margin-right: 10px;
 }
-
 .speed-buttons button {
 	font-family: "Space Mono", monospace;
 	background-color: white;
@@ -215,28 +184,22 @@ body {
 	font-weight: 700;
 	transition: all 0.2s ease;
 }
-
 .speed-buttons button:hover {
 	background-color: var(--moe-shade-min1);
 	color: white;
 }
-
 .speed-buttons button.active {
 	background-color: var(--moe);
 	color: white;
 }
-
-
-/* Chord Content Styling */
 #chord-content {
 	padding: 1rem;
 	line-height: 1.8;
 	color: var(--moe-shade-min3);
-	font-family: "Space Mono", monospace; /* Font mono untuk chord */
+	font-family: "Space Mono", monospace; 
 	background: white;
 	border: 3px solid var(--moe-tint5);
 }
-
 #chord-content font {
 	font-size: 1.1em;
 	color: var(--moe-shade-max2);
@@ -244,28 +207,21 @@ body {
 	display: block;
 	margin: 1rem 0;
 }
-
 #chord-content p {
 	margin: 0 0 0.5em 0;
 	padding: 0;
 }
-
 #chord-content p.chord.big,
 #chord-content p.chord {
-	margin-top: 1.5em; /* Memberi jarak antar bagian lagu */
+	margin-top: 1.5em; 
 }
-
 #chord-content .big {
 	font-size: 1.1em;
 }
-
-/* SOLUSI CHORD TUMPANG TINDIH */
 .chunk {
 	position: relative;
-	/* display: inline-flex; */
 	flex-direction: row;
 }
-
 .chunk:before {
 	content: attr(data-chord);
 	position: absolute;
@@ -280,8 +236,6 @@ body {
 	line-height: 1;
 	z-index: 10;
 }
-
-/* Menghilangkan margin pada chunk terakhir di setiap baris */
 p > .chunk:last-child {
 	margin-right: 0;
 }

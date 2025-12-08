@@ -1,6 +1,4 @@
-// database
 export const db_saku = [
-
 { url: "https://files.catbox.moe/9j2nmv.mp3", title: "Overture" },
 { url: "https://files.catbox.moe/a2ihvj.mp3", title: "Masatsukeisuu" },
 { url: "https://files.catbox.moe/twj61t.mp3", title: "Joukenhansha de Naketekuru" },
@@ -86,5 +84,4 @@ export const db_saku = [
 { url: "https://files.catbox.moe/z9kteb.mp3", title: "Ikanai de" },
 { url: "https://files.catbox.moe/j42net.mp3", title: "ULTRAVIOLET" },
 { url: "https://files.catbox.moe/h0lfzy.mp3", title: "Yarushikanaijan" },
-
 ];

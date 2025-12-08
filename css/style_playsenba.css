@@ -1,17 +1,11 @@
-/* Import variabel dari style.css */
 @import url('style.css');
-
 :root {
 	--nogi1: #87278f;
-	/* Warna ungu Nogizaka */
 	--nogi2: #ff9fff;
-	/* Warna pink Nogizaka */
 }
-
 html, body {
     height: 100%;
 }
-
 body {
     background-color: var(--moe-tint7);
     color: var(--moe);
@@ -20,14 +14,12 @@ body {
     overflow-y: auto; 
     overflow-x: hidden;
 }
-
 #auth-container {
 	position: fixed;
 	top: 10px;
 	right: 15px;
 	z-index: 1010;
 }
-
 .senba-creator-container {
 	display: flex;
 	gap: 20px;
@@ -37,8 +29,6 @@ body {
 	height: calc(100vh - 80px);
 	transition: all 0.4s ease-in-out;
 }
-
-/* --- SIDE PANELS (KIRI & KANAN) --- */
 .side-panel {
 	flex: 0 0 300px;
 	background-color: white;
@@ -49,11 +39,9 @@ body {
 	flex-direction: column;
 	transition: all 0.4s ease-in-out;
 }
-
 .side-panel h3 {
 	margin: 0;
 }
-
 .member-filter {
 	display: flex;
 	align-items: center;
@@ -62,7 +50,6 @@ body {
 	gap: 10px;
 	background-color: var(--moe-tint6);
 }
-
 .feed-header,
 .builder-header {
 	display: flex;
@@ -73,7 +60,6 @@ body {
 	color: white;
 	border-radius: 4px 4px 0 0;
 }
-
 #toggle-feed-btn,
 #focus-mode-btn {
 	background: none;
@@ -82,28 +68,22 @@ body {
 	cursor: pointer;
 	font-size: 16px;
 }
-
 #member-pool,
 #public-feed {
 	padding: 10px;
 	overflow-y: auto;
 	height: 100%;
 }
-
 .custom-scrollbar::-webkit-scrollbar {
 	width: 8px;
 }
-
 .custom-scrollbar::-webkit-scrollbar-track {
 	background: var(--moe-tint6);
 }
-
 .custom-scrollbar::-webkit-scrollbar-thumb {
 	background-color: var(--moe);
 	border-radius: 10px;
 }
-
-/* --- DAFTAR MEMBER (KIRI) --- */
 #member-pool {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +91,6 @@ body {
     align-content: flex-start;
     justify-content: center;
 }
-
 .member-item {
 	width: 70px;
 	cursor: grab;
@@ -121,11 +100,9 @@ body {
 	user-select: none;
 	flex-shrink: 0;
 }
-
 .member-item.dragging {
 	opacity: 0.4;
 }
-
 .member-item img.member-photo {
 	width: 60px;
 	height: 60px;
@@ -134,7 +111,6 @@ body {
 	object-fit: cover;
 	pointer-events: none;
 }
-
 .member-item .member-name {
 	font-size: 10px;
 	font-weight: bold;
@@ -143,33 +119,24 @@ body {
 	text-overflow: ellipsis;
 	padding: 0 2px;
 }
-
 .member-item .svg-overlay {
 	display: none;
 }
-
-/* BARU: Border warna berdasarkan generasi */
 #member-pool .member-item.gen-3.aktif .member-photo {
 	border-color: dodgerblue;
 }
-
 #member-pool .member-item.gen-4.aktif .member-photo {
 	border-color: orange;
 }
-
 #member-pool .member-item.gen-5.aktif .member-photo {
 	border-color: #d966ff;
 }
-
 #member-pool .member-item.gen-6.aktif .member-photo {
 	border-color: turquoise;
 }
-
 #member-pool .member-item.lulus .member-photo {
 	border-color: gray;
 }
-
-/* --- FORMATION BUILDER (TENGAH) --- */
 #formation-builder {
 	flex: 1;
 	text-align: center;
@@ -177,17 +144,14 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
 #builder-title {
 	cursor: pointer;
 }
-
 #builder-title[contenteditable="true"] {
 	outline: 2px dashed var(--moe);
 	background: white;
 	color: var(--moe);
 }
-
 #formation-grid {
 	background-color: var(--moe-tint6);
 	padding: 15px;
@@ -196,16 +160,13 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
-	/* min-height: 350px; */
 	flex-grow: 1;
 }
-
 .row-wrapper {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 }
-
 .row-label {
 	font-family: "M PLUS Rounded 1c", sans-serif;
 	font-weight: 800;
@@ -215,40 +176,29 @@ body {
 	width: 60px;
 	flex-shrink: 0;
 }
-
 .formation-row {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    /* gap: 40px; */
-    /* padding: 15px; */
-    /* border-radius: 10px; */
     transition: background-color 0.3s ease;
     border: 2px solid transparent;
     flex-grow: 1;
     min-height: 100px;
 }
-
 .formation-row.drag-over {
 	background-color: var(--moe-tint4);
 }
-
-/* Style member di formasi */
 .formation-row .member-item {
-	/* transform: scale(1.6); */
 	margin-top: 5px;
 	transition: transform 0.3s ease;
 }
-
 .formation-row .member-item:hover {
 	z-index: 10;
 }
-
 .formation-row .member-item .member-name {
 	display: none;
 }
-
 .formation-row .member-item .svg-overlay {
 	display: block;
 	position: absolute;
@@ -259,7 +209,6 @@ body {
 	z-index: 5;
 	pointer-events: none;
 }
-
 .formation-row .member-item img.member-photo {
 	width: auto;
 	height: 63px;
@@ -269,11 +218,9 @@ body {
 	pointer-events: none;
 	border: none;
 }
-
 .formation-row .member-item.center-glow .member-photo {
 	box-shadow: 0 0 10px 4px gold;
 }
-
 .remove-member-btn {
 	position: absolute;
 	top: -5px;
@@ -295,18 +242,14 @@ body {
 	transition: opacity 0.2s ease, transform 0.2s ease;
 	pointer-events: none;
 }
-
 .formation-row .member-item:hover .remove-member-btn {
 	opacity: 1;
 	transform: scale(1);
 	pointer-events: auto;
 }
-
 .remove-member-btn:hover {
 	background-color: #cc0000;
 }
-
-/* --- STATISTIK GENERASI --- */
 .info-datasingle {
 	display: flex;
 	flex-direction: row;
@@ -316,7 +259,6 @@ body {
 	gap: 10px;
 	margin-top: 20px;
 }
-
 .info-data-min {
 	border: 3px solid var(--nogi1);
 	border-radius: 10pt;
@@ -324,7 +266,6 @@ body {
 	flex-direction: column;
 	min-width: 50px;
 }
-
 .statusmember {
 	font-family: "M PLUS Rounded 1c", sans-serif;
 	background: var(--nogi1);
@@ -333,8 +274,6 @@ body {
 	padding: 3px;
 	border-radius: 6pt 6pt 0pt 0pt;
 }
-
-/* PERUBAHAN: Penambahan text-align */
 .info-count {
 	font-family: "M PLUS Rounded 1c", sans-serif;
 	color: var(--nogi1);
@@ -342,13 +281,10 @@ body {
 	padding: 5px;
 	text-align: center;
 }
-
-/* --- KONTROL BAWAH --- */
 .caption-wrapper {
 	margin-top: auto;
 	padding-top: 10px;
 }
-
 #caption-input {
 	width: 90%;
 	height: 50px;
@@ -358,7 +294,6 @@ body {
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 	margin-bottom: 5px;
 }
-
 .button-group {
     margin-top: 10px;
     display: flex;
@@ -366,27 +301,22 @@ body {
     gap: 15px;
     padding-bottom: 40pt;
 }
-
 #save-button,
 #reset-button {
 	padding: 10px 20px;
 	font-size: 16px;
 	cursor: pointer;
 }
-
 #save-button:disabled {
 	cursor: not-allowed;
 	background-color: #ccc;
 	border-color: #999;
 }
-
 .auth-message {
 	margin-top: 5px;
 	font-size: 14px;
 	color: var(--moe-shade-max2);
 }
-
-/* --- FEED & MODE KHUSUS --- */
 #public-feed-container.is-hidden {
 	flex-basis: 0;
 	min-width: 0;
@@ -397,11 +327,9 @@ body {
 	border: none;
 	overflow: hidden;
 }
-
 #public-feed-container.is-hidden .feed-header {
 	display: none;
 }
-
 .senba-creator-container.focus-mode #public-feed-container,
 .senba-creator-container.focus-mode #member-pool-container {
 	flex-basis: 0;
@@ -410,8 +338,6 @@ body {
 	overflow: hidden;
 	border: none;
 }
-
-/* --- STYLE FEED BARU --- */
 .public-feed-item {
 	background: white;
 	border: 2px solid var(--moe-tint5);
@@ -422,24 +348,20 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
 .feed-user {
 	display: flex;
 	align-items: center;
 	gap: 8px;
 	margin-bottom: 8px;
 }
-
 .feed-user img {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
 }
-
 .feed-user .user-name {
 	font-weight: bold;
 }
-
 .feed-caption {
 	font-size: 13px;
 	margin-bottom: 10px;
@@ -447,7 +369,6 @@ body {
 	border-left: 3px solid var(--moe-tint5);
 	font-style: italic;
 }
-
 .feed-formation-container {
 	background: var(--moe-tint7);
 	padding: 10px;
@@ -455,17 +376,14 @@ body {
 	cursor: pointer;
 	transition: background-color 0.2s ease;
 }
-
 .feed-formation-container:hover {
 	background: var(--moe-tint6);
 }
-
 .feed-formation {
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
 }
-
 .feed-row {
 	display: flex;
 	justify-content: center;
@@ -473,8 +391,6 @@ body {
 	gap: 5px;
 	min-height: 50px;
 }
-
-/* PERUBAHAN: CSS baru untuk nama di feed */
 .feed-member-name {
 	font-family: "M PLUS Rounded 1c", sans-serif;
 	writing-mode: vertical-rl;
@@ -490,8 +406,6 @@ body {
 	height: 39pt;
 	text-align: center;
 }
-
-/* Tombol Aksi Feed */
 .feed-actions {
 	display: flex;
 	justify-content: space-between;
@@ -500,12 +414,10 @@ body {
 	padding-top: 10px;
 	border-top: 1px solid var(--moe-tint6);
 }
-
 .action-buttons {
 	display: flex;
 	gap: 10px;
 }
-
 .feed-btn {
 	background-color: var(--moe-tint5);
 	border: none;
@@ -516,18 +428,15 @@ body {
 	font-family: "M PLUS Rounded 1c";
 	color: var(--moe);
 }
-
 .feed-btn.delete {
 	background-color: #ffdddd;
 	color: #c53030;
 }
-
 .like-container {
 	display: flex;
 	align-items: center;
 	gap: 5px;
 }
-
 .like-button {
 	background: none;
 	border: none;
@@ -536,18 +445,14 @@ body {
 	display: flex;
 	align-items: center;
 }
-
 .like-button img {
 	width: 24px;
 	height: 24px;
 }
-
 .like-count {
 	font-weight: bold;
 	color: var(--moe);
 }
-
-/* --- MODAL STYLE --- */
 .modal-overlay {
 	position: fixed;
 	top: 0;
@@ -560,25 +465,20 @@ body {
 	align-items: center;
 	z-index: 1005;
 }
-
 .modal-overlay.is-visible {
 	display: flex;
 }
-
 .modal-content {
 	background-color: white;
 	padding: 25px;
 	border-radius: 10px;
 	max-width: 1200px;
-	/* Lebarkan ukuran maksimum popup */
 	width: 95vw;
-	/* Pastikan tidak keluar dari layar kecil */
 	max-height: 90vh;
 	overflow-y: auto;
 	position: relative;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-
 .modal-close-btn {
 	position: absolute;
 	top: 10px;
@@ -589,53 +489,38 @@ body {
 	cursor: pointer;
 	color: #888;
 }
-
 .modal-header {
 	display: flex;
 	align-items: center;
 	gap: 15px;
 	margin-bottom: 10px;
 }
-
 #modal-user-photo {
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
 }
-
 #modal-title {
 	margin: 0;
 }
-
 #modal-caption {
 	border-left: 4px solid var(--moe-tint5);
 	padding-left: 10px;
 	margin-bottom: 20px;
 	font-style: italic;
 }
-
 #modal-formation-grid .row-wrapper {
 	margin-bottom: 10px;
 }
-
-/* #modal-formation-grid .formation-row { */
-	/* min-height: 120px; */
-/* } */
-
-/* BARU: Style untuk info like di modal */
 #modal-like-info {
 	margin-left: auto;
 }
-
 #modal-like-info img {
 	width: 20px;
 	height: 20px;
 }
-
-/* BARU: Style Tombol Flying */
 #show-feed-fab {
 	display: none;
-	/* Sembunyi secara default */
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
@@ -651,22 +536,16 @@ body {
 	z-index: 1000;
 	transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
-
 #show-feed-fab.visible {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
 #show-feed-fab:hover {
 	transform: scale(1.1);
 }
-
-/* --- (TAMBAHKAN KODE INI DI AKHIR) --- */
-
-/* Style untuk pesan blocker di mobile */
 #mobile-blocker {
-    display: none; /* Sembunyikan di desktop */
+    display: none; 
     position: fixed;
     top: 0;
     left: 0;
@@ -683,8 +562,6 @@ body {
     font-size: 18px;
     padding: 20px;
 }
-
-/* Media Query untuk perangkat mobile potrait */
 @media screen and (max-width: 800px) and (orientation: portrait) {
     .senba-creator-container, 
     #auth-container, 
@@ -692,8 +569,6 @@ body {
     .modal-overlay {
         display: none !important;
     }
-
-    /* Tampilkan pesan blocker */
     body::after {
         content: "Mohon dibuka di PC/Laptop atau gunakan mode landscape";
         display: flex;

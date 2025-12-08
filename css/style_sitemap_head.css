@@ -1,15 +1,11 @@
 body {
-    /* background-color: var(--moe-tint7); */
     background-color: var(--moe-shade-min1);
     font-family: 'Space Mono', monospace;
     color: var(--moe-shade-min2);
     margin: 0;
     padding: 0;
 }
-
 .sitemap-container {
-    /* padding: 2rem 1rem; */
-    /* width: 90%; */
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -17,7 +13,6 @@ body {
     align-items: center;
     z-index: 0;
 }
-
 .scontainer {
     width: 100%;
     display: flex;
@@ -25,17 +20,14 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
 .upd {
 	background: var(--moe-tint6);
     z-index: -1;
 }
-
 .grp {
     background-color: var(--moe-tint5);
     z-index: -1;
 }
-/* DIV 1: SALAM PEMBUKA */
 #salam-pembuka {
     width: 90%;
     text-align: center;
@@ -43,12 +35,10 @@ body {
     margin-bottom: 2rem;
     color: white;
 }
-
 #salam-pembuka .caption {
     margin: 0.5rem 0;
     line-height: 1.6;
 }
-
 .hai {
 	font-size: 2rem;
 	font-weight: bold;
@@ -56,11 +46,9 @@ body {
 .whats {
     font-size: 1.1rem;
 }
-
 #salam-pembuka .caption strong {
     color: var(--moe-tint6);
 }
-
 #salam-pembuka .caption .counter,
 #salam-pembuka .caption #countup-days {
     font-weight: bold;
@@ -69,8 +57,6 @@ body {
 .warning-footer {
 	margin-top: 0 !important;
 }
-
-/* -- Notification Slider Styles -- */
 .notifsitemap-wrapper {
     width: 90%;
     max-width: 800px;
@@ -80,7 +66,6 @@ body {
     padding-right: 3px;
     z-index: 5;
 }
-
 .notifsitemap-shadow {
     position: absolute;
     top: 0; left: 0;
@@ -90,7 +75,6 @@ body {
     transform: translate(3px, 3px);
     clip-path: var(--pixel-update-clip-path-outer);
 }
-
 .notifsitemap-container {
     width: 100%;
     height: 100%;
@@ -99,7 +83,6 @@ body {
     z-index: 2;
     clip-path: var(--pixel-update-clip-path-outer);
 }
-
 .notifsitemap-container::after {
     content: "";
     position: absolute;
@@ -110,7 +93,6 @@ body {
     clip-path: var(--pixel-update-clip-path-border);
     pointer-events: none;
 }
-
 .notifsitemap-ul {
     list-style: none;
     padding: 0;
@@ -121,7 +103,6 @@ body {
     width: 100%;
     min-height: 70pt;
 }
-
 .notifsitemap-li {
     position: absolute;
     top: 0; left: 0;
@@ -136,12 +117,10 @@ body {
     font-size: 1rem;
     line-height: 1.4;
 }
-
 .notifsitemap-li.active {
     opacity: 1;
     z-index: 2;
 }
-
 .notifsitemap-li::before {
     content: '';
     display: inline-block;
@@ -152,22 +131,12 @@ body {
     background-position: center;
     flex-shrink: 0;
 }
-
-/* --- Style Berdasarkan Tipe Notifikasi --- */
-
-/* Tipe: experiment */
 .notif-experiment { background-color: #F9A825; color: #D63346; }
 .notif-experiment::before { background-image: url('../sprite/element/experiment.svg'); }
-
-/* Tipe: notice */
 .notif-notice { background-color: var(--moe-tint4); color: var(--moe); }
 .notif-notice::before { background-image: url('../sprite/element/info.svg'); }
-
-/* Tipe: feature */
 .notif-feature { background-color: var(--moe-tint1); color: var(--moe-tint6); }
 .notif-feature::before { background-image: url('../sprite/element/bell.svg'); }
-
-/* --- Sitemap Birthday Announcement --- */
 #sitemap-hbd-container {
     width: 90%;
     max-width: 800px;
@@ -176,7 +145,6 @@ body {
     flex-direction: column;
     gap: 15px;
 }
-
 .sitemap-hbd-wrapper {
     width: 100%;
     position: relative;
@@ -184,7 +152,6 @@ body {
     padding-right: 3px;
     z-index: 5;
 }
-
 .sitemap-hbd-shadow {
     position: absolute;
     top: 0; left: 0;
@@ -194,7 +161,6 @@ body {
     transform: translate(3px, 3px);
     clip-path: var(--pixel-update-clip-path-outer);
 }
-
 .sitemap-hbd-main {
     width: 100%;
     height: 100%;
@@ -203,7 +169,6 @@ body {
     z-index: 2;
     clip-path: var(--pixel-update-clip-path-outer);
 }
-
 .sitemap-hbd-main::after {
     content: "";
     position: absolute;
@@ -214,7 +179,6 @@ body {
     clip-path: var(--pixel-update-clip-path-border);
     pointer-events: none;
 }
-
 .sitemap-hbd-item {
     position: relative;
     width: 100%;
@@ -228,7 +192,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
 .sitemap-hbd-item::before {
 	content: "🎉";
 	font-size: 50px;
@@ -239,27 +202,22 @@ body {
 	transform: translateY(-50%);
     z-index:1;
 }
- 
 .sitemap-hbd-content {
     flex-grow: 1;
     padding-left: 20px;
     z-index: 2;
 }
-
 .sitemap-hbd-content p { margin: 2px 0; }
 .sitemap-hbd-content p.line1 { font-size: 1.1em; font-family: 'Space Mono', monospace; }
 .sitemap-hbd-content p.line2 { font-size: 1.5em; font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 700; }
 .sitemap-hbd-content p.line3 { font-size: 1em; font-family: 'Space Mono', monospace; }
 .sitemap-hbd-content p span { color: var(--moe-shade-max1); font-weight: bold; font-family: 'Space Mono', monospace; }
- 
 .sitemap-hbd-photo {
     width: 80px;
-    /* height: 80px; */
     min-width: 80px;
     margin: 1pt 7pt;
     overflow: hidden;
 }
- 
 .sitemap-hbd-photo img {
 	width: 100%;
 	height: 100%;

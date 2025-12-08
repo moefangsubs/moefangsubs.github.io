@@ -9,7 +9,6 @@
 	--font-jp: "M PLUS Rounded 1c", sans-serif;
 	--font-latin: "Space Mono", monospace;
 }
-
 body {
 	font-family: var(--font-latin);
 	margin: 0;
@@ -22,7 +21,6 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-
 .music-container {
 	display: flex;
 	width: 95%;
@@ -33,7 +31,6 @@ body {
 	height: 95%;
 	position: relative;
 }
-
 .media,
 .playlist,
 .lyrics,
@@ -44,14 +41,12 @@ a.songlist,
 	border-top-color: var(--border-color-light);
 	border-left-color: var(--border-color-light);
 }
-
 .mediaandplaylist {
 	display: flex;
 	flex-direction: column;
 	width: 40%;
 	gap: 8px;
 }
-
 .media {
 	background: var(--color1);
 	height: auto;
@@ -62,7 +57,6 @@ a.songlist,
 	position: relative;
 	overflow: hidden;
 }
-
 .blurry {
 	width: 100%;
 	height: 100%;
@@ -74,7 +68,6 @@ a.songlist,
 	background-position: center;
 	z-index: 0;
 }
-
 .forpadding {
 	padding: 15pt;
 	z-index: 1;
@@ -89,14 +82,12 @@ a.songlist,
 	align-items: center;
 	text-align: center;
 }
-
 #cd-cover {
 	width: 60%;
 	max-width: 200px;
 	margin: 0 auto 15pt auto;
 	display: block;
 }
-
 .song .titlesong {
 	font-size: 16pt;
 	font-weight: bold;
@@ -105,11 +96,9 @@ a.songlist,
 	font-size: 12pt;
 	color: var(--color2);
 }
-
 .player-controls {
 	margin-top: 20px;
 }
-
 .progress-container {
 	width: 100%;
 	height: 10px;
@@ -118,14 +107,12 @@ a.songlist,
 	cursor: pointer;
 	margin-bottom: 5px;
 }
-
 .progress-bar {
 	width: 0%;
 	height: 100%;
 	background-color: var(--color2);
 	transition: width 0.1s linear;
 }
-
 .time-display {
 	display: flex;
 	justify-content: space-between;
@@ -156,11 +143,9 @@ a.songlist,
 .control-btn.play i.fa-play {
 	margin-left: 4px;
 }
-
 .control-btn.active {
 	color: yellow;
 }
-
 .volume-container {
 	display: flex;
 	align-items: center;
@@ -192,7 +177,6 @@ a.songlist,
 	background: var(--text-color);
 	cursor: pointer;
 }
-
 .playlist {
 	background: var(--color1);
 	overflow-y: auto;
@@ -203,14 +187,12 @@ a.songlist,
 .playlist::-webkit-scrollbar {
 	display: none;
 }
-
 .playlist-inside {
 	background: #00000022;
 	height: 100%;
 	padding: 6pt;
 	box-sizing: border-box;
 }
-
 a.songlist {
 	display: block;
 	background: var(--color3);
@@ -234,7 +216,6 @@ a.songlist.active {
 	font-weight: bold;
 	border-color: var(--color2);
 }
-
 .lyrics {
 	background: var(--color1);
 	padding: 20px;
@@ -247,13 +228,11 @@ a.songlist.active {
 .lyrics::-webkit-scrollbar {
 	display: none;
 }
-
 .lyrics-animation {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 }
-
 .lyrics-animation span {
 	font-family: var(--font-jp);
 	font-size: 18pt;
@@ -296,13 +275,11 @@ a.songlist.active {
 	font-style: italic;
 	color: #cccccc;
 }
-
 @media only screen and (max-width: 850px) {
 	.volume-container {
 		display: none;
 	}
 }
-
 @media only screen and (max-width: 700px) {
 	body {
 		overflow: auto;

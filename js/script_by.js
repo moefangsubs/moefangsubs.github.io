@@ -1,6 +1,3 @@
-// =======================================================
-// FUNGSI getCookie VERSI BARU YANG LEBIH BAIK
-// =======================================================
 function getCookie(cookieName) {
   let name = cookieName + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
@@ -14,11 +11,8 @@ function getCookie(cookieName) {
       return cookie.substring(name.length, cookie.length);
     }
   }
-  return ""; // Kembalikan string kosong jika tidak ditemukan
+  return "";  
 }
-
-// Cek jika nilai cookie yang didapat TIDAK SAMA DENGAN 'true'
 if (getCookie('user_logged_in') !== 'true') {
-    // Jika tidak sah, lempar kembali ke halaman login
     window.location.href = 'index.html';
 }

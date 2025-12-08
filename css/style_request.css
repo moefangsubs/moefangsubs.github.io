@@ -1,34 +1,23 @@
-
 :root {
 	--all: all 0.3s ease;
 }
-
-/* General Body Styling - Ensures consistency with the rest of the site */
 body {
 	background-color: var(--moe-shade-min1);
 	color: var(--moe);
     font-family: "Space Mono", monospace;
 }
-
-/* Main content wrapper, accounting for fixed navbar */
 #main {
     padding-top: 80px;
     padding: 0 !important;
 }
-
-/* Centered container for page content */
 .container {
 	width: 90%;
     max-width: 1200px;
     margin: 0 auto 3rem auto;
 }
-
-/* Page Header */
 .page-header {
     text-align: center;
-    /* margin-bottom: 3rem; */
     border-bottom: 2rem solid var(--moe-tint3);
-    /* padding-bottom: 1.9rem; */
     font-size: 8rem;
     display: flex;
     width: 85%;
@@ -46,7 +35,6 @@ body {
     filter: drop-shadow(0 0 25px var(--moe-tint4));
     transition: all 0.3s ease;
 }
-
 .glowing:hover {
     filter: drop-shadow(0 0 50px var(--moe-tint4)) drop-shadow(0 0 50px var(--moe-tint4));
     fill: var(--moe-shade-max1);
@@ -61,7 +49,6 @@ text.pane {
     font-weight: bold;
     text-align: center;
 }
-
 .page-header .subtitle {
     font-size: 1.2rem;
     color: var(--moe-shade-min1);
@@ -69,21 +56,17 @@ text.pane {
     margin: 0 auto;
     line-height: 1.6;
 }
-
 .boxs2 {
     box-shadow: 4px 4px 0px 0px var(--moe-tint5)  !important;
     -webkit-box-shadow: 4px 4px 0px 0px var(--moe-tint5)  !important;
     -moz-box-shadow: 4px 4px 0px 0px var(--moe)  !important;
 }
-
-/* Content Box Styling */
 .content-box {
     background-color: white;
     padding: 2rem 2.5rem;
     margin: 0 2rem 1rem 2rem;
     border: 2px solid var(--moe-tint6);
 }
-
 .content-box h2 {
     color: var(--moe-shade-max1);
     border-bottom: 3px solid var(--moe-tint4);
@@ -91,25 +74,21 @@ text.pane {
     margin-bottom: 1.5rem;
     display: inline-block;
 }
-
 .content-box p {
     font-size: 1rem;
     line-height: 1.7;
     margin-bottom: 1rem;
     text-align: justify;
 }
-
 .content-box strong {
     color: var(--moe-shade-max2);
     font-weight: 700;
 }
-
 .content-box ul {
     list-style: none;
     padding-left: 0;
     margin-top: 1.5rem;
 }
-
 .content-box ul li {
     padding-left: 2rem;
     position: relative;
@@ -118,31 +97,25 @@ text.pane {
     line-height: 1.6;
     text-align: justify;
 }
-
 .content-box ul li::before {
     content: '❖';
     position: absolute;
     left: 0;
-    /* top: 2px; */
     color: var(--moe-tint1);
     font-size: 1.2rem;
     font-weight: bold;
 }
-
-/* Pricing Section */
 section#pricing {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-
 #pricing .section-title {
     text-align: center;
     color: var(--moe-tint5);
     margin-bottom: 2.5rem;
 }
-
 .pricing-grid {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -151,7 +124,6 @@ section#pricing {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .price-card {
     border: 2px solid var(--moe-tint5);
     background-color: white;
@@ -159,14 +131,12 @@ section#pricing {
     padding: 1.5rem 1rem;
     min-width: 17%;
 }
-
 .price-card:hover {
 	background-color: var(--moe-tint5);
     transform: translateY(-5px);
     border-color: var(--moe-tint2);
     box-shadow: 8px 8px 0px -2px var(--moe-tint2);
 }
-
 .price-card h3 {
     font-size: 1.2rem;
     color: var(--moe);
@@ -176,21 +146,17 @@ section#pricing {
     align-items: center;
     justify-content: center;
 }
-
 .price-card .price-value {
     font-size: 3.5rem;
     font-weight: bold;
     color: var(--moe-shade-max2);
 }
-
 .price-card .price-unit {
     font-size: 1.5rem;
     color: var(--moe-tint2);
     font-weight: normal;
     margin-left: 0.5rem;
 }
-
-/* Order Process Section */
 .process-steps-container {
     display: flex;
     justify-content: space-around;
@@ -198,13 +164,11 @@ section#pricing {
     gap: 2rem;
     margin-top: 2rem;
 }
-
 .step-item {
     flex: 1;
     min-width: 200px;
     text-align: center;
 }
-
 .step-item .step-number {
     width: 60px;
     height: 60px;
@@ -217,20 +181,16 @@ section#pricing {
     margin: 0 auto 1rem auto;
     border: 3px solid var(--moe-tint5);
 }
-
 .step-item p {
     font-size: 0.95rem;
     line-height: 1.5;
     color: var(--moe-shade-min1);
     padding: 0 0.5rem;
 }
-
-/* Call to Action Button */
 .cta-section {
     text-align: center;
     margin: 4rem 0 2rem 0;
 }
-
 .cta-button {
     display: inline-block;
     background-color: var(--moe-tint3);
@@ -240,14 +200,11 @@ section#pricing {
     font-weight: bold;
     border: 2px solid var(--moe-tint3);
 }
-
 .cta-button:hover {
     background-color: var(--moe-shade-max1);
     transform: translateY(-3px) scale(1.02);
     color: white;
 }
-
-/* Note Styling */
 h6.note {
     text-align: center;
     color: var(--moe-tint6);
@@ -258,28 +215,23 @@ h6.note {
     margin: 1.5rem auto 0 auto;
     padding: 0;
 }
-/* Responsive Adjustments */
 @media (max-width: 992px) {
     #main {
-        padding-top: 60px; /* Adjust for smaller navbar */
+        padding-top: 60px; 
     }
 }
-
 @media (max-width: 768px) {
     .container {
         width: 95%;
     }
-
     .page-header h1, .content-box h2, #pricing .section-title {
         font-size: 1.8rem;
     }
-
     .process-steps-container {
         flex-direction: column;
         align-items: center;
         gap: 2.5rem;
     }
-
 	.pricing-grid {
 		flex-wrap: wrap;
 	}

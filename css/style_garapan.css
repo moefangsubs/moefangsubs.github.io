@@ -1,18 +1,13 @@
 @import url('style.css');
-
-/* --- Variabel Global (diambil dari style_subs.css) --- */
 :root {
 	--pixel-border-clip-path-outer: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
 	--pixel-border-clip-path-border: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
 }
-
-/* --- Tata Letak Halaman Garapan --- */
 body.garapan-page {
     height: auto;
     min-height: 100vh;
     background-color: var(--moe-tint7);
 }
-
 #garapan-main-container {
     display: flex;
     flex-direction: column;
@@ -21,16 +16,12 @@ body.garapan-page {
     margin: 2rem auto;
     gap: 2rem;
 }
-
-/* --- Gaya Kontainer per Bagian --- */
 .garapan-section {
     position: relative;
 	padding-bottom: 3px;
 	padding-right: 3px;
 }
-
 .garapan-section-item {
-    /* width: 95%; */
     height: 100%;
     position: relative;
     z-index: 2;
@@ -39,7 +30,6 @@ body.garapan-page {
     padding: 1.5rem;
     backdrop-filter: blur(5px);
 }
-
 .garapan-section-item::after {
     content: "";
     position: absolute;
@@ -52,7 +42,6 @@ body.garapan-page {
     clip-path: var(--pixel-border-clip-path-border);
     pointer-events: none;
 }
-
 .pixel-border-shadow {
 	content: "";
 	position: absolute;
@@ -65,8 +54,6 @@ body.garapan-page {
 	transform: translate(3px, 3px);
 	clip-path: var(--pixel-border-clip-path-outer);
 }
-
-/* --- Konten di dalam kontainer --- */
 .section-title {
     font-size: 20pt;
     font-weight: 700;
@@ -74,21 +61,18 @@ body.garapan-page {
     border-bottom: 2px solid var(--moe-tint5);
     padding-bottom: 0.5rem;
 }
-
 .section-description {
     font-size: 10pt;
     margin: 0 0 1.5rem 0;
     line-height: 1.6;
     text-align: justify;
 }
-
 .garapan-category h3 {
     font-size: 16pt;
     font-weight: 700;
     color: var(--moe-shade-max3);
     margin: 1.5rem 0 0.8rem 0;
 }
-
 .garapan-list {
     list-style: none;
     padding: 0;
@@ -97,7 +81,6 @@ body.garapan-page {
     flex-direction: column;
     gap: 0.5rem;
 }
-
 .garapan-list-item {
     display: flex;
     justify-content: space-between;
@@ -108,19 +91,16 @@ body.garapan-page {
     background-color: var(--moe-tint6);
     min-height: 40px;
 }
-
 .item-info {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     flex-wrap: wrap;
 }
-
 .item-title {
     font-weight: 700;
     font-size: 11pt;
 }
-
 .item-label {
     background-color: #ff4757;
     color: white;
@@ -129,14 +109,12 @@ body.garapan-page {
     font-weight: 700;
     border-radius: 3px;
 }
-
 .item-tooltip-wrapper {
     position: relative;
     display: inline-flex;
     align-items: center;
     cursor: help;
 }
-
 .item-tooltip-icon {
     background-color: var(--moe-tint4);
     color: white;
@@ -149,7 +127,6 @@ body.garapan-page {
     align-items: center;
     font-size: 10pt;
 }
-
 .item-tooltip-text {
     visibility: hidden;
     width: 220px;
@@ -166,7 +143,6 @@ body.garapan-page {
     opacity: 0;
     transition: opacity 0.3s;
 }
-
 .item-tooltip-text::after {
     content: "";
     position: absolute;
@@ -177,18 +153,13 @@ body.garapan-page {
     border-style: solid;
     border-color: var(--moe-shade-min1) transparent transparent transparent;
 }
-
 .item-tooltip-wrapper:hover .item-tooltip-text {
     visibility: visible;
     opacity: 1;
 }
-
-
-/* --- Tombol Aksi --- */
 .item-action-link {
     display: block;
 }
-
 .item-action-button-wrapper {
     position: relative;
     width: 35px;
@@ -205,7 +176,6 @@ body.garapan-page {
     width: 100%;
     height: 100%;
 }
-
 .item-action-button {
     border: none;
     color: var(--moe);
@@ -215,7 +185,6 @@ body.garapan-page {
     font-weight: 700;
     line-height: 1;
 }
-
 .item-action-button-wrapper .pixel-border-item:hover {
     background: var(--moe);
 }

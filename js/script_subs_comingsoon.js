@@ -1,10 +1,6 @@
-// ../js/script_subs_comingsoon.js
-
 document.addEventListener('DOMContentLoaded', () => {
     const mainContainer = document.getElementById('garapan-main-container');
     const loadingOverlay = document.getElementById('loading-overlay');
-
-    // Fungsi untuk menyuntikkan style ke dalam head
     const addStyles = () => {
         const style = document.createElement('style');
         style.textContent = `
@@ -39,14 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         document.head.appendChild(style);
     };
-
-    // Baca parameter dari URL
     const params = new URLSearchParams(window.location.search);
     const status = params.get('status');
-
     if (mainContainer) {
-        addStyles(); // Panggil fungsi untuk menambahkan style
-
+        addStyles();  
         if (status === 'comingsoon') {
             const comingSoonHTML = `
                 <div class="status-message-container">
@@ -56,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             mainContainer.innerHTML = comingSoonHTML;
         } else {
-            // Tampilan default jika parameter status tidak ada atau tidak dikenali
             const defaultHTML = `
                 <div class="status-message-container">
                     <h1>Konten Tidak Ditemukan</h1>
@@ -66,8 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
             mainContainer.innerHTML = defaultHTML;
         }
     }
-
-    // Sembunyikan loading overlay setelah semuanya siap
     if (loadingOverlay) {
         loadingOverlay.style.display = 'none';
     }

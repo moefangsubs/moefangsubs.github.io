@@ -1,5 +1,3 @@
-/* Menggunakan variabel warna dari style.css */
-
 body {
     background-color: var(--moe-tint7) !important;
     overflow: hidden; 
@@ -7,8 +5,6 @@ body {
     height: 100vh;
     width: 100vw;
 }
-
-
 .mp-container {
     font-family: "Space Mono", monospace;
     gap: 55pt;
@@ -21,15 +17,13 @@ body {
     z-index: 1;
     justify-content: center;
 }
-
 img.logo {
     width: 80%;
     animation-name: movelag;
-    animation-duration: 2s; /* Wajib agar animasi terlihat */
+    animation-duration: 2s; 
     animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite; /* Optional: jika ingin animasi terus berulang */
+    animation-iteration-count: infinite; 
 }
-
 @keyframes movelag {
     0% {
         transform: translateY(0px);
@@ -47,8 +41,6 @@ img.logo {
         transform: translateY(0px);
     }
 }
-
-
 .mp-button {
     display: flex;
     gap: 15pt;
@@ -62,11 +54,9 @@ img.logo {
     height: 90px;
     transition: transform 0.3s ease;
 }
-
 .mp-button img:hover {
     transform: scale(1.4);
 }
-
 @media (max-width: 768px) {
 	.mp-button {
 		flex-direction: column;
@@ -79,17 +69,12 @@ img.logo {
 		width: 100%;
 	}
 }
-
-
-/* --- Animasi Spark di Background (Diperbaiki) --- */
-
 .spark {
     position: absolute;
     opacity: 0;
     animation-name: twinkle; 
     animation-timing-function: ease-in-out;
 }
-
 @keyframes twinkle {
     0% {
         opacity: 0;
@@ -101,8 +86,6 @@ img.logo {
         opacity: 0;
     }
 }
-
-/* Keyframes untuk animasi berkedip (twinkle) */
 @keyframes twinkle {
     0% {
         opacity: 0;

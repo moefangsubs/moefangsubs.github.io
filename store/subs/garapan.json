@@ -8,11 +8,11 @@
         "items": [
           {
             "title": "Nogizaka Star Tanjou SIX!",
-            "link": "../moesubs/subs.html?show=nogizaka-star-tanjou-six"
+            "link": "../moesubs/index.html?show=nogizaka-star-tanjou-six"
           },
           {
             "title": "Nogizaka Otameshichuu",
-            "link": "../moesubs/subs.html?show=nogizaka-otameshichuu"
+            "link": "../moesubs/index.html?show=nogizaka-otameshichuu"
           }
         ]
       },
@@ -21,7 +21,7 @@
         "items": [
           {
             "title": "Ganbare Nogizaka",
-            "link": "../moesubs/subs.html?show=nogidouga-ganbare-nogizaka"
+            "link": "../moesubs/index.html?show=nogidouga-ganbare-nogizaka"
           }
         ]
       },
@@ -30,7 +30,7 @@
         "items": [
           {
             "title": "Ane to Itsumademo",
-            "link": "../moesubs/subs.html?show=cupstar-ane-to-itsumademo"
+            "link": "../moesubs/index.html?show=cupstar-ane-to-itsumademo"
           }
         ]
       },
@@ -39,19 +39,19 @@
         "items": [
           {
             "title": "Futari Escape",
-            "link": "../moesubs/subs.html?status=comingsoon"
+            "link": "../moesubs/index.html?status=comingsoon"
           },
           {
             "title": "Shinu made Buzztero!!",
-            "link": "../moesubs/subs.html?status=comingsoon"
+            "link": "../moesubs/index.html?status=comingsoon"
           },
           {
             "title": "Shin Tokyo Minakami Keisatsu",
-            "link": "../moesubs/subs.html?status=comingsoon"
+            "link": "../moesubs/index.html?status=comingsoon"
           },
           {
             "title": "Koisuru Keigo 24 Ji Season 2",
-            "link": "../moesubs/subs.html?status=comingsoon"
+            "link": "../moesubs/index.html?status=comingsoon"
           }
         ]
       }
@@ -66,7 +66,7 @@
         "items": [
           {
             "title": "Nogizaka46 6kisei Kadouchuu",
-            "link": "../moesubs/subs.html?status=comingsoon"
+            "link": "../moesubs/index.html?status=comingsoon"
           }
         ]
       },
@@ -75,11 +75,11 @@
         "items": [
           {
             "title": "Nogizaka Touhikou Season 2",
-            "link": "../moesubs/subs.html?status=comingsoon"
+            "link": "../moesubs/index.html?status=comingsoon"
           },
           {
             "title": "Nogizaka Touhikou Season 3",
-            "link": "../moesubs/subs.html?status=comingsoon"
+            "link": "../moesubs/index.html?status=comingsoon"
           }
         ]
       }
@@ -94,7 +94,7 @@
         "items": [
           {
             "title": "Spicy Sessions",
-            "link": "../moesubs/subs.html?show=spicy-sessions",
+            "link": "../moesubs/index.html?show=spicy-sessions",
             "isRequest": true
           }
         ]
@@ -104,42 +104,42 @@
         "items": [
           {
             "title": "Asobu Dake #59",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           },
           {
             "title": "Asobu Dake #60",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           },
           {
             "title": "Asobu Dake #64",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           },
           {
             "title": "Asobu Dake #65",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           },
           {
             "title": "Asobu Dake #66",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           },
           {
             "title": "Asobu Dake #70",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           },
           {
             "title": "Asobu Dake #72 前編",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           },
           {
             "title": "Asobu Dake #72 後編",
-            "link": "../moesubs/subs.html?show=nogidouga-nogizaka-asobu-dake",
+            "link": "../moesubs/index.html?show=nogidouga-nogizaka-asobu-dake",
             "isRequest": true
           }
         ]
@@ -155,17 +155,17 @@
         "items": [
           {
             "title": "Nogizaka Romance",
-            "link": "../moesubs/subs.html?show=nogizaka-romance",
+            "link": "../moesubs/index.html?show=nogizaka-romance",
             "tooltip": "Hanya garapan santai"
           },
           {
             "title": "Sakura Meets",
-            "link": "../moesubs/subs.html?show=sakura-meets",
+            "link": "../moesubs/index.html?show=sakura-meets",
             "tooltip": "Hanya garapan santai"
           },
           {
             "title": "Sakamichi no Mukou ni Wa Aozora ga Hirogatteita",
-            "link": "../moesubs/subs.html?show=sakamichi-no-mukou-ni-wa-aozora-ga-hirogatteita",
+            "link": "../moesubs/index.html?show=sakamichi-no-mukou-ni-wa-aozora-ga-hirogatteita",
             "tooltip": "Sudah diambilalih oleh fansub lain (HikamiSubs & Poripori Subs)"
           }
         ]
@@ -175,7 +175,7 @@
         "items": [
           {
             "title": "Hinatazaka Channel",
-            "link": "../moesubs/subs.html?show=hinatazaka-channel",
+            "link": "../moesubs/index.html?show=hinatazaka-channel",
             "tooltip": "Sepi peminat :("
           }
         ]

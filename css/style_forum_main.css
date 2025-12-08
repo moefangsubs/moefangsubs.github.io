@@ -1,25 +1,18 @@
-/* Menggunakan variabel global dari style.css */
-
-/* Variabel clip-path pixelated (diambil dari style_sitemap_update.css) */
 :root {
 	--pixel-clip-path-outer-chat: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
 	--pixel-clip-path-border-chat: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
 }
-
-/* Animasi highlight untuk scroll */
 @keyframes highlight-message {
     0% { box-shadow: 0 0 10px 5px var(--moe-tint2); }
     100% { box-shadow: none; }
 }
-
 .forum-chat-wrapper {
     width: 90%; 
     max-width: none;
     margin: 0 auto;
-    padding-bottom: 200px; /* Spasi untuk form input */
+    padding-bottom: 200px; 
     padding-top: 2rem;
 }
-
 .forum-title {
     text-align: center;
     text-transform: uppercase;
@@ -38,8 +31,6 @@
     width: auto;
     max-width: 90%;
 }
-
-/* Kotak Pengumuman */
 .announcement-box {
     background: var(--moe-tint7);
     border: 2px dashed var(--moe-tint5);
@@ -75,8 +66,6 @@
     margin-top: 1rem;
     margin-bottom: 0;
 }
-
-/* Kontainer Feed Chat */
 .chat-feed-container {
     width: 100%;
     min-height: 300px;
@@ -85,13 +74,11 @@
     padding: 1rem;
     box-sizing: border-box;
 }
-
 #chat-feed {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-
 .loading-placeholder {
     display: flex;
     flex-direction: column;
@@ -101,8 +88,6 @@
     color: var(--moe);
     opacity: 0.7;
 }
-
-/* Navigasi Halaman */
 .pagination-container {
     display: flex;
     justify-content: space-between;
@@ -135,7 +120,6 @@
     color: var(--moe-shade-min1);
     font-weight: 700;
 }
-
 .chat-login-prompt {
     text-align: center;
     padding: 2rem;
@@ -145,7 +129,6 @@
     clip-path: var(--pixel-clip-path-outer-chat);
     font-size: 1.1em;
 }
-
 .gatekeeper-overlay {
     position: fixed;
     top: 0;
@@ -161,7 +144,6 @@
     padding: 20px;
     box-sizing: border-box;
 }
-
 .gatekeeper-box {
     background: var(--moe-tint7);
     color: var(--moe-shade-min1);
@@ -172,7 +154,6 @@
     font-family: "Space Mono", monospace;
     clip-path: var(--pixel-clip-path-outer-chat);
 }
-
 .member-list-container {
     width: 100%;
     background: var(--moe-tint5);
@@ -182,7 +163,6 @@
     margin-top: 1.5rem;
     clip-path: var(--pixel-clip-path-outer-chat);
 }
-
 .member-list-header {
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-weight: 700;
@@ -191,13 +171,11 @@
     border-bottom: 1px dashed var(--moe-tint4);
     padding-bottom: 0.5rem;
 }
-
 .member-list {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
-
 .member-item {
     padding: 3px 8px;
     font-family: "Space Mono", monospace;
@@ -208,14 +186,12 @@
     border: 2px solid transparent;
     background-color: transparent;
 }
-
 .member-item.admin.inactive {
     background-color: transparent;
     color: var(--kakki-g5);
     opacity: 0.7;
     border-color: var(--kakki-g3);
 }
-
 .member-item.admin.active {
     background-color: var(--kakki-o3);
     color: #f97500;
@@ -228,7 +204,6 @@
     opacity: 0.7;
     border-color: var(--moe-tint3);
 }
-
 .member-item.active {
     background-color: transparent;
     color: var(--moe);

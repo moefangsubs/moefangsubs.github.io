@@ -1,69 +1,51 @@
 let db, elements, appState, paginationControls, FieldValue;
 let lastScrollTop = 0; 
-
 export function setupInput(firestoreDb, domElements, appStateRef, paginationCtrls, firebaseFieldValue) {
     db = firestoreDb;
     elements = domElements;
     appState = appStateRef;
     paginationControls = paginationCtrls;
     FieldValue = firebaseFieldValue; 
-
     function showChatForm() {
         if (appState.currentUser) { 
-
             elements.chatFormContainer.style.display = 'block';
             elements.showChatToggleBtn.style.display = 'none';
             elements.chatTextInput.focus();
         }
     }
-
     function hideChatForm() {
         elements.chatFormContainer.style.display = 'none';
         if (appState.currentUser) { 
-
             elements.showChatToggleBtn.style.display = 'block';
         }
-
         appState.currentReplyInfo = null;
         elements.replyInfoBox.style.display = 'none';
     }
-
     elements.showChatToggleBtn.addEventListener('click', showChatForm);
-
     elements.chatForm.addEventListener('submit', (e) => handleChatSubmit(e, hideChatForm)); 
-
     elements.toolbar.addEventListener('click', (e) => handleToolbarClick(e, hideChatForm)); 
-
     elements.chatTextInput.addEventListener('keyup', updateCursorPosition);
     elements.chatTextInput.addEventListener('click', updateCursorPosition);
-
     elements.confirmBtnNoUserDelete.addEventListener('click', () => elements.userDeleteModal.classList.remove('active'));
     elements.confirmBtnYesUserDelete.addEventListener('click', handleUserSoftDelete);
-
     elements.confirmBtnNoAdminDelete.addEventListener('click', () => elements.adminDeleteModal.classList.remove('active'));
     elements.confirmBtnSoftDeleteAdmin.addEventListener('click', handleAdminSoftDelete);
     elements.confirmBtnPermDeleteAdmin.addEventListener('click', handleAdminPermDelete);
-
     elements.confirmBtnNoEdit.addEventListener('click', () => elements.editModal.classList.remove('active'));
     elements.confirmBtnYesEdit.addEventListener('click', handleEditSave);
-
     elements.confirmBtnNoImage.addEventListener('click', () => elements.imagePromptOverlay.classList.remove('active'));
     elements.pasteBtnImage.addEventListener('click', handleImagePaste);
     elements.confirmBtnYesImage.addEventListener('click', handleImageInsert);
-
     elements.cancelReplyBtn.addEventListener('click', () => {
         appState.currentReplyInfo = null;
         elements.replyInfoBox.style.display = 'none';
     });
 }
-
 async function handleChatSubmit(e, hideChatForm) {
     e.preventDefault();
     if (!appState.currentUser) return;
-
     const text = elements.chatTextInput.value;
     if (text.trim() === '') return; 
-
     try {
         let newMessage = {
             text: text,
@@ -90,20 +72,15 @@ async function handleChatSubmit(e, hideChatForm) {
             isReported: false,
             report: null
         };
-
         let repliedToUserId = null; 
-
         if (appState.currentReplyInfo) {
             newMessage.replyToId = appState.currentReplyInfo.id;
             newMessage.replyToName = appState.currentReplyInfo.name;
             newMessage.replyToPublicId = appState.currentReplyInfo.publicId;
             newMessage.replyToText = appState.currentReplyInfo.text.substring(0, 50);
             repliedToUserId = appState.currentReplyInfo.userId; 
-
         }
-
         const newDocRef = await db.collection('forumMessages').add(newMessage);
-
         if (repliedToUserId && repliedToUserId !== appState.currentUser.uid) {
             try {
                 const notifRef = db.collection('users').doc(repliedToUserId).collection('notifications');
@@ -120,53 +97,39 @@ async function handleChatSubmit(e, hideChatForm) {
                 console.warn("Gagal membuat notifikasi:", notifError);
             }
         }
-
         elements.chatTextInput.value = '';
         appState.currentReplyInfo = null;
         elements.replyInfoBox.style.display = 'none';
-
         if (hideChatForm) hideChatForm();
-
     } catch (error) {
         console.error("Gagal mengirim pesan:", error);
     }
 }
-
 function updateCursorPosition() {
     appState.lastCursorPosition = elements.chatTextInput.selectionStart;
 }
-
 function wrapText(tag) {
     const start = elements.chatTextInput.selectionStart;
     const end = elements.chatTextInput.selectionEnd;
     const text = elements.chatTextInput.value;
     const selectedText = text.substring(start, end);
-
     let replacement = selectedText ? `<${tag}>${selectedText}</${tag}>` : `<${tag}></${tag}>`;
-
     elements.chatTextInput.value = text.substring(0, start) + replacement + text.substring(end);
-
     let cursorPosition = selectedText ? start + replacement.length : start + tag.length + 2;
     elements.chatTextInput.selectionStart = cursorPosition;
     elements.chatTextInput.selectionEnd = cursorPosition;
     elements.chatTextInput.focus();
 }
-
 function handleToolbarClick(e, hideChatForm) { 
-
     const target = e.target.closest('.format-btn');
-
     if (!target) {
         return;
     }
-
     if (target.id === 'close-chat-form-btn') {
         if (hideChatForm) hideChatForm();
         return;
     }
-
     updateCursorPosition();
-
     if (target.id === 'format-btn-bold') wrapText('b');
     if (target.id === 'format-btn-italic') wrapText('i');
     if (target.id === 'format-btn-underline') wrapText('u');
@@ -177,7 +140,6 @@ function handleToolbarClick(e, hideChatForm) {
         elements.imageUrlInput.focus();
     }
 }
-
 async function handleUserSoftDelete() {
     if (appState.messageRefToActOn) {
         try {
@@ -194,7 +156,6 @@ async function handleUserSoftDelete() {
         }
     }
 }
-
 async function handleAdminSoftDelete() {
     if (appState.messageRefToActOn) {
         try {
@@ -211,12 +172,10 @@ async function handleAdminSoftDelete() {
         }
     }
 }
-
 async function handleAdminPermDelete() {
     if (appState.messageRefToActOn) {
         try {
             await appState.messageRefToActOn.delete();
-
         } catch (error) { console.error("Gagal permanent delete (admin):", error); }
         finally {
             elements.adminDeleteModal.classList.remove('active');
@@ -224,7 +183,6 @@ async function handleAdminPermDelete() {
         }
     }
 }
-
 async function handleEditSave() {
     if (appState.messageRefToActOn && appState.messageDataToActOn) {
         const newText = elements.editTextInput.value;
@@ -232,9 +190,7 @@ async function handleEditSave() {
             elements.editModal.classList.remove('active');
             return;
         }
-
         try {
-
             await appState.messageRefToActOn.update({
                 text: newText,
                 isEdited: true,
@@ -254,7 +210,6 @@ async function handleEditSave() {
         }
     }
 }
-
 async function handleImagePaste() {
     try {
         if (navigator.clipboard && navigator.clipboard.readText) {
@@ -266,15 +221,12 @@ async function handleImagePaste() {
         }
     } catch (err) { alert('Gagal paste dari clipboard. Silakan gunakan Ctrl+V.'); }
 }
-
 function handleImageInsert() {
     const url = elements.imageUrlInput.value.trim();
     if (url && (url.startsWith('http://') || url.startsWith('https://'))) {
-
         const isSpoiler = elements.imageSpoilerCheckbox.checked;
         const spoilerAttr = isSpoiler ? ' spoiler="true"' : '';
         const tag = `<img${spoilerAttr}>${url}</img>`; 
-
         const text = elements.chatTextInput.value;
         const newText = text.substring(0, appState.lastCursorPosition) + tag + text.substring(appState.lastCursorPosition);
         elements.chatTextInput.value = newText;

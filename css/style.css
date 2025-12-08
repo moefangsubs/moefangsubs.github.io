@@ -6,7 +6,6 @@
 	--moe-shade-max1: #5a00a0;
 	--moe-shade-max2: #7000c7;
 	--moe-shade-max3: #8600ef;
-
 	--moe-tint1: #9103ff;
 	--moe-tint2: #a22bff;
 	--moe-tint3: #b352ff;
@@ -14,9 +13,7 @@
 	--moe-tint5: #d5a0ff;
 	--moe-tint6: #e7c7ff;
 	--moe-tint7: #f8efff;
-
 	--all: all 0.3s ease;
-	
 	--kakki-o1 :#ff983d;
 	--kakki-o2 :#ffb347;
 	--kakki-o3 :#ffd480;
@@ -28,27 +25,20 @@
 	--kakki-x1 :#f2e8cf;
 	--kakki-x2 :#d9ca9b;
 }
-
-/* Base Styles */
 * {
 	font-family: "Space Mono", monospace;
 	transition: all 0.3s ease;
 }
-
 a {
 	text-decoration:none;
 	color: inherit;
 }
-
-/* Global Utility Classes */
 .jpn {
 	font-family: "M PLUS Rounded 1c", sans-serif !important;
 }
-
 .font0 { font-size: 14pt; }
 .font1 { font-size: 24pt; }
 .font2 { font-size: 32pt; }
-
 .boxs1 {
 	border-radius: 0pt !important;
 	box-shadow: 4px 4px 0px -2px var(--moe);
@@ -66,14 +56,11 @@ a {
 	-webkit-box-shadow: 4px 4px 0px 0px var(--moe);
 	-moz-box-shadow: 4px 4px 0px 0px var(--moe);
 }
-
 h6.note {
     padding: 0pt !important;
 	font-weight: normal !important;
     margin-top: 0 !important;
 }
-
-/* General Page Layout */
 body {
 	background-color: var(--moe-tint7);
 	max-width: 100%;
@@ -88,7 +75,6 @@ body {
 	padding: 0;
 	margin: 0;
 }
-
 body::before {
     content: "";
     background-size: cover;
@@ -103,7 +89,6 @@ body::before {
     z-index: -1;
     height: 100%;
 }
-
 div#main {
     display: flex;
     justify-content: center;
@@ -111,24 +96,14 @@ div#main {
     flex-direction: column;
     width: 100%;
 }
-
 .container {
 	width: 90%;
     margin-bottom: 3rem;
 }
-
-
-
-/* ################################ */
-/* Styles for Unassigned Pages (Index, etc) */
-/* ################################ */
-
-/* Index Page Specific */
 .bodymainindex {
 	overflow-x:hidden;
 	overflow-y:hidden;
 }
-
 #logo {
 	position: fixed;
 	margin: 0 auto;
@@ -145,16 +120,12 @@ div#main {
 @media only screen and (max-width: 600px) {
     #fansub { font-size: 14vw; }
 }
-
-/* Password Form */
 #passwordForm {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-
-/* General Member Grid (e.g., for generation list page) */
 .member-grid {
 	display: flex;
 	flex-wrap: wrap;

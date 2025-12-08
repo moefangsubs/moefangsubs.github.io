@@ -1,30 +1,24 @@
-/* -- Styles for Photobook Archive Page Layout & Rankings -- */
-
 #main-archive .archive-title {
     text-align: center;
     margin-bottom: 0.5em;
     font-size: 2.5em;
 }
-
 .sales-rank-section {
     width: 90%;
     margin: 0 auto 3em auto;
     text-align: center;
 }
-
 .sales-rank-intro {
     font-size: 1.1em;
     margin-bottom: 2em;
     line-height: 1.6;
 }
-
 .sales-rank-container {
     display: flex;
     justify-content: center;
     gap: 5px;
     flex-wrap: wrap;
 }
-
 .rank-card {
     background-color: var(--moe-tint7);
     color: var(--moe);
@@ -37,7 +31,6 @@
     position: relative;
     overflow: hidden;
 }
-
 .rank-card .rank-number {
     position: absolute;
     top: -1px;
@@ -49,7 +42,6 @@
     font-size: 1.2em;
     border-bottom-right-radius: 15px;
 }
-
 .rank-card img {
     width: auto;
     height: 160px;
@@ -58,54 +50,43 @@
     margin-bottom: 10px;
     border: 1px solid var(--moe-tint5);
 }
-
 .rank-card .rank-name {
     font-weight: bold;
     font-size: 1em;
-    min-height: 40px; /* Jaga tinggi agar sejajar */
+    min-height: 40px; 
 }
-
 .rank-card .rank-sales {
     font-size: 1.9em;
     font-weight: bold;
     color: var(--moe-shade-max1);
 }
-
-/* Medal styles for top ranks */
 .rank-card.rank-1 { background-color: #ffd700; color: #4d3e00; }
 .rank-card.rank-2 { background-color: #c0c0c0; color: #2a2a2a; }
 .rank-card.rank-3 { background-color: #a57c54; color: #ffffff; }
-
 .rank-card.rank-1 .rank-number,
 .rank-card.rank-2 .rank-number,
 .rank-card.rank-3 .rank-number {
     background-color: rgba(0,0,0,0.3);
 }
-
 .rank-card.rank-1 .rank-sales,
 .rank-card.rank-2 .rank-sales,
 .rank-card.rank-3 .rank-sales {
     color: var(--moe-tint2);
 }
-
-/* -- Full Rank Spoiler Table Styles -- */
 .full-rank-section {
     width: 90%;
     margin: 3em auto 0 auto;
     text-align: center;
 }
-
 .full-rank-section p {
     font-size: 1.1em;
     line-height: 1.6;
     margin-bottom: 1em;
 }
-
 details.full-rank-spoiler {
     border: 1px solid var(--moe-tint4);
     overflow: hidden;
 }
-
 details.full-rank-spoiler summary {
     background-color: var(--moe-tint6);
     padding: 12px 15px;
@@ -115,46 +96,36 @@ details.full-rank-spoiler summary {
     outline: none;
     transition: background-color 0.3s ease;
 }
-
 details.full-rank-spoiler summary::-webkit-details-marker { display: none; }
 details.full-rank-spoiler summary:before { content: '[+] Tampilkan Peringkat Lengkap'; font-family: "Space Mono", monospace; }
 details[open].full-rank-spoiler summary:before { content: '[-] Sembunyikan Peringkat Lengkap'; }
 details.full-rank-spoiler:hover summary { background-color: var(--moe-tint5); }
-
 .full-rank-table-container {
     max-height: 500px;
     overflow-y: auto;
     background-color: var(--moe-tint7);
 }
-
 .full-rank-table {
     width: 100%;
     border-collapse: collapse;
 }
-
 .full-rank-table th, .full-rank-table td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid var(--moe-tint5);
 }
-
 .full-rank-table th {
     background-color: var(--moe-tint6);
     position: sticky;
     top: 0;
 }
-
 .full-rank-table td:first-child { font-weight: bold; text-align: center; width: 10%; }
 .full-rank-table td:nth-child(2) { width: 65%; }
 .full-rank-table td:last-child { text-align: right; font-weight: bold; width: 25%; }
-
-/* Medal styles for table rows */
 tr.rank-1 { background-color: #ffd700 !important; color: #4d3e00; }
 tr.rank-2 { background-color: #c0c0c0 !important; color: #2a2a2a; }
 tr.rank-3 { background-color: #cd7f32 !important; color: #ffffff; }
 tr.rank-1 td, tr.rank-2 td, tr.rank-3 td { color: inherit; }
-
-/* -- Separator and Detail Link -- */
 .photobook-separator {
     width: 90%;
     text-align: center;
@@ -172,7 +143,6 @@ div#photobook-list-container {
     margin: 0 auto;
     align-items: center;
 }
-
 #photobook-list-container .member-detail-link {
     display: inline-flex;
     justify-content: center;
@@ -189,7 +159,6 @@ div#photobook-list-container {
     text-decoration: none;
     transition: all 0.3s ease;
 }
-
 #photobook-list-container .member-detail-link:hover {
     background-color: var(--moe);
     color: white;

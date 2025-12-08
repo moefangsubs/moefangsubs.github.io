@@ -1,36 +1,29 @@
-/* Import font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
-
 body {
     background-color: var(--moe-tint6);
 }
-
 .contentpage {
     width: 90%;
     max-width: 1200px;
     margin: 2rem auto;
     color: var(--moe-shade-min2);
 }
-
 .titlehead {
     padding: 2rem 0;
     text-align: center;
 }
-
 #headtitle {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--moe);
     font-family: 'Space Mono', monospace;
 }
-
 .justify {
     font-size: 1rem;
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 2rem;
 }
-
 h1 {
     font-family: 'Space Mono', monospace;
     font-size: 2rem;
@@ -40,43 +33,35 @@ h1 {
     margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
-
-/* Main Song Grid Layout */
 .parent {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 25px;
 }
-
 .child {
     background-color: white;
-    /* border-radius: 8px; */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .child:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(106, 27, 154, 0.2);
 }
-
 .child img {
     width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
-
 .child .detail {
     padding: 15px;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
-
 .child .singkatan {
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-size: 1.4rem;
@@ -84,63 +69,52 @@ h1 {
     color: var(--moe);
     margin-bottom: 5px;
 }
-
 .child .singro {
     font-size: 0.9rem;
     color: #666;
     font-style: italic;
     margin-bottom: 15px;
 }
-
 .child span {
     font-size: 1rem;
     font-weight: bold;
     color: var(--moe-shade-min2);
     margin-top: auto;
 }
-
-/* Coupling Song List Layout */
 .cpparent {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 15px;
 }
-
 .cpchild {
     background-color: transparent;
     border-left: 4px solid var(--moe-tint4);
     padding: 10px 15px;
     transition: background-color 0.3s ease;
 }
-
 .cpchild:hover {
     background-color: rgba(255, 255, 255, 0.5);
 }
-
 .cpdetail {
     display: flex;
     flex-direction: column;
 }
-
 .cpdetail .singkatan {
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--moe);
 }
-
 .cpdetail .singro {
     font-size: 0.85rem;
     color: #555;
     font-style: italic;
     margin-bottom: 5px;
 }
-
 .cpdetail span {
     font-size: 0.95rem;
     color: var(--moe-shade-min2);
 }
-
 .rectangle {
     height: 50px;
 }

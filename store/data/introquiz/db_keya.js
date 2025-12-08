@@ -1,4 +1,3 @@
-// database
 export const db_keya = [
 	{ url: "https://files.catbox.moe/8cbtg5.mp3", title: "Overture" },
 	{ url: "https://files.catbox.moe/8mkovy.mp3", title: "Getsuyoubi no Asa, Skirt o Kirareta" },

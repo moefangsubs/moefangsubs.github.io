@@ -1,17 +1,11 @@
-/* CSS for Folder Icon Page */
-
 #foldericon-page-container {
-    /* background-color: var(--moe-shade-min2); */
     width: 100%;
     padding: 2rem 0;
-    /* color: var(--moe-tint7); */
 }
-
 .foldericon-content {
     width: 90%;
     margin: 0 auto;
 }
-
 h1 {
     font-size: 32pt;
     margin: 0;
@@ -20,7 +14,6 @@ h1 {
 	margin: 0 auto;
 	padding: 5pt 0;
 }
-
 .head {
     padding: 30pt 0;
     margin: 0;
@@ -28,8 +21,6 @@ h1 {
     text-align: justify;
     color: var(--moe);
 }
-
-/* Download Bundle Section */
 .download-bundle {
     width: 80%;
     display: flex;
@@ -42,7 +33,6 @@ h1 {
     flex-direction: row;
     justify-content: center;
 }
-
 .bundle-caption {
     width: 70%;
     padding: 2rem;
@@ -50,20 +40,17 @@ h1 {
     flex-direction: column;
     justify-content: center;
 }
-
 .bundle-caption span {
     font-size: 18pt;
     font-weight: bold;
     color: var(--moe-tint6);
 }
-
 .bundle-caption p {
     font-size: 10pt;
     font-style: italic;
     color: var(--moe-tint4);
     margin: 0.5rem 0 1.5rem 0;
 }
-
 .bundle-caption .bundle-button {
     display: block;
     border: 2px solid var(--moe-tint7);
@@ -75,12 +62,10 @@ h1 {
     font-size: 1.1em;
     font-weight: bold;
 }
-
 .bundle-caption .bundle-button:hover {
     background: var(--moe-tint7);
     color: var(--moe);
 }
-
 .bundle-img {
     width: 30%;
     display: flex;
@@ -88,13 +73,10 @@ h1 {
     justify-content: center;
     padding: 1rem;
 }
-
 .bundle-img img {
     width: 200px;
     filter: drop-shadow(0 0 10px var(--moe-tint2));
 }
-
-/* Category Titles */
 .main-category-title {
     font-size: 28pt;
     color: var(--moe-tint4);
@@ -102,7 +84,6 @@ h1 {
     padding-bottom: 0.5rem;
     margin: 3rem 0 1rem 0;
 }
-
 .sub-category-title {
     font-size: 18pt;
     color: var(--moe-tint2);
@@ -110,8 +91,6 @@ h1 {
     padding-left: 1rem;
     border-left: 3px solid var(--moe);
 }
-
-/* Icon Grid */
 .icon-grid {
     display: flex;
     flex-wrap: wrap;
@@ -119,32 +98,25 @@ h1 {
     justify-content: center;
     align-items: flex-start;
 }
-
 .icon-card {
-    /* background-color: var(--moe-shade-min3); */
-    /* border: 2px solid var(--moe-shade-min1); */
     width: 120px;
     text-align: center;
     padding: 5px;
     transition: all 0.2s ease-in-out;
 }
-
 .icon-card:hover {
     transform: translateY(-5px);
     border-color: var(--moe-tint5);
     background-color: var(--moe-tint4);
 }
-
 .icon-card img {
     width: 100%;
     display: block;
     margin-bottom: 10px;
 }
-
 .icon-card:hover img {
     background-color: var(--moe-tint4);
 }
-
 .icon-card span {
     font-size: 10pt;
     color: var(--moe-tint6);
@@ -153,19 +125,15 @@ h1 {
     min-height: 40px;
     color: var(--moe);
 }
-
 .icon-card:hover span {
     color: white;
 }
-
 .coming-soon-text {
     font-size: 14pt;
     font-style: italic;
     color: var(--moe-tint3);
     padding: 2rem 0;
 }
-
-/* Responsive Adjustments */
 @media screen and (max-width: 992px) {
     .bundle-caption {
         width: 100%;
@@ -176,13 +144,12 @@ h1 {
         margin: 0 auto;
     }
     .bundle-img {
-        display: none; /* Hide image on smaller screens for simplicity */
+        display: none; 
     }
     .icon-grid {
         justify-content: center;
     }
 }
-
 @media screen and (max-width: 768px) {
     .foldericon-content {
         width: 95%;
@@ -197,12 +164,11 @@ h1 {
         font-size: 16pt;
     }
     .icon-card {
-        width: calc(50% - 1rem); /* 2 cards per row */
+        width: calc(50% - 1rem); 
     }
 }
-
 @media screen and (max-width: 480px) {
     .icon-card {
-        width: 100%; /* 1 card per row */
+        width: 100%; 
     }
 }
