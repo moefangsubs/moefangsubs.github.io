@@ -1,10 +1,14 @@
 const params = new URLSearchParams(location.search);
 const memberId = params.get("id");
+
+// Mapping buat foto member yg gak berubah semenjak lulus
 const specialGraduatedMembers = new Set([
   "ANDO Mikumo", "Ichiki Rena", "NOUJO Ami", "MUKAI Hazuki", "YODA Yuuki", "SATO Kaede",
   "KAKEHASHI Sayaka", "SEIMIYA Rei", "MATSUI Rena", "NISHIKAWA Nanami",
   "YADA Risako", "YONETOKU Kyoka"
 ]);
+
+// Mapping nomor single ke tahun
 const singleYears = {
   1: 2012, 2: 2012, 3: 2012, 4: 2012,
   5: 2013, 6: 2013, 7: 2013,
@@ -21,7 +25,11 @@ const singleYears = {
   35: 2024, 36: 2024, 37: 2024,
   38: 2025, 39: 2025, 40: 2025
 };
+
+// Daftar single yang tidak perlu ditampilkan
 const skipSingles = new Set([16, 18, 19, 21, 23, 27, 29, 30, 32, 34]);
+
+// Data referensi prefektur
 const prefectureData = {
   "北海道": "Hokkaido", "青森県": "Aomori", "岩手県": "Iwate", "宮城県": "Miyagi", "秋田県": "Akita",
   "山形県": "Yamagata", "福島県": "Fukushima", "茨城県": "Ibaraki", "栃木県": "Tochigi", "群馬県": "Gunma",
@@ -34,6 +42,8 @@ const prefectureData = {
   "佐賀県": "Saga", "長崎県": "Nagasaki", "熊本県": "Kumamoto", "大分県": "Oita", "宮崎県": "Miyazaki",
   "鹿児島県": "Kagoshima", "沖縄県": "Okinawa"
 };
+
+// Data SVG Ikon untuk Zodiak
 const zodiacIcons = {
   "Capricorn": `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zodiac-capricorn" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M4 4a3 3 0 0 1 3 3v9" /> <path d="M7 7a3 3 0 0 1 6 0v11a3 3 0 0 1 -3 3" /> <circle cx="16" cy="17" r="3" /> </svg>`,
   "Aquarius": `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zodiac-aquarius" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M3 10l3 -3l3 3l3 -3l3 3l3 -3l3 3" /> <path d="M3 17l3 -3l3 3l3 -3l3 3l3 -3l3 3" /> </svg>`,
@@ -48,17 +58,23 @@ const zodiacIcons = {
   "Scorpio": `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zodiac-scorpio" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M3 4a2 2 0 0 1 2 2v9" /> <path d="M5 6a2 2 0 0 1 4 0v9" /> <path d="M9 6a2 2 0 0 1 4 0v10a3 3 0 0 0 3 3h5l-3 -3m0 6l3 -3" /> </svg>`,
   "Sagittarius": `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-zodiac-sagittarius" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <line x1="4" y1="20" x2="20" y2="4" /> <path d="M13 4h7v7" /> <line x1="6.5" y1="12.5" x2="11.5" y2="17.5" /> </svg>`
 };
+
+// Fungsi untuk konversi prefektur
 function convertPrefecture(jpName) {
   return prefectureData[jpName] 
     ? `${prefectureData[jpName]}` 
     : jpName;
 }
+
+// Fungsi untuk konversi nama romaji
 function formatNamaRomaji(nama) {
   return nama.toLowerCase()
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
 }
+
+// Fungsi untuk mengubah format tanggal
 function formatTanggal(datestr) {
   if (!datestr || datestr === "未定") return "Belum ditentukan";
   const [tahun, bulan, tanggal] = datestr.split('.');
@@ -68,34 +84,48 @@ function formatTanggal(datestr) {
   ];
   return `${parseInt(tanggal)} ${namaBulan[parseInt(bulan) - 1]} ${tahun}`;
 }
+
+// Fungsi untuk menghitung umur
 function hitungUmur(datestr) {
   const [tahun, bulan, tanggal] = datestr.split('.').map(Number);
   const lahir = new Date(tahun, bulan - 1, tanggal);
   const sekarang = new Date();
+  
   let tahunUmur = sekarang.getFullYear() - lahir.getFullYear();
   const bulanSekarang = sekarang.getMonth();
   const hariSekarang = sekarang.getDate();
+  
   if (bulanSekarang < (bulan - 1) || (bulanSekarang === (bulan - 1) && hariSekarang < tanggal)) {
     tahunUmur--;
   }
+  
   const ultahTerakhir = new Date(sekarang.getFullYear(), bulan - 1, tanggal);
   if (sekarang < ultahTerakhir) {
     ultahTerakhir.setFullYear(sekarang.getFullYear() - 1);
   }
+  
   const bedaMs = sekarang - ultahTerakhir;
   const hariUmur = Math.floor(bedaMs / (1000 * 60 * 60 * 24));
+  
   return { tahun: tahunUmur, hari: hariUmur };
 }
+
+// Fungsi untuk menentukan Zodiak
 function getZodiacSign(birthDateStr, zodiacData) {
     if (!birthDateStr || !zodiacData) return null;
+
     const [, month, day] = birthDateStr.split('.').map(Number);
     const memberDate = month * 100 + day;
+
     for (const sign in zodiacData) {
         const { start, end } = zodiacData[sign];
         const [, startMonth, startDay] = start.split('.').map(Number);
         const [, endMonth, endDay] = end.split('.').map(Number);
+
         const startDate = startMonth * 100 + startDay;
         const endDate = endMonth * 100 + endDay;
+
+        // Handle kasus zodiak yang melintasi tahun (e.g., Capricorn: Desember - Januari)
         if (startDate > endDate) {
             if (memberDate >= startDate || memberDate <= endDate) {
                 return sign;
@@ -106,11 +136,16 @@ function getZodiacSign(birthDateStr, zodiacData) {
             }
         }
     }
-    return null;  
+    return null; // Jika tidak ditemukan
 }
+
+
+// Fungsi untuk membuat link SNS
 function createSNSLink(className, href, text) {
   return `<a class="${className}" href="${href}" target="_blank">${text}</a>`;
 }
+
+// Fungsi untuk menghasilkan konten SNS
 function generateSNSLinks(sns) {
   if (!sns) return '';
   let html = '';
@@ -124,8 +159,11 @@ function generateSNSLinks(sns) {
   if (sns.weibo) { const handle = sns.weibo.split('/').pop(); html += createSNSLink('weibo', sns.weibo, handle); }
   return html;
 }
+
+// Fungsi untuk menghasilkan konten adana (MODIFIED v3 - Refactored)
 function generateAdanaHTML(adana) {
   if (!adana) return '';
+
   const categoryConfig = [
     { prefix: 'adana', label: 'Panggilan', maxCount: 10 },
     { prefix: 'adanaaya', label: 'Panggilan (小川)', maxCount: 5 },
@@ -135,7 +173,9 @@ function generateAdanaHTML(adana) {
     { prefix: 'adanahina', label: 'Julukan dari Kawago', maxCount: 5 },
     { prefix: 'adanaasuka', label: 'Julukan dari Asuka', maxCount: 5 },
   ];
+
   let html = '';
+
   categoryConfig.forEach(config => {
     const items = [];
     for (let i = 1; i <= config.maxCount; i++) {
@@ -144,23 +184,31 @@ function generateAdanaHTML(adana) {
         items.push(adana[key]);
       }
     }
+
     if (items.length > 0) {
       html += `<div class="data-row"><div class="data-label">${config.label}</div><div class="data-value">${items.join('<br/>')}</div></div>`;
     }
   });
+
   return html;
 }
+
+// Fungsi untuk generate HTML MBTI
 function generateMbtiHTML(mbti) {
     if (!mbti) return '';
+
     const verifiedIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="color: white; vertical-align: middle; margin-left: -5px; margin-top:-1pt"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" stroke-width="0" fill="currentColor"></path></svg>`;
+
     let content = '';
     const predictions = [];
     if (mbti.predict1 && mbti.predicturl1) predictions.push(`Prediksi 1: <a href="${mbti.predicturl1}" target="_blank">${mbti.predict1}</a>`);
     if (mbti.predict2 && mbti.predicturl2) predictions.push(`Prediksi 2: <a href="${mbti.predicturl2}" target="_blank">${mbti.predict2}</a>`);
     if (mbti.predict3 && mbti.predicturl3) predictions.push(`Prediksi 3: <a href="${mbti.predicturl3}" target="_blank">${mbti.predict3}</a>`);
     const predictionHTML = predictions.length > 0 ? `<br/><small>${predictions.join('<br/>')}</small>` : '';
+
     if (mbti.official === "yes") {
         const isStatement = ["絶対に公表しない", "分かりません", "教えません", "恥ずかしい", "内緒"].some(s => mbti.type1.includes(s));
+        
         let urlContent = '';
         if (mbti.url) {
             if (Array.isArray(mbti.url)) {
@@ -170,15 +218,19 @@ function generateMbtiHTML(mbti) {
             }
             urlContent = `<br/><small>(${urlContent})</small>`;
         }
+
         content = `${mbti.type1} ${verifiedIcon}${urlContent}`;
         if (isStatement) {
             content += predictionHTML;
         }
-    } else {  
+    } else { // official === "no"
         content = `Tidak diketahui${predictionHTML}`;
     }
+
     return `<div class="data-row"><div class="data-label">MBTI</div><div class="data-value">${content}</div></div>`;
 }
+
+// Fungsi untuk generate HTML untuk data aktivitas
 function generateActivityHTML(member) {
   const items = [];
   if (member.dateKualifikasi) items.push({ jp: "合格発表日", id: "Tanggal Lolos Audisi", value: member.dateKualifikasi });
@@ -192,16 +244,23 @@ function generateActivityHTML(member) {
   const rows = items.map(item => `<div class="katsudo-row"><div class="katsudo-label"><div class="katsudo-label-id">${item.id}</div><div class="katsudo-label-jp">${item.jp}</div></div><div class="katsudo-value">${item.value}</div></div>`).join('');
   return `<div class="katsudo-container"><h2>DATA AKTIFITAS MEMBER</h2><div class="katsudo-grid">${rows}</div></div>`;
 }
+
+// [MODIFIKASI BARU] Fungsi untuk generate HTML untuk data hiatus
 function generateHiatusHTML(member, hiatusData) {
     const memberHiatusData = hiatusData[member.nama_jp];
     if (!memberHiatusData) return '';
+
     const hiatusEntries = Array.isArray(memberHiatusData) ? memberHiatusData : [memberHiatusData];
+    
     let allHiatusHTML = '';
+    
     hiatusEntries.forEach((hiatus, index) => {
         const prefix = hiatusEntries.length > 1 ? `(${(index + 1)}) ` : '';
+        
         const urlButton = hiatus.url 
             ? `<br/><a href="${hiatus.url}" class="partisipasi-link" target="_blank" style="margin-top:10px;">Lihat Pengumuman</a>`
             : '';
+
         allHiatusHTML += `
             <div class="katsudo-row">
                 <div class="katsudo-label">
@@ -239,12 +298,16 @@ function generateHiatusHTML(member, hiatusData) {
                 <div class="katsudo-value">${hiatus.note}${urlButton}</div>
             </div>
         `;
+        // Add a separator if there are multiple hiatus records
         if (hiatusEntries.length > 1 && index < hiatusEntries.length - 1) {
             allHiatusHTML += `<div class="katsudo-row separator-hiatus"></div>`;
         }
     });
+
     return `<div class="hiatus-container"><h2>DATA HIATUS</h2><div class="katsudo-grid">${allHiatusHTML}</div></div>`;
 }
+
+// Fungsi untuk generate HTML untuk data kelulusan
 function generateGraduationHTML(member) {
   const items = [];
   if (member.dateGradAnn) items.push({ jp: "卒業の発表日", id: "Tanggal Pengumuman", value: member.dateGradAnn });
@@ -258,40 +321,47 @@ function generateGraduationHTML(member) {
   const rows = items.map(item => `<div class="sotsu-row"><div class="sotsu-label"><div class="sotsu-label-id">${item.id}</div><div class="sotsu-label-jp">${item.jp}</div></div><div class="sotsu-value">${item.value}</div></div>`).join('');
   return `<div class="sotsu-container"><h2>DATA KELULUSAN</h2><div class="sotsu-grid">${rows}</div></div>`;
 }
+
 if (memberId) {
   fetch("../store/member/members.json")
     .then(res => res.json())
     .then(members => {
       const container = document.getElementById("main");
       container.innerHTML = "";
+
       const member = members.find(m => m.id === memberId);
       if (!member) {
         container.innerHTML = "<h2>Member tidak ditemukan.</h2>";
         return;
       }
+
       const activityHTML = generateActivityHTML(member);
       const graduationHTML = generateGraduationHTML(member);
+
       const formattedDate = formatTanggal(member.lahir);
       const umur = hitungUmur(member.lahir);
       const umurText = `${umur.tahun} tahun ${umur.hari} hari`;
       const genLabel = member.gen.replace("期", "").replace(/^(\d+)/, "Generasi ke-$1");
       const asalFormatted = convertPrefecture(member.asal);
       const namaRomajiFormatted = formatNamaRomaji(member.nama_romaji);
+
       let photoClass = "profile-full";
       if (member.status === "lulus" && !specialGraduatedMembers.has(member.nama_romaji)) {
         photoClass = "graduated-photo";
       }
+
       Promise.all([
         fetch("../store/member/sns.json").then(res => res.json()),
         fetch("../store/member/adana.json").then(res => res.json()),
         fetch("../store/member/members_kyoudaishimai.json").then(res => res.json()),
         fetch("../store/member/zodiac.json").then(res => res.json()),
         fetch("../store/member/mbti.json").then(res => res.json()),
-        fetch("../store/member/members_hiatus.json").then(res => res.json())  
+        fetch("../store/member/members_hiatus.json").then(res => res.json()) // [MODIFIKASI] Fetch data hiatus
       ])
-      .then(([snsData, adanaData, kyoudaishimaiData, zodiacData, mbtiData, hiatusData]) => {  
+      .then(([snsData, adanaData, kyoudaishimaiData, zodiacData, mbtiData, hiatusData]) => { // [MODIFIKASI] Tambahkan hiatusData
         const snsKey = member.nama_romaji.toLowerCase().replace(/ /g, '_');
         const memberSNS = snsData[snsKey];
+        
         let snsContent = '';
         if (memberSNS) {
           const snsLinks = generateSNSLinks(memberSNS);
@@ -299,13 +369,16 @@ if (memberId) {
             snsContent = `<div class="sns-links" style="display: flex; flex-wrap: wrap; margin-top: 5px;">${snsLinks}</div><h6 class="note">*URL/username bisa saja berubah, atau dihapus ybs</h6>`;
           }
         }
+        
         const memberAdana = adanaData[member.nama_jp];
         const adanaHTML = generateAdanaHTML(memberAdana);
+
         const memberKyoudaishimai = kyoudaishimaiData.find(k => k.memberNameJP === member.nama_jp);
         let kyoudaishimaiHTML = '';
         if (memberKyoudaishimai) {
             kyoudaishimaiHTML = `<div class="data-row"><div class="data-label">Saudara</div><div class="data-value">${memberKyoudaishimai.memberStatus}<br/><font size="1.2em">(${memberKyoudaishimai.memberStatDe})</font></div></div>`;
         }
+
         const zodiacSign = getZodiacSign(member.lahir, zodiacData);
         let zodiacHTML = '';
         if (zodiacSign) {
@@ -319,13 +392,19 @@ if (memberId) {
                   </div>
                 </div>`;
         }
+        
         const memberMbti = mbtiData[member.nama_jp];
         const mbtiHTML = generateMbtiHTML(memberMbti);
+
+        // [MODIFIKASI BARU] Generate HTML untuk Hiatus
         const hiatusHTML = generateHiatusHTML(member, hiatusData);
+
         const memberNamaJPHtml = member.nama_jp.split('').map((char, index) => {
             if (char === ' ' || char === '_') return `<span style="--i:${index + 1}; display: inline-block;">${char === ' ' ? '&nbsp;' : char}</span>`;
             return `<span style="--i:${index + 1};">${char}</span>`;
         }).join('');
+
+        // [MODIFIKASI] Sisipkan hiatusHTML ke dalam template
         container.innerHTML = `
          <div class="profile-container">
 		    <div class="profile-photo">
@@ -349,9 +428,11 @@ if (memberId) {
               </div>
             </div>
           </div>
+
 		 ${activityHTML}
          ${hiatusHTML}
 		 ${graduationHTML}
+
           <div class="histori-container">
             <h2>Foto Histori di Nogizaka</h2>
             <div class="histori-grid">
@@ -366,6 +447,7 @@ if (memberId) {
             </div>
           </div>
         `;
+
         window.currentMember = member;
         document.dispatchEvent(new Event('memberReady'));
       })

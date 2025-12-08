@@ -1,26 +1,37 @@
+// ../js/script_cdcover_logic.js
+
+/**
+ * Mendapatkan URL gambar cover CD berdasarkan grup, ID single, dan data lagu.
+ * @param {string} groupKey - Kunci grup (cth: 'nogizaka46', 'sakurazaka', 'bokuao').
+ * @param {string} singleId - ID single atau album (cth: 's01', 'a01', 'dig').
+ * @param {object} song - Objek lagu yang berisi detail lagu.
+ * @returns {string} URL gambar cover.
+ */
 function getCoverArtUrl(groupKey, singleId, song) {
     const keyaBaseUrl = 'https://ik.imagekit.io/moearchive/singlealbum/keya/';
     const sakuBaseUrl = 'https://ik.imagekit.io/moearchive/singlealbum/saku/';
     const hinataBaseUrl = 'https://ik.imagekit.io/moearchive/singlealbum/hinata/';
     const nogiBaseUrl = 'https://ik.imagekit.io/moearchive/singlealbum/v2/';
     const bokuaoBaseUrl = 'https://ik.imagekit.io/moearchive/singlealbum/bokuao/';
+
     const getTypeChar = (songTypeAvv) => {
+        // Mengambil elemen pertama jika berupa array, atau menggunakan string langsung
         const type = Array.isArray(songTypeAvv) ? songTypeAvv[0] : songTypeAvv;
         switch (type) {
             case 'All':
-            case 'A':  
+            case 'A': // Logic for Nogizaka46
             case 'Type A':
             case 'Type-A':
                 return 'a';
-            case 'B':  
+            case 'B': // Logic for Nogizaka46
             case 'Type B':
             case 'Type-B':
                 return 'b';
-            case 'C':  
+            case 'C': // Logic for Nogizaka46
             case 'Type C':
             case 'Type-C':
                 return 'c';
-            case 'D':  
+            case 'D': // Logic for Nogizaka46
             case 'Type D':
             case 'Type-D':
                 return 'd';
@@ -33,13 +44,14 @@ function getCoverArtUrl(groupKey, singleId, song) {
             case 'BokuAo Live':
                  return 'live';
             default:
-                return 'a';  
+                return 'a'; // Default ke cover Type-A
         }
     };
+
     switch (groupKey) {
         case 'nogizaka46': {
             const category = singleId.substring(0, 1);
-            if (category === 's') {  
+            if (category === 's') { // Singles (s01, s02, etc.)
                 if (singleId === 's36' && song.titleRo === "Ano Hikari") return `${nogiBaseUrl}n46_cover_s36_anohikari.jpg`;
                 if (singleId === 's38' && song.titleRo === "100nichime") return `${nogiBaseUrl}n46_cover_s38_100nichime.jpg`;
                 if (singleId === 's38' && song.titleRo === "Natsukashisa no Saki") return `${nogiBaseUrl}n46_cover_s38_natsukashisa.jpg`;
@@ -60,11 +72,13 @@ function getCoverArtUrl(groupKey, singleId, song) {
             }
             return '';
         }
+
         case 'keyakizaka': {
             if (singleId === 'dig') return `${keyaBaseUrl}k46_cover_dig.jpg`;
             const typeChar = getTypeChar(song.SongTypeAvv);
             return `${keyaBaseUrl}k46_cover_${singleId}${typeChar}.jpg`;
         }
+
         case 'sakurazaka': {
             if (singleId === 's04' && song.titleRo === "Boku no Dilemma") return `${sakuBaseUrl}s46_cover_s04_dilema.jpg`;
             if (singleId === 's05' && song.titleRo === "Sono Hi Made") return `${sakuBaseUrl}s46_cover_s05_sonohimade.jpg`;
@@ -81,6 +95,7 @@ function getCoverArtUrl(groupKey, singleId, song) {
             const typeChar = getTypeChar(song.SongTypeAvv);
             return `${sakuBaseUrl}s46_cover_${singleId}${typeChar}.jpg`;
         }
+
         case 'hinatazaka': {
             const hirakeyaMap = {
                 "Hiragana Keyaki": `${keyaBaseUrl}k46_cover_s02r.jpg`, "Dare Yori mo Takaku Tobe!": `${keyaBaseUrl}k46_cover_s03b.jpg`,
@@ -95,6 +110,7 @@ function getCoverArtUrl(groupKey, singleId, song) {
             const typeChar = getTypeChar(song.SongTypeAvv);
             return `${hinataBaseUrl}h46_cover_${singleId}${typeChar}.jpg`;
         }
+        
         case 'bokuao': {
             const specialCovers = {
                 "s03": { "Shoukouguchi de Aetara": "s03_shokouguchi", "Spare no Nai Koi": "s03_spare", "Tomo yo Koko de Sayonara da": "s03_tomoyo" },
@@ -107,6 +123,7 @@ function getCoverArtUrl(groupKey, singleId, song) {
             const typeChar = getTypeChar(song.SongTypeAvv);
             return `${bokuaoBaseUrl}bokuao_cover_${singleId}${typeChar}.jpg`;
         }
+
         default:
             return '';
     }

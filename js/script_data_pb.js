@@ -1,8 +1,11 @@
+// File: js/script_data_pb.js (Penambahan Sampul Alternatif)
+
 function loadAndDisplayPhotobooks() {
     if (!window.currentMember) {
         console.error("Photobook GAGAL: window.currentMember tidak ditemukan.");
         return;
     }
+
     fetch('../store/member/members_pb.json')
         .then(response => {
             if (!response.ok) throw new Error('Gagal memuat members_pb.json: ' + response.statusText);
@@ -10,18 +13,22 @@ function loadAndDisplayPhotobooks() {
         })
         .then(photobookData => {
             const memberNameJp = window.currentMember.nama_jp;
+            
             const memberPhotobooks = photobookData.filter(pb => {
                 if (!pb.name || !pb.name.jp) return false;
                 const normalizedPbName = pb.name.jp.replace(/\s/g, '');
                 const normalizedCurrentMemberName = memberNameJp.replace(/\s/g, '');
                 return normalizedPbName === normalizedCurrentMemberName;
             });
+
             if (memberPhotobooks.length === 0) return;
+
             const keteranganContainer = document.querySelector(".keterangan-container");
             if (!keteranganContainer) {
                 console.error("Photobook GAGAL: Elemen .keterangan-container tidak ditemukan.");
                 return;
             }
+
             const photobookSection = document.createElement('div');
             photobookSection.id = 'photobook-section';
             photobookSection.className = 'container';
@@ -35,8 +42,11 @@ function loadAndDisplayPhotobooks() {
               </div>
               <div class="photobook-container"></div>
             `;
+
             keteranganContainer.insertAdjacentElement('afterend', photobookSection);
+            
             createMemberPhotobook(memberPhotobooks);
+
             const toggle = document.getElementById("language-toggle");
             if (toggle) {
                 toggle.addEventListener("change", updateVisibility);
@@ -45,11 +55,17 @@ function loadAndDisplayPhotobooks() {
         })
         .catch(error => console.error('Error dalam proses data photobook:', error));
 }
+
 document.addEventListener("participationLoaded", loadAndDisplayPhotobooks);
+
+
+// --- Fungsi Helper dan Render HTML ---
+
 function createMemberPhotobook(data) {
     const container = document.querySelector(".photobook-container");
     if (!container) return;
     container.innerHTML = "";
+
     data.forEach((item) => {
         const dates = formatDate(item.releaseDate);
         const sales = formatSalesFirst(item.salesfirst);
@@ -78,6 +94,7 @@ function createMemberPhotobook(data) {
                     ${item.salesfirst ? `<div><span><span id="idn">Penjualan Pekan Pertama</span><span id="jpn" class="hidden">初週売上</span></span><span>:</span><span><span id="idn">${sales.id}</span><span id="jpn" class="hidden">${sales.jp}</span></span></div>` : ''}
                 </div>
                 ${has(item.comment) ? `<div class="obicomment"><span><span id="idn">"${item.comment.id}"</span><span id="jpn" class="hidden">「${item.comment.jp}」</span></span><span><span id="idn">${item.commentName.id}</span><span id="jpn" class="hidden">${item.commentName.jp}</span></span></div>` : ''}
+                
                 <div class="otherversion">
                     ${item.imageCutOther ? `<figure><img src="${item.imageCutOther}" alt="Sampul Lainnya"><figcaption><span id="idn">Sampul Lainnya</span><span id="jpn" class="hidden">アザーカット</span></figcaption></figure>` : ''}
                     ${item.imageLimited ? `<figure><img src="${item.imageLimited}" alt="Sampul Terbatas"><figcaption><span id="idn">Sampul Terbatas</span><span id="jpn" class="hidden">限定版</span></figcaption></figure>` : ''}
@@ -87,11 +104,13 @@ function createMemberPhotobook(data) {
                     ${item.imageHMV ? `<figure><img src="${item.imageHMV}" alt="Sampul HMV"><figcaption><span id="idn">Sampul HMV</span><span id="jpn" class="hidden">HMV限定</span></figcaption></figure>` : ''}
                     ${item.imageKinokuniya ? `<figure><img src="${item.imageKinokuniya}" alt="Sampul Kinokuniya"><figcaption><span id="idn">Sampul Kinokuniya</span><span id="jpn" class="hidden">紀伊國屋書店限定</span></figcaption></figure>` : ''}
                 </div>
+
                 ${item.download ? `<div class="download"><a href="${item.download}" target="_blank">Download Scan</a></div>` : ''}
             </div>`;
         container.appendChild(photobookDiv);
     });
 }
+
 function formatDate(date) {
     if (!date) return { jp: '-', id: '-' };
     const dateObj = new Date(date);
@@ -99,6 +118,7 @@ function formatDate(date) {
     const idFormat = dateObj.toLocaleDateString("id-ID", { year: "numeric", month: "long", day: "numeric" });
     return { jp: jpFormat, id: idFormat };
 }
+
 function formatSalesFirst(sales) {
     if (!sales) return { jp: '-', id: '-' };
     const idFormat = `${sales.toLocaleString('id-ID')} eksemplar`;
@@ -107,6 +127,7 @@ function formatSalesFirst(sales) {
     const jpFormat = remainder > 0 ? `${man}万${remainder.toLocaleString('ja-JP')}冊` : `${man}万冊`;
     return { jp: jpFormat, id: idFormat };
 }
+
 function updateVisibility() {
     const isIdnChecked = document.getElementById("language-toggle").checked;
     document.querySelectorAll('#photobook-section #idn').forEach(el => el.classList.toggle('hidden', !isIdnChecked));

@@ -2,20 +2,25 @@ document.addEventListener('DOMContentLoaded', async () => {
     const params = new URLSearchParams(window.location.search);
     const memberId = params.get('id');
     const gridContainer = document.getElementById('garapanGridContainer');
+    
     if (!memberId) {
         gridContainer.innerHTML = '<p class="status-message">ID Member tidak ditemukan di URL.</p>';
         return;
     }
+    
     gridContainer.innerHTML = `<p class="status-message">Memuat data partisipasi, mohon tunggu...</p>`;
+
     try {
         const membersResponse = await fetch('../store/member/members.json');
         const membersData = await membersResponse.json();
         const memberInfo = membersData.find(m => m.id === memberId);
+
         if (!memberInfo) {
             document.getElementById('memberNamaJp').textContent = "Member Tidak Dikenal";
             gridContainer.innerHTML = '<p class="status-message">Informasi member tidak ditemukan.</p>';
             return;
         }
+
         document.getElementById('memberPhoto').src = memberInfo.foto_profil || '';
         document.getElementById('memberPhoto').alt = memberInfo.nama_jp || 'Foto Member';
         const memberNamaJpElem = document.getElementById('memberNamaJp');
@@ -27,6 +32,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             memberNamaJpElem.appendChild(span);
         });
         document.getElementById('memberNamaRomaji').textContent = memberInfo.nama_romaji || '';
+
         const listResponse = await fetch('../store/subs/list.json');
         const showList = await listResponse.json();
         const allParticipations = [];
@@ -47,16 +53,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 		"14_premium": "../store/subs/14_premium/",
 		"15_radio": "../store/subs/15_radio/",
 		"16_nonsakamichi": "../store/subs/16_nonsakamichi/" };
+
+        // 3. Iterasi setiap kategori dan setiap acara untuk mencari partisipasi member
         for (const categoryKey in showList) {
             const basePath = DATA_PATH_PREFIXES[categoryKey];
             if (!basePath) continue;
+
             const showPromises = showList[categoryKey].map(showId => 
                 fetch(`${basePath}${showId}.json`).then(res => res.ok ? res.json() : null).catch(() => null)
             );
             const showsData = await Promise.all(showPromises);
+
             showsData.forEach(showData => {
                 if (!showData) return;
+
                 const targetMemberName = memberInfo.nama_jp;
+                
                 if (showData.memberParticipate && showData.memberParticipate.includes(targetMemberName)) {
                     (showData.availableEpisode || []).sort().forEach(eps => {
                         allParticipations.push({ showData, episodeNumber: eps });
@@ -71,9 +83,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
             });
         }
+        
         if (allParticipations.length > 0) {
             const resultHTML = allParticipations.map(({ showData, episodeNumber }) => {
                 const episodeData = showData.episodes[episodeNumber] || {};
+                
                 let imageUrl = '';
                 if (episodeData.imageThumbEps) {
                     imageUrl = episodeData.imageThumbEps;
@@ -82,9 +96,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                 } else if (showData.imageThumbBigPattern) {
                     imageUrl = showData.imageThumbBigPattern.replace('{{eps}}', episodeNumber);
                 }
+                
                 if (!imageUrl) {
-                    imageUrl = 'https://via.placeholder.com/320x180.png?text=No+Image';  
+                    imageUrl = 'https://via.placeholder.com/320x180.png?text=No+Image'; // Fallback
                 }
+				
                 let fullTitle = '';
                 if (showData.url === 'random-subs') {
                     fullTitle = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${episodeNumber}`;
@@ -92,7 +108,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const epsTitle = episodeData.descEpsListName || (episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${episodeNumber}`);
                     fullTitle = `${showData.nameShowTitle} ${epsTitle}`;
                 }
+				
                 const link = `../moesubs/#/${showData.url}/${episodeNumber}`;
+				
                 return `
                     <div class="garapan-item">
                         <a href="${link}" target="_blank">
@@ -106,6 +124,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else {
             gridContainer.innerHTML = `<p class="status-message">Member ini tidak memiliki partisipasi dalam garapan yang terdata oleh MoeFang Subs atau tidak terdaftar/tergabung dalam satu grup.</p>`;
         }
+
     } catch (error) {
         console.error(`Error kritis saat memuat data: ${error}`);
         gridContainer.innerHTML = `<p class="status-message">Gagal memuat data. Cek console untuk detail error.</p>`;

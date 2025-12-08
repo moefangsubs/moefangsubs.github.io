@@ -1,0 +1,18 @@
+{
+    "categories": [
+        {"val": "variety_tv", "label": "Variety TV"},
+        {"val": "bonus_single", "label": "Bonus Single"},
+        {"val": "web_series", "label": "Web Content"},
+        {"val": "stage_theater", "label": "Stage/Theater"},
+        {"val": "drama", "label": "Drama"},
+        {"val": "movie", "label": "Movie"},
+        {"val": "concert", "label": "Concert"},
+        {"val": "performance", "label": "Performance"}
+    ],
+    "groups": [
+        {"val": "nogizaka", "label": "Nogizaka46"},
+        {"val": "sakurazaka", "label": "Sakurazaka46"},
+        {"val": "hinatazaka", "label": "Hinatazaka46"},
+        {"val": "bokuao", "label": "BokuAo"}
+    ]
+}

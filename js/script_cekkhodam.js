@@ -122,6 +122,7 @@ const khodamList = [
 	"Kedai Kopi Ayamen",
 	"Melon Soda Ayamen",
 ];
+
 function hashName(name) {
     let hash = 0;
     for (let i = 0; i < name.length; i++) {
@@ -130,6 +131,7 @@ function hashName(name) {
     }
     return Math.abs(hash) % khodamList.length;
 }
+
 function checkKhodam() {
     const nameInput = document.getElementById('nameInput').value.trim();
     const validCharsRegex = /^[a-zA-Z0-9\s@\-_]+$/;
@@ -137,15 +139,19 @@ function checkKhodam() {
         alert('Nama harus minimal 5 karakter dan hanya boleh mengandung huruf, angka, spasi, @, -, dan _');
         return;
     }
+
     document.querySelector('p').style.display = 'none';
     document.querySelector('.input-group').style.display = 'none';
+
     const loadingAnalyze = document.getElementById('loadingAnalyze');
     loadingAnalyze.style.display = 'block';
+    
     let analyzePercentage = 0;
     const analyzeInterval = setInterval(() => {
         analyzePercentage += Math.floor(Math.random() * 10) + 1;
         if (analyzePercentage > 100) analyzePercentage = 100;
         loadingAnalyze.textContent = `Menganalisa ${analyzePercentage}%`;
+
         if (analyzePercentage === 100) {
             clearInterval(analyzeInterval);
             loadingAnalyze.style.display = 'none';
@@ -153,25 +159,31 @@ function checkKhodam() {
         }
     }, 100);
 }
+
 function determineKhodam(name) {
     const loadingDetermine = document.getElementById('loadingDetermine');
     loadingDetermine.style.display = 'block';
+
     let determinePercentage = 0;
     const determineInterval = setInterval(() => {
         determinePercentage += Math.floor(Math.random() * 10) + 1;
         if (determinePercentage > 100) determinePercentage = 100;
         loadingDetermine.textContent = `Menentukan khodam ${determinePercentage}%`;
+
         if (determinePercentage === 100) {
             clearInterval(determineInterval);
             displayResult(name);
         }
     }, 100);
 }
+
 function displayResult(name) {
     document.getElementById('loadingDetermine').style.display = 'none';
+
     const resultElement = document.getElementById('result');
     const khodamIndex = hashName(name);
     const khodamName = khodamList[khodamIndex];
+
     resultElement.innerHTML = `
         Wahai anak yang bernama ${name},<br>di Nogizaka46 kamu punya khodam<br><br>
         <span class="khodam-name">${khodamName}</span><br><br>
@@ -180,6 +192,7 @@ function displayResult(name) {
     document.getElementById('shareMessage').style.display = 'block';
     document.getElementById('retryButton').style.display = 'block';
 }
+
 function reset() {
     document.querySelector('p').style.display = 'block';
     document.querySelector('.input-group').style.display = 'block';
