@@ -214,10 +214,13 @@ const ML_COMPONENTS = {
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mb-4 text-sm">
-                        <input type="url" id="fs-web" class="std-input border p-2 rounded" placeholder="Web URL">
-                        <input type="url" id="fs-fb" class="std-input border p-2 rounded" placeholder="Facebook URL">
-                        <input type="url" id="fs-trakteer" class="std-input border p-2 rounded" placeholder="Trakteer URL">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mb-4 text-sm">						
+                        <input type="url" id="fs-web" class="border p-2 rounded text-sm" placeholder="Website URL">
+                        <input type="url" id="fs-trakteer" class="border p-2 rounded text-sm" placeholder="Trakteer URL">
+                        <input type="url" id="fs-kofi" class="border p-2 rounded text-sm" placeholder="Ko-fi URL">
+                        <input type="url" id="fs-ig" class="border p-2 rounded text-sm" placeholder="Instagram URL">
+                        <input type="url" id="fs-fb" class="border p-2 rounded text-sm" placeholder="Facebook URL">
+                        <input type="url" id="fs-twitter" class="border p-2 rounded text-sm" placeholder="X / Twitter URL">
                     </div>
                     
                     <div class="flex gap-2">
