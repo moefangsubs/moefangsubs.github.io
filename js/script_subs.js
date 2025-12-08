@@ -656,15 +656,17 @@ document.addEventListener('DOMContentLoaded', () => {
             button.onclick = (e) => {
                 const songString = e.currentTarget.getAttribute('data-song');
                 const match = songString.match(/「(.+)」|『(.+)』/);
+                
                 if (match) {
                     const songTitle = match[1] || match[2];
                     const artist = songString.split(match[0])[0].trim();
                     const searchQuery = encodeURIComponent(`${artist} ${songTitle}`);
-                    window.open(`https: 
+                    window.open(`https://www.youtube.com/results?search_query=${searchQuery}`, '_blank');
                 }
             };
         });
     }
+	
 	function addImagePopupListeners() {
 		const popupOverlay = document.getElementById('image-popup-overlay');
 		const popupImage = document.getElementById('popup-image');
