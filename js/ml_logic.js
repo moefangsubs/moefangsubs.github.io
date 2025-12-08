@@ -106,7 +106,6 @@ const ML_LOGIC = {
             const showId = progSelect.value;
             const showData = ML_LOGIC.cache.shows[showId];
             
-            // Group Locking
             if(showData && showData.grup) {
                 document.querySelectorAll('input[name="rad-group"]').forEach(r => {
                     r.checked = (r.value === showData.grup);
@@ -118,9 +117,9 @@ const ML_LOGIC = {
                 document.getElementById('chk-multi-group').disabled = false;
             }
 
-            // Zero Episode Locking
             const epsInput = document.getElementById('inp-eps');
             const unknownCheck = document.getElementById('chk-eps-unknown');
+            
             if(showData && showData.forbid_zero) {
                 unknownCheck.checked = false;
                 unknownCheck.disabled = true;
@@ -130,7 +129,50 @@ const ML_LOGIC = {
                 unknownCheck.disabled = false;
                 epsInput.min = 0;
             }
+
+            ML_LOGIC.checkEpisodeData();
         };
+
+        document.getElementById('inp-eps').addEventListener('change', ML_LOGIC.checkEpisodeData);
+        document.getElementById('chk-eps-unknown').addEventListener('change', ML_LOGIC.checkEpisodeData);
+    },
+
+	checkEpisodeData: async () => {
+        const cat = document.getElementById('inp-cat').value;
+        const prog = document.getElementById('inp-program').value;
+        const epsInput = document.getElementById('inp-eps').value;
+        const isUnknown = document.getElementById('chk-eps-unknown').checked;
+        const subInput = document.getElementById('inp-subtitle');
+
+        if (!cat || !prog || (!isUnknown && !epsInput)) return;
+
+        const epsId = isUnknown ? 'unknown' : String(epsInput).padStart(2, '0');
+        
+        try {
+            const doc = await firebase.firestore().collection('masterlist_data').doc('show_parent').collection(cat).doc(prog).collection('episodes').doc(epsId).get();
+            
+            if (doc.exists) {
+                const data = doc.data();
+                if (data.sub_judul && data.sub_judul.trim() !== "") {
+                    subInput.value = data.sub_judul;
+                    subInput.disabled = true;
+                    subInput.classList.add('bg-gray-100', 'text-gray-500');
+                    subInput.title = "Sub judul sudah terdata di database";
+                } else {
+                    subInput.disabled = false;
+                    subInput.value = "";
+                    subInput.classList.remove('bg-gray-100', 'text-gray-500');
+                    subInput.title = "";
+                }
+            } else {
+                subInput.disabled = false;
+                subInput.value = "";
+                subInput.classList.remove('bg-gray-100', 'text-gray-500');
+                subInput.title = "";
+            }
+        } catch (e) {
+            console.log("Silent check error", e);
+        }
     },
 
     toggleUrlMode: (isSplit) => {
@@ -309,7 +351,6 @@ const ML_LOGIC = {
         const name = document.getElementById('fs-name').value;
         const status = document.getElementById('fs-status').value === 'true';
         
-        // Load All Inputs
         const web = document.getElementById('fs-web').value;
         const fb = document.getElementById('fs-fb').value;
         const twitter = document.getElementById('fs-twitter').value;
@@ -324,7 +365,10 @@ const ML_LOGIC = {
         }
 
         if (!name) return alert("Nama Fansub wajib diisi!");
-        if (!emailOwner) return alert("Email wajib diisi!");
+        
+        if (ML_LOGIC.role !== 'leader' && !emailOwner) {
+            return alert("Email wajib diisi!");
+        }
 
         try {
             const id = name.toLowerCase().replace(/[^a-z0-9]/g, '_');
@@ -512,43 +556,122 @@ const ML_LOGIC = {
         const [cat, showId] = val.split('|');
         const box = document.getElementById('quick-add-episode-box');
         
-        // Show Quick Add for Admin/Leader
         if(ML_LOGIC.role !== 'volunteer') {
             box.classList.remove('hidden');
+            ML_LOGIC.loadFansubDropdownForQuickAdd();
         }
 
         const tbody = document.getElementById('episode-list-body');
-        tbody.innerHTML = '<tr><td colspan="5" class="p-4 text-center">Loading...</td></tr>';
+        const colCount = ML_LOGIC.role === 'leader' ? 6 : 5;
+        tbody.innerHTML = `<tr><td colspan="${colCount}" class="p-4 text-center">Loading...</td></tr>`;
 
         const snap = await firebase.firestore().collection('masterlist_data').doc('show_parent').collection(cat).doc(showId).collection('episodes').get();
         
+        let episodes = [];
+        snap.forEach(doc => {
+            episodes.push({ id: doc.id, ...doc.data() });
+        });
+
+        if (ML_LOGIC.sortOrder === 'desc') {
+            episodes.sort((a, b) => (a.id === 'unknown' ? 1 : b.id === 'unknown' ? -1 : b.id.localeCompare(a.id, undefined, {numeric: true})));
+        } else {
+            episodes.sort((a, b) => (a.id === 'unknown' ? 1 : b.id === 'unknown' ? -1 : a.id.localeCompare(b.id, undefined, {numeric: true})));
+        }
+
         tbody.innerHTML = '';
-        if(snap.empty) {
-            tbody.innerHTML = '<tr><td colspan="5" class="p-4 text-center">Belum ada episode.</td></tr>';
+        if(episodes.length === 0) {
+            tbody.innerHTML = `<tr><td colspan="${colCount}" class="p-4 text-center">Belum ada episode.</td></tr>`;
             return;
         }
 
-        snap.forEach(doc => {
-            const d = doc.data();
+        episodes.forEach(d => {
             const linksHtml = d.links ? d.links.map(l => 
-                `<span class="inline-block bg-gray-100 border rounded px-1 text-xs mr-1 mb-1" title="Added by ${l.added_by}">${l.fansub}</span>`
-            ).join('') : '';
+                `<span class="inline-block bg-gray-100 border rounded px-1 text-xs mr-1 mb-1">${l.fansub}</span>`
+            ).join('') : '-';
+
+            let addedByHtml = '';
+            if (ML_LOGIC.role === 'leader') {
+                const uniqueAdders = d.links ? [...new Set(d.links.map(l => l.added_by || '?'))] : [];
+                addedByHtml = `<td class="border p-2 text-xs bg-yellow-50 text-yellow-800 break-all">${uniqueAdders.join(', ')}</td>`;
+            }
 
             const delBtn = ML_LOGIC.role === 'leader' ? 
                 `<button class="text-red-500 hover:text-red-700" onclick="alert('Fitur Delete Full Row belum diimplementasikan.')"><i class="fas fa-trash"></i></button>` : '';
 
             tbody.innerHTML += `
-                <tr>
-                    <td class="border p-2 text-center font-bold">${doc.id}</td>
-                    <td class="border p-2 text-sm">${d.sub_judul || '-'}</td>
+                <tr class="hover:bg-gray-50 border-b">
+                    <td class="border p-2 text-center font-bold">${d.id}</td>
                     <td class="border p-2 text-center text-xs">${d.airing || '-'}</td>
+                    <td class="border p-2 text-sm">${d.sub_judul || '-'}</td>
                     <td class="border p-2">${linksHtml}</td>
+                    ${addedByHtml}
                     <td class="border p-2 text-center">${delBtn}</td>
                 </tr>
             `;
         });
     },
 
+    sortOrder: 'asc',
+    sortEpisodeList: () => {
+        ML_LOGIC.sortOrder = ML_LOGIC.sortOrder === 'asc' ? 'desc' : 'asc';
+        const val = document.getElementById('filter-show').value;
+        if(val) ML_LOGIC.loadEpisodesList(val);
+    },
+
+    loadFansubDropdownForQuickAdd: async () => {
+        if(document.getElementById('quick-fs-1').options.length > 1) return; 
+        
+        const snap = await firebase.firestore().collection('masterlist_data').doc('fansub_parent').collection('list_fansubs').get();
+        const options = [];
+        snap.forEach(doc => {
+            options.push({id: doc.id, name: doc.data().name});
+        });
+        
+        options.sort((a,b) => a.name.localeCompare(b.name));
+
+        const selects = [1, 2, 3, 4];
+        selects.forEach(num => {
+            const el = document.getElementById(`quick-fs-1`); 
+            if(num === 1) {
+               options.forEach(opt => {
+                   const option = document.createElement('option');
+                   option.value = opt.name; 
+                   option.text = opt.name;
+                   el.add(option);
+               });
+            }
+        });
+    },
+
+    handleQuickFsChange: (num) => {
+        const currentVal = document.getElementById(`quick-fs-${num}`).value;
+        const nextNum = num + 1;
+        const nextEl = document.getElementById(`quick-fs-${nextNum}`);
+        
+        if (nextEl) {
+            if (currentVal) {
+                nextEl.disabled = false;
+                nextEl.classList.remove('opacity-50');
+                if (nextEl.options.length <= 1) {
+                    const firstSelect = document.getElementById('quick-fs-1');
+                    for (let i = 1; i < firstSelect.options.length; i++) {
+                        const opt = firstSelect.options[i];
+                        const newOpt = document.createElement('option');
+                        newOpt.value = opt.value;
+                        newOpt.text = opt.text;
+                        nextEl.add(newOpt);
+                    }
+                }
+            } else {
+                nextEl.disabled = true;
+                nextEl.classList.add('opacity-50');
+                nextEl.value = "";
+                // Recursive clear
+                ML_LOGIC.handleQuickFsChange(nextNum);
+            }
+        }
+    },
+	
     addQuickEpisode: async () => {
         const val = document.getElementById('filter-show').value;
         if(!val) return;
@@ -564,16 +687,47 @@ const ML_LOGIC = {
         const epsId = String(eps).padStart(2, '0');
         const airing = unknownDate ? 'unknown' : date;
 
+        const fansubs = [];
+        for(let i=1; i<=4; i++) {
+            const fsVal = document.getElementById(`quick-fs-${i}`).value;
+            if(fsVal) fansubs.push(fsVal);
+        }
+
+        const batchLinks = fansubs.map(fsName => ({
+            fansub: fsName,
+            url: '', 
+            added_by: ML_LOGIC.user.email,
+            timestamp: new Date().toISOString()
+        }));
+
         try {
-            await firebase.firestore().collection('masterlist_data').doc('show_parent').collection(cat).doc(showId).collection('episodes').doc(epsId).set({
-                airing: airing,
-                sub_judul: sub,
-                links: []
-            }, { merge: true });
+            const docRef = firebase.firestore().collection('masterlist_data').doc('show_parent').collection(cat).doc(showId).collection('episodes').doc(epsId);
             
-            alert("Episode ditambahkan!");
+            const docSnap = await docRef.get();
+            
+            if(docSnap.exists) {
+                // Update
+                const updateData = {};
+                if(sub) updateData.sub_judul = sub;
+                if(airing) updateData.airing = airing;
+                if(batchLinks.length > 0) {
+                    updateData.links = firebase.firestore.FieldValue.arrayUnion(...batchLinks);
+                }
+                await docRef.update(updateData);
+            } else {
+                // Create New
+                await docRef.set({
+                    airing: airing,
+                    sub_judul: sub,
+                    links: batchLinks
+                });
+            }
+            
+            alert("Episode berhasil diupdate/tambah!");
             document.getElementById('quick-eps').value = '';
             document.getElementById('quick-sub').value = '';
+            document.getElementById('quick-fs-1').value = '';
+            ML_LOGIC.handleQuickFsChange(1); 
             ML_LOGIC.loadEpisodesList(val);
         } catch(e) {
             alert("Error: " + e.message);

@@ -299,52 +299,74 @@ const ML_COMPONENTS = {
     `},
 
     renderTabEpisode: (staticData) => `
-        <div class="space-y-4">
-            <div class="flex flex-col md:flex-row gap-4 bg-gray-50 p-4 rounded border">
-                <select id="filter-cat" class="border p-2 rounded w-full md:w-1/3" onchange="ML_LOGIC.loadShowsForFilter(this.value)">
+        <div class="space-y-4 relative z-10">
+            <div class="flex flex-col md:flex-row gap-4 bg-gray-50 p-4 border">
+                <select id="filter-cat" class="w-full md:w-1/3" onchange="ML_LOGIC.loadShowsForFilter(this.value)">
                     <option value="">-- Pilih Kategori --</option>
                     ${staticData.categories.map(c => `<option value="${c.val}">${c.label}</option>`).join('')}
                 </select>
-                <select id="filter-show" class="border p-2 rounded w-full md:w-1/3" disabled onchange="ML_LOGIC.loadEpisodesList(this.value)">
+                <select id="filter-show" class="w-full md:w-1/3" disabled onchange="ML_LOGIC.loadEpisodesList(this.value)">
                     <option value="">-- Pilih Acara --</option>
                 </select>
             </div>
 
-            <div id="quick-add-episode-box" class="bg-blue-50 border border-blue-200 p-4 rounded hidden">
-                <h4 class="font-bold text-sm mb-2 text-blue-800">TAMBAH EPISODE CEPAT</h4>
-                <div class="flex flex-col md:flex-row gap-2 items-end">
-                    <div class="w-24">
+            <div id="quick-add-episode-box" class="p-4 border hidden" style="background:var(--moe-tint7); border-color:var(--moe)">
+                <h4 class="font-bold text-sm mb-2" style="color:var(--moe-shade-max1)">TAMBAH / UPDATE EPISODE</h4>
+                
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-2 mb-2">
+                    <div class="md:col-span-1">
                         <label class="text-xs font-bold">Episode</label>
-                        <input type="number" id="quick-eps" class="border p-2 w-full rounded" placeholder="00">
+                        <input type="number" id="quick-eps" class="w-full" placeholder="00">
                     </div>
-                    <div class="flex-1">
+                    <div class="md:col-span-2">
                         <label class="text-xs font-bold">Sub Judul</label>
-                        <input type="text" id="quick-sub" class="border p-2 w-full rounded" placeholder="Judul Episode...">
+                        <input type="text" id="quick-sub" class="w-full" placeholder="Judul Episode...">
                     </div>
-                    <div class="w-40">
+                    <div class="md:col-span-1">
                         <label class="text-xs font-bold">Airing</label>
-                        <input type="date" id="quick-date" class="border p-2 w-full rounded">
+                        <div class="flex gap-1">
+                            <input type="date" id="quick-date" class="w-full text-xs">
+                            <div class="flex items-center">
+                                <input type="checkbox" id="quick-unknown-date" title="Unknown Date">
+                            </div>
+                        </div>
                     </div>
-                    <div class="pb-2">
-                        <label class="flex items-center text-xs"><input type="checkbox" id="quick-unknown-date" class="mr-1"> Unknown Date</label>
-                    </div>
-                    <button onclick="ML_LOGIC.addQuickEpisode()" class="bg-blue-600 text-white font-bold px-4 py-2 rounded h-10 hover:bg-blue-700">TAMBAH</button>
                 </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-2 mb-2">
+                    <select id="quick-fs-1" class="w-full text-sm" onchange="ML_LOGIC.handleQuickFsChange(1)">
+                        <option value="">-- Fansub 1 --</option>
+                    </select>
+                    <select id="quick-fs-2" class="w-full text-sm opacity-50" disabled onchange="ML_LOGIC.handleQuickFsChange(2)">
+                        <option value="">-- Fansub 2 --</option>
+                    </select>
+                    <select id="quick-fs-3" class="w-full text-sm opacity-50" disabled onchange="ML_LOGIC.handleQuickFsChange(3)">
+                        <option value="">-- Fansub 3 --</option>
+                    </select>
+                    <select id="quick-fs-4" class="w-full text-sm opacity-50" disabled>
+                        <option value="">-- Fansub 4 --</option>
+                    </select>
+                </div>
+
+                <button onclick="ML_LOGIC.addQuickEpisode()" class="w-full bg-blue-600 py-2 font-bold text-white mt-2 hover:bg-blue-700 transition">PROSES DATA</button>
             </div>
 
             <div class="overflow-x-auto">
-                <table class="w-full text-sm border-collapse border border-gray-300">
-                    <thead class="bg-gray-800 text-white">
+                <table class="w-full text-sm">
+                    <thead>
                         <tr>
-                            <th class="border p-2 w-16">Eps</th>
-                            <th class="border p-2">Sub Judul</th>
-                            <th class="border p-2 w-24">Airing</th>
-                            <th class="border p-2">Links / Fansub</th>
-                            <th class="border p-2 w-20">Aksi</th>
+                            <th class="p-2 w-16 cursor-pointer hover:bg-[var(--moe-tint5)]" onclick="ML_LOGIC.sortEpisodeList()">
+                                Eps <i class="fas fa-sort ml-1"></i>
+                            </th>
+                            <th class="p-2 w-24">Airing</th>
+                            <th class="p-2">Sub Judul</th>
+                            <th class="p-2">Fansub Penggarap</th>
+                            ${ML_LOGIC.role === 'leader' ? '<th class="p-2 w-32 bg-yellow-100 text-yellow-900">Added By</th>' : ''}
+                            <th class="p-2 w-20">Aksi</th>
                         </tr>
                     </thead>
                     <tbody id="episode-list-body">
-                        <tr><td colspan="5" class="p-8 text-center text-gray-400">Pilih acara untuk melihat episode.</td></tr>
+                        <tr><td colspan="${ML_LOGIC.role === 'leader' ? 6 : 5}" class="p-8 text-center" style="color:var(--moe-tint3)">Pilih acara untuk melihat episode.</td></tr>
                     </tbody>
                 </table>
             </div>
