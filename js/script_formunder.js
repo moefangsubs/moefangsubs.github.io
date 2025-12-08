@@ -1,9 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+    // Path ke file-file JSON yang dibutuhkan
     const a = {
         songall: '../store/single/songall.json',
         bgColors: '../store/single/senbatsu_member_bg.json',
         members: '../store/member/members.json'
     };
+
+    // Tooltip data
     const tooltips = {
         "人数": "Jumlah",
         "作詞": "Lirik",
@@ -13,11 +17,14 @@ document.addEventListener("DOMContentLoaded", function() {
         "MV監督": "Sutradara MV",
         "振付師": "Choreographer"
     };
+    
+    // Fetch semua data yang diperlukan
     Promise.all([
         fetch(a.songall).then(res => res.json()),
         fetch(a.members).then(res => res.json()),
         fetch(a.bgColors).then(res => res.json())
     ]).then(([songall, membersData, bgColors]) => {
+        
         const photoMember = {
             generalUrl: "https://ik.imagekit.io/moearchive/web/memberprofile/",
             specialCases: { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 3, 40: 39 },
@@ -36,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     const filename = memberId.replace(/-/g, '_');
                     return `${this.generalUrl}${this.singleNumber(singleIndex)}/${filename}.png`;
                 }
-                return `https: 
+                return `https://via.placeholder.com/100x133.png?text=${memberName}`;
             },
             getSvgUrl: function(memberName) {
                 const memberId = this.getMemberId(memberName);
@@ -47,15 +54,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 return null;
             }
         };
+
         const senbatsuContainer = document.getElementById('senbatsuContainer');
+
         const singleKeys = Object.keys(songall).filter(key => key.startsWith('s') && !isNaN(key.substring(1))).sort((a, b) => parseInt(a.substring(1)) - parseInt(b.substring(1)));
+
         for (const key of singleKeys) {
             const singleKey = parseInt(key.substring(1));
             const allSongsInSingleArr = songall[key];
             const single = allSongsInSingleArr.find(song => song.songOutline === "Under");
+            
             if (!single) continue;
+
             const rowDiv = document.createElement('div');
             rowDiv.classList.add('row-container');
+
             const titleDiv = document.createElement('div');
             titleDiv.classList.add('title-container');
             const singleNumberSpan = document.createElement('span');
@@ -67,10 +80,12 @@ document.addEventListener("DOMContentLoaded", function() {
             titleDiv.appendChild(singleNumberSpan);
             titleDiv.appendChild(singleTitleSpan);
             rowDiv.appendChild(titleDiv);
+
             const subRowDiv = document.createElement('div');
             subRowDiv.classList.add('sub-row');
             const formationsDiv = document.createElement('div');
             formationsDiv.classList.add('formation');
+            
             const formationRowKeys = Object.keys(single)
                 .filter(key => key.startsWith('members'))
                 .sort((a, b) => {
@@ -78,10 +93,12 @@ document.addEventListener("DOMContentLoaded", function() {
                     const numB = parseInt(b.match(/\d+/)[0], 10);
                     return numB - numA;
                 });
+
             const allMembersInSingle = [];
             formationRowKeys.forEach(rowKey => {
                 if(single[rowKey]) allMembersInSingle.push(...single[rowKey]);
             });
+
             formationRowKeys.forEach(rowKey => {
                  if (!single[rowKey]) return;
                  const rowFormationDiv = document.createElement('div');
@@ -92,6 +109,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     const memberSvgUrl = photoMember.getSvgUrl(memberName);
                     const memberContainer = document.createElement('div');
                     memberContainer.classList.add('member-container');
+                    
                     if (bgColors[singleKey]) {
                         memberContainer.style.backgroundColor = bgColors[singleKey];
                         memberContainer.style.borderColor = bgColors[singleKey];
@@ -119,12 +137,15 @@ document.addEventListener("DOMContentLoaded", function() {
                  });
                  formationsDiv.appendChild(rowFormationDiv);
             });
+            
             const wadahsenbaDiv = document.createElement('div');
             wadahsenbaDiv.classList.add('wadahsenba');
             formationsDiv.appendChild(wadahsenbaDiv);
             subRowDiv.appendChild(formationsDiv);
+
             const infoGroupDiv = document.createElement('div');
             infoGroupDiv.classList.add('info-datasingle');
+            
             function createInfoBox(title, content, subContent = '', isSmall = true) {
                 const boxDiv = document.createElement('div');
                 boxDiv.classList.add(isSmall ? 'info-data-min' : 'info-data');
@@ -134,7 +155,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 boxDiv.innerHTML = titleHtml + contentHtml + subContentHtml;
                 return boxDiv;
             }
+            
             infoGroupDiv.appendChild(createInfoBox("人数", `${allMembersInSingle.length}名`));
+            
             const genStats = allMembersInSingle.reduce((acc, memberName) => {
                 if (memberName === "吉田綾乃ｸﾘｽﾃｨｰ") memberName = "吉田綾乃クリスティー";
                 const member = membersData.find(m => m.nama_jp === memberName);
@@ -144,33 +167,44 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 return acc;
             }, {});
+
             Object.keys(genStats).sort().forEach(genKey => {
                  infoGroupDiv.appendChild(createInfoBox(`${genKey}${genKey !== "兼" ? "期" : ""}`, `${genStats[genKey]}名`));
             });
             subRowDiv.appendChild(infoGroupDiv);
+            
             const infoSingleDiv = document.createElement('div');
             infoSingleDiv.classList.add('info-datasingle');
             const formatData = (data) => Array.isArray(data) ? data.join(', ') : data;
             const areCreatorsEqual = (a, b) => a && b && JSON.stringify(a) === JSON.stringify(b);
+
             if (single.SongLyricsJP) infoSingleDiv.appendChild(createInfoBox('作詞', formatData(single.SongLyricsJP), '', false));
+
             if (areCreatorsEqual(single.SongCompJP, single.SongArraJP)) {
                 infoSingleDiv.appendChild(createInfoBox('作曲 & 編曲', formatData(single.SongCompJP), '', false));
             } else {
                 if (single.SongCompJP) infoSingleDiv.appendChild(createInfoBox('作曲', formatData(single.SongCompJP), '', false));
                 if (single.SongArraJP) infoSingleDiv.appendChild(createInfoBox('編曲', formatData(single.SongArraJP), '', false));
             }
+            
             let mvDirectorText = formatData(single.SongMVDirJP || '');
             if(single.SongMVDirRO) mvDirectorText += ` (${formatData(single.SongMVDirRO)})`;
             if (mvDirectorText) infoSingleDiv.appendChild(createInfoBox('MV監督', mvDirectorText.trim(), '', false));
+
             if (single.SongChoreo) infoSingleDiv.appendChild(createInfoBox('振付師', formatData(single.SongChoreo), '', false));
+            
             if (infoSingleDiv.hasChildNodes()) {
                 subRowDiv.appendChild(infoSingleDiv);
             }
+            
             rowDiv.appendChild(subRowDiv);
             senbatsuContainer.appendChild(rowDiv);
         }
+        
         initializeSlider();
+
     }).catch(error => console.error("Gagal memuat data:", error));
+
     function initializeSlider() {
         const rowContainers = document.querySelectorAll(".row-container");
         if (rowContainers.length === 0) return;

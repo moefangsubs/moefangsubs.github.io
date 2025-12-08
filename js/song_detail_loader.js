@@ -1,33 +1,49 @@
+// Fungsi ini akan menangani fallback jika foto tidak ditemukan.
+// Ditempatkan di scope global (window) agar bisa dipanggil dari atribut `onerror` di HTML.
 window.handleImageError = function(imageElement, filename) {
     const failingSrc = imageElement.src;
-    const match = failingSrc.match(/\/s(\d{3})\ 
+    const match = failingSrc.match(/\/s(\d{3})\//);
+
     if (!match) {
         imageElement.onerror = null;
         imageElement.src = 'https://via.placeholder.com/80';
         return;
     }
+
     const currentNum = parseInt(match[1]);
     const nextNum = currentNum - 1;
+
     if (nextNum > 0) {
         const fallbackPrefix = 's' + String(nextNum).padStart(3, '0');
-        const newUrl = `https: 
+        const newUrl = `https://ik.imagekit.io/moearchive/web/memberprofile/${fallbackPrefix}/${filename}`;
         imageElement.src = newUrl;
     } else {
         imageElement.onerror = null;
         imageElement.src = 'https://via.placeholder.com/80';
     }
 };
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     const songNameJp = params.get('name');
+
     const detailWrapper = document.getElementById('song-detail-wrapper');
     const lyricsWrapper = document.getElementById('lyrics-wrapper');
+
+    // =================================================================
+    //  TAMPILAN DAFTAR LAGU JIKA TIDAK ADA PARAMETER NAMA
+    // =================================================================
     if (!songNameJp) {
         document.title = "Daftar Lagu Nogizaka46";
         lyricsWrapper.style.display = 'none';
         displaySongList();
         return;
     }
+
+    // =================================================================
+    //  TAMPILAN DETAIL LAGU JIKA ADA PARAMETER NAMA
+    // =================================================================
     Promise.all([
         fetch('../store/single/songall.json').then(res => res.json()),
         fetch('../store/member/members.json').then(res => res.json()),
@@ -35,8 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
         fetch('../store/single/spotifyembed.json').then(res => res.json())
     ]).then(([songallData, membersData, lyricsData, spotifyData]) => {
         lyricsWrapper.style.display = 'none';
+
         let targetSong = null;
         let releaseKey = null;
+
         for (const rKey in songallData) {
             const song = songallData[rKey].find(s => s.titleJp.trim() === songNameJp.trim());
             if (song) {
@@ -45,12 +63,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
             }
         }
+
         if (!targetSong) {
             detailWrapper.innerHTML = `<h1>Lagu "${songNameJp}" tidak dapat ditemukan.</h1>`;
             return;
         }
+
         document.title = `${targetSong.titleRo} - Detail Lagu`;
+
         const songLyrics = lyricsData.find(lyric => lyric.title.trim() === targetSong.titleJp.trim());
+
         const memberNameMap = membersData.reduce((acc, member) => {
             acc[member.nama_jp.trim()] = {
                 id: member.id,
@@ -58,6 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
             return acc;
         }, {});
+
         const externalMemberNameMap = {
             "小嶋陽菜 (AKB48)": "Kojima Haruna (AKB48)",
             "宮脇咲良": "Miyawaki Sakura (AKB48 Team A/HKT48 Team KIV)",
@@ -91,6 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "佐々木美玲": "Sasaki Mirei (Hinatazaka46)",
             "渡邉美穂": "Watanabe Miho (Hinatazaka46)"
         };
+
         const getRomajiName = (jpName) => {
             if (!jpName) return "";
             if (externalMemberNameMap[jpName.trim()]) {
@@ -99,12 +123,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const member = memberNameMap[jpName.trim()];
             return member ? member.romaji.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ') : jpName;
         };
+
         const formatReleaseDate = (dateStr) => {
             if (!dateStr || !/^\d{4}\.\d{2}\.\d{2}$/.test(dateStr)) return null;
             const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
             const [year, month, day] = dateStr.split('.');
             return `${parseInt(day)} ${months[parseInt(month) - 1]} ${year}`;
         };
+
         const getSingleImageUrl = () => {
             const baseV2Url = "https://ik.imagekit.io/moearchive/singlealbum/v2/";
             const specialCovers = {
@@ -116,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (specialCovers[targetSong.titleJp.trim()]) {
                 return `${baseV2Url}${specialCovers[targetSong.titleJp.trim()]}`;
             }
+
             if (releaseKey.startsWith('akb')) {
                 const num = releaseKey.replace(/\D/g, '');
                 return `${baseV2Url}akb48_cover_s${num}.jpg`;
@@ -163,12 +190,15 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             return "https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_x.jpg";
         };
+
         let outlineText = targetSong.songOutline || "";
         if (outlineText === "Unit" && targetSong.UnitName && targetSong.UnitName.trim() !== "") {
             outlineText += ` (${targetSong.UnitName.trim()})`;
         }
+
         const centers = targetSong.center ? (Array.isArray(targetSong.center) ? targetSong.center : [targetSong.center]) : [];
         const centerNames = centers.length > 0 && centers[0] !== "" ? centers.map(getRomajiName).join(', ') : null;
+
         let downloadButtonsHtml = '';
         if (targetSong.LinkDownMV1 || targetSong.LinkDownMV2 || targetSong.OffVocallink) {
             downloadButtonsHtml += '<div class="download-links-container">';
@@ -193,6 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             downloadButtonsHtml += '</div>';
         }
+
         let extraDetailsHtml = '<table class="song-info-extra-details">';
         const releaseDate = formatReleaseDate(targetSong.songRelease);
         if (releaseDate) extraDetailsHtml += `<tr><td>Tanggal Rilis</td><td>${releaseDate}</td></tr>`;
@@ -235,7 +266,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (choreo) extraDetailsHtml += `<tr><td>Koreografer</td><td>${choreo}</td></tr>`;
         if (targetSong.SongLiveChoreo) extraDetailsHtml += `<tr><td>Koreografer (Konser)</td><td>${targetSong.SongLiveChoreo}</td></tr>`;
         extraDetailsHtml += '</table>';
+
         const songInfoCard = `<div class="song-info-card"><img src="${getSingleImageUrl()}" alt="Cover ${targetSong.titleRo}" onerror="this.onerror=null; this.src='https://via.placeholder.com/200';"><div class="song-info-details"><h1>${targetSong.titleJp}</h1><div class="romaji-title">${targetSong.titleRo}</div>${extraDetailsHtml}${downloadButtonsHtml}</div></div>`;
+
         const getProfileImagePrefix = () => {
             if (!releaseKey) return "";
             if (releaseKey.startsWith('s')) {
@@ -268,6 +301,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             return "";
         };
+
         const externalMemberImages = {
             "akb38": {
                 "小嶋陽菜 (AKB48)": "kojima_haruna_2014"
@@ -322,6 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "渡邉美穂": "watanabe_miho_h46_s01"
             }
         };
+
         const getMemberInitialImageData = (jpName) => {
             if (!jpName) return {
                 url: "https://via.placeholder.com/80",
@@ -330,7 +365,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (releaseKey.startsWith('akb') && externalMemberImages[releaseKey] && externalMemberImages[releaseKey][jpName.trim()]) {
                 const imageName = externalMemberImages[releaseKey][jpName.trim()];
                 return {
-                    url: `https: 
+                    url: `https://ik.imagekit.io/moearchive/web/memberprofile/other/${imageName}.jpg`,
                     onError: `onerror="this.onerror=null; this.src='https://via.placeholder.com/80';"`
                 };
             }
@@ -346,7 +381,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const filename = member.id.replace(/-/g, "_") + '.png';
             if (prefix) {
                 return {
-                    url: `https: 
+                    url: `https://ik.imagekit.io/moearchive/web/memberprofile/${prefix}/${filename}`,
                     onError: `onerror="handleImageError(this, '${filename}')"`
                 };
             }
@@ -355,6 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 onError: ""
             };
         };
+
         let formationHtml = '';
         const memberRows = [];
         for (let i = 5; i >= 0; i--) {
@@ -385,16 +421,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const hasOnlyMembers0 = memberRows.length === 1 && memberRows[0].key === 'members0';
         const headingText = hasOnlyMembers0 ? 'MEMBER YANG BERPARTISIPASI' : 'FORMASI';
         const formationCard = `<div class="formation-card"><h2>${headingText}</h2>${formationHtml}${hasOnlyMembers0 ? '<div class="formation-note">Tidak berurut karena tidak ada data/berubah-ubah</div>' : ''}</div>`;
+
         const spotifyUrl = spotifyData[targetSong.titleJp.trim()];
         let spotifyCard = '';
         if (spotifyUrl) {
             const trackIdMatch = spotifyUrl.match(/track[/:]([a-zA-Z0-9]+)/);
             if (trackIdMatch && trackIdMatch[1]) {
                 const trackId = trackIdMatch[1];
-                const spotifyEmbedUrl = `https: 
+                const spotifyEmbedUrl = `https://open.spotify.com/embed/track/${trackId}?utm_source=generator&theme=0`;
                 spotifyCard = `<div class="spotify-card"><iframe src="${spotifyEmbedUrl}" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>`;
             }
         }
+
         let lyricsBoxHtml = '';
         if (songLyrics && songLyrics.lyrics) {
             const formattedLyrics = songLyrics.lyrics.replace(/<br\s*\/?>/gi, '\n');
@@ -405,29 +443,38 @@ document.addEventListener('DOMContentLoaded', () => {
             mediaLyricsContainer = `<div class="media-lyrics-container">${spotifyCard}${lyricsBoxHtml}</div>`;
         }
         detailWrapper.innerHTML = songInfoCard + formationCard + mediaLyricsContainer;
+
     }).catch(error => {
         console.error("Gagal memuat data:", error);
         detailWrapper.innerHTML = `<h1>Terjadi kesalahan saat memuat data lagu.</h1><p>${error.toString()}</p>`;
     });
+
     function displaySongList() {
         detailWrapper.innerHTML = `<div class="songlist-header"><h1>Nogizaka46 Song List</h1><p>Jelajahi diskografi lengkap Nogizaka46. Halaman ini berisi daftar semua lagu dari setiap single, album, dan rilisan digital. Klik pada judul lagu untuk melihat detail lengkap, termasuk formasi member, lirik, dan informasi lainnya.</p></div><div id="song-list-content"><p>Memuat daftar lagu...</p></div>`;
         fetch('../store/single/songall.json')
             .then(res => res.json())
             .then(data => {
                 const listContent = document.getElementById('song-list-content');
+
+                // --- PERUBAHAN LOGIKA SORTING DIMULAI DI SINI ---
                 const releaseOrder = Object.keys(data).sort((a, b) => {
                     const isADig = a === 'dig';
                     const isBDig = b === 'dig';
+
                     if (isADig && !isBDig) {
-                        return 1;  
+                        return 1; // Pindahkan 'dig' ke akhir
                     }
                     if (!isADig && isBDig) {
-                        return -1;  
+                        return -1; // Pindahkan 'dig' ke akhir
                     }
+
+                    // Jika keduanya bukan 'dig' atau keduanya 'dig', urutkan berdasarkan tanggal
                     const dateA = data[a][0]?.songRelease?.replace(/\./g, '') || '0';
                     const dateB = data[b][0]?.songRelease?.replace(/\./g, '') || '0';
                     return parseInt(dateA) - parseInt(dateB);
                 });
+                // --- AKHIR PERUBAHAN LOGIKA SORTING ---
+
                 const albumTitles = {
                     'a1': 'Toumei na Iro',
                     'a2': 'Sorezore no Isu',
@@ -447,25 +494,28 @@ document.addEventListener('DOMContentLoaded', () => {
                     const firstSong = songs[0];
                     let coverUrl;
                     const keyNum = key.replace(/\D/g, '');
+
                     if (key.startsWith('akb')) {
-                        coverUrl = `https: 
+                        coverUrl = `https://ik.imagekit.io/moearchive/singlealbum/v2/akb48_cover_s${keyNum}.jpg`;
                     } else if (key.startsWith('s')) {
-                        coverUrl = `https: 
+                        coverUrl = `https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_s${keyNum}a.jpg`;
                     } else if (key.startsWith('a') || key.startsWith('u') || key.startsWith('b')) {
-                        coverUrl = `https: 
+                        coverUrl = `https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_${key}.jpg`;
                     } else {
                         coverUrl = 'https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_x.jpg';
                     }
+
                     let mainSongHtml = '';
                     if (albumTitles[key]) {
                         mainSongHtml = `<div class="songlist-main-song" style="color: var(--moe-tint1); font-weight: bold; font-size: 1.3em;">${albumTitles[key]}</div>`;
                     } else if (key !== 'dig' && firstSong) {
                         mainSongHtml = `<div class="songlist-main-song"><a href="?name=${encodeURIComponent(firstSong.titleJp)}">${firstSong.titleRo}</a></div>`;
-                    } else if (key === 'dig') {  
+                    } else if (key === 'dig') { // Menambahkan judul untuk grup 'dig'
                         mainSongHtml = `<div class="songlist-main-song" style="color: var(--moe-tint1); font-weight: bold; font-size: 1.3em;">Digital Releases</div>`;
                     }
+
                     const tracksHtml = songs.map(song => `<a href="?name=${encodeURIComponent(song.titleJp)}">${song.titleRo}</a>`).join('');
-                    const songNumberDisplay = key === 'dig' ? 'DIG' : firstSong.songNumber;  
+                    const songNumberDisplay = key === 'dig' ? 'DIG' : firstSong.songNumber; // Tampilan nomor untuk 'dig'
                     allGroupsHtml += `<div class="songlist-group"><img src="${coverUrl}" alt="Cover for ${firstSong.songNumber}" class="songlist-cover" onerror="this.onerror=null; this.src='https://via.placeholder.com/150';"><div class="songlist-info"><div class="songlist-title-bar"><div class="songlist-number">${songNumberDisplay}</div>${mainSongHtml}</div><div class="songlist-tracks">${tracksHtml}</div></div></div>`;
                 });
                 listContent.innerHTML = allGroupsHtml;

@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+
     const a = {
         songall: '../store/single/songall.json',
         releases: '../store/single/single_release.json',
@@ -10,7 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
         notPart: '../store/member/members_single_hiatus_not_participate.json',
         sick: '../store/member/members_single_hiatus_sick.json'
     };
+
     const tooltips = { "選抜発表日": "Hari formasi senbatsu diumumkan", "日数の差": "Rentang hari dari formasi senbatsu diumumkan ke tanggal rilis", "発売日": "Hari perilisan single", "人数": "Jumlah", "作詞": "Lirik", "編曲": "Arranger", "作曲": "Composer", "作曲 & 編曲": "Composer & Arranger", "MV監督": "Sutradara MV", "振付師": "Choreographer", "不参加": "Member yang tidak ikut serta...", "初選抜": "Member yang pertama kali masuk senbatsu", "選抜落ち": "Member yang single sebelumnya...", "選抜復帰": "Member yang pernah masuk senbatsu...", "卒業": "Member yang memutuskan lulus", "休業中": "Member yang mengalami penangguhan...", "体調不良": "Member yang kesehatannya memburuk", "交換留学生": "Member pertukaran dari grup lain" };
+    
     Promise.all([
         fetch(a.songall).then(res => res.json()),
         fetch(a.releases).then(res => res.json()),
@@ -22,14 +25,17 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(a.sick).then(res => res.json()),
         fetch(a.bgColors).then(res => res.json())
     ]).then(([songall, releases, membersData, grad, hiatus, transfer, notPart, sick, bgColors]) => {
+        
         const specialCases = { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 33 };
         const baseUrl = "https://ik.imagekit.io/moearchive/web/memberprofile/";
+
         function setMemberImageWithFallback(imgElement, memberId, currentSingleKey) {
             if (currentSingleKey < 1) {
-                imgElement.src = `https: 
+                imgElement.src = `https://via.placeholder.com/150x200/cccccc/ffffff.png?text=${memberId.replace(/_/g, '+')}`;
                 imgElement.style.objectFit = 'contain';
                 return;
             }
+            
             const singleFolderNumber = `s${String(specialCases[currentSingleKey] || currentSingleKey).padStart(3, '0')}`;
             const urlToTry = `${baseUrl}${singleFolderNumber}/${memberId}.png`;
             const imageTester = new Image();
@@ -37,10 +43,12 @@ document.addEventListener("DOMContentLoaded", function() {
             imageTester.onerror = () => { setMemberImageWithFallback(imgElement, memberId, currentSingleKey - 1); };
             imageTester.src = urlToTry;
         }
+
         const getMemberId = (memberName) => {
             const member = membersData.find(m => m.nama_jp === memberName);
             return member ? member.id : null;
         };
+
         function formatDateStandard(dateString) {
             const date = new Date(dateString);
             const year = date.getFullYear();
@@ -48,16 +56,21 @@ document.addEventListener("DOMContentLoaded", function() {
             const day = date.getDate();
             return `${year}/${month}/${day}`;
         }
+
         const senbatsuContainer = document.getElementById('senbatsuContainer');
         let previousMembers = {};
+
         const singleKeys = Object.keys(songall).filter(key => key.startsWith('s') && !isNaN(key.substring(1))).sort((a, b) => parseInt(a.substring(1)) - parseInt(b.substring(1)));
+
         for (const key of singleKeys) {
             const singleKey = parseInt(key.substring(1));
             const allSongsInSingleArr = songall[key];
             const single = allSongsInSingleArr[0];
             if (!single) continue;
+
             const rowDiv = document.createElement('div');
             rowDiv.classList.add('row-container');
+
             const titleDiv = document.createElement('div');
             titleDiv.classList.add('title-container');
             const singleNumberSpan = document.createElement('span');
@@ -69,19 +82,23 @@ document.addEventListener("DOMContentLoaded", function() {
             titleDiv.appendChild(singleNumberSpan);
             titleDiv.appendChild(singleTitleSpan);
             rowDiv.appendChild(titleDiv);
+
             const subRowDiv = document.createElement('div');
             subRowDiv.classList.add('sub-row');
             const formationsDiv = document.createElement('div');
             formationsDiv.classList.add('formation');
+
             const formationRowKeys = ['members3', 'members2', 'members1'];
             const allMembersInSingle = [];
             formationRowKeys.forEach(rowKey => { if(single[rowKey]) allMembersInSingle.push(...single[rowKey]); });
+
             formationRowKeys.forEach(rowKey => {
                  if (!single[rowKey]) return;
                  const rowFormationDiv = document.createElement('div');
                  rowFormationDiv.classList.add('row');
                  single[rowKey].forEach(memberName => {
                     if (memberName === "吉田綾乃ｸﾘｽﾃｨｰ") memberName = "吉田綾乃クリスティー";
+                    
                     const memberContainer = document.createElement('div');
                     memberContainer.classList.add('member-container');
                     if (bgColors[singleKey]) {
@@ -91,18 +108,22 @@ document.addEventListener("DOMContentLoaded", function() {
                         memberContainer.style.backgroundColor = "white";
                         memberContainer.style.borderColor = "white";
                     }
+
                     const memberId = getMemberId(memberName);
                     if (memberId) {
                         const memberIdUnderscore = memberId.replace(/-/g, '_');
+
                         const svgImg = document.createElement('img');
                         svgImg.src = `../sprite/formframe/${memberIdUnderscore}.svg`;
                         svgImg.classList.add('svgmember');
                         memberContainer.appendChild(svgImg);
+
                         const img = document.createElement('img');
                         img.alt = memberName;
                         img.classList.add('fotomember');
-                        img.src = "";  
+                        img.src = ""; // Sumber dikosongkan dulu, akan diisi oleh fungsi fallback
                         setMemberImageWithFallback(img, memberIdUnderscore, singleKey);
+                        
                         if ((Array.isArray(single.center) && single.center.includes(memberName)) || single.center === memberName) {
                             img.classList.add('center');
                         }
@@ -112,10 +133,12 @@ document.addEventListener("DOMContentLoaded", function() {
                  });
                  formationsDiv.appendChild(rowFormationDiv);
             });
+            
             const wadahsenbaDiv = document.createElement('div');
             wadahsenbaDiv.classList.add('wadahsenba');
             formationsDiv.appendChild(wadahsenbaDiv);
             subRowDiv.appendChild(formationsDiv);
+
             function createInfoBox(title, content, subContent = '', isSmall = true, contentTooltip = '') {
                 const boxDiv = document.createElement('div');
                 boxDiv.classList.add(isSmall ? 'info-data-min' : 'info-data');
@@ -128,6 +151,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 boxDiv.innerHTML = titleHtml + contentHtml + subContentHtml;
                 return boxDiv;
             }
+
             const infoGroupDiv = document.createElement('div');
             infoGroupDiv.classList.add('info-datasingle');
             const releaseInfo = releases.find(r => r.num == singleKey);
@@ -146,6 +170,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }, {});
             Object.keys(genStats).sort().forEach(genKey => { infoGroupDiv.appendChild(createInfoBox(`${genKey}${genKey !== "兼" ? "期" : ""}`, `${genStats[genKey]}名`)); });
             subRowDiv.appendChild(infoGroupDiv);
+            
             const infoSingleDiv = document.createElement('div');
             infoSingleDiv.classList.add('info-datasingle');
             const formatData = (data) => Array.isArray(data) ? data.join(', ') : data;
@@ -164,6 +189,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             if (single.SongChoreo) infoSingleDiv.appendChild(createInfoBox('振付師', formatData(single.SongChoreo), '', false));
             if (infoSingleDiv.hasChildNodes()) { subRowDiv.appendChild(infoSingleDiv); }
+
             const infoFlexContainer = document.createElement('div');
             infoFlexContainer.classList.add('flex-container');
 			function createMemberGroup(title, memberList) {
@@ -175,13 +201,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 membersArray.forEach(member => {
                     let memberName = typeof member === 'object' ? member.name : member;
                     if (memberName === "吉田綾乃ｸﾘｽﾃｨｰ") memberName = "吉田綾乃クリスティー";
+                    
+                    // MODIFIKASI: Tambahkan kelas 'tooltip' ke container member
                     const memberContainer = document.createElement('div'); memberContainer.classList.add('member-container', 'tooltip');
+                    
+                    // MODIFIKASI: Ambil data lengkap member
                     const memberData = membersData.find(m => m.nama_jp === memberName);
+
                     if(memberData) {
+                        // MODIFIKASI BARU: Buat dan tambahkan tooltip untuk nama_jp
                         const tooltipSpan = document.createElement('span');
                         tooltipSpan.classList.add('tooltiptext');
-                        tooltipSpan.textContent = memberData.nama_jp;  
+                        tooltipSpan.textContent = memberData.nama_jp; // Menggunakan nama_jp
                         memberContainer.appendChild(tooltipSpan);
+
                         const img = document.createElement('img');
                         img.alt = memberName;
                         setMemberImageWithFallback(img, memberData.id.replace(/-/g, '_'), singleKey);
@@ -209,14 +242,17 @@ document.addEventListener("DOMContentLoaded", function() {
             subRowDiv.appendChild(infoFlexContainer);
             rowDiv.appendChild(subRowDiv);
             senbatsuContainer.appendChild(rowDiv);
+
             allMembersInSingle.forEach(member => {
                 let currentName = member; if (currentName === "吉田綾乃ｸﾘｽﾃｨｰ") currentName = "吉田綾乃クリスティー";
                 previousMembers[currentName] = singleKey; 
             });
             if(grad[singleKey]) { const graduated = Array.isArray(grad[singleKey]) ? grad[singleKey] : [grad[singleKey]]; graduated.forEach(gradMember => delete previousMembers[gradMember]); }
         }
+        
         initializeSlider();
     }).catch(error => console.error("Gagal memuat data:", error));
+
     function initializeSlider() {
         const rowContainers = document.querySelectorAll(".row-container");
         if (rowContainers.length === 0) return;
