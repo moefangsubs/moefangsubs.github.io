@@ -307,33 +307,39 @@ const ML_LOGIC = {
 
     addFansub: async () => {
         const name = document.getElementById('fs-name').value;
-        const status = document.querySelector('input[name="fs-status"]:checked').value === 'true';
-        const langId = document.getElementById('fs-lang-id').checked;
-        const langEn = document.getElementById('fs-lang-en').checked;
+        const status = document.getElementById('fs-status').value === 'true';
+        const web = document.getElementById('fs-web').value;
+        const fb = document.getElementById('fs-fb').value;
+        const trakteer = document.getElementById('fs-trakteer').value;
         
-        if (!name) return alert("Nama Fansub wajib diisi!");
+        let emailOwner = document.getElementById('fs-email').value;
 
-        const payload = {
-            name: name,
-            status: status,
-            lang_id: langId,
-            lang_en: langEn,
-            logo: document.getElementById('fs-logo').value,
-            link_web: document.getElementById('fs-web').value,
-            url_fb: document.getElementById('fs-fb').value,
-            url_trakteer: document.getElementById('fs-trakteer').value,
-            url_kofi: document.getElementById('fs-kofi').value,
-            url_ig: document.getElementById('fs-ig').value,
-            url_twitter: document.getElementById('fs-twitter').value,
-            email: ML_LOGIC.user.email,
-            timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        };
+        if (ML_LOGIC.role === 'admin') {
+            emailOwner = ML_LOGIC.user.email;
+        }
+		
+        if (!name) return alert("Nama Fansub wajib diisi!");
+        if (!emailOwner) return alert("Email wajib diisi!");
 
         try {
             const id = name.toLowerCase().replace(/[^a-z0-9]/g, '_');
-            await firebase.firestore().collection('masterlist_data').doc('fansub_parent').collection('list_fansubs').doc(id).set(payload);
+            
+            await firebase.firestore().collection('masterlist_data').doc('fansub_parent').collection('list_fansubs').doc(id).set({
+                name: name,
+                status: status,
+                link_web: web,
+                url_fb: fb,
+                url_trakteer: trakteer,
+                email: emailOwner,
+                timestamp: firebase.firestore.FieldValue.serverTimestamp()
+            });
+            
             alert("Fansub berhasil ditambahkan!");
             document.getElementById('form-fansub').reset();
+            if(ML_LOGIC.role === 'admin') {
+                document.getElementById('fs-email').value = ML_LOGIC.user.email;
+            }
+            
             ML_LOGIC.loadFansubList();
         } catch (e) {
             alert("Error: " + e.message);
@@ -496,7 +502,7 @@ const ML_LOGIC = {
                 airing: airing,
                 sub_judul: sub,
                 links: []
-            }, { merge: true }); // Merge agar tidak menimpa jika sudah ada
+            }, { merge: true });
             
             alert("Episode ditambahkan!");
             document.getElementById('quick-eps').value = '';

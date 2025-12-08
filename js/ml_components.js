@@ -174,6 +174,7 @@ const ML_COMPONENTS = {
     renderTabFansub: (role) => {
         const isLeader = role === 'leader';
         const isAdmin = role === 'admin' || isLeader;
+        const myEmail = ML_LOGIC.user ? ML_LOGIC.user.email : "";
         
         return `
         <div class="space-y-8">
@@ -183,55 +184,46 @@ const ML_COMPONENTS = {
                     ${!isAdmin ? '<span class="text-xs bg-red-100 text-red-600 px-2 py-1 rounded">Locked (Volunteer)</span>' : ''}
                 </h3>
                 
-                <form id="form-fansub" class="${!isAdmin ? 'opacity-50 pointer-events-none' : ''} space-y-4">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <form id="form-fansub" class="${!isAdmin ? 'opacity-50 pointer-events-none' : ''}">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                         <div>
-                            <label class="block text-xs font-bold uppercase mb-1">Nama Fansub</label>
-                            <input type="text" id="fs-name" class="w-full border p-2 rounded" required ${!isLeader ? 'readonly' : ''}>
+                            <label class="block font-bold text-xs uppercase mb-1">Nama Fansub</label>
+                            <input type="text" id="fs-name" class="std-input w-full border p-2 rounded" placeholder="Nama Fansub" required ${role === 'volunteer' ? 'readonly' : ''}>
                         </div>
                         <div>
-                            <label class="block text-xs font-bold uppercase mb-1">Status</label>
-                            <div class="flex gap-4 mt-2">
-                                <label><input type="radio" name="fs-status" value="true" checked> Aktif</label>
-                                <label><input type="radio" name="fs-status" value="false"> Tidak Aktif</label>
-                            </div>
+                            <label class="block font-bold text-xs uppercase mb-1">Status</label>
+                            <select id="fs-status" class="std-input w-full border p-2 rounded">
+                                <option value="true">Aktif</option>
+                                <option value="false">Tidak Aktif</option>
+                            </select>
                         </div>
                     </div>
 
-                    <div>
-                        <label class="block text-xs font-bold uppercase mb-1">Bahasa</label>
-                        <div class="flex gap-4">
-                            <label><input type="checkbox" id="fs-lang-id" value="id"> Indonesia</label>
-                            <label><input type="checkbox" id="fs-lang-en" value="en"> Inggris</label>
-                        </div>
-                        <p class="text-xs text-gray-500">Jika dipilih, opsi bahasa di Tab Garapan akan otomatis terkunci.</p>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                         <div>
-                            <label class="block text-xs font-bold uppercase mb-1">Logo URL</label>
-                            <input type="url" id="fs-logo" class="w-full border p-2 rounded" placeholder="https://..." ${!isLeader ? 'disabled' : ''}>
+                            <label class="block font-bold text-xs uppercase mb-1">Logo URL</label>
+                            <input type="url" id="fs-logo" class="std-input w-full border p-2 rounded" placeholder="https://..." ${!isLeader ? 'disabled' : ''}>
                         </div>
                         <div>
-                            <label class="block text-xs font-bold uppercase mb-1">Email Owner</label>
-                            <input type="email" id="fs-email" class="w-full border p-2 rounded" placeholder="email@fansub.com" ${role === 'admin' ? 'readonly' : ''}>
-                            ${role === 'admin' ? '<p class="text-xs text-blue-500">Email dikunci sesuai akun login.</p>' : ''}
+                            <label class="block font-bold text-xs uppercase mb-1">Email Owner</label>
+                            <input type="email" id="fs-email" class="std-input w-full border p-2 rounded" 
+                                value="${role === 'admin' ? myEmail : ''}" 
+                                placeholder="email@fansub.com" 
+                                ${role === 'admin' ? 'readonly' : ''}>
+                            ${role === 'admin' ? '<p class="text-[10px] text-blue-600 mt-1">Email otomatis terisi sesuai akun login.</p>' : ''}
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-                        <input type="url" id="fs-web" class="border p-2 rounded text-sm" placeholder="Website URL">
-                        <input type="url" id="fs-trakteer" class="border p-2 rounded text-sm" placeholder="Trakteer URL">
-                        <input type="url" id="fs-kofi" class="border p-2 rounded text-sm" placeholder="Ko-fi URL">
-                        <input type="url" id="fs-ig" class="border p-2 rounded text-sm" placeholder="Instagram URL">
-                        <input type="url" id="fs-fb" class="border p-2 rounded text-sm" placeholder="Facebook URL">
-                        <input type="url" id="fs-twitter" class="border p-2 rounded text-sm" placeholder="X / Twitter URL">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 mb-4 text-sm">
+                        <input type="url" id="fs-web" class="std-input border p-2 rounded" placeholder="Web URL">
+                        <input type="url" id="fs-fb" class="std-input border p-2 rounded" placeholder="Facebook URL">
+                        <input type="url" id="fs-trakteer" class="std-input border p-2 rounded" placeholder="Trakteer URL">
                     </div>
                     
-                    <div class="flex gap-2 pt-2">
-                        ${isLeader ? `<button type="button" onclick="ML_LOGIC.addFansub()" class="bg-green-600 text-white px-4 py-2 rounded font-bold hover:bg-green-700">TAMBAH BARU</button>` : ''}
-                        <button type="button" onclick="ML_LOGIC.saveFansub()" class="bg-blue-600 text-white px-4 py-2 rounded font-bold hover:bg-blue-700">SIMPAN PERUBAHAN</button>
-                        <button type="button" onclick="document.getElementById('form-fansub').reset(); ML_LOGIC.editingFansubId = null;" class="bg-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-400">RESET</button>
+                    <div class="flex gap-2">
+                        ${isAdmin ? `<button type="button" onclick="ML_LOGIC.addFansub()" class="bg-green-600 text-white px-4 py-2 rounded font-bold">TAMBAH BARU</button>` : ''}
+                        <button type="button" onclick="ML_LOGIC.saveFansub()" class="bg-blue-600 text-white px-4 py-2 rounded font-bold">SIMPAN PERUBAHAN</button>
+                        <button type="button" onclick="document.getElementById('form-fansub').reset(); ML_LOGIC.editingFansubId = null;" class="bg-gray-300 text-gray-700 px-4 py-2 rounded">RESET</button>
                     </div>
                 </form>
             </div>
@@ -244,12 +236,11 @@ const ML_COMPONENTS = {
                             <tr>
                                 <th class="border p-2 text-left">Nama</th>
                                 <th class="border p-2 text-center">Status</th>
-                                <th class="border p-2 text-left">Links</th>
                                 <th class="border p-2 text-center">Aksi</th>
                             </tr>
                         </thead>
                         <tbody id="fansub-list-body">
-                            <tr><td colspan="4" class="p-4 text-center">Memuat data...</td></tr>
+                            <tr><td colspan="3" class="p-4 text-center">Memuat data...</td></tr>
                         </tbody>
                     </table>
                 </div>
