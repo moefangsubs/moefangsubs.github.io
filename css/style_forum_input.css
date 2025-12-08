@@ -1,4 +1,3 @@
-/* Form Input Chat */
 .chat-form-container {
     position: fixed; 
     bottom: 0;
@@ -9,7 +8,6 @@
     z-index: 100;
     border-top: 2px solid var(--moe-tint2);
 }
-
 .reply-info-box {
     width: 90%;
     max-width: none;
@@ -31,7 +29,6 @@
     cursor: pointer;
     font-size: 1.1em;
 }
-
 #chat-form {
     width: 90%; 
     max-width: none;
@@ -39,15 +36,12 @@
     display: flex;
     gap: 0.5rem;
 }
-
 .chat-form-input {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     gap: 0.25rem;
 }
-
-/* Toolbar Editor Teks */
 .chat-toolbar {
     display: flex;
     gap: 0px;
@@ -73,8 +67,6 @@
     height: 40px;
     display: block;
 }
-
-/* Style untuk Auto Kolase Toggle */
 .collage-toggle {
     display: flex;
     align-items: center;
@@ -99,12 +91,10 @@
 .collage-toggle .collage-on-img { display: none; }
 .collage-toggle input:checked ~ .collage-off-img { display: none; }
 .collage-toggle input:checked ~ .collage-on-img { display: inline-block; }
-
 .collage-toggle label {
     cursor: pointer;
     font-weight: bold;
 }
-
 #chat-form textarea {
     width: 100%;
     border: 1px solid var(--moe-tint4);
@@ -117,7 +107,6 @@
     clip-path: var(--pixel-clip-path-outer-chat);
     resize: none; 
 }
-
 .chat-submit-btn {
     background: transparent;
     border: none;
@@ -139,7 +128,6 @@
     opacity: 1;
     transform: scale(1.1);
 }
-
 #show-chat-toggle-btn {
     position: fixed;
     bottom: 20px;

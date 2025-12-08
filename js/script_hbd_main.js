@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // ---- LOGIKA ANIMASI SPRITE HBD (SUDAH ADA) ----
     const spriteContainer = document.getElementById('sprite-container');
     if (spriteContainer) {
         const spriteImages = [
@@ -10,51 +9,33 @@ document.addEventListener('DOMContentLoaded', function() {
             'https://ik.imagekit.io/moearchive/web/kakki/kakki_isee.png',
             'https://ik.imagekit.io/moearchive/web/kakki/kakki_penlight.png'
         ];
-
-        // Untuk melacak gambar yang sedang aktif di layar
         const activeSprites = new Set();
-
         function createSprite() {
-            // 1. Saring gambar, ambil hanya yang TIDAK sedang aktif
             const availableImages = spriteImages.filter(img => !activeSprites.has(img));
-
-            // 2. Jika tidak ada gambar unik yang tersisa, jangan buat sprite baru
             if (availableImages.length === 0) {
                 return;
             }
-
             const sprite = document.createElement('img');
             sprite.classList.add('sprite');
-
-            // 3. Pilih gambar dari daftar yang sudah disaring (bukan dari daftar asli)
             const randomImage = availableImages[Math.floor(Math.random() * availableImages.length)];
             sprite.src = randomImage;
-
-            // 4. Tandai gambar ini sebagai aktif dengan menambahkannya ke pelacak
             activeSprites.add(randomImage);
-
             sprite.style.left = `${Math.random() * 100}vw`;
             const randomSize = Math.random() * 500 + 500;
             sprite.style.width = `${randomSize}px`;
             sprite.style.height = 'auto';
             const randomSpeed = Math.random() * 11 + 4;
             sprite.style.animationDuration = `${randomSpeed}s`;
-
             spriteContainer.appendChild(sprite);
-
             sprite.addEventListener('animationend', () => {
-                // 5. Saat animasi selesai, hapus gambar dari pelacak agar bisa digunakan lagi
                 activeSprites.delete(sprite.src);
                 sprite.remove();
             });
         }
         setInterval(createSprite, 700);
     }
-
-    // ---- LOGIKA ANIMASI SPARK (DARI MOEPLAY) ----
     const sparkContainer = document.getElementById('spark-container');
     if (sparkContainer) {
-        // Path gambar disesuaikan, '../' dihapus
         const sparkImages = [
             'sprite/element/spark1.svg',
             'sprite/element/spark2.svg',
@@ -63,10 +44,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'sprite/element/spark5.svg',
             'sprite/element/spark6.svg'
         ];
-        
         const sparkCount = 15;
         const specificSizes = [50, 25, 15, 5];
-
         function createSpark() {
             const spark = document.createElement('img');
             spark.src = sparkImages[Math.floor(Math.random() * sparkImages.length)];
@@ -83,7 +62,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
             sparkContainer.appendChild(spark);
         }
-
         for (let i = 0; i < sparkCount; i++) {
             setTimeout(createSpark, Math.random() * 2000);
         }

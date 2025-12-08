@@ -1,6 +1,4 @@
-// database
 export const db_nogi = [
-
 { url: "https://files.catbox.moe/icnsrg.mp3", title: "OVERTURE" },
 { url: "https://files.catbox.moe/7b8swu.mp3", title: "Dareka wa Mikata" },
 { url: "https://files.catbox.moe/dzxoqb.mp3", title: "Kakumei no Uma" },
@@ -313,6 +311,4 @@ export const db_nogi = [
 { url: "https://files.catbox.moe/acf5yh.mp3", title: "Tenkuu no Mame no Ki" },
 { url: "https://files.catbox.moe/8oqyw7.mp3", title: "100nichime" },
 { url: "https://files.catbox.moe/knsa9k.mp3", title: "Kiss no Silhouette" },
-
-
 ];

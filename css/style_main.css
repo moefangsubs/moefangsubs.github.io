@@ -4,7 +4,6 @@
 	--moe-shade-min1: #2e0052;
 	--moe: #440079;
 	--moe-tint7: #f8efff;
-	
 	--kakki-o1 :#ff983d;
 	--kakki-o2 :#ffb347;
 	--kakki-o3 :#ffd480;
@@ -16,13 +15,11 @@
 	--kakki-x1 :#f2e8cf;
 	--kakki-x2 :#d9ca9b;
 }
-
 * {
     box-sizing: border-box;
     font-family: "Space Mono", monospace;
     transition: all 0.3s ease;
 }
-
 body {
     background-color: var(--moe-shade-min1);
     color: var(--moe-tint7);
@@ -35,7 +32,6 @@ body {
     position: relative;
     z-index: 1;
 }
-
 .mylogo {
     position: absolute;
     right: 10px;
@@ -44,7 +40,6 @@ body {
     flex-direction: column;
     align-items: flex-end;
 }
-
 .mylogo span {
     font-size: 9pt;
     right: 20pt;
@@ -54,9 +49,7 @@ body {
 .mylogo img {
     width: 35%;
 }
-
 .form-container {
-    /* background-color: var(--moe-shade-min2); */
 	backdrop-filter: blur(5px);
     background-color: #18002b66;
     padding: 30px;
@@ -65,14 +58,12 @@ body {
     border: 5px solid var(--moe-tint5);
     box-shadow: 4px 4px 0px 0px var(--moe);
 }
-
 h1 {
     text-align: center;
     color: var(--moe-tint7);
     margin-top: 0;
     margin-bottom: 24px;
 }
-
 .input-group { margin-bottom: 20px; }
 .input-group label { display: block; margin-bottom: 8px; color: var(--moe-tint7); font-weight: bold; }
 .input-group input { width: 100%; padding: 10px; background-color: var(--moe-shade-min3); border: 2px solid var(--moe); color: white; font-size: 16px; }
@@ -86,7 +77,6 @@ h1 {
 .btn-submit:hover { background-color: var(--moe-shade-max1); }
 .btn-link { background-color: transparent; color: var(--moe-tint7); border: none; }
 .btn-link:hover { text-decoration: underline; }
-
 .forgot-password-link {
     color: var(--moe-tint7);
     text-align: center;
@@ -97,11 +87,9 @@ h1 {
 .forgot-password-link:hover {
     text-decoration: underline;
 }
-
 .message-area { position: fixed; bottom: 20px; background-color: var(--moe); color: white; padding: 15px; text-align: center; width: 90%; max-width: 400px; visibility: hidden; opacity: 0; transition: visibility 0s, opacity 0.3s linear; }
 .message-area.show { visibility: visible; opacity: 1; }
 .validation-message { color: #ffb3b3; font-size: 0.8em; margin-top: 4px; display: block; }
-
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -118,12 +106,10 @@ h1 {
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s;
 }
-
 .modal-overlay.active {
     opacity: 1;
     visibility: visible;
 }
-
 .modal-box {
     background-color: var(--moe-shade-min2, #18002b);
     padding: 30px;
@@ -134,27 +120,22 @@ h1 {
     transform: scale(0.9);
     transition: transform 0.3s ease;
 }
-
 .modal-overlay.active .modal-box {
     transform: scale(1);
 }
-
 .modal-box h2 {
     margin-top: 0;
     text-align: center;
     color: var(--moe-tint7, #f8efff);
 }
-
 .modal-box p {
     text-align: center;
     font-size: 1.1em;
 }
-
 .modal-box .button-group {
     flex-direction: row;
     justify-content: center;
 }
-
 .strength-meter {
     height: 8px;
     width: 100%;
@@ -163,17 +144,14 @@ h1 {
     border-radius: 4px;
     overflow: hidden;
 }
-
 .strength-bar {
     height: 100%;
     width: 0;
     transition: width 0.3s, background-color 0.3s;
 }
-
 .strength-bar.lemah { width: 33%; background-color: #d32f2f; }
 .strength-bar.sedang { width: 66%; background-color: #f57c00; }
 .strength-bar.kuat { width: 100%; background-color: #388e3c; }
-
 .strength-text {
     font-size: 0.8em;
     text-align: right;
@@ -182,7 +160,6 @@ h1 {
     opacity: 0;
     transition: opacity 0.3s;
 }
-
 .strength-text.lemah { color: #d32f2f; opacity: 1; }
 .strength-text.sedang { color: #f57c00; opacity: 1; }
 .strength-text.kuat { color: #388e3c; opacity: 1; }
@@ -204,7 +181,6 @@ h1 {
 		width: 60%;
 	}
 }
-
 .btn-google {
     background-color: #ffffff;
     color: #757575;
@@ -215,17 +191,14 @@ h1 {
     box-shadow: 4px 4px 0px 0px var(--moe-shade-min3);
     border: 2px solid #e0e0e0;
 }
-
 .btn-google:hover {
     background-color: #f5f5f5;
     border-color: #bdbdbd;
 }
-
 .btn-google img {
     width: 18px;
     height: 18px;
 }
-
 #bg-dynamic {
     position: fixed;
     top: 50%;
@@ -238,7 +211,6 @@ h1 {
     z-index: -1;
     object-fit: cover;
 }
-
 @media (max-width: 768px) {
     #bg-dynamic {
         right: -400px;

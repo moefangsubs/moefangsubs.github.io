@@ -1,13 +1,10 @@
-/* Import variables from the main style file */
 @import url('style.css');
-
 body {
     background-color: var(--moe-shade-min1);
     color: white;
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
 .header-title {
     text-align: center;
     color: var(--moe-tint6);
@@ -16,8 +13,6 @@ body {
 .header-title.jpn {
     margin-top: 0;
 }
-
-
 .description {
     max-width: 800px;
     margin: 0 auto 3rem auto;
@@ -26,7 +21,6 @@ body {
     font-size: 1rem;
     padding: 0 1rem;
 }
-
 #hashtag-container {
     display: flex;
     flex-direction: row;
@@ -37,7 +31,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .member-card {
     width: 44%;
     background-color: rgba(0, 0, 0, 0.2);
@@ -49,13 +42,11 @@ body {
     gap: 1.5rem;
     transition: var(--all);
 }
-
 .member-card:hover {
     border-color: var(--moe-tint4);
     background-color: rgba(0, 0, 0, 0.3);
 	box-shadow: 3pt 3pt 0 var(--moe-tint3);
 }
-
 .member-profile {
     display: flex;
     flex-direction: column;
@@ -65,44 +56,36 @@ body {
     width: 150px;
     align-content: flex-start;
 }
-
 .member-profile img {
     width: 100px;
-    /* height: 100px; */
     object-fit: cover;
-    /* border-radius: 50%; */
     border: 4px solid var(--moe-tint4);
     margin-bottom: 0.75rem;
 }
-
 .member-profile .name-jp {
     font-size: 1.4rem;
     font-weight: 700;
     margin: 0;
     color: white;
 }
-
 .member-profile .name-romaji {
     font-size: 1rem;
     text-transform: capitalize;
     color: var(--moe-tint5);
     margin: 0;
 }
-
 .member-hashtags {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
     width: 100%;
 }
-
 .hashtag-group {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
 }
-
 .hashtag-group p {
     color: white;
     padding: 0.4rem 0.8rem;
@@ -112,16 +95,12 @@ body {
     align-items: center;
     gap: 0.5rem;
 }
-
-/* Specific Hashtag Styles */
 .hashtag-group.talk p {
     background-color: #8600ef;
 }
-
 .hashtag-group.insta p {
     background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #bc1888);
 }
-
 .hashtag-group.blog p {
     background-color: #5a00a0;
 }
@@ -135,15 +114,12 @@ body {
     margin-right: 5px;
     vertical-align: middle;
 }
-
 .talk p:before, .blog p:before {
     background-image: url('../sprite/element/nogimsg.png');
 }
 .insta p:before {
     background-image: url('../sprite/element/insta.png');
 }
-
-/* Responsive design for mobile */
 @media only screen and (max-width: 768px) {
     body {
         padding-top: 1rem;

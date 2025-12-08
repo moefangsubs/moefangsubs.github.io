@@ -1,10 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
-
     const toTitleCase = (str) => {
         if (!str) return '';
         return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
     };
-
     async function fetchAllMembers() {
         const endpoints = {
             nogi: '../store/member/members.json',
@@ -13,11 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
             boku: '../store/member/members_db_boku.json',
             keya: '../store/member/members_db_keya.json'
         };
-
         const requests = Object.entries(endpoints).map(([group, url]) =>
-            fetch(url).then(res => res.json()).catch(() => []) // Catch errors for individual files
+            fetch(url).then(res => res.json()).catch(() => [])  
         );
-
         const results = await Promise.all(requests);
         let allMembers = [];
         results.forEach(groupData => {
@@ -32,23 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         return allMembers;
     }
-
     function displayBirthdayAnnouncements(members) {
         const targetContainer = document.getElementById('sitemap-hbd-container');
         if (!targetContainer) return;
-
         const today = moment();
         const birthdayGirls = [];
-
         members.forEach(member => {
             const birthDate = moment(member.birthDate);
-            // Check if today is the birthday
             if (today.month() === birthDate.month() && today.date() === birthDate.date()) {
                 const age = today.diff(birthDate, 'years');
                 birthdayGirls.push({ ...member, age });
             }
         });
-
         if (birthdayGirls.length > 0) {
             let htmlContent = '';
             birthdayGirls.forEach(girl => {
@@ -73,8 +64,6 @@ document.addEventListener('DOMContentLoaded', () => {
             targetContainer.innerHTML = htmlContent;
         }
     }
-
-    // --- Initial Load ---
     fetchAllMembers().then(allMembers => {
         displayBirthdayAnnouncements(allMembers);
     }).catch(error => {

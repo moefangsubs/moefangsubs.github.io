@@ -1,16 +1,13 @@
-/* ############  main  ##########  */
 :root {
 	--nogi1: #87278f;
 	--nogi2: #ff9fff;
 }
-
 body {
 	font-family: Arial, sans-serif;
 	background-color: var(--nogi2);
 	color: var(--nogi1);
 	text-align: center;
 }
-
 #senbatsuContainer {
 	position: relative;
 	transform: scale(0.9);
@@ -19,7 +16,6 @@ body {
 	display: flex;
 	align-items: center;
 }
-
 .row-container {
 	display: flex;
 	justify-content: center;
@@ -34,8 +30,6 @@ body {
 	border-right: none;
 	flex-direction: column;
 }
-
-/* ############ svg pattern */
 .svg-pattern1,
 .svg-pattern2,
 .svg-pattern3,
@@ -46,7 +40,6 @@ body {
 	box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
 }
-
 .svg-pattern1,
 .svg-pattern3,
 .svg-pattern4 {
@@ -114,7 +107,6 @@ body {
 	background-position: -9px -3px, 25px 21px;
 	background-repeat: repeat;
 }
-
 .wadahsenba {
 	border: 0pt solid var(--nogi1);
 	border-radius: 8pt 8pt 20pt 20pt;
@@ -133,7 +125,6 @@ body {
 	animation: widthwadah 2s ease forwards;
 	animation-delay: 2s;
 }
-
 @keyframes widthwadah {
 	0% {
 		width: 0%;
@@ -144,8 +135,6 @@ body {
 		border-width: 2pt;
 	}
 }
-
-/* ############ slide */
 .prev,
 .next {
 	cursor: pointer;
@@ -174,8 +163,6 @@ body {
 	background-color: var(--nogi1);
 	color: var(--nogi2);
 }
-
-/* ############ title */
 .title-container {
 	padding-bottom: 15pt;
 }
@@ -248,8 +235,6 @@ body {
 		transform: scale(1);
 	}
 }
-
-/* ############ formation */
 .formation {
 	display: flex;
 	align-items: center;
@@ -302,7 +287,6 @@ body {
 		opacity: 1;
 	}
 }
-
 .row img {
 	padding: 8px;
 	color: white;
@@ -366,8 +350,6 @@ img.fotomember {
 	top: 67pt;
 	position: relative;
 }
-
-/* ############ sub-row data single */
 .info-datasingle {
 	display: flex;
 	flex-direction: row;
@@ -389,27 +371,26 @@ img.fotomember {
 .info-datasingle .info-data-min {
 	min-height: 80pt;
 }
-
-/* Tooltip container */
 .tooltip {
 	position: relative;
 	display: inline-block;
 	cursor: pointer;
 }
-/* Tooltip text */
 .tooltip .tooltiptext {
 	visibility: hidden;
-	width: 220px;
+	width: auto;
+	white-space: nowrap;
 	background-color: var(--nogi1);
 	color: #fff;
+	font-family: "DFPOPMix-W5", sans-serif;
 	text-align: center;
-	padding: 5px;
+	padding: 5px 10px;
 	border-radius: 6px;
 	position: absolute;
 	z-index: 1;
 	bottom: 125%;
 	left: 50%;
-	margin-left: -110px;
+	transform: translateX(-50%);
 	opacity: 0;
 	transition: opacity 0.3s;
 }
@@ -417,7 +398,6 @@ img.fotomember {
 	visibility: visible;
 	opacity: 1;
 }
-
 .statusmember {
     font-family: "DFPOPMix-W5", sans-serif;
     background: var(--nogi1);
@@ -463,8 +443,6 @@ img.fotomember {
 	object-fit: cover;
 	object-position: top;
 }
-
-/* ############ sub-row data ochi kaeri hatsu */
 .flex-container {
 	display: flex;
 	justify-content: center;

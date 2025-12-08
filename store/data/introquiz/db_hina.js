@@ -1,4 +1,3 @@
-// database
 export const db_hina = [
 { url: "https://files.catbox.moe/vb2ubf.mp3", title: "Overture" },
 { url: "https://files.catbox.moe/x2x32l.mp3", title: "Azato Kawaii" },
@@ -138,5 +137,4 @@ export const db_hina = [
 { url: "https://files.catbox.moe/x1wdkg.mp3", title: "What you like!" },
 { url: "https://files.catbox.moe/vcwhfy.mp3", title: "Ano ne Sono ne" },
 { url: "https://files.catbox.moe/malgyu.mp3", title: "Umikaze to Wagamama" },
-
 ]

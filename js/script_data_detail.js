@@ -1,17 +1,12 @@
-// File: js/script_data_detail.js (Versi Benar & Bersih)
-
 document.addEventListener("participationLoaded", () => {
   if (!window.memberParticipation) return;
-
   const result = window.memberParticipation;
   const rowColors = {
     C: "#ffd700", WC: "#ffd700", "1st": "var(--moe-tint3)", "2nd": "var(--moe-tint2)", "3rd": "var(--moe-tint1)",
     UC: "#9e91a7", UWC: "#9e91a7", U1: "#5D486D", U2: "#4A3A57", U3: "#382B41", U4: "#251d2c", U5: "#130e16"
   };
-  
   const stats = { C: 0, WC: 0, "1st": 0, "2nd": 0, "3rd": 0, Under: 0, total: 0 };
   const items = [];
-
   Object.keys(result).sort((a, b) => +a - +b).forEach(num => {
     const { row } = result[num];
     items.push(`
@@ -26,14 +21,12 @@ document.addEventListener("participationLoaded", () => {
     else if (stats.hasOwnProperty(row)) stats[row]++;
     stats.total++;
   });
-
   let tooltip = document.getElementById("single-tooltip");
   if (!tooltip) {
       tooltip = document.createElement("div");
       tooltip.id = "single-tooltip";
       document.body.appendChild(tooltip);
   }
-
   function showTooltip(event, num) {
     const data = result[num];
     if (!data || !data.romaji) return;
@@ -58,9 +51,7 @@ document.addEventListener("participationLoaded", () => {
       tooltip.style.left = `${leftPos}px`;
     }
   }
-
   function hideTooltip() { tooltip.style.opacity = "0"; }
-
   const partisipasiHTML = `<h3>PARTISIPASI DI SINGLE</h3><div class="partisipasi-container">${items.join("")}</div>`;
   const keterangan = `
     <div class="keterangan-container">
@@ -75,10 +66,8 @@ document.addEventListener("participationLoaded", () => {
         <li id="total-songs-participation">Partisipasi lagu: --- lagu</li>
       </ul>
     </div>`;
-
   const container = document.getElementById("main");
   container.insertAdjacentHTML("beforeend", partisipasiHTML + keterangan);
-
   document.querySelectorAll('.partisipasi-item').forEach(el => {
     const num = el.dataset.num;
     el.addEventListener('mouseenter', (e) => showTooltip(e, num));

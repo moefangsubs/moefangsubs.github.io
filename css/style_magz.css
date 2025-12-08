@@ -48,7 +48,6 @@
 	font-weight: bold;
 	color: var(--moe);
 }
-/* Text Viewer Styles */
  #text-viewer {
 	margin: 0 auto;
 	max-width: 800px;
@@ -76,9 +75,6 @@
 	font-style: italic;
 	color: var(--moe-shade-min1);
 }
-/* ----------------------------- */
-/* Image Viewer   */
-/* ----------------------------- */
  #image-viewer {
 	display: flex;
 	justify-content: center;
@@ -86,7 +82,6 @@
 	position: relative;
 	padding: 2rem 0;
 }
-/* Mode "no" (Gambar Tunggal) */
  .static-image-container {
 	width: 90vw;
 	display: flex;
@@ -99,7 +94,6 @@
 	display: block;
 	box-shadow: 8px 8px 0px -2px var(--moe);
 }
-/* Mode "duo" (PC - 2 Gambar Berdampingan) */
  .duo-spread {
 	display: flex;
 	justify-content: center;
@@ -116,7 +110,6 @@
 	display: block;
 	box-shadow: 8px 8px 0px -2px var(--moe);
 }
-/* Mode "duo" & "flip" (Mobile) */
  .image-slider {
 	position: relative;
 	width: 90vw;
@@ -136,7 +129,6 @@
  .image-slider img.active {
 	opacity: 1;
 }
-/* Mode "flip" (PC - Flipping Book) */
  #book-container {
 	perspective: 2500px;
 }
@@ -146,7 +138,6 @@
 	width: 90vw;
 	max-width: 1280px;
 	aspect-ratio: 2 / 1.414;
-    /* Selalu lebar di PC */
 }
  .book-page {
 	position: absolute;
@@ -192,7 +183,6 @@
 	transform: rotateY(180deg);
 	box-shadow: -4px 4px 0px -2px var(--moe);
 }
-/* Tombol Navigasi Umum */
  #image-nav {
 	position: absolute;
 	top: 0;

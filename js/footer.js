@@ -1,12 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-
     const cssStyles = `
 		.warning-footer {
-			/* position: fixed; */
 			bottom: 0;
 			left: 0;
 			width: 100%;
-			/* background: var(--moe-tint4); */
 			background: linear-gradient(0deg,rgba(162, 43, 255, 1) 0%, rgba(162, 43, 255, 1) 80%, rgba(179, 82, 255, 1) 80%, rgba(179, 82, 255, 1) 93%, rgba(196, 121, 255, 1) 93%, rgba(196, 121, 255, 1) 100%);
 			color: #212529;
 			padding: 55pt 30pt;
@@ -18,16 +15,13 @@ document.addEventListener('DOMContentLoaded', function() {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
-			/* z-index: 1000; */
 			box-sizing: border-box;
 			text-align: center;
 			color: white;
 		}
-
         .warning-footer span {
             line-height: 1.5;
         }
-		
 		.online-counter {
 			display: none; 
 			width: 100%;
@@ -37,25 +31,21 @@ document.addEventListener('DOMContentLoaded', function() {
 			color: white;
 			font-weight: 500;
 		}
-		
         .pulse-dot {
             display: inline-block;
             width: 10px;
             height: 10px;
-            background-color: #39FF14; /* Warna hijau neon */
+            background-color: #39FF14;  
             border-radius: 50%;
             margin-right: 8px;
             vertical-align: middle;
-            /* Terapkan animasi: nama, durasi, perulangan, timing */
             animation: pulse-fade 2s infinite ease-in-out;
         }
-
         @keyframes pulse-fade {
             0% { opacity: 1; }
-            50% { opacity: 0.2; } /* Fade out ke 20% */
-            100% { opacity: 1; } /* Fade in kembali */
+            50% { opacity: 0.2; }  
+            100% { opacity: 1; }  
         }
-		
 		.about {
 			display: flex;
 			justify-content: center;
@@ -72,15 +62,12 @@ document.addEventListener('DOMContentLoaded', function() {
 			width: 100%;
 			align-items: center;
 			flex-direction: row;
-			/* border: 1pt solid red; */
 			justify-content: space-evenly;
 		}
-
 		.link-form {
 			font-size: 1.1em;
 			display: flex;
 			gap: 10pt;
-			/* border: 1pt solid white; */
 			width: 50%;
 			justify-content: flex-start;
 			align-items: center;
@@ -98,15 +85,12 @@ document.addEventListener('DOMContentLoaded', function() {
 			padding-right: 10pt;
 			white-space: nowrap;
 		}
-		
 		a.f1:hover {
 			background-color: var(--moe-tint2);
 		}
-		
 		.link-sns {
 			display: flex;
 			gap: 15pt;
-			/* border: 1pt solid white; */
 			width: 50%;
 			justify-content: flex-end;
 		}
@@ -122,12 +106,9 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		}
     `;
-
     const styleElement = document.createElement('style');
     styleElement.textContent = cssStyles;
-
     document.head.appendChild(styleElement);
-
     const footerHTML = `
         <div class="warning-footer">
 		<div class="online-counter" id="online-counter-widget">
@@ -153,27 +134,16 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
     `;
     document.body.insertAdjacentHTML('beforeend', footerHTML);
-
-    // --- ▼▼▼ KODE JAVASCRIPT UNTUK WIDGET ONLINE ▼▼▼ ---
-    
-    // Pastikan rtdb dan auth (dari firebase-init.js) sudah ada
     if (typeof rtdb !== 'undefined' && typeof auth !== 'undefined') {
-        
         const onlineCounterWidget = document.getElementById('online-counter-widget');
         const onlineCounterText = onlineCounterWidget.querySelector('span');
         const onlineUsersRef = rtdb.ref('/onlineUsers');
-
-        // Kita hanya mau menjalankan ini jika user sudah login
         auth.onAuthStateChanged(user => {
             if (user) {
-                // ▼▼▼ PERBAIKAN 2: Tampilkan widget saat login ▼▼▼
                 onlineCounterWidget.style.display = 'block';
-
 				onlineUsersRef.on('value', (snapshot) => {
                     const onlineCount = snapshot.numChildren();
                     const amITheOnlyOne = (onlineCount === 1 && snapshot.hasChild(user.uid));
-
-                    // ▼▼▼ PERBAIKAN 3: Gunakan .innerHTML agar bisa render HTML ▼▼▼
                     if (onlineCount === 0) {
                         onlineCounterText.innerHTML = '<span class="pulse-dot"></span> Menghubungkan...';
                     } else if (amITheOnlyOne) {
@@ -182,14 +152,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         onlineCounterText.innerHTML = `<span class="pulse-dot"></span>Online: ${onlineCount} orang`;
                     }
                 });
-            
             } else {
-                // Jika user logout, sembunyikan widget dan matikan listener
                 onlineCounterWidget.style.display = 'none';
-                onlineUsersRef.off('value'); // Berhenti mendengarkan data
+                onlineUsersRef.off('value');  
             }
         });
-
     } else {
         console.warn('Firebase Realtime Database (rtdb) tidak terdefinisi. Widget online tidak akan jalan.');
     }
