@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // --- Create and Inject HTML Elements & CSS ---
+    
+    // 1. Inject CSS into the <head>
     const styles = `
         :root {
+            /* Copied from your style_sitemap_update.css for consistency */
             --pixel-update-clip-path-outer: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
 	        --pixel-update-clip-path-border: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
         }
+
 		.search-floating-button-wrapper {
 			position: fixed;
 			bottom: 15px;
@@ -23,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .search-floating-button {
             width: 100%; height: 100%;
             position: relative; z-index: 2;
-            background-color: var(--moe-tint6);  
+            background-color: var(--moe-tint6); /* Changed background color */
             display: flex; justify-content: center; align-items: center;
             transition: transform 0.3s ease;
             clip-path: var(--pixel-update-clip-path-outer);
@@ -37,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clip-path: var(--pixel-update-clip-path-border);
         }
         .search-floating-button img { width: 50%; height: 50%; }
+
         .search-popup-overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background-color: rgba(0,0,0,0.7); z-index: 1000;
@@ -62,6 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
             z-index: 3; background: var(--moe-shade-max1); pointer-events: none;
             clip-path: var(--pixel-update-clip-path-border);
         }
+
         .search-popup-close {
             position: absolute; top: 15px; right: 15px; font-size: 2em;
             cursor: pointer; line-height: 1; font-family: Arial, sans-serif;
@@ -71,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             padding-bottom: 15px; border-bottom: 2px solid var(--moe-tint5, #d5a0ff);
         }
         .search-input-area {
-            display: none;  
+            display: none; /* Initially hidden */
         }
         .search-input-wrapper {
             display: flex; gap: 10px; align-items: center; position: relative;
@@ -81,10 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
             font-size: 1em; background: white; width: 100%; padding-right: 35px;
         }
         .search-clear-btn {
-            position: absolute; right: 105px;  
+            position: absolute; right: 105px; /* Adjust based on CARI button width */
             top: 50%; transform: translateY(-50%);
             cursor: pointer; font-size: 20px; color: #999;
-            display: none;  
+            display: none; /* Hidden by default */
         }
         #searchTrigger {
             padding: 10px 20px; background-color: var(--moe); color: white;
@@ -92,6 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
             clip-path: var(--pixel-update-clip-path-outer);
         }
         #searchTrigger:disabled { background-color: #999; cursor: not-allowed; }
+
         .search-controls {
             display: flex; align-items: center; gap: 15px; margin-top: 10px; font-size: 0.9em;
         }
@@ -110,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         .auto-search-switch input:checked + .switch-ui { background: var(--moe-tint1); }
         .auto-search-switch input:checked + .switch-ui::before { transform: translateX(20px); }
+        
         .search-status-message {
             text-align: center; padding: 40px 15px; font-size: 1.1em; color: var(--moe);
         }
@@ -154,6 +163,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const styleSheet = document.createElement("style");
     styleSheet.innerText = styles;
     document.head.appendChild(styleSheet);
+
+    // 2. Create HTML for the button and popup
     const searchButtonHTML = `
         <div class="search-floating-button-wrapper" title="Cari Garapan">
             <div class="search-floating-button-shadow"></div>
@@ -195,8 +206,11 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.body.insertAdjacentHTML('beforeend', searchButtonHTML);
     document.body.insertAdjacentHTML('beforeend', searchPopupHTML);
+
+    // --- State and DOM Element References ---
     let allShowsData = [];
     let isDataLoaded = false;
+    
     const floatingButton = document.querySelector('.search-floating-button-wrapper');
     const overlay = document.querySelector('.search-popup-overlay');
     const closeButton = document.querySelector('.search-popup-close');
@@ -207,6 +221,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchTrigger = document.getElementById('searchTrigger');
     const autoSearchToggle = document.getElementById('autoSearchToggle');
     const resultsGrid = document.getElementById('searchResultsGrid');
+    
+    // --- Core Logic ---
     const DATA_PATH_PREFIXES = { 
         "01_variety": "../store/subs/01_variety/", "02_nogidouga": "../store/subs/02_nogidouga/",
         "03_web": "../store/subs/03_web/", "04_singlebonus": "../store/subs/04_singlebonus/",
@@ -217,16 +233,19 @@ document.addEventListener('DOMContentLoaded', () => {
         "13_concert": "../store/subs/13_concert/", "14_premium": "../store/subs/14_premium/",
         "15_radio": "../store/subs/15_radio/", "16_nonsakamichi": "../store/subs/16_nonsakamichi/"
     };
+
     async function loadAllData() {
         searchStatus.textContent = 'Mohon tunggu...';
         try {
             const listResponse = await fetch('../store/subs/list.json');
             if (!listResponse.ok) throw new Error('Gagal memuat');
             const showList = await listResponse.json();
+
             const fetchPromises = [];
             for (const categoryKey in showList) {
                 const basePath = DATA_PATH_PREFIXES[categoryKey];
                 if (!basePath) continue;
+
                 showList[categoryKey].forEach(showId => {
                     const promise = fetch(`${basePath}${showId}.json`)
                         .then(res => res.ok ? res.json() : null)
@@ -237,17 +256,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     fetchPromises.push(promise);
                 });
             }
+
             const results = await Promise.all(fetchPromises);
             allShowsData = results.filter(data => data !== null);
             isDataLoaded = true;
+
             searchStatus.style.display = 'none';
             searchInputArea.style.display = 'block';
             resultsGrid.innerHTML = `<p class="search-status-message">Silakan masukkan kata kunci untuk memulai pencarian.</p>`;
+            
         } catch (error) {
             console.error("Error kritis saat memuat data JSON:", error);
             searchStatus.textContent = 'Gagal memuat data. Silakan coba lagi nanti.';
         }
     }
+
     const debounce = (func, delay) => {
         let timeoutId;
         return (...args) => {
@@ -255,27 +278,36 @@ document.addEventListener('DOMContentLoaded', () => {
             timeoutId = setTimeout(() => func.apply(this, args), delay);
         };
     };
+
     function performSearch() {
         const query = searchInput.value.trim().toLowerCase();
+        
         if (query.length < 3) {
             resultsGrid.innerHTML = `<p class="search-status-message">Ketik minimal 3 huruf untuk menampilkan hasil.</p>`;
             return;
         }
+
         const matchedEpisodes = [];
+
         for (const showData of allShowsData) {
             let isTopLevelMatch = false;
+            // Check top-level titles
             if ((showData.nameShowTitle && showData.nameShowTitle.toLowerCase().includes(query)) ||
                 (showData.nameShow && showData.nameShow.toLowerCase().includes(query))) {
                 isTopLevelMatch = true;
             }
+
+            // If top-level matches, add all available episodes
             if (isTopLevelMatch) {
                 if (showData.availableEpisode) {
                     for (const episodeNumber of showData.availableEpisode) {
                         matchedEpisodes.push({ showData, episodeNumber });
                     }
                 }
-                continue;  
+                continue; // Move to the next show to avoid duplicate entries
             }
+
+            // If no top-level match, check per-episode data (for files like random-subs.json)
             if (showData.episodes) {
                 for (const episodeNumber in showData.episodes) {
                     const episodeData = showData.episodes[episodeNumber];
@@ -286,15 +318,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         }
+
         displayResults(matchedEpisodes);
     }
+    
     function displayResults(matchedEpisodes) {
         if (matchedEpisodes.length === 0) {
             resultsGrid.innerHTML = `<p class="search-status-message">Tidak ada hasil yang ditemukan untuk "${searchInput.value}".</p>`;
             return;
         }
+
         const resultHTML = matchedEpisodes.map(({ showData, episodeNumber }) => {
             const episodeData = showData.episodes ? (showData.episodes[episodeNumber] || {}) : {};
+
             let imageUrl = 'https://via.placeholder.com/320x180.png?text=No+Image';
             if (episodeData.imageThumbEps) {
                 imageUrl = episodeData.imageThumbEps;
@@ -303,6 +339,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (showData.imageThumbBigPattern) {
                 imageUrl = showData.imageThumbBigPattern.replace('{{eps}}', episodeNumber);
             }
+
             let fullTitle = '';
             if (showData.url === 'random-subs') {
                 fullTitle = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${episodeNumber}`;
@@ -311,6 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 fullTitle = `${showData.nameShowTitle} ${epsTitle}`;
             }
 			const link = `../moesubs/#/${showData.url}/${episodeNumber}`;
+
             return `
                 <div class="garapan-item">
                     <div class="item-shadow"></div>
@@ -321,9 +359,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         }).join('');
+        
         resultsGrid.innerHTML = resultHTML;
     }
+
     const debouncedSearch = debounce(performSearch, 400);
+
+    // --- Event Listeners ---
     floatingButton.addEventListener('click', () => {
         overlay.style.display = 'flex';
         document.body.style.overflow = 'hidden';
@@ -331,38 +373,45 @@ document.addEventListener('DOMContentLoaded', () => {
             loadAllData();
         }
     });
+
     function closePopup() {
         overlay.style.display = 'none';
         document.body.style.overflow = '';
     }
+    
     closeButton.addEventListener('click', closePopup);
     overlay.addEventListener('click', (event) => {
         if (event.target === overlay) {
             closePopup();
         }
     });
+
     searchTrigger.addEventListener('click', performSearch);
+    
     searchInput.addEventListener('keyup', (event) => {
         if (event.key === 'Enter' && !autoSearchToggle.checked) {
             performSearch();
         }
     });
+    
     searchInput.addEventListener('input', () => {
         searchClearBtn.style.display = searchInput.value.length > 0 ? 'block' : 'none';
         if (autoSearchToggle.checked) {
             debouncedSearch();
         }
     });
+
     searchClearBtn.addEventListener('click', () => {
         searchInput.value = '';
         searchClearBtn.style.display = 'none';
         resultsGrid.innerHTML = `<p class="search-status-message">Silakan masukkan kata kunci untuk memulai pencarian.</p>`;
         searchInput.focus();
     });
+
     autoSearchToggle.addEventListener('change', () => {
         searchTrigger.disabled = autoSearchToggle.checked;
         if (autoSearchToggle.checked && searchInput.value.length >= 3) {
-            performSearch();  
+            performSearch(); // Immediately search if conditions are met
         }
     });
 });

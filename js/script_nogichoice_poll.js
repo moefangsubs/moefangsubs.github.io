@@ -5,8 +5,10 @@ const POLL_CONFIG = [
         title: 'Nogizaka46 Indonesia Fans\' Choice 2025',
         desc: `Halo, Nogizaka fans!
 MoeFang Subs sekarang hadir dengan sesuatu yang agak lain wkwkwk.
+
 Di akhir tahun ini, saya mengundang kalian untuk berpartisipasi dalam "Nogizaka46 Indonesia Fans' Choice 2025".
 Ayo tunjukkan dukungan kalian dan pilih lagu favorit dari grup kesayangan kita!
+
 Ini diadakan untuk bersenang-senang saja. Tidak ada yang lebih indah daripada melihat komunitas fans bersatu untuk mendukung idola kesayangan kita.`,
         date: 'Pelaksanaan : 1-30 Desember 2025'
     },

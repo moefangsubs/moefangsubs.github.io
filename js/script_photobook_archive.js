@@ -1,6 +1,13 @@
+// File: js/script_photobook_archive.js (Final dengan Peringkat Lengkap)
+
 document.addEventListener('DOMContentLoaded', () => {
+
 	const mainContainer = document.getElementById('main-archive');
 	const listContainer = document.getElementById('photobook-list-container');
+
+	// =====================================================================
+	// FUNGSI UNTUK MEMBUAT KONTEN HTML
+	// =====================================================================
 	function generateRankHTML(data, title, applyMedals = true) {
 		if (data.length === 0) return '';
 		const rankCardsHTML = data.map((item, index) => {
@@ -20,8 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		}).join('');
 		return `<h2 class="rank-title" style="color: var(--moe-tint4); margin-top: 2.5em;">${title}</h2><div class="sales-rank-container">${rankCardsHTML}</div>`;
 	}
+
+	// [FUNGSI BARU] Membuat daftar peringkat lengkap di dalam spoiler
 	function createFullRankList(data) {
+		// Urutkan data sekali lagi untuk memastikan (dari tertinggi ke terendah)
 		const sortedData = [...data].sort((a, b) => b.salesfirst - a.salesfirst);
+
 		const tableRowsHTML = sortedData.map((item, index) => {
 			const rankClass = index < 3 ? `rank-${index + 1}` : '';
 			return `
@@ -38,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </tr>
             `;
 		}).join('');
+
 		const section = document.createElement('div');
 		section.className = 'full-rank-section';
 		section.innerHTML = `
@@ -62,29 +74,40 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
 		return section;
 	}
+
+	// =====================================================================
+	// FUNGSI UTAMA & PEMANGGILAN
+	// =====================================================================
 	function initializeArchive() {
 		if (!listContainer) return;
+
 		fetch('../store/member/members_pb.json')
 			.then(response => response.json())
 			.then(photobookData => {
+				// --- Persiapan Data ---
 				const activeReleases = photobookData.filter(pb => !(pb.note && pb.note.id.includes("Dirilis setelah kelulusannya")));
 				const totalBooks = activeReleases.length;
 				const overallSalesData = activeReleases.filter(pb => pb.salesfirst > 0);
 				const membersOnlySalesData = overallSalesData.filter(pb =>
 					!pb.name.id.toLowerCase().includes('all member') && !pb.name.jp.includes('全員') && !pb.name.jp.includes('期生')
 				);
+
+				// --- Render Semua Bagian Ranking ---
 				const rankSection = document.createElement('div');
 				rankSection.className = 'sales-rank-section';
+
 				const topOverall = [...overallSalesData].sort((a, b) => b.salesfirst - a.salesfirst).slice(0, 5);
 				const topMembers = [...membersOnlySalesData].sort((a, b) => b.salesfirst - a.salesfirst).slice(0, 5);
 				let topRankHTML = areRankingsIdentical(topOverall, topMembers) ?
 					generateRankHTML(topOverall, 'TOP 5 PENJUALAN', true) :
 					generateRankHTML(topOverall, 'TOP 5 PENJUALAN KESELURUHAN', true) + generateRankHTML(topMembers, 'TOP 5 PENJUALAN KHUSUS MEMBER', true);
+
 				const bottomOverall = [...overallSalesData].sort((a, b) => a.salesfirst - b.salesfirst).slice(0, 5);
 				const bottomMembers = [...membersOnlySalesData].sort((a, b) => a.salesfirst - b.salesfirst).slice(0, 5);
 				let bottomRankHTML = areRankingsIdentical(bottomOverall, bottomMembers) ?
 					generateRankHTML(bottomOverall, '5 PENJUALAN TERENDAH', false) :
 					generateRankHTML(bottomOverall, '5 PENJUALAN TERENDAH KESELURUHAN', false) + generateRankHTML(bottomMembers, '5 PENJUALAN TERENDAH KHUSUS MEMBER', false);
+
 				rankSection.innerHTML = `
                     <p class="sales-rank-intro">Nogizaka46 hingga saat ini telah merilis sebanyak <strong>${totalBooks}</strong> photobook (solo & grup), tidak termasuk yang dirilis setelah member lulus. Berikut adalah 5 besar photobook dengan penjualan minggu pertama tertinggi:</p>
                     ${topRankHTML}
@@ -92,14 +115,22 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${bottomRankHTML}
                 `;
 				listContainer.insertAdjacentElement('beforebegin', rankSection);
+
+				// --- Render Daftar Peringkat Lengkap ---
 				const fullRankListElement = createFullRankList(overallSalesData);
 				listContainer.insertAdjacentElement('beforebegin', fullRankListElement);
+
+				// --- Render Garis Pemisah ---
 				const separator = document.createElement('h2');
 				separator.className = 'photobook-separator';
 				separator.textContent = '— SEMUA DATA PHOTOBOOK —';
 				listContainer.insertAdjacentElement('beforebegin', separator);
+
+				// --- Render Daftar Photobook Utama ---
 				const allItemsHTML = photobookData.map(item => createPhotobookListItemHTML(item)).join('');
 				listContainer.innerHTML = allItemsHTML;
+
+				// --- Setup Terakhir ---
 				setupLanguageToggle();
 				updateVisibility();
 			})
@@ -108,7 +139,12 @@ document.addEventListener('DOMContentLoaded', () => {
 				console.error("Gagal memuat data photobook:", error);
 			});
 	}
+
 	initializeArchive();
+
+	// =====================================================================
+	// KUMPULAN FUNGSI HELPER (Tidak ada perubahan)
+	// =====================================================================
 	function areRankingsIdentical(arr1, arr2) {
 		if (arr1.length !== arr2.length) return false;
 		for (let i = 0; i < arr1.length; i++) {
@@ -116,6 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 		return true;
 	}
+
 	function setupLanguageToggle() {
 		if (document.getElementById('language-toggle')) return;
 		const switchContainer = document.createElement('div');
@@ -124,6 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		document.body.appendChild(switchContainer);
 		document.getElementById("language-toggle").addEventListener("change", updateVisibility);
 	}
+
 	function createPhotobookListItemHTML(item) {
 		const dates = formatDate(item.releaseDate);
 		const sales = formatSalesFirst(item.salesfirst);
@@ -175,14 +213,17 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 	}
+
 	function updateVisibility() {
 		const isIdnChecked = document.getElementById("language-toggle")?.checked ?? true;
 		document.querySelectorAll('#idn').forEach(el => el.classList.toggle('hidden', !isIdnChecked));
 		document.querySelectorAll('#jpn').forEach(el => el.classList.toggle('hidden', isIdnChecked));
 	}
+
 	function generateId(name) {
 		return name.toLowerCase().replace(/\s+/g, '-');
 	}
+
 	function formatDate(date) {
 		if (!date) return {
 			jp: '-',
@@ -200,6 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			id: idFormat
 		};
 	}
+
 	function formatSalesFirst(sales) {
 		if (!sales) return {
 			jp: '-',

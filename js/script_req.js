@@ -1,12 +1,17 @@
+// File: js/script_req.js (LENGKAP - DENGAN PERBAIKAN LOGOUT)
+
 document.addEventListener('DOMContentLoaded', function() {
     const googleAppScriptUrl = 'https://script.google.com/macros/s/AKfycbzQkNArZCI_AZ6iMdJojHNnHOWzGk2c-IRGva7znNUKIcyTMgDb8kQ7f6Izw56RYJGEog/exec'; 
+    
     const loginBox = document.getElementById('login-box');
     const signupBox = document.getElementById('signup-box');
     const welcomeBackBox = document.getElementById('welcome-back-box');
     const messageArea = document.getElementById('message-area');
     const loginForm = document.getElementById('loginForm');
     const signupForm = document.getElementById('signupForm');
+    
     let loginAttempts = 0;
+
     function getCookie(name) {
       let cookieName = name + "=";
       let decodedCookie = decodeURIComponent(document.cookie);
@@ -18,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       return "";
     }
+
     function setCookie(name, value, days) {
         let expires = "";
         if (days) {
@@ -27,6 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         document.cookie = name + "=" + (value || "")  + expires + "; path=/";
     }
+
+    // =======================================================
+    // PERBAIKAN LOGIKA HALAMAN INDEX DI SINI
+    // =======================================================
     if (getCookie('user_logged_in') === 'true') {
         const username = getCookie('username');
         if (username && welcomeBackBox) {
@@ -36,12 +46,14 @@ document.addEventListener('DOMContentLoaded', function() {
             welcomeBackBox.style.display = 'block';
         }
     } else {
+        // Baris ini memastikan form login selalu tampil jika user tidak login
         loginBox.style.display = 'block';
         signupBox.style.display = 'none';
         if (welcomeBackBox) {
             welcomeBackBox.style.display = 'none';
         }
     }
+
     document.getElementById('show-signup')?.addEventListener('click', () => {
         loginBox.style.display = 'none';
         signupBox.style.display = 'block';
@@ -50,6 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         signupBox.style.display = 'none';
         loginBox.style.display = 'block';
     });
+
     document.querySelectorAll('.toggle-password').forEach(toggle => {
         toggle.addEventListener('click', (e) => {
             const passwordInput = e.target.previousElementSibling;
@@ -62,12 +75,14 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+    
     function showMessage(message, isError = false) {
         messageArea.textContent = message;
         messageArea.style.backgroundColor = isError ? '#c70000' : 'var(--moe)';
         messageArea.classList.add('show');
         setTimeout(() => { messageArea.classList.remove('show'); }, 5000);
     }
+
     const signupPasswordInput = document.getElementById('signup-password');
     if(signupPasswordInput) {
         signupPasswordInput.addEventListener('input', (e) => {
@@ -80,6 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (password.length > 0) { bar.classList.add(strength.level); text.classList.add(strength.level); text.textContent = strength.text; }
         });
     }
+    
     function checkPasswordStrength(password) {
         const has = { lower: /[a-z]/.test(password), upper: /[A-Z]/.test(password), number: /\d/.test(password), symbol: /[\W_]/.test(password) };
         if (has.lower && has.upper && has.number && has.symbol) return { level: 'kuat', text: 'Kuat' };
@@ -87,6 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if ((has.lower || has.upper) && has.number) return { level: 'lemah', text: 'Lemah' };
         return { level: 'lemah', text: 'Lemah' };
     }
+
     signupForm.addEventListener('submit', function(e) {
         e.preventDefault();
         showMessage('Mendaftarkan akun...', false);
@@ -107,6 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
             } else { showMessage(data.message, true); }
         }).catch(error => showMessage('Pendaftaran gagal. Periksa koneksi atau coba lagi.', true));
     });
+
     loginForm.addEventListener('submit', function(e) {
         e.preventDefault();
         const username = document.getElementById('login-username').value;

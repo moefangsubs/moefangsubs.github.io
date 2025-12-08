@@ -1,4 +1,7 @@
+// ../js/script_sitemap_garapan.js (FINAL - Dengan Link Tujuan yang Benar)
 document.addEventListener('DOMContentLoaded', () => {
+
+    // ========== LOGIC FOR DIV 1: SALAM PEMBUKA (Tidak berubah) ==========
     const countupDaysSpan = document.getElementById("countup-days");
     if (countupDaysSpan) {
         const calculateDays = (startDate) => {
@@ -9,11 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         countupDaysSpan.textContent = calculateDays("2020-07-06");
     }
+
+    // ========== LOGIC FOR DIV 3: DAFTAR GARAPAN ==========
     const garapanContainer = document.getElementById('daftar-garapan');
     if (garapanContainer) {
         const listJsonPath = '../store/subs/list.json';
         const updateJsonPath = '../store/subs/update.json';
         const comingsoonJsonPath = '../store/subs/comingsoon.json'; 
+
         const categoryDetails = {
             "01_variety": { name: "TV VARIETY SHOW", path: '../store/subs/01_variety' },
             "02_nogidouga": { name: "NOGI DOUGA CONTENT", path: '../store/subs/02_nogidouga' },
@@ -32,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "15_radio": { name: "RADIO & READING", path: '../store/subs/15_radio' },
             "16_nonsakamichi": { name: "NON-SAKAMICHI CONTENT", path: '../store/subs/16_nonsakamichi' }
         };
+
         const fetchShowData = async (showId, basePath) => {
             try {
                 const response = await fetch(`${basePath}/${showId}.json`);
@@ -42,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return null;
             }
         };
+
         const buildGarapanList = async () => {
             try {
                 const [listResponse, updateResponse, comingsoonResponse] = await Promise.all([
@@ -49,43 +57,55 @@ document.addEventListener('DOMContentLoaded', () => {
                     fetch(updateJsonPath),
                     fetch(comingsoonJsonPath) 
                 ]);
+
                 if (!listResponse.ok) throw new Error('Failed to fetch list.json');
                 if (!updateResponse.ok) throw new Error('Failed to fetch update.json');
                 if (!comingsoonResponse.ok) throw new Error('Failed to fetch comingsoon.json');
+
                 const showList = await listResponse.json();
                 const updatesByDate = await updateResponse.json();
                 const comingSoonList = await comingsoonResponse.json();
+
                 const comingSoonShows = new Set();
                 for (const category in comingSoonList) {
                     comingSoonList[category].forEach(showId => {
                         comingSoonShows.add(showId);
                     });
                 }
+
                 const updatedShows = new Set();
                 updatesByDate.forEach(entry => {
                     entry.updates.forEach(update => {
                         updatedShows.add(update.showId);
                     });
                 });
+
                 for (const categoryKey in showList) {
                     if (categoryDetails[categoryKey] && showList[categoryKey].length > 0) {
                         const categoryInfo = categoryDetails[categoryKey];
                         const subcategoryDiv = document.createElement('div');
                         subcategoryDiv.className = 'div-subcategory';
+                        
                         const title = document.createElement('h3');
                         title.textContent = categoryInfo.name;
                         subcategoryDiv.appendChild(title);
+                        
                         const gridDiv = document.createElement('div');
                         gridDiv.className = 'garapan-grid';
+
                         const showPromises = showList[categoryKey].map(showId => fetchShowData(showId, categoryInfo.path));
                         const showsData = await Promise.all(showPromises);
+
                         showsData.forEach(data => {
                             if (data && data.url && data.nameShowTitle && data.IMGSitemap) {
-                                const a = document.createElement('a');  
+                                
+                                const a = document.createElement('a'); // Pindahkan pembuatan elemen 'a' ke atas
+
                                 let badgeHTML = '';
                                 let linkHref = `../moesubs/#/${data.url}`;
+
                                 if (comingSoonShows.has(data.url)) {
-                                    a.classList.add('is-coming-soon');  
+                                    a.classList.add('is-coming-soon'); // TAMBAHKAN BARIS INI
                                     linkHref = `../moesubs/index.html?status=comingsoon`;
                                     badgeHTML = `
                                         <div class="garapan-comingsoon-wrapper">
@@ -103,6 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                         </div>
                                     `;
                                 }
+                                
                                 a.href = linkHref;
                                 a.innerHTML = `
                                     <div class="cat-acara">
@@ -117,6 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 gridDiv.appendChild(a);
                             }
                         });
+                        
                         subcategoryDiv.appendChild(gridDiv);
                         garapanContainer.appendChild(subcategoryDiv);
                     }
@@ -126,6 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 garapanContainer.innerHTML += '<p style="text-align:center;">Gagal memuat daftar garapan.</p>';
             }
         };
+
         buildGarapanList();
     }
 });
