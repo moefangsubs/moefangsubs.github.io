@@ -10,9 +10,9 @@
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
-		"51", "52", "53", "54", "55"
+		"51", "52", "53", "54", "55", "56"
 	],
-	"newUpdateCount": 4,
+	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_otameshichuu2.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/otameshichuu-{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/otameshichuu/otameshichuu{{eps}}.jpg",
@@ -409,6 +409,20 @@
 			"linkHardsub": "https://sfl.gl/JpEsNW",
 			"linkSoftsub": "https://sfl.gl/XJKI",
 			"descEpisodeSynopsis": "Di episode 55 kali ini, para member akan menguji ketajaman indra pengecap mereka dalam berbagai tantangan. Dengan mata tertutup, mereka akan mencoba menebak rasa dari jajanan populer, membedakan bahan makanan asli dengan tiruannya, hingga mengidentifikasi tingkat kepekatan rasa asam dan pahit dari minuman yang disajikan hanya berdasarkan reaksi."
+		},
+		"56": {
+			"descOnAirDate": "25 Oktober 2025",
+			"memberParticipate": "伊藤理々杏、岩本蓮加、吉田綾乃クリスティー、黒見明香",
+			"linkHardsub": "https://sfl.gl/9W34Ar",
+			"linkSoftsub": "https://sfl.gl/p3XKWyh",
+			"descEpisodeSynopsis": "Di episode 56 kali ini, Iwamoto Renka tampil perdana di acara ini, bersama Yoshida Ayano Christie dan Kuromi Haruka untuk mencoba tantangan bertema \"Kacamata\", antara lain adegan akting yang mendebarkan saat mengenakan kacamata dalam berbagai situasi, menjawab kuis dengan gaya intelektual, serta menunjukkan reaksi lucu menggunakan kacamata."
+		},
+		"57": {
+			"descOnAirDate": "29 November 2025",
+			"memberParticipate": "伊藤理々杏、岩本蓮加、吉田綾乃クリスティー、黒見明香",
+			"linkHardsub": "",
+			"linkSoftsub": "",
+			"descEpisodeSynopsis": ""
 		}
 	}
 }

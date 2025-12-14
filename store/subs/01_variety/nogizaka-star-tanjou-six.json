@@ -7,7 +7,7 @@
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
-		"21", "22", "23", "24", "25", "26", "27", "28"
+		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
 	],
 	"newUpdateCount": 2,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
@@ -297,8 +297,27 @@
 			"additionalGuests": "大原櫻子",
 			"linkHardsub": "https://sfl.gl/IJZv",
 			"linkSoftsub": "https://sfl.gl/jmL4jt"
+		},
+		"29": {
+			"descOnAirDate": "24 November 2025",
+			"descSong1": "EAST END×YURI「DA.YO.NE」",
+			"descSong2": "坂口有望「好-じょし-」",
+			"descSong3": "つじあやの「風になる」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "つじあやの",
+			"linkHardsub": "https://sfl.gl/zgH32V2i",
+			"linkSoftsub": "https://sfl.gl/UVYHu"
+		},
+		"30": {
+			"descOnAirDate": "1 Desember 2025",
+			"descSong1": "阿部真央「I wanna see you」",
+			"descSong2": "ずっと真夜中でいいのに。「秒針を噛む」",
+			"descSong3": "miwa「ヒカリへ」",
+			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "miwa",
+			"linkHardsub": "https://sfl.gl/Z0Iz0",
+			"linkSoftsub": "https://sfl.gl/hu8Dk"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
 }
-

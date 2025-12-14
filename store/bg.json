@@ -19,7 +19,6 @@
             "https://ik.imagekit.io/moearchive/kakkiterepan.jpg",
             "https://ik.imagekit.io/moearchive/saachansayoimi1.jpg",
             "https://ik.imagekit.io/moearchive/nogizaka46_10th.jpg",
-            "https://ik.imagekit.io/moearchive/web/bodybg/nogi_cover_single37.jpg",
             "https://ik.imagekit.io/moearchive/kakkiwed.png",
             "https://ik.imagekit.io/moearchive/gen6kataomoi.jpg",
             "https://ik.imagekit.io/moearchive/gen5hinata.jpg",
@@ -28,13 +27,23 @@
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/monopoly1.jpg",
             "https://ik.imagekit.io/moearchive/monopoly2.jpg",
             "https://ik.imagekit.io/moearchive/monopoly3.jpg",
             "https://ik.imagekit.io/moearchive/monopoly4.jpg",
             "https://ik.imagekit.io/moearchive/monopoly5.jpg"
+        ]
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/kakki_nogifes1.jpg",
+            "https://ik.imagekit.io/moearchive/kakki_nogifes2.jpg",
+            "https://ik.imagekit.io/moearchive/kakki_nogifes3.jpg",
+            "https://ik.imagekit.io/moearchive/kakki_fuyu.jpg"
         ]
     }
 ]

@@ -54,30 +54,6 @@
     "hashtagblog": "umeblog"
 },
   {
-    "id" : "kubo-shiori",
-    "nama_jp" : "久保史緒里",
-    "nama_romaji" : "Kubo Shiori",
-    "lahir" : "2001.07.14",
-    "asal" : "宮城県",
-    "gol_darah" : "O型",
-    "tinggi" : "161cm",
-    "gen" : "3期",
-    "foto_profil" : "https://ik.imagekit.io/moearchive/calendar/nogi40/kuboshiori.png",
-    "histori" : {"mulai" : 15, "akhir" : 40 },
-    "status" : "aktif",
-    "datekualifikasi" : "4 September 2016",
-    "placeperkenalan" : "10 Desember 2016 @ Nippon Budoukan",
-    "dateGradAnn" : "16 September 2025",
-    "dateGradMedia" : "Member Blog",
-    "dateGradAge" : "24 tahun",
-    "dateGradeLast" : null,
-    "dateGradActLast" : null,
-    "gradAlasan" : "自己判断 (Keputusan sendiri)",
-    "hashtagtalk": "shioritalk",
-    "hashtaginst": "shiorigram",
-    "hashtagblog": "shioriblog"
-},
-  {
     "id" : "yoshida-ayano-christie",
     "nama_jp" : "吉田綾乃クリスティー",
     "nama_romaji" : "Yoshida Ayano Christie",
@@ -259,6 +235,7 @@
     "datekualifikasi" : "19 Agustus 2018",
     "dateterdaftar" : "16 Februari 2020",
     "hashtagtalk": "hayashimail",
+    "hashtaginst": "",
     "hashtagblog": "はやしぶろぐ"
 },
   {
@@ -282,6 +259,7 @@
     "dateGradActLast" : null,
     "gradAlasan" : "自己判断 (Keputusan sendiri)",
     "hashtagtalk": "miyutalk",
+    "hashtaginst": "",
     "hashtagblog": "miyublog"
 },
   {
@@ -324,6 +302,7 @@
     "datekualifikasi" : "19 Agustus 2018",
     "dateterdaftar" : "16 Februari 2020",
     "hashtagtalk": "yumikitalk",
+    "hashtaginst": "ゆみきぐらむ",
     "hashtagblog": "yumikiblog"
 },
   {
@@ -341,6 +320,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "きっきのめーる",
+    "hashtaginst": "きっきのインスタ",
     "hashtagblog": "きっきのにっき"
 },
   {
@@ -358,6 +338,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "terepantalk",
+    "hashtaginst": ["terepangram", "てれぱんぐらむ"],
     "hashtagblog": ["てれぱんぶろぐ","てれぶろ"]
 },
   {
@@ -375,7 +356,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "みーきゅんとーく",
-    "hashtaginst": "",
+    "hashtaginst": "みーきゅんぐらむ",
     "hashtagblog": "みーきゅんぶろぐ"
 },
   {
@@ -392,8 +373,9 @@
     "status" : "aktif",
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
-    "hashtagtalk": "みーきゅんとーく",
-    "hashtagblog": "みーきゅんぶろぐ"
+    "hashtagtalk": "nagitalk",
+    "hashtaginst": "nagigram",
+    "hashtagblog": "nagiblog"
 },
   {
     "id" : "okamoto-hina",
@@ -410,6 +392,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "hinadanitalk",
+    "hashtaginst": "hinadanigram",
     "hashtagblog": "hinadaniblog"
 },
   {
@@ -427,6 +410,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": ["あーやとーく","ayatalk"],
+    "hashtaginst": "",
     "hashtagblog": "あーやぶろぐ"
 },
   {
@@ -444,6 +428,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": ["イロハとおはなし","irohatalk"],
+    "hashtaginst": ["irogram", "irohagram"],
     "hashtagblog": "イロハのキモチ"
 },
   {
@@ -461,6 +446,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "sakutantalk",
+    "hashtaginst": "sakutangram",
     "hashtagblog": "sakutanblog"
 },
   {
@@ -478,6 +464,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "さつきとーく",
+    "hashtaginst": "",
     "hashtagblog": "さつきぶろぐ"
 },
   {
@@ -495,6 +482,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "なおもちトーク",
+    "hashtaginst": "",
     "hashtagblog": "なおもちブログ"
 },
   {
@@ -512,6 +500,7 @@
     "datekualifikasi" : "非公表",
     "placeperkenalan" : "23 Februari 2022 @ Makuhari Messe |  27 April 2022 @ Tokyo International Forum Hall A",
     "hashtagtalk": "arutalk",
+    "hashtaginst": "",
     "hashtagblog": ["arunoblog","arublog"]
 },
   {
@@ -527,7 +516,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "kokonetalk",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "okoshi-hinano",
@@ -542,7 +534,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "hinanotalk",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "ozu-reina",
@@ -557,7 +552,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "kaibe-akari",
@@ -572,7 +570,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "akarintalk",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "kawabata-hina",
@@ -587,7 +588,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": ["ひーつんとーく","hinatalk"],
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "suzuki-yuuna",
@@ -602,7 +606,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "ゆうちゃんとーく",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "setoguchi-mitsuki",
@@ -617,7 +624,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "やみつきとーく",
+    "hashtaginst": "",
+    "hashtagblog": "セトグッジョブログ"
 },
   {
     "id" : "nagashima-rio",
@@ -632,7 +642,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": ["riotantalk", "riotalk"],
+    "hashtaginst": "",
+    "hashtagblog": "りおたんの満開ブログ"
 },
   {
     "id" : "masuda-mirine",
@@ -647,7 +660,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "みりねと生きる",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "morihira-urumi",
@@ -662,7 +678,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "うるめ〜る",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "yada-moeka",
@@ -677,7 +696,10 @@
     "histori" : {"mulai" : 38, "akhir" : 40 },
     "status" : "aktif",
     "datekualifikasi" : "非公表",
-    "placeperkenalan" : "6 April 2025 @ Pia Arena MM"
+    "placeperkenalan" : "6 April 2025 @ Pia Arena MM",
+    "hashtagtalk": "もえのまにまに",
+    "hashtaginst": "",
+    "hashtagblog": ""
 },
   {
     "id" : "iwase-yumiko",
@@ -1992,5 +2014,28 @@
     "dateGradeLast" : "18 Oktober 2014",
     "dateGradActLast" : "9th Single Individual Handshake Event (Yokohama)",
     "gradAlasan" : "学業専念 (Fokus Studi)"
-  }
+  },
+  {
+    "id" : "kubo-shiori",
+    "nama_jp" : "久保史緒里",
+    "nama_romaji" : "Kubo Shiori",
+    "lahir" : "2001.07.14",
+    "asal" : "宮城県",
+    "gol_darah" : "O型",
+    "tinggi" : "161cm",
+    "gen" : "3期",
+    "foto_profil" : "https://ik.imagekit.io/moearchive/calendar/nogi40/kuboshiori.png",
+    "histori" : {"mulai" : 15, "akhir" : 40 },
+    "status" : "lulus",
+    "datekualifikasi" : "4 September 2016",
+    "placeperkenalan" : "10 Desember 2016 @ Nippon Budoukan",
+    "dateGradAnn" : "16 September 2025",
+    "dateGradMedia" : "Member Blog",
+    "dateGradAge" : "24 tahun",
+    "dateGradeLast" : null,
+    "dateGradActLast" : null,
+    "gradAlasan" : "自己判断 (Keputusan sendiri)",
+    "hashtaginst": "shiorigram",
+    "hashtagblog": "shioriblog"
+}
 ]
