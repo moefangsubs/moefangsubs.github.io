@@ -1,5 +1,34 @@
 [
   {
+    "date": "251215",
+    "updates": [
+      { "showId": "nogizaka-star-tanjou-six", "eps": "29" },
+      { "showId": "nogizaka-star-tanjou-six", "eps": "30" },
+      { "showId": "nogizaka-otameshichuu", "eps": "56" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "01" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "02" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "03" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "04" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "05" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "06" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "07" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "08" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "09" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "10" },
+      { "showId": "nogizaka46-bonus-40th-single", "eps": "11" },
+      { "showId": "futari-escape", "eps": "10" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "09" },
+      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "10" },
+      { "showId": "shinu-made-buzztero", "eps": "08" },
+      { "showId": "koisuru-keigo-24ji-season-2", "eps": "08" },
+      { "showId": "dekitemo-dekinakutemo", "eps": "09" },
+      { "showId": "dekitemo-dekinakutemo", "eps": "10" },
+      { "showId": "random-subs", "eps": "59" },
+      { "showId": "live-performance", "eps": "13" },
+      { "showId": "live-performance", "eps": "14" }
+    ]
+  },
+  {
     "date": "251207",
     "updates": [
       { "showId": "nogi-nabe", "eps": "05" },
@@ -16,41 +45,6 @@
       { "showId": "shinzanmono", "eps": "10" },
       { "showId": "shinzanmono", "eps": "11" },
       { "showId": "shinzanmono", "eps": "12" }
-    ]
-  },
-  {
-    "date": "251128",
-    "updates": [
-      { "showId": "graduation-concert", "eps": "11" }
-    ]
-  },
-  {
-    "date": "251127",
-    "updates": [
-      { "showId": "graduation-concert", "eps": "10" }
-    ]
-  },
-  {
-    "date": "251125",
-    "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "28" },
-      { "showId": "nogi-nabe", "eps": "03" },
-      { "showId": "nogi-nabe", "eps": "04" },
-      { "showId": "kyoccorohee", "eps": "213" },
-      { "showId": "cupstar-ane-to-itsumademo", "eps": "05" },
-      { "showId": "shinzanmono", "eps": "07" },
-      { "showId": "shinzanmono", "eps": "08" },
-      { "showId": "utabangumi-cdtv", "eps": "250804" },
-      { "showId": "utabangumi-cdtv", "eps": "251117" },
-      { "showId": "utabangumi-best-hits", "eps": "251113a" },
-      { "showId": "utabangumi-best-hits", "eps": "251113b" },
-      { "showId": "utabangumi-venue101", "eps": "251122" },
-      { "showId": "futari-escape", "eps": "08" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "07" },
-      { "showId": "shinu-made-buzztero", "eps": "06" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "06" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "07" },
-      { "showId": "random-subs", "eps": "56" }
     ]
   }
 ]

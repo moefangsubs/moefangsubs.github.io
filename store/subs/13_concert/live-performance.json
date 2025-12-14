@@ -3,7 +3,7 @@
 	"nameShowTitle": "Live Performance",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12"
+		"11", "12", "13", "14"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
@@ -204,6 +204,31 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_251129_spicysessions-d.jpg",
 			"descEpisodeSynopsis": "Saksikan tayangan eksklusif \"Spicy Sessions -THE LIVE-\", acara langsung perdana dari program musik \"Spicy Sessions\" yang dipandu oleh Kurosawa Kaoru dari The Gospellers dan Nakanishi Arunodari Nogizaka46, yang telah digelar pada 24 Oktober 2025 di KT Zepp Yokohama, Kanagawa. Dalam segmen bertajuk \"Bagian 1\" ini, kami mempersembahkan paruh pertama acara yang dimeriahkan oleh Kaname Nemoto dari Stardust Revue, serta Shintaro Namioka, Maho Oshima, dan Shintaro Yano dari Penthouse. Jangan lewatkan panggung unik yang memadukan rasa antusias dan ketegangan mendebarkan dalam proses penciptaan musik ini.",
 			"nameShow": "Spicy Sessions -THE LIVE- 第1部"
+		},
+		"13": {
+			"descEpisode": "| 251203 'Biryani' @ FNS Kayousai 2025",
+			"descEpsListName": "251203",
+			"descOnAirDate": "3 Desember 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/N3sHz",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251203_fns_biryani.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251203_fns_biryani.jpg",
+			"descEpisodeSynopsis": "Penampilan Nogizaka46 'Biryani', dengan sedikit bincang-bincang dengan member, khususnya w-center single.",
+			"nameShow": "FNS歌謡祭2025"
+		},
+		"14": {
+			"descEpisode": "| 251206 STU48 @ TGC Hiroshima 2025",
+			"descEpsListName": "251206",
+			"descOnAirDate": "6 Desember 2025",
+			"memberParticipate": "STU48",
+			"descSong1": "STU48 「傷つくことが青春だ」",
+			"descSong2": "STU48 「愛の重さ」",
+			"descSong3": "STU48 「息をする心」",
+			"linkHardsub": "https://sfl.gl/9Dnb",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251206_tgc_stu48.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251206_tgc_stu48.jpg",
+			"descEpisodeSynopsis": "Penampilan STU48 di panggung TGC Hiroshima, dengan membawakan 3 lagu.",
+			"nameShow": "TGC 広島 2025"
 		}
 	}
 }

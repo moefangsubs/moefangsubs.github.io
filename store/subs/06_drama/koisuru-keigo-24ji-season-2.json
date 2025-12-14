@@ -52,9 +52,11 @@
 			"thisEnd": true
         }
     },
-	"descOnAirDatePattern": "251017", 
-	"OnAirEvery": 7,
-    "descEpisode": "| Episode {{eps}}"
+	"descOnAirDatePattern": "251017",
+    "OnAirEvery": 7,
+    "OnAirPatternRestarts": [
+        { "fromEpisode": "08", "newStartDate": "251212" }
+    ]
 }
 
 
