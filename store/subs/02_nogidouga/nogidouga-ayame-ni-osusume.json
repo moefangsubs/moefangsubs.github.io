@@ -4,7 +4,7 @@
 	"nameShow": "あやめにオススメ！",
 	"descSynopsis": "Konten baru yang dibawakan oleh Ayame Tsutsui, \"Ayame ni Osusume!\", akhirnya dimulai! Di setiap episodenya, seorang member yang disebut \"Susumen\" akan hadir untuk mempresentasikan hal-hal yang ingin direkomendasikannya.",
 	"availableEpisode": [
-		"01", "02", "03"
+		"01", "02", "03", "04", "04-bangaihen"
 	],
 	"newUpdateCount": 3,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ayameniosusume.png",
@@ -35,6 +35,17 @@
 			"descOnAirDate": "10 Oktober 2025",
 			"memberParticipate": "筒井あやめ、伊藤理々杏",
 			"descEpisodeSynopsis": "Kali ini, Ito Riria merekomendasikan \"kelinci\" yang sangat ia cintai! Sebagai seseorang yang pernah memeliharanya secara langsung, Riria akan menyampaikan pesona kelinci yang membuat Tsutsui, seorang pencinta anjing, akhirnya goyah. Selain itu, atas usulan Ito, Tsutsui juga akan berubah menjadi imut!"
+		},
+		"04-bangaihen": {
+			"descEpisode": "| Episode 04 番外編",
+			"descOnAirDate": "12 November 2025",
+			"memberParticipate": "筒井あやめ、伊藤理々杏",
+			"descEpisodeSynopsis": "Kali ini, Ito Riria yang berhasil mendapatkan syuting pada rekomendasinya soal kelinci di episode 4, langsung mengajak Tsutsui ke kafe kelinci! Di kafe kelinci pertamanya ini, sisi lain Tsutsui yang belum pernah terlihat sebelumnya pun terkuak."
+		},
+		"05": {
+			"descOnAirDate": "12 November 2025",
+			"memberParticipate": "筒井あやめ、小川彩",
+			"descEpisodeSynopsis": "Episode 5 kali ini Ogawa Aya akan merekomendasikan \"sauna\". Sebagai penggemar berat sauna di Nogizaka46, ia mempresentasikan pesonanya lengkap dengan membawa barang-barang favoritnya demi mengubah pandangan Tsutsui yang bersikeras tidak menyukai sauna, serta mengungkap \"senjata rahasia\" yang telah disiapkannya."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"
