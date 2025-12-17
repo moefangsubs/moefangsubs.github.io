@@ -38,12 +38,23 @@
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/kakki_nogifes1.jpg",
             "https://ik.imagekit.io/moearchive/kakki_nogifes2.jpg",
             "https://ik.imagekit.io/moearchive/kakki_nogifes3.jpg",
             "https://ik.imagekit.io/moearchive/kakki_fuyu.jpg"
+        ]
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/kakki_nogifes_2025a.jpg",
+            "https://ik.imagekit.io/moearchive/kakki_nogifes_2025b.jpg",
+            "https://ik.imagekit.io/moearchive/kakki_nogifes_2025c.jpg",
+            "https://ik.imagekit.io/moearchive/kakki_nogifes_2025d.jpg",
+            "https://ik.imagekit.io/moearchive/kakki_nogifes_2025e.jpg"
         ]
     }
 ]
