@@ -1,323 +1,333 @@
 {
-	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar6.png",
-	"url": "nogizaka-star-tanjou-six",
-	"nameShowTitle": "Nogizaka Star Tanjou! SIX",
-	"nameShow": "乃木坂スター誕生！SIX",
-	"descSynopsis": "Serial variety musik Nogizaka Star Tanjou! yang sebelumnya dibintangi oleh para senpai dari gen-4 dan 5 Nogizaka46, kini memasuki musim baru! Di musim ini, para member gen-6 yang bergabung pada musim semi 2025 akan menantang diri mereka! Meskipun baru saja debut, mereka akan mengasah kemampuan vokal mereka dengan membawakan lagu-lagu legendaris lintas zaman! MC yang akan mendampingi perkembangan para member gen-6 adalah Ozwald! Selain itu, para member senpai juga akan mendukung mereka yang untuk pertama kalinya mencoba tampil dalam variety show dan talk show! Bersama Ozwald dan para senpai, pesona fresh para member gen-6 akan disajikan untuk para penonton!",
-	"availableEpisode": [
-		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
-		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30"
-	],
-	"newUpdateCount": 2,
-	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
-	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
-	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
-	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}b.jpg",
-	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}c.jpg",
-	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}d.jpg",
-	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-star-tanjou-six-vMle0",
-	"linkRAW": "https://www.akari46.cloud/search/label/Nogizaka%20Star%20Tanjou%21%20SIX",
-	"RawSource": "Akari46",
-	"episodes": {
-		"01": {
-			"descOnAirDate": "28 April 2025",
-			"descSong1": "いきものがかり 「じょいふる」",
-			"descSong2": "絢香 「にじいろ」",
-			"descSong3": "平原綾香 「Jupiter」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "久保史緒里",
-			"linkHardsub": "https://sfl.gl/PhUz4W",
-			"linkSoftsub": "https://sfl.gl/vromf"
-		},
-		"02": {
-			"descOnAirDate": "5 Mei 2025",
-			"descSong1": "ポルノグラフィティ 「メリッサ」",
-			"descSong2": "松たか子 「明日、春が来たら」",
-			"descSong3": "竹内まりや 「いのちの歌」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "井上和",
-			"linkHardsub": "https://sfl.gl/JzRW3",
-			"linkSoftsub": "https://sfl.gl/z6uZ1VQj"
-		},
-		"03": {
-			"descOnAirDate": "12 Mei 2025",
-			"descSong1": "MY LITTLE LOVER 「Hello, Again 〜昔からある場所〜」",
-			"descSong2": "緑黄色社会 「Mela!」",
-			"descSong3": "SHISHAMO 「僕に彼女ができたんだ」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "小川彩",
-			"linkHardsub": "https://sfl.gl/9P3bZlXK",
-			"linkSoftsub": "https://sfl.gl/uXi4"
-		},
-		"04": {
-			"descOnAirDate": "19 Mei 2025",
-			"descSong1": "大塚愛 「PEACH」",
-			"descSong2": "木村カエラ 「リルラ リルハ」",
-			"descSong3": "平井堅 「POP STAR」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "賀喜遥香",
-			"linkHardsub": "https://sfl.gl/zKZGgeJ",
-			"linkSoftsub": "https://sfl.gl/yKzeMGZr"
-		},
-		"05": {
-			"descOnAirDate": "26 Mei 2025",
-			"descSong1": "フレデリック 「オドループ」",
-			"descSong2": "Uru 「プロローグ」",
-			"descSong3": "いきものががり 「コイスルオトメ」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "つついあやめ",
-			"linkHardsub": "https://sfl.gl/s94zVK",
-			"linkSoftsub": "https://sfl.gl/0w35kU"
-		},
-		"06": {
-			"descOnAirDate": "2 Juni 2025",
-			"descSong1": "Foorin 「パプリカ」",
-			"descSong2": "YUI 「CHE.R.RY」",
-			"descSong3": "ASIAN KUNG-FU GENERATION 「ソラニン」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "五百城茉央",
-			"linkHardsub": "https://sfl.gl/eFiI",
-			"linkSoftsub": "https://sfl.gl/GdpjWso"
-		},
-		"07": {
-			"descOnAirDate": "9 Juni 2025",
-			"descSong1": "東京事変 「女の子は誰でも」",
-			"descSong2": "KOH＋ 「KISSして」",
-			"descSong3": "三浦大知 「(RE)PLAY」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "一ノ瀬美空",
-			"linkHardsub": "https://sfl.gl/gGL4K",
-			"linkSoftsub": "https://sfl.gl/Z4Hs"
-		},
-		"08": {
-			"descOnAirDate": "16 Juni 2025",
-			"descSong1": "Official髭男dism 「ノーダウト」",
-			"descSong2": "菅田将暉 「さよならエレジー」",
-			"descSong3": "ケラケラ 「スターラブレイション」",
-			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "伊藤理々杏",
-			"linkHardsub": "https://sfl.gl/xMgy8",
-			"linkSoftsub": "https://sfl.gl/bl3euFi"
-		},
-		"09": {
-			"descOnAirDate": "23 Juni 2025",
-			"descSong1": "竹内まりや 「駅\t1987」",
-			"descSong2": "高橋優 「明日はきっといい日になる\t2015」",
-			"descSong3": "大塚愛 「クラゲ、流れ星」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "吉田綾乃クリスティー",
-			"linkHardsub": "https://sfl.gl/u7mUCAT",
-			"linkSoftsub": "https://sfl.gl/ptdfpQt"
-		},
-		"10": {
-			"descOnAirDate": "30 Juni 2025",
-			"descSong1": "Aqua Timez 「決意の朝に」",
-			"descSong2": "手嶌葵 「明日への手紙」",
-			"descSong3": "SEKAI NO OWARI 「RPG」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "奥田いろは",
-			"linkHardsub": "https://sfl.gl/HZ0dnv",
-			"linkSoftsub": "https://sfl.gl/skoNylq"
-		},
-		"11": {
-			"descOnAirDate": "7 Juli 2025",
-			"descSong1": "ジッタリン・ジン 「夏祭り」",
-			"descSong2": "サザンオールスターズ 「愛の言霊〜Spiritual Message〜」",
-			"descSong3": "ヨルシカ 「花に亡霊」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "遠藤さくら",
-			"linkHardsub": "https://sfl.gl/7yOyW",
-			"linkSoftsub": "https://sfl.gl/eNis"
-		},
-		"12": {
-			"descOnAirDate": "14 Juli 2025",
-			"descSong1": "米津玄師 「灰色と青（＋菅田将暉）」",
-			"descSong2": "Mrs. GREEN APPLE 「サママ・フェスティバル！」",
-			"descSong3": "コレサワ 「あたしを彼女にしたいなら」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "川﨑桜",
-			"linkHardsub": "https://sfl.gl/EnMUDtB",
-			"linkSoftsub": "https://sfl.gl/1s2U"
-		},
-		"13": {
-			"descOnAirDate": "21 Juli 2025",
-			"descSong1": "Chara「やさしい気持ち」",
-			"descSong2": "AAA「恋音と雨空」",
-			"descSong3": "『ユイカ』「恋泥棒。」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "弓木奈於",
-			"linkHardsub": "https://sfl.gl/xiviUX",
-			"linkSoftsub": "https://sfl.gl/EQJvKLux"
-		},
-		"14": {
-			"descOnAirDate": "28 Juli 2025",
-			"descSong1": "PUFFY「渚にまつわるエトセトラ」",
-			"descSong2": "プリンセス　プリンセス「世界でいちばん熱い夏」",
-			"descSong3": "YUI「Rolling star」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "林瑠奈",
-			"linkHardsub": "https://sfl.gl/fJvW6",
-			"linkSoftsub": "https://sfl.gl/FlOTm"
-		},
-		"15": {
-			"descOnAirDate": "4 Agustus 2025",
-			"descSong1": "松浦亜弥「ね〜え?」",
-			"descSong2": "YOASOBI「あの夢をなぞって」",
-			"descSong3": "片平里菜「女の子は泣かない」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "岡本姫奈",
-			"linkHardsub": "https://sfl.gl/NDG2sf0n",
-			"linkSoftsub": "https://sfl.gl/99Qn"
-		},
-		"16": {
-			"descOnAirDate": "11 Agustus 2025",
-			"descSong1": "ケツメイシ「夏の思い出」",
-			"descSong2": "井上陽水「少年時代」",
-			"descSong3": "相川七瀬「夢見る少女じゃいられない」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "菅原咲月",
-			"linkHardsub": "https://sfl.gl/j1FB7",
-			"linkSoftsub": "https://sfl.gl/WXMsutNe"
-		},
-		"17": {
-			"descOnAirDate": "18 Agustus 2025",
-			"descSong1": "鬼束ちひろ「月光」",
-			"descSong2": "DAOKO×米津玄師「打上花火」",
-			"descSong3": "倖田來未「キューティーハニー」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "金川紗耶",
-			"linkHardsub": "https://sfl.gl/eQo4N2",
-			"linkSoftsub": "https://sfl.gl/EtkXRnS"
-		},
-		"18": {
-			"descOnAirDate": "1 September 2025",
-			"descSong1": "miwa「君に出会えたから」",
-			"descSong2": "いきものがかり「帰りたくなったよ」",
-			"descSong3": "大原櫻子「Over The Rainbow」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "柴田柚菜",
-			"linkHardsub": "https://sfl.gl/Fkg6izO",
-			"linkSoftsub": "https://sfl.gl/GdaY"
-		},
-		"19": {
-			"descOnAirDate": "8 September 2025",
-			"descSong1": "森高千里「ララ サンシャイン」",
-			"descSong2": "Da-iCE「I wonder」",
-			"descSong3": "藤原さくら「Soup」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "小川彩",
-			"linkHardsub": "https://sfl.gl/kk6r",
-			"linkSoftsub": "https://sfl.gl/pINTJ4z"
-		},
-		"20": {
-			"descOnAirDate": "22 September 2025",
-			"descSong1": "SUPER BEAVER「小さな革命」",
-			"descSong2": "スピッツ「チェリー」",
-			"descSong3": "V6「WAになっておどろう」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalSenpai"	: "中西アルノ",
-			"linkHardsub": "https://sfl.gl/1mvmXW",
-			"linkSoftsub": "https://sfl.gl/tifCoJ3"
-		},
-		"21": {
-			"descOnAirDate": "29 September 2025",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"linkHardsub": "https://sfl.gl/siAnYx",
-			"linkSoftsub": "https://sfl.gl/27shs6",
-			"TrakteerB": "HULU - Gen-6 bermain Pop-up Pirate",
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogistar6.png",
+    "url": "nogizaka-star-tanjou-six",
+    "nameShowTitle": "Nogizaka Star Tanjou! SIX",
+    "nameShow": "乃木坂スター誕生！SIX",
+    "descSynopsis": "Serial variety musik Nogizaka Star Tanjou! yang sebelumnya dibintangi oleh para senpai dari gen-4 dan 5 Nogizaka46, kini memasuki musim baru! Di musim ini, para member gen-6 yang bergabung pada musim semi 2025 akan menantang diri mereka! Meskipun baru saja debut, mereka akan mengasah kemampuan vokal mereka dengan membawakan lagu-lagu legendaris lintas zaman! MC yang akan mendampingi perkembangan para member gen-6 adalah Ozwald! Selain itu, para member senpai juga akan mendukung mereka yang untuk pertama kalinya mencoba tampil dalam variety show dan talk show! Bersama Ozwald dan para senpai, pesona fresh para member gen-6 akan disajikan untuk para penonton!",
+    "availableEpisode": [
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
+		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
+		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
+		"31"
+    ],
+    "newUpdateCount": 1,
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
+    "imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
+    "imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}b.jpg",
+    "imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}c.jpg",
+    "imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}d.jpg",
+    "linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-star-tanjou-six-vMle0",
+    "linkRAW": "https://www.akari46.cloud/search/label/Nogizaka%20Star%20Tanjou%21%20SIX",
+    "RawSource": "Akari46",
+    "episodes": {
+        "01": {
+            "descOnAirDate": "28 April 2025",
+            "descSong1": "いきものがかり 「じょいふる」",
+            "descSong2": "絢香 「にじいろ」",
+            "descSong3": "平原綾香 「Jupiter」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "久保史緒里",
+            "linkHardsub": "https://sfl.gl/PhUz4W",
+            "linkSoftsub": "https://sfl.gl/vromf"
+        },
+        "02": {
+            "descOnAirDate": "5 Mei 2025",
+            "descSong1": "ポルノグラフィティ 「メリッサ」",
+            "descSong2": "松たか子 「明日、春が来たら」",
+            "descSong3": "竹内まりや 「いのちの歌」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "井上和",
+            "linkHardsub": "https://sfl.gl/JzRW3",
+            "linkSoftsub": "https://sfl.gl/z6uZ1VQj"
+        },
+        "03": {
+            "descOnAirDate": "12 Mei 2025",
+            "descSong1": "MY LITTLE LOVER 「Hello, Again 〜昔からある場所〜」",
+            "descSong2": "緑黄色社会 「Mela!」",
+            "descSong3": "SHISHAMO 「僕に彼女ができたんだ」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "小川彩",
+            "linkHardsub": "https://sfl.gl/9P3bZlXK",
+            "linkSoftsub": "https://sfl.gl/uXi4"
+        },
+        "04": {
+            "descOnAirDate": "19 Mei 2025",
+            "descSong1": "大塚愛 「PEACH」",
+            "descSong2": "木村カエラ 「リルラ リルハ」",
+            "descSong3": "平井堅 「POP STAR」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "賀喜遥香",
+            "linkHardsub": "https://sfl.gl/zKZGgeJ",
+            "linkSoftsub": "https://sfl.gl/yKzeMGZr"
+        },
+        "05": {
+            "descOnAirDate": "26 Mei 2025",
+            "descSong1": "フレデリック 「オドループ」",
+            "descSong2": "Uru 「プロローグ」",
+            "descSong3": "いきものががり 「コイスルオトメ」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "つついあやめ",
+            "linkHardsub": "https://sfl.gl/s94zVK",
+            "linkSoftsub": "https://sfl.gl/0w35kU"
+        },
+        "06": {
+            "descOnAirDate": "2 Juni 2025",
+            "descSong1": "Foorin 「パプリカ」",
+            "descSong2": "YUI 「CHE.R.RY」",
+            "descSong3": "ASIAN KUNG-FU GENERATION 「ソラニン」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "五百城茉央",
+            "linkHardsub": "https://sfl.gl/eFiI",
+            "linkSoftsub": "https://sfl.gl/GdpjWso"
+        },
+        "07": {
+            "descOnAirDate": "9 Juni 2025",
+            "descSong1": "東京事変 「女の子は誰でも」",
+            "descSong2": "KOH＋ 「KISSして」",
+            "descSong3": "三浦大知 「(RE)PLAY」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "一ノ瀬美空",
+            "linkHardsub": "https://sfl.gl/gGL4K",
+            "linkSoftsub": "https://sfl.gl/Z4Hs"
+        },
+        "08": {
+            "descOnAirDate": "16 Juni 2025",
+            "descSong1": "Official髭男dism 「ノーダウト」",
+            "descSong2": "菅田将暉 「さよならエレジー」",
+            "descSong3": "ケラケラ 「スターラブレイション」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "伊藤理々杏",
+            "linkHardsub": "https://sfl.gl/xMgy8",
+            "linkSoftsub": "https://sfl.gl/bl3euFi"
+        },
+        "09": {
+            "descOnAirDate": "23 Juni 2025",
+            "descSong1": "竹内まりや 「駅\t1987」",
+            "descSong2": "高橋優 「明日はきっといい日になる\t2015」",
+            "descSong3": "大塚愛 「クラゲ、流れ星」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "吉田綾乃クリスティー",
+            "linkHardsub": "https://sfl.gl/u7mUCAT",
+            "linkSoftsub": "https://sfl.gl/ptdfpQt"
+        },
+        "10": {
+            "descOnAirDate": "30 Juni 2025",
+            "descSong1": "Aqua Timez 「決意の朝に」",
+            "descSong2": "手嶌葵 「明日への手紙」",
+            "descSong3": "SEKAI NO OWARI 「RPG」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "奥田いろは",
+            "linkHardsub": "https://sfl.gl/HZ0dnv",
+            "linkSoftsub": "https://sfl.gl/skoNylq"
+        },
+        "11": {
+            "descOnAirDate": "7 Juli 2025",
+            "descSong1": "ジッタリン・ジン 「夏祭り」",
+            "descSong2": "サザンオールスターズ 「愛の言霊〜Spiritual Message〜」",
+            "descSong3": "ヨルシカ 「花に亡霊」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "遠藤さくら",
+            "linkHardsub": "https://sfl.gl/7yOyW",
+            "linkSoftsub": "https://sfl.gl/eNis"
+        },
+        "12": {
+            "descOnAirDate": "14 Juli 2025",
+            "descSong1": "米津玄師 「灰色と青（＋菅田将暉）」",
+            "descSong2": "Mrs. GREEN APPLE 「サママ・フェスティバル！」",
+            "descSong3": "コレサワ 「あたしを彼女にしたいなら」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "川﨑桜",
+            "linkHardsub": "https://sfl.gl/EnMUDtB",
+            "linkSoftsub": "https://sfl.gl/1s2U"
+        },
+        "13": {
+            "descOnAirDate": "21 Juli 2025",
+            "descSong1": "Chara「やさしい気持ち」",
+            "descSong2": "AAA「恋音と雨空」",
+            "descSong3": "『ユイカ』「恋泥棒。」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "弓木奈於",
+            "linkHardsub": "https://sfl.gl/xiviUX",
+            "linkSoftsub": "https://sfl.gl/EQJvKLux"
+        },
+        "14": {
+            "descOnAirDate": "28 Juli 2025",
+            "descSong1": "PUFFY「渚にまつわるエトセトラ」",
+            "descSong2": "プリンセス　プリンセス「世界でいちばん熱い夏」",
+            "descSong3": "YUI「Rolling star」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "林瑠奈",
+            "linkHardsub": "https://sfl.gl/fJvW6",
+            "linkSoftsub": "https://sfl.gl/FlOTm"
+        },
+        "15": {
+            "descOnAirDate": "4 Agustus 2025",
+            "descSong1": "松浦亜弥「ね〜え?」",
+            "descSong2": "YOASOBI「あの夢をなぞって」",
+            "descSong3": "片平里菜「女の子は泣かない」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "岡本姫奈",
+            "linkHardsub": "https://sfl.gl/NDG2sf0n",
+            "linkSoftsub": "https://sfl.gl/99Qn"
+        },
+        "16": {
+            "descOnAirDate": "11 Agustus 2025",
+            "descSong1": "ケツメイシ「夏の思い出」",
+            "descSong2": "井上陽水「少年時代」",
+            "descSong3": "相川七瀬「夢見る少女じゃいられない」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "菅原咲月",
+            "linkHardsub": "https://sfl.gl/j1FB7",
+            "linkSoftsub": "https://sfl.gl/WXMsutNe"
+        },
+        "17": {
+            "descOnAirDate": "18 Agustus 2025",
+            "descSong1": "鬼束ちひろ「月光」",
+            "descSong2": "DAOKO×米津玄師「打上花火」",
+            "descSong3": "倖田來未「キューティーハニー」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "金川紗耶",
+            "linkHardsub": "https://sfl.gl/eQo4N2",
+            "linkSoftsub": "https://sfl.gl/EtkXRnS"
+        },
+        "18": {
+            "descOnAirDate": "1 September 2025",
+            "descSong1": "miwa「君に出会えたから」",
+            "descSong2": "いきものがかり「帰りたくなったよ」",
+            "descSong3": "大原櫻子「Over The Rainbow」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "柴田柚菜",
+            "linkHardsub": "https://sfl.gl/Fkg6izO",
+            "linkSoftsub": "https://sfl.gl/GdaY"
+        },
+        "19": {
+            "descOnAirDate": "8 September 2025",
+            "descSong1": "森高千里「ララ サンシャイン」",
+            "descSong2": "Da-iCE「I wonder」",
+            "descSong3": "藤原さくら「Soup」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "小川彩",
+            "linkHardsub": "https://sfl.gl/kk6r",
+            "linkSoftsub": "https://sfl.gl/pINTJ4z"
+        },
+        "20": {
+            "descOnAirDate": "22 September 2025",
+            "descSong1": "SUPER BEAVER「小さな革命」",
+            "descSong2": "スピッツ「チェリー」",
+            "descSong3": "V6「WAになっておどろう」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalSenpai": "中西アルノ",
+            "linkHardsub": "https://sfl.gl/1mvmXW",
+            "linkSoftsub": "https://sfl.gl/tifCoJ3"
+        },
+        "21": {
+            "descOnAirDate": "29 September 2025",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "linkHardsub": "https://sfl.gl/siAnYx",
+            "linkSoftsub": "https://sfl.gl/27shs6",
+            "TrakteerB": "HULU - Gen-6 bermain Pop-up Pirate",
             "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogizaka-star-tanjou-six-vMle0"
-		},
-		"22": {
-			"descOnAirDate": "6 Oktober 2025",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"linkHardsub": "https://sfl.gl/M14PYun",
-			"linkSoftsub": "https://sfl.gl/OwMtVR",
-			"TrakteerB": "HULU - Kelanjutan Game Berebut Kursi",
+        },
+        "22": {
+            "descOnAirDate": "6 Oktober 2025",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "linkHardsub": "https://sfl.gl/M14PYun",
+            "linkSoftsub": "https://sfl.gl/OwMtVR",
+            "TrakteerB": "HULU - Kelanjutan Game Berebut Kursi",
             "linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/nogizaka-star-tanjou-six-vMle0"
-		},
-		"23": {
-			"descOnAirDate": "13 Oktober 2025",
-			"descSong1": "Mrs. GREEN APPLE「StaRt」",
-			"descSong2": "Goose house「光るなら」",
-			"descSong3": "MAX「Shinin' on - Shinin' love」",
-			"descSong4": "MAX「GET MY LOVE!」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "MAX",
-			"linkHardsub": "https://sfl.gl/oayr",
-			"linkSoftsub": "https://sfl.gl/GWhcM"
-		},
-		"24": {
-			"descOnAirDate": "20 Oktober 2025",
-			"descSong1": "SHISHAMO「OH!」",
-			"descSong2": "Saucy Dog「シンデレラボーイ」",
-			"descSong3": "ゴスペラーズ「永遠に」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "ゴスペラーズ",
-			"linkHardsub": "https://sfl.gl/fmY5X",
-			"linkSoftsub": "https://sfl.gl/Tjwb"
-		},
-		"25": {
-			"descOnAirDate": "27 Oktober 2025",
-			"descSong1": "小泉今日子「学園天国」",
-			"descSong2": "乃紫「初恋キラー」",
-			"descSong3": "SEKAI NO OWARI「Habit」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "",
-			"linkHardsub": "https://sfl.gl/qiOIABZU",
-			"linkSoftsub": "https://sfl.gl/Y68S"
-		},
-		"26": {
-			"descOnAirDate": "3 November 2025",
-			"descSong1": "SPEED「Go! Go! Heaven」",
-			"descSong2": "マルシィ「ラブソング」",
-			"descSong3": "マルシィ「君中心に揺れる世界は」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "マルシィ",
-			"linkHardsub": "https://sfl.gl/7uGv",
-			"linkSoftsub": "https://sfl.gl/BMU9j"
-		},
-		"27": {
-			"descOnAirDate": "10 November 2025",
-			"descSong1": "岡本真夜「TOMORROW」",
-			"descSong2": "相川七瀬「彼女と私の事情」",
-			"descSong3": "相川七瀬「夢見る少女じゃいられない」",
-			"descSong4": "倖田來未「恋のつぼみ」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "相川七瀬",
-			"linkHardsub": "https://sfl.gl/ras7",
-			"linkSoftsub": "https://sfl.gl/Vwp1"
-		},
-		"28": {
-			"descOnAirDate": "18 November 2025",
-			"descSong1": "こっちのけんと「はいよろこんで」",
-			"descSong2": "Wink「淋しい熱帯魚」",
-			"descSong3": "大原櫻子「大好き」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "大原櫻子",
-			"linkHardsub": "https://sfl.gl/IJZv",
-			"linkSoftsub": "https://sfl.gl/jmL4jt"
-		},
-		"29": {
-			"descOnAirDate": "24 November 2025",
-			"descSong1": "EAST END×YURI「DA.YO.NE」",
-			"descSong2": "坂口有望「好-じょし-」",
-			"descSong3": "つじあやの「風になる」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "つじあやの",
-			"linkHardsub": "https://sfl.gl/zgH32V2i",
-			"linkSoftsub": "https://sfl.gl/UVYHu"
-		},
-		"30": {
-			"descOnAirDate": "1 Desember 2025",
-			"descSong1": "阿部真央「I wanna see you」",
-			"descSong2": "ずっと真夜中でいいのに。「秒針を噛む」",
-			"descSong3": "miwa「ヒカリへ」",
-			"memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
-			"additionalGuests": "miwa",
-			"linkHardsub": "https://sfl.gl/Z0Iz0",
-			"linkSoftsub": "https://sfl.gl/hu8Dk"
-		}
-	},
-	"descEpisode": "| Episode {{eps}}"
+        },
+        "23": {
+            "descOnAirDate": "13 Oktober 2025",
+            "descSong1": "Mrs. GREEN APPLE「StaRt」",
+            "descSong2": "Goose house「光るなら」",
+            "descSong3": "MAX「Shinin' on - Shinin' love」",
+            "descSong4": "MAX「GET MY LOVE!」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "MAX",
+            "linkHardsub": "https://sfl.gl/oayr",
+            "linkSoftsub": "https://sfl.gl/GWhcM"
+        },
+        "24": {
+            "descOnAirDate": "20 Oktober 2025",
+            "descSong1": "SHISHAMO「OH!」",
+            "descSong2": "Saucy Dog「シンデレラボーイ」",
+            "descSong3": "ゴスペラーズ「永遠に」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "ゴスペラーズ",
+            "linkHardsub": "https://sfl.gl/fmY5X",
+            "linkSoftsub": "https://sfl.gl/Tjwb"
+        },
+        "25": {
+            "descOnAirDate": "27 Oktober 2025",
+            "descSong1": "小泉今日子「学園天国」",
+            "descSong2": "乃紫「初恋キラー」",
+            "descSong3": "SEKAI NO OWARI「Habit」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "",
+            "linkHardsub": "https://sfl.gl/qiOIABZU",
+            "linkSoftsub": "https://sfl.gl/Y68S"
+        },
+        "26": {
+            "descOnAirDate": "3 November 2025",
+            "descSong1": "SPEED「Go! Go! Heaven」",
+            "descSong2": "マルシィ「ラブソング」",
+            "descSong3": "マルシィ「君中心に揺れる世界は」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "マルシィ",
+            "linkHardsub": "https://sfl.gl/7uGv",
+            "linkSoftsub": "https://sfl.gl/BMU9j"
+        },
+        "27": {
+            "descOnAirDate": "10 November 2025",
+            "descSong1": "岡本真夜「TOMORROW」",
+            "descSong2": "相川七瀬「彼女と私の事情」",
+            "descSong3": "相川七瀬「夢見る少女じゃいられない」",
+            "descSong4": "倖田來未「恋のつぼみ」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "相川七瀬",
+            "linkHardsub": "https://sfl.gl/ras7",
+            "linkSoftsub": "https://sfl.gl/Vwp1"
+        },
+        "28": {
+            "descOnAirDate": "18 November 2025",
+            "descSong1": "こっちのけんと「はいよろこんで」",
+            "descSong2": "Wink「淋しい熱帯魚」",
+            "descSong3": "大原櫻子「大好き」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "大原櫻子",
+            "linkHardsub": "https://sfl.gl/IJZv",
+            "linkSoftsub": "https://sfl.gl/jmL4jt"
+        },
+        "29": {
+            "descOnAirDate": "24 November 2025",
+            "descSong1": "EAST END×YURI「DA.YO.NE」",
+            "descSong2": "坂口有望「好-じょし-」",
+            "descSong3": "つじあやの「風になる」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "つじあやの",
+            "linkHardsub": "https://sfl.gl/zgH32V2i",
+            "linkSoftsub": "https://sfl.gl/UVYHu"
+        },
+        "30": {
+            "descOnAirDate": "1 Desember 2025",
+            "descSong1": "阿部真央「I wanna see you」",
+            "descSong2": "ずっと真夜中でいいのに。「秒針を噛む」",
+            "descSong3": "miwa「ヒカリへ」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "miwa",
+            "linkHardsub": "https://sfl.gl/Z0Iz0",
+            "linkSoftsub": "https://sfl.gl/hu8Dk"
+        },
+        "31": {
+            "descOnAirDate": "22 Desember 2025",
+            "descSong1": "JUDY AND MARY「クリスマス」",
+            "descSong2": "羊文学「1999」",
+            "descSong3": "桑田佳祐＆松任谷由実「Kissin' Christmas（クリスマスだからじゃない）2023」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "linkHardsub": "https://sfl.gl/mEIXFJHp",
+            "linkSoftsub": "https://sfl.gl/TpcYbh"
+        }
+    },
+    "descEpisode": "| Episode {{eps}}"
 }
