@@ -4,7 +4,8 @@
 	"availableEpisode": [
 		"230320",
 		"250804",
-		"251117"
+		"251117",
+		"251222"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_cdtv.png",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/230319-cdtv-live-live-nogizaka46-l5VRm",
@@ -17,7 +18,7 @@
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230320_cdtvlivelive_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230319-cdtvlivelive-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan single ke-32 \"Hito wa Yume o Nido Miru\" untuk pertama kalinya secara full. Mari kita lihat penampilan mereka dengan W-center Yamashita Mizuki dan Kubo Shiori.",
-			"nameShow": "CDTV Live! Live!"
+			"nameShow": "CDTVライブ!ライブ!"
 		},
 		"250804": {
 			"descEpisode": "| \"Same numbers\"",
@@ -27,7 +28,7 @@
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250804_cdtvlivelive_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250804-cdtvlivelive-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan single ke-39 \"Same numbers\" untuk pertama kalinya secara full.",
-			"nameShow": "CDTV Live! Live!"
+			"nameShow": "CDTVライブ!ライブ!"
 		},
 		"251117": {
 			"descEpisode": "| \"Biryani\"",
@@ -37,7 +38,17 @@
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251117_cdtvlivelive_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251117-cdtvlivelive-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan single ke-40 \"Biryani\" untuk pertama kalinya secara full. Mari kita lihat penampilan dengan W-center generasi baru, Yada Moeka dan Setoguchi Mitsuki.",
-			"nameShow": "CDTV Live! Live!"
+			"nameShow": "CDTVライブ!ライブ!"
+		},
+		"251222": {
+			"descEpisode": "| \"Same numbers\"",
+			"descEpsListName": "251222",
+			"descOnAirDate": "4 Agustus 2025",
+			"linkHardsub": "https://sfl.gl/pqL1MC2a",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251222_cdtvlivelive_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251222-cdtvlivelive-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 kembali membawakan single ke-39 \"Same numbers\".",
+			"nameShow": "CDTVライブ!ライブ!クリスマス年間ランキングFES"
 		}
 	},
 	"memberParticipate": "乃木坂46"

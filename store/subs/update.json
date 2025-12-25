@@ -1,72 +1,84 @@
 [
   {
+    "date": "251225",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"31"},
+      {"showId": "nogidouga-ayame-ni-osusume", "eps":"05"},
+      {"showId": "shin-tokyo-suijou-keisatsu", "eps":"11"},
+      {"showId": "cupstar-ane-to-itsumademo", "eps":"06"},
+      {"showId": "random-subs", "eps":"60"},
+      {"showId": "utabangumi-best-artist", "eps":"251129"},
+      {"showId": "utabangumi-cdtv", "eps":"251222"}
+    ]
+  },
+  {
     "date": "251223",
     "updates": [
-      { "showId": "under-live", "eps": "12" },
-      { "showId": "under-live", "eps": "13" },
-      { "showId": "under-live", "eps": "14" }
+      {"showId": "under-live", "eps":"12"},
+      {"showId": "under-live", "eps":"13"},
+      {"showId": "under-live", "eps":"14"}
     ]
   },
   {
     "date": "251220",
     "updates": [
-      { "showId": "migoroshi-hime", "eps": "01" }
+      {"showId": "migoroshi-hime", "eps":"01"}
     ]
   },
   {
     "date": "251217",
     "updates": [
-      { "showId": "nogizaka-otameshichuu", "eps": "57" },
-      { "showId": "nogidouga-ayame-ni-osusume", "eps": "04" },
-      { "showId": "nogidouga-ayame-ni-osusume", "eps": "04-bangaihen" }
+      {"showId": "nogizaka-otameshichuu", "eps":"57"},
+      {"showId": "nogidouga-ayame-ni-osusume", "eps":"04"},
+      {"showId": "nogidouga-ayame-ni-osusume", "eps":"04-bangaihen"}
     ]
   },
   {
     "date": "251215",
     "updates": [
-      { "showId": "nogizaka-star-tanjou-six", "eps": "29" },
-      { "showId": "nogizaka-star-tanjou-six", "eps": "30" },
-      { "showId": "nogizaka-otameshichuu", "eps": "56" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "01" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "02" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "03" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "04" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "05" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "06" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "07" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "08" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "09" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "10" },
-      { "showId": "nogizaka46-bonus-40th-single", "eps": "11" },
-      { "showId": "futari-escape", "eps": "10" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "09" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "10" },
-      { "showId": "shinu-made-buzztero", "eps": "08" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "08" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "09" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "10" },
-      { "showId": "random-subs", "eps": "59" },
-      { "showId": "live-performance", "eps": "13" },
-      { "showId": "live-performance", "eps": "14" }
+      {"showId": "nogizaka-star-tanjou-six", "eps":"29"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"30"},
+      {"showId": "nogizaka-otameshichuu", "eps":"56"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"01"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"02"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"03"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"04"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"05"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"06"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"07"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"08"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"09"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"10"},
+      {"showId": "nogizaka46-bonus-40th-single", "eps":"11"},
+      {"showId": "futari-escape", "eps":"10"},
+      {"showId": "shin-tokyo-suijou-keisatsu", "eps":"09"},
+      {"showId": "shin-tokyo-suijou-keisatsu", "eps":"10"},
+      {"showId": "shinu-made-buzztero", "eps":"08"},
+      {"showId": "koisuru-keigo-24ji-season-2", "eps":"08"},
+      {"showId": "dekitemo-dekinakutemo", "eps":"09"},
+      {"showId": "dekitemo-dekinakutemo", "eps":"10"},
+      {"showId": "random-subs", "eps":"59"},
+      {"showId": "live-performance", "eps":"13"},
+      {"showId": "live-performance", "eps":"14"}
     ]
   },
   {
     "date": "251207",
     "updates": [
-      { "showId": "nogi-nabe", "eps": "05" },
-      { "showId": "futari-escape", "eps": "09" },
-      { "showId": "shin-tokyo-suijou-keisatsu", "eps": "08" },
-      { "showId": "shinu-made-buzztero", "eps": "07" },
-      { "showId": "koisuru-keigo-24ji-season-2", "eps": "07" },
-      { "showId": "dekitemo-dekinakutemo", "eps": "08" },
-      { "showId": "random-subs", "eps": "57" },
-      { "showId": "random-subs", "eps": "58" },
-      { "showId": "utabangumi-music-station", "eps": "03" },
-      { "showId": "live-performance", "eps": "12" },
-      { "showId": "shinzanmono", "eps": "09" },
-      { "showId": "shinzanmono", "eps": "10" },
-      { "showId": "shinzanmono", "eps": "11" },
-      { "showId": "shinzanmono", "eps": "12" }
+      {"showId": "nogi-nabe", "eps":"05"},
+      {"showId": "futari-escape", "eps":"09"},
+      {"showId": "shin-tokyo-suijou-keisatsu", "eps":"08"},
+      {"showId": "shinu-made-buzztero", "eps":"07"},
+      {"showId": "koisuru-keigo-24ji-season-2", "eps":"07"},
+      {"showId": "dekitemo-dekinakutemo", "eps":"08"},
+      {"showId": "random-subs", "eps":"57"},
+      {"showId": "random-subs", "eps":"58"},
+      {"showId": "utabangumi-music-station", "eps":"03"},
+      {"showId": "live-performance", "eps":"12"},
+      {"showId": "shinzanmono", "eps":"09"},
+      {"showId": "shinzanmono", "eps":"10"},
+      {"showId": "shinzanmono", "eps":"11"},
+      {"showId": "shinzanmono", "eps":"12"}
     ]
   }
 ]
