@@ -61,6 +61,38 @@ document.addEventListener('DOMContentLoaded', async () => {
         userData.email = user.email;
         
         await loadUserData();
+        
+        try {
+            const timeResponse = await fetch('https://worldtimeapi.org/api/timezone/Asia/Jakarta');
+            if (timeResponse.ok) {
+                const timeData = await timeResponse.json();
+                const serverTime = new Date(timeData.datetime);
+                const deadline = new Date('2025-12-30T23:59:59+07:00');
+
+                if (serverTime > deadline) {
+                    if (userData.status === 'admin') {
+                        await loadResources();
+                        renderAdminResult();
+                        loadingScreen.style.display = 'none';
+                        return; 
+                    } else {
+                        alert("Mohon maaf, periode voting telah berakhir (Server Time).");
+                        window.location.href = '../sitemap.html';
+                        return;
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn("Gagal cek waktu server, fallback ke local time (kurang akurat tapi better than nothing)");
+            const localNow = new Date();
+            const localDeadline = new Date('2025-12-30T23:59:59');
+            if (localNow > localDeadline && userData.status !== 'admin') {
+                alert("Mohon maaf, periode voting telah berakhir.");
+                window.location.href = '../sitemap.html';
+                return;
+            }
+        }
+
         await loadResources();
         
         if (userData.isdone === 'done') {
