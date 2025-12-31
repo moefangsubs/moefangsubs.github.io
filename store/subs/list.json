@@ -159,6 +159,7 @@
 		"cupstar-ane-to-itsumademo"
 	],
 	"11_musicprogram": [
+		"utabangumi-nhk-kouhaku",
 		"utabangumi-best-hits",
 		"utabangumi-cdtv",
 		"utabangumi-music-blood",
@@ -176,7 +177,6 @@
 		"utabangumi-dayday"
 	],
 	"12_random": [
-		"compilation",
 		"showroom",
 		"random-subs"
 	],

@@ -1,5 +1,21 @@
 [
   {
+    "date": "251231",
+    "updates": [
+      {"showId": "nogi-nabe", "eps":"unl01_02_03"},
+      {"showId": "nogi-nabe", "eps":"06"},
+      {"showId": "nogi-nabe", "eps":"unl04_05_06"},
+      {"showId": "nogi-nabe", "eps":"07"},
+      {"showId": "nogi-nabe", "eps":"08"},
+      {"showId": "random-subs", "eps":"61"},
+      {"showId": "utabangumi-music-station", "eps":"04"},
+      {"showId": "utabangumi-music-station", "eps":"05"},
+      {"showId": "utabangumi-nhk-kouhaku", "eps":"2023"},
+      {"showId": "utabangumi-nhk-kouhaku", "eps":"2024"},
+      {"showId": "utabangumi-nhk-kouhaku", "eps":"2025"}
+    ]
+  },
+  {
     "date": "251225",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"31"},
