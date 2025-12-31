@@ -140,57 +140,7 @@
 			<div id="daftar-garapan"></div>
 		</div>
     </main>
-
-
-<div id="nogichoice-teaser-overlay" class="modal-overlay">
-    <div class="modal-box" style="text-align: center; border: 2px solid var(--moe-tint2);">
-        <h2 style="color: var(--moe-tint2); font-size: 1.5rem; margin-bottom: 1rem;">🏆 NOGIZAKA46<br>INDONESIA FANS' CHOICE 2025</h2>
-        <p>Ayo meriahkan akhir tahun dengan memilih lagu dan member terfavorit pilihan fans Indonesia!</p>
-        <div style="margin: 20px 0;">
-            <span style="font-size: 3rem;">🗳️</span>
-        </div>
-        <div class="button-group">
-            <button id="btn-nogichoice-go" class="btn-submit" style="background: var(--moe-tint2); color: white;">LET'S GO</button>
-            <button id="btn-nogichoice-close" class="btn-link">Tutup</button>
-        </div>
-    </div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    const teaserOverlay = document.getElementById('nogichoice-teaser-overlay');
-    const btnGo = document.getElementById('btn-nogichoice-go');
-    const btnClose = document.getElementById('btn-nogichoice-close');
-
-    // Cek Login & Status Vote via Firebase (Logic sederhana di sini, detail di main script auth)
-    firebase.auth().onAuthStateChanged(async (user) => {
-        if (user) {
-            const db = firebase.firestore();
-            try {
-                const doc = await db.collection('moepoll').doc(user.uid).get();
-                // Jika belum vote ('isdone' tidak ada atau tidak 'done'), tampilkan popup
-                if (!doc.exists || doc.data().isdone !== 'done') {
-                    // Beri delay sedikit biar smooth
-                    setTimeout(() => {
-                        teaserOverlay.classList.add('active');
-                    }, 1500);
-                }
-            } catch (e) {
-                console.log("Teaser check error:", e);
-            }
-        }
-    });
-
-    btnGo.addEventListener('click', () => {
-        window.open('moeplay/nogichoice.html', '_blank');
-        teaserOverlay.classList.remove('active');
-    });
-
-    btnClose.addEventListener('click', () => {
-        teaserOverlay.classList.remove('active');
-    });
-});
-</script>
+	
 	<script src="js/js_snow.js"></script>
 </body>
 </html>
