@@ -1,9 +1,8 @@
 {
 	"url": "utabangumi-music-station",
 	"nameShowTitle": "Music Station",
-	"nameShow": "MUSIC STATION",
 	"availableEpisode": [
-		"01", "02", "03"
+		"01", "02", "03", "04", "05"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_musicstation.png",
@@ -16,7 +15,8 @@
 			"linkHardsub": "https://lokerwfh.net/J7uE",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221223_msteultra2022_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221223-msteultra2022-nogizaka46.jpg",
-			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat last stage-nya Saito Asuka di MUSIC STATION Ultra Super Live 2022 dengan membawakan single kelulusannya \"Koko ni wa nai mono\". Sebelum itu, seperti biasa ada sedikit sesi talk-nya bersama MC dengan Nogizaka46. Silakan~"
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat last stage-nya Saito Asuka di MUSIC STATION Ultra Super Live 2022 dengan membawakan single kelulusannya \"Koko ni wa nai mono\". Sebelum itu, seperti biasa ada sedikit sesi talk-nya bersama MC dengan Nogizaka46. Silakan~",
+			"nameShow": "MUSIC STATION"
 		},
 		"02": {
 			"descEpisode": "| 250718 Music Station Super Summer Fes 2025 'Same numbers'",
@@ -26,17 +26,40 @@
 			"linkHardsub": "https://sfl.gl/uNQZa6",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250718_mssupersummerfes2025_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250718-mssupersummerfes2025-nogizaka46.jpg",
-			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan kedua 'Same numbers' di televisi dengan center Kaki Haruka."
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan kedua 'Same numbers' di televisi dengan center Kaki Haruka",
+			"nameShow": "MUSIC STATION"
 		},
 		"03": {
 			"descEpisode": "| 251128 Music Station 'Biryani'",
 			"descEpsListName": "251128",
-			"descOnAirDate": "18 Juli 2025",
+			"descOnAirDate": "28 November 2025",
 			"memberParticipate": "乃木坂46",
 			"linkHardsub": "https://sfl.gl/Bsg07d",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251128_musicstation_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251128-musicstation-nogizaka46.jpg",
-			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan 'Biryani' di televisi dengan w-center generasi baru, Setoguchi Mitsuki dan Yada Moeka."
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan 'Biryani' di televisi dengan w-center generasi baru, Setoguchi Mitsuki dan Yada Moeka.",
+			"nameShow": "MUSIC STATION"
+		},
+		"04": {
+			"descEpisode": "| 251226 MUSIC STATION SUPER LIVE 'Navel Orange'",
+			"descEpsListName": "251226",
+			"descOnAirDate": "26 Desember 2025",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/68MyAYPz",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251226a_musicstation_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251226a-musicstation-nogizaka46.jpg",
+			"nameShow": "MUSIC STATION SUPER LIVE"
+		},
+		"05": {
+			"descEpisode": "| 251226 MUSIC STATION SUPER LIVE 'Nante tatte Idol'",
+			"descEpsListName": "251226",
+			"descOnAirDate": "26 Desember 2025",
+			"memberParticipate": "高橋みなみ、小嶋陽菜、指原莉乃、AKB48、乃木坂46、超ときめき♡宣伝部、=LOVE、FRUITS ZIPPER、CANDY TUNE、SWEET STEADY、CUTIE STREET",
+			"linkHardsub": "https://sfl.gl/UDW5",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251226b_musicstation_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251226b-musicstation-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Sebuah penampilan spesial antara berbagai idol Jepang papan atas.",
+			"nameShow": "MUSIC STATION SUPER LIVE"
 		}
 	}
 }

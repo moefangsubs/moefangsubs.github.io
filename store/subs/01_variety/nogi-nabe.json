@@ -4,41 +4,94 @@
 	"nameShow": "のぎ鍋",
 	"descSynopsis": "Sebuah acara pendek kurang dari 4 menit, dimana member Nogizaka46 akan mengobrol santai sambil menyantap nabe berdua.",
 	"availableEpisode": [
-		"01", "02", "03", "04", "05"
+		"01", "02", "03", "04", "05",
+		"unl01_02_03",
+		"06",
+		"unl04_05_06",
+		"07",
+		"08"
 	],
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_noginabe.png",
-	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabe{{eps}}.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogi-nabe-jAqF7",
 	"episodes": {
 		"01": {
 			"descOnAirDate": "2 November 2023",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 			"memberParticipate": "遠藤さくら、松尾美佑、中西アルノ",
 			"linkHardsub": "https://sfl.gl/pDjBlT"
 		},
 		"02": {
 			"descOnAirDate": "9 November 2025",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 			"memberParticipate": "遠藤さくら、松尾美佑、中西アルノ",
 			"linkHardsub": "https://sfl.gl/i5O2"
 		},
 		"03": {
 			"descOnAirDate": "16 November 2025",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 			"memberParticipate": "池田瑛紗、矢田萌華、中西アルノ",
 			"linkHardsub": "https://sfl.gl/9wE25"
 		},
 		"04": {
 			"descOnAirDate": "23 November 2025",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 			"memberParticipate": "井上和、弓木奈於、中西アルノ",
 			"linkHardsub": "https://sfl.gl/XQEm1"
 		},
 		"05": {
 			"descOnAirDate": "30 November 2025",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 			"memberParticipate": "井上和、弓木奈於、中西アルノ",
 			"linkHardsub": "https://sfl.gl/23TUvNxD"
+		},
+		"unl01_02_03": {
+			"descEpisode": "| Unreleased Talk 01-03",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabeunl01_02_03.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl01_02_03a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl01_02_03b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl01_02_03c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl01_02_03d.jpg",
+			"descEpsListName": "未公開 01~03",
+			"descOnAirDate": "7 Desember 2025",
+			"memberParticipate": "遠藤さくら、松尾美佑、池田瑛紗、矢田萌華、中西アルノ",
+			"descEpisodeSynopsis": "Ini adalah Nogi Nabe versi no cut untuk episode 1 hingga 3"
+		},
+		"06": {
+			"descOnAirDate": "7 Desember 2025",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+			"memberParticipate": "菅原咲月、瀬戸口心月、中西アルノ",
+			"linkHardsub": "https://sfl.gl/XZhcFjV"
+		},
+		"unl04_05_06": {
+			"descEpisode": "| Unreleased Talk 04-06",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabeunl04_05_06.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl04_05_06a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl04_05_06b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl04_05_06c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl04_05_06d.jpg",
+			"descEpsListName": "未公開 04~06",
+			"descOnAirDate": "14 Desember 2025",
+			"memberParticipate": "井上和、弓木奈於、菅原咲月、瀬戸口心月、中西アルノ",
+			"descEpisodeSynopsis": "Ini adalah Nogi Nabe versi no cut untuk episode 4 hingga 6"
+		},
+		"07": {
+			"descOnAirDate": "14 Desember 2025",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+			"memberParticipate": "梅澤美波、川﨑桜、中西アルノ",
+			"linkHardsub": "https://sfl.gl/YZQ68he"
+		},
+		"08": {
+			"descOnAirDate": "21 Desember 2025",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+			"memberParticipate": "梅澤美波、川﨑桜、中西アルノ",
+			"linkHardsub": "https://sfl.gl/fiPpEer"
 		}	
 	},
 	"descEpisode": "| Episode {{eps}}"
 }
+
+
 
 
 
