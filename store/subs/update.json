@@ -1,5 +1,11 @@
 [
   {
+    "date": "260106",
+    "updates": [
+      {"showId": "concert", "eps":"07"}
+    ]
+  },
+  {
     "date": "251231",
     "updates": [
       {"showId": "nogi-nabe", "eps":"unl01_02_03"},

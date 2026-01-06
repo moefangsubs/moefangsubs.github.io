@@ -7,7 +7,8 @@
 		"03",
 		"04",
 		"05",
-		"06"
+		"06",
+		"07"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_concert.png",
@@ -150,7 +151,24 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-aozorasummerfes2025c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-aozorasummerfes2025d.jpg",
 			"descEpisodeSynopsis": "Pada 31 Agustus 2025, Boku ga Mitakatta Aozora menggelar konser \"Aozora Summer Festival 2025\" untuk merayakan ulang tahun debut ke-2. Dalam acara ini, mereka menampilkan beberapa lagu baru untuk pertama kalinya, serta berkolaborasi dengan berbagai bintang tamu spesial seperti penari profesional dan komedian. Selain diwarnai momen emosional dari para anggota, konser ini ditutup dengan pengumuman jadwal acara mendatang, yaitu \"BokuAo Matsuri 2025\" dan konser akhir tahun.",
-			"nameShow": "僕が見たかった青空 アオゾラサマーフェスティバル2024"
+			"nameShow": "僕が見たかった青空 アオゾラサマーフェスティバル2025"
+		},
+		"07": {
+			"descEpisode": "| Boku ga Mitakatta Aozora \"BOKUAO Seishun Osame 2025\"",
+			"descEpsListName": "僕青 Seishun Osame 2025",
+			"descOnAirDate": "28 Desember 2025",
+			"memberParticipate": "僕が見たかった青空",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/bokuao-seishun-osame-2025-hz85J",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_seishunosame2025.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-seishunosame2025.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-seishunosame2025a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-seishunosame2025b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-seishunosame2025c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-seishunosame2025d.jpg",
+			"descEpisodeSynopsis": "Boku ga Mitakatta Aozora sukses menggelar konser penutup tahun bertajuk \"BOKUAO Seishun Osame 2025\" pada 28 Desember di Tokyo. Membawakan 22 lagu andalan yang dirilis sepanjang tahun, acara ini sekaligus menjadi panggung perpisahan bagi Mochinaga Mana yang telah memutuskan untuk lulus. Selain menyuguhkan perform memukau dari berbagai unit dan lagu utama seperti \"Are wa Fairy\" dengan Kanazawa Ami sebagai center, momen haru tercipta saat pembacaan surat perpisahan. Grup ini juga mengumumkan tur nasional dan konser perayaan ulang tahun ke-3 di Yamanashi pada 2026, sebelum menutup malam penuh emosi tersebut dengan harmoni indah lagu \"Tansan no Sei Janai\".",
+			"nameShow": "僕が見たかった青空 BOKUAO青春納め2025"
 		}
 	}
 }

@@ -11,7 +11,7 @@
     },
     {
         "type": "image_random",
-        "stat": "off",
+        "stat": "on",
         "urls": [
             "https://ik.imagekit.io/moearchive/terepan_wings.png",
             "https://ik.imagekit.io/moearchive/dalle_saachan.jpg",
@@ -48,7 +48,7 @@
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/kakki_nogifes_2025a.jpg",
             "https://ik.imagekit.io/moearchive/kakki_nogifes_2025b.jpg",
