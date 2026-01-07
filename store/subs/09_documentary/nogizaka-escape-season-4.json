@@ -1,0 +1,32 @@
+{
+	"url": "nogizaka-escape-season-4",
+	"nameShowTitle": "Nogizaka, Touhikou Season 4",
+	"nameShow": "乃木坂、逃避行。　Season 4",
+	"descSynopsis": "Member Nogizaka46 meninggalkan kehidupan sehari-hari yang sibuk untuk sejenak melarikan diri. Dua member yang dipilih berdasarkan kombinasi tertentu akan memilih \"tempat yang sangat ingin mereka kunjungi sekarang\" dan merencanakan perjalanan 1 malam 2 hari mereka sendiri. Melalui perjalanan yang hanya dilakukan oleh dua orang, acara variety berbentuk dokumenter ini mengamati sisi asli para member dan hubungan mereka berdua!",
+	"availableEpisode": [],
+	"newUpdateCount": 0,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_nogiescape4.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/nogiescape4-{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape4-{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape4-{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape4-{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape4-{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/nogiescape/nogiescape4-{{eps}}d.jpg",
+	"linkTrakteer": "",
+	"episodes": {
+		"01": {
+			"descEpisode": "Episode 1 - 前編",
+			"descEpsListName": "Episode 1",
+			"descOnAirDate": "9 Januari 2026",
+			"memberParticipate": "一ノ瀬美空、瀬戸口心月",
+			"descEpisodeSynopsis": ""
+		},
+		"02": {
+			"descEpisode": "Episode 2 - 後編",
+			"descEpsListName": "Episode 2",
+			"descOnAirDate": "16 Januari 2026",
+			"memberParticipate": "一ノ瀬美空、瀬戸口心月",
+			"descEpisodeSynopsis": ""
+		}
+	}
+}
