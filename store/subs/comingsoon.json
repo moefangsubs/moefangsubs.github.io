@@ -1,6 +1,8 @@
 {
 	"01_variety": [],
-	"02_nogidouga": [],
+	"02_nogidouga": [
+		"nogidouga-hitori-de-dekirumon-2"
+	],
 	"03_web": [
 		"nogizaka46-6kisei-kadouchuu"
 	],
@@ -13,7 +15,8 @@
 	"08_stage": [],
 	"09_documentary": [
 		"nogizaka-escape-season-2",
-		"nogizaka-escape-season-3"
+		"nogizaka-escape-season-3",
+		"nogizaka-escape-season-4"
 	],
 	"10_sapporo": [],
 	"11_musicprogram": [],

@@ -1,0 +1,38 @@
+{
+	"url": "nogidouga-kanransha",
+	"nameShowTitle": "Kanransha",
+	"nameShow": "カンランシャ",
+	"descSynopsis": "Acara spesial akhir tahun 2025 bertajuk \"Kanransha\" menghadirkan momen percakapan para member Nogizaka46 saat hanya berdua di dalam bianglala.",
+	"availableEpisode": [
+		"01", "02"
+	],
+	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_kanransha.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kanransha{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kanransha/kanransha{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kanransha/kanransha{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kanransha/kanransha{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kanransha/kanransha{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kanransha/kanransha{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kanransha-lMoQy",
+	"filePassword": "Ngobrol4MatadiBianglala",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "29 Desember 2025",
+			"memberParticipate": "五百城茉央、愛宕心響",
+			"linkHardsub": "https://sfl.gl/MjqEkx",
+			"descEpisodeSynopsis": "Episode pertama menampilkan pasangan Ioki Mao dari gen-5 dan Atago Kokone dari gen-6 dalam sebuah reuni dua teman sekelas semasa SD dan SMP yang mengenang masa sekolah mereka melalui obrolan tentang kampung halaman, disajikan secara utuh selama 17 menit tanpa potongan."
+		},
+		"02": {
+			"descOnAirDate": "30 Desember 2025",
+			"memberParticipate": "筒井あやめ、賀喜遥香",
+			"linkHardsub": "https://sfl.gl/GkLsSBFW",
+			"descEpisodeSynopsis": "Episode kedua ini menampilkan rekan seangkatan dari gen-4, Kaki Haruka dan Tsutsui Ayame, yang mengenang kesibukan sepanjang tahun 2025 termasuk saat menjalani syuting drama yang mereka bintangi bersama."
+		},
+		"03": {
+			"descOnAirDate": "31 Desember 2025",
+			"memberParticipate": "矢久保美緒、林瑠奈",
+			"linkHardsub": "",
+			"descEpisodeSynopsis": "Episode ketiga ini menampilkan pasangan sahabat akrab dari gen-4, Hayashi Runa dan Yakubo Mio, yang menaiki bianglala sembari membawa boneka tepat setelah menyelesaikan konser 40th SG Under Live."
+		}
+	}
+}

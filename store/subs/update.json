@@ -1,5 +1,13 @@
 [
   {
+    "date": "260107",
+    "updates": [
+      {"showId": "nogizaka-otameshichuu", "eps":"58"},
+      {"showId": "nogidouga-kanransha", "eps":"01"},
+      {"showId": "nogidouga-kanransha", "eps":"02"}
+    ]
+  },
+  {
     "date": "260106",
     "updates": [
       {"showId": "concert", "eps":"07"}
