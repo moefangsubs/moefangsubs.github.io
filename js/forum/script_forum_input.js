@@ -61,10 +61,14 @@ async function handleChatSubmit(e) {
         return;
     }
 
+    if (!elements.chatTextInput) return;
+
     const text = elements.chatTextInput.value.trim();
     if (!text) return;
 
-    elements.sendChatBtn.disabled = true;
+    if (elements.sendChatBtn) {
+        elements.sendChatBtn.disabled = true;
+    }
 
     try {
         const messageData = {
@@ -93,7 +97,7 @@ async function handleChatSubmit(e) {
         
         if (appState.currentReplyInfo) {
             appState.currentReplyInfo = null;
-            elements.replyInfoBox.style.display = 'none';
+            if (elements.replyInfoBox) elements.replyInfoBox.style.display = 'none';
         }
 
         if (elements.collageCheckbox) elements.collageCheckbox.checked = false;
@@ -102,13 +106,11 @@ async function handleChatSubmit(e) {
         console.error("Gagal mengirim pesan:", error);
         alert("Gagal mengirim pesan: " + error.message);
     } finally {
-        elements.sendChatBtn.disabled = false;
+        if (elements.sendChatBtn) {
+            elements.sendChatBtn.disabled = false;
+        }
         setTimeout(() => elements.chatTextInput.focus(), 100);
     }
-}
-
-function updateCursorPosition() {
-    appState.lastCursorPosition = elements.chatTextInput.selectionStart;
 }
 
 /**
