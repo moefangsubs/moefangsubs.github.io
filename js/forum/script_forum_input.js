@@ -53,64 +53,63 @@ export function setupInput(firestoreDb, domElements, appStateRef, paginationCtrl
     });
 }
 
-async function handleChatSubmit(e) {
-    if (e) e.preventDefault();
+async function handleChatSubmit(e, hideChatForm) {
+    e.preventDefault();
+    if (!appState.currentUser) return;
 
-    if (!appState.currentUser) {
-        alert("Silakan login terlebih dahulu.");
-        return;
-    }
-
-    if (!elements.chatTextInput) return;
-
-    const text = elements.chatTextInput.value.trim();
-    if (!text) return;
-
-    if (elements.sendChatBtn) {
-        elements.sendChatBtn.disabled = true;
-    }
+    const text = elements.chatTextInput.value;
+    if (text.trim() === '') return; 
 
     try {
-        const messageData = {
-            userId: appState.currentUser.uid,
-            userEmail: appState.currentUser.email,
+        let newMessage = {
             text: text,
-            originalText: text,
-            autoCollage: elements.collageCheckbox ? elements.collageCheckbox.checked : false,
+            originalText: text, 
+            userId: appState.currentUser.uid,
+            userName: appState.currentUser.displayName,
+            userPhotoURL: appState.currentUser.photoURL,
+            timestamp: FieldValue.serverTimestamp(),
+            isAdminPost: appState.isAdmin,
+            isPinned: false,
             isDeleted: false,
             deletedBy: null,
             isEdited: false,
             editHistory: [],
-            isReported: false,
-            report: null,
-            replyToId: appState.currentReplyInfo ? appState.currentReplyInfo.id : null,
-            replyToName: appState.currentReplyInfo ? appState.currentReplyInfo.name : null,
-            replyToPublicId: appState.currentReplyInfo ? appState.currentReplyInfo.publicId : null,
-            replyToText: appState.currentReplyInfo ? appState.currentReplyInfo.text : null,
-            timestamp: FieldValue.serverTimestamp()
+            lastEdited: null,
+            likeCount: 0,
+            dislikeCount: 0,
+            replyToId: null,
+            replyToName: null,
+            replyToPublicId: null,
+            replyToText: null,
+            autoCollage: elements.collageToggle.checked 
         };
-
-        await db.collection('forumMessages').add(messageData);
-
-        elements.chatTextInput.value = '';
-        elements.chatTextInput.style.height = 'auto';
         
         if (appState.currentReplyInfo) {
-            appState.currentReplyInfo = null;
-            if (elements.replyInfoBox) elements.replyInfoBox.style.display = 'none';
+            newMessage.replyToId = appState.currentReplyInfo.id;
+            newMessage.replyToName = appState.currentReplyInfo.name;
+            newMessage.replyToPublicId = appState.currentReplyInfo.publicId;
+            newMessage.replyToText = appState.currentReplyInfo.text.substring(0, 50);
         }
 
-        if (elements.collageCheckbox) elements.collageCheckbox.checked = false;
+        await db.collection('forumMessages').add(newMessage);
 
+        elements.chatTextInput.value = '';
+        appState.currentReplyInfo = null;
+        elements.replyInfoBox.style.display = 'none';
+        
+        if (hideChatForm) hideChatForm();
+
+        if (paginationControls.getCurrentPage() !== 1) {
+            paginationControls.goToPage(1);
+        }
+        
     } catch (error) {
         console.error("Gagal mengirim pesan:", error);
-        alert("Gagal mengirim pesan: " + error.message);
-    } finally {
-        if (elements.sendChatBtn) {
-            elements.sendChatBtn.disabled = false;
-        }
-        setTimeout(() => elements.chatTextInput.focus(), 100);
     }
+}
+
+function updateCursorPosition() {
+    appState.lastCursorPosition = elements.chatTextInput.selectionStart;
 }
 
 /**
