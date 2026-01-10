@@ -57,7 +57,42 @@
             </div>
         </div>
 
+<!-- <div id="nogichoice-summary-container" style="width: 100%; max-width: 1000px; margin: 2rem auto; color: white; display: none;"> -->
+    <!-- <div style="background: linear-gradient(135deg, #440079, #2e0052); padding: 20px; border-radius: 12px; border: 2px solid #a22bff;"> -->
+        <!-- <h2 style="text-align: center; color: #FFD700; text-transform: uppercase; margin-bottom: 20px; border-bottom: 2px dashed #a22bff; padding-bottom: 10px;"> -->
+            <!-- 🏆 Nogizaka46 Fans' Choice Result -->
+        <!-- </h2> -->
+        
+        <!-- <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;"> -->
+            <!-- <div class="summary-box"> -->
+                <!-- <h3 style="color: #c479ff; border-left: 4px solid #c479ff; padding-left: 10px; margin-bottom: 10px;">Top 5 Main Song</h3> -->
+                <!-- <ol id="sum-main" style="padding-left: 20px; margin: 0;"></ol> -->
+            <!-- </div> -->
+            <!-- <div class="summary-box"> -->
+                <!-- <h3 style="color: #c479ff; border-left: 4px solid #c479ff; padding-left: 10px; margin-bottom: 10px;">Top 5 Under Song</h3> -->
+                <!-- <ol id="sum-under" style="padding-left: 20px; margin: 0;"></ol> -->
+            <!-- </div> -->
+             <!-- <div class="summary-box"> -->
+                <!-- <h3 style="color: #c479ff; border-left: 4px solid #c479ff; padding-left: 10px; margin-bottom: 10px;">Top 5 Unit Song</h3> -->
+                <!-- <ol id="sum-unit" style="padding-left: 20px; margin: 0;"></ol> -->
+            <!-- </div> -->
+            <!-- <div class="summary-box"> -->
+                <!-- <h3 style="color: #FFD700; border-left: 4px solid #FFD700; padding-left: 10px; margin-bottom: 10px;">Top 5 Members</h3> -->
+                <!-- <ol id="sum-member" style="padding-left: 20px; margin: 0;"></ol> -->
+            <!-- </div> -->
+             <!-- <div class="summary-box" style="grid-column: 1 / -1;"> -->
+                <!-- <h3 style="color: #a22bff; border-left: 4px solid #a22bff; padding-left: 10px; margin-bottom: 10px;">Top Song Per Gen</h3> -->
+                <!-- <div id="sum-gen" style="display: flex; flex-wrap: wrap; gap: 10px;"></div> -->
+            <!-- </div> -->
+        <!-- </div> -->
 
+        <!-- <div style="text-align: center; margin-top: 20px;"> -->
+            <!-- <a href="moeplay/nogichoice.html" target="_blank" style="background: #FFD700; color: #440079; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 30px; display: inline-block;"> -->
+                <!-- LIHAT DETAIL LENGKAP &raquo; -->
+            <!-- </a> -->
+        <!-- </div> -->
+    <!-- </div> -->
+<!-- </div> -->
 		
 		<div class="scontainer upd">
 			<div class="wadah-pola"></div>
@@ -140,7 +175,152 @@
 			<div id="daftar-garapan"></div>
 		</div>
     </main>
-	
+
+
+<!-- <div id="nogichoice-teaser-overlay" class="modal-overlay"> -->
+    <!-- <div class="modal-box" style="text-align: center; border: 2px solid var(--moe-tint2);"> -->
+        <!-- <h2 style="color: var(--moe-tint2); font-size: 1.5rem; margin-bottom: 1rem;">🏆 NOGIZAKA46<br>INDONESIA FANS' CHOICE 2025</h2> -->
+        <!-- <p>Ayo meriahkan akhir tahun dengan memilih lagu dan member terfavorit pilihan fans Indonesia!</p> -->
+        <!-- <div style="margin: 20px 0;"> -->
+            <!-- <span style="font-size: 3rem;">🗳️</span> -->
+        <!-- </div> -->
+        <!-- <div class="button-group"> -->
+            <!-- <button id="btn-nogichoice-go" class="btn-submit" style="background: var(--moe-tint2); color: white;">LET'S GO</button> -->
+            <!-- <button id="btn-nogichoice-close" class="btn-link">Tutup</button> -->
+        <!-- </div> -->
+    <!-- </div> -->
+<!-- </div> -->
+
+
+
+<!-- <script> -->
+<!-- document.addEventListener('DOMContentLoaded', () => { -->
+    <!-- const teaserOverlay = document.getElementById('nogichoice-teaser-overlay'); -->
+    <!-- const btnGo = document.getElementById('btn-nogichoice-go'); -->
+    <!-- const btnClose = document.getElementById('btn-nogichoice-close'); -->
+
+    <!-- firebase.auth().onAuthStateChanged(async (user) => { -->
+        <!-- if (user) { -->
+            <!-- const db = firebase.firestore(); -->
+            <!-- try { -->
+                <!-- const doc = await db.collection('moepoll').doc(user.uid).get();tampilkan popup -->
+                <!-- if (!doc.exists || doc.data().isdone !== 'done') { -->
+                    <!-- setTimeout(() => { -->
+                        <!-- teaserOverlay.classList.add('active'); -->
+                    <!-- }, 1500); -->
+                <!-- } -->
+            <!-- } catch (e) { -->
+                <!-- console.log("Teaser check error:", e); -->
+            <!-- } -->
+        <!-- } -->
+    <!-- }); -->
+
+    <!-- btnGo.addEventListener('click', () => { -->
+        <!-- window.open('moeplay/nogichoice.html', '_blank'); -->
+        <!-- teaserOverlay.classList.remove('active'); -->
+    <!-- }); -->
+
+    <!-- btnClose.addEventListener('click', () => { -->
+        <!-- teaserOverlay.classList.remove('active'); -->
+    <!-- }); -->
+<!-- }); -->
+<!-- </script> -->
+
+
+<!-- <script> -->
+<!-- document.addEventListener('DOMContentLoaded', async () => { -->
+    <!-- const container = document.getElementById('nogichoice-summary-container'); -->
+    <!-- if (!container) return; -->
+
+    <!-- if (!firebase.apps.length) return;  -->
+    <!-- const db = firebase.firestore(); -->
+
+    <!-- try { -->
+        <!-- const snapshot = await db.collection('moepoll').where('isdone', '==', 'done').get(); -->
+        <!-- if (snapshot.empty) return;  -->
+
+        <!-- container.style.display = 'block';  -->
+        <!-- const votes = []; -->
+        <!-- snapshot.forEach(doc => votes.push(doc.data())); -->
+
+        <!-- const calcTop = (id, limit, multiplier = 1, topN = 5) => { -->
+            <!-- const scores = {}; -->
+            <!-- votes.forEach(v => { -->
+                <!-- const choices = v[id] || []; -->
+                <!-- choices.forEach((cid, idx) => { -->
+                    <!-- let pts = (limit - idx) * multiplier; -->
+                    <!-- if(pts > 0) scores[cid] = (scores[cid] || 0) + pts; -->
+                <!-- }); -->
+            <!-- }); -->
+            <!-- return Object.entries(scores) -->
+                <!-- .sort((a, b) => b[1] - a[1]) -->
+                <!-- .slice(0, topN); -->
+        <!-- }; -->
+
+        <!-- const renderList = (elId, data) => { -->
+            <!-- const el = document.getElementById(elId); -->
+            <!-- if (!el) return; -->
+            <!-- el.innerHTML = data.map(([name, score]) => ` -->
+                <!-- <li style="margin-bottom: 5px; font-size: 0.9rem;"> -->
+                    <!-- <strong>${name}</strong> <span style="opacity: 0.7; font-size: 0.8em;">(${score})</span> -->
+                <!-- </li> -->
+            <!-- `).join(''); -->
+        <!-- }; -->
+
+        <!-- // PERBAIKAN: Limit diubah jadi 3 (sesuai aturan polling main/under) -->
+        <!-- const main = calcTop('poll_1_main', 3, 2, 5); -->
+        <!-- renderList('sum-main', main); -->
+
+        <!-- const under = calcTop('poll_2_under', 3, 2, 5); -->
+        <!-- renderList('sum-under', under); -->
+
+        <!-- // Unit tetap 5 karena limit pollingnya 5 -->
+        <!-- const unit = calcTop('poll_3_unit', 5, 1, 5); -->
+        <!-- renderList('sum-unit', unit); -->
+
+        <!-- const memberScores = {}; -->
+        <!-- const memPolls = ['poll_9_favgen1', 'poll_10_favgen2', 'poll_11_favgen3', 'poll_12_favgen4', 'poll_13_favgen5', 'poll_14_favgen6']; -->
+        
+        <!-- votes.forEach(v => { -->
+            <!-- memPolls.forEach(pid => { -->
+                <!-- const choices = v[pid] || []; -->
+                <!-- choices.forEach((cid, idx) => { -->
+                    <!-- let pts = 5 - idx;  -->
+                    <!-- if(pts > 0) memberScores[cid] = (memberScores[cid] || 0) + pts; -->
+                <!-- }); -->
+            <!-- }); -->
+        <!-- }); -->
+        <!-- const topMembers = Object.entries(memberScores) -->
+            <!-- .sort((a, b) => b[1] - a[1]) -->
+            <!-- .slice(0, 5); -->
+        <!-- renderList('sum-member', topMembers); -->
+
+        <!-- const genPolls = [ -->
+            <!-- { id: 'poll_4_gen2', label: 'Gen 2', limit: 3 }, -->
+            <!-- { id: 'poll_5_gen3', label: 'Gen 3', limit: 5 }, -->
+            <!-- { id: 'poll_6_gen4', label: 'Gen 4', limit: 5 }, -->
+            <!-- { id: 'poll_7_gen5', label: 'Gen 5', limit: 5 }, -->
+            <!-- { id: 'poll_8_gen6', label: 'Gen 6', limit: 3 } -->
+        <!-- ]; -->
+        
+        <!-- const genContainer = document.getElementById('sum-gen'); -->
+        <!-- genContainer.innerHTML = ''; -->
+        <!-- genPolls.forEach(g => { -->
+            <!-- const top1 = calcTop(g.id, g.limit, 1, 1); -->
+            <!-- if (top1.length > 0) { -->
+                <!-- genContainer.innerHTML += ` -->
+                    <!-- <div style="background: rgba(255,255,255,0.1); padding: 5px 10px; border-radius: 4px; font-size: 0.85rem;"> -->
+                        <!-- <span style="color: #a22bff; font-weight:bold;">${g.label}:</span> ${top1[0][0]} -->
+                    <!-- </div> -->
+                <!-- `; -->
+            <!-- } -->
+        <!-- }); -->
+
+    <!-- } catch (e) { -->
+        <!-- console.error("Gagal memuat summary result", e); -->
+    <!-- } -->
+<!-- }); -->
+<!-- </script> -->
 	<!-- <script src="js/js_snow.js"></script> -->
 </body>
 </html>
