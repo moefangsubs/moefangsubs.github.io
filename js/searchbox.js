@@ -224,14 +224,22 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- Core Logic ---
     const DATA_PATH_PREFIXES = { 
-        "01_variety": "../store/subs/01_variety/", "02_nogidouga": "../store/subs/02_nogidouga/",
-        "03_web": "../store/subs/03_web/", "04_singlebonus": "../store/subs/04_singlebonus/",
-        "05_nogikoi": "../store/subs/05_nogikoi/", "06_drama": "../store/subs/06_drama/",
-        "07_movie": "../store/subs/07_movie/", "08_stage": "../store/subs/08_stage/",
-        "09_documentary": "../store/subs/09_documentary/", "10_sapporo": "../store/subs/10_sapporo/",
-        "11_musicprogram": "../store/subs/11_musicprogram/", "12_random": "../store/subs/12_random/",
-        "13_concert": "../store/subs/13_concert/", "14_premium": "../store/subs/14_premium/",
-        "15_radio": "../store/subs/15_radio/", "16_nonsakamichi": "../store/subs/16_nonsakamichi/"
+        "01_variety": "../store/subs/01_variety/",
+		"02_nogidouga": "../store/subs/02_nogidouga/",
+        "03_web": "../store/subs/03_web/",
+		"04_singlebonus": "../store/subs/04_singlebonus/",
+        "05_nogikoi": "../store/subs/05_nogikoi/",
+		"06_drama": "../store/subs/06_drama/",
+        "07_movie": "../store/subs/07_movie/",
+		"08_stage": "../store/subs/08_stage/",
+        "09_documentary": "../store/subs/09_documentary/",
+		"10_sapporo": "../store/subs/10_sapporo/",
+        "11_musicprogram": "../store/subs/11_musicprogram/",
+		"12_random": "../store/subs/12_random/",
+        "13_concert": "../store/subs/13_concert/",
+		"14_premium": "../store/subs/14_premium/",
+        "15_radio": "../store/subs/15_radio/",
+		"16_nonsakamichi": "../store/subs/16_nonsakamichi/"
     };
 
     async function loadAllData() {
@@ -291,7 +299,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         for (const showData of allShowsData) {
             let isTopLevelMatch = false;
-            // Check top-level titles
             if ((showData.nameShowTitle && showData.nameShowTitle.toLowerCase().includes(query)) ||
                 (showData.nameShow && showData.nameShow.toLowerCase().includes(query))) {
                 isTopLevelMatch = true;
@@ -304,10 +311,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         matchedEpisodes.push({ showData, episodeNumber });
                     }
                 }
-                continue; // Move to the next show to avoid duplicate entries
+                continue;
             }
-
-            // If no top-level match, check per-episode data (for files like random-subs.json)
+			
             if (showData.episodes) {
                 for (const episodeNumber in showData.episodes) {
                     const episodeData = showData.episodes[episodeNumber];
