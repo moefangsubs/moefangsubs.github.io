@@ -1,0 +1,31 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_kaononaikanja.png",
+    "url": "kao-no-nai-kanja",
+    "nameShowTitle": "Kao no nai Kanja -Sukuuka, Sabaku ka- (2025)",
+    "nameShow": "顔のない患者-救うか、裁くか-",
+    "descSynopsis": "Tsuzuki Ryo, seorang ahli bedah di Rumah Sakit Umum Hakuto, mendadak terseret dalam mimpi buruk ketika istrinya, Miho, diculik dan digantikan oleh seorang pasien tanpa identitas dengan wajah yang telah dihancurkan. Sang penculik mengancam akan membunuh Miho jika Tsuzuki tidak menghabisi pasien tersebut, yang belakangan dicurigai sebagai pembunuh kejam yang sedang buron. Terjepit di antara nyawa istrinya dan nyawa seorang kriminal asing, Tsuzuki kian terdesak oleh batas waktu yang sempit, motif penculik yang misterius, serta pengejaran intensif dari pihak kepolisian.",
+    "availableEpisode": [
+		"01"
+	],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/kaononai{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/kao-no-nai-kanja-VVhUh",
+    "filePassword": "GakBelwajah_CelemBanged",
+    "memberParticipate": "樋口日奈",
+    "episodes": {
+        "01": {
+			"descEpisodeSynopsis": "Ahli bedah berbakat namun peragu, Tsuzuki Ryo, dihadapkan pada teror nyata ketika istrinya, Miho, diculik oleh sosok misterius bernama Kaonashi yang menuntut kematian seorang pengebom sebagai tebusan. Di tengah dinamika rumah sakit dengan rekannya yang dingin, Natsui Toma, serta penyelidikan polisi terkait video penyiksaan buronan Asahina Iori, Tsuzuki menerima pesan mengerikan pada malam Natal. Ia diarahkan ke sebuah bagasi mobil berisi pria dengan wajah hancur dan menerima ultimatum lewat telepon untuk membunuh pria tersebut yang diyakini sebagai Asahina, atau nyawa istrinya akan melayang.",
+            "linkHardsub": "https://sfl.gl/keiTbKJL"
+        },
+        "02": {
+			"descEpisodeSynopsis": "Konfirmasi bahwa pasien berwajah hancur itu adalah pengebom Asahina Iori melalui kecocokan golongan darah membuat Tsuzuki terguncang hebat hingga tangannya gemetar saat menangani operasi lain. Meski sempat menegaskan kepada perawat Izumi bahwa tugas dokter adalah menyelamatkan nyawa tanpa pandang bulu, ultimatum Kaonashi dan cerita traumatis perawat Sakaguchi tentang ledakan tiga tahun lalu meruntuhkan pertahanan moralnya. Dalam keputusasaan demi menyelamatkan istrinya, Tsuzuki mendatangi kamar rawat pasien tersebut dan nekat mencekik leher Asahina, mengabaikan seruan Izumi yang berusaha menghentikannya.",
+            "linkHardsub": ""
+        }
+    },
+	"descOnAirDatePattern": "260108",
+    "OnAirEvery": 7
+}

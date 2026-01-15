@@ -4,7 +4,7 @@
 	"nameShow": "カンランシャ",
 	"descSynopsis": "Acara spesial akhir tahun 2025 bertajuk \"Kanransha\" menghadirkan momen percakapan para member Nogizaka46 saat hanya berdua di dalam bianglala.",
 	"availableEpisode": [
-		"01", "02"
+		"01", "02", "03"
 	],
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_kanransha.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/kanransha{{eps}}.jpg",
@@ -31,7 +31,7 @@
 		"03": {
 			"descOnAirDate": "31 Desember 2025",
 			"memberParticipate": "矢久保美緒、林瑠奈",
-			"linkHardsub": "",
+			"linkHardsub": "https://sfl.gl/UYh1l",
 			"descEpisodeSynopsis": "Episode ketiga ini menampilkan pasangan sahabat akrab dari gen-4, Hayashi Runa dan Yakubo Mio, yang menaiki bianglala sembari membawa boneka tepat setelah menyelesaikan konser 40th SG Under Live."
 		}
 	}

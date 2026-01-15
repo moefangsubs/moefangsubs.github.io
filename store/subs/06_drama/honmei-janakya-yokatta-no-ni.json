@@ -1,0 +1,31 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_honmei.png",
+    "url": "honmei-janakya-yokatta-no-ni",
+    "nameShowTitle": "Honmei janakya Yokatta no ni (2025)",
+    "nameShow": "本命じゃなきゃよかったのに",
+    "descSynopsis": "Munculnya saingan bagi si playboy Eisei mewarnai kisah cinta dewasa yang bersemi kembali setelah sepuluh tahun. Maki, sahabat Mihono sejak kuliah, memberikan saran tegas namun penuh kasih, yang justru menyeret Kusaka serta Yuri ke dalam hubungan mereka yang tidak sederhana. Melalui keintiman yang terjalin, Mihono dan Eisei belajar menghadapi diri sendiri dan tumbuh dewasa, menyisakan tanya ke mana arah masa depan mereka akan bermuara.",
+    "availableEpisode": [
+		"01"
+	],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/honmei{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/honmei-janakya-yokatta-no-ni-2IP3f",
+    "filePassword": "Drama_ChimaAsoy",
+    "memberParticipate": "樋口日奈",
+    "episodes": {
+        "01": {
+			"descEpisodeSynopsis": "Tepat di hari ulang tahunnya yang ke-30, Mihono Onuma dikejutkan oleh kedatangan karyawan baru, Eisei Ureshino, pria yang pernah menjalin hubungan terlarang dengannya sepuluh tahun silam. Panggilan akrab Eisei sempat membuat junior mereka curiga, namun Mihono berdalih mereka hanya teman kuliah. Malamnya, Eisei merayakan ulang tahun Mihono di restoran mewah, membangkitkan kembali kenangan lama dan tatapan penuh gairah yang sulit dihindari.",
+            "linkHardsub": "https://sfl.gl/uKxFLmh7"
+        },
+        "02": {
+			"descEpisodeSynopsis": "Setelah kabur dari pesta, Mihono dan Eisei menghabiskan waktu di bilik sempit kafe manga, membuat Mihono meratapi ketidakberdayaannya menolak pesona pria egois itu. Di kantor, Eisei terus mengusik Mihono secara diam-diam meski sedang didekati oleh Yuri. Namun, ajakan tulus dari Kusaka untuk bertemu malam itu menjadi penyelamat, membuat Mihono tersenyum lega dan bertekad memutus hubungan toksik masa lalunya demi kebahagiaan yang nyata.",
+            "linkHardsub": ""
+        }
+    },
+	"descOnAirDatePattern": "260108",
+    "OnAirEvery": 7
+}

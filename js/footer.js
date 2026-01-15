@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			</div>
 			<div class="about">
 				<img class="foot-label" src="../sprite/main.svg"/>
-				<span>Data Update : 7 Januari 2026 21:17 WIB</span>
+				<span>Data Update : 15 Januari 2026 08:56 WIB</span>
 				<span>Data bisa saja ada kesalahan input.</span>
 				<span>Jika menemukannya dan/atau ingin ada masukan, mohon hubungi admin via DM Instagram</span>
 			</div>
@@ -154,26 +154,19 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.body.insertAdjacentHTML('beforeend', footerHTML);
 
-    // --- ▼▼▼ KODE JAVASCRIPT UNTUK WIDGET ONLINE ▼▼▼ ---
-    
-    // Pastikan rtdb dan auth (dari firebase-init.js) sudah ada
     if (typeof rtdb !== 'undefined' && typeof auth !== 'undefined') {
         
         const onlineCounterWidget = document.getElementById('online-counter-widget');
         const onlineCounterText = onlineCounterWidget.querySelector('span');
         const onlineUsersRef = rtdb.ref('/onlineUsers');
-
-        // Kita hanya mau menjalankan ini jika user sudah login
         auth.onAuthStateChanged(user => {
             if (user) {
-                // ▼▼▼ PERBAIKAN 2: Tampilkan widget saat login ▼▼▼
                 onlineCounterWidget.style.display = 'block';
 
 				onlineUsersRef.on('value', (snapshot) => {
                     const onlineCount = snapshot.numChildren();
                     const amITheOnlyOne = (onlineCount === 1 && snapshot.hasChild(user.uid));
 
-                    // ▼▼▼ PERBAIKAN 3: Gunakan .innerHTML agar bisa render HTML ▼▼▼
                     if (onlineCount === 0) {
                         onlineCounterText.innerHTML = '<span class="pulse-dot"></span> Menghubungkan...';
                     } else if (amITheOnlyOne) {
@@ -184,9 +177,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             
             } else {
-                // Jika user logout, sembunyikan widget dan matikan listener
                 onlineCounterWidget.style.display = 'none';
-                onlineUsersRef.off('value'); // Berhenti mendengarkan data
+                onlineUsersRef.off('value');
             }
         });
 
