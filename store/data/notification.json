@@ -1,7 +1,7 @@
 {
 	"01": {
-		"type"	: "feature",
-		"note"	: "Ayo bergabung dengan MoeChat! Fitur eksperimen dimana kita bisa chatting disana."
+		"type"	: "experiment",
+		"note"	: "Mohon maaf, karena ada masalah dari sisi Firebase, fitur dalam MoeChat tidak dapat digunakan."
 	},
 	"02": {
 		"type"	: "feature",

@@ -26,7 +26,16 @@
 		"type": "info",
 		"text": "ℹ️ Untuk garapan lainnya dari acara ini silakan menuju ",
 		"targets": [
-			"../store/subs/01_variety/nogizaka-koujichuu.json"
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=未公開_230"
+		],
+		"directurl1": "https://kuneeel.blogspot.com/",
+		"a1": "Kuneeel Subs"
+	},
+	{
+		"type": "info",
+		"text": "ℹ️ Untuk garapan lainnya dari acara ini silakan menuju ",
+		"targets": [
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=未公開_139_140"
 		],
 		"directurl1": "https://kuneeel.blogspot.com/",
 		"a1": "Kuneeel Subs"
@@ -35,6 +44,9 @@
 		"type": "request",
 		"text": "🧧 Ini adalah garapan request by order via DM Instagram",
 		"targets": [
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=190",
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=191",
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=192",
 			"../store/subs/01_variety/spicy-sessions.json",
 			"../store/subs/01_variety/ano-sakamichi-o-nobotte-hanasou.json",
 			"../store/subs/01_variety/nogizaka-tokyo-pasokon-club.json?episodes=141",
@@ -73,6 +85,8 @@
 			"../store/subs/12_random/showroom.json?episodes=33",
 			"../store/subs/12_random/showroom.json?episodes=35",
 			"../store/subs/12_random/showroom.json?episodes=36",
+			"../store/subs/12_random/showroom.json?episodes=37",
+			"../store/subs/12_random/showroom.json?episodes=38",
 			"../store/subs/13_concert/concert.json?episodes=06",
 			"../store/subs/14_premium/nogizaka46-12th-bdl-talk.json?episodes=01"
 		]

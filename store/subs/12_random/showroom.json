@@ -5,7 +5,7 @@
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
-		"31", "32", "33", "34", "35", "36"
+		"31", "32", "33", "34", "35", "36", "37", "38", "39"
 	],
 	"newUpdateCount": 1,
 	"SpecificUpdate": ["34"],
@@ -584,6 +584,54 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251007_SR-IkedaTeresa3.jpg",
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Ikeda Teresa.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"37": {
+			"descEpisode": "| 251119 NOGIOBI (Endo Sakura)",
+			"descEpsListName": "Endo Sakura",
+			"descOnAirDate": "19 November 2025",
+			"memberParticipate": "遠藤さくら",
+			"linkHardsub": "https://sfl.gl/uGIcg6",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251119_EndoSakura.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251119_EndoSakura.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251119_EndoSakura1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251119_EndoSakura2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251119_EndoSakura3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Endo Sakura.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"38": {
+			"descEpisode": "| 251120 NOGIOBI (Tsutsui Ayame)",
+			"descEpsListName": "Tsutsui Ayame",
+			"descOnAirDate": "20 November 2025",
+			"memberParticipate": "筒井あやめ",
+			"linkHardsub": "https://sfl.gl/IkDjYC5",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251120_TsutsuiAyame.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251120_TsutsuiAyame.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251120_TsutsuiAyame1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251120_TsutsuiAyame2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/251120_TsutsuiAyame3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Tsutsui Ayame.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"39": {
+			"descEpisode": "| 260109 NOGIOBI (Kaki Haruka)",
+			"descEpsListName": "Kaki Haruka",
+			"descOnAirDate": "9 Januari 2026",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://sfl.gl/xzo9JR",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260109_SR-KakiHaruka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260109_SR-KakiHaruka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260109_SR-KakiHaruka1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260109_SR-KakiHaruka2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260109_SR-KakiHaruka3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Kaki Haruka yang menjadi pembuka di tahun 2026.",
 			"nameShow": "SHOWROOM のぎおび"
 		}
 	}

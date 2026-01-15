@@ -4,12 +4,12 @@
 	"nameShow": "乃木坂工事中",
 	"descSynopsis": "\"Nogizaka Under Construction\" atau \"Nogizaka Koujichuu\" merupakan acara variety show dari Nogizaka46 dengan MC duo komedian Bananaman. Acara ini bisa dibilang kelanjutan dari acara sebelumnya, yaitu \"Nogizaka tte, Doko?\" yang tayang di stasiun TV yang sama, TV Tokyo pada hari minggu pukul 24:00-24:30 JST. Setiap minggunya pada awalnya, satu member dipilih untuk mempresentasikan program yang ingin dia lakukan. Dibandingkan dengan \"Nogizaka tte, Doko?\", dimana setiap member sebagai protagonis project, yang akan lebih menunjukkan karakteristik dan pesona masing-masing member. Namun tipe seperti itu dibatalkan setelah ep25.",
 	"availableEpisode": [
-		"01",
-		"02"
+		"未公開_230", "未公開_139_140",
+		"190", "191", "192"
 	],
 	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_koujichuu.png",
 	"episodes": {
-		"01": {
+		"未公開_230": {
 			"descEpisode": "| Episode 230 未公開",
 			"descOnAirDate": "18 Agustus 2021",
 			"memberParticipate": "乃木坂46",
@@ -23,7 +23,7 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-d.jpg",
 			"descEpisodeSynopsis": "Disini saya mau ngerilis cut 5 menit dari BluRay Nogizaka Koujichuu Mokuhyou Tasseichuu dari part Endo Sakura dan Kaki Haruka melakukan trik sulap, pastinya bagian 未公開 atau yang tidak dirilis dalam tayangan disiarkan, yaitu Endo akan melakukan trik sulap menusuk Kakki (sambungan dari episode 230)."
 		},
-		"02": {
+		"未公開_139_140": {
 			"descEpisode": "| Episode 139-140 未公開",
 			"descOnAirDate": "18 Agustus 2021",
 			"memberParticipate": "乃木坂46",
@@ -37,6 +37,51 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2d.jpg",
 			"descEpisodeSynopsis": "Dalam BluRay Nogizaka Koujichuu Senshuken kaisaichuu, terdapat 2 episode full pencarian Ratu No-Otak kedua yang mana telah diraih oleh Wada Maaya beberapa tahun yang lalu. Di full episode ini pastinya ada bagian 未公開 atau yang tidak dirilis dalam tayangan yang disiarkan."
+		},
+		"190": {
+			"descEpisode": "| Episode 190",
+			"descOnAirDate": "20 Januari 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/TFWrFV",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu190.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu190.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu190a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu190b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu190c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu190d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini adalah episode perkenalan gen-4 yang saat itu baru bergabung. Di bagian pertama ini akan memperkenalkan Kaki Haruka, Shibata Yuna, dan Yakubo Mio."
+		},
+		"191": {
+			"descEpisode": "| Episode 191",
+			"descOnAirDate": "27 Januari 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/zk0Pg",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu191.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu191.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu191a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu191b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu191c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu191d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini adalah episode perkenalan gen-4 yang saat itu baru bergabung. Di bagian kedua ini akan memperkenalkan Endo Sakura, Tsutsui Ayame, Kanagawa Saya, dan Kitagawa Yuri."
+		},
+		"192": {
+			"descEpisode": "| Episode 192",
+			"descOnAirDate": "3 Februari 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/bmtIhVI2",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu192.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini adalah episode perkenalan gen-4 yang saat itu baru bergabung. Di bagian terakhir ini akan memperkenalkan Tamura Mayu, Seimiya Rei, Kakehashi Sayaka, dan Hayakawa Seira."
 		}
 	}
 }
