@@ -172,8 +172,22 @@ document.addEventListener('DOMContentLoaded', () => {
                         break;
                 }
                 return `${baseV2Url}n46_cover_s${num}${typeChar}.jpg`;
-            } else if (releaseKey.startsWith('a') || releaseKey.startsWith('u') || releaseKey.startsWith('b')) {
+            } else if (releaseKey.startsWith('a')) {
+                switch (targetSong.titleJp.trim()) {
+                    case "全力ラップタイム":
+                        return `${baseV2Url}n46_cover_a5reg.jpg`;
+                    case "世界はここにある":
+                        return `${baseV2Url}n46_cover_a5a.jpg`;
+                    case "Fake Doctor":
+                        return `${baseV2Url}n46_cover_a5b.jpg`;
+                    case "Just a sec.":
+                        return `${baseV2Url}n46_cover_a5c.jpg`;
+                    default:
+						return `${baseV2Url}n46_cover_${releaseKey}.jpg`;
+                }
+            } else if (releaseKey.startsWith('u') || releaseKey.startsWith('b')) {
                 return `${baseV2Url}n46_cover_${releaseKey}.jpg`;
+				
             } else if (releaseKey === 'dig') {
                 switch (targetSong.titleJp.trim()) {
                     case "世界中の隣人よ":
@@ -286,6 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 'a2': 's014',
                 'a3': 's017',
                 'a4': 's022',
+                'a5': 's040',
                 'u1': 's019',
                 'b1': 's028',
                 'akb38': 's010',
@@ -455,8 +470,6 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(res => res.json())
             .then(data => {
                 const listContent = document.getElementById('song-list-content');
-
-                // --- PERUBAHAN LOGIKA SORTING DIMULAI DI SINI ---
                 const releaseOrder = Object.keys(data).sort((a, b) => {
                     const isADig = a === 'dig';
                     const isBDig = b === 'dig';
