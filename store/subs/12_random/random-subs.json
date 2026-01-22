@@ -9,7 +9,7 @@
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50", 
 		"51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
-		"61"
+		"61", "62"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
@@ -957,6 +957,23 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251230-jra.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 kembali tampil di panggung Japan Record Awards ke-67 setelah empat tahun absen untuk membawakan lagu peraih Planning Award, \"Same numbers\". Sebelum tampil, Kapten Umezawa Minami mengungkapkan rasa bahagia karena bisa kembali berdiri di panggung istimewa yang menjadi target mereka selama ini. Center Kaki Haruka turut mengenang konser kesepuluh di Stadion Meiji Jingu sebagai momen paling berkesan tahun ini, di mana kemeriahan kembang api dan drone semakin mempererat ikatan antar member dan penggemar.",
 			"nameShow": "輝く！日本レコード大賞"
+		},
+		"62": {
+			"descEpisode": "| 260116 BUZZ RYTHM02",
+			"descEpsListName": "260116",
+			"descOnAirDate": "16 Januari 2026",
+			"memberParticipate": "乃木坂46、市來玲奈",
+			"linkHardsub": "https://sfl.gl/iV0I4L8",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/buzz-rythm02-7bNkU",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260116_buzzrythm02.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02d.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 kini diundang ke acara BUZZ RYTHM02, yang dipandu oleh duo MC Bakarythm dan ex-Nogizaka46 Ichiki Rena.Disini, ada beberapa VTR kegiatan para member di hari libur masing-masing 30 detik.",
+			"nameShow": "BUZZ RYTHM02"
 		}
 	}
 }

@@ -5,7 +5,7 @@
     "nameShow": "本命じゃなきゃよかったのに",
     "descSynopsis": "Munculnya saingan bagi si playboy Eisei mewarnai kisah cinta dewasa yang bersemi kembali setelah sepuluh tahun. Maki, sahabat Mihono sejak kuliah, memberikan saran tegas namun penuh kasih, yang justru menyeret Kusaka serta Yuri ke dalam hubungan mereka yang tidak sederhana. Melalui keintiman yang terjalin, Mihono dan Eisei belajar menghadapi diri sendiri dan tumbuh dewasa, menyisakan tanya ke mana arah masa depan mereka akan bermuara.",
     "availableEpisode": [
-		"01"
+		"01", "02"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/honmei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}.jpg",
@@ -23,6 +23,14 @@
         },
         "02": {
 			"descEpisodeSynopsis": "Setelah kabur dari pesta, Mihono dan Eisei menghabiskan waktu di bilik sempit kafe manga, membuat Mihono meratapi ketidakberdayaannya menolak pesona pria egois itu. Di kantor, Eisei terus mengusik Mihono secara diam-diam meski sedang didekati oleh Yuri. Namun, ajakan tulus dari Kusaka untuk bertemu malam itu menjadi penyelamat, membuat Mihono tersenyum lega dan bertekad memutus hubungan toksik masa lalunya demi kebahagiaan yang nyata.",
+            "linkHardsub": "https://sfl.gl/7GzUUC"
+        },
+        "03": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "04": {
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         }
     },

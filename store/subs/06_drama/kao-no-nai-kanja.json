@@ -5,7 +5,7 @@
     "nameShow": "顔のない患者-救うか、裁くか-",
     "descSynopsis": "Tsuzuki Ryo, seorang ahli bedah di Rumah Sakit Umum Hakuto, mendadak terseret dalam mimpi buruk ketika istrinya, Miho, diculik dan digantikan oleh seorang pasien tanpa identitas dengan wajah yang telah dihancurkan. Sang penculik mengancam akan membunuh Miho jika Tsuzuki tidak menghabisi pasien tersebut, yang belakangan dicurigai sebagai pembunuh kejam yang sedang buron. Terjepit di antara nyawa istrinya dan nyawa seorang kriminal asing, Tsuzuki kian terdesak oleh batas waktu yang sempit, motif penculik yang misterius, serta pengejaran intensif dari pihak kepolisian.",
     "availableEpisode": [
-		"01"
+		"01", "02"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/kaononai{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}.jpg",
@@ -23,6 +23,14 @@
         },
         "02": {
 			"descEpisodeSynopsis": "Konfirmasi bahwa pasien berwajah hancur itu adalah pengebom Asahina Iori melalui kecocokan golongan darah membuat Tsuzuki terguncang hebat hingga tangannya gemetar saat menangani operasi lain. Meski sempat menegaskan kepada perawat Izumi bahwa tugas dokter adalah menyelamatkan nyawa tanpa pandang bulu, ultimatum Kaonashi dan cerita traumatis perawat Sakaguchi tentang ledakan tiga tahun lalu meruntuhkan pertahanan moralnya. Dalam keputusasaan demi menyelamatkan istrinya, Tsuzuki mendatangi kamar rawat pasien tersebut dan nekat mencekik leher Asahina, mengabaikan seruan Izumi yang berusaha menghentikannya.",
+            "linkHardsub": "https://sfl.gl/oMn5Vb"
+        },
+        "03": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "04": {
+			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         }
     },

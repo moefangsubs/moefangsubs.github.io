@@ -1,5 +1,15 @@
 [
   {
+    "date": "260121",
+    "updates": [
+      {"showId": "life-of-mariko-in-kabukicho", "eps":"01"},
+      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"02"},
+      {"showId": "kao-no-nai-kanja", "eps":"02"},
+      {"showId": "showroom", "eps":"40"},
+      {"showId": "random-subs", "eps":"62"}
+    ]
+  },
+  {
     "date": "260115",
     "updates": [
       {"showId": "nogizaka-koujichuu", "eps":"190"},
