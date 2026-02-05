@@ -1,6 +1,21 @@
 [
   {
-    "date": "260122",
+    "date": "260205",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"32"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"33"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"34"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"35"},
+      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"03"},
+      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"04"},
+      {"showId": "kao-no-nai-kanja", "eps":"03"},
+      {"showId": "kao-no-nai-kanja", "eps":"04"},
+      {"showId": "live-performance", "eps":"15"},
+      {"showId": "graduation-concert", "eps":"12"}
+    ]
+  },
+  {
+    "date": "260121",
     "updates": [
       {"showId": "life-of-mariko-in-kabukicho", "eps":"01"},
       {"showId": "honmei-janakya-yokatta-no-ni", "eps":"02"},
