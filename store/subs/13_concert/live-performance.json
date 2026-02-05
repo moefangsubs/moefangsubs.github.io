@@ -3,7 +3,7 @@
 	"nameShowTitle": "Live Performance",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12", "13", "14"
+		"11", "12", "13", "14", "15"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
@@ -229,6 +229,21 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251206_tgc_stu48.jpg",
 			"descEpisodeSynopsis": "Penampilan STU48 di panggung TGC Hiroshima, dengan membawakan 3 lagu.",
 			"nameShow": "TGC 広島 2025"
+		},
+		"15": {
+			"descEpisode": "| 260125 LAWSON 50th Anniversary presents Special LIVE",
+			"descEpsListName": "260125",
+			"descOnAirDate": "25 Januari 2026",
+			"memberParticipate": "櫻坂46、日向坂46",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/lawson-sakura-hinata-PeAgQ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_260125_lawson_sakuhina.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260125_lawson_sakuhina.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260125_lawson_sakuhina-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260125_lawson_sakuhina-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260125_lawson_sakuhina-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260125_lawson_sakuhina-d.jpg",
+			"descEpisodeSynopsis": "Lawson merayakan ulang tahun ke-50 dengan menggelar Special LIVE di K-Arena Yokohama yang menampilkan Sakurazaka46, Hinatazaka46, =LOVE, ≠ME, dan ≒JOY.",
+			"nameShow": "LAWSON 50th Anniversary presents Special LIVE ～ 櫻坂46/日向坂46 ～"
 		}
 	}
 }

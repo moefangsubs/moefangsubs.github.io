@@ -5,7 +5,7 @@
     "nameShow": "本命じゃなきゃよかったのに",
     "descSynopsis": "Munculnya saingan bagi si playboy Eisei mewarnai kisah cinta dewasa yang bersemi kembali setelah sepuluh tahun. Maki, sahabat Mihono sejak kuliah, memberikan saran tegas namun penuh kasih, yang justru menyeret Kusaka serta Yuri ke dalam hubungan mereka yang tidak sederhana. Melalui keintiman yang terjalin, Mihono dan Eisei belajar menghadapi diri sendiri dan tumbuh dewasa, menyisakan tanya ke mana arah masa depan mereka akan bermuara.",
     "availableEpisode": [
-		"01", "02"
+		"01", "02", "03", "04"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/honmei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}.jpg",
@@ -26,10 +26,34 @@
             "linkHardsub": "https://sfl.gl/7GzUUC"
         },
         "03": {
+			"descEpisodeSynopsis": "Miho menikmati makan malam manis bersama juniornya, Kusaka, yang menunjukkan perasaan tulus di bawah satu payung saat hujan. Namun, sekembalinya ke rumah, Eisei muncul dengan rasa cemburu yang meluap-luap setelah mengetahui kencan tersebut. Dalam momen ketegangan yang memuncak, Miho justru melakukan tindakan berani terhadap Eisei. Keesokan harinya, suasana semakin rumit saat Miho, Eisei, Kusaka, dan Yuri terjebak dalam sebuah acara mendadak yang memicu gejolak emosi di antara mereka berempat.",
+            "linkHardsub": "https://sfl.gl/Zr36"
+        },
+        "04": {
+			"descEpisodeSynopsis": "Perjalanan dinas ke pemandian air panas menjadi ajang persaingan emosi antara Miho, Eisei, Kusaka, dan Yuri. Eisei sengaja bersikap mesra dengan Yuri demi memprovokasi kecemburuan Miho yang sedang bersama Kusaka. Di bawah langit kembang api, Eisei nekat menggenggam tangan Miho di saat tangan lainnya sedang digenggam oleh Kusaka. Ketegangan berlanjut saat malam hari ketika Eisei menyelinap ke kamar Miho dan menariknya dalam situasi intim yang membingungkan perasaan Miho terhadap kedua pria tersebut.",
+            "linkHardsub": "https://sfl.gl/DbMtO"
+        },
+        "05": {
+			"descEpisodeSynopsis": "Situasi menegangkan terjadi saat Eisei menyelinap ke kamar Miho dan terpaksa bersembunyi di dalam futon ketika rekan kerja lainnya datang. Meski merasa bersalah pada Kusaka, Miho tetap menghabiskan waktu layaknya sepasang kekasih dengan Eisei keesokan harinya. Ketidakjelasan status hubungan mereka membuat Miho bimbang, terutama saat Kusaka mengajaknya berkencan dengan serius untuk mencari kebahagiaan yang nyata. Namun, di tengah keinginan untuk melangkah maju, Eisei justru mengungkapkan sebuah kenyataan pahit yang menghancurkan harapan Miho.",
+            "linkHardsub": ""
+        },
+        "06": {
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         },
-        "04": {
+        "07": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "08": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "09": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "10": {
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
         }
@@ -37,3 +61,4 @@
 	"descOnAirDatePattern": "260108",
     "OnAirEvery": 7
 }
+

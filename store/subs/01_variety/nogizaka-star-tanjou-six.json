@@ -8,7 +8,7 @@
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
-		"31"
+		"31", "32", "33", "34", "35"
     ],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
@@ -327,6 +327,54 @@
             "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
             "linkHardsub": "https://sfl.gl/mEIXFJHp",
             "linkSoftsub": "https://sfl.gl/TpcYbh"
+        },
+        "32": {
+            "descOnAirDate": "5 Januari 2026",
+            "memberParticipate": "乃木坂46 4期生、乃木坂46 5期生",
+            "linkHardsub": "https://sfl.gl/lcWCQp",
+            "linkSoftsub": "https://sfl.gl/OjZlh1JT"
+        },
+        "33": {
+            "descOnAirDate": "12 Januari 2026",
+            "descSong1": "サンボマスター「輝きだして走ってく」",
+            "descSong2": "AI「ハピネス」",
+            "descSong3": "チェッカーズ「あの娘とスキャンダル」",
+            "descSong4": "チェッカーズ「涙のリクエスト」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "鶴久政治",
+            "linkHardsub": "https://sfl.gl/3ft77",
+            "linkSoftsub": "https://sfl.gl/gqVC2V"
+        },
+        "34": {
+            "descOnAirDate": "19 Januari 2026",
+            "descSong1": "BiSH「オーケストラ」",
+            "descSong2": "ナナヲアカリ「明日の私に幸あれ」",
+            "descSong3": "Silent Siren「恋い雪」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "ナナヲアカリ",
+            "linkHardsub": "https://sfl.gl/fiJvoK5T",
+            "linkSoftsub": "https://sfl.gl/QwL9lDGq"
+        },
+        "35": {
+            "descOnAirDate": "26 Januari 2026",
+            "descSong1": "有華「バースデーソング」",
+            "descSong2": "CHiCO with HoneyWorks「世界は恋に落ちている」",
+            "descSong3": "井上苑子「赤いマフラー」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "CHiCO",
+            "linkHardsub": "https://sfl.gl/kPQJQOT",
+            "linkSoftsub": "https://sfl.gl/3suZuJi"
+        },
+        "36": {
+            "descOnAirDate": "2 Februari 2026",
+            "descSong1": "Little Glee Monster「世界はあなたに笑いかけている」",
+            "descSong2": "UA「情熱」",
+            "descSong3": "花澤香菜「恋愛サーキュレーション」",
+            "descSong4": "花澤香菜「Cipher Cipher」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "花澤香菜",
+            "linkHardsub": "",
+            "linkSoftsub": ""
         }
     },
     "descEpisode": "| Episode {{eps}}"

@@ -6,12 +6,17 @@
     },
     {
         "type": "image",
+        "stat": "on",
+        "url": "https://ik.imagekit.io/moearchive/nanami1.jpg"
+    },
+    {
+        "type": "image",
         "stat": "off",
         "url": "https://ik.imagekit.io/moearchive/terepan_wings.png"
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/terepan_wings.png",
             "https://ik.imagekit.io/moearchive/dalle_saachan.jpg",

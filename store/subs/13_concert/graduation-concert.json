@@ -2,7 +2,7 @@
 	"url": "graduation-concert",
 	"nameShowTitle": "Graduation Concert & Ceremony",
 	"availableEpisode": [
-		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_gradcon.png",
 	"episodes": {
@@ -182,6 +182,22 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/shiorigradcon2d.jpg",
 			"descEpisodeSynopsis": "Kali ini kami menggarap Graduation Concert dari Kubo Shiori dari gen-3 yang mengumumkan kelulusannya di single ke-40 akhir tahun 2025. Konser kelulusannya diadakan selama 2 hari di Yokohama Arena.",
 			"nameShow": "乃木坂46 久保史緒里業コンサート"
+		},
+		"12": {
+			"descEpisode": "| Hinatazaka46 Matsuda Konoka Graduation Ceremony",
+			"descEpsListName": "Matsuda Konoka",
+			"descOnAirDate": "29 Januari 2026",
+			"memberParticipate": "日向坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/hinatazaka46-matsuda-konoka-graduation-ceremony-eU6qk",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_konokagradcer.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/konokagradcer.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/konokagradcer1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/konokagradcer2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/konokagradcer3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/konokagradcer4.jpg",
+			"descEpisodeSynopsis": "Kali ini kami menggarap Graduation Ceremony Matsuda Konoka dari gen-2 Hinatazaka46 yang mengumumkan kelulusannya di single \"Cliffhanger\". Konser kelulusannya diadakan di TOYOTA ARENA TOKYO.",
+			"nameShow": "日向坂46 松田好花卒業セレモニー"
 		}
 	}
 }
