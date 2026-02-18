@@ -5,7 +5,7 @@
     "nameShow": "本命じゃなきゃよかったのに",
     "descSynopsis": "Munculnya saingan bagi si playboy Eisei mewarnai kisah cinta dewasa yang bersemi kembali setelah sepuluh tahun. Maki, sahabat Mihono sejak kuliah, memberikan saran tegas namun penuh kasih, yang justru menyeret Kusaka serta Yuri ke dalam hubungan mereka yang tidak sederhana. Melalui keintiman yang terjalin, Mihono dan Eisei belajar menghadapi diri sendiri dan tumbuh dewasa, menyisakan tanya ke mana arah masa depan mereka akan bermuara.",
     "availableEpisode": [
-		"01", "02", "03", "04"
+		"01", "02", "03", "04", "05"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/honmei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}.jpg",
@@ -35,14 +35,14 @@
         },
         "05": {
 			"descEpisodeSynopsis": "Situasi menegangkan terjadi saat Eisei menyelinap ke kamar Miho dan terpaksa bersembunyi di dalam futon ketika rekan kerja lainnya datang. Meski merasa bersalah pada Kusaka, Miho tetap menghabiskan waktu layaknya sepasang kekasih dengan Eisei keesokan harinya. Ketidakjelasan status hubungan mereka membuat Miho bimbang, terutama saat Kusaka mengajaknya berkencan dengan serius untuk mencari kebahagiaan yang nyata. Namun, di tengah keinginan untuk melangkah maju, Eisei justru mengungkapkan sebuah kenyataan pahit yang menghancurkan harapan Miho.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/REm5"
         },
         "06": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Mihono merasa bersalah setelah mengetahui Kusaka memergoki pertemuan rahasianya dengan Eisei saat wisata kantor. Meski kesal karena Eisei menyembunyikan fakta tersebut, Mihono memutuskan memenuhi ajakan kencan Kusaka demi bersikap jujur. Di sana, Kusaka mengungkapkan kepeduliannya dan mencoba memeluk Mihono. Sementara itu, situasi di kantor memanas karena Yuri mulai mengabaikan Mihono akibat patah hati oleh Eisei dan menyebarnya rumor hubungan mereka. Enggan memperpanjang masalah, Mihono justru menerima tawaran mengejutkan dari Eisei untuk mengatasi situasi tersebut.",
             "linkHardsub": ""
         },
         "07": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Mihono bimbang saat Eisei tiba-tiba mengajak berkencan sungguhan, mengingat kata-kata itu seharusnya ia dengar sepuluh tahun lalu. Di malam Natal, Mihono memenuhi janji kencan dengan Kusaka yang secara jujur menyatakan cintanya. Namun, keesokan harinya di kantor, Mihono melakukan kesalahan besar yang justru berhasil diselesaikan oleh bantuan Eisei. Saat pulang berdua di malam Natal, Eisei mengenang masa lalu mereka yang tak pernah bisa bersatu karena masing-masing telah memiliki kekasih. Pertemuan emosional tersebut diakhiri dengan perpisahan dingin saat Eisei beranjak pergi meninggalkan Mihono yang terdiam.",
             "linkHardsub": ""
         },
         "08": {

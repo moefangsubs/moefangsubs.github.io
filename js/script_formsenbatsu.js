@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(a.bgColors).then(res => res.json())
     ]).then(([songall, releases, membersData, grad, hiatus, transfer, notPart, sick, bgColors]) => {
         
-        const specialCases = { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 33 };
+        const specialCases = { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 33, 41: 40 };
         const baseUrl = "https://ik.imagekit.io/moearchive/web/memberprofile/";
 
         function setMemberImageWithFallback(imgElement, memberId, currentSingleKey) {

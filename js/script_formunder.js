@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const photoMember = {
             generalUrl: "https://ik.imagekit.io/moearchive/web/memberprofile/",
-            specialCases: { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 3, 40: 39 },
+            specialCases: { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 3, 41: 40 },
             singleNumber: function(singleIndex) {
                 return `s${String(this.specialCases[singleIndex] || singleIndex).padStart(3, '0')}`;
             },

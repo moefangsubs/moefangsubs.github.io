@@ -5,7 +5,7 @@
     "nameShow": "顔のない患者-救うか、裁くか-",
     "descSynopsis": "Tsuzuki Ryo, seorang ahli bedah di Rumah Sakit Umum Hakuto, mendadak terseret dalam mimpi buruk ketika istrinya, Miho, diculik dan digantikan oleh seorang pasien tanpa identitas dengan wajah yang telah dihancurkan. Sang penculik mengancam akan membunuh Miho jika Tsuzuki tidak menghabisi pasien tersebut, yang belakangan dicurigai sebagai pembunuh kejam yang sedang buron. Terjepit di antara nyawa istrinya dan nyawa seorang kriminal asing, Tsuzuki kian terdesak oleh batas waktu yang sempit, motif penculik yang misterius, serta pengejaran intensif dari pihak kepolisian.",
     "availableEpisode": [
-		"01", "02", "03", "04"
+		"01", "02", "03", "04", "05"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/kaononai{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}.jpg",
@@ -35,14 +35,14 @@
         },
         "05": {
 			"descEpisodeSynopsis": "Demi menyelamatkan Miho, Tsuzuki terpaksa menuruti perintah Kaonashi untuk membunuh Asahina meskipun kini menjadi buronan kepolisian. Di bawah pengawasan ketat Takamaki, Tsuzuki berhasil melarikan diri sambil membawa jasad Asahina menuju sebuah pabrik terbengkalai di pinggiran kota. Namun, setibanya di lokasi yang ditentukan, Miho tidak ditemukan di sana sehingga Tsuzuki menyadari bahwa dirinya masih dalam kendali penuh permainan Kaonashi. Kini Tsuzuki harus mengambil keputusan fatal berikutnya di tengah kepungan polisi yang semakin mendekat.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/vLXju1"
         },
         "06": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Tsuzuki yang terpojok setelah dihakimi Kaonashi atas insiden ledakan tiga tahun lalu, berniat membuang etika medis demi membunuh Asahina. Di hadapan Natsui dan Izumi yang merasa khawatir, Tsuzuki akhirnya mengakui dosa masa lalunya. Saat waktu tersisa tiga jam, Asahina tiba-tiba mengalami syok anafilaksis. Natsui mencegah Izumi memberikan pertolongan karena menganggap kematian Asahina secara alami adalah jalan keluar tanpa harus mengotori tangan mereka. Di sisi lain, polisi menemukan fakta bahwa istri Tsuzuki adalah korban ledakan tersebut, sementara Washio menemukan petunjuk krusial di kamar 308.",
             "linkHardsub": ""
         },
         "07": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Tsuzuki dan Natsui menyadari adanya pengkhianat yang menambah dosis bius pada pasien tanpa wajah agar tetap tertidur. Kaonashi yang mulai tidak sabar memerintahkan Izumi untuk menyuntikkan obat mematikan, namun Izumi menolak setelah mengetahui penderitaan masa lalu Tsuzuki. Terdesak kebutuhan finansial, Izumi kini diancam untuk mengembalikan imbalan yang telah diterimanya. Sementara itu, polisi menemukan fakta bahwa Matsunaga memiliki adik bernama Ogata Taichi dan menyadari istri Tsuzuki telah diculik. Saat pasien tanpa wajah akhirnya siuman, Tsuzuki segera menanyakan identitasnya, namun jawaban yang keluar justru sangat mengejutkan.",
             "linkHardsub": ""
         },
         "08": {

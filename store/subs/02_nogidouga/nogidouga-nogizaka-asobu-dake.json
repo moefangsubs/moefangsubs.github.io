@@ -4,17 +4,10 @@
 	"nameShow": "乃木坂あそぶだけ",
 	"descSynopsis": "\"Nogizaka Asobu dake\" merupakan acara khusus yang disiarkan dalam platform Nogi Douga. Dalam acara ini, para member (2-3 lebih member dalam satu episode) melakukan hal senang-senang, seperti pergi ke tempat arena hiburan, restoran, dan lain sebagainya.",
 	"availableEpisode": [
-		"17",
-		"18",
-		"44a",
-		"44b",
-		"47",
-		"48",
-		"49",
-		"50a",
-		"50b",
-		"54",
-		"58"
+		"17", "18",
+		"44a", "44b", "47", "48", "49", "50a", "50b",
+		"54", "58",
+		"76"
 	],
 	"newUpdateCount": 2,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_asobudake.png",
@@ -172,6 +165,20 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake58d.jpg",
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Dalam episode memancing edisi kali ini, para member akan mencoba tantangan memancing di laut lepas dari atas perahu. Meskipun terlihat seperti hanya 'Asobu dake' atau bersenang-senang, berbagai rintangan tak terduga ternyata menanti dan bahkan membuat salah satu dari mereka meneteskan air mata.",
+			"nameShow": "乃木坂あそぶだけ"
+		},
+		"76": {
+			"descEpisode": "| Episode 76",
+			"descOnAirDate": "16 Januari 2026",
+			"memberParticipate": "岩本蓮加、金川紗耶、田村真佑、冨里奈央",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka-asobu-dake-76-wPILt",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake76.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake76a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake76b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake76c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake76d.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Dalam segmen pembuka tahun ini, keempat member bermain Karuta melalui permainan papan populer Karuuta yang baru pertama kali dicoba oleh member selain Iwamoto, hingga membuat Karuta orisinal Nogizaka46 dengan memanfaatkan kreativitas serta kemampuan menggambar.",
 			"nameShow": "乃木坂あそぶだけ"
 		}
 	}

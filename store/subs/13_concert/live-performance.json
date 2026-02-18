@@ -3,7 +3,7 @@
 	"nameShowTitle": "Live Performance",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12", "13", "14", "15"
+		"11", "12", "13", "14", "15", "16", "17"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
@@ -244,6 +244,40 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260125_lawson_sakuhina-d.jpg",
 			"descEpisodeSynopsis": "Lawson merayakan ulang tahun ke-50 dengan menggelar Special LIVE di K-Arena Yokohama yang menampilkan Sakurazaka46, Hinatazaka46, =LOVE, ≠ME, dan ≒JOY.",
 			"nameShow": "LAWSON 50th Anniversary presents Special LIVE ～ 櫻坂46/日向坂46 ～"
+		},
+		"16": {
+			"descEpisode": "| 260131 Tokubetsuban TV Asahi Dream Festival 2025",
+			"descEpsListName": "260131",
+			"descOnAirDate": "31 Januari 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/uKbb3",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/260131-tokubetsuban-tv-asahi-dream-festival-2025-FUfeJ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_260131_dreamfes.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260131_dreamfes.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260131_dreamfes-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260131_dreamfes-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260131_dreamfes-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260131_dreamfes-d.jpg",
+			"filePassword": "FirstTime_tampildi_DreamFes",
+			"descEpisodeSynopsis": "Nogizaka46 tampil memukau dalam TV Asahi Dream Festival 2025 di Makuhari Messe. Membuka penampilan dengan \"Ohitorisama Tengoku\", grup ini membakar semangat penonton melalui deretan lagu hit seperti \"Girl's Rule\" dan \"Influencer\". Momen emosional terjadi saat Kubo Shiori, yang segera lulus, berinteraksi hangat dengan penggemar sebelum membawakan \"Kikkake\" dan \"Synchronicity\". Konser ditutup meriah dengan \"Sing Out!\" yang menciptakan harmoni sempurna di seluruh venue.",
+			"nameShow": "特別版 テレビ朝日ドリームフェスティバル 2025 前編"
+		},
+		"17": {
+			"descEpisode": "| 260204 7-Eleven presents Nogizaka46 PREMIUM LIVE",
+			"descEpsListName": "260204",
+			"descOnAirDate": "4 Februari 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/260204-7-eleven-presents-nogizaka46-premium-live-OJc3F",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_260131_dreamfes.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260204_711live.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260204_711live-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260204_711live-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260204_711live-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260204_711live-d.jpg",
+			"filePassword": "",
+			"descEpisodeSynopsis": "7-Eleven Presents Nogizaka46 Premium Live merupakan konser spesial pembuka tahun 2026 yang merayakan satu dekade kolaborasi antara Nogizaka46 dan 7-Eleven. Konser ini menyuguhkan setlist unik dari lagu-lagu kolaborasi historis, termasuk penampilan perdana gen-6. Selain penampilan lagu seperti \"Biryani\" dan \"Monopoly\", acara dimeriahkan segmen kompetisi antargenerasi menebak produk ikonik 7-Eleven.",
+			"nameShow": "セブン-イレブン Presents 乃木坂46 PREMIUM LIVE"
 		}
 	}
 }

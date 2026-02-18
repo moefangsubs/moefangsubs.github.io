@@ -155,6 +155,10 @@
 	},
 	"40" : {
 		"senbatsuTitle" : {"ビリヤニ" : "Biryani"},
+		"underTitle" : {"純粋とは何か？" : "Junsui to wa Nani ka?"}
+	},
+	"41" : {
+		"senbatsuTitle" : {"最後に階段を駆け上がったのはいつだ？" : "Saigo ni Kaidan o Kakeagatta no wa Itsu da?"},
 		"underTitle" : {"-" : "-"}
 	}
 }

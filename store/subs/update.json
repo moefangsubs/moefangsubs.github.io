@@ -1,5 +1,24 @@
 [
   {
+    "date": "260218",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"36"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"37"},
+      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"76"},
+      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"05"},
+      {"showId": "kao-no-nai-kanja", "eps":"05"},
+      {"showId": "cupstar-ane-to-itsumademo", "eps":"07"},
+      {"showId": "showroom", "eps":"41"},
+      {"showId": "showroom", "eps":"42"},
+      {"showId": "showroom", "eps":"43"},
+      {"showId": "showroom", "eps":"44"},
+      {"showId": "mini-live", "eps":"40"},
+      {"showId": "live-performance", "eps":"16"},
+      {"showId": "live-performance", "eps":"17"},
+      {"showId": "utabangumi-music-fair", "eps":"251206"}
+    ]
+  },
+  {
     "date": "260205",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"32"},
@@ -12,46 +31,6 @@
       {"showId": "kao-no-nai-kanja", "eps":"04"},
       {"showId": "live-performance", "eps":"15"},
       {"showId": "graduation-concert", "eps":"12"}
-    ]
-  },
-  {
-    "date": "260121",
-    "updates": [
-      {"showId": "life-of-mariko-in-kabukicho", "eps":"01"},
-      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"02"},
-      {"showId": "kao-no-nai-kanja", "eps":"02"},
-      {"showId": "showroom", "eps":"40"},
-      {"showId": "random-subs", "eps":"62"}
-    ]
-  },
-  {
-    "date": "260115",
-    "updates": [
-      {"showId": "nogizaka-koujichuu", "eps":"190"},
-      {"showId": "nogizaka-koujichuu", "eps":"191"},
-      {"showId": "nogizaka-koujichuu", "eps":"192"},
-      {"showId": "nogidouga-hitori-de-dekirumon-2", "eps":"01"},
-      {"showId": "nogidouga-hitori-de-dekirumon-2", "eps":"02"},
-      {"showId": "nogidouga-kanransha", "eps":"03"},
-      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"01"},
-      {"showId": "kao-no-nai-kanja", "eps":"01"},
-      {"showId": "showroom", "eps":"37"},
-      {"showId": "showroom", "eps":"38"},
-      {"showId": "showroom", "eps":"39"}
-    ]
-  },
-  {
-    "date": "260107",
-    "updates": [
-      {"showId": "nogizaka-otameshichuu", "eps":"58"},
-      {"showId": "nogidouga-kanransha", "eps":"01"},
-      {"showId": "nogidouga-kanransha", "eps":"02"}
-    ]
-  },
-  {
-    "date": "260106",
-    "updates": [
-      {"showId": "concert", "eps":"07"}
     ]
   }
 ]

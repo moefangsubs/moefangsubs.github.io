@@ -4,7 +4,7 @@
 	"nameShow": "カップスター劇場　姉といつまでも",
 	"descSynopsis": "Di suatu tempat di Tokyo, hiduplah tiga orang kakak beradik yang rukun. Saat mereka makan Cupstar di rumah yang mereka tinggali, terkadang terjadi hal-hal yang aneh. Ini adalah sebuah cerita singkat tentang mereka.",
 	"availableEpisode": [
-		"01", "02", "03", "04", "05", "06"
+		"01", "02", "03", "04", "05", "06", "07"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_cupstarane.png",
@@ -45,7 +45,12 @@
 			"memberParticipate": "遠藤さくら、井上和、瀬戸口心月",
 			"descOnAirDate": "18 Desember 2025",
 			"linkHardsub": "https://sfl.gl/y27lR"
+		},
+		"07": {
+			"memberParticipate": "遠藤さくら、井上和、瀬戸口心月、賀喜遥香、五百城茉央",
+			"descOnAirDate": "15 Januari 2026",
+			"linkHardsub": "https://sfl.gl/aRT29INT"
 		}
-	},
+	}, 
 	"descEpisode": "| Episode {{eps}}"
 }
