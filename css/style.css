@@ -24,11 +24,42 @@
 	--kakki-g5 :#1c5f20;
 	--kakki-x1 :#f2e8cf;
 	--kakki-x2 :#d9ca9b;
+	
+	--puasa :#55c595;
+	--puasa0a :#29ac98;
+	--puasa0b :#0a9393;
+	--puasa0c :#187986;
+	--puasa0d :#286072;
+	--puasa0e :#2f4858;
+	
+	--puasa1a :#00b69e;
+	--puasa1b :#00a5aa;
+	--puasa1c :#0093b6;
+	--puasa1d :#0080bd;
+	--puasa1e :#006cbe;
+	
+	--puasa2a :#078e62;
+	--puasa2b :#cefbe4;
+	--puasa2c :#0056b2;
+	
+	--puasa3a :#89d38a;
+	--puasa3b :#b9de84;
+	--puasa3c :#eae784;
+	
+	--puasa4a :#259d70;
+	--puasa4b :#00774d;
+	--puasa4c :#00522c;
+	--puasa4d :#00300d;
 }
 * {
 	font-family: "Space Mono", monospace;
 	transition: all 0.3s ease;
 }
+
+
+
+
+
 a {
 	text-decoration:none;
 	color: inherit;

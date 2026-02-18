@@ -5948,6 +5948,48 @@
 			"SongLyricsJP": "秋元康"
 		}
 	],
+	"s41": [
+		{
+			"titleJp": "最後に階段を駆け上がったのはいつだ？",
+			"titleRo": "Saigo ni Kaidan o Kakeagatta no wa Itsu da?",
+			"songNumber": "41st Single",
+			"songTypeAvv": "All",
+			"songRelease": "2026.04.08",
+			"songOutline": "Senbatsu",
+			"center": "池田瑛紗",
+			"members1": ["遠藤さくら", "池田瑛紗", "五百城茉央" ],
+			"members2": ["中西アルノ", "井上和", "梅澤美波", "賀喜遥香", "川﨑桜", "一ノ瀬美空" ],
+			"members3": ["筒井あやめ", "小川彩", "弓木奈於", "菅原咲月", "田村真佑", "冨里奈央", "林瑠奈" ],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "",
+			"SongArraJP": "",
+			"SongMVDirJP": "",
+			"SongMVDirRO": "",
+			"SongChoreo": "",
+			"HasMV": "yes",
+			"LinkDownMV1": ""
+		},
+		{
+			"titleJp": "--タイトル未定--",
+			"titleRo": "?????",
+			"songNumber": "41st Single",
+			"songTypeAvv": "All",
+			"songRelease": "2026.04.08",
+			"songOutline": "Under",
+			"center": "岡本姫奈",
+			"members1": ["金川紗耶", "佐藤璃果", "岡本姫奈", "岩本蓮加", "柴田柚菜"],
+			"members2": ["伊藤理々杏", "奥田いろは", "矢田萌華", "森平麗心", "瀬戸口心月", "黒見明香", "吉田綾乃クリスティー"],
+			"members3": ["大越ひなの", "海邉朱莉", "増田三莉音", "鈴木佑捺", "川端晃菜", "長嶋凛桜", "愛宕心響"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "",
+			"SongArraJP": "",
+			"SongMVDirJP": "",
+			"SongMVDirRO": "",
+			"SongChoreo": "",
+			"HasMV": "yes",
+			"LinkDownMV1": ""
+		}
+	],
 	"dig": [
 		{
 			"titleJp": "大嫌いなはずだった。 ",

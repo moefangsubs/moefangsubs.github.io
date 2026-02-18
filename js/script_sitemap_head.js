@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Pemetaan tipe notifikasi ke class CSS-nya
         const typeMap = {
+            ramadhan: { className: 'notif-ramadhan' },
             experiment: { className: 'notif-experiment' },
             notice: { className: 'notif-notice' },
             feature: { className: 'notif-feature' }

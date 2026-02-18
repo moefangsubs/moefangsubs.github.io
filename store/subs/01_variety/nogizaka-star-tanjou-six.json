@@ -8,7 +8,7 @@
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
-		"31", "32", "33", "34", "35"
+		"31", "32", "33", "34", "35", "36", "37"
     ],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
@@ -373,8 +373,18 @@
             "descSong4": "花澤香菜「Cipher Cipher」",
             "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
             "additionalGuests": "花澤香菜",
-            "linkHardsub": "",
-            "linkSoftsub": ""
+            "linkHardsub": "https://sfl.gl/FO5q",
+            "linkSoftsub": "https://sfl.gl/O2QCwRg3"
+        },
+        "37": {
+            "descOnAirDate": "9 Februari 2026",
+            "descSong1": "乃紫「バレンタイン決戦」",
+            "descSong2": "Crystal Kay「Boyfriend -part II-」",
+            "descSong3": "JY「好きな人がいること」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "Crystal Kay",
+            "linkHardsub": "https://sfl.gl/eAdz",
+            "linkSoftsub": "https://sfl.gl/5Vyt"
         }
     },
     "descEpisode": "| Episode {{eps}}"

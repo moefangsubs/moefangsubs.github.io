@@ -1,3 +1,30 @@
+
+/* edisi puasa */
+
+body { background-color: var(--puasa2a) !important;}
+.upd { background: var(--puasa2b) !important;}
+.grp { background-color: var(--puasa4a) !important;}
+.wadah-pola { background-image: url('../sprite/gradi_ramadhan.svg') !important;}
+#main-header.scrolled { background-color: var(--puasa2a) !important;}
+
+
+.notifsitemap-shadow { background: var(--puasa) !important;}
+
+.update-item-caption { background-color: var(--puasa3c) !important;}
+.update-item-shadow { background: var(--puasa) !important;}
+.members-container { background: var(--puasa3a) !important;}
+
+
+.cat-acara-border { background-color: var(--puasa) !important;}
+.cat-acara-shade1 { background-color: var(--puasa0b) !important;}
+.cat-acara-shade2 { background-color: var(--puasa0c) !important;}
+#daftar-garapan h3 { color: var(--puasa3c) !important;}
+.garapan-grid a span { color: var(--puasa2b) !important;}
+
+.warning-footer {
+    background: linear-gradient(0deg, #00a5aa 0%, #00a5aa 80%, #00b69e 80%, #00b69e 93%, #55c595 93%, #55c595 100%) !important;}
+/* ------------ */
+
 body {
     background-color: var(--moe-shade-min1);
     font-family: 'Space Mono', monospace;
@@ -131,6 +158,8 @@ body {
     background-position: center;
     flex-shrink: 0;
 }
+.notif-ramadhan { background-color: #55C595; color: #CFF4D2; }
+.notif-ramadhan::before { background-image: url('../sprite/element/mosque.svg'); }
 .notif-experiment { background-color: #F9A825; color: #D63346; }
 .notif-experiment::before { background-image: url('../sprite/element/experiment.svg'); }
 .notif-notice { background-color: var(--moe-tint4); color: var(--moe); }
