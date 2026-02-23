@@ -2,13 +2,7 @@
 	"url": "concert",
 	"nameShowTitle": "Concert",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07"
+		"01", "02", "03", "04", "05", "06", "07", "08"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_concert.png",
@@ -169,6 +163,23 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/bokuao-seishunosame2025d.jpg",
 			"descEpisodeSynopsis": "Boku ga Mitakatta Aozora sukses menggelar konser penutup tahun bertajuk \"BOKUAO Seishun Osame 2025\" pada 28 Desember di Tokyo. Membawakan 22 lagu andalan yang dirilis sepanjang tahun, acara ini sekaligus menjadi panggung perpisahan bagi Mochinaga Mana yang telah memutuskan untuk lulus. Selain menyuguhkan perform memukau dari berbagai unit dan lagu utama seperti \"Are wa Fairy\" dengan Kanazawa Ami sebagai center, momen haru tercipta saat pembacaan surat perpisahan. Grup ini juga mengumumkan tur nasional dan konser perayaan ulang tahun ke-3 di Yamanashi pada 2026, sebelum menutup malam penuh emosi tersebut dengan harmoni indah lagu \"Tansan no Sei Janai\".",
 			"nameShow": "僕が見たかった青空 BOKUAO青春納め2025"
+		},
+		"08": {
+			"descEpisode": "| Nogizaka46 Coupling Collection 2022-2025 DAY 2",
+			"descEpsListName": "Coupling Collection",
+			"descOnAirDate": "21 Februari 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-coupling-collection-2022-2025-day-2-DtOG9",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_couplingcollection.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/couplingcollection.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/couplingcollection1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/couplingcollection2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/couplingcollection3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/couplingcollection4.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 menyelenggarakan konser Coupling Collection 2022-2025 di Ariake Arena sebagai rangkaian peringatan perilisan album kelima berjudul \"My respect\". Konser ini fokus membawakan hanya lagu-lagu coupling dari single ke-29 hingga ke-40 yang melibatkan member gen-3 hingga 6. Berbagai penampilan unit menarik dari tema kucing hingga aksi rap memukau para penonton. Kehadiran gen-6 yang mengisi posisi member yang telah lulus memperlihatkan pertumbuhan pesat grup dalam setahun terakhir. Konser penuh energi ini ditutup dengan lagu \"Bokutachi no Sayonara\" sebagai persiapan menuju acara utama Memorial Live \"My respect\"",
+			"nameShow": "乃木坂46 Coupling Collection 2022-2025"
 		}
 	}
 }

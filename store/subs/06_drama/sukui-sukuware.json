@@ -1,0 +1,66 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_sukuisukuware.png",
+    "url": "sukui-sukuware",
+    "nameShowTitle": "Sukui, Sukuware (2026)",
+    "nameShow": "救い、救われ",
+	"descSynopsis": "Minase Ama, idola pemula yang dirundung rekan grupnya, mulai menjalin hubungan dengan aktor populer Hosho Chiaki setelah menjadi pemeran pengganti dalam dramanya. Chiaki awalnya mendekati Ama karena taruhan dengan Kairi, namun kemurnian Ama perlahan memikatnya. Perasaan tersebut kemudian berkembang menjadi obsesi posesif yang mengaburkan batas antara cinta dan keterikatan yang berbahaya.",
+    "availableEpisode": [
+		"01", "02"
+	],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sukui{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/sukui-sukuware-oiOLO",
+    "filePassword": "TamamiNgedramaJadiIdol",
+    "memberParticipate": "阪口珠美",
+    "episodes": {
+        "01": {
+			"descEpisodeSynopsis": "Atas arahan Chiaki, Ama menjadi pemeran pengganti dalam sebuah drama. Chiaki mulai cemburu melihat kedekatan Ama dengan lawan mainnya, Hachimura Rintaro. Hubungan mereka semakin erat setelah Ama menolong Chiaki dari pemerasan ibunya, Natsumi. Seiring perkembangan karier Ama di bawah sutradara Tanuma, rasa sayang Chiaki pun berubah menjadi keinginan untuk mendominasi dan memiliki secara penuh.",
+            "linkHardsub": "https://sfl.gl/0hKchFS"
+        },
+        "02": {
+			"descEpisodeSynopsis": "Ama dituduh mencuri oleh rekan grupnya di LUNA NEST. Chiaki berusaha menghiburnya, namun ia tetap merasa terancam oleh kedekatan Ama dengan Hachimura. Setelah merasakan kehangatan keluarga Ama, Chiaki harus menghadapi sikap dingin Natsumi. Ama yang menyaksikan penderitaan Chiaki melakukan tindakan berani untuk melindunginya, sehingga membuat ikatan batin di antara keduanya mulai bergeser secara emosional.",
+            "linkHardsub": "https://sfl.gl/T5jt2m"
+        },
+        "03": {
+			"descEpisodeSynopsis": "Ama memberikan dukungan emosional kepada Chiaki yang tertekan oleh Natsumi. Chiaki pun membalasnya dengan berusaha mengungkap kebenaran di balik fitnah yang dilakukan Anna. Saat audisi proyek Tanuma, Ama bertemu kembali dengan Kairi yang memicu kenangan masa lalu yang pahit. Di sisi lain, Chiaki akhirnya menyadari kedalaman perasaannya terhadap Ama setelah mendapat teguran dari Shiki.",
+            "linkHardsub": ""
+        },
+        "04": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "05": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "06": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "07": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "08": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "09": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "10": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        }
+    },
+	"descOnAirDatePattern": "260211",
+    "OnAirEvery": 7
+}
+
+
+

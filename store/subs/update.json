@@ -1,5 +1,21 @@
 [
   {
+    "date": "260223",
+    "updates": [
+      {"showId": "equal-love-kokoko", "eps":"01"},
+      {"showId": "equal-love-kokoko", "eps":"02"},
+      {"showId": "equal-love-kokoko", "eps":"03"},
+      {"showId": "equal-love-kokoko", "eps":"04"},
+      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"06"},
+      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"07"},
+      {"showId": "kao-no-nai-kanja", "eps":"06"},
+      {"showId": "kao-no-nai-kanja", "eps":"07"},
+      {"showId": "sukui-sukuware", "eps":"01"},
+      {"showId": "sukui-sukuware", "eps":"02"},
+      {"showId": "concert", "eps":"08"}
+    ]
+  },
+  {
     "date": "260218",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"36"},
