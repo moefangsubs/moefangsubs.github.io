@@ -2,7 +2,7 @@
 	"url": "concert",
 	"nameShowTitle": "Concert",
 	"availableEpisode": [
-		"01", "02", "03", "04", "05", "06", "07", "08"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_concert.png",
@@ -180,6 +180,40 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/couplingcollection4.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 menyelenggarakan konser Coupling Collection 2022-2025 di Ariake Arena sebagai rangkaian peringatan perilisan album kelima berjudul \"My respect\". Konser ini fokus membawakan hanya lagu-lagu coupling dari single ke-29 hingga ke-40 yang melibatkan member gen-3 hingga 6. Berbagai penampilan unit menarik dari tema kucing hingga aksi rap memukau para penonton. Kehadiran gen-6 yang mengisi posisi member yang telah lulus memperlihatkan pertumbuhan pesat grup dalam setahun terakhir. Konser penuh energi ini ditutup dengan lagu \"Bokutachi no Sayonara\" sebagai persiapan menuju acara utama Memorial Live \"My respect\"",
 			"nameShow": "乃木坂46 Coupling Collection 2022-2025"
+		},
+		"09": {
+			"descEpisode": "| Nogizaka46 5th Album Memorial Live",
+			"descEpsListName": "My Respect DAY1",
+			"descOnAirDate": "22 Februari 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-5th-album-memorial-live-my-respect-8I5Nx",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_myrespectlive.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlive.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1d.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 merayakan hari jadi ke-14 melalui konser \"My respect\" di Ariake Arena dengan formasi lintas generasi yang memukau. Gen-6 membuka acara lewat lagu \"Time Limit Kataomoi\" dan \"Guruguru Curtain\" sebagai simbol estafet regenerasi grup. Penampilan berlanjut dengan energi dari gen-5 serta MC kreatif dari dari gen-4. Gen-3 menunjukkan kedewasaan serta kekuatan emosional melalui medley 9 lagu yang merangkum sejarah panjang perjalanannya di Nogizaka46. Seluruh member dari berbagai generasi akhirnya bersatu di atas panggung untuk menyanyikan lagu utama album \"My respect\" sebagai bentuk penghormatan tertinggi terhadap warisan grup.",
+			"nameShow": "乃木坂46 5th Album Memorial Live 『My respect』"
+		},
+		"10": {
+			"descEpisode": "| Nogizaka46 5th Album Memorial Live",
+			"descEpsListName": "My Respect DAY2",
+			"descOnAirDate": "23 Februari 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-5th-album-memorial-live-my-respect-8I5Nx",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_myrespectlive.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlive.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/myrespectlived1d.jpg",
+			"descEpisodeSynopsis": "Memasuki tahun ke-15, konser hari kedua ini diwarnai dengan pesan mendalam mengenai cinta dan rasa hormat antar member. Gen-6 membawakan lagu terbarunya, sementara gen-5 melakukan tantangan unik serta penampilan emosional di atas panggung. Sorotan utama tertuju pada penampilan penuh perasaan Endo Sakura dalam lagu \"Koko ni wa Nai Mono\" yang memicu air mata kebahagiaan sebagai bentuk rasa syukur atas pencapaian grup. Pengumuman Zenkoku Tour 2026 menjadi kejutan besar yang disambut meriah oleh penonton sebelum lagu \"Ohitorisama Tengoku\" dibawakan oleh seluruh member.",
+			"nameShow": "乃木坂46 5th Album Memorial Live 『My respect』"
 		}
 	}
 }
