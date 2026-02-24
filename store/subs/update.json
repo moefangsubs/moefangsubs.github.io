@@ -1,5 +1,11 @@
 [
   {
+    "date": "260224",
+    "updates": [
+      {"showId": "concert", "eps":"09"}
+    ]
+  },
+  {
     "date": "260223",
     "updates": [
       {"showId": "equal-love-kokoko", "eps":"01"},
