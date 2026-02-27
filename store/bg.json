@@ -6,7 +6,7 @@
     },
     {
         "type": "image",
-        "stat": "on",
+        "stat": "off",
         "url": "https://ik.imagekit.io/moearchive/nanami1.jpg"
     },
     {
@@ -60,6 +60,16 @@
             "https://ik.imagekit.io/moearchive/kakki_nogifes_2025c.jpg",
             "https://ik.imagekit.io/moearchive/kakki_nogifes_2025d.jpg",
             "https://ik.imagekit.io/moearchive/kakki_nogifes_2025e.jpg"
+        ]
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/umekakki1.jpg",
+            "https://ik.imagekit.io/moearchive/umekakki2.jpg",
+            "https://ik.imagekit.io/moearchive/umekakki3.jpg",
+            "https://ik.imagekit.io/moearchive/umekakki4.jpg"
         ]
     }
 ]
