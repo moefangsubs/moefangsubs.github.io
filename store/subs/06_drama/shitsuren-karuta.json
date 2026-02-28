@@ -1,0 +1,64 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_shitsurenkaruta.png",
+    "url": "shitsuren-karuta",
+    "nameShowTitle": "Shitsuren Karuta (2026)",
+    "nameShow": "失恋カルタ",
+	"descSynopsis": "Natsuno Chinami, Maji Hikari, dan Noda Ayase adalah tiga sahabat dari klub permainan papan yang masing-masing menyimpan kerumitan dalam masalah percintaan meski terlihat menjalani hidup dengan santai. Di usia 27 tahun, saat mereka mulai berpikir serius tentang cinta dan pernikahan, sebuah insiden mengejutkan terjadi ketika teman mereka, Misaki, melarikan diri dari upacara pernikahannya sendiri. Kejadian tersebut memicu Chinami yang selalu totalitas dalam cinta, Hikari yang merasa ada dinding pemisah dengan kekasihnya, serta Ayase yang memandang cinta dengan dingin untuk mulai menghadapi konflik asmara mereka masing-masing.",
+    "availableEpisode": [],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shitsurenkaruta{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}d.jpg",
+	"linkTrakteer": "",
+    "filePassword": "",
+    "memberParticipate": "梅澤美波",
+    "episodes": {
+        "01": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "02": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "03": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "04": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "05": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "06": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "07": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "08": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "09": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "10": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        }
+    },
+	"descOnAirDatePattern": "260331",
+    "OnAirEvery": 7
+}
+
+
+
