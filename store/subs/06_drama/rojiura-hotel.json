@@ -1,0 +1,64 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_rojiura.png",
+    "url": "rojiura-hotel",
+    "nameShowTitle": "Rojiura Hotel (2026)",
+    "nameShow": "路地裏ホテル",
+	"descSynopsis": "Sebuah drama fantasi remaja yang dibintangi oleh 11 member Sakurazaka46 gen-3. Berlatar di sebuah hotel di sudut kota, cerita ini mengikuti perjalanan sekelompok perempuan yang menghadapi berbagai keresahan serta konflik batin melalui pengalaman dunia lain yang misterius. Setiap episodenya menggambarkan bagaimana para karakter tersebut menghadapi dan melewati permasalahan yang berbeda-beda demi mencapai kedewasaan.",
+    "availableEpisode": [],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/rojiurahotel{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}d.jpg",
+	"linkTrakteer": "",
+    "filePassword": "",
+    "memberParticipate": "櫻坂46 三期生",
+    "episodes": {
+        "01": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "02": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "03": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "04": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "05": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "06": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "07": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "08": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "09": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        },
+        "10": {
+			"descEpisodeSynopsis": "",
+            "linkHardsub": ""
+        }
+    },
+	"descOnAirDatePattern": "260306",
+    "OnAirEvery": 7
+}
+
+
+
