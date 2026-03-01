@@ -3060,6 +3060,7 @@
             "jp": "スペイン（バルセロナ、ジローナ、マヨルカ島）",
             "id": "Spanyol (Barcelona, ​​​​Girona, Mallorca)"
         },
+        "salesfirst": 72111,
         "comment": {
             "jp": "筒井あやめの表情は豊かだ。この写真集をめくってもらえば、わかるだろう。 カメラを向ける度に、新しい彼女が誕生する。 注目して欲しいのは、カメラ目線ではない時だ。 カメラの存在を忘れたその一瞬、彼女の感情の隙間が美しい。",
             "id": "Ekspresi Tsutsui Ayame begitu kaya. Kamu akan menyadarinya saat membalik halaman-halaman photobook ini. Setiap kali kamera diarahkan padanya, selalu lahir sosok baru darinya. Yang patut diperhatikan adalah saat dia tidak menatap ke arah kamera. Dalam sekejap ketika ia lupa akan keberadaan kamera, celah-celah emosinya justru tampak begitu indah."
@@ -3072,5 +3073,105 @@
         "imageRakuten": "https://ik.imagekit.io/moearchive/web/pbcover/kanjou-no-sukima-rakuten.jpg",
         "imageKinokuniya": "https://ik.imagekit.io/moearchive/web/pbcover/kanjou-no-sukima-kinokuniya.jpg",
         "download": "https://drive.google.com/file/d/1hWPgTLmyUyysT5xDIKFHzZzlfhbnqtXL/view?usp=drive_link"
+    },
+    {
+        "image": "https://ik.imagekit.io/moearchive/web/pbcover/n46-toumeinakakugo.jpg",
+        "count": "2冊目",
+        "title": {
+            "jp": "透明な覚悟",
+            "id": "Toumeina Kakugo"
+        },
+        "name": {
+            "jp": "梅澤 美波",
+            "id": "Umezawa Minami"
+        },
+        "photographer": {
+            "jp": "東京祐",
+            "id": "Tokyo Yu"
+        },
+        "publisher": {
+            "jp": "光文社",
+            "id": "Kobunsha"
+        },
+        "releaseDate": "2026-02-03",
+        "memberAge": {
+            "jp": "27歳28日",
+            "id": "27 tahun 28 hari"
+        },
+        "groupAge": {
+            "jp": "9年152日",
+            "id": "9 Tahun 152 Hari"
+        },
+        "type": {
+            "jp": "写真集",
+            "id": "Photobook"
+        },
+        "location": {
+            "jp": "イタリア",
+            "id": "Italia"
+        },
+        "salesfirst": 37632,
+        "comment": {
+            "jp": "梅澤美波は、ステージでもカメラの前でも、ありのままに凛と立つ。それは自分を飾るための強さではなく、大切なものに、まっすぐであろうとする静かな覚悟だ。だから、彼女の美しさには、嘘がない",
+            "id": "Umezawa Minami, baik di atas panggung maupun di depan lensa, berdiri dengan keanggunan yang teguh. Ketabahannya bukan sekadar perisai untuk memoles diri, melainkan sebuah janji bisu untuk selalu setia pada apa yang ia cintai. Itulah sebabnya, dalam kemilaunya, tak ada satu pun dusta yang tersisa."
+        },
+        "commentName": {
+            "jp": "――秋元康――",
+            "id": "――Akimoto Yasushi――"
+        },
+        "imageSevenNet": "https://ik.imagekit.io/moearchive/web/pbcover/n46-toumeinakakugo-seven.jpg",
+        "imageRakuten": "https://ik.imagekit.io/moearchive/web/pbcover/n46-toumeinakakugo-rakuten.jpg",
+        "imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-toumeinakakugo-sonymusic.jpg",
+        "download": ""
+    },
+    {
+        "image": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude.jpg",
+        "count": "初",
+        "title": {
+            "jp": "エチュード",
+            "id": "Etude"
+        },
+        "name": {
+            "jp": "川﨑桜",
+            "id": "Kawasaki Sakura"
+        },
+        "photographer": {
+            "jp": "須江隆治",
+            "id": "Sue Ryuji"
+        },
+        "publisher": {
+            "jp": "新潮社",
+            "id": "Shinchosha"
+        },
+        "releaseDate": "2026-04-14",
+        "memberAge": {
+            "jp": "22歳362日",
+            "id": "22 tahun 362 hari"
+        },
+        "groupAge": {
+            "jp": "4年50日",
+            "id": "4 Tahun 50 Hari"
+        },
+        "type": {
+            "jp": "写真集",
+            "id": "Photobook"
+        },
+        "location": {
+            "jp": "フランス（ニースとパリ）",
+            "id": "Prancis (Nice, Paris)"
+        },
+        "comment": {
+            "jp": "",
+            "id": ""
+        },
+        "salesfirst": null,
+        "commentName": {
+            "jp": "――秋元康――",
+            "id": "――Akimoto Yasushi――"
+        },
+        "imageSevenNet": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude-7net.jpg",
+        "imageRakuten": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude-rakuten.jpg",
+        "imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude-sonymusic.jpg",
+        "download": ""
     }
 ]

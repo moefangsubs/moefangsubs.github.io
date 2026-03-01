@@ -3,9 +3,9 @@ const memberId = params.get("id");
 
 // Mapping buat foto member yg gak berubah semenjak lulus
 const specialGraduatedMembers = new Set([
-  "ANDO Mikumo", "Ichiki Rena", "NOUJO Ami", "MUKAI Hazuki", "YODA Yuuki", "SATO Kaede",
-  "KAKEHASHI Sayaka", "SEIMIYA Rei", "MATSUI Rena", "NISHIKAWA Nanami",
-  "YADA Risako", "YONETOKU Kyoka"
+  "Ando Mikumo", "Ichiki Rena", "Noujo Ami", "Mukai Hazuki", "Yoda Yuuki", "Sato Kaede",
+  "Kakehashi Sayaka", "Seimiya Rei", "Matsui Rena", "Nishikawa Nanami",
+  "Yada Risako", "Yonetoku Kyoka"
 ]);
 
 // Mapping nomor single ke tahun
@@ -233,17 +233,29 @@ function generateMbtiHTML(mbti) {
 // Fungsi untuk generate HTML untuk data aktivitas
 function generateActivityHTML(member) {
   const items = [];
-  if (member.dateKualifikasi) items.push({ jp: "合格発表日", id: "Tanggal Lolos Audisi", value: member.dateKualifikasi });
-  if (member.dateKenninStart) items.push({ jp: "兼任発表日", id: "Tanggal Kennin Dimulai", value: member.dateKenninStart });
-  if (member.dateKenninEnd) items.push({ jp: "兼任終了日", id: "Tanggal Kennin Berakhir", value: member.dateKenninEnd });
-  if (member.datePerkenalan) items.push({ jp: "お披露目日", id: "Tanggal Perkenalan Resmi", value: member.datePerkenalan });
-  if (member.datePromosi) items.push({ jp: "昇格発表日", id: "Tanggal Kenaikan Status dari Kenyuusei", value: member.datePromosi });
-  if (member.dateTerdaftar) items.push({ jp: "配属決定", id: "Tanggal Penempatan Resmi", value: member.dateTerdaftar });
-  if (member.placePerkenalan) items.push({ jp: "お披露目イベント", id: "Tanggal Event Pengenalan", value: member.placePerkenalan });
+  
+  // Tangkap data menggunakan fallback (||) agar bisa membaca baik format CamelCase maupun lowercase
+  const dateKualifikasi = member.dateKualifikasi || member.datekualifikasi;
+  const dateKenninStart = member.dateKenninStart || member.datekenninstart;
+  const dateKenninEnd = member.dateKenninEnd || member.datekenninend;
+  const datePerkenalan = member.datePerkenalan || member.dateperkenalan;
+  const datePromosi = member.datePromosi || member.datepromosi;
+  const dateTerdaftar = member.dateTerdaftar || member.dateterdaftar;
+  const placePerkenalan = member.placePerkenalan || member.placeperkenalan;
+
+  if (dateKualifikasi) items.push({ jp: "合格発表日", id: "Tanggal Lolos Audisi", value: dateKualifikasi });
+  if (dateKenninStart) items.push({ jp: "兼任発表日", id: "Tanggal Kennin Dimulai", value: dateKenninStart });
+  if (dateKenninEnd) items.push({ jp: "兼任終了日", id: "Tanggal Kennin Berakhir", value: dateKenninEnd });
+  if (datePerkenalan) items.push({ jp: "お披露目日", id: "Tanggal Perkenalan Resmi", value: datePerkenalan });
+  if (datePromosi) items.push({ jp: "昇格発表日", id: "Tanggal Kenaikan Status dari Kenyuusei", value: datePromosi });
+  if (dateTerdaftar) items.push({ jp: "配属決定", id: "Tanggal Penempatan Resmi", value: dateTerdaftar });
+  if (placePerkenalan) items.push({ jp: "お披露目イベント", id: "Tanggal Event Pengenalan", value: placePerkenalan });
+  
   if (items.length === 0) return '';
   const rows = items.map(item => `<div class="katsudo-row"><div class="katsudo-label"><div class="katsudo-label-id">${item.id}</div><div class="katsudo-label-jp">${item.jp}</div></div><div class="katsudo-value">${item.value}</div></div>`).join('');
   return `<div class="katsudo-container"><h2>DATA AKTIFITAS MEMBER</h2><div class="katsudo-grid">${rows}</div></div>`;
 }
+
 
 // [MODIFIKASI BARU] Fungsi untuk generate HTML untuk data hiatus
 function generateHiatusHTML(member, hiatusData) {
@@ -341,7 +353,9 @@ if (memberId) {
       const formattedDate = formatTanggal(member.lahir);
       const umur = hitungUmur(member.lahir);
       const umurText = `${umur.tahun} tahun ${umur.hari} hari`;
-      const genLabel = member.gen.replace("期", "").replace(/^(\d+)/, "Generasi ke-$1");
+	  let genLabel = member.gen.replace("期", "").replace(/^(\d+)/, "Generasi ke-$1");
+		if (member.gen === "留学") genLabel = "Kennin";
+		if (member.gen === "研究生") genLabel = "Kenkyuusei";
       const asalFormatted = convertPrefecture(member.asal);
       const namaRomajiFormatted = formatNamaRomaji(member.nama_romaji);
 

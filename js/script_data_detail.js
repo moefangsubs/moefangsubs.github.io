@@ -17,7 +17,10 @@ document.addEventListener("participationLoaded", () => {
     items.push(`
       <div class="partisipasi-item" id="single-item-${num}" data-num="${num}">
         <div class="single-label">${num}</div>
-        <img src="https://ik.imagekit.io/moearchive/singlealbum/n46_${String(num).padStart(2, '0')}.jpg" class="single-thumb" alt="Single ${num}">
+        <img src="https://ik.imagekit.io/moearchive/singlealbum/n46_${String(num).padStart(2, '0')}.jpg" 
+             class="single-thumb" 
+             alt="Single ${num}"
+             onerror="this.onerror=null; this.src='https://ik.imagekit.io/moearchive/web/unrelease.png';">
         <div class="single-pos" style="background:${rowColors[row] || '#888'}; color:${row === 'C' || row === 'WC' ? 'var(--moe)' : 'white'}">${row}</div>
       </div>
     `);
