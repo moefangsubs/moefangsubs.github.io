@@ -1,0 +1,157 @@
+.titlehead {
+    text-align: center;
+    display: block;
+}
+
+.intro-text {
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.leader-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.leader-card {
+    display: flex;
+    background-color: white;
+    border: 3px solid var(--moe);
+    box-shadow: 6px 6px 0px 0px var(--moe-tint5);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: var(--all);
+}
+
+.leader-card:hover {
+    box-shadow: 8px 8px 0px 0px var(--moe);
+    transform: translateY(-3px);
+}
+
+.leader-profile {
+    flex: 0 0 220px;
+    background-color: var(--moe-tint7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-right: 2px dashed var(--moe-tint4);
+}
+
+.leader-profile img {
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 15px;
+}
+
+.leader-name-jp {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--moe-shade-max2);
+}
+
+.leader-name-rm {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: var(--moe);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.leader-badge {
+    background-color: var(--moe);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.leader-gen {
+    background-color: var(--moe-tint4);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+
+.leader-details {
+    flex: 1;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--moe-tint6);
+    padding-bottom: 20px;
+}
+
+.detail-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-label {
+    font-size: 0.8em;
+    color: gray;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.detail-value {
+    font-size: 1em;
+    color: var(--moe-shade-min2);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.trivia-section h4 {
+    color: var(--moe);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    border-left: 4px solid var(--moe);
+    padding-left: 10px;
+}
+
+.trivia-list {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 0.9em;
+    line-height: 1.5;
+    color: #333;
+}
+
+.trivia-list li {
+    margin-bottom: 8px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .leader-card {
+        flex-direction: column;
+    }
+    .leader-profile {
+        flex: auto;
+        border-right: none;
+        border-bottom: 2px dashed var(--moe-tint4);
+    }
+    .detail-grid {
+        grid-template-columns: 1fr;
+    }
+    .leader-details {
+        padding: 20px;
+    }
+}

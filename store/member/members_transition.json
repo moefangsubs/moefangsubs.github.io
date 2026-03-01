@@ -1,0 +1,17 @@
+[
+  { "tanggal": "21 Agustus 2011", "event": "1期生 36名加入 (Generasi 1 bergabung)", "diff": "+36", "total": 36, "gen1": 36, "gen2": 0, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "22 September 2011", "event": "1期生 2名活動辞退 (2 Member Gen 1 mundur)", "diff": "-2", "total": 34, "gen1": 34, "gen2": 0, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "Yamamoto Honoka, Yoshimoto Ayaka" },
+  { "tanggal": "18 November 2012", "event": "1期生 岩瀬佑美子 卒業 (Iwase Yumiko lulus)", "diff": "-1", "total": 33, "gen1": 33, "gen2": 0, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "11 Mei 2013", "event": "2期生 13名加入 (Generasi 2 bergabung)", "diff": "+13", "total": 46, "gen1": 33, "gen2": 13, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "Status Kenkyuusei" },
+  { "tanggal": "16 Juni 2013", "event": "1期生 安藤美雲 卒業 (Ando Mikumo lulus)", "diff": "-1", "total": 45, "gen1": 32, "gen2": 13, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "17 November 2013", "event": "1期生 柏幸奈 & 宮澤成良 卒業 (Kashiwa & Miyazawa lulus)", "diff": "-2", "total": 43, "gen1": 30, "gen2": 13, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "22 Maret 2014", "event": "2期生 西川七海 活動辞退 (Nishikawa Nanami mundur)", "diff": "-1", "total": 42, "gen1": 30, "gen2": 12, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "24 April 2014", "event": "松井玲奈の兼任開始 (Matsui Rena Kennin)", "diff": "+1", "total": 43, "gen1": 30, "gen2": 12, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "Kennin" },
+  { "tanggal": "21 Juli 2014", "event": "1期生 市來玲奈 卒業 (Ichiki Rena lulus)", "diff": "-1", "total": 42, "gen1": 29, "gen2": 12, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "Termasuk 1 Kennin" },
+  { "tanggal": "18 Oktober 2014", "event": "矢田里沙子 & 米徳京花 活動辞退 (Yada & Yonetoku mundur)", "diff": "-2", "total": 40, "gen1": 29, "gen2": 10, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "19 Oktober 2014", "event": "1期生 伊藤寧々 卒業 (Ito Nene lulus)", "diff": "-1", "total": 39, "gen1": 28, "gen2": 10, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "15 Desember 2014", "event": "1期生 大和里菜 契約終了 (Yamato Rina diputus kontrak)", "diff": "-1", "total": 38, "gen1": 27, "gen2": 10, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "4 April 2015", "event": "1期生 畠中清羅 卒業 (Hatanaka Seira lulus)", "diff": "-1", "total": 37, "gen1": 26, "gen2": 10, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "14 Mei 2015", "event": "松井玲奈 交換留学終了 (Matsui Rena Kennin selesai)", "diff": "-1", "total": 36, "gen1": 26, "gen2": 10, "gen3": 0, "gen4": 0, "gen5": 0, "gen6": 0, "note": "-" },
+  { "tanggal": "4 September 2016", "event": "3期生 12名加入 (Generasi 3 bergabung)", "diff": "+12", "total": 46, "gen1": 24, "gen2": 10, "gen3": 12, "gen4": 0, "gen5": 0, "gen6": 0, "note": "Melompati beberapa grad Gen 1 untuk singkatitas contoh" }
+]

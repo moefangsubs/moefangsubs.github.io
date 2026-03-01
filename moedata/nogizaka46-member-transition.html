@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id" data-page-name="chounogi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <title>MoeData | Nogizaka46 Member Transition</title>
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_member_transition.css">    
+	
+	<script type="text/javascript" src="../js/script_member_transition.js"></script>
+</head>
+
+<body>
+    <div class="contentpage container">
+        <div class="titlehead">
+            <h1>Nogizaka46 Member Transition</h1>
+        </div>
+        <div class="justify intro-text">
+            Tabel di bawah ini merangkum pergerakan dan fluktuasi jumlah member Nogizaka46 secara otomatis berdasarkan database. Meliputi penerimaan generasi baru dan member yang telah lulus. Tabel tanggal khusus untuk yang lulus adalah <b>tanggal berakhirnya aktifitas di dalam grup</b> bukan tanggal diumumkannya lulus.
+        </div>
+
+        <div class="table-responsive">
+            <table class="transition-table" cellspacing="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>Tanggal</th>
+                        <th>Peristiwa</th>
+                        <th class="center">+/-</th>
+                        <th class="center">Total</th>
+                        <th class="center">Gen 1</th>
+                        <th class="center">Gen 2</th>
+                        <th class="center">Gen 3</th>
+                        <th class="center">Gen 4</th>
+                        <th class="center">Gen 5</th>
+                        <th class="center">Gen 6</th>
+                    </tr>
+                </thead>
+                <tbody id="transition-body">
+                    </tbody>
+            </table>
+        </div>
+
+        <div class="rectangle"></div>
+    </div>
+</body>
+</html>
