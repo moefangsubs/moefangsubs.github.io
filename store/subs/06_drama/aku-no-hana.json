@@ -1,0 +1,34 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_akunohana.png",
+    "url": "aku-no-hana",
+    "nameShowTitle": "Aku no Hana (2026)",
+    "nameShow": "惡の華",
+	"descSynopsis": "Berlatar di Kota Hikari, Prefektur Gunma, seorang siswa SMP bernama Kasuga Takao menjalani hidup dengan perasaan terkekang sambil mengagumi kumpulan puisi Aku no Hana. Suatu sore, saat mengambil barang yang tertinggal di kelas, Kasuga secara impulsif mencuri baju olahraga milik teman sekelas yang dikaguminya, Saeki Nanako. Namun, tindakan tersebut diketahui oleh siswa bermasalah bernama Nakamura Sawa. Nakamura kemudian memaksa Kasuga melakukan sebuah \"kontrak\" sebagai jaminan kerahasiaan. Di bawah kendali Nakamura, Kasuga terjebak dalam berbagai tuntutan aneh hingga identitas dirinya hancur, sementara ia juga harus menghadapi gejolak batin saat mulai menjalin hubungan dengan Saeki."
+    "availableEpisode": [],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/akunohana{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}d.jpg",
+	"linkTrakteer": "",
+    "filePassword": "",
+    "memberParticipate": "中西アルノ",
+    "episodes": {
+        "01": { "linkHardsub": ""},
+        "02": { "linkHardsub": ""},
+        "03": { "linkHardsub": ""},
+        "04": { "linkHardsub": ""},
+        "05": { "linkHardsub": ""},
+        "06": { "linkHardsub": ""},
+        "07": { "linkHardsub": ""},
+        "08": { "linkHardsub": ""},
+        "09": { "linkHardsub": ""},
+        "10": { "linkHardsub": ""}
+    },
+	"descOnAirDatePattern": "260409",
+    "OnAirEvery": 1
+}
+
+
+
