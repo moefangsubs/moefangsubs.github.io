@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                     badgeHTML = `
                                         <div class="garapan-update-wrapper">
                                             <div class="garapan-update-border"></div>
-                                            <div class="garapan-update">NEW!</div>
+                                            <div class="garapan-update">UPDATE!</div>
                                             <div class="garapan-update-tail"></div>
                                         </div>
                                     `;
