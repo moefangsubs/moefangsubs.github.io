@@ -113,8 +113,8 @@
 }
 .garapan-update-wrapper {
     position: absolute;
-    top: -10px;
-    right: -20px;
+    top: -12px;
+    right: -5px;
     z-index: 2;
     animation-name: newupdate;
     animation-duration: .76s;
@@ -136,7 +136,7 @@
     background: white;
     color: black;
     padding: 8px;
-    font-size: 1.2rem;
+    font-size: .8rem;
     font-weight: bold;
     letter-spacing: 0px;
     clip-path: var(--pixel-update-clip-path-outer);
@@ -157,9 +157,9 @@
 }
 .garapan-comingsoon-wrapper {
     position: absolute;
-    top: -5px;      
-    right: -15px;   
-    transform: rotate(5deg); 
+    top: -12px;
+    right: -5px;
+    transform: rotate(0deg);
     z-index: 2;
     animation-name: comingsoon-anim;
     animation-duration: 1.5s;
@@ -180,8 +180,8 @@
     z-index: 0;
     background: #FBC02D;
     color: #41331C;
-    padding: 8px 12px;
-    font-size: 1.1rem;
+    padding: 5px 9px;
+    font-size: .8rem;
     font-weight: bold;
     letter-spacing: 0px;
     clip-path: var(--pixel-update-clip-path-outer);
@@ -193,7 +193,7 @@
     height: 8px;
     background: #FBC02D;
     bottom: -4px;
-    left: 50%;
+    left: 79%;
     margin-left: -6px;
     transform: rotate(45deg);
     z-index: 1;
@@ -201,9 +201,9 @@
     border-right: 2px solid #41331C;
 }
 @keyframes comingsoon-anim {
-    0%, 49% { transform: rotate(5deg) scale(1); }
-    50%, 99% { transform: rotate(5deg) scale(1.05); }
-    100% { transform: rotate(5deg) scale(1); }
+    0%, 49% { transform: rotate(0deg) scale(1); }
+    50%, 99% { transform: rotate(0deg) scale(1.05); }
+    100% { transform: rotate(0deg) scale(1); }
 }
 @media (min-width: 576px) {
     .garapan-grid a {
@@ -248,19 +248,19 @@
 }
 @keyframes newupdate {
     0% {
-        transform: rotate(15deg) translateY(0px);
+        transform: rotate(0deg) translateY(0px);
     }
     49% {
-        transform: rotate(15deg) translateY(0px);
+        transform: rotate(0deg) translateY(0px);
     }
     50% {
-        transform: rotate(15deg) translateY(3px);
+        transform: rotate(0deg) translateY(3px);
     }
     99% {
-        transform: rotate(15deg) translateY(3px);
+        transform: rotate(0deg) translateY(3px);
     }
     100% {
-        transform: rotate(15deg) translateY(0px);
+        transform: rotate(0deg) translateY(0px);
     }
 }
 .garapan-grid a.is-coming-soon .cat-acara-border {
