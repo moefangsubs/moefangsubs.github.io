@@ -8,7 +8,7 @@
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
-		"31", "32", "33", "34", "35", "36", "37"
+		"31", "32", "33", "34", "35", "36", "37", "38", "39"
     ],
     "newUpdateCount": 1,
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
@@ -385,7 +385,27 @@
             "additionalGuests": "Crystal Kay",
             "linkHardsub": "https://sfl.gl/eAdz",
             "linkSoftsub": "https://sfl.gl/5Vyt"
-        }
+        },
+		"38": {
+			"descOnAirDate": "23 Februari 2026",
+			"descSong1": "ano「ちゅ、多様性。」",
+			"descSong2": "藤原千花（小原好美）「チカっとチカ千花っ♡」",
+			"descSong3": "愛内里菜「I can't stop my love for you ♥」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "愛内里菜",
+            "linkHardsub": "https://sfl.gl/hod1",
+            "linkSoftsub": "https://sfl.gl/n7zoMshx"
+		},
+		"39": {
+			"descOnAirDate": "2 Maret 2026",
+			"descSong1": "DA PUMP「if...」",
+			"descSong2": "DREAMS COME TRUE「サンキュ.」",
+			"descSong3": "trf「BOY MEETS GIRL」",
+            "memberParticipate": "愛宕心響、大越ひなの、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "DJ KOO",
+            "linkHardsub": "https://sfl.gl/TMQMAvU",
+            "linkSoftsub": "https://sfl.gl/DXF3rz"
+		}
     },
     "descEpisode": "| Episode {{eps}}"
 }

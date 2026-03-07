@@ -4,19 +4,26 @@
     "nameShowTitle": "Rojiura Hotel (2026)",
     "nameShow": "路地裏ホテル",
 	"descSynopsis": "Sebuah drama fantasi remaja yang dibintangi oleh 11 member Sakurazaka46 gen-3. Berlatar di sebuah hotel di sudut kota, cerita ini mengikuti perjalanan sekelompok perempuan yang menghadapi berbagai keresahan serta konflik batin melalui pengalaman dunia lain yang misterius. Setiap episodenya menggambarkan bagaimana para karakter tersebut menghadapi dan melewati permasalahan yang berbeda-beda demi mencapai kedewasaan.",
-    "availableEpisode": [],
-    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/rojiurahotel{{eps}}.jpg",
-    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}.jpg",
-	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}a.jpg",
-	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}b.jpg",
-	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}c.jpg",
-	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiurahotel{{eps}}d.jpg",
-	"linkTrakteer": "",
-    "filePassword": "",
-    "memberParticipate": "櫻坂46 三期生",
+    "availableEpisode": [
+		"01a"
+	],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/rojiura{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}1.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}2.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}3.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}4.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/rojiura-hotel-kSBDR",
+    "filePassword": "Kisah_Hotel_Pemecah_Masalah",
     "episodes": {
-        "01": {
-			"descEpisodeSynopsis": "",
+        "01a": {
+			"descEpisodeSynopsis": "Penulis naskah Osanai Yuika terpaksa menginap di hotel karena dikejar tenggat waktu pekerjaan. Di tengah kondisi hotel yang penuh, Yuika terpikat oleh papan nama mencurigakan yang membawanya ke Rojiura Hotel. Saat memasuki kamar yang ditunjukkan oleh manajer, Yuika terlempar ke masa lalu tepat pada momen darmawisata sekolah 15 tahun silam yang sempat tidak ia hadiri. Di sana, Yuika pun bertemu kembali dengan teman sekelasnya yang bernama Jinbo Mari",
+			"memberParticipate": "中嶋優月、村山美羽",
+            "linkHardsub": "https://sfl.gl/KKvovMe1"
+        },
+        "01b": {
+			"descEpisodeSynopsis": "Setelah melakukan perjalanan waktu ke masa SMA, Yuika menjalani kencan di akuarium bersama Kuroda Sho guna melakukan riset naskah atas saran dari Mari. Keesokan harinya, Yuika kembali pergi bermain dengan mengajak serta Mari. Di tengah kebersamaan itu, Yuika secara mengejutkan mulai menyadari perasaan tulus yang selama ini dipendam oleh Mari.",
+			"memberParticipate": "中嶋優月、村山美羽",
             "linkHardsub": ""
         },
         "02": {

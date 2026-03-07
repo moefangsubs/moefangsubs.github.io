@@ -5,7 +5,7 @@
     "nameShow": "顔のない患者-救うか、裁くか-",
     "descSynopsis": "Tsuzuki Ryo, seorang ahli bedah di Rumah Sakit Umum Hakuto, mendadak terseret dalam mimpi buruk ketika istrinya, Miho, diculik dan digantikan oleh seorang pasien tanpa identitas dengan wajah yang telah dihancurkan. Sang penculik mengancam akan membunuh Miho jika Tsuzuki tidak menghabisi pasien tersebut, yang belakangan dicurigai sebagai pembunuh kejam yang sedang buron. Terjepit di antara nyawa istrinya dan nyawa seorang kriminal asing, Tsuzuki kian terdesak oleh batas waktu yang sempit, motif penculik yang misterius, serta pengejaran intensif dari pihak kepolisian.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05", "06", "07"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/kaononai{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kaononai/kaononai{{eps}}.jpg",
@@ -46,16 +46,17 @@
             "linkHardsub": "https://sfl.gl/qZAtHg"
         },
         "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Tsuzuki berada di ambang kehancuran mental setelah dipaksa Kaonashi memilih antara nyawa istri atau adiknya. Sementara itu, Natsui terjebak dalam dilema antara etika medis dan tekanan ayahnya, Tatsuro, yang lebih mementingkan kelangsungan rumah sakit serta bersikeras melaporkan kejadian tersebut ke polisi. Di sisi lain, Washio menemukan mayat di ruang otopsi saat mencari Takamaki yang menghilang. Meski dalam situasi terjepit, Tsuzuki tetap teguh pada misi medisnya dan memutuskan untuk mencari lokasi penyekapan Miho berdasarkan petunjuk foto yang dikirimkan oleh Kaonashi yang ternyata adalah Daichi.",
+            "linkHardsub": "https://sfl.gl/3qBR3"
         },
         "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Tsuzuki berhasil mengidentifikasi lokasi penyekapan Miho, namun terkejut saat mengetahui bahwa sosok Kaonashi ternyata adalah perawat Hagita. Di lokasi tersebut, Miho disekap dengan bom yang siap diledakkan jika ada tindakan mencurigakan. Sementara itu, Izumi melaporkan segalanya kepada Washio yang kemudian menyadari bahwa Hagita adalah dalang di balik semua kekacauan ini. Setelah membawa Tsuzuki ke markas rahasia, Hagita mengungkapkan kemarahan serta trauma masa lalunya terkait insiden pengeboman lima belas tahun silam yang melibatkan Mari, sambil menyalahkan Tsuzuki atas segala penderitaan yang ia alami selama ini.",
+            "linkHardsub": "https://sfl.gl/JPZ5I"
         },
         "10": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Hagita semakin membabi buta dengan memasang bom di rumah sakit dan memaksa Tsuzuki memilih antara menyelamatkan Miho atau nyawa banyak orang di institusi tersebut. Di tengah keputusasaan, Miho memohon agar Tsuzuki membunuhnya demi mengakhiri aksi balas dendam Hagita, namun Tsuzuki tidak sanggup melakukannya. Jika Tsuzuki tetap diam, Hagita mengancam akan meledakkan rumah sakit yang akan menelan banyak korban jiwa. Dalam situasi kritis ini, Hagita memaksa Tsuzuki memegang pisau untuk menentukan pilihan terakhirnya antara keselamatan sang istri tercinta atau nyawa para pasien serta staf medis.",
+            "linkHardsub": "",
+			"thisEnd": true
         }
     },
 	"descOnAirDatePattern": "260108",

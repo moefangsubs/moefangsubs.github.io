@@ -4,9 +4,9 @@
 	"nameShow": "あやめにオススメ！",
 	"descSynopsis": "Konten baru yang dibawakan oleh Ayame Tsutsui, \"Ayame ni Osusume!\", akhirnya dimulai! Di setiap episodenya, seorang member yang disebut \"Susumen\" akan hadir untuk mempresentasikan hal-hal yang ingin direkomendasikannya.",
 	"availableEpisode": [
-		"01", "02", "03", "04", "04-bangaihen", "05"
+		"01", "02", "03", "04", "04-bangaihen", "05", "06"
 	],
-	"newUpdateCount": 3,
+	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ayameniosusume.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/ayamesusume{{eps}}.jpg",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/ayamesusume/ayamesusume{{eps}}.jpg",
@@ -47,6 +47,11 @@
 			"descOnAirDate": "12 November 2025",
 			"memberParticipate": "筒井あやめ、小川彩",
 			"descEpisodeSynopsis": "Episode 5 kali ini Ogawa Aya akan merekomendasikan \"sauna\". Sebagai penggemar berat sauna di Nogizaka46, ia mempresentasikan pesonanya lengkap dengan membawa barang-barang favoritnya demi mengubah pandangan Tsutsui yang bersikeras tidak menyukai sauna, serta mengungkap \"senjata rahasia\" yang telah disiapkannya."
+		},
+		"06": {
+			"descOnAirDate": "27 Februari 2026",
+			"memberParticipate": "筒井あやめ、冨里奈央",
+			"descEpisodeSynopsis": "Episode 6 kali ini menampilkan Tomisato Nao yang merekomendasikan gaya hidup kotatsu impian di tengah dinginnya suasana studio saat puncak musim dingin. Selain membahas daya tarik meja penghangat tersebut, dilakukan pula tantangan merakit kotatsu secara bersama-sama untuk melihat fungsinya secara langsung."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

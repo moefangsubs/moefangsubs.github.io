@@ -23,14 +23,6 @@
       "Rcolor": "rgb(0, 202, 202)"
     }
   },
-  "久保史緒里": {
-    "penlight": {
-      "Lname": "水色",
-      "Lcolor": "rgb(0, 202, 202)",
-      "Rname": "黄",
-      "Rcolor": "rgb(183, 201, 0)"
-    }
-  },
   "吉田綾乃クリスティー": {
     "penlight": {
       "Lname": "ピンク",
@@ -109,22 +101,6 @@
       "Lcolor": "rgb(203, 1, 131)",
       "Rname": "ピンク",
       "Rcolor": "rgb(203, 1, 131)"
-    }
-  },
-  "松尾美佑": {
-    "penlight": {
-      "Lname": "ターコイズ",
-      "Lcolor": "rgb(0, 202, 160)",
-      "Rname": "白",
-      "Rcolor": "rgb(24, 26, 27)"
-    }
-  },
-  "矢久保美緒": {
-    "penlight": {
-      "Lname": "ピンク",
-      "Lcolor": "rgb(203, 1, 131)",
-      "Rname": "黄色",
-      "Rcolor": "rgb(183, 201, 0)"
     }
   },
   "弓木奈於": {
