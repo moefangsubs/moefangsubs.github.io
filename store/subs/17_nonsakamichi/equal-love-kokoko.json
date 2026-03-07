@@ -4,7 +4,7 @@
 	"nameShow": "イコラブコッコッコー!!",
 	"descSynopsis": "Equal Love KoKoKo!! merupakan acara televisi grup idola =LOVE yang diproduseri Rino Sashihara dengan fokus menonjolkan keunikan individu member.",
 	"availableEpisode": [
-		"01", "02", "03", "04"
+		"01", "02", "03", "04", "05"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_ikorabukokoko.png",
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/ikorabu/ikorabukokoko{{eps}}.jpg",
@@ -34,8 +34,8 @@
             "linkHardsub": "https://sfl.gl/zfIwNcm"
         },
         "05": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Episode 5 ini Otani Emiri memberikan pelatihan khusus kepada  Morohashi Sana guna mengatasi ketidakmampuannya bertingkah imut. Melalui tantangan meniru kelinci hingga peri, Sana berjuang keras membuktikan sisi menggemaskannya sebagai idola.",
+            "linkHardsub": "https://sfl.gl/JYyJRyWz"
         },
         "06": {
 			"descEpisodeSynopsis": "",

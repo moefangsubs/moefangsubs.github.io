@@ -5,7 +5,7 @@
     "nameShow": "本命じゃなきゃよかったのに",
     "descSynopsis": "Munculnya saingan bagi si playboy Eisei mewarnai kisah cinta dewasa yang bersemi kembali setelah sepuluh tahun. Maki, sahabat Mihono sejak kuliah, memberikan saran tegas namun penuh kasih, yang justru menyeret Kusaka serta Yuri ke dalam hubungan mereka yang tidak sederhana. Melalui keintiman yang terjalin, Mihono dan Eisei belajar menghadapi diri sendiri dan tumbuh dewasa, menyisakan tanya ke mana arah masa depan mereka akan bermuara.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05", "06", "07"
+		"01", "02", "03", "04", "05", "06", "07", "08"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/honmei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/honmei/honmei{{eps}}.jpg",
@@ -46,19 +46,11 @@
             "linkHardsub": "https://sfl.gl/ASoEWwFB"
         },
         "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "10": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Setelah berciuman di kantor, Mihono menceritakan perkembangan hubungannya dengan Eisei kepada Maki. Tak lama kemudian, Eisei mengajak Mihono menjalani kencan pertama yang romantis layaknya pasangan kekasih sungguhan. Meski sempat merasa kesal saat Eisei tiba-tiba menanyakan keberadaan kekasih lain, mereka akhirnya menghabiskan waktu bersama di sebuah kamar hotel mewah. Di sana, Mihono kembali mempertanyakan keseriusan Eisei mengenai hubungan mereka. Jawaban Eisei yang lugas memaksa Mihono untuk menentukan pilihan terakhirnya dalam penutup kisah cinta yang penuh emosi ini.",
+            "linkHardsub": "https://sfl.gl/mpem3p9",
+			"thisEnd": true
         }
     },
 	"descOnAirDatePattern": "260108",
     "OnAirEvery": 7
 }
-

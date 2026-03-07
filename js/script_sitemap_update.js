@@ -1,5 +1,3 @@
-// ../js/script_sitemap_update.js (MODIFIED)
-
 document.addEventListener('DOMContentLoaded', async () => {
     const updateContainer = document.getElementById('daftar-update');
     if (!updateContainer) return;
@@ -27,7 +25,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 updateContainer.classList.remove('grid-view');
                 slideBtn.classList.add('active');
                 gridBtn.classList.remove('active');
-                // Jalankan kembali pengecekan scroll untuk semua baris
                 document.querySelectorAll('.update-grid').forEach(grid => grid.dispatchEvent(new Event('scroll')));
             }
         });
@@ -44,24 +41,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupViewControls();
 
     try {
-        // ========== MODIFIKASI DIMULAI: Tambah warnResponse ==========
+        // ========== MODIF: Tambah warnResponse & Cache Buster ==========
+        const cacheBuster = `?v=${new Date().getTime()}`; // <-- DITAMBAHKAN: Stempel waktu dinamis untuk cegah cache
+
         const [updateResponse, listResponse, membersResponse, warnResponse] = await Promise.all([
-            fetch('../store/subs/update.json'),
-            fetch('../store/subs/list.json'),
-            fetch('../store/member/members.json'),
-            fetch('../store/subs/warn.json') // <-- BARU: Fetch warn.json
+            fetch(`../store/subs/update.json${cacheBuster}`),  // <-- DITAMBAHKAN: cacheBuster
+            fetch(`../store/subs/list.json${cacheBuster}`),    // <-- DITAMBAHKAN: cacheBuster
+            fetch(`../store/member/members.json${cacheBuster}`), // <-- DITAMBAHKAN: cacheBuster
+            fetch(`../store/subs/warn.json${cacheBuster}`)     // <-- DITAMBAHKAN: cacheBuster
         ]);
 
         if (!updateResponse.ok) throw new Error('Failed to fetch update.json');
         if (!listResponse.ok) throw new Error('Failed to fetch list.json');
         if (!membersResponse.ok) throw new Error('Failed to fetch members.json');
-        if (!warnResponse.ok) throw new Error('Failed to fetch warn.json'); // <-- BARU: Cek warnResponse
+        if (!warnResponse.ok) throw new Error('Failed to fetch warn.json'); 
 
         const updatesByDate = await updateResponse.json();
         const showListByCategory = await listResponse.json();
         const membersList = await membersResponse.json();
-        const warnData = await warnResponse.json(); // <-- BARU: Parse warn.json
-        // ========== MODIFIKASI SELESAI ==========
+        const warnData = await warnResponse.json(); 
+        // ========== ==========
         
         const showPathMap = new Map();
         for (const category in showListByCategory) {
@@ -73,17 +72,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const memberMap = new Map(membersList.map(m => [m.nama_jp, m.id]));
 
-        // ========== BARU: Membuat lookup set untuk item request ==========
+        // ========== Membuat lookup set untuk item request ==========
         const requestSet = new Set();
         const requestWarning = warnData.find(w => w.type === 'request');
         if (requestWarning && requestWarning.targets) {
             requestWarning.targets.forEach(target => {
-                // target bisa berupa: "../store/subs/06_drama/strobe-edge-season-1.json"
-                // atau: "../store/subs/12_random/showroom.json?episodes=20"
                 requestSet.add(target);
             });
         }
-        // ========== SELESAI: lookup set ==========
+        // ========== ==========
 
         const formatUpdateDate = (dateStr) => {
             const year = `20${dateStr.substring(0, 2)}`;
@@ -98,7 +95,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const sectionDiv = document.createElement('div');
             sectionDiv.className = 'update-section';
             
-            const updateCount = updates.length; //
+            const updateCount = updates.length; 
             sectionDiv.innerHTML = `<h3 class="update-date">${formatUpdateDate(date)} <span class="update-count">[${updateCount} Update]</span></h3>`;
 
             const scrollContainer = document.createElement('div');
@@ -109,26 +106,27 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             for (const updateItem of updates) {
                 const showId = updateItem.showId;
-                const episodeNumber = updateItem.eps; // episodeNumber "01", "20", "03A"
+                const episodeNumber = updateItem.eps; 
 
                 const showJsonPath = showPathMap.get(showId);
                 if (!showJsonPath) continue;
 
                 try {
-                    const showDataResponse = await fetch(showJsonPath);
+                    // ========== MODIF: Fetch file JSON masing-masing show dengan Cache Buster ==========
+                    const showDataResponse = await fetch(`${showJsonPath}${cacheBuster}`); 
                     if (!showDataResponse.ok) continue;
                     const showData = await showDataResponse.json();
+                    // ========== ==========
                     
                     const epKey = episodeNumber.toString().padStart(2, '0');
                     const episodeData = showData.episodes ? (showData.episodes[epKey] || showData.episodes[episodeNumber]) : {};
 
-                    if(!episodeData) continue; // <-- Pastikan 'continue' bukan 'break'
+                    if(!episodeData) continue; 
 
                     let thumbUrl = episodeData.imageThumbBig || (showData.imageThumbBigPattern ? showData.imageThumbBigPattern.replace('{{eps}}', epKey) : null);
                     if (!thumbUrl) thumbUrl = 'https://via.placeholder.com/320x180.png?text=No+Image';
 
 					const link = `../moesubs/#/${showData.url}/${epKey}`;
-
 
 					let descEpisode = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${parseInt(episodeNumber, 10)}`;
 					if (episodeData.thisEnd === true || episodeData.thisEnd === "yes") {
@@ -171,10 +169,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                         }
                     }
                     
-                    // ========== BARU: Logika Pengecekan Request ==========
                     let requestBadgeHTML = '';
                     
-                    // 1. Cek full show: "../store/subs/06_drama/strobe-edge-season-1.json"
                     if (requestSet.has(showJsonPath)) {
                         requestBadgeHTML = `
                             <div class="update-request-wrapper">
@@ -184,8 +180,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                             </div>
                         `;
                     } else {
-                        // 2. Cek specific episode: "../store/subs/12_random/showroom.json?episodes=20"
-                        const specificEpPath = `${showJsonPath}?episodes=${episodeNumber}`; // Gunakan episodeNumber
+                        const specificEpPath = `${showJsonPath}?episodes=${episodeNumber}`; 
                         
                         if (requestSet.has(specificEpPath)) {
                              requestBadgeHTML = `
@@ -197,12 +192,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                             `;
                         }
                     }
-                    // ========== SELESAI: Logika Request ==========
 
                     const itemDiv = document.createElement('div');
                     itemDiv.className = 'update-item-wrapper'; 
                     
-                    // ========== MODIFIKASI: Tambahkan requestBadgeHTML ==========
                     itemDiv.innerHTML = `
                         ${requestBadgeHTML} <div class="update-item-shadow"></div>
                         <div class="update-item">
@@ -213,7 +206,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                             ${membersHTML ? `<div class="members-container">${membersHTML}</div>` : ''}
                         </div>
                     `;
-                    // ========== MODIFIKASI SELESAI ==========
                     gridDiv.appendChild(itemDiv);
                 } catch (error) { console.error(`Error processing ${showId}:`, error); }
             }

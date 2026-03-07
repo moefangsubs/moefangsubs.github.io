@@ -16,16 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
         '../store/subs/04_singlebonus/',
         '../store/subs/05_nogikoi/',
         '../store/subs/06_drama/',
-        '../store/subs/07_movie/',
-        '../store/subs/08_stage/',
-        '../store/subs/09_documentary/',
-        '../store/subs/10_sapporo/',
-        '../store/subs/11_musicprogram/',
-        '../store/subs/12_random/',
-        '../store/subs/13_concert/',
-        '../store/subs/14_premium/',
-        '../store/subs/15_radio/',
-        '../store/subs/16_nonsakamichi/'
+        '../store/subs/07_shortdrama/',
+        '../store/subs/08_movie/',
+        '../store/subs/09_stage/',
+        '../store/subs/10_documentary/',
+        '../store/subs/11_sapporo/',
+        '../store/subs/12_musicprogram/',
+        '../store/subs/13_random/',
+        '../store/subs/14_concert/',
+        '../store/subs/15_premium/',
+        '../store/subs/16_radio/',
+        '../store/subs/17_nonsakamichi/'
     ];
     const MEMBERS_DATA_PATH = '../store/member/members.json';
     const WARNINGS_DATA_PATH = '../store/subs/warn.json';

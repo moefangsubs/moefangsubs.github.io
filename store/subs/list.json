@@ -106,15 +106,12 @@
 		"sukui-sukuware",
 		"honmei-janakya-yokatta-no-ni",
 		"kao-no-nai-kanja",
-		"sobaya-no-ossan",
 		"futari-escape",
 		"shin-tokyo-suijou-keisatsu",
 		"shinu-made-buzztero",
 		"koisuru-keigo-24ji-season-2",
 		"dekitemo-dekinakutemo",
 		"strobe-edge-season-1",
-		"kanade-no-rara",
-		"kimi-wa-yotsuha-no-clover",
 		"ryosangata-ruka",
 		"koroshita-otto-ga-kaettekimashita",
 		"truck-girl-2",
@@ -138,7 +135,13 @@
 		"saisho-wa-paa",
 		"nogizaka-fettucine-gummy"
 	],
-	"07_movie": [
+	"07_shortdrama": [
+		"moshimo-aidoru-ga-janakattara",
+		"sobaya-no-ossan",
+		"kanade-no-rara",
+		"kimi-wa-yotsuha-no-clover"
+	],
+	"08_movie": [
 		"life-of-mariko-in-kabukicho",
 		"hikuidori-o-kuu",
 		"yamada-kun-to-lv999-no-koi-o-suru",
@@ -150,11 +153,11 @@
 		"sayounara-konbanwa",
 		"yo-no-naka-ni-taete-sakura-no-nakariseba"
 	],
-	"08_stage": [
+	"09_stage": [
 		"migoroshi-hime",
 		"yumeji-kuukou"
 	],
-	"09_documentary": [
+	"10_documentary": [
 		"hashimoto-nanami-no-koisuru-bungaku-fuyu",
 		"hashimoto-nanami-no-koisuru-bungaku-natsu",
 		"nogizaka-books",
@@ -163,14 +166,14 @@
 		"nogizaka-escape-season-3",
 		"nogizaka-escape-season-4"
 	],
-	"10_sapporo": [
+	"11_sapporo": [
 		"cupstar-matsumuraa",
 		"cupstar-asusanpo",
 		"cupstar-nogimart-no-hibi",
 		"cupstar-sashimen",
 		"cupstar-ane-to-itsumademo"
 	],
-	"11_musicprogram": [
+	"12_musicprogram": [
 		"utabangumi-nhk-kouhaku",
 		"utabangumi-best-hits",
 		"utabangumi-cdtv",
@@ -188,11 +191,12 @@
 		"utabangumi-music-fair",
 		"utabangumi-dayday"
 	],
-	"12_random": [
+	"13_random": [
 		"showroom",
+		"nogizaka-gakuen-houkago-chokuzen-talk",
 		"random-subs"
 	],
-	"13_concert": [
+	"14_concert": [
 		"birthday-live",
 		"zenkoku-tour",
 		"under-live",
@@ -202,7 +206,7 @@
 		"shinzanmono",
 		"live-performance"
 	],
-	"14_premium": [
+	"15_premium": [
 		"nogizaka46-12th-bdl-talk",
 		"nogizaka-skits-bd-1",
 		"nogizaka-skits-bd-2",
@@ -213,12 +217,12 @@
 		"shin-nogizaka-star-tanjou-hulu",
 		"shin-nogizaka-star-tanjou-hajimete-talk"
 	],
-	"15_radio": [
+	"16_radio": [
 		"school-of-lock",
 		"hinatazaka-story",
 		"nogizaka46-gen5-message"
 	],
-	"16_nonsakamichi": [
+	"17_nonsakamichi": [
 		"equal-love-kokoko",
 		"bokuao-random",
 		"bokuao-documentary",

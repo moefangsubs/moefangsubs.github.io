@@ -50,16 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
             "04_singlebonus": "../store/subs/04_singlebonus/",
             "05_nogikoi": "../store/subs/05_nogikoi/",
             "06_drama": "../store/subs/06_drama/",
-            "07_movie": "../store/subs/07_movie/",
-            "08_stage": "../store/subs/08_stage/",
-            "09_documentary": "../store/subs/09_documentary/",
-            "10_sapporo": "../store/subs/10_sapporo/",
-            "11_musicprogram": "../store/subs/11_musicprogram/",
-            "12_random": "../store/subs/12_random/",
-            "13_concert": "../store/subs/13_concert/",
-            "14_premium": "../store/subs/14_premium/",
-            "15_radio": "../store/subs/15_radio/",
-            "16_nonsakamichi": "../store/subs/16_nonsakamichi/"
+            "07_shortdrama": "../store/subs/07_shortdrama/",
+            "08_movie": "../store/subs/08_movie/",
+            "09_stage": "../store/subs/09_stage/",
+            "10_documentary": "../store/subs/10_documentary/",
+            "11_sapporo": "../store/subs/11_sapporo/",
+            "12_musicprogram": "../store/subs/12_musicprogram/",
+            "13_random": "../store/subs/13_random/",
+            "14_concert": "../store/subs/14_concert/",
+            "15_premium": "../store/subs/15_premium/",
+            "16_radio": "../store/subs/16_radio/",
+            "17_nonsakamichi": "../store/subs/17_nonsakamichi/"
         };
         const response = await fetch(listJsonPath);
         const showList = await response.json();

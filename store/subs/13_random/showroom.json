@@ -6,7 +6,7 @@
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41", "42", "43", "44"
+		"41", "42", "43", "44", "45"
 	],
 	"newUpdateCount": 1,
 	"SpecificUpdate": ["34"],
@@ -73,7 +73,7 @@
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/240528_SR-KakiHaruka2.jpg",
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/240528_SR-KakiHaruka3.jpg",
 			"subLanguage": "Bahasa Indonesia",
-			"descEpisodeSynopsis": "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Kaki Haruka sebagai kamioshi-nya yang punya fansub ini.",
+			"descEpisodeSynopsis": "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM Kaki Haruka sebagai kamioshi-nya yang punya fansub ini.",
 			"nameShow": "SHOWROOM のぎおび"
 		},
 		"05": {
@@ -713,6 +713,22 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260209_SR-IchinoseMiku3.jpg",
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Rilisan khusus dari MoeFang kali ini adalah SHOWROOM-nya Ichinose Miku sebagai oshi yang punya fansub ini di gen-5.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"45": {
+			"descEpisode": "| 260225 NOGIOBI (Kaki Haruka)",
+			"descEpsListName": "Kaki Haruka",
+			"descOnAirDate": "25 Februari 2026",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://sfl.gl/UgpOd",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260225_SR-KakiHaruka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_SR-KakiHaruka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_SR-KakiHaruka1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_SR-KakiHaruka2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_SR-KakiHaruka3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Kaki Haruka.",
 			"nameShow": "SHOWROOM のぎおび"
 		}
 	}

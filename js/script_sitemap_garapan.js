@@ -27,16 +27,17 @@ document.addEventListener('DOMContentLoaded', () => {
             "04_singlebonus": { name: "SINGLE BONUS", path: '../store/subs/04_singlebonus' },
             "05_nogikoi": { name: "NOGIKOI, HINAKOI & SAKUKOI", path: '../store/subs/05_nogikoi' },
             "06_drama": { name: "DRAMA", path: '../store/subs/06_drama' },
-            "07_movie": { name: "MOVIE", path: '../store/subs/07_movie' },
-            "08_stage": { name: "STAGE & THEATER", path: '../store/subs/08_stage' },
-            "09_documentary": { name: "DOCUMENTARY", path: '../store/subs/09_documentary' },
-            "10_sapporo": { name: "CUPSTAR SERIES", path: '../store/subs/10_sapporo' },
-            "11_musicprogram": { name: "MUSIC PROGRAM PERFORMANCE", path: '../store/subs/11_musicprogram' },
-            "12_random": { name: "RANDOM CONTENT", path: '../store/subs/12_random' },
-            "13_concert": { name: "CONCERT & LIVE PERFORMANCE", path: '../store/subs/13_concert' },
-            "14_premium": { name: "PREMIUM CONTENT", path: '../store/subs/14_premium' },
-            "15_radio": { name: "RADIO & READING", path: '../store/subs/15_radio' },
-            "16_nonsakamichi": { name: "NON-SAKAMICHI CONTENT", path: '../store/subs/16_nonsakamichi' }
+            "07_shortdrama": { name: "SHORT VERTICAL DRAMA", path: '../store/subs/07_shortdrama' },
+            "08_movie": { name: "MOVIE", path: '../store/subs/08_movie' },
+            "09_stage": { name: "STAGE & THEATER", path: '../store/subs/09_stage' },
+            "10_documentary": { name: "DOCUMENTARY", path: '../store/subs/10_documentary' },
+            "11_sapporo": { name: "CUPSTAR SERIES", path: '../store/subs/11_sapporo' },
+            "12_musicprogram": { name: "MUSIC PROGRAM PERFORMANCE", path: '../store/subs/12_musicprogram' },
+            "13_random": { name: "RANDOM CONTENT", path: '../store/subs/13_random' },
+            "14_concert": { name: "CONCERT & LIVE PERFORMANCE", path: '../store/subs/14_concert' },
+            "15_premium": { name: "PREMIUM CONTENT", path: '../store/subs/15_premium' },
+            "16_radio": { name: "RADIO & READING", path: '../store/subs/16_radio' },
+            "17_nonsakamichi": { name: "NON-SAKAMICHI CONTENT", path: '../store/subs/17_nonsakamichi' }
         };
 
         const fetchShowData = async (showId, basePath) => {
