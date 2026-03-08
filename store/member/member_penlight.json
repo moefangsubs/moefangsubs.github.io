@@ -4,7 +4,6 @@
             { "name": "伊藤理々杏", "detailDiv": ["dred", "dpurple"] },
             { "name": "岩本蓮加", "detailDiv": ["dred", "dsakura"] },
             { "name": "梅澤美波", "detailDiv": ["dbluelight", "dblue"] },
-            { "name": "久保史緒里", "detailDiv": ["dbluelight", "dyellow"] },
             { "name": "吉田綾乃クリスティー", "detailDiv": ["dred", "dpurple"] }
         ],
         "gen4": [
@@ -17,8 +16,6 @@
             { "name": "田村真佑", "detailDiv": ["dbluelight", "dpurple"] },
             { "name": "筒井あやめ", "detailDiv": ["dpurple", "dpurple"] },
             { "name": "林瑠奈", "detailDiv": ["dsakura", "dsakura"] },
-            { "name": "松尾美佑", "detailDiv": ["dturqoise", "dwhite"] },
-            { "name": "矢久保美緒", "detailDiv": ["dsakura", "dyellow"] },
             { "name": "弓木奈於", "detailDiv": ["dred", "dgreenpea"] }
         ],
         "gen5": [
@@ -99,12 +96,14 @@
             { "name": "向井葉月", "detailDiv": ["dyellow", "dyellow"] },
             { "name": "与田祐希", "detailDiv": ["dred", "dgreen"] },
             { "name": "佐藤楓", "detailDiv": ["dred", "dred"] },
-            { "name": "中村麗乃", "detailDiv": ["dblue", "dwhite"] }
+            { "name": "中村麗乃", "detailDiv": ["dblue", "dwhite"] },
+            { "name": "久保史緒里", "detailDiv": ["dbluelight", "dyellow"] },
+            { "name": "松尾美佑", "detailDiv": ["dturqoise", "dwhite"] },
+            { "name": "矢久保美緒", "detailDiv": ["dsakura", "dyellow"] }
         ]
     },
     "sakurazaka46": {
         "gen2": [
-            { "name": "井上梨名", "detailDiv": ["dblue", "dblue"] },
             { "name": "遠藤光莉", "detailDiv": ["dpurple", "dpurple"] },
             { "name": "大園玲", "detailDiv": ["dviolet", "dviolet"] },
             { "name": "大沼晶保", "detailDiv": ["dbluepastel", "dyellow"] },
@@ -167,15 +166,14 @@
             { "name": "小林由依", "detailDiv": ["dyellow", "dblue"] },
             { "name": "齋藤冬優花", "detailDiv": ["dyellow", "dyellow"] },
             { "name": "上村莉菜", "detailDiv": ["dsakupink", "dsakupink"] },
-            { "name": "小池美波", "detailDiv": ["dwhite", "dsakupink"] }
+            { "name": "小池美波", "detailDiv": ["dwhite", "dsakupink"] },
+            { "name": "井上梨名", "detailDiv": ["dblue", "dblue"] }
         ]
     },
     "hinatazaka46": {
         "gen2": [
             { "name": "金村美玖", "detailDiv": ["dyellow", "dbluepastel"] },
-            { "name": "河田陽菜", "detailDiv": ["dpink", "dyellow"] },
-            { "name": "小坂菜緒", "detailDiv": ["dviolet", "dwhite"] },
-            { "name": "松田好花", "detailDiv": ["dpink", "dgreenpearl"] }
+            { "name": "小坂菜緒", "detailDiv": ["dviolet", "dwhite"] }
         ],
         "gen3": [
             { "name": "上村ひなの", "detailDiv": ["dred", "dgreenemerald"] },
@@ -225,7 +223,9 @@
             { "name": "佐々木久美", "detailDiv": ["dbluepastel", "dpurple"] },
             { "name": "佐々木美玲", "detailDiv": ["dyellow", "dyellow"] },
             { "name": "高瀬愛奈", "detailDiv": ["dpink", "dwhite"] },
-            { "name": "富田鈴花", "detailDiv": ["dpurple", "dpurple"] }
+            { "name": "富田鈴花", "detailDiv": ["dpurple", "dpurple"] },
+            { "name": "河田陽菜", "detailDiv": ["dpink", "dyellow"] },
+            { "name": "松田好花", "detailDiv": ["dpink", "dgreenpearl"] }
         ]
     }
 }

@@ -12,7 +12,32 @@ document.addEventListener("DOMContentLoaded", function() {
         sick: '../store/member/members_single_hiatus_sick.json'
     };
 
-    const tooltips = { "選抜発表日": "Hari formasi senbatsu diumumkan", "日数の差": "Rentang hari dari formasi senbatsu diumumkan ke tanggal rilis", "発売日": "Hari perilisan single", "人数": "Jumlah", "作詞": "Lirik", "編曲": "Arranger", "作曲": "Composer", "作曲 & 編曲": "Composer & Arranger", "MV監督": "Sutradara MV", "振付師": "Choreographer", "不参加": "Member yang tidak ikut serta...", "初選抜": "Member yang pertama kali masuk senbatsu", "選抜落ち": "Member yang single sebelumnya...", "選抜復帰": "Member yang pernah masuk senbatsu...", "卒業": "Member yang memutuskan lulus", "休業中": "Member yang mengalami penangguhan...", "体調不良": "Member yang kesehatannya memburuk", "交換留学生": "Member pertukaran dari grup lain" };
+    const tooltips = {
+		"選抜発表日": "Hari formasi senbatsu diumumkan",
+		"日数の差": "Rentang hari dari formasi senbatsu diumumkan ke tanggal rilis",
+		"発売日": "Hari perilisan single",
+		"人数": "Total",
+		"1期": "Jumlah member Gen-1",
+		"2期": "Jumlah member Gen-2",
+		"3期": "Jumlah member Gen-3",
+		"4期": "Jumlah member Gen-4",
+		"5期": "Jumlah member Gen-5",
+		"6期": "Jumlah member Gen-6",
+		"作詞": "Lirik",
+		"編曲": "Arranger",
+		"作曲": "Composer",
+		"作曲 & 編曲": "Composer & Arranger",
+		"MV監督": "Sutradara MV",
+		"振付師": "Choreographer",
+		"不参加": "Member yang tidak ikut serta...",
+		"初選抜": "Member yang pertama kali masuk senbatsu",
+		"選抜落ち": "Member yang single sebelumnya...",
+		"選抜復帰": "Member yang pernah masuk senbatsu...",
+		"卒業": "Member yang memutuskan lulus",
+		"休業中": "Member yang mengalami penangguhan...",
+		"体調不良": "Member yang kesehatannya memburuk",
+		"交換留学生": "Member pertukaran dari grup lain"
+	};
     
     Promise.all([
         fetch(a.songall).then(res => res.json()),
@@ -26,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(a.bgColors).then(res => res.json())
     ]).then(([songall, releases, membersData, grad, hiatus, transfer, notPart, sick, bgColors]) => {
         
-        const specialCases = { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 33, 41: 40 };
+        const specialCases = { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 33 };
         const baseUrl = "https://ik.imagekit.io/moearchive/web/memberprofile/";
 
         function setMemberImageWithFallback(imgElement, memberId, currentSingleKey) {
