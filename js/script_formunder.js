@@ -9,7 +9,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Tooltip data
     const tooltips = {
-        "人数": "Jumlah",
+		"人数": "Total",
+		"1期": "Jumlah member Gen-1",
+		"2期": "Jumlah member Gen-2",
+		"3期": "Jumlah member Gen-3",
+		"4期": "Jumlah member Gen-4",
+		"5期": "Jumlah member Gen-5",
+		"6期": "Jumlah member Gen-6",
         "作詞": "Lirik",
         "編曲": "Arranger",
         "作曲": "Composer",

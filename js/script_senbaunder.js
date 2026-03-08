@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <td class="sinnux-cell">${s.num}${getOrdinalSuffix(s.num)}</td>
                     <td class="sgc">${createTitleHtml(s.titleRo, s.titleJp)}</td>
                     <td class="sgc center-cell">${senbatsuCenterHTML}</td>
-                    <td class="cover-cell"><img src="${coverURL}" alt="Cover ${s.num}"></td>
+                    <td class="cover-cell"><img src="${coverURL}" alt="Cover ${s.num}" onerror="this.onerror=null;this.src='https://ik.imagekit.io/moearchive/web/unrelease.png';"></td>
                     <td class="udc center-cell">${underCenterHTML}</td>
                     <td class="udc">${createTitleHtml(s.underSongRo, s.underSongJp)}</td>
                 </tr>`;
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 cardHTML += `<div class="single-card">
                     <div class="card-cover">
-                        <img src="${coverURL}" alt="Cover ${s.num}">
+                        <img src="${coverURL}" alt="Cover ${s.num}" onerror="this.onerror=null;this.src='https://ik.imagekit.io/moearchive/web/unrelease.png';">
                         <div class="ordinal-number">${s.num}${getOrdinalSuffix(s.num)}</div>
                     </div>
                     <div class="card-details">
