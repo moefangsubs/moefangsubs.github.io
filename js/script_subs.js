@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '../store/subs/15_premium/',
         '../store/subs/16_radio/',
         '../store/subs/17_nonsakamichi/'
-    ];
+    ];	
     const MEMBERS_DATA_PATH = '../store/member/members.json';
     const WARNINGS_DATA_PATH = '../store/subs/warn.json';
     const FAQ_DATA_PATH = '../store/data/faq.json';
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentShowPath = showInfo.path;
             document.title = `${currentShowData.nameShowTitle} | MoeFang Subs`;
             
-            const isSingleEpisodeView = currentShowPath.includes('07_movie/') || currentShowPath.includes('08_stage/');
+            const isSingleEpisodeView = currentShowPath.includes('08_movie/') || currentShowPath.includes('09_stage/');
 
             if (isSingleEpisodeView && (!currentShowData.availableEpisode || currentShowData.availableEpisode.length === 0)) {
                 currentShowData.availableEpisode = ["01"];

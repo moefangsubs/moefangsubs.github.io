@@ -5,8 +5,7 @@
     "nameShow": "もしもアイドルがじゃなかったら",
 	"descSynopsis": "",
     "availableEpisode": [
-		"01a", "01b",
-		"02a", "02b",
+		"01a", "01b", "02a", "02b",
 		"int11", "int12", "int13", "int14", 
 		"int21", "int22", "int23", "int24", "int25", "int26"
 	],
@@ -14,7 +13,7 @@
         "01a": {
 			"descEpisode": "| Ichinose Miku Ep.1",
 			"descEpsListName": "美空①",
-			"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai01a.jpg",
 			"descOnAirDate": "13 Februari 2026",
 			"memberParticipate": "一ノ瀬美空",
@@ -23,7 +22,7 @@
         "01b": {
 			"descEpisode": "| Ichinose Miku Ep.2",
 			"descEpsListName": "美空②",
-			"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai01b.jpg",
 			"descOnAirDate": "17 Februari 2026",
 			"memberParticipate": "一ノ瀬美空",
@@ -32,7 +31,7 @@
         "02a": {
 			"descEpisode": "| Kanemura Miku Ep.1",
 			"descEpsListName": "美玖①",
-			"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai02a.jpg",
 			"descOnAirDate": "21 Februari 2026",
 			"memberParticipate": "金村美玖", 
@@ -41,22 +40,22 @@
         "02b": {
 			"descEpisode": "| Kanemura Miku Ep.2",
 			"descEpsListName": "美玖②",
-			"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai02b.jpg",
 			"descOnAirDate": "25 Februari 2026",
 			"memberParticipate": "金村美玖", 
 			"linkHardsub": "https://sfl.gl/4AWnSc5"
 		},
-		"int11": { "descEpisode": "Interview 1", "descEpsListName": "インタビュー①", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/xWtNST"},
-		"int12": { "descEpisode": "Interview 2", "descEpsListName": "インタビュー②", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/4EOp4J"},
-		"int13": { "descEpisode": "Interview 3", "descEpsListName": "インタビュー③", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/yAUW"},
-		"int14": { "descEpisode": "Interview 4", "descEpsListName": "インタビュー④", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/Xe7F31t"},
-		"int21": { "descEpisode": "Interview 1", "descEpsListName": "インタビュー①", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/Ychi"},
-		"int22": { "descEpisode": "Interview 2", "descEpsListName": "インタビュー②", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/IuWlIGf"},
-		"int23": { "descEpisode": "Interview 3", "descEpsListName": "インタビュー③", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/dexTUDx9"},
-		"int24": { "descEpisode": "Interview 4", "descEpsListName": "インタビュー④", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/O9x2cERb"},
-		"int25": { "descEpisode": "Interview 5", "descEpsListName": "インタビュー⑤", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/LNBzxO"},
-		"int26": { "descEpisode": "Interview 6", "descEpsListName": "インタビュー⑥", "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/tNV9"}
+		"int11": { "descEpisode": "Interview 1", "descEpsListName": "インタビュー①", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/xWtNST"},
+		"int12": { "descEpisode": "Interview 2", "descEpsListName": "インタビュー②", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/4EOp4J"},
+		"int13": { "descEpisode": "Interview 3", "descEpsListName": "インタビュー③", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/yAUW"},
+		"int14": { "descEpisode": "Interview 4", "descEpsListName": "インタビュー④", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_01int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_01int.jpg", "memberParticipate": "一ノ瀬美空", "linkHardsub": "https://sfl.gl/Xe7F31t"},
+		"int21": { "descEpisode": "Interview 1", "descEpsListName": "インタビュー①", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/Ychi"},
+		"int22": { "descEpisode": "Interview 2", "descEpsListName": "インタビュー②", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/IuWlIGf"},
+		"int23": { "descEpisode": "Interview 3", "descEpsListName": "インタビュー③", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/dexTUDx9"},
+		"int24": { "descEpisode": "Interview 4", "descEpsListName": "インタビュー④", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/O9x2cERb"},
+		"int25": { "descEpisode": "Interview 5", "descEpsListName": "インタビュー⑤", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/LNBzxO"},
+		"int26": { "descEpisode": "Interview 6", "descEpsListName": "インタビュー⑥", "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/moshiai_02int.jpg","imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/moshiai_02int.jpg", "memberParticipate": "金村美玖", "linkHardsub": "https://sfl.gl/tNV9"}
     }
 }
 
