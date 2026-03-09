@@ -221,14 +221,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function fetchShowData(showName) {
-        for (const prefix of DATA_PATH_PREFIXES) {
-            try {
+        try {
+            const listData = await fetchData('../store/subs/list.json');
+            let targetFolder = null;
+
+            for (const category in listData) {
+                if (listData[category].includes(showName)) {
+                    targetFolder = category;
+                    break;
+                }
+            }
+            if (targetFolder) {
+                const prefix = `../store/subs/${targetFolder}/`;
                 const data = await fetchData(`${prefix}${showName}.json`);
                 return { data: data, path: prefix };
-            } catch (error) {
+            } else {
+                console.error(`Acara "${showName}" tidak terdaftar di list.json`);
+                return null;
             }
+        } catch (error) {
+            console.error("Error mencari data show:", error);
+            return null;
         }
-        return null;
     }
     
     function renderWarningBox(showPath, showName, currentEpisode) {
