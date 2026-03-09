@@ -1,0 +1,207 @@
+:root {
+    --color-nogi: #814fa2;
+    --color-saku: #f19db5;
+    --color-hina: #7cc7e8;
+    --color-boku: #2980b9;
+}
+
+.titlehead {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    margin-bottom: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #dddddd;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-group label {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #444;
+}
+
+.filter-group select {
+    padding: 5px 10px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#academic-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.year-row {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+
+.year-label {
+    width: 140px;
+    background: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+    border-right: 1px solid #dddddd;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.year-label .main-year {
+    font-size: 1.5em;
+    line-height: 1.1;
+}
+
+.year-label .sub-year {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.year-label .acad-level {
+    font-size: 0.85em;
+    color: #ffffff;
+    background-color: #555555;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.year-members {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.member-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid transparent;
+    background: #fff;
+    overflow: hidden;
+}
+
+.group-nogi { border-color: var(--color-nogi); }
+.group-saku { border-color: var(--color-saku); }
+.group-hina { border-color: var(--color-hina); }
+.group-boku { border-color: var(--color-boku); }
+
+.member-item img {
+    object-fit: cover;
+    display: block;
+}
+
+.member-name-block {
+    padding: 5px;
+    background: #f9f9f9;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.m-name-jp {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #000;
+}
+
+.m-name-rm {
+    font-size: 0.7em;
+    color: #666;
+}
+
+.mode-photo .member-item {
+    width: 80px;
+    height: 100px;
+}
+
+.mode-photo .member-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.mode-photo .member-name-block {
+    display: none;
+}
+
+.mode-photo-name .member-item {
+    width: 100px;
+}
+
+.mode-photo-name .member-item img {
+    width: 100px;
+    height: 130px;
+}
+
+.mode-photo-name .member-name-block {
+    display: block;
+}
+
+.mode-name .member-item {
+    width: auto;
+    padding: 5px 10px;
+}
+
+.mode-name .member-item img {
+    display: none;
+}
+
+.mode-name .member-name-block {
+    display: block;
+    background: transparent;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .year-row {
+        flex-direction: column;
+    }
+    
+    .year-label {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #dddddd;
+        padding: 15px 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .year-label .sub-year {
+        margin-top: 0;
+    }
+
+    .year-label .acad-level {
+        margin-top: 0;
+    }
+}

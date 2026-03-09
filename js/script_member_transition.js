@@ -150,10 +150,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     let ava = getAvatarUrl(g.id, group.date, g.foto);
                     
+                    let genNum = g.gen.replace('期','');
+                    let genClass = ["1", "2", "3", "4", "5", "6"].includes(genNum) ? `gen-${genNum}` : "gen-other";
+                    
                     gradListHTML += `
                         <li class="grad-item">
                             <img src="${ava.src}" onerror="this.onerror=null;this.src='${ava.fallback}';" class="mini-ava grad-ava" title="${g.name}" alt="${g.name}">
-                            <span class="grad-name"><span class="grad-action grad-label">${actionText}</span> (${g.gen}) ${g.name}</span>
+                            <span class="grad-name">
+                                <span class="grad-action grad-label">${actionText}</span>
+                                <span class="grad-action ${genClass}">${g.gen}</span>
+                                ${g.name}
+                            </span>
                         </li>`;
                 });
                 gradListHTML += `</ul>`;

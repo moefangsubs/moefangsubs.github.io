@@ -1,0 +1,152 @@
+:root {
+    --color-blood-a: #e74c3c;
+    --color-blood-b: #3498db;
+    --color-blood-o: #2ecc71;
+    --color-blood-ab: #9b59b6;
+    --color-blood-unknown: #95a5a6;
+    --flat-border: 1px solid #dddddd;
+}
+
+.titlehead {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    margin-bottom: 30px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.controls-container {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    padding: 15px;
+    border: var(--flat-border);
+    margin-bottom: 40px;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-group label {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #444444;
+}
+
+.filter-group select {
+    padding: 8px 15px;
+    font-family: inherit;
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 0.95em;
+    background: #fdfdfd;
+}
+
+#blood-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.blood-section {
+    background: #ffffff;
+    border: var(--flat-border);
+}
+
+.blood-header {
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.group-A型 .blood-header { background-color: var(--color-blood-a); }
+.group-B型 .blood-header { background-color: var(--color-blood-b); }
+.group-O型 .blood-header { background-color: var(--color-blood-o); }
+.group-AB型 .blood-header { background-color: var(--color-blood-ab); }
+.group-不明 .blood-header { background-color: var(--color-blood-unknown); }
+
+.blood-count {
+    font-size: 0.7em;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+
+.blood-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+}
+
+.member-card {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background: #fcfcfc;
+    border: 1px solid #f0f0f0;
+}
+
+.member-card img {
+    width: 110px;
+    height: 146px;
+    object-fit: cover;
+    margin-bottom: 12px;
+    border: 1px solid #eeeeee;
+}
+
+.m-name-jp {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.m-name-rm {
+    font-size: 0.75em;
+    color: #777777;
+}
+
+.member-lulus {
+    opacity: 0.6;
+}
+
+.member-lulus img {
+    filter: grayscale(100%);
+}
+
+@media screen and (max-width: 768px) {
+    .blood-members {
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .member-card {
+        width: 110px;
+        padding: 8px;
+    }
+
+    .member-card img {
+        width: 90px;
+        height: 120px;
+    }
+
+    .m-name-jp {
+        font-size: 1.05em;
+    }
+}

@@ -16,6 +16,23 @@
     box-shadow: 6px 6px 0px 0px var(--moe-tint5);
     border: 3px solid var(--moe);
     background-color: white;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.gen-1 { font-weight: 400 !important; background-color: #800080; color: white; }
+.gen-2 { font-weight: 400 !important; background-color: #333333; color: white; }
+.gen-3 { font-weight: 400 !important; background-color: #00a1d6; color: white; }
+.gen-4 { font-weight: 400 !important; background-color: #ff983d; color: white; }
+.gen-5 { font-weight: 400 !important; background-color: #d966ff; color: white; }
+.gen-6 { font-weight: 400 !important; background-color: #00e5ff; color: #333333; }
+.gen-other { font-weight: 400 !important; background-color: #888888; color: white; }
+
+@media screen and (max-width: 768px) {
+    .sticky-col-date {
+        white-space: normal;
+        min-width: 90px;
+    }
 }
 
 .transition-table {
@@ -26,7 +43,7 @@
 
 .transition-table th {
     position: sticky;
-    top: 60px; 
+    top: 0;
     z-index: 10;
     background-color: var(--moe);
     color: white;
@@ -121,7 +138,6 @@
     font-weight: bold;
     padding: 3px 8px;
     border-radius: 4px;
-    margin-right: 5px;
     display: inline-block;
     text-align: center;
 }

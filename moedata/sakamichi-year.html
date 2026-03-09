@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- Title -->
+    <title>MoeData | Sakamichi Birth Year</title>
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- Kepala dan kaki wkwkwk -->
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_member_year.css">    
+	
+    <script type="text/javascript" src="../js/script_member_year.js"></script>
+</head>
+<body>
+    <div class="contentpage container">
+        <div class="titlehead">
+            <h1>Sakamichi Birth Year</h1>
+        </div>
+        <div class="justify intro-text">
+            Halaman ini menampilkan urutan member Sakamichi Series dan BokuAo berdasarkan tahun kelahiran mereka.
+        </div>
+
+        <div class="controls-container">
+            <div class="filter-group">
+                <label>Grup:</label>
+                <select id="filter-group">
+                    <option value="all">Semua Grup</option>
+                    <option value="nogi">Nogizaka46</option>
+                    <option value="keya">Keyakizaka46</option>
+                    <option value="saku">Sakurazaka46</option>
+                    <option value="hina">Hinatazaka46</option>
+                    <option value="boku">BokuAo</option>
+                </select>
+            </div>
+            
+            <div class="filter-group">
+                <label>Status:</label>
+                <select id="filter-status">
+                    <option value="all">Semua Status</option>
+                    <option value="aktif">Aktif</option>
+                    <option value="lulus">Lulus</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label>Tampilan:</label>
+                <select id="display-mode">
+                    <option value="mode-photo">Foto Saja</option>
+                    <option value="mode-photo-name">Foto & Nama</option>
+                    <option value="mode-name">Nama Saja</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="year-container"></div>
+        
+        <div class="rectangle"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+:root {
+    --color-nogi: #814fa2;
+    --color-saku: #f19db5;
+    --color-hina: #7cc7e8;
+    --color-keya: #1b6a21;
+    --color-boku: #2980b9;
+    --flat-border: 1px solid #dddddd;
+}
+
+.titlehead {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    margin-bottom: 40px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+#pitch-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pitch-card {
+    display: flex;
+    background: #ffffff;
+    border: var(--flat-border);
+    overflow: hidden;
+}
+
+.pitch-photo {
+    width: 200px;
+    min-width: 200px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pitch-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pitch-info {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pitch-header {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.pitch-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.m-name-jp {
+    font-size: 1.6em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.group-nogi .m-name-jp { color: var(--color-nogi); }
+.group-saku .m-name-jp { color: var(--color-saku); }
+.group-hina .m-name-jp { color: var(--color-hina); }
+.group-keya .m-name-jp { color: var(--color-keya); }
+.group-boku .m-name-jp { color: var(--color-boku); }
+
+.pitch-badge {
+    font-size: 1em;
+    padding: 5px 8px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    /* letter-spacing: 1px; */
+}
+
+.badge-first { background-color: #2ecc71; }
+.badge-repeat { background-color: #3498db; }
+
+.m-name-rm {
+    font-size: 0.85em;
+    color: #666666;
+    margin-top: 4px;
+}
+
+.pitch-details {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 8px 15px;
+    font-size: 0.9em;
+}
+
+.detail-label {
+    font-weight: bold;
+    color: #555555;
+}
+
+.detail-value {
+    color: #222222;
+}
+
+@media screen and (max-width: 768px) {
+    .pitch-card {
+        flex-direction: column;
+    }
+    
+    .pitch-photo {
+        width: 100%;
+        height: 250px;
+        min-width: unset;
+    }
+    
+    .pitch-details {
+        grid-template-columns: 1fr;
+        gap: 2px;
+    }
+
+    .detail-label {
+        margin-top: 10px;
+    }
+}
