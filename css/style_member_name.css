@@ -1,0 +1,128 @@
+:root {
+    --moe-light: #f8efff;
+    --moe-border: #e7c7ff;
+    --highlight-bg: #fce4e4;
+    --highlight-text: #e74c3c;
+}
+
+.titlehead {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    margin-bottom: 40px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+#name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.category-block {
+    background: #ffffff;
+    border: 1px solid var(--moe-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cat-header {
+    background: var(--moe);
+    color: #ffffff;
+    padding: 15px 20px;
+}
+
+.cat-header h2 {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.cat-body {
+    padding: 20px;
+}
+
+.cat-desc {
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-size: 0.95em;
+    background: var(--moe-light);
+    padding: 15px;
+    border-left: 4px solid var(--moe);
+}
+
+.sub-title {
+    color: var(--moe);
+    border-bottom: 2px solid var(--moe-border);
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.member-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.member-table th, .member-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.member-table th {
+    background: #fdfdfd;
+    color: #666666;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.col-name .jp-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--moe);
+}
+
+.col-name .rm-name {
+    font-size: 0.75em;
+    color: #888888;
+}
+
+.col-hiragana b {
+    color: var(--highlight-text);
+    font-weight: 900;
+    background: var(--highlight-bg);
+    padding: 0 4px;
+    border-radius: 4px;
+}
+
+.col-gen {
+    font-weight: bold;
+    color: #555555;
+}
+
+.col-surname, .col-nickname {
+    font-size: 0.95em;
+    color: #333333;
+}
+
+.empty-msg {
+    text-align: center;
+    color: #888888;
+    font-style: italic;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .member-table { 
+        display: block; 
+        overflow-x: auto; 
+        white-space: nowrap;
+    }
+}
