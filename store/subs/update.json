@@ -1,5 +1,23 @@
 [
   {
+    "date": "260315",
+    "updates": [
+      {"showId": "nogizaka-fractal-yuuna-no-heya", "eps":"01"},
+      {"showId": "moshimo-aidoru-ga-janakattara", "eps":"int27"},
+      {"showId": "moshimo-aidoru-ga-janakattara", "eps":"int28"},
+      {"showId": "moshimo-aidoru-ga-janakattara", "eps":"int29"},
+      {"showId": "moshimo-aidoru-ga-janakattara", "eps":"int210"},
+      {"showId": "rojiura-hotel", "eps":"01b"},
+      {"showId": "kao-no-nai-kanja", "eps":"10"},
+      {"showId": "sukui-sukuware", "eps":"05"},
+      {"showId": "ima-doko-ni-iru-no", "eps":"01"},
+      {"showId": "showroom", "eps":"46"},
+      {"showId": "showroom", "eps":"47"},
+      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260310"},
+      {"showId": "utabangumi-venue101", "eps":"260314"}
+    ]
+  },
+  {
     "date": "260307",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"38"},
@@ -105,68 +123,6 @@
       {"showId": "showroom", "eps":"45"},
       {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260225"},
       {"showId": "live-performance", "eps":"18"}
-    ]
-  },
-  {
-    "date": "260227",
-    "updates": [
-      {"showId": "concert", "eps":"10"}
-    ]
-  },
-  {
-    "date": "260224",
-    "updates": [
-      {"showId": "concert", "eps":"09"}
-    ]
-  },
-  {
-    "date": "260223",
-    "updates": [
-      {"showId": "equal-love-kokoko", "eps":"01"},
-      {"showId": "equal-love-kokoko", "eps":"02"},
-      {"showId": "equal-love-kokoko", "eps":"03"},
-      {"showId": "equal-love-kokoko", "eps":"04"},
-      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"06"},
-      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"07"},
-      {"showId": "kao-no-nai-kanja", "eps":"06"},
-      {"showId": "kao-no-nai-kanja", "eps":"07"},
-      {"showId": "sukui-sukuware", "eps":"01"},
-      {"showId": "sukui-sukuware", "eps":"02"},
-      {"showId": "concert", "eps":"08"}
-    ]
-  },
-  {
-    "date": "260218",
-    "updates": [
-      {"showId": "nogizaka-star-tanjou-six", "eps":"36"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"37"},
-      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"76"},
-      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"05"},
-      {"showId": "kao-no-nai-kanja", "eps":"05"},
-      {"showId": "cupstar-ane-to-itsumademo", "eps":"07"},
-      {"showId": "showroom", "eps":"41"},
-      {"showId": "showroom", "eps":"42"},
-      {"showId": "showroom", "eps":"43"},
-      {"showId": "showroom", "eps":"44"},
-      {"showId": "mini-live", "eps":"40"},
-      {"showId": "live-performance", "eps":"16"},
-      {"showId": "live-performance", "eps":"17"},
-      {"showId": "utabangumi-music-fair", "eps":"251206"}
-    ]
-  },
-  {
-    "date": "260205",
-    "updates": [
-      {"showId": "nogizaka-star-tanjou-six", "eps":"32"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"33"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"34"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"35"},
-      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"03"},
-      {"showId": "honmei-janakya-yokatta-no-ni", "eps":"04"},
-      {"showId": "kao-no-nai-kanja", "eps":"03"},
-      {"showId": "kao-no-nai-kanja", "eps":"04"},
-      {"showId": "live-performance", "eps":"15"},
-      {"showId": "graduation-concert", "eps":"12"}
     ]
   }
 ]

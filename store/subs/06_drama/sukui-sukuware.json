@@ -5,7 +5,7 @@
     "nameShow": "救い、救われ",
 	"descSynopsis": "Minase Ama, idola pemula yang dirundung rekan grupnya, mulai menjalin hubungan dengan aktor populer Hosho Chiaki setelah menjadi pemeran pengganti dalam dramanya. Chiaki awalnya mendekati Ama karena taruhan dengan Kairi, namun kemurnian Ama perlahan memikatnya. Perasaan tersebut kemudian berkembang menjadi obsesi posesif yang mengaburkan batas antara cinta dan keterikatan yang berbahaya.",
     "availableEpisode": [
-		"01", "02", "03", "04"
+		"01", "02", "03", "04", "05"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sukui{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}.jpg",
@@ -15,27 +15,31 @@
 	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}d.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/sukui-sukuware-oiOLO",
     "filePassword": "TamamiNgedramaJadiIdol",
-    "memberParticipate": "阪口珠美",
     "episodes": {
         "01": {
 			"descEpisodeSynopsis": "Atas arahan Chiaki, Ama menjadi pemeran pengganti dalam sebuah drama. Chiaki mulai cemburu melihat kedekatan Ama dengan lawan mainnya, Hachimura Rintaro. Hubungan mereka semakin erat setelah Ama menolong Chiaki dari pemerasan ibunya, Natsumi. Seiring perkembangan karier Ama di bawah sutradara Tanuma, rasa sayang Chiaki pun berubah menjadi keinginan untuk mendominasi dan memiliki secara penuh.",
+			"memberParticipate": "阪口珠美",
             "linkHardsub": "https://sfl.gl/0hKchFS"
         },
         "02": {
 			"descEpisodeSynopsis": "Ama dituduh mencuri oleh rekan grupnya di LUNA NEST. Chiaki berusaha menghiburnya, namun ia tetap merasa terancam oleh kedekatan Ama dengan Hachimura. Setelah merasakan kehangatan keluarga Ama, Chiaki harus menghadapi sikap dingin Natsumi. Ama yang menyaksikan penderitaan Chiaki melakukan tindakan berani untuk melindunginya, sehingga membuat ikatan batin di antara keduanya mulai bergeser secara emosional.",
+			"memberParticipate": "阪口珠美",
             "linkHardsub": "https://sfl.gl/T5jt2m"
         },
         "03": {
 			"descEpisodeSynopsis": "Ama memberikan dukungan emosional kepada Chiaki yang tertekan oleh Natsumi. Chiaki pun membalasnya dengan berusaha mengungkap kebenaran di balik fitnah yang dilakukan Anna. Saat audisi proyek Tanuma, Ama bertemu kembali dengan Kairi yang memicu kenangan masa lalu yang pahit. Di sisi lain, Chiaki akhirnya menyadari kedalaman perasaannya terhadap Ama setelah mendapat teguran dari Shiki.",
+			"memberParticipate": "阪口珠美",
             "linkHardsub": "https://sfl.gl/U4gl0"
         },
         "04": {
 			"descEpisodeSynopsis": "Chiaki menyatakan perasaan tidak ingin kehilangan Ama dan mengajukan hubungan percobaan yang kemudian diterima oleh Ama. Sementara itu, Chiaki mengaku kalah dari taruhannya dengan Kairi perihal mendekati Ama, tanpa menyadari bahwa keduanya menyukai orang yang sama. Setelah Ama dan Kairi berdamai atas masa lalu, Chiaki merasa cemas serta cemburu saat mengetahui Ama akan membintangi film romantis dengan adegan intim hingga melakukan tindakan rahasia di balik layar. Ketegangan semakin meningkat saat sosok wanita baru mulai muncul membayangi hubungan tersebut.",
+			"memberParticipate": "阪口珠美",
             "linkHardsub": "https://sfl.gl/m40A"
         },
         "05": {
 			"descEpisodeSynopsis": "Ama mendapatkan peran kecil dalam sebuah film berkat campur tangan Chiaki secara rahasia. Situasi menjadi rumit saat Ama mengetahui bahwa Kairi adalah lawan main yang berperan sebagai kekasih dalam film tersebut. Chiaki yang merasa tidak tenang mulai menunjukkan perilaku posesif dengan memberikan kunci cadangan serta meminta berbagi lokasi melalui aplikasi, yang diterima Ama dengan polos. Saat proses syuting membuat hubungan Ama dan Kairi semakin dekat, Chiaki akhirnya menyadari keterlibatan Kairi serta hubungan masa lalu mereka, yang memicu kemarahan besar serta guncangan emosi terhadap Ama.",
-            "linkHardsub": ""
+			"memberParticipate": "阪口珠美、若月佑美",
+            "linkHardsub": "https://sfl.gl/ffz9uUp7"
         },
         "06": {
 			"descEpisodeSynopsis": "",
