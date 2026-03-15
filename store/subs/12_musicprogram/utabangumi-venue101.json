@@ -6,9 +6,9 @@
 		"221126",
 		"230318",
 		"250726",
-		"251122"
+		"251122",
+		"260314"
 	],
-	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_venue101.png",
 	"episodes": {
 		"221126": {
@@ -63,6 +63,17 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251122-venue101-nogizaka46-c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251122-venue101-nogizaka46-d.jpg",
 			"descEpisodeSynopsis": "Di kesempatan kali ini, Venue101 kembali menghadirkan tamu Nogizaka46. Mereka akan membawakan single terbarunya \"Biryani\", tapi sebelum itu, kita akan melihat VTR dimana Ikuchan diam-diam datang ke tempat latihan masa-masa awalnya dan berniat mengejutkan Kubo Shiori, yang saat itu hendak lulus, dan Venue101 adalah penampilan terakhirnya di acara musik."
+		},
+		"260314": {
+			"descEpisode": "| 260314",
+			"descOnAirDate": "14 Maret 2026",
+			"memberParticipate": "乃木坂46、生田絵梨花",
+			"linkHardsub": "https://sfl.gl/nWUWc",
+			"linkTrakteer": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260314_venue101_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260314-venue101-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 membawakan lagu \"Kimi no Na wa Kibou\" di \"Venue101 EXTRA in Sendai\". Siaran ini diperkenalkan sebagai penampilan langsung yang menyampaikan harapan dari Sendai pada peringatan 15 tahun gempa bumi. Ini adalah edisi spesial dari program musik NHK yang dipandu oleh Hamaie Ryuichi dari Kamaitachi dan Ikuta Erika.",
+			"nameShow": "Venue 101 in 仙台～震災から15年 未来へ～"
 		}
 	},
 	"descEpsListName":"{{eps}}"

@@ -1,10 +1,10 @@
 {
 	"url": "nogizaka-gakuen-houkago-chokuzen-talk",
-	"nameShowTitle": "Nogizaka Gakuen Houkago Chozuen Talk",
+	"nameShowTitle": "Nogizaka Gakuen Houkago Chokuzen Talk",
 	"nameShow": "乃木坂学園 放課後 直前トーク",
 	"descSynopsis": "Ini adalah tayangan pendek berupa tugas kepada member yang baru saja siaran Nogiobi, dan mereka akan mengerjakan atau menjawab sesuai tema yang diberikan.",
 	"availableEpisode": [
-		"260225"
+		"260225", "260310"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_houkago.png",
 	"episodes": {
@@ -17,6 +17,16 @@
 			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/SRhoukago_260225.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/SRhoukago_260225.jpg"
+		},
+		"260310": {
+			"descEpisode": "| 260310 Tomisato Nao",
+			"descEpsListName": "Tomisato Nao",
+			"descOnAirDate": "10 Maret 2026",
+			"memberParticipate": "冨里奈央",
+			"linkHardsub": "https://sfl.gl/axDz",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/SRhoukago_260310.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/SRhoukago_260310.jpg"
 		}
 	}
 }

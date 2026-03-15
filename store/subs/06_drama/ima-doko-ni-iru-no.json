@@ -1,0 +1,29 @@
+{
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_imadoko.png",
+    "url": "ima-doko-ni-iru-no",
+    "nameShowTitle": "Ima, Doko ni iru no ~Oshi ni GPS Tsuketemita~ (2026)",
+    "nameShow": "いま、どこにいるの~推しにGPSつけてみた~",
+	"descSynopsis": "Grup idola \"GOLDEN PASS\" terbentuk melalui acara audisi populer dan secara bertahap meraih popularitas di bawah kepemimpinan Alice. Seyama Asuka, seorang penggemar fanatik sejak masa audisi, memiliki keinginan obsesif untuk mengetahui segala aktivitas para anggota selama 24 jam sehingga ia nekat melacak lokasi ponsel mereka melalui GPS secara terus-menerus. Namun, pelacakan tersebut justru mengungkap sisi gelap yang mengejutkan di balik citra berkilauan para anggota hingga suatu hari Asuka menyaksikan sebuah insiden mengerikan yang menyeretnya ke dalam peristiwa tidak terduga akibat tindakan pelacakan tersebut.",
+    "availableEpisode": [
+		"01"
+	],
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/imadoko{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/imadoko/imadoko{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/ima-doko-ni-iru-no-oshi-ni-gps-tsuketemita-JtQvg",
+    "filePassword": "MyOshiIsMyWholeLife",
+    "memberParticipate": "樋口日奈",
+    "episodes": {
+        "01": { "linkHardsub": "https://sfl.gl/Rrn2gNW" }, 
+        "02": { "linkHardsub": "" },
+        "03": { "linkHardsub": "" },
+        "04": { "linkHardsub": "" },
+        "05": { "linkHardsub": "" },
+        "06": { "linkHardsub": "" },
+        "07": { "linkHardsub": "" },
+        "08": { "linkHardsub": "" },
+        "09": { "linkHardsub": "" },
+        "10": { "linkHardsub": "" }
+    },
+	"descOnAirDatePattern": "260307",
+    "OnAirEvery": 7
+}

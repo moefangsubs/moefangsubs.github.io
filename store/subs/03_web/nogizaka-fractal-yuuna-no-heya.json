@@ -1,0 +1,23 @@
+{
+	"url": "nogizaka-fractal-yuuna-no-heya",
+	"nameShowTitle": "Yuuna no Heya",
+	"nameShow": "乃木フラ presents 佑捺‎‎の部屋",
+	"descSynopsis": "\"Yuuna no Heya\" adalah acara resmi Nogi Fractal yang dibawakan oleh Suzuki Yuuna, dimana ia mendapat dipilih menjadi MC kedua menggantikan senpainya yang lulus, Yakubo Mio. Siarannya selalu diadakan di NogiFra Official X (Twitter) sebulan sekali.",
+	"availableEpisode": [
+		"01"
+	],
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/yuuna-no-heya-C9Tmq",
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_yuunanoheya.png",
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/yuunanoheya{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/yuunanoheya{{eps}}.jpg",
+    "imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/yuunanoheya{{eps}}a.jpg",
+    "imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/yuunanoheya{{eps}}b.jpg",
+    "imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/yuunanoheya{{eps}}c.jpg",
+    "imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/yuunanoheya{{eps}}d.jpg",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "28 Februari 2026",
+			"memberParticipate": "鈴木佑捺‎‎、遠藤さくら"
+		}
+	}
+}
