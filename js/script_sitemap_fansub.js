@@ -11,9 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
             container.innerHTML = ''; // Kosongkan container
             
             data.forEach(item => {
-                // Formatting tanggal (opsional, disesuaikan)
                 const dateObj = new Date(item.date);
                 const dateString = dateObj.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
+
+                // Membuat class CSS khusus berdasarkan nama fansub
+                const tagClass = item.fansub.toLowerCase().replace(/[^a-z0-9]/g, '');
 
                 const cardHTML = `
                     <div class="partner-item-wrapper">
@@ -22,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
                             <a href="${item.link}" target="_blank" style="text-decoration: none; display: flex; flex-direction: column; height: 100%;">
                                 <img src="${item.thumbnail}" class="partner-item-thumb" alt="${item.title}" loading="lazy">
                                 <div class="partner-item-caption">
-                                    <span class="partner-tag">${item.fansub}</span>
+                                    <span class="partner-tag ${tagClass}">${item.fansub}</span>
                                     <strong>${item.title}</strong>
                                     <span class="partner-date">📅 ${dateString}</span>
                                 </div>
