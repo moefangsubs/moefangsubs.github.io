@@ -1,0 +1,98 @@
+.fansub-partner {
+    background-color: var(--moe-tint7);
+    padding: 3rem 0;
+    width: 100%;
+}
+#daftar-partner {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#daftar-partner h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--moe-shade-max1);
+    margin-bottom: 2rem;
+    border-bottom: 2px dashed var(--moe-tint4);
+    padding-bottom: 10px;
+}
+.partner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+.partner-item-wrapper {
+    position: relative;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    transition: transform 0.2s ease-in-out;
+}
+.partner-item-wrapper:hover {
+    transform: translateY(-5px);
+}
+.partner-item-shadow {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 1;
+    background: var(--moe-tint3);
+    transform: translate(3px, 3px);
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+.partner-item {
+    width: 100%; height: 100%;
+    background-color: var(--moe-tint6);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2; 
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+.partner-item::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    z-index: 3;
+    background: var(--moe-shade-max1);
+    clip-path: var(--pixel-update-clip-path-border);
+    pointer-events: none;
+}
+.partner-item-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background-color: var(--moe-shade-min1);
+}
+.partner-item-caption {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.partner-tag {
+    background-color: var(--moe);
+    color: white;
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    align-self: flex-start;
+    font-weight: bold;
+    margin-bottom: 8px;
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+.partner-item-caption strong {
+    color: var(--moe-shade-max2);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.partner-date {
+    font-size: 0.75rem;
+    color: var(--moe-tint2);
+    margin-top: auto;
+}
