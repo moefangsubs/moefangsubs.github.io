@@ -72,8 +72,11 @@
     flex-grow: 1;
 }
 
+.partner-date {
+    font-size: .8rem;
+    padding-top: .5rem;
+}
 
-/* Hilangkan background-color dan color default dari sini */
 .partner-tag {
     font-size: 0.7rem;
     padding: 3px 8px;
@@ -83,27 +86,83 @@
     clip-path: var(--pixel-update-clip-path-outer);
 }
 
-/* WARNA KHUSUS NOGIZAKA (Kuneeel) */
-.partner-tag.kuneeel {
+/* =========================================
+   1. KUNEEEL
+========================================= */
+.kuneeel .partner-tag { 
     background-color: var(--moe); 
-    color: white;
+    color: white; 
+}
+.kuneeel .partner-item { 
+    background-color: var(--moe-tint7);
+}
+.kuneeel .partner-item-shadow { 
+    background-color: var(--moe-tint3);
+}
+.kuneeel .partner-item::after { 
+    background-color: var(--moe-tint3);
+}
+.kuneeel .partner-item-caption strong { 
+    color: var(--moe-shade-max2);
 }
 
-/* WARNA KHUSUS SAKURAZAKA (Runsubs) */
-.partner-tag.runsubs {
-    background-color: white;
-    color: #f29cd0;
+/* =========================================
+   2. RUNSUBS
+========================================= */
+.runsubs .partner-tag { 
+    background-color: #f29cd0; 
+    color: white; 
     box-shadow: inset 0 0 0 1px #f29cd0; 
 }
-
-/* WARNA KHUSUS HINATAZAKA (S4H6NMICHI) */
-.partner-tag.s4h6nmichi {
-    background-color: #7cc7e8; /* Sky Blue Hinatazaka */
-    color: white;
+.runsubs .partner-item { 
+    background-color: #fdf2f8;
+}
+.runsubs .partner-item-shadow { 
+    background-color: #f29cd0;
+}
+.runsubs .partner-item::after { 
+    background-color: #f29cd0;
+}
+.runsubs .partner-item-caption strong { 
+    color: #d44c9f;
 }
 
-/* WARNA KHUSUS BOKUAO (HikamiSubs) */
-.partner-tag.hikamisubs {
-    background-color: #0B3F84;
-    color: white;
+/* =========================================
+   3. S4H6NMICHI
+========================================= */
+.s4h6nmichi .partner-tag { 
+    background-color: #7cc7e8; 
+    color: white; 
+}
+.s4h6nmichi .partner-item { 
+    background-color: #f0faff;
+}
+.s4h6nmichi .partner-item-shadow { 
+    background-color: #7cc7e8;
+}
+.s4h6nmichi .partner-item::after { 
+    background-color: #7cc7e8;
+}
+.s4h6nmichi .partner-item-caption strong { 
+    color: #46a2cf;
+}
+
+/* =========================================
+   4. HIKAMISUBS
+========================================= */
+.hikamisubs .partner-tag { 
+    background-color: #0056b2; 
+    color: white; 
+}
+.hikamisubs .partner-item { 
+    background-color: #f0f5fa;
+}
+.hikamisubs .partner-item-shadow { 
+    background-color: #0056b2;
+}
+.hikamisubs .partner-item::after { 
+    background-color: #0056b2;
+}
+.hikamisubs .partner-item-caption strong { 
+    color: #003a7a;
 }
