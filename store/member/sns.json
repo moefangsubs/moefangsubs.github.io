@@ -16,38 +16,10 @@
 		"insta"			: "https://www.instagram.com/ume_minami.official",
 		"twittpb"		: "https://x.com/ume1st_minami"
     },
-	"kubo_shiori": {
-		"namejp"		: "久保史緒里",
-		"namero"		: "Kubo Shiori",
-		"insta"			: "https://www.instagram.com/kubo.shiori.official",
-		"twittpb"		: "https://x.com/kuboshi1st"
-    },
-	"sato_kaede": {
-		"namejp"		: "佐藤楓",
-		"namero"		: "Sato Kaede",
-		"insta"			: "https://www.instagram.com/kaede_sato.official"
-    },
-	"nakamura_reno": {
-		"namejp"		: "中村麗乃",
-		"namero"		: "Nakamura Reno",
-		"insta"			: "https://www.instagram.com/n.reno_official"
-    },
-	"mukai_hazuki": {
-		"namejp"		: "向井葉月",
-		"namero"		: "Mukai Hazuki",
-		"insta"			: "https://www.instagram.com/hazuki.p3.official"
-    },
 	"yoshida_ayano_christie": {
 		"namejp"		: "吉田綾乃クリスティー",
 		"namero"		: "Yoshida Ayano Christie",
 		"insta"			: "https://www.instagram.com/y.ayanochristie.official"
-    },
-	"yoda_yuuki": {
-		"namejp"		: "与田祐希",
-		"namero"		: "Yoda Yuuki",
-		"insta"			: "https://www.instagram.com/yodayuuki_oimo",
-		"inspb"			: "https://www.instagram.com/gentoshayoda",
-		"twittpb"		: ["https://x.com/gentosha_yoda", "https://x.com/yodayuuki_3rd"]
     },
 	"kanagawa_saya": {
 		"namejp"		: "金川紗耶",
@@ -65,11 +37,6 @@
 		"namero"		: "Tsutsui Ayame",
 		"insta"			: "https://www.instagram.com/ayame.tsutsui.official",
 		"twittpb"		: "https://x.com/ayamenbook"
-    },
-	"yakubo_mio": {
-		"namejp"		: "矢久保美緒",
-		"namero"		: "Yakubo Mio",
-		"insta"			: "https://www.instagram.com/mio.yakubo_official"
     },
 	"kuromi_haruka": {
 		"namejp"		: "黒見明香",
@@ -103,11 +70,8 @@
     },
 	"hayashi_runa": {
 		"namejp"		: "林瑠奈",
-		"namero"		: "Hayashi Runa"
-    },
-	"matsuo_miyu": {
-		"namejp"		: "松尾美佑",
-		"namero"		: "Matsuo Miyu"
+		"namero"		: "Hayashi Runa",
+		"insta"			: "https://www.instagram.com/hayashi.runa_honmonogram/"
     },
 	"ichinose_miku": {
 		"namejp"		: "一ノ瀬美空",
@@ -131,7 +95,8 @@
     },
 	"nakanishi_aruno": {
 		"namejp"		: "中西アルノ",
-		"namero"		: "Nakanishi Aruno"
+		"namero"		: "Nakanishi Aruno",
+		"insta"			: "https://www.instagram.com/nakanishi_aruno_official"
     },
 	"inoue_nagi": {
 		"namejp"		: "井上和",
@@ -153,7 +118,8 @@
     },
 	"sugawara_satsuki": {
 		"namejp"		: "菅原咲月",
-		"namero"		: "Sugawara Satsuki"
+		"namero"		: "Sugawara Satsuki",
+		"insta"			: "https://www.instagram.com/satsukisugawara_official"
     },
 	"tomisato_nao": {
 		"namejp"		: "冨里奈央",
@@ -387,7 +353,8 @@
 	"hoshino_minami": {
 		"namejp"		: "星野みなみ",
 		"namero"		: "Hoshino Minami",
-		"inspb"			: "https://www.instagram.com/373_kawaii",
+		"inspb"			: "https://www.instagram.com/_minamiii_26",
+		"insta"			: "https://www.instagram.com/373_kawaii",
 		"twittpb"		: "https://x.com/373_kawaii"
     },
 	"hatanaka_seira": {
@@ -548,7 +515,8 @@
 		"namero"		: "Sakaguchi Tamami",
 		"insta"			: "https://www.instagram.com/tamami_46_official",
 		"twitter"		: "https://x.com/tamami_s1110",
-		"twittpb"		: "https://x.com/tamamibook"
+		"twittpb"		: "https://x.com/tamamibook",
+		"web"			: "https://tamamisakaguchi.jp"
     },
 	"yamashita_mizuki": {
 		"namejp"		: "山下美月",
@@ -573,5 +541,48 @@
 		"namejp"		: "清宮レイ",
 		"namero"		: "Seimiya Rei",
 		"insta"			: "https://www.instagram.com/seimiyarei_official"
-	}
+	},
+	"mukai_hazuki": {
+		"namejp"		: "向井葉月",
+		"namero"		: "Mukai Hazuki",
+		"insta"			: "https://www.instagram.com/hazuki.p3.official"
+    },
+	"yoda_yuuki": {
+		"namejp"		: "与田祐希",
+		"namero"		: "Yoda Yuuki",
+		"web"			: "https://yuukiyoda.com",
+		"insta"			: "https://www.instagram.com/yodayuuki_oimo",
+		"inspb"			: "https://www.instagram.com/gentoshayoda",
+		"twitter"		: "https://x.com/yoda_staff",
+		"twittpb"		: ["https://x.com/gentosha_yoda", "https://x.com/yodayuuki_3rd"]
+    },
+	"sato_kaede": {
+		"namejp"		: "佐藤楓",
+		"namero"		: "Sato Kaede",
+		"insta"			: "https://www.instagram.com/kaede_sato.official",
+		"web"			: "https://satokaede.officialfc.jp/"
+    },
+	"nakamura_reno": {
+		"namejp"		: "中村麗乃",
+		"namero"		: "Nakamura Reno",
+		"insta"			: "https://www.instagram.com/n.reno_official",
+		"web"			: "https://nakamurareno.officialfc.jp/"
+    },
+	"kubo_shiori": {
+		"namejp"		: "久保史緒里",
+		"namero"		: "Kubo Shiori",
+		"insta"			: "https://www.instagram.com/kubo.shiori.official",
+		"twittpb"		: "https://x.com/kuboshi1st",
+		"twitter"		: "https://x.com/kubo_staff",
+		"web"			: "https://shiorikubo.com"
+    },
+	"matsuo_miyu": {
+		"namejp"		: "松尾美佑",
+		"namero"		: "Matsuo Miyu"
+    },
+	"yakubo_mio": {
+		"namejp"		: "矢久保美緒",
+		"namero"		: "Yakubo Mio",
+		"insta"			: "https://www.instagram.com/mio.yakubo_official"
+    }
 }
