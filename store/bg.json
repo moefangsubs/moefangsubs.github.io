@@ -64,12 +64,26 @@
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/umekakki1.jpg",
             "https://ik.imagekit.io/moearchive/umekakki2.jpg",
             "https://ik.imagekit.io/moearchive/umekakki3.jpg",
             "https://ik.imagekit.io/moearchive/umekakki4.jpg"
+        ]
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/2d7lju2d7lju2d7l.jpg",
+            "https://ik.imagekit.io/moearchive/2d7lju2d7lju2d7l.jpg",
+            "https://ik.imagekit.io/moearchive/e0t8p7e0t8p7e0t8.jpg",
+            "https://ik.imagekit.io/moearchive/kbkgbakbkgbakbkg.jpg",
+            "https://ik.imagekit.io/moearchive/q8kngwq8kngwq8kn.jpg",
+            "https://ik.imagekit.io/moearchive/rouep3rouep3roue.jpg",
+            "https://ik.imagekit.io/moearchive/vha0qivha0qivha0.jpg",
+            "https://ik.imagekit.io/moearchive/ycr4u4ycr4u4ycr4.jpg"
         ]
     }
 ]

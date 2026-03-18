@@ -1,8 +1,13 @@
 .fansub-partner {
-    background-color: var(--moe-tint7);
+    background-color: var(--moe-tint6);
     padding: 3rem 0;
     width: 100%;
+    border-top-width: 1rem;
+    border-top-width: .5rem;
+    border-style: dashed;
+    border-color: var(--moe-tint5);
 }
+
 #daftar-partner {
     width: 90%;
     max-width: 1200px;
@@ -75,6 +80,17 @@
 .partner-date {
     font-size: .8rem;
     padding-top: .5rem;
+}
+
+.note-partner {
+    display: flex;
+    flex-direction: column;
+    font-size: .7rem;
+    padding: 2rem;
+}
+
+.note-partner span {
+    text-align: center;
 }
 
 .partner-tag {
