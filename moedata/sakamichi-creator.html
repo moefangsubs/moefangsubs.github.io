@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <title>Sakamichi & BokuAo Creator Database</title>
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style_creator.css">
+
+</head>
+<body>
+
+<div class="creator-container" id="creatorContainer" data-theme="all">
+    <div class="titlehead">
+        <div id="headtitle">Sakamichi & BokuAo Creator Database</div>
+    </div>
+
+    <div class="filter-group">
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <img id="groupIconPreview" src="../sprite/element/group/8bit_nogi.png" style="width: 24px; height: 24px; object-fit: contain;">
+            <select id="groupFilter">
+                <option value="all">Sakamichi</option>
+                <option value="nogi">Nogizaka</option>
+                <option value="keya">Keyakizaka</option>
+                <option value="sakura">Sakurazaka</option>
+                <option value="hinata">Hinatazaka</option>
+                <option value="boku">BokuAo</option>
+            </select>
+        </div>
+
+        <select id="roleFilter">
+            <option value="SongCompJP">Composer</option>
+            <option value="SongArraJP">Arranger</option>
+            <option value="SongLyricsJP">Lyricist</option>
+            <option value="SongMVDirJP">MV Director</option>
+            <option value="SongChoreo">Choreographer</option>
+        </select>
+
+        <select id="titleFilter">
+            <option value="titleJp">Jepang</option>
+            <option value="titleRo">Romaji</option>
+        </select>
+    </div>
+
+    <div style="display: flex; justify-content: center; gap: 20px; margin-bottom: 25px; font-weight: 500; font-size: 14px;">
+        <label style="cursor: pointer;"><input type="checkbox" id="showSingleCheck"> Tampilkan Single</label>
+        <label style="cursor: pointer;"><input type="checkbox" id="showTypeCheck"> Tampilkan Type</label>
+    </div>
+
+    <div id="loadingElement">Memuat data...</div>
+
+    <div class="ranking-table-wrapper">
+        <table id="creatorTable">
+            <thead>
+                <tr>
+                    <th style="width: 60px;">Rank</th>
+                    <th>Nama Kreator</th>
+                    <th style="text-align: center; width: 120px;">Jumlah Lagu</th>
+                </tr>
+            </thead>
+            <tbody id="creatorList"></tbody>
+        </table>
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/script_creator.js"></script>
+</body>
+</html>
