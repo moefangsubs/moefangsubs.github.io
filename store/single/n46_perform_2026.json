@@ -1,0 +1,52 @@
+[
+    {
+        "tanggal": "2026.01.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "大越ひなの"],
+        "nama_acara": "CDTVライブ！ライブ！年越しSP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["大越ひなの", "五百城茉央", "田村真佑"],
+        "note": "Okoshi Hinano menjadi double center menggantikan Yada Moeka yang tidak bisa tampil karena batasan umur."
+    },
+    {
+        "tanggal": "2026.01.16",
+        "status": { "live": false, "medley": false },
+        "lagu": "チートデイ",
+        "center": ["井上和"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2026.01.16",
+        "status": { "live": false, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["伊藤理々杏", "金川紗耶", "小川彩", "中西アルノ"],
+        "note": ""
+    },
+    {
+        "tanggal": "2026.01.24",
+        "status": { "live": false, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "with MUSIC",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["林瑠奈", "小川彩", "奥田いろは", "岡本姫奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2026.01.24",
+        "status": { "live": false, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "with MUSIC",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["五百城茉央", "田村真佑"],
+        "note": ""
+    }
+]

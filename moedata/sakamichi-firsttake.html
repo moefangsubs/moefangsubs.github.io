@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <title>THE F1RST TAKE Database</title>
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/footer.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_firsttake.css">
+</head>
+<body>
+
+<div class="ft-container">
+	<div class="titlehead">
+			<h1>THE F1RST TAKE</h1>
+		</div>
+
+		<div class="justify intro-text">
+			Saluran YouTube "THE FIRST TAKE" menampilkan musisi yang membawakan lagu hanya dalam satu kali pengambilan gambar (<i>one-take</i>). Dimulai pada 2019, berbagai artis telah membawakan lagu hits dan rilisan terbaru mereka. Ciri khasnya adalah sebuah mikrofon di studio berlatar warna solid dengan kamera statis. Video baru dirilis secara tidak menentu, dan beberapa member Sakamichi juga telah tampil menunjukkan vokal mereka di saluran ini.
+		</div>
+
+		<div style="text-align: center; margin-bottom: 30px;">
+			<select id="langToggle" style="padding: 8px 20px; font-family: 'Space Mono', monospace; font-weight: 700; border: 2px solid #333; cursor: pointer; background: #fff;">
+				<option value="romaji">Romaji (ID)</option>
+				<option value="jp">Jepang (JP)</option>
+			</select>
+		</div>
+
+    <div id="loadingElement">Memuat data THE F1RST TAKE...</div>
+
+    <div id="ftListContainer" class="ft-list-wrapper"></div>
+</div>
+
+<script type="text/javascript" src="../js/script_firsttake.js"></script>
+</body>
+</html>

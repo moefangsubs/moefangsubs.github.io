@@ -1,0 +1,152 @@
+[
+    {
+        "ftsong": "150",
+        "release_date": "2021.09.10",
+        "song": {
+            "group_artist": "乃木坂46",
+            "title": "きっかけ"
+        },
+        "participate": {
+            "members": ["遠藤さくら"],
+            "collab_artist": ""
+        },
+        "group": "nogi",
+        "youtube_link": "https://www.youtube.com/watch?v=g0reB9P3fjw",
+        "note": ""
+    },
+    {
+        "ftsong": "153",
+        "release_date": "2021.09.22",
+        "song": {
+            "group_artist": "乃木坂46",
+            "title": "やさしいだけなら"
+        },
+        "participate": {
+            "members": ["生田絵梨花", "久保史緒里", "賀喜遥香"],
+            "collab_artist": ""
+        },
+        "group": "nogi",
+        "youtube_link": "https://www.youtube.com/watch?v=1vp2ZUgjwBA",
+        "note": ""
+    },
+    {
+        "ftsong": "205",
+        "release_date": "2022.04.01",
+        "song": {
+            "group_artist": "坂本九",
+            "title": "上を向いて歩こう"
+        },
+        "participate": {
+            "members": ["加藤史帆", "上村ひなの", "髙橋未来虹"],
+            "collab_artist": "セサミストリート"
+        },
+        "group": "hinata",
+        "youtube_link": "https://www.youtube.com/watch?v=gS0VFNLh1UI",
+        "note": ""
+    },
+    {
+        "ftsong": "214",
+        "release_date": "2022.05.06",
+        "song": {
+            "group_artist": "日向坂46",
+            "title": "ドレミソラシド"
+        },
+        "participate": {
+            "members": ["加藤史帆", "佐々木久美", "佐々木美玲", "富田鈴花"],
+            "collab_artist": ""
+        },
+        "group": "hinata",
+        "youtube_link": "https://www.youtube.com/watch?v=U5BmjC4Aqc0",
+        "note": ""
+    },
+    {
+        "ftsong": "217",
+        "release_date": "2022.05.18",
+        "song": {
+            "group_artist": "日向坂46",
+            "title": "僕なんか"
+        },
+        "participate": {
+            "members": ["齊藤京子"],
+            "collab_artist": ""
+        },
+        "group": "hinata",
+        "youtube_link": "https://www.youtube.com/watch?v=bqDHKn-w48E",
+        "note": ""
+    },
+    {
+        "ftsong": "289",
+        "release_date": "2023.02.03",
+        "song": {
+            "group_artist": "絢香",
+            "title": "にじいろ"
+        },
+        "participate": {
+            "members": ["白石麻衣"],
+            "collab_artist": "絢香"
+        },
+        "group": "nogi",
+        "youtube_link": "https://www.youtube.com/watch?v=XGmYvJB8mlc",
+        "note": "Penampilan ini saat Shiraishi Mai sudah lulus dari grup."
+    },
+    {
+        "ftsong": "391",
+        "release_date": "2023.12.29",
+        "song": {
+            "group_artist": "櫻坂46",
+            "title": "Start Over!"
+        },
+        "participate": {
+            "members": ["藤吉夏鈴"],
+            "collab_artist": ""
+        },
+        "group": "sakura",
+        "youtube_link": "https://www.youtube.com/watch?v=TOTS3zd1r_g",
+        "note": ""
+    },
+    {
+        "ftsong": "395",
+        "release_date": "2024.01.10",
+        "song": {
+            "group_artist": "櫻坂46",
+            "title": "五月雨よ"
+        },
+        "participate": {
+            "members": ["山﨑天"],
+            "collab_artist": ""
+        },
+        "group": "sakura",
+        "youtube_link": "https://www.youtube.com/watch?v=zkXLs6YXcFY",
+        "note": ""
+    },
+    {
+        "ftsong": "534",
+        "release_date": "2025.03.28",
+        "song": {
+            "group_artist": "乃木坂46",
+            "title": "君の名は希望"
+        },
+        "participate": {
+            "members": ["井上和", "中西アルノ"],
+            "collab_artist": ""
+        },
+        "group": "nogi",
+        "youtube_link": "https://www.youtube.com/watch?v=f3D0M_4Tnmg",
+        "note": ""
+    },
+    {
+        "ftsong": "536",
+        "release_date": "2025.04.09",
+        "song": {
+            "group_artist": "乃木坂46",
+            "title": "ネーブルオレンジ"
+        },
+        "participate": {
+            "members": ["井上和", "中西アルノ"],
+            "collab_artist": ""
+        },
+        "group": "nogi",
+        "youtube_link": "https://www.youtube.com/watch?v=ZoS13X1A2JY",
+        "note": ""
+    }
+]

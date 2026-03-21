@@ -1,0 +1,312 @@
+[
+    {
+        "tanggal": "2012.02.13",
+        "status": { "live": false, "medley": true },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "HEY! HEY! HEY! Music Champ",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": "Dibawakan secara medley bersama lagu 'バレンタイン・キッス' berkolaborasi dengan Kokusho Sayuri."
+    },
+    {
+        "tanggal": "2012.02.19",
+        "status": { "live": false, "medley": false },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.02.24",
+        "status": { "live": false, "medley": false },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "ハッピーMusic",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.02.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "CDTV",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.02.27",
+        "status": { "live": false, "medley": true },
+        "lagu": "会いたかったかもしれない",
+        "center": ["生駒里奈"],
+        "nama_acara": "Music Lovers",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Dibawakan secara medley bersama 'ぐるぐるカーテン'."
+    },
+    {
+        "tanggal": "2012.02.27",
+        "status": { "live": false, "medley": true },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "Music Lovers",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.03.10",
+        "status": { "live": true, "medley": true },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "震災から1年 \"明日へ\"コンサート",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": "Penampilan dalam konser amal peringatan 1 tahun gempa Tohoku."
+    },
+    {
+        "tanggal": "2012.03.10",
+        "status": { "live": true, "medley": true },
+        "lagu": "会いたかったかもしれない",
+        "center": ["生駒里奈"],
+        "nama_acara": "震災から1年 \"明日へ\"コンサート",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": "Penampilan dalam konser amal peringatan 1 tahun gempa Tohoku."
+    },
+    {
+        "tanggal": "2012.04.01",
+        "status": { "live": false, "medley": false },
+        "lagu": "会いたかったかもしれない",
+        "center": ["生駒里奈"],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.05.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "おいでシャンプー",
+        "center": ["生駒里奈"],
+        "nama_acara": "火曜曲！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.05.02",
+        "status": { "live": true, "medley": false },
+        "lagu": "おいでシャンプー",
+        "center": ["生駒里奈"],
+        "nama_acara": "PON!",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.05.05",
+        "status": { "live": false, "medley": false },
+        "lagu": "おいでシャンプー",
+        "center": ["生駒里奈"],
+        "nama_acara": "ハッピーMusic",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.05.06",
+        "status": { "live": false, "medley": false },
+        "lagu": "おいでシャンプー",
+        "center": ["生駒里奈"],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.05.14",
+        "status": { "live": false, "medley": false },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "GIRLS' FACTORY",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.05.14",
+        "status": { "live": false, "medley": false },
+        "lagu": "会いたかったかもしれない",
+        "center": ["生駒里奈"],
+        "nama_acara": "GIRLS' FACTORY",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.07.15",
+        "status": { "live": true, "medley": false },
+        "lagu": "走れ！Bicycle",
+        "center": ["生駒里奈"],
+        "nama_acara": "CDTVスペシャル! 夏フェス2012",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.08.06",
+        "status": { "live": false, "medley": false },
+        "lagu": "走れ！Bicycle",
+        "center": ["生駒里奈"],
+        "nama_acara": "HEY! HEY! HEY! Music Champ",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.08.08",
+        "status": { "live": true, "medley": false },
+        "lagu": "おいでシャンプー",
+        "center": ["生駒里奈"],
+        "nama_acara": "2012 FNSうたの夏まつり",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di FNS Uta no Natsu Matsuri."
+    },
+    {
+        "tanggal": "2012.08.24",
+        "status": { "live": false, "medley": false },
+        "lagu": "走れ！Bicycle",
+        "center": ["生駒里奈"],
+        "nama_acara": "ハッピーMusic",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.08.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "走れ！Bicycle",
+        "center": ["生駒里奈"],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.09.30",
+        "status": { "live": false, "medley": false },
+        "lagu": "人はなぜ走るのか？",
+        "center": ["生駒里奈"],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.11.12",
+        "status": { "live": false, "medley": false },
+        "lagu": "制服のマネキン",
+        "center": ["生駒里奈"],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.12.05",
+        "status": { "live": true, "medley": false },
+        "lagu": "おいでシャンプー",
+        "center": ["生駒里奈"],
+        "nama_acara": "2012 FNS歌謡祭",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.12.07",
+        "status": { "live": false, "medley": false },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["生駒里奈"],
+        "nama_acara": "ハッピーMusic Live 2012",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.12.07",
+        "status": { "live": false, "medley": false },
+        "lagu": "制服のマネキン",
+        "center": ["生駒里奈"],
+        "nama_acara": "ハッピーMusic Live 2012",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.12.16",
+        "status": { "live": false, "medley": false },
+        "lagu": "制服のマネキン",
+        "center": ["生駒里奈"],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.12.18",
+        "status": { "live": true, "medley": false },
+        "lagu": "制服のマネキン",
+        "center": ["生駒里奈"],
+        "nama_acara": "火曜曲！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.12.21",
+        "status": { "live": false, "medley": false },
+        "lagu": "制服のマネキン",
+        "center": ["生駒里奈"],
+        "nama_acara": "ハッピーMusic",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2012.12.23",
+        "status": { "live": false, "medley": true },
+        "lagu": "1990年のヒットソングメドレー",
+        "center": [],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Membawakan lagu-lagu cover era 1990-an."
+    },
+    {
+        "tanggal": "2012.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "制服のマネキン",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTVスペシャル! 年越しプレミアライブ 2012→2013",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [
+            "秋元真夏",
+            "安藤美雲",
+            "衛藤美彩",
+            "斉藤優里",
+            "白石麻衣",
+            "高山一実",
+            "橋本奈々未",
+            "深川麻衣",
+            "松村沙友理"
+        ],
+        "note": "Karena pembatasan jam malam siaran langsung, hanya 9 member berusia 18 tahun ke atas yang tampil."
+    }
+]

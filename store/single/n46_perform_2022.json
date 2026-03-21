@@ -1,0 +1,347 @@
+[
+    {
+        "tanggal": "2022.01.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["佐藤楓", "掛橋沙耶香", "阪口珠美", "吉田綾乃クリスティー", "鈴木絢音", "向井葉月", "北野日奈子"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.01.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["吉田綾乃クリスティー", "北野日奈子", "鈴木絢音", "早川聖来", "掛橋沙耶香", "佐藤楓", "樋口日奈", "向井葉月", "阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.02.23",
+        "status": { "live": true, "medley": false },
+        "lagu": "Actually…",
+        "center": ["中西アルノ"],
+        "nama_acara": "テレ東音楽祭2022春",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2022.03.05",
+        "status": { "live": true, "medley": false },
+        "lagu": "Actually…",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "シブヤノオト",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["金川紗耶", "和田まあや", "佐藤楓"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.03.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "Actually…",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.03.28",
+        "status": { "live": false, "medley": true },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Original member hanya Asuka."
+    },
+    {
+        "tanggal": "2022.03.28",
+        "status": { "live": false, "medley": true },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.03.28",
+        "status": { "live": false, "medley": true },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.03.28",
+        "status": { "live": false, "medley": true },
+        "lagu": "サヨナラの意味",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.03.28",
+        "status": { "live": true, "medley": false },
+        "lagu": "Actually…",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.03.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "インフルエンサー",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "Premium Music 2022",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Original member adalah Akimoto, Asuka, Higuchi."
+    },
+    {
+        "tanggal": "2022.04.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "Actually…",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.04.02",
+        "status": { "live": false, "medley": false },
+        "lagu": "Actually…",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.05.28",
+        "status": { "live": true, "medley": true },
+        "lagu": "おいでシャンプー",
+        "center": ["阪口珠美"],
+        "nama_acara": "カミオト －上方音祭－",
+        "stasiun_tv": "読売テレビ （関西ローカル）",
+        "pengganti_member": [],
+        "note": "Tidak ada original member yang berpartisipasi."
+    },
+    {
+        "tanggal": "2022.05.28",
+        "status": { "live": true, "medley": true },
+        "lagu": "届かなくたって…",
+        "center": ["佐藤楓"],
+        "nama_acara": "カミオト －上方音祭－",
+        "stasiun_tv": "読売テレビ （関西ローカル）",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2022.06.17",
+        "status": { "live": false, "medley": false },
+        "lagu": "君の名は希望",
+        "center": ["遠藤さくら"],
+        "nama_acara": "MUSIC BLOOD",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Original member hanya Akimoto Manatsu."
+    },
+    {
+        "tanggal": "2022.06.17",
+        "status": { "live": false, "medley": false },
+        "lagu": "日常",
+        "center": ["金川紗耶"],
+        "nama_acara": "MUSIC BLOOD",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.06.22",
+        "status": { "live": true, "medley": true },
+        "lagu": "逃げ水",
+        "center": ["岩本蓮加", "与田祐希"],
+        "nama_acara": "テレ東音楽祭2022夏",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.06.22",
+        "status": { "live": true, "medley": true },
+        "lagu": "ジコチューで行こう!",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "テレ東音楽祭2022夏",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.07.02",
+        "status": { "live": true, "medley": false },
+        "lagu": "裸足でSummer",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.07.02",
+        "status": { "live": true, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.07.16",
+        "status": { "live": true, "medley": false },
+        "lagu": "君の名は希望",
+        "center": [],
+        "nama_acara": "音楽の日 2022",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Lagu 9 tahun lalu ketika hanya ada Gen 1, original member hanya Akimoto Manatsu. 16 member pengganti."
+    },
+    {
+        "tanggal": "2022.08.07",
+        "status": { "live": false, "medley": false },
+        "lagu": "バンドエイド剝がすような別れ方",
+        "center": ["菅原咲月"],
+        "nama_acara": "TOKYO IDOL FESTIVAL 2022",
+        "stasiun_tv": "フジテレビTWO（CS）",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV. Lagu 5ki-sei."
+    },
+    {
+        "tanggal": "2022.08.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "バンドエイド剝がすような別れ方",
+        "center": ["菅原咲月"],
+        "nama_acara": "MUSIC BLOOD",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV terestrial nasional. Lagu 5ki-sei."
+    },
+    {
+        "tanggal": "2022.08.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "きっかけ",
+        "center": [],
+        "nama_acara": "MUSIC BLOOD",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Seluruh 11 member Gen 5 menyambung nyanyian dengan part solo."
+    },
+    {
+        "tanggal": "2022.08.29",
+        "status": { "live": true, "medley": false },
+        "lagu": "好きというのはロックだぜ！",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV. Siaran langsung dari Meiji Jingu Stadium. Dibawakan perdana di TV oleh seluruh member."
+    },
+    {
+        "tanggal": "2022.09.02",
+        "status": { "live": true, "medley": false },
+        "lagu": "好きというのはロックだぜ！",
+        "center": ["賀喜遥香"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.09.11",
+        "status": { "live": true, "medley": false },
+        "lagu": "好きというのはロックだぜ！",
+        "center": ["賀喜遥香"],
+        "nama_acara": "FNSラフ&ミュージック2022〜歌と笑いの祭典〜",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["向井葉月", "和田まあや"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.09.12",
+        "status": { "live": false, "medley": false },
+        "lagu": "好きというのはロックだぜ！",
+        "center": ["賀喜遥香"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.09.19",
+        "status": { "live": false, "medley": false },
+        "lagu": "Under's Love",
+        "center": ["和田まあや"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2022.11.10",
+        "status": { "live": true, "medley": false },
+        "lagu": "ここにはないもの",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "ベストヒット歌謡祭",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV. Mosaic art raksasa yang terbuat dari 4000 foto kiriman penonton turun sebagai latar belakang di tengah lagu. Didesain oleh Kaki Haruka (Gen 4) yang absen karena sakit."
+    },
+    {
+        "tanggal": "2022.11.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "ここにはないもの",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "テレ東音楽祭2022冬",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": ["向井葉月", "中村麗乃"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.11.26",
+        "status": { "live": true, "medley": false },
+        "lagu": "ここにはないもの",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["伊藤理々杏"],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.12.03",
+        "status": { "live": true, "medley": true },
+        "lagu": "ここにはないもの",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "ベストアーティスト2022",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2022.12.03",
+        "status": { "live": true, "medley": true },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "ベストアーティスト2022",

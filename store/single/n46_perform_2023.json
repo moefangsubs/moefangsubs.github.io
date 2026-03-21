@@ -1,0 +1,332 @@
+[
+    {
+        "tanggal": "2023.01.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "好きというのはロックだぜ！",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["向井葉月", "早川聖来", "阪口珠美", "林瑠奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.03.18",
+        "status": { "live": false, "medley": false },
+        "lagu": "人は夢を二度見る",
+        "center": ["久保史緒里", "山下美月"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["佐藤楓", "林瑠奈"],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2023.03.20",
+        "status": { "live": true, "medley": false },
+        "lagu": "人は夢を二度見る",
+        "center": ["久保史緒里", "山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Penampilan perdana versi full size."
+    },
+    {
+        "tanggal": "2023.04.03",
+        "status": { "live": false, "medley": false },
+        "lagu": "人は夢を二度見る",
+        "center": ["久保史緒里", "山下美月"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": ["林瑠奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.04.03",
+        "status": { "live": false, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Original member adalah Yamashita dan Yoda."
+    },
+    {
+        "tanggal": "2023.04.04",
+        "status": { "live": true, "medley": false },
+        "lagu": "君の名は希望",
+        "center": ["久保史緒里", "山下美月"],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "Karena semua original member sudah lulus, member yang menyanyi sengaja tidak dimasukkan sebagai pengganti. 20 member yang menyanyi adalah senbatsu 'Hito wa Yume wo Nido Miru', dengan Mukai menggantikan Umezawa."
+    },
+    {
+        "tanggal": "2023.04.04",
+        "status": { "live": true, "medley": false },
+        "lagu": "人は夢を二度見る",
+        "center": ["久保史緒里", "山下美月"],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["向井葉月"],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.04.07",
+        "status": { "live": true, "medley": false },
+        "lagu": "人は夢を二度見る",
+        "center": ["林瑠奈", "山下美月"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": ["伊藤理々杏", "林瑠奈"],
+        "note": "Hayashi menggantikan Kubo untuk menjadi W-Center bersama Yamashita. Ini mungkin pertama kalinya member Under ditunjuk sebagai center pengganti saat lagu baru dibawakan di program musik."
+    },
+    {
+        "tanggal": "2023.04.24",
+        "status": { "live": false, "medley": false },
+        "lagu": "さざ波は戻らない",
+        "center": ["伊藤理々杏", "林瑠奈"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2023.06.17",
+        "status": { "live": false, "medley": false },
+        "lagu": "ガールズルール",
+        "center": ["五百城茉央"],
+        "nama_acara": "カミオト －上方音祭－",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Dalam segmen 'Jimoto Kamioto' di mana artis Kansai berkolaborasi dengan daerah asalnya, Ioki Mao (asal Hyogo) menjadi center. Gen 5 menyanyikan lagu ini dengan mengenakan seragam sekolah lokal seperti SMP/SMA Shoin Kobe."
+    },
+    {
+        "tanggal": "2023.06.17",
+        "status": { "live": false, "medley": false },
+        "lagu": "心にもないこと",
+        "center": ["池田瑛紗"],
+        "nama_acara": "カミオト －上方音祭－",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2023.06.28",
+        "status": { "live": true, "medley": true },
+        "lagu": "ガールズルール",
+        "center": ["山下美月"],
+        "nama_acara": "テレ東音楽祭2023夏",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Medley 3 lagu musim panas dinyanyikan oleh 20 member. Menggunakan member senbatsu single ke-32, Sakaguchi menggantikan Hayakawa."
+    },
+    {
+        "tanggal": "2023.06.28",
+        "status": { "live": true, "medley": true },
+        "lagu": "夏のFree&Easy",
+        "center": ["与田祐希"],
+        "nama_acara": "テレ東音楽祭2023夏",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.06.28",
+        "status": { "live": true, "medley": true },
+        "lagu": "裸足でSummer",
+        "center": ["井上和"],
+        "nama_acara": "テレ東音楽祭2023夏",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.07.01",
+        "status": { "live": false, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Original member adalah Yamashita, Yoda, Kubo."
+    },
+    {
+        "tanggal": "2023.08.14",
+        "status": { "live": true, "medley": false },
+        "lagu": "裸足でSummer",
+        "center": [],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "'Hadashi de Summer' dan 'Ohitorisama Tengoku' disiarkan langsung dari bagian encore konser di Sekisui Heim Super Arena Miyagi. Keduanya dinyanyikan oleh seluruh member termasuk Under. Lagu ini dibawakan dengan formasi tanpa center."
+    },
+    {
+        "tanggal": "2023.08.14",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2023.08.19",
+        "status": { "live": false, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.08.28",
+        "status": { "live": false, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.09.04",
+        "status": { "live": false, "medley": false },
+        "lagu": "踏んでしまった",
+        "center": ["松尾美佑"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2023.09.09",
+        "status": { "live": false, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["松尾美佑", "佐藤璃果"],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.09.29",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.11.14",
+        "status": { "live": true, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "YouTube生配信ライブ",
+        "stasiun_tv": "",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di internet. Membawakan lagu baru sebelum rilis dengan panggung di 'SHIBUYA TSUTAYA' yang sedang direnovasi. Siaran langsung YouTube bertajuk 'Monopoly First Live'."
+    },
+    {
+        "tanggal": "2023.11.15",
+        "status": { "live": false, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "テレ東60祭！ミュージックフェスティバル2023",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2023.11.16",
+        "status": { "live": true, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "ベストヒット歌謡祭 2023",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.12.02",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "ベストアーティスト2023",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["吉田綾乃クリスティー"],
+        "note": "Mengenakan kostum 'Y2K fashion' dari MV."
+    },
+    {
+        "tanggal": "2023.12.02",
+        "status": { "live": false, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.12.06",
+        "status": { "live": true, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "FNS歌謡祭 第1夜",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.12.18",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "CDTVライブ！ライブ！クリスマスSP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["佐藤楓"],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.12.22",
+        "status": { "live": true, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "MUSIC STATION SUPER LIVE 2023",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.12.25",
+        "status": { "live": false, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2023.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "紅白歌合戦",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "Dinyanyikan oleh seluruh anggota grup."
+    },
+    {
+        "tanggal": "2023.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "CDTVライブ！ライブ！年越しSP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["岡本姫奈", "林瑠奈", "矢久保美緒", "黒見明香", "清宮レイ", "松尾美佑", "向井葉月", "中西アルノ", "佐藤璃果"],
+        "note": ""
+    }
+]

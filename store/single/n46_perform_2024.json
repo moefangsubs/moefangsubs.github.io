@@ -1,0 +1,292 @@
+[
+    {
+        "tanggal": "2024.01.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "Monopoly",
+        "center": ["賀喜遥香", "遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！年越しSP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["吉田綾乃クリスティー", "佐藤楓", "阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.01.22",
+        "status": { "live": false, "medley": false },
+        "lagu": "思い出が止まらなくなる",
+        "center": ["中西アルノ"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2024.03.18",
+        "status": { "live": true, "medley": false },
+        "lagu": "チャンスは平等",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2024.03.22",
+        "status": { "live": true, "medley": false },
+        "lagu": "チャンスは平等",
+        "center": ["山下美月"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.03.27",
+        "status": { "live": false, "medley": false },
+        "lagu": "チャンスは平等",
+        "center": ["山下美月"],
+        "nama_acara": "週刊ナイナイミュージック",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["松尾美佑"],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.03.30",
+        "status": { "live": false, "medley": false },
+        "lagu": "サヨナラの意味",
+        "center": ["久保史緒里"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.03.30",
+        "status": { "live": false, "medley": false },
+        "lagu": "チャンスは平等",
+        "center": ["山下美月"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["松尾美佑"],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.04.06",
+        "status": { "live": true, "medley": false },
+        "lagu": "チャンスは平等",
+        "center": ["山下美月"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.04.15",
+        "status": { "live": false, "medley": false },
+        "lagu": "チャンスは平等",
+        "center": ["山下美月"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": ["柴田柚菜", "筒井あやめ", "黒見明香"],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.06.26",
+        "status": { "live": true, "medley": false },
+        "lagu": "夜明けまで強がらなくてもいい",
+        "center": ["遠藤さくら"],
+        "nama_acara": "テレ東ミュージックフェス 2024夏",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.07.06",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["向井葉月"],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.07.13",
+        "status": { "live": true, "medley": false },
+        "lagu": "好きというのはロックだぜ！",
+        "center": ["賀喜遥香"],
+        "nama_acara": "音楽の日 2024",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.08.19",
+        "status": { "live": true, "medley": false },
+        "lagu": "チートデイ",
+        "center": ["井上和"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV. Versi full size."
+    },
+    {
+        "tanggal": "2024.08.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "チートデイ",
+        "center": ["井上和"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.08.31",
+        "status": { "live": false, "medley": false },
+        "lagu": "チートデイ",
+        "center": ["井上和"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.09.02",
+        "status": { "live": false, "medley": false },
+        "lagu": "チートデイ",
+        "center": ["井上和"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": ["松尾美佑"],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.09.09",
+        "status": { "live": false, "medley": false },
+        "lagu": "落とし物",
+        "center": ["奥田いろは"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2024.09.14",
+        "status": { "live": false, "medley": false },
+        "lagu": "チートデイ",
+        "center": ["井上和"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.11.14",
+        "status": { "live": true, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "ベストヒット歌謡祭",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2024.11.20",
+        "status": { "live": false, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "テレ東音楽祭スペシャル",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.11.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.11.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "ベストアーティスト2024",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.11.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "チートデイ",
+        "center": ["井上和"],
+        "nama_acara": "ベストアーティスト2024",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Masing-masing member mengenakan kostum favorit mereka dari total lebih dari 500 kostum historis."
+    },
+    {
+        "tanggal": "2024.12.04",
+        "status": { "live": true, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "FNS歌謡祭",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.12.07",
+        "status": { "live": false, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "with MUSIC",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.12.09",
+        "status": { "live": true, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Penampilan perdana versi full size."
+    },
+    {
+        "tanggal": "2024.12.15",
+        "status": { "live": false, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.12.27",
+        "status": { "live": true, "medley": false },
+        "lagu": "歩道橋",
+        "center": ["遠藤さくら"],
+        "nama_acara": "MUSIC STATION SUPER LIVE",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2024.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "きっかけ",
+        "center": ["遠藤さくら"],
+        "nama_acara": "紅白歌合戦",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    }
+]

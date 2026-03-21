@@ -1,0 +1,142 @@
+[
+    {
+        "tanggal": "2019.03.21",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "CDTV春スペシャル 卒業ソング音楽祭2019",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.04.13",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "名曲インスパイア劇場",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.06.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "テレ東音楽祭2019",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.07.06",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "THE MUSIC DAY 2019 時代",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.07.13",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "音楽の日 2019",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Ditayangkan pada 13-14 Juli"
+    },
+    {
+        "tanggal": "2019.07.24",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "2019 FNSうたの夏まつり",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.11.13",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "ベストヒット歌謡祭2019",
+        "stasiun_tv": "読売テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.11.27",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "日テレ系音楽の祭典 ベストアーティスト2019",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.12.04",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "2019 FNS歌謡祭",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.12.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "CDTVスペシャル! クリスマス音楽祭2019",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.12.27",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "MUSIC STATION ウルトラスーパーライブ2019",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2019.12.30",
+        "status": { "live": false, "medley": false },
+        "lagu": "Sing Out!",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "第61回輝く!日本レコード大賞",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "優秀作品賞"
+    },
+    {
+        "tanggal": "2019.12.31",
+        "status": { "live": false, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["白石麻衣"],
+        "nama_acara": "第70回NHK紅白歌合戦",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "Penampilan ke-5 di Kouhaku"
+    },
+    {
+        "tanggal": "2019.12.31",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "CDTVスペシャル! 年越しプレミアライブ 2019→2020",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    }
+]

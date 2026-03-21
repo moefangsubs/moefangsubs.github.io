@@ -1,0 +1,772 @@
+[
+    {
+        "tanggal": "2021.01.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["渡辺みり愛", "樋口日奈", "阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.01.18",
+        "status": { "live": true, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["樋口日奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.01.29",
+        "status": { "live": true, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.01.30",
+        "status": { "live": false, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["渡辺みり愛", "樋口日奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.02.06",
+        "status": { "live": false, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.02.08",
+        "status": { "live": false, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.02.15",
+        "status": { "live": false, "medley": false },
+        "lagu": "Out of the Blue",
+        "center": ["早川聖来"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "4期生曲。"
+    },
+    {
+        "tanggal": "2021.02.19",
+        "status": { "live": false, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "シブヤノオト",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["渡辺みり愛"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.02.22",
+        "status": { "live": false, "medley": false },
+        "lagu": "口ほどにもないKISS",
+        "center": ["阪口珠美"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "アンダー曲。"
+    },
+    {
+        "tanggal": "2021.02.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.02.27",
+        "status": { "live": false, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "坂道テレビ",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.03.01",
+        "status": { "live": false, "medley": false },
+        "lagu": "Wilderness world",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.03.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "Out of the Blue",
+        "center": ["早川聖来"],
+        "nama_acara": "プレミアMelodiX!",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "4期生曲。"
+    },
+    {
+        "tanggal": "2021.03.23",
+        "status": { "live": true, "medley": false },
+        "lagu": "帰り道は遠回りしたくなる",
+        "center": ["与田祐希"],
+        "nama_acara": "シブヤノオト SP",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.03.24",
+        "status": { "live": true, "medley": false },
+        "lagu": "Sing Out!",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "Premium Music 2021",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["和田まあや", "田村真佑", "寺田蘭世", "賀喜遥香"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.03.29",
+        "status": { "live": true, "medley": false },
+        "lagu": "Out of the Blue",
+        "center": ["早川聖来"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "4期生曲。"
+    },
+    {
+        "tanggal": "2021.03.29",
+        "status": { "live": false, "medley": false },
+        "lagu": "サヨナラの意味",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.04.03",
+        "status": { "live": false, "medley": false },
+        "lagu": "Out of the Blue",
+        "center": ["早川聖来"],
+        "nama_acara": "シブヤノオト",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "4期生曲。"
+    },
+    {
+        "tanggal": "2021.05.01",
+        "status": { "live": false, "medley": false },
+        "lagu": "Out of the Blue",
+        "center": ["早川聖来"],
+        "nama_acara": "カミオト -上方音祭-",
+        "stasiun_tv": "読売テレビ （関西ローカル）",
+        "pengganti_member": [],
+        "note": "4期生曲。"
+    },
+    {
+        "tanggal": "2021.05.01",
+        "status": { "live": false, "medley": false },
+        "lagu": "キスの手裏剣",
+        "center": ["遠藤さくら"],
+        "nama_acara": "カミオト -上方音祭-",
+        "stasiun_tv": "読売テレビ （関西ローカル）",
+        "pengganti_member": [],
+        "note": "4期生曲。新4期も参加、16名全員で歌唱。"
+    },
+    {
+        "tanggal": "2021.05.07",
+        "status": { "live": true, "medley": false },
+        "lagu": "I see…",
+        "center": ["賀喜遥香"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": "4期生曲。新4期も参加し、11名全員での歌唱。"
+    },
+    {
+        "tanggal": "2021.06.05",
+        "status": { "live": false, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "TV初披露。"
+    },
+    {
+        "tanggal": "2021.06.07",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.11",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": ["佐藤璃果", "阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.11",
+        "status": { "live": false, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "MUSIC BLOOD",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.11",
+        "status": { "live": false, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "MUSIC BLOOD",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["鈴木絢音", "佐藤璃果", "吉田綾乃クリスティー", "阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.12",
+        "status": { "live": false, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.12",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "シブヤノオト",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["佐藤璃果", "阪口珠美", "吉田綾乃クリスティー"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.14",
+        "status": { "live": false, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.14",
+        "status": { "live": true, "medley": true },
+        "lagu": "ガールズルール",
+        "center": ["松村沙友理"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.14",
+        "status": { "live": true, "medley": true },
+        "lagu": "裸足でSummer",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.14",
+        "status": { "live": true, "medley": false },
+        "lagu": "全部　夢のまま",
+        "center": ["与田祐希"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "TV初披露。"
+    },
+    {
+        "tanggal": "2021.06.15",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["吉田綾乃クリスティー"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.21",
+        "status": { "live": false, "medley": false },
+        "lagu": "錆びたコンパス",
+        "center": ["山崎怜奈"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "TV初披露。アンダー曲。"
+    },
+    {
+        "tanggal": "2021.06.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "テレ東音楽祭2021",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.06.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "インフルエンサー",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "テレ東音楽祭2021",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.07.03",
+        "status": { "live": true, "medley": true },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "卒業生（1期）で現在は日本テレビアナウンサーの市來玲奈がサプライズ参加。オリメンは飛鳥、生田、星野、松村、高山、市來。20名＋市來で、代打は15名。"
+    },
+    {
+        "tanggal": "2021.07.03",
+        "status": { "live": true, "medley": true },
+        "lagu": "インフルエンサー",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.07.03",
+        "status": { "live": true, "medley": true },
+        "lagu": "ごめんねFingers crossed",
+        "center": [],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["佐藤楓", "吉田綾乃クリスティー"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.07.14",
+        "status": { "live": false, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "FNS歌謡祭 夏",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.07.17",
+        "status": { "live": true, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "音楽の日",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "メンバー全員（39名）が参加。オリメンは生田、山下、与田、久保、大園、新内、高山、樋口、寺田。"
+    },
+    {
+        "tanggal": "2021.08.28",
+        "status": { "live": true, "medley": false },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "FNSラフ&ミュージック〜歌と笑いの祭典〜",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["阪口珠美"],
+        "note": "TV初披露。"
+    },
+    {
+        "tanggal": "2021.09.18",
+        "status": { "live": false, "medley": false },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "シブヤノオト",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.09.21",
+        "status": { "live": true, "medley": false },
+        "lagu": "君に叱られた",
+        "center": [],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.09.24",
+        "status": { "live": true, "medley": false },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": ["佐藤楓"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.09.25",
+        "status": { "live": false, "medley": false },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.10.02",
+        "status": { "live": false, "medley": false },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.10.04",
+        "status": { "live": false, "medley": false },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": ["佐藤楓", "阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.10.04",
+        "status": { "live": true, "medley": false },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.10.11",
+        "status": { "live": false, "medley": false },
+        "lagu": "マシンガンレイン",
+        "center": ["寺田蘭世"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.11",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "ベストヒット歌謡祭",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["掛橋沙耶香", "鈴木絢音", "北野日奈子"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.11",
+        "status": { "live": true, "medley": false },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "ベストヒット歌謡祭",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "TV初披露。"
+    },
+    {
+        "tanggal": "2021.11.15",
+        "status": { "live": false, "medley": true },
+        "lagu": "ハルジオンが咲く頃",
+        "center": ["梅澤美波"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "オリメンは生田、秋元、星野。"
+    },
+    {
+        "tanggal": "2021.11.15",
+        "status": { "live": false, "medley": true },
+        "lagu": "ジコチューで行こう!",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.15",
+        "status": { "live": false, "medley": true },
+        "lagu": "今、話したい誰かがいる",
+        "center": ["遠藤さくら", "賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.15",
+        "status": { "live": false, "medley": true },
+        "lagu": "帰り道は遠回りしたくなる",
+        "center": ["与田祐希"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.15",
+        "status": { "live": true, "medley": false },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["佐藤楓", "阪口珠美", "和田まあや"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.17",
+        "status": { "live": true, "medley": true },
+        "lagu": "ぐるぐるカーテン",
+        "center": ["遠藤さくら"],
+        "nama_acara": "ベストアーティスト",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.17",
+        "status": { "live": true, "medley": true },
+        "lagu": "ガールズルール",
+        "center": ["山下美月"],
+        "nama_acara": "ベストアーティスト",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.17",
+        "status": { "live": true, "medley": true },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "ベストアーティスト",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.17",
+        "status": { "live": true, "medley": true },
+        "lagu": "裸足でSummer",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "ベストアーティスト",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.17",
+        "status": { "live": true, "medley": true },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "ベストアーティスト",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.11.22",
+        "status": { "live": false, "medley": false },
+        "lagu": "インフルエンサー",
+        "center": ["高山一実"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "バナナマン日村が特別に参加、高山一実とダブルセンター。"
+    },
+    {
+        "tanggal": "2021.11.27",
+        "status": { "live": false, "medley": false },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "シブヤノオト",
+        "stasiun_tv": "NHK",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.08",
+        "status": { "live": true, "medley": false },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "FNS歌謡祭",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["佐藤楓"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.18",
+        "status": { "live": false, "medley": false },
+        "lagu": "インフルエンサー",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "MTV VMAJ 2021",
+        "stasiun_tv": "MTV",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.18",
+        "status": { "live": false, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "MTV VMAJ 2021",
+        "stasiun_tv": "MTV",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.18",
+        "status": { "live": false, "medley": false },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "MTV VMAJ 2021",
+        "stasiun_tv": "MTV",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.20",
+        "status": { "live": true, "medley": true },
+        "lagu": "君に叱られた",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.20",
+        "status": { "live": true, "medley": true },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.24",
+        "status": { "live": true, "medley": false },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.25",
+        "status": { "live": false, "medley": false },
+        "lagu": "Sing Out!",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.25",
+        "status": { "live": false, "medley": false },
+        "lagu": "最後のTight Hug",
+        "center": ["生田絵梨花"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "日本レコード大賞",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "ごめんねFingers crossed",
+        "center": ["遠藤さくら"],
+        "nama_acara": "日本レコード大賞",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["掛橋沙耶香", "鈴木絢音", "北野日奈子"],
+        "note": ""
+    },
+    {
+        "tanggal": "2021.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "I see…",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "4期生曲。新4期も参加するも、深夜生放送のため年少メンバーは欠席して11名で歌唱。"
+    },
+    {
+        "tanggal": "2021.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "きっかけ",
+        "center": ["生田絵梨花"],
+        "nama_acara": "紅白歌合戦",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "生田はピアノも演奏。メンバー全員参加。"
+    }
+]

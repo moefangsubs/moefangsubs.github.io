@@ -1,0 +1,702 @@
+[
+    {
+        "tanggal": "2020.01.01",
+        "status": { "live": false, "medley": false },
+        "lagu": "夜明けまで強がらなくてもいい",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTV SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["渡辺みり愛", "岩本蓮加"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.01.01",
+        "status": { "live": true, "medley": false },
+        "lagu": "Sing Out!",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTV SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["和田まあや", "樋口日奈", "山崎怜奈", "寺田蘭世", "中田花奈", "山下美月"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.06",
+        "status": { "live": true, "medley": false },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": "TV初披露。"
+    },
+    {
+        "tanggal": "2020.03.16",
+        "status": { "live": true, "medley": false },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTV SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.16",
+        "status": { "live": false, "medley": false },
+        "lagu": "じゃあね。",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTV SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "TV初披露。白石麻衣によるソロ歌唱"
+    },
+    {
+        "tanggal": "2020.03.21",
+        "status": { "live": true, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["白石麻衣"],
+        "nama_acara": "春は必ず来る",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.25",
+        "status": { "live": true, "medley": true },
+        "lagu": "インフルエンサー",
+        "center": ["齋藤飛鳥", "白石麻衣"],
+        "nama_acara": "Premium Music",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.25",
+        "status": { "live": true, "medley": true },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "Premium Music",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.28",
+        "status": { "live": false, "medley": false },
+        "lagu": "きっかけ",
+        "center": ["齋藤飛鳥", "白石麻衣"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.28",
+        "status": { "live": false, "medley": false },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.29",
+        "status": { "live": false, "medley": false },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTV",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["鈴木絢音"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.30",
+        "status": { "live": false, "medley": false },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.30",
+        "status": { "live": true, "medley": true },
+        "lagu": "制服のマネキン",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.30",
+        "status": { "live": true, "medley": true },
+        "lagu": "何度目の青空か？",
+        "center": ["生田絵梨花"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.30",
+        "status": { "live": true, "medley": true },
+        "lagu": "帰り道は遠回りしたくなる",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.30",
+        "status": { "live": true, "medley": true },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.03.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.04.03",
+        "status": { "live": true, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["白石麻衣"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.04.03",
+        "status": { "live": true, "medley": true },
+        "lagu": "ガールズルール",
+        "center": ["白石麻衣"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.04.03",
+        "status": { "live": true, "medley": true },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.04.05",
+        "status": { "live": false, "medley": false },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "シブヤノオト",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.04.13",
+        "status": { "live": false, "medley": false },
+        "lagu": "アナスターシャ",
+        "center": ["堀未央奈"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "TV初披露。卒業した佐々木琴子を除く8名の2期生で歌唱。"
+    },
+    {
+        "tanggal": "2020.07.18",
+        "status": { "live": true, "medley": true },
+        "lagu": "裸足でSummer",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "音楽の日",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "4年前の曲で、オリメンは飛鳥、白石、秋元、松村、高山、星野、堀、北野。"
+    },
+    {
+        "tanggal": "2020.07.18",
+        "status": { "live": true, "medley": true },
+        "lagu": "世界中の隣人よ",
+        "center": ["齋藤飛鳥", "白石麻衣"],
+        "nama_acara": "音楽の日",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "TV初披露。16名での歌唱。メドレーの2曲目で、前の曲を歌ったメンバーがそのまま歌唱。"
+    },
+    {
+        "tanggal": "2020.07.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "何度目の青空か？",
+        "center": ["生田絵梨花"],
+        "nama_acara": "シブヤノオト SP",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "6年前の楽曲で、オリメンは生田、白石、秋元、松村、星野、高山、堀。"
+    },
+    {
+        "tanggal": "2020.07.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "世界中の隣人よ",
+        "center": ["生田絵梨花", "齋藤飛鳥"],
+        "nama_acara": "シブヤノオト SP",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "27名での歌唱。"
+    },
+    {
+        "tanggal": "2020.07.24",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.01",
+        "status": { "live": false, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "HEY！HEY！NEO！",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.03",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["渡辺みり愛", "樋口日奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.04",
+        "status": { "live": false, "medley": false },
+        "lagu": "I see…",
+        "center": ["賀喜遥香"],
+        "nama_acara": "プレミアMelodiX！",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "旧4期11名による歌唱。"
+    },
+    {
+        "tanggal": "2020.08.04",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.10",
+        "status": { "live": true, "medley": false },
+        "lagu": "ジコチューで行こう!",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.10",
+        "status": { "live": true, "medley": false },
+        "lagu": "I see…",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "旧4期生11名による歌唱。"
+    },
+    {
+        "tanggal": "2020.08.15",
+        "status": { "live": false, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.17",
+        "status": { "live": false, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.22",
+        "status": { "live": false, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.22",
+        "status": { "live": false, "medley": false },
+        "lagu": "帰り道は遠回りしたくなる",
+        "center": ["遠藤さくら"],
+        "nama_acara": "バズリズム02",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.22",
+        "status": { "live": true, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["白石麻衣"],
+        "nama_acara": "24時間テレビ",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.08.23",
+        "status": { "live": true, "medley": false },
+        "lagu": "世界中の隣人よ",
+        "center": ["生田絵梨花", "白石麻衣"],
+        "nama_acara": "24時間テレビ",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "19名での歌唱。"
+    },
+    {
+        "tanggal": "2020.08.27",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "FNS歌謡祭 夏",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["渡辺みり愛"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.09.12",
+        "status": { "live": true, "medley": false },
+        "lagu": "ガールズルール",
+        "center": ["白石麻衣"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "オリメンは白石、松村、生田、高山、星野、秋元"
+    },
+    {
+        "tanggal": "2020.09.12",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "THE MUSIC DAY",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.09.21",
+        "status": { "live": true, "medley": false },
+        "lagu": "ファンタスティック3色パン",
+        "center": [],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "TV初披露。齋藤飛鳥・梅澤美波・山下美月が出演した映画『映像研には手を出すな！』の主題歌を歌う。"
+    },
+    {
+        "tanggal": "2020.09.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "おいでシャンプー",
+        "center": ["中田花奈"],
+        "nama_acara": "テレ東音楽祭2020秋",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.09.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "テレ東音楽祭2020秋",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.10.16",
+        "status": { "live": true, "medley": true },
+        "lagu": "今、話したい誰かがいる",
+        "center": ["白石麻衣"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.10.16",
+        "status": { "live": true, "medley": true },
+        "lagu": "ありがちな恋愛",
+        "center": ["齋藤飛鳥", "白石麻衣"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.10.16",
+        "status": { "live": true, "medley": true },
+        "lagu": "シンクロニシティ",
+        "center": ["白石麻衣"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.10.26",
+        "status": { "live": true, "medley": true },
+        "lagu": "ガールズルール",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "オリメンは白石、生田、秋元、星野"
+    },
+    {
+        "tanggal": "2020.10.26",
+        "status": { "live": true, "medley": true },
+        "lagu": "今、話したい誰かがいる",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.10.26",
+        "status": { "live": true, "medley": true },
+        "lagu": "インフルエンサー",
+        "center": ["齋藤飛鳥", "白石麻衣"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.10.26",
+        "status": { "live": true, "medley": true },
+        "lagu": "シンクロニシティ",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.10.26",
+        "status": { "live": true, "medley": true },
+        "lagu": "しあわせの保護色",
+        "center": ["白石麻衣"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["渡辺みり愛", "鈴木絢音", "寺田蘭世"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.11.25",
+        "status": { "live": true, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "ベストアーティスト2020",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.12.02",
+        "status": { "live": true, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "FNS歌謡祭 第1夜",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["阪口珠美"],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.12.05",
+        "status": { "live": false, "medley": false },
+        "lagu": "明日がある理由",
+        "center": ["岩本蓮加"],
+        "nama_acara": "まもなく高校生クイズ",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "TV初披露。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": false },
+        "lagu": "僕は僕を好きになる",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "裸足でSummer",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。8名で歌唱。第10位。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "ジコチューで行こう!",
+        "center": ["山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。6名で歌唱。第9位。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "夜明けまで強がらなくてもいい",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。5名で歌唱。第7位。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "I see…",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。第6位。1,2,3期も参加。総勢19名。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "帰り道は遠回りしたくなる",
+        "center": ["与田祐希"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。第4位。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "シンクロニシティ",
+        "center": ["遠藤さくら"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。第3位。日向坂46とのコラボで、それぞれ別の場所で歌った（日向坂46のセンターは小坂菜緒）。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。第2位。"
+    },
+    {
+        "tanggal": "2020.12.21",
+        "status": { "live": true, "medley": true },
+        "lagu": "インフルエンサー",
+        "center": ["齋藤飛鳥", "山下美月"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "乃木坂カラオケTOP10メドレー。第1位。なお、第8位『ガールズルール』（C:加藤史帆）と第5位『サヨナラの意味』（C:金村美玖）は日向坂46が歌ったためDBには含まれていません。"
+    },
+    {
+        "tanggal": "2020.12.25",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "MUSIC STATION SP",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.12.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "世界中の隣人よ",
+        "center": ["生田絵梨花", "齋藤飛鳥"],
+        "nama_acara": "日本レコード大賞",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2020.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "Route 246",
+        "center": ["齋藤飛鳥"],
+        "nama_acara": "紅白歌合戦",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "メンバー全員で歌唱"
+    },
+    {
+        "tanggal": "2020.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "I see…",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！SP",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "4期生曲。新4期も参加するも、深夜生放送のため年少メンバーは欠席して7名で歌唱。"
+    }
+]
