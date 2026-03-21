@@ -1,0 +1,132 @@
+[
+    {
+        "tanggal": "2016.03.12",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "震災から5年 \"明日へ\"コンサート",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.06.29",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "テレ東音楽祭2016",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.07.02",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "THE MUSIC DAY 夏のはじまり。",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.07.16",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "音楽の日 2016",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.07.18",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "2016 FNSうたの夏まつり 〜海の日スペシャル〜",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.09.19",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "30周年記念特別番組 MUSIC STATION ウルトラFES 2016",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.10.31",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "ハロウィン音楽祭2016",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.11.17",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "ベストヒット歌謡祭2016",
+        "stasiun_tv": "読売テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.11.29",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "日テレ系音楽の祭典 ベストアーティスト2016",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.12.07",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "2016 FNS歌謡祭",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": "Ditayangkan dalam 2 hari (12.07 & 12.14)"
+    },
+    {
+        "tanggal": "2016.12.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "ミュージックステーション スーパーライブ2016",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2016.12.31",
+        "status": { "live": false, "medley": false },
+        "lagu": "サヨナラの意味",
+        "center": ["橋本奈々未"],
+        "nama_acara": "第67回NHK紅白歌合戦",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "後半紅組トップバッター"
+    },
+    {
+        "tanggal": "2016.12.31",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "CDTVスペシャル! 年越しプレミアライブ 2016→2017",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    }
+]

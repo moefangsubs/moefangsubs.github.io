@@ -1,0 +1,322 @@
+[
+    {
+        "tanggal": "2025.02.04",
+        "status": { "live": false, "medley": false },
+        "lagu": "懐かしさの先",
+        "center": ["与田祐希"],
+        "nama_acara": "うたコン",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2025.03.24",
+        "status": { "live": true, "medley": false },
+        "lagu": "ネーブルオレンジ",
+        "center": ["井上和", "中西アルノ"],
+        "nama_acara": "DayDay",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2025.03.25",
+        "status": { "live": false, "medley": false },
+        "lagu": "シンクロニシティ",
+        "center": ["梅澤美波"],
+        "nama_acara": "みんなのベスト紅白",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "Original member hanya Kubo."
+    },
+    {
+        "tanggal": "2025.04.05",
+        "status": { "live": false, "medley": false },
+        "lagu": "ネーブルオレンジ",
+        "center": ["井上和", "中西アルノ"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.04.05",
+        "status": { "live": true, "medley": false },
+        "lagu": "ネーブルオレンジ",
+        "center": ["井上和", "中西アルノ"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.04.07",
+        "status": { "live": true, "medley": false },
+        "lagu": "ネーブルオレンジ",
+        "center": ["井上和", "中西アルノ"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.04.13",
+        "status": { "live": false, "medley": false },
+        "lagu": "ネーブルオレンジ",
+        "center": ["井上和", "中西アルノ"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.04.27",
+        "status": { "live": false, "medley": false },
+        "lagu": "交感神経優位",
+        "center": ["柴田柚菜"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2025.07.09",
+        "status": { "live": true, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "テレ東音楽祭2025～夏～",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2025.07.18",
+        "status": { "live": true, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "MUSIC STATION SUPER SUMMER FES 2025",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": "Koreografi dan pertunjukan khusus untuk satu malam dengan tema bunga."
+    },
+    {
+        "tanggal": "2025.07.19",
+        "status": { "live": true, "medley": false },
+        "lagu": "おひとりさま天国",
+        "center": ["井上和"],
+        "nama_acara": "音楽の日2025",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.07.19",
+        "status": { "live": true, "medley": true },
+        "lagu": "ガールズルール",
+        "center": ["賀喜遥香"],
+        "nama_acara": "音楽の日2025",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Salah satu dari 9 grup yang tampil dalam medley 1 chorus."
+    },
+    {
+        "tanggal": "2025.07.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.08.03",
+        "status": { "live": false, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.08.04",
+        "status": { "live": true, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.08.09",
+        "status": { "live": false, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.08.17",
+        "status": { "live": false, "medley": false },
+        "lagu": "不道徳な夏",
+        "center": ["金川紗耶"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2025.08.23",
+        "status": { "live": false, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "with MUSIC",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.08.24",
+        "status": { "live": false, "medley": false },
+        "lagu": "なぜ 僕たちは走るのか？",
+        "center": ["瀬戸口心月"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2025.11.13",
+        "status": { "live": true, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "ベストヒット歌謡祭2025",
+        "stasiun_tv": "読売テレビ",
+        "pengganti_member": [],
+        "note": "Penampilan perdana di TV."
+    },
+    {
+        "tanggal": "2025.11.17",
+        "status": { "live": true, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Penampilan perdana versi full size di TV."
+    },
+    {
+        "tanggal": "2025.11.22",
+        "status": { "live": false, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "Venue101",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.11.28",
+        "status": { "live": true, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "MUSIC STATION",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": ["五百城茉央"],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.11.29",
+        "status": { "live": true, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "ベストアーティスト2025",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": "Ditampilkan oleh 36 member."
+    },
+    {
+        "tanggal": "2025.12.03",
+        "status": { "live": true, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "2025FNS歌謡祭 第1夜",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["奥田いろは"],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.12.06",
+        "status": { "live": false, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": ["田村真佑"],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.12.07",
+        "status": { "live": false, "medley": false },
+        "lagu": "ビリヤニ",
+        "center": ["瀬戸口心月", "矢田萌華"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": ["五百城茉央"],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.12.14",
+        "status": { "live": false, "medley": false },
+        "lagu": "純粋とは何か？",
+        "center": ["五百城茉央"],
+        "nama_acara": "乃木坂工事中",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.12.22",
+        "status": { "live": true, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "CDTVライブ！ライブ！",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["林瑠奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.12.26",
+        "status": { "live": true, "medley": false },
+        "lagu": "ネーブルオレンジ",
+        "center": ["井上和", "中西アルノ"],
+        "nama_acara": "MUSIC STATION SUPER LIVE",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": ["伊藤理々杏", "柴田柚菜"],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.12.30",
+        "status": { "live": true, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "日本レコード大賞",
+        "stasiun_tv": "TBS",
+        "pengganti_member": ["林瑠奈"],
+        "note": ""
+    },
+    {
+        "tanggal": "2025.12.31",
+        "status": { "live": true, "medley": false },
+        "lagu": "Same numbers",
+        "center": ["賀喜遥香"],
+        "nama_acara": "紅白歌合戦",
+        "stasiun_tv": "NHK",
+        "pengganti_member": [],
+        "note": "Diikuti oleh seluruh member (kecuali yang terkendala batasan umur)."
+    }
+]

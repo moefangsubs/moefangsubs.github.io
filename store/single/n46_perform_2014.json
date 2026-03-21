@@ -1,0 +1,92 @@
+[
+    {
+        "tanggal": "2014.06.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "テレ東音楽祭（初）",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.07.12",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "THE MUSIC DAY 音楽のちから",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.08.02",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "音楽の日 2014",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.08.13",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "2014 FNSうたの夏まつり",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.11.20",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "ベストヒット歌謡祭2014",
+        "stasiun_tv": "読売テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.11.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "日テレ系音楽の祭典 ベストアーティスト2014",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.12.03",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "2014 FNS歌謡祭",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.12.26",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "ミュージックステーション スーパーライブ2014",
+        "stasiun_tv": "テレビ朝日",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2014.12.31",
+        "status": { "live": false, "medley": false },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "TBSテレビ開始60周年記念特別番組 CDTVスペシャル! 年越しプレミアライブ 2014→2015",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    }
+]

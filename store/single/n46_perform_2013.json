@@ -1,0 +1,455 @@
+[
+    {
+        "tanggal": "2013.01.13",
+        "status": {
+            "live": false,
+            "medley": true
+        },
+        "lagu": "1985年のヒットソングメドレー",
+        "center": [],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Membawakan lagu-lagu cover era 1985-an."
+    },
+    {
+        "tanggal": "2013.01.27",
+        "status": {
+            "live": false,
+            "medley": true
+        },
+        "lagu": "1986年のヒットソングメドレー",
+        "center": [],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Membawakan lagu-lagu cover era 1986-an."
+    },
+    {
+        "tanggal": "2013.02.03",
+        "status": {
+            "live": false,
+            "medley": true
+        },
+        "lagu": "2003年のヒットソングメドレー",
+        "center": [],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Membawakan lagu-lagu cover era 2003-an."
+    },
+    {
+        "tanggal": "2013.03.03",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "君の名は希望",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.03.16",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "君の名は希望",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "ハッピーMusic",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.03.16",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "君の名は希望",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": "Dibawakan dengan iringan piano dari Ikuta Erika"
+    },
+    {
+        "tanggal": "2013.03.16",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "君の名は希望",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "うまズキッ！",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.03.17",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "君の名は希望",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.04.14",
+        "status": {
+            "live": false,
+            "medley": true
+        },
+        "lagu": "2000年のヒットソングメドレー",
+        "center": [],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Membawakan lagu-lagu cover era 2000-an."
+    },
+    {
+        "tanggal": "2013.04.30",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "おいでシャンプー",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "Rの法則",
+        "stasiun_tv": "NHK Eテレ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.04.30",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "君の名は希望",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "Rの法則",
+        "stasiun_tv": "NHK Eテレ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.04.30",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "制服のマネキン",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "Rの法則",
+        "stasiun_tv": "NHK Eテレ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.06.10",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.06.27",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.06.29",
+        "status": {
+            "live": true,
+            "medley": true
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "音楽の日 2013",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Dibawakan secara medley bersama 'おいでシャンプー'."
+    },
+    {
+        "tanggal": "2013.06.29",
+        "status": {
+            "live": true,
+            "medley": true
+        },
+        "lagu": "おいでシャンプー",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "音楽の日 2013",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.06.29",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "うまズキッ！",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.07.05",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "ミュージックドラゴン",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.07.06",
+        "status": {
+            "live": true,
+            "medley": false
+        },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "THE MUSIC DAY 音楽のちから「うたうで! おどるで! THE カヴァ☆コラTV」",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.07.09",
+        "status": {
+            "live": true,
+            "medley": false
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "Tokyo Dome 楽天 VS 日本ハムファイターズ",
+        "stasiun_tv": "",
+        "pengganti_member": [],
+        "note": "Penampilan khusus di Tokyo Dome."
+    },
+    {
+        "tanggal": "2013.07.14",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "扇風機",
+        "center": [
+            "齋藤飛鳥"
+        ],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": "Lagu Under Girls."
+    },
+    {
+        "tanggal": "2013.07.31",
+        "status": {
+            "live": true,
+            "medley": false
+        },
+        "lagu": "おいでシャンプー",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "2013 FNSうたの夏まつり",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.11.17",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "バレッタ",
+        "center": [
+            "堀未央奈"
+        ],
+        "nama_acara": "乃木坂って、どこ？",
+        "stasiun_tv": "テレビ東京",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.11.22",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "バレッタ",
+        "center": [
+            "堀未央奈"
+        ],
+        "nama_acara": "ミュージックドラゴン",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.11.23",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "バレッタ",
+        "center": [
+            "堀未央奈"
+        ],
+        "nama_acara": "MUSIC FAIR",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.11.27",
+        "status": {
+            "live": true,
+            "medley": false
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "日テレ系音楽の祭典 ベストアーティスト2013",
+        "stasiun_tv": "日本テレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.11.28",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "バレッタ",
+        "center": [
+            "堀未央奈"
+        ],
+        "nama_acara": "MUSIC JAPAN",
+        "stasiun_tv": "NHK総合",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.12.04",
+        "status": {
+            "live": true,
+            "medley": false
+        },
+        "lagu": "????",
+        "center": [],
+        "nama_acara": "2013 FNS歌謡祭",
+        "stasiun_tv": "フジテレビ",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.12.09",
+        "status": {
+            "live": false,
+            "medley": false
+        },
+        "lagu": "バレッタ",
+        "center": [
+            "堀未央奈"
+        ],
+        "nama_acara": "Sound Room",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    },
+    {
+        "tanggal": "2013.12.31",
+        "status": {
+            "live": true,
+            "medley": true
+        },
+        "lagu": "ガールズルール",
+        "center": [
+            "白石麻衣"
+        ],
+        "nama_acara": "CDTVスペシャル! 年越しプレミアライブ 2013→2014",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": "Dibawakan secara medley bersama 'おいでシャンプー'."
+    },
+    {
+        "tanggal": "2013.12.31",
+        "status": {
+            "live": true,
+            "medley": true
+        },
+        "lagu": "おいでシャンプー",
+        "center": [
+            "生駒里奈"
+        ],
+        "nama_acara": "CDTVスペシャル! 年越しプレミアライブ 2013→2014",
+        "stasiun_tv": "TBS",
+        "pengganti_member": [],
+        "note": ""
+    }
+]

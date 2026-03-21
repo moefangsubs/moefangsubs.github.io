@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <title>Nogizaka46 Performance Database</title>
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/footer.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_performance.css">
+</head>
+<body>
+
+<div class="perf-container">
+    <div class="titlehead">
+        <h1>Nogizaka46 TV Performance</h1>
+    </div>
+
+    <div class="justify intro-text">
+        Halaman ini merangkum riwayat penampilan Nogizaka46 di berbagai program televisi musik. Data ini mencakup status siaran, seperti apakah penampilan dilakukan secara <b>生 (Live)</b> atau rekaman, serta apakah lagu dibawakan dalam format <b>Medley</b>.<br><br>
+        Selain itu, tabel ini merekam informasi mengenai <b>代打出演 (Pengganti Member)</b>. Seringkali, jika member dari formasi asli berhalangan hadir karena jadwal atau alasan kesehatan, posisinya akan digantikan sementara oleh member lain untuk mengisi kekosongan formasi tersebut.
+    </div>
+
+	<div class="filter-group">
+        <div class="custom-dropdown" id="yearDropdown">
+            <div class="custom-dropdown-header" id="yearDropdownHeader">Tahun Dipilih (Semua) ▼</div>
+            <div class="custom-dropdown-list" id="yearDropdownList">
+                <label><input type="checkbox" class="year-cb" value="2026" checked> 2026</label>
+                <label><input type="checkbox" class="year-cb" value="2025" checked> 2025</label>
+                <label><input type="checkbox" class="year-cb" value="2024" checked> 2024</label>
+                <label><input type="checkbox" class="year-cb" value="2023" checked> 2023</label>
+                <label><input type="checkbox" class="year-cb" value="2022" checked> 2022</label>
+                <label><input type="checkbox" class="year-cb" value="2021" checked> 2021</label>
+                <label><input type="checkbox" class="year-cb" value="2020" checked> 2020</label>
+                <label><input type="checkbox" class="year-cb" value="2019" checked> 2019</label>
+                <label><input type="checkbox" class="year-cb" value="2018" checked> 2018</label>
+                <label><input type="checkbox" class="year-cb" value="2017" checked> 2017</label>
+                <label><input type="checkbox" class="year-cb" value="2016" checked> 2016</label>
+                <label><input type="checkbox" class="year-cb" value="2015" checked> 2015</label>
+                <label><input type="checkbox" class="year-cb" value="2014" checked> 2014</label>
+                <label><input type="checkbox" class="year-cb" value="2013" checked> 2013</label>
+                <label><input type="checkbox" class="year-cb" value="2012" checked> 2012</label>
+            </div>
+        </div>
+
+        <select id="langToggle">
+            <option value="romaji">Romaji (ID)</option>
+            <option value="jp">Jepang (JP)</option>
+        </select>
+    </div>
+
+    <div id="loadingElement">Memuat data penampilan...</div>
+
+    <div class="perf-table-wrapper">
+        <table id="perfTable">
+            <thead>
+                <tr>
+                    <th style="width: 50px;">No.</th>
+                    <th style="width: 120px;">Tanggal</th>
+                    <th>Acara & Stasiun TV</th>
+                    <th>Lagu & Center</th>
+                    <th>Pengganti (代打)</th>
+                    <th>Status / Note</th>
+                </tr>
+            </thead>
+            <tbody id="perfList"></tbody>
+        </table>
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/script_performance.js"></script>
+</body>
+</html>
