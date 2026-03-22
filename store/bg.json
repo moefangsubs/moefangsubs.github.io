@@ -74,7 +74,7 @@
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/2d7lju2d7lju2d7l.jpg",
             "https://ik.imagekit.io/moearchive/2d7lju2d7lju2d7l.jpg",
@@ -84,6 +84,25 @@
             "https://ik.imagekit.io/moearchive/rouep3rouep3roue.jpg",
             "https://ik.imagekit.io/moearchive/vha0qivha0qivha0.jpg",
             "https://ik.imagekit.io/moearchive/ycr4u4ycr4u4ycr4.jpg"
+        ]
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/1sdx5k1sdx5k1sdx.jpg",
+            "https://ik.imagekit.io/moearchive/99bt8w99bt8w99bt.jpg",
+            "https://ik.imagekit.io/moearchive/jiuz7cjiuz7cjiuz.jpg",
+            "https://ik.imagekit.io/moearchive/mkm3vamkm3vamkm3.jpg",
+            "https://ik.imagekit.io/moearchive/o0ob2fo0ob2fo0ob.jpg",
+            "https://ik.imagekit.io/moearchive/ocx0uzocx0uzocx0.jpg",
+            "https://ik.imagekit.io/moearchive/pz8a7lpz8a7lpz8a.jpg",
+            "https://ik.imagekit.io/moearchive/qvve72qvve72qvve.jpg",
+            "https://ik.imagekit.io/moearchive/r433vir433vir433.jpg",
+            "https://ik.imagekit.io/moearchive/t1a4jyt1a4jyt1a4.jpg",
+            "https://ik.imagekit.io/moearchive/utmcriutmcriutmc.jpg",
+            "https://ik.imagekit.io/moearchive/vlhbvivlhbvivlhb.jpg",
+            "https://ik.imagekit.io/moearchive/w2s1pdw2s1pdw2s1.jpg"
         ]
     }
 ]
