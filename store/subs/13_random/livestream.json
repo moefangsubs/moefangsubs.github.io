@@ -1,0 +1,44 @@
+{
+	"url": "livestream",
+	"nameShowTitle": "Live Streaming",
+	"availableEpisode": [
+		"250331", "260225"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_livestream.png",
+	"episodes": {
+		"250331": {
+			"descEpisode": "| 250331 Inoue Nagi 1st Photobook \"Monologue\" Release Commemoration Live Stream 2",
+			"descEpsListName": "Inoue Nagi",
+			"descOnAirDate": "31 Maret 2025",
+			"memberParticipate": "井上和",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/250331-inoue-nagi-monologue-youtube-live-stream-2-xIIsh",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250331_InoueNagi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250331_InoueNagi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250331_InoueNagi1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250331_InoueNagi2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250331_InoueNagi3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/250331_InoueNagi4.jpg",
+			"subLanguage": "Indonesia",
+			"descEpisodeSynopsis": "Dalam siaran langsung perayaan perilisan buku foto pertamanya yang berjudul \"Monologue\", Inoue Nagi berbagi cerita menarik di balik layar photobook, serta mengungkapkan betapa takjubnya ia dengan keindahan laut di Sardinia yang sangat memukau dan berkesan selama proses produksi photobook tersebut.",
+			"nameShow": "井上和 1st写真集「モノローグ」发售纪念直播②"
+		},
+		"260225": {
+			"descEpisode": "| 260225 Sakusatsu VOL.01 Release Commemoration Live Stream",
+			"descEpsListName": "Shizuki & Mio",
+			"descOnAirDate": "25 Februari 2026",
+			"memberParticipate": "的野美青、山下瞳月",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/sakusatsu-vol01-release-commemoration-live-stream-WRb5C",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260225_Sakusatsu.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_Sakusatsu.png",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_Sakusatsu1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_Sakusatsu2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_Sakusatsu3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260225_Sakusatsu4.jpg",
+			"subLanguage": "Indonesia",
+			"descEpisodeSynopsis": "Dalam siaran langsung perayaan perilisan \"Sakusatsu VOL.01\", Yamashita Shizuki dan Matono Mio membahas foto yang ada di Sakusatsu hingga momen menarik di dalamnya.",
+			"nameShow": "『櫻撮VOL.01』 発売記念生配信"
+		}
+	}
+}

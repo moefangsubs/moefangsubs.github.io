@@ -4,11 +4,57 @@
 	"nameShow": "乃木坂工事中",
 	"descSynopsis": "\"Nogizaka Under Construction\" atau \"Nogizaka Koujichuu\" merupakan acara variety show dari Nogizaka46 dengan MC duo komedian Bananaman. Acara ini bisa dibilang kelanjutan dari acara sebelumnya, yaitu \"Nogizaka tte, Doko?\" yang tayang di stasiun TV yang sama, TV Tokyo pada hari minggu pukul 24:00-24:30 JST. Setiap minggunya pada awalnya, satu member dipilih untuk mempresentasikan program yang ingin dia lakukan. Dibandingkan dengan \"Nogizaka tte, Doko?\", dimana setiap member sebagai protagonis project, yang akan lebih menunjukkan karakteristik dan pesona masing-masing member. Namun tipe seperti itu dibatalkan setelah ep25.",
 	"availableEpisode": [
+		"099", "100", "101",
 		"未公開_230", "未公開_139_140",
 		"190", "191", "192"
 	],
 	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_koujichuu.png",
 	"episodes": {
+		"099": {
+			"descEpisode": "| Episode 99",
+			"descOnAirDate": "26 Maret 2017",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/o1YZ34cS",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu099.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu099.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu099a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu099b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu099c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu099d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini adalah episode perkenalan gen-3 yang saat itu baru bergabung. Di bagian pertama ini akan memperkenalkan Yamashita Mizuki, Ito Riria, Sato Kaede, dan Ozono Momoko."
+		},
+		"100": {
+			"descEpisode": "| Episode 100",
+			"descOnAirDate": "2 April 2017",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/8aDl3EG2",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu100.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu100.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu100a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu100b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu100c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu100d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini masih melanjutkan segmen perkenalan gen-3 yang saat itu baru bergabung. Di bagian kedua ini akan memperkenalkan Kubo Shiori, Nakamura Reno, Mukai Hazuki, dan Yoshida Ayano Christie."
+		},
+		"101": {
+			"descEpisode": "| Episode 101",
+			"descOnAirDate": "9 April 2017",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/aWC9zx8",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu101.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu101.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu101a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu101b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu101c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu101d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini masih melanjutkan segmen perkenalan gen-3 yang saat itu baru bergabung. Di bagian terakhir ini akan memperkenalkan sisa member yang belum perkenalan, antara lain Yoda Yuuki, Sakaguchi Tamami, Umezawa Minami, dan Iwamoto Renka."
+		},
 		"未公開_230": {
 			"descEpisode": "| Episode 230 未公開",
 			"descOnAirDate": "18 Agustus 2021",

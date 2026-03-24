@@ -9,9 +9,8 @@
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50", 
 		"51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
-		"61", "62"
+		"61", "62", "63"
 	],
-	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
 		"01": {
@@ -974,6 +973,23 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02d.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 kini diundang ke acara BUZZ RYTHM02, yang dipandu oleh duo MC Bakarythm dan ex-Nogizaka46 Ichiki Rena. Disini, ada beberapa VTR kegiatan para member di hari libur masing-masing 30 detik.",
 			"nameShow": "BUZZ RYTHM02"
+		},
+		"63": {
+			"descEpisode": "| 260215 Zenkoku Boroii Yado (Matono Mio, Yamashita Shizuki, Sasaki Kumi CUT)",
+			"descEpsListName": "260215",
+			"descOnAirDate": "15 Februari 2026",
+			"memberParticipate": "的野美青、山下瞳月、佐々木久美",
+			"linkHardsub": "https://sfl.gl/RYxaB9WC",
+			"linkTrakteer": "",
+			"filePassword": "MioShizuki",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260215_zenkokuboroiiyado.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-d.jpg",
+			"descEpisodeSynopsis": "Yamashita Shizuki dan Matono Mio kali ini berpartisipasi dalam acara ini. Mereka saat ini mengunjungi penginapan tua bernuansa kereta yang dikelola oleh pasangan suami istri yang sangat ramah di Prefektur Yamanashi. Mereka menemukan paviliun unik bernama Kamar Kereta yang disambut langsung oleh lokomotif Kereta Biru. Mereka menikmati berbagai pengalaman seru dan menghangatkan hati dari penginapan ini, mulai dari memasak bersama nenek hingga menyantap hidangan laut yang sangat mewah.",
+			"nameShow": "全国ボロいい宿"
 		}
 	}
 }

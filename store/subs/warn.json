@@ -44,6 +44,9 @@
 		"type": "request",
 		"text": "🧧 Ini adalah garapan request by order via DM Instagram",
 		"targets": [
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=099",
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=100",
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=101",
 			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=190",
 			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=191",
 			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=192",
@@ -95,9 +98,12 @@
 			"../store/subs/13_random/showroom.json?episodes=42",
 			"../store/subs/13_random/showroom.json?episodes=43",
 			"../store/subs/13_random/showroom.json?episodes=44",
-			"../store/subs/13_concert/concert.json?episodes=06",
 			"../store/subs/13_random/showroom.json?episodes=46",
 			"../store/subs/13_random/showroom.json?episodes=47",
+			"../store/subs/13_random/livestream.json?episodes=250331",
+			"../store/subs/13_random/livestream.json?episodes=260225",
+			"../store/subs/13_random/random-subs.json?episodes=63",
+			"../store/subs/13_concert/concert.json?episodes=06",
 			"../store/subs/14_concert/graduation-concert.json?episodes=12",
 			"../store/subs/14_concert/live-performance.json?episodes=15",
 			"../store/subs/15_premium/nogizaka46-12th-bdl-talk.json?episodes=01"
