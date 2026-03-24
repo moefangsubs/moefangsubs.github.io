@@ -1,5 +1,18 @@
 [
   {
+    "date": "260324",
+    "updates": [
+      {"showId": "nogizaka-koujichuu", "eps":"099"},
+      {"showId": "nogizaka-koujichuu", "eps":"100"},
+      {"showId": "nogizaka-koujichuu", "eps":"101"},
+      {"showId": "cupstar-ane-to-itsumademo", "eps":"08"},
+      {"showId": "cupstar-ane-to-itsumademo", "eps":"09"},
+      {"showId": "livestream", "eps":"250331"},
+      {"showId": "livestream", "eps":"260225"},
+      {"showId": "random-subs", "eps":"63"}
+    ]
+  },
+  {
     "date": "260315",
     "updates": [
       {"showId": "nogizaka-fractal-yuuna-no-heya", "eps":"01"},
