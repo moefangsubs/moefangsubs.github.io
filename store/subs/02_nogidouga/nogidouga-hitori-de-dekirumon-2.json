@@ -4,7 +4,7 @@
 	"nameShow": "ひとりでできるもん セカンド",
 	"descSynopsis": "Sebagai penerus dari senpainya gen-5, juga pembuka tahun baru dalam rangkaian spesial akhir tahun 2025-2026, \"Hitori de Dekirumon Second\" menampilkan member gen-6 yang melakukan tantangan solo perdana di Nogi Douga.",
 	"availableEpisode": [
-		"01", "02"
+		"01", "02", "03"
 	],
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hitoridedekirumon2.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/hitori2_{{eps}}.jpg",
@@ -27,6 +27,12 @@
 			"memberParticipate": "瀬戸口心月",
 			"linkHardsub": "https://sfl.gl/QBdf",
 			"descEpisodeSynopsis": "Episode kedua menampilkan Setoguchi Mitsuki yang menantang dirinya untuk mengasah pisau, sebuah ide yang berawal dari pemikiran bahwa ia mungkin akan lebih bersemangat memasak jika menggunakan pisau hasil asahannya sendiri, di mana ia dengan berani memulai tantangan ini dari nol pengetahuan sembari memeriksa ketajaman pisau sebelum diasah."
+		},
+		"03": {
+			"descOnAirDate": "6 Maret 2026",
+			"memberParticipate": "海邉朱莉",
+			"linkHardsub": "https://sfl.gl/6hznOEO",
+			"descEpisodeSynopsis": "Episode ketiga kali ini menampilkan Kaibe Akari yang mencoba tantangan baru dengan melakukan kemping untuk pertama kalinya meskipun sebenarnya lebih menyukai aktivitas di dalam ruangan. Di bawah langit biru, ia berjuang keras mengerjakan segala hal sendirian mulai dari mendirikan tenda, menyalakan api unggun, hingga memasak. Perjuangan gigih saat merakit tenda dan kursi meskipun belum terbiasa menjadi pemandangan menarik untuk melihat sejauh mana perkembangan yang ditunjukkannya."
 		}
 	}
 }

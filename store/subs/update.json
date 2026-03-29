@@ -1,5 +1,20 @@
 [
   {
+    "date": "260329",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"40"},
+      {"showId": "nogidouga-hitori-de-dekirumon-2", "eps":"03"},
+      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"71"},
+      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"72"},
+      {"showId": "rojiura-hotel", "eps":"02a"},
+      {"showId": "rojiura-hotel", "eps":"02b"},
+      {"showId": "ima-doko-ni-iru-no", "eps":"02"},
+      {"showId": "ima-doko-ni-iru-no", "eps":"03"},
+      {"showId": "sukui-sukuware", "eps":"06"},
+      {"showId": "sukui-sukuware", "eps":"07"}
+    ]
+  },
+  {
     "date": "260324",
     "updates": [
       {"showId": "nogizaka-koujichuu", "eps":"099"},
