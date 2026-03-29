@@ -29,7 +29,7 @@
 		"03": {
 			"descOnAirDate": "26 September 2025",
 			"memberParticipate": "筒井あやめ、菅原咲月",
-			"descEpisodeSynopsis": "Di episode ini ini, Sugawara Satsuki akan merekomendasikan \"Meitantei Conan\"! Kepada Tsutsui yang biasanya tidak terlalu sering menonton anime, Satchan akan mempresentasikan daya tariknya dari sudut pandangnya yang unik."
+			"descEpisodeSynopsis": "Di episode ini, Sugawara Satsuki akan merekomendasikan \"Meitantei Conan\"! Kepada Tsutsui yang biasanya tidak terlalu sering menonton anime, Satchan akan mempresentasikan daya tariknya dari sudut pandangnya yang unik."
 		},
 		"04": {
 			"descOnAirDate": "10 Oktober 2025",
@@ -52,6 +52,11 @@
 			"descOnAirDate": "27 Februari 2026",
 			"memberParticipate": "筒井あやめ、冨里奈央",
 			"descEpisodeSynopsis": "Episode 6 kali ini menampilkan Tomisato Nao yang merekomendasikan gaya hidup kotatsu impian di tengah dinginnya suasana studio saat puncak musim dingin. Selain membahas daya tarik meja penghangat tersebut, dilakukan pula tantangan merakit kotatsu secara bersama-sama untuk melihat fungsinya secara langsung."
+		},
+		"07": {
+			"descOnAirDate": "27 Februari 2026",
+			"memberParticipate": "筒井あやめ、弓木奈於",
+			"descEpisodeSynopsis": "Kali ini, Yumiki Nao merekomendasikan 'Sylvanian Families' kepada Ayame. Rasa cinta yang selama ini dipendam terhadap koleksi tersebut akhirnya meledak melalui presentasi unik khas dunia Yumiki yang bahkan mampu membuat Ayame merasa kewalahan."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

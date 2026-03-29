@@ -5,7 +5,7 @@
     "nameShow": "救い、救われ",
 	"descSynopsis": "Minase Ama, idola pemula yang dirundung rekan grupnya, mulai menjalin hubungan dengan aktor populer Hosho Chiaki setelah menjadi pemeran pengganti dalam dramanya. Chiaki awalnya mendekati Ama karena taruhan dengan Kairi, namun kemurnian Ama perlahan memikatnya. Perasaan tersebut kemudian berkembang menjadi obsesi posesif yang mengaburkan batas antara cinta dan keterikatan yang berbahaya.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05"
+		"01", "02", "03", "04", "05", "06", "07"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sukui{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}.jpg",
@@ -42,15 +42,18 @@
             "linkHardsub": "https://sfl.gl/ffz9uUp7"
         },
         "06": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Chiaki berusaha memaksa Ama menjadi miliknya hingga membuat Ama yang gemetar ketakutan melarikan diri setelah menyatakan ingin menjaga jarak. Rumor mengenai Chiaki dan Kairi yang memperebutkan Ama menyebar luas di lokasi syuting, sementara Kyoka mempertemukan Ama dengan Hibiki untuk membongkar sisi gelap Chiaki yang pernah menyakitinya. Di sisi lain, Chiaki yang putus asa bahkan sempat mengutarakan keinginan untuk mati kepada Shiki. Karena sulit berkonsentrasi saat syuting bersama Kairi, Sutradara Tanuma menyarankan Ama untuk menghabiskan lebih banyak waktu bersama lawan mainnya tersebut. Namun, Chiaki yang terhasut oleh bisikan Seira mulai mengintai apartemen Ama hingga cinta obsesifnya mulai lepas kendali.",
+			"memberParticipate": "阪口珠美、若月佑美",
+            "linkHardsub": "https://sfl.gl/W7mAg"
         },
         "07": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Kairi mengunjungi rumah Ama untuk pendalaman peran dan tanpa sengaja mengungkapkan perasaan jujurnya saat melihat album masa SMA. Di tengah kesibukan Ama bekerja demi melupakan Chiaki, manajer Suzui memperingatkan tentang rencana artikel skandal cinta segitiga yang melibatkan mereka. Akan tetapi, artikel yang terbit justru membongkar sisi buruk Chiaki terkait konflik keluarga dan perilaku buruknya di masa lalu. Khawatir akan kondisi Chiaki, Ama segera menemuinya, sementara Kyoka jatuh dalam keputusasaan setelah rahasia kelamnya dibongkar oleh Chiaki. Saat memulai syuting di lokasi baru, Ama dikejutkan oleh kehadiran Seira sebagai lawan main yang sengaja memamerkan kedekatannya dengan Chiaki demi menggoyahkan hati Ama.",
+			"memberParticipate": "阪口珠美、若月佑美",
+            "linkHardsub": "https://sfl.gl/FEPh"
         },
         "08": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Seira memberikan isyarat mengenai hubungannya dengan Chiaki yang memicu kepuasan tersendiri bagi Chiaki saat mendengar Ama merasa cemburu. Tanpa mengakui pembicaraannya dengan Seira, Chiaki memancing Ama untuk bercerita mengenai situasi di lokasi syuting, namun Ama justru meresponsnya dengan ciuman mesra. Di tengah momen tersebut, Chiaki menerima ancaman dari ibunya, Natsumi, yang menuntut kompensasi dan mengancam akan melibatkan Ama. Menyadari betapa berharganya Ama serta rekam jejaknya yang selalu menyakiti wanita, Chiaki merasa bimbang. Setelah menikmati waktu piknik yang damai bersama keluarga Ama, Chiaki menyadari perbedaan dunia mereka yang sangat kontras dan secara tiba-tiba memutuskan untuk mengakhiri hubungan tersebut.",
+			"memberParticipate": "阪口珠美、若月佑美",
             "linkHardsub": ""
         },
         "09": {

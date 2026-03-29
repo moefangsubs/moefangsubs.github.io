@@ -5,7 +5,8 @@
     "nameShow": "路地裏ホテル",
 	"descSynopsis": "Sebuah drama fantasi remaja yang dibintangi oleh 11 member Sakurazaka46 gen-3. Berlatar di sebuah hotel di sudut kota, cerita ini mengikuti perjalanan sekelompok perempuan yang menghadapi berbagai keresahan serta konflik batin melalui pengalaman dunia lain yang misterius. Setiap episodenya menggambarkan bagaimana para karakter tersebut menghadapi dan melewati permasalahan yang berbeda-beda demi mencapai kedewasaan.",
     "availableEpisode": [
-		"01a", "01b"
+		"01a", "01b",
+		"02a", "02b"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/rojiura{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}.jpg",
@@ -33,19 +34,22 @@
         "02a": {
 			"descEpisode": "| Episode 2 前編",
 			"descEpsListName": "02 前編",
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Kotohara Mina mengunjungi Rojiura Hotel untuk menemui Akino Kaori, namun di dalam kamar tersebut ia justru mendapati ruang seni SMA dan kehadiran sahabatnya, Akino Sari. Keduanya mulai mewujudkan satu per satu dari sepuluh janji yang pernah mereka buat hingga akhirnya sebuah peristiwa membuat Mina teringat akan hal penting dan menyadari makna sebenarnya dari dunia tersebut.",
+			"memberParticipate": "小島凪紗、石森璃花、遠藤理子",
+            "linkHardsub": "https://sfl.gl/5w0Iz5v"
         },
         "02b": {
 			"descEpisode": "| Episode 2 後編",
 			"descEpsListName": "02 後編",
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Demi menepati janji yang sempat terhenti di masa lalu, Mina dan Sari melanjutkan untuk mewujudkan keinginan mereka satu per satu hingga akhirnya Mina terbangun dengan perasaan yang selama ini tersimpan lalu memutuskan untuk menemui Kaori yang merupakan adik perempuan Sari.",
+			"memberParticipate": "小島凪紗、石森璃花、遠藤理子",
+            "linkHardsub": "https://sfl.gl/vLnkVOOW"
         },
         "03a": {
 			"descEpisode": "| Episode 3 前編",
 			"descEpsListName": "03 前編",
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Suzuka Yoshii datang ke Tokyo demi audisi aktor musikal, namun karena kegagalan serta pembatalan jadwal pulang dan penginapan yang penuh, ia akhirnya menginap di Rojiura Hotel. Saat memasuki kamar yang ditunjukkan oleh manajer, ia mendapati sebuah live house asing dan bertemu dengan grup band pria tua tidak populer bernama \"Opossum\" serta seseorang bernama Noah.",
+			"memberParticipate": "谷口愛季、村井優",
             "linkHardsub": ""
         },
         "03b": {
