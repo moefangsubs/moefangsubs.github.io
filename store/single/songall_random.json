@@ -1,11 +1,43 @@
 [
     {
-        "titleJp": "帰り道",
-        "titleRo": "Kaerimichi",
-        "ArtistJp": "OAU",
-        "ArtistRo": "OAU",
-		"thumb": "oau01",
-        "LinkDownMV": "https://drive.google.com/file/d/1qX5OkfO2BGWBngjqpn7E7c0mAr7wwf2u"
+        "titleJp": "Rookies",
+        "titleRo": "Rookies",
+        "ArtistJp": "Conton Candy",
+        "ArtistRo": "Conton Candy",
+		"thumb": "conton01",
+        "LinkDownMV": "https://drive.google.com/file/d/1nGmQ4iYv_8iqt6FsDncX-N_dK1bsrOPo/view?usp=drive_link"
+    },
+    {
+        "titleJp": "スノウドロップ",
+        "titleRo": "Snow Drop",
+        "ArtistJp": "Conton Candy",
+        "ArtistRo": "Conton Candy",
+		"thumb": "conton02",
+        "LinkDownMV": "https://drive.google.com/file/d/1IYd_iZs9AY6bbD1saMZb1iRH9CKiLiAx/view?usp=drive_link"
+    },
+    {
+        "titleJp": "普通",
+        "titleRo": "Futsuu",
+        "ArtistJp": "Conton Candy",
+        "ArtistRo": "Conton Candy",
+		"thumb": "conton03",
+        "LinkDownMV": "https://drive.google.com/file/d/1NqMTfGV2ubvYRorAPv-8hnq_tNnS380Q/view?usp=drive_link"
+    },
+    {
+        "titleJp": "Side U",
+        "titleRo": "Side U",
+        "ArtistJp": "茜屋日海夏",
+        "ArtistRo": "Himika Akaneya",
+		"thumb": "himika01",
+        "LinkDownMV": "https://drive.google.com/file/d/1I0piwDDqnQhyxh_R0resl9Eqbpf6fMdk/view?usp=drive_link"
+    },
+    {
+        "titleJp": "Stereo Sunset",
+        "titleRo": "Stereo Sunset",
+        "ArtistJp": "茜屋日海夏",
+        "ArtistRo": "Himika Akaneya",
+		"thumb": "himika02",
+        "LinkDownMV": "https://drive.google.com/file/d/17oHJoKqHFtyWn8s8UF3PzSzPAF2vegdF/view?usp=drive_link"
     },
     {
         "titleJp": "ロビンソン",

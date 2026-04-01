@@ -19,56 +19,67 @@
 	"episodes": {
 		"01": {
 			"descEpsListName": "Ioki Mao",
+			"memberParticipate": "五百城茉央",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki01.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-01-ioki.jpg"
 		},
 		"02": {
 			"descEpsListName": "Ikeda Teresa",
+			"memberParticipate": "池田瑛紗",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki02.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-02-teresa.jpg"
 		},
 		"03": {
 			"descEpsListName": "Ichinose Miku",
+			"memberParticipate": "一ノ瀬美空",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki03.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-03-miku.jpg"
 		},
 		"04": {
 			"descEpsListName": "Inoue Nagi",
+			"memberParticipate": "井上和",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki04.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-04-nagi.jpg"
 		},
 		"05": {
 			"descEpsListName": "Okamoto Hina",
+			"memberParticipate": "岡本姫奈",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki05.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-05-hina.jpg"
 		},
 		"06": {
 			"descEpsListName": "Ogawa Aya",
+			"memberParticipate": "小川彩",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki06.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-06-aya.jpg"
 		},
 		"07": {
 			"descEpsListName": "Okuda Iroha",
+			"memberParticipate": "奥田いろは",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki07.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-07-iroha.jpg"
 		},
 		"08": {
 			"descEpsListName": "Kawasaki Sakura",
+			"memberParticipate": "川﨑桜",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki08.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-08-sakura.jpg"
 		},
 		"09": {
 			"descEpsListName": "Sugawara Satsuki",
+			"memberParticipate": "菅原咲月",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki09.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-09-satsuki.jpg"
 		},
 		"10": {
 			"descEpsListName": "Tomisato Nao",
+			"memberParticipate": "冨里奈央",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki10.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-10-nao.jpg"
 		},
 		"11": {
 			"descEpsListName": "Nakanishi Aruno",
+			"memberParticipate": "中西アルノ",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/5ki11.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/5kimsg/5kimsg-11-aruno.jpg"
 		}

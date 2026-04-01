@@ -1807,7 +1807,7 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "Rena (RHT.)",
 			"HasMV": "yes",
-			"LinkDownMV1": ""
+			"LinkDownMV1": "https://drive.google.com/file/d/17MLZ-H85-bvdwh6qYao2QqZdknrqMCST/view?usp=drive_link"
 		},
 		{
 			"titleJp": "君と生きる",
@@ -1815,7 +1815,7 @@
 			"songNumber": "16th Single",
 			"SongTypeAvv": "All",
 			"songRelease": "2026.01.28",
-			"songOutline": "Under Members",
+			"songOutline": "Hiragana Hinatazaka46",
 			"center": "上村ひなの",
 			"members3": ["坂井新奈", "下田衣珠季", "竹内希来里", "平岡海月", "蔵盛妃那乃", "大田美月"],
 			"members2": ["片山紗希", "山口陽世", "佐藤優羽", "森本茉莉", "鶴崎仁香"],
@@ -1827,7 +1827,7 @@
 			"SongLyricsJP": "秋元康",
 			"SongChoreo": "CRE8BOY",
 			"HasMV": "yes",
-			"LinkDownMV1": ""
+			"LinkDownMV1": "https://drive.google.com/file/d/1_pZ34t-PTYP_ARNtbRzZZ9WjfduY2d1d/view?usp=drive_link"
 		},
 		{
 			"titleJp": "好きになるクレッシェンド",
@@ -1836,10 +1836,17 @@
 			"SongTypeAvv": "Type-A",
 			"songRelease": "2026.01.28",
 			"songOutline": "Gen (5th)",
-			"center": "",
-			"members0": ["大田美月", "大野愛実", "片山紗希", "蔵盛妃那乃", "坂井新奈", "佐藤優羽", "下田衣珠季", "高井俐香", "鶴崎仁香", "松尾桜"],
+			"center": "片山紗希",
+			"members1": ["蔵盛妃那乃", "坂井新奈", "片山紗希", "下田衣珠季", "大田美月"],
+			"members2": ["高井俐香", "松尾桜", "大野愛実", "佐藤優羽", "鶴崎仁香"],
+			"SongMVDirJP": "YODEN",
+			"SongMVDirRO": "YODEN",
+			"SongCompJP": ["浦島健太", "カトウリョータ"],
+			"SongArraJP": "カトウリョータ",
 			"SongLyricsJP": "秋元康",
-			"HasMV": "no"
+			"SongChoreo": "CRE8BOY",
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/17MLZ-H85-bvdwh6qYao2QqZdknrqMCST/view?usp=drive_link"
 		},
 		{
 			"titleJp": "Surf’s up girl",
@@ -1848,9 +1855,14 @@
 			"SongTypeAvv": "Type-B",
 			"songRelease": "2026.01.28",
 			"songOutline": "Gen (4th)",
-			"center": "",
-			"members0": ["石塚瑶季", "小西夏菜実", "清水理央", "正源司陽子", "竹内希来里", "平尾帆夏", "平岡海月", "藤嶌果歩", "宮地すみれ", "山下葉留花", "渡辺莉奈"],
+			"center": "竹内希来里",
+			"members1": ["石塚瑶季", "竹内希来里", "平岡海月"],
+			"members2": ["正源司陽子", "藤嶌果歩", "渡辺莉奈", "平尾帆夏"],
+			"members3": ["清水理央", "山下葉留花", "宮地すみれ", "小西夏菜実"],
+			"SongCompJP": "フジノタカフミ",
+			"SongArraJP": ["フジノタカフミ", "島田尚"],
 			"SongLyricsJP": "秋元康",
+			"SongChoreo": "Chaso",
 			"HasMV": "no"
 		},
 		{
@@ -1862,7 +1874,10 @@
 			"songOutline": "All Members",
 			"center": "",
 			"members0": ["金村美玖", "小坂菜緒", "松田好花", "上村ひなの", "髙橋未来虹", "森本茉莉", "山口陽世", "石塚瑶季", "小西夏菜実", "清水理央", "正源司陽子", "竹内希来里", "平尾帆夏", "平岡海月", "藤嶌果歩", "宮地すみれ", "山下葉留花", "渡辺莉奈", "大田美月", "大野愛実", "片山紗希", "蔵盛妃那乃", "坂井新奈", "佐藤優羽", "下田衣珠季", "高井俐香", "鶴崎仁香", "松尾桜"],
+			"SongCompJP": "温詞",
+			"SongArraJP": "TomoLow",
 			"SongLyricsJP": "松田好花",
+			"SongChoreo": "CRE8BOY",
 			"HasMV": "no"
 		},
 		{
@@ -1874,7 +1889,10 @@
 			"songOutline": "Unit",
 			"center": "",
 			"members0": ["宮地すみれ", "渡辺莉奈"],
+			"SongCompJP": "温詞",
+			"SongArraJP": "TomoLow",
 			"SongLyricsJP": "秋元康",
+			"SongChoreo": "Chaso",
 			"HasMV": "no"
 		},
 		{
@@ -1884,9 +1902,12 @@
 			"SongTypeAvv": "Regular",
 			"songRelease": "2026.01.28",
 			"songOutline": "Senbatsu",
-			"center": "大野愛実",
+			"center": "",
 			"members0": ["小西夏菜実", "宮地すみれ", "渡辺莉奈", "山下葉留花", "清水理央", "高井俐香", "松尾桜", "藤嶌果歩", "松田好花", "金村美玖", "髙橋未来虹", "小坂菜緒", "大野愛実", "正源司陽子"],
+			"SongCompJP": ["barbora", "TomoLow"],
+			"SongArraJP": "TomoLow",
 			"SongLyricsJP": "秋元康",
+			"SongChoreo": "Akiho Ogawa",
 			"HasMV": "no"
 		}
 	],
