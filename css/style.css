@@ -50,6 +50,57 @@
 	--puasa4b :#00774d;
 	--puasa4c :#00522c;
 	--puasa4d :#00300d;
+
+/* --------------------- */
+/* Group color gradient  */
+/* --------------------- */
+
+	--saku0: #F19DB5ff;
+	--saku1: #EF8AA6ff;
+	--saku2: #EC7698ff;
+	--saku3: #EA6389ff;
+	--saku4: #E74F7Bff;
+	--saku5: #E53C6Cff;
+	--saku6: #E2285Eff;
+	--saku7: #E0154Fff;
+
+	--hinata0: #81DBFFff;
+	--hinata1: #6FD0F6ff;
+	--hinata2: #5CC4EEff;
+	--hinata3: #4AB9E5ff;
+	--hinata4: #38ADDCff;
+	--hinata5: #26A2D3ff;
+	--hinata6: #1396CBff;
+	--hinata7: #018BC2ff;
+	
+	--keyaki0: #8EEC82ff;
+	--keyaki1: #7DDB71ff;
+	--keyaki2: #6CC960ff;
+	--keyaki3: #5BB84Fff;
+	--keyaki4: #4AA63Eff;
+	--keyaki5: #39952Dff;
+	--keyaki6: #28831Cff;
+	--keyaki7: #17720Bff;
+	
+	--akb0: #FEE1EAff;
+	--akb1: #FED3E0ff;
+	--akb2: #FEC4D7ff;
+	--akb3: #FEB6CDff;
+	--akb4: #FFA7C3ff;
+	--akb5: #FF99B9ff;
+	--akb6: #FF8AB0ff;
+	--akb7: #FF7CA6ff;
+	
+
+	--bokuao0: #1685D8ff;
+	--bokuao1: #177BD4ff;
+	--bokuao2: #1772CFff;
+	--bokuao3: #1868CBff;
+	--bokuao4: #185FC6ff;
+	--bokuao5: #1955C2ff;
+	--bokuao6: #194CBDff;
+	--bokuao7: #1A42B9ff;
+	
 }
 * {
 	font-family: "Space Mono", monospace;

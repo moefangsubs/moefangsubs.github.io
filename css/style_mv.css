@@ -54,126 +54,217 @@
 .skr:before {background-image: url('../ico/8bit_saku.png');}
 .hnt:before {background-image: url('../ico/8bit_hina.png');}
 .n46:before {background-image: url('../ico/8bit_n46.png');}
+
 .single-container {
-	width: 100%;
-	border: 3px solid var(--moe-tint5);
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
-	margin-bottom: 1.5rem;
+    --theme-main: var(--moe);
+    --theme-border: var(--moe-tint5);
+    --theme-badge: var(--moe-tint3);
+    --theme-bg: var(--moe-tint6);
+    --theme-btn: var(--moe-tint4);
+    --theme-btn-hover: var(--moe-tint5);
+    --theme-btn-shadow: var(--moe-tint3);
+
+    width: 100%;
+    border: 3px solid var(--theme-border);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 1.5rem;
 }
+
+.single-container[data-theme="sakurazaka"] {
+    --theme-main: var(--saku7);
+    --theme-border: var(--saku2);
+    --theme-badge: var(--saku5);
+    --theme-bg: var(--saku0);
+    --theme-btn: var(--saku4);
+    --theme-btn-hover: var(--saku5);
+    --theme-btn-shadow: var(--saku6);
+}
+
+.single-container[data-theme="hinatazaka"] {
+    --theme-main: var(--hinata7);
+    --theme-border: var(--hinata2);
+    --theme-badge: var(--hinata5);
+    --theme-bg: var(--hinata0);
+    --theme-btn: var(--hinata4);
+    --theme-btn-hover: var(--hinata5);
+    --theme-btn-shadow: var(--hinata6);
+}
+
+.single-container[data-theme="keyakizaka"] {
+    --theme-main: var(--keyaki7);
+    --theme-border: var(--keyaki2);
+    --theme-badge: var(--keyaki5);
+    --theme-bg: var(--keyaki0);
+    --theme-btn: var(--keyaki4);
+    --theme-btn-hover: var(--keyaki5);
+    --theme-btn-shadow: var(--keyaki6);
+}
+
+.single-container[data-theme="bokuao"] {
+    --theme-main: var(--bokuao7);
+    --theme-border: var(--bokuao2);
+    --theme-badge: var(--bokuao5);
+    --theme-bg: var(--bokuao0);
+    --theme-btn: var(--bokuao4);
+    --theme-btn-hover: var(--bokuao5);
+    --theme-btn-shadow: var(--bokuao6);
+}
+
+.single-container[data-theme="akb48"] {
+    --theme-main: var(--akb7);
+    --theme-border: var(--akb2);
+    --theme-badge: var(--akb5);
+    --theme-bg: var(--akb0);
+    --theme-btn: var(--akb4);
+    --theme-btn-hover: var(--akb5);
+    --theme-btn-shadow: var(--akb6);
+}
+
 .single-container .single-title {
-	font-size: 1.7rem;
-	font-weight: bold;
-	padding: 5px;
-	color: var(--moe);
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 5px;
+    color: var(--theme-main);
 }
+
+.single-badge {
+    background-color: var(--theme-badge);
+    color: white;
+    font-size: 0.8rem;
+    padding: 3px 8px;
+    display: inline-block;
+    align-self: flex-start;
+    margin: 5px 5px 0 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
 .download {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	width: 100%;
-	gap: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 15px;
 }
+
 .cdcover {
-	width: 25%;
-	flex-shrink: 0;
+    width: 25%;
+    flex-shrink: 0;
 }
+
 .cdcover img {
-	width: 100%;
-	height: auto;
-	border-left: 9pt solid #e1e1e1;
-	box-shadow: 3px 3px 0 var(--moe-tint3);
-	padding: 5px;
-	background: var(--moe-tint4);
+    width: 100%;
+    height: auto;
+    border-left: 9pt solid #e1e1e1;
+    box-shadow: 3px 3px 0 var(--theme-btn-shadow);
+    padding: 5px;
+    background: var(--theme-btn);
 }
+
 .songlist {
-	width: 75%;
-	display: flex;
-	flex-direction: column;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
 }
+
 .songlist .mvv, .songlist .mvx {
-	width: 100%;
-	margin: 2px 0;
-	padding: 5px;
-	border-top: 1px dashed var(--moe-tint4);
-	border-bottom: 1px dashed var(--moe-tint4);
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
+    width: 100%;
+    margin: 2px 0;
+    padding: 5px;
+    border-top: 1px dashed var(--theme-btn);
+    border-bottom: 1px dashed var(--theme-btn);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .mvx {
-	color: #737373 !important;
+    color: #737373 !important;
 }
+
 .mvv {
-	color: var(--moe);
-	background: var(--moe-tint6);
+    color: var(--theme-main);
+    background: var(--theme-bg);
 }
+
 .song-cover {
-	list-style-type: none;
-	margin-right: 10px;
-	flex-shrink: 0;
-	display: flex; 
+    list-style-type: none;
+    margin-right: 10px;
+    flex-shrink: 0;
+    display: flex; 
     gap: 4px;     
 }
+
 .song-cover img {
-	width: 55px;
-	height: 55px;
-	object-fit: cover;
-	display: block;
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    display: block;
 }
+
 .song-cover img.grayscale {
-	filter: grayscale(100%);
-	opacity: 0.6;
+    filter: grayscale(100%);
+    opacity: 0.6;
 }
+
 .song-title {
-	list-style-type: none;
-	flex-grow: 1;
+    list-style-type: none;
+    flex-grow: 1;
 }
+
 .song-title p {
-	margin: 0;
-	padding: 0 5px;
+    margin: 0;
+    padding: 0 5px;
 }
+
 .song-title .ro {
-	font-size: 1.3rem;
-	padding-bottom: 2px;
+    font-size: 1.3rem;
+    padding-bottom: 2px;
 }
+
 .song-title .roa {
-	font-size: 1.3rem;
+    font-size: 1.3rem;
 }
+
 .song-title .jp {
-	padding-top: 2px;
-	font-size: 0.8rem;
-	opacity: 0.8;
+    padding-top: 2px;
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
+
 .song-title .cat {
-	display: inline-block;
-	padding: 3px 6px;
-	background: var(--moe-tint5);
-	margin-top: 5px;
-	font-size: 8pt;
-	font-weight: 400;
-	color: white;
+    display: inline-block;
+    padding: 3px 6px;
+    background: var(--theme-badge);
+    margin-top: 5px;
+    font-size: 8pt;
+    font-weight: 400;
+    color: white;
 }
+
 .song-download {
-	list-style-type: none;
-	flex-shrink: 0;
+    list-style-type: none;
+    flex-shrink: 0;
 }
+
 .song-download a {
-	font-weight: bold;
-	cursor: pointer;
-	border: 1px solid white;
-	width: 70px;
-	height: 70px;
-	display: flex;
-	background: var(--moe-tint4);
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
-	margin-right: 5px;
-	transition: all 0.2s ease-in-out;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    background: var(--theme-btn);
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-right: 5px;
+    transition: all 0.2s ease-in-out;
 }
+
 .song-download a:before {
     content: "";
     display: inline-block;
@@ -183,11 +274,13 @@
     background-repeat: no-repeat;
     background-image: url('../sprite/element/download.svg');
 }
+
 .song-download a:hover {
-	background: var(--moe-tint5);
-	box-shadow: 6px 6px 0 var(--moe-tint3);
-	transform: translate(-2px, -2px);
+    background: var(--theme-btn-hover);
+    box-shadow: 6px 6px 0 var(--theme-btn-shadow);
+    transform: translate(-2px, -2px);
 }
+
 @media screen and (max-width: 768px) {
 	#mv-page-container h1 {
 		font-size: 1.5rem;

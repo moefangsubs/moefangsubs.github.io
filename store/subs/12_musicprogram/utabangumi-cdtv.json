@@ -5,16 +5,18 @@
 		"230320",
 		"250804",
 		"251117",
-		"251222"
+		"251222",
+		"260330_1",
+		"260330_2"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_cdtv.png",
-	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/230319-cdtv-live-live-nogizaka46-l5VRm",
 	"episodes": {
 		"230320": {
 			"descEpisode": "| \"Hito wa Yume o Nido miru\"",
 			"descEpsListName": "230320",
 			"descOnAirDate": "20 Maret 2023",
 			"linkHardsub": "https://lokerwfh.net/19ywpXV1",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/230319-cdtv-live-live-nogizaka46-l5VRm",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230320_cdtvlivelive_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230319-cdtvlivelive-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan single ke-32 \"Hito wa Yume o Nido Miru\" untuk pertama kalinya secara full. Mari kita lihat penampilan mereka dengan W-center Yamashita Mizuki dan Kubo Shiori.",
@@ -49,6 +51,26 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251222-cdtvlivelive-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 kembali membawakan single ke-39 \"Same numbers\".",
 			"nameShow": "CDTVライブ!ライブ!クリスマス年間ランキングFES"
+		},
+		"260330_1": {
+			"descEpisode": "| \"Saigo ni Kaidan o Kakeagatta no wa Itsu da?\"",
+			"descEpsListName": "260330",
+			"descOnAirDate": "30 Maret 2026",
+			"linkHardsub": "https://drive.google.com/file/d/1dZEh8B7N9jorDWgYllR6sPU16SZGOBw-/view?usp=drive_link",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260330_cdtvlivelive_nogizaka46_1.png",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260330-cdtvlivelive-nogizaka46-1.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 kembali membawakan single ke-40 \"Saigo ni Kaidan o Kakeagatta no wa Itsu da?\" dengan center terbaru mahasiswi Universitas Seni, Ikeda Teresa dari gen-5.",
+			"nameShow": "CDTVライブ!ライブ!"
+		},
+		"260330_2": {
+			"descEpisode": "| \"Sayonara no Imi\"",
+			"descEpsListName": "260330",
+			"descOnAirDate": "30 Maret 2026",
+			"linkHardsub": "https://drive.google.com/file/d/1YBrCMLmPORgsQZudOUYlfJVU8U_KwmRC/view?usp=drive_link",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260330_cdtvlivelive_nogizaka46_2.png",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260330-cdtvlivelive-nogizaka46-2.jpg",
+			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 kembali membawakan single ke-16 \"Sayonara no Imi\" setelah sekian lama, dengan center sang kapten Umezawa Minami yang telah mengumumkan kelulusannya, dan ini penampilan terakhirnya di CDTV.",
+			"nameShow": "CDTVライブ!ライブ!"
 		}
 	},
 	"memberParticipate": "乃木坂46"

@@ -28,6 +28,10 @@ body {
     background-color: var(--moe-tint5);
     z-index: -1;
 }
+.cht {
+    background-color: var(--moe-tint6);
+    z-index: -1;
+}
 #salam-pembuka {
     width: 90%;
     text-align: center;

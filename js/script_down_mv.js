@@ -1,5 +1,3 @@
-// ../js/script_down_mv2.js
-
 document.addEventListener('DOMContentLoaded', async () => {
     const mainContainer = document.querySelector('.mv-group-container');
     if (!mainContainer) return;
@@ -9,7 +7,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const specialTitles = {
         nogizaka46: {
             "a1": "Toumei na Iro", "a2": "Sorezore no Isu", "a3": "Umarete kara Hajimete Mita Yume",
-            "a4": "Ima ga Omoide ni naru made", "b1": "Time flies", "u1": "Boku dake no Kimi ~Under Super Best~", "dig": "Digital Release"
+            "a4": "Ima ga Omoide ni naru made", "b1": "Time flies", "u1": "Boku dake no Kimi ~Under Super Best~", "dig": "Digital Release",
+            "akb38": "Kibouteki Refrain",
+            "akb47": "Shoot Sign",
+            "akb51": "Jabaja",
+            "akb55": "Jiwaru DAYS"
         },
         hinatazaka: { "a01": "Hinatazaka", "a02": "Myakuutsu Kanjou", "hira_alb": "Hashiridasu Shunkan" },
         sakurazaka: { "a01": "As You Know?", "a02": "Addiction" },
@@ -69,14 +71,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (!hasDownloadableMV) continue;
             
-            // --- LOGIKA BARU UNTUK MAIN COVER ART ---
+            let theme = groupKey;
+            if (groupKey === 'nogizaka46' && singleId.startsWith('akb')) {
+                theme = 'akb48';
+            }
+
             let mainCoverArt;
             if (groupKey === 'bokuao') {
-                // Untuk BokuAo, selalu panggil cover Tipe A untuk gambar utama
                 const dummySongForMainCover = { SongTypeAvv: 'Type-A' };
                 mainCoverArt = getCoverArtUrl(groupKey, singleId, dummySongForMainCover);
             } else {
-                // Logika lama untuk grup lain
                 const firstSongWithCover = songs[0];
                 mainCoverArt = getCoverArtUrl(groupKey, singleId, firstSongWithCover);
             }
@@ -84,6 +88,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             let singleTitle = (specialTitles[groupKey] && specialTitles[groupKey][singleId])
                 ? specialTitles[groupKey][singleId]
                 : (songs[0]?.titleRo || 'Unknown Title');
+
+            let badgeHTML = '';
+            if (singleId !== 'dig' && songs[0] && songs[0].songNumber) {
+                badgeHTML = `<span class="single-badge">${songs[0].songNumber.toUpperCase()}</span>`;
+            }
 
             const songListHTML = songs
                 .filter(song => (isNogizaka ? (song.LinkDownMV1 || song.LinkDownMV2) : (song.HasMV === 'yes')))
@@ -94,19 +103,16 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const category = song.songOutline || '';
                     const downloadLinkHTML = song.LinkDownMV1 ? `<li class="song-download"><a href="${song.LinkDownMV1}" target="_blank"></a></li>` : '';
                     
-                    // --- LOGIKA BARU UNTUK THUMBNAIL BOKUAO ---
                     let trackCoverArtHTML = '';
                     const grayscaleClass = hasLink ? '' : 'grayscale';
                     
                     if (groupKey === 'bokuao' && Array.isArray(song.SongTypeAvv)) {
-                        // Jika BokuAo dan SongTypeAvv adalah array, buat beberapa gambar
                         trackCoverArtHTML = song.SongTypeAvv.map(type => {
-                            const tempSong = { ...song, SongTypeAvv: type }; // Buat objek sementara dengan satu tipe
+                            const tempSong = { ...song, SongTypeAvv: type };
                             const trackCoverArtUrl = getCoverArtUrl(groupKey, singleId, tempSong);
                             return `<img src="${trackCoverArtUrl}" class="${grayscaleClass}" loading="lazy" />`;
                         }).join('');
                     } else {
-                        // Logika standar untuk grup lain atau BokuAo dengan satu tipe
                         const trackCoverArtUrl = getCoverArtUrl(groupKey, singleId, song);
                         trackCoverArtHTML = `<img src="${trackCoverArtUrl}" class="${grayscaleClass}" loading="lazy" />`;
                     }
@@ -127,7 +133,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (!songListHTML) continue;
 
             singlesHTML += `
-                <div class="single-container" single="${singleId}">
+                <div class="single-container" single="${singleId}" data-theme="${theme}">
+                    ${badgeHTML}
                     <span class="single-title">${singleTitle.toUpperCase()}</span>
                     <div class="download">
                         <div class="cdcover"><img src="${mainCoverArt}" loading="lazy" /></div>

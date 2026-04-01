@@ -1,5 +1,12 @@
 [
   {
+    "date": "260401",
+    "updates": [
+      {"showId": "utabangumi-cdtv", "eps":"260330_1"},
+      {"showId": "utabangumi-cdtv", "eps":"260330_2"}
+    ]
+  },
+  {
     "date": "260329",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"40"},
