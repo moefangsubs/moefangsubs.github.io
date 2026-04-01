@@ -1,0 +1,35 @@
+{
+	"url": "nogizaka-haishinchuu",
+	"nameShowTitle": "Nogizaka Haishinchuu",
+	"nameShow": "乃木坂配信中",
+	"availableEpisode": [
+		"01", "02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_haishinchuu.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 231114 Nogizaka Haishinchuu - Nogizaka46 \"Monopoly\" First Performance",
+			"descEpsListName": "231114",
+			"descOnAirDate": "14 November 2023",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://drive.google.com/file/d/1pJ6Q1MZIgi_zIAjnFX-JYHCJ8nbmCb0m/view?usp=sharing",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/231114_haishinchuumonopoly.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/231114-ngzhaishinchuu-34monopoly.jpg",
+			"descEpisodeSynopsis": "Ini adalah penampilan pertama dari single Nogizaka46 berjudul \"Monopoly\". Center-nya untuk kali ini adalah dari gen-4, Kaki Haruka dan Endo Sakura. Bagi yang ingin menyaksikannya, silakan."
+		},
+		"02": {
+			"descEpisode": "| 241109 Nogizaka Haishinchuu - Nogizaka46 \"Hodoukyou\" Senbatsu Formation Announcement & First Performance",
+			"descEpsListName": "241109",
+			"descOnAirDate": "9 November 2024",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://drive.google.com/file/d/1OLRlj1yRjjsvN6Z5wM9zytyFyApUAzPA/view?usp=sharing",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/241109_haishinchuuhodoukyou.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/241109-ngzhaishinchuu-37hodoukyou.jpg",
+			"descEpisodeSynopsis": "Ini adalah penampilan pertama dari single terbaru Nogizaka46 yang ke-37 berjudul \"Hodoukyou\". Center-nya untuk kali ini adalah dari gen-4, Endo Sakura, yang juga formasi senbatsunya diumumkan di waktu yang sama. Bagi yang ingin menyaksikannya, silakan."
+		}
+	}
+}

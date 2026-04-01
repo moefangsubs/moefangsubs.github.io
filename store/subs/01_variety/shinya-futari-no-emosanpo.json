@@ -1,0 +1,45 @@
+{
+	"url": "shinya-futari-no-emosanpo",
+	"nameShowTitle": "Shinya, Futari no Emosanpo",
+	"nameShow": "深夜、２人のエモさんぽ",
+	"availableEpisode": [
+		"01", "02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_emosanpo.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 251118 Shinya Futari no Emosanpo",
+			"descEpsListName": "251118",
+			"descOnAirDate": "18 November 2025",
+			"memberParticipate": "藤嶌果歩、正源司陽子",
+			"linkHardsub": "https://sfl.gl/x3mhZaz7",
+			"TrakteerB": "Unreleased Scene 1, 2, 3, 4",
+			"linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/shinya-futari-no-emosanpo-Z11R5",
+			"filePassword": "EmoSanpo-YokoKaho",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251118_emosanpo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpoa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpob.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpoc.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpod.jpg",
+			"descEpisodeSynopsis": "Acara bincang-bincang ini mempertemukan dua sosok dengan ikatan istimewa, seperti rival atau sahabat karib, untuk berjalan-jalan menyusuri kota di tengah malam sembari mencurahkan isi hati. Shogenji Yoko dan Fujishima Kaho dari Hinatazaka46 mengambil alih di pekan ketiga dan keempat acara ini dengan rute dari Yokohama Stadium menuju lokasi syuting video musik \"Kimi wa Honeydew\", di mana mereka saling mengungkapkan perasaan terpendam dan mensyukuri kedewasaan diri karena kini mampu membicarakan topik sensitif masa lalu dengan penuh tawa."
+		},
+		"02": {
+			"descEpisode": "| 251125 Shinya Futari no Emosanpo",
+			"descEpsListName": "251125",
+			"descOnAirDate": "25 November 2025",
+			"memberParticipate": "藤嶌果歩、正源司陽子",
+			"linkHardsub": "https://sfl.gl/lgANeDK",
+			"TrakteerB": "Unreleased Scene 5, 6, 7, 8",
+			"linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/shinya-futari-no-emosanpo-Z11R5",
+			"filePassword": "EmoSanpo-YokoKaho",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251125_emosanpo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpoa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpob.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpoc.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpod.jpg",
+			"descEpisodeSynopsis": "Acara bincang-bincang ini mempertemukan dua sosok dengan ikatan istimewa, seperti rival atau sahabat karib, untuk berjalan-jalan menyusuri kota di tengah malam sembari mencurahkan isi hati. Shogenji Yoko dan Fujishima Kaho dari Hinatazaka46 mengambil alih di pekan ketiga dan keempat acara ini dengan rute dari Yokohama Stadium menuju lokasi syuting video musik \"Kimi wa Honeydew\", di mana mereka saling mengungkapkan perasaan terpendam dan mensyukuri kedewasaan diri karena kini mampu membicarakan topik sensitif masa lalu dengan penuh tawa."
+		}
+	}
+}

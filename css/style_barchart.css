@@ -1,0 +1,181 @@
+/* ---------------------- */
+/* Bar Chart Wrapper      */
+/* ---------------------- */
+
+.moe-barchart-wrapper {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.moe-barchart {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--moe-tint7, #f8efff);
+    border: 2px solid var(--moe, #440079);
+}
+
+.moe-barchart-segment {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    transition: width 0.5s ease;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.moe-barchart-segment:hover {
+    filter: brightness(1.1);
+}
+
+.moe-barchart-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: var(--moe, #440079);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 3px 6px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.legend-item:hover {
+    background-color: var(--moe-tint7, #f8efff);
+}
+
+.legend-color {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+/* ---------------------- */
+/* Modal Popup & Grid     */
+/* ---------------------- */
+#moe-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+
+#moe-modal-content {
+    background-color: var(--moe-tint7, #f8efff);
+    width: fit-content;
+    min-width: 320px;
+    max-width: min(1000px, 95%);
+    max-height: 85vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#moe-modal-header {
+    background-color: var(--moe, #440079);
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#moe-modal-close {
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1;
+}
+
+#moe-modal-close:hover {
+    color: var(--moe-tint5, #d5a0ff);
+}
+
+#moe-modal-body {
+    padding: 15px;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+#moe-modal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.moe-grid-item {
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    width: 220px;
+    flex-grow: 1;
+    max-width: 240px;
+}
+
+.moe-grid-item .item-shadow {
+    content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    z-index: 1; background: var(--moe-tint5); transform: translate(3px, 3px);
+    clip-path: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
+}
+
+.moe-grid-item a {
+    text-decoration: none; color: inherit; display: block;
+    width: 100%; height: 100%; position: relative; z-index: 2;
+    background: white;
+    clip-path: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
+    transition: transform 0.2s ease;
+}
+
+.moe-grid-item:hover a {
+    transform: translate(-2px, -2px);
+}
+
+.moe-grid-item a::after {
+    content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    z-index: 3; background: var(--moe-shade-max1); pointer-events: none;
+    clip-path: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
+}
+
+.moe-grid-item img {
+    width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block;
+}
+
+.moe-grid-item .title {
+    padding: 10px; font-size: 0.85em; font-weight: bold; color: #333; line-height: 1.4;
+}
+
+.moe-grid-badge {
+    display: inline-block; padding: 2px 6px; color: white; border-radius: 4px;
+    font-size: 0.8em; margin-right: 5px; vertical-align: text-bottom;
+}
