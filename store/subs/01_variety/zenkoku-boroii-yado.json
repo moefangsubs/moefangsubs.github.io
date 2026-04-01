@@ -1,0 +1,43 @@
+{
+	"url": "zenkoku-boroii-yado",
+	"nameShowTitle": "Zenkoku Boroii Yado",
+	"nameShow": "全国ボロいい宿",
+	"availableEpisode": [
+		"240218", "260215"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_boroiyado.png",
+	"episodes": {
+		"240218": {
+			"descEpisode": "| 240218 Zenkoku Boroii Yado (Ioki Mao, Sugawara Satsuki, Sasaki Kumi CUT)",
+			"descEpsListName": "240218",
+			"descOnAirDate": "18 Februari 2024",
+			"memberParticipate": "五百城茉央、菅原咲月、佐々木久美",
+			"linkHardsub": "https://lokerwfh.net/DMEbfR",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240218-zenkoku-boroii-yado-ioki-mao-x-sugawara-satsuki-cut-Wcqr1",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240218_zenkokuboroiiyado.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-c.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 Berpartisipasi untuk pertama kalinya! Mereka terkesima dengan pengalaman yang unik di pedalaman Chiba! Ioki Mao dan Sugawara Satsuki mengunjungi penginapan yang penuh dengan pemandangan musiman yang indah di Prefektur Chiba. Mereka menemukan telepon hitam di rumah tua dengan atap jerami. Mereka menikmati berbagai \"pengalaman pertama\" yang unik dari penginapan ini, mulai dari rendaman kaki hingga nasi di tungku, hingga mi udon buatan tangan, sambil menjelajahi pesonanya!",
+			"nameShow": "全国ボロいい宿"
+		},
+		"260215": {
+			"descEpisode": "| 260215 Zenkoku Boroii Yado (Matono Mio, Yamashita Shizuki, Sasaki Kumi CUT)",
+			"descEpsListName": "260215",
+			"descOnAirDate": "15 Februari 2026",
+			"memberParticipate": "的野美青、山下瞳月、佐々木久美",
+			"linkHardsub": "https://sfl.gl/RYxaB9WC",
+			"linkTrakteer": "",
+			"filePassword": "MioShizuki",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260215_zenkokuboroiiyado.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-d.jpg",
+			"descEpisodeSynopsis": "Yamashita Shizuki dan Matono Mio dari Sakurazaka46 kali ini berpartisipasi dalam acara ini. Mereka saat ini mengunjungi penginapan tua bernuansa kereta yang dikelola oleh pasangan suami istri yang sangat ramah di Prefektur Yamanashi. Mereka menemukan paviliun unik bernama Kamar Kereta yang disambut langsung oleh lokomotif Kereta Biru. Mereka menikmati berbagai pengalaman seru dan menghangatkan hati dari penginapan ini, mulai dari memasak bersama nenek hingga menyantap hidangan laut yang sangat mewah."
+		}
+	}
+}

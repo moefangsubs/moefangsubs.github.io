@@ -28,8 +28,10 @@ body {
     background-color: var(--moe-tint5);
     z-index: -1;
 }
+
 .cht {
     background-color: var(--moe-tint6);
+    padding: 30pt 0pt;
     z-index: -1;
 }
 #salam-pembuka {

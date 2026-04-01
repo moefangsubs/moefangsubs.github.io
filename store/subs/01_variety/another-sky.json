@@ -1,0 +1,41 @@
+{
+	"url": "another-sky",
+	"nameShowTitle": "Another Sky",
+	"nameShow": "アナザースカイ",
+	"availableEpisode": [
+		"01", "02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_anothersky.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 190308 Another Sky",
+			"descEpsListName": "190308",
+			"descOnAirDate": "8 Maret 2019",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://lokerwfh.net/WrR2eon",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/190308-another-sky-saito-asuka-re-sub-wDDzi",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/190308_anothersky_asuka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky01.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky02.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky03.jpg",
+			"descEpisodeSynopsis": "Another Sky adalah acara mingguan yang menampilkan orang-orang terkenal mengunjungi luar negeri, gabungan antara cuplikan lokasi dan segmen studio. Dalam episode ini, Saito Asuka mengunjungi London."
+		},
+		"02": {
+			"descEpisode": "| 241102 Another Sky",
+			"descEpsListName": "241102",
+			"descOnAirDate": "2 November 2024",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://sfl.gl/a7IqyMZ",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/241102-another-sky-saito-asuka-sConv",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/241102_anothersky_asuka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky01.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky02.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky03.jpg",
+			"descEpisodeSynopsis": "Tamu pada 2 November adalah Saito Asuka, aktor dan model yang sebelumnya aktif sebagai member Nogizaka46 dan lulus dari grup pada konser Mei tahun lalu. Berkunjung ke Osaka, ia mengenang masa lalunya, dari debut pada usia 13 hingga pengalaman yang penuh warna sebagai idola. Saat itu, ia sangat termotivasi oleh kerja keras para member dan tak punya keinginan lain selain menjadi bagian dari Nogizaka46, sehingga sempat mempertimbangkan pensiun saat lulus. Namun, dorongan ibunya membuatnya melanjutkan karier di dunia hiburan. Baginya, Osaka adalah tempat yang memungkinkan dirinya tampil apa adanya, bertemu orang-orang yang tulus dengan canda yang penuh kasih. Ia merasa penting untuk hidup dengan cinta dalam setiap interaksi, dan Osaka menginspirasinya menjadi pribadi yang lebih penuh kasih."
+		}
+	}
+}

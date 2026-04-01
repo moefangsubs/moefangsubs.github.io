@@ -1,0 +1,56 @@
+{
+	"url": "cupstar",
+	"nameShowTitle": "Cupstar",
+	"availableEpisode": [
+		"01", "02", "03"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_cupstar.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Sapporo Ichiban",
+			"descEpsListName": "カップスター",
+			"descOnAirDate": "31 Maret 2020 s/d ...",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/7bzv",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/200331_sonotokicupstar.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar1.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar3.jpg",
+			"descEpisodeSynopsis": "\"Sonotoki, Cupstar\" merupakan CM berdurasi 15 detik yang menampilkan beberapa member Nogizaka46 dengan berbagai latar cerita. Kini di April 2022 sudah mencapai episode 21 (atau Season 2 episode 11). Yang saya sediakan langsung berupa folder Google Drive.",
+			"nameShow": "そのとき、カップスター"
+		},
+		"02": {
+			"descEpisode": "| 221105 Nogizaka Maitsuki Gekijou",
+			"descEpsListName": "221105",
+			"descOnAirDate": "5 November 2022",
+			"memberParticipate": "井上和、菅原咲月",
+			"linkHardsub": "https://lokerwfh.net/z2e6H55",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221105_cupstar_itv.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221105-cupstar-interview.jpg",
+			"descEpisodeSynopsis": "Di kesempatan kali ini, gen-5 Inoue Nagi dan Sugawara Satsuki mendapat interview singkat dalam channel YouTube-nya Sapporo Ichiban mengenai CM yang telah mereka perankan, dan pengalamannya saat syuting NogiMart bersama member senpai dan Tokyo03.",
+			"nameShow": "井上和・菅原咲月にインタビュー！"
+		},
+		"03": {
+			"descEpisode": "| 251016 Cupstar Masuda Mirine no Onirepo",
+			"descEpsListName": "251016",
+			"descOnAirDate": "16 Oktober 2025",
+			"memberParticipate": "増田三莉音",
+			"linkHardsub": "https://sfl.gl/8uAg",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251016-cupstar-mirine-onirepo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo4.jpg",
+			"descEpisodeSynopsis": "Sang pembuat gebrakan dari gen-6, Masuda Mirine, akan memberikan liputan super dari lokasi syuting iklan TV CupStar. Mulai dari wawancara dengan senpainya hingga kesannya saat pertama kali mencicipi rasa \"Hotate Shio\".",
+			"nameShow": "カップスター スペシャル企画　増田三莉音の鬼レポ"
+		}
+	}
+}

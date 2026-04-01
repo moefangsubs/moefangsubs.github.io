@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="../css/style_sitemap_garapan.css">
     <link rel="stylesheet" href="../css/style_sitemap_trakteer.css">
 	<link rel="stylesheet" href="../css/style_sitemap_fansub.css">
+	<link rel="stylesheet" href="../css/style_barchart.css">
 	
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
@@ -187,7 +188,17 @@
 
 		<div class="scontainer grp">
 			<div id="daftar-garapan"></div>
-		</div>		
+		</div>
+
+		<div class="scontainer cht" id="barchart-container">
+			<h2 style="text-align:center;">Statistik Garapan Berdasarkan Group</h2>
+			<div class="moe-barchart-wrapper">
+				<div id="moe-barchart" class="moe-barchart"></div>
+				<div id="moe-barchart-legend" class="moe-barchart-legend"></div>
+			</div>
+		</div>
+		
     </main>
+<script src="js/script_barchart.js"></script>
 </body>
 </html>

@@ -3,15 +3,33 @@
 	"nameShowTitle": "Random Content",
 	"descSynopsis": "Berbagai garapan MoeFang yang tidak terkategorikan, biasa kami sebut sebagai 'projek santai' atau 'selingan' dari garapan utama.",
 	"availableEpisode": [
-		"191124", "170217", "180827", "161013", "200612", "201214", "210809", "200707", "210825", "210625",
-		"211031", "211215", "210916", "211211", "210327", "190506", "220410", "220514", "220707", "220715",
-		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230902", "231117", 
-		"240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", "251221", 
-		"251230", "260116"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
+		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
+		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
+		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
+		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50", 
+		"51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+		"61", "62", "63"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
-		"191124": {
+		"01": {
+			"descEpisode": "| 190308 Another Sky",
+			"descEpsListName": "190308",
+			"descOnAirDate": "8 Maret 2019",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://lokerwfh.net/WrR2eon",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/190308-another-sky-saito-asuka-re-sub-wDDzi",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/190308_anothersky_asuka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky01.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky02.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/190308-anothersky03.jpg",
+			"descEpisodeSynopsis": "Another Sky adalah acara mingguan yang menampilkan orang-orang terkenal mengunjungi luar negeri, gabungan antara cuplikan lokasi dan segmen studio. Dalam episode ini, Saito Asuka mengunjungi London.",
+			"nameShow": "アナザースカイ「乃木坂４６・齋藤飛鳥がロンドンで鮨店を再訪。涙の理由とは」"
+		},
+		"02": {
 			"descEpisode": "| 191124 Suzuki Ayane no Sora kibun",
 			"descEpsListName": "191124",
 			"descOnAirDate": "24 November 2019",
@@ -27,7 +45,7 @@
 			"descEpisodeSynopsis": "Di sini, Ayane bersama Watanabe Miria dan Kitano Hinako dan atas izin spesial dari All Nippon Airways (ANA), akan mengelilingi daerah bandara dan mencari pengetahuan tentang pesawat terbang! Kira-kira keseruan seperti apa?",
 			"nameShow": "乃木坂46 鈴木絢音の「そら気分～ヒコーキに会いたい!!」"
 		},
-		"170217": {
+		"03": {
 			"descEpisode": "| 170217 SHOWROOM",
 			"descEpsListName": "170217",
 			"descOnAirDate": "17 Februari 2017",
@@ -43,7 +61,7 @@
 			"descEpisodeSynopsis": "Konten nostalgia ini adalah SHOWROOM terakhirnya Hashimoto Nanami. Disini dia mengadakan acara menjelang perilisan photobook \"2017\" dan perilisan perdana MV Naimononedari, single solonya. Kalau kalian kangen pengen nonton lagi, silakan. Videonya memangkurang jernih (640x360) jadi mohon maaf ya.",
 			"nameShow": "SHOWROOM"
 		},
-		"180827": {
+		"04": {
 			"descEpisode": "| 180827 Natsu no Omoide",
 			"descEpsListName": "180827",
 			"descOnAirDate": "27 Agustus 2018",
@@ -59,7 +77,7 @@
 			"descEpisodeSynopsis": "Mouse original web videos \"Natsu Omoide no Tsukurikata feat. 3rd Gen Nogizaka46\" dan \"Tantangan mengedit untuk Nogizaka46 gen-3\" yang menampilkan Ozono Momoko, Yamashita Mizuki, dan Yoda Yuuki dirilis di situs resmi Mouse pada 27 Agustus 2018.",
 			"nameShow": "#最高の夏の思い出の作り方 feat. 乃木坂46 3期生"
 		},
-		"161013": {
+		"05": {
 			"descEpisode": "| 161013 KYO-DOKI",
 			"descEpsListName": "161013",
 			"descOnAirDate": "13 Oktober 2016",
@@ -74,8 +92,8 @@
 			"descEpisodeSynopsis": "Video cut kurang dari satu menit, dimana Hashimoto Nanami mengunjungi Sapporo Daiichi High School sebagai Kepala Polisi Satu Hari.",
 			"nameShow": "今日ドキッ！  一日警察署長 橋本奈々未"
 		},
-		"200612": {
-			"descEpisode": "| 200612 Shinigami zukai no Jiken Jo",
+		"06": {
+			"descEpisode": "| Shinigami zukai no Jiken Jo",
 			"descEpsListName": "死神遣いの事件帖",
 			"descOnAirDate": "2020",
 			"memberParticipate": "鈴木絢音",
@@ -90,7 +108,7 @@
 			"descEpisodeSynopsis": "Video cut 2 menit dari making of film \"Shinigami: The Death Handler\", dimana Suzuki Ayane berperan dalam film tersebut dengan nama Ofuji.",
 			"nameShow": "死神遣いの事件帖"
 		},
-		"201214": {
+		"07": {
 			"descEpisode": "| 201214 The Gift",
 			"descEpsListName": "201214",
 			"descOnAirDate": "14 Desember 2020",
@@ -106,7 +124,7 @@
 			"descEpisodeSynopsis": "Sebuah episode dari The Gift dengan durasi hanya 2 menit ini, dimana Morita Hikaru (Sakurazaka46) akan memberikan sebuah hadiah Natal kepada TAKAHIRO-sensei",
 			"nameShow": "The Gift 〜大切なあなたへ〜"
 		},
-		"210809": {
+		"08": {
 			"descEpisode": "| 210809 Cinema Addict",
 			"descEpsListName": "210809",
 			"descOnAirDate": "9 Agustus 2021",
@@ -122,7 +140,7 @@
 			"descEpisodeSynopsis": "Video cut 2 menit dari making of film \"Shinigami: The Death Handler\", dimana Suzuki Ayane berperan dalam film tersebut dengan nama Ofuji.",
 			"nameShow": "Cinema Addict"
 		},
-		"200707": {
+		"09": {
 			"descEpisode": "| 200707 Suenaga Group CM + Interview",
 			"descEpsListName": "200707",
 			"descOnAirDate": "7 Juli 2020",
@@ -138,7 +156,7 @@
 			"descEpisodeSynopsis": "Kakehashi Sayaka berpartisipasi untuk pertama kalinya dalam sebuah iklan Suenaga Group. Kali ini dia akan di-interview bagaimana kesannya selama proses shooting iklan pertama kalinya.",
 			"nameShow": "Modelpress"
 		},
-		"210825": {
+		"10": {
 			"descEpisode": "| 210825 Suenaga Group CM + Interview",
 			"descEpsListName": "210825",
 			"descOnAirDate": "25 Agustus 2021",
@@ -154,7 +172,7 @@
 			"descEpisodeSynopsis": "Kakehashi Sayaka kembali berpartisipasi untuk kedua kalinya dalam sebuah iklan Suenaga Group. Kali ini dia akan di-interview bagaimana kesannya selama proses shooting. Disini juga dia membuat sebuah lagu dengan tema yang sudah dipilih.",
 			"nameShow": "Modelpress"
 		},
-		"210625": {
+		"11": {
 			"descEpisode": "| 210625 Sakagami Animal Kingdom",
 			"descEpsListName": "210625",
 			"descOnAirDate": "25 Juni 2021",
@@ -170,7 +188,7 @@
 			"descEpisodeSynopsis": "Dalam rilisan santai durasi 3 menit ini, dalam acara Sakagami Animal Kingdom, mereka mengunjungi Yoda Yuuki. Kalian sudah tau kalau Yoda ini punya peliharaan di kampung halamannya. Disini, dia sedikit ngobrol-ngobrol tentang peliharannya baik di kampung halamannya atau di rumahnya di Tokyo.",
 			"nameShow": "坂上どうぶつ王国"
 		},
-		"211031": {
+		"12": {
 			"descEpisode": "| 211031 NHK Hirumaehotto",
 			"descEpsListName": "211031",
 			"descOnAirDate": "31 Oktober 2021",
@@ -186,7 +204,7 @@
 			"descEpisodeSynopsis": "Dalam rilisan santai durasi 7 menit ini, dalam acara Hirumaehotto NHK, mereka berkesempatan untuk mewawancarai Shibata Yuna, member Nogizaka gen-4 yang mencintai Chiba Lotte Marines sejak kecil. Disini dia menceritakan sedikit kesannya terhadap tim baseball kesayangannya itu, dan dampak darinya yang membuatnya bisa menjadi seorang idol seperti sekarang.",
 			"nameShow": "NHK ひるまえほっと"
 		},
-		"211215": {
+		"13": {
 			"descEpisode": "| 211215 Real Sound",
 			"descEpsListName": "211215",
 			"descOnAirDate": "15 Desember 2021",
@@ -199,7 +217,7 @@
 			"descEpisodeSynopsis": "Di kesempatan kali ini saya mencoba sub 3 menit dari Real Sound. Real Sound melakukan wawancara dengan Higuchi Hina dan Suzuki Ayane, dengan fokus pada album baru Nogizaka46 \"Time flies\". Namun dalam video ini adalah menyampaikan kesan pertama baik Hinachima pada Ayane maupun sebaliknya.",
 			"nameShow": "Real Sound 「大人っぽさと髪の毛にびっくり！？」"
 		},
-		"210916": {
+		"14": {
 			"descEpisode": "| 210916 The Toppa File",
 			"descEpsListName": "210916",
 			"descOnAirDate": "16 September 2021",
@@ -215,7 +233,7 @@
 			"descEpisodeSynopsis": "Di kesempatan kali ini kami mencoba video cut salah satu episode dari The Toppa File, dimana Umezawa Minami dan Shibata Yuna berperan dalam drama pendek disini. Seperti biasa dalam acara ini, penonton juga tamu yang hadir diberikan pertanyaan yang berhubungan dengan drama yang ditampilkan. Kali ini drama yang dimainkan Ume dan Yuna adalah misteri tubuh manusia.",
 			"nameShow": "THE 突破ファイル"
 		},
-		"211211": {
+		"15": {
 			"descEpisode": "| 211211 Marutto! Saturday",
 			"descEpsListName": "211211",
 			"descOnAirDate": "11 Desember 2021",
@@ -228,7 +246,7 @@
 			"descEpisodeSynopsis": "Seperti biasa MoeFang merilis garapan santai, kali ini videonya cuman 2 menit. Di sini ada Manatsu, Kiichan, Yoda dan Kakki. Mereka diwawancarai siapa member yang paling banyak berubah dalam 10 tahun terakhir sejak pembentukan grup tahun 2011 yang lalu. Kalau yang mau download sebagai koleksi, silakan~",
 			"nameShow": "まるっと！サタデー"
 		},
-		"210327": {
+		"16": {
 			"descEpisode": "| 210327 ABEMA Emergency Special Program! Only 8 2nd-gen member!",
 			"descEpsListName": "210327",
 			"descOnAirDate": "27 Maret 2021",
@@ -244,7 +262,7 @@
 			"descEpisodeSynopsis": "Di kesempatan kali, MoeFang mencoba ngesub konten kegiatan H-1 sebelum konser 9th Birthday Live 2nd Gen atau konser kelulusannya Hori Miona yang disiarkan di ABEMA beberapa waktu yang lalu. Sebuah acara berdurasi 53 menit yang mana hanya diisi oleh 8 orang gen-2 ini akan menjawab/memainkan 1 pertanyaan dari 3/4 pilihan para penonton. Yang pastinya ada keseruan tersendiri di acara ini. ",
 			"nameShow": "乃木坂46堀未央奈卒業＆2期生ライブ前日記念！「緊急生特番！2期生8人だけ！"
 		},
-		"190506": {
+		"17": {
 			"descEpisode": "| 190506 Life! Jinsei ni Sasageru Conte",
 			"descEpsListName": "190506",
 			"descOnAirDate": "6 Mei 2019",
@@ -260,7 +278,23 @@
 			"descEpisodeSynopsis": "Di garapan selingan ini saya mau ngesub salah satu episode di LIFE! di Mei 2019 lalu, yang mana Ikuta Erika mencoba bermain conte alias sketsa komedi. Dan setelah itu, ada sesi bincang-bincang yaitu Ikuchan akan dites seberapa buruk kah dia dalam berbohong alias mudah ketahuan kalo berbohong.",
 			"nameShow": "LIFE！～人生に捧げるコント～』"
 		},
-		"220410": {
+		"18": {
+			"descEpisode": "| Sapporo Ichiban",
+			"descEpsListName": "カップスター",
+			"descOnAirDate": "31 Maret 2020 s/d ...",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/7bzv",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/200331_sonotokicupstar.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar1.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/sonotoki-cupstar3.jpg",
+			"descEpisodeSynopsis": "\"Sonotoki, Cupstar\" merupakan CM berdurasi 15 detik yang menampilkan beberapa member Nogizaka46 dengan berbagai latar cerita. Kini di April 2022 sudah mencapai episode 21 (atau Season 2 episode 11). Yang saya sediakan langsung berupa folder Google Drive.",
+			"nameShow": "そのとき、カップスター"
+		},
+		"19": {
 			"descEpisode": "| 220410 HEY! HEY! NEO! Music Champ",
 			"descEpsListName": "220410",
 			"descOnAirDate": "10 April 2022",
@@ -276,7 +310,7 @@
 			"descEpisodeSynopsis": "HEY! HEY! NEO! MUSIC CHAMP' adalah acara musik sesekali yang sudah berjalan lama dengan pertunjukan dan wawancara yang dipandu oleh duo komedi Downtown. sebelum itu (ketika masih reguler). Pada tanggal 10 April 2021, mereka mengundang Sakurazaka46. Sambil menujukkan karya hasil gambarannya Tenchan, mereka juga menampilkan juga single ke-2 “BAN”.",
 			"nameShow": "HEY! HEY! NEO! MUSIC CHAMP"
 		},
-		"220514": {
+		"20": {
 			"descEpisode": "| 220514 Eiga Ongaku wa Subarasashii!",
 			"descEpsListName": "220514",
 			"descOnAirDate": "14 Mei 2022",
@@ -292,7 +326,7 @@
 			"descEpisodeSynopsis": "\"Eiga Ongaku wa Subarasashii!\" merupakan program yang menampilkan musik film terbaik dunia yang dibawakan langsung oleh orkestra dan dinyanyikan oleh berbagai penyanyi cantik. Kali ini, ex-member Nogizaka46 Ikuta Erika membawakan lagu film populer, yaitu The Devil Wears Prada dan \"Xanadu\".",
 			"nameShow": "映画番組はすばらしい!"
 		},
-		"220707": {
+		"21": {
 			"descEpisode": "| 220707 Suenaga Group CM + Interview",
 			"descEpsListName": "220707",
 			"descOnAirDate": "7 Juli 2022",
@@ -308,7 +342,7 @@
 			"descEpisodeSynopsis": "Kakehashi Sayaka kembali berpartisipasi untuk ketiga kalinya kalinya dalam sebuah iklan Suenaga Group (pertama pada tahun 2020, dan kedua tahun 2021). Kali ini dia akan di-interview bagaimana kesannya selama proses shooting di dalam trem di kampung halamannya, Okayama. Disini juga dia membawakan lagu dari iklan sebelumnya dengan aransemen yang baru.",
 			"nameShow": "Modelpress"
 		},
-		"220715": {
+		"22": {
 			"descEpisode": "| 220715 Disney Plus α Story Vol.2",
 			"descEpsListName": "220715",
 			"descOnAirDate": "15 Juli 2022",
@@ -324,7 +358,7 @@
 			"descEpisodeSynopsis": "Episode kedua menampilkan Endo Sakura, yang merupakan brand ambassador JCB \"Disney★\". Dari konten yang disiarkan di Disney+, ia telah memilih kenangan yang paling diingatnya bersama Disney.",
 			"nameShow": "Disney"
 		},
-		"220726": {
+		"23": {
 			"descEpisode": "| 220726 Seventeen Kubo Shiori no Natsu ni shitai koto",
 			"descEpsListName": "220726",
 			"descOnAirDate": "26 Juli 2022",
@@ -340,7 +374,7 @@
 			"descEpisodeSynopsis": "Nogizaka46 Kubo Shiori adalah model eksklusif untuk majalah mode wanita \"seventeen\". Dalam edisi kali ini bertemakan apa yang ingin dilakukan Kubo Shiori di musim panas, mengenakan pakaian yang ingin ia pakai, dan pergi ke tempat-tempat yang ingin ia kunjungi!",
 			"nameShow": "Seventeen"
 		},
-		"220728": {
+		"24": {
 			"descEpisode": "| 220728 Yoda Yuuki, Nogizaka46 Kanyuu mae wa ○○ Joshi datta!",
 			"descEpsListName": "220728",
 			"descOnAirDate": "28 Juli 2022",
@@ -356,7 +390,7 @@
 			"descEpisodeSynopsis": "Yoda Yuuki untuk pertama kalinya memainkan peran utama dalam serial drama \"Ryosangata Riko: Puramo Joshi no Jinsei Kumitate Ki\" (TV Tokyo dan juga tersedia di dTV), yang dimulai pada 30 Juni. Dalam wawancara ini, ia berbicara terus terang tentang perasaannya saat mendapatkan peran utama pertamanya, tentang proses syutingnya, dan tentang kesulitan menyeimbangkan pekerjaan idola dan akting.",
 			"nameShow": "与田祐希、乃木坂46加入前は〇〇女子だった！？地上波連ドラ初主演で想いを告白"
 		},
-		"220721": {
+		"25": {
 			"descEpisode": "| 220721 Ura Torechaimashita",
 			"descEpsListName": "220721",
 			"descOnAirDate": "21 Juli 2022",
@@ -372,7 +406,7 @@
 			"descEpisodeSynopsis": "Dalam selingan kali ini kami ngesub konten salah satu member Sakurazaka46 yaitu Tamura Hono dalam program seputar binatang, Ura Torechaimashita. Dia berkunjung ke sebuah kafe anjing mameshiba. Ditambah keimutan anjing-anjing ini akan menambah kita yang menonton terasa 'iyasaremashita' alias tersembuhkan :)",
 			"nameShow": "ウラ撮れちゃいました"
 		},
-		"220902": {
+		"26": {
 			"descEpisode": "| 220902 Real Sound",
 			"descEpsListName": "220902",
 			"descOnAirDate": "2 September 2022",
@@ -385,7 +419,7 @@
 			"descEpisodeSynopsis": "Real Sound melakukan wawancara dengan Tsutsui Ayame dan Kakehashi Sayaka, dengan fokus pada single baru Nogizaka46 yang ke-30 \"Suki to Iu no wa Rock da ze\". Video ini menyampaikan hal yang mereka sukai baik Ayamen ke Saachan maupun sebaliknya.",
 			"nameShow": "Real Sound 「甘えん坊なところにキュン！」"
 		},
-		"220910": {
+		"27": {
 			"descEpisode": "| 220910 Real Sound",
 			"descEpsListName": "220910",
 			"descOnAirDate": "10 September 2022",
@@ -398,7 +432,68 @@
 			"descEpisodeSynopsis": "Real Sound melakukan wawancara dengan Shibata Yuna dan Tamura Mayu dengan fokus pada single baru Nogizaka46 yang ke-30 \"Suki to Iu no wa Rock da ze\". Video ini menyampaikan hal yang mereka sukai baik Mayutan ke Yuna maupun sebaliknya. Tak lupa juga mereka akan menjawab pertanyaan dari member sebelumnya, Ayamen dan Saachan.",
 			"nameShow": "Real Sound 「頭を撫でればよかった！」"
 		},
-		"221213": {
+		"28": {
+			"descEpisode": "| 220618 Yo nimo Kimyou na Monogatari 2022 - Melody ni Nosete (Ikuta Erika)",
+			"descEpsListName": "220618",
+			"descOnAirDate": "18 Juni 2022",
+			"memberParticipate": "生田絵梨花",
+			"linkHardsub": "https://lokerwfh.net/Xj8us4O",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220618_yonimo2022melody.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2022melody.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2022melody-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2022melody-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2022melody-c.jpg",
+			"descEpisodeSynopsis": "Seorang pekerja kantoran, Kanoumi Murano (Ikuta Erika), tiba-tiba menderita penyakit aneh yang disebut \"sindrom melodi otak,\" yang menyebabkan otaknya bereaksi tidak normal jika dia tidak bertindak sesuai dengan musik yang diputar di otaknya, yang dalam kasus terburuk menyebabkan kematian. Tanpa obat untuk penyakit yang tidak diketahui ini, yang hanya memiliki beberapa kasus, Kanoumi berada dalam belas kasihan melodi dari berbagai genre yang diputar di otaknya ke mana pun dia pergi, apakah dia sedang rapat atau dalam perjalanan pulang. Suatu hari, Kanoumi, yang takut tidak tahu kapan melodi akan bermain di otaknya, bertemu dengan Mitsuru Shindo (Inaba Yu), yang dikabarkan sebagai orang aneh di perusahaannya.",
+			"nameShow": "世にも奇妙な物語'22夏の特別編 「メロディに乗せて」"
+		},
+		"29": {
+			"descEpisode": "| 221105 Nogizaka Maitsuki Gekijou",
+			"descEpsListName": "221105",
+			"descOnAirDate": "5 November 2022",
+			"memberParticipate": "井上和、菅原咲月",
+			"linkHardsub": "https://lokerwfh.net/z2e6H55",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221105_cupstar_itv.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221105-cupstar-interview.jpg",
+			"descEpisodeSynopsis": "Di kesempatan kali ini, gen-5 Inoue Nagi dan Sugawara Satsuki mendapat interview singkat dalam channel YouTube-nya Sapporo Ichiban mengenai CM yang telah mereka perankan, dan pengalamannya saat syuting NogiMart bersama member senpai dan Tokyo03.",
+			"nameShow": "井上和・菅原咲月にインタビュー！"
+		},
+		"30": {
+			"descEpisode": "| 221123 Petit Brunch",
+			"descEpsListName": "221123",
+			"descOnAirDate": "23 November 2022",
+			"memberParticipate": "秋元真夏、岩本蓮加",
+			"linkHardsub": "https://lokerwfh.net/DArg",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221123_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, kapten Akimoto Manatsu dan Iwamoto Renka gen-3 akan mencoba sarapan spesial yang sedikit mewah di sekitaran daerah Ginza. Berbagai menu makanan yang tidak biasa dihidangkan di rumah-rumah, mereka akan menikmatinya! Seperti apakah keseruannya?",
+			"nameShow": "プチブランチ"
+		},
+		"31": {
+			"descEpisode": "| 221130 Petit Brunch",
+			"descEpsListName": "221130",
+			"descOnAirDate": "30 November 2022",
+			"memberParticipate": "秋元真夏、岩本蓮加",
+			"linkHardsub": "https://lokerwfh.net/gCn3972",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221130_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, kapten Akimoto Manatsu dan Iwamoto Renka gen-3 akan mencoba makan siang spesial yang sedikit mewah. Berbagai menu makanan mewah dengan cita rasa yang unik dibandingkan di tempat lain ini, mereka akan menikmatinya! Seperti apakah keseruannya?",
+			"nameShow": "プチブランチ"
+		},
+		"32": {
 			"descEpisode": "| 221213 Real Sound",
 			"descEpsListName": "221213",
 			"descOnAirDate": "13 Desember 2022",
@@ -411,7 +506,7 @@
 			"descEpisodeSynopsis": "Di kesempatan kali ini saya kembali mencoba sub pendek dari Real Sound. Real Sound kali ini melakukan wawancara dengan Shibata Yuna dan Hayashi Runa dengan fokus pada single baru Nogizaka46 yang ke-31 \"Koko ni wa nai mono\". Video ini menyampaikan hal yang mereka tidak miliki (nai mono) baik Runa ke Yuna maupun sebaliknya.",
 			"nameShow": "Real Sound 「思ってもない回答に驚き！」"
 		},
-		"230418": {
+		"33": {
 			"descEpisode": "| 230418 Akita de Ayane-chan ni Kikitai!",
 			"descEpsListName": "230418",
 			"descOnAirDate": "18 April 2023",
@@ -427,7 +522,55 @@
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Suzuki Ayane yang tampil di acara televisi Prefektur Akita. Ia jalan-jalan mengunjungi 2 toko yang pernah ia kunjungi ketika masih kecil, sambil menjawab beberapa pertanyaan.",
 			"nameShow": "秋田で絢音ちゃんに聞きたい！Youtube特別版"
 		},
-		"230627": {
+		"34": {
+			"descEpisode": "| 230508 Petit Brunch",
+			"descEpsListName": "230508",
+			"descOnAirDate": "8 Mei 2023",
+			"memberParticipate": "賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/Tcm8CO",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230508_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, Kaki Haruka dan Kanagawa Saya dari gen-4 ini diundang untuk menikmati cara bersenang-senang di area bermain Disneyland yang saat itu tengah merayakan ulang tahunnya yang ke-40. Dalam bagian pertama ini, mereka akan menikmati parade siang hari dimana banyak karakter-karakter Disney tampil.",
+			"nameShow": "プチブランチ"
+		},
+		"35": {
+			"descEpisode": "| 230516 Petit Brunch",
+			"descEpsListName": "230516",
+			"descOnAirDate": "16 Mei 2023",
+			"memberParticipate": "賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/J7Lk",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230516_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, Kaki Haruka dan Kanagawa Saya dari gen-4 ini diundang untuk menikmati cara bersenang-senang di area bermain Disneyland yang saat itu tengah merayakan ulang tahunnya yang ke-40. Dalam bagian kedua ini, mereka akan menikmati hidangan limited edition yang hanya tersedia saat ulang tahunya Disneyland Japan.",
+			"nameShow": "プチブランチ"
+		},
+		"36": {
+			"descEpisode": "| 230523 Petit Brunch",
+			"descEpsListName": "230523",
+			"descOnAirDate": "23 Mei 2023",
+			"memberParticipate": "賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/TqfFH5",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230523_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, Kaki Haruka dan Kanagawa Saya dari gen-4 ini diundang untuk menikmati cara bersenang-senang di area bermain Disneyland yang saat itu tengah merayakan ulang tahunnya yang ke-40. Dalam bagian ketiga ini, mereka akan menikmati kembali hidangan limited edition yang hanya tersedia saat ulang tahunya Disneyland Japan juga monorail yang sangat beruntung jika bisa menaikinya.",
+			"nameShow": "プチブランチ"
+		},
+		"37": {
 			"descEpisode": "| 230627 BananaSand",
 			"descEpsListName": "230627",
 			"descOnAirDate": "27 Juni 2023",
@@ -443,7 +586,7 @@
 			"descEpisodeSynopsis": "Dalam acara BananaSand ini, Kubo Shiori dan Kaki Haruka pertama kalinya mampir kemari dan menantang tantangan yaitu menyanyikan lagu yang mereka inginkan namun untuk terus mempertahankan nadanya sambil mendengarkan nada yang sudah dimodifikasi. Apakah mereka berdua akan berhasil?",
 			"nameShow": "バナナサンド"
 		},
-		"230902": {
+		"38": {
 			"descEpisode": "| 230902 Doyou wa Nani suru!?",
 			"descEpsListName": "230902",
 			"descOnAirDate": "2 September 2023",
@@ -459,7 +602,36 @@
 			"descEpisodeSynopsis": "Dalam acara \"Doyou wa Nani Suru\" ini, ex-member Nogizaka46, Saito Asuka akan pergi ke Atami di Prefektur Shizuoka untuk liburan santai bersama salah satu orang yang ia sukai, yaitu Chosuriki-sanm sang mantan pegulat yang kini sangat populer di kalangan generasi muda TikTok. Memiliki perbedaan usia dan pengalaman, inilah pertemuan pertama dari kombinasi unik!",
 			"nameShow": "土曜はナニする！？"
 		},
-		"231117": {
+		"39": {
+			"descEpisode": "| 231111 Yo nimo Kimyou na Monogatari 2023",
+			"descEpsListName": "231111",
+			"descOnAirDate": "11 November 2023",
+			"memberParticipate": "西野七瀬",
+			"linkHardsub": "https://lokerwfh.net/bbuwgy",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/yo-nimo-kimyou-na-monogatari-soumatou-no-setori-wa-kangaeteoite-TaxJN",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/231111_yonimo2023setorikangaete.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2023setorikangaete-c.jpg",
+			"descEpisodeSynopsis": "Di Jepang masa depan yang dekat, teknologi penggunaan Life Log dan pengembangan Life Cast telah berkembang. Life Log adalah data tentang kehidupan sehari-hari, minat, dan gaya bicara seseorang selama hidupnya. Dengan menyuntikkan data ini ke dalam robot dengan baik, teknologi ini dapat menciptakan sosok yang sangat mirip dengan orang tersebut, seperti klon (Life Cast). Koshizu Inori (Nishino Nanase) menjadi terkenal sebagai Life Caster yang mampu membuat Life Cast berkualitas tinggi. Namun, Inori tidak menyukai hasil karyanya, menyebutnya sebagai \"boneka tanpa jiwa\", dan merencanakan untuk berhenti dari pekerjaannya. Suatu hari, Inori menerima permintaan pembuatan Life Cast dari virtual idol yang pernah sangat terkenal, Tasogare Kiera. Inori kesulitan mengumpulkan data Life Log dari idol virtual yang populer lebih dari 50 tahun yang lalu ini, tetapi seiring berjalannya waktu, ia mulai menyentuh rahasia tersembunyi dari masa lalu Kiera.",
+			"nameShow": "世にも奇妙な物語 23年秋の特別編「走馬灯のセトリは考えておいて」"
+		},
+		"40": {
+			"descEpisode": "| 231114 Nogizaka Haishinchuu - Nogizaka46 \"Monopoly\" First Performance",
+			"descEpsListName": "231114",
+			"descOnAirDate": "14 November 2023",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://drive.google.com/file/d/1pJ6Q1MZIgi_zIAjnFX-JYHCJ8nbmCb0m/view?usp=sharing",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/231114_haishinchuumonopoly.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/231114-ngzhaishinchuu-34monopoly.jpg",
+			"descEpisodeSynopsis": "Ini adalah penampilan pertama dari single Nogizaka46 berjudul \"Monopoly\". Center-nya untuk kali ini adalah dari gen-4, Kaki Haruka dan Endo Sakura. Bagi yang ingin menyaksikannya, silakan.",
+			"nameShow": "乃木坂配信中"
+		},
+		"41": {
 			"descEpisode": "| 231117 LALALIFE!",
 			"descEpsListName": "231117",
 			"descOnAirDate": "17 November 2023",
@@ -475,7 +647,23 @@
 			"descEpisodeSynopsis": "LALALife merupakan sebuah variety show dengan pembawa acara Masakazu Mimura dan Takataka Aoki, disiarkan dari stasiun TBS Setiap Jumat mulai pukul 11:30. Di kesempatan kali ini, Yoda Yuuki berkesempatan pergi ke Taiwan dan makan gyoza disana seharian. Meskipun awalnya ragu karena kesulitan dalam segi bahasa, namun ia dengan cepat terbiasa. Seperti apa keseruannya?",
 			"nameShow": "ララLife"
 		},
-		"240223": {
+		"42": {
+			"descEpisode": "| 240218 Zenkoku Boroii Yado (Ioki Mao, Sugawara Satsuki, Sasaki Kumi CUT)",
+			"descEpsListName": "240218",
+			"descOnAirDate": "18 Februari 2024",
+			"memberParticipate": "五百城茉央、菅原咲月、佐々木久美",
+			"linkHardsub": "https://lokerwfh.net/DMEbfR",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240218-zenkoku-boroii-yado-ioki-mao-x-sugawara-satsuki-cut-Wcqr1",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240218_zenkokuboroiiyado.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado-c.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 Berpartisipasi untuk pertama kalinya! Mereka terkesima dengan pengalaman yang unik di pedalaman Chiba! Ioki Mao dan Sugawara Satsuki mengunjungi penginapan yang penuh dengan pemandangan musiman yang indah di Prefektur Chiba. Mereka menemukan telepon hitam di rumah tua dengan atap jerami. Mereka menikmati berbagai \"pengalaman pertama\" yang unik dari penginapan ini, mulai dari rendaman kaki hingga nasi di tungku, hingga mi udon buatan tangan, sambil menjelajahi pesonanya!",
+			"nameShow": "全国ボロいい宿"
+		},
+		"43": {
 			"descEpisode": "| 240223 Himubus Eps.9 (Nogizaka46 CUT)",
 			"descEpsListName": "240223",
 			"descOnAirDate": "23 Februari 2024",
@@ -491,7 +679,23 @@
 			"descEpisodeSynopsis": "Impian Himura-san menjadi kenyataan! Narator Shiraishi Mai juga terkesan! Mereka mengantarkan member Nogizaka46 yang sudah masuk usia 20 tahun ke upacara kedewasaan di tahun 2024.",
 			"nameShow": "ひむバス！バナナマン日村さんの夢！乃木坂46メンバーをサプライズ送迎！ "
 		},
-		"240103": {
+		"44": {
+			"descEpisode": "| 240416 Walking no Himutaro (Endo Sakura)",
+			"descEpsListName": "240416",
+			"descOnAirDate": "16 April 2024",
+			"memberParticipate": "遠藤さくら",
+			"linkHardsub": "https://lokerwfh.net/ip17cxD",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/walking-no-himutaro-dqupC",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240416_himutaro.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-c.jpg",
+			"descEpisodeSynopsis": "Himutaro berjalan-jalan di sekitar Kanda hingga Jinbocho dengan Endo Sakura dari Nogizaka46 kali ini. Mereka memulai dari Kuil Kanda. Mampir ke Yushima Seido, dan jika beruntung, mereka akan melintasi Hijiribashi, di mana mereka bisa melihat berbagai kereta api. Mereka juga berpose bersama di area yang ditanami sakura. Ketika melewati Stasiun Kudanshita, mereka melihat Nippon Budokan di kejauhan. Bagi Himutaro, berjalan-jalan bersama di sini penuh dengan kenangan yang mendalam. Terakhir, mereka menikmati hadiah berupa kari yang lezat dengan banyak rempah!",
+			"nameShow": "バナナマン日村が歩く！ウォーキングのひむ太郎"
+		},
+		"45": {
 			"descEpisode": "| 240103 Waraidane",
 			"descEpsListName": "240103",
 			"descOnAirDate": "3 Januari 2024",
@@ -507,7 +711,7 @@
 			"descEpisodeSynopsis": "\"Waraidane\" adalah sebuah program talk show dengan pembawa acara Uchimura Teruyoshi dan duo komedian Summers. Konten percakapan hanya akan mencakup \"pertama kali dibahas\" yang belum pernah dibicarakan di TV sebelumnya! Di tamu ketiga kali ini, Nogizaka46 bersama Ijiri Okada akan tampil!",
 			"nameShow": "内村&さまぁ~ずの初出しトークバラエティ 笑いダネ"
 		},
-		"240721": {
+		"46": {
 			"descEpisode": "| 240721 Sumaho ga Nai Toki Dou Shiteita no?",
 			"descEpsListName": "240721",
 			"descOnAirDate": "21 Juli 2024",
@@ -523,7 +727,36 @@
 			"descEpisodeSynopsis": "Dengan Yumiki Nao dan Ioki Mao, bisakah dua member Nogizaka46 ini mencapai tempat baru tanpa smartphone? Mereka akan melakukan semacam perjalanan waktu ke era Showa dan Heisei, ketika belum ada smartphone! Penyelidikan mendalam tentang apa yang dilakukan generasi Showa ketika belum ada smartphone, termasuk 'hubungan jarak jauh' dan 'membeli tiket'. Saksikan perjalanan unik mereka dengan kesimpulan mengejutkan yang tidak terduga...",
 			"nameShow": "スマホがない時、どうしていたの"
 		},
-		"250102": {
+		"47": {
+			"descEpisode": "| 241102 Another Sky",
+			"descEpsListName": "241102",
+			"descOnAirDate": "2 November 2024",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://sfl.gl/a7IqyMZ",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/241102-another-sky-saito-asuka-sConv",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/241102_anothersky_asuka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky00.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky01.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky02.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/241102-anothersky03.jpg",
+			"descEpisodeSynopsis": "Tamu pada 2 November adalah Saito Asuka, aktor dan model yang sebelumnya aktif sebagai member Nogizaka46 dan lulus dari grup pada konser Mei tahun lalu. Berkunjung ke Osaka, ia mengenang masa lalunya, dari debut pada usia 13 hingga pengalaman yang penuh warna sebagai idola. Saat itu, ia sangat termotivasi oleh kerja keras para member dan tak punya keinginan lain selain menjadi bagian dari Nogizaka46, sehingga sempat mempertimbangkan pensiun saat lulus. Namun, dorongan ibunya membuatnya melanjutkan karier di dunia hiburan. Baginya, Osaka adalah tempat yang memungkinkan dirinya tampil apa adanya, bertemu orang-orang yang tulus dengan canda yang penuh kasih. Ia merasa penting untuk hidup dengan cinta dalam setiap interaksi, dan Osaka menginspirasinya menjadi pribadi yang lebih penuh kasih.",
+			"nameShow": "アナザースカイ 齋藤飛鳥"
+		},
+		"48": {
+			"descEpisode": "| 241109 Nogizaka Haishinchuu - Nogizaka46 \"Hodoukyou\" Senbatsu Formation Announcement & First Performance",
+			"descEpsListName": "241109",
+			"descOnAirDate": "9 November 2024",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://drive.google.com/file/d/1OLRlj1yRjjsvN6Z5wM9zytyFyApUAzPA/view?usp=sharing",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/241109_haishinchuuhodoukyou.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/241109-ngzhaishinchuu-37hodoukyou.jpg",
+			"descEpisodeSynopsis": "Ini adalah penampilan pertama dari single terbaru Nogizaka46 yang ke-37 berjudul \"Hodoukyou\". Center-nya untuk kali ini adalah dari gen-4, Endo Sakura, yang juga formasi senbatsunya diumumkan di waktu yang sama. Bagi yang ingin menyaksikannya, silakan.",
+			"nameShow": "乃木坂配信中"
+		},
+		"49": {
 			"descEpisode": "| 250102 Nogi Douga - \"Hodoukyou\" Making of",
 			"descEpsListName": "250102",
 			"descOnAirDate": "2 Januari 2025",
@@ -539,7 +772,7 @@
 			"descEpisodeSynopsis": "Sebuah video singkat dari Nogi Douga yang akan memperlihatkan dibalik layar pembuatan MV \"Hodoukyou\" sekaligus saat penayangan pertama di Nogizaka Haishinchuu.",
 			"nameShow": "のぎ動画 歩道橋 メイキング付きSpecial Edition"
 		},
-		"250816": {
+		"50": {
 			"descEpisode": "| Hontou ni Atta Kowai Hanashi 2025",
 			"descEpsListName": "250816",
 			"descOnAirDate": "16 Agustus 2025",
@@ -555,7 +788,7 @@
 			"descEpisodeSynopsis": "Mai diminta untuk membantu salah satu cabang restoran tempatnya bekerja. Karena penugasan jangka panjang selama satu bulan ini berlokasi jauh, perusahaan menyiapkan sebuah apartemen untuknya. Namun, kamar yang disediakan terasa gelap bahkan di siang hari, dan di dindingnya terdapat bekas seperti \"sesuatu yang tertempel telah dilepas secara paksa\", menciptakan suasana yang ganjil.",
 			"nameShow": "ほんとうにあった怖い話 夏の特別編2025 「或る訳ありの部屋」"
 		},
-		"250713": {
+		"51": {
 			"descEpisode": "| 250713 Sakigake! Arley Emer",
 			"descEpsListName": "250713",
 			"descOnAirDate": "13 Juli 2025",
@@ -568,7 +801,7 @@
 			"descEpisodeSynopsis": "Ichinose Miku dan Sugawara Satsuki berpartisipasi dalam \"Syuting Mainan\" dan bermain dengan bersemangat menggunakan mainan nostalgia dari era Showa dan Heisei yang kembali populer di era Reiwa.",
 			"nameShow": "先駆け！アーレーイーマー"
 		},
-		"250729": {
+		"52": {
 			"descEpisode": "| 250729 NHK News Kaidoki",
 			"descEpsListName": "250729",
 			"descOnAirDate": "29 Juli 2025",
@@ -579,7 +812,7 @@
 			"descEpisodeSynopsis": "Dalam segmen \"Kiratto Talk\", Suzuki Yuuna menceritakan perjalanannya bergabung dengan Nogizaka46. Sebagai member pertama dari Prefektur Yamanashi, ia mengungkapkan rasa senangnya. Terakhir, ia menuliskan tujuannya di Nogizaka46.",
 			"nameShow": "NHK Newsかいドキ"
 		},
-		"250731": {
+		"53": {
 			"descEpisode": "| 250731 NHK Shizuoka 'Tappuri Shizuoka'",
 			"descEpsListName": "250731",
 			"descOnAirDate": "31 Juli 2025",
@@ -590,7 +823,7 @@
 			"descEpisodeSynopsis": "Dalam segmen \"Tappuri Shizuoka\", Okoshi Hinano berbagi kebahagiaannya kembali ke kampung halamannya, Shizuoka, sebagai member Nogizaka46.",
 			"nameShow": "NHK総合テレビ 静岡放送局 「たっぷり静岡」"
 		},
-		"231025": {
+		"54": {
 			"descEpisode": "| 231025 Ito Riria to Jaspresso no Denpahou",
 			"descEpsListName": "231025",
 			"descOnAirDate": "25 Oktober 2023",
@@ -607,7 +840,94 @@
 			"descEpisodeSynopsis": "Sebuah drama manusia-yokai Ryukyu dengan nuansa baru yang mengisahkan gejolak perasaan seorang \"Kijimunaanchu\". Drama produksi stasiun TV lokal Okinawa ini menampilkan penggunaan dialek Uchinaaguchi yang otentik serta wujud Kijimunaa yang memukau dan wajib ditonton. Kijimunaa adalah roh paling terkenal di Okinawa yang mendiami pohon beringin. Tokoh utamanya, Kokomi, adalah seorang \"Kijimunaanchu\", makhluk yang terlahir dari Kijimunaa dan manusia. Demi menepati janji dengan mendiang ibunya, Kokomi meninggalkan pohon beringin untuk hidup layaknya manusia biasa. Satu-satunya momen yang paling dinantikannya setiap tahun adalah perayaan Halloween, satu-satunya hari di mana ia bisa menunjukkan wujud aslinya. Namun, sebuah insiden pada hari Halloween memaksanya untuk dihadapkan pada pilihan sulit: melanjutkan hidup sebagai \"manusia\" atau kembali menjadi \"Kijimunaa\". Kokomi pun harus mengambil sebuah keputusan besar yang akan menentukan takdirnya.",
 			"nameShow": "伊藤理々杏とジャスプレッソの電波砲"
 		},
-		"251221": {
+		"55": {
+			"descEpisode": "| 251016 Cupstar Masuda Mirine no Onirepo",
+			"descEpsListName": "251016",
+			"descOnAirDate": "16 Oktober 2025",
+			"memberParticipate": "増田三莉音",
+			"linkHardsub": "https://sfl.gl/8uAg",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251016-cupstar-mirine-onirepo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251016_cupstar_mirine_onirepo4.jpg",
+			"descEpisodeSynopsis": "Sang pembuat gebrakan dari gen-6, Masuda Mirine, akan memberikan liputan super dari lokasi syuting iklan TV CupStar. Mulai dari wawancara dengan senpainya hingga kesannya saat pertama kali mencicipi rasa \"Hotate Shio\".",
+			"nameShow": "カップスター スペシャル企画　増田三莉音の鬼レポ"
+		},
+		"56": {
+			"descEpisode": "| 251108 Yo nimo Kimyou na Monogatari 2025",
+			"descEpsListName": "251108",
+			"descOnAirDate": "8 November 2025",
+			"memberParticipate": "与田祐希",
+			"linkHardsub": "https://sfl.gl/p4Yj2",
+			"linkTrakteer": "",
+			"filePassword": "Nana!Kai!",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251108_yonimo2025nanakai.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/yonimo2025nanakai-d.jpg",
+			"descEpisodeSynopsis": "Saat Morisaki Hokuto pulang ke apartemennya, ia didatangi petugas pemerintah yang memintanya pindah karena adanya kebijakan nasional untuk menghapus lantai tujuh dari seluruh gedung akibat serangkaian insiden. Atas ajakan rekannya yang bernama Namikawa Nozomi, Morisaki bergabung dengan kelompok \"Warga Lantai Tujuh\" untuk menentang keputusan tersebut, dan kebersamaan dalam memperjuangkan nasib mereka membuat hubungan keduanya semakin dekat hingga suatu hari pemimpin kelompok tersebut ditangkap polisi.",
+			"nameShow": "251108 世にも奇妙な物語 35周年SP 秋の特別編 「七階闘争」"
+		},
+		"57": {
+			"descEpisode": "| 251118 Shinya Futari no Emosanpo",
+			"descEpsListName": "251118",
+			"descOnAirDate": "18 November 2025",
+			"memberParticipate": "藤嶌果歩、正源司陽子",
+			"linkHardsub": "https://sfl.gl/x3mhZaz7",
+			"TrakteerB": "Unreleased Scene 1, 2, 3, 4",
+			"linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/shinya-futari-no-emosanpo-Z11R5",
+			"filePassword": "EmoSanpo-YokoKaho",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251118_emosanpo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpoa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpob.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpoc.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251118_emosanpod.jpg",
+			"descEpisodeSynopsis": "Acara bincang-bincang ini mempertemukan dua sosok dengan ikatan istimewa, seperti rival atau sahabat karib, untuk berjalan-jalan menyusuri kota di tengah malam sembari mencurahkan isi hati. Shogenji Yoko dan Fujishima Kaho dari Hinatazaka46 mengambil alih di pekan ketiga dan keempat acara ini dengan rute dari Yokohama Stadium menuju lokasi syuting video musik \"Kimi wa Honeydew\", di mana mereka saling mengungkapkan perasaan terpendam dan mensyukuri kedewasaan diri karena kini mampu membicarakan topik sensitif masa lalu dengan penuh tawa.",
+			"nameShow": "深夜、２人のエモさんぽ"
+		},
+		"58": {
+			"descEpisode": "| 251125 Shinya Futari no Emosanpo",
+			"descEpsListName": "251125",
+			"descOnAirDate": "25 November 2025",
+			"memberParticipate": "藤嶌果歩、正源司陽子",
+			"linkHardsub": "https://sfl.gl/lgANeDK",
+			"TrakteerB": "Unreleased Scene 5, 6, 7, 8",
+			"linkTrakteerB": "https://trakteer.id/moefangsubs/showcase/shinya-futari-no-emosanpo-Z11R5",
+			"filePassword": "EmoSanpo-YokoKaho",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251125_emosanpo.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpo.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpoa.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpob.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpoc.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125_emosanpod.jpg",
+			"descEpisodeSynopsis": "Acara bincang-bincang ini mempertemukan dua sosok dengan ikatan istimewa, seperti rival atau sahabat karib, untuk berjalan-jalan menyusuri kota di tengah malam sembari mencurahkan isi hati. Shogenji Yoko dan Fujishima Kaho dari Hinatazaka46 mengambil alih di pekan ketiga dan keempat acara ini dengan rute dari Yokohama Stadium menuju lokasi syuting video musik \"Kimi wa Honeydew\", di mana mereka saling mengungkapkan perasaan terpendam dan mensyukuri kedewasaan diri karena kini mampu membicarakan topik sensitif masa lalu dengan penuh tawa.",
+			"nameShow": "深夜、２人のエモさんぽ"
+		},
+		"59": {
+			"descEpisode": "| 251125 Walking no Himutaro (Okuda Iroha)",
+			"descEpsListName": "251125",
+			"descOnAirDate": "25 November 2025",
+			"memberParticipate": "奥田いろは",
+			"linkHardsub": "https://sfl.gl/XKwscaK",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/walking-no-himutaro-dqupC",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251125_himutaro.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-d.jpg",
+			"descEpisodeSynopsis": "Di episode Walking no Himutaro kali ini, Himura ditemani oleh Okuda Iroha dari Nogizaka46 berjalan-jalan santai di kawasan Yanaka, Nezu, dan Sendagi (Yanesen) dengan tema menemukan \"kebahagiaan kecil\". Sambil menikmati suasana kota yang tenang, mereka mencicipi senbei, mengunjungi Kuil Nezu, dan berbincang hangat tentang kegemaran Iroha pada lagu-lagu lawas tahun 70-an hingga 90-an. Perjalanan yang akrab layaknya kakak-beradik ini ditutup dengan menyantap naan, makanan favorit Iroha, sebagai tujuan akhir.",
+			"nameShow": "バナナマン日村が歩く！ウォーキングのひむ太郎"
+		},
+		"60": {
 			"descEpisode": "| 251221 Non-REM no Mado 'Toilet Papper Race'",
 			"descEpsListName": "251221",
 			"descOnAirDate": "21 Desember 2025",
@@ -624,7 +944,7 @@
 			"descEpisodeSynopsis": "Akiyoshi, seorang mangaka, merasa diperlakukan tidak adil karena selalu menjadi pihak yang mengganti keperluan rumah seperti sampo dan tisu toilet, padahal istrinya, Kumi, juga bekerja. Demi menyeimbangkan neraca tugas rumah tangga, Akiyoshi mengobarkan perang diam-diam terhadap sang istri terkait penggantian tisu toilet. Namun, Kumi juga memiliki alasan mendesak untuk tidak kalah. Melibatkan perhitungan AI dan pengawasan ketat, perseteruan harga diri suami istri ini memuncak dalam \"Toilet Paper Race\" untuk menentukan siapa yang berhasil menghindari kewajiban penggantian berikutnya.",
 			"nameShow": "ノンレムの窓 2025・冬『トイレットペーパーレース』"
 		},
-		"251230": {
+		"61": {
 			"descEpisode": "| 251230 'Same numbers' @ 67th Japan Record Awards 2025",
 			"descEpsListName": "251230",
 			"descOnAirDate": "30 Desember 2025",
@@ -637,7 +957,7 @@
 			"descEpisodeSynopsis": "Nogizaka46 kembali tampil di panggung Japan Record Awards ke-67 setelah empat tahun absen untuk membawakan lagu peraih Planning Award, \"Same numbers\". Sebelum tampil, Kapten Umezawa Minami mengungkapkan rasa bahagia karena bisa kembali berdiri di panggung istimewa yang menjadi target mereka selama ini. Center Kaki Haruka turut mengenang konser kesepuluh di Stadion Meiji Jingu sebagai momen paling berkesan tahun ini, di mana kemeriahan kembang api dan drone semakin mempererat ikatan antar member dan penggemar.",
 			"nameShow": "輝く！日本レコード大賞"
 		},
-		"260116": {
+		"62": {
 			"descEpisode": "| 260116 BUZZ RYTHM02",
 			"descEpsListName": "260116",
 			"descOnAirDate": "16 Januari 2026",
@@ -653,6 +973,23 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02d.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 kini diundang ke acara BUZZ RYTHM02, yang dipandu oleh duo MC Bakarythm dan ex-Nogizaka46 Ichiki Rena. Disini, ada beberapa VTR kegiatan para member di hari libur masing-masing 30 detik.",
 			"nameShow": "BUZZ RYTHM02"
+		},
+		"63": {
+			"descEpisode": "| 260215 Zenkoku Boroii Yado (Matono Mio, Yamashita Shizuki, Sasaki Kumi CUT)",
+			"descEpsListName": "260215",
+			"descOnAirDate": "15 Februari 2026",
+			"memberParticipate": "的野美青、山下瞳月、佐々木久美",
+			"linkHardsub": "https://sfl.gl/RYxaB9WC",
+			"linkTrakteer": "",
+			"filePassword": "MioShizuki",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260215_zenkokuboroiiyado.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-d.jpg",
+			"descEpisodeSynopsis": "Yamashita Shizuki dan Matono Mio dari Sakurazaka46 kali ini berpartisipasi dalam acara ini. Mereka saat ini mengunjungi penginapan tua bernuansa kereta yang dikelola oleh pasangan suami istri yang sangat ramah di Prefektur Yamanashi. Mereka menemukan paviliun unik bernama Kamar Kereta yang disambut langsung oleh lokomotif Kereta Biru. Mereka menikmati berbagai pengalaman seru dan menghangatkan hati dari penginapan ini, mulai dari memasak bersama nenek hingga menyantap hidangan laut yang sangat mewah.",
+			"nameShow": "全国ボロいい宿"
 		}
 	}
 }

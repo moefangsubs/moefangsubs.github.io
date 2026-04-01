@@ -1,0 +1,86 @@
+{
+	"url": "petit-brunch",
+	"nameShowTitle": "Petit Brunch",
+	"nameShow": "プチブランチ",
+	"availableEpisode": [
+		"01", "02", "03", "04", "05"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_petitbrunch.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 221123 Petit Brunch",
+			"descEpsListName": "221123",
+			"descOnAirDate": "23 November 2022",
+			"memberParticipate": "秋元真夏、岩本蓮加",
+			"linkHardsub": "https://lokerwfh.net/DArg",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221123_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/221123-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, kapten Akimoto Manatsu dan Iwamoto Renka gen-3 akan mencoba sarapan spesial yang sedikit mewah di sekitaran daerah Ginza. Berbagai menu makanan yang tidak biasa dihidangkan di rumah-rumah, mereka akan menikmatinya! Seperti apakah keseruannya?"
+		},
+		"02": {
+			"descEpisode": "| 221130 Petit Brunch",
+			"descEpsListName": "221130",
+			"descOnAirDate": "30 November 2022",
+			"memberParticipate": "秋元真夏、岩本蓮加",
+			"linkHardsub": "https://lokerwfh.net/gCn3972",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/221130_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/221130-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, kapten Akimoto Manatsu dan Iwamoto Renka gen-3 akan mencoba makan siang spesial yang sedikit mewah. Berbagai menu makanan mewah dengan cita rasa yang unik dibandingkan di tempat lain ini, mereka akan menikmatinya! Seperti apakah keseruannya?"
+		},
+		"03": {
+			"descEpisode": "| 230508 Petit Brunch",
+			"descEpsListName": "230508",
+			"descOnAirDate": "8 Mei 2023",
+			"memberParticipate": "賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/Tcm8CO",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230508_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230508-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, Kaki Haruka dan Kanagawa Saya dari gen-4 ini diundang untuk menikmati cara bersenang-senang di area bermain Disneyland yang saat itu tengah merayakan ulang tahunnya yang ke-40. Dalam bagian pertama ini, mereka akan menikmati parade siang hari dimana banyak karakter-karakter Disney tampil."
+		},
+		"04": {
+			"descEpisode": "| 230516 Petit Brunch",
+			"descEpsListName": "230516",
+			"descOnAirDate": "16 Mei 2023",
+			"memberParticipate": "賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/J7Lk",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230516_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230516-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, Kaki Haruka dan Kanagawa Saya dari gen-4 ini diundang untuk menikmati cara bersenang-senang di area bermain Disneyland yang saat itu tengah merayakan ulang tahunnya yang ke-40. Dalam bagian kedua ini, mereka akan menikmati hidangan limited edition yang hanya tersedia saat ulang tahunya Disneyland Japan."
+		},
+		"05": {
+			"descEpisode": "| 230523 Petit Brunch",
+			"descEpsListName": "230523",
+			"descOnAirDate": "23 Mei 2023",
+			"memberParticipate": "賀喜遥香、金川紗耶",
+			"linkHardsub": "https://lokerwfh.net/TqfFH5",
+			"linkTrakteer": "",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230523_petitbrunch.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230523-petitbrunch-c.jpg",
+			"descEpisodeSynopsis": "Dalam acara ini, Kaki Haruka dan Kanagawa Saya dari gen-4 ini diundang untuk menikmati cara bersenang-senang di area bermain Disneyland yang saat itu tengah merayakan ulang tahunnya yang ke-40. Dalam bagian ketiga ini, mereka akan menikmati kembali hidangan limited edition yang hanya tersedia saat ulang tahunya Disneyland Japan juga monorail yang sangat beruntung jika bisa menaikinya."
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"url": "walking-no-himutaro",
+	"nameShowTitle": "Walking no Himutaro",
+	"nameShow": "バナナマン日村が歩く！ウォーキングのひむ太郎",
+	"availableEpisode": [
+		"01", "02"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_himutaro.png",
+	"episodes": {
+		"01": {
+			"descEpisode": "| 240416 Walking no Himutaro (Endo Sakura)",
+			"descEpsListName": "240416",
+			"descOnAirDate": "16 April 2024",
+			"memberParticipate": "遠藤さくら",
+			"linkHardsub": "https://lokerwfh.net/ip17cxD",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/walking-no-himutaro-dqupC",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240416_himutaro.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/240416-himutaro-endosakura-c.jpg",
+			"descEpisodeSynopsis": "Himutaro berjalan-jalan di sekitar Kanda hingga Jinbocho dengan Endo Sakura dari Nogizaka46 kali ini. Mereka memulai dari Kuil Kanda. Mampir ke Yushima Seido, dan jika beruntung, mereka akan melintasi Hijiribashi, di mana mereka bisa melihat berbagai kereta api. Mereka juga berpose bersama di area yang ditanami sakura. Ketika melewati Stasiun Kudanshita, mereka melihat Nippon Budokan di kejauhan. Bagi Himutaro, berjalan-jalan bersama di sini penuh dengan kenangan yang mendalam. Terakhir, mereka menikmati hadiah berupa kari yang lezat dengan banyak rempah!"
+		},
+		"02": {
+			"descEpisode": "| 251125 Walking no Himutaro (Okuda Iroha)",
+			"descEpsListName": "251125",
+			"descOnAirDate": "25 November 2025",
+			"memberParticipate": "奥田いろは",
+			"linkHardsub": "https://sfl.gl/XKwscaK",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/walking-no-himutaro-dqupC",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251125_himutaro.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251125-himutaro-iroha-d.jpg",
+			"descEpisodeSynopsis": "Di episode Walking no Himutaro kali ini, Himura ditemani oleh Okuda Iroha dari Nogizaka46 berjalan-jalan santai di kawasan Yanaka, Nezu, dan Sendagi (Yanesen) dengan tema menemukan \"kebahagiaan kecil\". Sambil menikmati suasana kota yang tenang, mereka mencicipi senbei, mengunjungi Kuil Nezu, dan berbincang hangat tentang kegemaran Iroha pada lagu-lagu lawas tahun 70-an hingga 90-an. Perjalanan yang akrab layaknya kakak-beradik ini ditutup dengan menyantap naan, makanan favorit Iroha, sebagai tujuan akhir."
+		}
+	}
+}
