@@ -3,62 +3,24 @@
     "url": "contrast",
     "nameShowTitle": "Contrast (2026)",
     "nameShow": "コントラスト",
-	"descSynopsis": "Cerita bermula saat Shota, seorang siswa populer yang sebenarnya merasa hampa akibat trauma cedera masa SMP, bertemu dengan Haru, siswa berprestasi yang penyendiri, di sebuah tangga menuju atap sekolah. Meski berada di kelas berbeda dan tidak saling mengenal nama, keduanya mulai akrab setelah berbagi musik melalui satu penyuara telinga dari pemutar CD lama. Ketertarikan yang tumbuh di antara Shota dan Haru yang punya kepribadian berlawanan mulai diuji oleh penderitaan serta konflik masa lalu masing-masing.",
-    "availableEpisode": [],
+	"descSynopsis": "Cerita bermula saat Kanata, seorang siswa populer yang sebenarnya merasa hampa akibat trauma cedera masa SMP, bertemu dengan Senkawa Akira, siswa berprestasi yang penyendiri, di sebuah tangga menuju atap sekolah. Meski berada di kelas berbeda dan tidak saling mengenal nama, keduanya mulai akrab setelah berbagi musik melalui satu penyuara telinga dari pemutar CD lama. Ketertarikan yang tumbuh di antara Kanata dan Akira yang punya kepribadian berlawanan mulai diuji oleh penderitaan serta konflik masa lalu masing-masing.",
+	"availableEpisode": [
+			"01", "02", "03", "04", "05", "06", "07", "08"
+	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/contrast{{eps}}.jpg",
-    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/contrast/contrast{{eps}}.jpg",
-	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/contrast/contrast{{eps}}a.jpg",
-	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/contrast/contrast{{eps}}b.jpg",
-	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/contrast/contrast{{eps}}c.jpg",
-	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/contrast/contrast{{eps}}d.jpg",
-	"linkTrakteer": "",
-    "filePassword": "",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/contrast{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/contrast-2026-Lubwc",
+    "filePassword": "NaonaoSupport",
     "memberParticipate": "冨里奈央",
+	"descOnAirDate": "13 Maret 2026",
     "episodes": {
-        "01": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "02": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "03": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "04": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "05": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "06": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "07": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "10": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+        "01": { "linkHardsub": "https://sfl.gl/2ifEn90" },
+        "02": { "linkHardsub": "https://sfl.gl/jOLr8" },
+        "03": { "linkHardsub": "https://sfl.gl/c7xGa8eY" },
+        "04": { "linkHardsub": "https://sfl.gl/BEnxTci" },
+        "05": { "linkHardsub": "https://sfl.gl/zd2R" },
+        "06": { "linkHardsub": "https://sfl.gl/hiN8Nk" },
+        "07": { "linkHardsub": "https://sfl.gl/qvUW90wK" },
+        "08": { "linkHardsub": "https://sfl.gl/ycZj", "thisEnd": true }
         }
-    },
-	"descOnAirDatePattern": "260313",
-    "OnAirEvery": 7
 }
-
-
-
