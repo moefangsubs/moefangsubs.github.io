@@ -3,7 +3,7 @@
 	"nameShowTitle": "Under Live",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11"
+		"11", "12", "13", "14", "15", "16"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_underlive.png",
@@ -231,6 +231,38 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/40thunderlive3-d.jpg",
 			"descEpisodeSynopsis": "Hari terakhir konser yang dipimpin oleh Ioki Mao sebagai center menyuguhkan segmen Natal khusus dan format band live pertama dalam sejarah Under Live, memberikan energi baru pada lagu-lagu seperti \"Junsui to wa Nanika?\". Dalam pidatonya, Ioki mengungkapkan tekad kuatnya untuk menjadi sosok yang membuat orang bersyukur ia ada di Nogizaka46, sebelum acara ditutup dengan lagu \"Nogizaka no Uta\" dan pesan perpisahan terakhir dari Matsuo serta Yakubo. Rangkaian konser tiga hari ini diakhiri dengan seruan Ioki agar para penggemar terus menantikan kiprah Nogizaka46 di tahun 2026.",
 			"nameShow": "乃木坂46 40thSG アンダーライブ"
+		},
+		"15": {
+			"descEpisode": "| Nogizaka46 41st SG Underlive DAY 2",
+			"descEpsListName": "41SG DAY 2",
+			"descOnAirDate": "18 Maret 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-40th-sg-underlive-mEvqv",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_underlive41d2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive2-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive2c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive2d.jpg",
+			"descEpisodeSynopsis":"Konser Under Live untuk singel ke-41 Nogizaka46 di Pia Arena MM menandai sejarah baru dengan partisipasi sepuluh member gen-6 untuk pertama kalinya. Dipimpin oleh Okamoto Hina sebagai leader Under single ini, penampilan ini menampilkan kolaborasi segar antara senpai dan kouhai melalui berbagai lagu unit ikonik. Energi luar biasa terpancar saat mereka membawakan lagu dengan aransemen yang memperlihatkan pertumbuhan serta kekompakan seluruh member lintas generasi.",
+			"nameShow": "乃木坂46 41thSG アンダーライブ"
+		},
+		"16": {
+			"descEpisode": "| Nogizaka46 41st SG Underlive DAY 3 ~Sato Rika Graduation Ceremony~",
+			"descEpsListName": "41SG DAY 3",
+			"descOnAirDate": "19 Maret 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-40th-sg-underlive-mEvqv",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_underlive41d3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive3.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive3a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive3b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive3c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive3d.jpg",
+			"descEpisodeSynopsis":"Hari terakhir konser menjadi momen emosional dengan digelarnya upacara kelulusan Sato Rika di hadapan ribuan penggemar. Suasana haru menyelimuti arena saat Rika menyampaikan pesan perpisahan terakhirnya, sementara seluruh member memberikan penghormatan sebagai bentuk dukungan bagi langkah barunya di luar grup.",
+			"nameShow": "乃木坂46 41thSG アンダーライブ ～佐藤璃果卒業セレモニー～"
 		}
 	}
 }

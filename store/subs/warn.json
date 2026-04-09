@@ -11,6 +11,13 @@
 		"a2": " dan Hikami Subs"
 	},
 	{
+		"type": "warning",
+		"text": "⚠️ Ini adalah drama genre BL (Boys Love). Mungkin di antara kalian ada yang merasa tidak nyaman dengan genre ini.",
+		"targets": [
+			"../store/subs/06_drama/contrast.json"
+		]
+	},
+	{
 		"type": "info",
 		"text": "ℹ️ Untuk garapan BOKUAO lainnya silakan menuju ",
 		"targets": [
@@ -56,8 +63,10 @@
 			"../store/subs/01_variety/nogizaka-tokyo-pasokon-club.json?episodes=142",
 			"../store/subs/01_variety/saito-asuka-no-konya-wa-nonde-kaerou.json?episodes=01",
 			"../store/subs/01_variety/saito-asuka-no-konya-wa-nonde-kaerou.json?episodes=02",
+			"../store/subs/01_variety/zenkoku-boroii-yado.json?episodes=260215",
 			"../store/subs/03_web/1day-my-beauty.json",
 			"../store/subs/03_web/nogizaka-fractal-yuuna-no-heya.json?episodes=01",
+			"../store/subs/03_web/hinatazaka-channel.json?episodes=260210",
 			"../store/subs/02_nogidouga/nogidouga-kubo-channel.json?episodes=111",
 			"../store/subs/02_nogidouga/nogidouga-kubo-channel.json?episodes=112",
 			"../store/subs/02_nogidouga/nogidouga-kubo-channel.json?episodes=113",
@@ -68,6 +77,7 @@
 			"../store/subs/02_nogidouga/nogidouga-nogizaka-asobu-dake.json?episodes=71",
 			"../store/subs/02_nogidouga/nogidouga-nogizaka-asobu-dake.json?episodes=72",
 			"../store/subs/02_nogidouga/nogidouga-nogizaka-asobu-dake.json?episodes=76",
+			"../store/subs/02_nogidouga/nogidouga-ganbare-nogizaka.json?episodes=04",
 			"../store/subs/06_drama/dekitemo-dekinakutemo.json",
 			"../store/subs/06_drama/koroshita-otto-ga-kaettekimashita.json",
 			"../store/subs/06_drama/sukui-sukuware.json",
@@ -104,7 +114,7 @@
 			"../store/subs/13_random/showroom.json?episodes=47",
 			"../store/subs/13_random/livestream.json?episodes=250331",
 			"../store/subs/13_random/livestream.json?episodes=260225",
-			"../store/subs/13_random/random-subs.json?episodes=63",
+			"../store/subs/13_random/random-subs.json?episodes=260322",
 			"../store/subs/13_concert/concert.json?episodes=06",
 			"../store/subs/14_concert/graduation-concert.json?episodes=12",
 			"../store/subs/14_concert/live-performance.json?episodes=15",

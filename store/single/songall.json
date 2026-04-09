@@ -5996,14 +5996,16 @@
 			"songTypeAvv": "A",
 			"songRelease": "2026.04.08",
 			"songOutline": "Gen (6th)",
-			"center": "",
-			"members0": ["愛宕心響", "大越ひなの", "海邉朱莉", "川端晃菜", "鈴木佑捺", "瀬戸口心月", "長嶋凛桜", "増田三莉音", "森平麗心", "矢田萌華"],
-			"SongMVDirJP": "",
-			"SongMVDirRO": "",
-			"SongCompJP": "",
-			"SongArraJP": "",
+			"center": "愛宕心響",
+			"members2": ["鈴木佑捺", "海邉朱莉", "森平麗心", "川端晃菜", "長嶋凛桜"],
+			"members1": ["矢田萌華", "増田三莉音", "愛宕心響", "瀬戸口心月", "大越ひなの"],
+			"SongMVDirJP": "王一川（maxilla）",
+			"SongMVDirRO": "Y.WANG",
+			"SongCompJP": "Yuya Fujinaka",
+			"SongArraJP": "Yuya Fujinaka",
 			"SongLyricsJP": "秋元康",
-			"HasMV": ""
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/1DJ41dVFTuDZUYRmBafL1nZ2iE8hWJTa5/view?usp=drive_link"
 		},
 		{
 			"titleJp": "君ばかり",
@@ -6012,7 +6014,6 @@
 			"songTypeAvv": "B",
 			"songRelease": "2026.04.08",
 			"songOutline": "Senbatsu",
-			"center": "",
 			"members0": ["梅澤美波", "遠藤さくら", "賀喜遥香", "田村真佑", "筒井あやめ", "林瑠奈", "弓木奈於", "五百城茉央", "池田瑛紗", "一ノ瀬美空", "井上和", "小川彩", "川﨑桜", "菅原咲月", "冨里奈央", "中西アルノ"],
 			"SongMVDirJP": "横堀光範",
 			"SongMVDirRO": "Yokobori Mitsunori",
@@ -6031,12 +6032,9 @@
 			"songOutline": "Unit",
 			"UnitName": "パカラッパカラッ世代",
 			"members1": ["五百城茉央", "奥田いろは", "菅原咲月", "愛宕心響", "瀬戸口心月"],
-			"SongMVDirJP": "",
-			"SongMVDirRO": "",
-			"SongCompJP": "",
-			"SongArraJP": "",
-			"SongLyricsJP": "",
-			"HasMV": ""
+			"SongCompJP": "石崎光",
+			"SongArraJP": "石崎光",
+			"SongLyricsJP": "秋元康"
 		},
 		{
 			"titleJp": "パシフィック・リーグに連れてって",
@@ -6047,12 +6045,9 @@
 			"songOutline": "Unit",
 			"UnitName": "乃木坂野球部",
 			"members1": ["金川紗耶", "黒見明香", "柴田柚菜", "小川彩", "瀬戸口心月", "長嶋凛桜"],
-			"SongMVDirJP": "",
-			"SongMVDirRO": "",
-			"SongCompJP": "",
-			"SongArraJP": "",
-			"SongLyricsJP": "",
-			"HasMV": ""
+			"SongCompJP": ["you-me", "mee"],
+			"SongArraJP": "フォー・トリップス",
+			"SongLyricsJP": "秋元康"
 		},
 		{
 			"titleJp": "もう一つの太陽",
@@ -6064,10 +6059,9 @@
 			"members0": "梅澤美波",
 			"SongMVDirJP": "",
 			"SongMVDirRO": "",
-			"SongCompJP": "",
-			"SongArraJP": "",
-			"SongLyricsJP": "",
-			"HasMV": ""
+			"SongCompJP": "小西裕子",
+			"SongArraJP": "久下真音",
+			"SongLyricsJP": "秋元康"
 		}
 	],
 	"dig": [
@@ -6941,6 +6935,9 @@
 			"SongCompJP": ["岩野コウ", "石口侑弥"],
 			"SongArraJP": "石口侑弥",
 			"SongLyricsJP": "秋元康",
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/12pZ2v1aEL20C0oM2P86PCaOyT5EJKeRl",
+			"LinkMV1Desc": "Special Performance ver.",
 			"OffVocaltag": "",
 			"OffVocalformat": "",
 			"OffVocalsize": "",

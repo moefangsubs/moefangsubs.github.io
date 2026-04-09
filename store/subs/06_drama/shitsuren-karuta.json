@@ -3,8 +3,8 @@
     "url": "shitsuren-karuta",
     "nameShowTitle": "Shitsuren Karuta (2026)",
     "nameShow": "失恋カルタ",
-	"descSynopsis": "Natsuno Chinami, Maji Hikari, dan Noda Ayase adalah tiga sahabat dari klub permainan papan yang masing-masing menyimpan kerumitan dalam masalah percintaan meski terlihat menjalani hidup dengan santai. Di usia 27 tahun, saat mereka mulai berpikir serius tentang cinta dan pernikahan, sebuah insiden mengejutkan terjadi ketika teman mereka, Misaki, melarikan diri dari upacara pernikahannya sendiri. Kejadian tersebut memicu Chinami yang selalu totalitas dalam cinta, Hikari yang merasa ada dinding pemisah dengan kekasihnya, serta Ayase yang memandang cinta dengan dingin untuk mulai menghadapi konflik asmara mereka masing-masing.",
-    "availableEpisode": [],
+	"descSynopsis": "Chinami, Hikaru, dan Ayase dipertemukan melalui klub permainan papan di tempat kuliahnya. Meski sering menghabiskan waktu bersama, masing-masing menyimpan kerumitan cinta yang berbeda. Chinami yang mendambakan pernikahan baru saja diputuskan kekasihnya, sedangkan Hikaru tampak harmonis tinggal bersama Riku. Di balik sikap dinginnya, Ayase ternyata memiliki alasan mendalam hingga sulit menghadapi perasaan secara jujur. Kisah mereka menggambarkan perjuangan menghadapi dilema asmara yang sangat rumit dalam kehidupan sehari-hari.",
+    "availableEpisode": [ "01" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shitsurenkaruta{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}a.jpg",
@@ -12,19 +12,19 @@
 	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}c.jpg",
 	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}d.jpg",
 	"linkTrakteer": "",
-    "filePassword": "",
+    "filePassword": "PatahHatiUme",
     "memberParticipate": "梅澤美波",
     "episodes": {
         "01": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis":"Setelah empat tahun menjalin hubungan, Chinami tiba-tiba diputuskan oleh Nozaki. Di tengah upaya bangkit melalui pekerjaan, dukungan dari Hikaru dan Ayase selalu menyertainya. Namun, sebuah kejadian mengejutkan terjadi saat menghadiri pernikahan teman lama bernama Misaki yang melarikan diri setelah meninggalkan pesan misterius. Kejadian tersebut meninggalkan kesan mendalam bagi mereka bertiga mengenai makna di balik kegagalan cinta yang disaksikan secara langsung di depan mata.",
+            "linkHardsub": "https://sfl.gl/fAdcJ"
         },
         "02": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis":"Chinami merasakan getaran cinta baru setelah bertemu dokter bernama Tachibana, meski keraguan mulai muncul pada kencan pertama mereka. Sementara itu, hubungan Hikaru dan Riku mulai renggang akibat tembok emosional yang sulit ditembus. Di sisi lain, Ayase yang fokus pada proyek kartu permainan di kantornya terus didekati oleh Murata dengan cara yang tidak terduga. Perjalanan asmara ketiganya mulai bergerak menuju arah baru yang penuh dengan ketidakpastian serta gejolak perasaan.",
             "linkHardsub": ""
         },
         "03": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis":"Ayase merasa bimbang menghadapi pernyataan cinta Murata karena ketakutan akan merusak kenangan berharga masa lalu. Sementara itu, Hikaru mulai menyadari adanya kegelisahan dalam hubungannya dengan Riku yang terasa semakin menyesakkan hati. Di saat bersamaan, Chinami yang mencoba membuka lembaran baru melalui aplikasi kencan justru goyah saat melihat sosok menyerupai mantan kekasihnya. Ketiganya kini terjebak di antara bayang-bayang masa lalu dan keinginan untuk melangkah maju demi menemukan kebahagiaan.",
             "linkHardsub": ""
         },
         "04": {

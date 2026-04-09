@@ -3,7 +3,7 @@
 	"nameShowTitle": "Live Performance",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12", "13", "14", "15", "16", "17", "18"
+		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
 	"episodes": {
@@ -289,6 +289,38 @@
 			"filePassword": "",
 			"descEpisodeSynopsis": "Sakurazaka46 berkesempatan tampil di COUNTDOWN JAPAN 25/26. Disini (dalam rekamannya) sayangnya hanya menampilkan 3 lagu saja, berbeda dengan setlist sebenarnya di venue yang membawakan banyak lagu.",
 			"nameShow": "COUNTDOWN JAPAN 25/26"
+		},
+		"19": {
+			"descEpisode": "| 260403 CENTRAL26 (Nogizaka46 6th Gen)",
+			"descEpsListName": "260403",
+			"descOnAirDate": "3 April 2026",
+			"memberParticipate": "乃木坂46 6期生",
+			"linkHardsub": "https://sfl.gl/iGnaGwL2",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_260403_nogi6th.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi6th.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi6th-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi6th-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi6th-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi6th-d.jpg",
+			"filePassword": "",
+			"descEpisodeSynopsis":"Festival musik CENTRAL di K-Arena Yokohama menampilkan grup idola ternama Jepang dengan Nogizaka46 sebagai salah satu penampil utamanya. Acara ini dimeriahkan oleh penampilan pembuka dari gen-6 Nogizaka46 yang berhasil memukau 20.000  penonton. Tiket terjual habis segera setelah dirilis. Perayaan ini berlangsung selama tiga hari di berbagai lokasi ikonik Yokohama dengan beragam hiburan tambahan menarik.",
+			"nameShow": "CENTRAL26"
+		},
+		"20": {
+			"descEpisode": "| 260403 CENTRAL26 (Nogizaka46)",
+			"descEpsListName": "260403",
+			"descOnAirDate": "3 April 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/Nx7ZK",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_260403_nogi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/live_260403_nogi-d.jpg",
+			"filePassword": "",
+			"descEpisodeSynopsis":"Festival musik CENTRAL di K-Arena Yokohama menampilkan grup idola ternama Jepang dengan Nogizaka46 sebagai salah satu penampil utamanya. Acara ini dimeriahkan oleh penampilan pembuka dari gen-6 Nogizaka46 yang berhasil memukau 20.000  penonton. Tiket terjual habis segera setelah dirilis. Perayaan ini berlangsung selama tiga hari di berbagai lokasi ikonik Yokohama dengan beragam hiburan tambahan menarik.",
+			"nameShow": "CENTRAL26"
 		}
 	}
 }

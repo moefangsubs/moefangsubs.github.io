@@ -7,7 +7,7 @@
 		"211031", "211215", "210916", "211211", "210327", "190506", "220410", "220514", "220707", "220715",
 		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230902", "231117", 
 		"240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", "251221", 
-		"251230", "260116"
+		"251230", "260116", "260322"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
@@ -653,6 +653,23 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02d.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 kini diundang ke acara BUZZ RYTHM02, yang dipandu oleh duo MC Bakarythm dan ex-Nogizaka46 Ichiki Rena. Disini, ada beberapa VTR kegiatan para member di hari libur masing-masing 30 detik.",
 			"nameShow": "BUZZ RYTHM02"
+		},
+		"260322": {
+			"descEpisode": "| 260322 Machichuuka de Yarou ze!",
+			"descEpsListName": "260322",
+			"descOnAirDate": "16 Januari 2026",
+			"memberParticipate": "樋口日奈",
+			"linkHardsub": "https://sfl.gl/gS44dKk",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/machichuuka-de-yarou-ze-rxLx0",
+			"filePassword": "DuoHiguchi",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260322_machichuuka.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka4.jpg",
+			"descEpisodeSynopsis": "Higuchi Hina dan Higuchi Yuzu melakukan perjalanan nostalgia ke kampung halaman di Nagano dalam edisi spesial tahun ketujuh program ini. ]Kakak beradik tersebut mengunjungi berbagai restoran Cina pinggir jalan yang legendaris untuk menikmati hidangan khas dan minuman sambil berbagi kenangan masa kecil yang hangat.",
+			"nameShow": "町中華で飲ろうぜ　サヨナラ７年目　故郷に錦を飾れSP"
 		}
 	}
 }

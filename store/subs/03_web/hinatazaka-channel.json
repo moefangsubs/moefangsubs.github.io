@@ -31,7 +31,8 @@
 		"230923",
 		"231007",
 		"231014",
-		"231021"
+		"231021",
+		"260210"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hinatach.png",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hinatazaka-channel-34uxr",
@@ -440,6 +441,22 @@
 			"descEpisodeSynopsis": "Pada Hinatazaka Channel kali ini, Hamagishi Hiyori yang berniat menambah semangatnya, akan melakukan perjalanan ke kampung halamannya sehari sebelum konser dimulai. Ia akan mengunjungi kedai gyoza, lalu dilanjut pulang ke rumah orang tuanya dan melakukan semacam... senam bersama kakak perempuannya.",
 			"nameShow": "日向坂ちゃんねる・【実家帰省】ライブ前日でテンション上がったので実姉と組体操してみた",
 			"linkRAW": "https://www.youtube.com/watch?v=lD8QNv7Ny48"
+		},
+		"260210": {
+			"descEpisode": "| 260210 Bermain Warashibe Chouja",
+			"descOnAirDate": "10 Februari 2026",
+			"memberParticipate": "上村ひなの、大田美月、片山紗希、石塚瑶季、下田衣珠季、蔵盛妃那乃、佐藤優羽、平尾帆夏、竹内希来里、鶴崎仁香、山口陽世、坂井新奈、森本茉莉、平岡海月",
+			"linkHardsub": "https://sfl.gl/lYIzR1hj",
+			"filePassword": "H46Channel",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/hinach260210_y.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinachannel/hinach260210.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinachannel/hinach260210a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinachannel/hinach260210b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinachannel/hinach260210c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinachannel/hinach260210d.jpg",
+			"descEpisodeSynopsis": "Pada Hinatazaka Channel kali ini, Hiragana Hinatazaka yang dipimpin Kamimura Hinano dalam single ke-16 mencoba memainkan permainan \"warashibe chouja\". Kira-kira, ending-nya Kamimura dapat barang apa setelah berbagai barang saling ditukar antar member?",
+			"nameShow": "日向坂ちゃんねる・【ガチ検証】日向坂でわらしべ長者やってみたら、最終的に何に変わる？",
+			"linkRAW": "https://www.youtube.com/watch?v=XD0RAZz2BcE"
 		}
 	}
 }

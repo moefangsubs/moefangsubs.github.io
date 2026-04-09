@@ -1,5 +1,30 @@
 [
   {
+    "date": "260409",
+    "updates": [
+      {"showId": "hinatazaka-channel", "eps":"260210"},
+      {"showId": "nogidouga-ganbare-nogizaka", "eps":"04"},
+      {"showId": "random-subs", "eps":"260322"},
+      {"showId": "shitsuren-karuta", "eps":"01"},
+      {"showId": "ima-doko-ni-iru-no", "eps":"04"},
+      {"showId": "contrast", "eps":"01"},
+      {"showId": "contrast", "eps":"02"},
+      {"showId": "contrast", "eps":"03"},
+      {"showId": "contrast", "eps":"04"},
+      {"showId": "contrast", "eps":"05"},
+      {"showId": "contrast", "eps":"06"},
+      {"showId": "contrast", "eps":"07"},
+      {"showId": "contrast", "eps":"08"},
+      {"showId": "sukui-sukuware", "eps":"08"},
+      {"showId": "rojiura-hotel", "eps":"03a"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"01"},
+      {"showId": "live-performance", "eps":"19"},
+      {"showId": "live-performance", "eps":"20"},
+      {"showId": "under-live", "eps":"15"},
+      {"showId": "under-live", "eps":"16"}
+    ]
+  },
+  {
     "date": "260401",
     "updates": [
       {"showId": "utabangumi-cdtv", "eps":"260330_1"},
