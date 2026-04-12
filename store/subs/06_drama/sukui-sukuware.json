@@ -5,7 +5,7 @@
     "nameShow": "救い、救われ",
 	"descSynopsis": "Minase Ama, idola pemula yang dirundung rekan grupnya, mulai menjalin hubungan dengan aktor populer Hosho Chiaki setelah menjadi pemeran pengganti dalam dramanya. Chiaki awalnya mendekati Ama karena taruhan dengan Kairi, namun kemurnian Ama perlahan memikatnya. Perasaan tersebut kemudian berkembang menjadi obsesi posesif yang mengaburkan batas antara cinta dan keterikatan yang berbahaya.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05", "06", "07", "08"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/sukui{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/sukui/sukui{{eps}}.jpg",
@@ -57,12 +57,10 @@
             "linkHardsub": "https://sfl.gl/hq73raB"
         },
         "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "10": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Chiaki memutuskan hubungan dengan Ama secara mendadak hingga membuat Ama kehilangan fokus saat bekerja. Sementara itu, Chiaki memberikan uang kepada ibunya, dan mengungkapkan rasa tidak pantas bersanding dengan Ama. Atas dorongan Seira dan Kairi, Ama mencoba menemui Chiaki namun justru diusir. Setelah mengetahui Natsumi kembali memeras Chiaki, Chiaki akhirnya menghadapi ibunya secara langsung untuk memahami perasaan Ama yang sebenarnya, membawa hubungan mereka menuju akhir yang tidak terduga.",
+			"thisEnd": true,
+			"memberParticipate": "阪口珠美、若月佑美",
+            "linkHardsub": "https://sfl.gl/9JF9VTg"
         }
     },
 	"descOnAirDatePattern": "260211",

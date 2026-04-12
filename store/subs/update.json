@@ -1,5 +1,17 @@
 [
   {
+    "date": "260412",
+    "updates": [
+      {"showId": "shitsuren-karuta", "eps":"02"},
+      {"showId": "sukui-sukuware", "eps":"09"},
+      {"showId": "rojiura-hotel", "eps":"03b"},
+      {"showId": "aku-no-hana", "eps":"01"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"02"},
+      {"showId": "random-subs", "eps":"260410"},
+      {"showId": "live-performance", "eps":"21"}
+    ]
+  },
+  {
     "date": "260409",
     "updates": [
       {"showId": "hinatazaka-channel", "eps":"260210"},
@@ -29,34 +41,6 @@
     "updates": [
       {"showId": "utabangumi-cdtv", "eps":"260330_1"},
       {"showId": "utabangumi-cdtv", "eps":"260330_2"}
-    ]
-  },
-  {
-    "date": "260329",
-    "updates": [
-      {"showId": "nogizaka-star-tanjou-six", "eps":"40"},
-      {"showId": "nogidouga-hitori-de-dekirumon-2", "eps":"03"},
-      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"71"},
-      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"72"},
-      {"showId": "rojiura-hotel", "eps":"02a"},
-      {"showId": "rojiura-hotel", "eps":"02b"},
-      {"showId": "ima-doko-ni-iru-no", "eps":"02"},
-      {"showId": "ima-doko-ni-iru-no", "eps":"03"},
-      {"showId": "sukui-sukuware", "eps":"06"},
-      {"showId": "sukui-sukuware", "eps":"07"}
-    ]
-  },
-  {
-    "date": "260324",
-    "updates": [
-      {"showId": "nogizaka-koujichuu", "eps":"099"},
-      {"showId": "nogizaka-koujichuu", "eps":"100"},
-      {"showId": "nogizaka-koujichuu", "eps":"101"},
-      {"showId": "cupstar-ane-to-itsumademo", "eps":"08"},
-      {"showId": "cupstar-ane-to-itsumademo", "eps":"09"},
-      {"showId": "livestream", "eps":"250331"},
-      {"showId": "livestream", "eps":"260225"},
-      {"showId": "zenkoku-boroii-yado", "eps":"260215"}
     ]
   }
 ]
