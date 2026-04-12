@@ -7,7 +7,7 @@
     "availableEpisode": [
 		"01a", "01b",
 		"02a", "02b",
-		"03a"
+		"03a", "03b"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/rojiura{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}.jpg",
@@ -56,15 +56,22 @@
         "03b": {
 			"descEpisode": "| Episode 3 後編",
 			"descEpsListName": "03 後編",
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Opossum memutuskan untuk bubar. Meski telah berusaha memenuhi kursi pada konser terakhir, penonton yang datang hanya sedikit. Tomoya yang merasa panik melakukan promosi di taman pada malam hari hingga berurusan dengan polisi. Dalam situasi darurat tanpa vokalis, Suzuka pun dipercaya untuk mengambil alih posisi tersebut.",
+			"memberParticipate": "谷口愛季、村井優",
+            "linkHardsub": "https://sfl.gl/EniGL"
+        },
+        "04a": {
+			"descEpisode": "| Episode 4 前編",
+			"descEpsListName": "04 前編",
+			"descEpisodeSynopsis": "Nishihara Tsumugi dari klub panahan mengalami kemunduran tepat sebelum turnamen. Saat membuka pintu di Rojiura Hotel, ia mendapati dirinya berada di tengah gunung yang asing. Kakeknya, Isao, muncul sebagai seorang pemburu. Setelah Isao pergi menyelidiki suara pertengkaran dan tidak kunjung kembali, Tsumugi bertemu dengan seorang gadis yang tertawan bernama Kiritani Rei saat sedang mencarinya.",
+			"memberParticipate": "的野美青、小田倉麗奈",
             "linkHardsub": ""
         },
-        "03": {
+        "04b": {
+			"descEpisode": "| Episode 4 後編",
+			"descEpsListName": "04 後編",
 			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "04": {
-			"descEpisodeSynopsis": "",
+			"memberParticipate": "的野美青、小田倉麗奈",
             "linkHardsub": ""
         },
         "05": {

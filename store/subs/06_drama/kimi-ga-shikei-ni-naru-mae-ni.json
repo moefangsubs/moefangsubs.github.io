@@ -4,7 +4,7 @@
     "nameShowTitle": "Kimi ga Shikei ni naru Mae ni (2026)",
     "nameShow": "君が死刑になる前に",
 	"descSynopsis": "Kasus pembunuhan berantai guru mengguncang publik saat eksekusi mati Shiori dilakukan. Secara misterius, Kotaro, Hayato, dan Rin terlempar ke masa tujuh tahun lalu tepat di tengah pusaran tragedi tersebut. Mereka bertemu dengan Shiori yang sedang menjadi buronan, namun ia justru mengaku tidak bersalah. Pengejaran kebenaran pun dimulai untuk mengungkap dalang sebenarnya di balik peristiwa kelam yang menghubungkan masa lalu dan masa kini.",
-    "availableEpisode": [ "01" ],
+    "availableEpisode": [ "01", "02" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shikei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}a.jpg",
@@ -21,7 +21,7 @@
         },
         "02": {
 			"descEpisodeSynopsis": "Perdebatan mengenai kejujuran Shiori membagi pendapat ketiga sahabat tersebut di tengah ketegangan yang semakin meningkat. Upaya menyelamatkan korban berikutnya berakhir gagal, sehingga memperkuat kecurigaan terhadap gerak-gerik Shiori yang mencurigakan saat kejadian berlangsung. Rin yang tinggal bersama sang buronan mulai merasakan bahaya tersembunyi setelah mengonsumsi makanan buatannya. Sementara itu, pencarian informasi mengenai sosok pria misterius di lokasi kejadian mulai membuka tabir baru yang tidak terduga.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/CyfasZS"
         },
         "03": {
 			"descEpisodeSynopsis":"",
