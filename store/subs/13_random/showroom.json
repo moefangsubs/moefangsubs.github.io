@@ -6,7 +6,7 @@
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41", "42", "43", "44", "45", "46", "47"
+		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
 	],
 	"newUpdateCount": 1,
 	"SpecificUpdate": ["34"],
@@ -763,11 +763,54 @@
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Tomisato Nao.",
 			"nameShow": "SHOWROOM のぎおび"
+		},
+		"48": {
+			"descEpisode": "| 260406 NOGIOBI (Inoue Nagi)",
+			"descEpsListName": "Inoue Nagi",
+			"descOnAirDate": "6 April 2026",
+			"memberParticipate": "井上和",
+			"linkHardsub": "https://sfl.gl/gWJJpD",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260406_SR-InoueNagi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260406_SR-InoueNagi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260406_SR-InoueNagi1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260406_SR-InoueNagi2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260406_SR-InoueNagi3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Inoue Nagi.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"49": {
+			"descEpisode": "| 260407 NOGIOBI (Tsutsui Ayame)",
+			"descEpsListName": "Tsutsui Ayame",
+			"descOnAirDate": "7 April 2026",
+			"memberParticipate": "筒井あやめ",
+			"linkHardsub": "https://sfl.gl/Ajmcp",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260407_SR-TsutsuiAyame.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260407_SR-TsutsuiAyame.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260407_SR-TsutsuiAyame1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260407_SR-TsutsuiAyame2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260407_SR-TsutsuiAyame3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Tsutsui Ayame.",
+			"nameShow": "SHOWROOM のぎおび"
+		},
+		"50": {
+			"descEpisode": "| 260417 NOGIOBI (Morihira Urumi)",
+			"descEpsListName": "Morihira Urumi",
+			"descOnAirDate": "17 April 2026",
+			"memberParticipate": "森平麗心",
+			"linkHardsub": "https://sfl.gl/WLsn",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260417_SR-MorihiraUrumi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260417_SR-MorihiraUrumi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260417_SR-MorihiraUrumi1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260417_SR-MorihiraUrumi2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/260417_SR-MorihiraUrumi3.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Rilisan dari MoeFang kali ini adalah Nogiobi dari Morihira Urumi.",
+			"nameShow": "SHOWROOM のぎおび"
 		}
 	}
 }
-
-
-
-
-

@@ -4,11 +4,9 @@
 	"nameShow": "乃木坂46×トークリアリティーショー Girl's talk",
 	"descSynopsis": "\"Nogizaka Girl's Talk\" merupakan sebuah program talk reality show yang menyajikan obrolan nyata para member tanpa naskah sama sekali. Acara ini akan menayangkan keseruan bincang-bincang santai dari tiga grup berbeda.",
 	"availableEpisode": [
-		"01A",
-		"01B",
-		"02A",
-		"02B",
-		"03A"
+		"01A", "01B",
+		"02A", "02B",
+		"03A", "03B"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_nogitalkvarietyshow.png",
@@ -47,8 +45,14 @@
 		"03A": {
 			"descEpisode": "| Episode 3 前編",
 			"descOnAirDate": "28 Oktober 2025",
-			"memberParticipate": "鈴木佑捺‎‎、長嶋凛桜、川端晃菜、岩本蓮加、賀喜遥香、井上和、久保史緒里、柴田柚菜、黒見明香",
+			"memberParticipate": "鈴木佑捺、長嶋凛桜、川端晃菜、岩本蓮加、賀喜遥香、井上和、久保史緒里、柴田柚菜、黒見明香",
 			"descEpisodeSynopsis": "Kali ini, tiga grup telah berkumpul dengan tema \"Baseball\", \"Anime\", dan \"Nogizaka\". Nikmati obrolan bebas tanpa henti dari tiga orang yang memiliki kesukaan yang sama."
+		},
+		"03B": {
+			"descEpisode": "| Episode 3 後編",
+			"descOnAirDate": "28 Oktober 2025",
+			"memberParticipate": "鈴木佑捺、長嶋凛桜、川端晃菜、岩本蓮加、賀喜遥香、井上和、久保史緒里、柴田柚菜、黒見明香",
+			"descEpisodeSynopsis": "Pada paruh kedua ini, ketiga grup akan melanjutkan obrolan seru mereka. Klub Baseball berbagi refleksi mengenai perjuangan dan impian tim, sedangkan Klub Nogizaka saling memperlihatkan goods favorit mereka. Sementara itu, Klub Anime saling memberikan rekomendasi anime dan juga keinginan untuk cosplay"
 		}
 	}
 }

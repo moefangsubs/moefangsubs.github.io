@@ -4,7 +4,7 @@
     "nameShowTitle": "Kimi ga Shikei ni naru Mae ni (2026)",
     "nameShow": "君が死刑になる前に",
 	"descSynopsis": "Kasus pembunuhan berantai guru mengguncang publik saat eksekusi mati Shiori dilakukan. Secara misterius, Kotaro, Hayato, dan Rin terlempar ke masa tujuh tahun lalu tepat di tengah pusaran tragedi tersebut. Mereka bertemu dengan Shiori yang sedang menjadi buronan, namun ia justru mengaku tidak bersalah. Pengejaran kebenaran pun dimulai untuk mengungkap dalang sebenarnya di balik peristiwa kelam yang menghubungkan masa lalu dan masa kini.",
-    "availableEpisode": [ "01", "02" ],
+    "availableEpisode": [ "01", "02", "03", "04" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shikei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}a.jpg",
@@ -24,15 +24,15 @@
             "linkHardsub": "https://sfl.gl/CyfasZS"
         },
         "03": {
-			"descEpisodeSynopsis":"",
-            "linkHardsub": ""
+			"descEpisodeSynopsis":"Kotaro, Hayato, dan Rin melakukan perjalanan waktu ke 7 tahun lalu untuk mencegah pembunuhan berantai guru, namun insiden ketiga tetap terjadi dengan tewasnya Miyaji. Hilangnya Shiori sebelum kejadian memicu kecurigaan Rin yang bersikeras bahwa Shiori adalah pelakunya karena tidak memiliki alibi kuat. Meskipun Rin mendesak untuk segera kembali ke masa depan, situasi semakin rumit setelah keberadaan Shiori terdeteksi di sekitar lokasi pembunuhan Miyaji pada waktu kejadian berlangsung.",
+            "linkHardsub": "https://sfl.gl/sCdKYH"
         },
         "04": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Keyakinan Rin bahwa Shiori adalah pelaku pembunuhan semakin kuat, namun penyelidikan Kotaro dan Hayato justru menemukan bukti baru yang menunjukkan kemungkinan adanya pelaku lain. Ketegangan meningkat saat detektif Ito dan Fukasawa mendatangi vila secara tiba-tiba untuk menyelidiki mobil mencurigakan yang mengarah pada keterlibatan mereka dalam kasus tersebut. Di tengah tekanan investigasi polisi yang semakin ketat, Shiori mulai meminta informasi lebih lanjut kepada Kotaro mengenai detail insiden pembunuhan berikutnya.",
+            "linkHardsub": "https://sfl.gl/axufwVg"
         },
         "05": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Setelah mengungkap identitas pelaku sebenarnya dan membuktikan ketidakbersalahan Shiori, Kotaro beserta rekan-rekannya kembali ke masa kini dan menemukan perubahan drastis pada garis waktu realitas mereka. Kotaro dan Hayato berencana memproduksi film dokumenter tentang kasus Shiori menggunakan rekaman dari masa lalu untuk membersihkan namanya sepenuhnya. Namun, mereka segera menyadari bahwa penangkapan pelaku di masa lalu telah memicu serangkaian peristiwa baru yang tidak seharusnya terjadi di masa depan, menciptakan misteri baru yang harus dipecahkan.",
             "linkHardsub": ""
         },
         "06": {
@@ -59,6 +59,3 @@
 	"descOnAirDatePattern": "260403",
     "OnAirEvery": 7
 }
-
-
-

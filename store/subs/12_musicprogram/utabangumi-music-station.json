@@ -60,6 +60,16 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251226b-musicstation-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Sebuah penampilan spesial antara berbagai idol Jepang papan atas.",
 			"nameShow": "MUSIC STATION SUPER LIVE"
+		},
+		"06": {
+			"descEpisode": "| 260411 MUSIC STATION 'Saigo ni Kaidan o Kakeagatta no wa Itsu da?'",
+			"descEpsListName": "260411",
+			"descOnAirDate": "11 April 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/b6FtlU",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260411_musicstation_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260411-musicstation-nogizaka46.jpg",
+			"nameShow": "MUSIC STATION"
 		}
 	}
 }

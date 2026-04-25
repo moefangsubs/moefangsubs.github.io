@@ -7,7 +7,8 @@
     "availableEpisode": [
 		"01a", "01b",
 		"02a", "02b",
-		"03a", "03b"
+		"03a", "03b",
+		"04a", "04b"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/rojiura{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}.jpg",
@@ -65,27 +66,31 @@
 			"descEpsListName": "04 前編",
 			"descEpisodeSynopsis": "Nishihara Tsumugi dari klub panahan mengalami kemunduran tepat sebelum turnamen. Saat membuka pintu di Rojiura Hotel, ia mendapati dirinya berada di tengah gunung yang asing. Kakeknya, Isao, muncul sebagai seorang pemburu. Setelah Isao pergi menyelidiki suara pertengkaran dan tidak kunjung kembali, Tsumugi bertemu dengan seorang gadis yang tertawan bernama Kiritani Rei saat sedang mencarinya.",
 			"memberParticipate": "的野美青、小田倉麗奈",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/6ovP"
         },
         "04b": {
 			"descEpisode": "| Episode 4 後編",
 			"descEpsListName": "04 後編",
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Tsumugi dan Rei terjebak dalam perselisihan kelompok buronan yang memicu permainan bertahan hidup mematikan. Di tengah pusaran kecurigaan yang merenggut nyawa satu per satu, identitas pelaku sebenarnya tetap menjadi misteri yang mencekam bagi semua orang. Ketegangan mencapai puncaknya ketika Tsumugi mulai meragukan Rei hingga akhirnya memutuskan untuk mengarahkan senjata ke arah Rei di tengah situasi berbahaya yang mengancam keselamatan mereka.",
 			"memberParticipate": "的野美青、小田倉麗奈",
+            "linkHardsub": "https://sfl.gl/u1F1"
+        },
+        "05a": {
+			"descEpisode": "| Episode 5 前編",
+			"descEpsListName": "05 前編",
+			"descEpisodeSynopsis": "Mochizuki Saki, seorang editor yang sangat mengutamakan efisiensi, terpaksa menginap di Rojiura Hotel setelah mengalami kendala pemesanan tempat tinggal. Secara mengejutkan, pintu kamar hotel tersebut membawa Mochizuki Saki masuk ke dalam SMA San'o yang merupakan latar tempat dari novel garapannya. Di sana, pertemuan dengan ketua klub pemandu sorak bernama Inaba Kyoka membuat Mochizuki Saki mulai terlibat aktif menjalani kegiatan sebagai anggota klub tersebut.",
+			"memberParticipate": "山下瞳月、向井純葉",
             "linkHardsub": ""
         },
-        "05": {
+        "05b": {
+			"descEpisode": "| Episode 5 後編",
+			"descEpsListName": "05 後編",
 			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "06": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"memberParticipate": "山下瞳月、向井純葉",
+            "linkHardsub": "",
+			"thisEnd": true
         }
     },
 	"descOnAirDatePattern": "260306",
     "OnAirEvery": 7
 }
-
-
-

@@ -1,0 +1,26 @@
+{
+	"url": "nama-no-idol-ga-suki",
+	"nameShowTitle": "Nama no Idol ga Suki",
+	"nameShow": "生のアイドルが好き",
+	"availableEpisode": [
+		"260130"
+	],
+    "descSynopsis": "\"Nama no Idol ga Suki\" adalah sebuah acara variety informasi musik produksi Dwango yang ditayangkan sejak 18 April 2013 di layanan Niconico Live Streaming Jepang dan saluran khusus idola, Pigoo. Acara ini disiarkan secara langsung satu kali setiap bulan di Niconico Live dengan waktu tayang yang tidak menentu, sementara di Pigoo merupakan tayangan berbayar.",
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_namaidol.png",
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/namaidol_{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/namaidol/namaidol_{{eps}}.jpg",
+    "imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/namaidol/namaidol_{{eps}}a.jpg",
+    "imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/namaidol/namaidol_{{eps}}b.jpg",
+    "imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/namaidol/namaidol_{{eps}}c.jpg",
+    "imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/namaidol/namaidol_{{eps}}d.jpg",
+	"episodes": {
+		"260130": {
+			"descEpisode": "| Episode 146 - Januari 2026",
+			"descEpsListName": "260130",
+			"descOnAirDate": "30 Januari 2026",
+			"memberParticipate": "田村真佑、愛宕心響、鈴木佑捺、矢田萌華",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nama-no-idol-ga-suki-4yCPt",
+			"descEpisodeSynopsis": "Acara variety show \"Nama no Idol ga Suki\" diawali dengan penampilan Tamura Mayu sebagai pembawa acara tunggal sebelum akhirnya memperkenalkan Atago Kokone dari gen-6 sebagai rekan MC yang baru. Kehadiran bintang tamu Suzuki Yuuna dan Yada Moeka memeriahkan suasana melalui sesi berbagi kenangan masa debut serta partisipasi dalam berbagai segmen ikonik seperti tantangan akting imut Burikko Aiueo dan permainan peran penggemar bernama Gonnosuke. Keseruan berlanjut dengan kompetisi Mannaka Ou untuk mencari posisi tengah, tantangan menggambar shio kuda, serta lomba berteriak kencang menggunakan alat pengukur suara."
+		}
+	}
+}

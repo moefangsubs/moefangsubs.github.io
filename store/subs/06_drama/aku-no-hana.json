@@ -4,7 +4,9 @@
     "nameShowTitle": "Aku no Hana (2026)",
     "nameShow": "惡の華",
 	"descSynopsis": "Berlatar di Kota Hikari, Prefektur Gunma, seorang siswa SMP bernama Kasuga menjalani hidup dengan perasaan terkekang sambil mengagumi kumpulan puisi Aku no Hana. Suatu sore, saat mengambil barang yang tertinggal di kelas, Kasuga secara impulsif mencuri baju olahraga milik teman sekelas yang dikaguminya, Saeki Nanako. Namun, tindakan tersebut diketahui oleh siswa bermasalah bernama Nakamura. Nakamura kemudian memaksa Kasuga melakukan sebuah \"kontrak\" sebagai jaminan kerahasiaan. Di bawah kendali Nakamura, Kasuga terjebak dalam berbagai tuntutan aneh hingga identitas dirinya hancur, sementara ia juga harus menghadapi gejolak batin saat mulai menjalin hubungan dengan Saeki.",
-    "availableEpisode": ["01"],
+    "availableEpisode": [
+		"01", "02", "03"
+	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/akunohana{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}a.jpg",
@@ -19,12 +21,18 @@
 			"linkHardsub": "https://sfl.gl/Qk67xm"
 		},
         "02": { 
-			"descEpisodeSynopsis": "Kasuga terpaksa menjalani kontrak dengan Nakamura agar rahasia mengenai pencurian baju olahraga Saeki tidak terbongkar. Saat teman sekelas mencurigai Nakamura sebagai pelaku, Kasuga justru membelanya hingga memicu kecurigaan mengenai hubungan mereka berdua. Di sisi lain, Saeki mengagumi tindakan Kasuga dan mengajaknya berkencan. Namun, pada hari pertemuan yang dinantikan tersebut, sosok yang tidak terduga muncul di hadapan mereka.",
-			"memberParticipate": "中西アルノ",
-			"linkHardsub": ""},
-        "03": { "linkHardsub": ""},
-        "04": { "linkHardsub": ""},
-        "05": { "linkHardsub": ""},
+			"descEpisodeSynopsis": "Kasuga ketahuan mencuri baju olahraga Saeki oleh Nakamura, sehingga keduanya terikat dalam perjanjian kontrak yang menyerupai hubungan tuan dan pelayan. Suatu hari, Kasuga akhirnya berkesempatan untuk berkencan dengan Saeki yang sangat dikaguminya. Namun, di balik momen kencan yang dinanti tersebut, terdapat sosok yang terus mengawasi dari kejauhan dan mengancam rahasia gelap yang sedang disembunyikan oleh Kasuga.",
+			"linkHardsub": "https://sfl.gl/35RZ59MS"
+			},
+        "03": { 
+			"descEpisodeSynopsis": "Kasuga tidak dapat menyembunyikan kegembiraannya saat Saeki secara resmi mengumumkan hubungan asmara mereka di hadapan seluruh teman sekelas. Di tengah euforia tersebut, Nakamura justru menunjukkan rasa kesal yang terpendam melihat situasi yang terjadi. Ketegangan psikologis pun mulai muncul saat Nakamura bersiap untuk mengambil tindakan tertentu atas perubahan situasi yang melibatkan hubungan antara Kasuga dan Saeki tersebut.",
+			"linkHardsub": "https://sfl.gl/ztgS0a"
+			},
+        "04": { 
+			"descEpisodeSynopsis": "Kekacauan besar di ruang kelas akibat ulah Kasuga dan Nakamura memicu kecurigaan mendalam dari Saeki setelah melihat simbol bunga misterius di lantai. Pengungkapan mengenai kontrak rahasia antara Kasuga dan Nakamura membuat Saeki semakin gencar memojokkan Kasuga dalam situasi sulit. Merasa terdesak dan tidak memiliki pilihan lain, Kasuga akhirnya memutuskan untuk berpaling sepenuhnya kepada Nakamura dan melarikan diri bersama menuju wilayah pegunungan.",
+			"linkHardsub": ""
+			},
+        "05": { "memberParticipate": "中西アルノ", "linkHardsub": ""},
         "06": { "linkHardsub": ""},
         "07": { "linkHardsub": ""},
         "08": { "linkHardsub": ""},
