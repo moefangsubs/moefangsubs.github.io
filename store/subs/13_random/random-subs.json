@@ -5,9 +5,9 @@
 	"availableEpisode": [
 		"191124", "170217", "180827", "161013", "200612", "201214", "210809", "200707", "210825", "210625",
 		"211031", "211215", "210916", "211211", "210327", "190506", "220410", "220514", "220707", "220715",
-		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230902", "231117", 
-		"240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", "251221", 
-		"251230", "260116", "260322", "260410"
+		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230902", "231117",
+		"231122", "240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", 
+		"251221", "251230", "260116", "260322", "260410"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
@@ -474,6 +474,23 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/231117-lalalife-yodayuuki-c.jpg",
 			"descEpisodeSynopsis": "LALALife merupakan sebuah variety show dengan pembawa acara Masakazu Mimura dan Takataka Aoki, disiarkan dari stasiun TBS Setiap Jumat mulai pukul 11:30. Di kesempatan kali ini, Yoda Yuuki berkesempatan pergi ke Taiwan dan makan gyoza disana seharian. Meskipun awalnya ragu karena kesulitan dalam segi bahasa, namun ia dengan cepat terbiasa. Seperti apa keseruannya?",
 			"nameShow": "ララLife"
+		},
+		"231122": {
+			"descEpisode": "| 231122 Cream Nantara 1hr SP \"Ningen Install\"",
+			"descEpsListName": "231122",
+			"descOnAirDate": "22 November 2023",
+			"memberParticipate": "小林由依、武元唯衣、大園玲、井上梨名",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/231122-cream-nantara-1hr-sp-sakurazaka46-3SWYm",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/231122_creamnantara.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/231122-creamnantara.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/231122-creamnantara-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/231122-creamnantara-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/231122-creamnantara-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/231122-creamnantara-d.jpg",
+			"descEpisodeSynopsis": "Acara variety \"Cream Nantara\" menghadirkan segmen \"Ningen Install\" yang melibatkan member Sakurazaka46 dalam tantangan kuis lintas generasi. Para idola ini diam-diam dibantu oleh ahli dari balik layar untuk bersaing melawan tim veteran dalam menjawab pertanyaan seputar era Showa dan Heisei. Ketepatan jawaban mereka yang tidak terduga menciptakan suasana kacau dan penuh tawa di studio. Program ini mengeksplorasi sisi menghibur para anggota melalui perpaduan unik antara kompetisi kuis dan interaksi komedi spontan.",
+			"nameShow": "くりぃむナンタラ"
 		},
 		"240223": {
 			"descEpisode": "| 240223 Himubus Eps.9 (Nogizaka46 CUT)",

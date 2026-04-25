@@ -4,7 +4,7 @@
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20",
-		"21"
+		"21", "22"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_performance2.png",
 	"episodes": {
@@ -334,6 +334,18 @@
 			"filePassword": "Ikorabu_MinnaKawaii",
 			"descEpisodeSynopsis":"Festival musik CENTRAL di K-Arena Yokohama menampilkan grup idola ternama Jepang. Sebelumnya saya menggarap yang Nogizaka46, sekarang saya menggarap bagian yang Ikorabu.",
 			"nameShow": "CENTRAL26"
+		},
+		"22": {
+			"descEpisode": "| Rakuten GirlsAward 2026 SS",
+			"descEpsListName": "260418",
+			"descOnAirDate": "18 April 2026",
+			"memberParticipate": "筒井あやめ、小川彩、弓木奈於、菅原咲月、田村真佑、林瑠奈、中西アルノ、井上和、梅澤美波、賀喜遥香、川﨑桜、一ノ瀬美空、遠藤さくら、池田瑛紗、五百城茉央",
+			"linkHardsub": "https://sfl.gl/CRRVOrc6",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_260418_rakutengirlsaward2026.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/260418_rakutengirlsaward2026.jpg",
+			"descEpisodeSynopsis": "Pada 18 April, Nogizaka46 tampil di acara fesyen \"Rakuten GirlsAward 2026 SS\". Dengan mengenakan gaun hitam dan emas, mereka membawakan tiga lagu, yaitu \"Same numbers\", \"Kaerimichi wa Toomawari shitakunaru\", dan lagu terbaru mereka, \"Saigo ni Kaidan o Kakeagatta no wa Itsu da?\".",
+			"nameShow": "Rakuten GirlsAward 2026 SS"
 		}
 	}
 }

@@ -9,7 +9,13 @@
 		"06",
 		"unl04_05_06",
 		"07",
-		"08"
+		"08",
+		"unl07_08",
+		"09",
+		"10",
+		"11",
+		"12",
+		"unl09_10_11_12"
 	],
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_noginabe.png",
 	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabe{{eps}}.jpg",
@@ -86,14 +92,56 @@
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
 			"memberParticipate": "梅澤美波、川﨑桜、中西アルノ",
 			"linkHardsub": "https://sfl.gl/fiPpEer"
-		}	
+		},
+		"unl07_08": {
+			"descEpisode": "| Unreleased Talk 07-08",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabeunl07_08.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl07_08a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl07_08b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl07_08c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl07_08d.jpg",
+			"descEpsListName": "未公開 07~08",
+			"descOnAirDate": "21 Desember 2025",
+			"memberParticipate": "梅澤美波、川﨑桜、中西アルノ",
+			"descEpisodeSynopsis": "Ini adalah Nogi Nabe versi no cut untuk episode 7 hingga 8"
+		},
+		"09": {
+			"descOnAirDate": "4 Januari 2026",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+			"memberParticipate": "一ノ瀬美空、岡本姫奈、中西アルノ",
+			"linkHardsub": "https://sfl.gl/X4uSSW"
+		},
+		"10": {
+			"descOnAirDate": "11 Januari 2026",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+			"memberParticipate": "一ノ瀬美空、岡本姫奈、中西アルノ",
+			"linkHardsub": "https://sfl.gl/NP4ReiH"
+		},
+		"11": {
+			"descOnAirDate": "18 Januari 2026",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+			"memberParticipate": "賀喜遥香、五百城茉央、中西アルノ",
+			"linkHardsub": "https://sfl.gl/UBnRxY"
+		},
+		"12": {
+			"descOnAirDate": "25 Januari 2026",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabe.jpg",
+			"memberParticipate": "賀喜遥香、五百城茉央、中西アルノ",
+			"linkHardsub": "https://sfl.gl/3qRM"
+		},
+		"unl09_10_11_12": {
+			"descEpisode": "| Unreleased Talk 09-12",
+			"thisEnd": true,
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/noginabeunl09_10_11_12.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl09_10_11_12a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl09_10_11_12b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl09_10_11_12c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/noginabe/noginabeunl09_10_11_12d.jpg",
+			"descEpsListName": "未公開 09~12",
+			"descOnAirDate": "25 Januari 2026",
+			"memberParticipate": "一ノ瀬美空、岡本姫奈、賀喜遥香、五百城茉央、中西アルノ",
+			"descEpisodeSynopsis": "Ini adalah Nogi Nabe versi no cut untuk episode 9 hingga 12"
+		}
 	},
 	"descEpisode": "| Episode {{eps}}"
 }
-
-
-
-
-
-
-

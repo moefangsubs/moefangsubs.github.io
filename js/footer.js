@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			</div>
 			<div class="about">
 				<img class="foot-label" src="../sprite/main.svg"/>
-				<span>Data Update : 12 April 2026 21:20 WIB</span>
+				<span>Data Update : 25 April 2026 23:39 WIB</span>
 				<span>Data bisa saja ada kesalahan input.</span>
 				<span>Jika menemukannya dan/atau ingin ada masukan, mohon hubungi admin via DM Instagram</span>
 			</div>

@@ -4,14 +4,14 @@
     "nameShowTitle": "Shitsuren Karuta (2026)",
     "nameShow": "失恋カルタ",
 	"descSynopsis": "Chinami, Hikaru, dan Ayase dipertemukan melalui klub permainan papan di tempat kuliahnya. Meski sering menghabiskan waktu bersama, masing-masing menyimpan kerumitan cinta yang berbeda. Chinami yang mendambakan pernikahan baru saja diputuskan kekasihnya, sedangkan Hikaru tampak harmonis tinggal bersama Riku. Di balik sikap dinginnya, Ayase ternyata memiliki alasan mendalam hingga sulit menghadapi perasaan secara jujur. Kisah mereka menggambarkan perjuangan menghadapi dilema asmara yang sangat rumit dalam kehidupan sehari-hari.",
-    "availableEpisode": [ "01", "02" ],
+    "availableEpisode": [ "01", "02", "03", "04" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shitsurenkaruta{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}a.jpg",
 	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}b.jpg",
 	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}c.jpg",
 	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}d.jpg",
-	"linkTrakteer": "",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/shitsuren-karuta-Ij629",
     "filePassword": "PatahHatiUme",
     "memberParticipate": "梅澤美波",
     "episodes": {
@@ -25,14 +25,14 @@
         },
         "03": {
 			"descEpisodeSynopsis":"Ayase merasa bimbang menghadapi pernyataan cinta Murata karena ketakutan akan merusak kenangan berharga masa lalu. Sementara itu, Hikaru mulai menyadari adanya kegelisahan dalam hubungannya dengan Riku yang terasa semakin menyesakkan hati. Di saat bersamaan, Chinami yang mencoba membuka lembaran baru melalui aplikasi kencan justru goyah saat melihat sosok menyerupai mantan kekasihnya. Ketiganya kini terjebak di antara bayang-bayang masa lalu dan keinginan untuk melangkah maju demi menemukan kebahagiaan.",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/yfqU"
         },
         "04": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Setelah terbangun dalam kondisi mabuk, Chinami dikejutkan oleh kedatangan Hayato di depan pintu rumahnya. Namun, hari yang buruk tersebut berubah saat Chinami bertemu kembali dengan mantan kekasihnya, Nozaki, di tempat kerja hingga membuat perasaannya kembali bimbang. Di sisi lain, Ayase yang sedang bersama Murata merasa sangat terguncang setelah melihat keakraban Hikaru dan Riku secara langsung. Sementara itu, rencana perjalanan wisata Hikaru dan Riku dibayangi oleh sebuah rahasia besar milik Riku.",
+            "linkHardsub": "https://sfl.gl/KJxD4I"
         },
         "05": {
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Chinami yang mulai jenuh dengan dunia percintaan mendapatkan bantuan dari editor bernama Shibuya untuk memajukan proyek pekerjaannya hingga mulai merasakan ketertarikan yang tidak terduga. Sementara itu, Ayase merasa sangat terguncang saat rahasia masa lalunya mengenai Hikaru terungkap. Kecemburuan Ayase memuncak saat melihat Murata bersama wanita lain di sebuah acara, yang akhirnya memicu pengakuan jujur di antara mereka. Di sisi lain, Riku mulai memberanikan diri mengejar impian barunya berkat dukungan penuh dari Hikaru.",
             "linkHardsub": ""
         },
         "06": {
@@ -59,6 +59,3 @@
 	"descOnAirDatePattern": "260331",
     "OnAirEvery": 7
 }
-
-
-

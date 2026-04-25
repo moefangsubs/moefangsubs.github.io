@@ -7,7 +7,8 @@
 		"230318",
 		"250726",
 		"251122",
-		"260314"
+		"260314",
+		"260418"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_venue101.png",
 	"episodes": {
@@ -74,6 +75,31 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260314-venue101-nogizaka46.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 membawakan lagu \"Kimi no Na wa Kibou\" di \"Venue101 EXTRA in Sendai\". Siaran ini diperkenalkan sebagai penampilan langsung yang menyampaikan harapan dari Sendai pada peringatan 15 tahun gempa bumi. Ini adalah edisi spesial dari program musik NHK yang dipandu oleh Hamaie Ryuichi dari Kamaitachi dan Ikuta Erika.",
 			"nameShow": "Venue 101 in 仙台～震災から15年 未来へ～"
+		},
+		"260327": {
+			"descEpisode": "| 260327",
+			"descOnAirDate": "27 Maret 2026",
+			"memberParticipate": "乃木坂46、生田絵梨花",
+			"linkHardsub": "https://sfl.gl/OtzrN",
+			"linkTrakteer": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260327_venue101_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260327-venue101-nogizaka46.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 membawakan lagu \"Sing out\" di \"Venue101 EXTRA in Sendai\". Ini adalah edisi spesial dari program musik NHK yang dipandu oleh Hamaie Ryuichi dari Kamaitachi dan Ikuta Erika.",
+			"nameShow": "Venue 101 in 仙台"
+		},
+		"260418": {
+			"descEpisode": "| 260418",
+			"descOnAirDate": "18 April 2026",
+			"memberParticipate": "乃木坂46、生田絵梨花",
+			"linkHardsub": "https://sfl.gl/OVXkG2up",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/260418-venue101-ikuta-erika-nogizaka46-p04yf",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260418_venue101_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260418-venue101-nogizaka46.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260418-venue101-nogizaka46-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260418-venue101-nogizaka46-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260418-venue101-nogizaka46-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260418-venue101-nogizaka46-d.jpg",
+			"descEpisodeSynopsis": "Di kesempatan kali ini, Venue101 kembali menghadirkan tamu Nogizaka46. Mereka akan membawakan single terbarunya \"Biryani\", tapi sebelum itu, kita akan melihat VTR dimana Ikuchan diam-diam datang ke tempat latihan masa-masa awalnya dan berniat mengejutkan Kubo Shiori, yang saat itu hendak lulus, dan Venue101 adalah penampilan terakhirnya di acara musik."
 		}
 	},
 	"descEpsListName":"{{eps}}"
