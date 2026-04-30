@@ -1,5 +1,12 @@
 [
   {
+    "date": "260430",
+    "updates": [
+      {"showId": "birthday-live", "eps":"14"},
+      {"showId": "birthday-live", "eps":"15"}
+    ]
+  },
+  {
     "date": "260425",
     "updates": [
 	  {"showId": "nogi-nabe", "eps":"unl07_08"},
