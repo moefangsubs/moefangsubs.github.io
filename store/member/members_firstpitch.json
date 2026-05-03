@@ -33,5 +33,9 @@
   { "id": "kosakanao", "count": 2, "date": "2025.07.06", "stadium": "Yokohama Stadium", "match": "DeNA vs Hanshin", "result": "No-bounce (Langsung ke catcher)", "note": "Mengenakan seragam Lawson karena bertepatan dengan 'Lawson Day'." },
   { "id": "yamasakiten", "count": 1, "date": "2025.07.11", "stadium": "ZOZO Marine Stadium", "match": "Lotte vs Seibu", "result": "Lemparan liar (wild pitch) meleset jauh ke arah punggung pemukul", "note": "" },
   { "id": "sugaiyuuka", "count": 2, "date": "2025.07.17", "stadium": "Meiji Jingu Stadium", "match": "Yakult vs Yomiuri Giants", "result": "One-bounce (Satu kali pantulan)", "note": "Setelah lulus." },
-  { "id": "fujishimakaho", "count": 2, "date": "2025.08.21", "stadium": "ES CON Field Hokkaido", "match": "Nippon Ham vs Orix", "result": "No-bounce (Langsung ke catcher)", "note": "" }
+  { "id": "fujishimakaho", "count": 2, "date": "2025.08.21", "stadium": "ES CON Field Hokkaido", "match": "Nippon Ham vs Orix", "result": "No-bounce (Langsung ke catcher)", "note": "" },
+  { "id": "saitoasuka", "count": 2, "date": "2026.03.27", "stadium": "Mizuho PayPay Dome Fukuoka", "match": "Softbank vs Nippon Ham", "result": "One-bounce (Satu kali pantulan)", "note": "Setelah lulus. Melempar menggunakan gaya tornado (tornado throw)." },
+  { "id": "shibatayuna", "count": 1, "date": "2026.03.29", "stadium": "ZOZO Marine Stadium", "match": "Lotte vs Seibu", "result": "No-bounce (Langsung ke catcher)", "note": "Catcher berdiri untuk menangkap bola." },
+  { "id": "ogawaaya", "count": 2, "date": "2026.03.29", "stadium": "ZOZO Marine Stadium", "match": "Lotte vs Seibu", "result": "Two-bounce (Dua kali pantulan)", "note": "" }
 ]
+

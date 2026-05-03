@@ -5,7 +5,9 @@
 	"availableEpisode": [
 		"211211",
 		"211228",
-		"220108"
+		"220108",
+		"260429_live",
+		"260429_doc"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_mtv.png",
 	"episodes": {
@@ -56,6 +58,40 @@
 			"imageThumbD": "https://ik.imagekit.io/moefang/post/random/220108-making-of-mtv-unplugged-d.jpg",
 			"descEpisodeSynopsis": "Pada 11 Desember 2021, telah ditayangkan “MTV Unplugged Nogizaka46” yang mana sekali lagi menghadirkan Ikuta Erika dengan suaranya yang luar biasa bersama Higuchi Hina, Kubo Shiori, Endo Sakura dan Kaki Haruka. Dalam kesempatan ini, saya mencoba sub untuk bagian Making of-nya.",
 			"nameShow": "MTV Unplugged 2021 Making of"
+		},
+		"260429_live": {
+			"descEpisode": "| MTV Nagi Inoue (Nogizaka46) meets VOCALOID MUSIC Special Live",
+			"descEpsListName": "260429 Live",
+			"descOnAirDate": "29 April 2026",
+			"memberParticipate": "井上和",
+			"linkHardsub": "https://sfl.gl/JjEW",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/260429-mtv-nagi-inoue-meets-vocaloid-music-p0y5I",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260429_mtv_inouenagi_live.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_live.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_live1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_live2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_live3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_live4.jpg",
+			"descEpisodeSynopsis": "Inoue Nagi, member Nogizaka46 gen-5 yang menggemari budaya Vocaloid sejak kecil, hadir dalam program spesial eksklusif MTV untuk menunjukkan sisi senimannya melalui lagu-lagu Vocaloid setelah sebelumnya memenangkan Daisy Bell Award di MTV VMAJ 2025. Program ini menyajikan penampilan studio yang memukau dengan membawakan dua lagu pilihan pribadinya, yakni \"Inochi Bakkari\" yang emosional dan lagu pop elektronik \"Melty Magic\" yang unik.",
+			"filePassword": "NyagiVocaloidDaisuki",
+			"nameShow": "MTV「Nagi Inoue (Nogizaka46) meets VOCALOID MUSIC -Special Live & Document-」"
+		},
+		"260429_doc": {
+			"descEpisode": "| MTV Nagi Inoue (Nogizaka46) meets VOCALOID MUSIC Document",
+			"descEpsListName": "260429 Doc",
+			"descOnAirDate": "29 April 2026",
+			"memberParticipate": "井上和",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/260429-mtv-nagi-inoue-meets-vocaloid-music-p0y5I",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260429_mtv_inouenagi_doc.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_doc.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_doc1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_doc2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_doc3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260429_mtv_inouenagi_doc4.jpg",
+			"descEpisodeSynopsis": "Inoue Nagi, member Nogizaka46 gen-5 yang menggemari budaya Vocaloid sejak kecil, hadir dalam program spesial eksklusif MTV untuk menunjukkan sisi senimannya melalui lagu-lagu Vocaloid setelah sebelumnya memenangkan Daisy Bell Award di MTV VMAJ 2025. Melalui tayangan yang juga menyertakan proses di balik layar serta sesi wawancara, penonton dapat merasakan sinergi antara melodi digital dengan karakteristik vokal Inoue Nagi yang merasa sangat bersyukur karena hobi masa kecilnya dapat terhubung dengan pekerjaan profesional demi menyentuh hati para pendengarnya.",
+			"nameShow": "MTV「Nagi Inoue (Nogizaka46) meets VOCALOID MUSIC -Special Live & Document-」"
 		}
 	}
 }
+
