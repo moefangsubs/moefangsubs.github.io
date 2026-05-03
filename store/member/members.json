@@ -153,24 +153,6 @@
     "hashtagblog": "blog963"
 },
   {
-    "id" : "sato-rika",
-    "nama_jp" : "佐藤璃果",
-    "nama_romaji" : "Sato Rika",
-    "lahir" : "2001.08.09",
-    "asal" : "岩手県",
-    "gol_darah" : "B型",
-    "tinggi" : "160cm",
-    "gen" : "4期",
-    "foto_profil" : "https://ik.imagekit.io/moearchive/calendar/nogi41/satorika.png",
-    "histori" : {"mulai" : 24, "akhir" : 41 },
-    "status" : "aktif",
-    "datekualifikasi" : "19 Agustus 2018",
-    "dateterdaftar" : "16 Februari 2020",
-    "hashtagtalk": "licatalk",
-    "hashtaginst": ["licagram","licamera"],
-    "hashtagblog": "licablog"
-},
-  {
     "id" : "shibata-yuna",
     "nama_jp" : "柴田柚菜",
     "nama_romaji" : "Shibata Yuna",
@@ -1951,6 +1933,27 @@
     "dateGradAge" : "23 tahun",
     "dateGradeLast" : "31 Desember 2025",
     "dateGradActLast" : "Nogizaka46 40thSG Under Live",
+    "gradAlasan" : "自己判断 (Keputusan sendiri)"
+},
+  {
+    "id" : "sato-rika",
+    "nama_jp" : "佐藤璃果",
+    "nama_romaji" : "Sato Rika",
+    "lahir" : "2001.08.09",
+    "asal" : "岩手県",
+    "gol_darah" : "B型",
+    "tinggi" : "160cm",
+    "gen" : "4期",
+    "foto_profil" : "https://ik.imagekit.io/moearchive/calendar/nogi41/satorika.png",
+    "histori" : {"mulai" : 24, "akhir" : 41 },
+    "status" : "lulus",
+    "datekualifikasi" : "19 Agustus 2018",
+    "dateterdaftar" : "16 Februari 2020",
+    "dateGradAnn" : "16 Februari 2026",
+    "dateGradMedia" : "Member Blog",
+    "dateGradAge" : "24 tahun",
+    "dateGradeLast" : "2 Mei 2026",
+    "dateGradActLast" : "Real Meet & Greet (Kyoto)",
     "gradAlasan" : "自己判断 (Keputusan sendiri)"
 },
 

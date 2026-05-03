@@ -1,0 +1,3643 @@
+{
+	"ぐるぐるカーテン": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Di balik tirai kelas yang bergoyang ditiup angin, tersimpan rahasia manis dan ikatan persahabatan gadis-gadis yang mulai mekar dalam kepolosan."
+		}
+	},
+	"左胸の勇気": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Kimi-centric",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Saat bayangan kegagalan menyelimuti, detak jantung di dada kiri menjadi kompas abadi yang menuntunmu bangkit dari keputusasaan."
+		}
+	},
+	"乃木坂の詩": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Life Meaning",
+			"description": "Sebuah lagu kebangsaan bagi para pemimpi yang menapaki tanjakan terjal kehidupan, mengingatkan bahwa setiap peluh dan air mata adalah bukti bahwa kita hidup."
+		}
+	},
+	"会いたかったかもしれない": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Neutral",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengayuh pedal melintasi terik matahari musim panas, kejujuran hati meledak dalam teriakan kerinduan yang tak lagi bisa tertahankan."
+		}
+	},
+	"失いたくないから": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Di bawah langit yang bergetar seperti fatamorgana, ketakutan akan kehilangan membuat langkah cinta terhenti dalam kebisuan yang menyayat hati."
+		}
+	},
+	"白い雲にのって": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Life Meaning",
+			"description": "Sebuah utopia damai yang terlukis di atas awan putih, mengajak kita untuk merebahkan diri dan melepaskan segala pertikaian duniawi."
+		}
+	},
+	"おいでシャンプー": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Aroma sampo yang berhembus perlahan dalam gerak lambat, mengunci debar jantung musim panas dalam sebuah ilusi cinta yang amat manis."
+		}
+	},
+	"心の薬": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Ketika duri kata-kata melukai batin, biarkan air mata mengalir sebagai penawar luka sebelum senyuman kembali merekah menjemput esok."
+		}
+	},
+	"偶然を言い訳にして": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Meminjam setiap kebetulan sebagai keberanian semu, rindu ini menyelinap di keramaian Shibuya mencari celah untuk menyentuh takdirmu."
+		}
+	},
+	"水玉模様": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Seperti bayangan di balik cahaya kenangan bercorak polkadot, air mata gadis belia jatuh meratapi makna perpisahan yang belum ia mengerti."
+		}
+	},
+	"狼に口笛を": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Hopeful",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Kolektif",
+			"theme": "Life Meaning",
+			"description": "Daripada memamerkan taring dalam gulita, bersiul dan tersenyumlah; karena harmoni cinta lebih berkuasa daripada insting untuk bertarung."
+		}
+	},
+	"ハウス！": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Layaknya menjinakkan seekor anjing peliharaan yang terburu-buru, asmara ditahan dalam batas sabar agar ledakan cinta nantinya terasa makin memabukkan."
+		}
+	},
+	"走れ！Bicycle": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengayuh sepeda menembus angin akhir musim panas, penyesalan dan debar cinta berpacu untuk mengejar takdir yang nyaris terlepas dari genggaman."
+		}
+	},
+	"せっかちなかたつむり": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Terperangkap di antara kehati-hatian cangkang dan debar asmara yang bergejolak, sang siput merajut takdir dengan ketergesa-gesaan yang menggemaskan."
+		}
+	},
+	"涙がまだ悲しみだった頃": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Mengenang masa di mana luka hati memar seperti kiamat kecil, air mata mengalir meratapi kepolosan yang hancur sebelum sempat mekar sepenuhnya."
+		}
+	},
+	"人はなぜ走るのか？": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Sebuah perenungan mendalam tentang dorongan primal manusia untuk berlari, bermimpi, dan tertawa menembus batas-batas kemustahilan alam semesta."
+		}
+	},
+	"音が出ないギター": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Memetik senar gitar yang bisu di tengah dinginnya malam, distorsi amarah remaja menjadi satu-satunya melodi yang tersisa dalam keputusasaan."
+		}
+	},
+	"海流の島よ": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Pesan dalam botol yang terapung terombang-ambing di lautan waktu, membawa benih harapan menuju pulau takdir yang masih tersembunyi."
+		}
+	},
+	"制服のマネキン": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "Winter",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Meruntuhkan dinding kedewasaan palsu, seruan pemberontakan ini menantangmu untuk membebaskan emosi dari cangkang seragam yang membelenggu."
+		}
+	},
+	"指望遠鏡": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Kimi-centric",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Melalui celah jemari yang menembus kabut keraguan, setiap petualangan menjadi peta harta karun yang menuntunmu ke masa depan gemilang."
+		}
+	},
+	"やさしさなら間に合ってる": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Winter",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Di bawah bayang pohon musim dingin, kelembutan semu darimu hanya memperdalam luka ego seorang wanita yang meronta meminta akhir yang kejam namun pasti."
+		}
+	},
+	"ここじゃないどこか": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Kimi-centric",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Bagaikan berlindung di ladang kapas yang lembut, lagu ini adalah pelukan hangat yang berjanji membawamu ke tempat di mana kesedihan sirna."
+		}
+	},
+	"春のメロディー": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Hopeful",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menggantikan gigil salju dengan debar jantung yang merona, melodi musim semi mencairkan segala air mata masa lalu menjadi kelopak asmara baru."
+		}
+	},
+	"渋谷ブルース": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Di lorong-lorong sepi Shibuya menjelang fajar, mengalun nyanyian kesepian seorang gadis yang tersesat mencari kebebasan di tengah ekspektasi dunia."
+		}
+	},
+	"君の名は希望": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Melancholy",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Dari sudut pandang anak yang terbiasa transparan, tatapanmu adalah secercah cahaya yang menyadarkan bahwa eksistensi seseorang bisa menjadi takdir bernama harapan."
+		}
+	},
+	"シャキイズム": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Sebuah ultimatum cinta di tengah intrik kecemburuan, menuntut keberanian mutlak dari sang kekasih untuk membuktikan ikatan asmaranya di hadapan dunia."
+		}
+	},
+	"ロマンティックいか焼き": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Di bawah terik mentari pantai, gigitan cumi bakar dan es serut menjadi saksi bisu pesona cinta musim panas yang menyulap hal remeh menjadi sihir romantis."
+		}
+	},
+	"13日の金曜日": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Mengubah mitos hari kutukan menjadi altar romansa, jeritan ketakutan di bioskop gelap hanyalah skenario manis untuk bisa memeluk kekasih lebih erat."
+		}
+	},
+	"でこぴん": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Di balik gelak tawa dan riuhnya hukuman kartu remi, sebuah sentilan nakal di dahi meninggalkan rona merah yang membangunkan benih cinta tersembunyi."
+		}
+	},
+	"サイコキネシスの可能性": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengharapkan keajaiban telepati dari tepi lapangan sekolah, gelombang cinta yang naif dikirimkan dengan segenap jiwa hanya demi membuat wajahnya berpaling padamu."
+		}
+	},
+	"ガールズルール": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Di bawah terik matahari musim panas terakhir sebelum kelulusan, rahasia dan tawa anak perempuan melebur bersama ombak dalam ikatan persahabatan yang abadi."
+		}
+	},
+	"世界で一番 孤独なLover": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menolak simpati dan kata-kata manis yang palsu, lebih baik menelan dinginnya kesendirian daripada terus terluka oleh cinta yang perlahan pudar."
+		}
+	},
+	"コウモリよ": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengepakkan sayap menembus kegelapan malam yang pekat, sang kelelawar mengandalkan gema asmara untuk mengukur jarak menuju hati yang ia puja."
+		}
+	},
+	"扇風機": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Crush",
+			"description": "Sensasi berdebar dari cinta pertama yang membingungkan, dihembuskan perlahan ke arah baling-baling kipas angin di tengah lengangnya siang musim panas."
+		}
+	},
+	"他の星から": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Meskipun bumi diam-diam diinvasi oleh makhluk asing dan hari kiamat mendekat, asalkan bisa menikmati semangkuk anmitsu yang manis, rutinitas ini terasa sebagai utopia yang sempurna."
+		}
+	},
+	"人間という楽器": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Friendship",
+			"description": "Menjadikan tubuh dan detak jantung sebagai instrumen, lagu ini adalah sebuah himne suka cita semesta yang merayakan kebahagiaan sesama manusia."
+		}
+	},
+	"バレッタ": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Terpikat oleh jepit rambut kupu-kupu yang hinggap di helainya, diam-diam sebuah sandiwara asmara dimulai di sudut perpustakaan yang tenang."
+		}
+	},
+	"月の大きさ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Di bawah tatapan rembulan yang benderang, kepedihan mengasah pedang tekad untuk bangkit merengkuh jalan kemandirian seorang pahlawan sejati."
+		}
+	},
+	"私のために　誰かのために": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Rantai kebaikan tak kasat mata yang terus menyambung; saat luka sendiri telah sembuh, giliran kita mengulurkan nada hangat untuk menyembuhkan jiwa orang lain."
+		}
+	},
+	"そんなバカな・・・": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Siapa sangka gadis paling penurut bisa dibuat mabuk kepayang oleh raung mesin motor sang berandal; sebuah ironi cinta yang melanggar segala nalar."
+		}
+	},
+	"初恋の人を今でも": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Melewati kerumunan waktu yang terus bergerak, mata ini masih terkunci pada bayang-bayang cinta pertama yang tak pernah pudar dari ingatan."
+		}
+	},
+	"やさしさとは": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Terpaku melihat buah pir yang menggelinding jatuh, sebuah penyesalan hening merayap menanyakan makna sejati dari kebaikan dan cinta yang terlambat diucapkan."
+		}
+	},
+	"気づいたら片想い": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Pertahanan diri yang dibangun susah payah seketika runtuh; diam-diam racun asmara telah meresap, menyisakan isak tangis dari cinta sepihak yang tak bisa disangkal."
+		}
+	},
+	"ロマンスのスタート": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Bagai aliran listrik yang menyambar tiba-hari, mengejar bus dengan sepeda reyot menjadi saksi bisu kebangkitan debar cinta yang paling membara."
+		}
+	},
+	"吐息のメソッド": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menghela napas perlahan mengikuti irama hitungan rahasia, sebuah metode lembut untuk menenangkan badai asmara yang menggemuruh di dalam dada."
+		}
+	},
+	"孤独兄弟": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Memacu motor usang membelah dinginnya aspal jalanan, ikatan persaudaraan yang retak ditebus dengan pelarian menuju kebebasan yang sepi."
+		}
+	},
+	"生まれたままで": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Berdiri di bawah bayangan jembatan besi yang bergemuruh, teriakan penyesalan dilontarkan merindukan kepolosan sayap putih yang kini ternoda kedewasaan."
+		}
+	},
+	"ダンケシェーン": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Melepas genggaman tangan dengan derai air mata yang tak kunjung usai, merapal kata terima kasih sebagai tanda perpisahan atas takdir cinta yang pernah singgah."
+		}
+	},
+	"夏のFree&Easy": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Terik matahari menyulut keberanian yang terpendam; melempar jauh keraguan demi berlari bebas mengejar cinta di puncak musim panas yang menggelora."
+		}
+	},
+	"何もできずにそばにいる": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Friendship",
+			"description": "Teriris melihat air matanya tumpah, ketidakberdayaan ini ditutupi dengan sekadar menjadi bahu hangat tempatnya menangis hingga luka itu kering."
+		}
+	},
+	"その先の出口": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Menembus labirin keputusasaan dengan langkah pasti, percaya bahwa setiap luka masa muda adalah kunci untuk mendobrak pintu masa depan yang menyilaukan."
+		}
+	},
+	"無口なライオン": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Kimi-centric",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Di balik tatapan tajam dan raungan kejam sang raja hutan, tersimpan rintihan sunyi tentang beban takdir yang harus dipikul sendirian tanpa boleh menangis."
+		}
+	},
+	"ここにいる理由": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Derasnya hujan menghanyutkan sisa asmara yang membusuk; kita berdua membeku dalam ilusi cinta, tahu betul tak ada lagi alasan untuk saling merengkuh."
+		}
+	},
+	"僕が行かなきゃ誰が行くんだ？": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Menolak tunduk pada dogma yang mengurung, langkah pemberani ini menembus batas peta untuk membuktikan sendiri kebenaran dunia yang tak bertepi."
+		}
+	},
+	"何度目の青空か？": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Tetesan air dari keran yang lupa dimatikan menggemakan sesal; menegur jiwa yang lalai untuk segera mendongak dan menghargai birunya langit kehidupan sebelum sirna."
+		}
+	},
+	"遠回りの愛情": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Berjalan memutar melewati senja yang temaram, membiarkan waktu menuntun hati untuk merangkai jawaban cinta yang tak ingin diucapkan dengan tergesa-gesa."
+		}
+	},
+	"転がった鐘を鳴らせ！": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Abaikan gemerlap permata palsu di etalase; hantamkan tinjumu pada lonceng berkarat yang terbuang, biarkan gaungnya meruntuhkan kemunafikan dunia."
+		}
+	},
+	"私、起きる。": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Menampar kesadaran yang terlelap dalam ilusi ekspektasi orang lain; sebuah proklamasi lantang untuk membuka mata dan merangkul kebebasan jati diri yang sesungguhnya."
+		}
+	},
+	"あの日　僕は咄嗟に嘘をついた": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Gema tonggeret September menjadi saksi kebohongan yang terlanjur terucap; demi melindungimu dari luka, aku merelakan kita menatap dua langit yang berbeda selamanya."
+		}
+	},
+	"Tender days": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Di kedai kopi yang tertinggal oleh zaman, cecap pait kopi menyatu dengan obrolan masa depan yang naif, mengukir kenangan manis tentang pemberontakan masa muda."
+		}
+	},
+	"命は美しい": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Serapuh kelopak bunga yang diterjang badai, keindahan sejati kehidupan jutru terpancar dari luka dan keputusasaan yang berhasil dilampaui dengan gagah berani."
+		}
+	},
+	"あらかじめ語られるロマンス": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Hopeful",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Mengarungi keajaiban rasi bintang di kanvas malam; meyakini bahwa jauh sebelum kita bertemu, takdir asmara ini telah tertulis indah dalam konstelasi semesta."
+		}
+	},
+	"立ち直り中": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menapaki kembali jalan kenangan menuju rumahmu, tertatih mengobati luka patah hati seraya perlahan mengikhlaskan bayang senyummu yang masih menempel erat."
+		}
+	},
+	"ごめんね　ずっと・・・": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Di bawah rintik hujan peneduh mentari, ego dilepaskan dengan senyum perpisahan yang tulus, merelakan ia pergi menuju dahan cinta yang baru bersemi."
+		}
+	},
+	"君は僕と会わない方がよかったのかな": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Terpuruk dalam bayang-bayang penyesalan di senja yang dingin; andai waktu dapat diputar mundur, aku rela menjadi orang asing asalkan senyummu tak pernah memudar."
+		}
+	},
+	"ボーダー": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Life Meaning",
+			"description": "Merobek peta lama yang memenjarakan empati manusia; mari kepalkan harapan untuk menerjang garis perbatasan demi membangun dunia tanpa kebencian."
+		}
+	},
+	"太陽ノック": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Kimi-centric",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Ketukan terik matahari musim panas mendobrak cangkang ketakutan; sebuah ajakan beringas untuk melangkah keluar dan bermandikan cahaya takdir yang baru."
+		}
+	},
+	"もう少しの夢": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Meski pijakan mulai goyah dan keraguan mencekik, tangan ini akan terus terulur menggenggam serpihan mimpi yang terlalu berharga untuk dilepaskan."
+		}
+	},
+	"魚たちのLOVE SONG": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Crush",
+			"description": "Jauh di bawah kedapnya perairan sunyi, melodi asmara yang tak tertangkap telinga manusia terus mengalun; merambatkan getaran kerinduan dari satu jiwa ke jiwa yang lain."
+		}
+	},
+	"無表情": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Berlindung di balik topeng sedingin es yang sulit ditembus; sesungguhnya bibir yang enggan tersenyum ini meronta menantangmu untuk segera membongkar pertahanan cintaku."
+		}
+	},
+	"別れ際、もっと好きになる": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Setiap lambaian perpisahan selalu memicu ledakan keputusasaan bermanja; mengubur hasrat kekanak-kanakan untuk menarik ujung kemejamu agar kau tak jadi melangkah pergi."
+		}
+	},
+	"羽根の記憶": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Menatap langit masa depan yang membentang luas; menyadarkan bahwa di balik punggung ini telah lama terlipat sayap transparan yang siap mengepak ke arah kebebasan."
+		}
+	},
+	"制服を脱いでサヨナラを…": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Hopeful",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Merobek perisai kenyamanan sebagai siswi naif; sebuah deklarasi perang menyambut kerasnya badai kedewasaan dengan luka dan air mata sebagai medali kebanggaan."
+		}
+	},
+	"今、話したい誰かがいる": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tembok isolasi yang dibangun sejak kecil akhirnya runtuh perlahan, digantikan oleh kehangatan sepasang mata yang membuat kata-kata kembali menemukan tempatnya untuk pulang."
+		}
+	},
+	"嫉妬の権利": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Tercekik oleh rasa cemburu buta yang tak masuk akal; marah pada diri sendiri karena terus memupuk bayangan asmara padahal kita tak lebih dari sekadar teman biasa."
+		}
+	},
+	"ポピパッパパー": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Friendship",
+			"description": "Menutup pintu dari telinga orang luar, mantra bahasa rahasia dilantunkan tanpa henti demi membangun benteng privasi yang hanya bisa dipecahkan oleh mereka yang mengerti."
+		}
+	},
+	"大人への近道": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Lelah terkungkung dalam kesucian seragam dan rambut hitam pekat; gadis ini memberontak meminta kompas jalan pintas untuk mencecap pahit manisnya romansa kedewasaan."
+		}
+	},
+	"悲しみの忘れ方": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Tersesat dan terguyur badai dalam perjalanan mencari tempat bernaung; kita berpegangan tangan menukar setiap isak tangis masa lalu dengan tekad esok yang lebih cerah."
+		}
+	},
+	"隙間": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "Twilight/Night",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Merindukan jeda sejenak di tengah napas kota yang berpacu liar; menyisakan sebuah celah kosong untuk sekadar menatap senja dan menikmati lambatnya laju kehidupan."
+		}
+	},
+	"ハルジオンが咲く頃": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Peaceful",
+			"season": "Spring",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Netral",
+			"theme": "Sotsugyou",
+			"description": "Seperti bunga putih rapuh yang tetap tegar diterjang hujan, kepergiannya mewariskan senyum matahari abadi yang akan terus mekar di taman sanubari kita selamanya."
+		}
+	},
+	"遥かなるブータン": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Menoleh jauh melintasi hamparan lautan dan gunung terjal; sebuah perjalanan ruhani mencari kepingan kedamaian dan makna kebahagiaan sejati di tanah impian Bhutan."
+		}
+	},
+	"強がる蕾": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Berdiri tegak di peron angin musim semi menyembunyikan derai air mata perpisahan; kelopak rapuh ini bertekad mekar menjadi bunga dewasa di kerasnya kota yang baru."
+		}
+	},
+	"急斜面": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Napas memburu mengayuh pedal menaklukkan tanjakan paling curam; sebuah pembuktian keringat bahwa tak ada rintangan yang lebih sulit daripada membongkar dinding hatimu."
+		}
+	},
+	"釣り堀": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Membiarkan kail mengambang diam di riak kolam pancing pinggir kota; mengistirahatkan hati dari lelahnya cinta sepihak sambil ditemani deru pelan kereta yang melintas."
+		}
+	},
+	"不等号": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Memandangi gelembung soda yang perlahan mati; menyadari bahwa perpisahan ini takkan pernah adil karena sejak awal, volume cintaku jauh mengalahkan rasamu."
+		}
+	},
+	"憂鬱と風船ガム": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Meniup gelembung permen karet hingga meletus menampar wajah; sebuah cara sarkas dan kekanak-kanakan untuk membuang awan kelabu dari benak dan kembali berjalan angkuh."
+		}
+	},
+	"裸足でSummer": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menuruti polah ajaibmu yang tiba-tiba melepas sandal di tengah terik jalanan; aku rela ikut bertelanjang kaki demi mengejar langkah kebebasanmu yang telah menawan hatiku."
+		}
+	},
+	"僕だけの光": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Menghapus peluh demi menyingkirkan bayang-bayang gelap kehampaan; menyulut percikan pijar dari dalam jiwa hingga mampu memancarkan sinar yang tak kalah menyilaukan dari mentari."
+		}
+	},
+	"オフショアガール": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Membelah buih ombak lautan dengan papan selancar bagai putri duyung yang bebas; sosok elegannya dari kejauhan berhasil membajak pandangan dan hati para pemuda pesisir."
+		}
+	},
+	"命の真実　ミュージカル「林檎売りとカメムシ」": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Tirai sandiwara kehidupan menyingkap harmoni aneh antara pangeran tampan dan serangga kecil; membuktikan bahwa kasih sayang menembus batas wujud dan melahirkan keajaiban eksistensi."
+		}
+	},
+	"白米様": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Sebentuk pemujaan fanatik pada semangkuk nasi putih hangat yang mengepul; mengalahkan pesona pemuda tertampan sekalipun demi seteguk karbohidrat penawar gundah."
+		}
+	},
+	"シークレットグラフィティー": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengawasi dari ujung konter diner era lima puluhan; menyimpan tawa kemenangan sebagai kekasih rahasia si pelayan cantik yang jadi primadona incaran geng berandal lokal."
+		}
+	},
+	"行くあてのない僕たち": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Kabur dari sesaknya rutinitas dengan menumpang bus malam yang dingin; menggenggam tangan kekasih menembus fajar buta demi memburu kemerdekaan yang absurd dan tanpa tujuan."
+		}
+	},
+	"サヨナラの意味": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Sotsugyou",
+			"description": "Perpisahan bukanlah akhir dari segalanya, melainkan titik tolak keberanian untuk menyambut esok yang baru. Di tengah deru kereta, selamat tinggal terucap sebagai doa paling tulus untuk masa depan kita."
+		}
+	},
+	"孤独な青空": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Autumn",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Friendship",
+			"description": "Di bawah hamparan langit biru yang menyilaukan, tersimpan ironi persahabatan masa muda yang semu. Wangi bunga osmanthus menjadi saksi bisu atas jiwa-jiwa rapuh yang saling merangkul namun tetap merasa hampa."
+		}
+	},
+	"あの教室": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Debar asmara masa lalu yang tak sempat terucap kini menggema kembali di lorong kelas yang telah kosong. Mengayuh sepeda memutar waktu, menyisakan senyum getir atas manisnya cinta yang tertinggal di masa putih abu-abu."
+		}
+	},
+	"ブランコ": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Hopeful",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Duduk berdampingan di atas ayunan saat daun musim gugur berguguran, keheningan berbicara lebih keras daripada kata-kata. Sebuah cinta yang terpendam perlahan berayun, mencari keberanian untuk menyentuh hatimu."
+		}
+	},
+	"２度目のキスから": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Sebuah peringatan nakal tentang bahayanya ciuman kedua yang bisa mengunci hatimu selamanya. Asmara adalah arena permainan yang penuh jebakan manis, di mana hanya yang paling rasional yang bisa selamat."
+		}
+	},
+	"君に贈る花がない": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Winter",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Napas putih di udara musim dingin mengisyaratkan cinta yang tak mungkin dipersatukan. Mekar bunga yang ingin kuberikan padamu telah lebih dulu dipetik oleh takdir, memaksa kita memendam rasa di balik senyum kepalsuan."
+		}
+	},
+	"ないものねだり": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Lonely",
+			"season": "Winter",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Di keheningan malam musim dingin yang membeku, rasa syukur mekar di antara lembaran novel yang usang. Sebuah penerimaan hening bahwa kebahagiaan sejati bukanlah mengejar yang tiada, melainkan memeluk erat apa yang ada di genggaman."
+		}
+	},
+	"インフルエンサー": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Terjebak dalam gravitasi pesonamu, eksistensiku terus berputar mengelilingimu bagaikan bumi pada mataharinya. Kau adalah pusat semestaku, sebuah anomali cinta yang mengendalikan setiap detak nadiku tanpa bisa kulawan."
+		}
+	},
+	"人生を考えたくなる": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Berdiri di persimpangan usia kedewasaan yang tiba tanpa permisi, malam ini menjadi saksi perenungan sunyi. Menelusuri jejak masa lalu, secercah asa membisikkan janji untuk menjelma menjadi wanita yang lebih memesona di masa depan."
+		}
+	},
+	"意外BREAK": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Peaceful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Melaju di atas jalan tol dengan atap mobil terbuka, angin musim panas menyapu bersih sisa-sisa air mata patah hati. Terkejut akan ketegaran diri sendiri, senyum kebebasan menyingsing menyambut lembaran takdir yang baru."
+		}
+	},
+	"Another Ghost": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Heartbreak",
+			"description": "Di keheningan lewat tengah malam, hantu dari cinta yang telah mati mengetuk pintu hati yang penuh penyesalan. Bayang-bayang kenangan menembus dinding pertahanan, mengutuk jiwa yang gagal mempertahankan apa yang dulu nyata."
+		}
+	},
+	"風船は生きている": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Layaknya balon kempis yang terbuang di pinggir jalan, jiwa kita kadang kehabisan napas menghadapi kejamnya realita. Namun percayalah, selagi ada harapan untuk kembali ditiup, kita akan mengangkasa lebih tinggi dari sebelumnya."
+		}
+	},
+	"三番目の風": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Seishun",
+			"description": "Hembusan angin ketiga datang mengamuk untuk merobek mendung dan membuka cakrawala baru. Dengan tekad membara, para pewaris impian melangkah bersama merintis jalan menembus hutan ketidakpastian menuju cahaya."
+		}
+	},
+	"当たり障りのない話": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Pertemuan tak terduga di kala senja membangkitkan debu cinta lama yang belum sempat mekar. Di balik basa-basi usang yang canggung, sebuah tanya tentang siapa pengisi hatinya tercekik diam di tenggorokan."
+		}
+	},
+	"逃げ水": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Terpesona oleh fatamorgana di aspal musim panas yang mendidih, gairah masa muda memacu langkah untuk terus berlari. Meski mimpi itu memudar saat didekati, keberanian untuk mengejarnya adalah bukti nyata bahwa kita hidup."
+		}
+	},
+	"女は一人じゃ眠れない": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Di bawah sorot lampu derek kota yang tak pernah tidur, seorang wanita bergulat dengan bayang kesepian di ranjangnya yang dingin. Meronta dalam ilusi asmara, jiwa yang rapuh memanjatkan doa egois untuk tak lagi melewati malam sendirian."
+		}
+	},
+	"ひと夏の長さより・・・": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Autumn",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Lebih panjang dari hitungan hari di bulan Agustus, kenangan bersamamu menancap abadi melampaui pergantian musim. Memeluk sisa-sisa kehangatan musim panas dalam balutan kaos tipis, aku menolak menyerah pada embusan angin musim gugur yang mulai mendingin."
+		}
+	},
+	"アンダー": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Mekar dalam kegelapan di balik gemerlap panggung utama, air mata dan keringat tersembunyi merajut akar yang tak kasat mata. Sebuah mahakarya pembuktian bahwa keindahan sejati tak dinilai dari seberapa terang lampu yang menyorotimu."
+		}
+	},
+	"ライブ神": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Panggung ini adalah landasan luncur roket menuju galaksi euforia tanpa beban gravitasi. Di tengah ledakan keringat dan sorak-sorai, keajaiban tercipta membuktikan presensi dewa panggung yang menyatukan setiap jiwa."
+		}
+	},
+	"未来の答え": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Melepaskan ambisi rakus dan kembali pada kepolosan masa kecil untuk menemukan harta karun sesungguhnya. Hidup adalah perjalanan memutar mencari jawaban, di mana kebahagiaan hakiki bersemayam diam menantimu di masa depan."
+		}
+	},
+	"泣いたっていいじゃないか？": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Meruntuhkan gengsi kedewasaan yang menyesakkan dada, air mata diizinkan jatuh membasuh luka demi luka. Terkadang, mengakui kekalahan dan menangis tersedu adalah cara paling manusiawi untuk kembali menemukan pijakan hidup."
+		}
+	},
+	"いつかできるから今日できる": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Energetic",
+			"season": "Spring",
+			"pov_type": "Kimi-centric",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Daripada menanti esok yang masih buram, genggamlah keberanian untuk menaklukkan keraguan hari ini. Bersama fajar yang membelah kabut keputusasaan, setiap napas adalah mantra ajaib bahwa tak ada kemustahilan bagi mereka yang berani melangkah."
+		}
+	},
+	"不眠症": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Terguling gelisah di atas ranjang yang terlalu nyaman, pemberontakan jiwa muda menolak didikte oleh rasa puas yang mematikan. Lebih baik memeluk dinginnya malam dan tetap terjaga daripada terlelap merelakan keliaran ambisi yang perlahan memudar."
+		}
+	},
+	"まあいいか？": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Friendship",
+			"description": "Terjebak dalam intrik konyol perebutan kekasih, ikatan persahabatan sejak taman kanak-kanak diuji oleh ego yang saling tarik menarik. Namun pada akhirnya, cemberut pun luluh oleh tawa, membuktikan bahwa sahabat sejati jauh lebih mahal harganya daripada romansa picisan."
+		}
+	},
+	"失恋お掃除人": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Heartbreak",
+			"description": "Menawarkan jasa bersih-bersih sisa romansa berdebu, air mata dan kenangan pahit dibungkus rapi untuk dibuang ke tong sampah sejarah. Saatnya memoles kembali hati yang usang hingga berkilau menawan, menyambut antrean cinta baru yang telah menunggu."
+		}
+	},
+	"My rule": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Membiarkan tubuh kuyup diguyur badai tanpa perisai payung, keras kepala ini adalah wujud kedaulatan jiwa yang menolak kompromi. Menembus derasnya hujan, sebuah sumpah sunyi diikrarkan untuk pantang berlindung pada kemunafikan dunia."
+		}
+	},
+	"僕の衝動": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Darah muda mendidih menerobos pekatnya malam, mengabaikan segala logika demi meneriakkan cinta yang tak tertahankan. Meski bogem mentah bersarang di wajah, derita ini adalah medali kebanggaan atas sebuah impuls asmara yang paling brutal dan jujur."
+		}
+	},
+	"新しい花粉　～ミュージカル「見知らぬ世界」より～": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "Spring",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Percakapan usang di sebuah kedai tua meniupkan serbuk sari harapan untuk mengintip rahasia di balik gunung yang mengurung. Menyadari bahwa kejemuan yang kita rutuki setiap hari, bisa jadi adalah surga impian bagi para musafir yang kelelahan mencari makna."
+		}
+	},
+	"シンクロニシティ": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Di saat air mata mengalir tanpa alasan di tengah bisingnya lampu pejalan kaki, ketahuilah bahwa alam semesta sedang menyinkronkan duka umat manusia. Jalinan empati yang tak kasat mata menyatukan 7,6 miliar rintihan, menegaskan bahwa kita tak pernah benar-benar memikul lara sendirian."
+		}
+	},
+	"Against": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Sotsugyou",
+			"description": "Menantang kejamnya angin sakal yang merobek kepompong kenyamanan, kita dipaksa bermutasi membunuh versi lampau diri kita sendiri. Tak ada lagi kata suaka; ini adalah proklamasi berdarah untuk mendaki puncak baru walau harus sendirian di garis depan."
+		}
+	},
+	"雲になればいい": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Kala mesin kehidupan mogok dan semua tak berjalan sesuai rencana, lepaskan kendali dan biarkan jiwa melayang ringan bak gumpalan awan. Tak perlu meronta melawan arus, karena berserah pada semilir angin adalah obat terbaik untuk hati yang lelah."
+		}
+	},
+	"新しい世界": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menyingkap tirai dusta untuk mengakui kebenaran mengejutkan bahwa hati ini telah tertambat pada sosok pria lain. Permintaan maaf berbaur dengan isak tangis, membebaskan dua jiwa untuk menyongsong dunia asmara baru yang tak lagi terselubung kepalsuan."
+		}
+	},
+	"スカウトマン": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Berjalan gontai di remang Kabukicho, tawaran dangkal seorang pemandu bakat mengoyak kekosongan eksistensial seorang gadis. Dengan senyum sinis yang mengaburkan keputusasaan, ia melelang harga diri demi secercah ilusi bahwa dirinya masih dibutuhkan oleh dunia."
+		}
+	},
+	"トキトキメキメキ": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengintip dari balik riuhnya kerja bakti membersihkan kolam renang yang mengering, debar asmara musim semi melonjak tak terkendali. Menyimpan letupan kembang api cinta yang siap diledakkan ke arahmu bahkan sebelum musim panas benar-benar tiba."
+		}
+	},
+	"言霊砲": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menembakkan mantra asmara ke langit dengan penuh ambisi, merajut skenario manis agar takdir seolah tak sengaja mempertemukan kita. Memaksa malaikat turun tangan menjadi mak comblang demi menyulap cinta sepihak ini menjadi mahakarya romansa yang sempurna."
+		}
+	},
+	"ジコチューで行こう！": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Teriakkan persetan pada ekspektasi orang lain dan menari liar di bawah terik matahari pesisir. Hidup terlalu singkat untuk sekadar mengekor; jadilah egois, rengkuh kebebasanmu, dan tuliskan namamu sendiri di atas kanvas musim panas yang biru."
+		}
+	},
+	"空扉": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Mendongak meraba pintu rahasia yang tersembunyi di balik gumpalan awan biru; mengundang jiwa muda untuk melompat keluar dari belenggu kesedihan. Dengan mengepakkan keberanian, anak tangga ilusi terbentang menjanjikan petualangan di dunia baru yang tak tersentuh nalar."
+		}
+	},
+	"三角の空き地": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menatap tanah lapang segitiga yang kini disesaki rumput liar, kenangan ciuman perpisahan kita dulu kembali menyerbak. Kelalaian merawat bunga asmara membuahkan layu yang absolut, menyisakan sesal pahit atas romansa yang mati perlahan di bawah terik keangkuhan."
+		}
+	},
+	"自分じゃない感じ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Muak pada pantulan diri yang malas dan hampa, sebuah sentakan listrik imajiner memaksa tubuh ini bangkit dari tumpukan camilan murahan. Diiringi ritme degup jantung yang meledak, saatnya menari gila-gilaan menelanjangi ego demi merebut kembali hasrat hidup yang sempat hilang."
+		}
+	},
+	"心のモノローグ": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Ketika leksikon bahasa tak lagi sanggup memikul beratnya kepedihan, sebuah pelukan erat menjadi satu-satunya dialog yang tersisa. Dalam keheningan yang mengoyak dada, dentum nadi kita saling berbisik menyanyikan monolog rindu yang tak terselamatkan oleh kata-kata."
+		}
+	},
+	"地球が丸いなら": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Heartbreak",
+			"description": "Membiarkan buih ombak menghapus jejak kaki kita yang pernah bersisian, memupuk harap pada hukum alam semesta yang menakjubkan. Bila bumi ini benar-benar bulat, maka perpisahan ini hanyalah awalan dari pengembaraan panjang yang kelak akan mempertemukan kita kembali di titik yang sama."
+		}
+	},
+	"あんなに好きだったのに…": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Merobohkan pedok ekspektasi gadis teladan yang membosankan, lemparan buku teks ke arah guru meledakkan pesonamu yang brutal dan tak terduga. Sebuah anomali asmara yang mendebarkan, membuktikan bahwa kenakalanmu justru menjadi daya tarik mematikan yang mengunci hatiku."
+		}
+	},
+	"帰り道は遠回りしたくなる": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Sotsugyou",
+			"description": "Memilih jalan memutar di bawah rona senja, sengaja mengulur waktu untuk meresapi detik-detik perpisahan yang tak terhindarkan. Meski melangkah menjauh dari kenyamanan sarang masa lalu menggetarkan nyali, embusan angin takdir terus mendorong punggung kita menuju hari esok yang menantang."
+		}
+	},
+	"キャラバンは眠らない": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Mengarungi kejamnya gurun kehidupan tanpa peta kompas, rombongan pengembara muda ini menolak tunduk pada gulita. Di bawah naungan bintang, jejak pionir diinjak mantap demi membakar api revolusi dan mengukir legenda baru yang melampaui para pendahulu."
+		}
+	},
+	"つづく": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Sotsugyou",
+			"description": "Menahan bendungan air mata agar tak pecah, kata 'bersambung' menjadi mantra penguat untuk melangkah di jalan yang kini terbelah dua. Perpisahan raga bukanlah garis finis, melainkan jeda manis menuju titik temu berikutnya di altar impian yang pernah kita janjikan."
+		}
+	},
+	"日常": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Terjepit dalam kereta komuter yang sesak layaknya peti mati pembawa bangkai mimpi; sebuah jeritan perlawanan meledak untuk mendobrak rutinitas yang mencekik. Melompat turun dari gerbong kebosanan, ini adalah deklarasi perang menuntut kembali kebebasan di atas rel kehidupan."
+		}
+	},
+	"告白の順番": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "Winter",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menguji kesabaran dalam perang gengsi dua sahabat karib yang enggan mengibarkan bendera putih lebih dulu. Berkat keajaiban bus yang terhambat salju malam Natal, kebisuan itu meleleh, menyatukan napas dingin dalam sebuah harmoni pengakuan cinta yang serempak."
+		}
+	},
+	"ショパンの嘘つき": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menyekap diri dalam sangkar melodi hitam putih, jemari ini dengan lincah menari memanipulasi emosi walau nyali tak mampu merangkai sejumput sapaan. Alunan syahdu Chopin dituding sebagai kambing hitam atas rintihan asmara yang tercekat bisu di pangkal tenggorokan."
+		}
+	},
+	"知りたいこと": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Berkedok rasa penasaran yang polos, benih-benih afeksi diam-diam berakar menembus celah percakapan yang biasa. Hasrat untuk membedah isi kepalamu perlahan bermetamorfosis menjadi sebuah teka-teki asmara mendebarkan yang tak lagi bisa disangkal logikaku."
+		}
+	},
+	"Sing Out!": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Life Meaning",
+			"description": "Sebuah paduan suara akbar yang menggema membelah batas benua, menyalurkan energi suka cita untuk menyeka air mata mereka yang menderita di sudut bumi. Dengan hentakan kaki dan tepukan tangan, kepedihan dileburkan dalam perayaan kebahagiaan universal."
+		}
+	},
+	"滑走路": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Melanggar segala prosedur penerbangan asmara yang kaku, bibir ini menukik tajam mencuri kecupan tanpa isyarat persiapan. Persetan dengan landasan pacu keraguan, cinta yang liar siap mengudara membawa kita melesat membelah langit gairah malam."
+		}
+	},
+	"のような存在": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Meratapi sebongkah es yang meleleh sepi di dalam gelas, eksistensiku terasa setransparan bulir air yang tak mampu menyentuh relung hatimu. Cinta ini menggenang layaknya ilusi buram; begitu nyata kurasakan, namun tak pernah ada wujudnya di matamu."
+		}
+	},
+	"Am I Loving?": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Terjangkit wabah asmara akut yang membuat napas memburu dan suhu tubuh memanas, aku rela dikarantina dalam pesonamu. Virus rindumu sukses melumpuhkan logikaku, sebuah malapraktik cinta paling mendebarkan yang takkan pernah bisa disembuhkan oleh resep dokter manapun."
+		}
+	},
+	"平行線": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengayuh pedal memeras keringat di sepanjang pagar pembatas rel kereta, memburu senyummu yang melesat meninggalkanku di stasiun keputusasaan. Cinta ini ditakdirkan membeku bak dua rel besi pararel; berdampingan menatap arah yang sama, namun takkan pernah saling bersentuhan."
+		}
+	},
+	"４番目の光": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Joyful",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Membalut tubuh mungil dengan seragam impian yang sarat sejarah, pancaran mata pewaris baru siap menerjang keraguan. Sebagai fajar keempat yang menyingsing di atas bukit, kami mengepakkan sayap murni demi melukiskan warna cahaya baru yang kelak akan mengubah dunia."
+		}
+	},
+	"曖昧": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Lonely",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Membiarkan telapak kaki telanjang bersentuhan langsung dengan denyut nadi bumi, mencoba menakar bobot eksistensi diri di tengah rimba kefanaan. Segala ingatan akan kabur terbawa angin, namun pijakan pijakan ini adalah prasasti kecil bahwa kita pernah bernapas menantang kejamnya realita."
+		}
+	},
+	"夜明けまで強がらなくてもいい": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Meronta membasuh keluh kesah di bawah kucuran keran penyesalan malam; tak perlu berpura-pura tegar saat jiwa tercabik. Tumpahkan tangismu di pelukan gulita, karena bersama bilah-bilah sinar fajar esok, serpihan keberanian itu akan menyusun utuh dirimu kembali."
+		}
+	},
+	"僕のこと、知ってる？": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Terdampar dengan ingatan yang terkoyak di tengah kerumunan wajah-wajah asing, isak tangis menderas menatap langit yang terlalu cerah. Sebuah pengembaraan pilu memunguti remah-remah jati diri; sebuah tanya memilukan kepada dunia: \"Pernahkah kau mengenalku sebelum aku melupakan diriku sendiri?\""
+		}
+	},
+	"路面電車の街": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Peaceful",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Diiringi derak laju trem yang membelah kota kelahiran, laci memori berderit membuka serpihan bayangmu di tiap sudut jalan sore. Sambutan hangat lembayung senja membungkus ego pemuda yang pulang dengan tangan hampa, membisikkan bahwa masa lalu tak pernah benar-benar mati di sini."
+		}
+	},
+	"図書室の君へ": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Sembunyi-sembunyi mencuri pandang dari balik deretan rak buku, rasa penasaran itu menebal mengalahkan tebalnya novel Hemingway. Menyelami karakter yang sangat berlawanan, seberkas sinar senja mengunci tekad sunyiku untuk menyingkap lembar demi lembar misteri tentang dirimu."
+		}
+	},
+	"時々 思い出してください": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Tersenyum menatap bibit tunas yang baru bersemi, saatnya pilar lama menyingkir untuk mengestafetkan pusaka kejayaan. Membawa segudang keringat dan tawa dalam koper perjalanan yang baru, sebait permohonan lembut dipanjatkan agar gema masa muda kita tak tenggelam digerus waktu."
+		}
+	},
+	"～Do my best～じゃ意味はない": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Menghapus paksa frasa \"aku telah melakukan yang terbaik\" dari kamus mental pecundang yang nyaman berlindung di balik alasan. Ini adalah letupan magma tekad untuk mendobrak batas wajar, karena dunia tak butuh proses belaka, melainkan hasil akhir yang membungkam para penjahat mimpi."
+		}
+	},
+	"僕の思い込み": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menjamu teduh matamu dalam balutan rutinitas kopi dan stasiun yang tak istimewa, asupan energi yang kusedot darimu mungkin hanyalah sekadar ilusi buatan otakku. Namun biarlah sugesti romantis ini terus berlanjut, sebab hanya dari senyummu sajalah, penat hidupku menguap tak bersisa."
+		}
+	},
+	"しあわせの保護色": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Mengejar fatamorgana utopia hingga nyaris buta, tanpa sadar kita menginjak harta karun yang bernaung tenang di bawah kaki. Kebahagiaan sejati rupanya memakai jubah kamuflase yang sangat sempurna; ia tak menjerit minta ditemukan, melainkan menunggu dekap erat penuh rasa syukurmu."
+		}
+	},
+	"サヨナラ Stay with me": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Tersayat bilah perpisahan yang mendadak jatuh; dengan isak parau aku merendahkan ego menahan punggungmu agar tak sirna ditelan kabut. Meski sadar genggaman asmara telah melonggar, biarkan aku mengemis sekeping keabadian dari sisa kenangan kita yang hampir mati."
+		}
+	},
+	"じゃあね。": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Menyeka genangan embun di sudut mata sembari memaksakan lengkung senyum; ini adalah deklarasi kelulusan dari kehangatan yang memanjakan. Melangkah berani menerjang gerimis, aku mengepak sejuta \"terima kasih\" untuk memoles lukisan mentari baru di ujung takdirku."
+		}
+	},
+	"アナスターシャ": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Winter",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Berdiri mematung menatap kepak camar yang terbang menyeberangi laut benua; mengutuk kekerdilan nyali masa mudaku yang tak sanggup memikul mahkota asmaramu. Sebuah elegi penyesalan melintasi batas negara, meratapi janji kosong yang menggoreskan perih abadi bernama Anastasia."
+		}
+	},
+	"毎日がBrand new day": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengintil bayang manis gaun musim panasmu dari radius tiga meter; kegagalan menyapamu hari ini bukan akhir petaka. Yakinlah bahwa kanvas esok pagi akan selalu terlahir suci dan baru, di mana aku siap menjadi pijar cahaya yang menuntun setiap langkah gontaimu."
+		}
+	},
+	"I see...": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Melompat ceria meniti genangan air dengan langkah ringan; cangkang arogansi jantan akhirnya lebur di bawah hangat pesonamu. Berdamai dengan ego sendiri, aku menyerah kalah tanpa syarat, meneriakkan kapitulasi paling membahagiakan: \"Persetan dengan segalanya, aku menyukaimu!\""
+		}
+	},
+	"ファンタスティック３色パン": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Friendship",
+			"description": "Melepaskan tempurung kesunyian yang selama ini membelenggu jiwa pemalu; keajaiban mempertemukan tiga kutub berbeda yang melengkapi satu sama lain. Bak roti tigan rasa yang manis berpadu, persahabatan canggung ini dilebur menjadi komposisi spektakuler yang menumpas sepi selamanya."
+		}
+	},
+	"僕は僕を好きになる": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Berdamai dengan bayangan kelam di dalam cermin, lagu ini adalah langkah berani untuk menghancurkan tembok kebencian pada diri sendiri. Sebuah mantra pembebasan untuk merangkul kelemahan dan mulai mencintai diri apa adanya."
+		}
+	},
+	"明日がある理由": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Kimi-centric",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Bagaikan melempar gumpalan kertas ke keranjang sampah, masa muda adalah ruang tak terbatas untuk melakukan kesalahan. Kegagalan hari ini hanyalah alasan mengapa esok hari diciptakan untuk kita kembali mencoba."
+		}
+	},
+	"Wilderness world": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Terdampar di padang pasir kehidupan yang tandus, insting bertahan hidup menyala menantang keputusasaan. Menjadikan mimpi sebagai satu-satunya senjata untuk menaklukkan kerasnya takdir yang tak berbelas kasih."
+		}
+	},
+	"口ほどにもないKISS": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Rebellious",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Senyum meremehkan membalas bualan asmara yang tak seindah kenyataan, namun anehnya kecupan canggung itu malah membekas. Sebuah ironi cinta manis di mana ketidaksempurnaan justru mengunci hati lebih erat."
+		}
+	},
+	"冷たい水の中": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "Winter",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Mencelupkan tangan ke dalam air sedingin es, sensasi beku itu menyadarkan detak nadi kehidupan yang hampir tertidur. Sebuah tekad untuk meninggalkan zona nyaman demi menyambut masa depan dengan jiwa yang baru terjaga."
+		}
+	},
+	"Out of the blue": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Bagaikan keajaiban yang jatuh dari langit, pertemuan yang tak terduga seketika meruntuhkan topeng kebohongan yang selama ini kukenakan. Cinta datang tanpa permisi, melebarkan sayap kebebasan untuk menyambut versi diriku yang paling jujur."
+		}
+	},
+	"友情ピアス": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Friendship",
+			"description": "Sepasang anting antik yang terbagi dua menjadi saksi bisu ikatan persahabatan yang takkan pernah lekang oleh waktu. Lebih erat dari asmara, kehangatan ini adalah harta karun tak ternilai yang saling melengkapi."
+		}
+	},
+	"ごめんねFingers crossed": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menyilangkan jari di balik kaca jendela kereta yang melaju, doa tulus diucap untuk kebahagiaannya meski hati ini masih teriris rindu. Sebuah perpisahan ironis di mana cinta masih menyala, namun tak lagi menemukan jalan untuk kembali pulang."
+		}
+	},
+	"全部 夢のまま": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Di bawah langit malam yang muram, penyesalan berbisik meminta waktu diputar mundur agar cinta ini kembali menjadi ilusi. Mengharapkan perpisahan hanyalah sekadar mimpi buruk, demi menyelamatkan memori indah yang perlahan hancur karena ego."
+		}
+	},
+	"大人たちには指示されない": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Merobek kertas nilai yang mendikte harga diri, lembaran itu diterbangkan bagai hujan salju pemberontakan di atap sekolah. Sebuah deklarasi kemerdekaan masa muda yang menolak tunduk pada jalur rel usang ciptaan para orang dewasa."
+		}
+	},
+	"ざぶんざざぶん": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Deru buih ombak yang menabrak pemecah gelombang menenggelamkan gundah di dada gadis yang tengah dilanda buaian asmara. Menyusuri tepi pantai dengan telanjang kaki, membiarkan rahasia hati terombang-ambing di antara buih rindu yang tak berkesudahan."
+		}
+	},
+	"さ～ゆ～Ready?": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Menyeka air mata dengan tawa paling lebar, perpisahan ini dirayakan sebagai pesta pembuka menuju babak baru yang mendebarkan. Sebuah lambaian tangan tanpa penyesalan, mengukir senyum abadi untuk dikenang sebagai harta karun kehidupan."
+		}
+	},
+	"錆びたコンパス": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Menggenggam kompas berkarat yang masih menunjuk pada impian, langkah berani ini menolak mati membusuk di zona nyaman. Biarlah raga ini tumbang di tengah padang antah berantah, asalkan jiwa ini sempat mengecap kebebasan sejati seorang pengembara."
+		}
+	},
+	"猫舌カモミールティー": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Serupa teh kamomil panas yang ditiup perlahan, kenangan masa lalu menguap membawa aroma rindu yang menenangkan. Belajar dari asmara yang tergesa, secangkir nostalgia ini dinikmati hening meratapi cinta yang kini telah mendingin."
+		}
+	},
+	"君に叱られた": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tersentak oleh teguran lembut di tengah bisingnya gerbong kereta, ego dan keangkuhan runtuh tak bersisa. Diomeli olehmu justru memercikkan kehangatan, menyadarkanku betapa keberadaanmu adalah kompas yang melengkapi kepingan teka-teki hidupku."
+		}
+	},
+	"やさしいだけなら": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Terperangkap dalam ilusi kebaikan semu, senyummu yang tak menyiratkan cinta hanyalah pisau beracun bagi hati yang rapuh. Bila kelembutan itu tak bertujuan untuk kumiliki, tinggalkan aku menelan sunyi malam ini agar luka ini tak semakin berdarah."
+		}
+	},
+	"マシンガンレイン": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "Twilight/Night",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Diberondong cercaan moral bagai hujan peluru yang mengoyak aspal, dua jiwa yang dikutuk dunia menolak untuk melepaskan pelukan. Biarlah badai senapan ini melubangi raga, karena cinta terlarang ini akan terus menyala hingga ke dasar neraka."
+		}
+	},
+	"もしも心が透明なら": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Crush",
+			"description": "Berandai-andai bila dinding hati terbuat dari kaca yang tembus pandang, mungkinkah duka dan dusta akan musnah tak berbekas? Sebuah renungan jujur untuk menanggalkan topeng kebohongan dan membiarkan dunia melihat asmara yang tak lagi perlu disembunyikan."
+		}
+	},
+	"私の色": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Mencari rona sejati di tengah palet semesta yang benderang, jiwa ini menolak lebur menjadi kanvas yang seragam. Sebuah pencarian makna diri untuk memekarkan bunga harapan yang belum pernah ada, mewarnai dunia dengan keunikanku sendiri."
+		}
+	},
+	"泥だらけ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Menepis segala kepalsuan dunia yang elok, menceburkan diri ke dalam lumpur nestapa adalah pembuktian jiwa yang menolak takluk. Di saat raga ini kotor tercabik, justru di situlah kemurnian tekad memancarkan kilau perlawanan paling garang."
+		}
+	},
+	"他人のそら似": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tersihir oleh dejavu pada wajah asing di antrean kasir, bukan kenangan masa lalu yang terbesit, melainkan bisikan takdir masa depan. Sebuah pertemuan magis yang mengawali benang merah asmara abadi dari kebetulan yang paling sederhana."
+		}
+	},
+	"Actually...": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Menampar kepolosan dengan realita yang sinis, menelanjangi kemunafikan idealisme yang membutakan mata. Sebuah seruan tajam untuk berhenti bersembunyi di balik cangkang ketakutan dan berani menatap dunia dengan segala keburukan dan pesonanya."
+		}
+	},
+	"深読み": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Mendekam di sudut ruang dengan tatapan dingin, menolak dihakimi oleh asumsi berlebihan dari tatapan asing. Di balik perisai acuh tak acuh ini, bersembunyi hati rapuh yang diam-diam mendamba sedikit kelembutan tanpa perlu banyak ditanya."
+		}
+	},
+	"価値あるもの": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Merelakan asmara tanpa mengharap balasan, membuktikan bahwa senyum bahagia darinya adalah piala tertinggi yang bisa diraih. Berdiri dalam bayang-bayang sebagai penjaga abadi, menemukan keagungan sejati dari ketulusan cinta sepihak yang tak lekang oleh ego."
+		}
+	},
+	"忘れないといいな": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Mekar perlahan dalam keheningan sudut ruang, merajut untaian memori manis yang berharap takkan pudar diterjang waktu. Sebuah permohonan syahdu agar jejak tawa dan kehangatan masa muda kita tetap berlabuh di dermaga ingatan."
+		}
+	},
+	"届かなくたって…": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menengadah menatap rembulan separuh yang kesepian, meratapi cinta yang kandas karena ketidakmampuan membaca sudut pandang hati yang lain. Meski jarak membentang tak tertembus, pendar rindu ini akan terus memancarkan cahayanya di gelapnya langit penyesalan."
+		}
+	},
+	"絶望の一秒前": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Berada di ambang jurang keputusasaan kala bayang hitam nyaris menelan cahaya asa yang rapuh. Meronta mencari secercah identitas di tengah semesta yang tak peduli, memaksa diri menatap cermin untuk merebut kembali kendali atas mimpi yang hilang."
+		}
+	},
+	"好きになってみた": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Mengabaikan logika yang mengekang, meluncur bebas di landasan pacu asmara demi menyambut debar yang tak terbendung. Menyambut sensasi jatuh cinta dengan tangan terbuka, mendamba alur romansa mendebarkan yang tak lagi bisa dirahasiakan semesta."
+		}
+	},
+	"好きというのはロックだぜ！": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Serupa distorsi gitar yang memekakkan telinga, kehadiran cintamu mengguncang apatisme dan kebosanan yang membelenggu hidupku. Mendadak dunia disulap menjadi panggung konser yang gemerlap, meledakkan gairah masa muda dengan ritme asmara yang paling brutal dan indah."
+		}
+	},
+	"Under's Love": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Terjebak dalam bayang-bayang panggung utama, memendam rindu yang membara pada sosok yang hanya menatap sang bintang. Sebuah elegi cinta pilu yang bersembunyi di balik kegelapan, merelakan perih demi menjaga ikatan rahasia yang takkan pernah tersorot lampu."
+		}
+	},
+	"僕が手を叩く方へ": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Friendship",
+			"description": "Di tengah kebutaan malam yang menelan harapan, tepuk tanganku akan menjadi mercusuar yang memandu langkahmu yang goyah. Jangan pernah merasa sendiri, karena denting suaraku akan selalu menggema membawamu pulang dari pekatnya keputusasaan."
+		}
+	},
+	"ジャンピングジョーカーフラッシュ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Persetan dengan aturan usang para orang dewasa, lemparkan dadu kegilaan dan menari liar di bawah hujan adrenalin masa muda. Sebuah himne pemberontakan yang membakar nalar, mengajak semua jiwa untuk meledakkan tawa dan kebebasan tanpa sisa penyesalan."
+		}
+	},
+	"バンドエイド剥がすような別れ方": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Layaknya menarik plester pelindung luka secara perlahan, perpisahan musim panas yang memudar ini meninggalkan pedih yang berkepanjangan. Aroma pantai berangsur hilang ditiup angin September, menyisakan sesal mengapa kita tak berani menyudahi asmara ini dengan sekali sayatan tajam."
+		}
+	},
+	"パッションフルーツの食べ方": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Rebellious",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Berkutat dalam rasa penasaran akan eksotisnya buah markisa, menggoda nyali kepolosan untuk menyeberang menuju kedewasaan. Sebuah metafora manis tentang hasrat mencicipi buah terlarang, memecahkan cangkang kepura-puraan demi mencecap pahit manisnya realita dunia."
+		}
+	},
+	"夢を見る筋肉": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Setiap tetes keringat kegagalan dan perihnya jatuh bukanlah akhir, melainkan pahatan otot-otot ketabahan di dalam dada. Teruslah berlari menantang angin, karena rintangan hanyalah alat latihan yang akan menebalkan daya tahan kita untuk merengkuh mimpi."
+		}
+	},
+	"ここにはないもの": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Sotsugyou",
+			"description": "Menanggalkan zirah kepalsuan di ujung malam, bersiap melangkah menjauhi sangkar kenyamanan untuk mengejar cakrawala yang belum terjamah. Sebuah salam perpisahan yang dibalut tangis kebebasan, mendamba secercah harapan abadi yang hanya bisa ditemukan di luar sana."
+		}
+	},
+	"悪い成分": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Sadar akan racun berbisa dari asmara yang kelam, namun dahaga akan sensasi itu justru membuatku menenggak koktail penderitaan tanpa ampun. Terdampar dalam labirin rindu yang mematikan, menolak diselamatkan meski jiwa perlahan hancur ke dasar jurang."
+		}
+	},
+	"これから": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Menatap awan yang berarak tenang, keraguan masa lalu dilepas mengikuti embusan angin perubahan yang tak terbendung. Menerima takdir dengan senyum damai, mengayunkan langkah pertama menyusuri hamparan jalan menuju hari esok yang menantinya."
+		}
+	},
+	"銭湯ラプソディー": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Merendam segala nestapa dan kelelahan duniawi di pusaran air hangat yang mengepul menenangkan. Bagaikan surga kecil di sudut kota, kepenatan larut bersama buih sabun, menyisakan napas lega yang merestart jiwa untuk kembali bertarung esok hari."
+		}
+	},
+	"アトノマツリ": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Terjebak dalam pusaran rute kereta Yamanote yang berputar tanpa henti, menyesali kebisuan ego yang menyia-nyiakan perpisahan. Sebuah ironi keterlambatan di mana debar asmara yang tak terucap kini hanya menjadi festival penyesalan yang menggema di peron sepi."
+		}
+	},
+	"甘いエビデンス": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Kecupan panas menjadi saksi otentik yang membantah segala reputasi buruk sang pemikat hati yang liar. Mengunci bibirnya sebagai proklamasi kepemilikan mutlak, menegaskan bahwa serpihan bukti romansa manis ini takkan kuberikan pada siapa pun."
+		}
+	},
+	"17分間": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tujuh belas menit durasi ajaib di dalam bus pagi, merangkai sejuta debar diam-diam saat menatap punggung sang malaikat berseragam abu-abu. Waktu yang berdetak seakan menjadi altar rindu paling mendebarkan, memupuk nyali untuk mengubah sapaan bisu menjadi pengakuan nyata."
+		}
+	},
+	"人は夢を二度見る": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Bagai menarik selimut untuk menyambung mimpi indah yang terputus fajar, manusia tak pernah benar-benar kehilangan sayap asanya. Usia bukanlah akhir, melainkan babak kedua untuk merajut kembali harapan masa kecil yang sempat terbuang di kerasnya realita."
+		}
+	},
+	"僕たちのサヨナラ": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "Twilight/Night",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Sotsugyou",
+			"description": "Menyaksikan surya jingga yang tenggelam perlahan, kepergian ini tak menyisakan air mata melainkan senyum kebanggaan atas jejak yang tertinggal. Bintang yang menggantikan terang adalah janji tak terucap, bahwa relung perpisahan ini akan mempertemukan kita kembali di puncak impian."
+		}
+	},
+	"心にもないこと": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Terlilit benang kusut pertahanan diri, bibir ini malah melontarkan bisa kepalsuan untuk menjauhkan sosok yang diam-diam didamba. Sebuah tragedi batin di mana ego membungkam kejujuran, merelakan penyesalan pahit demi menutupi rasa yang terlalu dalam untuk diakui."
+		}
+	},
+	"黄昏はいつも": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Tersipu di bawah semburat langit senja yang merona, debar halus asmara diam-diam merasuk kala kita berjalan bersisian. Cahaya sang rembulan menjadi saksi bisu bagi hati yang perlahan tersadar, bahwa bahagia ternyata semata-mata soal mengukir waktu bersamanya."
+		}
+	},
+	"Never say never": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Meski tersungkur menelan kekalahan ratusan juta kali, riuh sorai dukunganku akan terus menjadi angin di sayap patahmu. Permainan belumlah usai; kepalkan tangan dan hapus air matamu, karena di tengah puing keputusasaan itulah keajaiban sang juara sejati dilahirkan."
+		}
+	},
+	"さざ波は戻らない": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Membiarkan punggungmu lenyap ditelan hiruk-pikuk Harajuku, ombak penyesalan kini menghantam pesisir hati yang terlambat sadar. Terkoyak oleh kebisuan yang egois, riak asmara yang telah pergi takkan pernah sudi kembali untuk menyeka air mataku di penghujung musim panas."
+		}
+	},
+	"涙の滑り台": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Duduk sepi di puncak papan seluncur taman saat fajar menyingsing, air mata cinta sepihak meluncur deras meratapi nyali yang tak pernah ada. Mengadahkan tangan pada bintang, berharap mukjizat bisa menghapus sesak di dada akan pesonanya yang mustahil kuraih."
+		}
+	},
+	"おひとりさま天国": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Mematahkan stigma miring para lajang merana, surga kedamaian sejati justru ditemukan dalam kebebasan mutlak tanpa belenggu asmara. Menari ceria di atas puing-puing patah hati masa lalu, merayakan takdir otonom di mana akulah satu-satunya ratu penguasa kebahagiaanku."
+		}
+	},
+	"踏んでしまった": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Diiringi gelegar guruh kemarahan langit, sesal terlambat menyergap kala telapak kaki ini tanpa sadar meremukkan harga diri dan cinta tulus seseorang. Tak ada lagi jalan putar balik; berlari dalam gulita adalah satu-satunya pelarian dari kutukan dosa yang terlanjur tertoreh abadi."
+		}
+	},
+	"誰かの肩": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Friendship",
+			"description": "Meruntuhkan benteng keangkuhan rapuh yang menopang kebohongan, merelakan duka bersandar sejenak pada bahu seorang kawan. Sebuah elegi hangat yang mengingatkan bahwa manusia tak diciptakan untuk memikul lara sendirian; kita bersisian untuk saling meminjamkan sisa-sisa ketegaran."
+		}
+	},
+	"マグカップとシンク": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Berdiri beku menatap cangkir kopi kesepian di wastafel, sisa kepahitan perpisahan fajar tadi menampar ruang kosong di ulu hati. Tak sanggup memutar keran pelupa, jejak bibirmu pada tepian keramik itu adalah satu-satunya relik asmara yang tak rela kulepaskan."
+		}
+	},
+	"考えないようにする": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Terjepit di antara sumpah persahabatan dan jeritan cemburu buta; senyum tulusku hanyalah selubung bagi hati yang diam-diam memujamu. Berusaha memenjarakan bayangmu dari benak, meski setiap tarikan napas justru menggemakan namamu dengan perih yang menyayat."
+		}
+	},
+	"お別れタコス": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Gigitan terakhir taco yang bertabur bumbu pedas membaur dengan derai air mata perpisahan di pelataran kedai murahan. Lidah ini terus mengunyah memori konyol kita yang meletup-letup bagai salsa; sebuah sarkasme ironis menelan cinta yang telah resmi kadaluwarsa."
+		}
+	},
+	"命の冒涜": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Mengubur potensi diri dalam kubangan kemalasan adalah dosa tak terampuni yang mengkhianati detak waktu. Bangkitlah dari rongsokan penantian palsu; berlari, mendaki, dan ciptakan bising kehidupan sebelum siluet bayangmu pudar ditelan ketiadaan sejarah."
+		}
+	},
+	"Monopoly": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Memacu pedal membelah jalanan mengejar kereta egomu yang melaju tak tergapai. Kelembutanmu pada seisi dunia membakar sumbu cemburu; membangkitkan jeritan serakah dari sudut hati yang hanya sudi memonopoli sinar senyummu tanpa berbagi rona."
+		}
+	},
+	"思い出が止まらなくなる": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Debur ombak mengurai kembali kanvas musim panas yang usang, menghempaskan gelombang nostalgia dari pesisir masa lalu yang tak pernah benar-benar surut. Menatap jejak kakimu yang tersapu buih, lara ini pasrah dibanjiri rindu abadi pada senyummu yang tak tergantikan."
+		}
+	},
+	"助手席をずっと空けていた": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Sabar menjaga singgasana kosong di jok sebelah, angan-angan menjemputmu bagai adegan romansa perlahan hancur ditelan deru bus senja. Kegagalan melisankan ajakan menjeratku dalam sesal pengecut; membiarkan bidadari dambaanku lenyap terhapus redup kaca spion."
+		}
+	},
+	"羊飼いよ": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Menghardik kawanan domba penurut yang membebek buta pada dogma keseragaman dan kemunafikan massal. Sebuah seruan provokatif memecah keheningan padang rumput; menanggalkan perisai kawanan demi menantang badai ego dengan taring kebenaran yang lantang."
+		}
+	},
+	"手ごねハンバーグ": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Bagaikan meracik sepotong daging hamburg dengan penuh kelembutan, bumbu asmara diaduk perlahan menghindari api cemburu yang terlampau panas. Sebuah metafora lezat tentang dedikasi merawat cinta; memastikan setiap gigitannya memancarkan sari pati kasih sayang paling murni."
+		}
+	},
+	"スタイリッシュ": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Persetan dengan alibi dan moral dunia yang membelenggu; jadilah pencuri budiman yang membajak jiwaku dari kurungan kebosanan. Mengundang romansa kriminal penuh kelas yang menculik logikaku dengan pesona kilat, melarikan kita jauh dari tatapan culas para pecundang."
+		}
+	},
+	"チャンスは平等": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Menghentakkan kaki membelah lantai dansa kehidupan, keraguan dan rasa iri disingkirkan oleh dentuman ritme optimisme. Percayalah bahwa bandul takdir selalu berputar adil; panggung keemasan telah disiapkan rapi, tinggal menanti detik presisi untuk sorot cahayamu berpijar terang."
+		}
+	},
+	"車道側": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tumbuh beriringan sejak kepolosan taman kanak-kanak, refleks untuk selalu memagari langkahmu di tepi aspal jalan berubah menjadi tameng asmara yang diam-diam menebal. Meski garis kedewasaan mengaburkan batasan, takdir hatiku mutlak terkunci untuk melindungimu melampaui gelar sahabat semata."
+		}
+	},
+	"「じゃあね」が切ない": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Crush",
+			"description": "Hangatnya aroma sirup mapel masih membuai lidah, namun kata perpisahan di batas peron seketika membekukan senyum manisku. Menunda-nunda lambaian tangan dengan ribuan dalih konyol; sungguh ironis, padahal mentari esok pasti datang, namun memutus rengkuhan tanganmu serasa mencabut separuh napasku."
+		}
+	},
+	"あと7曲": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Friendship",
+			"description": "Menyemai euforia di bilik sempit karaoke larut malam, melepaskan penat jiwa melalui derai mikrofon yang tak putus bergiliran. Meski kantuk mengincar, ego muda ini menolak tunduk pada fajar, meminta dispensasi tujuh lagu lagi demi membakar habis beban ekspektasi duniawi."
+		}
+	},
+	"ぶんぶくちゃがま": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Berjingkat nakal di atas panggung ilusi yang dikuasai tipu daya rakun dan rubah mistis penyebar bual. Sebuah satire ceria mengenai dunia hipokrit yang kehilangan tutup kewarasannya; namun di tengah labirin sandiwara ini, hanya senyum kebingungan yang menuntaskan dahaga realita."
+		}
+	},
+	"サルビアの花を覚えているかい？": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Meratapi mekarnya mahkota salvia merah di ambang kafe tua yang dulu menjadi pelabuhan tawa remajaku bersamanya. Telat meraba debar asmara yang bersembunyi di balik pertemanan; kini aku mengunyah sesal getir seraya menenggak kebisuan saat lonceng pernikahannya mematahkan ilusiku selamanya."
+		}
+	},
+	"夏桜": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Sotsugyou",
+			"description": "Menunduk mengagumi kelopak ganjil sang sakura musim panas yang menolak memudar bersama rontoknya dedaunan pudar. Sebuah puisi perpisahan lembut bertabur asa, mengikat janji suci di bawah temaram purnama bahwa simpul asmara kita akan merekah abadi pada rotasi musim yang baru."
+		}
+	},
+	"チートデイ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Memacu motor menembus terowongan menuju lautan, debar asmara musim panas menghapus segala ragu. Sebuah pemberontakan manis masa muda demi menghabiskan waktu bersama sosok yang paling didamba."
+		}
+	},
+	"あの光": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Menatap cahaya bintang yang melintasi jutaan tahun cahaya, menyalakan secercah harapan di tengah gulita. Menembus batas ruang dan waktu, jiwa ini meronta untuk kembali merajut takdir denganmu di bawah langit fajar."
+		}
+	},
+	"落とし物": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Tergerus oleh arus kedewasaan di kerasnya hiruk-pikuk kota, kepolosan dan impian perlahan tergadaikan. Sebuah jeritan perlawanan untuk tak lagi menangisi hal yang hilang, melainkan tegar menelan pahit manisnya realita."
+		}
+	},
+	"君にDitto": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Heartbreak",
+			"description": "Terjebak dalam rutinitas asmara yang mendingin, kata sepakat tak lebih dari sekadar pelarian dari kebosanan. Cinta yang dulu membara kini padam ditelan kepasrahan, menyisakan ironi perpisahan yang tak lagi terelakkan."
+		}
+	},
+	"懐かない仔猫": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Dibuat pusing oleh polahmu yang layaknya anak kucing liar yang enggan dijinakkan. Namun di balik keegoisan dan keangkuhan itu, hatiku justru semakin terikat pada kelucuanmu yang tak bisa ditebak."
+		}
+	},
+	"Keep in touch": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Joyful",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menahan langkah di ambang kereta terakhir, genggaman tangan kita menolak untuk berpisah. Rasa enggan melepaskan malam ini menjadi bukti nyata bahwa jiwa kita telah sepenuhnya terjerat dalam gravitasi cinta."
+		}
+	},
+	"熱狂の捌け口": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Energi masa muda yang meluap-luap membentur jalanan malam yang bisu, mencari celah pelarian dari aturan yang mengekang. Sebuah pemberontakan berapi-api untuk menemukan jati diri sejati sebelum mimpi ini hancur ditelan waktu."
+		}
+	},
+	"歩道橋": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Membeku di tengah jembatan penyeberangan, hati diombang-ambingkan oleh keraguan akan masa depan yang menanti di seberang sana. Menelan segala ketakutan, langkah kaki ini akhirnya diayunkan demi merengkuh takdir yang tak bertepi."
+		}
+	},
+	"相対性理論に異議を唱える": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menantang hukum fisika semesta, debar asmara ini melesat melampaui kecepatan cahaya hanya untuk segera melihat senyummu. Teori relativitas pun gugur tak bersisa kala tarikan rindu mendistorsi jarak dan waktu di antara kita."
+		}
+	},
+	"世界一のダイヤモンド": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Bagaikan bongkahan batu kasar yang belum tersentuh, keringat perjuangan akan memolesmu menjadi permata paling berkilau. Genggam teguh mimpimu, dan jadilah intan berlian terkuat yang mampu memecahkan kegelapan dunia."
+		}
+	},
+	"夕陽は何色か？": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tersadarkan oleh pertanyaan sederhanamu di atas atap, mata ini baru benar-benar terbuka melihat rona senja yang sesungguhnya. Sebuah pelajaran manis bahwa cinta dan keindahan tak boleh ditebak begitu saja, melainkan harus diresapi dengan sepenuh jiwa."
+		}
+	},
+	"乃木坂饅頭": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Di tengah riuhnya festival dan lampion yang benderang, pandanganku terpaku takluk pada paras anggunmu. Berdesak-desakan bagai roti manju, kuikrarkan diri menjadi pelindung setiamu dari serigala-serigala yang mengincar hatimu."
+		}
+	},
+	"雪が降る日にまた会おう": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Winter",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Kebisuan di peron stasiun memisahkan kita, namun janji pelan diembuskan untuk kembali bersua kala salju turun. Menahan gigil musim dingin di bangku kenangan, dada ini memeluk harap untuk kembali merajut asmara yang sempat membeku."
+		}
+	},
+	"それまでの猶予": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "Twilight/Night",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Seishun",
+			"description": "Mengubah aula olahraga yang bisu menjadi arena tarian liar di bawah selubung malam. Masa muda adalah jeda singkat sebelum ditelan kejamnya kedewasaan; nikmatilah keliaran ini hingga fajar merampas mimpi-mimpi kita."
+		}
+	},
+	"懐かしさの先": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Terhenti dalam pigura kelulusan, kalimat cinta yang tertelan keraguan kini menyisakan nyeri penyesalan. Di ujung labirin nostalgia ini, rindu yang tak tersampaikan tetap hidup abadi menolak tunduk pada waktu."
+		}
+	},
+	"100日目": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menghitung seratus hari sejak kepergianmu, kepulan uap teh hangat tak mampu mengusir gigil di sudut hati. Melangkah tertatih merajut mimpi yang baru, bayangmu tetap menjadi hantu manis yang mengikat langkah kakiku."
+		}
+	},
+	"ネーブルオレンジ": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menggenggam jeruk navel yang menyimpan aroma masam manisnya musim semi, aku menyusuri kota tempatmu bernaung. Secercah asmara yang tak terbalas ini memandu langkahku pada ilusi manis tentang pertemuan kita yang mustahil."
+		}
+	},
+	"交感神経優位": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Bunyi palang pintu kereta memacu detak jantungku ke titik maksimal, menyingkap gelora cinta yang selama ini kutunda. Bersama dominasi saraf simpatik, seluruh sel tubuhku menjerit menuntut keberanian untuk menyatakan isi hatiku padamu."
+		}
+	},
+	"タイムリミット片想い": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Melancholy",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menatap punggung besarmu yang segera menghilang dari bingkai jendela sekolah, sisa waktu menuju kelulusan semakin mencekik leher. Menghantamkan nyali pada rasa malu, ini adalah pertaruhan terakhir untuk mengubah asa sepihak menjadi takdir asmara."
+		}
+	},
+	"天空の豆の木": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Layaknya pohon kacang ajaib yang menembus gumpalan awan putih, tunas harapan kita akan mekar bila disiram keteguhan hati. Teruslah memanjat menggapai angkasa; mandirilah, dan raih keajaiban semesta dengan tanganmu sendiri."
+		}
+	},
+	"キスのシルエット": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menghempaskan payung di tengah derasnya hujan, pelukan liar kita menenggelamkan tatapan sinis dunia. Berbalut bayangan siluet yang memabukkan, kecupan membara ini menjadi bahasa cinta paling jujur yang tak bisa didikte logika."
+		}
+	},
+	"Same numbers": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Terpaku pada deretan angka kembar di jam digital, semesta seakan berbisik bahwa tak ada yang namanya kebetulan murni. Sebuah keyakinan teduh bahwa setiap jejak langkah dan peristiwa adalah rentetan takdir yang tertulis rapi menuju kebahagiaan."
+		}
+	},
+	"真夏日よ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Nostalgic",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Di bawah sengatan matahari yang melelehkan aspal, pesona remajamu yang telah merekah menyulut gelora asmara lama. Hawa panas musim panas takkan pernah sebanding dengan suhu rindu yang membakar dada ini untuk memilikimu."
+		}
+	},
+	"なぜ　僕たちは走るのか？": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "Summer",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Tersengal memacu langkah memutari lapangan yang mendidih, raga ini terus berlari mencari makna di pusaran ketidakpastian. Di balik peluh yang menetes, tersemat perlawanan absurd masa muda yang menolak takluk pada kemutlakan dunia."
+		}
+	},
+	"あの頃におかえり": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Melangkah kembali ke jalanan kota kelahiran yang menua, dekapan hangat sang masa lalu menyeka lara yang disayat kejamnya ibu kota. Tak perlu malu menitikkan air mata, karena kampung halaman ini adalah rahim abadi untuk memulihkan jiwa yang lelah."
+		}
+	},
+	"不道徳な夏": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "Summer",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Menembus gemuruh musik di balik pintu besi, kegilaan pesta orang dewasa mengundang sisi keliaran yang terpendam. Sebuah undangan eksplosif menembus batas moralitas musim panas; tak perlu berpikir panjang, mari meneguk racun kebebasan ini hingga mabuk."
+		}
+	},
+	"ってかさ": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Friendship",
+			"description": "Celoteh tak berujung dengan frasa sambung tanpa arti, mengoyak kekosongan dengan perdebatan dangkal yang membosankan. Sebuah ironi manis dari obrolan masa muda; toh yang terpenting bukanlah apa yang dibicarakan, melainkan dengan siapa kita membuang waktu."
+		}
+	},
+	"君と猫": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Di bawah hangatnya sinar mentari siang, polahmu yang tak tertebak bagai anak kucing liar justru merenggut seluruh duniaku. Dibuat gemas oleh kemanjaan dan keangkuhanmu, hidupku rela diperbudak oleh rona cinta yang sungguh mendebarkan ini."
+		}
+	},
+	"ビリヤニ": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tertutupi oleh gugup yang tak terucap, sebuah ajakan konyol mencicipi hidangan Biryani menjadi kedok canggung melancarkan kencan perdana. Berbekal informasi dangkal dari internet, tekad ini membara demi bisa terus memandangi senyummu lebih lama."
+		}
+	},
+	"市営ダンスホール": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Di bawah kanopi bintang gemintang yang benderang, kehampaan menunggu justru disulap menjadi ruang dansa romantis bagi khayalan asmara. Hembusan angin malam memeluk rindu, menanti sang pujaan hati yang melesat layaknya komet menembus takdir."
+		}
+	},
+	"純粋とは何か？": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menatap bayang ikan di riak air yang tenang, aku tersiksa menerka makna kemurnian di balik keraguan melisankan cinta. Terlalu takut merusak keindahan ini dengan ego asmara, lidahku terkunci oleh kecemasan membedakan ketulusan dan ambisi penaklukan."
+		}
+	},
+	"新宿バックオフ": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Lonely",
+			"season": "Winter",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Menghardik hiruk-pikuk Kabukicho yang munafik, jiwa ini meringkuk di sudut gedung mengutuk segala kepalsuan afeksi. Dalam gulita yang dingin, aku menolak empati yang menyedihkan, membangun tameng berduri untuk menghalau kejamnya dunia yang mati rasa."
+		}
+	},
+	"Spark a revolution!": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Tinggalkan peluru dan senjata api; karena letupan sejati ada pada ketulusan tanpa kekerasan yang sanggup merobek tirai angkuh peradaban. Sebuah revolusi angin tanpa darah, mengoyak kepalsuan dunia dengan rentetan kebaikan dan empati yang mempersatukan jiwa."
+		}
+	},
+	"夢の匂い": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Menyesap aroma pagi di balkon yang hening, semilir angin musim semi membawa wangi hari esok yang telah lama tertidur. Mengusir keraguan yang mengekang dada, langkah anggun ini ditapaki menyambut mekar indahnya takdir masa depan."
+		}
+	},
+	"ぐるぐるカーテン（6期生ver.）": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Seishun",
+			"description": "Di balik tirai kelas yang bergoyang ditiup angin, tersimpan rahasia manis dan ikatan persahabatan gadis-gadis yang mulai mekar dalam kepolosan."
+		}
+	},
+	"最後に階段を駆け上がったのはいつだ？": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Melahap anak tangga dengan napas yang memburu liar, menantang nyali yang telah lama tertidur di dasar kegagalan. Sebuah jeritan penolakan untuk mati dalam kepasrahan, memaksa raga meronta menjemput angin kebebasan di atap tertinggi dunia."
+		}
+	},
+	"愛って羨ましい": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Tersenyum kecut melihat keberanian sahabat memenangkan hatinya, rasa iri dan perih saling menikam dalam sunyi. Memendam hasrat yang tak kalah besarnya, ego ini dibiarkan hancur perlahan demi menjaga ikatan persahabatan yang ironis."
+		}
+	},
+	"桜橋を教えてくれた": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Berdiri mengenang tapak langkah kita di jembatan X yang belum dihiasi mekar sakura, semilir angin musim semi menampar luka rindu. Menyadari cinta yang telah hanyut seiring waktu, senyum getir terlukis merelakan pelabuhan hati yang takkan bisa kuarungi lagi."
+		}
+	},
+	"君ばかり": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Roda kalender berputar mengepakkan rindu dari bulan April hingga Desember, seluruh rotasi duniaku hanya berpusat pada bayangmu. Terjatuh tak berdaya dalam gravitasi pesonamu, asa bodoh ini merintih meminta waktu diputar mundur untuk terus merapal cinta."
+		}
+	},
+	"年齢の境界線": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Terdampar di perbatasan kedewasaan saat lonceng usia berdentang keras, ketakutan mencabik ekspektasi di jalanan malam yang kelam. Memberontak pada batas angka yang tak terlihat, menuntut suaka untuk sekadar dibiarkan bernapas sebagai jiwa remaja yang belum sempurna."
+		}
+	},
+	"パシフィック・リーグに連れてって": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menepikan segala gengsi feminin, jerit semangat di tribun stadion berpadu menjadi kedok termanis untuk berlama-lama denganmu. Denting pemukul dan sorak sorai ini takkan sebanding dengan riuh asmara yang menggema menuntut porsi kencan yang lebih panjang."
+		}
+	},
+	"もう一つの太陽": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Telah tuntas pengabdian pijar cahayaku menerangi lorong keputusasaan, mengubah tangis perjuangan masa muda menjadi mahkota kebanggaan. Melepaskan senyum terindah ke langit luas, kuyakini terbitnya surya-surya baru yang kelak akan jauh lebih benderang dari diriku."
+		}
+	},
+	"大嫌いなはずだった。 ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Autumn",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Crush",
+			"description": "Pertengkaran manis berbalut gengsi perlahan meleleh menjadi debaran yang tak bisa lagi disangkal. Di balik kata benci yang diucapkan, tersimpan teriakan hati yang mengakui bahwa kaulah pahlawan sejatinya."
+		}
+	},
+	"世界中の隣人よ": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Kolektif",
+			"theme": "Life Meaning",
+			"description": "Saat keputusasaan menyelimuti dunia, tembok pembatas runtuh oleh kehangatan doa yang saling bertaut. Sebuah himne solidaritas yang mengingatkan bahwa kita tak pernah benar-benar sendirian di bawah langit yang sama."
+		}
+	},
+	"Route 246": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Seishun",
+			"description": "Membelah pekatnya malam dengan kecepatan penuh, membuang jauh keraguan masa lalu yang menahan langkah. Menghiraukan tatapan sinis dunia, ini adalah pacuan liar menuju masa depan yang harus direbut dengan tangan sendiri."
+		}
+	},
+	"1・2・3": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Netral",
+			"theme": "Friendship",
+			"description": "Melemparkan diri ke dalam labirin petualangan yang mendebarkan tanpa secuil pun rasa takut. Bersama kawan di sisi, setiap luka dan tawa adalah mantra ajaib yang akan membawa kita menaklukkan dunia yang belum terjamah."
+		}
+	},
+	"誰かは味方": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Menutup mata untuk mendengarkan bisikan angin yang menenangkan jiwa yang kelelahan. Tak perlu takut dibenci oleh dunia, karena di tengah luasnya semesta ini, akan selalu ada satu tempat hangat yang berpihak padamu."
+		}
+	},
+	"革命の馬": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Energetic",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Gadis-gadis malam melarikan diri dari sangkar kepalsuan, memacu kuda revolusi menembus aspal Shibuya. Menepis air mata dan kemunafikan orang dewasa, ini adalah seruan perang untuk merebut kembali kemerdekaan masa muda."
+		}
+	},
+	"僕がいる場所": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Sebuah renungan sunyi tentang fana-nya usia, merisaukan air mata kekasih yang kelak ditinggalkan. Bahkan jika raga ini tak lagi bernapas, cinta akan menjelma menjadi bayang pelindung yang bersemayam abadi di sudut kamarmu."
+		}
+	},
+	"あなたのために弾きたい": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Melepaskan ambisi gemerlap panggung dunia demi sebuah senyum yang lebih berharga dari tepuk tangan ribuan orang. Tuts piano ini tak lagi dimainkan untuk meraih piala, melainkan sebagai bahasa cinta paling tulus yang berbisik hanya untukmu."
+		}
+	},
+	"傾斜する": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Keseimbangan batin seketika oleng kala mengetahui ada sosok lain yang menggenggam hatimu. Layaknya kelereng yang meluncur bebas di papan miring, kesedihan ini jatuh tak tertahankan meratapi persahabatan yang kini memenjarakan rasaku."
+		}
+	},
+	"なぞの落書き": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Di sudut jendela kelas yang segera ditinggalkan, sebuah nama terukir diam-diam mencetuskan debar misterius. Goresan tinta usil itu menjadi kado perpisahan paling manis sekaligus menyiksa, membiarkan cinta masa sekolah menggantung tanpa jawaban."
+		}
+	},
+	"自由の彼方": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Terbang menjauh mencari ufuk kebebasan, sang burung menolak kembali pada kenyamanan sangkar emas yang membosankan. Sebuah elegi tentang cinta yang terlepas dari genggaman, menyisakan kesunyian yang menghukum mereka yang tak pandai menjaga."
+		}
+	},
+	"ひとりよがり": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menelan tangis di keheningan fajar, aku egois melepaskan pelukan hangatmu demi mengejar ambisi yang kejam. Kesuksesan ini terasa hampa tanpa senyummu, menggemakan tanya apakah menukar cinta dengan mimpi adalah bayaran yang sepadan."
+		}
+	},
+	"きっかけ": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Terjebak di tengah kerumunan yang berlari membabi buta, lampu merah keraguan akhirnya diterjang oleh impuls dari dasar jiwa. Tak lagi menunggu instruksi dari dunia, aku memilih melangkah mengikuti kompas naluriku sendiri."
+		}
+	},
+	"太陽に口説かれて": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Ragu menenggelamkan diri dalam euforia pesta pantai, pesonamu diam-diam meruntuhkan benteng kewaspadaan. Dirayu oleh terik matahari dan gemuruh ombak, pertahanan gadis lugu ini pun meleleh dalam godaan asmara musim panas yang memabukkan."
+		}
+	},
+	"欲望のリインカーネーション": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Heartbreak",
+			"description": "Bangkit dari kubur patah hati yang mematikan rasa, insting untuk kembali mencintai merobek rantai keputusasaan. Seperti zombi yang meronta mencari kehangatan, hasrat yang sempat mati perlahan berinkarnasi menuntut haknya untuk hidup."
+		}
+	},
+	"空気感": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Joyful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Tenggelam dalam kenyamanan tanpa kata, rutinitas membosankan bersamamu justru menjadi candu yang mendebarkan. Tanpa perlu alasan megah, cinta tumbuh subur menghirup udara kebersamaan yang natural dan apa adanya."
+		}
+	},
+	"光合成希望": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Membuka tirai yang menutupi keberanian, pucuk jiwa ini mendamba sengatan matahari untuk bisa mekar seutuhnya. Menolak layu dalam kesunyian, aku menyerap cahayamu sebagai nutrisi ajaib untuk berevolusi menjadi versi diriku yang paling cerah."
+		}
+	},
+	"Threefold choice": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Terpojok oleh tiga tatapan menuntut di balik meja kasir, sandiwara ketidaktegasanmu kini tak lagi bisa menyelamatkan keadaan. Pilihlah satu tanpa keraguan, karena cinta sejati tak pernah kompromi untuk membagi ruang hatinya."
+		}
+	},
+	"低体温のキス": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Rebellious",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Diguyur badai hujan yang membekukan kewarasan, aku menolak kembali pada kehangatan palsu perpisahan. Rengkuhlah raga yang nyaris mati ini, biarkan kecupan putus asamu memompa kembali denyut nadi cinta yang menolak padam."
+		}
+	},
+	"失恋したら、顔を洗え！": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Heartbreak",
+			"description": "Patah hati bukanlah kiamat, melainkan sekadar lemparan kertas yang meleset dari keranjang sampah. Basuh wajahmu dari sisa tangis penyesalan, lalu bangkitlah dengan senyum segar menantang ronde asmara berikutnya."
+		}
+	},
+	"かき氷の片想い": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menggunung manis namun lumer dalam sekejap, cinta sepihak ini semenyiksa seporsi es serut yang tak habis dimakan. Hanya sanggup meresapi manisnya di awal, sebelum akhirnya sisa rasa itu mencair hambar bersama derai air mata cemburu."
+		}
+	},
+	"環状六号線": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Peaceful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Terbebas dari kemacetan panjang di rute yang baru rampung, kelancaran ini justru menyisakan rindu pada masa lalu yang penuh hambatan. Cinta yang dulu jalan di tempat kini telah melaju lancar, namun kenangan akan kepolosan kita tetap membekas melintasi waktu."
+		}
+	},
+	"口約束": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Friendship",
+			"description": "Sumpah persahabatan di atas meja minum menguap tak bersisa saat salah satu diam-diam memenangkan perlombaan menuju altar. Di balik senyum ucapan selamat yang dipaksakan, terselip ironi kekalahan dari sebuah janji manis yang tak pernah sungguh-sungguh ditepati."
+		}
+	},
+	"スカイダイビング": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Melompat tanpa parasut kepastian, aku menukik menembus awan keraguan menuju hatimu. Berserah pada embusan angin takdir, cinta ini adalah terjun bebas mendebarkan yang mempertaruhkan segalanya demi sebuah jawaban."
+		}
+	},
+	"君が扇いでくれた": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Hembusan angin pelan dari kibasan buku tulismu di tengah kelas yang gerah, memanggil kembali debar asmara musim panas yang terlupakan. Nostalgia manis masa berseragam yang kini hanya bisa dikenang dengan senyum tipis seorang pria dewasa."
+		}
+	},
+	"思い出ファースト": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Mengalah pada setiap rengek manjamu di tepi pantai, pertengkaran dilarang keras demi mengukir memori paling sempurna. Karena prioritas utamaku di musim panas ini hanyalah merajut kenangan indah yang takkan pernah kau lupakan."
+		}
+	},
+	"設定温度": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Melancholy",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Menggigil atau berkeringat, perbedaan suhu ruangan ini menjadi saksi bisu dua ego yang saling mengalah demi cinta. Kesal karena harus berkompromi, namun di balik keluhan itu, perbedaan inilah yang justru mengikat kita untuk terus belajar saling menghangatkan."
+		}
+	},
+	"Rewindあの日": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Memacu mobil di remang fajar membelah keheningan, perpisahan ini ditelan mentah-mentah sebelum melukai lebih dalam. Memutar waktu kembali ke titik awal sebelum cinta ini bersemi, agar patah hati ini tak terlihat menyedihkan."
+		}
+	},
+	"ごめんね、スムージー": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Peaceful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Melelehnya minuman dingin di tangan menjadi bukti betapa absurbnya pesona pemuda yang baru saja kutemui. Segala prinsip dan rutinitas runtuh tak tersisa, direlakan lumer begitu saja demi memburu debar asmara yang tak terduga."
+		}
+	},
+	"醜い私": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Terjerat dalam romansa terlarang yang menodai moral, cinta ini terlampau kelam untuk dibanggakan. Membenci diri sendiri di hadapan cermin, menyadari betapa hinanya raga ini yang rela menjadi kepingan rahasia dari seseorang yang takkan pernah kumiliki seutuhnya."
+		}
+	},
+	"硬い殻のように抱きしめたい": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Saat dunia menorehkan luka di hatimu yang rapuh, biarkan pelukanku menjadi cangkang pelindung yang tak tertembus. Tak perlu banyak kata, aku siap menjelma menjadi tameng abadi yang menyerap semua rasa sakitmu."
+		}
+	},
+	"満月が消えた": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Rembulan malam yang hilang di balik riak sungai membawa serta separuh jiwaku yang hancur oleh kepergianmu. Meraba gelapnya semesta tanpa cahayamu, aku tertatih mencari sisa-sisa harapan untuk mengutuhkan kembali hidup yang kini cacat."
+		}
+	},
+	"ワタボコリ": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Life Meaning",
+			"description": "Meratapi eksistensi yang seringan debu kapas, terombang-ambing tanpa tujuan di bawah sorot cahaya fana. Sebuah jeritan hampa tentang makna kehidupan, berharap setidaknya ketiadaan ini bisa menjadi debu yang menempel di hati seseorang."
+		}
+	},
+	"流星ディスコティック": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Energetic",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Tersesat di padang rumput tak berbatas di bawah kilauan galaksi, semesta menyulap keheningan malam menjadi lantai dansa pribadi. Ditemani bola disko rasi bintang, jiwa ini menari merayakan kebebasan tak terhingga yang menjangkau keabadian."
+		}
+	},
+	"忘却と美学": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Friendship",
+			"description": "Bertahan di garis depan dengan luka menganga, menolak meninggalkan kawan seperjuangan meski maut menyeringai. Sebuah epik maskulinitas tentang kehormatan dan persaudaraan, di mana melupakan rasa sakit adalah satu-satunya estetika untuk bisa mati dengan bangga."
+		}
+	},
+	"自分のこと": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Merangkak keluar dari jurang kebencian pada diri sendiri, perlahan aku memunguti serpihan kelebihan yang sempat kuabaikan. Kekecewaan masa lalu kini menjadi lentera, menuntun jiwa yang telah berdamai untuk tersenyum menyambut panjangnya masa depan."
+		}
+	},
+	"自惚れビーチ": {
+		"vibe": {
+			"primary_mood": "Energetic",
+			"secondary_mood": "Joyful",
+			"season": "Summer",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Membalut diri dengan pakaian renang terbaru dan tingkat kepercayaan diri yang meroket, pantai ini adalah panggung utamaku. Bersiaplah tersengat pesona narsistik dari seorang gadis yang baru saja bebas, menantang siapa pun untuk berani mencuri hatinya."
+		}
+	},
+	"その女": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Winter",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Duduk diam mendengar ocehan dangkal dari bibir yang pernah kucintai, waktu berjalan mengambang bersama rintik salju di luar jendela. Sebuah pertemuan absurd yang tak membawa kita ke mana-mana, menyisakan tanya mengapa aku masih saja menuruti panggilannya."
+		}
+	},
+	"誰よりそばにいたい": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Hopeful",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Menempelkan pipi di bahumu dalam temaram ruangan, rasa aman ini menyelimuti seluruh ketakutan dan kesedihan dunia. Sebuah deklarasi cinta sederhana namun absolut; bahwa pelukanmu adalah satu-satunya tempat aku ingin berpulang hingga akhir waktu."
+		}
+	},
+	"ありがちな恋愛": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Romansa klise ini layu ditelan ambisi dan rutinitas, persis seperti skenario perpisahan yang biasa terjadi di dunia. Menatap cerobong asap yang mengepulkan sisa-sisa kenangan, aku mengais pembenaran atas kepergianmu demi mengejar mimpi yang lebih megah."
+		}
+	},
+	"もし君がいなければ": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Nostalgic",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Friendship",
+			"description": "Di saat keputusasaan nyaris memaksa langkah ini berbalik arah, tatapan percayamu menjadi sauh yang menahanku tetap berdiri. Jika bukan karena sorot matamu yang tak pernah menyerah padaku, mimpi ini pasti sudah lama mati dan terkubur di kampung halaman."
+		}
+	},
+	"キスの手裏剣": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "Summer",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Crush",
+			"description": "Melempar ninja star kecupan dari balik pepohonan, serangan asmara konyol ini malah meleset jauh dari bibirmu. Terkurung oleh rasa malu, khayalan romantis ini menjadi rahasia manis seorang pemuda canggung yang tak berani berterus terang."
+		}
+	},
+	"頬杖をついては眠れない": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menyangga pipi dalam kegelisahan yang memuncak, teka-teki tentang perasaanmu merampas hakku untuk terlelap. Dihantui oleh gengsi yang menolak mengakui cinta, malam ini berlalu dengan hitungan rindu yang tak berujung hingga fajar menyingsing."
+		}
+	},
+	"ぼっち党": {
+		"vibe": {
+			"primary_mood": "Rebellious",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Mengutuk gemerlapnya dunia yang dipenuhi pasangan, jeritan batin gadis lajang ini memohon intervensi ilahi untuk segera dikirimi kekasih. Lelah menjadi penonton di balik tirai asmara orang lain, aku rela menukar segalanya demi bisa mencecap setetes kebahagiaan cinta."
+		}
+	},
+	"さゆりんご募集中": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Energetic",
+			"season": "All-Season",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Friendship",
+			"description": "Singkirkan beban logika dan mari bergabung dalam barisan kebahagiaan yang tak mengenal syarat. Sebuah anthem ceria untuk membuang kepenatan hidup, mengajak semua jiwa yang kelelahan untuk menari bodoh melupakan kejamnya realita."
+		}
+	},
+	"ゴルゴンゾーラ": {
+		"vibe": {
+			"primary_mood": "Joyful",
+			"secondary_mood": "Rebellious",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Crush",
+			"description": "Mengabaikan pangeran tampan yang membosankan demi mengejar dia yang eksentrik dan penuh cela. Bagaikan keju biru yang menyengat namun bikin ketagihan, cinta ini sengaja mencari masalah demi merasakan letupan asmara yang tidak biasa."
+		}
+	},
+	"もうすぐ～ザンビ伝説～": {
+		"vibe": {
+			"primary_mood": "Lonely",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Tertidur dalam kegelapan dunia bawah yang membusuk, arwah yang gentayangan ini bangkit mencari kehangatan pelukan masa lalu. Cinta yang tak kenal mati ini menyeret raga yang telah hancur untuk merangkak kembali menagih janji yang belum tertuntaskan."
+		}
+	},
+	"My respect": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "Autumn",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Romance: Crush",
+			"description": "Menatap punggung tegar yang melangkah sendirian tanpa mempedulikan cibiran, benih kekaguman ini mekar menjadi cinta yang diam-diam mengakar. Rasa hormatku padamu lebih tinggi dari asmara, memaksaku mundur menyadari betapa jauhnya jarak ketangguhan kita."
+		}
+	},
+	"全力ラップタイム": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "Spring",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Seishun",
+			"description": "Dentang bel sekolah mengundang kembali bayanganmu yang berlari memecah angin musim dingin di lintasan lari. Penolakan cintamu kala itu tak membuat memori ini pudar, melainkan memicu detak semangat untuk terus berpacu mengejar rekor terbaik dalam hidupku sendiri."
+		}
+	},
+	"世界はここにある": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "Twilight/Night",
+			"pov_type": "Neutral",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Menyapu pandang dari teras malam yang sunyi, kelap-kelip lampu kota membuktikan bahwa kita semua terhubung dalam jaring cinta yang tak kasat mata. Meski jarak membentang memisahkan raga, memandang rasi bintang yang sama menyadarkan bahwa semesta asmara kita tak pernah terputus."
+		}
+	},
+	"Fake Doctor": {
+		"vibe": {
+			"primary_mood": "Peaceful",
+			"secondary_mood": "Melancholy",
+			"season": "Twilight/Night",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Netral",
+			"theme": "Life Meaning",
+			"description": "Tak butuh jas putih maupun gelar medis, celoteh asal dari sosok paruh baya di meja kedai nyatanya lebih mujarab membasuh luka jiwa. Sebuah ironi manis di mana obat terbaik untuk kepedihan masa muda hanyalah seseorang yang sedia mendengarkan tanpa penghakiman."
+		}
+	},
+	"Just a sec.": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Twilight/Night",
+			"pov_type": "Bokura/Watashitachi",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Memendam pedih di balik setir mobil atap terbuka, ego maskulin memaksakan perpisahan demi membebaskanmu dari cinta yang dianggap terlalu naif. Menahan hasrat untuk memelukmu sekali lagi, air mata ini ditelan dalam diam saat bayangmu menghilang dari kaca spion."
+		}
+	},
+	"最後のTight Hug": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "Autumn",
+			"pov_type": "Boku",
+			"gender_perspective": "Maskulin",
+			"theme": "Romance: Heartbreak",
+			"description": "Meremas erat bahumu dalam pelukan terakhir di bawah desiran angin kering musim dingin, ucapan selamat menikahku tercekat di kerongkongan. Pelukan kaku ini adalah hukuman atas pengecutnya diriku di masa lalu, yang kini hanya bisa membeku meratapi takdirmu bersama pria lain."
+		}
+	},
+	"歳月の轍": {
+		"vibe": {
+			"primary_mood": "Nostalgic",
+			"secondary_mood": "Hopeful",
+			"season": "Winter",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Jejak langkah di atas salju perlahan dihapus oleh badai, menyucikan kanvas masa lalu untuk digoreskan takdir yang baru. Membungkuk penuh hormat pada kenangan masa muda yang gemilang, air mata perpisahan ini adalah kristal suci yang mengiringi kelahiran kembaliku."
+		}
+	},
+	"あなたからの卒業": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Melancholy",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Sotsugyou",
+			"description": "Meniti pasir pantai bersamamu untuk terakhir kalinya, kelembutanmu justru menyiksa tekadku untuk segera mandiri. Meluluskan diri dari perlindungan manjamu, aku memaksakan senyum tegar demi menyambut badai masa depan yang harus kuhadapi seorang diri."
+		}
+	},
+	"Hard to say": {
+		"vibe": {
+			"primary_mood": "Melancholy",
+			"secondary_mood": "Lonely",
+			"season": "All-Season",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Romance: Heartbreak",
+			"description": "Menelan kecurigaan pahit di balik senyum kepalsuan, rasa takut kehilangan membungkam bibir ini dari menuntut kejujuranmu. Aku rela berlakon sebagai kekasih bodoh yang menutup mata, asalkan kau tetap menautkan jemarimu pada tanganku."
+		}
+	},
+	"ゆっくりと咲く花": {
+		"vibe": {
+			"primary_mood": "Hopeful",
+			"secondary_mood": "Peaceful",
+			"season": "Spring",
+			"pov_type": "Watashi/Atashi",
+			"gender_perspective": "Feminin",
+			"theme": "Life Meaning",
+			"description": "Menangis dalam ketidakberdayaan, aku menyadari bahwa setiap kuntum butuh waktunya sendiri untuk menembus kerasnya tanah. Berterima kasih pada embusan angin dan hujan yang menimpa, kini kelopak kebanggaanku mekar perlahan membuktikan bahwa kesabaran tak pernah mengkhianati hasil."
+		}
+	}
+}	

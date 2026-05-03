@@ -1,0 +1,20 @@
+{
+	"url": "utabangumi-star",
+	"nameShowTitle": "STAR",
+	"nameShow": "STAR",
+	"availableEpisode": [
+		"260416"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_star.png",
+	"episodes": {
+		"260416": {
+			"descEpisode": "| 260416 'Saigo ni Kaidan o Kakeagatta no wa Itsu da?'",
+			"descOnAirDate": "16 April 2026",
+			"descEpsListName": "260416",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": ""
+			"imageThumbEps" : "https://ik.imagekit.io/moearchive/thumb/docrandom/260416_star.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260416_star.jpg"
+		}
+	}
+}

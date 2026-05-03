@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- Title -->
+    <title>MOEPLAY - Nogizaka Song Vibe</title>
+	
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style_songvibe.css">
+</head>
+<body>
+	<div id="mobile-blocker">
+        <div>
+            <i class="fas fa-desktop" style="font-size: 4rem; margin-bottom: 15px;"></i><br>
+            Akses Ditolak.<br>Harap buka di PC / Laptop dengan layar yang lebih lebar.
+        </div>
+    </div>
+    <div id="main">
+        <!-- ---------------------- -->
+        <!-- Step 1: Mode Selection -->
+        <!-- ---------------------- -->
+        <div id="step1-container" class="interactive-room-fullscreen">
+            <h1 class="vibe-title">Song Vibe</h1>
+            <h3 class="vibe-version">(Beta)</h3>
+            
+            <div class="scene-container">
+                <div id="btnModeSong" class="scene-item item-headset">
+                    <div class="vibe-tooltip">
+                        <div class="garapan-update-border"></div>
+                        <div class="garapan-update">Berdasarkan Lagu</div>
+                        <div class="garapan-update-tail"></div>
+                    </div>
+                    <img src="../sprite/element/vibe/headset.png" alt="Headset">
+                </div>
+                
+                <!-- Tombol Book -->
+                <div id="btnModeMood" class="scene-item item-book">
+                    <div class="vibe-tooltip">
+                        <div class="garapan-update-border"></div>
+                        <div class="garapan-update">Berdasarkan Mood</div>
+                        <div class="garapan-update-tail"></div>
+                    </div>
+                    <img src="../sprite/element/vibe/book.png" alt="Book">
+                </div>
+            </div>
+			
+            <h1 class="back"><a href="index.html">Kembali</a></h1>
+        </div>
+
+        <div class="container">
+            <!-- ---------------------- -->
+            <!-- Step 2: Song Mode -->
+            <!-- ---------------------- -->
+			<div id="step2-song-container" class="interactive-room-fullscreen" style="display: none;">
+                <button class="moe-button btn-back desk-back-btn">Kembali</button>
+                
+                <div class="desk-scene-container">
+                    <img src="../sprite/element/vibe/song_headset.png" class="desk-headset-prop" alt="Headset">
+                    <div class="desk-form-panel">
+                        <div class="desk-form-title">Cari Koleksi</div>
+                        
+                        <div class="control-group-desk">
+                            <input type="text" id="searchInput" placeholder="Cari ketik cepat (Romaji/Jepang)...">
+                        </div>
+
+                        <div class="desk-form-row">
+                            <select id="releaseCategorySelect">
+                                <option value="">-- Pilih Rilis --</option>
+                            </select>
+                            <select id="songSelect" disabled>
+                                <option value="">-- Pilih Lagu --</option>
+                            </select>
+                            <button id="btnAnalyzeSong" class="desk-btn-search"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+					
+                    <div class="desk-result-area">
+                        <div class="cd-case-wrapper">
+                            <img src="../sprite/element/vibe/song_cd.png" class="cd-case-prop" alt="CD Case">
+                            <img src="../sprite/element/vibe/cd_cover.png" id="mainCdCover" class="cd-cover-prop" alt="CD Cover">
+                        </div>
+                        <div id="resultAreaDesk" class="desk-result-details">
+                            <div class="desk-empty-state">
+                                Menunggu lagu...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ---------------------- -->
+            <!-- Step 2: Mood Mode -->
+            <!-- ---------------------- -->
+            <div id="step2-mood-container" class="interactive-room-fullscreen" style="display: none;">
+                <button class="moe-button btn-back book-back-btn">Kembali</button>
+                
+                <div class="book-scene-container">
+                    <div class="book-page left-page">
+                        <h2 class="book-title">Filter Vibe</h2>
+						
+                        <div class="filter-section">
+                            <div class="filter-label">--MOOD--</div>
+                            <div class="filter-group" data-group="mood">
+                                <div class="pixel-filter-wrap" data-val="Joyful"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">ceria</div></div>
+                                <div class="pixel-filter-wrap" data-val="Melancholy"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">sedih</div></div>
+                                <div class="pixel-filter-wrap" data-val="Nostalgic"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">nostalgia</div></div>
+                                <div class="pixel-filter-wrap" data-val="Energetic"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">energik</div></div>
+                                <div class="pixel-filter-wrap" data-val="Hopeful"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">harapan</div></div>
+                                <div class="pixel-filter-wrap" data-val="Lonely"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">kesepian</div></div>
+                                <div class="pixel-filter-wrap" data-val="Rebellious"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">rebel</div></div>
+                                <div class="pixel-filter-wrap" data-val="Peaceful"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">tenang</div></div>
+                            </div>
+                        </div>
+
+                        <!-- Kategori: SUASANA -->
+                        <div class="filter-section">
+                            <div class="filter-label">--SUASANA--</div>
+                            <div class="filter-group" data-group="season">
+                                <div class="pixel-filter-wrap" data-val="Spring"><div class="pixel-border-bg"></div><div class="pixel-inner-bg"><img src="../sprite/element/vibe/season_spring.png" alt="SEMI"></div></div>
+                                <div class="pixel-filter-wrap" data-val="Summer"><div class="pixel-border-bg"></div><div class="pixel-inner-bg"><img src="../sprite/element/vibe/season_summer.png" alt="PANAS"></div></div>
+                                <div class="pixel-filter-wrap" data-val="Autumn"><div class="pixel-border-bg"></div><div class="pixel-inner-bg"><img src="../sprite/element/vibe/season_autumn.png" alt="GUGUR"></div></div>
+                                <div class="pixel-filter-wrap" data-val="Winter"><div class="pixel-border-bg"></div><div class="pixel-inner-bg"><img src="../sprite/element/vibe/season_winter.png" alt="DINGIN"></div></div>
+                                <div class="pixel-filter-wrap" data-val="Twilight/Night"><div class="pixel-border-bg"></div><div class="pixel-inner-bg"><img src="../sprite/element/vibe/sunsetnight.png" alt="SENJA/MALAM"></div></div>
+                                <div class="pixel-filter-wrap" data-val="All-Season"><div class="pixel-border-bg"></div><div class="pixel-inner-bg"><img src="../sprite/element/vibe/subete.png" alt="SEMUA"></div></div>
+                            </div>
+                        </div>
+
+                        <!-- Kategori: SUDUT PANDANG -->
+                        <div class="filter-section">
+                            <div class="filter-label">--SUDUT PANDANG/POV--</div>
+                            <div class="filter-group" data-group="pov">
+                                <div class="pixel-filter-wrap" data-val="Boku"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">僕/cowok</div></div>
+                                <div class="pixel-filter-wrap" data-val="Watashi/Atashi"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">私/cewek</div></div>
+                                <div class="pixel-filter-wrap" data-val="Neutral"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">NETRAL</div></div>
+                                <div class="pixel-filter-wrap" data-val="Kimi-centric"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">君/kamu</div></div>
+                                <div class="pixel-filter-wrap" data-val="Bokura/Watashitachi"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">kami/kita</div></div>
+                            </div>
+                        </div>
+
+                        <!-- Kategori: TEMA -->
+                        <div class="filter-section">
+                            <div class="filter-label">--TEMA--</div>
+                            <div class="filter-group" data-group="theme">
+                                <div class="pixel-filter-wrap" data-val="Romance: Crush"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">jatuh cinta</div></div>
+                                <div class="pixel-filter-wrap" data-val="Romance: Heartbreak"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">patah hati</div></div>
+                                <div class="pixel-filter-wrap" data-val="Seishun"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">masa muda</div></div>
+                                <div class="pixel-filter-wrap" data-val="Sotsugyou"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">kelulusan</div></div>
+                                <div class="pixel-filter-wrap" data-val="Life Meaning"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">makna hidup</div></div>
+                                <div class="pixel-filter-wrap" data-val="Friendship"><div class="pixel-border-bg"></div><div class="pixel-inner-bg">persahabatan</div></div>
+                            </div>
+                        </div>
+
+                        <!-- Teks Dinamis & Tombol (Dipindah ke Kiri) -->
+                        <div id="dynamicMoodText" class="book-dynamic-text">
+                            <i class="fas fa-pen-nib"></i> Belum ada mantra kriteria yang ditulis...
+                        </div>
+                        <button id="btnAnalyzeMood" class="book-btn" disabled><i class="fas fa-search"></i> Baca Mantra (Cari)</button>
+                    </div>
+
+                    <!-- Halaman Kanan: Bersih, Hanya Hasil -->
+                    <div class="book-page right-page">
+                        <div id="resultAreaMood" class="result-container-book"></div>
+                    </div>
+                    
+                </div>
+            </div>
+			
+
+            <!-- ---------------------- -->
+            <!-- Result Section -->
+            <!-- ---------------------- -->
+            <div id="resultArea" class="result-container"></div>
+        </div>
+    </div>
+
+    <script src="../js/script_songvibe.js"></script>
+</body>
+</html>

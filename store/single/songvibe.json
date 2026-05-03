@@ -1,0 +1,19 @@
+{
+  "categories": {
+    "mood": [
+      "Joyful", "Melancholy", "Nostalgic", "Energetic", 
+      "Hopeful", "Lonely", "Rebellious", "Peaceful"
+    ],
+    "season_time": [
+      "Spring", "Summer", "Autumn", "Winter", "Twilight/Night", "All-Season"
+    ],
+    "pov": {
+      "pronouns": ["Boku", "Watashi/Atashi", "Bokura/Watashitachi", "Kimi-centric", "Neutral"],
+      "perspective": ["Maskulin", "Feminin", "Netral", "Kolektif"]
+    },
+    "themes": [
+      "Romance: Crush", "Romance: Heartbreak", "Seishun", 
+      "Sotsugyou", "Life Meaning", "Friendship"
+    ]
+  }
+}

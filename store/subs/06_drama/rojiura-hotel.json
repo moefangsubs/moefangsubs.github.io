@@ -8,7 +8,8 @@
 		"01a", "01b",
 		"02a", "02b",
 		"03a", "03b",
-		"04a", "04b"
+		"04a", "04b",
+		"05a"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/rojiura{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/rojiurahotel/rojiura{{eps}}.jpg",
@@ -80,12 +81,12 @@
 			"descEpsListName": "05 前編",
 			"descEpisodeSynopsis": "Mochizuki Saki, seorang editor yang sangat mengutamakan efisiensi, terpaksa menginap di Rojiura Hotel setelah mengalami kendala pemesanan tempat tinggal. Secara mengejutkan, pintu kamar hotel tersebut membawa Mochizuki Saki masuk ke dalam SMA San'o yang merupakan latar tempat dari novel garapannya. Di sana, pertemuan dengan ketua klub pemandu sorak bernama Inaba Kyoka membuat Mochizuki Saki mulai terlibat aktif menjalani kegiatan sebagai anggota klub tersebut.",
 			"memberParticipate": "山下瞳月、向井純葉",
-            "linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/Q61yBeT"
         },
         "05b": {
 			"descEpisode": "| Episode 5 後編",
 			"descEpsListName": "05 後編",
-			"descEpisodeSynopsis": "",
+			"descEpisodeSynopsis": "Saki yang awalnya memiliki penolakan kuat untuk memberikan dukungan kepada orang lain mulai merasakan perubahan perasaan saat menghabiskan waktu bersama ketua klub bernama Kyoka dan para anggota lainnya. Pada hari pertandingan bola basket, SMA San'o berada dalam posisi terdesak. Di saat itulah, Saki melakukan sebuah tindakan yang tidak terduga",
 			"memberParticipate": "山下瞳月、向井純葉",
             "linkHardsub": "",
 			"thisEnd": true
