@@ -1,25 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     const container = document.getElementById('hashtag-container');
     
-    // 🗂️ URL untuk kedua file data
     const memberDataUrl = '../store/member/members.json';
     const hashtagDataUrl = '../store/member/members_hashtag.json';
 
-    // 🔄 Gunakan Promise.all untuk mengambil kedua file secara paralel
+    await loadPictReleaseData();
+
     Promise.all([
         fetch(memberDataUrl).then(response => response.json()),
         fetch(hashtagDataUrl).then(response => response.json())
     ])
     .then(([members, hashtagData]) => {
-        // `members` adalah array dari members.json
-        // `hashtagData` adalah objek dari members_hashtag.json
-
         const activeMembersWithHashtags = members.filter(member => {
-            // Kunci untuk objek hashtag (misal: "ito-riria" -> "ito_riria")
             const hashtagKey = member.id.replace(/-/g, '_');
             const memberHashtags = hashtagData[hashtagKey];
 
-            // Filter member 'aktif' yang punya data hashtag
             return member.status === 'aktif' && memberHashtags;
         });
 
@@ -29,11 +24,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         activeMembersWithHashtags.forEach(member => {
-            // ✨ Ambil data hashtag yang sesuai untuk anggota ini
             const hashtagKey = member.id.replace(/-/g, '_');
             const memberHashtags = hashtagData[hashtagKey];
             
-            // Buat kartu anggota dengan data gabungan
             const memberCard = createMemberCard(member, memberHashtags);
             container.appendChild(memberCard);
         });
@@ -44,19 +37,105 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Modifikasi fungsi untuk menerima data hashtag secara terpisah
+window.applyMoeCrop = function(img, memberName) {
+    const nw = img.naturalWidth;
+    const nh = img.naturalHeight;
+    if (!nw || !nh) return;
+
+    const crop = window.getAccurateCrop ? window.getAccurateCrop(img.src, memberName) || {} : {};
+
+    const container = img.parentElement;
+    const cw = container.clientWidth;
+    const ch = container.clientHeight;
+
+    let cx, cy, cropW, cropH;
+    const isPortrait = ch > cw;
+	
+    if (isPortrait && crop.normal) {
+        const c = crop.normal;
+        const ox = c['offset-x'] || 0;
+        const oy = c['offset-y'] || 0;
+        
+        const c_left = (c.left || 0) + ox;
+        const c_right = nw - (c.right || 0) + ox;
+        const c_top = (c.top || 0) + oy;
+        const c_bottom = nh - (c.bottom || 0) + oy;
+
+        cropW = c_right - c_left;
+        cropH = c_bottom - c_top;
+        cx = c_left + (cropW / 2);
+        cy = c_top + (cropH / 2);
+    } 
+    else if (crop.round) {
+        const c = crop.round;
+        const r = c.radius || (nw / 2);
+        const ox = c['offset-x'] || 0;
+        let oy = c['offset-y'] === undefined ? (r - nh/2) : c['offset-y'];
+
+        cropW = r * 2;
+        cropH = r * 2;
+        cx = (nw / 2) + ox;
+        cy = (nh / 2) + oy;
+    } 
+    else {
+        cropW = nw;
+        cropH = nh;
+        cx = nw / 2;
+        cy = nh / 2;
+    }
+
+    if (cropW <= 0) cropW = nw;
+    if (cropH <= 0) cropH = nh;
+
+    let S = Math.max(cw / cropW, ch / cropH);
+    let Tx = (cw / 2) - (cx * S);
+    let Ty = (ch / 2) - (cy * S);
+
+    if (nw * S >= cw) {
+        if (Tx > 0) Tx = 0;
+        if (Tx + nw * S < cw) Tx = cw - nw * S;
+    }
+    if (nh * S >= ch) {
+        if (Ty > 0) Ty = 0;
+        if (Ty + nh * S < ch) Ty = ch - nh * S;
+    }
+
+    img.style.position = 'absolute';
+    img.style.left = '0';
+    img.style.top = '0';
+    img.style.width = nw + 'px';
+    img.style.height = nh + 'px';
+    img.style.transformOrigin = '0 0';
+    img.style.transform = `translate(${Tx}px, ${Ty}px) scale(${S})`;
+    
+    if (img.parentElement) img.parentElement.style.backgroundImage = 'none';
+    img.removeAttribute("data-fallbacks");
+    img.style.opacity = '1';
+};
+
 function createMemberCard(member, hashtags) {
     const card = document.createElement('a');
     card.className = 'member-card';
     card.href = `member.html?id=${member.id}`;
 
-    // Profile section (menggunakan data dari members.json)
     const profileDiv = document.createElement('div');
     profileDiv.className = 'member-profile';
 
+    const photoInfo = getMemberPhotoInfo({ ...member, group_id: "nogi" }, LATEST_NOGI_DATE, "nogi");
+
+    const photoWrapper = document.createElement('div');
+    photoWrapper.className = 'photo-wrapper';
+
     const img = document.createElement('img');
-    img.src = member.foto_profil;
+    img.src = photoInfo.url;
     img.alt = member.nama_romaji;
+    img.dataset.fallbacks = photoInfo.fallbacks;
+    img.onerror = function() { handleMoeFallback(this); };
+    img.onload = function() { applyMoeCrop(this, member.nama_jp); };
+    img.style.opacity = "0";
+    img.style.transition = "opacity 0.3s ease";
+
+    photoWrapper.appendChild(img);
 
     const nameJp = document.createElement('p');
     nameJp.className = 'name-jp jpn';
@@ -66,9 +145,8 @@ function createMemberCard(member, hashtags) {
     nameRomaji.className = 'name-romaji';
     nameRomaji.textContent = member.nama_romaji.toLowerCase();
 
-    profileDiv.append(img, nameJp, nameRomaji);
+    profileDiv.append(photoWrapper, nameJp, nameRomaji);
 
-    // Hashtags section (menggunakan data dari members_hashtag.json)
     const hashtagsDiv = document.createElement('div');
     hashtagsDiv.className = 'member-hashtags';
 
@@ -88,7 +166,6 @@ function createMemberCard(member, hashtags) {
         return groupDiv;
     };
     
-    // Ambil hashtag dari objek `hashtags` yang baru
     const talkGroup = createHashtagGroup('talk', hashtags.talk);
     const instaGroup = createHashtagGroup('insta', hashtags.insta);
     const blogGroup = createHashtagGroup('blog', hashtags.blog);

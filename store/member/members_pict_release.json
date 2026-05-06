@@ -1,248 +1,1023 @@
-[
-	{
-		"num": 1,
-		"title": "ぐるぐるカーテン",
-		"updateDate": "2011.11.26",
-		"source": "Wayback Machine"
+{
+	"nogi": {
+		"single": [
+			{
+				"num": 1,
+				"title": "ぐるぐるカーテン",
+				"updateDate": "2011.11.26",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 2,
+				"title": "おいでシャンプー",
+				"updateDate": "2012.04.21",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 3,
+				"title": "走れ！Bicycle",
+				"updateDate": "2012.07.24",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 4,
+				"title": "制服のマネキン",
+				"updateDate": "2012.12.14",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 5,
+				"title": "君の名は希望",
+				"updateDate": "2013.05.02",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 6,
+				"title": "ガールズルール",
+				"updateDate": "2013.07.08",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 7,
+				"title": "バレッタ",
+				"updateDate": "2013.11.28",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 8,
+				"title": "気づいたら片想い",
+				"updateDate": {
+					"秋元真夏": "2014.03.27",
+					"生田絵梨花": "2014.03.27",
+					"生駒里奈": "2014.03.27",
+					"市來玲奈": "2014.03.27",
+					"伊藤かりん": "2014.03.27",
+					"伊藤純奈": "2014.03.27",
+					"伊藤寧々": "2014.03.27",
+					"伊藤万理華": "2014.03.27",
+					"井上小百合": "2014.03.27",
+					"衛藤美彩": "2014.03.27",
+					"川後陽菜": "2014.03.27",
+					"川村真洋": "2014.03.27",
+					"北野日奈子": "2014.03.27",
+					"齋藤飛鳥": "2014.03.27",
+					"斎藤ちはる": "2014.03.27",
+					"斉藤優里": "2014.03.27",
+					"桜井玲香": "2014.03.27",
+					"佐々木琴子": "2014.03.27",
+					"白石麻衣": "2014.03.27",
+					"新内眞衣": "2014.03.27",
+					"鈴木絢音": "2014.03.27",
+					"高山一実": "2014.03.27",
+					"寺田蘭世": "2014.03.27",
+					"中田花奈": "2014.03.27",
+					"中元日芽香": "2014.03.27",
+					"永島聖羅": "2014.03.27",
+					"西野七瀬": "2014.03.27",
+					"能條愛未": "2014.03.27",
+					"橋本奈々未": "2014.03.27",
+					"畠中清羅": "2014.03.27",
+					"樋口日奈": "2014.03.27",
+					"深川麻衣": "2014.03.27",
+					"星野みなみ": "2014.03.27",
+					"堀未央奈": "2014.03.27",
+					"松村沙友理": "2014.03.27",
+					"矢田里沙子": "2014.03.27",
+					"山崎怜奈": "2014.03.27",
+					"大和里菜": "2014.03.27",
+					"米徳京花": "2014.03.27",
+					"若月佑美": "2014.03.27",
+					"渡辺みり愛": "2014.03.27",
+					"和田まあや": "2014.03.27",
+					"松井玲奈": "2014.04.25"
+				},
+				"source": "48pedia"
+			},
+			{
+				"num": 9,
+				"title": "夏のFree&Easy",
+				"updateDate": {
+					"秋元真夏": "2014.07.10",
+					"生駒里奈": "2014.07.10",
+					"伊藤かりん": "2014.07.10",
+					"伊藤純奈": "2014.07.10",
+					"伊藤寧々": "2014.07.10",
+					"伊藤万理華": "2014.07.10",
+					"井上小百合": "2014.07.10",
+					"衛藤美彩": "2014.07.10",
+					"川後陽菜": "2014.07.10",
+					"川村真洋": "2014.07.10",
+					"北野日奈子": "2014.07.10",
+					"齋藤飛鳥": "2014.07.10",
+					"斎藤ちはる": "2014.07.10",
+					"斉藤優里": "2014.07.10",
+					"桜井玲香": "2014.07.10",
+					"佐々木琴子": "2014.07.10",
+					"白石麻衣": "2014.07.10",
+					"新内眞衣": "2014.07.10",
+					"鈴木絢音": "2014.07.10",
+					"高山一実": "2014.07.10",
+					"寺田蘭世": "2014.07.10",
+					"中田花奈": "2014.07.10",
+					"中元日芽香": "2014.07.10",
+					"永島聖羅": "2014.07.10",
+					"西野七瀬": "2014.07.10",
+					"能條愛未": "2014.07.10",
+					"橋本奈々未": "2014.07.10",
+					"畠中清羅": "2014.07.10",
+					"樋口日奈": "2014.07.10",
+					"深川麻衣": "2014.07.10",
+					"星野みなみ": "2014.07.10",
+					"堀未央奈": "2014.07.10",
+					"松井玲奈": "2014.07.10",
+					"松村沙友理": "2014.07.10",
+					"矢田里沙子": "2014.07.10",
+					"山崎怜奈": "2014.07.10",
+					"大和里菜": "2014.07.10",
+					"米徳京花": "2014.07.10",
+					"若月佑美": "2014.07.10",
+					"渡辺みり愛": "2014.07.10",
+					"和田まあや": "2014.07.10",
+					"市來玲奈": "2014.07.21",
+					"相楽伊織": "2014.08.02"
+				},
+				"source": "48pedia"
+			},
+			{
+				"num": 10,
+				"title": "何度目の青空か？",
+				"updateDate": "2014.10.14",
+				"source": "48pedia"
+			},
+			{
+				"num": 11,
+				"title": "命は美しい",
+				"updateDate": "2015.02.26",
+				"source": "Wayback Machine"
+			},
+			{
+				"num": 12,
+				"title": "太陽ノック",
+				"updateDate": "2015.08.01",
+				"source": "48pedia"
+			},
+			{
+				"num": 13,
+				"title": "今、話したい誰かがいる",
+				"updateDate": "2015.11.10",
+				"source": "48pedia"
+			},
+			{
+				"num": 14,
+				"title": "ハルジオンが咲く頃",
+				"updateDate": "2016.03.23",
+				"source": "48pedia"
+			},
+			{
+				"num": 15,
+				"title": "裸足でSummer",
+				"updateDate": "2016.07.28",
+				"source": "48pedia"
+			},
+			{
+				"num": 16,
+				"title": "サヨナラの意味",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 17,
+				"title": "インフルエンサー",
+				"updateDate": "2017.04.20",
+				"source": "48pedia"
+			},
+			{
+				"num": 18,
+				"title": "逃げ水",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 19,
+				"title": "いつかできるから今日できる",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 20,
+				"title": "シンクロニシティ",
+				"updateDate": "2018.05.31",
+				"source": "48pedia"
+			},
+			{
+				"num": 21,
+				"title": "ジコチューで行こう!",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 22,
+				"title": "帰り道は遠回りしたくなる",
+				"updateDate": "2018.11.14",
+				"source": "Weibo"
+			},
+			{
+				"num": 23,
+				"title": "Sing Out!",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 24,
+				"title": "夜明けまで強がらなくてもいい",
+				"updateDate": "2019.10.11",
+				"source": "Weibo"
+			},
+			{
+				"num": 25,
+				"title": "しあわせの保護色",
+				"updateDate": "2020.03.25",
+				"source": "Weibo"
+			},
+			{
+				"num": 26,
+				"title": "僕は僕を好きになる",
+				"updateDate": "2021.01.27",
+				"source": "Weibo"
+			},
+			{
+				"num": 27,
+				"title": "ごめんねFingers crossed",
+				"updateDate": "2021.06.25",
+				"source": "Weibo"
+			},
+			{
+				"num": 28,
+				"title": "君に叱られた",
+				"updateDate": "2021.11.16",
+				"source": "Weibo"
+			},
+			{
+				"num": 29,
+				"title": "Actually…",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 30,
+				"title": "好きというのはロックだぜ！",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 31,
+				"title": "ここにはないもの",
+				"updateDate": {
+					"default": "2022.12.31",
+					"mobile": "2024.02.06"
+				},
+				"source": "Weibo"
+			},
+			{
+				"num": 32,
+				"title": "人は夢を二度見る",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 33,
+				"title": "おひとりさま天国",
+				"updateDate": "2024.04.19",
+				"source": "Weibo"
+			},
+			{
+				"num": 34,
+				"title": "Monopoly",
+				"updateDate": null,
+				"source": null
+			},
+			{
+				"num": 35,
+				"title": "チャンスは平等",
+				"updateDate": {
+					"default": {
+						"五百城茉央": "2024.04.19",
+						"池田瑛紗": "2024.04.19",
+						"一ノ瀬美空": "2024.04.19",
+						"伊藤理々杏": "2024.04.19",
+						"井上和": "2024.04.19",
+						"岩本蓮加": "2024.04.19",
+						"梅澤美波": "2024.04.19",
+						"遠藤さくら": "2024.04.19",
+						"岡本姫奈": "2024.04.19",
+						"小川彩": "2024.04.19",
+						"奥田いろは": "2024.04.19",
+						"賀喜遥香": "2024.04.19",
+						"金川紗耶": "2024.04.19",
+						"川﨑桜": "2024.04.19",
+						"久保史緒里": "2024.04.19",
+						"黒見明香": "2024.04.19",
+						"佐藤楓": "2024.04.19",
+						"佐藤璃果": "2024.04.19",
+						"柴田柚菜": "2024.04.19",
+						"菅原咲月": "2024.04.19",
+						"田村真佑": "2024.04.19",
+						"筒井あやめ": "2024.04.19",
+						"冨里奈央": "2024.04.19",
+						"中西アルノ": "2024.04.19",
+						"中村麗乃": "2024.04.19",
+						"林瑠奈": "2024.04.19",
+						"松尾美佑": "2024.04.19",
+						"向井葉月": "2024.04.19",
+						"矢久保美緒": "2024.04.19",
+						"山下美月": "2024.04.19",
+						"弓木奈於": "2024.04.19",
+						"吉田綾乃クリスティー": "2024.04.19",
+						"与田祐希": "2024.04.19",
+						"阪口珠美": "2024.11.04",
+						"清宮レイ": "2024.11.04"
+					},
+					"mobile": "2024.05.24"
+				},
+				"source": "X公式"
+			},
+			{
+				"num": 36,
+				"title": "チートデイ",
+				"updateDate": {
+					"default": "2024.08.16",
+					"mobile": "2024.09.01"
+				},
+				"source": "X公式"
+			},
+			{
+				"num": 37,
+				"title": "歩道橋",
+				"updateDate": {
+					"default": "2024.11.21",
+					"mobile": "2024.12.14"
+				},
+				"source": "X公式"
+			},
+			{
+				"num": 38,
+				"title": "ネーブルオレンジ",
+				"updateDate": "2025.03.26",
+				"source": "X公式"
+			},
+			{
+				"num": 39,
+				"title": "Same numbers",
+				"updateDate": "2025.06.16",
+				"source": "X公式"
+			},
+			{
+				"num": 40,
+				"title": "ビリヤニ",
+				"updateDate": "2025.10.27",
+				"source": "X公式"
+			},
+			{
+				"num": 41,
+				"title": "最後に階段を駆け上がったのはいつだ？",
+				"updateDate": "2026.03.02",
+				"source": "X公式"
+			}
+		],
+		"special": {			
+			"復帰": {
+				"秋元真夏": {
+					"updateDate": null,
+					"afterSingle": 2,
+					"beforeSingle": 3,
+					"insingle": null,
+					"source": "48pedia"
+				},
+				"中元日芽香": {
+					"updateDate": null,
+					"afterSingle": 17,
+					"beforeSingle": 18,
+					"insingle": null,
+					"source": "48pedia"
+				}
+			},
+			"新参者": {
+				"description": "Event untuk generasi baru",
+				"updateDate": {
+					"5期生": "2023.12.03",
+					"6期生": "2025.11.09"
+				},
+				"source": "48pedia"
+			},
+			"2期生": {
+				"updateDate": "2013.10.17",
+				"source": "48pedia"
+			},
+			"3期生": {
+				"updateDate": "2016.09.06",
+				"source": "48pedia"
+			},
+			"4期生": {
+				"updateDate": "2018.11.30",
+				"source": "48pedia"
+			},
+			"新4期生": {
+				"updateDate": "2020.08.15",
+				"source": "48pedia"
+			},
+			"5期生": {
+				"description": "Tidak semua member dirilis bersamaan",
+				"updateDate": {
+					"井上和": "2022.02.02",
+					"一ノ瀬美空": "2022.02.03",
+					"菅原咲月": "2022.02.04",
+					"小川彩": "2022.02.05",
+					"冨里奈央": "2022.02.06",
+					"奥田いろは": "2022.02.07",
+					"中西アルノ": "2022.02.08",					
+					"五百城茉央": "2022.02.09",
+					"池田瑛紗": "2022.03.28",
+					"川﨑桜": "2022.04.08",
+					"岡本姫奈": "2022.05.02"
+				},
+				"source": "48pedia"
+			},
+			"6期生": {
+				"description": "Tidak semua member dirilis bersamaan",
+				"updateDate": {
+					"矢田萌華": "2025.02.06",
+					"瀬戸口心月": "2025.02.07",
+					"川端晃菜": "2025.02.08",
+					"海邉朱莉": "2025.02.09",
+					"長嶋凛桜": "2025.02.10",
+					"森平麗心": "2025.02.14",
+					"愛宕心響": "2025.02.15",
+					"大越ひなの": "2025.02.16",
+					"鈴木佑捺": "2025.02.17",
+					"小津玲奈": "2025.02.18",
+					"増田三莉音": "2025.02.19"
+				},
+				"source": "48pedia"
+			}
+		}
 	},
-	{
-		"num": 2,
-		"title": "おいでシャンプー",
-		"updateDate": "2012.04.21",
-		"source": "Wayback Machine"
+	"keyaki": {
+		"single": [
+			{
+				"num": 1,
+				"title": "サイレントマジョリティー",
+				"updateDate": "2016.04.06",
+				"source": "48pedia"
+			},
+			{
+				"num": 2,
+				"title": "世界には愛しかない",
+				"updateDate": "2016.08.25",
+				"source": "48pedia"
+			},
+			{
+				"num": 3,
+				"title": "二人セゾン",
+				"description": "Tanggal rilis Ishimori Nijika di sumber asal terdapat anomali (2019.03.22). Diseragamkan menjadi 2016.11.21 mengikuti jadwal rilis single.",
+				"updateDate": "2016.11.21",
+				"source": "48pedia"
+			},
+			{
+				"num": 4,
+				"title": "不協和音",
+				"updateDate": "2017.03.24",
+				"source": "48pedia"
+			},
+			{
+				"num": 5,
+				"title": "風に吹かれても",
+				"updateDate": "2017.10.09",
+				"source": "48pedia"
+			},
+			{
+				"num": 6,
+				"title": "ガラスを割れ!",
+				"updateDate": "2018.02.20",
+				"source": "48pedia"
+			},
+			{
+				"num": 7,
+				"title": "アンビバレント",
+				"updateDate": "2018.08.07",
+				"source": "48pedia"
+			},
+			{
+				"num": 8,
+				"title": "黒い羊",
+				"updateDate": "2019.02.08",
+				"source": "48pedia"
+			}
+		],
+		"special": {
+			"1期生": {
+				"description": "Pembaruan profil generasi pertama dari masa awal grup hingga tahun 2020.",
+				"updateDate": {
+					"2015_01": "2015.10.03",
+					"2015_02": "2015.10.27",
+					"2016": "2016.02.29",
+					"2020": "2020.03.02"
+				},
+				"source": "48pedia"
+			},
+			"2期生": {
+				"description": "Pengumuman perilisan member generasi kedua dan pembaruannya di awal tahun 2020.",
+				"updateDate": {
+					"2018": {
+						"井上梨名": "2018.12.03",
+						"関有美子": "2018.12.03",
+						"武元唯衣": "2018.12.03",
+						"田村保乃": "2018.12.04",
+						"藤吉夏鈴": "2018.12.04",
+						"松田里奈": "2018.12.04",
+						"松平璃子": "2018.12.05",
+						"森田ひかる": "2018.12.05",
+						"山﨑天": "2018.12.05"
+					},
+					"2020": "2020.01.23"
+				},
+				"source": "48pedia"
+			},
+			"新2期生": {
+				"description": "Alokasi member dari Sakamichi Kenshuusei ke Keyakizaka46 (_03) dan pembaruan profil berseragam mereka (_04).",
+				"updateDate": {
+					"2020_03": "2020.03.02",
+					"2020_04": "2020.04.06"
+				},
+				"source": "48pedia"
+			}
+		}
 	},
-	{
-		"num": 3,
-		"title": "走れ！Bicycle",
-		"updateDate": "2012.07.24",
-		"source": "Wayback Machine"
+	"sakura": {
+		"single": [
+			{
+				"num": 1,
+				"title": "Nobody's fault",
+				"updateDate": "2020.10.14",
+				"source": "48pedia"
+			},
+			{
+				"num": 2,
+				"title": "BAN",
+                "updateDate": "2021.03.19",
+				"source": "48pedia"
+			},
+			{
+				"num": 3,
+				"title": "流れ弾",
+				"updateDate": "2021.09.01",
+				"source": "48pedia"
+			},
+			{
+				"num": 4,
+				"title": "五月雨よ",
+				"updateDate": "2022.03.14",
+				"source": "48pedia"
+			},
+			{
+				"num": 5,
+				"title": "桜月",
+				"updateDate": "2022.12.12",
+				"source": "48pedia"
+			},
+			{
+				"num": 6,
+				"title": "Start over!",
+				"updateDate": "2023.06.07",
+				"source": "48pedia"
+			},
+			{
+				"num": 7,
+				"title": "承認欲求",
+				"updateDate": "2023.10.01",
+				"source": "48pedia"
+			},
+			{
+				"num": 8,
+				"title": "何歳の頃に戻りたいのか?",
+				"updateDate": "2024.02.04",
+				"source": "48pedia"
+			},
+			{
+				"num": 9,
+				"title": "自業自得",
+				"updateDate": "2024.06.06",
+				"source": "48pedia"
+			},
+			{
+				"num": 10,
+				"title": "I want tomorrow to come",
+				"updateDate": "2024.10.03",
+				"source": "48pedia"
+			},
+			{
+				"num": 11,
+				"title": "UDAGAWA GENERATION",
+				"updateDate": "2025.02.03",
+				"source": "48pedia"
+			},
+			{
+				"num": 12,
+				"title": "Make or Break",
+				"updateDate": "2025.06.04",
+				"source": "48pedia"
+			},
+			{
+				"num": 13,
+				"title": "Unhappy birthday構文",
+				"updateDate": "2025.10.01",
+				"source": "48pedia"
+			},
+			{
+				"num": 14,
+				"title": "The growing up train",
+				"updateDate": "2026.02.23",
+				"source": "48pedia"
+			}
+		],
+		"album": [
+			{
+				"num": 1,
+				"title": "As you know?",
+				"updateDate": "2022.07.26",
+				"source": "48pedia"
+			}
+		],
+		"special": {
+			"3期生": {
+				"description": "Tidak semua member dirilis bersamaan",
+				"updateDate": {
+					"的野美青": "2023.01.06",
+					"小島凪紗": "2023.01.07",
+					"中嶋優月": "2023.01.08",
+					"小田倉麗奈": "2023.01.09",
+					"向井純葉": "2023.01.10",
+					"遠藤理子": "2023.01.11",
+					"石森璃花": "2023.01.12",
+					"谷口愛季": "2023.01.13",
+					"村山美羽": "2023.01.14",
+					"村井優": "2023.03.01",
+					"山下瞳月": "2023.03.02"
+				},
+				"source": "48pedia"
+			},
+			"3期生おもてなし会": {
+				"updateDate": "2023.03.03",
+				"source": "48pedia"
+			},
+			"4期生": {
+				"description": "Tidak semua member dirilis bersamaan",
+				"updateDate": {
+					"松本和子": "2025.05.01",
+					"稲熊ひな": "2025.05.01",
+					"中川智尋": "2025.05.02",
+					"佐藤愛桜": "2025.05.02",
+					"目黒陽色": "2025.05.03",
+					"浅井恋乃未": "2025.05.03",
+					"勝又春": "2025.05.04",
+					"山田桃実": "2025.05.04",
+					"山川宇衣": "2025.05.05"
+				},
+				"source": "48pedia"
+			},
+			"4期生特設サイト": {
+				"description": "Tidak semua member dirilis bersamaan",
+				"updateDate": {
+					"松本和子": "2025.04.16",
+					"稲熊ひな": "2025.04.17",
+					"佐藤愛桜": "2025.04.18",
+					"中川智尋": "2025.04.19",
+					"目黒陽色": "2025.04.20",
+					"浅井恋乃未": "2025.04.21",
+					"山田桃実": "2025.04.22",
+					"勝又春": "2025.04.23",
+					"山川宇衣": "2025.04.24"
+				},
+				"source": "48pedia"
+			},
+			"新参者": {
+				"description": "Event untuk generasi baru",
+				"updateDate": {
+					"3期生": "2023.12.04",
+					"4期生": "2025.11.13"
+				}
+			},
+			"backslive": {
+				"description": "",
+				"updateDate": {
+					"01": "2021.06.09",
+					"03": "2022.01.07",
+					"07": "2024.01.23",
+					"08": "2024.05.05",
+					"09": "2024.08.10",
+					"10": "2024.11.26",
+					"11": "2025.02.16",
+					"12": "2025.07.24",
+					"13": "2025.11.25"
+				}
+			}
+    }
 	},
-	{
-		"num": 4,
-		"title": "制服のマネキン",
-		"updateDate": "2012.12.14",
-		"source": "Wayback Machine"
+	"hinata": {
+		"single": [
+			{
+				"num": 1,
+				"title": "キュン",
+				"updateDate": "2019.02.11",
+				"source": "48pedia"
+			},
+			{
+				"num": 2,
+				"title": "ドレミソラシド",
+				"updateDate": "2019.07.05",
+				"source": "48pedia"
+			},
+			{
+				"num": 3,
+				"title": "こんなに好きになっちゃっていいの?",
+				"updateDate": "2019.09.27",
+				"source": "48pedia"
+			},
+			{
+				"num": 4,
+				"title": "ソンナコトナイヨ",
+				"description": "Profil reguler dirilis Februari 2020. Profil 新3期生 (Yamaguchi Haruyo, Morimoto Mari, Takahashi Mikuni) yang baru dialokasikan dirilis menyusul pada April 2020.",
+				"updateDate": {
+					"上村ひなの": "2020.02.01",
+					"丹生明里": "2020.02.01",
+					"佐々木久美": "2020.02.01",
+					"佐々木美玲": "2020.02.01",
+					"加藤史帆": "2020.02.01",
+					"宮田愛萌": "2020.02.01",
+					"富田鈴花": "2020.02.01",
+					"小坂菜緒": "2020.02.01",
+					"東村芽依": "2020.02.01",
+					"松田好花": "2020.02.01",
+					"河田陽菜": "2020.02.01",
+					"渡邉美穂": "2020.02.01",
+					"潮紗理菜": "2020.02.01",
+					"濱岸ひより": "2020.02.01",
+					"金村美玖": "2020.02.01",
+					"高本彩花": "2020.02.01",
+					"高瀬愛奈": "2020.02.01",
+					"齊藤京子": "2020.02.01",
+					"山口陽世": "2020.04.06",
+					"森本茉莉": "2020.04.06",
+					"髙橋未来虹": "2020.04.06"
+				},
+				"source": "48pedia"
+			},
+			{
+				"num": 5,
+				"title": "君しか勝たん",
+				"updateDate": "2021.05.01",
+				"source": "48pedia"
+			},
+			{
+				"num": 6,
+				"title": "ってか",
+				"updateDate": "2021.10.01",
+				"source": "48pedia"
+			},
+			{
+				"num": 7,
+				"title": "僕なんか",
+				"updateDate": "2022.03.31",
+				"source": "48pedia"
+			},
+			{
+				"num": 8,
+				"title": "月と星が踊るMidnight",
+				"updateDate": "2022.09.10",
+				"source": "48pedia"
+			},
+			{
+				"num": 9,
+				"title": "One choice",
+				"updateDate": "2023.03.08",
+				"source": "48pedia"
+			},
+			{
+				"num": 10,
+				"title": "Am I ready?",
+				"updateDate": "2023.06.19",
+				"source": "48pedia"
+			},
+			{
+				"num": 11,
+				"title": "君はハニーデュー",
+				"updateDate": "2024.03.12",
+				"source": "48pedia"
+			},
+			{
+				"num": 12,
+				"title": "絶対的第六感",
+				"updateDate": "2024.08.21",
+				"source": "48pedia"
+			},
+			{
+				"num": 13,
+				"title": "卒業写真だけが知ってる",
+				"updateDate": "2024.12.18",
+				"source": "48pedia"
+			},
+			{
+				"num": 14,
+				"title": "Love yourself!",
+				"updateDate": "2025.05.01",
+				"source": "48pedia"
+			},
+			{
+				"num": 15,
+				"title": "お願いバッハ!",
+				"updateDate": "2025.09.02",
+				"source": "48pedia"
+			},
+			{
+				"num": 16,
+				"title": "クリフハンガー",
+				"updateDate": "2026.01.05",
+				"source": "48pedia"
+			}
+		],
+		"album": [
+			{
+				"num": 1,
+				"title": "ひなたざか",
+				"updateDate": "2020.09.07",
+				"source": "48pedia"
+			},
+			{
+				"num": 2,
+				"title": "脈打つ感情",
+				"updateDate": "2023.09.25",
+				"source": "48pedia"
+			}
+		],
+		"special": {
+			"keyaki": {
+				"description": "Rilis selama era Hiragana Keyakizaka46. 'kyks02_k' menandakan status concurrent/kenin (Kanji & Hiragana Keyakizaka), sedangkan 'kyks02_h' menandakan status khusus Hiragana Keyakizaka.",
+				"updateDate": {
+					"kyks01": "2016.04.06",
+					"kyks02_k": "2016.08.25",
+					"kyks02_h": "2016.10.08",
+					"kyks03": "2016.11.21",
+					"kyks04": "2017.03.24",
+					"kyks05": "2017.10.09", 
+					"kyks06": "2018.02.20",
+					"kyka01": "2018.06.01",
+					"kyks08": "2019.02.08"
+				},
+				"source": "48pedia"
+			},
+			"hiragana_live": {
+				"description": "ひなた坂46 LIVE (Undergroup)",
+				"updateDate": {
+					"11": "2024.06.29",
+					"12": "2024.10.12",
+					"13": "2025.04.21",
+					"16": "2026.02.13"
+				},
+				"source": "48pedia"
+			},
+			"新参者": {
+				"description": "Event Shinzanmono 4ki & 5ki",
+				"updateDate": {
+					"4期生": "2023.12.04",
+					"5期生": "2025.11.10"
+				},
+				"source": "48pedia"
+			},
+			"1期生": {
+				"updateDate": "2016.08.25",
+				"source": "48pedia"
+			},
+			"3期生": {
+				"updateDate": "2018.12.06",
+				"source": "48pedia"
+			},
+			"新3期生": {
+				"updateDate": "2020.03.02",
+				"source": "48pedia"
+			},
+			"4期生": {
+				"description": "Tidak semua member dirilis bersamaan",
+				"updateDate": {
+					"清水理央": "2022.09.22",
+					"宮地すみれ": "2022.09.23",
+					"正源司陽子": "2022.09.24",
+					"石塚瑶季": "2022.09.25",
+					"山下葉留花": "2022.09.26",
+					"平尾帆夏": "2022.09.27",
+					"渡辺莉奈": "2022.09.28",
+					"藤嶌果歩": "2022.09.29",
+					"平岡海月": "2022.09.30",
+					"竹内希来里": "2022.10.01",
+					"岸帆夏": "2022.10.02",
+					"小西夏菜実": "2022.10.03"
+				},
+				"source": "48pedia"
+			},
+			"5期生": {
+				"description": "Tidak semua member dirilis bersamaan",
+				"updateDate": {
+					"大野愛実": "2025.03.11",
+					"鶴崎仁香": "2025.03.12",
+					"坂井新奈": "2025.03.13",
+					"佐藤優羽": "2025.03.14",
+					"下田衣珠季": "2025.03.15",
+					"片山紗希": "2025.03.16",
+					"大田美月": "2025.03.17",
+					"高井俐香": "2025.03.18",
+					"松尾桜": "2025.03.19",
+					"蔵盛妃那乃": "2025.03.20"
+				},
+				"source": "48pedia"
+			}
+		}
 	},
-	{
-		"num": 5,
-		"title": "君の名は希望",
-		"updateDate": "2013.05.02",
-		"source": "Wayback Machine"
-	},
-	{
-		"num": 6,
-		"title": "ガールズルール",
-		"updateDate": "2013.07.08",
-		"source": "Wayback Machine"
-	},
-	{
-		"num": 7,
-		"title": "バレッタ",
-		"updateDate": "2013.11.28",
-		"source": "Wayback Machine"
-	},
-	{
-		"num": 8,
-		"title": "気づいたら片想い",
-		"updateDate": "2014.03.27",
-		"source": "48pedia"
-	},
-	{
-		"num": 9,
-		"title": "夏のFree&Easy",
-		"updateDate": "2014.07.10",
-		"source": "48pedia"
-	},
-	{
-		"num": 10,
-		"title": "何度目の青空か？",
-		"updateDate": "2014.10.14",
-		"source": "48pedia"
-	},
-	{
-		"num": 11,
-		"title": "命は美しい",
-		"updateDate": "2015.02.26",
-		"source": "Wayback Machine"
-	},
-	{
-		"num": 12,
-		"title": "太陽ノック",
-		"updateDate": "2015.08.01",
-		"source": "48pedia"
-	},
-	{
-		"num": 13,
-		"title": "今、話したい誰かがいる",
-		"updateDate": "2015.11.10",
-		"source": "48pedia"
-	},
-	{
-		"num": 14,
-		"title": "ハルジオンが咲く頃",
-		"updateDate": "2016.03.23",
-		"source": "48pedia"
-	},
-	{
-		"num": 15,
-		"title": "裸足でSummer",
-		"updateDate": "2016.07.28",
-		"source": "48pedia"
-	},
-	{
-		"num": 16,
-		"title": "サヨナラの意味",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 17,
-		"title": "インフルエンサー",
-		"updateDate": "2017.04.20",
-		"source": "48pedia"
-	},
-	{
-		"num": 18,
-		"title": "逃げ水",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 19,
-		"title": "いつかできるから今日できる",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 20,
-		"title": "シンクロニシティ",
-		"updateDate": "2018.05.31",
-		"source": "48pedia"
-	},
-	{
-		"num": 21,
-		"title": "ジコチューで行こう!",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 22,
-		"title": "帰り道は遠回りしたくなる",
-		"updateDate": "2018.11.14",
-		"source": "Weibo"
-	},
-	{
-		"num": 23,
-		"title": "Sing Out!",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 24,
-		"title": "夜明けまで強がらなくてもいい",
-		"updateDate": "2019.10.11",
-		"source": "Weibo"
-	},
-	{
-		"num": 25,
-		"title": "しあわせの保護色",
-		"updateDate": "2020.03.25",
-		"source": "Weibo"
-	},
-	{
-		"num": 26,
-		"title": "僕は僕を好きになる",
-		"updateDate": "2021.01.27",
-		"source": "Weibo"
-	},
-	{
-		"num": 27,
-		"title": "ごめんねFingers crossed",
-		"updateDate": "2021.06.25",
-		"source": "Weibo"
-	},
-	{
-		"num": 28,
-		"title": "君に叱られた",
-		"updateDate": "2021.11.16",
-		"source": "Weibo"
-	},
-	{
-		"num": 29,
-		"title": "Actually…",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 30,
-		"title": "好きというのはロックだぜ！",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 31,
-		"title": "ここにはないもの",
-		"updateDate": "2022.12.31",
-		"source": "Weibo"
-	},
-	{
-		"num": 32,
-		"title": "人は夢を二度見る",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 33,
-		"title": "おひとりさま天国",
-		"updateDate": "2024.04.19",
-		"source": "Weibo"
-	},
-	{
-		"num": 34,
-		"title": "Monopoly",
-		"updateDate": null,
-		"source": null
-	},
-	{
-		"num": 35,
-		"title": "チャンスは平等",
-		"updateDate": "2024.04.19",
-		"source": "X公式"
-	},
-	{
-		"num": 36,
-		"title": "チートデイ",
-		"updateDate": "2024.08.16",
-		"source": "X公式"
-	},
-	{
-		"num": 37,
-		"title": "歩道橋",
-		"updateDate": "2024.11.21",
-		"source": "X公式"
-	},
-	{
-		"num": 38,
-		"title": "ネーブルオレンジ",
-		"updateDate": "2025.03.26",
-		"source": "X公式"
-	},
-	{
-		"num": 39,
-		"title": "Same numbers",
-		"updateDate": "2025.06.16",
-		"source": "X公式"
-	},
-	{
-		"num": 40,
-		"title": "ビリヤニ",
-		"updateDate": "2025.10.27",
-		"source": "X公式"
-	},
-	{
-		"num": 41,
-		"title": "最後に階段を駆け上がったのはいつだ？",
-		"updateDate": "2026.03.02",
-		"source": "X公式"
+	"bokuao": {
+		"single": [
+			{
+				"num": 1,
+				"title": "6月",
+				"updateDate": "2023.06.15",
+				"source": "Wiki"
+			},
+			{
+				"num": 2,
+				"title": "卒業まで",
+				"updateDate": "2023.12.06",
+				"source": "Wiki"
+			},
+			{
+				"num": 3,
+				"title": "4月",
+				"updateDate": "2024.04.02",
+				"source": "Wiki"
+			},
+			{
+				"num": 5,
+				"title": "恋は倍速",
+				"description": "01: Sepinggang, 02: Sedada, 03: Full Body",
+				"updateDate": {
+					"01": "2025.02.01",
+					"02": "2025.03.09",
+					"03": "2025.03.09"
+				},
+				"source": "Wiki"
+			},
+			{
+				"num": 6,
+				"title": "視線のラブレター",
+				"updateDate": "2025.05.07",
+				"source": "Wiki"
+			},
+			{
+				"num": 7,
+				"title": "あれはフェアリー",
+				"updateDate": "2025.11.01",
+				"source": "Wiki"
+			},
+			{
+				"num": 8,
+				"title": "8thシングル",
+				"updateDate": "2026.04.05",
+				"source": "Wiki"
+			}
+		],
+		"album": [],
+		"special": {
+			"CHINTAI": {
+				"description": "Kolaborasi promosi CHINTAI",
+				"updateDate": {
+					"2023": "2023.08.16",
+					"2024": "2024.08.18",
+					"2025": "2025.03.09"
+				},
+				"source": "Wiki"
+			},
+			"aprilfool": {
+				"description": "Profil spesial April Mop",
+				"updateDate": {
+					"2024": "2024.04.01",
+					"2026": "2026.04.01"
+				},
+				"source": "Wiki"
+			},
+			"夏霞": {
+				"description": "01: Wajah, 02: Full Body",
+				"updateDate": {
+					"2024_01": "2024.05.29",
+					"2024_02": "2024.05.29",
+					"2025": "2025.09.01"
+				},
+				"source": "Wiki"
+			}
+		}
 	}
-]
+}

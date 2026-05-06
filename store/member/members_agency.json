@@ -1,0 +1,542 @@
+{
+	"Nogizaka46 LLC": {
+		"agency_jp": "乃木坂46合同会社",
+		"agency_ro": "Nogizaka46 LLC",
+		"logo": null,
+		"member": {
+			"nogizaka": ["川端晃菜", "弓木奈於", "菅原咲月", "長嶋凛桜", "瀬戸口心月", "伊藤万理華", "冨里奈央", "樋口日奈", "森平麗心", "黒見明香", "岡本姫奈", "岩本蓮加", "齋藤飛鳥", "田村真佑", "中田花奈", "増田三莉音", "与田祐希", "伊藤理々杏", "一ノ瀬美空", "小川彩", "山下美月", "小津玲奈", "梅澤美波", "矢田萌華", "吉田綾乃クリスティー", "桜井玲香", "西野七瀬", "五百城茉央", "井上和", "金川紗耶", "中元日芽香", "林瑠奈", "高山一実", "遠藤さくら", "川﨑桜", "奥田いろは", "柴田柚菜", "中西アルノ", "伊藤かりん", "池田瑛紗", "海邉朱莉", "久保史緒里", "白石麻衣", "鈴木佑捺", "賀喜遥香", "愛宕心響", "大越ひなの", "筒井あやめ"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Seed & Flower LLC": {
+		"agency_jp": "Seed & Flower合同会社",
+		"agency_ro": "Seed & Flower LLC",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": ["平岡海月", "藤嶌果歩", "高井俐香", "片山紗希", "鶴崎仁香", "平尾帆夏", "山口陽世", "大田美月", "松田好花", "渡辺莉奈", "佐藤優羽", "石塚瑶季", "松尾桜", "金村美玖", "上村ひなの", "清水理央", "佐々木久美", "加藤史帆", "大野愛実", "宮地すみれ", "下田衣珠季", "小西夏菜実", "髙橋未来虹", "正源司陽子", "坂井新奈", "山下葉留花", "蔵盛妃那乃", "森本茉莉", "小坂菜緒", "竹内希来里", "丹生明里"],
+			"sakurazaka": ["佐藤愛桜", "浅井恋乃未", "小林由依", "増本綺良", "村山美羽", "松田里奈", "山下瞳月", "田村保乃", "向井純葉", "森田ひかる", "石森璃花", "松本和子", "中嶋優月", "小島凪紗", "小田倉麗奈", "大沼晶保", "勝又春", "山川宇衣", "稲熊ひな", "幸阪茉里乃", "中川智尋", "山田桃実", "遠藤光莉", "大園玲", "遠藤理子", "守屋麗奈", "藤吉夏鈴", "山﨑天", "的野美青", "目黒陽色", "谷口愛季", "村井優", "武元唯衣"],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Ligareaz Management": {
+		"agency_jp": "Ligareaz Management",
+		"agency_ro": "Ligareaz Management",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": ["杉浦英恋", "木下藍", "八重樫美伊咲", "秋田莉杏", "塩釜菜那", "伊藤ゆず", "西森杏弥", "吉本此那", "宮腰友里亜", "萩原心花", "金澤亜美", "安納蒼衣", "柳堀花怜", "青木宙帆", "今井優希", "八木仁愛", "長谷川稀未", "岩本理瑚", "工藤唯愛", "早﨑すずき", "須永心海"]
+		}
+	},
+	"Office Nigun Niiba": {
+		"agency_jp": "オフィスニグンニイバ",
+		"agency_ro": "Office Nigun Niiba",
+		"logo": null,
+		"member": {
+			"nogizaka": ["山本穂乃香"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"INCENT Group (IDEA)": {
+		"agency_jp": "イデア",
+		"agency_ro": "INCENT Group (IDEA)",
+		"logo": null,
+		"member": {
+			"nogizaka": ["宮澤成良"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Nippon TV": {
+		"agency_jp": "日本テレビ放送網",
+		"agency_ro": "Nippon TV",
+		"logo": null,
+		"member": {
+			"nogizaka": ["市來玲奈"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"MSC": {
+		"agency_jp": "MSC",
+		"agency_ro": "MSC",
+		"logo": null,
+		"member": {
+			"nogizaka": ["畠中清羅"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"A-Plus": {
+		"agency_jp": "A-Plus",
+		"agency_ro": "A-Plus",
+		"logo": null,
+		"member": {
+			"nogizaka": ["松井玲奈"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Horipro": {
+		"agency_jp": "ホリプロ",
+		"agency_ro": "Horipro",
+		"logo": null,
+		"member": {
+			"nogizaka": ["永島聖羅"],
+			"hinatazaka": ["濱岸ひより"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"TEN CARAT": {
+		"agency_jp": "テンカラット",
+		"agency_ro": "TEN CARAT",
+		"logo": null,
+		"member": {
+			"nogizaka": ["深川麻衣"],
+			"hinatazaka": [],
+			"sakurazaka": ["守屋茜"],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"TWIN PLANET": {
+		"agency_jp": "TWIN PLANET",
+		"agency_ro": "TWIN PLANET",
+		"logo": null,
+		"member": {
+			"nogizaka": ["能條愛未", "川村真洋", "衛藤美彩"],
+			"hinatazaka": ["東村芽依"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"CGG": {
+		"agency_jp": "CGG",
+		"agency_ro": "CGG",
+		"logo": null,
+		"member": {
+			"nogizaka": ["生駒里奈"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"TV Asahi": {
+		"agency_jp": "テレビ朝日",
+		"agency_ro": "TV Asahi",
+		"logo": null,
+		"member": {
+			"nogizaka": ["斎藤ちはる"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"am LLC": {
+		"agency_jp": "am合同会社",
+		"agency_ro": "am LLC",
+		"logo": null,
+		"member": {
+			"nogizaka": ["北野日奈子", "相楽伊織", "堀未央奈"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Zest": {
+		"agency_jp": "ゼスト",
+		"agency_ro": "Zest",
+		"logo": null,
+		"member": {
+			"nogizaka": ["若月佑美"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"LAND": {
+		"agency_jp": "LAND",
+		"agency_ro": "LAND",
+		"logo": null,
+		"member": {
+			"nogizaka": ["川後陽菜"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"321": {
+		"agency_jp": "321",
+		"agency_ro": "321",
+		"logo": null,
+		"member": {
+			"nogizaka": ["斉藤優里"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Ardy": {
+		"agency_jp": "アルディ",
+		"agency_ro": "Ardy",
+		"logo": null,
+		"member": {
+			"nogizaka": ["佐々木琴子"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"SIS Company": {
+		"agency_jp": "シス・カンパニー",
+		"agency_ro": "SIS Company",
+		"logo": null,
+		"member": {
+			"nogizaka": ["井上小百合"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"FIRST AGENT": {
+		"agency_jp": "FIRST AGENT",
+		"agency_ro": "FIRST AGENT",
+		"logo": null,
+		"member": {
+			"nogizaka": ["松村沙友理"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Tie Works": {
+		"agency_jp": "Tie Works",
+		"agency_ro": "Tie Works",
+		"logo": null,
+		"member": {
+			"nogizaka": ["伊藤純奈"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Alligator": {
+		"agency_jp": "アリゲーター",
+		"agency_ro": "Alligator",
+		"logo": null,
+		"member": {
+			"nogizaka": ["渡辺みり愛"],
+			"hinatazaka": [],
+			"sakurazaka": ["松平璃子"],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Ohta Production": {
+		"agency_jp": "太田プロダクション",
+		"agency_ro": "Ohta Production",
+		"logo": null,
+		"member": {
+			"nogizaka": ["生田絵梨花"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Cent Force": {
+		"agency_jp": "セント・フォース",
+		"agency_ro": "Cent Force",
+		"logo": null,
+		"member": {
+			"nogizaka": ["新内眞衣"],
+			"hinatazaka": ["潮紗理菜"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Mount Cape": {
+		"agency_jp": "マウントケープ",
+		"agency_ro": "Mount Cape",
+		"logo": null,
+		"member": {
+			"nogizaka": ["山崎怜奈"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Exciting Trigger": {
+		"agency_jp": "エキサイティング・トリガー",
+		"agency_ro": "Exciting Trigger",
+		"logo": null,
+		"member": {
+			"nogizaka": ["秋元真夏"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"A.M.Entertainment": {
+		"agency_jp": "A.M.Entertainment",
+		"agency_ro": "A.M.Entertainment",
+		"logo": null,
+		"member": {
+			"nogizaka": ["鈴木絢音"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Deep Skill": {
+		"agency_jp": "ディープスキル",
+		"agency_ro": "Deep Skill",
+		"logo": null,
+		"member": {
+			"nogizaka": ["阪口珠美"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Mashito Star": {
+		"agency_jp": "マシットスター",
+		"agency_ro": "Mashito Star",
+		"logo": null,
+		"member": {
+			"nogizaka": ["清宮レイ"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Avex AY Factory LLC": {
+		"agency_jp": "エイベックス・AY・ファクトリー合同会社",
+		"agency_ro": "Avex AY Factory LLC",
+		"logo": null,
+		"member": {
+			"nogizaka": ["中村麗乃"],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"seju": {
+		"agency_jp": "seju",
+		"agency_ro": "seju",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": ["今泉佑唯", "織田奈那"],
+			"bokuao": []
+		}
+	},
+	"ONPA JAPAN": {
+		"agency_jp": "ONPA JAPAN",
+		"agency_ro": "ONPA JAPAN",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": ["志田愛佳"],
+			"bokuao": []
+		}
+	},
+	"FLaMme": {
+		"agency_jp": "フラーム",
+		"agency_ro": "FLaMme",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": ["長濱ねる"],
+			"bokuao": []
+		}
+	},
+	"Cloud Nine": {
+		"agency_jp": "クラウドナイン",
+		"agency_ro": "Cloud Nine",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": [],
+			"keyakizaka": ["平手友梨奈"],
+			"bokuao": []
+		}
+	},
+	"Fuji Television": {
+		"agency_jp": "フジテレビ",
+		"agency_ro": "Fuji Television",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": ["原田葵"],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"TopCoat": {
+		"agency_jp": "トップコート",
+		"agency_ro": "TopCoat",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": ["菅井友香"],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"INFINITY": {
+		"agency_jp": "INFINITY",
+		"agency_ro": "INFINITY",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": ["齋藤冬優花"],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Our Songs": {
+		"agency_jp": "アワーソングス",
+		"agency_ro": "Our Songs",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": [],
+			"sakurazaka": ["小池美波"],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Queen Bee": {
+		"agency_jp": "クィーンビー",
+		"agency_ro": "Queen Bee",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": ["渡邉美穂", "佐々木美玲"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"FARM": {
+		"agency_jp": "FARM",
+		"agency_ro": "FARM",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": ["宮田愛萌"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Production Ogi": {
+		"agency_jp": "プロダクション尾木",
+		"agency_ro": "Production Ogi",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": ["影山優佳"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"Toho Entertainment": {
+		"agency_jp": "東宝芸能",
+		"agency_ro": "Toho Entertainment",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": ["齊藤京子"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"NEXT LEAP": {
+		"agency_jp": "NEXT LEAP",
+		"agency_ro": "NEXT LEAP",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": ["高本彩花"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"TRUSTAR": {
+		"agency_jp": "TRUSTAR",
+		"agency_ro": "TRUSTAR",
+		"logo": null,
+		"member": {
+			"nogizaka": [],
+			"hinatazaka": ["富田鈴花"],
+			"sakurazaka": [],
+			"keyakizaka": [],
+			"bokuao": []
+		}
+	},
+	"no_agency": {
+		"agency_jp": null,
+		"agency_ro": null,
+		"logo": null,
+		"member": {
+			"nogizaka": ["掛橋沙耶香", "寺田蘭世", "佐藤璃果", "安藤美雲", "北川悠理", "大園桃子", "伊藤寧々", "松尾美佑", "柏幸奈", "矢田里沙子", "星野みなみ", "吉本彩華", "矢久保美緒", "米徳京花", "岩瀬佑美子", "橋本奈々未", "和田まあや", "早川聖来", "大和里菜", "西川七海", "佐藤楓", "向井葉月"],
+			"hinatazaka": ["岸帆夏", "河田陽菜", "柿崎芽実", "井口眞緒", "高瀬愛奈"],
+			"sakurazaka": ["土生瑞穂", "井上梨名", "尾関梨香", "上村莉菜", "関有美子", "渡邉理佐", "渡辺梨加"],
+			"keyakizaka": ["原田まゆ", "石森虹花", "佐藤詩織", "長沢菜々香", "米谷奈々未", "鈴本美愉", "鈴木泉帆"],
+			"bokuao": ["山口結杏", "持永真奈"]
+		}
+	}
+}

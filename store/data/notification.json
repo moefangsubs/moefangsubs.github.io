@@ -1,21 +1,33 @@
 {
 	"01": {
-		"type"	: "experiment",
-		"note"	: "Mohon maaf, karena ada masalah dari sisi Firebase, fitur dalam MoeChat tidak dapat digunakan."
+		"type"	: "feature",
+		"note"	: "Banyak database baru di MoeData! Silakan cek~"
 	},
 	"02": {
 		"type"	: "feature",
-		"note"	: "Suka bikin formasi senbatsu? Silakan buka PLAY dan Klik Senbatsu."
+		"note"	: "Pengen tau vibe lagu Nogizaka? Cek MoePlay lalu pilih 'Song Vibe' (untuk saat ini hanya bisa dibuka lewat PC/Laptop/mode landscape)"
 	},
 	"03": {
+		"type"	: "feature",
+		"note"	: "Suka bikin formasi senbatsu? Silakan buka PLAY dan Klik Senbatsu."
+	},
+	"04": {
+		"type"	: "experiment",
+		"note"	: "Mohon maaf, karena ada masalah dari sisi Firebase, fitur dalam MoeChat tidak dapat digunakan."
+	},
+	"05": {
+		"type"	: "experiment",
+		"note"	: "Mohon maaf, saat ini Song Quiz di MoePlay mengalami gangguan."
+	},	
+	"06": {
 		"type"	: "experiment",
 		"note"	: "Mohon maaf, karena ada masalah dari sisi Firebase, jadi mulai sekarang hanya fitur login saja. Untuk fitur like sudah dihilangkan."
 	},
-	"04": {
+	"07": {
 		"type"	: "notice",
 		"note"	: "Mulai 2025, kami melakukan update garapan terlebih dahulu bagi para supporter di Trakteer, dan untuk update di website ini akan ada jeda beberapa hari."
 	},
-	"05": {
+	"08": {
 		"type"	: "feature",
 		"note"	: "Dengan mengklik panah di sebelah daftar lagu pada variety musik, kamu akan diarahkan ke pencarian YouTube sesuai lagu yang diklik."
 	}

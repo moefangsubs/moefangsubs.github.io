@@ -1,0 +1,1125 @@
+{
+    "v3_nogi": {
+        "s01": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s02": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s03": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s04": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s05": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s06": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "01": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "02": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s07": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s08": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s09": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s10": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s11": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 375,
+                    "offset-x": 0, "offset-y": -77,
+                    "custom": {}
+                }
+            }
+        },
+        "s12": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s13": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "01": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "02": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s14": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s15": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s17": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "01": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "02": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s20": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s22": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "01": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "02": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s24": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "01": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "02": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s25": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "01": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "02": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s26": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s27": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            }
+        },
+        "s28": {
+            "original": {
+                "normal": {
+                    "left": 20, "right": 20, "top": 40, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "和田まあや": { "offset-x": 0, "offset-y": -35 }
+                    }
+                },
+                "round": {
+                    "radius": 474,
+                    "offset-x": 0, "offset-y": -106,
+                    "custom": {
+                        "与田祐希": { "radius": 474, "offset-x": 0, "offset-y": -36 },
+                        "佐藤璃果": { "radius": 474, "offset-x": 0, "offset-y": -66 },
+                        "向井葉月": { "radius": 474, "offset-x": 0, "offset-y": -35 },
+                        "柴田柚菜": { "radius": 474, "offset-x": 0, "offset-y": -56 },
+                        "鈴木絢音": { "radius": 474, "offset-x": 0, "offset-y": -36 },
+                        "齋藤飛鳥": { "radius": 474, "offset-x": 0, "offset-y": -46 },
+                        "黒見明香": { "radius": 474, "offset-x": 0, "offset-y": -46 },
+                        "筒井あやめ": { "radius": 474, "offset-x": 0, "offset-y": -66 }
+                    }
+                }
+            }
+        },
+        "s31": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "mobile": {
+                "lockratio": {
+                    "left": 200, "right": 200, "top": 50, "bottom": 484,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 335,
+                    "offset-x": 0, "offset-y": -207,
+                    "custom": {
+                        "佐藤楓": { "radius": 335, "offset-x": 10, "offset-y": -207 }
+                    }
+                }
+            }
+        },
+        "s33": {
+            "original": {
+                "lockratio": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "mobile": {
+                "lockratio": {
+                    "left": 200, "right": 200, "top": 50, "bottom": 484,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 300,
+                    "offset-x": 0, "offset-y": -250,
+                    "custom": {
+                        "中村麗乃": { "radius": 300, "offset-x": 25, "offset-y": -250 },
+                        "佐藤楓": { "radius": 300, "offset-x": 45, "offset-y": -250 },
+                        "吉田綾乃クリスティー": { "radius": 300, "offset-x": 25, "offset-y": -250 },
+                        "山下美月": { "radius": 300, "offset-x": 15, "offset-y": -250 },
+                        "岡本姫奈": { "radius": 145, "offset-x": 0, "offset-y": -165 },
+                        "林瑠奈": { "radius": 145, "offset-x": 0, "offset-y": -160 }
+                    }
+                }
+            }
+        },
+        "s35": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": 0,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 145,
+                    "offset-x": 0, "offset-y": -30,
+                    "custom": {}
+                }
+            },
+            "mobile": {
+                "lockratio": {
+                    "left": 200, "right": 200, "top": 50, "bottom": 484,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "一ノ瀬美空": { "offset-x": -25, "offset-y": 0 },
+                        "与田祐希": { "offset-x": 45, "offset-y": 0 },
+                        "中西アルノ": { "offset-x": -20, "offset-y": 0 },
+                        "久保史緒里": { "offset-x": 40, "offset-y": 0 },
+                        "五百城茉央": { "offset-x": -15, "offset-y": 0 },
+                        "伊藤理々杏": { "offset-x": -45, "offset-y": 0 },
+                        "佐藤楓": { "offset-x": -50, "offset-y": 0 },
+                        "岩本蓮加": { "offset-x": -35, "offset-y": 0 },
+                        "川﨑桜": { "offset-x": 10, "offset-y": 0 },
+                        "弓木奈於": { "offset-x": 15, "offset-y": 0 },
+                        "柴田柚菜": { "offset-x": -60, "offset-y": 0 },
+                        "梅澤美波": { "offset-x": -40, "offset-y": 0 },
+                        "田村真佑": { "offset-x": 25, "offset-y": 0 },
+                        "賀喜遥香": { "offset-x": 20, "offset-y": 0 },
+                        "金川紗耶": { "offset-x": -25, "offset-y": 0 },
+                        "池田瑛紗": { "offset-x": -20, "offset-y": 0 }
+                    }
+                },
+                "round": {
+                    "radius": 300,
+                    "offset-x": 0, "offset-y": -240,
+                    "custom": {
+                        "一ノ瀬美空": { "radius": 300, "offset-x": -25, "offset-y": -240 },
+                        "与田祐希": { "radius": 300, "offset-x": 45, "offset-y": -240 },
+                        "中西アルノ": { "radius": 300, "offset-x": -20, "offset-y": -240 },
+                        "久保史緒里": { "radius": 300, "offset-x": 40, "offset-y": -240 },
+                        "五百城茉央": { "radius": 300, "offset-x": -15, "offset-y": -240 },
+                        "伊藤理々杏": { "radius": 300, "offset-x": -45, "offset-y": -240 },
+                        "佐藤楓": { "radius": 300, "offset-x": -50, "offset-y": -240 },
+                        "岩本蓮加": { "radius": 300, "offset-x": -35, "offset-y": -240 },
+                        "川﨑桜": { "radius": 300, "offset-x": 10, "offset-y": -240 },
+                        "弓木奈於": { "radius": 300, "offset-x": 15, "offset-y": -240 },
+                        "柴田柚菜": { "radius": 300, "offset-x": -60, "offset-y": -240 },
+                        "梅澤美波": { "radius": 300, "offset-x": -40, "offset-y": -240 },
+                        "田村真佑": { "radius": 300, "offset-x": 25, "offset-y": -240 },
+                        "賀喜遥香": { "radius": 300, "offset-x": 20, "offset-y": -240 },
+                        "金川紗耶": { "radius": 300, "offset-x": -25, "offset-y": -240 },
+                        "池田瑛紗": { "radius": 300, "offset-x": -20, "offset-y": -240 }
+                    }
+                }
+            }
+        },
+        "s36": {
+            "original": {
+                "normal": {
+                    "left": 0, "right": 0, "top": 0, "bottom": -91,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 380,
+                    "offset-x": 0, "offset-y": -50,
+                    "custom": {
+                        "一ノ瀬美空": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "与田祐希": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "中村麗乃": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "中西アルノ": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "久保史緒里": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "五百城茉央": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "井上和": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "伊藤理々杏": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "佐藤楓": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "佐藤璃果": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "冨里奈央": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "吉田綾乃クリスティー": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "向井葉月": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "奥田いろは": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "小川彩": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "岡本姫奈": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "岩本蓮加": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "川﨑桜": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "弓木奈於": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "掛橋沙耶香": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "松尾美佑": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "林瑠奈": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "柴田柚菜": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "梅澤美波": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "池田瑛紗": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "田村真佑": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "矢久保美緒": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "筒井あやめ": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "菅原咲月": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "賀喜遥香": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "遠藤さくら": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "金川紗耶": { "radius": 380, "offset-x": 0, "offset-y": -50 },
+                        "黒見明香": { "radius": 380, "offset-x": 0, "offset-y": -50 }
+                    }
+                }
+            },
+            "mobile": {
+                "lockratio": {
+                    "left": 200, "right": 200, "top": 50, "bottom": 484,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "一ノ瀬美空": { "offset-x": -20, "offset-y": 0 },
+                        "井上和": { "offset-x": -15, "offset-y": 0 },
+                        "伊藤理々杏": { "offset-x": 20, "offset-y": 0 },
+                        "佐藤楓": { "offset-x": -10, "offset-y": 0 },
+                        "佐藤璃果": { "offset-x": -10, "offset-y": 0 },
+                        "奥田いろは": { "offset-x": -20, "offset-y": 0 },
+                        "岡本姫奈": { "offset-x": -15, "offset-y": 0 },
+                        "黒見明香": { "offset-x": -30, "offset-y": 0 }
+                    }
+                },
+                "round": {
+                    "radius": 335,
+                    "offset-x": 0, "offset-y": -220,
+                    "custom": {
+                        "一ノ瀬美空": { "radius": 335, "offset-x": -15, "offset-y": -220 },
+                        "井上和": { "radius": 335, "offset-x": -15, "offset-y": -220 },
+                        "伊藤理々杏": { "radius": 335, "offset-x": 20, "offset-y": -220 },
+                        "佐藤楓": { "radius": 335, "offset-x": -10, "offset-y": -220 },
+                        "佐藤璃果": { "radius": 335, "offset-x": -10, "offset-y": -220 },
+                        "奥田いろは": { "radius": 335, "offset-x": -20, "offset-y": -220 },
+                        "岡本姫奈": { "radius": 335, "offset-x": -15, "offset-y": -220 },
+                        "黒見明香": { "radius": 335, "offset-x": -30, "offset-y": -220 }
+                    }
+                }
+            }
+        },
+        "s37": {
+            "original": {
+                "lockratio": {
+                    "left": 150, "right": 150, "top": 40, "bottom": 308,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 330,
+                    "offset-x": 0, "offset-y": -100,
+                    "custom": {}
+                }
+            },
+            "mobile": {
+                "lockratio": {
+                    "left": 210, "right": 210, "top": 60, "bottom": 500,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {}
+                },
+                "round": {
+                    "radius": 320,
+                    "offset-x": 0, "offset-y": -230,
+                    "custom": {}
+                }
+            }
+        },
+        "s38": {
+            "original": {
+                "lockratio": {
+                    "left": 130, "right": 130, "top": 25, "bottom": 269,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "佐藤璃果": { "offset-x": 35, "offset-y": 0 },
+                        "冨里奈央": { "offset-x": 35, "offset-y": 0 },
+                        "吉田綾乃クリスティー": { "offset-x": -25, "offset-y": 0 },
+                        "小津玲奈": { "offset-x": -28, "offset-y": 0 },
+                        "奥田いろは": { "offset-x": 20, "offset-y": 0 },
+                        "岩本蓮加": { "offset-x": 30, "offset-y": 0 },
+                        "川端晃菜": { "offset-x": 30, "offset-y": 0 },
+                        "川﨑桜": { "offset-x": 15, "offset-y": 0 },
+                        "弓木奈於": { "offset-x": 15, "offset-y": 0 },
+                        "愛宕心響": { "offset-x": -10, "offset-y": 0 },
+                        "松尾美佑": { "offset-x": 15, "offset-y": 0 },
+                        "林瑠奈": { "offset-x": 20, "offset-y": 0 },
+                        "柴田柚菜": { "offset-x": -35, "offset-y": 0 },
+                        "森平麗心": { "offset-x": -35, "offset-y": 0 },
+                        "海邉朱莉": { "offset-x": 15, "offset-y": 0 },
+                        "鈴木佑捺": { "offset-x": 10, "offset-y": 0 },
+                        "黒見明香": { "offset-x": 20, "offset-y": 0 },
+                        "大越ひなの": { "offset-x": -30, "offset-y": 0 }
+                    }
+                },
+                "round": {
+                    "radius": 340,
+                    "offset-x": 0, "offset-y": -140,
+                    "custom": {
+                        "佐藤璃果": { "radius": 340, "offset-x": 35, "offset-y": -140 },
+                        "冨里奈央": { "radius": 340, "offset-x": 35, "offset-y": -140 },
+                        "吉田綾乃クリスティー": { "radius": 340, "offset-x": -25, "offset-y": -140 },
+                        "小津玲奈": { "radius": 340, "offset-x": -28, "offset-y": -140 },
+                        "奥田いろは": { "radius": 340, "offset-x": 20, "offset-y": -140 },
+                        "岩本蓮加": { "radius": 340, "offset-x": 30, "offset-y": -140 },
+                        "川端晃菜": { "radius": 340, "offset-x": 30, "offset-y": -140 },
+                        "川﨑桜": { "radius": 340, "offset-x": 15, "offset-y": -140 },
+                        "弓木奈於": { "radius": 340, "offset-x": 15, "offset-y": -140 },
+                        "愛宕心響": { "radius": 340, "offset-x": -10, "offset-y": -140 },
+                        "松尾美佑": { "radius": 340, "offset-x": 15, "offset-y": -140 },
+                        "林瑠奈": { "radius": 340, "offset-x": 20, "offset-y": -140 },
+                        "柴田柚菜": { "radius": 340, "offset-x": -35, "offset-y": -140 },
+                        "森平麗心": { "radius": 340, "offset-x": -35, "offset-y": -140 },
+                        "海邉朱莉": { "radius": 340, "offset-x": 15, "offset-y": -140 },
+                        "瀬戸口心月": { "radius": 340, "offset-x": -15, "offset-y": -140 },
+                        "田村真佑": { "radius": 340, "offset-x": -10, "offset-y": -140 },
+                        "鈴木佑捺": { "radius": 340, "offset-x": 10, "offset-y": -140 },
+                        "黒見明香": { "radius": 340, "offset-x": 20, "offset-y": -140 },
+                        "大越ひなの": { "radius": 340, "offset-x": -30, "offset-y": -140 }
+                    }
+                }
+            }
+        },
+        "s39": {
+            "original": {
+                "lockratio": {
+                    "left": 200, "right": 200, "top": 55, "bottom": 411,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "一ノ瀬美空": { "offset-x": 5, "offset-y": 0 },
+                        "中西アルノ": { "offset-x": -15, "offset-y": 0 },
+                        "伊藤理々杏": { "offset-x": -15, "offset-y": 0 },
+                        "佐藤璃果": { "offset-x": -75, "offset-y": 0 },
+                        "吉田綾乃クリスティー": { "offset-x": -55, "offset-y": 0 },
+                        "大越ひなの": { "offset-x": -10, "offset-y": 0 },
+                        "小津玲奈": { "offset-x": 20, "offset-y": 0 },
+                        "岡本姫奈": { "offset-x": -50, "offset-y": 0 },
+                        "岩本蓮加": { "offset-x": 10, "offset-y": 0 },
+                        "川端晃菜": { "offset-x": -5, "offset-y": 0 },
+                        "川﨑桜": { "offset-x": -10, "offset-y": 0 },
+                        "弓木奈於": { "offset-x": -10, "offset-y": 0 },
+                        "愛宕心響": { "offset-x": -5, "offset-y": 0 },
+                        "松尾美佑": { "offset-x": 30, "offset-y": 0 },
+                        "林瑠奈": { "offset-x": 15, "offset-y": 0 },
+                        "柴田柚菜": { "offset-x": -20, "offset-y": 0 },
+                        "梅澤美波": { "offset-x": -15, "offset-y": 0 },
+                        "森平麗心": { "offset-x": 80, "offset-y": 0 },
+                        "池田瑛紗": { "offset-x": -40, "offset-y": -20 },
+                        "海邉朱莉": { "offset-x": -10, "offset-y": 0 },
+                        "瀬戸口心月": { "offset-x": -5, "offset-y": 0 },
+                        "田村真佑": { "offset-x": -10, "offset-y": 0 },
+                        "矢久保美緒": { "offset-x": 10, "offset-y": 0 },
+                        "矢田萌華": { "offset-x": -30, "offset-y": 0 },
+                        "筒井あやめ": { "offset-x": -35, "offset-y": 0 },
+                        "菅原咲月": { "offset-x": -15, "offset-y": 0 },
+                        "賀喜遥香": { "offset-x": -15, "offset-y": 0 },
+                        "遠藤さくら": { "offset-x": 15, "offset-y": 0 },
+                        "鈴木佑捺": { "offset-x": -25, "offset-y": 0 },
+                        "長嶋凛桜": { "offset-x": 10, "offset-y": 0 },
+                        "黒見明香": { "offset-x": 55, "offset-y": 0 },
+                        "金川紗耶": { "offset-x": -45, "offset-y": 0 },
+                        "冨里奈央": { "offset-x": 0, "offset-y": -5 }
+                    }
+                },
+                "round": {
+                    "radius": 400,
+                    "offset-x": 0, "offset-y": -190,
+                    "custom": {
+                        "一ノ瀬美空": { "radius": 400, "offset-x": 5, "offset-y": -190 },
+                        "中西アルノ": { "radius": 400, "offset-x": -15, "offset-y": -190 },
+                        "伊藤理々杏": { "radius": 400, "offset-x": -15, "offset-y": -190 },
+                        "佐藤璃果": { "radius": 400, "offset-x": -75, "offset-y": -190 },
+                        "吉田綾乃クリスティー": { "radius": 400, "offset-x": -55, "offset-y": -190 },
+                        "大越ひなの": { "radius": 400, "offset-x": -10, "offset-y": -190 },
+                        "小津玲奈": { "radius": 400, "offset-x": 20, "offset-y": -190 },
+                        "岡本姫奈": { "radius": 400, "offset-x": -50, "offset-y": -190 },
+                        "岩本蓮加": { "radius": 400, "offset-x": 10, "offset-y": -190 },
+                        "川端晃菜": { "radius": 400, "offset-x": -5, "offset-y": -190 },
+                        "川﨑桜": { "radius": 400, "offset-x": -10, "offset-y": -190 },
+                        "弓木奈於": { "radius": 400, "offset-x": -10, "offset-y": -190 },
+                        "愛宕心響": { "radius": 400, "offset-x": -5, "offset-y": -190 },
+                        "松尾美佑": { "radius": 400, "offset-x": 30, "offset-y": -190 },
+                        "林瑠奈": { "radius": 400, "offset-x": 15, "offset-y": -190 },
+                        "柴田柚菜": { "radius": 400, "offset-x": -20, "offset-y": -190 },
+                        "梅澤美波": { "radius": 400, "offset-x": -15, "offset-y": -190 },
+                        "森平麗心": { "radius": 400, "offset-x": 80, "offset-y": -190 },
+                        "池田瑛紗": { "radius": 400, "offset-x": -40, "offset-y": -190 },
+                        "海邉朱莉": { "radius": 400, "offset-x": -10, "offset-y": -190 },
+                        "瀬戸口心月": { "radius": 400, "offset-x": -5, "offset-y": -190 },
+                        "田村真佑": { "radius": 400, "offset-x": -10, "offset-y": -190 },
+                        "矢久保美緒": { "radius": 400, "offset-x": 10, "offset-y": -190 },
+                        "矢田萌華": { "radius": 400, "offset-x": -30, "offset-y": -190 },
+                        "筒井あやめ": { "radius": 400, "offset-x": -35, "offset-y": -190 },
+                        "菅原咲月": { "radius": 400, "offset-x": -15, "offset-y": -190 },
+                        "賀喜遥香": { "radius": 400, "offset-x": -15, "offset-y": -190 },
+                        "遠藤さくら": { "radius": 400, "offset-x": 15, "offset-y": -190 },
+                        "鈴木佑捺": { "radius": 400, "offset-x": -25, "offset-y": -190 },
+                        "長嶋凛桜": { "radius": 400, "offset-x": 10, "offset-y": -190 },
+                        "黒見明香": { "radius": 400, "offset-x": 55, "offset-y": -190 },
+                        "金川紗耶": { "radius": 400, "offset-x": -45, "offset-y": -190 }
+                    }
+                }
+            }
+        },
+        "s40": {
+            "original": {
+                "lockratio": {
+                    "left": 200, "right": 200, "top": 30, "bottom": 436,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "岩本蓮加": { "offset-x": 45, "offset-y": 0 },
+                        "川端晃菜": { "offset-x": 15, "offset-y": 0 },
+                        "五百城茉央": { "offset-x": 40, "offset-y": 0 },
+                        "中西アルノ": { "offset-x": -25, "offset-y": 0 },
+                        "佐藤璃果": { "offset-x": -25, "offset-y": 0 },
+                        "林瑠奈": { "offset-x": 30, "offset-y": 0 },
+                        "海邉朱莉": { "offset-x": 30, "offset-y": 0 },
+                        "鈴木佑捺": { "offset-x": -20, "offset-y": 0 },
+                        "松尾美佑": { "offset-x": 40, "offset-y": 0 }
+                    }
+                },
+                "round": {
+                    "radius": 350,
+                    "offset-x": 0, "offset-y": -240,
+                    "custom": {
+                        "岩本蓮加": { "radius": 350, "offset-x": 45, "offset-y": -240 },
+                        "川端晃菜": { "radius": 350, "offset-x": 15, "offset-y": -240 },
+                        "五百城茉央": { "radius": 350, "offset-x": 40, "offset-y": -240 },
+                        "中西アルノ": { "radius": 350, "offset-x": -25, "offset-y": -250 },
+                        "佐藤璃果": { "radius": 350, "offset-x": -25, "offset-y": -240 },
+                        "林瑠奈": { "radius": 350, "offset-x": 30, "offset-y": -240 },
+                        "海邉朱莉": { "radius": 350, "offset-x": 30, "offset-y": -240 },
+                        "鈴木佑捺": { "radius": 350, "offset-x": -20, "offset-y": -240 },
+                        "松尾美佑": { "radius": 350, "offset-x": 40, "offset-y": -240 }
+                    }
+                }
+            }
+        },
+        "s41": {
+            "original": {
+                "lockratio": {
+                    "left": 170, "right": 170, "top": 30, "bottom": 370,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "小川彩": { "offset-x": -30, "offset-y": 0 },
+                        "森平麗心": { "offset-x": -75, "offset-y": 0 }
+                    }
+                },
+                "round": {
+                    "radius": 290,
+                    "offset-x": 0, "offset-y": -175,
+                    "custom": {
+                        "冨里奈央": { "radius": 290, "offset-x": 0, "offset-y": -190 },
+                        "小川彩": { "radius": 290, "offset-x": -30, "offset-y": -175 },
+                        "森平麗心": { "radius": 290, "offset-x": -75, "offset-y": -175 }
+                    }
+                }
+            }
+        },
+        "special": {
+            "1期生": {
+                "2011": {
+                    "normal": {
+                        "left": 0, "right": 0, "top": 0, "bottom": 0,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {}
+                    },
+                    "round": {
+                        "radius": 158,
+                        "offset-x": 0, "offset-y": -33,
+                        "custom": {}
+                    }
+                },
+                "合格": {
+                    "normal": {
+                        "left": 0, "right": 0, "top": 0, "bottom": 0,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {}
+                    },
+                    "round": {
+                        "radius": 158,
+                        "offset-x": 0, "offset-y": -33,
+                        "custom": {}
+                    }
+                }
+            },
+            "2期生": {
+                "original": {
+                    "normal": {
+                        "left": 0, "right": 0, "top": 0, "bottom": 0,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {}
+                    },
+                    "round": {
+                        "radius": 180,
+                        "offset-x": 0, "offset-y": -17,
+                        "custom": {}
+                    }
+                }
+            },
+            "3期生": {
+                "original": {
+                    "lockratio": {
+                        "left": 100, "right": 110, "top": 70, "bottom": 311,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {
+                            "与田祐希": { "offset-x": 35, "offset-y": 5 },
+                            "中村麗乃": { "offset-x": -5, "offset-y": -15 },
+                            "久保史緒里": { "offset-x": -15, "offset-y": -40 },
+                            "伊藤理々杏": { "offset-x": 10, "offset-y": -30 },
+                            "佐藤楓": { "offset-x": 5, "offset-y": -20 },
+                            "吉田綾乃クリスティー": { "offset-x": 20, "offset-y": 0 },
+                            "向井葉月": { "offset-x": 10, "offset-y": 15 },
+                            "大園桃子": { "offset-x": -10, "offset-y": -45 },
+                            "山下美月": { "offset-x": 0, "offset-y": -5 },
+                            "梅澤美波": { "offset-x": 20, "offset-y": 0 },
+                            "岩本蓮加": { "offset-x": 20, "offset-y": -30 }
+                        }
+                    },
+                    "round": {
+                        "radius": 250,
+                        "offset-x": 0, "offset-y": -155,
+                        "custom": {
+                            "与田祐希": { "radius": 250, "offset-x": 35, "offset-y": -130 },
+                            "久保史緒里": { "radius": 250, "offset-x": -15, "offset-y": -180 },
+                            "伊藤理々杏": { "radius": 250, "offset-x": 10, "offset-y": -165 },
+                            "佐藤楓": { "radius": 250, "offset-x": 5, "offset-y": -130 },
+                            "吉田綾乃クリスティー": { "radius": 250, "offset-x": 20, "offset-y": -130 },
+                            "向井葉月": { "radius": 250, "offset-x": 10, "offset-y": -100 },
+                            "大園桃子": { "radius": 250, "offset-x": -10, "offset-y": -170 },
+                            "梅澤美波": { "radius": 250, "offset-x": 20, "offset-y": -110 },
+                            "岩本蓮加": { "radius": 250, "offset-x": 20, "offset-y": -150 },
+                            "中村麗乃": { "radius": 250, "offset-x": -5, "offset-y": -140 },
+                            "山下美月": { "radius": 250, "offset-x": 0, "offset-y": -105 }
+                        }
+                    }
+                }
+            },
+            "4期生": {
+                "original": {
+                    "normal": {
+                        "left": 0, "right": 0, "top": 0, "bottom": 0,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {}
+                    }
+                }
+            },
+            "5期生": {
+                "original": {
+                    "lockratio": {
+                        "left": 145, "right": 145, "top": 130, "bottom": 398,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {
+                            "一ノ瀬美空": { "offset-x": -30, "offset-y": 0 },
+                            "五百城茉央": { "offset-x": -45, "offset-y": -25 },
+                            "井上和": { "offset-x": 40, "offset-y": -20 },
+                            "冨里奈央": { "offset-x": 0, "offset-y": -45 },
+                            "奥田いろは": { "offset-x": -35, "offset-y": -35 },
+                            "小川彩": { "offset-x": -45, "offset-y": 35 },
+                            "岡本姫奈": { "offset-x": -30, "offset-y": -30 },
+                            "川﨑桜": { "offset-x": -20, "offset-y": -25 },
+                            "池田瑛紗": { "offset-x": -45, "offset-y": -75 },
+                            "菅原咲月": { "offset-x": -70, "offset-y": -25 }
+                        }
+                    },
+                    "round": {
+                        "radius": 380,
+                        "offset-x": 0, "offset-y": -158,
+                        "custom": {
+                            "一ノ瀬美空": { "radius": 380, "offset-x": -30, "offset-y": -113 },
+                            "五百城茉央": { "radius": 380, "offset-x": -45, "offset-y": -143 },
+                            "井上和": { "radius": 380, "offset-x": 40, "offset-y": -143 },
+                            "奥田いろは": { "radius": 380, "offset-x": -35, "offset-y": -178 },
+                            "小川彩": { "radius": 380, "offset-x": -45, "offset-y": -108 },
+                            "岡本姫奈": { "radius": 380, "offset-x": -30, "offset-y": -133 },
+                            "川﨑桜": { "radius": 380, "offset-x": -23, "offset-y": -152 },
+                            "池田瑛紗": { "radius": 380, "offset-x": -45, "offset-y": -218 },
+                            "菅原咲月": { "radius": 380, "offset-x": -43, "offset-y": -158 },
+                            "冨里奈央": { "radius": 380, "offset-x": 0, "offset-y": -173 }
+                        }
+                    }
+                }
+            },
+            "6期生": {
+                "01": {
+                    "normal": {
+                        "left": 110, "right": 150, "top": 5, "bottom": 120,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {
+                            "増田三莉音": { "offset-x": -9, "offset-y": 0 },
+                            "大越ひなの": { "offset-x": 55, "offset-y": -5 },
+                            "小津玲奈": { "offset-x": 25, "offset-y": 0 },
+                            "川端晃菜": { "offset-x": 70, "offset-y": 15 },
+                            "愛宕心響": { "offset-x": -109, "offset-y": 0 },
+                            "森平麗心": { "offset-x": 145, "offset-y": 0 },
+                            "瀬戸口心月": { "offset-x": 35, "offset-y": 15 },
+                            "矢田萌華": { "offset-x": 75, "offset-y": 6 },
+                            "鈴木佑捺": { "offset-x": 65, "offset-y": -5 },
+                            "長嶋凛桜": { "offset-x": 60, "offset-y": 0 }
+                        }
+                    },
+                    "round": {
+                        "radius": 390,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {
+                            "川端晃菜": { "radius": 390, "offset-x": 70, "offset-y": 0 }
+                        }
+                    }
+                },
+                "yt": {
+                    "normal": {
+                        "left": 0, "right": 0, "top": 0, "bottom": 0,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {}
+                    }
+                }
+            },
+            "復帰": {
+                "original": {
+                    "normal": {
+                        "left": 0, "right": 0, "top": 0, "bottom": 0,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {}
+                    }
+                }
+            },
+            "新4期生": {
+                "original": {
+                    "normal": {
+                        "left": 0, "right": 0, "top": 0, "bottom": 0,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {}
+                    }
+                }
+            },
+            "新参者": {
+                "5期生": {
+                    "lockratio": {
+                        "left": 450, "right": 450, "top": 70, "bottom": 330,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {
+                            "五百城茉央": { "offset-x": 20, "offset-y": -40 },
+                            "井上和": { "offset-x": -5, "offset-y": -35 },
+                            "冨里奈央": { "offset-x": 40, "offset-y": -20 },
+                            "奥田いろは": { "offset-x": 0, "offset-y": -45 },
+                            "小川彩": { "offset-x": 40, "offset-y": -30 },
+                            "岡本姫奈": { "offset-x": 5, "offset-y": -40 },
+                            "川﨑桜": { "offset-x": 15, "offset-y": -25 },
+                            "池田瑛紗": { "offset-x": -10, "offset-y": -60 },
+                            "菅原咲月": { "offset-x": -10, "offset-y": -35 }
+                        }
+                    },
+                    "round": {
+                        "radius": 190,
+                        "offset-x": 0, "offset-y": -150,
+                        "custom": {
+                            "一ノ瀬美空": { "radius": 190, "offset-x": 5, "offset-y": -150 },
+                            "五百城茉央": { "radius": 190, "offset-x": 20, "offset-y": -180 },
+                            "井上和": { "radius": 190, "offset-x": -5, "offset-y": -170 },
+                            "冨里奈央": { "radius": 190, "offset-x": 40, "offset-y": -170 },
+                            "小川彩": { "radius": 190, "offset-x": 40, "offset-y": -170 },
+                            "岡本姫奈": { "radius": 190, "offset-x": 5, "offset-y": -170 },
+                            "川﨑桜": { "radius": 190, "offset-x": 15, "offset-y": -170 },
+                            "池田瑛紗": { "radius": 190, "offset-x": -10, "offset-y": -205 },
+                            "菅原咲月": { "radius": 190, "offset-x": -10, "offset-y": -185 },
+                            "中西アルノ": { "radius": 190, "offset-x": 0, "offset-y": -170 },
+                            "奥田いろは": { "radius": 190, "offset-x": 0, "offset-y": -185 }
+                        }
+                    }
+                },
+                "6期生": {
+                    "lockratio": {
+                        "left": 200, "right": 200, "top": 45, "bottom": 489,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {
+                            "矢田萌華": { "offset-x": 20, "offset-y": 0 }
+                        }
+                    },
+                    "round": {
+                        "radius": 355,
+                        "offset-x": 0, "offset-y": -240,
+                        "custom": {
+                            "矢田萌華": { "radius": 355, "offset-x": 20, "offset-y": -240 }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

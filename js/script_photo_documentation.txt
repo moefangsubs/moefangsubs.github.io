@@ -1,0 +1,70 @@
+# DOKUMENTASI SISTEM FOTO UNIVERSAL (`script_photo.js`)
+
+Dokumentasi ini menjelaskan cara kerja, integrasi, dan output dari sistem pemuatan dan pemotongan (*cropping*) foto otomatis untuk ekosistem database Sakamichi Series. 
+
+Sistem ini bersifat **Universal, Robust (Tahan Banting), dan Dinamis**. Sistem tidak menebak foto secara *hardcode*, melainkan membaca tanggal rilis *single*, menangani pengecualian (kelulusan/Kenshuusei), dan menghitung pemotongan koordinat secara 1-to-1 dengan native pixel gambar.
+
+## 1. Persyaratan Data (Dependencies)
+Sistem ini membutuhkan pemuatan 3 jenis JSON eksternal sebelum bisa berjalan:
+1.  **`members_pict_release.json`**: Data kapan sebuah *single* atau seragam baru dirilis. Digunakan untuk melacak *timeline* foto member.
+2.  **`sr_except.json`**: Data pengecualian manual. Digunakan untuk menimpa (*override*) foto secara paksa pada tanggal tertentu (misal: Live Joint Oktober 2019, atau member yang sudah lulus).
+3.  **`members_pict_crop_[grup].json`**: Data koordinat *cropping* yang dihasilkan dari *tools* Python.
+
+## 2. Cara Menginisialisasi Sistem
+Pada *file* JavaScript utama Anda (misal: `script_blog_read.js`), pastikan memanggil fungsi pemuatan data dari `script_photo.js` pada saat inisialisasi awal (DOM Content Loaded):
+
+```javascript
+document.addEventListener("DOMContentLoaded", async () => {
+    await loadPictReleaseData();
+});
+```
+
+## 3. Fungsi Utama: `getMemberPhotoInfo`
+Ini adalah jantung dari skrip. Fungsi ini bertugas mencari URL yang paling tepat berdasarkan profil member dan tanggal kejadian.
+
+**Parameter yang dibutuhkan:**
+*   `memberObj`: Objek JSON dari database member (berisi nama, gen, foto_profil, dll).
+*   `streamDate`: String tanggal kejadian dalam format `YYYY.MM.DD` (Contoh: `2019.10.18`).
+*   `groupStr`: String nama grup untuk identifikasi (Opsional jika `memberObj` sudah punya `group_id`).
+
+**Output yang dikembalikan (Return Object):**
+```javascript
+{
+    url: "https://ik.imagekit.io/moearchive/...",
+    fallbacks: "url1.jpg,url2.png,url3.jpg..."
+}
+```
+*   `url`: Tebakan utama URL foto yang harus dimuat.
+*   `fallbacks`: Rantai URL jaring pengaman (dipisahkan koma) jika URL utama gagal dimuat (404 Not Found).
+
+## 4. Implementasi pada HTML Element
+Ketika merender elemen foto ke dalam DOM HTML, Anda **wajib** menggunakan struktur dan atribut di bawah ini agar sistem *fallback* dan *crop* dinamis berjalan:
+
+```javascript
+const photoInfo = getMemberPhotoInfo(memObj, currentDate, groupName);
+
+photoWrapper.innerHTML = `
+    <img 
+        src="${photoInfo.url}" 
+        data-fallbacks="${photoInfo.fallbacks}" 
+        onerror="handleMoeFallback(this)" 
+        onload="applyMoeCrop(this, '${memObj.nama_jp}')" 
+        style="opacity: 0; transition: opacity 0.3s ease;"
+    >
+`;
+```
+
+## 5. Fungsi `applyMoeCrop(img, memberName)`
+Fungsi ini (biasanya disisipkan di JS utama) bekerja setelah gambar **selesai dimuat** (`onload`).
+*   **Deteksi Orientasi:** Mengukur kontainer luar (`img.parentElement`). Jika rasio kontainer adalah *portrait* (tinggi > lebar), ia menarik data `"lockratio"` / `"normal"`. Jika kotak, ia menarik data `"round"`.
+*   **Kalibrasi Native Pixel:** Menarik koordinat dari `cropDB` (lewat fungsi `getAccurateCrop`) dan menghitung posisi pemotongan berdasarkan resolusi asli gambar (bukan dibatasi ke 600px).
+*   **Clamping (Anti-White Gap):** Memastikan pergeseran matriks (Tx, Ty) tidak melebihi batas kanvas agar tidak ada ruang kosong (warna latar) yang bocor.
+*   **Penghapusan Loading GIF:** Menghapus `background-image` dari kontainer pembungkus setelah foto sukses dipotong dan siap ditampilkan (`opacity: 1`).
+
+## 6. Alur Kerja (Workflow) Penanganan Error (404)
+Sistem memiliki logika *Graceful Degradation* jika gambar tidak ditemukan di ImageKit:
+1.  Gambar utama (misal: `s13_nama.jpg`) ditaruh di `src`.
+2.  Jika 404, atribut `onerror="handleMoeFallback(this)"` terpanggil.
+3.  Fungsi ini mengambil URL pertama dari `data-fallbacks` (misal: varian `_02.jpg` atau `.png`).
+4.  Jika gagal lagi, fungsi terus memotong rantai `fallbacks` hingga menemukan folder `special` atau format masa lalu (`_2018.jpg`).
+5.  Jika berhasil dimuat, fungsi `applyMoeCrop` berjalan. Fungsi pendukung `getAccurateCrop` akan membedah URL yang sukses tersebut, mencocokkannya dengan `window.cropDB`, dan memotong gambar secara tepat berdasarkan era/nama *file* yang akhirnya sukses ditarik.

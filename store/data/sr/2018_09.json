@@ -1,0 +1,421 @@
+[
+    {
+        "group": "乃木坂46/欅坂46/日向坂46",
+        "member": [
+            "菅井友香",
+            "加藤史帆",
+            "柿崎芽実",
+            "久保史緒里",
+            "守屋茜",
+            "梅澤美波"
+        ],
+        "type": "SHOWROOM個人配信",
+        "airdate": "2018.09.28",
+        "stream": [
+            "20:45:07",
+            "22:27:10"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 85594
+            },
+            0,
+            4650
+        ],
+        "title": "舞台第2弾発表スペシャル！"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "衛藤美彩",
+        "type": "のぎおび",
+        "airdate": "2018.09.28",
+        "stream": [
+            "18:01:03",
+            "18:34:26"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 37612
+            },
+            6,
+            160350
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "北野日奈子",
+        "type": "のぎおび",
+        "airdate": "2018.09.27",
+        "stream": [
+            "20:30:46",
+            "21:00:29"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 42383
+            },
+            5,
+            null
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": [
+            "伊藤かりん",
+            "山崎怜奈"
+        ],
+        "type": "猫舌",
+        "airdate": "2018.09.26",
+        "stream": [
+            "20:45:09",
+            "23:01:34"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 41359
+            },
+            17,
+            null
+        ],
+        "title": "猫舌SHOWROOM（乃木坂46 伊藤かりん・山﨑怜奈）"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "能條愛未",
+        "type": "のぎおび",
+        "airdate": "2018.09.26",
+        "stream": [
+            "13:01:41",
+            "13:31:27"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 12310
+            },
+            0,
+            3900
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "星野みなみ",
+        "type": "のぎおび",
+        "airdate": "2018.09.25",
+        "stream": [
+            "12:11:21",
+            "12:41:34"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 33657
+            },
+            3,
+            null
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "大園桃子",
+        "type": "のぎおび",
+        "airdate": "2018.09.21",
+        "stream": [
+            "22:00:52",
+            "22:31:08"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 54872
+            },
+            11,
+            null
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "白石麻衣",
+        "type": "のぎおび",
+        "airdate": "2018.09.20",
+        "stream": [
+            "12:03:15",
+            "12:32:28"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 56976
+            },
+            9,
+            null
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": [
+            "斉藤優里",
+            "星野みなみ"
+        ],
+        "type": "猫舌",
+        "airdate": "2018.09.19",
+        "stream": [
+            "20:45:07",
+            "23:03:05"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 59403
+            },
+            8,
+            null
+        ],
+        "title": "猫舌SHOWROOM（乃木坂46 斉藤優里・星野みなみ）"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "与田祐希",
+        "type": "のぎおび",
+        "airdate": "2018.09.19",
+        "stream": [
+            "18:00:13",
+            "18:31:25"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 47944
+            },
+            5,
+            124600
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "鈴木絢音",
+        "type": "のぎおび",
+        "airdate": "2018.09.18",
+        "stream": [
+            "18:00:46",
+            "18:31:06"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 29785
+            },
+            0,
+            39700
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "向井葉月",
+        "type": "SHOWROOM個人配信",
+        "airdate": "2018.09.16",
+        "stream": [
+            "13:51:22",
+            "14:29:25"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 19135
+            },
+            1,
+            24800
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": [
+            "阪口珠美",
+            "岩本蓮加"
+        ],
+        "type": "のぎおび",
+        "airdate": "2018.09.14",
+        "stream": [
+            "18:30:48",
+            "19:00:43"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 27432
+            },
+            6,
+            89100
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "山崎怜奈",
+        "type": "SHOWROOM個人配信",
+        "airdate": "2018.09.14",
+        "stream": [
+            "16:06:19",
+            "17:08:47"
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 21114
+            },
+            3,
+            42000
+        ]
+    },
+    {
+        "group": "乃木坂46",
+        "member": "桜井玲香",
+        "type": "のぎおび",
+        "airdate": "2018.09.13",
+        "stream": [
+            "19:00:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 31383
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "吉田綾乃クリスティー",
+        "type": "のぎおび",
+        "airdate": "2018.09.12",
+        "stream": [
+            "17:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 19723
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "佐々木琴子",
+        "type": "のぎおび",
+        "airdate": "2018.09.11",
+        "stream": [
+            "17:00:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 22096
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "伊藤かりん",
+        "type": "のぎおび",
+        "airdate": "2018.09.10",
+        "stream": [
+            "18:00:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 20475
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "山下美月",
+        "type": "のぎおび",
+        "airdate": "2018.09.07",
+        "stream": [
+            "20:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 49742
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "渡辺みり愛",
+        "type": "のぎおび",
+        "airdate": "2018.09.06",
+        "stream": [
+            "19:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 23264
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "寺田蘭世",
+        "type": "のぎおび",
+        "airdate": "2018.09.05",
+        "stream": [
+            "18:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 25272
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "梅澤美波",
+        "type": "のぎおび",
+        "airdate": "2018.09.04",
+        "stream": [
+            "20:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 42088
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "樋口日奈",
+        "type": "のぎおび",
+        "airdate": "2018.09.03",
+        "stream": [
+            "20:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 30503
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    }
+]

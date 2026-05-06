@@ -108,5 +108,15 @@
         "gen": "1.5期",
         "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/nagahamaneru.png",
         "status": "lulus"
+    },
+    {
+        "id": "matsuokamanami",
+        "nama_jp": "松岡愛美",
+        "nama_romaji": "Matsuoka Manami",
+        "lahir": "2002.04.02",
+        "asal": "東京都",
+        "gen": "2期",
+        "foto_profil": "https://ik.imagekit.io/moearchive/calendar/grad/matsuokamanami.png",
+        "status": "lulus"
     }
 ]
