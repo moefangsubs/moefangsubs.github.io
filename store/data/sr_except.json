@@ -1,0 +1,172 @@
+{
+    "2019.10.18": {
+        "守屋麗奈": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_守屋麗奈_2020-03.jpg",
+            "crop": "special"
+        },
+        "黒見明香": {
+            "folder": "v3_nogi",
+            "sKey": "special/新4期生",
+            "file": "新4期生_黒見明香.jpg",
+            "crop": "special"
+        },
+        "林瑠奈": {
+            "folder": "v3_nogi",
+            "sKey": "special/新4期生",
+            "file": "新4期生_林瑠奈.jpg",
+            "crop": "special"
+        },
+        "大沼晶保": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_大沼晶保_2020-03.jpg",
+            "crop": "special"
+        },
+        "松岡愛美": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_松岡愛美_2020-03.jpg",
+            "crop": "special"
+        }
+    },
+    "2019.10.19": {
+        "大園玲": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_大園玲_2020-03.jpg",
+            "crop": "special"
+        },
+        "山口陽世": {
+            "folder": "v3_hinata",
+            "sKey": "special/新3期生",
+            "file": "新3期生_山口陽世.jpg",
+            "crop": "special"
+        },
+        "佐藤璃果": {
+            "folder": "v3_nogi",
+            "sKey": "special/新4期生",
+            "file": "新4期生_佐藤璃果.jpg",
+            "crop": "special"
+        },
+        "増本綺良": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_増本綺良_2020-03.jpg",
+            "crop": "special"
+        },
+        "髙橋未来虹": {
+            "folder": "v3_hinata",
+            "sKey": "special/新3期生",
+            "file": "新3期生_髙橋未来虹.jpg",
+            "crop": "special"
+        }
+    },
+    "2019.10.20": {
+        "弓木奈於": {
+            "folder": "v3_nogi",
+            "sKey": "special/新4期生",
+            "file": "新4期生_弓木奈於.jpg",
+            "crop": "special"
+        },
+        "遠藤光莉": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_遠藤光莉_2020-03.jpg",
+            "crop": "special"
+        },
+        "幸阪茉里乃": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_幸阪茉里乃_2020-03.jpg",
+            "crop": "special"
+        },
+        "松尾美佑": {
+            "folder": "v3_nogi",
+            "sKey": "special/新4期生",
+            "file": "新4期生_松尾美佑.jpg",
+            "crop": "special"
+        },
+        "森本茉莉": {
+            "folder": "v3_hinata",
+            "sKey": "special/新3期生",
+            "file": "新3期生_森本茉莉.jpg",
+            "crop": "special"
+        }
+    },
+    "2019.10.24": {
+        "相楽伊織": {
+            "folder": "v3_nogi",
+            "sKey": "s20",
+            "file": "s20_相楽伊織.jpg",
+            "crop": "s20"
+        },
+        "伊藤万理華": {
+            "folder": "v3_nogi",
+            "sKey": "s17",
+            "file": "s17_伊藤万理華.jpg",
+            "crop": "s17"
+        },
+        "伊藤かりん": {
+            "folder": "v3_nogi",
+            "sKey": "s22",
+            "file": "s22_伊藤かりん.jpg",
+            "crop": "s22"
+        },
+        "西野七瀬": {
+            "folder": "v3_nogi",
+            "sKey": "s22",
+            "file": "s22_西野七瀬.jpg",
+            "crop": "s22"
+        },
+        "斉藤優里": {
+            "folder": "v3_nogi",
+            "sKey": "s22",
+            "file": "s22_斉藤優里.jpg",
+            "crop": "s22"
+        },
+        "衛藤美彩": {
+            "folder": "v3_nogi",
+            "sKey": "s22",
+            "file": "s22_衛藤美彩.jpg",
+            "crop": "s22"
+        },
+        "若月佑美": {
+            "folder": "v3_nogi",
+            "sKey": "s22",
+            "file": "s22_若月佑美.jpg",
+            "crop": "s22"
+        }
+    },
+    "2020.03.07": {
+        "相楽伊織": {
+            "folder": "v3_nogi",
+            "sKey": "s20",
+            "file": "s20_相楽伊織.jpg",
+            "crop": "s20"
+        },
+        "伊藤かりん": {
+            "folder": "v3_nogi",
+            "sKey": "s22",
+            "file": "s22_伊藤かりん.jpg",
+            "crop": "s22"
+        }
+    },
+    "2020.03.24": {
+        "守屋麗奈": {
+            "folder": "v3_keyaki",
+            "sKey": "special/新2期生",
+            "file": "新2期生_守屋麗奈_2020-03.jpg",
+            "crop": "special"
+        }
+    },
+    "2020.03.25": {
+        "伊藤かりん": {
+            "folder": "v3_nogi",
+            "sKey": "s22",
+            "file": "s22_伊藤かりん.jpg",
+            "crop": "s22"
+        }
+    }
+}

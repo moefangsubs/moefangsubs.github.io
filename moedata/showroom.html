@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+    <title>SHOWROOM Database - MoeData</title>    
+	
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+
+	
+	<!-- Kepala dan kaki wkwkwk -->
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_showroom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <main class="main-content">
+			<div class="titlehead">
+				<h1>SHOWROOM Database</h1>
+			</div>
+            
+			<section class="calendar-section">
+				<div class="calendar-controls">
+					<button id="prevBtn" class="btn-nav"><i class="fas fa-chevron-left"></i></button>
+					<div class="calendar-title">
+						<select id="viewModeSelect" class="view-select">
+							<option value="year" selected>Tahun</option>
+							<option value="month">Bulan</option>
+						</select>
+						<select id="monthSelect" style="display: none;"></select>
+						<select id="yearSelect"></select>
+					</div>
+					<button id="nextBtn" class="btn-nav"><i class="fas fa-chevron-right"></i></button>
+				</div>
+				
+				<div id="calendarContainer" class="calendar-container"></div>
+
+				<div class="calendar-controls bottom-controls" id="bottomControls" style="display: none;">
+					<button id="prevBtnBottom" class="btn-nav"><i class="fas fa-chevron-left"></i></button>
+					<button id="nextBtnBottom" class="btn-nav"><i class="fas fa-chevron-right"></i></button>
+				</div>
+			</section>
+        </main>
+    </div>
+
+    <div id="srModal" class="sr-modal">
+        <div class="sr-modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div class="sr-modal-body">
+                <div class="sr-modal-left" id="modalLeft"></div>
+                <div class="sr-modal-right" id="modalRight"></div>
+            </div>
+        </div>
+    </div>
+	<script src="../js/script_photo.js"></script>
+    <script src="../js/script_sr_read.js"></script>
+</body>
+</html>

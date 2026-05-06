@@ -1,0 +1,841 @@
+{
+  "2018": {
+    "06": {
+      "18": ["お休み", null],
+      "19": ["大園桃子", "Penampilan perdana. Nogiobi episode 1"],
+      "20": ["相楽伊織", "Penampilan perdana"],
+      "21": ["斉藤優里", "Penampilan perdana"],
+      "22": ["生田絵梨花", "Penampilan perdana"],
+      "25": ["斎藤ちはる", "Penampilan perdana"],
+      "26": ["岩本蓮加", "Penampilan perdana"],
+      "27": ["佐藤楓", "Penampilan perdana"],
+      "28": ["中田花奈", "Penampilan perdana"],
+      "29": ["向井葉月", "Penampilan perdana"]
+    },
+    "07": {
+      "02": ["伊藤純奈", "Penampilan perdana"],
+      "03": ["堀未央奈", "Penampilan perdana"],
+      "04": ["鈴木絢音", "Penampilan perdana"],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "09": ["伊藤かりん", "Penampilan perdana"],
+      "10": ["阪口珠美", "Penampilan perdana"],
+      "11": ["寺田蘭世", "Penampilan perdana"],
+      "12": ["若月佑美", "Penampilan perdana"],
+      "13": ["山下美月", "Penampilan perdana"],
+      "16": ["佐々木琴子", "Penampilan perdana. Nogiobi terakhir Sasaki Kotoko. Yamashita Mizuki dan Matsumura Sayuri tiba-tiba muncul"],
+      "17": ["渡辺みり愛", "Penampilan perdana"],
+      "18": ["星野みなみ", "Penampilan perdana"],
+      "19": ["和田まあや", "Penampilan perdana. Watanabe Miria hanya terdengar suaranya"],
+      "20": ["お休み", null],
+      "23": ["吉田綾乃クリスティー", "Penampilan perdana"],
+      "24": ["西野七瀬", "Penampilan perdana"],
+      "25": ["川後陽菜", "Penampilan perdana"],
+      "26": ["井上小百合", "Penampilan perdana"],
+      "27": ["中村麗乃", "Penampilan perdana"],
+      "30": ["伊藤理々杏", "Penampilan perdana"],
+      "31": ["能條愛未", "Penampilan perdana"]
+    },
+    "08": {
+      "01": ["白石麻衣", "Penampilan perdana"],
+      "02": ["北野日奈子", "Penampilan perdana"],
+      "03": ["お休み", null],
+      "06": ["山崎怜奈", "Penampilan perdana"],
+      "07": ["衛藤美彩", "Penampilan perdana"],
+      "08": ["秋元真夏", "Penampilan perdana. Takayama Kazumi dan Wakatsuki Yumi tiba-tiba muncul"],
+      "09": ["齋藤飛鳥", "Penampilan perdana. Ozono Momoko tiba-tiba muncul"],
+      "10": ["桜井玲香", "Penampilan perdana"],
+      "13": ["与田祐希", "Penampilan perdana"],
+      "14": ["梅澤美波", "Penampilan perdana"],
+      "15": ["樋口日奈", "Penampilan perdana"],
+      "16": ["新内眞衣", "Penampilan perdana"],
+      "17": ["松村沙友理", "Penampilan perdana"],
+      "20": ["高山一実", "Penampilan perdana"],
+      "27": ["お休み", null],
+      "31": ["お休み", null]
+    },
+    "09": {
+      "14": ["阪口珠美", "Iwamoto Renka tiba-tiba muncul"],
+      "17": ["お休み", "Hari libur nasional (Hari Penghormatan Orang Lanjut Usia)"],
+      "24": ["お休み", null]
+    },
+    "10": {
+      "03": ["齋藤飛鳥", "Eto Misa, Shiraishi Mai, dan Matsumura Sayuri tiba-tiba muncul. Akimoto Manatsu hanya terdengar suaranya"],
+      "08": ["お休み", "Hari libur nasional (Hari Olahraga)"],
+      "16": ["久保史緒里", "Penampilan perdana. Sempat hiatus dari 30 Juni 2018 hingga 2 September 2018"]
+    },
+    "11": {
+      "23": ["お休み", "Hari libur nasional (Hari Peringatan Syukur Buruh)"]
+    },
+    "12": {
+      "03": ["お休み", null],
+      "04": ["お休み", null],
+      "05": ["お休み", null],
+      "24": ["お休み", "Tanggal 23/12 (Minggu) adalah hari libur nasional (Ulang Tahun Kaisar) sehingga diganti ke hari libur pengganti"]
+    }
+  },
+  "2019": {
+    "01": {
+      "14": ["お休み", "Hari libur nasional (Hari Kedewasaan)"]
+    },
+    "02": {
+      "11": ["お休み", "Hari libur nasional (Hari Pembentukan Negara)"],
+      "20": ["お休み", null],
+      "21": ["お休み", null],
+      "22": ["お休み", null],
+      "28": ["お休み", null]
+    },
+    "03": {
+      "01": ["お休み", null],
+      "21": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Semi)"]
+    },
+    "04": {
+      "29": ["お休み", "Hari libur nasional (Hari Showa)"],
+      "30": ["お休み", null]
+    },
+    "05": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "03": ["お休み", "Hari libur nasional (Hari Peringatan Konstitusi)"],
+      "06": ["お休み", null]
+    },
+    "07": {
+      "02": ["お休み", null],
+      "03": ["お休み", null],
+      "04": ["お休み", null],
+      "15": ["お休み", "Hari libur nasional (Hari Laut)"],
+      "19": ["お休み", null],
+      "22": ["田村真佑", "Penampilan perdana"],
+      "26": ["掛橋沙耶香", "Penampilan perdana"],
+      "29": ["金川紗耶", "Penampilan perdana"]
+    },
+    "08": {
+      "05": ["柴田柚菜", "Penampilan perdana"],
+      "07": ["矢久保美緒", "Penampilan perdana"],
+      "08": ["早川聖来", "Penampilan perdana"],
+      "12": ["お休み", "Tanggal 11/8 (Minggu) adalah hari libur nasional (Hari Gunung) sehingga diganti ke hari libur pengganti"],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "19": ["清宮レイ", "Penampilan perdana"],
+      "20": ["北川悠理", "Penampilan perdana"],
+      "29": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "09": {
+      "02": ["筒井あやめ", "Penampilan perdana"],
+      "04": ["遠藤さくら", "Penampilan perdana"],
+      "06": ["賀喜遥香", "Penampilan perdana"],
+      "16": ["お休み", "Hari libur nasional (Hari Penghormatan Orang Lanjut Usia)"],
+      "23": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Gugur)"]
+    },
+    "10": {
+      "11": ["お休み", null],
+      "14": ["お休み", "Hari libur nasional (Hari Olahraga)"],
+      "22": ["お休み", null]
+    },
+    "11": {
+      "04": ["お休み", null],
+      "28": ["筒井あやめ", "Seimiya Rei tiba-tiba muncul"]
+    },
+    "12": {
+      "26": ["賀喜遥香", "Endo Sakura dan Hayakawa Seira tiba-tiba muncul"]
+    }
+  },
+  "2020": {
+    "01": {
+      "13": ["お休み", "Hari libur nasional (Hari Kedewasaan)"],
+      "17": ["清宮レイ", "Tsutsui Ayame tiba-tiba muncul"],
+      "31": ["田村真佑", "Kakehashi Sayaka tiba-tiba muncul"]
+    },
+    "02": {
+      "11": ["お休み", "Hari libur nasional (Hari Pembentukan Negara)"],
+      "20": ["お休み", null],
+      "21": ["お休み", null],
+      "24": ["お休み", null],
+      "25": ["お休み", null]
+    },
+    "03": {
+      "20": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Semi)"]
+    },
+    "06": {
+      "19": ["お休み", null]
+    },
+    "07": {
+      "23": ["お休み", "Hari libur nasional (Hari Laut)"],
+      "24": ["お休み", null]
+    },
+    "08": {
+      "03": ["林瑠奈", "Penampilan perdana"],
+      "04": ["黒見明香", "Penampilan perdana"],
+      "05": ["松尾美佑", "Penampilan perdana"],
+      "06": ["弓木奈於", "Penampilan perdana"],
+      "07": ["佐藤璃果", "Penampilan perdana"],
+      "10": ["お休み", "Hari libur nasional (Hari Gunung)"]
+    },
+    "09": {
+      "21": ["お休み", "Hari libur nasional (Hari Penghormatan Orang Lanjut Usia)"],
+      "22": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Gugur)"]
+    },
+    "10": {
+      "27": ["お休み", null],
+      "28": ["お休み", null]
+    },
+    "11": {
+      "03": ["お休み", "Hari libur nasional (Hari Kebudayaan)"],
+      "23": ["お休み", "Hari libur nasional (Hari Peringatan Syukur Buruh)"],
+      "24": ["賀喜遥香, 柴田柚菜", "Minggu Gen-4"],
+      "25": ["掛橋沙耶香, 金川紗耶", "Minggu Gen-4"],
+      "26": ["早川聖来, 弓木奈於", "Minggu Gen-4"],
+      "27": ["清宮レイ, 筒井あやめ", "Minggu Gen-4"],
+      "30": ["田村真佑, 松尾美佑", "Minggu Gen-4"]
+    },
+    "12": {
+      "01": ["黒見明香, 林瑠奈", "Minggu Gen-4"],
+      "02": ["北川悠理, 佐藤璃果", "Minggu Gen-4"],
+      "03": ["遠藤さくら, 矢久保美緒", "Minggu Gen-4"],
+      "04": ["賀喜遥香, 田村真佑, 早川聖来", "Hari terakhir minggu Gen-4. Matsuo Miyu muncul sebagian untuk menerima hukuman permainan (batsu game) karena menjadi peringkat terbawah di Nogiobi Senshuken"]
+    }
+  },
+  "2021": {
+    "01": {
+      "11": ["お休み", "Hari libur nasional (Hari Kedewasaan)"]
+    },
+    "02": {
+      "11": ["お休み", "Hari libur nasional (Hari Pembentukan Negara)"],
+      "23": ["お休み", "Hari libur nasional (Ulang Tahun Kaisar)"]
+    },
+    "03": {
+      "29": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "04": {
+      "29": ["お休み", "Hari libur nasional (Hari Showa)"]
+    },
+    "05": {
+      "03": ["お休み", "Hari libur nasional (Hari Peringatan Konstitusi)"],
+      "04": ["お休み", "Hari libur nasional (Hari Hijau)"],
+      "05": ["お休み", "Hari libur nasional (Hari Anak-anak)"]
+    },
+    "06": {
+      "10": ["齋藤飛鳥", "Matsumura Sayuri hanya terdengar suaranya"],
+      "22": ["お休み", null],
+      "23": ["お休み", null]
+    },
+    "07": {
+      "05": ["柴田柚菜", "Kaki Haruka, Seimiya Rei, dan Tsutsui Ayame tiba-tiba muncul"],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "22": ["お休み", "Hari libur nasional (Hari Laut)"],
+      "23": ["お休み", null]
+    },
+    "08": {
+      "04": ["田村真佑", "Hayakawa Seira hanya terdengar suaranya"],
+      "09": ["お休み", "Tanggal 8/8 (Minggu) adalah hari libur nasional (Hari Gunung) sehingga diganti ke hari libur pengganti"],
+      "20": ["お休み", null]
+    },
+    "09": {
+      "10": ["お休み", null],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "20": ["お休み", "Hari libur nasional (Hari Penghormatan Orang Lanjut Usia)"],
+      "23": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Gugur)"]
+    },
+    "10": {
+      "28": ["お休み", null]
+    },
+    "11": {
+      "03": ["お休み", "Hari libur nasional (Hari Kebudayaan)"],
+      "23": ["お休み", "Hari libur nasional (Hari Peringatan Syukur Buruh)"],
+      "29": ["お休み", null]
+    },
+    "12": {
+      "03": ["林瑠奈", "Yumiki Nao tiba-tiba muncul hanya tangan dan suaranya saja"],
+      "07": ["お休み", null],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null]
+    }
+  },
+  "2022": {
+    "01": {
+      "10": ["お休み", "Hari libur nasional (Hari Kedewasaan)"]
+    },
+    "02": {
+      "03": ["お休み", null],
+      "04": ["お休み", null],
+      "10": ["お休み", null],
+      "11": ["お休み", "Hari libur nasional (Hari Pembentukan Negara)"],
+      "21": ["お休み", null],
+      "22": ["お休み", null],
+      "23": ["お休み", "Hari libur nasional (Ulang Tahun Kaisar)"]
+    },
+    "03": {
+      "10": ["お休み", null],
+      "11": ["お休み", null],
+      "18": ["矢久保美緒, 松尾美佑", "Hayashi hanya terdengar suaranya"],
+      "21": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Semi)"],
+      "24": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "04": {
+      "01": ["お休み", null],
+      "08": ["お休み", null],
+      "29": ["お休み", "Hari libur nasional (Hari Showa)"]
+    },
+    "05": {
+      "03": ["お休み", "Hari libur nasional (Hari Peringatan Konstitusi)"],
+      "04": ["お休み", "Hari libur nasional (Hari Hijau)"],
+      "05": ["お休み", "Hari libur nasional (Hari Anak-anak)"],
+      "12": ["お休み", null],
+      "13": ["お休み", null]
+    },
+    "07": {
+      "08": ["お休み", null],
+      "18": ["お休み", "Hari libur nasional (Hari Laut)"],
+      "19": ["お休み", null],
+      "20": ["お休み", null],
+      "22": ["お休み", null],
+      "26": ["向井葉月", "Yamashita Mizuki tiba-tiba muncul. Tanggal 26 Juli adalah hari ulang tahun Yamashita"],
+      "29": ["お休み", null]
+    },
+    "08": {
+      "10": ["お休み", null],
+      "11": ["お休み", "Hari libur nasional (Hari Gunung)"],
+      "12": ["お休み", null],
+      "15": ["お休み", null],
+      "18": ["お休み", null],
+      "23": ["お休み", null],
+      "24": ["お休み", null],
+      "25": ["お休み", null],
+      "29": ["お休み", null],
+      "30": ["お休み", null],
+      "31": ["お休み", null]
+    },
+    "09": {
+      "01": ["お休み", null],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "07": ["お休み", null],
+      "08": ["お休み", null],
+      "09": ["お休み", null],
+      "19": ["お休み", "Hari libur nasional (Hari Penghormatan Orang Lanjut Usia)"],
+      "23": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Gugur)"]
+    },
+    "10": {
+      "10": ["お休み", "Hari libur nasional (Hari Olahraga)"],
+      "24": ["お休み", null],
+      "31": ["お休み", null]
+    },
+    "11": {
+      "03": ["お休み", "Hari libur nasional (Hari Kebudayaan)"],
+      "10": ["お休み", null],
+      "22": ["お休み", null],
+      "23": ["お休み", "Hari libur nasional (Hari Peringatan Syukur Buruh)"]
+    },
+    "12": {
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "07": ["お休み", null],
+      "19": ["お休み", null],
+      "28": ["お休み", null],
+      "29": ["お休み", null],
+      "30": ["お休み", null]
+    }
+  },
+  "2023": {
+    "01": {
+      "09": ["お休み", "Hari libur nasional (Hari Kedewasaan)"],
+      "20": ["お休み", null],
+      "23": ["お休み", null],
+      "26": ["お休み", null]
+    },
+    "02": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "03": ["お休み", null],
+      "06": ["お休み", null],
+      "08": ["お休み", null],
+      "10": ["お休み", null],
+      "27": ["お休み", null],
+      "28": ["お休み", null]
+    },
+    "03": {
+      "01": ["冨里奈央", "Penampilan perdana"],
+      "02": ["池田瑛紗", "Penampilan perdana"],
+      "03": ["小川彩", "Penampilan perdana"],
+      "06": ["お休み", null],
+      "07": ["奥田いろは", "Penampilan perdana"],
+      "08": ["菅原咲月", "Penampilan perdana"],
+      "09": ["中西アルノ", "Penampilan perdana"],
+      "10": ["岡本姫奈", "Penampilan perdana"],
+      "13": ["川﨑桜", "Penampilan perdana"],
+      "14": ["五百城茉央", "Penampilan perdana"],
+      "15": ["一ノ瀬美空", "Penampilan perdana"],
+      "16": ["井上和", "Penampilan perdana"],
+      "17": ["お休み", null],
+      "21": ["お休み", "Hari libur nasional (Hari Ekuinoks Musim Semi)"],
+      "28": ["お休み", null]
+    },
+    "04": {
+      "07": ["お休み", null],
+      "24": ["お休み", null],
+      "26": ["お休み", null],
+      "27": ["お休み", null],
+      "28": ["お休み", null]
+    },
+    "05": {
+      "03": ["お休み", "Hari libur nasional (Hari Peringatan Konstitusi)"],
+      "04": ["お休み", "Hari libur nasional (Hari Hijau)"],
+      "05": ["お休み", "Hari libur nasional (Hari Anak-anak)"],
+      "08": ["お休み", null],
+      "16": ["お休み", null],
+      "17": ["お休み", null],
+      "18": ["お休み", null]
+    },
+    "06": {
+      "12": ["お休み", null],
+      "19": ["お休み", null],
+      "26": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "07": {
+      "03": ["お休み", null],
+      "12": ["お休み", null],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "17": ["お休み", "Hari libur nasional (Hari Laut)"],
+      "20": ["お休み", null],
+      "21": ["お休み", null],
+      "24": ["お休み", null],
+      "27": ["お休み", null],
+      "31": ["お休み", null]
+    },
+    "08": {
+      "01": ["お休み", "Hari libur nasional (Hari Gunung)"],
+      "02": ["お休み", null],
+      "11": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "17": ["お休み", null],
+      "18": ["お休み", null],
+      "23": ["お休み", null],
+      "24": ["お休み", null],
+      "25": ["お休み", null],
+      "28": ["お休み", null],
+      "29": ["お休み", null],
+      "30": ["お休み", null],
+      "31": ["お休み", null]
+    },
+    "09": {
+      "01": ["お休み", null],
+      "04": ["お休み", null],
+      "14": ["お休み", null],
+      "18": ["お休み", "Hari libur nasional (Hari Penghormatan Orang Lanjut Usia)"],
+      "27": ["与田祐希", "Sato Kaede dan Mukai Hazuki tiba-tiba muncul. Yakiniku 3 bersaudari"],
+      "29": ["お休み", null]
+    },
+    "10": {
+      "09": ["お休み", "Hari libur nasional (Hari Olahraga)"],
+      "10": ["阪口珠美", "Ioki Mao dan Nakanishi Aruno tiba-tiba muncul. Datang untuk menempelkan poster 'Shinzanmono'"],
+      "12": ["お休み", null],
+      "18": ["お休み", null],
+      "20": ["林瑠奈", "Hayashi Runa yang kembali dari hiatus muncul setelah sekitar setengah tahun. Yakubo Mio dan Matsuo Miyu tiba-tiba muncul. *Keduanya berteman baik dengan Hayashi"]
+    },
+    "11": {
+      "01": ["岡本姫奈", "Okamoto Hina yang kembali dari hiatus muncul setelah sekitar 8 bulan"],
+      "03": ["お休み", "Hari libur nasional (Hari Kebudayaan)"],
+      "06": ["お休み", null],
+      "09": ["お休み", null],
+      "10": ["お休み", "Sebagai pengganti Nogiobi, SHOWROOM peringatan diadakannya perekaman publik ke-2 Kubo Channel"],
+      "23": ["お休み", "Hari libur nasional (Hari Peringatan Syukur Buruh)"],
+      "27": ["お休み", null]
+    },
+    "12": {
+      "06": ["お休み", null],
+      "18": ["お休み", null],
+      "21": ["お休み", null],
+      "26": ["お休み", null],
+      "27": ["お休み", null],
+      "28": ["お休み", null],
+      "29": ["お休み", null]
+    }
+  },
+  "2024": {
+    "01": {
+      "08": ["お休み", null],
+      "09": ["お休み", null],
+      "18": ["お休み", null],
+      "19": ["金川紗耶", "Nogiobi pertama setelah kembali dari masa hiatus. Pertama kalinya dalam 7 bulan sejak 14 Juni 2023 (Rabu)"],
+      "25": ["お休み", null],
+      "26": ["お休み", null]
+    },
+    "02": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "08": ["お休み", null],
+      "09": ["お休み", null],
+      "12": ["お休み", "Masa latihan 12th YEAR BIRTHDAY LIVE. Nogiobi libur untuk sementara"],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "19": ["お休み", "Masa latihan 12th YEAR BIRTHDAY LIVE. Nogiobi libur untuk sementara"],
+      "20": ["お休み", null],
+      "21": ["お休み", null],
+      "22": ["お休み", null],
+      "23": ["お休み", null],
+      "26": ["お休み", "Masa latihan 12th YEAR BIRTHDAY LIVE. Nogiobi libur untuk sementara"],
+      "27": ["お休み", null],
+      "28": ["お休み", null],
+      "29": ["お休み", null]
+    },
+    "03": {
+      "01": ["お休み", null],
+      "04": ["お休み", "Masa latihan 12th YEAR BIRTHDAY LIVE. Nogiobi libur untuk sementara"],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "07": ["お休み", null],
+      "08": ["お休み", null],
+      "11": ["お休み", null],
+      "12": ["梅澤美波", "Masa 12th YEAR BIRTHDAY LIVE selesai. Nogiobi dilanjutkan kembali setelah 1 bulan"],
+      "14": ["お休み", null],
+      "15": ["お休み", "Diumumkan kalau Kubo Shiori akan tampil, tapi tiba-tiba dibatalkan karena masalah jadwal"],
+      "20": ["お休み", null],
+      "21": ["お休み", null],
+      "22": ["お休み", null],
+      "27": ["お休み", null],
+      "28": ["お休み", null]
+    },
+    "04": {
+      "10": ["お休み", null],
+      "11": ["お休み", null],
+      "15": ["お休み", null],
+      "17": ["お休み", null],
+      "18": ["お休み", null],
+      "22": ["お休み", null],
+      "25": ["お休み", null],
+      "26": ["お休み", null],
+      "29": ["お休み", "Masa latihan konser. *Konser kelulusan Yamashita Mizuki"],
+      "30": ["お休み", null]
+    },
+    "05": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "03": ["お休み", null],
+      "06": ["お休み", "Masa latihan konser. *Konser kelulusan Yamashita Mizuki"],
+      "09": ["お休み", null],
+      "10": ["お休み", null],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "21": ["お休み", null],
+      "23": ["お休み", null],
+      "30": ["お休み", null],
+      "31": ["お休み", null]
+    },
+    "06": {
+      "03": ["お休み", null],
+      "06": ["お休み", null],
+      "07": ["お休み", null],
+      "10": ["お休み", null],
+      "14": ["お休み", null],
+      "19": ["お休み", null],
+      "24": ["お休み", null],
+      "28": ["お休み", "Live Hong Kong"]
+    },
+    "07": {
+      "04": ["お休み", null],
+      "05": ["お休み", null],
+      "08": ["お休み", null],
+      "11": ["お休み", null],
+      "12": ["お休み", null],
+      "15": ["お休み", "Masa latihan untuk Manatsu no Zenkoku Tour 2024. SHOWROOM libur untuk sementara"],
+      "16": ["お休み", null],
+      "17": ["お休み", null],
+      "18": ["お休み", null],
+      "19": ["お休み", null],
+      "22": ["お休み", null]
+    },
+    "08": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "07": ["お休み", null],
+      "09": ["お休み", null],
+      "12": ["お休み", null],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "19": ["お休み", null],
+      "21": ["お休み", null],
+      "26": ["お休み", null],
+      "27": ["梅澤美波", "\"Warna rambut menjadi oranye karena urusan pekerjaan. Sedang syuting di luar negeri."],
+      "29": ["池田瑛紗", "Bercerita tentang masalah kostum di penampilan Aichi DAY 2."],
+      "30": ["お休み", null]
+    },
+    "09": {
+      "02": ["お休み", "Zenkoku Tour 2024 @ Jingu DAY 1"],
+      "03": ["お休み", "Zenkoku Tour 2024 @ Jingu DAY 2"],
+      "04": ["お休み", "Zenkoku Tour 2024 @ Jingu DAY 3"],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "09": ["お休み", "Setelah Manatsu no Zenkoku Tour 2024 selesai, member libur musim panas sekitar 1 minggu"],
+      "10": ["お休み", null],
+      "11": ["お休み", null],
+      "12": ["お休み", null],
+      "13": ["お休み", null],
+      "16": ["お休み", null],
+      "23": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "10": {
+      "10": ["お休み", null],
+      "11": ["お休み", null],
+      "14": ["お休み", "Hari libur nasional"],
+      "16": ["お休み", null],
+      "17": ["お休み", null],
+      "24": ["お休み", null],
+      "28": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "11": {
+      "04": ["お休み", null],
+      "06": ["お休み", null],
+      "11": ["お休み", null],
+      "18": ["お休み", "36thSG Under Live Kanagawa DAY 1"],
+      "19": ["お休み", "36thSG Under Live Kanagawa DAY 2"],
+      "20": ["お休み", "36thSG Under Live Kanagawa DAY 3"],
+      "21": ["お休み", null],
+      "25": ["お休み", null],
+      "28": ["賀喜遥香", "Tamura Mayu tiba-tiba muncul"]
+    },
+    "12": {
+      "04": ["お休み", null],
+      "05": ["お休み", null],
+      "09": ["お休み", null],
+      "11": ["奥田いろは", "Ichinose Miku, Inoue Nagi, dan Ogawa Aya tiba-tiba muncul"],
+      "13": ["お休み", null],
+      "18": ["お休み", null],
+      "19": ["お休み", null],
+      "23": ["お休み", null],
+      "24": ["田村真佑", "Kaki Haruka dan Yumiki Nao tiba-tiba muncul"],
+      "27": ["お休み", null]
+    }
+  },
+  "2025": {
+    "01": {
+      "13": ["お休み", null],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "22": ["お休み", null],
+      "24": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "02": {
+      "04": ["お休み", null],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "10": ["お休み", null],
+      "11": ["お休み", null],
+      "13": ["お休み", null],
+      "14": ["お休み", null],
+      "17": ["お休み", null],
+      "21": ["お休み", null],
+      "24": ["お休み", null],
+      "27": ["お休み", null]
+    },
+    "03": {
+      "17": ["池田瑛紗", "Sugawara Satsuki tiba-tiba muncul"],
+      "20": ["お休み", null],
+      "24": ["お休み", null],
+      "26": ["お休み", null],
+      "27": ["お休み", null]
+    },
+    "04": {
+      "02": ["池田瑛紗", "Seharusnya Tsutsui Ayame yang bertugas, tapi pada hari H diubah menjadi Terepan"],
+      "04": ["お休み", null],
+      "08": ["お休み", null],
+      "09": ["お休み", null],
+      "11": ["お休み", null],
+      "14": ["瀬戸口心月", "Minggu Gen-6 (Grup Musim Semi). Penampilan perdana Setoguchi Mitsuki di Nogiobi. Saat ditanya apa yang ingin dilakukan, menjawab \"Ingin membuat konten memasak bersama Inoue Nagi-san\". Saat masih menjadi fans, menambah Inoue Nagi sebagai oshi setelah menonton pembuatan Osechi di Nogi Douga. (Itu berarti ada oshi lain selain Nagi)"],
+      "15": ["矢田萌華", "Minggu Gen-6 (Grup Musim Semi). Penampilan perdana Yada Moeka di Nogiobi. Awal mula tahu Nogizaka adalah dari Ikoma Rina yang berasal dari daerah yang sama. Mulai benar-benar suka setelah menari lagu Nogizaka di festival budaya SMA (Garuru, Hadasama, dll). Lama-kelamaan jadi suka setelah menonton MV dll. Memutuskan ikut audisi karena melihat Ikeda Teresa yang bisa menyeimbangkan antara pendidikan dan kegiatan idol. Pernah menjadi manajer klub renang di SMA. Di antara Gen-6, akrab dengan Nagashima Rio dan Setoguchi Mitsuki. Sangat gembira ketika dihubungi (lewat manajer) kalau Okamoto Hina sedang menonton siarannya secara langsung. Saling berkirim LINE dengan Okamoto Hina dan sudah janjian akan diberi baju. Suka anime. Sudah menonton anime populer seperti Evangelion, Hunter x Hunter, Jujutsu Kaisen, dll. Belum pernah menonton Slam Dunk, lebih ke kubu Kuroko no Basket. Karena pernah berdebar melihat senpai melakukan cross-dressing atau cosplay Halloween, jadi ingin mencobanya juga. *Meskipun terlihat berkarakter santai, aslinya cukup cerewet dan banyak memberikan informasi"],
+      "16": ["海邉朱莉", "Minggu Gen-6 (Grup Musim Semi). Penampilan perdana Kaibe Akari di Nogiobi. Senpai yang dikagumi Kaibe Akari adalah Endo Sakura"],
+      "17": ["長嶋凛桜", "Minggu Gen-6 (Grup Musim Semi). Penampilan perdana Nagashima Rio di Nogiobi. Mulai menyukai Nogizaka46 karena Inoue Nagi"],
+      "18": ["川端晃菜", "Minggu Gen-6 (Grup Musim Semi). Penampilan perdana Kawabata Hina di Nogiobi. Mulai menyukai Nogizaka karena Sayonara no Imi. Suka Hatsumori Bemars. Ingin mencoba berakting drama atau komedi sketsa dengan sesama Gen-6. Suka Detective Conan. Anime yang baru-baru ini ditonton adalah Kusuriya no Hitorigoto. Suka Mrs. GREEN APPLE. Di masa depan ingin mencoba menjadi pengisi suara di Conan. Merasa kalau kualitas suara dan artikulasinya kurang bagus"],
+      "21": ["大越ひなの", "Minggu Gen-6 (Grup Musim Panas). Penampilan perdana Okoshi Hinano di Nogiobi. Suka memancing. Pakaian hari ini adalah T-shirt Nakano Ropeway (Nakano Ropeway adalah toko pernak-pernik di Nakano Broadway. Toko yang terkenal sering dikunjungi idol). Karena pemalu, belum banyak berbicara dengan senpai. Kostum Suki to Iu no wa Rock daze! yang dipakai di EX Taishu adalah milik Kaki Haruka. Kidal. Saat masih sekolah pernah menjadi penanggung jawab Gunung Fuji (Tugasnya menggambar Gunung Fuji setiap hari dan menempelkannya di rak sepatu. Melaporkan apakah hari ini Gunung Fuji tertutup awan atau tidak)"],
+      "22": ["鈴木佑捺", "Minggu Gen-6 (Grup Musim Panas). Penampilan perdana Suzuki Yuuna di Nogiobi. Pernah menjadi manajer klub atletik di SMA. Syuting MV Time Limit Kataomoi dilakukan di Hokkaido. Menjadi akrab dengan Okoshi Hinano setelah mengobrol tentang Gunung Fuji di mobil saat syuting MV. Okoshi Hinano (berasal dari Shizuoka) dan Suzuki Yuuna (berasal dari Yamanashi). Di ruang ganti, grup musim semi sangat ramai, sedangkan grup musim panas banyak anak yang pendiam. Yada Moeka, Nagashima Rio, Setoguchi Mitsuki, dan Kawabata Hina sering membuat keributan. Kaibe Akari pendiam tapi sering tertawa. Saat masih menjadi fans, pernah ikut Meet & Greet Umezawa Minami sekali. Saat siaran Nogiobi, alumni Yoda Yuuki tiba-tiba muncul"],
+      "23": ["小津玲奈", "Minggu Gen-6 (Grup Musim Panas). Penampilan perdana Ozu Reina di Nogiobi. Mulai menyukai Nogizaka setelah menonton Shiawase no Hogoshoku di TV saat kelas 6 SD. Suka Shiraishi Mai, Ito Marika, dan Suzuki Ayane. Suka Yumiki Nao dan Hayashi Runa. Mendapat hadiah ulang tahun dari Kuromi"],
+      "24": ["愛宕心響", "Minggu Gen-6 (Grup Musim Panas). Penampilan perdana Atago Kokone di Nogiobi. Tanpa sadar sudah berusia 19 tahun tanpa punya mimpi yang spesifik. Memutuskan untuk melamar setelah melihat slogan audisi Gen-6 \"Dunia akan berubah hanya dengan satu langkah\". Berniat melamar audisi grup musim semi, tapi beberapa menit sebelum batas waktu, merasa takut dan batal. Setelah itu, sangat menyesal tidak melamar. Menyadari kalau dia lebih serius dari yang dia kira, lalu melamar di audisi grup musim panas. Oshi-nya adalah Ichinose Miku. Diperkenalkan oleh Ichinose Miku di segmen perkenalan Gen-6 di Nogizaka Kojichu. Setelah rapat, diajak makan (restoran hamburger) oleh Ichinose. Suka drama detektif (Aibou). Waktu SD suka lari cepat pulang ke rumah untuk menonton drama sore. Pelaku yang menulis payung bersama Atagon & Akarin di MV Time Limit Kataomoi adalah Urumin. Atagon adalah nama panggilannya saat kelas 2 SMP. Atago Kokone sendiri menyukai nama panggilan Atagon. Sempat dipanggil \"Atagon\" oleh Gen-6, tapi akhir-akhir ini lebih sering dipanggil \"Kokonen\" atau \"Kokone\". Karena Kanagawa Saya sangat cantik, dia terus memperhatikannya, lalu disapa \"kita sering bertatapan ya\" dan kepalanya dielus. Memiliki kebiasaan menatap mata orang. Lagu Nogizaka46 yang disukai adalah Hito wa Yume wo Nido Miru. Saat audisi tidak percaya diri dan hampir pulang berkali-kali di tengah jalan menuju tempat audisi, tapi didorong oleh lagu ini karena berpikir akan menyesal jika menyerah pada mimpinya sekarang"],
+      "25": ["森平麗心", "Minggu Gen-6 (Grup Musim Panas). Penampilan perdana Morihira Urumi di Nogiobi. Ikut audisi karena direkomendasikan teman. Tidak ikut audisi grup musim semi. Awalnya tidak mengincar menjadi idol atau masuk dunia hiburan, jadi tidak pernah ikut audisi lain. Saat audisi grup musim panas, duduk di sebelah Atago Kokone. Disapa \"semoga kita bisa debut bersama ya\" dan menjadi akrab. Seluruh anggota Gen-6 pernah pergi ke restoran keluarga bersama dan semuanya akrab. Yada Moeka dan Masuda Mirine makannya banyak. Saat melakukan cheat day bersama Masuda Mirine, mereka pindah-pindah tempat makan dan makan sebanyak Kirby. Saat sedang menangis di ruang ganti, Inoue Nagi menyapanya dan mereka mengobrol sekitar 40 menit"],
+      "28": ["増田三莉音", "Minggu Gen-6 (Grup Musim Panas). Penampilan perdana Masuda Mirine di Nogiobi. Suka makanan lembut seperti jeli kopi, tahu, dll. Suka anime. Sering mendengarkan lagu Vocaloid. Karena penglihatannya buruk, biasanya memakai kacamata. Saat memakai kacamata kotak tebal berwarna hitam, dibilang \"seperti guru matematika\" oleh teman seangkatan. Suka takoyaki, ingin mengadakan pesta takoyaki bersama semuanya. Tidak makan dengan menyedot seperti Kirby, tapi memakannya dengan dinikmati. Setelah Real Meet & Greet, Ikeda Teresa menyapanya dan mereka berfoto bersama. Pose Mirine (mendirikan 3 jari di kedua tangan dan menempelkannya di pipi seperti kumis kucing)"],
+      "29": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "05": {
+      "05": ["お休み", "Golden Week"],
+      "06": ["お休み", "Golden Week"],
+      "07": ["お休み", "Golden Week"],
+      "08": ["お休み", "Golden Week"],
+      "09": ["お休み", "Golden Week"],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "19": ["お休み", null]
+    },
+    "06": {
+      "02": ["お休み", null],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "23": ["お休み", null],
+      "30": ["お休み", null]
+    },
+    "07": {
+      "04": ["お休み", null],
+      "07": ["お休み", null],
+      "09": ["お休み", null],
+      "11": ["大越ひなの", "Satu hari sebelum Manatsu no Zenkoku Tour 2025 Penampilan Shizuoka DAY 1. *Okoshi Hinano berasal dari Shizuoka"],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "16": ["お休み", "Manatsu no Zenkoku Tour 2025 Penampilan Osaka DAY 1"],
+      "17": ["お休み", "Manatsu no Zenkoku Tour 2025 Penampilan Osaka DAY 2"],
+      "18": ["お休み", null],
+      "21": ["お休み", "Hari libur nasional (Hari Laut)"],
+      "28": ["お休み", null],
+      "29": ["お休み", null],
+      "31": ["お休み", null]
+    },
+    "08": {
+      "04": ["お休み", null],
+      "08": ["お休み", null],
+      "11": ["お休み", "Hari libur nasional"],
+      "12": ["お休み", null],
+      "18": ["お休み", null],
+      "28": ["お休み", null]
+    },
+    "09": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "03": ["お休み", null],
+      "04": ["お休み", "Manatsu no Zenkoku Tour 2025 Jingu DAY 1"],
+      "05": ["お休み", "Manatsu no Zenkoku Tour 2025 Jingu DAY 2"],
+      "08": ["お休み", "Masa libur musim panas member setelah Zenkoku Tour"],
+      "09": ["お休み", "Masa libur musim panas member setelah Zenkoku Tour"],
+      "10": ["お休み", "Masa libur musim panas member setelah Zenkoku Tour"],
+      "11": ["お休み", "Masa libur musim panas member setelah Zenkoku Tour"],
+      "12": ["お休み", "Masa libur musim panas member setelah Zenkoku Tour"],
+      "15": ["お休み", null],
+      "16": ["お休み", null],
+      "23": ["お休み", "Hari libur nasional"],
+      "24": ["お休み", null]
+    },
+    "10": {
+      "07": ["池田瑛紗", "39thSG Under Live DAY 1. *Waktu konser sekitar 18:30-20:30. Nogiobi Ikeda Teresa pada jam 20:00-20:30"],
+      "08": ["大越ひなの", "39thSG Under Live DAY 2. *Waktu konser sekitar 18:30-20:30. Nogiobi Okoshi Hinano pada jam 17:45-18:15"],
+      "09": ["お休み", "39thSG Under Live DAY 3. *DAY 1 dan DAY 2 tidak ada siaran, tapi DAY 3 yang merupakan hari terakhir ada siaran"],
+      "13": ["お休み", "Hari libur nasional (Hari Olahraga)"],
+      "14": ["矢久保美緒", "Meet & Greet pertama setelah 39th Under Live selesai. Setelah ini penampilan member Under akan berlanjut untuk sementara waktu"],
+      "15": ["奥田いろは", "Member Under"],
+      "16": ["岩本蓮加", "Member Under"],
+      "17": ["柴田柚菜", "Member Under"],
+      "20": ["林瑠奈", "Member Under"],
+      "21": ["佐藤璃果", "Member Under"],
+      "22": ["田村真佑", "Member Under"],
+      "23": ["お休み", null],
+      "24": ["お休み", null],
+      "27": ["金川紗耶", "Member Under"],
+      "28": ["吉田綾乃クリスティー", "Member Under"],
+      "29": ["一ノ瀬美空", "Member Senbatsu, batasan Under telah dicabut"],
+      "31": ["お休み", null]
+    },
+    "11": {
+      "03": ["お休み", "Hari libur nasional (Hari Kebudayaan)"],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "10": ["お休み", null],
+      "12": ["お休み", null],
+      "13": ["お休み", null],
+      "24": ["お休み", "Hari libur nasional"],
+      "25": ["お休み", null],
+      "26": ["お休み", "Konser Kelulusan Kubo Shiori DAY 1"],
+      "27": ["お休み", "Konser Kelulusan Kubo Shiori DAY 2"],
+      "28": ["お休み", null]
+    },
+    "12": {
+      "02": ["鈴木佑捺", "Shinzanmono (Live Gen-6) mencapai hari terakhir pada 30/11. Penampilan Gen-6 akan berlanjut untuk sementara waktu"],
+      "04": ["お休み", null],
+      "15": ["矢久保美緒", "Yakubo Mio, penampilan terakhir di Nogiobi"],
+      "18": ["お休み", null],
+      "19": ["お休み", "40th Under Live DAY 1"],
+      "22": ["お休み", "CDTV Live! Live! Christmas Nenkan Ranking Fes."],
+      "26": ["お休み", "MUSIC STATION SUPER LIVE 2025."],
+      "30": ["お休み", null],
+      "31": ["お休み", null]
+    }
+  },
+  "2026": {
+    "01": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "07": ["お休み", null],
+      "08": ["お休み", null],
+      "12": ["お休み", null],
+      "15": ["お休み", null],
+      "22": ["お休み", null],
+      "23": ["お休み", null],
+      "27": ["お休み", null]
+    },
+    "02": {
+      "03": ["池田瑛紗", "Video perkenalan Gen-5 dirilis pada 1 Februari 2022. Peringatan 4 tahun bergabung"],
+      "04": ["お休み", "18:30 Seven Eleven x Nogizaka46 Limited Live. 20:00 Siaran Mini Live 40th Single 'Biryani'"],
+      "05": ["お休み", null],
+      "06": ["お休み", null],
+      "10": ["お休み", null],
+      "11": ["お休み", null],
+      "12": ["お休み", null],
+      "19": ["お休み", null],
+      "20": ["お休み", "Hari konser Nogizaka46 Coupling Collection 2022-2025"],
+      "23": ["お休み", "Hari libur nasional. Hari konser Nogizaka46 5th ALBUM MEMORIAL LIVE My respect"],
+      "24": ["お休み", null],
+      "26": ["お休み", null]
+    },
+    "03": {
+      "12": ["お休み", null],
+      "17": ["お休み", "41SG Under Live DAY 1"],
+      "18": ["お休み", "41SG Under Live DAY 2"],
+      "19": ["お休み", "41SG Under Live DAY 3"],
+      "20": ["お休み", null],
+      "26": ["お休み", null],
+      "30": ["矢田萌華", "Hari siaran perdana reguler radio Recomen!. 4 jam sebelum siaran langsung radio"]
+    },
+    "04": {
+      "01": ["お休み", null],
+      "02": ["お休み", null],
+      "09": ["お休み", null],
+      "10": ["お休み", null],
+      "14": ["お休み", null],
+      "15": ["お休み", null],
+      "20": ["お休み", null],
+      "23": ["お休み", null],
+      "24": ["お休み", null],
+      "29": ["お休み", "Hari libur nasional (Hari Showa)"],
+      "30": ["お休み", "Golden Week"]
+    },
+    "05": {
+      "01": ["お休み", "Golden Week"],
+      "02": ["お休み", "Golden Week"],
+      "03": ["お休み", "Golden Week"],
+      "04": ["お休み", "Golden Week"],
+      "05": ["お休み", "Golden Week"],
+      "06": ["お休み", "Golden Week"]
+    }
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "2018": {
+    "6": {
+      "20": "Sayuran dari Tanah Liat Kertas",
+      "27": "Rumah Boneka"
+    },
+    "7": {
+      "4": "Matryoshka",
+      "11": "Lilin",
+      "18": "Gunpla",
+      "25": "Stempel Penghapus (Kartu Ucapan Musim Panas)"
+    },
+    "8": {
+      "1": "Jinsei Game (Permainan Kehidupan)",
+      "8": "Jinsei Game (Permainan Kehidupan)",
+      "15": "Jinsei Game (Permainan Kehidupan)",
+      "22": "Lentera Putar (Soumatou)",
+      "29": "Akuarium Bola Gel"
+    },
+    "9": {
+      "5": "Kaca Patri Kertas",
+      "19": "Wagashi Musim Gugur",
+      "26": "Lukisan Jiplak"
+    },
+    "10": {
+      "3": "Dupa",
+      "10": "Manik-manik Setrika (Halloween)",
+      "17": "Kerajinan Kertas Washi (Membuat Jack-o'-Lantern)",
+      "24": "Kerajinan Kain Flanel (Membuat Jack-o'-Lantern)",
+      "31": "Pesta Halloween"
+    },
+    "11": {
+      "7": "Kumade (Doa Kesuksesan)",
+      "14": "Dekorasi Sepatu Kets",
+      "21": "Rumah Kue",
+      "28": "Snow Globe"
+    },
+    "12": {
+      "5": "Christmas Wreath (Karangan Bunga Natal)",
+      "12": "Kartu Natal Pop-up",
+      "19": "Hagoita",
+      "26": "Shimenawa"
+    }
+  },
+  "2019": {
+    "1": {
+      "9": "Label Sake",
+      "16": "Dekorasi Babi Hutan",
+      "23": "Masker Original",
+      "30": "Manik-manik Setrika (Topeng Setsubun)"
+    },
+    "2": {
+      "6": "Sarung Tangan Mitten",
+      "13": "Valentine",
+      "27": "Boneka Hina"
+    },
+    "3": {
+      "6": "Gantungan Kunci Needle Felt",
+      "13": "Buku Mewarnai Dewasa",
+      "20": "Gelang Misanga",
+      "27": "Seni Kertas Robek Sakura"
+    },
+    "4": {
+      "3": "Gelas Original (Ukiran Kaca)",
+      "10": "Dream Catcher",
+      "17": "Telur Paskah",
+      "24": "Dorodango (Bola Lumpur)"
+    },
+    "5": {
+      "8": "Kartu Bunga Pres",
+      "15": "Herbarium",
+      "22": "Buku Tahunan Kelulusan",
+      "29": "Pistol Karet"
+    },
+    "6": {
+      "5": "Membuat Himmeli",
+      "12": "Bunga Sabun Mawar",
+      "19": "Pin Kaleng",
+      "26": "Dekorasi Daun Bambu Tanabata"
+    },
+    "7": {
+      "10": "Akuarium Kertas Washi",
+      "17": "Kartu Ucapan Musim Panas",
+      "24": "Seni Trik 3D",
+      "31": "Kipas Harie Kertas Washi"
+    },
+    "8": {
+      "7": "Membuat Perahu Kamper",
+      "21": "Dekorasi Ikan Mas Koki dari Pita Angel",
+      "28": "Seni Ubin"
+    },
+    "9": {
+      "4": "Lampu Meja",
+      "11": "Papercraft",
+      "18": "Pembatas Buku Plat Tembaga",
+      "25": "Merry-Go-Round Kerajinan Kayu"
+    },
+    "10": {
+      "2": "Light Scratch",
+      "9": "Kaleidoskop",
+      "16": "Dekorasi Manik-manik Musim Gugur",
+      "23": "Barang-barang Halloween",
+      "30": "Pesta Halloween"
+    },
+    "11": {
+      "6": "Seni Dimple",
+      "13": "Celengan Papercraft",
+      "20": "Kumade"
+    },
+    "12": {
+      "4": "Stand Foto",
+      "11": "Lilin Natal",
+      "18": [
+        "Roll Cake Tree",
+        "Christmas Wreath"
+      ],
+      "25": "Pesta Natal"
+    }
+  },
+  "2020": {
+    "1": {
+      "8": "Botol Anggur Original",
+      "15": "Botol Anggur Original",
+      "22": "Pesta Gen-4 (Nogi the Karuta)",
+      "29": "Dekorasi Shio Tikus"
+    },
+    "2": {
+      "5": "Membuat Papan Nama dengan Ubin Mosaik",
+      "12": "Plat Cokelat Pesan",
+      "26": "Kilas Balik 8th Birthday Live"
+    },
+    "3": {
+      "4": "Ornamen Musim Semi",
+      "11": "Lentera Kirie",
+      "18": "Spesial Pembahasan Tuntas Lagu Baru"
+    },
+    "6": {
+      "3": "Buku Harian Bergambar 4 Panel (Remote)",
+      "10": "Buku Harian Bergambar 4 Panel (Remote)",
+      "17": "Buku Harian Bergambar 4 Panel (Remote)",
+      "24": "Mari Kilas Balik 46 Hours TV (Remote)"
+    },
+    "7": {
+      "1": "Permainan yang Bisa Dilakukan Meski Social Distancing",
+      "8": "Permainan yang Bisa Dilakukan Meski Social Distancing",
+      "15": "Permainan yang Bisa Dilakukan Meski Social Distancing",
+      "22": "Permainan yang Bisa Dilakukan Meski Social Distancing",
+      "29": "Bisakah Memecahkan Teka-teki?"
+    },
+    "8": {
+      "5": [
+        "Foto Member yang Imut di HP",
+        "Lagu Nogizaka46 yang Ingin Didengar Musim Panas Ini"
+      ],
+      "12": [
+        "Foto Kenangan Musim Panas Bersama Member",
+        "Lagu Nogizaka46 yang Ingin Didengar di Laut pada Musim Panas"
+      ],
+      "19": [
+        "Foto Kenangan Bersama Senpai",
+        "Lagu Nogizaka46 dengan Koreografi Kesukaan"
+      ],
+      "26": [
+        "Foto Kenangan Musim Panas Bersama Member",
+        "Lagu Nogizaka46 yang Ingin Didengar di Malam Musim Gugur yang Panjang"
+      ]
+    },
+    "9": {
+      "2": [
+        "Foto Kenangan Makan Bersama Member",
+        "Lagu Nogizaka46 dengan MV Kesukaan"
+      ],
+      "9": [
+        "Foto Kenangan Setelah Bergabung dengan Nogizaka46",
+        "Lagu Nogizaka46 dengan MV Kesukaan"
+      ],
+      "16": [
+        "Foto Kenangan Saat Syuting MV",
+        "Lagu Unit Nogizaka46 yang Ingin Diikuti"
+      ],
+      "23": [
+        "Foto yang Bikin Semangat Saat Dilihat",
+        "Lagu Nogizaka46 yang Ingin Didengar Saat Perjalanan"
+      ],
+      "30": [
+        "Foto Keren Bersama Member",
+        "Lagu Nogizaka46 dengan Lirik Kesukaan"
+      ]
+    },
+    "10": {
+      "7": [
+        "Foto Kenangan di Balik Panggung Live",
+        "Lagu Nogizaka46 yang Ingin Didengar di Malam Musim Gugur yang Panjang"
+      ],
+      "21": [
+        "Foto yang Sangat Idol",
+        "Lagu Nogizaka46 yang Bikin Menangis"
+      ]
+    },
+    "11": {
+      "4": [
+        "Foto Member yang Bikin Tenang Saat Dilihat",
+        "Lagu Nogizaka46 yang Menarik Karena Kekerenannya",
+        "Member yang Ingin Diajak Pergi Makan Yakiniku Bareng"
+      ],
+      "11": [
+        "Foto Bersama Member Saat Perayaan Ulang Tahun",
+        "Video Kesukaan Menampilkan Partner",
+        "Member yang Bikin Khawatir"
+      ],
+      "18": [
+        "Pekerjaan yang Ingin Kucoba",
+        "Rekomendasi Lagu Nogizaka46 Saat Ingin Bersantai",
+        "Member yang Ingin Dijadikan Pacar"
+      ],
+      "25": [
+        "Hal yang Ingin Kulakukan Tahun Ini",
+        "Lagu Nogizaka46 yang Ingin Didengar di Musim Dingin",
+        "Member yang Ingin Dijadikan Kakak Perempuan"
+      ]
+    },
+    "12": {
+      "2": [
+        "Hal yang Ingin Kulakukan Tahun Ini",
+        "Lagu Nogizaka46 dengan Intro Kesukaan",
+        "Member Gen-4 yang Paling Cepat Ganti Baju"
+      ],
+      "9": [
+        "Berita Super Pribadiku Tahun 2020",
+        "Lagu Under Kesukaan",
+        "Member yang Paling Cepat Menghafal Koreografi"
+      ]
+    }
+  },
+  "2021": {
+    "1": {
+      "13": [
+        "Kenangan Liburan Akhir Tahun dan Tahun Baruku",
+        "Member yang Sepertinya Menyenangkan Jika Duduk di Sebelahku di Kelas"
+      ],
+      "20": [
+        "Hal yang Ingin Kucoba di Tahun 2021",
+        "Member yang Mudah Ditiru"
+      ],
+      "27": [
+        "Kenangan Saat Syuting MV Single ke-26",
+        "Member yang Ingin Kuberikan Cokelat Honmei Saat Valentine"
+      ]
+    },
+    "2": {
+      "3": [
+        "Bagian Favorit dari MV 'Out of the blue'",
+        "Senpai yang Ingin Dijadikan Pacar"
+      ],
+      "10": [
+        "Tempat Favorit di Kampung Halamanku",
+        "Member yang Diharapkan Memberi Cokelat"
+      ],
+      "17": [
+        "Rahasia Meningkatkan Mood Sebelum Konser",
+        "Member yang Cocok dengan Musim Panas"
+      ],
+      "24": [
+        "Kilas Balik 9th Birthday Konser",
+        "Member yang Pintar Memeriahkan Konser"
+      ]
+    },
+    "3": {
+      "3": [
+        "Hal yang Bisa Dibanggakan dari Gen-3",
+        "Member yang Ingin Dijadikan Pacar"
+      ],
+      "10": [
+        "Hal yang Ingin Kulakukan di Musim Semi Ini",
+        "Member yang Tidak Membosankan Dilihat"
+      ],
+      "17": [
+        "Kata-kata Senpai yang Paling Berkesan",
+        "Member yang Sepertinya Populer di Sekolah"
+      ],
+      "24": [
+        "Unit Halu yang Ingin Dilihat di Konser Gen-1 & Gen-2",
+        "Member yang Cocok dengan Musim Semi"
+      ],
+      "31": [
+        "Mari Kilas Balik Konser Gen-2!",
+        "Kenangan Musim Semiku",
+        "Member yang Mudah Ditiru",
+        "Member yang Sepertinya Cocok Berambut Pirang"
+      ]
+    },
+    "4": {
+      "7": [
+        "Rekomendasi Berlari (Presentasi Sato)",
+        "Kenangan BIRTHDAY LIVE",
+        "Member yang Diharapkan Ada Saat Pulang ke Rumah"
+      ],
+      "14": [
+        "Daya Tarik Endo Sakura (Presentasi Yakubo)",
+        "Kostum Nogizaka46 Kesukaanku",
+        "Member yang Bikin Tenang Saat Dilihat"
+      ],
+      "21": [
+        "Hal yang Berkembang dari Diriku Selama 9 Tahun di Nogizaka46",
+        "Member yang Diharapkan Menjadi Wali Kelas"
+      ],
+      "28": "Hal yang Berubah dari Satu Sama Lain Menurut Kami"
+    },
+    "5": {
+      "12": "Mari Kilas Balik Konser Gen-4!",
+      "19": [
+        "Mari Kilas Balik Konser Gen-3!",
+        "Pelajaran/Kursus yang Ingin Dicoba"
+      ]
+    },
+    "6": {
+      "2": [
+        "Kenangan Saat Syuting MV 'Sabita Compass'",
+        "Daya Tarik Kucing (Presentasi Yoshida)"
+      ],
+      "9": "Poin Rekomendasi Super Pribadi 'Nekojita Chamomile Tea'",
+      "30": [
+        "Kenangan Paruh Pertama Tahun 2021",
+        "Lagu Nogizaka46 yang Ingin Dinyanyikan di Karaoke",
+        "Member yang Cocok dengan Musim Panas"
+      ]
+    },
+    "7": {
+      "7": "Spesial Peringatan Keputusan Rilis Photobook ke-1 Watanabe Miria",
+      "21": "Kenangan Pertandingan Awal 'Manatsu no Zenkoku Tour 2021'",
+      "28": "Hal yang Sering Terjadi di Liburan Musim Panasku"
+    },
+    "8": {
+      "4": [
+        "Hal yang Ingin Dicoba Seimiya Rei di Usia 18 Tahun",
+        "Hal yang Telah Dicoba Shibata Yuna di Usia 18 Tahun"
+      ],
+      "11": "Proyek Persiapan Zenkoku Tour 'Kuis Dialek Nagoya'",
+      "18": "Proyek Spesial Kelulusan! Mari Kilas Balik 8 Tahun di Nogizaka46!",
+      "25": "Kenanganku Bersama Momoko"
+    },
+    "9": {
+      "1": "Kilas Balik Musim Panas Tahun Ini Melalui Ilustrasi",
+      "8": "Hal yang Sering Terjadi pada Kami",
+      "22": "Poin Rekomendasi Super Pribadi Single ke-28",
+      "29": "Poin Rekomendasi Super Pribadi Lagu Unit"
+    },
+    "10": {
+      "6": [
+        "Hal yang Ingin Kucoba Musim Gugur Ini",
+        "Member yang Cocok dengan Musim Gugur"
+      ],
+      "13": [
+        "Tempat yang Ingin Kukunjungi di Musim Gugur",
+        "Daya Tarik Anjing Kesayangan Tiffany-chan (Presentasi Sakaguchi)",
+        "Member yang Wangi"
+      ],
+      "20": [
+        "Hal yang Disukai dari Satu Sama Lain",
+        "Member yang Merupakan Tipe Ideal"
+      ]
+    },
+    "11": {
+      "10": [
+        "Kata Populer Super Pribadiku",
+        "Daya Tarik Katak (Presentasi Mukai)",
+        "Member yang Bawaannya Banyak"
+      ],
+      "17": [
+        "Hal yang Ingin Kucoba Musim Dingin Ini",
+        "Daya Tarik Light Novel (Presentasi Hayashi)",
+        "Member yang Ganti Bajunya Cepat"
+      ],
+      "24": [
+        "Kenangan 'Manatsu no Zenkoku Tour 2021 FINAL!'",
+        "Daya Tarik Kyoto (Presentasi Yumiki)",
+        "Member yang Ingin Dinikahi"
+      ]
+    },
+    "12": {
+      "1": [
+        "Hal yang Ingin Dilakukan Tahun Ini",
+        "Daya Tarik Menonton Bisbol (Presentasi Shibata)",
+        "Member yang Ingin Dijadikan Teman Sebangku"
+      ],
+      "8": [
+        "Kenanganku di Tahun 2021",
+        "Anime Rekomendasi Saat Ini (Presentasi Ito)",
+        "Member yang Ingin Diproduseri",
+        "Member yang Ingin Diajak Pergi Makan Bareng"
+      ],
+      "22": [
+        "Pesta Natal",
+        "Berita Super Pribadi Tahun 2021"
+      ]
+    }
+  },
+  "2022": {
+    "1": {
+      "12": "Kenangan Liburan Akhir Tahun dan Tahun Baru yang Berkesan Bagiku",
+      "19": "Hal yang Disukai dari Satu Sama Lain",
+      "26": "Berita Super Pribadiku Akhir-akhir Ini"
+    },
+    "2": {
+      "2": "Setan dalam Diriku yang Ingin Kubasmi Saat Setsubun",
+      "9": "Manga Kesukaanku",
+      "16": "Kenangan Nogizaka46 Hours TV Milikku"
+    },
+    "3": {
+      "2": "Kenangan Nogizaka46 Hours TV",
+      "23": "Poin Rekomendasi Super Pribadi Single ke-29 'Actually...'"
+    },
+    "4": {
+      "6": "Hal Berkesan yang Diajarkan Senpai",
+      "13": [
+        "Resolusi Wada Maaya di Usia 24 Tahun",
+        "Kenangan Ulang Tahun Wada Maaya"
+      ],
+      "20": "Spesial Kelulusan Kitano Hinako (Membuat Lilin, Karaoke)",
+      "27": "Senpai Idealku"
+    },
+    "5": {
+      "11": "Kenangan BIRTHDAY LIVE",
+      "18": [
+        "Mari Kilas Balik '10th YEAR BIRTHDAY LIVE'",
+        "Mari Membahas Perjalanan Nogizaka46 Selama Ini"
+      ],
+      "25": "Bagan Hubungan Gen-4"
+    },
+    "6": {
+      "1": "Foto Terbaikku yang Baru Saja Diambil",
+      "8": "Momen Terbaik Pribadi di '9th YEAR BIRTHDAY LIVE'",
+      "15": "Bagan Hubungan Gen-3",
+      "22": "Hal yang Berkesan di Paruh Pertama Tahun 2022",
+      "29": "Mari Kilas Balik Paruh Pertama Tahun 2022 Nogizaka46!"
+    },
+    "7": {
+      "6": "Hal yang Kunantikan Musim Panas Ini",
+      "13": "Hal yang Berkesan di Manatsu no Zenkoku Tour",
+      "27": "Kenangan Liburan Musim Panasku"
+    },
+    "8": {
+      "3": [
+        "Target Kitagawa Yuri di Usia 21 Tahun",
+        "Mari Kirim Pesan untuk Member yang Lahir di Bulan Agustus"
+      ],
+      "17": "Kenangan Pertandingan Awal 'Manatsu no Zenkoku Tour 2022'"
+    },
+    "9": {
+      "14": "Kenangan Saat Syuting MV 'Jumping Joker Flash'",
+      "21": "Hal yang Disukai dari Satu Sama Lain"
+    },
+    "10": {
+      "12": "Kesenanganku di Musim Gugur",
+      "19": "Kostum yang Ingin Dicoba Saat Halloween",
+      "26": "Spesial Kelulusan Higuchi Hina"
+    },
+    "11": {
+      "2": "Berita Super Pribadiku Akhir-akhir Ini",
+      "16": "Penampilan yang Berkesan di Under Live",
+      "30": [
+        "Poin Rekomendasi Super Pribadi 'Koko ni wa Nai Mono'",
+        "Kata Populer Super Pribadi Tahun Ini Milikku"
+      ]
+    },
+    "12": {
+      "21": "Kenanganku Tahun Ini"
+    }
+  },
+  "2023": {
+    "1": {
+      "11": [
+        "Kenangan Liburan Akhir Tahun dan Tahun Baru",
+        "Targetku di Tahun 2023",
+        "Kenangan Bersama Manatsu-san",
+        "Mari Berbicara Tentang 11th Birthday Live"
+      ],
+      "25": "Perhatian Khusus pada Kecantikan"
+    },
+    "2": {
+      "8": "Daya Tarik Konser Gen-3",
+      "15": "Spesial Kelulusan Akimoto Manatsu"
+    },
+    "3": {
+      "1": "Kenangan '11th YEAR BIRTHDAY LIVE'",
+      "8": "Berita Super Pribadiku Akhir-akhir Ini",
+      "15": "Kenanganku Bersama Ayane-san",
+      "22": "Kenangan Saat Syuting MV 'Kokoro ni mo Nai Koto'",
+      "29": "Mari Berbicara Tentang Single ke-32"
+    },
+    "4": {
+      "12": "Hal Baru yang Ingin Kumulai",
+      "19": "Hal yang Sering Terjadi pada Kami"
+    },
+    "5": {
+      "10": "Ikeda Teresa Bercerita! Daya Tarik Ogawa Aya",
+      "24": "Member Gen-5 yang Ingin Dijadikan Pacar",
+      "31": "Hal yang Disukai dari Satu Sama Lain"
+    },
+    "6": {
+      "7": "Kenangan Paruh Pertama Tahun 2023 Milikku",
+      "14": "Lagu Nogizaka46 yang Ingin Didengar di Hari Hujan",
+      "21": "Hal yang Ingin Kami Berdua Coba ke Depannya"
+    },
+    "7": {
+      "5": "Hal yang Ingin Kulakukan Musim Panas Ini",
+      "19": [
+        "Member Gen-5 yang Sepertinya Menakutkan Kalau Marah",
+        "Member Gen-5 yang Sepertinya Akan Menjadi Ibu yang Luar Biasa"
+      ],
+      "26": "Berita Super Pribadiku Akhir-akhir Ini"
+    },
+    "8": {
+      "9": "Hal yang Sering Terjadi di Liburan Musim Panasku"
+    },
+    "9": {
+      "6": [
+        "Offshot 'Manatsu no Zenkoku Tour 2023'",
+        "Kenangan Saat Syuting MV 'Kangaenai You ni Suru'"
+      ],
+      "13": [
+        "Offshot 'Manatsu no Zenkoku Tour 2023'",
+        "Bagian Favorit dari MV 'Mug Cup to Sink'"
+      ],
+      "20": [
+        "Offshot 'Manatsu no Zenkoku Tour 2023'",
+        "Kenangan Saat Syuting MV 'Ohitorisama Tengoku'"
+      ],
+      "27": "Hal yang Ingin Ditanyakan kepada ○○"
+    },
+    "10": {
+      "4": [
+        "Offshot '33rdSG Under Live'",
+        "Kesenanganku di Musim Gugur"
+      ],
+      "11": "Hal yang Berubah dari Gen-3 Menurutku",
+      "25": "Kenangan Halloween Milikku"
+    },
+    "11": {
+      "8": "Kata Populer Super Pribadi Tahun 2023 Milikku",
+      "29": "Lagu Nogizaka46 dengan Koreografi Kesukaan"
+    },
+    "12": {
+      "13": "Kenanganku di Tahun 2023",
+      "20": "Kenangan Saat Syuting MV 'Itsu no Hi ka, Ano Uta o...'"
+    }
+  },
+  "2024": {
+    "1": {
+      "10": "Target di Tahun 2024",
+      "17": "Berita Super Pribadiku Akhir-akhir Ini",
+      "24": "Makan Siang Sekolah Kesukaanku",
+      "31": [
+        "Kilas Balik Konser Under 34thSG",
+        "Momen Saat Aku Merasa Sudah Dewasa"
+      ]
+    },
+    "3": {
+      "13": "Kilas Balik \"12th YEAR BIRTHDAY LIVE\"",
+      "27": "Adegan Berkesan dari \"12th YEAR BIRTHDAY LIVE\""
+    },
+    "4": {
+      "3": "Hal yang Ingin Disampaikan kepada Orang yang Memulai Kehidupan Baru",
+      "10": "Poin Rekomendasi Super Pribadi MV \"Chance wa Byoudou\"",
+      "24": [
+        "Bagian Favorit dari \"Ato 7 Kyoku\"",
+        "Bagian Favorit dari \"Bunbuku Chagama\""
+      ]
+    },
+    "5": {
+      "15": "Kenangan Berkesan dari Konser Kelulusan Yamashita Mizuki",
+      "22": "Hal yang Ingin Ditanyakan Satu Sama Lain Meskipun Sudah Telat",
+      "29": "Berita Gen-5 Akhir-akhir Ini"
+    },
+    "6": {
+      "12": "Kilas Balik Konser Under 35thSG",
+      "26": "Rekomendasi Lagu Nogizaka46 di Hari Hujan"
+    },
+    "7": {
+      "3": [
+        "Hal yang Sering Terjadi pada Kami",
+        "Kilas Balik Konser Tunggal di Hong Kong"
+      ],
+      "10": "Hal yang Dinantikan di Manatsu no Zenkoku Tour",
+      "24": [
+        "Berita Super Pribadiku Akhir-akhir Ini",
+        "Kilas Balik Konser Manatsu no Zenkoku Tour Penampilan Osaka"
+      ]
+    },
+    "8": {
+      "28": [
+        "Mari Membahas Konser Jingu",
+        "Poin Rekomendasi Super Pribadi MV \"Otoshimono\""
+      ]
+    },
+    "9": {
+      "18": "Kilas Balik Manatsu no Zenkoku Tour 2024",
+      "25": "Hal yang Ingin Ditanyakan Satu Sama Lain Meskipun Sudah Telat"
+    },
+    "10": {
+      "2": "Hal yang Bisa Dilakukan Setelah 8 Tahun",
+      "9": "Hal Hebat dari Satu Sama Lain Menurut Kami",
+      "23": "Kenangan Bersama Member Under 36thSG",
+      "30": [
+        "Spesial Halloween",
+        "(Foto Kenangan Halloweenku)"
+      ]
+    },
+    "11": {
+      "27": "Kanji Tahun Ini Bagiku"
+    },
+    "12": {
+      "11": "Poin Rekomendasi Super Pribadi MV \"Hodoukyou\"",
+      "18": "Kenangan Natalku"
+    }
+  },
+  "2025": {
+    "1": {
+      "29": "Hal yang Sering Terjadi dari Satu Sama Lain"
+    },
+    "2": {
+      "12": "Rekomendasi Lagu Nogizaka Saat Valentine",
+      "19": "Kilas Balik Konser Under 37thSG",
+      "26": "Kenangan Berkesan Bersama Yoda-san"
+    },
+    "3": {
+      "5": "Ulang Tahunku yang Berkesan",
+      "12": "Hal yang Sering Terjadi pada Gen-5",
+      "26": [
+        "Poin Rekomendasi Single ke-38",
+        "Offshot MV \"Navel Orange\""
+      ]
+    },
+    "4": {
+      "2": "Hal yang Ingin Disampaikan kepada Orang yang Baru Menjadi Dewasa",
+      "9": [
+        "Kilas Balik Konser Under 38thSG",
+        "Poin Rekomendasi MV \"Koukanshinkei Yuui\""
+      ]
+    },
+    "5": {
+      "14": [
+        "Adegan Berkesan dari BIRTHDAY LIVE",
+        "(Siaran 1 Jam)"
+      ],
+      "21": "Kilas Balik \"13th YEAR BIRTHDAY LIVE\"",
+      "28": "Foto \"Aku Tuh Orang yang Seperti Ini\""
+    },
+    "6": {
+      "11": "Hal yang Membuat Penasaran dari Satu Sama Lain",
+      "18": "Foto Kenangan Paruh Pertama Tahun Ini Milikku",
+      "25": [
+        "Hal yang Dinantikan di Manatsu no Zenkoku Tour Tahun Ini",
+        "Kilas Balik Paruh Pertama Tahun 2025"
+      ]
+    },
+    "7": {
+      "2": "Hal yang Mengejutkan Setelah Bergabung dengan Nogizaka",
+      "23": "Makanan Kenangan yang Dimakan Saat Manatsu no Zenkoku Tour"
+    },
+    "8": {
+      "6": "Poin Rekomendasi Super Pribadi Lagu yang Diikuti di Single ke-39",
+      "13": "Poin Rekomendasi MV \"Fudoutoku na Natsu\"",
+      "20": "Hal yang Ingin Ditanyakan Satu Sama Lain",
+      "27": "Berita Super Pribadi Musim Panas Ini"
+    },
+    "9": {
+      "17": "Kilas Balik Manatsu no Zenkoku Tour 2025"
+    },
+    "10": {
+      "1": "Hal yang Ingin Ditanyakan Satu Sama Lain Meskipun Sudah Telat",
+      "15": "Kilas Balik Konser Under 39thSG",
+      "22": "Berita Super Pribadiku Akhir-akhir Ini",
+      "29": "Spesial Halloween"
+    },
+    "11": {
+      "19": "Kata Populer Super Pribadi Tahun Ini Milikku"
+    },
+    "12": {
+      "10": [
+        "Poin Rekomendasi MV \"Shiei Dance Hall\"",
+        "Kilas Balik Tahun 2025 Gen-6"
+      ],
+      "17": "Episode Berkesan Bersama Okamoto Hina",
+      "24": "Kilas Balik Konser Under 40thSG"
+    }
+  },
+  "2026": {
+    "1": {
+      "14": "Foto Kenangan Liburan Akhir Tahun dan Tahun Baruku",
+      "21": "Hal yang Ingin Ditanyakan Satu Sama Lain Meskipun Sudah Telat",
+      "28": "Hal yang Berkembang Setelah Bergabung dengan Nogizaka"
+    },
+    "2": {
+      "25": "Kilas Balik Konser \"Coupling Collection\" dan \"My respect\""
+    },
+    "3": {
+      "11": "Berita Super Pribadiku Akhir-akhir Ini",
+      "25": "Kilas Balik Konser Under 41stSG"
+    },
+    "4": {
+      "8": "Mari Membahas Single ke-41"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+[
+    {
+        "group": "乃木坂46",
+        "member": "向井葉月",
+        "type": "のぎおび",
+        "airdate": "2018.06.29",
+        "stream": [
+            "22:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "中田花奈",
+        "type": "のぎおび",
+        "airdate": "2018.06.28",
+        "stream": [
+            "18:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "佐藤楓",
+        "type": "のぎおび",
+        "airdate": "2018.06.27",
+        "stream": [
+            "18:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "岩本蓮加",
+        "type": "のぎおび",
+        "airdate": "2018.06.26",
+        "stream": [
+            "19:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "斎藤ちはる",
+        "type": "のぎおび",
+        "airdate": "2018.06.25",
+        "stream": [
+            "19:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "生田絵梨花",
+        "type": "のぎおび",
+        "airdate": "2018.06.22",
+        "stream": [
+            "20:15:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 55000
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "斉藤優里",
+        "type": "のぎおび",
+        "airdate": "2018.06.21",
+        "stream": [
+            "20:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "相楽伊織",
+        "type": "のぎおび",
+        "airdate": "2018.06.20",
+        "stream": [
+            "20:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "大園桃子",
+        "type": "のぎおび",
+        "airdate": "2018.06.19",
+        "stream": [
+            "20:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    }
+]

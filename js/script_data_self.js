@@ -371,9 +371,10 @@ if (memberId) {
         fetch("../store/member/members_kyoudaishimai.json").then(res => res.json()),
         fetch("../store/member/zodiac.json").then(res => res.json()),
         fetch("../store/member/mbti.json").then(res => res.json()),
-        fetch("../store/member/members_hiatus.json").then(res => res.json()) // [MODIFIKASI] Fetch data hiatus
+        fetch("../store/member/members_hiatus.json").then(res => res.json()),
+        fetch("../store/member/members_agency.json").then(res => res.json())
       ])
-      .then(([snsData, adanaData, kyoudaishimaiData, zodiacData, mbtiData, hiatusData]) => { // [MODIFIKASI] Tambahkan hiatusData
+      .then(([snsData, adanaData, kyoudaishimaiData, zodiacData, mbtiData, hiatusData, agencyData]) => {
         const snsKey = member.nama_romaji.toLowerCase().replace(/ /g, '_');
         const memberSNS = snsData[snsKey];
         
@@ -411,15 +412,34 @@ if (memberId) {
         const memberMbti = mbtiData[member.nama_jp];
         const mbtiHTML = generateMbtiHTML(memberMbti);
 
-        // [MODIFIKASI BARU] Generate HTML untuk Hiatus
         const hiatusHTML = generateHiatusHTML(member, hiatusData);
+
+        let agencyHTML = '<div class="data-row"><div class="data-label">Agensi</div><div class="data-value">Tidak diketahui</div></div>';
+        let foundAgency = null;
+        for (const [agencyName, data] of Object.entries(agencyData)) {
+            const allMembers = [
+                ...(data.member.nogizaka || []),
+                ...(data.member.hinatazaka || []),
+                ...(data.member.sakurazaka || []),
+                ...(data.member.keyakizaka || []),
+                ...(data.member.bokuao || [])
+            ];
+            
+            if (allMembers.includes(member.nama_jp)) {
+                foundAgency = { key: agencyName, ...data };
+                break;
+            }
+        }
+
+        if (foundAgency && foundAgency.key !== "no_agency") {
+            agencyHTML = `<div class="data-row"><div class="data-label">Agensi</div><div class="data-value">${foundAgency.agency_ro}<br/><font size="1.2em">${foundAgency.agency_jp}</font></div></div>`;
+        }
 
         const memberNamaJPHtml = member.nama_jp.split('').map((char, index) => {
             if (char === ' ' || char === '_') return `<span style="--i:${index + 1}; display: inline-block;">${char === ' ' ? '&nbsp;' : char}</span>`;
             return `<span style="--i:${index + 1};">${char}</span>`;
         }).join('');
 
-        // [MODIFIKASI] Sisipkan hiatusHTML ke dalam template
         container.innerHTML = `
          <div class="profile-container">
 		    <div class="profile-photo">
@@ -438,6 +458,7 @@ if (memberId) {
                 <div class="data-row"><div class="data-label">Tinggi</div><div class="data-value">${member.tinggi}</div></div>
                 <div class="data-row"><div class="data-label">Generasi</div><div class="data-value">${genLabel}</div></div>
                 ${kyoudaishimaiHTML}
+                ${agencyHTML}
                 ${snsContent}
                 <a class="partisipasi-link" href="participate.html?id=${member.id}">Garapan Kami yang Ada ${namaRomajiFormatted}</a>
               </div>

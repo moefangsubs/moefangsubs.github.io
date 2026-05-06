@@ -1,0 +1,248 @@
+[
+    {
+        "group": "乃木坂46",
+        "member": "能條愛未",
+        "type": "のぎおび",
+        "airdate": "2018.07.31",
+        "stream": [
+            "18:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "伊藤理々杏",
+        "type": "のぎおび",
+        "airdate": "2018.07.30",
+        "stream": [
+            "17:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "中村麗乃",
+        "type": "のぎおび",
+        "airdate": "2018.07.27",
+        "stream": [
+            "19:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "井上小百合",
+        "type": "のぎおび",
+        "airdate": "2018.07.26",
+        "stream": [
+            "19:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "川後陽菜",
+        "type": "のぎおび",
+        "airdate": "2018.07.25",
+        "stream": [
+            "12:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 15000
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "西野七瀬",
+        "type": "のぎおび",
+        "airdate": "2018.07.24",
+        "stream": [
+            "19:00:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 66574
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "吉田綾乃クリスティー",
+        "type": "のぎおび",
+        "airdate": "2018.07.23",
+        "stream": [
+            "18:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "和田まあや",
+        "type": "のぎおび",
+        "airdate": "2018.07.19",
+        "stream": [
+            "17:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "星野みなみ",
+        "type": "のぎおび",
+        "airdate": "2018.07.18",
+        "stream": [
+            "18:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "渡辺みり愛",
+        "type": "のぎおび",
+        "airdate": "2018.07.17",
+        "stream": [
+            "21:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "佐々木琴子",
+        "type": "のぎおび",
+        "airdate": "2018.07.16",
+        "stream": [
+            "20:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "山下美月",
+        "type": "のぎおび",
+        "airdate": "2018.07.13",
+        "stream": [
+            "20:30:00",
+            null
+        ],
+        "mori_tw_gift": [
+            {
+                "user": 44209
+            },
+            null,
+            null
+        ],
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "若月佑美",
+        "type": "のぎおび",
+        "airdate": "2018.07.12",
+        "stream": [
+            "17:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "寺田蘭世",
+        "type": "のぎおび",
+        "airdate": "2018.07.11",
+        "stream": [
+            "18:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "阪口珠美",
+        "type": "のぎおび",
+        "airdate": "2018.07.10",
+        "stream": [
+            "19:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "伊藤かりん",
+        "type": "のぎおび",
+        "airdate": "2018.07.09",
+        "stream": [
+            "16:30:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "鈴木絢音",
+        "type": "のぎおび",
+        "airdate": "2018.07.04",
+        "stream": [
+            "20:15:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "堀未央奈",
+        "type": "のぎおび",
+        "airdate": "2018.07.03",
+        "stream": [
+            "20:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    },
+    {
+        "group": "乃木坂46",
+        "member": "伊藤純奈",
+        "type": "のぎおび",
+        "airdate": "2018.07.02",
+        "stream": [
+            "19:00:00",
+            null
+        ],
+        "mori_tw_gift": null,
+        "note_script": "no_sec"
+    }
+]

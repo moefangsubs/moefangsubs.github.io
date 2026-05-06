@@ -1,0 +1,502 @@
+:root {
+    --bg-card: #ffffff;
+    --bg-main: #f9f9f9;
+    --border-box: #333333;
+    --radius: 0px;
+    --pad-box: 20px;
+    --shadow-sm: 4px 4px 0px rgba(0,0,0,0.1);
+    --text-color: #333333;
+    --text-muted: #666666;
+    --text-sm: 0.8rem;
+    --text-md: 1rem;
+    --moe: #814fa2;
+    --moefang-1: #5a00a0;
+    --pixel-clip-path: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
+}
+
+.titlehead {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--moe-shade-min1);
+}
+
+.app-container {
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.calendar-section {
+    background: var(--bg-card);
+    border-radius: var(--radius);
+    padding: var(--pad-box);
+    box-shadow: var(--shadow-sm);
+    box-sizing: border-box;
+    position: relative;
+    border: 2px solid var(--border-box);
+    width: 100% !important;
+    display: flex; 
+    flex-direction: column;
+}
+
+.calendar-section::before, .calendar-section::after {
+    content: "";
+    position: absolute;
+    background: var(--bg-card);
+    z-index: -1;
+}
+
+.calendar-section::before {
+    top: -4px; bottom: -4px; left: 4px; right: 4px;
+    border-left: 2px solid var(--border-box);
+    border-right: 2px solid var(--border-box);
+}
+
+.calendar-section::after {
+    left: -4px; right: -4px; top: 4px; bottom: 4px;
+    border-top: 2px solid var(--border-box);
+    border-bottom: 2px solid var(--border-box);
+}
+
+.calendar-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    z-index: 10;
+    background: var(--bg-card);
+    padding: 10px 0;
+}
+
+.calendar-controls.bottom-controls {
+    position: sticky;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    border-top: 2px dashed var(--border-box);
+}
+
+.calendar-title {
+    display: flex;
+    gap: 10px;
+}
+
+.view-select, #yearSelect, #monthSelect {
+    font-size: var(--text-md);
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 2px solid var(--border-box);
+    border-radius: 0;
+    background: var(--bg-card);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    cursor: pointer;
+}
+
+.btn-nav {
+    background: var(--moe);
+    color: white;
+    border: 2px solid var(--border-box);
+    padding: 10px 15px;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-nav:hover {
+    background: var(--moefang-1);
+    transform: translateY(-2px);
+}
+
+.calendar-container {
+    width: 100%;
+    flex: 1;
+}
+
+.year-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+@media (max-width: 1200px) {
+    .year-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 900px) {
+    .year-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+    .year-grid { grid-template-columns: 1fr; }
+}
+
+.month-wrapper {
+    background: var(--bg-card);
+    border: 2px solid var(--border-box);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+}
+
+.month-wrapper:hover {
+    transform: translateY(-4px);
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.2);
+}
+
+.month-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--moe);
+    font-size: var(--text-md);
+    border-bottom: 2px dashed var(--border-box);
+    padding-bottom: 5px;
+}
+
+.month-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+
+.month-header {
+    text-align: center;
+    font-size: var(--text-sm);
+    font-weight: bold;
+    color: var(--text-muted);
+    padding: 2px 0;
+}
+
+.month-day {
+    aspect-ratio: 1;
+    border: 1px solid var(--border-box);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background: var(--bg-main);
+    overflow: hidden;
+    padding-top: 4px;
+}
+
+.month-day.empty {
+    background: transparent;
+    border: none;
+}
+
+.month-list-view {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.list-day-row {
+    display: flex;
+    background: var(--bg-main);
+    border: 2px solid var(--border-box);
+    border-radius: 0;
+    padding: 15px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.list-date-label {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--moe);
+    flex: 0 0 80px; 
+    text-align: center;
+    line-height: 1;
+}
+
+.list-streams-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    flex: 1;
+    margin-top: 5pt;
+}
+
+.empty-list-msg {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--text-muted);
+    border: 2px dashed var(--border-box);
+    border-radius: 0;
+    background: var(--bg-main);
+}
+
+.stream-detail-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid;
+    border-top: none;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.stream-detail-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.15);
+}
+
+.stream-detail-header {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    font-size: var(--text-md);
+    clip-path: var(--pixel-clip-path);
+    margin-top: -7pt;
+}
+
+.stream-detail-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    justify-content: flex-start;
+}
+
+.stream-detail-photo {
+    --box-w: 120px; 
+    --box-h: 160px;
+    width: var(--box-w);
+    height: var(--box-h);
+    overflow: hidden;
+    border: 2px solid;
+    background: var(--bg-main);
+    position: relative;
+}
+
+.modal-profile-wrap {
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+}
+
+.modal-member-photo {
+    --box-w: 120px; 
+    --box-h: 160px;
+    width: var(--box-w);
+    height: var(--box-h);
+    overflow: hidden;
+    border: 4px solid;
+    box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+    margin: 25px auto 45px auto;
+    /* margin: 0 auto 15px auto; */
+    background: var(--bg-main);
+    position: relative;
+    transform: scale(1.4);
+}
+
+.modal-multi-photo {
+    --box-w: 120px; 
+    --box-h: 160px;
+    width: var(--box-w);
+    height: var(--box-h);
+    overflow: hidden;
+    border: 2px solid;
+    background: var(--bg-main);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.stream-detail-photo img,
+.modal-member-photo img,
+.modal-multi-photo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% * (600 / var(--crop-r, 600)));
+    height: auto;
+    transform: translate(
+        calc(-50% - (var(--crop-ox, 0) * (var(--box-w) / 600))),
+        calc(-50% - (var(--crop-oy, 0) * (var(--box-w) / 600)))
+    );
+    transform-origin: center center;
+}
+
+.day-number {
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 4px;
+    align-self: center;
+}
+
+.stream-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.stream-tag {
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    width: 95%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid rgba(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 0;
+    clip-path: var(--pixel-clip-path);
+}
+
+.year-grid .stream-tag {
+    font-size: 0.55rem;
+    padding: 2px;
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: var(--text-sm);
+    padding: 4px 8px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s;
+    z-index: 10;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
+.stream-item:hover .tooltip {
+    opacity: 1;
+}
+
+.sr-modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.sr-modal.active {
+    display: flex;
+}
+
+.sr-modal-wrapper {
+    position: relative;
+    width: 95%;
+    max-width: 850px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+}
+
+.sr-modal-shadow {
+    position: absolute;
+    inset: 6px 0 0 6px;
+    background-color: var(--modal-shadow-color, var(--moe));
+    clip-path: var(--pixel-clip-path);
+    z-index: -1;
+}
+
+.sr-modal-content {
+    background-color: var(--modal-bg-color, var(--bg-card));
+    width: 100%;
+    max-height: 85vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 30px;
+    border: 2px solid var(--border-box);
+    clip-path: var(--pixel-clip-path);
+    box-sizing: border-box;
+}
+
+.close-modal {
+    position: absolute;
+    top: -45px;
+    right: 0px;
+    font-size: 2.5rem;
+    background: none; 
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+    z-index: 10;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+}
+
+.close-modal:hover { 
+	color: var(--moefang-1); 
+	transform: scale(1.1); 
+}
+
+.sr-modal-body {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.sr-modal-left {
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sr-modal-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.modal-romaji {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+    line-height: 1.1;
+}
+
+.modal-jp {
+    font-size: var(--text-md);
+    color: var(--text-muted);
+}
+
+.modal-data-row {
+    margin-bottom: 15px;
+    font-size: var(--text-md);
+    display: flex;
+    border-bottom: 1px dashed var(--border-box);
+    padding-bottom: 8px;
+}
+
+.modal-data-row strong {
+    flex: 0 0 150px;
+    color: var(--text-color);
+}
+
+.modal-data-row span {
+    flex: 1;
+}
