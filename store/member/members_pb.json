@@ -3173,5 +3173,39 @@
         "imageRakuten": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude-rakuten.jpg",
         "imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude-sonymusic.jpg",
         "download": ""
-    }
+    },
+	{
+		"image": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation.jpg",
+		"count": "初",
+		"title": {
+			"jp": "好きのグラデーション",
+			"id": "Suki no Gradation"
+		},
+		"name": {
+			"jp": "金川紗耶",
+			"id": "Kanagawa Saya"
+		},
+		"photographer": {
+			"jp": "三宮幹史",
+			"id": "Sannomiya Mikishi"
+		},
+		"publisher": {
+			"jp": "DONUTS／主婦の友社",
+			"id": "DONUTS / Shufunotomo"
+		},
+		"releaseDate": "2026-06-30",
+		"type": {
+			"jp": "写真集",
+			"id": "Photobook"
+		},
+		"location": {
+			"jp": "クロアチア",
+			"id": "Kroasia"
+		},
+		"salesfirst": null,
+		"imageSevenNet": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-7net.jpg",
+		"imageRakuten": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-rakuten.jpg",
+		"imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-sonymusic.jpg",
+		"download": ""
+	}
 ]
