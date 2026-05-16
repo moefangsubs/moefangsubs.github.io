@@ -10,7 +10,8 @@
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30",
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
-		"51", "52", "53", "54", "55", "56", "57", "58", "59", "60"
+		"51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
+		"61", "62"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_otameshichuu2.png",
@@ -444,6 +445,20 @@
 			"linkHardsub": "https://sfl.gl/Empc",
 			"linkSoftsub": "https://sfl.gl/Lp9AoDX7",
 			"descEpisodeSynopsis": "Di episode 60 kali ini, tantangan bisbol dihadirkan untuk menyambut euforia kejuaraan dunia sekaligus mengasah bakat olahraga para member agar dapat memperluas peluang kerja di bidang tersebut. Kegiatan dimulai dengan uji kemampuan dasar seperti lempar tangkap bola dan teknik memukul yang mengungkap bakat terpendam serta momen jenaka di lapangan. Persaingan semakin seru saat memasuki sesi kuis wawasan bisbol yang dikombinasikan dengan aksi menangkap bola serta tantangan melempar dalam kondisi pusing setelah menggunakan bat putar-putar."
+		},
+		"61": {
+			"descOnAirDate": "28 Maret 2026",
+			"memberParticipate": "伊藤理々杏、金川紗耶、柴田柚菜、佐藤璃果、冨里奈央",
+			"linkHardsub": "https://sfl.gl/DRxR74M",
+			"linkSoftsub": "https://sfl.gl/ju8Y0gA",
+			"descEpisodeSynopsis": "Menyambut April Mop, para member ditantang menguji kemampuan berbohong dan berakting mereka melalui berbagai segmen permainan psikologi, mulai dari kuis fakta diri, Nogizaka46 Member Wolf, hingga Reaction Doubt di atas alas pijat kaki demi memperebutkan hadiah set seafood mewah."
+		},
+		"62": {
+			"descOnAirDate": "25 April 2026",
+			"memberParticipate": "伊藤理々杏、海邉朱莉、大越ひなの、鈴木佑捺、長嶋凛桜、矢田萌華、佐藤璃果",
+			"linkHardsub": "https://sfl.gl/8H0oDZ",
+			"linkSoftsub": "https://sfl.gl/PkpJFB",
+			"descEpisodeSynopsis": "Episode spesial ini menandai satu tahun gen-6 dengan menantang mereka melakukan kembali proyek variety show klasik para senpai, mulai dari Kompetisi Boke hingga Melempar Hiu. Sebagai penutup, terdapat segmen luar ruangan khusus merayakan kelulusan Sato Rika yang merangkai stand flower penuh kenangan bersama Suzuki Taku."
 		}
 	}
 }

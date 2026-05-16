@@ -4,7 +4,7 @@
 	"nameShow": "あやめにオススメ！",
 	"descSynopsis": "Konten baru yang dibawakan oleh Ayame Tsutsui, \"Ayame ni Osusume!\", akhirnya dimulai! Di setiap episodenya, seorang member yang disebut \"Susumen\" akan hadir untuk mempresentasikan hal-hal yang ingin direkomendasikannya.",
 	"availableEpisode": [
-		"01", "02", "03", "04", "04-bangaihen", "05", "06"
+		"01", "02", "03", "04", "04-bangaihen", "05", "06", "07"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_ayameniosusume.png",
@@ -54,9 +54,9 @@
 			"descEpisodeSynopsis": "Episode 6 kali ini menampilkan Tomisato Nao yang merekomendasikan gaya hidup kotatsu impian di tengah dinginnya suasana studio saat puncak musim dingin. Selain membahas daya tarik meja penghangat tersebut, dilakukan pula tantangan merakit kotatsu secara bersama-sama untuk melihat fungsinya secara langsung."
 		},
 		"07": {
-			"descOnAirDate": "27 Februari 2026",
+			"descOnAirDate": "28 Maret 2026",
 			"memberParticipate": "筒井あやめ、弓木奈於",
-			"descEpisodeSynopsis": "Kali ini, Yumiki Nao merekomendasikan 'Sylvanian Families' kepada Ayame. Rasa cinta yang selama ini dipendam terhadap koleksi tersebut akhirnya meledak melalui presentasi unik khas dunia Yumiki yang bahkan mampu membuat Ayame merasa kewalahan."
+			"descEpisodeSynopsis": "Di episode 7 ini, Yumiki Nao merekomendasikan \"Sylvanian Families\"! Rasa cintanya pada mainan ini yang selama ini diam-diam ia pendam akhirnya meledak melalui presentasi dengan gaya khas dunia Yumiki yang sukses membuat Tsutsui kewalahan."
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

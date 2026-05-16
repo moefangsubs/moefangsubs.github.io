@@ -2,7 +2,9 @@
 	"url": "mini-live",
 	"nameShowTitle": "Single Commemoration Mini Live",
 	"availableEpisode": [
-		"28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40"
+		"28", "29", "30", 
+		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
+		"41"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_minilive.png",
@@ -214,6 +216,22 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive40d.jpg",
 			"descEpisodeSynopsis": "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-40 \"Biryani\" ini dengan Mini live secara streaming. Single ini dipimpin oleh w-center baru dari gen-6, Setoguchi Mitsuki dan Yada Moeka.",
 			"nameShow": "乃木坂46 40thシングル「ビリヤニ」発売記念ミニライブ"
+		},
+		"41": {
+			"descEpisode": "| Nogizaka46 Mini Live 41st Single \"Saigo ni Kaidan o Kakeagatta no wa Itsu da?\"",
+			"descEpsListName": "41st",
+			"descOnAirDate": "6 Mei 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/Ilv1R",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-mini-live-41st-single-saigo-ni-kaidan-o-kakeagatta-no-wa-itsu-da-R1xE7",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_minilive41.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive41.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive41a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive41b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive41c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive41d.jpg",
+			"descEpisodeSynopsis": "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-41 \"Biryani\" ini dengan Mini live secara streaming. Single ini dipimpin oleh center baru dari gen-5, Ikeda Teresa. Di akhir Mini Live, diputar MV lagu solo Umezawa Minami.",
+			"nameShow": "乃木坂46 41stシングル「最後に階段を駆け上がったのはいつだ？」発売記念ミニライブ"
 		}
 	}
 }

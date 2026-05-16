@@ -1,0 +1,51 @@
+{
+	"url": "nogidouga-bunnamu",
+	"nameShowTitle": "Ryoshitsu de Bunkateki na Saidaigen-do no Nogizaka46 o Itonamu",
+	"nameShow": "良質で文化的な最大限度の乃木坂46を営む。",
+	"descSynopsis": "Ini adalah acara orisinal baru Nogi Douga yang dipandu oleh Hayashi Runa dan Ikeda Teresa. Berbekal kepekaan artistik yang tinggi, kedua MC ini akan mengeksplorasi dan mengupas tuntas berbagai konten, MV, hingga proyek masa lalu Nogizaka46 dari sudut pandang yang unik, serta menghadirkan bincang-bincang mendalam bersama bintang tamu.",
+	"availableEpisode": [
+		"01", "02", "03", "04", "05", "06"
+	],
+	"newUpdateCount": 1,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_bunnamu.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/bunnamu{{eps}}.jpg",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/bunnamu/bunnamu{{eps}}.jpg",
+	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/bunnamu/bunnamu{{eps}}a.jpg",
+	"imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/bunnamu/bunnamu{{eps}}b.jpg",
+	"imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/bunnamu/bunnamu{{eps}}c.jpg",
+	"imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/bunnamu/bunnamu{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/ryoushitsu-de-bunkateki-na-saidaigen-do-no-nogizaka46-o-itonamu-GyJAE",
+	"episodes": {
+		"01": {
+			"descOnAirDate": "10 Februari 2026",
+			"memberParticipate": "林瑠奈、池田瑛紗",
+			"descEpisodeSynopsis": "Konten orisinal baru dimulai! Hayashi Runa dan Ikeda Teresa yang dipercaya sebagai MC mencoba menentukan judul acara resmi dari berbagai pilihan unik yang diusulkan oleh AI maupun ide personal mereka yang sangat individualis."
+		},
+		"02": {
+			"descOnAirDate": "17 Februari 2026",
+			"memberParticipate": "林瑠奈、池田瑛紗",
+			"descEpisodeSynopsis": "Judul program resmi telah ditetapkan! Pada episode kali ini, Ikeda Teresa mempresentasikan MV favoritnya dan mengupas tuntas poin-poin menarik yang jarang disadari penonton, dilengkapi dengan pesan berharga dari staf produksi."
+		},
+		"03": {
+			"descOnAirDate": "24 Februari 2026",
+			"memberParticipate": "林瑠奈、池田瑛紗",
+			"descEpisodeSynopsis": "Di episode ketiga saluran \"Bunnamu\", Hayashi Runa bertindak sebagai presenter untuk mengulas secara mendalam lagu Under legendaris \"Ano Hi Boku wa Tossa ni Uso wo Tsuita\" dari segi keindahan visual, permainan cahaya, hingga rahasia produksinya."
+		},
+		"04": {
+			"descOnAirDate": "7 April 2026",
+			"memberParticipate": "林瑠奈、池田瑛紗、梅澤美波",
+			"descEpisodeSynopsis": "Menghadirkan Umezawa Minami dari generasi 3 sebagai bintang tamu pertama untuk bernostalgia bersama mengenai PV pribadinya \"AMERICAN DINER\". Episode ini juga mengungkap dokumen syuting yang berharga serta logo resmi program buatan Ikeda."
+		},
+		"05": {
+			"descOnAirDate": "14 April 2026",
+			"memberParticipate": "林瑠奈、池田瑛紗、梅澤美波",
+			"descEpisodeSynopsis": "Mengupas tuntas MV \"Sora Tobira\" di mana Umezawa Minami pertama kali menjadi center bersama dokumen syuting lama. Umezawa juga mencurahkan isi hatinya mengenai perjuangan sejak menjadi wakil kapten hingga pesan mendalam untuk para kouhai."
+		},
+		"06": {
+			"descOnAirDate": "21 April 2026",
+			"memberParticipate": "林瑠奈、池田瑛紗、梅澤美波",
+			"descEpisodeSynopsis": "Ketiga anggota menonton bersama MV lagu terbaru yang mereka bintangi sambil membagikan kisah di balik layar. Setelah meresmikan tagar #NoginoBunnamu, Umezawa Minami juga mengungkap perasaan emosional di balik penulisan blog kelulusannya."
+		}
+	},
+	"descEpisode": "| Episode {{eps}}"
+}
