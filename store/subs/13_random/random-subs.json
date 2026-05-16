@@ -5,9 +5,10 @@
 	"availableEpisode": [
 		"191124", "170217", "180827", "161013", "200612", "201214", "210809", "200707", "210825", "210625",
 		"211031", "211215", "210916", "211211", "210327", "190506", "220410", "220514", "220707", "220715",
-		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230902", "231117",
+		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230901", "230902", "231117",
 		"231122", "240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", 
-		"251221", "251230", "260116", "260322", "260410"
+		"251221", "251230", "251231", 
+		"260116", "260322", "260410", "260418", "260425"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
@@ -443,6 +444,22 @@
 			"descEpisodeSynopsis": "Dalam acara BananaSand ini, Kubo Shiori dan Kaki Haruka pertama kalinya mampir kemari dan menantang tantangan yaitu menyanyikan lagu yang mereka inginkan namun untuk terus mempertahankan nadanya sambil mendengarkan nada yang sudah dimodifikasi. Apakah mereka berdua akan berhasil?",
 			"nameShow": "バナナサンド"
 		},
+		"230901": {
+			"descEpisode": "| 230901 Shikujiri-sensei Ore mitai ni Naru na!!",
+			"descEpsListName": "230901",
+			"descOnAirDate": "1 September 2023",
+			"memberParticipate": "武元唯衣、山﨑天、大園玲、井上梨名",
+			"linkHardsub": "https://sfl.gl/iTPrBrW",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/shikujiri-sensei-YJlkH",
+			"filePassword": "oreninaru",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230901_shikujirisensei.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/230901_shikujirisensei.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/230901_shikujirisensei-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/230901_shikujirisensei-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/230901_shikujirisensei-c.jpg",
+			"descEpisodeSynopsis": "Program variety show populer TV Asahi, Shikujiri Sensei: Ore Mitai ni Naru na!!, kembali menghadirkan episode menarik yang kali ini diisi oleh perwakilan member dari Sakurazaka46. Dalam episode ini, para member hadir sebagai murid di ruang kelas untuk mendengarkan kisah kegagalan hidup yang penuh pelajaran berharga dari sang guru tamu. Melalui penyampaian naskah yang interaktif dan penuh humor, para member diajak untuk merenungkan kesalahan-kesalahan fatal yang sering dilakukan seseorang dalam karier atau kehidupan pribadi agar tidak mengulangi kekeliruan yang sama di masa depan.",
+			"nameShow": "しくじり先生 俺みたいになるな!!"
+		},
 		"230902": {
 			"descEpisode": "| 230902 Doyou wa Nani suru!?",
 			"descEpsListName": "230902",
@@ -654,6 +671,23 @@
 			"descEpisodeSynopsis": "Nogizaka46 kembali tampil di panggung Japan Record Awards ke-67 setelah empat tahun absen untuk membawakan lagu peraih Planning Award, \"Same numbers\". Sebelum tampil, Kapten Umezawa Minami mengungkapkan rasa bahagia karena bisa kembali berdiri di panggung istimewa yang menjadi target mereka selama ini. Center Kaki Haruka turut mengenang konser kesepuluh di Stadion Meiji Jingu sebagai momen paling berkesan tahun ini, di mana kemeriahan kembang api dan drone semakin mempererat ikatan antar member dan penggemar.",
 			"nameShow": "輝く！日本レコード大賞"
 		},
+		"251231": {
+			"descEpisode": "| 251230 my channel #68",
+			"descEpsListName": "251231",
+			"descOnAirDate": "31 Desember 2025",
+			"memberParticipate": "白石麻衣",
+			"linkHardsub": "https://sfl.gl/qcoV",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/my-channel-AWHvE",
+			"filePassword": "MaiyanChannel",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/mychannel_68.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/mychannel_68.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/mychannel_68a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/mychannel_68b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/mychannel_68c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/mychannel_68d.jpg",
+			"descEpisodeSynopsis": "Konten terbaru dari kanal YouTube Shiraishi Mai menghadirkan keseruan pesta akhir tahun bertajuk \"Kumpul Wanita\" bersama dua rekan dekatnya sambil menikmati hidangan monja khas Tsukishima. Sembari menyantap menu andalan gratis hingga risotto monja jamur bertabur keju melimpah buatan sang ahli, mereka bertiga bernostalgia mengenang perjalanan karier dan momen paling berkesan sepanjang tahun 2025.",
+			"nameShow": "my channel"
+		},
 		"260116": {
 			"descEpisode": "| 260116 BUZZ RYTHM02",
 			"descEpsListName": "260116",
@@ -697,6 +731,30 @@
 			"linkTrakteer": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260410_shimajirou.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260410_shimajirou.jpg",
+			"descEpisodeSynopsis": "Ichinose Miku tampil sebagai tamu pertama dalam proyek baru bertajuk Shimajiro To di acara Shimajiro no Wow di TV Tokyo mulai April. Penampilan ini berlangsung selama 3 minggu berturut-turut.",
+			"nameShow": "しまじろうのわお！"
+		},
+		"260418": {
+			"descEpisode": "| 260418 Shimajirou no Wow!",
+			"descEpsListName": "260418",
+			"descOnAirDate": "18 April 2026",
+			"memberParticipate": "一ノ瀬美空",
+			"linkHardsub": "https://sfl.gl/00Sq",
+			"linkTrakteer": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260418_shimajirou.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260418_shimajirou.jpg",
+			"descEpisodeSynopsis": "Ichinose Miku tampil sebagai tamu pertama dalam proyek baru bertajuk Shimajiro To di acara Shimajiro no Wow di TV Tokyo mulai April. Penampilan ini berlangsung selama 3 minggu berturut-turut.",
+			"nameShow": "しまじろうのわお！"
+		},
+		"260425": {
+			"descEpisode": "| 260425 Shimajirou no Wow!",
+			"descEpsListName": "260425",
+			"descOnAirDate": "25 April 2026",
+			"memberParticipate": "一ノ瀬美空",
+			"linkHardsub": "https://sfl.gl/wbJsWtne",
+			"linkTrakteer": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260425_shimajirou.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260425_shimajirou.jpg",
 			"descEpisodeSynopsis": "Ichinose Miku tampil sebagai tamu pertama dalam proyek baru bertajuk Shimajiro To di acara Shimajiro no Wow di TV Tokyo mulai April. Penampilan ini berlangsung selama 3 minggu berturut-turut.",
 			"nameShow": "しまじろうのわお！"
 		}

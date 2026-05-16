@@ -9,7 +9,7 @@
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41"
+		"41", "42", "43"
     ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
@@ -421,6 +421,26 @@
 			"additionalGuests": "聖飢魔II デーモン閣下",
             "linkHardsub": "https://sfl.gl/zEDMDC",
             "linkSoftsub": "https://sfl.gl/bSpUk"
+		},
+		"42": {
+			"descOnAirDate": "4 Mei 2026",
+			"descSong1": "KANA-BOON「シルエット」",
+			"descSong2": "岩崎良美「タッチ」",
+			"descSong3": "ポルカドットスティングレイ「テレキャスター･ストライプ」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "ポルカドットスティングレイ",
+			"linkHardsub": "https://sfl.gl/Q9CJbX",
+			"linkSoftsub": "https://sfl.gl/3soRPT"
+		},
+		"43": {
+			"descOnAirDate": "11 Mei 2026",
+			"descSong1": "ウルフルズ「かわいいひと」",
+			"descSong2": "AI「ママへ」",
+			"descSong3": "かりゆし58「アンマー」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "かりゆし58",
+			"linkHardsub": "https://sfl.gl/SMBvQ",
+			"linkSoftsub": "https://sfl.gl/kG30u"
 		}
     },
     "descEpisode": "| Episode {{eps}}"

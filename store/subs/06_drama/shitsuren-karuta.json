@@ -4,7 +4,7 @@
     "nameShowTitle": "Shitsuren Karuta (2026)",
     "nameShow": "失恋カルタ",
 	"descSynopsis": "Chinami, Hikaru, dan Ayase dipertemukan melalui klub permainan papan di tempat kuliahnya. Meski sering menghabiskan waktu bersama, masing-masing menyimpan kerumitan cinta yang berbeda. Chinami yang mendambakan pernikahan baru saja diputuskan kekasihnya, sedangkan Hikaru tampak harmonis tinggal bersama Riku. Di balik sikap dinginnya, Ayase ternyata memiliki alasan mendalam hingga sulit menghadapi perasaan secara jujur. Kisah mereka menggambarkan perjuangan menghadapi dilema asmara yang sangat rumit dalam kehidupan sehari-hari.",
-    "availableEpisode": [ "01", "02", "03", "04" ],
+    "availableEpisode": [ "01", "02", "03", "04", "05", "06", "07" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shitsurenkaruta{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}a.jpg",
@@ -31,30 +31,23 @@
 			"descEpisodeSynopsis": "Setelah terbangun dalam kondisi mabuk, Chinami dikejutkan oleh kedatangan Hayato di depan pintu rumahnya. Namun, hari yang buruk tersebut berubah saat Chinami bertemu kembali dengan mantan kekasihnya, Nozaki, di tempat kerja hingga membuat perasaannya kembali bimbang. Di sisi lain, Ayase yang sedang bersama Murata merasa sangat terguncang setelah melihat keakraban Hikaru dan Riku secara langsung. Sementara itu, rencana perjalanan wisata Hikaru dan Riku dibayangi oleh sebuah rahasia besar milik Riku.",
             "linkHardsub": "https://sfl.gl/KJxD4I"
         },
-        "05": {
+		"05": {
 			"descEpisodeSynopsis": "Chinami yang mulai jenuh dengan dunia percintaan mendapatkan bantuan dari editor bernama Shibuya untuk memajukan proyek pekerjaannya hingga mulai merasakan ketertarikan yang tidak terduga. Sementara itu, Ayase merasa sangat terguncang saat rahasia masa lalunya mengenai Hikaru terungkap. Kecemburuan Ayase memuncak saat melihat Murata bersama wanita lain di sebuah acara, yang akhirnya memicu pengakuan jujur di antara mereka. Di sisi lain, Riku mulai memberanikan diri mengejar impian barunya berkat dukungan penuh dari Hikaru.",
-            "linkHardsub": ""
-        },
-        "06": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "07": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "10": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        }
+			"linkHardsub": "https://sfl.gl/JdeF"
+		},
+		"06": {
+			"descEpisodeSynopsis": "Di saat Ayase dan Chinami mulai menikmati hubungan asmara baru mereka, keretakan emosional mulai terjadi di antara Hikaru dan Riku akibat beban finansial dan rahasia yang dipendam oleh Riku. Perbedaan emosional di antara keduanya akhirnya memuncak dalam pertengkaran hebat suatu malam, meninggalkan penyesalan mendalam hingga Hikaru mencoba menghubungi para sahabatnya.",
+			"linkHardsub": "https://sfl.gl/wxxQV"
+		},
+		"07": {
+			"descEpisodeSynopsis": "Setelah Riku pergi dari rumah tanpa kabar, Hikaru merasa hancur, namun perselisihan justru terjadi saat Ayase menuduh Riku hanya memanfaatkannya. Di sisi lain, Chinami mulai mencurigai Shibuya setelah menemukan jepit rambut wanita di mobilnya, memicu sebuah pengakuan tidak terduga yang mulai meretakkan jalinan asmara dan persahabatan ketiganya.",
+			"linkHardsub": "https://sfl.gl/u2tULz8"
+		},
+		"08": {
+			"descEpisodeSynopsis": "Melihat kondisi Hikaru yang terluka di rumah sakit, Ayase tidak bisa membendung emosinya dan akhirnya memutuskan untuk menyatakan perasaan yang telah dipendamnya selama 7 tahun. Sementara itu, Chinami mengambil keputusan mengejutkan setelah hatinya terkikis karena menjalani hubungan dengan Shibuya yang ternyata sudah menikah. Setelah melewati patah hati masing-masing, ketiganya kembali berkumpul bersama.",
+			"linkHardsub": "",
+			"thisEnd": true
+		}
     },
 	"descOnAirDatePattern": "260331",
     "OnAirEvery": 7

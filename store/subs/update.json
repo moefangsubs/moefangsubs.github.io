@@ -1,5 +1,36 @@
 [
   {
+    "date": "260516",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"42"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"43"},
+      {"showId": "nogizaka-otameshichuu", "eps":"61"},
+      {"showId": "nogizaka-otameshichuu", "eps":"62"},
+      {"showId": "nogidouga-ayame-ni-osusume", "eps":"07"},
+      {"showId": "nogidouga-bunnamu", "eps":"01"},
+      {"showId": "nogidouga-bunnamu", "eps":"02"},
+      {"showId": "nogidouga-bunnamu", "eps":"03"},
+      {"showId": "nogidouga-bunnamu", "eps":"04"},
+      {"showId": "nogidouga-bunnamu", "eps":"05"},
+      {"showId": "nogidouga-bunnamu", "eps":"06"},
+      {"showId": "aku-no-hana", "eps":"04"},
+      {"showId": "aku-no-hana", "eps":"05"},
+      {"showId": "aku-no-hana", "eps":"06"},
+      {"showId": "rojiura-hotel", "eps":"05b"},
+      {"showId": "shitsuren-karuta", "eps":"05"},
+      {"showId": "shitsuren-karuta", "eps":"06"},
+      {"showId": "shitsuren-karuta", "eps":"07"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"05"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"06"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"07"},
+      {"showId": "random-subs", "eps":"230901"},
+      {"showId": "random-subs", "eps":"251231"},
+      {"showId": "random-subs", "eps":"260418"},
+      {"showId": "random-subs", "eps":"260425"},
+      {"showId": "mini-live", "eps":"41"}
+    ]
+  },
+  {
     "date": "260503",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"41"},
@@ -7,46 +38,6 @@
       {"showId": "mtv", "eps":"260429_doc"},
       {"showId": "rojiura-hotel", "eps":"05a"},
       {"showId": "utabangumi-star", "eps":"260416"}
-    ]
-  },
-  {
-    "date": "260430",
-    "updates": [
-      {"showId": "birthday-live", "eps":"14"},
-      {"showId": "birthday-live", "eps":"15"}
-    ]
-  },
-  {
-    "date": "260425",
-    "updates": [
-	  {"showId": "nogi-nabe", "eps":"unl07_08"},
-	  {"showId": "nogi-nabe", "eps":"09"},
-	  {"showId": "nogi-nabe", "eps":"10"},
-	  {"showId": "nogi-nabe", "eps":"11"},
-	  {"showId": "nogi-nabe", "eps":"12"},
-	  {"showId": "nogi-nabe", "eps":"unl09_10_11_12"},
-	  {"showId": "nogidouga-girls-talk", "eps":"03B"},
-	  {"showId": "nama-no-idol-ga-suki", "eps":"260130"},
-	  {"showId": "showroom", "eps":"48"},
-	  {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260406"},
-	  {"showId": "showroom", "eps":"49"},
-	  {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260407"},
-	  {"showId": "showroom", "eps":"50"},
-	  {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260417"},
-	  {"showId": "random-subs", "eps":"231122"},
-      {"showId": "rojiura-hotel", "eps":"04a"},
-      {"showId": "rojiura-hotel", "eps":"04b"},
-      {"showId": "shitsuren-karuta", "eps":"03"},
-      {"showId": "shitsuren-karuta", "eps":"04"},
-      {"showId": "aku-no-hana", "eps":"02"},
-      {"showId": "aku-no-hana", "eps":"03"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"03"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"04"},
-      {"showId": "utabangumi-music-station", "eps":"06"},
-      {"showId": "utabangumi-music-fair", "eps":"260411"},
-      {"showId": "utabangumi-venue101", "eps":"260314"},
-      {"showId": "utabangumi-venue101", "eps":"260418"},
-      {"showId": "live-performance", "eps":"22"} 
     ]
   }
 ]

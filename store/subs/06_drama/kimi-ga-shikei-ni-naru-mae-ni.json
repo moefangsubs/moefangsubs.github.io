@@ -4,7 +4,7 @@
     "nameShowTitle": "Kimi ga Shikei ni naru Mae ni (2026)",
     "nameShow": "君が死刑になる前に",
 	"descSynopsis": "Kasus pembunuhan berantai guru mengguncang publik saat eksekusi mati Shiori dilakukan. Secara misterius, Kotaro, Hayato, dan Rin terlempar ke masa tujuh tahun lalu tepat di tengah pusaran tragedi tersebut. Mereka bertemu dengan Shiori yang sedang menjadi buronan, namun ia justru mengaku tidak bersalah. Pengejaran kebenaran pun dimulai untuk mengungkap dalang sebenarnya di balik peristiwa kelam yang menghubungkan masa lalu dan masa kini.",
-    "availableEpisode": [ "01", "02", "03", "04" ],
+    "availableEpisode": [ "01", "02", "03", "04", "05", "06", "07" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shikei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}a.jpg",
@@ -31,22 +31,22 @@
 			"descEpisodeSynopsis": "Keyakinan Rin bahwa Shiori adalah pelaku pembunuhan semakin kuat, namun penyelidikan Kotaro dan Hayato justru menemukan bukti baru yang menunjukkan kemungkinan adanya pelaku lain. Ketegangan meningkat saat detektif Ito dan Fukasawa mendatangi vila secara tiba-tiba untuk menyelidiki mobil mencurigakan yang mengarah pada keterlibatan mereka dalam kasus tersebut. Di tengah tekanan investigasi polisi yang semakin ketat, Shiori mulai meminta informasi lebih lanjut kepada Kotaro mengenai detail insiden pembunuhan berikutnya.",
             "linkHardsub": "https://sfl.gl/axufwVg"
         },
-        "05": {
-			"descEpisodeSynopsis": "Setelah mengungkap identitas pelaku sebenarnya dan membuktikan ketidakbersalahan Shiori, Kotaro beserta rekan-rekannya kembali ke masa kini dan menemukan perubahan drastis pada garis waktu realitas mereka. Kotaro dan Hayato berencana memproduksi film dokumenter tentang kasus Shiori menggunakan rekaman dari masa lalu untuk membersihkan namanya sepenuhnya. Namun, mereka segera menyadari bahwa penangkapan pelaku di masa lalu telah memicu serangkaian peristiwa baru yang tidak seharusnya terjadi di masa depan, menciptakan misteri baru yang harus dipecahkan.",
-            "linkHardsub": ""
-        },
-        "06": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "07": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
+		"05": {
+			"descEpisodeSynopsis": "Setelah mengungkap identitas pelaku sebenarnya dan membuktikan ketidakbersalahan Shiori, Kotaro beserta rekan-rekannya kembali ke masa kini and menemukan perubahan drastis pada garis waktu realitas mereka. Kotaro dan Hayato berencana memproduksi film dokumenter tentang kasus Shiori menggunakan rekaman dari masa lalu untuk membersihkan namanya sepenuhnya. Namun, mereka segera menyadari bahwa penangkapan pelaku di masa lalu telah memicu serangkaian peristiwa baru yang tidak seharusnya terjadi di masa depan, menciptakan misteri baru yang harus dipecached.",
+			"linkHardsub": "https://sfl.gl/Wi23TCER"
+		},
+		"06": {
+			"descEpisodeSynopsis": "Menyadari bahwa tindakan mereka di masa lalu dapat mengubah masa kini, Kotaro, Hayato, dan Rin memutuskan kembali ke tahun 2019 demi menyelidiki kebenaran kasus pembunuhan berantai guru dan menyelamatkan detektif Ito. Setelah berhasil kembali ke masa lalu, mereka menemukan Shiori telah menghilang dan hanya meninggalkan sepucuk surat, memicu pencarian mendalam yang membawa mereka mengungkap masa lalu Shiori.",
+			"linkHardsub": "https://sfl.gl/q46BTGC"
+		},
+		"07": {
+			"descEpisodeSynopsis": "Setelah Kotaro mengaku datang dari tahun 2026, detektif Ito mengungkap bahwa Shiori pernah terlibat kasus pembunuhan 10 tahun lalu namun dibebaskan karena bela diri. Saat bekerja sama mencari Shiori, Ito diserang dari belakang hingga pingsan. Di sisi lain, Hayato mencurigai Rin masa SMA sebagai pelaku utama setelah menemukan rekaman mencurigakan di lokasi insiden keempat.",
+			"linkHardsub": "https://sfl.gl/nZ55kqY6"
+		},
+		"08": {
+			"descEpisodeSynopsis": "Kotaro, Hayato, dan Rin berhasil mencegah insiden keempat dan menyelamatkan para korban. Namun, saat mencoba mengejar pelaku, Kotaro tiba-tiba terlempar sendirian kembali ke tahun 2026 dan mendapati vila mereka telah habis terbakar 7 tahun lalu dengan menyisakan dua jenazah. Menduga itu adalah sahabatnya, Kotaro bersiap kembali ke masa lalu sekali lagi.",
+			"linkHardsub": ""
+		},
         "09": {
 			"descEpisodeSynopsis": "",
             "linkHardsub": ""
