@@ -36,11 +36,15 @@ document.addEventListener("DOMContentLoaded", () => {
     renderMainInterface();
     loadBackground();
 });
+
 function renderMainInterface() {
     const uiHTML = `
         <div class="form-container" id="welcome-back-box" style="display: none; text-align: center;">
             <h1>Halo, <span id="welcome-username"></span>!</h1>
             <p style="font-size: 1rem; opacity: 0.8;">Kamu sudah login</p>
+            
+            <img src="https://ik.imagekit.io/moearchive/scuba.gif" width="200" height="200" style="margin: -126px -11px 44px 29px; transform: scale(0.5); object-fit: contain; position: absolute;" alt="Scuba Cat">
+            
             <div class="button-group">
                 <a href="sitemap.html" class="btn-submit" style="text-decoration: none;">Jelajah Situs</a>
             </div>
@@ -63,6 +67,7 @@ function renderMainInterface() {
     `;
     document.body.insertAdjacentHTML('beforeend', uiHTML);
 }
+
 async function loadBackground() {
     try {
         const response = await fetch('../store/bg.json');
