@@ -48,7 +48,7 @@
     font-size: 1.5rem;
     color: var(--moe);
     margin-bottom: 1rem;
-    margin-left: 15pt;
+    /* margin-left: 15pt; */
     padding-bottom: 0.5rem;
     width: 100%;
     border-bottom-style: dashed;
