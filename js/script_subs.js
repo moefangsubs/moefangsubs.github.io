@@ -1,6 +1,4 @@
-// ../js/script_subs.js (FINAL - Dengan penanganan Coming Soon)
 document.addEventListener('DOMContentLoaded', () => {
-    // --- CONFIG & DOM ELEMENTS --- //
     const contentContainer = document.getElementById('content-container');
     const episodeListContainer = document.getElementById('episode-list-container');
     const popupContainer = document.getElementById('popup-container');
@@ -40,21 +38,18 @@ document.addEventListener('DOMContentLoaded', () => {
     let faqData = null;
 	let updatesData = null;
 
-    // --- FUNGSI BARU UNTUK MENAMPILKAN PESAN COMING SOON --- //
     function renderComingSoon() {
         if (episodeListContainer) {
             const wrapper = episodeListContainer.closest('.pixel-border-wrapper');
             if (wrapper) wrapper.style.display = 'none';
         }
-
-        // Atur agar content container memenuhi lebar
+		
         const contentWrapper = contentContainer.closest('.pixel-border-wrapper');
         if (contentWrapper) {
             contentWrapper.style.flex = '1 1 100%';
             contentWrapper.style.maxWidth = '100%';
         }
 
-        // Tambahkan style khusus untuk pesan
         const style = document.createElement('style');
         style.textContent = `
             .status-message-container {
@@ -85,7 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         document.head.appendChild(style);
         
-        // Tampilkan pesan di content container
         contentContainer.innerHTML = `
             <div class="status-message-container">
                 <h1>Coming Soon</h1>
@@ -93,49 +87,37 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
 
-        // Ubah judul halaman
         document.title = "Coming Soon | MoeFang Subs";
-
-        // Sembunyikan loading
         if(loadingOverlay) loadingOverlay.style.display = 'none';
     }
 
-
-    // --- MAIN INITIALIZATION --- //
 	async function init() {
         if(loadingOverlay) loadingOverlay.style.display = 'flex';
 
-        // --- BAGIAN INI DIMODIFIKASI (Mendukung Hash # dan Query ?) ---
         let showName = null;
         let status = null;
         let episodeNumber = null;
 
-        // Cek 1: Apakah URL menggunakan Hash? (Format: #/judul/eps)
         if (window.location.hash && window.location.hash.length > 1) {
-            // Hapus karakter '#' di depan, lalu pecah berdasarkan '/'
-            // Filter(Boolean) untuk menghapus string kosong jika ada double slash
             const hashParts = window.location.hash.substring(1).split('/').filter(Boolean);
 
             if (hashParts[0] === 'comingsoon') {
                 status = 'comingsoon';
             } else {
-                showName = hashParts[0]; // Bagian pertama adalah Judul
-                episodeNumber = hashParts[1]; // Bagian kedua adalah Episode (bisa undefined)
+                showName = hashParts[0];
+                episodeNumber = hashParts[1];
             }
         } 
-        // Cek 2: Fallback ke cara lama (Format: ?show=judul&eps=eps)
         else {
             const params = new URLSearchParams(window.location.search);
             showName = params.get('show');
             status = params.get('status');
             episodeNumber = params.get('eps');
         }
-        // -------------------------------------------------------------
-
-        // Jika URL memiliki status comingsoon, jalankan fungsi khusus dan hentikan proses
+		
         if (status === 'comingsoon') {
             renderComingSoon();
-            return; // Hentikan eksekusi fungsi init lebih lanjut
+            return;
         }
 
         if (!showName) {
@@ -168,7 +150,6 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!episodeNumber && currentShowData.availableEpisode && currentShowData.availableEpisode.length > 0) {
                 episodeNumber = currentShowData.availableEpisode[0]; 
                 
-                // Update URL history sesuai format inputan user (Hash atau Query)
                 let newUrl;
                 if (window.location.hash) {
                     newUrl = `#/${showName}/${episodeNumber}`;
@@ -213,7 +194,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 	
-    // --- DATA FETCHING & STATE HANDLERS --- //
     async function fetchData(url) {
         const response = await fetch(url);
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -324,7 +304,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- DYNAMIC NAVIGATION LOGIC --- //
     function addEpisodeNavigationHandler() {
         if (!episodeListContainer) return;
         episodeListContainer.addEventListener('click', (event) => {
@@ -332,20 +311,16 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!episodeLink) return;
             event.preventDefault();
 
-            // --- UBAH DISINI: Logic pengambilan EPS support Hash & Query ---
             let newEpisodeNumber = null;
-            const href = episodeLink.getAttribute('href'); // Ambil raw string href
+            const href = episodeLink.getAttribute('href');
 
             if (href.includes('#/')) {
-                // Format: #/judul/01 -> split jadi ["#", "judul", "01"]
                 const parts = href.split('/');
                 newEpisodeNumber = parts[parts.length - 1]; 
             } else {
-                // Fallback untuk link lama (?show=...&eps=...)
                 const url = new URL(episodeLink.href);
                 newEpisodeNumber = url.searchParams.get('eps');
             }
-            // -------------------------------------------------------------
 
             if (currentShowData && newEpisodeNumber) {
                 loadEpisode(newEpisodeNumber);
@@ -366,17 +341,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const currentActive = listContainer.querySelector('.active');
             if (currentActive) currentActive.classList.remove('active');
             
-            // Cari link yang cocok (Support pencarian format Hash maupun Query)
-            let newActive = listContainer.querySelector(`a[href*="/${episodeNumber}"]`); // Cek Hash
-            if (!newActive) newActive = listContainer.querySelector(`a[href*="&eps=${episodeNumber}"]`); // Cek Query
+            let newActive = listContainer.querySelector(`a[href*="/${episodeNumber}"]`);
+            if (!newActive) newActive = listContainer.querySelector(`a[href*="&eps=${episodeNumber}"]`);
 
             if (newActive) newActive.classList.add('active');
         }
 
-        // --- UBAH DISINI: Paksa Update URL Browser ke Format Hash ---
         const newUrl = `#/${currentShowData.url}/${episodeNumber}`;
         history.replaceState({ episode: episodeNumber }, '', newUrl);
-        // -----------------------------------------------------------
 
         contentContainer.scrollTo(0, 0);
         window.scrollTo(0, 0);
@@ -390,7 +362,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- RENDERING & HELPER FUNCTIONS --- //
 	function renderEpisodeList(showData, activeEpisode) {
 		if (!episodeListContainer || !updatesData) return;
 
@@ -411,9 +382,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 			
 			const episodeLink = document.createElement('a');
-            // --- UBAH DISINI: Gunakan format Hash (#) ---
 			episodeLink.href = `#/${showData.url}/${eps}`;
-            // --------------------------------------------
 			episodeLink.className = 'episode-item';
 			if (eps === activeEpisode) episodeLink.classList.add('active');
 			episodeLink.innerHTML = `<img src="${imageUrl}" alt="${episodeText}" loading="lazy"><span>${episodeText}</span>`;
@@ -536,26 +505,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return content;
     }
 	
-
-		// --- Fungsi Helper untuk Tanggal Otomatis ---
-
-		/**
-		 * Mengubah string format YYMMDD menjadi objek Date JavaScript.
-		 * @param {string} dateStr - String tanggal (misal: "240628").
-		 * @returns {Date} Objek Date.
-		 */
 		function parseYYMMDD(dateStr) {
 			const year = parseInt(`20${dateStr.substring(0, 2)}`, 10);
-			const month = parseInt(dateStr.substring(2, 4), 10) - 1; // bulan di JS (0-11)
+			const month = parseInt(dateStr.substring(2, 4), 10) - 1;
 			const day = parseInt(dateStr.substring(4, 6), 10);
 			return new Date(year, month, day);
 		}
 
-		/**
-		 * Memformat objek Date menjadi string bahasa Indonesia.
-		 * @param {Date} dateObj - Objek Date.
-		 * @returns {string} String tanggal (misal: "28 Juni 2024").
-		 */
 		function formatDateID(dateObj) {
 			return dateObj.toLocaleDateString('id-ID', {
 				day: 'numeric',
@@ -568,7 +524,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let listHTML = '';
         const items = [];
 		
-        // --- Logika Nama Acara ---
         if (showPath && showPath.includes('04_singlebonus')) {
             if (showData.nameShow) items.push(`<li><span class="info-label l-sk">Single</span><span class="info-value jpn">${showData.nameShow}</span></li>`);
             if (episodeData.nameShow) items.push(`<li><span class="info-label l-cd">Judul Bonus</span><span class="info-value jpn">${episodeData.nameShow}</span></li>`);
@@ -704,12 +659,21 @@ document.addEventListener('DOMContentLoaded', () => {
 			</div>
 		`;
 
+		const trakteerUrl = episodeData.linkTrakteer || showData.linkTrakteer || '';
+		
+		let cleanTitle = showData.nameShowTitle;
+		if (showData.url === 'random-subs' && episodeData.descEpisode) {
+			cleanTitle = episodeData.descEpisode.replace('|', '').replace(/^\s*\d+\s*/, '').trim();
+		}
+		
+		const epsDisplay = episodeData.descEpsListName || '';
+
 		if (hasHardsub) {
-			const button = `<a href="${episodeData.linkHardsub}" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>HARDSUB</span></a>`;
+			const button = `<a href="#" onclick="window.open('../redirect/index.html?to=' + encodeURIComponent(this.getAttribute('data-to')) + '&title=' + encodeURIComponent(this.getAttribute('data-title')) + '&eps=' + encodeURIComponent(this.getAttribute('data-eps')) + (this.getAttribute('data-trakteer') ? '&trakteer=' + encodeURIComponent(this.getAttribute('data-trakteer')) : ''), '_blank'); return false;" data-to="${episodeData.linkHardsub}" data-title="${cleanTitle}" data-eps="${epsDisplay}" data-trakteer="${trakteerUrl}" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>HARDSUB</span></a>`;
 			buttonHTML += createButtonWrapper(button, !hasSoftsub ? 'full-width' : '');
 		}
 		if (hasSoftsub) {
-			const button = `<a href="${episodeData.linkSoftsub}" target="_blank" rel="noopener noreferrer" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>SOFTSUB</span></a>`;
+			const button = `<a href="#" onclick="window.open('../redirect/index.html?to=' + encodeURIComponent(this.getAttribute('data-to')) + '&title=' + encodeURIComponent(this.getAttribute('data-title')) + '&eps=' + encodeURIComponent(this.getAttribute('data-eps')) + (this.getAttribute('data-trakteer') ? '&trakteer=' + encodeURIComponent(this.getAttribute('data-trakteer')) : ''), '_blank'); return false;" data-to="${episodeData.linkSoftsub}" data-title="${cleanTitle}" data-eps="${epsDisplay}" data-trakteer="${trakteerUrl}" class="dl-button btn-sub" style="--border-color: var(--moe);"><span>SOFTSUB</span></a>`;
 			buttonHTML += createButtonWrapper(button, !hasHardsub ? 'full-width' : '');
 		}
 		trakteerLinks.forEach(link => {
@@ -749,7 +713,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			</div>`;
 	}
     
-    // --- FAQ Logic ---
     function renderFaq(showData, episodeNumber) {
         if (!faqContainerWrapper || !faqData) return;
 
@@ -947,7 +910,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				if (navigator.clipboard && window.isSecureContext) {
 					navigator.clipboard.writeText(passwordToCopy)
 						.then(() => showFeedback('Copied!'))
-						.catch(() => fallbackCopyTextToClipboard(passwordToCopy)); // Coba fallback jika gagal
+						.catch(() => fallbackCopyTextToClipboard(passwordToCopy));
 				} else {
 					fallbackCopyTextToClipboard(passwordToCopy);
 				}

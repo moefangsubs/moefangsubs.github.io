@@ -41,14 +41,16 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupViewControls();
 
     try {
-        // ========== MODIF: Tambah warnResponse & Cache Buster ==========
-        const cacheBuster = `?v=${new Date().getTime()}`; // <-- DITAMBAHKAN: Stempel waktu dinamis untuk cegah cache
+        // --------------------------------------------------
+        // Cache Buster
+        // --------------------------------------------------
+        const cacheBuster = `?v=${new Date().getTime()}`;
 
         const [updateResponse, listResponse, membersResponse, warnResponse] = await Promise.all([
-            fetch(`../store/subs/update.json${cacheBuster}`),  // <-- DITAMBAHKAN: cacheBuster
-            fetch(`../store/subs/list.json${cacheBuster}`),    // <-- DITAMBAHKAN: cacheBuster
-            fetch(`../store/member/members.json${cacheBuster}`), // <-- DITAMBAHKAN: cacheBuster
-            fetch(`../store/subs/warn.json${cacheBuster}`)     // <-- DITAMBAHKAN: cacheBuster
+            fetch(`../store/subs/update.json${cacheBuster}`),
+            fetch(`../store/subs/list.json${cacheBuster}`),
+            fetch(`../store/member/members.json${cacheBuster}`),
+            fetch(`../store/subs/warn.json${cacheBuster}`)
         ]);
 
         if (!updateResponse.ok) throw new Error('Failed to fetch update.json');
@@ -60,7 +62,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const showListByCategory = await listResponse.json();
         const membersList = await membersResponse.json();
         const warnData = await warnResponse.json(); 
-        // ========== ==========
         
         const showPathMap = new Map();
         for (const category in showListByCategory) {
@@ -72,7 +73,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const memberMap = new Map(membersList.map(m => [m.nama_jp, m.id]));
 
-        // ========== Membuat lookup set untuk item request ==========
+        // --------------------------------------------------
+        // Request Lookup Set
+        // --------------------------------------------------
         const requestSet = new Set();
         const requestWarning = warnData.find(w => w.type === 'request');
         if (requestWarning && requestWarning.targets) {
@@ -80,7 +83,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 requestSet.add(target);
             });
         }
-        // ========== ==========
 
         const formatUpdateDate = (dateStr) => {
             const year = `20${dateStr.substring(0, 2)}`;
@@ -112,11 +114,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (!showJsonPath) continue;
 
                 try {
-                    // ========== MODIF: Fetch file JSON masing-masing show dengan Cache Buster ==========
+                    // --------------------------------------------------
+                    // Fetch Show Data
+                    // --------------------------------------------------
                     const showDataResponse = await fetch(`${showJsonPath}${cacheBuster}`); 
                     if (!showDataResponse.ok) continue;
                     const showData = await showDataResponse.json();
-                    // ========== ==========
                     
                     const epKey = episodeNumber.toString().padStart(2, '0');
                     const episodeData = showData.episodes ? (showData.episodes[epKey] || showData.episodes[episodeNumber]) : {};
@@ -293,9 +296,29 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (controlsContainer) {
             controlsContainer.classList.add('is-visible');
         }
+
+        // --------------------------------------------------
+        // Fansub Partner Section Reveal
+        // --------------------------------------------------
+        const partnerLoader = document.getElementById('fansub-partner-loader');
+        const partnerContainer = document.querySelector('.scontainer.fansub-partner');
+        if (partnerLoader && partnerContainer) {
+            partnerLoader.style.display = 'none';
+            partnerContainer.style.display = 'block';
+        }
 		
     } catch (error) {
         console.error('Failed to load update data:', error);
         updateContainer.innerHTML = '<p style="text-align:center;">Gagal memuat daftar update.</p>';
+
+        // --------------------------------------------------
+        // Fansub Partner Section Reveal (Fallback)
+        // --------------------------------------------------
+        const partnerLoader = document.getElementById('fansub-partner-loader');
+        const partnerContainer = document.querySelector('.scontainer.fansub-partner');
+        if (partnerLoader && partnerContainer) {
+            partnerLoader.style.display = 'none';
+            partnerContainer.style.display = 'block';
+        }
     }
 });
