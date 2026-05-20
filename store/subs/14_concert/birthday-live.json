@@ -3,9 +3,8 @@
 	"nameShowTitle": "Birthday Live",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
-		"11", "12", "13", "14", "15"
+		"11", "12", "13", "14", "15", "16"
 	],
-	"newUpdateCount": 2,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_bdl.png",
 	"episodes": {
 		"01": {
@@ -798,6 +797,63 @@
 				},
 				"encore": {
 				}
+			}
+		},	
+		"16": {
+			"descEpisode": "| Nogizaka46 14th Year Birthday Live DAY 1",
+			"descEpsListName": "BDL 14 DAY 1",
+			"descOnAirDate": "19 Mei 2026",
+			"memberParticipate": "乃木坂46 ",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-14th-year-birthday-live-BnGLQ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_nogi14bdl-1.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1d.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 14th YEAR BIRTHDAY LIVE diadakan di Tokyo Dome pada 19 Mei (Selasa) hingga 21 Mei 2026 (Kamis). Birthday Live kali ini merupakan pertunjukan 3 hari berturut-turut, yang menjadi pertunjukan terpanjang dalam sejarah grup di Tokyo Dome. Selain itu, ketiga pertunjukan tersebut akan menampilkan setlist yang berbeda-beda, sehingga dapat menikmati daya tarik yang berbeda pada setiap harinya. Dan pada hari ketiga yang merupakan pertunjukan terakhir, adalah Konser Kelulusan Kapten ke-3, Umezawa Minami. Ini akan menjadi malam perayaan khusus yang sangat pantas untuk menutup rangkaian Birthday Live selama 3 hari tersebut.",
+			"nameShow": "乃木坂46 14th YEAR BIRTHDAY LIVE DAY 1",
+			"setlist": {
+			  "main": {
+				"00": ["OVERTURE", null],
+				"01": ["Tanin no Sorani", null],
+				"02": ["Oide Shampoo", "池田瑛紗"],
+				"03": ["Jikochuu de Ikou!", "遠藤さくら"],
+				"04": ["Cheat Day", "井上和"],
+				"05": ["Kimi ni Shikarareta", "賀喜遥香"],
+				"06": ["Guruguru Curtain", "川﨑桜"],
+				"07": ["Ima, Hanashitai Dareka ga Iru", "林瑠奈"],
+				"08": ["Route 246", "遠藤さくら"],
+				"09": ["Dekopin", null],
+				"10": ["Hoka no Hoshi kara", "池田瑛紗"],
+				"11": ["Sayonara no Imi", "梅澤美波"],
+				"12": ["Influencer", ["一ノ瀬美空", "小川彩"]],
+				"13": ["Seifuku no Mannequin", "川﨑桜"],
+				"14": ["Ano Hi Boku wa Tossa ni Uso o Tsuita", "梅澤美波"],
+				"15": ["Umareta Mama de", "筒井あやめ"],
+				"16": ["Sabita Compass", "金川紗耶"],
+				"17": ["Aitte Urayamashii", "岡本姫奈"],
+				"18": ["Monopoly", ["遠藤さくら", "賀喜遥香"]],
+				"19": ["Navel Orange", ["井上和", "中西アルノ"]],
+				"20": ["Nigemizu", ["岩本蓮加", "伊藤理々杏"]],
+				"21": ["Biryani", ["瀬戸口", "矢田"]],
+				"22": ["Jumping Joker Flash", "筒井あやめ"],
+				"23": ["House!", null],
+				"24": ["Suki toiu no wa Rock daze!", null],
+				"25": ["Girls Rule", "一ノ瀬美空"],
+				"26": ["Kikkake", null],
+				"27": ["Same numbers", "賀喜遥香"],
+				"28": ["Yoake made Tsuyogaranakutemoii", "遠藤さくら"],
+				"29": ["Sing Out!", "井上和"],
+				"30": ["Saigo ni Kaidan o Kakeagatta no wa Itsu da?", "池田瑛紗"]
+			  },
+			  "encore": {
+				"01": ["Romance no Start", null],
+				"02": ["Omoide ga Tomaranaku naru", null],
+				"03": ["Kimi Bakari", "梅澤美波"],
+				"04": ["Natsukashisa no Saki", "梅澤美波"]
+			  }
 			}
 		}
 	}
