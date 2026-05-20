@@ -1,5 +1,11 @@
 [
   {
+    "date": "260520",
+    "updates": [
+      {"showId": "birthday-live", "eps":"16"}
+    ]
+  },
+  {
     "date": "260516",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"42"},
