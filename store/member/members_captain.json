@@ -56,13 +56,13 @@
     "gen": "3期",
     "foto_profil": "https://ik.imagekit.io/moearchive/calendar/nogi40/umezawaminami.png",
     "mulai_menjabat": "23 Februari 2023",
-    "akhir_menjabat": "21 Mei 2026 (Rencana)",
-    "masa_jabatan": "Sedang Berjalan",
+    "akhir_menjabat": "21 Mei 2026",
+    "masa_jabatan": "3 Tahun 2 Bulan 28 Hari",
     "usia_awal": "24 Tahun 1 Bulan 17 Hari",
     "event_pelantikan": "11th YEAR BIRTHDAY LIVE (Yokohama Arena)",
-    "event_penyerahan": "14th YEAR BIRTHDAY LIVE (Tokyo Dome) - Rencana",
+    "event_penyerahan": "14th YEAR BIRTHDAY LIVE (Tokyo Dome) DAY 2",
     "jumlah_awal": "39 Member",
-    "jumlah_akhir": "Akan Ditentukan",
+    "jumlah_akhir": "35 Member",
     "trivia": [
       "Kapten pertama yang berasal dari luar Generasi 1.",
       "Membawa peran pemulihan (Turnaround) untuk membangkitkan grup di tengah krisis pergantian generasi.",
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "id": "sugawara-satsuki",
+    "id": "sugawara-satsuki-wakap",
     "nama_jp": "菅原咲月",
     "nama_romaji": "Sugawara Satsuki",
     "jabatan": "Wakil Kapten",
@@ -104,19 +104,42 @@
     "gen": "5期",
     "foto_profil": "https://ik.imagekit.io/moearchive/calendar/nogi40/sugawarasatsuki.png",
     "mulai_menjabat": "14 Desember 2024",
-    "akhir_menjabat": "Masih Menjabat",
-    "masa_jabatan": "Sedang Berjalan",
+    "akhir_menjabat": "20 Mei 2026",
+    "masa_jabatan": "1 Tahun 5 Bulan 6 Hari",
     "usia_awal": "19 Tahun 1 Bulan 13 Hari",
     "event_pelantikan": "Nogizaka46 Daikanshasai 2024 (Makuhari Event Hall)",
-    "event_penyerahan": "-",
+    "event_penyerahan": "Naik jabatan menjadi Kapten ke-4",
     "jumlah_awal": "31 Member",
-    "jumlah_akhir": "-",
+    "jumlah_akhir": "35 Member",
     "trivia": [
       "Member Generasi 5 pertama yang masuk dalam jajaran kepemimpinan grup.",
       "Diangkat secara resmi pada acara Nogizaka46 Daikanshasai 2024 di Makuhari Event Hall.",
       "Diharapkan mampu menjaga jembatan psikologis (psychological safety) antar member dan aktif di kegiatan eksternal.",
       "Diproyeksikan sebagai salah satu kandidat kuat untuk menjadi Kapten generasi berikutnya.",
       "Usia saat menjabat adalah 19 tahun, 1 bulan, 13 hari."
+    ]
+  },
+  {
+    "id": "sugawara-satsuki",
+    "nama_jp": "菅原咲月",
+    "nama_romaji": "Sugawara Satsuki",
+    "jabatan": "Kapten",
+    "urutan": 4,
+    "gen": "5期",
+    "foto_profil": "https://ik.imagekit.io/moearchive/calendar/nogi40/sugawarasatsuki.png",
+    "mulai_menjabat": "21 Mei 2026",
+    "akhir_menjabat": "Masih Menjabat",
+    "masa_jabatan": "Sedang Berjalan",
+    "usia_awal": "20 Tahun 6 Bulan 20 Hari",
+    "event_pelantikan": "14th YEAR BIRTHDAY LIVE (Tokyo Dome) DAY 2",
+    "event_penyerahan": "-",
+    "jumlah_awal": "35 Member",
+    "jumlah_akhir": "-",
+    "trivia": [
+      "Kapten ke-4 sekaligus member Generasi 5 pertama yang memegang posisi ini.",
+      "Diumumkan secara resmi pada 14th YEAR BIRTHDAY LIVE DAY 2 di Tokyo Dome oleh Umezawa Minami.",
+      "Menyatakan tekadnya untuk menjadi pilar yang bisa diandalkan dan melindungi grup yang ia cintai.",
+      "Sebelumnya telah mengemban tugas sebagai Wakil Kapten ke-2 selama kurang lebih 1,5 tahun."
     ]
   }
 ]
