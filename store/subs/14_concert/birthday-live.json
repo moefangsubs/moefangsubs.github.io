@@ -3,7 +3,7 @@
 	"nameShowTitle": "Birthday Live",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
-		"11", "12", "13", "14", "15", "16"
+		"11", "12", "13", "14", "15", "16", "17"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_bdl.png",
 	"episodes": {
@@ -798,7 +798,7 @@
 				"encore": {
 				}
 			}
-		},	
+		},
 		"16": {
 			"descEpisode": "| Nogizaka46 14th Year Birthday Live DAY 1",
 			"descEpsListName": "BDL 14 DAY 1",
@@ -812,7 +812,7 @@
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1b.jpg",
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl1d.jpg",
-			"descEpisodeSynopsis": "Nogizaka46 14th YEAR BIRTHDAY LIVE diadakan di Tokyo Dome pada 19 Mei (Selasa) hingga 21 Mei 2026 (Kamis). Birthday Live kali ini merupakan pertunjukan 3 hari berturut-turut, yang menjadi pertunjukan terpanjang dalam sejarah grup di Tokyo Dome. Selain itu, ketiga pertunjukan tersebut akan menampilkan setlist yang berbeda-beda, sehingga dapat menikmati daya tarik yang berbeda pada setiap harinya. Dan pada hari ketiga yang merupakan pertunjukan terakhir, adalah Konser Kelulusan Kapten ke-3, Umezawa Minami. Ini akan menjadi malam perayaan khusus yang sangat pantas untuk menutup rangkaian Birthday Live selama 3 hari tersebut.",
+			"descEpisodeSynopsis": "Nogizaka46 14th YEAR BIRTHDAY LIVE diadakan di Tokyo Dome pada 19 Mei (Selasa) hingga 21 Mei 2026 (Kamis). Birthday Live kali ini merupakan pertunjukan 3 hari berturut-turut, yang menjadi pertunjukan terpanjang dalam sejarah grup di Tokyo Dome. Selain itu, ketiga pertunjukan tersebut akan menampilkan setlist yang berbeda-beda, sehingga dapat menikmati daya tarik yang berbeda pada setiap harinya.",
 			"nameShow": "乃木坂46 14th YEAR BIRTHDAY LIVE DAY 1",
 			"setlist": {
 			  "main": {
@@ -853,6 +853,60 @@
 				"02": ["Omoide ga Tomaranaku naru", null],
 				"03": ["Kimi Bakari", "梅澤美波"],
 				"04": ["Natsukashisa no Saki", "梅澤美波"]
+			  }
+			}
+		},
+		"17": {
+			"descEpisode": "| Nogizaka46 14th Year Birthday Live DAY 2",
+			"descEpsListName": "BDL 14 DAY 2",
+			"descOnAirDate": "20 Mei 2026",
+			"memberParticipate": "乃木坂46 ",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-14th-year-birthday-live-BnGLQ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_nogi14bdl-2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl2c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl2d.jpg",
+			"descEpisodeSynopsis": "Hari kedua dari Nogizaka46 14th YEAR BIRTHDAY LIVE di Tokyo Dome merupakan festival yang menyoroti sejarah dan masa depan grup. Konser ini membawakan tema khusus yaitu tarian dan vokal, serta kelucuan dan interaksi dengan penggemar. Salah satu sorotan utama adalah blok bertema kelucuan yang menampilkan layar aplikasi resmi Nogikoi dengan pertunjukan bergaya musikal yang dibintangi oleh Ikeda Teresa. Puncak acara terjadi pada akhir sesi MC ketika Kapten ke-3 Umezawa Minami mengumumkan kelulusannya yang akan dilaksanakan keesokan harinya, serta secara resmi menunjuk Sugawara Satsuki sebagai Kapten ke-4 Nogizaka46. Sugawara Satsuki kemudian menyatakan tekadnya untuk melindungi grup yang sangat ia cintai ini dan terus melangkah maju bersama para penggemar.",
+			"nameShow": "乃木坂46 14th YEAR BIRTHDAY LIVE DAY 2",
+			"setlist": {
+			  "main": {
+				"00": ["OVERTURE", null],
+				"01": ["Seifuku no Mannequin", "遠藤さくら"],
+				"02": ["Chance wa Byoudou", "梅澤美波"],
+				"03": ["Natsu no Free&Easy", "賀喜遥香"],
+				"04": ["Skydiving", "池田瑛紗"],
+				"05": ["Taiyou Knock", "井上和"],
+				"06": ["Wilderness world", "菅原咲月"],
+				"07": ["Inochi wa Utsukushii", "遠藤さくら"],
+				"08": ["Actually...", "中西アルノ"],
+				"09": ["Influencer", ["井上和", "岩本蓮加"]],
+				"10": ["Dare yori Soba ni Itai", "柴田柚菜"],
+				"11": ["Watashi no Tame ni Dareka no Tame ni", "鈴木"],
+				"12": ["Rewind Ano Hi", "中西アルノ"],
+				"13": ["Kanashimi no Wasurekata", "林瑠奈"],
+				"14": ["Romance no Start", "池田瑛紗"],
+				"15": ["Hakumai Sama", "池田瑛紗"],
+				"16": ["Shitto no Kenri", "池田瑛紗"],
+				"17": ["Sakanatachi no LOVE SONG", "池田瑛紗"],
+				"18": ["Arakajime Katarareru Romance", "池田瑛紗"],
+				"19": ["I see...", "賀喜遥香"],
+				"20": ["Hadashi de Summer", "川﨑桜"],
+				"21": ["Fudoutoku na Natsu", "金川紗耶"],
+				"22": ["Manatsubi yo", "賀喜遥香"],
+				"23": ["Kimi no Na wa Kibou", null],
+				"24": ["Hito wa Yume o Nido Miru", "梅澤美波"],
+				"25": ["Gomen ne Fingers crossed", "遠藤さくら"],
+				"26": ["Ohitorisama Tengoku", "井上和"],
+				"27": ["Saigo ni Kaidan o Kakeagatta no wa Itsu da?", "池田瑛紗"]
+			  },
+			  "encore": {
+				"01": ["Yubi Bouenkyou", null],
+				"02": ["Danke Schoen", null],
+				"03": ["Caravan wa Nemuranai", null],
+				"04": ["Nogizaka no Uta", null]
 			  }
 			}
 		}
