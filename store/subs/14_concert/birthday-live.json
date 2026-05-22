@@ -3,7 +3,7 @@
 	"nameShowTitle": "Birthday Live",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
-		"11", "12", "13", "14", "15", "16", "17"
+		"11", "12", "13", "14", "15", "16", "17", "18"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_bdl.png",
 	"episodes": {
@@ -907,6 +907,58 @@
 				"02": ["Danke Schoen", null],
 				"03": ["Caravan wa Nemuranai", null],
 				"04": ["Nogizaka no Uta", null]
+			  }
+			}
+		},
+		"18": {
+			"descEpisode": "| Nogizaka46 14th Year Birthday Live DAY 3 ~Umezawa Minami Graduation Concert~",
+			"descEpsListName": "BDL 14 DAY 3",
+			"descOnAirDate": "21 Mei 2026",
+			"memberParticipate": "乃木坂46 ",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-14th-year-birthday-live-BnGLQ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_nogi14bdl-3.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl3.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl3a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl3b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl3c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/nogizaka46_14th-bdl3d.jpg",
+			"descEpisodeSynopsis": "Hari ketiga sekaligus penutup dari Nogizaka46 14th YEAR BIRTHDAY LIVE di Tokyo Dome merupakan Konser Kelulusan untuk Kapten ke-3, Umezawa Minami. Konser selama 3 hari ini mencetak sejarah dengan total 140.000 penonton. Umezawa, yang telah memimpin grup sejak tahun 2023, menampilkan seluruh dedikasinya di hadapan 50.000 penggemar yang hadir. Selama hampir 10 tahun masa baktinya, ia membawakan 29 lagu dalam konser ini, termasuk penampilan perdana untuk lagu solonya \"Mou Hitotsu no Taiyou\". Momen mengharukan terjadi saat ia mengenang perjalanannya, menerima pesan kejutan dari senior Shiraishi Mai, dan secara resmi mempercayakan masa depan Nogizaka46 kepada Kapten ke-4, Sugawara Satsuki. Di akhir konser, Umezawa berpamitan dan melangkah keluar melalui pintu yang mengarah ke langit biru, menutup kisahnya yang gemilang di Nogizaka46.",
+			"nameShow": "乃木坂46 14th YEAR BIRTHDAY LIVE DAY 3 ~梅澤美波卒業コンサート~",
+			"setlist": {
+			  "main": {
+				"00": ["OVERTURE", null],
+				"01": ["Sora Tobira", null],
+				"02": ["Kodoku na Aozora", null],
+				"03": ["Ookami ni Kuchibue o", "梅澤美波"],
+				"04": ["Boku wa Boku o Suki ni naru", "梅澤美波"],
+				"05": ["Harujion ga Saku Koro", "梅澤美波"],
+				"06": ["Atarashii Sekai", "梅澤美波"],
+				"07": ["Jikochuu de Ikou!", "梅澤美波"],
+				"08": ["Shitsuren Osoujin", "梅澤美波"],
+				"09": ["Fantastic Sanshoku Pan", "梅澤美波"],
+				"10": ["Warui Seibun", "梅澤美波"],
+				"11": ["Funde shimatta", "梅澤美波"],
+				"12": ["Kyuushamen", "梅澤美波"],
+				"13": ["Hodoukyou", ["梅澤美波", "遠藤さくら"]],
+				"14": ["Ushinaitakunai kara", "梅澤美波"],
+				"15": ["Time Limit Kataomoi", ["梅澤美波", "矢田萌華"]],
+				"16": ["Naitatte Ii Janai ka?", "梅澤美波"],
+				"17": ["Nichijou", "梅澤美波"],
+				"18": ["Sekai wa Koko ni Aru", "梅澤美波"],
+				"19": ["Sanbanme no Kaze", "梅澤美波"],
+				"20": ["Hito wa Naze Hashiru no ka?", "梅澤美波"],
+				"21": ["Influencer", ["梅澤美波", "菅原咲月"]],
+				"22": ["Kaerimichi wa Toomawari shitaku naru", "梅澤美波"],
+				"23": ["Synchronicity", null],
+				"24": ["My respect", "梅澤美波"]
+			  },
+			  "encore": {
+				"01": ["Mou Hitotsu no Taiyou", "梅澤美波"],
+				"02": ["Boku dake no Hikari", null],
+				"03": ["Korogatta Kane o Narase!", null],
+				"04": ["Girls Rule", null],
+				"05": ["Nogizaka no Uta", null]
 			  }
 			}
 		}
