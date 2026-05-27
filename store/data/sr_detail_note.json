@@ -838,7 +838,11 @@
       "06": ["お休み", "Golden Week"],
       "07": ["お休み", "Golden Week"],
       "08": ["お休み", "Golden Week"],
-      "11": ["お休み", "Golden Week"]
+      "11": ["お休み", "Golden Week"],
+      "19": ["お休み", "Nogizaka46 14th Birthday Live DAY 1"],
+      "20": ["お休み", "Nogizaka46 14th Birthday Live DAY 2"],
+      "21": ["お休み", "Nogizaka46 14th Birthday Live DAY 3"],
+      "22": ["お休み", null]
     }
   }
 }

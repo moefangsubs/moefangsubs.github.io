@@ -395,6 +395,43 @@ async function updateCalendar() {
     }
 }
 
+async function fetchPreviousStream(memberName, currentStream) {
+    const getStreamType = (s) => {
+        const t = Array.isArray(s.type) ? s.type.join(" ") : s.type;
+        if (t.includes("SHOWROOM") || t.includes("のぎおび")) return "REG";
+        return "SPEC";
+    };
+    const targetType = getStreamType(currentStream);
+    const [cYearStr, cMonthStr] = currentStream.airdate.split(".");
+    let y = parseInt(cYearStr, 10);
+    let m = parseInt(cMonthStr, 10);
+
+    while (y >= 2018) {
+        const mStr = m.toString().padStart(2, '0');
+        const cacheKey = `${y}_${mStr}`;
+        const data = await fetchStreamDataCached(cacheKey);
+
+        for (let i = data.length - 1; i >= 0; i--) {
+            const s = data[i];
+            if (s.airdate >= currentStream.airdate) continue;
+
+            const mems = Array.isArray(s.member) ? s.member : [s.member];
+            if (mems.includes(memberName)) {
+                if (getStreamType(s) === targetType) {
+                    return s;
+                }
+            }
+        }
+
+        m--;
+        if (m < 1) {
+            m = 12;
+            y--;
+        }
+    }
+    return null;
+}
+
 function buildYearView() {
     const wrapper = document.createElement("div");
     wrapper.className = "year-grid";
@@ -939,16 +976,16 @@ function openModal(stream) {
         rightHtml += `<div class="modal-data-row"><strong>Title:</strong> <span>${stream.title}</span></div>`;
     }
 
-    const typeStr = Array.isArray(stream.type) ? stream.type.join(", ") : stream.type;
+    const typeStr = Array.isArray(stream.type) ? stream.type.join(", ") : (stream.type || "");
     rightHtml += `<div class="modal-data-row"><strong>Jenis siaran:</strong> <span>${typeStr}</span></div>`;
     rightHtml += `<div class="modal-data-row"><strong>Tanggal:</strong> <span>${formatDateID(stream.airdate)}</span></div>`;
 
     if (stream.airdate) {
         const dateParts = stream.airdate.split(".");
         if (dateParts.length === 3) {
-            const year = parseInt(dateParts[0]).toString();
-            const month = parseInt(dateParts[1]).toString().padStart(2, '0');
-            const day = parseInt(dateParts[2]).toString().padStart(2, '0');
+            const year = parseInt(dateParts[0], 10).toString();
+            const month = parseInt(dateParts[1], 10).toString().padStart(2, '0');
+            const day = parseInt(dateParts[2], 10).toString().padStart(2, '0');
 
             if (noteDB[year] && noteDB[year][month] && noteDB[year][month][day]) {
                 const noteInfo = noteDB[year][month][day];
@@ -990,12 +1027,13 @@ function openModal(stream) {
         rightHtml += `<div class="modal-data-row"><strong>Durasi:</strong> <span>${durationStr}</span></div>`;
     }
 
-    if (typeStr.includes("猫舌") && stream.airdate) {
+    const titleStr = stream.title || "";
+    if ((typeStr.includes("猫舌") || titleStr.includes("猫舌")) && stream.airdate) {
         const dateParts = stream.airdate.split(".");
         if (dateParts.length === 3) {
-            const year = parseInt(dateParts[0]).toString();
-            const month = parseInt(dateParts[1]).toString(); 
-            const day = parseInt(dateParts[2]).toString();   
+            const year = parseInt(dateParts[0], 10).toString();
+            const month = parseInt(dateParts[1], 10).toString(); 
+            const day = parseInt(dateParts[2], 10).toString();   
 
             if (nekojitaDB[year] && nekojitaDB[year][month] && nekojitaDB[year][month][day]) {
                 let temaData = nekojitaDB[year][month][day];
@@ -1039,5 +1077,76 @@ function openModal(stream) {
     }
 
     modalRight.innerHTML += rightHtml;
+
+    const membersList = Array.isArray(stream.member) ? stream.member : [stream.member];
+    const historyRow = document.createElement("div");
+    historyRow.className = "modal-data-row";
+
+    if (membersList.length === 1) {
+        historyRow.innerHTML = `<strong>Terakhir:</strong> <span class="history-content">Mencari data...</span>`;
+        modalRight.appendChild(historyRow);
+        
+        const contentSpan = historyRow.querySelector(".history-content");
+        fetchPreviousStream(membersList[0], stream).then(prevStream => {
+            if (prevStream) {
+                const d1 = new Date(prevStream.airdate.replace(/\./g, "-"));
+                const d2 = new Date(stream.airdate.replace(/\./g, "-"));
+                const diffDays = Math.ceil(Math.abs(d2 - d1) / (1000 * 60 * 60 * 24));
+                
+                const jumpBtn = document.createElement("a");
+                jumpBtn.href = "javascript:void(0)";
+                jumpBtn.style.color = "var(--moe)";
+                jumpBtn.style.fontWeight = "bold";
+                jumpBtn.style.textDecoration = "underline";
+                jumpBtn.textContent = formatDateID(prevStream.airdate);
+                
+                jumpBtn.addEventListener("click", () => {
+                    openModal(prevStream);
+                });
+
+                contentSpan.innerHTML = "";
+                contentSpan.appendChild(jumpBtn);
+                contentSpan.appendChild(document.createTextNode(` (${diffDays} hari yang lalu)`));
+            } else {
+                contentSpan.innerHTML = `Tidak ada data (Penampilan perdana)`;
+            }
+        });
+    } else {
+        historyRow.innerHTML = `<strong>Terakhir:</strong> <span class="history-content" style="display: flex; flex-direction: column; gap: 5px;"></span>`;
+        modalRight.appendChild(historyRow);
+        
+        const contentSpan = historyRow.querySelector(".history-content");
+        membersList.forEach(mem => {
+            const memLine = document.createElement("div");
+            memLine.innerHTML = `${mem}: Mencari data...`;
+            contentSpan.appendChild(memLine);
+
+            fetchPreviousStream(mem, stream).then(prevStream => {
+                if (prevStream) {
+                    const d1 = new Date(prevStream.airdate.replace(/\./g, "-"));
+                    const d2 = new Date(stream.airdate.replace(/\./g, "-"));
+                    const diffDays = Math.ceil(Math.abs(d2 - d1) / (1000 * 60 * 60 * 24));
+                    
+                    const jumpBtn = document.createElement("a");
+                    jumpBtn.href = "javascript:void(0)";
+                    jumpBtn.style.color = "var(--moe)";
+                    jumpBtn.style.fontWeight = "bold";
+                    jumpBtn.style.textDecoration = "underline";
+                    jumpBtn.textContent = formatDateID(prevStream.airdate);
+                    
+                    jumpBtn.addEventListener("click", () => {
+                        openModal(prevStream);
+                    });
+
+                    memLine.innerHTML = `${mem}: `;
+                    memLine.appendChild(jumpBtn);
+                    memLine.appendChild(document.createTextNode(` (${diffDays} hari yang lalu)`));
+                } else {
+                    memLine.innerHTML = `${mem}: Tidak ada data (Penampilan perdana)`;
+                }
+            });
+        });
+    }
+
     document.getElementById("srModal").classList.add("active");
 }
