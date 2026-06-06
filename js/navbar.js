@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	const disableEvents = ['copy', 'paste', 'cut'];
 	disableEvents.forEach(eventName => {
 		document.addEventListener(eventName, e => {
-			if (!document.body.classList.contains('allow-copy')) {
+			const isEditable = e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA';
+			if (!document.body.classList.contains('allow-copy') && !isEditable) {
 				e.preventDefault();
 			}
 		});
@@ -1847,7 +1848,7 @@ function showChatAccessPopup() {
                     </ul>
                 </li>`;
         } else {
-            // userGreetingHTML = `<li class="nav-item"><a href="#" id="login-btn">Login</a></li>`;
+            
         }
 
         const navbarHTML = `
@@ -1873,6 +1874,12 @@ function showChatAccessPopup() {
 							</ul>
 						</li>
                         <li class="nav-item"><a href="../moedata/">DB</a></li>
+                        <li class="nav-item has-submenu">
+                            <a href="#" class="submenu-toggle">CORNER <span class="arrow"></span></a>
+                            <ul class="submenu">
+                                <li><a href="../moecorner/prompt_oshi.html">Prompt Oshi</a></li>
+                            </ul>
+                        </li>
 						<li class="nav-item has-submenu">
 							<a href="#" class="submenu-toggle">OTHER <span class="arrow"></span>
 							</a>
@@ -1884,7 +1891,7 @@ function showChatAccessPopup() {
 							</ul>
 						</li>
 						<li class="nav-item"><a href="../moeplay/">PLAY</a></li>
-                        <!-- <li class="nav-item"><a href="../forum.html" id="nav-chat-link">CHAT</a></li> -->
+                        
                         <li class="nav-item"><a href="#" id="nav-chat-link">CHAT</a></li>
 						${userGreetingHTML}
 					</ul>
@@ -1959,14 +1966,7 @@ function showChatAccessPopup() {
                     e.preventDefault();
                     showNotificationsPopup();
                     break;
-                // case 'nav-chat-link':
-                    // e.preventDefault();
-                    // if (localIsAdmin) {
-                        // window.location.href = '../forum.html';
-                    // } else {
-                        // showChatAccessPopup();
-                    // }
-                    // break;
+                
 				case 'nav-chat-link':
                     e.preventDefault();
                     showConstructionPopup();

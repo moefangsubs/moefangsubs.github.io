@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <title>Prompt Oshi & Aku</title>
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+    <script src="../js/navbar.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_prompt_oshime.css">
+</head>
+<body>
+<div id="main">
+    <div class="container">
+        
+        <div class="titlehead">
+            <h1>PROMPT OSHI & AKU</h1>
+        </div>
+
+        <div class="justify">
+            Belakangan ini di platform seperti X (Twitter) rame banget tren bikin <b><u><a href="https://x.com/search?q=%23%E6%8E%A8%E3%81%97%E3%81%A8%E3%81%AE%E8%BA%AB%E9%95%B7%E5%B7%AE&src=typed_query&f=top" target="_blank">"Gambar Tinggi Badan Bareng Oshi"</a></u></b> (#推しとの身長差).
+			<br>
+			Intinya, kamu bisa bikin poster atau ilustrasi estetik yang membandingkan tinggi badanmu dengan idola kesayangan secara visual.<br><br>
+            Biasanya, gambar ini dilengkapi dengan semacam penggaris pengukur di bagian tengah, plus kotak profil layaknya infografis di majalah Jepang. Dengan <i>prompt generator</i> ini terus ditempel di AI image-to-image seperti ChatGPT atau Nano Banana, kamu bisa ikutan trend tersebut (karena saya juga suka hasilnya wkwkwk).
+        </div>
+
+        <div class="justify">
+            <h3 class="bagian">Langkah-langkah</h3>
+            <ol>
+                <li>
+                    <b>Siapkan Foto Referensi (Sangat Direkomendasikan):</b><br>
+                    Cari foto kamu dan oshi-mu yang menampilkan seluruh tubuh (<i>full-body</i>) dari ujung kepala sampai ujung kaki. Pastikan wajah menghadap ke depan atau sedikit menyamping (bukan menunduk/membelakangi), pencahayaan cukup, dan pakaian terlihat utuh. Semakin jelas referensinya, semakin akurat AI menangkap proporsi tubuh dan gayamu.
+                </li>
+                <li>
+                    <b>Alternatif Pemisahan Foto (Jika Hanya Punya Pas Foto):</b><br>
+                    Jika fotomu terpotong sepinggang, atau kamu tidak punya foto <i>full-body</i> yang bagus, siapkan foto wajahmu (pas foto/<i>selfie</i>). Kemudian, cari foto referensi baju dari internet (misal katalog pakaian) yang ingin kamu pakai di ilustrasi nanti.<br>
+                    <b>PENTING:</b> Gunakan aplikasi edit foto untuk menambahkan teks huruf <b>"A"</b> di pojok kiri atas pada foto wajah dan foto bajumu. Lakukan hal yang sama dengan memberikan label <b>"B"</b> untuk foto wajah dan baju oshi-mu.
+                    
+                    <div class="tutorial-image-container">
+                        <div class="tutorial-image-card">
+                            <div class="card-label">✅ Opsi 1: Full Body</div>
+                            <img src="../sprite/img/contoh-full.jpg" alt="Contoh Full Body">
+                            <div class="card-desc">Cukup 2 foto: 1 Foto Kamu (Full) & 1 Foto Oshi (Full). AI akan langsung memprosesnya.</div>
+                        </div>
+                        <div class="tutorial-image-card">
+                            <div class="card-label">✅ Opsi 2: Wajah + Baju Terpisah</div>
+                            <img src="../sprite/img/contoh-pisah.jpg" alt="Contoh Pisah">
+                            <div class="card-desc">Total 4 foto: Wajah (A, B) & Baju (A, B). Wajib diberi label A untuk kamu, B untuk Oshi.</div>
+                        </div>
+                    </div>
+                </li>
+                <li><b>Isi Data:</b> Masukkan nama, tinggi badan, dan detail profil tambahan di formulir bawah ini. Matikan centang jika kamu tidak ingin mencantumkan detail tertentu di hasil gambarnya.</li>
+                <li><b>Pilih Gaya:</b> Tentukan apakah kamu ingin gaya anime, retro pixel, realistis, dll.</li>
+                <li><b>Generate & Copy:</b> Klik tombol "GENERATE & SALIN PROMPT".</li>
+                <li><b>Eksekusi di AI:</b> Buka ChatGPT atau Nano Banana (Gemini) atau Grok Imagine, unggah <b>semua foto referensi</b> yang sudah kamu siapkan di atas sekaligus, lalu <i>paste</i> prompt ini di kolom obrolan dan <i>generate</i>.</li>
+            </ol>
+        </div>
+
+        <h3 class="bagian">Form Prompt</h3>
+        <div class="oshi-form-wrapper boxs2">
+            
+            <!-- ---------------------- -->
+            <!-- Menu Utama             -->
+            <!-- ---------------------- -->
+            <div class="oshi-panel" style="margin-bottom: 25px; grid-column: 1 / -1; background-color: var(--moe-tint7);">
+                <h4 class="jpn">Menu Utama</h4>
+                <div class="adv-grid">
+                    
+                    <div class="form-group">
+                        <label class="adv-title">Main Mode (Bahasa Output Panel)</label>
+                        <div class="adv-radio-group">
+                            <input type="radio" id="langEn" name="langMode" value="en" checked>
+                            <label for="langEn">Bahasa Inggris (default)</label><br>
+                            <input type="radio" id="langJp" name="langMode" value="jp">
+                            <label for="langJp">Bahasa Jepang</label>
+                        </div>
+                        
+                        <label class="adv-title" style="margin-top: 15px;">Ukuran & Rotasi</label>
+                        <div class="adv-radio-group">
+                            <input type="radio" id="ratioVert" name="ratioMode" value="vertical" checked>
+                            <label for="ratioVert">Vertikal (default)</label><br>
+                            <input type="radio" id="ratioHorz" name="ratioMode" value="horizontal">
+                            <label for="ratioHorz">Horizontal</label><br>
+                            <input type="radio" id="ratio11" name="ratioMode" value="1:1">
+                            <label for="ratio11">1:1</label><br>
+                            <input type="radio" id="ratio45" name="ratioMode" value="4:5">
+                            <label for="ratio45">4:5 (Upload Instagram Vertikal)</label>
+                        </div>
+
+                        <label class="adv-title" style="margin-top: 15px;">Tipe Foto Referensi</label>
+                        <select id="globalPhotoType" class="oshi-input" style="margin-bottom: 15px;">
+                            <option value="full">Full Body (Kedua belah pihak)</option>
+                            <option value="partial">Pas Foto/Sepinggang + Baju Terpisah (Harus ada label A & B)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="adv-title">Perlihatkan Pengukur (Measurement)</label>
+                        <div class="adv-radio-group" style="display: flex; gap: 15px; margin-bottom: 15px;">
+                            <div>
+                                <input type="radio" id="measureYes" name="measureMode" value="yes" checked>
+                                <label for="measureYes">Ya (default)</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="measureNo" name="measureMode" value="no">
+                                <label for="measureNo">Tidak</label>
+                            </div>
+                        </div>
+
+                        <label class="adv-title">Addition (Ekstra)</label>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="addFontSize" checked>
+                            <label for="addFontSize" style="font-weight:normal; margin-bottom:0;">Font size nama lebih besar dibanding detail</label>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="addTitle">
+                            <label for="addTitle" style="font-weight:normal; margin-bottom:0;">Tambahkan judul di atas '#推しとの身長差'</label>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="addFrame">
+                            <label for="addFrame" style="font-weight:normal; margin-bottom:0;">Gunakan frame/bingkai</label>
+                        </div>
+                        <div class="input-with-checkbox" style="align-items: flex-start;">
+                            <input type="checkbox" id="addOrnaments" onchange="toggleOrnamentInput(this)" style="margin-top: 10px;">
+                            <div style="flex: 1;">
+                                <label for="addOrnaments" style="font-weight:normal; margin-bottom:5px; margin-top: 8px;">Tambah ornamen / properti</label>
+                                <div class="translate-flex">
+                                    <input type="text" id="ornamentValue" class="oshi-input" placeholder="Contoh: penlight, towel oshi, atau bunga" disabled>
+                                    <button type="button" class="oshi-btn-translate" id="btnTransOrnament" onclick="openTranslate('ornamentValue')" disabled>Translate</button>
+                                </div>
+                                <div class="translate-help">Jika tidak bisa bahasa Inggris, cukup ketik di box atas, lalu tekan tombol Translate. Salin dan tempel ke sini.</div>
+                            </div>
+                        </div>
+
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="addColorTheme" onchange="toggleColorTheme(this)"> 
+                            <label for="addColorTheme" style="font-weight:normal; margin-bottom:0;">Tema/kesan warna</label>
+                            <input type="color" id="themeColorVal" style="margin-left:10px; cursor:not-allowed;" disabled>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ---------------------- -->
+            <!-- Button Box Visual Style-->
+            <!-- ---------------------- -->
+            <div class="oshi-form-fullwidth" style="margin-bottom: 25px;">
+                <label style="font-size: 1.1em; margin-bottom: 15px;">Gaya Visual (Style)</label>
+                <div class="style-button-group">
+                    <input type="radio" id="styleAnime" name="visualStyle" value="anime" checked>
+                    <label for="styleAnime" class="style-btn">Anime / Magazine</label>
+                    
+                    <input type="radio" id="stylePixel" name="visualStyle" value="pixel">
+                    <label for="stylePixel" class="style-btn">8-Bit / Pixel Art</label>
+                    
+                    <input type="radio" id="styleRealistic" name="visualStyle" value="realistic">
+                    <label for="styleRealistic" class="style-btn">Realistic / Photography</label>
+                    
+                    <input type="radio" id="styleComic" name="visualStyle" value="comic">
+                    <label for="styleComic" class="style-btn">Western Comic</label>
+                    
+                    <!-- NEW STYLES -->
+                    <input type="radio" id="styleWatercolor" name="visualStyle" value="watercolor">
+                    <label for="styleWatercolor" class="style-btn">Soft Watercolor</label>
+                    
+                    <input type="radio" id="styleConcert" name="visualStyle" value="concert">
+                    <label for="styleConcert" class="style-btn">Live Concert</label>
+                    
+                    <input type="radio" id="styleScrapbook" name="visualStyle" value="scrapbook">
+                    <label for="styleScrapbook" class="style-btn">Scrapbook / Polaroid</label>
+                </div>
+            </div>
+            
+            <div class="oshi-grid">
+                <div class="oshi-panel">
+                    <h4 class="jpn">Data Kamu (Label A / Kamu)</h4>
+                    <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+                        <div style="flex: 3;">
+                            <label>Nama Kamu:</label>
+                            <input type="text" id="userName" class="oshi-input" placeholder="Contoh: MoeFang">
+                        </div>
+                        <div style="flex: 1;">
+                            <label>Tinggi (cm):</label>
+                            <input type="number" id="userHeight" class="oshi-input" placeholder="192" min="100" onkeydown="if(event.key==='-'||event.key==='e'||event.key==='E') event.preventDefault();">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Detail Profil (Max 4):</label>
+                        <div style="font-size: 0.75em; color: var(--moe-shade-max1); margin: 5px 0px; line-height: 1.4;">
+                            Kalau kamu di <b>Main Mode</b> memilih output bahasa Jepang, bagusnya sih dalam Detail Profil juga harus bahasa Jepang juga.
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkUserDetail1" onchange="toggleInput('userDetail1', this)">
+                            <input type="text" id="userDetail1" class="oshi-input" placeholder="Contoh: Nogi Fan" disabled>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkUserDetail2" onchange="toggleInput('userDetail2', this)">
+                            <input type="text" id="userDetail2" class="oshi-input" placeholder="Contoh: Fansub Admin" disabled>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkUserDetail3" onchange="toggleInput('userDetail3', this)">
+                            <input type="text" id="userDetail3" class="oshi-input" placeholder="Contoh: Presiden 2 Periode" disabled>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkUserDetail4" onchange="toggleInput('userDetail4', this)">
+                            <input type="text" id="userDetail4" class="oshi-input" placeholder="Contoh: Admin MBG" disabled>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="oshi-panel">
+                    <h4 class="jpn">Data Oshi (Label B / Member)</h4>
+                    <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+                        <div style="flex: 3;">
+                            <label>Nama Oshi:</label>
+                            <input type="text" id="oshiName" class="oshi-input" placeholder="Contoh: Kaki Haruka">
+                            <div style="font-size: 0.75em; color: var(--moe-shade-max1); margin-top: 5px; line-height: 1.4;">
+                                Kalo nargetin anak Nogi, atmin ada data tingginya.<br>
+                                <button type="button" class="oshi-btn-translate" style="margin-top:5px;padding: 5pt;border: 0px;background-color: var(--moe-tint4);font-size: 10pt;color: var(--moe);" onclick="openMemberModal()">Cari member</button>
+                            </div>
+                        </div>
+                        <div style="flex: 1;">
+                            <label>Tinggi (cm):</label>
+                            <input type="number" id="oshiHeight" class="oshi-input" placeholder="166" min="100" onkeydown="if(event.key==='-'||event.key==='e'||event.key==='E') event.preventDefault();">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Detail Profil (Max 4):</label>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkOshiDetail1" onchange="toggleInput('oshiDetail1', this)">
+                            <input type="text" id="oshiDetail1" class="oshi-input" placeholder="Contoh: Japanese Idol" disabled>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkOshiDetail2" onchange="toggleInput('oshiDetail2', this)">
+                            <input type="text" id="oshiDetail2" class="oshi-input" placeholder="Contoh: Nogizaka46 4th Gen" disabled>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkOshiDetail3" onchange="toggleInput('oshiDetail3', this)">
+                            <input type="text" id="oshiDetail3" class="oshi-input" placeholder="Contoh: Beautiful & Talented" disabled>
+                        </div>
+                        <div class="input-with-checkbox">
+                            <input type="checkbox" id="checkOshiDetail4" onchange="toggleInput('oshiDetail4', this)">
+                            <input type="text" id="oshiDetail4" class="oshi-input" placeholder="Contoh: Center" disabled>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ---------------------- -->
+            <!-- Advanced Menu          -->
+            <!-- ---------------------- -->
+            <div class="oshi-form-fullwidth" style="background-color: var(--kakki-x1); margin-top: 10px;">
+                <div class="input-with-checkbox" style="justify-content: center;">
+                    <input type="checkbox" id="checkAdvanced" onchange="toggleAdvanced(this)">
+                    <label style="margin: 0; font-size: 1.1em; color: var(--moe-shade-min1); text-transform: uppercase;">Menu Lanjutan</label>
+                </div>
+                
+                <div id="advancedMenuBody" style="display: none; text-align: left; margin-top: 20px; border-top: 2px dashed var(--moe); padding-top: 20px;">
+                    <div class="adv-grid">
+                        
+                        <div class="form-group">
+                            <label class="adv-title">1. Bentuk Font</label>
+                            <!-- Grid Split 2 Kolom untuk Font -->
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                                <div>
+                                    <div class="adv-radio-group">
+                                        <input type="radio" id="fontCatA" name="fontCat" value="basic" checked onchange="updateFontSubRadios()">
+                                        <label for="fontCatA">(A) Basic</label>
+                                        <div class="adv-sub-radio" id="subFontA">
+                                            <input type="radio" name="fontBasic" value="Sans serif" checked> <label>Sans serif</label><br>
+                                            <input type="radio" name="fontBasic" value="Serif"> <label>Serif</label><br>
+                                            <input type="radio" name="fontBasic" value="Fixed width"> <label>Fixed width</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="adv-radio-group">
+                                        <input type="radio" id="fontCatB" name="fontCat" value="fancy" onchange="updateFontSubRadios()">
+                                        <label for="fontCatB">(B) Fancy</label>
+                                        <div class="adv-sub-radio" id="subFontB">
+                                            <input type="radio" name="fontFancy" value="Cartoon" disabled> <label>Cartoon</label><br>
+                                            <input type="radio" name="fontFancy" value="Comic" disabled> <label>Comic</label><br>
+                                            <input type="radio" name="fontFancy" value="Decorative" disabled> <label>Decorative</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="adv-radio-group">
+                                        <input type="radio" id="fontCatC" name="fontCat" value="Pixel" onchange="updateFontSubRadios()">
+                                        <label for="fontCatC">(C) Pixel</label>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div class="adv-radio-group">
+                                        <input type="radio" id="fontCatD" name="fontCat" value="script" onchange="updateFontSubRadios()">
+                                        <label for="fontCatD">(D) Script</label>
+                                        <div class="adv-sub-radio" id="subFontD">
+                                            <input type="radio" name="fontScript" value="Caligraphy" disabled> <label>Caligraphy</label><br>
+                                            <input type="radio" name="fontScript" value="Handwritten" disabled> <label>Handwritten</label><br>
+                                            <input type="radio" name="fontScript" value="Brush" disabled> <label>Brush</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="adv-radio-group">
+                                        <input type="radio" id="fontCatE" name="fontCat" value="holiday" onchange="updateFontSubRadios()">
+                                        <label for="fontCatE">(E) Holiday</label>
+                                        <div class="adv-sub-radio" id="subFontE">
+                                            <input type="radio" name="fontHoliday" value="Valentine" disabled> <label>Valentine</label><br>
+                                            <input type="radio" name="fontHoliday" value="Easter" disabled> <label>Easter</label><br>
+                                            <input type="radio" name="fontHoliday" value="Halloween" disabled> <label>Halloween</label><br>
+                                            <input type="radio" name="fontHoliday" value="Christmas" disabled> <label>Christmas</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="form-group">
+                                <label class="adv-title">2. Pose</label>
+                                <div class="adv-radio-group">
+                                    <input type="radio" id="poseFacing" name="poseMode" value="facing" checked onchange="togglePoseInput()">
+                                    <label for="poseFacing">Berhadapan (default)</label><br>
+                                    
+                                    <input type="radio" id="poseBack" name="poseMode" value="backtoback" onchange="togglePoseInput()">
+                                    <label for="poseBack">Saling memunggung</label><br>
+                                    
+                                    <input type="radio" id="poseHug" name="poseMode" value="hug" onchange="togglePoseInput()">
+                                    <label for="poseHug">Merangkul</label><br>
+
+                                    <input type="radio" id="poseHand" name="poseMode" value="holding_hands" onchange="togglePoseInput()">
+                                    <label for="poseHand">Berpegangan tangan</label><br>
+
+                                    <input type="radio" id="posePatOshi" name="poseMode" value="headpat_oshi" onchange="togglePoseInput()">
+                                    <label for="posePatOshi">Head pat (Oshi ke Aku)</label><br>
+
+                                    <input type="radio" id="posePatMe" name="poseMode" value="headpat_me" onchange="togglePoseInput()">
+                                    <label for="posePatMe">Head pat (Aku ke Oshi)</label><br>
+                                </div>
+                            </div>
+
+                            <div class="form-group" style="margin-top: 25px;">
+                                <label class="adv-title">3. Background</label>
+                                <div class="adv-radio-group">
+                                    <input type="radio" id="bgAuto" name="bgMode" value="auto" checked onchange="toggleBgInputs()">
+                                    <label for="bgAuto">Auto (default)</label><br>
+                                    
+                                    <input type="radio" id="bgSolid" name="bgMode" value="solid" onchange="toggleBgInputs()">
+                                    <label for="bgSolid">Solid color</label>
+                                    <input type="color" id="bgSolidValue" style="margin-left: 10px; cursor: not-allowed;" disabled><br>
+
+                                    <input type="radio" id="bgCustom" name="bgMode" value="custom" style="margin-top: 10px;" onchange="toggleBgInputs()">
+                                    <label for="bgCustom" style="margin-top: 10px;">Custom</label>
+                                    
+                                    <div class="translate-flex">
+                                        <input type="text" id="bgCustomValue" class="oshi-input" placeholder="Contoh: sunny beach at sunset" disabled>
+                                        <button class="oshi-btn-translate" id="btnTransBg" onclick="openTranslate('bgCustomValue')" disabled>Translate</button>
+                                    </div>
+                                    <div class="translate-help">Jika tidak bisa bahasa Inggris, cukup ketik di box atas, lalu tekan tombol Translate. Salin dan tempel ke sini.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+		<button class="oshi-btn boxs1" id="btnGenerate" onclick="generatePrompt()">GENERATE & SALIN PROMPT</button>
+        </div>
+
+    </div>
+</div>
+
+<!-- Modal Cari Member Nogi -->
+<div id="memberModal" class="nogi-modal" style="display: none;">
+	<div class="nogi-modal-content boxs2">
+		<span class="nogi-close" onclick="closeMemberModal()">&times;</span>
+		<h3 class="jpn" style="margin-top:0; color:var(--moe);">Daftar Member Nogizaka46</h3>
+		
+        <div class="nogi-filter-row">
+            <label class="input-with-checkbox" style="margin-bottom:0;">
+                <input type="checkbox" id="filterAktif" checked onchange="renderNogiTabs()"> 
+                <span style="font-size:0.85em; font-weight:bold; color:var(--moe-shade-min1);">Member Aktif</span>
+            </label>
+            <label class="input-with-checkbox" style="margin-bottom:0;">
+                <input type="checkbox" id="filterLulus" onchange="renderNogiTabs()"> 
+                <span style="font-size:0.85em; font-weight:bold; color:var(--moe-shade-min1);">OG / Lulus</span>
+            </label>
+        </div>
+		
+		<div class="nogi-tabs" id="nogiTabs">
+		</div>
+		
+		<div class="nogi-member-list" id="nogiMemberList">
+			Memuat data...
+		</div>
+		
+		<div class="nogi-import-row">
+			<button type="button" class="oshi-btn oshi-btn-blue" style="padding:10px; font-size:14px; margin-top:0;" onclick="importMember('romaji')">Import (Romaji)</button>
+			<button type="button" class="oshi-btn" style="padding:10px; font-size:14px; margin-top:0;" onclick="importMember('jp')">Import (Jepang)</button>
+		</div>
+	</div>
+</div>
+		
+<script type="text/javascript" src="../js/script_prompt_oshime.js"></script>
+<script>
+    document.body.classList.add('allow-copy');
+</script>
+</body>
+</html>
