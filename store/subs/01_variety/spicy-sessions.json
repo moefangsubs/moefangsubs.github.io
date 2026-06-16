@@ -4,18 +4,7 @@
 	"nameShow": "Spicy Sessions",
 	"descSynopsis": "Spicy Sessions adalah program musik baru dari TBS Channel yang wajib ditonton para pecinta musik, menampilkan sesi \"menggugah selera\" bersama tamu istimewa. Dipandu oleh Kurosawa Kaoru dari Gospellers sebagai MC utama, setiap episode menghadirkan satu tamu musisi ternama untuk berkolaborasi dalam penampilan live, sesi improvisasi dengan band studio, dan diskusi mendalam tentang akar musik mereka. Program ini juga menampilkan Nakanishi Aruno dari Nogizaka46 sebagai co-host yang turut menyumbangkan suara vokalnya. Sebagai bonus unik, di segmen akhir, Kurosawa yang pencinta kari memperkenalkan hidangan kari lezat pilihannya sambil mengobrol santai.",
 	"availableEpisode": [
-		"01",
-		"02",
-		"03",
-		"04",
-		"05",
-		"06",
-		"07",
-		"08",
-		"09",
-		"10",
-		"11",
-		"12"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_spicysessions.png",
@@ -155,7 +144,7 @@
 			"descSong4": "小田和正『Oh! Yeah!』 ",
 			"descSong5": "SING LIKE TALKING『Rise』",
 			"additionalGuests": "佐藤竹善",
-			"descEpisodeSynopsis": ""
+			"descEpisodeSynopsis": "Spicy Sessions episode ke-13 menghadirkan vokalis utama SING LIKE TALKING, Sato Chikuzen, yang mengawali karier sejak debut pada tahun 1988 dengan single \"Dancin' With Your Lies\" dan merilis karya solo sejak 1995. Penyanyi yang masa kecilnya mengulik enka sebelum beralih ke musik barat seperti QUEEN dan Eagles ini membawakan lagu \"Spirit Of Love\" serta berkolaborasi dalam lagu legendaris \"Hotel California\". Mengisi memori era 90-an, ia juga membagikan kisah di balik lagu hit \"Oh! Yeah!\" dan menutup sesi lewat penampilan lagu cover milik Oda Kazumasa tersebut."
 		},
 		"14": {
 			"descOnAirDate": "29 Maret 2025",
@@ -165,7 +154,7 @@
 			"descSong4": "秦基博『鱗（うろこ）』",
 			"descSong5": "徳永英明『レイニー　ブルー』",
 			"additionalGuests": "家入レオ",
-			"descEpisodeSynopsis": ""
+			"descEpisodeSynopsis": "Spicy Sessions episode ke-14 menghadirkan penyanyi-penulis lagu Ieiri Leo yang memulai debut sejak usia 17 tahun lewat single \"Sabrina\" dan sukses mencetak hit besar lewat lagu \"Mikansei\" yang diputar lebih dari 100 juta kali. Artis lulusan sekolah musik Voice yang terinspirasi oleh Ozaki Yutaka ini membuka panggung dengan lagu terbaru \"Amekaze Soraniji\". Dalam edisi spesial ini, ia juga menampilkan kolaborasi akustik yang intim lewat lagu \"Utautai no Ballad\" milik Saito Kazuyoshi serta berduet dalam lagu legendaris \"Uroko\" karya Hata Motohiro."
 		},
 		"15": {
 			"descOnAirDate": "26 April 2025",

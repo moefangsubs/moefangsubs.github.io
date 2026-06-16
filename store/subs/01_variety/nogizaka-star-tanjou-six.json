@@ -9,7 +9,7 @@
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41", "42", "43"
+		"41", "42", "43", "44", "45", "46", "47"
     ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
@@ -441,6 +441,47 @@
 			"additionalGuests": "かりゆし58",
 			"linkHardsub": "https://sfl.gl/SMBvQ",
 			"linkSoftsub": "https://sfl.gl/kG30u"
+		},
+		"44": {
+			"descOnAirDate": "18 Mei 2026",
+			"descSong1": "熊木杏里 「誕生日」",
+			"descSong2": "Kiroro 「未来へ」",
+			"descSong3": "吉田山田 「日々」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "吉田山田",
+			"linkHardsub": "https://sfl.gl/7YRvqM",
+			"linkSoftsub": "https://sfl.gl/VUBopfQk"
+		},
+		"45": {
+			"descOnAirDate": "25 Mei 2026",
+			"descSong1": "松田聖子 「青い珊瑚礁」",
+			"descSong2": "HoneyWorks feat. Gero 「金曜日のおはよう」",
+			"descSong3": "島谷ひとみ 「Perseus -ペルセウス-」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "島谷ひとみ",
+			"linkHardsub": "https://sfl.gl/b52L8s",
+			"linkSoftsub": "https://sfl.gl/a0UUu"
+		},
+		"46": {
+			"descOnAirDate": "1 Juni 2026",
+			"descSong1": "西野カナ 「GO FOR IT !!」",
+			"descSong2": "ヨルシカ 「ヒッチコック」",
+			"descSong3": "玉置成実 「Believe」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "玉置成実",
+			"linkHardsub": "https://sfl.gl/VLCGGrts",
+			"linkSoftsub": "https://sfl.gl/CCvt"
+		},
+		"47": {
+			"descOnAirDate": "8 Juni 2026",
+			"descSong1": "木村カエラ 「Butterfly」",
+			"descSong2": "安室奈美恵 「GIRL TALK」",
+			"descSong3": "『ユイカ』 「好きだから。」",
+			"descSong4": "『ユイカ』 「青春は見えない」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "『ユイカ』",
+			"linkHardsub": "https://sfl.gl/uD4WK",
+			"linkSoftsub": "https://sfl.gl/KrMnFSBx"
 		}
     },
     "descEpisode": "| Episode {{eps}}"

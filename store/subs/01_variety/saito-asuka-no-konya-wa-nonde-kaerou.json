@@ -5,8 +5,7 @@
 	"nameShow": "齋藤飛鳥の今夜は飲んで帰ろう",
 	"descSynopsis": "Sebuah program baru di mana Saito Asuka mengundang tamu yang 'benar-benar ingin ia temui saat ini'. Di waktu 'perjalanan pulang' saat beralih dari mode 'on' ke 'off', Asuka akan menikmati hal-hal yang ia sukai bersama orang yang ia sukai di dalam sebuah mobil camping.",
 	"availableEpisode": [
-		"01",
-		"02"
+		"01", "02", "s201", "s202"
 	],
 	"newUpdateCount": 1,
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/asukanonde{{eps}}.jpg",
@@ -19,14 +18,34 @@
 	"filePassword": "Mari_Kita_Minum_Sambil_Pulang",
 	"episodes": {
 		"01": {
+			"descEpisode": "| Episode 1 (Shiraishi Mai)",
+			"descEpsListName": "Season 1 Ep 1",
 			"descOnAirDate": "5 Juli 2025",
 			"memberParticipate": "齋藤飛鳥、白石麻衣",
 			"linkHardsub": "https://sfl.gl/CQnFh1R"
 		},
 		"02": {
+			"descEpisode": "| Episode 2 (Shiraishi Mai)",
+			"descEpsListName": "Season 1 Ep 2",
 			"descOnAirDate": "11 Juli 2025",
 			"memberParticipate": "齋藤飛鳥、白石麻衣",
 			"linkHardsub": "https://sfl.gl/8B7LTl"
+		},
+		"s201": {
+			"descEpisode": "| Season 2 Episode 1 (Ikuta Lilas)",
+			"descEpsListName": "Season 2 Ep 1",
+			"descOnAirDate": "22 Mei 2026",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://sfl.gl/3hb2DAd",
+			"linkSoftsub": "https://sfl.gl/Aen2Y6"
+		},
+		"s202": {
+			"descEpisode": "| Season 2 Episode 2 (Ikuta Lilas)",
+			"descEpsListName": "Season 2 Ep 2",
+			"descOnAirDate": "29 Mei 2026",
+			"memberParticipate": "齋藤飛鳥",
+			"linkHardsub": "https://sfl.gl/ox4vckk",
+			"linkSoftsub": "https://sfl.gl/P2D7GvA"
 		}
 	},
 	"descEpisode": "| Episode {{eps}}"

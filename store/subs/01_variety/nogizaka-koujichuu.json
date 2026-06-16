@@ -6,7 +6,8 @@
 	"availableEpisode": [
 		"099", "100", "101",
 		"未公開_230", "未公開_139_140",
-		"190", "191", "192"
+		"190", "191", "192",
+		"198", "199", "200", "201", "202", "203"
 	],
 	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_koujichuu.png",
 	"episodes": {
@@ -128,6 +129,102 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192d.jpg",
 			"descEpisodeSynopsis": "Episode kali ini adalah episode perkenalan gen-4 yang saat itu baru bergabung. Di bagian terakhir ini akan memperkenalkan Tamura Mayu, Seimiya Rei, Kakehashi Sayaka, dan Hayakawa Seira."
+		},
+"198": {
+			"descEpisode": "| Episode 198",
+			"descOnAirDate": "17 Maret 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/JBwUaq5",
+			"linkSoftsub": "https://sfl.gl/KVdTz",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu198.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu198.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu198a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu198b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu198c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu198d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini adalah tes olahraga untuk mencari tahu siapa member yang paling tidak berbakat dalam bidang olahraga setelah bergabungnya generasi keempat. Berbagai tantangan fisik seperti lari 50 meter, lompat menyamping berulang, lompat tinggi, pantulan bola voli, tari bambu, hingga latihan tangga tali dilakukan untuk melihat performa mereka. Di akhir bagian, pencarian bakat olahraga ini dilanjutkan bersama para senior di studio melalui tantangan lompat tembak bola tangan."
+		},
+		"199": {
+			"descEpisode": "| Episode 199",
+			"descOnAirDate": "24 Maret 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/OPaGVJ",
+			"linkSoftsub": "https://sfl.gl/skSI8ydX",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu199.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu199.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu199a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu199b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu199c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu199d.jpg",
+			"descEpisodeSynopsis": "Melanjutkan pencarian member yang paling payah dalam berolahraga, proyek kompetisi fisik kali ini diadakan bersama para senior di studio. Enam orang member yang dinilai memiliki masalah koordinasi fisik harus menghadapi tantangan latihan koordinasi motorik menggunakan tangga tali, yang terdiri dari menu gerakan shuffle tingkat dasar serta gerakan lompat tinggi running high jump."
+		},
+		"200": {
+			"descEpisode": "| Episode 200",
+			"descOnAirDate": "31 Maret 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/mw7KV",
+			"linkSoftsub": "https://sfl.gl/5SEqm",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu200.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu200.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu200a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu200b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu200c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu200d.jpg",
+			"descEpisodeSynopsis": "Para member melakukan perjalanan luar studio ke Okinawa setelah sekian lama untuk mengikuti tur pembersihan poin hukuman yang telah dikumpulkan sejak tahun lalu. member yang memiliki akumulasi poin tertinggi di akhir tur diwajibkan mengikuti misi luar studio yang berbahaya, yaitu membasmi ular habu beracun. Tantangan pertama dimulai dengan balap lari 30 meter setelah berputar sepuluh kali menggunakan tongkat pemukul bisbol."
+		},
+		"201": {
+			"descEpisode": "| Episode 201",
+			"descOnAirDate": "7 April 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/1O5wtO",
+			"linkSoftsub": "https://sfl.gl/d1abI3",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu201.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu201.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu201a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu201b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu201c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu201d.jpg",
+			"descEpisodeSynopsis": "Tur pembersihan poin hukuman di Okinawa berlanjut dengan permainan local voli pantai balon air yang dibagi menjadi dua tim. member yang gagal menangkap dan membuat balon air pecah harus segera keluar dari lapangan permainan. Setelah itu, kompetisi berlanjut dengan kuis tebak kata seputar Okinawa saat menjelajahi taman alam Bios no Oka."
+		},
+		"202": {
+			"descEpisode": "| Episode 202",
+			"descOnAirDate": "14 April 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/gtJc",
+			"linkSoftsub": "https://sfl.gl/h09x",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu202.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu202.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu202a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu202b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu202c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu202d.jpg",
+			"descEpisodeSynopsis": "Perjalanan di taman alam Bios no Oka berlanjut dengan permainan kuis menebak dialek Okinawa di atas kereta kerbau. Bagi member yang gagal menjawab kuis, konsekuensinya adalah harus berjalan kaki di bawah cuaca yang panas. Berbagai pertanyaan seputar kebudayaan dan kosakata khas wilayah selatan diujikan dalam kompetisi ini."
+		},
+		"203": {
+			"descEpisode": "| Episode 203",
+			"descOnAirDate": "21 April 2019",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/D78nD",
+			"linkSoftsub": "https://sfl.gl/deiQmXu",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu203.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu203.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu203a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu203b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu203c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu203d.jpg",
+			"descEpisodeSynopsis": "Tur pembersihan poin hukuman di Okinawa memasuki babak penentuan melalui kuis Kompetisi Selera Oleh-Oleh khas Okinawa dengan anggaran lima ribu yen di Depot Island. Namun, permainan sesungguhnya yang dinilai adalah ketepatan waktu untuk kembali dalam batas waktu lima belas menit. Episode ini ditutup dengan pengumuman hasil akhir perolehan poin hukuman dan pengumuman formasi member senbatsu untuk single ke-23."
 		}
 	}
 }
