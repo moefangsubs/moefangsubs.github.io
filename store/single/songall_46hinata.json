@@ -1911,6 +1911,62 @@
 			"HasMV": "no"
 		}
 	],
+	"s17": [
+		{
+			"titleJp": "Kind of love",
+			"titleRo": "Kind of love",
+			"songNumber": "17th Single",
+			"SongTypeAvv": "All",
+			"songRelease": "2026.05.20",
+			"songOutline": "Senbatsu",
+			"center": "藤嶌果歩",
+			"members3": ["宮地すみれ", "渡辺莉奈", "山口陽世", "森本茉莉", "清水理央", "高橋未来虹"],
+			"members2": ["片山紗希", "上村ひなの", "小坂菜緒", "金村美玖", "松尾桜"],
+			"members1": ["正源司陽子", "藤嶌果歩", "大野愛実"],
+			"SongMVDirJP": "後藤匠平",
+			"SongMVDirRO": "Goto Shohei",
+			"SongCompJP": "ナスカ",
+			"SongArraJP": "Stella",
+			"SongChoreo": "CRE8BOY",
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/1FTz1Y4AkJ_8vCmZ1FaLMlbykxdzpo6pL/view?usp=drive_link"
+		},
+		{
+			"titleJp": "Empty",
+			"titleRo": "Empty",
+			"songNumber": "17th Single",
+			"SongTypeAvv": "All",
+			"songRelease": "2026.05.20",
+			"songOutline": "Hiragana Hinatazaka46",
+			"center": "平岡海月",
+			"members3": ["蔵盛妃那乃", "大田美月", "竹内希来里", "坂井新奈", "下田衣珠季"],
+			"members2": ["鶴崎仁香", "平尾帆夏", "石塚瑶季", "小西夏菜実", "佐藤優羽"],
+			"members1": ["高井俐香", "平岡海月", "山下葉留花"],
+			"SongCompJP": "温詞",
+			"SongArraJP": ["TomoLow", "温詞"],
+			"SongChoreo": "YODEN",
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/1Hvg8ftPkAexR3N3yGKcvVvqwzSW0eUHu/view?usp=drive_link"
+		},
+		{
+			"titleJp": "円周率",
+			"titleRo": "Enshuuritsu",
+			"songNumber": "17th Single",
+			"SongTypeAvv": "Type-A",
+			"songRelease": "2026.05.20",
+			"songOutline": "Gen (5th)",
+			"center": "佐藤優羽",
+			"members2": ["片山紗希", "下田衣珠季", "坂井新奈", "大野愛実", "松尾桜"],
+			"members1": ["高井俐香", "大田美月", "佐藤優羽", "鶴崎仁香", "蔵盛妃那乃"],
+			"SongMVDirJP": "吉田ユーキ",
+			"SongMVDirRO": "Yoshida Yuuki",
+			"SongCompJP": "温詞",
+			"SongArraJP": ["TomoLow", "温詞"],
+			"SongChoreo": "Chaso",
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/1g-gU4WOxZCclSht3U8OT-fQh78w1cACu/view?usp=drive_link"
+		}
+	],
 	"a01": [
 		{
 			"titleJp": "Overture",

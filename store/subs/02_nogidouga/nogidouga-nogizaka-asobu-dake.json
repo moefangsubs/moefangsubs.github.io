@@ -6,8 +6,7 @@
 	"availableEpisode": [
 		"17", "18",
 		"44a", "44b", "47", "48", "49", "50a", "50b",
-		"54", "58",
-		"71", "72", "76"
+		"54", "58", "70", "71", "72", "76", "81"
 	],
 	"newUpdateCount": 2,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_asobudake.png",
@@ -167,6 +166,20 @@
 			"descEpisodeSynopsis": "Dalam episode memancing edisi kali ini, para member akan mencoba tantangan memancing di laut lepas dari atas perahu. Meskipun terlihat seperti hanya 'Asobu dake' atau bersenang-senang, berbagai rintangan tak terduga ternyata menanti dan bahkan membuat salah satu dari mereka meneteskan air mata.",
 			"nameShow": "乃木坂あそぶだけ"
 		},
+		"70": {
+			"descEpisode": "| Episode 70",
+			"descOnAirDate": "29 Agustus 2025",
+			"memberParticipate": "梅澤美波、一ノ瀬美空、鈴木佑捺",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka-asobu-dake-70-fZhSl",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake70.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake70a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake70b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake70c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake70d.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Kedai kecil \"Ume no Ya\" dibuka secara acak oleh sang okami (pemilik kedai), Umezawa Minami. Hari ini, dua orang kouhai yang sangat mengagumi sang okami, Ichinose dan Suzuki, datang berkunjung! Mulai dari episode unik seputar konser tur nasional, rasa cinta antar member yang semakin mendalam, hingga perubahan bentuk grup seiring dengan bergabungnya generasi ke-6... Tidak hanya hidangan lezat buatan sang okami yang patut dinantikan, tetapi juga obrolan yang penuh dengan tawa dan air mata!",
+			"nameShow": "乃木坂あそぶだけ"
+		},
 		"71": {
 			"descEpisode": "| Episode 71",
 			"descOnAirDate": "19 September 2025",
@@ -207,6 +220,20 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake76d.jpg",
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Dalam segmen pembuka tahun ini, keempat member bermain Karuta melalui permainan papan populer Karuuta yang baru pertama kali dicoba oleh member selain Iwamoto, hingga membuat Karuta orisinal Nogizaka46 dengan memanfaatkan kreativitas serta kemampuan menggambar.",
+			"nameShow": "乃木坂あそぶだけ"
+		},
+		"81": {
+			"descEpisode": "| Episode 81",
+			"descOnAirDate": "8 Mei 2026",
+			"memberParticipate": "一ノ瀬美空、小川彩",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka-asobu-dake-81-VAWoU",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake81.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake81a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake81b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake81c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake81d.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Nogizaka Asobu Dake #81 【Mari Mengobrol Sambil Tiduran!】 Kali ini, Ichinose dan Ogawa hanya akan menghabiskan waktu dengan bersantai di atas kasur sebelum tidur. Kami akan menyajikan keseharian mereka berdua yang memang sering pergi berlibur ataupun menginap bersama, hampir tanpa proses pemotongan (un-cut). Semuanya, silakan tonton tayangan ini sebagai teman sebelum kalian tidur.",
 			"nameShow": "乃木坂あそぶだけ"
 		}
 	}

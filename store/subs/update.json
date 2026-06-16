@@ -1,4 +1,51 @@
 [
+ {
+    "date": "260617",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"44"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"45"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"46"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"47"},
+      {"showId": "nogizaka-otameshichuu", "eps":"63"},
+      {"showId": "nogizaka-koujichuu", "eps":"198"},
+      {"showId": "nogizaka-koujichuu", "eps":"199"},
+      {"showId": "nogizaka-koujichuu", "eps":"200"},
+      {"showId": "nogizaka-koujichuu", "eps":"201"},
+      {"showId": "nogizaka-koujichuu", "eps":"202"},
+      {"showId": "nogizaka-koujichuu", "eps":"203"},
+      {"showId": "spicy-sessions", "eps":"13"},
+      {"showId": "spicy-sessions", "eps":"14"},
+      {"showId": "equal-love-kokoko", "eps":"06"},
+      {"showId": "equal-love-kokoko", "eps":"07"},
+      {"showId": "equal-love-kokoko", "eps":"08"},
+      {"showId": "saito-asuka-no-konya-wa-nonde-kaerou", "eps":"s201"},
+      {"showId": "saito-asuka-no-konya-wa-nonde-kaerou", "eps":"s202"},
+      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"70"},
+      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"81"},
+      {"showId": "aku-no-hana", "eps":"07"},
+      {"showId": "aku-no-hana", "eps":"08"},
+      {"showId": "aku-no-hana", "eps":"09"},
+      {"showId": "aku-no-hana", "eps":"10"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"08"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"09"},
+      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"10"},
+      {"showId": "shitsuren-karuta", "eps":"08"},
+      {"showId": "showroom", "eps":"51"},
+      {"showId": "showroom", "eps":"52"},
+      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260421"},
+      {"showId": "showroom", "eps":"53"},
+      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260513"},
+      {"showId": "showroom", "eps":"54"},
+      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260515"},
+      {"showId": "showroom", "eps":"55"},
+      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260527"},
+      {"showId": "showroom", "eps":"56"},
+      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260602"},
+      {"showId": "zenkoku-tour", "eps":"2015"},
+      {"showId": "concert", "eps":"11"},
+      {"showId": "concert", "eps":"12"}
+    ]
+  },
   {
     "date": "260522",
     "updates": [
@@ -15,47 +62,6 @@
     "date": "260520",
     "updates": [
       {"showId": "birthday-live", "eps":"16"}
-    ]
-  },
-  {
-    "date": "260516",
-    "updates": [
-      {"showId": "nogizaka-star-tanjou-six", "eps":"42"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"43"},
-      {"showId": "nogizaka-otameshichuu", "eps":"61"},
-      {"showId": "nogizaka-otameshichuu", "eps":"62"},
-      {"showId": "nogidouga-ayame-ni-osusume", "eps":"07"},
-      {"showId": "nogidouga-bunnamu", "eps":"01"},
-      {"showId": "nogidouga-bunnamu", "eps":"02"},
-      {"showId": "nogidouga-bunnamu", "eps":"03"},
-      {"showId": "nogidouga-bunnamu", "eps":"04"},
-      {"showId": "nogidouga-bunnamu", "eps":"05"},
-      {"showId": "nogidouga-bunnamu", "eps":"06"},
-      {"showId": "aku-no-hana", "eps":"04"},
-      {"showId": "aku-no-hana", "eps":"05"},
-      {"showId": "aku-no-hana", "eps":"06"},
-      {"showId": "rojiura-hotel", "eps":"05b"},
-      {"showId": "shitsuren-karuta", "eps":"05"},
-      {"showId": "shitsuren-karuta", "eps":"06"},
-      {"showId": "shitsuren-karuta", "eps":"07"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"05"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"06"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"07"},
-      {"showId": "random-subs", "eps":"230901"},
-      {"showId": "random-subs", "eps":"251231"},
-      {"showId": "random-subs", "eps":"260418"},
-      {"showId": "random-subs", "eps":"260425"},
-      {"showId": "mini-live", "eps":"41"}
-    ]
-  },
-  {
-    "date": "260503",
-    "updates": [
-      {"showId": "nogizaka-star-tanjou-six", "eps":"41"},
-      {"showId": "mtv", "eps":"260429_live"},
-      {"showId": "mtv", "eps":"260429_doc"},
-      {"showId": "rojiura-hotel", "eps":"05a"},
-      {"showId": "utabangumi-star", "eps":"260416"}
     ]
   }
 ]

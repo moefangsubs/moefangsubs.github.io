@@ -4,7 +4,7 @@
     "nameShowTitle": "Shitsuren Karuta (2026)",
     "nameShow": "失恋カルタ",
 	"descSynopsis": "Chinami, Hikaru, dan Ayase dipertemukan melalui klub permainan papan di tempat kuliahnya. Meski sering menghabiskan waktu bersama, masing-masing menyimpan kerumitan cinta yang berbeda. Chinami yang mendambakan pernikahan baru saja diputuskan kekasihnya, sedangkan Hikaru tampak harmonis tinggal bersama Riku. Di balik sikap dinginnya, Ayase ternyata memiliki alasan mendalam hingga sulit menghadapi perasaan secara jujur. Kisah mereka menggambarkan perjuangan menghadapi dilema asmara yang sangat rumit dalam kehidupan sehari-hari.",
-    "availableEpisode": [ "01", "02", "03", "04", "05", "06", "07" ],
+    "availableEpisode": [ "01", "02", "03", "04", "05", "06", "07", "08" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shitsurenkaruta{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/shitsurenkaruta/shitsurenkaruta{{eps}}a.jpg",
@@ -45,7 +45,7 @@
 		},
 		"08": {
 			"descEpisodeSynopsis": "Melihat kondisi Hikaru yang terluka di rumah sakit, Ayase tidak bisa membendung emosinya dan akhirnya memutuskan untuk menyatakan perasaan yang telah dipendamnya selama 7 tahun. Sementara itu, Chinami mengambil keputusan mengejutkan setelah hatinya terkikis karena menjalani hubungan dengan Shibuya yang ternyata sudah menikah. Setelah melewati patah hati masing-masing, ketiganya kembali berkumpul bersama.",
-			"linkHardsub": "",
+			"linkHardsub": "https://sfl.gl/6VZ7027e",
 			"thisEnd": true
 		}
     },

@@ -5,7 +5,7 @@
     "nameShow": "惡の華",
 	"descSynopsis": "Berlatar di Kota Hikari, Prefektur Gunma, seorang siswa SMP bernama Kasuga menjalani hidup dengan perasaan terkekang sambil mengagumi kumpulan puisi Aku no Hana. Suatu sore, saat mengambil barang yang tertinggal di kelas, Kasuga secara impulsif mencuri baju olahraga milik teman sekelas yang dikaguminya, Saeki Nanako. Namun, tindakan tersebut diketahui oleh siswa bermasalah bernama Nakamura. Nakamura kemudian memaksa Kasuga melakukan sebuah \"kontrak\" sebagai jaminan kerahasiaan. Di bawah kendali Nakamura, Kasuga terjebak dalam berbagai tuntutan aneh hingga identitas dirinya hancur, sementara ia juga harus menghadapi gejolak batin saat mulai menjalin hubungan dengan Saeki.",
     "availableEpisode": [
-		"01", "02", "03", "04", "05", "06"
+		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/akunohana{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/akunohana/akunohana{{eps}}.jpg",
@@ -44,9 +44,25 @@
 			"descEpisodeSynopsis": "Setelah insiden kebakaran di markas rahasia, Kasuga terkejut mengetahui Saeki telah menyerahkan diri dan mengungkap semua perbuatannya. Kehilangan tempat pelarian setelah polisi mendatangi rumahnya, Kasuga mendatangi sebuah rumah kosong atas ajakan Nakamura dan memantapkan diri untuk pergi ke festival musim panas demi menjalankan rencana baru.",
 			"linkHardsub": ""
 		},
-        "08": { "linkHardsub": ""},
-        "09": { "linkHardsub": ""},
-        "10": { "linkHardsub": ""}
+		"07": {
+			"descEpisodeSynopsis": "Kasuga menghadapi situasi terpojok setelah insiden kebakaran di markas rahasia akibat Saeki yang menyerahkan diri ke kantor polisi dan mengungkap semua perbuatan mereka. Polisi yang mendatangi rumah Kasuga untuk melakukan penyelidikan dan menunjukkan bukti buku catatan berisi namanya bersama Nakamura membuat situasi semakin mendesak. Menghadapi kenyataan bahwa keluarganya harus pindah rumah karena berita yang cepat menyebar di kota kecil, Kasuga yang dilarang keluar rumah bertekad menyelesaikan urusannya sebelum liburan musim panas berakhir demi Nakamura.",
+			"linkHardsub": "https://sfl.gl/rs3x"
+		},
+		"08": {
+			"descEpisodeSynopsis": "Kasuga dan Nakamura nekat melarikan diri ke atas panggung Festival Yagibushi sambil membawa senjata tajam dan menyiramkan bensin ke tubuh mereka hingga memicu kepanikan massal di lokasi siaran langsung. Di tengah kepungan polisi dan jeritan histeris keluarga, Nakamura menolak adanya jalan keluar dan memerintahkan Kasuga untuk menghancurkan dirinya sebagai bentuk penyelesaian kontrak mereka. Insiden dramatis tersebut berakhir tragis setelah keduanya berhasil dilumpuhkan oleh petugas keamanan dan dipisahkan secara paksa.",
+			"linkHardsub": "https://sfl.gl/BRRq0zk",
+			"memberParticipate": "中西アルノ"
+		},
+		"09": {
+			"descEpisodeSynopsis": "Tiga tahun setelah insiden festival yang menggemparkan, Kasuga menjalani kehidupan baru yang muram sebagai siswa SMA di Prefektur Saitama sambil terus memendam rasa bersalah sebagai sosok yang tidak berguna. Takdir mempertemukannya dengan seorang siswi bernama Tokiwa yang secara kebetulan sedang membaca buku Aku no Hana di sebuah toko buku bekas. Pertemuan tidak terduga tersebut perlahan membuka ruang komunikasi baru bagi Kasuga untuk berbagi ketertarikan terhadap dunia literasi yang selama ini selalu ia sembunyikan dari orang lain.",
+			"linkHardsub": "https://sfl.gl/MnJC9UXx",
+			"memberParticipate": "中西アルノ"
+		},
+		"10": {
+			"descEpisodeSynopsis": "Hubungan Kasuga dan Tokiwa semakin dekat setelah Kasuga membaca draf novel misteri buatan Tokiwa yang dirasa sangat mencerminkan gejolak batin dan masa lalunya. Di tengah momen kedekatan tersebut, kekasih Tokiwa tiba-tiba datang dan memicu ketegangan psikologis yang membuat Kasuga kembali teringat akan kesalahannya yang selalu melukai orang lain. Meskipun sempat diliputi keraguan dan bayang-bayang masa lalu, Kasuga akhirnya memantapkan tekad untuk menghadapi jati dirinya secara sungguh-sungguh demi mendukung karya novel Tokiwa.",
+			"linkHardsub": "https://sfl.gl/3hxecEF",
+			"memberParticipate": "中西アルノ"
+		}
     },
 	"descOnAirDatePattern": "260409",
     "OnAirEvery": 1

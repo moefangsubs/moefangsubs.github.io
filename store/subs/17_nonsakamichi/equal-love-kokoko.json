@@ -2,9 +2,9 @@
 	"url": "equal-love-kokoko",
 	"nameShowTitle": "Equal Love KoKoKo!!",
 	"nameShow": "イコラブコッコッコー!!",
-	"descSynopsis": "Equal Love KoKoKo!! merupakan acara televisi grup idola =LOVE yang diproduseri Rino Sashihara dengan fokus menonjolkan keunikan individu member.",
+	"descSynopsis": "Equal Love KoKoKo!! merupakan acara televisi grup idola =LOVE yang diproduseri Sashihara Rino dengan fokus menonjolkan keunikan individu member.",
 	"availableEpisode": [
-		"01", "02", "03", "04", "05"
+		"01", "02", "03", "04", "05", "06", "07", "08"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_ikorabukokoko.png",
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/ikorabu/ikorabukokoko{{eps}}.jpg",
@@ -37,26 +37,22 @@
 			"descEpisodeSynopsis": "Episode 5 ini Otani Emiri memberikan pelatihan khusus kepada  Morohashi Sana guna mengatasi ketidakmampuannya bertingkah imut. Melalui tantangan meniru kelinci hingga peri, Sana berjuang keras membuktikan sisi menggemaskannya sebagai idola.",
             "linkHardsub": "https://sfl.gl/JYyJRyWz"
         },
-        "06": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "07": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "08": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        },
-        "10": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
-        }
+		"06": {
+			"descEpisodeSynopsis": "Episode ini menggali kepribadian Saito Kiara melalui segmen \"Restoran Kedewasaan\". Berusia 21 tahun dan berada tepat di antara kedewasaan dan masa kanak-kanak, Saito Kiara ditantang mencicipi berbagai hidangan unik pilihan para member seperti karasumi, hoya panggang, goya ohitashi, shirako ponzu, kopi hitam, natto cuka, paprika hijau utuh, hingga telur gurita ponzu guna menguji perubahan selera makannya. Bagian akhir menampilkan pertunjukan lagu \"Last Note shika Shiranai\".",
+			"linkHardsub": "https://sfl.gl/hQ7EurXm",
+			"linkSoftsub": "https://sfl.gl/crUgF8Z"
+		},
+		"07": {
+			"descEpisodeSynopsis": "Sembilan member ditantang menjadi sutradara untuk mengarahkan drama pendek berdurasi 30 detik guna memaksimalkan kemampuan akting Sasaki Maika. Melalui undian, terpilih tiga sutradara pertama yang mengarahkan drama lintas genre mulai dari ketegangan detektif dalam \"Kasus Si Heboh, Sasaki Maikichi\", penukaran tubuh komedi dalam \"Siswi SMA Bapak-Bapak\", hingga kisah romansa menyedihkan dalam \"Cinta yang Meluap\".",
+			"linkHardsub": "https://sfl.gl/Prl0",
+			"linkSoftsub": "https://sfl.gl/vLrmj6"
+		},
+		"08": {
+			"descEpisodeSynopsis": "Sasaki Maika menyelesaikan tantangan aksi laga pertempuran antargeng dalam drama pendek \"Shinjuku Butterfly\" arahan sutradara terakhir sebelum dilanjutkan ke pertunjukan lagu \"Gekiyaku Chudoku\". Sebagai penutup seri, Takamatsu Hitomi tampil dalam segmen \"Detektif Reaksi\" untuk menebak reaksi asli member dalam tantangan setruman frekuensi rendah, meminum air asam, serta berdiri di atas matras refleksi kaki.",
+			"linkHardsub": "https://sfl.gl/ZigCv7bD",
+			"linkSoftsub": "https://sfl.gl/DuIg",
+			"thisEnd": true
+		}
     },
 	"descOnAirDatePattern": "260128",
     "OnAirEvery": 7

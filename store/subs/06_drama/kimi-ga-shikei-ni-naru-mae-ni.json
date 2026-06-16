@@ -4,7 +4,7 @@
     "nameShowTitle": "Kimi ga Shikei ni naru Mae ni (2026)",
     "nameShow": "君が死刑になる前に",
 	"descSynopsis": "Kasus pembunuhan berantai guru mengguncang publik saat eksekusi mati Shiori dilakukan. Secara misterius, Kotaro, Hayato, dan Rin terlempar ke masa tujuh tahun lalu tepat di tengah pusaran tragedi tersebut. Mereka bertemu dengan Shiori yang sedang menjadi buronan, namun ia justru mengaku tidak bersalah. Pengejaran kebenaran pun dimulai untuk mengungkap dalang sebenarnya di balik peristiwa kelam yang menghubungkan masa lalu dan masa kini.",
-    "availableEpisode": [ "01", "02", "03", "04", "05", "06", "07" ],
+    "availableEpisode": [ "01", "02", "03", "04", "05", "06", "07", "08", "09", "10" ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/shikei{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}.jpg",
 	"imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/kimishikei/shikei{{eps}}a.jpg",
@@ -45,15 +45,16 @@
 		},
 		"08": {
 			"descEpisodeSynopsis": "Kotaro, Hayato, dan Rin berhasil mencegah insiden keempat dan menyelamatkan para korban. Namun, saat mencoba mengejar pelaku, Kotaro tiba-tiba terlempar sendirian kembali ke tahun 2026 dan mendapati vila mereka telah habis terbakar 7 tahun lalu dengan menyisakan dua jenazah. Menduga itu adalah sahabatnya, Kotaro bersiap kembali ke masa lalu sekali lagi.",
-			"linkHardsub": ""
+            "linkHardsub": "https://sfl.gl/RkH6p"
 		},
         "09": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Kotaro yang mendadak kembali ke tahun 2026 mengetahui ancaman fatal yang mengintai Hayato dan Rin di tahun 2019. Setelah berhasil menemukan syarat untuk melompati waktu, ia kembali ke masa lalu dan sukses menyelamatkan keduanya dari vila yang terbakar. Kotaro akhirnya berterus terang bahwa dirinya sempat terlempar ke tahun 2026 dan mengaku melihat Shiori melarikan diri tepat sebelum kebakaran terjadi.",
+            "linkHardsub": "https://sfl.gl/aS6wUQ"
         },
         "10": {
-			"descEpisodeSynopsis": "",
-            "linkHardsub": ""
+			"descEpisodeSynopsis": "Di hadapan kamera milik Kotaro, Shiori akhirnya mengakui kebenaran mengejutkan dari insiden 10 tahun lalu, di mana Nagione melakukan pembunuhan demi melindunginya dan Shiori menanggung seluruh hukuman tersebut. Namun secara mengejutkan, Shiori justru merusak data rekaman video itu dan menyerahkan diri ke polisi atas seluruh rangkaian pembunuhan berantai guru yang terjadi saat ini.",
+            "linkHardsub": "https://sfl.gl/VJpaPrGz",
+			"thisEnd": true
         }
     },
 	"descOnAirDatePattern": "260403",
