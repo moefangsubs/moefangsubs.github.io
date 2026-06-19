@@ -579,7 +579,7 @@
                     }
                 },
                 "round": {
-                    "radius": 350, "offset-x": 0, "offset-y": -126,
+                    "radius": 350, "offset-x": 0, "offset-y": -151,
                     "custom": {
                         "上村ひなの": { "radius": 350, "offset-x": 15, "offset-y": -151 },
                         "下田衣珠季": { "radius": 350, "offset-x": 15, "offset-y": -141 },
@@ -658,6 +658,67 @@
                         "鶴崎仁香": { "radius": 325, "offset-x": 10, "offset-y": -150 },
                         "松尾桜": { "radius": 325, "offset-x": 0, "offset-y": -165 },
                         "高井俐香": { "radius": 325, "offset-x": 0, "offset-y": -165 }
+                    }
+                }
+            }
+        },
+        "s17": {
+            "original": {
+                "lockratio": {
+                    "left": 180, "right": 180, "top": 70, "bottom": 446,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "上村ひなの": { "offset-x": 15, "offset-y": 0 },
+                        "下田衣珠季": { "offset-x": 35, "offset-y": 0 },
+                        "坂井新奈": { "offset-x": 10, "offset-y": 0 },
+                        "大田美月": { "offset-x": -10, "offset-y": 0 },
+                        "大野愛実": { "offset-x": 20, "offset-y": 0 },
+                        "宮地すみれ": { "offset-x": 5, "offset-y": 0 },
+                        "小坂菜緒": { "offset-x": 20, "offset-y": 0 },
+                        "小西夏菜実": { "offset-x": 15, "offset-y": 0 },
+                        "山下葉留花": { "offset-x": -5, "offset-y": 0 },
+                        "山口陽世": { "offset-x": 5, "offset-y": 0 },
+                        "平尾帆夏": { "offset-x": 25, "offset-y": 0 },
+                        "松尾桜": { "offset-x": 5, "offset-y": 0 },
+                        "森本茉莉": { "offset-x": -15, "offset-y": 0 },
+                        "正源司陽子": { "offset-x": 10, "offset-y": 0 },
+                        "清水理央": { "offset-x": -15, "offset-y": 0 },
+                        "渡辺莉奈": { "offset-x": -5, "offset-y": 0 },
+                        "片山紗希": { "offset-x": 15, "offset-y": 0 },
+                        "石塚瑶季": { "offset-x": 5, "offset-y": 0 },
+                        "竹内希来里": { "offset-x": 20, "offset-y": 0 },
+                        "蔵盛妃那乃": { "offset-x": 15, "offset-y": 0 },
+                        "藤嶌果歩": { "offset-x": 10, "offset-y": 0 },
+                        "金村美玖": { "offset-x": -5, "offset-y": 0 },
+                        "髙橋未来虹": { "offset-x": 20, "offset-y": 0 }
+                    }
+                },
+                "round": {
+                    "radius": 300, "offset-x": 0, "offset-y": -186,
+                    "custom": {
+                        "上村ひなの": { "radius": 300, "offset-x": 15, "offset-y": -186 },
+                        "下田衣珠季": { "radius": 300, "offset-x": 35, "offset-y": -186 },
+                        "坂井新奈": { "radius": 300, "offset-x": 10, "offset-y": -186 },
+                        "大田美月": { "radius": 300, "offset-x": -10, "offset-y": -186 },
+                        "大野愛実": { "radius": 300, "offset-x": 20, "offset-y": -186 },
+                        "宮地すみれ": { "radius": 300, "offset-x": 5, "offset-y": -186 },
+                        "小坂菜緒": { "radius": 300, "offset-x": 20, "offset-y": -186 },
+                        "小西夏菜実": { "radius": 300, "offset-x": 15, "offset-y": -186 },
+                        "山下葉留花": { "radius": 300, "offset-x": -5, "offset-y": -186 },
+                        "山口陽世": { "radius": 300, "offset-x": 5, "offset-y": -186 },
+                        "平尾帆夏": { "radius": 300, "offset-x": 25, "offset-y": -186 },
+                        "松尾桜": { "radius": 300, "offset-x": 5, "offset-y": -186 },
+                        "森本茉莉": { "radius": 300, "offset-x": -15, "offset-y": -186 },
+                        "正源司陽子": { "radius": 300, "offset-x": 10, "offset-y": -186 },
+                        "清水理央": { "radius": 300, "offset-x": -15, "offset-y": -186 },
+                        "渡辺莉奈": { "radius": 300, "offset-x": -5, "offset-y": -186 },
+                        "片山紗希": { "radius": 300, "offset-x": 15, "offset-y": -186 },
+                        "石塚瑶季": { "radius": 300, "offset-x": 5, "offset-y": -186 },
+                        "竹内希来里": { "radius": 300, "offset-x": 20, "offset-y": -186 },
+                        "蔵盛妃那乃": { "radius": 300, "offset-x": 15, "offset-y": -186 },
+                        "藤嶌果歩": { "radius": 300, "offset-x": 10, "offset-y": -186 },
+                        "金村美玖": { "radius": 300, "offset-x": -5, "offset-y": -186 },
+                        "髙橋未来虹": { "radius": 300, "offset-x": 20, "offset-y": -186 }
                     }
                 }
             }
@@ -901,6 +962,45 @@
                             "高本彩花": { "radius": 365, "offset-x": 0, "offset-y": -284 },
                             "高瀬愛奈": { "radius": 365, "offset-x": 0, "offset-y": -249 },
                             "髙橋未来虹": { "radius": 365, "offset-x": 0, "offset-y": -239 }
+                        }
+                    }
+                },
+                "17": {
+                    "lockratio": {
+                        "left": 300, "right": 300, "top": 60, "bottom": 939,
+                        "offset-x": 0, "offset-y": 0,
+                        "custom": {
+                            "下田衣珠季": { "offset-x": 20, "offset-y": 0 },
+                            "佐藤優羽": { "offset-x": 15, "offset-y": 150 },
+                            "坂井新奈": { "offset-x": 30, "offset-y": 30 },
+                            "大田美月": { "offset-x": -15, "offset-y": 95 },
+                            "小西夏菜実": { "offset-x": 45, "offset-y": 195 },
+                            "山下葉留花": { "offset-x": 60, "offset-y": 155 },
+                            "平尾帆夏": { "offset-x": 80, "offset-y": 115 },
+                            "平岡海月": { "offset-x": -25, "offset-y": 0 },
+                            "石塚瑶季": { "offset-x": 10, "offset-y": 70 },
+                            "竹内希来里": { "offset-x": 20, "offset-y": 75 },
+                            "蔵盛妃那乃": { "offset-x": 5, "offset-y": 35 },
+                            "高井俐香": { "offset-x": 30, "offset-y": 130 },
+                            "鶴崎仁香": { "offset-x": 15, "offset-y": 10 }
+                        }
+                    },
+                    "round": {
+                        "radius": 430, "offset-x": 0, "offset-y": -414,
+                        "custom": {
+                            "下田衣珠季": { "radius": 430, "offset-x": 20, "offset-y": -414 },
+                            "佐藤優羽": { "radius": 430, "offset-x": 15, "offset-y": -294 },
+                            "坂井新奈": { "radius": 430, "offset-x": 30, "offset-y": -389 },
+                            "大田美月": { "radius": 430, "offset-x": -15, "offset-y": -354 },
+                            "小西夏菜実": { "radius": 430, "offset-x": 45, "offset-y": -259 },
+                            "山下葉留花": { "radius": 430, "offset-x": 60, "offset-y": -279 },
+                            "平尾帆夏": { "radius": 430, "offset-x": 80, "offset-y": -314 },
+                            "平岡海月": { "radius": 430, "offset-x": -25, "offset-y": -444 },
+                            "石塚瑶季": { "radius": 430, "offset-x": 10, "offset-y": -354 },
+                            "竹内希来里": { "radius": 430, "offset-x": 20, "offset-y": -359 },
+                            "蔵盛妃那乃": { "radius": 430, "offset-x": 5, "offset-y": -379 },
+                            "高井俐香": { "radius": 430, "offset-x": 30, "offset-y": -289 },
+                            "鶴崎仁香": { "radius": 430, "offset-x": 15, "offset-y": -409 }
                         }
                     }
                 }
