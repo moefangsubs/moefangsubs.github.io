@@ -24,7 +24,7 @@ const singleYears = {
   32: 2023, 33: 2023, 34: 2023,
   35: 2024, 36: 2024, 37: 2024,
   38: 2025, 39: 2025, 40: 2025,
-  41: 2026
+  41: 2026, 42: 2026
 };
 
 // Daftar single yang tidak perlu ditampilkan
@@ -478,7 +478,7 @@ if (memberId) {
                 const index = String(no).padStart(3, '0');
                 const filename = member.id.replace(/-/g, "_");
                 const year = singleYears[no] || 'Tahun tidak diketahui';
-                return `<div class="histori-item"><img src="https://ik.imagekit.io/moearchive/web/memberprofile/s${index}/${filename}.png" alt="Single ke-${no}"><div><b>${no}</b> (${year})</div></div>`;
+                return `<div class="histori-item"><img src="https://ik.imagekit.io/moearchive/web/memberprofile/s${index}/${filename}.png" onerror="this.onerror=null; this.src='https://ik.imagekit.io/moearchive/web/memberprofile/s${index}/${filename}.PNG';" alt="Single ke-${no}"><div><b>${no}</b> (${year})</div></div>`;
               }).join("")}
             </div>
           </div>

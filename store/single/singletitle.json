@@ -159,6 +159,10 @@
 	},
 	"41" : {
 		"senbatsuTitle" : {"最後に階段を駆け上がったのはいつだ？" : "Saigo ni Kaidan o Kakeagatta no wa Itsu da?"},
-		"underTitle" : {"-" : "-"}
+		"underTitle" : {"愛って羨ましい" : "Ai tte Urayamashii"}
+	},
+	"42" : {
+		"senbatsuTitle" : {"是非に及ばず" : "Zehi ni Oyobazu"},
+		"underTitle" : {"フォルテシモ" : "Fortissimo"}
 	}
 }

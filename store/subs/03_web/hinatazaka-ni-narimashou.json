@@ -1,0 +1,40 @@
+{
+	"url": "hinatazaka-ni-narimashou",
+	"nameShowTitle": "Hinatazaka ni Narimashou",
+	"nameShow": "日向坂になりましょう-五期生成長バラエティ-",
+	"descSynopsis": "\"Hinatazaka ni Narimashou\", yang dimulai pada April 2023 dengan member gen-4, kini diperbarui menjadi acara untuk gen-5 yang baru saja bergabung pada Maret 2025. Sama seperti gen-4, ini adalah acara variety tentang pertumbuhan (growth variety show), di mana para member akan belajar banyak hal dari para senior di dunia hiburan agar bisa aktif di berbagai bidang seperti acara variety, drama, radio, konser, teater, hingga model.",
+	"availableEpisode": [
+		"21",
+		"21-bangai"
+	],
+	"IMGSitemap"	: "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hinanari.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/hinanari-{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-{{eps}}.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/hinatazaka-ni-narimashou-QnZhI",
+	"episodes": {
+		"21": {
+			"descEpisode": "| Episode 21",
+			"descEpsListName": "21",
+			"descOnAirDate": "20 April 2026",
+			"memberParticipate": "片山紗希、蔵盛妃那乃、坂井新奈、松尾桜",
+			"additionalGuests": "水田信二",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21d.jpg",
+			"descEpisodeSynopsis": "Di episode 21, Katayama Saki, Kuramori Hinano, Sakai Niina, dan Matsuo Sakura ditantang membuat hamburg plate! Di bawah bimbingan tegas dari mantan koki, Mizuta Shinji, para member gen-5 belajar teknik dasar memasak serta sikap yang benar saat tampil di depan kamera untuk acara memasak."
+		},
+		"21-bangai": {
+			"descEpisode": "| Episode 21 Bangaihen",
+			"descEpsListName": "21 番外編",
+			"descOnAirDate": "20 April 2026",
+			"memberParticipate": "片山紗希、蔵盛妃那乃、坂井新奈、松尾桜",
+			"additionalGuests": "水田信二",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21-bangai_a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21-bangai_b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21-bangai_c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21-bangai_d.jpg",
+			"descEpisodeSynopsis": "Pada episode bangaihen ini, keempat member kembali bersaing dalam \"Pertarungan Penentuan Ratu Pasta\"! Dengan batas waktu 15 menit, mereka harus memasak pasta andalan masing-masing yang akan dinilai langsung oleh Mizuta-sensei demi memperebutkan gelar Ratu Pasta."
+		}
+	}
+}

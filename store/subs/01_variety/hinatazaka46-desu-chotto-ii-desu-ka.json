@@ -13,6 +13,7 @@
 		"19",
 		"20"
 	],
+	"IMGSitemap"	: "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hinachoi.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/hinachoi-{{eps}}.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/hinatazaka46-desu-chotto-ii-desu-ka-8kGvA",
 	"episodes": {
@@ -23,7 +24,6 @@
 			"additionalGuests"	: "EXIT",
 			"linkHardsub": "https://lokerwfh.net/M0bvgC",
 			"filePassword": "hinachoi07",
-			"IMGSitemap"	: "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hinachoi.png",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/hinachoi/hinachoi.jpg",
 			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinachoi/hinachoi07a.jpg",
 			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinachoi/hinachoi07b.jpg",
