@@ -367,15 +367,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		const episodeList = document.createElement('div');
 		episodeList.id = 'episode-list';
-		const reversedEpisodes = showData.availableEpisode.slice().reverse();
+		
+		const episodesToRender = showData.listingtype === 'az' ? showData.availableEpisode.slice() : showData.availableEpisode.slice().reverse();
 		const showId = showData.url;
 
-		reversedEpisodes.forEach(eps => {
+		episodesToRender.forEach(eps => {
 			const episodeData = showData.episodes[eps];
 			let imageUrl = episodeData?.imageThumbEps || showData.IMGThumbnailEps?.replace('{{eps}}', eps) || '../sprite/placeholder.jpg';
 			let episodeText = episodeData?.descEpsListName || 
-                              showData.descEpsListName?.replace('{{eps}}', eps) || 
-                              `Episode ${eps}`;
+							  showData.descEpsListName?.replace('{{eps}}', eps) || 
+							  `Episode ${eps}`;
 
 			if (episodeData && (episodeData.thisEnd === true || episodeData.thisEnd === "yes")) {
 				episodeText += " [END]";

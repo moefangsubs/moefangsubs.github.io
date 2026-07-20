@@ -1,9 +1,11 @@
-// Fungsi ini akan menangani fallback jika foto tidak ditemukan.
-// Ditempatkan di scope global (window) agar bisa dipanggil dari atribut `onerror` di HTML.
 window.handleImageError = function(imageElement, filename) {
     const failingSrc = imageElement.src;
-    const match = failingSrc.match(/\/s(\d{3})\//);
 
+    if (failingSrc.endsWith('.png')) {
+        imageElement.src = failingSrc.replace(/\.png$/, '.PNG');
+        return;
+    }
+    const match = failingSrc.match(/\/s(\d{3})\//);
     if (!match) {
         imageElement.onerror = null;
         imageElement.src = 'https://via.placeholder.com/80';

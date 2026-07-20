@@ -121,7 +121,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     if (!showDataResponse.ok) continue;
                     const showData = await showDataResponse.json();
                     
-                    const epKey = episodeNumber.toString().padStart(2, '0');
+                    const epStr = episodeNumber.toString();
+                    const epKey = /^\d+$/.test(epStr) ? epStr.padStart(2, '0') : epStr;
                     const episodeData = showData.episodes ? (showData.episodes[epKey] || showData.episodes[episodeNumber]) : {};
 
                     if(!episodeData) continue; 
@@ -129,13 +130,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                     let thumbUrl = episodeData.imageThumbBig || (showData.imageThumbBigPattern ? showData.imageThumbBigPattern.replace('{{eps}}', epKey) : null);
                     if (!thumbUrl) thumbUrl = 'https://via.placeholder.com/320x180.png?text=No+Image';
 
-					const link = `../moesubs/#/${showData.url}/${epKey}`;
+                    const link = `../moesubs/#/${showData.url}/${epKey}`;
 
-					let descEpisode = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${parseInt(episodeNumber, 10)}`;
-					if (episodeData.thisEnd === true || episodeData.thisEnd === "yes") {
-						descEpisode += " [TAMAT]";
-					}
-					const captionHTML = `<span><strong>${showData.nameShowTitle}</strong> ${descEpisode}</span>`;
+                    let descEpisode = episodeData.descEpisode ? episodeData.descEpisode.replace(/\|\s*/, '') : `Episode ${parseInt(episodeNumber, 10)}`;
+                    if (episodeData.thisEnd === true || episodeData.thisEnd === "yes") {
+                        descEpisode += " [TAMAT]";
+                    }
+                    const captionHTML = `<span><strong>${showData.nameShowTitle}</strong> ${descEpisode}</span>`;
 
                     let membersHTML = '';
                     
@@ -151,7 +152,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     if (membersArray.length > 0) {
                         const memberItems = membersArray.map(nameJP => {
                             const cleanedName = nameJP.replace(/[\u200B-\u200F\uFEFF]/g, '').trim();
-							const memberId = memberMap.get(cleanedName);
+                            const memberId = memberMap.get(cleanedName);
                             const content = memberId ? `<a href="../moedata/member.html?id=${memberId}" target="_blank">${nameJP.trim()}</a>` : nameJP.trim();
                             
                             return `
@@ -214,7 +215,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
             
             scrollContainer.appendChild(gridDiv);
-			if (updates.length > 2) {
+            if (updates.length > 2) {
                  const btnLeft = document.createElement('button');
                  btnLeft.className = 'scroll-btn scroll-btn-left hidden';
                  btnLeft.innerHTML = '<img src="../sprite/element/arrow_left.svg" alt="Scroll Kiri">';
@@ -226,12 +227,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                  scrollContainer.appendChild(btnLeft);
                  scrollContainer.appendChild(btnRight);
             }
-			
+            
             sectionDiv.appendChild(scrollContainer);
             updateContainer.appendChild(sectionDiv);
         }
 
-		updateContainer.addEventListener('click', (e) => {
+        updateContainer.addEventListener('click', (e) => {
             const scrollButton = e.target.closest('.scroll-btn');
             const expandButton = e.target.closest('.expand-btn');
 
@@ -286,7 +287,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             new ResizeObserver(scrollCheck).observe(grid);
             scrollCheck();
         });
-		
+        
         const svgContainer = document.querySelector('.updatesvg');
         const controlsContainer = document.getElementById('view-controls-container');
 
@@ -306,7 +307,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             partnerLoader.style.display = 'none';
             partnerContainer.style.display = 'block';
         }
-		
+        
     } catch (error) {
         console.error('Failed to load update data:', error);
         updateContainer.innerHTML = '<p style="text-align:center;">Gagal memuat daftar update.</p>';

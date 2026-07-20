@@ -7,8 +7,8 @@
 		"211031", "211215", "210916", "211211", "210327", "190506", "220410", "220514", "220707", "220715",
 		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230901", "230902", "231117",
 		"231122", "240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", 
-		"251221", "251230", "251231", 
-		"260116", "260322", "260410", "260418", "260425"
+		"251221", "251225", "251230", "251231", 
+		"260116", "260410", "260418", "260425"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
@@ -658,6 +658,23 @@
 			"descEpisodeSynopsis": "Akiyoshi, seorang mangaka, merasa diperlakukan tidak adil karena selalu menjadi pihak yang mengganti keperluan rumah seperti sampo dan tisu toilet, padahal istrinya, Kumi, juga bekerja. Demi menyeimbangkan neraca tugas rumah tangga, Akiyoshi mengobarkan perang diam-diam terhadap sang istri terkait penggantian tisu toilet. Namun, Kumi juga memiliki alasan mendesak untuk tidak kalah. Melibatkan perhitungan AI dan pengawasan ketat, perseteruan harga diri suami istri ini memuncak dalam \"Toilet Paper Race\" untuk menentukan siapa yang berhasil menghindari kewajiban penggantian berikutnya.",
 			"nameShow": "ノンレムの窓 2025・冬『トイレットペーパーレース』"
 		},
+		"251225": {
+			"descEpisode": "| 251225 Utatama.",
+			"descEpsListName": "251225",
+			"descOnAirDate": "25 Desember 2025",
+			"memberParticipate": "中西アルノ、菅原咲月、一ノ瀬美空",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/251225-utatama-nogizaka46-3AOCd",
+			"filePassword": "",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/251225_utatama.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251225_utatama.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/251225_utatama1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/251225_utatama2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/251225_utatama3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/251225_utatama4.jpg",
+			"descEpisodeSynopsis": "Dalam episode \"Utatama.\" kali ini, tiga member gen-5 Nogizaka46 (Nakanishi Aruno, Sugawara Satsuki, dan Ichinose Miku) hadir sebagai bintang tamu. Mereka mengobrol santai tentang perkembangan mereka selama 4 tahun terakhir, bersaing dalam kuis tebak makanan pada lirik lagu demi memperebutkan kue melon premium, serta membedah profil dan perjalanan karier masing-masing. Keseruan memuncak dengan kolaborasi dance lagu \"Biryani\" bersama MC Kawai, yang diakhiri dengan sesi akustik di mana Kawai bermain gitar mengiringi nyanyian merdu Aruno membawakan lagu \"Yume no Naka e\".",
+			"nameShow": "うたたま。"
+		},
 		"251230": {
 			"descEpisode": "| 251230 'Same numbers' @ 67th Japan Record Awards 2025",
 			"descEpsListName": "251230",
@@ -704,23 +721,6 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02d.jpg",
 			"descEpisodeSynopsis": "Nogizaka46 kini diundang ke acara BUZZ RYTHM02, yang dipandu oleh duo MC Bakarythm dan ex-Nogizaka46 Ichiki Rena. Disini, ada beberapa VTR kegiatan para member di hari libur masing-masing 30 detik.",
 			"nameShow": "BUZZ RYTHM02"
-		},
-		"260322": {
-			"descEpisode": "| 260322 Machichuuka de Yarou ze!",
-			"descEpsListName": "260322",
-			"descOnAirDate": "16 Januari 2026",
-			"memberParticipate": "樋口日奈",
-			"linkHardsub": "https://sfl.gl/gS44dKk",
-			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/machichuuka-de-yarou-ze-rxLx0",
-			"filePassword": "DuoHiguchi",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260322_machichuuka.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka1.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka2.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka3.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260322_machichuuka4.jpg",
-			"descEpisodeSynopsis": "Higuchi Hina dan Higuchi Yuzu melakukan perjalanan nostalgia ke kampung halaman di Nagano dalam edisi spesial tahun ketujuh program ini. ]Kakak beradik tersebut mengunjungi berbagai restoran Cina pinggir jalan yang legendaris untuk menikmati hidangan khas dan minuman sambil berbagi kenangan masa kecil yang hangat.",
-			"nameShow": "町中華で飲ろうぜ　サヨナラ７年目　故郷に錦を飾れSP"
 		},
 		"260410": {
 			"descEpisode": "| 260410 Shimajirou no Wow!",

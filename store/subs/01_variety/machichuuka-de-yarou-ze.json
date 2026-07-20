@@ -1,0 +1,37 @@
+{
+	"url": "machichuuka-de-yarou-ze",
+	"nameShowTitle": "Machichuuka de Yarou ze!",
+	"nameShow": "町中華で飲ろうぜ",
+	"descSynopsis": "Di setiap kota pasti ada... kedai China pinggir jalan bernuansa era Showa di mana kita bisa makan, menikmati camilan, dan minum sake... tempat yang santai baik untuk dikunjungi sendiri maupun beramai-ramai.",
+	"availableEpisode": [
+		"260322",
+		"260601"
+	],
+	"IMGSitemap"	: "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_machichuuka.png",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/{{eps}}_machichuuka.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}_machichuuka.jpg",
+    "imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}_machichuuka1.jpg",
+    "imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}_machichuuka2.jpg",
+    "imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}_machichuuka3.jpg",
+    "imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/{{eps}}_machichuuka4.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/machichuuka-de-yarou-ze-rxLx0",
+	"episodes": {
+		"260322": {
+			"descEpisode": "| 260322 Machichuuka de Yarou ze!",
+			"descEpsListName": "260322",
+			"descOnAirDate": "22 Maret 2026",
+			"linkHardsub": "https://sfl.gl/gS44dKk",
+			"filePassword": "DuoHiguchi",
+			"descEpisodeSynopsis": "Higuchi Hina dan Higuchi Yuzu melakukan perjalanan nostalgia ke kampung halaman di Nagano dalam edisi spesial tahun ketujuh program ini. Kakak beradik tersebut mengunjungi berbagai restoran Cina pinggir jalan yang legendaris untuk menikmati hidangan khas dan minuman sambil berbagi kenangan masa kecil yang hangat."
+		},
+		"260601": {
+			"descEpisode": "| 260601 Machichuuka de Yarou ze!",
+			"descEpsListName": "260601",
+			"descOnAirDate": "1 Juni 2026",
+			"linkHardsub": "https://sfl.gl/ACDu",
+			"filePassword": "HiguchiDanKedaiChinaPinggirJalan",
+			"descEpisodeSynopsis": "Setelah hiatus selama dua bulan dari acara ini, Higuchi Hina alias si Sniper, kembali menjelajahi kedai China pinggir jalan di area Sakurajosui, Distrik Setagaya. Ia mengunjungi kedai legendaris 'Ryuhou' dan 'Kaikaitei', menikmati bir dingin, stik udang, hoikoro, hingga hiyashi chuka yang menjadi favoritnya di musim panas, sambil meresapi hangatnya suasana kedai yang telah lama ia rindukan."
+		}
+	},
+	"memberParticipate": "樋口日奈"
+}

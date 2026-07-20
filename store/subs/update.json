@@ -1,5 +1,43 @@
 [
  {
+    "date": "260720",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"48"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"49"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"50"},
+      {"showId": "machichuuka-de-yarou-ze", "eps":"260601"},
+      {"showId": "hinatazaka-ni-narimashou", "eps":"21"},
+      {"showId": "hinatazaka-ni-narimashou", "eps":"21-bangai"},
+      {"showId": "sakurazaka-channel", "eps":"260604"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"a"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"a1"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"a2"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"a3"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"b"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"b1"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"b2"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"c"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"c1"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"c2"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"c3"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"d"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"d1"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"d2"},
+      {"showId": "nogizaka46-bonus-41st-shinzanmono", "eps":"d3"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"01"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"02"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"03"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"04"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"05"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"06"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"07"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"08"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"09"},
+      {"showId": "hinatazaka46-bonus-17th-single", "eps":"10"},
+      {"showId": "random-subs", "eps":"251225"}
+    ]
+  },
+ {
     "date": "260617",
     "updates": [
       {"showId": "nogizaka-star-tanjou-six", "eps":"44"},
@@ -44,24 +82,6 @@
       {"showId": "zenkoku-tour", "eps":"2015"},
       {"showId": "concert", "eps":"11"},
       {"showId": "concert", "eps":"12"}
-    ]
-  },
-  {
-    "date": "260522",
-    "updates": [
-      {"showId": "birthday-live", "eps":"18"}
-    ]
-  },
-  {
-    "date": "260521",
-    "updates": [
-      {"showId": "birthday-live", "eps":"17"}
-    ]
-  },
-  {
-    "date": "260520",
-    "updates": [
-      {"showId": "birthday-live", "eps":"16"}
     ]
   }
 ]
