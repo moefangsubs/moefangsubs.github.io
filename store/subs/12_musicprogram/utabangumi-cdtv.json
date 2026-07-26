@@ -7,7 +7,8 @@
 		"251117",
 		"251222",
 		"260330_1",
-		"260330_2"
+		"260330_2",
+		"260713"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_cdtv.png",
 	"episodes": {
@@ -71,6 +72,17 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260330-cdtvlivelive-nogizaka46-2.jpg",
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 kembali membawakan single ke-16 \"Sayonara no Imi\" setelah sekian lama, dengan center sang kapten Umezawa Minami yang telah mengumumkan kelulusannya, dan ini penampilan terakhirnya di CDTV.",
 			"nameShow": "CDTVライブ!ライブ!"
+		},
+		"260713": {
+        "descEpisode": "| \"Zehi ni Oyobazu\"",
+        "descEpsListName": "260713",
+        "descOnAirDate": "13 Juli 2026",
+        "memberParticipate": "乃木坂46",
+        "linkHardsub": "https://sfl.gl/Hd1dp",
+        "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260713_cdtvlivelive_nogizaka46.jpg",
+        "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260713-cdtvlivelive-nogizaka46.jpg",
+        "descEpisodeSynopsis": "Dalam rilisan ini kita melihat Nogizaka46 membawakan lagu andalannya.",
+        "nameShow": "CDTVライブ!ライブ!"
 		}
 	},
 	"memberParticipate": "乃木坂46"

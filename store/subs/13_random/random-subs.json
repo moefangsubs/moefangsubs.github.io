@@ -8,7 +8,7 @@
 		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230901", "230902", "231117",
 		"231122", "240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", 
 		"251221", "251225", "251230", "251231", 
-		"260116", "260410", "260418", "260425"
+		"260410", "260418", "260425"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
@@ -704,23 +704,6 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/mychannel_68d.jpg",
 			"descEpisodeSynopsis": "Konten terbaru dari kanal YouTube Shiraishi Mai menghadirkan keseruan pesta akhir tahun bertajuk \"Kumpul Wanita\" bersama dua rekan dekatnya sambil menikmati hidangan monja khas Tsukishima. Sembari menyantap menu andalan gratis hingga risotto monja jamur bertabur keju melimpah buatan sang ahli, mereka bertiga bernostalgia mengenang perjalanan karier dan momen paling berkesan sepanjang tahun 2025.",
 			"nameShow": "my channel"
-		},
-		"260116": {
-			"descEpisode": "| 260116 BUZZ RYTHM02",
-			"descEpsListName": "260116",
-			"descOnAirDate": "16 Januari 2026",
-			"memberParticipate": "乃木坂46、市來玲奈",
-			"linkHardsub": "https://sfl.gl/iV0I4L8",
-			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/buzz-rythm02-7bNkU",
-			"filePassword": "",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260116_buzzrythm02.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02d.jpg",
-			"descEpisodeSynopsis": "Nogizaka46 kini diundang ke acara BUZZ RYTHM02, yang dipandu oleh duo MC Bakarythm dan ex-Nogizaka46 Ichiki Rena. Disini, ada beberapa VTR kegiatan para member di hari libur masing-masing 30 detik.",
-			"nameShow": "BUZZ RYTHM02"
 		},
 		"260410": {
 			"descEpisode": "| 260410 Shimajirou no Wow!",

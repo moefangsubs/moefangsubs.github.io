@@ -1,4 +1,26 @@
 [
+  {
+    "date": "260726",
+    "updates": [
+      {"showId": "nogizaka-star-tanjou-six", "eps":"51"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"52"},
+      {"showId": "nogizaka-star-tanjou-six", "eps":"53"},
+      {"showId": "nogidouga-hitori-de-dekirumon-2", "eps":"04"},
+      {"showId": "nogidouga-hitori-de-dekirumon-2", "eps":"05"},
+      {"showId": "nogidouga-hitori-de-dekirumon-2", "eps":"06"},
+      {"showId": "nogizaka-escape-season-2", "eps":"01"},
+      {"showId": "nogizaka-escape-season-2", "eps":"02"},
+      {"showId": "utabangumi-buzz-rythm02", "eps":"260612"},
+      {"showId": "utabangumi-tvtokyo-ongakusai", "eps":"260628"},
+      {"showId": "utabangumi-cdtv", "eps":"260713"},
+      {"showId": "utabangumi-ongaku-no-hi", "eps":"260718_1"},
+      {"showId": "utabangumi-ongaku-no-hi", "eps":"260718_2"},
+      {"showId": "utabangumi-ongaku-no-hi", "eps":"260718_3"},
+      {"showId": "utabangumi-ongaku-no-hi", "eps":"260718_4"},
+      {"showId": "utabangumi-star", "eps":"260723"},
+      {"showId": "utabangumi-music-station", "eps":"260724"}
+    ]
+  },
  {
     "date": "260720",
     "updates": [
@@ -35,53 +57,6 @@
       {"showId": "hinatazaka46-bonus-17th-single", "eps":"09"},
       {"showId": "hinatazaka46-bonus-17th-single", "eps":"10"},
       {"showId": "random-subs", "eps":"251225"}
-    ]
-  },
- {
-    "date": "260617",
-    "updates": [
-      {"showId": "nogizaka-star-tanjou-six", "eps":"44"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"45"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"46"},
-      {"showId": "nogizaka-star-tanjou-six", "eps":"47"},
-      {"showId": "nogizaka-otameshichuu", "eps":"63"},
-      {"showId": "nogizaka-koujichuu", "eps":"198"},
-      {"showId": "nogizaka-koujichuu", "eps":"199"},
-      {"showId": "nogizaka-koujichuu", "eps":"200"},
-      {"showId": "nogizaka-koujichuu", "eps":"201"},
-      {"showId": "nogizaka-koujichuu", "eps":"202"},
-      {"showId": "nogizaka-koujichuu", "eps":"203"},
-      {"showId": "spicy-sessions", "eps":"13"},
-      {"showId": "spicy-sessions", "eps":"14"},
-      {"showId": "equal-love-kokoko", "eps":"06"},
-      {"showId": "equal-love-kokoko", "eps":"07"},
-      {"showId": "equal-love-kokoko", "eps":"08"},
-      {"showId": "saito-asuka-no-konya-wa-nonde-kaerou", "eps":"s201"},
-      {"showId": "saito-asuka-no-konya-wa-nonde-kaerou", "eps":"s202"},
-      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"70"},
-      {"showId": "nogidouga-nogizaka-asobu-dake", "eps":"81"},
-      {"showId": "aku-no-hana", "eps":"07"},
-      {"showId": "aku-no-hana", "eps":"08"},
-      {"showId": "aku-no-hana", "eps":"09"},
-      {"showId": "aku-no-hana", "eps":"10"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"08"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"09"},
-      {"showId": "kimi-ga-shikei-ni-naru-mae-ni", "eps":"10"},
-      {"showId": "shitsuren-karuta", "eps":"08"},
-      {"showId": "showroom", "eps":"51"},
-      {"showId": "showroom", "eps":"52"},
-      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260421"},
-      {"showId": "showroom", "eps":"53"},
-      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260513"},
-      {"showId": "showroom", "eps":"54"},
-      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260515"},
-      {"showId": "showroom", "eps":"55"},
-      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260527"},
-      {"showId": "showroom", "eps":"56"},
-      {"showId": "nogizaka-gakuen-houkago-chokuzen-talk", "eps":"260602"},
-      {"showId": "zenkoku-tour", "eps":"2015"},
-      {"showId": "concert", "eps":"11"},
-      {"showId": "concert", "eps":"12"}
     ]
   }
 ]

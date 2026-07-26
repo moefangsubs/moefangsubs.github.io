@@ -1,0 +1,40 @@
+{
+    "url": "utabangumi-buzz-rythm02",
+    "nameShowTitle": "BUZZ RHYTHM 02",
+    "nameShow": "バズリズム02",
+    "availableEpisode": [
+        "260116",
+        "260612"
+    ],
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_buzzrythm02.png",
+    "episodes": {
+        "260116": {
+            "descEpisode": "| 260116",
+            "descEpsListName": "260116",
+            "descOnAirDate": "16 Januari 2026",
+            "memberParticipate": "乃木坂46、市來玲奈",
+            "linkHardsub": "https://sfl.gl/iV0I4L8",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260116_buzzrythm02.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02.jpg",
+            "imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02a.jpg",
+            "imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02b.jpg",
+            "imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02c.jpg",
+            "imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260116_buzzrythm02d.jpg",
+            "descEpisodeSynopsis": "Nogizaka46 kini diundang ke acara BUZZ RYTHM02, yang dipandu oleh duo MC Bakarythm dan ex-Nogizaka46 Ichiki Rena. Disini, ada beberapa VTR kegiatan para member di hari libur masing-masing 30 detik."
+        },
+        "260612": {
+            "descEpisode": "| 260612",
+            "descEpsListName": "260612",
+            "descOnAirDate": "12 Juni 2026",
+            "memberParticipate": "日向坂46",
+            "linkHardsub": "https://sfl.gl/vQeZ5j",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260612_buzzrythm02.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260612_buzzrythm02.jpg",
+            "imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260612_buzzrythm02a.jpg",
+            "imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260612_buzzrythm02b.jpg",
+            "imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260612_buzzrythm02c.jpg",
+            "imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260612_buzzrythm02d.jpg",
+            "descEpisodeSynopsis": "Episode Buzz Rhythm 02 menghadirkan grup idola Jepang Hinatazaka46 sebagai bintang tamu utama. Dalam acara musik ini, para member membagikan berbagai kisah menarik, momen seru di balik layar, serta penampilan panggung spesial membawakan lagu andalan mereka. Pemirsa diajak untuk mengenal lebih dekat kepribadian dan dinamika unik dari tiap member melalui perbincangan hangat bersama pembawa acara."
+        }
+    }
+}

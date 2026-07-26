@@ -1,0 +1,51 @@
+{
+    "url": "utabangumi-ongaku-no-hi",
+    "nameShowTitle": "Ongaku no Hi",
+    "nameShow": "音楽の日",
+    "availableEpisode": [
+        "260718_1",
+        "260718_2",
+        "260718_3",
+        "260718_4"
+    ],
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_ongakunohi.png",
+    "episodes": {
+        "260718_1": {
+            "descEpisode": "| 260718 乃木坂46 「シンクロニシティ」",
+            "descEpsListName": "260718_1",
+            "descOnAirDate": "18 Juli 2026",
+            "memberParticipate": "乃木坂46",
+            "linkHardsub": "https://sfl.gl/lInmVVf",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260718_ongakunohi_nogizaka46.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260718_ongakunohi_nogizaka46.jpg"
+        },
+        "260718_2": {
+            "descEpisode": "| 260718 日向坂46 「ドレミソラシド」",
+            "descEpsListName": "260718_2",
+            "descOnAirDate": "18 Juli 2026",
+            "memberParticipate": "日向坂46",
+            "linkHardsub": "https://sfl.gl/Xpb876Q",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260718_ongakunohi_hinatazaka46.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260718_ongakunohi_hinatazaka46.jpg"
+        },
+        "260718_3": {
+            "descEpisode": "| 260718 櫻坂46 「The growing up train」",
+            "descEpsListName": "260718_3",
+            "descOnAirDate": "18 Juli 2026",
+            "memberParticipate": "櫻坂46",
+            "linkHardsub": "https://sfl.gl/vx7NX",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260718_ongakunohi_sakurazaka46.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260718_ongakunohi_sakurazaka46.jpg"
+        },
+        "260718_4": {
+            "descEpisode": "| 260718 坂道グループ 選抜チーム DREAMダンス企画",
+            "descEpsListName": "260718_4",
+            "descOnAirDate": "18 Juli 2026",
+            "memberParticipate": "岩本蓮加、一ノ瀬美空、瀬戸口心月、小島凪紗、谷口愛季、山下瞳月、金村美玖、小西夏菜実、渡辺莉奈",
+            "linkHardsub": "https://sfl.gl/27yU",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260718_ongakunohi_sakamichi.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260718_ongakunohi_sakamichi.jpg",
+            "descEpisodeSynopsis": "Di sini menyajikan penampilan panggung kolaborasi spesial dari tim terpilih Sakamichi Group dalam acara musik tahunan Ongaku no Hi."
+        }
+    }
+}

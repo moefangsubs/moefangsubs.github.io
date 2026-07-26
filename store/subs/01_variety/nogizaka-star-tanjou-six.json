@@ -9,7 +9,8 @@
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50"
+		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
+		"51", "52", "53"
     ],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
@@ -511,7 +512,36 @@
             "additionalGuests": "きただにひろし",
             "linkHardsub": "https://sfl.gl/yY1s",
             "linkSoftsub": "https://sfl.gl/x5wGy"
-        }
+        },
+		"51": {
+			"descOnAirDate": "6 Juli 2026",
+			"descSong1": "冨岡愛 「恋する惑星「アナタ」」",
+			"descSong2": "いきものがかり 「茜色の約束」",
+			"descSong3": "花*花 「さよなら 大好きな人」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "花*花",
+			"linkHardsub": "https://sfl.gl/6jxjLg",
+			"linkSoftsub": "https://sfl.gl/8tksnt"
+		},
+		"52": {
+			"descOnAirDate": "13 Juli 2026",
+			"descSong1": "熊木杏里 「私をたどる物語」",
+			"descSong2": "SEKAI NO OWARI 「炎と森のカーニバル」",
+			"descSong3": "Da-iCE 「スターマイン」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "熊木杏里",
+			"linkHardsub": "https://sfl.gl/3takbZ",
+			"linkSoftsub": "https://sfl.gl/S5iuvc"
+		},
+		"53": {
+			"descOnAirDate": "20 Juli 2026",
+			"descSong1": "氣志團 「喧嘩上等」",
+			"descSong2": "氣志團 「One Night Carnival」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "氣志團",
+			"linkHardsub": "https://sfl.gl/HVHzKe5",
+			"linkSoftsub": "https://sfl.gl/JPHT"
+		}
     },
     "descEpisode": "| Episode {{eps}}"
 }

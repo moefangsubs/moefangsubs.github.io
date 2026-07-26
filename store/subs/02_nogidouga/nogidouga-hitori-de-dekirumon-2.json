@@ -4,7 +4,7 @@
 	"nameShow": "ひとりでできるもん セカンド",
 	"descSynopsis": "Sebagai penerus dari senpainya gen-5, juga pembuka tahun baru dalam rangkaian spesial akhir tahun 2025-2026, \"Hitori de Dekirumon Second\" menampilkan member gen-6 yang melakukan tantangan solo perdana di Nogi Douga.",
 	"availableEpisode": [
-		"01", "02", "03"
+		"01", "02", "03", "04", "05", "06"
 	],
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hitoridedekirumon2.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/hitori2_{{eps}}.jpg",
@@ -33,6 +33,24 @@
 			"memberParticipate": "海邉朱莉",
 			"linkHardsub": "https://sfl.gl/6hznOEO",
 			"descEpisodeSynopsis": "Episode ketiga kali ini menampilkan Kaibe Akari yang mencoba tantangan baru dengan melakukan kemping untuk pertama kalinya meskipun sebenarnya lebih menyukai aktivitas di dalam ruangan. Di bawah langit biru, ia berjuang keras mengerjakan segala hal sendirian mulai dari mendirikan tenda, menyalakan api unggun, hingga memasak. Perjuangan gigih saat merakit tenda dan kursi meskipun belum terbiasa menjadi pemandangan menarik untuk melihat sejauh mana perkembangan yang ditunjukkannya."
+		},
+		"04": {
+			"descOnAirDate": "7 Mei 2026",
+			"memberParticipate": "大越ひなの",
+			"linkHardsub": "https://sfl.gl/8KP8bxvJ",
+			"descEpisodeSynopsis": "Panggung kali ini adalah berkeliling Danau Kawaguchi yang indah di Prefektur Yamanashi dengan sepeda. Sambil dikelilingi bunga sakura dan nemophila, menyegarkan hati di alam. Nikmati juga cerita kenangan bersama rekan gen-6, permohonan ke Gunung Fuji, dan liputan makanan di kafe!"
+		},
+		"05": {
+			"descOnAirDate": "29 Mei 2026",
+			"memberParticipate": "鈴木佑捺",
+			"linkHardsub": "https://sfl.gl/u0nzBEk",
+			"descEpisodeSynopsis": "Kali ini, Suzuki yang belum pernah membuat manisan menantang membuat 'macaron' yang tingkat kesulitannya tinggi! Dimulai dari mengocok putih telur, hingga memamerkan keterampilan 'macaronage' yang halus sebagai penentu kesuksesan. Apakah Suzuki yang berjuang tanpa lelah ini berhasil menyelesaikan macaronnya!?"
+		},
+		"06": {
+			"descOnAirDate": "17 Juli 2026",
+			"memberParticipate": "小津玲奈",
+			"linkHardsub": "https://sfl.gl/sgR5XY",
+			"descEpisodeSynopsis": "Ozu yang hobi ke kafe dan bercita-cita membuka 'kafe rumah' untuk keluarganya, kini belajar tentang kopi. Ia membuat racikan bertema 'kopi yang cocok untuk pagi', mulai dari memilah biji, menyangrai, hingga hand-drip! Apakah 'kopi terkuat' seleranya berhasil dibuat!? Nikmati momen yang penuh kecintaan pada kopi!"
 		}
 	}
 }
