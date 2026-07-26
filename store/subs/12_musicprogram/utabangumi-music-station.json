@@ -2,12 +2,12 @@
 	"url": "utabangumi-music-station",
 	"nameShowTitle": "Music Station",
 	"availableEpisode": [
-		"01", "02", "03", "04", "05"
+		"221223", "250718", "251128", "251226", "260411", "260724"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_musicstation.png",
 	"episodes": {
-		"01": {
+		"221223": {
 			"descEpisode": "| 221223 Music Station Ultra Super Live 2022 'Koko ni wa nai mono'",
 			"descEpsListName": "221223",
 			"descOnAirDate": "23 Desember 2022",
@@ -18,7 +18,7 @@
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat last stage-nya Saito Asuka di MUSIC STATION Ultra Super Live 2022 dengan membawakan single kelulusannya \"Koko ni wa nai mono\". Sebelum itu, seperti biasa ada sedikit sesi talk-nya bersama MC dengan Nogizaka46. Silakan~",
 			"nameShow": "MUSIC STATION"
 		},
-		"02": {
+		"250718": {
 			"descEpisode": "| 250718 Music Station Super Summer Fes 2025 'Same numbers'",
 			"descEpsListName": "250718",
 			"descOnAirDate": "18 Juli 2025",
@@ -29,7 +29,7 @@
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan kedua 'Same numbers' di televisi dengan center Kaki Haruka",
 			"nameShow": "MUSIC STATION"
 		},
-		"03": {
+		"251128": {
 			"descEpisode": "| 251128 Music Station 'Biryani'",
 			"descEpsListName": "251128",
 			"descOnAirDate": "28 November 2025",
@@ -40,7 +40,7 @@
 			"descEpisodeSynopsis": "Dalam rilisan ini kita melihat penampilan 'Biryani' di televisi dengan w-center generasi baru, Setoguchi Mitsuki dan Yada Moeka.",
 			"nameShow": "MUSIC STATION"
 		},
-		"04": {
+		"251226": {
 			"descEpisode": "| 251226 MUSIC STATION SUPER LIVE 'Navel Orange'",
 			"descEpsListName": "251226",
 			"descOnAirDate": "26 Desember 2025",
@@ -50,7 +50,7 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/251226a-musicstation-nogizaka46.jpg",
 			"nameShow": "MUSIC STATION SUPER LIVE"
 		},
-		"05": {
+		"251226": {
 			"descEpisode": "| 251226 MUSIC STATION SUPER LIVE 'Nante tatte Idol'",
 			"descEpsListName": "251226",
 			"descOnAirDate": "26 Desember 2025",
@@ -61,7 +61,7 @@
 			"descEpisodeSynopsis": "Sebuah penampilan spesial antara berbagai idol Jepang papan atas.",
 			"nameShow": "MUSIC STATION SUPER LIVE"
 		},
-		"06": {
+		"260411": {
 			"descEpisode": "| 260411 MUSIC STATION 'Saigo ni Kaidan o Kakeagatta no wa Itsu da?'",
 			"descEpsListName": "260411",
 			"descOnAirDate": "11 April 2026",
@@ -69,6 +69,16 @@
 			"linkHardsub": "https://sfl.gl/b6FtlU",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260411_musicstation_nogizaka46.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260411-musicstation-nogizaka46.jpg",
+			"nameShow": "MUSIC STATION"
+		},
+		"260724": {
+			"descEpisode": "| 260724 MUSIC STATION 'Zehi ni Oyobazu'",
+			"descEpsListName": "260724",
+			"descOnAirDate": "24 Juli 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/2yG0k1RQ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260724_musicstation_nogizaka46.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260724-musicstation-nogizaka46.jpg",
 			"nameShow": "MUSIC STATION"
 		}
 	}

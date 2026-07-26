@@ -1,0 +1,31 @@
+{
+    "url": "utabangumi-tvtokyo-ongakusai",
+    "nameShowTitle": "TV Tokyo Music Festival",
+    "nameShow": "テレ東音楽祭",
+    "availableEpisode": [
+        "250709",
+        "260628"
+    ],
+    "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_utabangumi_tvtokyoongakusai.png",
+    "episodes": {
+        "250709": {
+            "descEpisode": "| 250709",
+            "descEpsListName": "250709",
+            "descOnAirDate": "9 Juli 2025",
+            "memberParticipate": "乃木坂46",
+            "linkHardsub": "https://sfl.gl/wVwQ",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250709_tvtokyoongaku2025.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250709-tvtokyoongaku2025.jpg",
+            "descEpisodeSynopsis": "Pada tanggal 9 Juli, untuk pertama kalinya single ke-39 Nogizaka46 'Same numbers' ditampilkan secara langsung di televisi."
+        },
+        "260628": {
+            "descEpisode": "| 260628 「是非に及ばず」",
+            "descEpsListName": "260628",
+            "descOnAirDate": "28 Juni 2026",
+            "memberParticipate": "乃木坂46",
+            "linkHardsub": "https://sfl.gl/FW0IzDwp",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260628_tvtokyoongaku.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260628-tvtokyoongaku.jpg"
+        }
+    }
+}
