@@ -58,7 +58,7 @@ async function checkAbsoluteFirst(memberName, streamType, sYear) {
 
 async function loadNoteData() {
     try {
-        const res = await fetch("../store/data/sr_detail_note.json");
+        const res = await fetch("https://full.diskon.cloud/~moefa404/store/data/sr_detail_note.json");
         if (res.ok) {
             noteDB = await res.json();
         }
@@ -315,7 +315,7 @@ function initControls() {
 
 async function loadNekojitaData() {
     try {
-        const res = await fetch("../store/data/sr_detail_nekojita.json");
+        const res = await fetch("https://full.diskon.cloud/~moefa404/store/data/sr_detail_nekojita.json");
         if (res.ok) {
             nekojitaDB = await res.json();
         }
