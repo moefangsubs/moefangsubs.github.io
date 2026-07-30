@@ -497,54 +497,72 @@ function buildMonthGrid(monthIndex, isDetailed) {
             const dateStr = `${yearStr}.${monthStr}.${dayStr}`;
             const dayStreams = monthData.filter(s => s.airdate === dateStr);
             
-            let isHoliday = false;
-            let holidayNote = null;
+            let dayStatus = null;
+            let statusNote = null;
+            
             if (noteDB[yearStr] && noteDB[yearStr][monthStr] && noteDB[yearStr][monthStr][dayStr]) {
                 const noteInfo = noteDB[yearStr][monthStr][dayStr];
                 if (noteInfo[0] === "お休み") {
-                    isHoliday = true;
-                    holidayNote = noteInfo[1];
+                    dayStatus = "holiday";
+                    statusNote = noteInfo[1];
+                } else if (noteInfo[0] === "中止") {
+                    dayStatus = "cancelled";
+                    statusNote = noteInfo[1];
                 }
             }
 
             const isJune2018Disabled = (currentYear === 2018 && monthIndex === 6 && d < 18);
             const isFutureDay = (currentYear > realMaxYear) || (currentYear === realMaxYear && monthIndex > realMaxMonth) || (currentYear === realMaxYear && monthIndex === realMaxMonth && d > realMaxDay);
 
-            if (!isJune2018Disabled && !isFutureDay && (dayStreams.length > 0 || isHoliday)) {
+            if (!isJune2018Disabled && !isFutureDay && (dayStreams.length > 0 || dayStatus)) {
                 const cell = document.createElement("div");
                 cell.className = "list-day-row";
                 
-                if (isHoliday) {
+                if (dayStatus === "holiday") {
                     cell.style.background = "#e0e0e0"; 
                     cell.style.borderColor = "#999999";
+                } else if (dayStatus === "cancelled") {
+                    cell.style.background = "#d32f2f52";
+                    cell.style.borderColor = "#ef6f6f";
                 }
 
                 const dateLabel = document.createElement("div");
                 dateLabel.className = "list-date-label";
                 dateLabel.textContent = d;
-                if (isHoliday) {
+                
+                if (dayStatus === "holiday") {
                     dateLabel.style.color = "#555555";
+                } else if (dayStatus === "cancelled") {
+                    dateLabel.style.color = "#d32f2f";
                 }
+                
                 cell.appendChild(dateLabel);
 
                 const streamsContainer = document.createElement("div");
                 streamsContainer.className = "list-streams-container";
                 
-                if (isHoliday) {
-                    const holidayMsg = document.createElement("div");
-                    holidayMsg.style.color = "#333333";
-                    holidayMsg.style.fontSize = "1.1rem";
-                    holidayMsg.style.fontWeight = "bold";
-                    holidayMsg.style.display = "flex";
-                    holidayMsg.style.alignItems = "center";
-                    holidayMsg.style.height = "100%";
+                if (dayStatus) {
+                    const statusMsg = document.createElement("div");
+                    statusMsg.style.fontSize = "1.1rem";
+                    statusMsg.style.fontWeight = "bold";
+                    statusMsg.style.display = "flex";
+                    statusMsg.style.alignItems = "center";
+                    statusMsg.style.height = "100%";
                     
-                    let msgText = "お休み (Libur)";
-                    if (holidayNote) {
-                        msgText += `<br><span style="font-size: 1rem; font-weight: normal; padding-left: 10px;"> ${holidayNote}</span>`;
+                    let msgText = "";
+                    if (dayStatus === "holiday") {
+                        statusMsg.style.color = "#333333";
+                        msgText = "お休み (Libur)";
+                    } else if (dayStatus === "cancelled") {
+                        statusMsg.style.color = "#d32f2f";
+                        msgText = "中止 (Batal)";
                     }
-                    holidayMsg.innerHTML = msgText;
-                    streamsContainer.appendChild(holidayMsg);
+                    
+                    if (statusNote) {
+                        msgText += `<br><span style="font-size: 1rem; font-weight: normal; padding-left: 10px;"> ${statusNote}</span>`;
+                    }
+                    statusMsg.innerHTML = msgText;
+                    streamsContainer.appendChild(statusMsg);
                 } else {
                     dayStreams.forEach(stream => {
                         const streamEl = buildStreamElement(stream, true);
@@ -605,10 +623,13 @@ function buildMonthGrid(monthIndex, isDetailed) {
         const dateStr = `${yearStr}.${monthStr}.${dayStr}`;
         const dayStreams = monthData.filter(s => s.airdate === dateStr);
 
-        let isHoliday = false;
+        let dayStatus = null;
         if (noteDB[yearStr] && noteDB[yearStr][monthStr] && noteDB[yearStr][monthStr][dayStr]) {
-            if (noteDB[yearStr][monthStr][dayStr][0] === "お休み") {
-                isHoliday = true;
+            const noteType = noteDB[yearStr][monthStr][dayStr][0];
+            if (noteType === "お休み") {
+                dayStatus = "holiday";
+            } else if (noteType === "中止") {
+                dayStatus = "cancelled";
             }
         }
 
@@ -622,9 +643,12 @@ function buildMonthGrid(monthIndex, isDetailed) {
         } else if (dayStreams.length > 0) {
             const groupsInDay = dayStreams.map(s => s.group);
             cell.style.background = getDayBackground(groupsInDay);
-        } else if (isHoliday) {
+        } else if (dayStatus === "holiday") {
             cell.style.background = "#e0e0e0"; 
             dayLabel.style.color = "#777777";
+        } else if (dayStatus === "cancelled") {
+            cell.style.background = "#d32f2f52";
+            dayLabel.style.color = "#d32f2f";
         }
 
         grid.appendChild(cell);
@@ -989,7 +1013,7 @@ function openModal(stream) {
 
             if (noteDB[year] && noteDB[year][month] && noteDB[year][month][day]) {
                 const noteInfo = noteDB[year][month][day];
-                if (noteInfo[0] !== "お休み" && noteInfo[1]) {
+                if (noteInfo[0] !== "お休み" && noteInfo[0] !== "中止" && noteInfo[1]) {
                     const targetMembers = noteInfo[0].split(",").map(m => m.trim());
                     let isTarget = false;
                     
