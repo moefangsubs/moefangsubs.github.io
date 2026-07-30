@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const container = document.getElementById("partner-grid-container");
 
-    fetch('../store/data/fansub_update.json')
+    fetch('https://full.diskon.cloud/~moefa404/store/data/fansub_update.json')
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok');
             return response.json();

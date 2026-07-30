@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 async function fetchStreamDataCached(cacheKey) {
     if (!globalStreamCache[cacheKey]) {
-        globalStreamCache[cacheKey] = fetch(`../store/data/sr/${cacheKey}.json`)
+        globalStreamCache[cacheKey] = fetch(`https://full.diskon.cloud/~moefa404/store/data/sr/${cacheKey}.json`)
             .then(res => res.ok ? res.json() : [])
             .catch(() => []);
     }
@@ -368,7 +368,7 @@ async function loadSRDataYear(year) {
         }
 
         const mStr = m.toString().padStart(2, '0');
-        const fileName = `../store/data/sr/${year}_${mStr}.json`;
+        const fileName = `https://full.diskon.cloud/~moefa404/store/data/sr/${year}_${mStr}.json`;
         try {
             const res = await fetch(fileName);
             if (res.ok) {
