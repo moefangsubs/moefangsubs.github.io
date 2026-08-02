@@ -5,7 +5,8 @@
 	"descSynopsis": "Ini adalah tayangan pendek berupa tugas kepada member yang baru saja siaran Nogiobi, dan mereka akan mengerjakan atau menjawab sesuai tema yang diberikan.",
 	"availableEpisode": [
 		"260225", "260310", "260406", "260407", "260417",
-		"260421", "260513", "260515", "260527", "260602"
+		"260421", "260513", "260515", "260527", "260602",
+		"260722", "260727"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_houkago.png",
 	"episodes": {
@@ -108,6 +109,24 @@
 			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/showroom-nogiobi-YdEtN",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/SRhoukago_260602.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/SRhoukago_260602.jpg"
+		},
+		"260722": {
+			"descEpisode": "| 260722 Ikeda Teresa",
+			"descEpsListName": "Ikeda Teresa",
+			"descOnAirDate": "22 Juli 2026",
+			"memberParticipate": "池田瑛紗",
+			"linkHardsub": "https://sfl.gl/PQCLnfm",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/SRhoukago_260722.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/SRhoukago_260722.jpg"
+		},
+		"260727": {
+			"descEpisode": "| 260727 Tomisato Nao",
+			"descEpsListName": "Tomisato Nao",
+			"descOnAirDate": "27 Juli 2026",
+			"memberParticipate": "冨里奈央",
+			"linkHardsub": "https://sfl.gl/X8wkV",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/SRhoukago_260727.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/SRhoukago_260727.jpg"
 		}
 	}
 }
