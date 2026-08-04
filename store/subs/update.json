@@ -1,5 +1,16 @@
 [
 	{
+	"date": "260805",
+	"updates": [
+		{"showId": "live-performance", "eps": "23"},
+		{"showId": "live-performance", "eps": "24"},
+		{"showId": "live-performance", "eps": "25"},
+		{"showId": "live-performance", "eps": "26"},
+		{"showId": "live-performance", "eps": "27"},
+		{"showId": "live-performance", "eps": "28"}
+		]
+	},
+	{
 	"date": "260802",
 	"updates": [
 		{"showId": "nogizaka-escape-season-2", "eps": "03"},
