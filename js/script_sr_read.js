@@ -63,7 +63,7 @@ async function loadNoteData() {
             noteDB = await res.json();
         }
     } catch (e) {
-        console.warn("Gagal memuat data Note:", e);
+        console.warn(e);
     }
 }
 
@@ -73,7 +73,6 @@ window.applyMoeCrop = function(img, memberName) {
     if (!nw || !nh) return;
 
     const crop = window.getAccurateCrop ? window.getAccurateCrop(img.src, memberName) || {} : {};
-
     const container = img.parentElement;
     const cw = container.clientWidth;
     const ch = container.clientHeight;
@@ -85,7 +84,6 @@ window.applyMoeCrop = function(img, memberName) {
         const c = crop.normal;
         const ox = c['offset-x'] || 0;
         const oy = c['offset-y'] || 0;
-        
         const c_left = (c.left || 0) + ox;
         const c_right = nw - (c.right || 0) + ox;
         const c_top = (c.top || 0) + oy;
@@ -100,11 +98,8 @@ window.applyMoeCrop = function(img, memberName) {
         const c = crop.round;
         const r = c.radius || (nw / 2);
         const ox = c['offset-x'] || 0;
-        
         let oy = c['offset-y'];
-        if (oy === undefined || oy === null) {
-            oy = r - (nh / 2);
-        }
+        if (oy === undefined || oy === null) oy = r - (nh / 2);
 
         cropW = r * 2;
         cropH = r * 2;
@@ -161,11 +156,9 @@ function wrapModal() {
     if (modalNode && contentNode && !document.querySelector(".sr-modal-wrapper")) {
         const wrapper = document.createElement("div");
         wrapper.className = "sr-modal-wrapper";
-        
         const shadow = document.createElement("div");
         shadow.className = "sr-modal-shadow";
         shadow.id = "modalShadowElement";
-        
         wrapper.appendChild(shadow);
         modalNode.insertBefore(wrapper, contentNode);
         wrapper.appendChild(contentNode);
@@ -232,9 +225,7 @@ function initControls() {
     viewModeSelect.addEventListener("change", (e) => {
         currentViewMode = e.target.value;
         monthSelect.style.display = currentViewMode === "month" ? "inline-block" : "none";
-        
         toggleBottomControls();
-        
         updateCalendar();
     });
 
@@ -264,10 +255,7 @@ function initControls() {
         }
         enforceBounds();
         updateCalendar();
-        
-        if (currentViewMode === "month") {
-             window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+        if (currentViewMode === "month") window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     const handleNext = () => {
@@ -284,10 +272,7 @@ function initControls() {
         }
         enforceBounds();
         updateCalendar();
-        
-        if (currentViewMode === "month") {
-             window.scrollTo({ top: 0, behavior: 'smooth' });
-        }
+        if (currentViewMode === "month") window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     document.getElementById("prevBtn").addEventListener("click", handlePrev);
@@ -316,11 +301,9 @@ function initControls() {
 async function loadNekojitaData() {
     try {
         const res = await fetch("https://full.diskon.cloud/~moefa404/store/data/sr_detail_nekojita.json");
-        if (res.ok) {
-            nekojitaDB = await res.json();
-        }
+        if (res.ok) nekojitaDB = await res.json();
     } catch (e) {
-        console.warn("Gagal memuat data detail Nekojita:", e);
+        console.warn(e);
     }
 }
 
@@ -337,7 +320,6 @@ async function loadMemberDatabases() {
             const res = await fetch(file);
             if (res.ok) {
                 const data = await res.json();
-                
                 let groupId = "nogi";
                 if (file.includes("hina")) groupId = "hinata";
                 else if (file.includes("keya")) groupId = "keyaki";
@@ -360,26 +342,20 @@ async function loadSRDataYear(year) {
     const currentDate = new Date();
     const currentY = currentDate.getFullYear();
     const currentM = currentDate.getMonth() + 1;
+    const promises = [];
 
     for (let m = 1; m <= 12; m++) {
-        if (year > currentY || (year === currentY && m > currentM)) {
-            data[m] = [];
-            continue;
-        }
-
-        const mStr = m.toString().padStart(2, '0');
-        const fileName = `https://full.diskon.cloud/~moefa404/store/data/sr/${year}_${mStr}.json`;
-        try {
-            const res = await fetch(fileName);
-            if (res.ok) {
-                data[m] = await res.json();
-            } else {
-                data[m] = [];
-            }
-        } catch (e) {
-            data[m] = [];
+        data[m] = [];
+        if (!(year > currentY || (year === currentY && m > currentM))) {
+            const mStr = m.toString().padStart(2, '0');
+            promises.push(
+                fetchStreamDataCached(`${year}_${mStr}`).then(res => {
+                    data[m] = res;
+                })
+            );
         }
     }
+    await Promise.all(promises);
     return data;
 }
 
@@ -417,9 +393,7 @@ async function fetchPreviousStream(memberName, currentStream) {
 
             const mems = Array.isArray(s.member) ? s.member : [s.member];
             if (mems.includes(memberName)) {
-                if (getStreamType(s) === targetType) {
-                    return s;
-                }
+                if (getStreamType(s) === targetType) return s;
             }
         }
 
@@ -458,9 +432,7 @@ function buildYearView() {
                 document.getElementById("viewModeSelect").value = "month";
                 document.getElementById("monthSelect").value = m;
                 document.getElementById("monthSelect").style.display = "inline-block";
-                
                 toggleBottomControls();
-                
                 updateCalendar();
             });
         }
@@ -671,12 +643,8 @@ function getGroupBackground(groupStr) {
     if (groupStr.includes("櫻坂46")) rgbColors.push("242, 156, 208");
     if (groupStr.includes("日向坂46") || groupStr.includes("けやき坂46")) rgbColors.push("124, 199, 232");
     if (groupStr.includes("欅坂46")) rgbColors.push("108, 191, 90");
-    
     if (rgbColors.length === 0) rgbColors.push("51, 51, 51");
-
-    if (rgbColors.length === 1) {
-        return `rgb(${rgbColors[0]})`;
-    }
+    if (rgbColors.length === 1) return `rgb(${rgbColors[0]})`;
     return `linear-gradient(135deg, rgb(${rgbColors.join('), rgb(')}))`;
 }
 
@@ -686,18 +654,13 @@ function getGroupBackgroundWithOpacity(groupStr, alpha) {
     if (groupStr.includes("櫻坂46")) rgbColors.push("242, 156, 208");
     if (groupStr.includes("日向坂46") || groupStr.includes("けやき坂46")) rgbColors.push("124, 199, 232");
     if (groupStr.includes("欅坂46")) rgbColors.push("108, 191, 90");
-    
     if (rgbColors.length === 0) rgbColors.push("51, 51, 51");
-
-    if (rgbColors.length === 1) {
-        return `rgba(${rgbColors[0]}, ${alpha})`;
-    }
+    if (rgbColors.length === 1) return `rgba(${rgbColors[0]}, ${alpha})`;
     return `linear-gradient(135deg, rgba(${rgbColors.join(`, ${alpha}), rgba(`)}, ${alpha}))`;
 }
 
 function getDayBackground(groupsArr) {
     if (!groupsArr || groupsArr.length === 0) return "transparent";
-    
     const unique = [];
     groupsArr.forEach(g => {
         const rgb = getGroupRGB(g);
@@ -727,10 +690,8 @@ function getGroupLightColor(groupStr) {
     return "#ffffff";
 }
 
-
 function getStreamCount(targetMember, targetStream) {
     const targetMems = Array.isArray(targetStream.member) ? targetStream.member : [targetStream.member];
-    
     if (targetMems.length > 2) return null;
     
     const getStreamType = (s) => {
@@ -740,7 +701,6 @@ function getStreamCount(targetMember, targetStream) {
     };
 
     const targetType = getStreamType(targetStream);
-    
     let chronologicalStreams = [];
     for (let m = 1; m <= 12; m++) {
         if (currentYearData[m] && Array.isArray(currentYearData[m])) {
@@ -751,18 +711,11 @@ function getStreamCount(targetMember, targetStream) {
     let count = 0;
     for (let s of chronologicalStreams) {
         const mems = Array.isArray(s.member) ? s.member : [s.member];
-        
         if (mems.length <= 2 && mems.includes(targetMember)) {
-            if (getStreamType(s) === targetType) {
-                count++;
-            }
+            if (getStreamType(s) === targetType) count++;
         }
-        
-        if (s === targetStream) {
-            return count;
-        }
+        if (s === targetStream) return count;
     }
-    
     return count;
 }
 
@@ -807,7 +760,6 @@ function buildStreamElement(stream, isDetailed) {
                 photoWrapper.className = "stream-detail-photo";
                 photoWrapper.title = mem.nama_romaji;
                 photoWrapper.style.borderColor = primaryColor;
-                
                 photoWrapper.style.backgroundImage = "url('../sprite/element/vibe/load.gif')";
                 photoWrapper.style.backgroundPosition = "center center";
                 photoWrapper.style.backgroundRepeat = "no-repeat";
@@ -827,7 +779,6 @@ function buildStreamElement(stream, isDetailed) {
                     else if (mem.group_id === "keyaki") memGroupStr = "欅坂46";
                     
                     const badgeBg = getPrimaryColor(memGroupStr);
-                    
                     countBadgeHtml = `
                         <div id="${badgeId}" style="position: absolute; top: 0; right: 0; background: ${badgeBg}; color: white; font-size: 0.9rem; font-weight: normal; padding: 2px 6px; z-index: 5; border-bottom-left-radius: 4px;">
                             ${badgeText}
@@ -839,14 +790,20 @@ function buildStreamElement(stream, isDetailed) {
                         const streamTypeStr = Array.isArray(stream.type) ? stream.type.join(" ") : stream.type;
                         const targetType = (streamTypeStr.includes("SHOWROOM") || streamTypeStr.includes("のぎおび")) ? "REG" : "SPEC";
                         
-                        setTimeout(() => {
+                        const applyBadge = () => {
                             checkAbsoluteFirst(memName, targetType, sYear).then(isFirst => {
                                 if (isFirst) {
                                     const badgeEl = document.getElementById(badgeId);
                                     if (badgeEl) badgeEl.textContent = "初";
                                 }
                             });
-                        }, 0);
+                        };
+
+                        if (window.requestIdleCallback) {
+                            requestIdleCallback(applyBadge);
+                        } else {
+                            setTimeout(applyBadge, 50);
+                        }
                     }
                 }
                 
@@ -880,9 +837,7 @@ function buildStreamElement(stream, isDetailed) {
         label = stream.type[stream.type.length - 1];
     } else if (typeof stream.type === "string") {
         label = stream.type;
-        if (label.includes("猫舌")) {
-            label = "猫舌";
-        }
+        if (label.includes("猫舌")) label = "猫舌";
     }
     
     tag.textContent = label.substring(0, 2);
@@ -905,14 +860,10 @@ function buildStreamElement(stream, isDetailed) {
 }
 
 function calculateDuration(start, end) {
-    if (!start || !end) {
-        return null;
-    }
+    if (!start || !end) return null;
     const d1 = new Date(`1970-01-01T${start}Z`);
     const d2 = new Date(`1970-01-01T${end}Z`);
-    if (d2 < d1) {
-        d2.setDate(d2.getDate() + 1);
-    }
+    if (d2 < d1) d2.setDate(d2.getDate() + 1);
     
     const diffSeconds = (d2 - d1) / 1000;
     const h = Math.floor(diffSeconds / 3600);
@@ -920,26 +871,16 @@ function calculateDuration(start, end) {
     const s = diffSeconds % 60;
     
     let res = "";
-    if (h > 0) {
-        res += `${h} jam `;
-    }
-    if (m > 0) {
-        res += `${m} menit `;
-    }
-    if (s > 0) {
-        res += `${s} detik`;
-    }
+    if (h > 0) res += `${h} jam `;
+    if (m > 0) res += `${m} menit `;
+    if (s > 0) res += `${s} detik`;
     return res.trim();
 }
 
 function formatDateID(dateStr) {
-    if (!dateStr) {
-        return "";
-    }
+    if (!dateStr) return "";
     const parts = dateStr.split(".");
-    if (parts.length !== 3) {
-        return dateStr;
-    }
+    if (parts.length !== 3) return dateStr;
     const months = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
     return `${parts[2]} ${months[parseInt(parts[1]) - 1]} ${parts[0]}`;
 }
@@ -965,7 +906,6 @@ function openModal(stream) {
         const mem = membersDB[memberName];
         const photoInfo = getMemberPhotoInfo(mem, stream.airdate, stream.group);
         const wrapperClass = isMain ? "modal-member-photo" : "modal-multi-photo";
-        
         const fontSizeRomaji = isMain ? "1.8rem" : "1rem";
         const fontSizeJp = isMain ? "1rem" : "0.85rem";
         
@@ -1077,12 +1017,8 @@ function openModal(stream) {
     if (stream.mori_tw_gift) {
         const mori = stream.mori_tw_gift[0];
         if (mori) {
-            if (mori.star) {
-                rightHtml += `<div class="modal-data-row"><strong>Interaksi:</strong> <span><i class="fa-solid fa-star"></i> ${mori.star.toLocaleString()}</span></div>`;
-            }
-            if (mori.user) {
-                rightHtml += `<div class="modal-data-row"><strong>Viewers:</strong> <span><i class="fa-solid fa-user"></i> ${mori.user.toLocaleString()}</span></div>`;
-            }
+            if (mori.star) rightHtml += `<div class="modal-data-row"><strong>Interaksi:</strong> <span><i class="fa-solid fa-star"></i> ${mori.star.toLocaleString()}</span></div>`;
+            if (mori.user) rightHtml += `<div class="modal-data-row"><strong>Viewers:</strong> <span><i class="fa-solid fa-user"></i> ${mori.user.toLocaleString()}</span></div>`;
         }
         
         const tower = stream.mori_tw_gift[1];
