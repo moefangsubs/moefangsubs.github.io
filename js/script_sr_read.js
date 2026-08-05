@@ -19,9 +19,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     initControls();
     wrapModal();
     await loadMemberDatabases();
-    await loadPictReleaseData();
-    await loadNekojitaData();
-    await loadNoteData();
+    await loadNekojitaData(); // Muat data Nekojita
+    await loadNoteData();     // Muat data Note
     await updateCalendar();
 });
 
@@ -56,14 +55,29 @@ async function checkAbsoluteFirst(memberName, streamType, sYear) {
     return true;
 }
 
+// PERBAIKAN: Menambahkan Cache Buster pada loadNoteData
 async function loadNoteData() {
     try {
-        const res = await fetch("https://full.diskon.cloud/~moefa404/store/data/sr_detail_note.json");
+        const cacheBuster = `?v=${new Date().getTime()}`;
+        const res = await fetch(`https://full.diskon.cloud/~moefa404/store/data/sr_detail_note.json${cacheBuster}`);
         if (res.ok) {
             noteDB = await res.json();
         }
     } catch (e) {
-        console.warn(e);
+        console.warn("Gagal memuat data Note:", e);
+    }
+}
+
+// PERBAIKAN: Menambahkan Cache Buster pada loadNekojitaData
+async function loadNekojitaData() {
+    try {
+        const cacheBuster = `?v=${new Date().getTime()}`;
+        const res = await fetch(`https://full.diskon.cloud/~moefa404/store/data/sr_detail_nekojita.json${cacheBuster}`);
+        if (res.ok) {
+            nekojitaDB = await res.json();
+        }
+    } catch (e) {
+        console.warn("Gagal memuat data detail Nekojita:", e);
     }
 }
 
@@ -298,21 +312,13 @@ function initControls() {
     toggleBottomControls();
 }
 
-async function loadNekojitaData() {
-    try {
-        const res = await fetch("https://full.diskon.cloud/~moefa404/store/data/sr_detail_nekojita.json");
-        if (res.ok) nekojitaDB = await res.json();
-    } catch (e) {
-        console.warn(e);
-    }
-}
-
 async function loadMemberDatabases() {
+    const cacheBuster = `?v=${new Date().getTime()}`;
     const files = [
-        "../store/member/members.json",
-        "../store/member/members_db_hina.json",
-        "../store/member/members_db_keya.json",
-        "../store/member/members_db_saku.json"
+        `../store/member/members.json${cacheBuster}`,
+        `../store/member/members_db_hina.json${cacheBuster}`,
+        `../store/member/members_db_keya.json${cacheBuster}`,
+        `../store/member/members_db_saku.json${cacheBuster}`
     ];
 
     for (const file of files) {
@@ -472,6 +478,7 @@ function buildMonthGrid(monthIndex, isDetailed) {
             let dayStatus = null;
             let statusNote = null;
             
+            // PERBAIKAN: Membaca noteDB dengan format baru
             if (noteDB[yearStr] && noteDB[yearStr][monthStr] && noteDB[yearStr][monthStr][dayStr]) {
                 const noteInfo = noteDB[yearStr][monthStr][dayStr];
                 if (noteInfo[0] === "お休み") {
@@ -596,6 +603,8 @@ function buildMonthGrid(monthIndex, isDetailed) {
         const dayStreams = monthData.filter(s => s.airdate === dateStr);
 
         let dayStatus = null;
+        
+        // PERBAIKAN: Membaca noteDB format baru di grid view
         if (noteDB[yearStr] && noteDB[yearStr][monthStr] && noteDB[yearStr][monthStr][dayStr]) {
             const noteType = noteDB[yearStr][monthStr][dayStr][0];
             if (noteType === "お休み") {
@@ -948,11 +957,14 @@ function openModal(stream) {
         const dateParts = stream.airdate.split(".");
         if (dateParts.length === 3) {
             const year = parseInt(dateParts[0], 10).toString();
-            const month = parseInt(dateParts[1], 10).toString().padStart(2, '0');
-            const day = parseInt(dateParts[2], 10).toString().padStart(2, '0');
+            // PERBAIKAN: Menyesuaikan parsing string menjadi angka yang kompatibel dengan key JSON (misal "06" -> "6", "08" -> "08" tergantung format)
+            const monthRaw = parseInt(dateParts[1], 10).toString();
+            const monthStr = monthRaw.length === 1 ? '0' + monthRaw : monthRaw; // Paksa format MM agar cocok dengan struktur sr_detail_note.json
+            const dayStr = parseInt(dateParts[2], 10).toString().padStart(2, '0');
 
-            if (noteDB[year] && noteDB[year][month] && noteDB[year][month][day]) {
-                const noteInfo = noteDB[year][month][day];
+            // Cek Note
+            if (noteDB[year] && noteDB[year][monthStr] && noteDB[year][monthStr][dayStr]) {
+                const noteInfo = noteDB[year][monthStr][dayStr];
                 if (noteInfo[0] !== "お休み" && noteInfo[0] !== "中止" && noteInfo[1]) {
                     const targetMembers = noteInfo[0].split(",").map(m => m.trim());
                     let isTarget = false;
@@ -973,6 +985,20 @@ function openModal(stream) {
                     }
                 }
             }
+            
+            // Cek Nekojita
+            const titleStr = stream.title || "";
+            if ((typeStr.includes("猫舌") || titleStr.includes("猫舌"))) {
+                 // nekojita.json menggunakan key bulan TANPA leading zero (misal: "6", "10")
+                 const nekoMonthStr = parseInt(dateParts[1], 10).toString(); 
+                 const nekoDayStr = parseInt(dateParts[2], 10).toString(); 
+                 
+                 if (nekojitaDB[year] && nekojitaDB[year][nekoMonthStr] && nekojitaDB[year][nekoMonthStr][nekoDayStr]) {
+                     let temaData = nekojitaDB[year][nekoMonthStr][nekoDayStr];
+                     let temaStr = Array.isArray(temaData) ? temaData.join(" & ") : temaData;
+                     rightHtml += `<div class="modal-data-row"><strong>Tema:</strong> <span>${temaStr}</span></div>`;
+                 }
+            }
         }
     }
 	
@@ -989,29 +1015,6 @@ function openModal(stream) {
     
     if (durationStr) {
         rightHtml += `<div class="modal-data-row"><strong>Durasi:</strong> <span>${durationStr}</span></div>`;
-    }
-
-    const titleStr = stream.title || "";
-    if ((typeStr.includes("猫舌") || titleStr.includes("猫舌")) && stream.airdate) {
-        const dateParts = stream.airdate.split(".");
-        if (dateParts.length === 3) {
-            const year = parseInt(dateParts[0], 10).toString();
-            const month = parseInt(dateParts[1], 10).toString(); 
-            const day = parseInt(dateParts[2], 10).toString();   
-
-            if (nekojitaDB[year] && nekojitaDB[year][month] && nekojitaDB[year][month][day]) {
-                let temaData = nekojitaDB[year][month][day];
-                let temaStr = "";
-                
-                if (Array.isArray(temaData)) {
-                    temaStr = temaData.join(" & ");
-                } else {
-                    temaStr = temaData;
-                }
-                
-                rightHtml += `<div class="modal-data-row"><strong>Tema:</strong> <span>${temaStr}</span></div>`;
-            }
-        }
     }
 
     if (stream.mori_tw_gift) {
