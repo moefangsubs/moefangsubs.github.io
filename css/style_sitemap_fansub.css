@@ -1,4 +1,15 @@
 .fansub-partner {
+    background-color: var(--kakki-o4) !important;
+    border-color: var(--kakki-o2) !important;
+}
+
+#daftar-partner h2 {
+    color: var(--kakki-o1) !important;
+    border-bottom: var(--kakki-ox1) !important;
+}
+
+
+.fansub-partner {
     background-color: var(--moe-tint6);
     padding: 3rem 0;
     width: 100%;
