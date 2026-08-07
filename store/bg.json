@@ -107,7 +107,7 @@
     },
     {
         "type": "image_random",
-        "stat": "on",
+        "stat": "off",
         "urls": [
             "https://ik.imagekit.io/moearchive/db8fxtdb8fxtdb8f.JPG",
             "https://ik.imagekit.io/moearchive/g6gvuzg6gvuzg6gv.JPG",
@@ -119,6 +119,15 @@
             "https://ik.imagekit.io/moearchive/thl08vthl08vthl0.JPG",
             "https://ik.imagekit.io/moearchive/wxczrdwxczrdwxcz.JPG",
             "https://ik.imagekit.io/moearchive/yevb3eyevb3eyevb.JPG"
+        ]
+    },
+    {
+        "type": "image_random",
+        "stat": "on",
+        "urls": [
+            "https://ik.imagekit.io/moearchive/G0QO-xQXYAAeJu4.jpg",
+            "https://ik.imagekit.io/moearchive/G0QO6DIX0AAa8QP.jpg",
+            "https://ik.imagekit.io/moearchive/G0QO6Z9WYAArnbt.jpg"
         ]
     }
 ]

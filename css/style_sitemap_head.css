@@ -1,4 +1,28 @@
 body {
+    background-color: var(--kakki-o1) !important;
+}
+.upd {
+    background: var(--kakki-x1) !important;
+}
+
+.grp {
+    background-color: var(--kakki-o1) !important;
+}
+.cht {
+    background-color: var(--kakki-o4) !important;
+}
+#salam-pembuka .caption strong {
+    color: var(--kakki-g5) !important;
+}
+
+#salam-pembuka .caption .counter, #salam-pembuka .caption #countup-days {
+    font-weight: bold;
+    color: var(--kakki-g5) !important;
+}
+/* -------------------------- */
+
+
+body {
     background-color: var(--moe-shade-min1);
     font-family: 'Space Mono', monospace;
     color: var(--moe-shade-min2);

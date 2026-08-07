@@ -8,6 +8,41 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
+
+/* ========================= */
+
+#daftar-garapan h3 {
+    color: var(--kakki-o5) !important;
+}
+
+.cat-acara-border {
+    background: var(--kakki-ox1) !important;
+}
+
+.cat-acara-shade1 {
+    z-index: -1;
+    background: var(--kakki-ox3) !important;
+}
+.cat-acara-shade2 {
+    z-index: -2;
+    background: var(--kakki-ox2) !important;
+}
+.cat-acara:hover {
+    transform: scale(1.1);
+	z-index:5;
+}
+.cat-acara:hover .cat-acara-border {
+	background: var(--moe-tint2);
+}
+.cat-acara:hover .cat-acara-shade1 {
+    background: var(--moe-tint4);
+}
+.cat-acara:hover .cat-acara-shade2 {
+    background: var(--moe-tint4);
+}
+
+
+/* ========================= */
 #daftar-garapan {
     width: 90%;
 	max-width:1920px;
