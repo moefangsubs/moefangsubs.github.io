@@ -10,8 +10,8 @@
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
-		"51", "52", "53"
-    ],
+		"51", "52", "53", "54", "55", "56"
+	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
     "imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}a.jpg",
@@ -541,6 +541,35 @@
 			"additionalGuests": "氣志團",
 			"linkHardsub": "https://sfl.gl/HVHzKe5",
 			"linkSoftsub": "https://sfl.gl/JPHT"
+		},
+		"54": {
+			"descOnAirDate": "27 Juli 2026",
+			"descSong1": "爆風スランプ 「大きな玉ねぎの下で」",
+			"descSong2": "爆風スランプ 「ええじゃないか2026／Runner」",
+			"descSong3": "ハンバート ハンバート 「笑ったり転んだり」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "爆風スランプ、畠中悠",
+			"linkHardsub": "https://sfl.gl/A3Mg",
+			"linkSoftsub": "https://sfl.gl/O53FW"
+		},
+		"55": {
+			"descOnAirDate": "3 Agustus 2026",
+			"descSong1": "E-girls 「Follow Me」",
+			"descSong2": "ピコ太郎 「PPAP（ペンパイナッポーアッポーペン）」",
+			"descSong3": "ポケットビスケッツ 「YELLOW YELLOW HAPPY」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "ピコ太郎",
+			"linkHardsub": "https://sfl.gl/nDDsufb0",
+			"linkSoftsub": "https://sfl.gl/wcgDM78e"
+		},
+		"56": {
+			"descEpisode": "Episode 56 SP (Nogizaka Skits)",
+			"descOnAirDate": "10 Agustus 2026",
+			"descSkitsA": "「AI恋愛ゲーム バーチャルデー」",
+			"descSkitsB": "「降臨！東京堕天使」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"linkHardsub": "https://sfl.gl/RyqCLDs",
+			"linkSoftsub": "https://sfl.gl/Y0KO"
 		}
     },
     "descEpisode": "| Episode {{eps}}"

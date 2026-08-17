@@ -6,8 +6,10 @@
 	"availableEpisode": [
 		"099", "100", "101",
 		"未公開_230", "未公開_139_140",
-		"190", "191", "192",
-		"198", "199", "200", "201", "202", "203"
+		"172", "173",
+		"183", "184", "190",
+		"191", "192", "198", "199", "200",
+		"201", "202", "203"
 	],
 	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_koujichuu.png",
 	"episodes": {
@@ -56,20 +58,6 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu101d.jpg",
 			"descEpisodeSynopsis": "Episode kali ini masih melanjutkan segmen perkenalan gen-3 yang saat itu baru bergabung. Di bagian terakhir ini akan memperkenalkan sisa member yang belum perkenalan, antara lain Yoda Yuuki, Sakaguchi Tamami, Umezawa Minami, dan Iwamoto Renka."
 		},
-		"未公開_230": {
-			"descEpisode": "| Episode 230 未公開",
-			"descOnAirDate": "18 Agustus 2021",
-			"memberParticipate": "乃木坂46",
-			"linkHardsub": "https://lokerwfh.net/cNUotBZX",
-			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-mokuhyou-taiseichuu-kushizashi-part-rc0nZ",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-mokuhyou-kushizashi.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-d.jpg",
-			"descEpisodeSynopsis": "Disini saya mau ngerilis cut 5 menit dari BluRay Nogizaka Koujichuu Mokuhyou Tasseichuu dari part Endo Sakura dan Kaki Haruka melakukan trik sulap, pastinya bagian 未公開 atau yang tidak dirilis dalam tayangan disiarkan, yaitu Endo akan melakukan trik sulap menusuk Kakki (sambungan dari episode 230)."
-		},
 		"未公開_139_140": {
 			"descEpisode": "| Episode 139-140 未公開",
 			"descOnAirDate": "18 Agustus 2021",
@@ -84,6 +72,80 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-senshuken-nootak2d.jpg",
 			"descEpisodeSynopsis": "Dalam BluRay Nogizaka Koujichuu Senshuken kaisaichuu, terdapat 2 episode full pencarian Ratu No-Otak kedua yang mana telah diraih oleh Wada Maaya beberapa tahun yang lalu. Di full episode ini pastinya ada bagian 未公開 atau yang tidak dirilis dalam tayangan yang disiarkan."
+		},
+		"172": {
+			"descEpisode": "| Episode 172",
+			"descOnAirDate": "9 September 2018",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/buwpHhW",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu172.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu172.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu172a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu172b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu172c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu172d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini menghadirkan bagian pertama dari proyek \"Klub Kuis Presents Kejuaraan Kuis Nogizaka46 ke-1\". Para member ditantang untuk menjawab berbagai pertanyaan kuis mendalam dan unik seputar para member Nogizaka46 itu sendiri."
+		},
+		"173": {
+			"descEpisode": "| Episode 173",
+			"descOnAirDate": "16 September 2018",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/46oKKuI",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu173.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu173.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu173a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu173b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu173c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu173d.jpg",
+			"descEpisodeSynopsis": "Melanjutkan pekan sebelumnya, episode ini merupakan babak penentuan dari proyek \"Klub Kuis Presents Kejuaraan Kuis Nogizaka46 ke-1\". Para member kembali bersaing memperebutkan gelar juara lewat serangkaian kuis dan pertanyaan sulit yang menghibur di studio."
+		},
+		"183": {
+			"descEpisode": "| Episode 183",
+			"descOnAirDate": "25 November 2018",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/eroZwX9k",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu183.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu183.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu183a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu183b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu183c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu183d.jpg",
+			"descEpisodeSynopsis": "Episode kali ini menghadirkan bagian pertama dari proyek \"Klub Menjerit Presents Penentuan Ratu Penakut Nogizaka46\". Demi menentukan siapa member yang paling penakut, mereka diuji dengan berbagai tantangan kejutan dan reaksi menjerit."
+		},
+		"184": {
+			"descEpisode": "| Episode 184",
+			"descOnAirDate": "2 Desember 2018",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/IboccXn",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu184.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu184.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu184a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu184b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu184c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu184d.jpg",
+			"descEpisodeSynopsis": "Melanjutkan babak penentuan dari proyek \"Klub Menjerit Presents Penentuan Ratu Penakut Nogizaka46\", para member kembali dihadapkan pada berbagai jebakan prank dan situasi menegangkan hingga akhirnya terpilihlah sang Ratu Penakut."
+		},
+		"未公開_230": {
+			"descEpisode": "| Episode 230 未公開",
+			"descOnAirDate": "18 Agustus 2021",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/cNUotBZX",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-mokuhyou-taiseichuu-kushizashi-part-rc0nZ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-mokuhyou-kushizashi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-d.jpg",
+			"descEpisodeSynopsis": "Disini saya mau ngerilis cut 5 menit dari BluRay Nogizaka Koujichuu Mokuhyou Tasseichuu dari part Endo Sakura dan Kaki Haruka melakukan trik sulap, pastinya bagian 未公開 atau yang tidak dirilis dalam tayangan disiarkan, yaitu Endo akan melakukan trik sulap menusuk Kakki (sambungan dari episode 230)."
 		},
 		"190": {
 			"descEpisode": "| Episode 190",
@@ -130,7 +192,7 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu192d.jpg",
 			"descEpisodeSynopsis": "Episode kali ini adalah episode perkenalan gen-4 yang saat itu baru bergabung. Di bagian terakhir ini akan memperkenalkan Tamura Mayu, Seimiya Rei, Kakehashi Sayaka, dan Hayakawa Seira."
 		},
-"198": {
+		"198": {
 			"descEpisode": "| Episode 198",
 			"descOnAirDate": "17 Maret 2019",
 			"memberParticipate": "乃木坂46",

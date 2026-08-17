@@ -1,0 +1,44 @@
+{
+	"url": "horiken-no-minna-tomodachi",
+	"nameShowTitle": "Horiken no Minna Tomodachi",
+	"nameShow": "ホリケンのみんなともだち",
+    "descSynopsis": "Horiken no Minna Tomodachi adalah sebuah acara yang dibawakan oleh Ken Horiuchi (Horiken) dari grup lawak terkenal Neptune di TV Asahi. Misi utama acara ini adalah berinteraksi, bersenang-senang, dan \"mencari teman\" dengan berbagai kalangan, mulai dari orang biasa di jalan hingga para idol dan artis. Acara ini menampilkan Horiken yang keluar dari studio untuk mendatangi berbagai tempat, jalanan, kantor, atau festival musim panas.",
+	"availableEpisode": [
+		"250917", "260114", "260729"
+	],
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_horiken.png",
+    "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/horiken_{{eps}}.jpg",
+    "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/horiken_{{eps}}.jpg",
+    "imageThumbAPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/horiken_{{eps}}a.jpg",
+    "imageThumbBPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/horiken_{{eps}}b.jpg",
+    "imageThumbCPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/horiken_{{eps}}c.jpg",
+    "imageThumbDPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/horiken_{{eps}}d.jpg",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/horiken-no-minna-tomodachi-rW6NA",
+	"filePassword": "SahabatSemuaOrang",
+	"episodes": {
+		"250917": {
+			"descEpisode": "| 250917 Horiken no Minna Tomodachi (Ichinose Miku)",
+			"descEpsListName": "250917",
+			"descOnAirDate": "17 September 2025",
+			"memberParticipate": "一ノ瀬美空",
+			"linkHardsub": "https://sfl.gl/lkMnjYV",
+			"descEpisodeSynopsis": "Kali ini Horiken bersama Takahashi Maasa dan Ichinose Miku melakukan studi lapangan ke Try Group guna mengenal lebih dalam sistem pendidikan di Try Shiki Koutou Gakuin serta program kebugaran anak My Gym. Kunjungan ini mengupas fleksibilitas sekolah pendukung SMA sistem jarak jauh dengan bimbingan belajar privat satu lawan satu yang dipersonalisasi, melihat langsung interaksi hangat para siswa di kampus, menggelar sesi konsultasi impian dan masalah masa depan bersama Horiken-sensei, hingga berpartisipasi aktif dalam kegiatan motorik berbahasa Inggris untuk anak usia dini."
+		},
+		"260114": {
+			"descEpisode": "| 260114 Horiken no Minna Tomodachi (Sugawara Satsuki)",
+			"descEpsListName": "260114",
+			"descOnAirDate": "14 Januari 2026",
+			"memberParticipate": "菅原咲月",
+			"linkHardsub": "https://sfl.gl/belS6l",
+			"descEpisodeSynopsis": "Kali ini Horiken bersama Hokuto Akira dan Sugawara Satsuki melakukan studi lapangan interaksi sosial ke Monogatari Corporation untuk mengulas rahasia kesuksesan jaringan restoran all you can eat Yakiniku King cabang Itabashi Maenocho. Selain membongkar keunggulan sistem Layanan Campur Tangan oleh Master Campur Tangan, menu Lima Spesialisasi Utama seperti King Karubi, serta menu musiman Festival Hokkaido, rombongan juga berkunjung ke kantor pusat Monogatari Corporation di Tokyo untuk melihat divisi kerja serta dapur pengembangan menu yang dipimpin Kepala Koki Sato. Kunjungan ini diakhiri dengan kompetisi kreasi racikan nasi lezat Gohan no Hitokuchi-One King antar-karyawan yang dinilai secara ketat dan penuh canda tawa."
+		},
+		"260729": {
+			"descEpisode": "| 260729 Horiken no Minna Tomodachi (Sugawara Satsuki, Tomisato Nao)",
+			"descEpsListName": "260729",
+			"descOnAirDate": "29 Juli 2026",
+			"memberParticipate": "菅原咲月、冨里奈央",
+			"linkHardsub": "https://sfl.gl/fYAeKL",
+			"descEpisodeSynopsis": "Dalam edisi spesial liburan musim panas, Horiken bersama Morimoto, Maruyama Karina, serta Sugawara Satsuki dan Tomisato Nao mengunjungi festival musim panas di TV Asahi Roppongi Hills Complex dan Tokyo Dream Park. Mereka mengikuti tantangan putting golf berhadiah yang disertai hukuman unik menirukan suara jangkrik di tempat umum, mencicipi beragam hidangan kolaborasi dari program Sakura Meets, Chidori TV, hingga Morning Show di area kafe dan beer garden, serta bertanding pickleball sengit dengan sistem beregu yang ditutup dengan eksekusi hukuman bagi tim yang kalah."
+		}
+	}
+}

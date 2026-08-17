@@ -1,0 +1,191 @@
+.ticket-container {
+    background-color: white;
+    padding: 20px;
+    border: 5px solid var(--moe);
+    box-shadow: 4px 4px 0px 0px var(--moe);
+}
+
+.ticket-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--moe);
+    padding-bottom: 10px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    font-size: 14pt;
+    color: var(--moe-shade-max1);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tab-btn.active {
+    color: var(--moe);
+    border-bottom: 3px solid var(--moe);
+}
+
+#ticket-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+@media (min-width: 768px) {
+    #ticket-form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #group-duration,
+    #group-member,
+    #group-drama-multi,
+    #show-warning,
+    .price-display,
+    .form-actions,
+    .email-trakteer-group {
+        grid-column: 1 / -1;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="email"],
+.form-group input[type="url"],
+.form-group select {
+    padding: 8px;
+    border: 2px solid var(--moe);
+    font-family: "Space Mono", monospace;
+    margin-bottom: 5px;
+}
+
+#ticket-code-input, 
+#generated-code-display,
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="url"] {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.note {
+    font-size: 0.8em;
+    color: var(--moe-shade-max2);
+    margin-top: 5px;
+}
+
+.warning-note {
+    font-size: 0.8em;
+    color: red;
+    margin-top: 5px;
+}
+
+.eskrim-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.price-display {
+    border-top: 2px dashed var(--moe);
+    padding-top: 15px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.short-input {
+    max-width: 150px !important;
+}
+
+.admin-action-cell {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.admin-action-cell select {
+    padding: 4px;
+    font-size: 0.85em;
+    margin-bottom: 0;
+}
+
+.btn-apply {
+    background-color: var(--moe);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.email-trakteer-group {
+    margin-top: 20px;
+    border-top: 2px solid var(--moe);
+    padding-top: 20px;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table th, .history-table td {
+    border: 1px solid var(--moe);
+    padding: 8px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.status-badge {
+    padding: 4px 8px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.status-PENDING { background-color: gray; }
+.status-APPROVED { background-color: green; }
+.status-REJECTED { background-color: red; }
+.status-PROGRESS { background-color: blue; }
+.status-PAYMENT { background-color: #d4af37; }
+.status-DONE { background-color: var(--moe); cursor: pointer; }
+.status-SIMULASI { background-color: #ff8c00; }
+
+.member-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+#btn-add-member {
+    background-color: var(--moe);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+

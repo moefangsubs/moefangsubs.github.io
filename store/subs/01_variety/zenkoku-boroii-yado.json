@@ -3,9 +3,10 @@
 	"nameShowTitle": "Zenkoku Boroii Yado",
 	"nameShow": "全国ボロいい宿",
 	"availableEpisode": [
-		"240218", "260215"
+		"240218", "250216", "260215", "260712"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_boroiyado.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/zenkoku-boro-ii-yado-1JBWv",
 	"episodes": {
 		"240218": {
 			"descEpisode": "| 240218 Zenkoku Boroii Yado (Ioki Mao, Sugawara Satsuki, Sasaki Kumi CUT)",
@@ -13,7 +14,6 @@
 			"descOnAirDate": "18 Februari 2024",
 			"memberParticipate": "五百城茉央、菅原咲月、佐々木久美",
 			"linkHardsub": "https://lokerwfh.net/DMEbfR",
-			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/240218-zenkoku-boroii-yado-ioki-mao-x-sugawara-satsuki-cut-Wcqr1",
 			"filePassword": "",
 			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240218_zenkokuboroiiyado.jpg",
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/240218-zenkokuboroiiyado.jpg",
@@ -23,11 +23,27 @@
 			"descEpisodeSynopsis": "Nogizaka46 Berpartisipasi untuk pertama kalinya! Mereka terkesima dengan pengalaman yang unik di pedalaman Chiba! Ioki Mao dan Sugawara Satsuki mengunjungi penginapan yang penuh dengan pemandangan musiman yang indah di Prefektur Chiba. Mereka menemukan telepon hitam di rumah tua dengan atap jerami. Mereka menikmati berbagai \"pengalaman pertama\" yang unik dari penginapan ini, mulai dari rendaman kaki hingga nasi di tungku, hingga mi udon buatan tangan, sambil menjelajahi pesonanya!",
 			"nameShow": "全国ボロいい宿"
 		},
+		"250216": {
+			"descEpisode": "| 250216 Zenkoku Boroii Yado (Hiraoka Mitsuki, Yamashita Haruka)",
+			"descEpsListName": "250216",
+			"descOnAirDate": "16 Februari 2025",
+			"memberParticipate": "平岡海月、山下葉留花",
+			"linkHardsub": "https://sfl.gl/nthxk",
+			"filePassword": "Boroiiyado-Mitsuki-Haruharu",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250216_zenkokuboroiiyado.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250216-zenkokuboroiiyado.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/250216-zenkokuboroiiyado-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/250216-zenkokuboroiiyado-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/250216-zenkokuboroiiyado-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/250216-zenkokuboroiiyado-d.jpg",
+			"descEpisodeSynopsis": "Hiraoka Mitsuki dan Yamashita Haruka dari Hinatazaka46 mengunjungi Yunishigawa Onsen di Prefektur Tochigi untuk mengulas sebuah penginapan populer bernama \"Rokudaime Heiji\" yang dikelola oleh Mikami Masashi. Di penginapan khusus satu rombongan per hari ini, para pengunjung dapat menikmati suasana asri bak vila pribadi sambil ditemani anjing maskot Dam dan Ikariko, menjelajahi alam sekitar dengan bus amfibi, bersantai di pemandian kaki Yunishigawa Mizu no Sato, serta menyantap hidangan khas daerah buatan tangan yang sarat akan kenangan mendalam bersama mendiang sang istri.",
+			"nameShow": "全国ボロいい宿"
+		},
 		"260215": {
-			"descEpisode": "| 260215 Zenkoku Boroii Yado (Matono Mio, Yamashita Shizuki, Sasaki Kumi CUT)",
+			"descEpisode": "| 260215 Zenkoku Boroii Yado (Matono Mio, Yamashita Shizuki)",
 			"descEpsListName": "260215",
 			"descOnAirDate": "15 Februari 2026",
-			"memberParticipate": "的野美青、山下瞳月、佐々木久美",
+			"memberParticipate": "的野美青、山下瞳月",
 			"linkHardsub": "https://sfl.gl/RYxaB9WC",
 			"linkTrakteer": "",
 			"filePassword": "MioShizuki",
@@ -38,6 +54,22 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260215-zenkokuboroiiyado-d.jpg",
 			"descEpisodeSynopsis": "Yamashita Shizuki dan Matono Mio dari Sakurazaka46 kali ini berpartisipasi dalam acara ini. Mereka saat ini mengunjungi penginapan tua bernuansa kereta yang dikelola oleh pasangan suami istri yang sangat ramah di Prefektur Yamanashi. Mereka menemukan paviliun unik bernama Kamar Kereta yang disambut langsung oleh lokomotif Kereta Biru. Mereka menikmati berbagai pengalaman seru dan menghangatkan hati dari penginapan ini, mulai dari memasak bersama nenek hingga menyantap hidangan laut yang sangat mewah."
+		},
+		"260712": {
+			"descEpisode": "| 260712 Zenkoku Boroii Yado (Tomisato Nao, Nakanishi Aruno)",
+			"descEpsListName": "260712",
+			"descOnAirDate": "12 Juli 2026",
+			"memberParticipate": "冨里奈央、中西アルノ",
+			"linkHardsub": "https://sfl.gl/wehvKa",
+			"filePassword": "BoroiiYado-Naonao-Aruno",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260712_zenkokuboroiiyado.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260712-zenkokuboroiiyado.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260712-zenkokuboroiiyado-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260712-zenkokuboroiiyado-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260712-zenkokuboroiiyado-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260712-zenkokuboroiiyado-d.jpg",
+			"descEpisodeSynopsis": "Nakanishi Aruno dan Tomisato Nao dari Nogizaka46 mengunjungi Yamakita-machi di Prefektur Kanagawa untuk mengulas penginapan Houkizawasou yang dikelola seorang diri oleh Sato Naomi. Di penginapan bersejarah yang berhadapan langsung dengan pohon cedar Houki berusia 2000 tahun ini, para tamu dapat menikmati berbagai kegiatan alam seperti berperahu dan bersepeda di Danau Tanzawa, memancing ikan Hatcho yamame di aliran sungai terdekat, membuat kerajinan jimat Kadonyudou, serta menikmati hidangan barbeku berbahan pangan lokal yang menghadirkan kehangatan dan ketenangan dari hiruk-pikuk perkotaan.",
+			"nameShow": "全国ボロいい宿"
 		}
 	}
 }
