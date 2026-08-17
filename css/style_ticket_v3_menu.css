@@ -1,0 +1,392 @@
+/* ---------------------- */
+/* Base Setup */
+/* ---------------------- */
+body {
+    background-color: var(--moe-tint7);
+    color: var(--moe);
+    margin: 0;
+    padding: 40px 10px;
+}
+
+.menu-wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* ---------------------- */
+/* Typographic Elements */
+/* ---------------------- */
+.section-label {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--moe);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.title-total {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* ---------------------- */
+/* Inputs and Forms */
+/* ---------------------- */
+.moe-input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 2px solid var(--moe-tint1);
+    background-color: transparent;
+    color: var(--moe);
+    font-size: 1rem;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Space Mono", monospace;
+}
+
+.moe-input:disabled {
+    background-color: #cccccc;
+    border-color: #999999;
+}
+
+.moe-input::placeholder {
+    color: var(--moe-tint4);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.flex-row {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+    
+.flex-grow {
+    flex-grow: 1;
+}
+
+.wrap-gap {
+    flex-wrap: wrap;
+    gap: 10px 15px;
+}
+
+.grid-label {
+    width: 110px;
+    font-family: "Space Mono", monospace;
+    font-size: 0.9rem;
+}
+
+.short-input {
+    width: 90px;
+}
+
+/* ---------------------- */
+/* Price Boxes */
+/* ---------------------- */
+.price-row {
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.price-box {
+    background-color: var(--moe-tint3);
+    color: white;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.popsicle-icon {
+    width: 20px;
+    height: 20px;
+    fill: #ffb6c1; 
+}
+
+/* ---------------------- */
+/* Headers & Separators */
+/* ---------------------- */
+.order-header {
+    background-color: var(--moe-tint4);
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--moe);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.order-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.add-icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dotted-sep {
+    border: none;
+    border-top: 3px dotted var(--moe);
+    margin: 0;
+    width: 100%;
+}
+
+/* ---------------------- */
+/* Notice Boxes */
+/* ---------------------- */
+.notice-box {
+    background-color: var(--moe-tint6);
+    color: var(--moe-shade-max1);
+    padding: 8px 12px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 0.85rem;
+    margin-top: 2px;
+}
+
+.notice-box-inline {
+    margin-top: 0;
+}
+
+/* ---------------------- */
+/* Custom Checkbox & Radio */
+/* ---------------------- */
+.custom-radio {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.custom-radio input {
+    display: none;
+}
+
+.radio-mark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--moe-shade-max2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.custom-radio input:checked + .radio-mark::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--moe-shade-max2);
+    border-radius: 50%;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.check-mark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--moe-shade-max2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.custom-checkbox input:checked + .check-mark::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: var(--moe-shade-max2);
+}
+
+.radio-text {
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Mono", monospace;
+}
+
+.sub-text {
+    font-size: 0.8rem;
+    color: var(--moe-shade-max1);
+}
+
+/* ---------------------- */
+/* Layout Details */
+/* ---------------------- */
+.verif-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.verif-label {
+    width: 150px;
+    font-family: "Space Mono", monospace;
+}
+
+.verif-options, .verif-input-group {
+    flex-grow: 1;
+}
+
+.action-desc {
+    font-family: "Space Mono", monospace;
+    color: var(--moe);
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.add-order-btn {
+    background-color: var(--moe-tint3);
+    color: white;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+    
+.add-order-btn h2 {
+    color: white;
+}
+
+/* ---------------------- */
+/* Total Section */
+/* ---------------------- */
+.total-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.total-details {
+    flex-grow: 1;
+}
+
+.order-summary-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.order-name {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.dotted-spacer {
+    flex-grow: 1;
+    border-bottom: 2px dotted var(--moe);
+    margin: 0 10px;
+    height: 10px;
+}
+
+.order-price {
+    font-weight: bold;
+    color: var(--moe);
+}
+
+.summary-key-val {
+    padding-left: 20px;
+    font-family: "Space Mono", monospace;
+    font-size: 0.95rem;
+}
+
+.sum-row {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.sum-key {
+    width: 120px;
+}
+
+.total-price-box-wrapper {
+    padding: 10px;
+    border: 3px dotted var(--moe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.box-large {
+    font-size: 3rem;
+    height: 80px;
+    padding: 0 20px;
+    background-color: var(--moe);
+}
+
+.box-large .popsicle-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* ---------------------- */
+/* Button */
+/* ---------------------- */
+.btn-request {
+    background-color: var(--moe);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    align-self: flex-start;
+    font-family: "Space Mono", monospace;
+}
+
+.btn-validasi {
+    background-color: var(--moe-tint1);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-family: "Space Mono", monospace;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn-plus-minus {
+    background-color: var(--moe-tint1);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    background-color: #d8a7ff; 
+}
+
+.ticket-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.ticket-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.lock-img {
+    max-width: 170px;
+    image-rendering: pixelated;
+}
+
+.ticket-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ticket-text h1 {
+    font-size: 5rem;
+    color: var(--moe-shade-max2);
+    margin: 0 0 5px 0;
+    line-height: 1;
+}
+
+.ticket-text p.desc {
+    font-size: 1.2rem;
+    color: var(--moe-shade-min2);
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+}
+
+.ticket-form {
+    display: flex;
+    gap: 15px;
+    align-items: stretch;
+}
+
+.ticket-form input {
+    border: 4px solid var(--moe-tint1);
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    color: var(--moe-tint1);
+    background: white;
+    width: 350px;
+    height: 25px;
+    outline: none;
+}
+
+#passwordForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto !important;
+    padding: 0pt;
+}
+
+.ticket-form input::placeholder {
+    color: var(--moe-tint4);
+}
+
+.ticket-form button {
+    background-color: var(--moe-tint1);
+    border: none;
+    width: 65px;
+    height: 52px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-form button:hover {
+    background-color: var(--moe-shade-max1);
+}
+
+.ticket-form button svg {
+    width: 30px;
+    fill: white;
+}
+
+.ticket-note {
+    font-size: 1rem;
+    color: var(--moe-shade-min2);
+    margin: 10px 0 0 0;
+}
+
+.ticket-menu {
+    display: flex;
+    gap: 40px;
+    font-size: 1.6rem;
+}
+
+.menu-item {
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.menu-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+.menu-item:hover::after {
+    width: 100%;
+}
+
+.menu-riwayat {
+    color: var(--moe-shade-max2);
+}
+
+.menu-simulasi, .menu-admin {
+    color: #fffb00; 
+}
+
+/* ---------------------- */
+/* Mobile Responsive Mode */
+/* ---------------------- */
+@media only screen and (max-width: 768px) {
+    .ticket-wrapper {
+        gap: 50px;
+        padding: 0 20px;
+    }
+
+    .ticket-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ticket-text {
+        align-items: center;
+    }
+
+    .ticket-text h1 {
+        font-size: 3.5rem;
+    }
+
+    .ticket-text p.desc {
+        font-size: 1rem;
+    }
+
+    .ticket-text p.desc br {
+        display: none;
+    }
+
+    .ticket-form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .ticket-form input {
+        width: 100%;
+    }
+
+    .ticket-menu {
+        gap: 20px;
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

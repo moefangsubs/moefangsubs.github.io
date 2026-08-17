@@ -113,15 +113,9 @@
 		"predicturl3"		: "https://www.personality-database.com/"
 	},
 	"金川紗耶": {
-		"type1"				: "絶対に公表しない (Tidak ingin dipublikasikan)",
-		"url"				: "Nogizaka ANN 250611",
- 		"official"			: "yes",
-		"predict1"			: "ESFJ",
-		"predicturl1"		: "https://roilly-idol.com/nogizaka46-mbti",
-		"predict2"			: "ESFP",
-		"predicturl2"		: "https://www.psyctest.cn/",
-		"predict3"			: "ESFP",
-		"predicturl3"		: "https://www.personality-database.com/"
+		"type1"				: "INFP-T",
+		"url"				: "Instagram (Q&A Stories) 260815",
+ 		"official"			: "yes"
 	},
 	"北川悠理": {
  		"official"			: "no",

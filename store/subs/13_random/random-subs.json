@@ -8,7 +8,7 @@
 		"220726", "220728", "220721", "220902", "220910", "221213", "230418", "230627", "230901", "230902", "231117",
 		"231122", "240223", "240103", "240721", "250102", "250816", "250713", "250729", "250731", "231025", 
 		"251221", "251225", "251230", "251231", 
-		"260410", "260418", "260425"
+		"260410", "260418", "260425", "260627", "260722"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_random.png",
 	"episodes": {
@@ -740,6 +740,40 @@
 			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260425_shimajirou.jpg",
 			"descEpisodeSynopsis": "Ichinose Miku tampil sebagai tamu pertama dalam proyek baru bertajuk Shimajiro To di acara Shimajiro no Wow di TV Tokyo mulai April. Penampilan ini berlangsung selama 3 minggu berturut-turut.",
 			"nameShow": "しまじろうのわお！"
+		},
+		"260627": {
+			"descEpisode": "| 260627 Manten Aozora Restaurant",
+			"descEpsListName": "260627",
+			"descOnAirDate": "27 Juni 2026",
+			"memberParticipate": "大園玲、田村保乃",
+			"linkHardsub": "https://sfl.gl/iYIXcZC",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/manten-aozora-restaurant-vV67i",
+			"filePassword": "Manten-ZONO-HONO",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260627_manten_aozora.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260627-aozorarestaurant.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260627-aozorarestaurant-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260627-aozorarestaurant-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260627-aozorarestaurant-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260627-aozorarestaurant-d.jpg",
+			"descEpisodeSynopsis": "Ozono Rei dan Tamura Hono dari Sakurazaka46 berkunjung ke Kota Mishima, Prefektur Shizuoka, untuk memanen langsung komoditas unggulan lereng Hakone Barat yang dijuluki ratunya kentang, yaitu Kentang Mishima. Kentang varietas May Queen yang tumbuh di tanah humus vulkanik subur ini memiliki kulit tipis berkilau, tekstur sangat lembut, serta cita rasa manis alami yang khas. Melalui bimbingan para ahli dan juru masak setempat, hasil panen tersebut diolah menjadi aneka hidangan lezat seperti kentang kukus murni, salad kentang gaya Jepang dengan udang sakura, kroket khas Mishima yang renyah, sup kental dingin, hingga olahan daging masak kentang dan nasi jagung mentega yang memanjakan lidah.",
+			"nameShow": "満天☆青空レストラン"
+		},
+		"260722": {
+			"descEpisode": "| 260722 70-goushitsu no Juunin",
+			"descEpsListName": "260722",
+			"descOnAirDate": "22 Juli 2026",
+			"memberParticipate": "賀喜遥香",
+			"linkHardsub": "https://sfl.gl/Wy7IdId",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/70-goushitsu-no-juunin-X1jil",
+			"filePassword": "HarukachanKawaiisugiru",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260722_70goushitsunojuunin.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260722-70goushitsunojuunin.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/260722-70goushitsunojuunin-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/260722-70goushitsunojuunin-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/260722-70goushitsunojuunin-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/260722-70goushitsunojuunin-d.jpg",
+			"descEpisodeSynopsis": "Kaki Haruka dari Nogizaka46 hadir sebagai bintang tamu dalam siaran langsung program 70-Goushitsu no Juunin yang dipandu oleh Tooyama Daisuke. Di sela kesibukan jadwal turnya, mereka membicarakan kesan penyelenggaraan Birthday Live di Tokyo Dome, perilisan single ke-42 bertajuk \"Zehi ni Oyobazu\" yang kental dengan nuansa rock, hingga peragaan sorakan koreografi handuk untuk konser mendatang. Keseruan berlanjut saat keduanya memainkan permainan \"PICO PARK 2\" secara spontan, sebelum akhirnya ditutup dengan pemberian hadiah aneka ragam cokelat untuk dinikmati di sela kegiatan berikutnya.",
+			"nameShow": "70号室の住人"
 		}
 	}
 }
