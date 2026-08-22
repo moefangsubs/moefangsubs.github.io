@@ -2,7 +2,7 @@
     "url": "zenkoku-tour",
     "nameShowTitle": "Manatsu no Zenkoku Tour",
     "availableEpisode": [
-        "2015", "2019_2", "2016_2", "2023_1", "2023_2", "2023_3", "2023_4", "2024_1", "2024_2", "2024_3", "2025_1", "2025_2", "2025_3", "2025_4", "2026_1"
+        "2015", "2019_2", "2016_2", "2023_1", "2023_2", "2023_3", "2023_4", "2024_1", "2024_2", "2024_3", "2025_1", "2025_2", "2025_3", "2025_4", "2026_1", "2026_2"
     ],
     "newUpdateCount": 4,
     "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_zenkoku.png",
@@ -232,6 +232,21 @@
             "imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d1d.jpg",
             "descEpisodeSynopsis": "Konser final tur nasional Nogizaka46 \"Manatsu no Zenkoku Tour 2026\" resmi dibuka di Stadion Meiji Jingu dengan Ichinose Miku sebagai kapten tur. Hari pertama ini menjadi panggung kejutan kembalinya Masuda Mirine dari masa hiatus, menyatukan kembali 11 member generasi ke-6 untuk pertama kalinya dalam kurun 1 tahun 3 bulan, sekaligus diumumkannya tur nasional perdana khusus generasi ke-6.",
             "nameShow": "乃木坂46 真夏の全国ツアー 2026 in 東京 @ 明治神宮 DAY 1"
+        },
+		"2026_2": {
+            "descEpisode": "| Nogizaka46 Manatsu no Zenkoku Tour 2026 FINAL! in Tokyo DAY 2",
+            "descEpsListName": "2026 DAY 2",
+            "descOnAirDate": "21 Agustus 2026",
+            "memberParticipate": "乃木坂46",
+            "linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-manatsu-no-zenkoku-tour-2026-in-tokyo-at-meiji-jingu-stadium-fyttx",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2026.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d2.jpg",
+            "imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d2a.jpg",
+            "imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d2b.jpg",
+            "imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d2c.jpg",
+            "imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d2d.jpg",
+            "descEpisodeSynopsis": "Konser hari kedua \"Manatsu no Zenkoku Tour 2026\" di Stadion Meiji Jingu berlangsung penuh energi di tengah guyuran hujan. Bersamaan dengan perayaan hari jadi terbentuknya Nogizaka46, konser dimeriahkan deretan lagu musim panas, kembalinya atraksi semprotan air, duet emosional member termuda di lagu \"Nigemizu\", hingga aksi memukau Ogawa Aya membawakan \"Nichijou\".",
+            "nameShow": "乃木坂46 真夏の全国ツアー 2026 in 東京 @ 明治神宮 DAY 2"
         }
     }
 }
