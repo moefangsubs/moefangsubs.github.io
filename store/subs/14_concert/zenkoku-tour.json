@@ -2,7 +2,7 @@
     "url": "zenkoku-tour",
     "nameShowTitle": "Manatsu no Zenkoku Tour",
     "availableEpisode": [
-        "2015", "2019_2", "2016_2", "2023_1", "2023_2", "2023_3", "2023_4", "2024_1", "2024_2", "2024_3", "2025_1", "2025_2", "2025_3", "2025_4", "2026_1", "2026_2"
+        "2015", "2019_2", "2016_2", "2023_1", "2023_2", "2023_3", "2023_4", "2024_1", "2024_2", "2024_3", "2025_1", "2025_2", "2025_3", "2025_4", "2026_1", "2026_2", "2026_3"
     ],
     "newUpdateCount": 4,
     "IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_zenkoku.png",
@@ -247,6 +247,21 @@
             "imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d2d.jpg",
             "descEpisodeSynopsis": "Konser hari kedua \"Manatsu no Zenkoku Tour 2026\" di Stadion Meiji Jingu berlangsung penuh energi di tengah guyuran hujan. Bersamaan dengan perayaan hari jadi terbentuknya Nogizaka46, konser dimeriahkan deretan lagu musim panas, kembalinya atraksi semprotan air, duet emosional member termuda di lagu \"Nigemizu\", hingga aksi memukau Ogawa Aya membawakan \"Nichijou\".",
             "nameShow": "乃木坂46 真夏の全国ツアー 2026 in 東京 @ 明治神宮 DAY 2"
+        },
+		"2026_3": {
+            "descEpisode": "| Nogizaka46 Manatsu no Zenkoku Tour 2026 FINAL! in Tokyo DAY 3",
+            "descEpsListName": "2026 DAY 3",
+            "descOnAirDate": "22 Agustus 2026",
+            "memberParticipate": "乃木坂46",
+            "linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-manatsu-no-zenkoku-tour-2026-in-tokyo-at-meiji-jingu-stadium-fyttx",
+            "imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_zenkokutour2026.jpg",
+            "imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d3.jpg",
+            "imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d3a.jpg",
+            "imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d3b.jpg",
+            "imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d3c.jpg",
+            "imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/zenkokutour2026d3d.jpg",
+            "descEpisodeSynopsis": "Konser hari ke-3 \"Manatsu no Zenkoku Tour 2026\" di Meiji Jingu Stadium sempat tertunda akibat cuaca ekstrem dan hujan lebat sebelum pembukaan. Meskipun penonton basah kuyup dan menghadapi kendala teknis, antusiasme tetap membara sepanjang konser saat para member tampil maksimal membawakan seluruh setlist hingga akhir.",
+            "nameShow": "乃木坂46 真夏の全国ツアー 2026 in 東京 @ 明治神宮 DAY 3"
         }
     }
 }
