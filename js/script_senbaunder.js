@@ -56,7 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const idWithUnderscore = idWithHyphen.replaceAll('-', '_');
             const memberLink = `../moedata/member.html?id=${idWithHyphen}`;
             const displayCount = counts[index] === 1 ? '初' : counts[index];
-            return `<a href="${memberLink}" target="_blank" rel="noopener noreferrer"><div class="pictm"><img src="https://ik.imagekit.io/moearchive/web/memberprofile/s${String(num).padStart(3, '0')}/${idWithUnderscore}.png" alt="${name}"><div class="berapa">${displayCount}</div></div></a>`;
+            const baseUrl = `https://ik.imagekit.io/moearchive/web/memberprofile/s${String(num).padStart(3, '0')}/${idWithUnderscore}`;
+            return `<a href="${memberLink}" target="_blank" rel="noopener noreferrer"><div class="pictm"><img src="${baseUrl}.png" alt="${name}" onerror="if(!this.dataset.retry){this.dataset.retry='1';this.src='${baseUrl}.PNG';}"><div class="berapa">${displayCount}</div></div></a>`;
         }).join('');
         return `<div class="pictm-container">${memberLinks}</div>`;
     };

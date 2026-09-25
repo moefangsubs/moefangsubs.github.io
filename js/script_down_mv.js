@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     mainContainer.innerHTML = '<p style="color:white;text-align:center;">Memuat data MV...</p>';
 
+    // ----------------------
+	// Special Titles
+	// ----------------------
     const specialTitles = {
         nogizaka46: {
             "a1": "Toumei na Iro", "a2": "Sorezore no Isu", "a3": "Umarete kara Hajimete Mita Yume",
@@ -17,14 +20,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         sakurazaka: { "a01": "As You Know?", "a02": "Addiction" },
         keyakizaka: {
             "a01": "Masshiro na Mono wa Yogoshitakunaru", "b01": "Eien yori Nagai Isshun", "dig": "Dare ga Sono Kane o Narasu no ka?"
+        },
+        aobazaka: {
+            "dig01": "Audition"
         }
     };
 
+	// ----------------------
+	// Page Config
+	// ----------------------
     const pageConfig = {
         'sub-mv-48-46.html': [
             { key: 'keyakizaka', path: '../store/single/songall_46keyaki.json', title: 'Keyakizaka46', className: 'skr' },
             { key: 'sakurazaka', path: '../store/single/songall_46sakura.json', title: 'Sakurazaka46', className: 'skr' },
-            { key: 'hinatazaka', path: '../store/single/songall_46hinata.json', title: 'Hinatazaka46', className: 'hnt' }
+            { key: 'hinatazaka', path: '../store/single/songall_46hinata.json', title: 'Hinatazaka46', className: 'hnt' },
+            { key: 'aobazaka', path: '../store/single/songall_46aoba.json', title: 'Aobazaka46', className: 'abz' }
         ],
         'sub-mv-nogizaka46.html': [
             { key: 'nogizaka46', path: '../store/single/songall.json', title: 'Nogizaka46', className: 'n46' }

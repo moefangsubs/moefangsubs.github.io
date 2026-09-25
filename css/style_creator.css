@@ -248,6 +248,13 @@ tr:hover { background-color: #f5f0ff; }
 .bg-soft-hinata { background-color: rgba(124, 199, 232, 0.3); }
 .bg-soft-boku { background-color: rgba(42, 117, 211, 0.3); }
 
+[data-theme="aoba"] { --theme-base: #00B6AD; --theme-bg-soft: rgba(0, 182, 173, 0.2); }
+
+.text-aoba { color: #00B6AD; }
+.bg-aoba { background-color: #00B6AD; color: white; }
+.border-aoba { background-color: transparent; border: 1px solid #00B6AD; color: #00B6AD; }
+.bg-soft-aoba { background-color: rgba(0, 182, 173, 0.2); }
+
 .group-stats > span {
     display: flex;
     align-items: center;
