@@ -8,20 +8,28 @@ const loadingElement = document.getElementById('loadingElement');
 const creatorContainer = document.getElementById('creatorContainer');
 const groupIconPreview = document.getElementById('groupIconPreview');
 
+// ----------------------
+// Data Paths
+// ----------------------
 const dataPaths = {
     nogi: '../store/single/songall.json',
     keya: '../store/single/songall_46keyaki.json',
     sakura: '../store/single/songall_46sakura.json',
     hinata: '../store/single/songall_46hinata.json',
+    aoba: '../store/single/songall_46aoba.json',
     boku: '../store/single/songall_bokuao.json'
 };
 
+// ----------------------
+// Group Metadata
+// ----------------------
 const groupMeta = {
     all: { icon: '../sprite/element/group/8bit_sakamichi.png' },
     nogi: { icon: '../sprite/element/group/8bit_nogi.png', color: 'text-nogi', bg: 'bg-nogi', border: 'border-nogi', bgSoft: 'bg-soft-nogi' },
     keya: { icon: '../sprite/element/group/8bit_keya.png', color: 'text-keya', bg: 'bg-keya', border: 'border-keya', bgSoft: 'bg-soft-keya' },
     sakura: { icon: '../sprite/element/group/8bit_saku.png', color: 'text-sakura', bg: 'bg-sakura', border: 'border-sakura', bgSoft: 'bg-soft-sakura' },
     hinata: { icon: '../sprite/element/group/8bit_hina.png', color: 'text-hinata', bg: 'bg-hinata', border: 'border-hinata', bgSoft: 'bg-soft-hinata' },
+    aoba: { icon: '../sprite/element/group/8bit_aoba.png', color: 'text-aoba', bg: 'bg-aoba', border: 'border-aoba', bgSoft: 'bg-soft-aoba' },
     boku: { icon: '../sprite/element/group/8bit_bokuao.png', color: 'text-boku', bg: 'bg-boku', border: 'border-boku', bgSoft: 'bg-soft-boku' }
 };
 

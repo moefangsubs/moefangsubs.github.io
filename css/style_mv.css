@@ -55,6 +55,31 @@
 .hnt:before {background-image: url('../ico/8bit_hina.png');}
 .n46:before {background-image: url('../ico/8bit_n46.png');}
 
+/* --------------------- */
+/* Aobazaka Theme        */
+/* --------------------- */
+.abz:before {
+	content: "";
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+	vertical-align: middle;
+	background-image: url('../ico/8bit_aoba.png');
+}
+
+.single-container[data-theme="aobazaka"] {
+    --theme-main: var(--aoba7);
+    --theme-border: var(--aoba2);
+    --theme-badge: var(--aoba5);
+    --theme-bg: var(--aoba0);
+    --theme-btn: var(--aoba4);
+    --theme-btn-hover: var(--aoba5);
+    --theme-btn-shadow: var(--aoba6);
+}
+
 .single-container {
     --theme-main: var(--moe);
     --theme-border: var(--moe-tint5);
