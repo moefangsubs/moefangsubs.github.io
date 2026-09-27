@@ -92,107 +92,107 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 	async function init() {
-        if(loadingOverlay) loadingOverlay.style.display = 'flex';
+		if(loadingOverlay) loadingOverlay.style.display = 'flex';
 
-        let showName = null;
-        let status = null;
-        let episodeNumber = null;
+		let showName = null;
+		let status = null;
+		let episodeNumber = null;
 
-        if (window.location.hash && window.location.hash.length > 1) {
-            const hashParts = window.location.hash.substring(1).split('/').filter(Boolean);
+		if (window.location.hash && window.location.hash.length > 1) {
+			const hashParts = window.location.hash.substring(1).split('/').filter(Boolean).map(decodeURIComponent);
 
-            if (hashParts[0] === 'comingsoon') {
-                status = 'comingsoon';
-            } else {
-                showName = hashParts[0];
-                episodeNumber = hashParts[1];
-            }
-        } 
-        else {
-            const params = new URLSearchParams(window.location.search);
-            showName = params.get('show');
-            status = params.get('status');
-            episodeNumber = params.get('eps');
-        }
+			if (hashParts[0] === 'comingsoon') {
+				status = 'comingsoon';
+			} else {
+				showName = hashParts[0];
+				episodeNumber = hashParts[1];
+			}
+		} 
+		else {
+			const params = new URLSearchParams(window.location.search);
+			showName = params.get('show');
+			status = params.get('status');
+			episodeNumber = params.get('eps');
+		}
 		
-        if (status === 'comingsoon') {
-            renderComingSoon();
-            return;
-        }
+		if (status === 'comingsoon') {
+			renderComingSoon();
+			return;
+		}
 
-        if (!showName) {
-            handleNoShowSelected();
-            if(loadingOverlay) loadingOverlay.style.display = 'none';
-            return;
-        }
+		if (!showName) {
+			handleNoShowSelected();
+			if(loadingOverlay) loadingOverlay.style.display = 'none';
+			return;
+		}
 
-        try {
-            [membersData, warningsData, faqData, updatesData] = await Promise.all([
-                fetchData(MEMBERS_DATA_PATH),
-                fetchData(WARNINGS_DATA_PATH),
-                fetchData(FAQ_DATA_PATH),
+		try {
+			[membersData, warningsData, faqData, updatesData] = await Promise.all([
+				fetchData(MEMBERS_DATA_PATH),
+				fetchData(WARNINGS_DATA_PATH),
+				fetchData(FAQ_DATA_PATH),
 				fetchData(UPDATES_DATA_PATH)
-            ]);
+			]);
 
-            const showInfo = await fetchShowData(showName);
-            if (!showInfo) throw new Error(`Show data for "${showName}" not found.`);
-            
-            currentShowData = showInfo.data;
-            currentShowPath = showInfo.path;
-            document.title = `${currentShowData.nameShowTitle} | MoeFang Subs`;
-            
-            const isSingleEpisodeView = currentShowPath.includes('08_movie/') || currentShowPath.includes('09_stage/');
+			const showInfo = await fetchShowData(showName);
+			if (!showInfo) throw new Error(`Show data for "${showName}" not found.`);
+			
+			currentShowData = showInfo.data;
+			currentShowPath = showInfo.path;
+			document.title = `${currentShowData.nameShowTitle} | MoeFang Subs`;
+			
+			const isSingleEpisodeView = currentShowPath.includes('08_movie/') || currentShowPath.includes('09_stage/');
 
-            if (isSingleEpisodeView && (!currentShowData.availableEpisode || currentShowData.availableEpisode.length === 0)) {
-                currentShowData.availableEpisode = ["01"];
-            }
+			if (isSingleEpisodeView && (!currentShowData.availableEpisode || currentShowData.availableEpisode.length === 0)) {
+				currentShowData.availableEpisode = ["01"];
+			}
 
-            if (!episodeNumber && currentShowData.availableEpisode && currentShowData.availableEpisode.length > 0) {
-                episodeNumber = currentShowData.availableEpisode[0]; 
-                
-                let newUrl;
-                if (window.location.hash) {
-                    newUrl = `#/${showName}/${episodeNumber}`;
-                } else {
-                    newUrl = `?show=${showName}&eps=${episodeNumber}`;
-                }
-                history.replaceState({ episode: episodeNumber }, '', newUrl);
-            }
+			if (!episodeNumber && currentShowData.availableEpisode && currentShowData.availableEpisode.length > 0) {
+				episodeNumber = currentShowData.availableEpisode[0]; 
+				
+				let newUrl;
+				if (window.location.hash) {
+					newUrl = `#/${showName}/${episodeNumber}`;
+				} else {
+					newUrl = `?show=${showName}&eps=${episodeNumber}`;
+				}
+				history.replaceState({ episode: episodeNumber }, '', newUrl);
+			}
 
-            renderWarningBox(currentShowPath, showName, episodeNumber);
-            
-            if (isSingleEpisodeView) {
-                const episodeListWrapper = document.querySelector('#episode-list-container')?.closest('.pixel-border-wrapper');
-                if (episodeListWrapper) {
-                    episodeListWrapper.remove();
-                }
+			renderWarningBox(currentShowPath, showName, episodeNumber);
+			
+			if (isSingleEpisodeView) {
+				const episodeListWrapper = document.querySelector('#episode-list-container')?.closest('.pixel-border-wrapper');
+				if (episodeListWrapper) {
+					episodeListWrapper.remove();
+				}
 
-                const contentContainerWrapper = document.querySelector('#content-container')?.closest('.pixel-border-wrapper');
-                if (contentContainerWrapper) {
-                    contentContainerWrapper.style.flex = '1 1 100%';
-                    contentContainerWrapper.style.maxWidth = '100%';
-                }
-            } else {
-                renderEpisodeList(currentShowData, episodeNumber);
-                addEpisodeNavigationHandler();
-            }
+				const contentContainerWrapper = document.querySelector('#content-container')?.closest('.pixel-border-wrapper');
+				if (contentContainerWrapper) {
+					contentContainerWrapper.style.flex = '1 1 100%';
+					contentContainerWrapper.style.maxWidth = '100%';
+				}
+			} else {
+				renderEpisodeList(currentShowData, episodeNumber);
+				addEpisodeNavigationHandler();
+			}
 
-            if (episodeNumber) {
-                await renderEpisodeContent(currentShowData, episodeNumber, currentShowPath);
-                renderFaq(currentShowData, episodeNumber);
-            } else {
-                handleShowWithoutEpisode();
-            }
-            
-            window.addEventListener('popstate', handlePopState);
+			if (episodeNumber) {
+				await renderEpisodeContent(currentShowData, episodeNumber, currentShowPath);
+				renderFaq(currentShowData, episodeNumber);
+			} else {
+				handleShowWithoutEpisode();
+			}
+			
+			window.addEventListener('popstate', handlePopState);
 
-        } catch (error) {
-            console.error('Error loading show data:', error);
-            contentContainer.innerHTML = '<h2>Error: Acara tidak ditemukan.</h2><p>Pastikan parameter URL `show` sudah benar dan file JSON ada.</p>';
-        } finally {
-            if(loadingOverlay) loadingOverlay.style.display = 'none';
-        }
-    }
+		} catch (error) {
+			console.error('Error loading show data:', error);
+			contentContainer.innerHTML = '<h2>Error: Acara tidak ditemukan.</h2><p>Pastikan parameter URL `show` sudah benar dan file JSON ada.</p>';
+		} finally {
+			if(loadingOverlay) loadingOverlay.style.display = 'none';
+		}
+	}
 	
     async function fetchData(url) {
         const response = await fetch(url);
@@ -303,30 +303,30 @@ document.addEventListener('DOMContentLoaded', () => {
             episodeListContainer.scrollIntoView({ behavior: 'smooth' });
         }
     }
+	
+	function addEpisodeNavigationHandler() {
+		if (!episodeListContainer) return;
+		episodeListContainer.addEventListener('click', (event) => {
+			const episodeLink = event.target.closest('.episode-item');
+			if (!episodeLink) return;
+			event.preventDefault();
 
-    function addEpisodeNavigationHandler() {
-        if (!episodeListContainer) return;
-        episodeListContainer.addEventListener('click', (event) => {
-            const episodeLink = event.target.closest('.episode-item');
-            if (!episodeLink) return;
-            event.preventDefault();
+			let newEpisodeNumber = null;
+			const href = episodeLink.getAttribute('href');
 
-            let newEpisodeNumber = null;
-            const href = episodeLink.getAttribute('href');
+			if (href.includes('#/')) {
+				const parts = href.split('/');
+				newEpisodeNumber = decodeURIComponent(parts[parts.length - 1]); 
+			} else {
+				const url = new URL(episodeLink.href);
+				newEpisodeNumber = url.searchParams.get('eps');
+			}
 
-            if (href.includes('#/')) {
-                const parts = href.split('/');
-                newEpisodeNumber = parts[parts.length - 1]; 
-            } else {
-                const url = new URL(episodeLink.href);
-                newEpisodeNumber = url.searchParams.get('eps');
-            }
-
-            if (currentShowData && newEpisodeNumber) {
-                loadEpisode(newEpisodeNumber);
-            }
-        });
-    }
+			if (currentShowData && newEpisodeNumber) {
+				loadEpisode(newEpisodeNumber);
+			}
+		});
+	}
 
     function loadEpisode(episodeNumber) {
         if (!currentShowData || !episodeNumber) return;
