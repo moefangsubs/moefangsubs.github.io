@@ -4,14 +4,35 @@
 	"nameShow": "日向坂になりましょう-五期生成長バラエティ-",
 	"descSynopsis": "\"Hinatazaka ni Narimashou\", yang dimulai pada April 2023 dengan member gen-4, kini diperbarui menjadi acara untuk gen-5 yang baru saja bergabung pada Maret 2025. Sama seperti gen-4, ini adalah acara variety tentang pertumbuhan (growth variety show), di mana para member akan belajar banyak hal dari para senior di dunia hiburan agar bisa aktif di berbagai bidang seperti acara variety, drama, radio, konser, teater, hingga model.",
 	"availableEpisode": [
-		"21",
-		"21-bangai"
+		"14", "14-bangai", "21", "21-bangai", "25", "25-bangai", "26" 
 	],
 	"IMGSitemap"	: "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_hinanari.png",
 	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/hinanari-{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-{{eps}}.jpg",
 	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/hinatazaka-ni-narimashou-QnZhI",
 	"episodes": {
+		"14": {
+			"descEpisode": "| Episode 14",
+			"descEpsListName": "14",
+			"descOnAirDate": "5 Januari 2026",
+			"memberParticipate": "大田美月、大野愛実、片山紗希、蔵盛妃那乃、坂井新奈、佐藤優羽、下田衣珠季、高井俐香、鶴崎仁香、松尾桜",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14d.jpg",
+			"descEpisodeSynopsis": "Menyambut tahun baru, seluruh member berkumpul dan dibagi menjadi Tim Timur dan Tim Barat untuk bersaing dalam pertarungan variety bertema shio kuda yang dipandu oleh instruktur impersiasi ternama. Mengawali proyek dengan penyampaian resolusi, persaingan sengit pun pecah melalui berbagai tantangan seru, mulai dari monoboke penentu tim, estafet bakiak sambil menyelesaikan permainan tradisional bernostalgia, tebak gaya cepat, tebak pikiran sehati seputar member dan grup, hingga perebutan wortel dan ekor yang berakhir dengan kemenangan Tim Barat serta hukuman jus wortel super asam bagi Tim Timur"
+		},
+		"14-bangai": {
+			"descEpisode": "| Episode 14 Bangaihen",
+			"descEpsListName": "14 番外編",
+			"descOnAirDate": "12 Januari 2026",
+			"memberParticipate": "大田美月、大野愛実、片山紗希、蔵盛妃那乃、坂井新奈、佐藤優羽、下田衣珠季、高井俐香、鶴崎仁香、松尾桜",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14-bangai_a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14-bangai_b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14-bangai_c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-14-bangai_d.jpg",
+			"descEpisodeSynopsis": "Melanjutkan perayaan tahun baru dalam episode khusus, member gen-5 terbagi ke dalam pertarungan Tim Timur melawan Tim Barat pada Kompetisi Bakat Tersembunyi Singkat Perdana. Demi memperebutkan hadiah mewah, setiap member tampil bergantian membawakan aksi dan lelucon unik yang belum pernah diperlihatkan sebelumnya, mulai dari menyapa dalam sepuluh bahasa sambil membengkokkan sendok, memainkan melodi dengan kazoo, aksi berdiri dengan tangan, impersonasi karakter animasi sambil menyindir rekan seangkatan, hingga tantangan menebak member lewat aroma dan kepekaan jam biologis yang mengundang gelak tawa."
+		},
 		"21": {
 			"descEpisode": "| Episode 21",
 			"descEpsListName": "21",
@@ -35,6 +56,39 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21-bangai_c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-21-bangai_d.jpg",
 			"descEpisodeSynopsis": "Pada episode bangaihen ini, keempat member kembali bersaing dalam \"Pertarungan Penentuan Ratu Pasta\"! Dengan batas waktu 15 menit, mereka harus memasak pasta andalan masing-masing yang akan dinilai langsung oleh Mizuta-sensei demi memperebutkan gelar Ratu Pasta."
+		},
+		"25": {
+			"descEpisode": "| Episode 25",
+			"descEpsListName": "25",
+			"descOnAirDate": "15 Juni 2026",
+			"memberParticipate": "大田美月、大野愛実、片山紗希、蔵盛妃那乃、坂井新奈、佐藤優羽、下田衣珠季、高井俐香、鶴崎仁香、松尾桜",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25d.jpg",
+			"descEpisodeSynopsis": "Merayakan tepat satu tahun perjalanan gen-5 di Hinanari, seluruh member berkumpul di Prefektur Saitama bersama duo instruktur Rainbow untuk merangkum hasil pertumbuhan mereka lewat pertarungan tim bertajuk Tim Takoyaki melawan Tim Keberanian. Berbagai materi latihan yang pernah dipelajari kembali diuji melalui kuis adu cepat seputar kejadian masa lalu, reka ulang pose jurus andalan, tebak nama masakan, wawasan gaya bisbol, adu napas panjang pada teknik vokal, lempar bola bertema pose sok imut, hingga ketangkasan menjawab di tantangan Five Bomber yang berjalan penuh persaingan ketat."
+		},
+		"25-bangai": {
+			"descEpisode": "| Episode 25 Bangaihen",
+			"descEpsListName": "25 番外編",
+			"descOnAirDate": "22 Juni 2026",
+			"memberParticipate": "大田美月、大野愛実、片山紗希、蔵盛妃那乃、坂井新奈、佐藤優羽、下田衣珠季、高井俐香、鶴崎仁香、松尾桜",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25-bangai_a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25-bangai_b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25-bangai_c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-25-bangai_d.jpg",
+			"descEpisodeSynopsis": "Di sela pertarungan sengit babak penentuan, seluruh member beristirahat sejenak sambil menikmati makan siang bersama sekaligus menunjukkan kemampuan memasak melalui bekal buatan sendiri. Beragam menu unik diperlihatkan sejak pagi buta, mulai dari tart cokelat lumer, nasi gapao kaya rempah, bento klasik berhias sosis gurita, bento karakter Miffy dan Rilakkuma yang rumit, racikan abura soba bertabur bumbu khusus, hamburg bentuk hati, hingga onigiri gulung daging dan panekuk mini yang mewarnai waktu istirahat penuh kehangatan."
+		},
+		"26": {
+			"descEpisode": "| Episode 26",
+			"descEpsListName": "26",
+			"descOnAirDate": "29 Juni 2026",
+			"memberParticipate": "大田美月、大野愛実、片山紗希、蔵盛妃那乃、坂井新奈、佐藤優羽、下田衣珠季、高井俐香、鶴崎仁香、松尾桜",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-26a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-26b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-26c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/hinanari/hinanari-26d.jpg",
+			"descEpisodeSynopsis": "Persaingan sengit antara Tim Takoyaki dan Tim Keberanian mencapai klimaksnya melalui deretan segmen penentu, mulai dari uji kecepatan refleks dalam sesi oogiri, estafet lari tongkat putar, balapan dramatis Mario Kart, spontanitas satu kata judul segmen, adu ketahanan plank, sinkronisasi dialog ala karakter pengisi suara, relay menirukan tokoh secara maksimal, hingga duel home run bisbol yang berujung kemenangan dramatis untuk Tim Keberanian. Menandai episode penutup peralihan estafet, seluruh member gen-5 merefleksikan proses kedewasaan mereka dengan meneriakkan pesan berharga kepada diri sendiri di masa lalu sebagai ungkapan terima kasih atas perjalanan satu tahun yang penuh kenangan sebelum melangkah ke program berikutnya."
 		}
 	}
 }

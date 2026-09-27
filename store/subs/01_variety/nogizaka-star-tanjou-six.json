@@ -4,13 +4,14 @@
     "nameShowTitle": "Nogizaka Star Tanjou! SIX",
     "nameShow": "乃木坂スター誕生！SIX",
     "descSynopsis": "Serial variety musik Nogizaka Star Tanjou! yang sebelumnya dibintangi oleh para senpai dari gen-4 dan 5 Nogizaka46, kini memasuki musim baru! Di musim ini, para member gen-6 yang bergabung pada musim semi 2025 akan menantang diri mereka! Meskipun baru saja debut, mereka akan mengasah kemampuan vokal mereka dengan membawakan lagu-lagu legendaris lintas zaman! MC yang akan mendampingi perkembangan para member gen-6 adalah Ozwald! Selain itu, para member senpai juga akan mendukung mereka yang untuk pertama kalinya mencoba tampil dalam variety show dan talk show! Bersama Ozwald dan para senpai, pesona fresh para member gen-6 akan disajikan untuk para penonton!",
-    "availableEpisode": [
+	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10", 
 		"11", "12", "13", "14", "15", "16", "17", "18", "19", "20", 
 		"21", "22", "23", "24", "25", "26", "27", "28", "29", "30", 
-		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40",
-		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
-		"51", "52", "53", "54", "55", "56"
+		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
+		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50", 
+		"51", "52", "53", "54", "55", "56", "57", "58", "59", "60", 
+		"61", "62"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
@@ -570,6 +571,65 @@
 			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
 			"linkHardsub": "https://sfl.gl/RyqCLDs",
 			"linkSoftsub": "https://sfl.gl/Y0KO"
+		},
+		"57": {
+			"descEpisode": "Episode 57 SP (Nogizaka Skits)",
+			"descOnAirDate": "17 Agustus 2026",
+			"descSkitsA": "「芸人オーディション」",
+			"descSkitsB": "「魔法少女モエモエカ」",
+			"descSkitsC": "「聖飢魔46」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"linkHardsub": "https://sfl.gl/802m5awF",
+			"linkSoftsub": "https://sfl.gl/5UbvfJeb"
+		},
+		"58": {
+			"descOnAirDate": "24 Agustus 2026",
+			"descSong1": "マカロニえんぴつ 「夏恋センセーション」",
+			"descSong2": "阿部真央 「貴方の恋人になりたいのです」",
+			"descSong3": "trf 「EZ DO DANCE」",
+			"descSong4": "trf 「survival dAnce ~no no cry more~」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "DJ KOO",
+			"linkHardsub": "https://sfl.gl/Joo4F",
+			"linkSoftsub": "https://sfl.gl/m1yEP"
+		},
+		"59": {
+			"descOnAirDate": "31 Agustus 2026",
+			"descSong1": "HIPPY 「君に捧げる応援歌」",
+			"descSong2": "高橋優 「福笑い」",
+			"descSong3": "岡本真夜 「TOMORROW」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "岡本真夜",
+			"linkHardsub": "https://sfl.gl/ebbiF",
+			"linkSoftsub": "https://sfl.gl/NY3GMNJ"
+		},
+		"60": {
+			"descOnAirDate": "7 September 2026",
+			"descSong1": "WANIMA 「やってみよう」",
+			"descSong2": "Do As Infinity 「陽のあたる坂道」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "Do As Infinity",
+			"linkHardsub": "https://sfl.gl/1vF04azV",
+			"linkSoftsub": "https://sfl.gl/6bi7dl"
+		},
+		"61": {
+			"descOnAirDate": "14 September 2026",
+			"descSong1": "クレイジーウォウウォ！！ 「トンツカタンタン」",
+			"descSong2": "SHISHAMO 「私のままで」",
+			"descSong3": "川嶋あい 「旅立ちの日に…」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "川嶋あい",
+			"linkHardsub": "https://sfl.gl/ihHdcFvc",
+			"linkSoftsub": "https://sfl.gl/Cg9dEl"
+		},
+		"62": {
+			"descOnAirDate": "21 September 2026",
+			"descSong1": "Every Little Thing 「Time goes by」",
+			"descSong2": "KENTO MORI 「Step into the Moon」",
+			"memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+			"additionalGuests": "KENTO MORI",
+			"linkHardsub": "https://sfl.gl/v0Bd",
+			"linkSoftsub": "https://sfl.gl/6qPtN"
 		}
     },
     "descEpisode": "| Episode {{eps}}"

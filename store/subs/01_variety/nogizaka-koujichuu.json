@@ -4,11 +4,10 @@
 	"nameShow": "乃木坂工事中",
 	"descSynopsis": "\"Nogizaka Under Construction\" atau \"Nogizaka Koujichuu\" merupakan acara variety show dari Nogizaka46 dengan MC duo komedian Bananaman. Acara ini bisa dibilang kelanjutan dari acara sebelumnya, yaitu \"Nogizaka tte, Doko?\" yang tayang di stasiun TV yang sama, TV Tokyo pada hari minggu pukul 24:00-24:30 JST. Setiap minggunya pada awalnya, satu member dipilih untuk mempresentasikan program yang ingin dia lakukan. Dibandingkan dengan \"Nogizaka tte, Doko?\", dimana setiap member sebagai protagonis project, yang akan lebih menunjukkan karakteristik dan pesona masing-masing member. Namun tipe seperti itu dibatalkan setelah ep25.",
 	"availableEpisode": [
-		"099", "100", "101",
-		"未公開_230", "未公開_139_140",
-		"172", "173",
-		"183", "184", "190",
-		"191", "192", "198", "199", "200",
+		"099", "100", 
+		"101", "未公開_139_140",
+		"172", "173","183", "184", "190", "191", "192", "198", "199", "200",
+		"未公開_230", "253", "未公開_267", "未公開_268_269",
 		"201", "202", "203"
 	],
 	"IMGSitemap" : "https://ik.imagekit.io/moearchive/menu-button/newbanner_var_koujichuu.png",
@@ -132,20 +131,6 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu184c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu184d.jpg",
 			"descEpisodeSynopsis": "Melanjutkan babak penentuan dari proyek \"Klub Menjerit Presents Penentuan Ratu Penakut Nogizaka46\", para member kembali dihadapkan pada berbagai jebakan prank dan situasi menegangkan hingga akhirnya terpilihlah sang Ratu Penakut."
-		},
-		"未公開_230": {
-			"descEpisode": "| Episode 230 未公開",
-			"descOnAirDate": "18 Agustus 2021",
-			"memberParticipate": "乃木坂46",
-			"linkHardsub": "https://lokerwfh.net/cNUotBZX",
-			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-mokuhyou-taiseichuu-kushizashi-part-rc0nZ",
-			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-mokuhyou-kushizashi.jpg",
-			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi.jpg",
-			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-a.jpg",
-			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-b.jpg",
-			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-c.jpg",
-			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-d.jpg",
-			"descEpisodeSynopsis": "Disini saya mau ngerilis cut 5 menit dari BluRay Nogizaka Koujichuu Mokuhyou Tasseichuu dari part Endo Sakura dan Kaki Haruka melakukan trik sulap, pastinya bagian 未公開 atau yang tidak dirilis dalam tayangan disiarkan, yaitu Endo akan melakukan trik sulap menusuk Kakki (sambungan dari episode 230)."
 		},
 		"190": {
 			"descEpisode": "| Episode 190",
@@ -287,6 +272,65 @@
 			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu203c.jpg",
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu203d.jpg",
 			"descEpisodeSynopsis": "Tur pembersihan poin hukuman di Okinawa memasuki babak penentuan melalui kuis Kompetisi Selera Oleh-Oleh khas Okinawa dengan anggaran lima ribu yen di Depot Island. Namun, permainan sesungguhnya yang dinilai adalah ketepatan waktu untuk kembali dalam batas waktu lima belas menit. Episode ini ditutup dengan pengumuman hasil akhir perolehan poin hukuman dan pengumuman formasi member senbatsu untuk single ke-23."
+		},
+		"未公開_230": {
+			"descEpisode": "| Episode 230 未公開",
+			"descOnAirDate": "18 Agustus 2021",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://lokerwfh.net/cNUotBZX",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-mokuhyou-taiseichuu-kushizashi-part-rc0nZ",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-mokuhyou-kushizashi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/nuc-mokuhyou-taiseichuu-kushizashi-d.jpg",
+			"descEpisodeSynopsis": "Disini saya mau ngerilis cut 5 menit dari BluRay Nogizaka Koujichuu Mokuhyou Tasseichuu dari part Endo Sakura dan Kaki Haruka melakukan trik sulap, pastinya bagian 未公開 atau yang tidak dirilis dalam tayangan disiarkan, yaitu Endo akan melakukan trik sulap menusuk Kakki (sambungan dari episode 230)."
+		},
+		"253": {
+			"descEpisode": "| Episode 253",
+			"descOnAirDate": "12 April 2020",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/vtaWV",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuu253.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu253.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu253a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu253b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu253c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/koujichuu253d.jpg",
+			"descEpisodeSynopsis": "Bananaman menyusup ke area belakang panggung Nagoya Dome menjelang hari ketiga perhelatan 8th Year Birthday Live untuk memantau persiapan serta kondisi para member Nogizaka46 sebelum tampil membawakan puluhan lagu. Mengamati aneka katering hidangan lokal, aktivitas santai di ruang tunggu, gladi resik kilat menjelang konser, hingga drama emosional Mukai Hazuki, Bananaman ikut bergabung dalam lingkaran penyemangat dan membawakan pengumuman informasi penonton di balik layar sebelum menikmati jalannya konser hingga penyerahan bingkisan kue Piyorin khas Nagoya, yang kemudian ditutup dengan penampilan langsung member gen-2 membawakan lagu Anastasia."
+		},
+		"未公開_267": {
+			"descEpisode": "| Episode 267 未公開",
+			"descOnAirDate": "19 Juli 2020",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/8pz3YG3g",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-monomane-267.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-267.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-267a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-267b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-267c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-267d.jpg",
+			"descEpisodeSynopsis": "Bersumber dari potongan Blu-ray Monomane-chuu yang memuat obrolan pembuka dan penutup bersama Takayama Kazumi, Wada Maaya, dan Hayakawa Seira, episode ini menayangkan kembalinya syuting studio melalui ajang Nogizaka Uchiwa Uke Monomane Taishou ke-3 babak pertama. Berbagai kebiasaan unik dan sisi tersembunyi para member di balik panggung ditirukan secara jenaka, mulai dari gaya bicara serta ekspresi jadul Shinuchi Mai, luapan pose penutup Ito Riria di lagu Boku no Shoudou, tingkah manja Ikuta Erika di transportasi umum, pembawaan gaul Tsutsui Ayame, reaksi canggung Saito Asuka, langkah geser anggun Nakada Kana, kebiasaan Yamazaki Rena yang tiba-tiba menyela obrolan, hingga ekspresi khas guru koreografi saat berpikir keras."
+		},
+		"未公開_268_269": {
+			"descEpisode": "| Episode 268-269 未公開",
+			"descOnAirDate": "26 Juli 2020",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/xNGNZ",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/showcase/nogizaka-koujichuu-kLpTE",
+			"filePassword": "Koujichuu_Bananaman",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/variety/koujichuubd-monomane-268-269.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-268-269.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-268-269a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-268-269b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-268-269c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/koujichuu/nuc-monomane-268-269d.jpg",
+			"descEpisodeSynopsis": "Bersumber dari potongan Blu-ray Monomane-chuu yang dilengkapi komentar eksklusif Takayama Kazumi, Wada Maaya, dan Hayakawa Seira, ajang Nogizaka Uchiwa Uke Monomane Taishou ke-3 berlanjut ke babak penentuan dengan deretan tiruan lelucon internal yang semakin heboh. Persaingan menampilkan minimnya barang bawaan serta trik penyelundupan camilan Hagi no Tsuki oleh Wada Maaya, ekspresi khas Kaki Haruka di kotak reaksi, respon datar Hori Miona, sahutan sopan Umezawa Minami, pelafalan unik Yakubo Mio, kepatuhan Suzuki Ayane terhadap panggilan Ito Junna, bahasa gaul ruang ganti Iwamoto Renka dan Sakaguchi Tamami, sifat manja Hayakawa Seira, hingga rentetan kebiasaan Takayama Kazumi yang mengantarkan Hayakawa Seira merebut gelar juara utama sekaligus mematahkan rekor kemenangan beruntun milik Wada Maaya."
 		}
 	}
 }
