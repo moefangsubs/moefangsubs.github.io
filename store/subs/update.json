@@ -1,5 +1,11 @@
 [
 	{
+	"date": "261001",
+	"updates": [
+		{"showId": "under-live", "eps": "17"}
+		]
+	},
+	{
 	"date": "260927",
 	"updates": [
 		{"showId": "nogizaka-star-tanjou-six", "eps": "57"},
@@ -16,82 +22,6 @@
 		{"showId": "hinatazaka-ni-narimashou", "eps": "25"},
 		{"showId": "hinatazaka-ni-narimashou", "eps": "25-bangai"},
 		{"showId": "hinatazaka-ni-narimashou", "eps": "26"}
-		]
-	},
-	{
-	"date": "260925",
-	"updates": [
-		{"showId": "random-subs", "eps": "260925"}
-		]
-	},
-	{
-	"date": "260825",
-	"updates": [
-		{"showId": "zenkoku-tour", "eps": "2026_4"}
-		]
-	},
-	{
-	"date": "260824",
-	"updates": [
-		{"showId": "zenkoku-tour", "eps": "2026_3"}
-		]
-	},
-	{
-	"date": "260822",
-	"updates": [
-		{"showId": "zenkoku-tour", "eps": "2026_2"}
-		]
-	},
-	{
-	"date": "260821",
-	"updates": [
-		{"showId": "zenkoku-tour", "eps": "2026_1"}
-		]
-	},
-	{
-	"date": "260817",
-	"updates": [
-		{"showId": "nogizaka-star-tanjou-six", "eps": "54"},
-		{"showId": "nogizaka-star-tanjou-six", "eps": "55"},
-		{"showId": "nogizaka-star-tanjou-six", "eps": "56"},
-		{"showId": "nogizaka-escape-season-2", "eps": "05"},
-		{"showId": "nogizaka-escape-season-2", "eps": "06"},
-		{"showId": "nogizaka-koujichuu", "eps": "172"},
-		{"showId": "nogizaka-koujichuu", "eps": "173"},
-		{"showId": "nogizaka-koujichuu", "eps": "183"},
-		{"showId": "nogizaka-koujichuu", "eps": "184"},
-		{"showId": "zenkoku-boroii-yado", "eps": "250216"},
-		{"showId": "zenkoku-boroii-yado", "eps": "260712"},
-		{"showId": "horiken-no-minna-tomodachi", "eps": "250917"},
-		{"showId": "horiken-no-minna-tomodachi", "eps": "260114"},
-		{"showId": "horiken-no-minna-tomodachi", "eps": "260729"},
-		{"showId": "random-subs", "eps": "260627"},
-		{"showId": "random-subs", "eps": "260722"}
-		]
-	},
-	{
-	"date": "260805",
-	"updates": [
-		{"showId": "live-performance", "eps": "23"},
-		{"showId": "live-performance", "eps": "24"},
-		{"showId": "live-performance", "eps": "25"},
-		{"showId": "live-performance", "eps": "26"},
-		{"showId": "live-performance", "eps": "27"},
-		{"showId": "live-performance", "eps": "28"}
-		]
-	},
-	{
-	"date": "260802",
-	"updates": [
-		{"showId": "nogizaka-escape-season-2", "eps": "03"},
-		{"showId": "nogizaka-escape-season-2", "eps": "04"},
-		{"showId": "showroom", "eps": "57"},
-		{"showId": "showroom", "eps": "58"},
-		{"showId": "showroom", "eps": "59"},
-		{"showId": "nogizaka-gakuen-houkago-nicchoku-talk", "eps": "260722"},
-		{"showId": "nogizaka-gakuen-houkago-nicchoku-talk", "eps": "260727"},
-		{"showId": "concert", "eps": "13"},
-		{"showId": "concert", "eps": "14"}
 		]
 	}
 ]
