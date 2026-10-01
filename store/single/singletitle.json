@@ -16,7 +16,7 @@
 		"underTitle" : {"春のメロディー" : "Haru no Melody"}
 	},
 	"5" : {
-		"senbatsuTitle" : {"君の名は希望" : "Kimino Na wa Kibou"},
+		"senbatsuTitle" : {"君の名は希望" : "Kimi no Na wa Kibou"},
 		"underTitle" : {"13日の金曜日" : "13nichi no Kinyoubi"}
 	},
 	"6" : {
@@ -28,7 +28,7 @@
 		"underTitle" : {"初恋の人を今でも" : "Hatsukoi no Hito o Ima demo"}
 	},
 	"8" : {
-		"senbatsuTitle" : {"気づいたら片想い" : "Kiduitara Kataomoi"},
+		"senbatsuTitle" : {"気づいたら片想い" : "Kidzuitara Kataomoi"},
 		"underTitle" : {"生まれたままで" : "Umareta mama de"}
 	},
 	"9" : {
@@ -36,7 +36,7 @@
 		"underTitle" : {"ここにいる理由" : "Koko ni Iru Riyuu"}
 	},
 	"10" : {
-		"senbatsuTitle" : {"何度目の青空か？" : "Nandome no Aozoraka"},
+		"senbatsuTitle" : {"何度目の青空か？" : "Nandome no Aozora ka?"},
 		"underTitle" : {"あの日 僕は咄嗟に嘘をついた" : "Ano Hi Boku wa Tossa ni Uso o Tsuita"}
 	},
 	"11" : {
@@ -84,7 +84,7 @@
 		"underTitle" : {"三角の空き地" : "Sankaku no Akichi"}
 	},
 	"22" : {
-		"senbatsuTitle" : {"帰り道は遠回りしたくなる" : "Kaerimichi wa Toomawari Shitaku naru"},
+		"senbatsuTitle" : {"帰り道は遠回りしたくなる" : "Kaerimichi wa Toomawari shitaku naru"},
 		"underTitle" : {"日常" : "Nichijou"}
 	},
 	"23" : {
@@ -103,7 +103,7 @@
 		"underTitle" : {"口ほどにもないKISS" : "Kuchi hodo ni mo Nai Kiss"}
 	},
 	"27" : {
-		"senbatsuTitle" : {"ごめんねFingers crossed" : "Gomenne Fingers Crossed"},
+		"senbatsuTitle" : {"ごめんねFingers crossed" : "Gomenne Fingers crossed"},
 		"underTitle" : {"錆びたコンパス" : "Sabita Compass"}
 	},
 	"28" : {
@@ -115,11 +115,11 @@
 		"underTitle" : {"届かなくたって…" : "Todokanakutatte..."}
 	},
 	"30" : {
-		"senbatsuTitle" : {"好きというのはロックだぜ！" : "Suki To iu no wa Rock Daze"},
+		"senbatsuTitle" : {"好きというのはロックだぜ！" : "Suki to iu no wa Rock da ze!"},
 		"underTitle" : {"Under's Love" : "Under's Love"}
 	},
 	"31" : {
-		"senbatsuTitle" : {"ここにはないもの" : "Koko ni wa Naimono"},
+		"senbatsuTitle" : {"ここにはないもの" : "Koko ni wa Nai mono"},
 		"underTitle" : {"悪い成分" : "Warui Seibun"}
 	},
 	"32" : {
@@ -151,7 +151,7 @@
 		"underTitle" : {"交感神経優位" : "Koukanshinkei Yuui"}
 	},
 	"39" : {
-		"senbatsuTitle" : {"Same numbers" : "Same Numbers"}
+		"senbatsuTitle" : {"Same numbers" : "Same numbers"}
 	},
 	"40" : {
 		"senbatsuTitle" : {"ビリヤニ" : "Biryani"},

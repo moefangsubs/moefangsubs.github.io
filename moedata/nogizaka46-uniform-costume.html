@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja" data-page-name="uniform-costume">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="id">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+
+    <title>MoeData | Nogizaka46 Uniform Collection</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/footer.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_uniform.css">
+</head>
+
+<body oncontextmenu="return false;">
+    <div class="contentpage container">
+        <!-- ---------------------- -->
+        <!-- HEADER SECTION -->
+        <!-- ---------------------- -->
+        <header class="uniform-header">
+            <h1 class="page-title">Nogizaka Uniform Collection</h1>
+        </header>
+
+        <!-- ---------------------- -->
+        <!-- TEXT-ONLY TAB NAVIGATION -->
+        <!-- ---------------------- -->
+        <nav class="category-nav-bar" id="categoryNav"></nav>
+
+        <!-- ---------------------- -->
+        <!-- MAIN SHOWCASE STAGE (SPLIT 50:50) -->
+        <!-- ---------------------- -->
+        <main class="uniform-split-layout">
+            <section class="split-col split-visual-col">
+                <div class="carousel-control-row">
+                    <button type="button" class="nav-arrow nav-prev" id="navPrev" aria-label="Item Sebelumnya">&lsaquo;</button>
+
+                    <div class="stage-viewport" id="stageViewport">
+                        <canvas id="canvasBase" class="display-canvas is-visible"></canvas>
+                        <canvas id="canvasTop" class="display-canvas"></canvas>
+                    </div>
+
+                    <button type="button" class="nav-arrow nav-next" id="navNext" aria-label="Item Selanjutnya">&rsaquo;</button>
+                </div>
+
+                <div class="version-thumbnail-strip" id="versionThumbnails"></div>
+            </section>
+
+            <!-- Kolom Kanan: 50% Detail Info Judul -->
+            <section class="split-col split-info-col">
+                <div class="info-content-card">
+                    <div class="single-counter" id="singleBadge">1st Single</div>
+                    <h2 class="single-title-romaji" id="titleRomaji">-</h2>
+                    <div class="single-title-japanese jpn" id="titleJpn"></div>
+                </div>
+            </section>
+        </main>
+    </div>
+	<p class="intro-description">
+		Projek arsip ini saya hadirkan sebagai bentuk dokumentasi visual perjalanan seragam dan kostum Nogizaka46 dari setiap era. Seluruh rangkuman ini murni saya susun berdasarkan riset mandiri dari berbagai arsip penampilan (tayangan variety, foto media resmi, event tertentu), screenshot, hingga referensi kompilasi arsip seperti 'N46 Tsutsui Ayame Collection' yang koleksinya terhenti cukup lama dan terpaut jauh dengan single saat ini.
+		<br/>
+		<br/>
+		Proses penelitian ini sendiri sudah saya mulai sejak akhir Juli 2026. Khusus untuk kategori 制服 (seifuku) atau seragam harian resmi (PDH), saya menghabiskan waktu (kalau ditotalkan) sekitar 5 hingga 6 hari hanya untuk membedah detail variasi dan potongan pola tiap versinya. Sementara untuk projek berikutnya, yaitu 衣装 (ishou) alias kostum panggung, baik yang dikenakan di MV, konser, maupun acara musik TV, saat ini baru terkumpul sebagian kecil. Bagian ishou ini kemungkinan besar butuh waktu pengerjaan yang jauh lebih panjang karena variasi dan detail potongannya jauh lebih kompleks sehingga perlu dicek silang berulang kali.
+		<br/>
+		<br/>
+		Perlu dicatat bahwa seluruh visual kostum di halaman ini direkonstruksi menggunakan bantuan AI. Oleh karena itu, potensi adanya deviasi atau ketidakakuratan minor tetap ada, walaupun saya pribadi selalu berusaha semaksimal mungkin mengoreksi detail krusialnya, mulai dari motif dan bentuk dasi/pita, bentuk kerah, lambang emblem bordir, hingga warna dan tekstur kain aslinya. Semoga arsip kecil ini bisa bermanfaat buat teman-teman sesama penggemar!
+		<br/>
+		<br/>
+		Ada masukan seperti kekeliruan atau tambahan data? Silakan DM via Instagram.
+	</p>
+
+    <script type="text/javascript" src="../js/script_uniform.js"></script>
+</body>
+</html>
