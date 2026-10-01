@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": "single_uniform",
+      "title": "Single Uniform",
+      "type": "single",
+      "prefix": "制服",
+      "base_url": "https://ik.imagekit.io/moearchive/web/collection/n46/uniform/",
+      "max_single": 42,
+      "enabled": true
+    },
+    {
+      "id": "generation_uniform",
+      "title": "Generation Uniform",
+      "type": "generation",
+      "prefix": "制服",
+      "base_url": "https://ik.imagekit.io/moearchive/web/collection/n46/uniform_gen/",
+      "enabled": true
+    },
+    {
+      "id": "single_costume",
+      "title": "Single Costume",
+      "type": "costume",
+      "prefix": "衣装",
+      "base_url": "https://ik.imagekit.io/moearchive/web/collection/n46/costume/",
+      "max_single": 42,
+      "enabled": false,
+      "tooltip": "Data masih dalam proses pengembangan data"
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "type": "other",
+      "prefix": "その他",
+      "base_url": "https://ik.imagekit.io/moearchive/web/collection/n46/other/",
+      "max_single": 10,
+      "enabled": false,
+      "tooltip": "Data masih dalam proses pengembangan data"
+    }
+  ]
+}

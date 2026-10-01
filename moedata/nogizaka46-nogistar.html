@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja" data-page-name="nogistar">
+<head>
+    <!-- ---------------------- -->
+    <!-- Meta -->
+    <!-- ---------------------- -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+	
+    <!-- ---------------------- -->
+    <!-- Title -->
+    <!-- ---------------------- -->
+    <title>MoeData | Daftar Lagu & Partipasi Member di Nogizaka Star Tanjou</title>
+	
+    <!-- ---------------------- -->
+    <!-- Fonts -->
+    <!-- ---------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- ---------------------- -->
+    <!-- Firebase -->
+    <!-- ---------------------- -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+    <!-- ---------------------- -->
+    <!-- Layout Components -->
+    <!-- ---------------------- -->
+    <script type="text/javascript" src="../js/navbar.js"></script>
+    <script type="text/javascript" src="../js/footer.js"></script>
+	
+    <!-- ---------------------- -->
+    <!-- Stylesheets -->
+    <!-- ---------------------- -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_nogistar.css">
+
+    <!-- ---------------------- -->
+    <!-- Script -->
+    <!-- ---------------------- -->
+    <script type="text/javascript" src="../js/script_nogistar.js" defer></script>
+</head>
+
+<body>
+    <div class="contentpage container">
+        <!-- ---------------------- -->
+        <!-- Title Section -->
+        <!-- ---------------------- -->
+        <div class="titlehead">
+            <h1>Daftar Lagu & Partipasi Member di Nogizaka Star Tanjou</h1>
+        </div>
+
+        <!-- ---------------------- -->
+        <!-- Project Description -->
+        <!-- ---------------------- -->
+        <div class="justify intro-text">
+            Nogizaka Star Tanjou! (乃木坂スター誕生！) merupakan serial variety musik legendaris di mana para member Nogizaka46 menunjukkan kemampuan vokal mereka dengan membawakan lagu-lagu hits lintas era Showa, Heisei, hingga Reiwa, baik secara solo, kolaborasi antar member, maupun duet bersama para penyanyi asli. Dimulai dari tantangan generasi ke-4 (Season 1 & 2), diteruskan oleh generasi ke-5 dalam Chou Nogizaka Star Tanjou! (Season 3–5), hingga era generasi ke-6 dalam Nogizaka Star Tanjou! SIX (Season 6). Melalui halaman ini, kamu dapat menelusuri riwayat penampilan setiap lagu, mencari kombinasi penampilan bersama antar member, serta mengakses rilisan takarir dan pencarian lagu aslinya di YouTube.
+        </div>
+
+        <!-- ---------------------- -->
+        <!-- Search & Filter Box -->
+        <!-- ---------------------- -->
+        <div class="filter-box boxs2">
+            <div class="filter-header">
+                <h2>Filter Penampilan & Member</h2>
+                <div class="status-toggle-wrapper">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="toggle-active-status" checked>
+                        <span class="slider"></span>
+                    </label>
+                    <span id="toggle-status-label" class="toggle-label">Member Aktif Saja</span>
+                </div>
+            </div>
+
+            <div class="filter-instruction">
+                Pilih satu atau beberapa member di bawah untuk menemukan lagu yang dibawakan secara bersama:
+            </div>
+
+            <div id="member-selection-container" class="member-selection-grid"></div>
+
+            <div class="search-actions-bar">
+                <input type="text" id="input-search-text" class="input-search-box" placeholder="Cari judul lagu, artis asli, atau bintang tamu...">
+                <button type="button" id="btn-reset-filter" class="btn-reset">Reset Pilihan</button>
+            </div>
+
+            <div class="filter-summary">
+                <span id="selected-member-count">0 member dipilih</span>
+                <span id="total-result-count">Memuat data...</span>
+            </div>
+        </div>
+
+        <!-- ---------------------- -->
+        <!-- Result Box -->
+        <!-- ---------------------- -->
+        <div id="song-result-container" class="song-result-grid"></div>
+
+        <div class="rectangle"></div>
+    </div>
+</body>
+</html>
