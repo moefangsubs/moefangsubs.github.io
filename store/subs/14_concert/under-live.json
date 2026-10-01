@@ -3,7 +3,7 @@
 	"nameShowTitle": "Under Live",
 	"availableEpisode": [
 		"01", "02", "03", "04", "05", "06", "07", "08", "09", "10",
-		"11", "12", "13", "14", "15", "16"
+		"11", "12", "13", "14", "15", "16", "17"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_underlive.png",
@@ -263,6 +263,21 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/41stunderlive3d.jpg",
 			"descEpisodeSynopsis":"Hari terakhir konser menjadi momen emosional dengan digelarnya upacara kelulusan Sato Rika di hadapan ribuan penggemar. Suasana haru menyelimuti arena saat Rika menyampaikan pesan perpisahan terakhirnya, sementara seluruh member memberikan penghormatan sebagai bentuk dukungan bagi langkah barunya di luar grup.",
 			"nameShow": "乃木坂46 41thSG アンダーライブ ～佐藤璃果卒業セレモニー～"
+		},
+		"17": {
+			"descEpisode": "| Nogizaka46 42ndSG Under Live DAY 2",
+			"descEpsListName": "42SG DAY 2",
+			"descOnAirDate": "30 September 2026",
+			"memberParticipate": "乃木坂46",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-42nd-sg-underlive-11fiT",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_underlive42d2.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/42ndunderlive2.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/42ndunderlive2a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/42ndunderlive2b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/42ndunderlive2c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/42ndunderlive2d.jpg",
+			"descEpisodeSynopsis": "Digelar di Tokyo Gymnasium setelah 9 tahun, '42ndSG Under Live' menampilkan 14 member dengan Ogawa Aya sebagai center lagu 'Fortissimo'. Menghadirkan konsep jalanan yang memukau lewat permainan piano, gitar akustik, drum kaleng, hingga dance energik, setiap member menunjukkan pesonanya masing-masing sebelum ditutup dengan pidato haru penuh tekad dari Ogawa.",
+			"nameShow": "乃木坂46 42ndSG アンダーライブ DAY2"
 		}
 	}
 }
