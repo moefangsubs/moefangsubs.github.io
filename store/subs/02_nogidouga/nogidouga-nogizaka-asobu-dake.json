@@ -6,7 +6,7 @@
 	"availableEpisode": [
 		"17", "18",
 		"44a", "44b", "47", "48", "49", "50a", "50b",
-		"54", "58", "70", "71", "72", "76", "81"
+		"54", "58", "70", "71", "72", "76", "77", "77-bangai", "81", "83"
 	],
 	"newUpdateCount": 2,
 	"IMGSitemap":"https://ik.imagekit.io/moearchive/menu-button/newbanner_var_asobudake.png",
@@ -222,6 +222,34 @@
 			"descEpisodeSynopsis": "Dalam segmen pembuka tahun ini, keempat member bermain Karuta melalui permainan papan populer Karuuta yang baru pertama kali dicoba oleh member selain Iwamoto, hingga membuat Karuta orisinal Nogizaka46 dengan memanfaatkan kreativitas serta kemampuan menggambar.",
 			"nameShow": "乃木坂あそぶだけ"
 		},
+		"77": {
+			"descEpisode": "| Episode 77",
+			"descOnAirDate": "30 Januari 2026",
+			"memberParticipate": "賀喜遥香、柴田柚菜、井上和、菅原咲月",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka-asobu-dake-77-2qSWM",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77d.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Proyek karaoke yang sangat dinantikan para member akhirnya terwujud! Kami menghadirkan momen santai mereka layaknya sedang berkaraoke secara privat. Rasakan keseruan seolah ikut bernyanyi bersama keempat member!",
+			"nameShow": "乃木坂あそぶだけ"
+		},
+		"77-bangai": {
+			"descEpisode": "| Episode 77 番外編",
+			"descOnAirDate": "11 Februari 2026",
+			"memberParticipate": "賀喜遥香、柴田柚菜、井上和、菅原咲月",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka-asobu-dake-77-2qSWM",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77-bangai.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77-bangaia.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77-bangaib.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77-bangaic.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake77-bangaid.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Dari episode karaoke yang mendapat sambutan luar biasa kemarin, kami hadirkan kompilasi edisi intisari khusus yang memuat adegan-adegan unreleased yang tidak sempat masuk ke episode utama!",
+			"nameShow": "乃木坂あそぶだけ"
+		},
 		"81": {
 			"descEpisode": "| Episode 81",
 			"descOnAirDate": "8 Mei 2026",
@@ -234,6 +262,19 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake81d.jpg",
 			"subLanguage": "Bahasa Indonesia",
 			"descEpisodeSynopsis": "Nogizaka Asobu Dake #81 【Mari Mengobrol Sambil Tiduran!】 Kali ini, Ichinose dan Ogawa hanya akan menghabiskan waktu dengan bersantai di atas kasur sebelum tidur. Kami akan menyajikan keseharian mereka berdua yang memang sering pergi berlibur ataupun menginap bersama, hampir tanpa proses pemotongan (un-cut). Semuanya, silakan tonton tayangan ini sebagai teman sebelum kalian tidur.",
+			"nameShow": "乃木坂あそぶだけ"
+		},
+		"83": {
+			"descEpisode": "| Episode 83 前編",
+			"descOnAirDate": "1 Agustus 2026",
+			"memberParticipate": "池田瑛紗、岩本蓮加、大越ひなの、小川彩、川端晃菜、田村真佑、筒井あやめ、吉田綾乃クリスティー",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake83.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake83a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake83b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake83c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/asobudake/asobudake83d.jpg",
+			"subLanguage": "Bahasa Indonesia",
+			"descEpisodeSynopsis": "Ide dari Ogawa Aya! Member tertua dan termuda dari tiap generasi dibagi ke dalam tim untuk bebas bermain dengan bujet 10.000 yen. Mulai dari jeritan di wahana taman bermain hingga berbelanja barang kembaran di mall.",
 			"nameShow": "乃木坂あそぶだけ"
 		}
 	}
