@@ -1,6 +1,9 @@
 /* ---------------------- */
 /* Poll Container         */
 /* ---------------------- */
+.poll-main-wrapper {
+    margin: 10pt 25pt;
+}
 #poll-senbatsu-container {
     background-color: var(--moe-tint7);
     border: 4px solid var(--moe);
@@ -102,15 +105,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    max-width: 800px;
+    max-width: 720px;
     margin: 0 auto 20px auto;
-}
-
-@media only screen and (max-width: 768px) {
-    .poll-member-grid {
-        grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));
-        max-width: 100%;
-    }
 }
 
 .poll-member-card {
@@ -339,4 +335,360 @@
     font-weight: bold;
     width: 40px;
     text-align: right;
+}
+
+/* ---------------------- */
+/* Layout 2 Kolom (PC)    */
+/* ---------------------- */
+.poll-main-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.poll-content-side {
+    flex: 1;
+    min-width: 0;
+}
+
+/* ---------------------- */
+/* Tombol Open Chat       */
+/* ---------------------- */
+.poll-chat-open-btn-wrapper {
+    text-align: center;
+    margin: 20px auto 0 auto;
+    width: 100%;
+}
+
+.poll-chat-open-btn {
+    background: var(--moe);
+    color: white;
+    border: 2px solid var(--moe-shade-min2);
+    padding: 10px 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px 0px 0px var(--moe-shade-min2);
+    transition: var(--all);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.poll-chat-open-btn:hover {
+    background: var(--moe-tint1);
+}
+
+/* ---------------------- */
+/* Box Komentar / Chat    */
+/* ---------------------- */
+.poll-chat-side {
+    width: 360px;
+    flex-shrink: 0;
+    background: white;
+    border: 4px solid var(--moe);
+    box-shadow: 6px 6px 0px 0px var(--moe);
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.poll-chat-header {
+    background: var(--moe);
+    color: white;
+    padding: 10px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+.poll-chat-toggle-btn {
+    background: white;
+    color: var(--moe);
+    border: 1px solid var(--moe-shade-min2);
+    font-size: 13px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 1;
+    transition: var(--all);
+}
+
+.poll-chat-toggle-btn:hover {
+    background: var(--moe-tint6);
+}
+
+.poll-chat-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+}
+
+.poll-chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #faf8fc;
+}
+
+/* ---------------------- */
+/* Bubble Chat & Avatar   */
+/* ---------------------- */
+.poll-chat-bubble {
+    background: white;
+    border: 2px solid var(--moe-tint5);
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 2px 2px 0px 0px var(--moe-tint6);
+    font-size: 0.9em;
+    position: relative;
+}
+
+.poll-bubble-inner {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.poll-bubble-avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--moe);
+    flex-shrink: 0;
+}
+
+.poll-bubble-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.poll-bubble-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 6px;
+}
+
+.poll-bubble-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.poll-bubble-username {
+    font-weight: bold;
+    color: var(--moe);
+    font-size: 0.95em;
+}
+
+.poll-bubble-voted {
+    font-style: italic;
+    font-size: 0.8em;
+    color: #888888;
+}
+
+/* Hover Actions (Reply, Edit, Delete) */
+.poll-bubble-actions {
+    display: none;
+    gap: 5px;
+}
+
+.poll-chat-bubble:hover .poll-bubble-actions {
+    display: flex;
+}
+
+.poll-bubble-actions button {
+    background: white;
+    border: 1px solid var(--moe-tint4);
+    color: var(--moe);
+    padding: 3px 6px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 3px;
+    line-height: 1;
+    transition: var(--all);
+}
+
+.poll-bubble-actions button:hover {
+    background: var(--moe-tint6);
+}
+
+.poll-bubble-actions .btn-chat-delete:hover {
+    background: #ffebee;
+    color: #d32f2f;
+    border-color: #ef9a9a;
+}
+
+/* Quote Box Tunggal */
+.poll-chat-quote-box {
+    background: #f0ecf6;
+    border-left: 3px solid var(--moe);
+    padding: 4px 8px;
+    margin-bottom: 6px;
+    font-size: 0.85em;
+    border-radius: 0 4px 4px 0;
+}
+
+.poll-quote-author {
+    font-weight: bold;
+    color: var(--moe);
+    display: block;
+    margin-bottom: 2px;
+    font-size: 0.85em;
+}
+
+.poll-quote-text {
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.poll-bubble-text {
+    color: #222;
+    word-break: break-word;
+    line-height: 1.4;
+}
+
+.poll-bubble-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+}
+
+.poll-bubble-time {
+    font-size: 0.7em;
+    color: #aaa;
+}
+
+.comment-edited-tag {
+    font-style: italic;
+    color: #999;
+    font-size: 0.9em;
+}
+
+/* ---------------------- */
+/* Reply & Edit Bars      */
+/* ---------------------- */
+.poll-chat-reply-bar, 
+.poll-chat-edit-bar {
+    background: #ede6f5;
+    border-top: 1px solid var(--moe-tint4);
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85em;
+}
+
+.reply-info, 
+.edit-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.reply-label, 
+.edit-label {
+    font-weight: bold;
+    color: var(--moe);
+}
+
+.reply-target-name {
+    font-style: italic;
+    color: #555;
+}
+
+.reply-cancel-btn, 
+.edit-cancel-btn {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 2px 6px;
+    line-height: 1;
+}
+
+.reply-cancel-btn:hover, 
+.edit-cancel-btn:hover {
+    color: var(--moe);
+}
+
+/* ---------------------- */
+/* Chat Input Area        */
+/* ---------------------- */
+.poll-chat-input-area {
+    display: flex;
+    padding: 8px;
+    border-top: 2px solid var(--moe-tint5);
+    background: white;
+    gap: 6px;
+}
+
+.poll-chat-input-area input {
+    flex: 1;
+    border: 2px solid var(--moe-tint4);
+    padding: 8px 10px;
+    font-family: inherit;
+    font-size: 0.9em;
+    outline: none;
+}
+
+.poll-chat-input-area input:focus {
+    border-color: var(--moe);
+}
+
+.poll-chat-input-area button {
+    background: var(--moe);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: var(--all);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poll-chat-input-area button:hover {
+    background: var(--moe-tint1);
+}
+
+/* ---------------------- */
+/* Responsive Mobile      */
+/* ---------------------- */
+@media only screen and (max-width: 900px) {
+    .poll-main-wrapper {
+        flex-direction: column;
+    }
+
+    .poll-chat-side {
+        width: 100%;
+        height: 500px;
+        box-sizing: border-box;
+    }
+
+    .poll-chat-open-btn-wrapper {
+        width: 100%;
+    }
+
+    .poll-chat-open-btn {
+        width: 100%;
+        justify-content: center;
+    }
 }
