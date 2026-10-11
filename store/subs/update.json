@@ -1,5 +1,25 @@
 [
 	{
+	"date": "261011",
+	"updates": [
+		{"showId": "nogizaka-star-tanjou-six", "eps": "63"},
+		{"showId": "nogizaka-star-tanjou-six", "eps": "64"},
+		{"showId": "cupstar-nogisou", "eps": "01"},
+		{"showId": "cupstar-nogisou", "eps": "02"},
+		{"showId": "cupstar-nogisou", "eps": "03"},
+		{"showId": "cupstar-nogisou", "eps": "04"},
+		{"showId": "cupstar-nogisou", "eps": "05"},
+		{"showId": "cupstar-nogisou", "eps": "06"},
+		{"showId": "cupstar-nogisou", "eps": "07"},
+		{"showId": "cupstar-nogisou", "eps": "08"},
+		{"showId": "cupstar-nogisou", "eps": "09"},
+		{"showId": "cupstar-nogisou", "eps": "10"},
+		{"showId": "cupstar-nogisou", "eps": "11"},
+		{"showId": "graduation-concert", "eps": "13"},
+		{"showId": "graduation-concert", "eps": "14"}
+		]
+	},
+	{
 	"date": "261004",
 	"updates": [
 		{"showId": "nogidouga-nogizaka-asobu-dake", "eps": "77"},
