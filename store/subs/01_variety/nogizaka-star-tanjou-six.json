@@ -11,7 +11,7 @@
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
 		"41", "42", "43", "44", "45", "46", "47", "48", "49", "50", 
 		"51", "52", "53", "54", "55", "56", "57", "58", "59", "60", 
-		"61", "62"
+		"61", "62", "63", "64"
 	],
     "IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/variety/six{{eps}}.jpg",
     "imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/startanjou/six{{eps}}.jpg",
@@ -630,7 +630,27 @@
 			"additionalGuests": "KENTO MORI",
 			"linkHardsub": "https://sfl.gl/v0Bd",
 			"linkSoftsub": "https://sfl.gl/6qPtN"
-		}
+		},
+		"63": {
+            "descOnAirDate": "28 September 2026",
+            "descSong1": "オレンジスパイニクラブ 「キンモクセイ」",
+            "descSong2": "あたらよ 「10月無口な君を忘れる」",
+            "descSong3": "奥華子 「ガーネット」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "奥華子",
+            "linkHardsub": "https://sfl.gl/Qro1AJ",
+            "linkSoftsub": "https://sfl.gl/6vtOQ3E3"
+        },
+        "64": {
+            "descOnAirDate": "5 Oktober 2026",
+            "descSong1": "ゴダイゴ 「銀河鉄道999」",
+            "descSong2": "Uru 「remember」",
+            "descSong3": "miwa 「暑すぎて笑っちゃうね」",
+            "memberParticipate": "愛宕心響、大越ひなの、小津玲奈、海邉朱莉、川端晃菜、鈴木佑捺、瀬戸口心月、長嶋凛桜、増田三莉音、森平麗心、矢田萌華",
+            "additionalGuests": "miwa",
+            "linkHardsub": "https://sfl.gl/I3Nppff",
+            "linkSoftsub": "https://sfl.gl/cZoIJld"
+        }
     },
     "descEpisode": "| Episode {{eps}}"
 }
