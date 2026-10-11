@@ -1,12 +1,18 @@
 // ----------------------
-// Global Variables
+// Configuration & Helpers
 // ----------------------
 const dbPoll = firebase.firestore();
+const POLL_DEADLINE = new Date("2026-10-18T22:00:00+07:00");
+
 let allActiveMembers = [];
 let groupedMembers = {};
 let selectedPollMembers = [];
 let currentPollType = null;
 let pollUser = null;
+
+function isPollClosed() {
+    return new Date() >= POLL_DEADLINE;
+}
 
 // ----------------------
 // Initialization
@@ -17,8 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
             pollUser = user;
             checkIfUserVoted();
         } else {
-            document.getElementById('poll-senbatsu-container').innerHTML = 
-                '<div style="text-align:center; padding:20px;">Silakan login terlebih dahulu untuk mengikuti polling.</div>';
+            const container = document.getElementById('poll-senbatsu-container');
+            if (container) {
+                container.innerHTML = '<div style="text-align:center; padding:20px;">Silakan login terlebih dahulu untuk mengikuti polling.</div>';
+            }
         }
     });
 });
@@ -27,15 +35,23 @@ document.addEventListener('DOMContentLoaded', () => {
 // Database Check
 // ----------------------
 function checkIfUserVoted() {
-    dbPoll.collection('poll_senbatsu').doc(pollUser.uid).get()
+    dbPoll.collection('poll_senbatsu_43').doc(pollUser.uid).get()
         .then(doc => {
             if (doc.exists) {
                 renderResultArea(doc.data());
+            } else if (isPollClosed()) {
+                renderResultArea(null);
             } else {
                 fetchMembersData();
             }
         })
-        .catch(error => console.error("Error checking vote status: ", error));
+        .catch(error => {
+            console.error("Error checking vote status: ", error);
+            const container = document.getElementById('poll-senbatsu-container');
+            if (container) {
+                container.innerHTML = '<div style="text-align:center; padding:20px;">Gagal memverifikasi status vote. Periksa izin akses database atau coba beberapa saat lagi.</div>';
+            }
+        });
 }
 
 // ----------------------
@@ -62,10 +78,12 @@ function fetchMembersData() {
 // ----------------------
 function renderVoteUI() {
     const container = document.getElementById('poll-senbatsu-container');
+    if (!container) return;
+
     container.innerHTML = `
         <div class="poll-header">
-            <h2>Tebak Center Single ke-42</h2>
-            <div class="poll-deadline">Batas waktu vote: Minggu 7 Juni 2026, 22.00 WIB</div>
+            <h2>Tebak Center Single ke-43 "Kimi Loss"</h2>
+            <div class="poll-deadline">Batas waktu vote: Minggu 18 Oktober 2026, 22.00 WIB</div>
         </div>
         <div class="poll-type-selection">
             <label class="poll-radio-label" id="label-center">
@@ -102,8 +120,12 @@ function renderVoteUI() {
     document.getElementById('poll-submit-btn').addEventListener('click', submitVote);
 }
 
+// ----------------------
+// Tabs Rendering
+// ----------------------
 function renderTabs() {
     const tabsContainer = document.getElementById('poll-tabs-container');
+    if (!tabsContainer) return;
     tabsContainer.innerHTML = '';
     
     Object.keys(groupedMembers).forEach((gen, index) => {
@@ -121,8 +143,12 @@ function renderTabs() {
     renderMemberGrid(Object.keys(groupedMembers)[0]);
 }
 
+// ----------------------
+// Member Grid Rendering
+// ----------------------
 function renderMemberGrid(gen) {
     const gridContainer = document.getElementById('poll-grid-container');
+    if (!gridContainer) return;
     gridContainer.innerHTML = '';
     
     groupedMembers[gen].forEach(member => {
@@ -130,7 +156,7 @@ function renderMemberGrid(gen) {
         const isSelected = selectedPollMembers.some(m => m.id === member.id);
         card.className = `poll-member-card ${isSelected ? 'selected' : ''}`;
         card.innerHTML = `
-            <img src="${member.foto_profil}" alt="${member.nama_romaji}">
+            <img src="${member.foto_profil}" alt="${member.nama_romaji}" onerror="this.src='../sprite/element/vibe/load.gif'">
             <div class="member-name">${member.nama_romaji}</div>
         `;
         
@@ -139,6 +165,9 @@ function renderMemberGrid(gen) {
     });
 }
 
+// ----------------------
+// Member Selection Logic
+// ----------------------
 function handleMemberSelection(member, cardElement) {
     const maxSelect = currentPollType === 'center' ? 1 : 2;
     const index = selectedPollMembers.findIndex(m => m.id === member.id);
@@ -157,15 +186,20 @@ function handleMemberSelection(member, cardElement) {
     updateConfirmationBox();
 }
 
+// ----------------------
+// Confirmation Box
+// ----------------------
 function updateConfirmationBox() {
     const confBox = document.getElementById('poll-confirmation-box');
     const submitBtn = document.getElementById('poll-submit-btn');
+    if (!confBox || !submitBtn) return;
+
     const maxSelect = currentPollType === 'center' ? 1 : 2;
 
     if (selectedPollMembers.length > 0) {
         confBox.style.display = 'block';
         const names = selectedPollMembers.map(m => m.nama_romaji).join(' & ');
-        confBox.innerHTML = `Kamu memilih <strong>${names}</strong> yang diprediksi menjadi center single ke-42`;
+        confBox.innerHTML = `Kamu memilih <strong>${names}</strong> yang diprediksi menjadi center single ke-43  "Kimi Loss"`;
     } else {
         confBox.style.display = 'none';
     }
@@ -181,6 +215,12 @@ function updateConfirmationBox() {
 // Submit Logic
 // ----------------------
 function submitVote() {
+    if (isPollClosed()) {
+        alert('Batas waktu voting telah berakhir.');
+        checkIfUserVoted();
+        return;
+    }
+
     const maxSelect = currentPollType === 'center' ? 1 : 2;
     if (selectedPollMembers.length !== maxSelect) return;
 
@@ -196,7 +236,7 @@ function submitVote() {
         timestamp: firebase.firestore.FieldValue.serverTimestamp()
     };
 
-    dbPoll.collection('poll_senbatsu').doc(pollUser.uid).set(payload)
+    dbPoll.collection('poll_senbatsu_43').doc(pollUser.uid).set(payload)
         .then(() => {
             alert('Vote berhasil disimpan! Terima kasih.');
             checkIfUserVoted();
@@ -212,10 +252,11 @@ function submitVote() {
 // ----------------------
 function renderResultArea(userVoteData) {
     const container = document.getElementById('poll-senbatsu-container');
+    if (!container) return;
     container.innerHTML = '<div style="text-align:center; padding:20px;">Memuat hasil polling...</div>';
 
     Promise.all([
-        dbPoll.collection('poll_senbatsu').get(),
+        dbPoll.collection('poll_senbatsu_43').get(),
         fetch('../store/member/members.json').then(res => res.json())
     ]).then(([snapshot, membersData]) => {
         let totalUsers = snapshot.size;
@@ -228,9 +269,11 @@ function renderResultArea(userVoteData) {
             if (data.type === 'center') typeCenter++;
             if (data.type === 'w-center') typeWCenter++;
             
-            data.members.forEach(mId => {
-                memberVotes[mId] = (memberVotes[mId] || 0) + 1;
-            });
+            if (Array.isArray(data.members)) {
+                data.members.forEach(mId => {
+                    memberVotes[mId] = (memberVotes[mId] || 0) + 1;
+                });
+            }
         });
 
         const sortedMembers = Object.keys(memberVotes)
@@ -239,33 +282,38 @@ function renderResultArea(userVoteData) {
                 return {
                     ...memData,
                     voteCount: memberVotes[mId],
-                    percentage: ((memberVotes[mId] / totalUsers) * 100).toFixed(1)
+                    percentage: totalUsers > 0 ? ((memberVotes[mId] / totalUsers) * 100).toFixed(1) : 0
                 };
             })
             .sort((a, b) => b.voteCount - a.voteCount);
 
-        const pctCenter = totalUsers > 0 ? ((typeCenter / totalUsers) * 100).toFixed(1) : 0;
-        const pctWCenter = totalUsers > 0 ? ((typeWCenter / totalUsers) * 100).toFixed(1) : 0;
+        const totalTypeVotes = typeCenter + typeWCenter;
+        const pctCenter = totalTypeVotes > 0 ? ((typeCenter / totalTypeVotes) * 100).toFixed(1) : 0;
+        const pctWCenter = totalTypeVotes > 0 ? (100 - pctCenter).toFixed(1) : 0;
 
-        const myVoteNames = userVoteData.members.map(mId => {
-            const m = membersData.find(x => x.id === mId);
-            return m ? m.nama_romaji : mId;
-        }).join(' & ');
+        let userStatusHtml = '';
+        if (userVoteData && Array.isArray(userVoteData.members) && userVoteData.members.length > 0) {
+            const myVoteNames = userVoteData.members.map(mId => {
+                const m = membersData.find(x => x.id === mId);
+                return m ? m.nama_romaji : mId;
+            }).join(' & ');
+            userStatusHtml = `<div class="poll-result-title">Kamu memilih <strong>${myVoteNames}</strong> yang diprediksi menjadi center single ke-43 "Kimi Loss"</div>`;
+        } else {
+            userStatusHtml = `<div class="poll-result-title" style="background:var(--moe-tint7); border-color:var(--moe);">Voting telah ditutup. Kamu tidak berpartisipasi dalam polling ini.</div>`;
+        }
 
         let html = `
             <div class="poll-header">
-                <h2>Hasil Polling Center Single ke-42</h2>
+                <h2>Hasil Polling Center Single ke-43</h2>
             </div>
-            <div class="poll-result-title">
-                Kamu memilih <strong>${myVoteNames}</strong> yang diprediksi menjadi center single ke-42
-            </div>
+            ${userStatusHtml}
         `;
 
         html += `<div class="poll-top-5">`;
         sortedMembers.slice(0, 5).forEach(m => {
             html += `
                 <div class="poll-result-card-top">
-                    <img src="${m.foto_profil}" alt="${m.nama_romaji}">
+                    <img src="${m.foto_profil}" alt="${m.nama_romaji}" onerror="this.src='../sprite/element/vibe/load.gif'">
                     <div class="res-name">${m.nama_romaji}</div>
                     <div class="res-pct">${m.percentage}%</div>
                 </div>
@@ -278,7 +326,7 @@ function renderResultArea(userVoteData) {
             sortedMembers.slice(5).forEach(m => {
                 html += `
                     <div class="poll-result-row">
-                        <img src="${m.foto_profil}" alt="${m.nama_romaji}">
+                        <img src="${m.foto_profil}" alt="${m.nama_romaji}" onerror="this.src='../sprite/element/vibe/load.gif'">
                         <div class="res-name">${m.nama_romaji}</div>
                         <div class="res-bar-container">
                             <div class="res-bar-fill" style="width: ${m.percentage}%"></div>
@@ -291,7 +339,7 @@ function renderResultArea(userVoteData) {
         }
 
         html += `
-            <div class="poll-vs-wrapper">
+            <div class="poll-vs-wrapper" style="margin: 20px auto;">
                 <div class="poll-vs-label">CENTER</div>
                 <div class="poll-vs-fill-container">
                     <div class="poll-vs-fill-center" style="width: ${pctCenter}%">
