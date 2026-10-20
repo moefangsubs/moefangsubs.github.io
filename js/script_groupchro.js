@@ -13,15 +13,16 @@ document.addEventListener('DOMContentLoaded', () => {
         return `${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`;
     };
 
-    const getGroupClass = (eventText) => {
-        const text = eventText.toLowerCase();
-        if (text.includes('nogizaka')) return 'nogizaka';
-        if (text.includes('sakurazaka')) return 'sakurazaka';
-        if (text.includes('hinatazaka') || text.includes('hiragana')) return 'hinatazaka';
-        if (text.includes('keyakizaka')) return 'keyakizaka';
-        if (text.includes('audisi gabungan') || text.includes('kenshusei')) return 'audition';
-        return 'default';
-    };
+	const getGroupClass = (eventText) => {
+		const text = eventText.toLowerCase();
+		if (text.includes('aobazaka') || text.includes('青葉坂')) return 'aobazaka';
+		if (text.includes('nogizaka')) return 'nogizaka';
+		if (text.includes('sakurazaka')) return 'sakurazaka';
+		if (text.includes('hinatazaka') || text.includes('hiragana')) return 'hinatazaka';
+		if (text.includes('keyakizaka')) return 'keyakizaka';
+		if (text.includes('audisi gabungan') || text.includes('kenshusei')) return 'audition';
+		return 'default';
+	};
 
     fetch(jsonPath)
         .then(response => {

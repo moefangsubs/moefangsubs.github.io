@@ -1,0 +1,28 @@
+{
+	"url": "kintsukuroi",
+	"nameShowTitle": "Kintsukuroi (2026)",
+	"nameShow": "金繕い",
+	"availableEpisode": [
+		"01"
+	],
+	"newUpdateCount": 1,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_kintsukuroi.png",
+	"filePassword": "Sakuchan-GelasEmas",
+	"episodes": {
+		"01": {
+			"descEpsListName": "Drama",
+			"descOnAirDate": "9 Oktober 2026",
+			"memberParticipate": "遠藤さくら",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/kintsukuroi-wPiKl",
+			"linkHardsub": "https://sfl.gl/Ue46Yeqj",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/261009-kintsukuroi.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/261009-kintsukuroi.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/random/261009-kintsukuroi-a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/random/261009-kintsukuroi-b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/random/261009-kintsukuroi-c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/random/261009-kintsukuroi-d.jpg",
+			"descEpisodeSynopsis": "Pengrajin furnitur Hiiragi Koichi kehilangan gairah berkarya setelah gagal menepati janji masa mudanya kepada sang kekasih, Moriya Kaoru. Suatu hari, cucu Kaoru bernama Natsuki mengunjunginya membawa gelas wiski pecah peninggalan sang nenek. Melalui proses seni kintsugi dan menikmati wiski bersama, hati pengrajin yang terikat masa lalu dan pemuda yang bimbang akan masa depannya perlahan mulai terbuka kembali.",
+			"thisEnd": true
+		}
+	}
+}

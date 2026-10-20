@@ -431,10 +431,47 @@ document.addEventListener('DOMContentLoaded', () => {
 		contentContainer.insertAdjacentHTML('beforeend', buildButtons(showData, episodeData));
 		contentContainer.insertAdjacentHTML('beforeend', buildPasswordBox(showData, episodeData, episodeNumber));
 		
+		const smallThumbs = [
+			episodeData.imageThumbA || showData.imageThumbAPattern?.replace('{{eps}}', episodeNumber),
+			episodeData.imageThumbB || showData.imageThumbBPattern?.replace('{{eps}}', episodeNumber),
+			episodeData.imageThumbC || showData.imageThumbCPattern?.replace('{{eps}}', episodeNumber),
+			episodeData.imageThumbD || showData.imageThumbDPattern?.replace('{{eps}}', episodeNumber)
+		].filter(Boolean);
+
+		const thumbsEl = contentContainer.querySelector('#content-thumbnails');
+		const synopsisEl = contentContainer.querySelector('#content-synopsis');
+		const infoEl = contentContainer.querySelector('.info-list')?.closest('.content-section');
+		const mainThumbImg = thumbsEl ? thumbsEl.querySelector('.main-thumb') : null;
+
+		if (thumbsEl && (synopsisEl || infoEl) && mainThumbImg && smallThumbs.length === 0) {
+			const applyPortraitLayout = () => {
+				if (mainThumbImg.naturalHeight > mainThumbImg.naturalWidth) {
+					const wrapper = document.createElement('div');
+					wrapper.className = 'portrait-synopsis-wrapper';
+					
+					const rightCol = document.createElement('div');
+					rightCol.className = 'portrait-right-col';
+
+					thumbsEl.parentNode.insertBefore(wrapper, thumbsEl);
+					wrapper.appendChild(thumbsEl);
+					wrapper.appendChild(rightCol);
+
+					if (synopsisEl) rightCol.appendChild(synopsisEl);
+					if (infoEl) rightCol.appendChild(infoEl);
+				}
+			};
+
+			if (mainThumbImg.complete && mainThumbImg.naturalWidth > 0) {
+				applyPortraitLayout();
+			} else {
+				mainThumbImg.addEventListener('load', applyPortraitLayout);
+			}
+		}
+
 		addSongButtonListeners();
 		addPasswordButtonListeners();
 		addImagePopupListeners();
-	}   
+	}
 	
 	function buildHeader(showData, episodeData, episodeNumber, showPath) {
 		let episodeDesc = episodeData.descEpisode || `| Episode ${episodeNumber}`;

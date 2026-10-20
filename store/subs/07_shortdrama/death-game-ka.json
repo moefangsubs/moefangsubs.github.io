@@ -1,0 +1,25 @@
+{
+	"url": "death-game-ka",
+	"nameShowTitle": "Death Game Ka (2026)",
+	"nameShow": "デスゲーム課",
+	"descSynopsis": "Nishide Ayame (Ioki Mao), seorang karyawan baru yang bekerja di perusahaan game escape terkemuka 'ESCAPE LAB' dengan reputasi tempat kerja ideal. Namun, ia justru ditempatkan di 'Divisi Pengembangan ke-14', unit rahasia perusahaan yang bertugas mengelola permainan maut (death game) sesungguhnya. Di sana, Ayame terjebak di antara aturan ketat organisasi dan nuraninya sendiri.",
+	"availableEpisode": [
+		"01", "02", "03", "04", "05", "06", "07"
+	],
+	"newUpdateCount": 7,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_deathgameka.png",
+	"imageThumbBigPattern": "https://ik.imagekit.io/mLsKqNSuB/post/random/deathgameka{{eps}}.jpg",
+	"IMGThumbnailEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/deathgameka.jpg",
+	"memberParticipate": "五百城茉央",
+	"episodes": {
+		"01": { "linkHardsub": "https://sfl.gl/GYvf" },
+		"02": { "linkHardsub": "https://sfl.gl/r8x63Dn" },
+		"03": { "linkHardsub": "https://sfl.gl/fmdvthk" },
+		"04": { "linkHardsub": "https://sfl.gl/mg5VqB1" },
+		"05": { "linkHardsub": "https://sfl.gl/tqezA6J" },
+		"06": { "linkHardsub": "https://sfl.gl/L8hz" },
+		"07": { "linkHardsub": "https://sfl.gl/0M7HM", "thisEnd": true }
+	},
+	"descEpisode": "| Episode {{eps}}",
+	"descEpsListName": "Episode {{eps}}"
+}

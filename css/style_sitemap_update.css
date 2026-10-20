@@ -399,3 +399,51 @@
 		overflow-x: visible;
 	}
 }
+
+
+.update-item-wrapper.is-portrait {
+    flex: 0 0 380px;
+}
+
+.update-item.is-portrait {
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.update-item.is-portrait a.portrait-left {
+    flex: 0 0 42%;
+    max-width: 42%;
+    display: flex;
+}
+
+.update-item.is-portrait a.portrait-left .update-item-thumb {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    object-fit: cover;
+}
+
+.update-item.is-portrait .portrait-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 0;
+    background: var(--moe-tint7);
+}
+
+.update-item.is-portrait .portrait-right .update-item-caption {
+    padding: 0.6rem;
+}
+
+.update-item.is-portrait .portrait-right .members-container {
+    height: auto;
+    flex-grow: 1;
+    padding: 0 0.6rem 0.6rem;
+}
+
+@media (max-width: 480px) {
+    .update-item-wrapper.is-portrait {
+        flex: 0 0 100%;
+    }
+}

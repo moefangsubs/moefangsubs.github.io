@@ -1,8 +1,12 @@
+/* ---------------------- */
+/* Root Variables Update  */
+/* ---------------------- */
 :root {
 	--bgnogi: #9b2ca2;
 	--bgsaku: #ff91b7;
 	--bghina: #78dbff;
 	--bgkeya: #4bac40;
+	--bgaoba: #00B4AA;
 	--bgaudi: linear-gradient(90deg,rgba(155, 44, 162, 1) 0%, rgba(75, 172, 64, 1) 50%, rgba(120, 219, 255, 1) 100%);
 	--timeline-line: var(--moe-tint4);
     --moe-tint5: #d5a0ff;
@@ -10,6 +14,7 @@
     --moe-tint7: #f8efff;
     --moe: #440079;
 }
+
 body {
 	background-color: var(--moe-shade-min2);
 	color: var(--moe-tint7);
@@ -185,6 +190,19 @@ h1 {
 .timeline-item.keyakizaka .source-link-button:hover { background: var(--bgkeya); color: white; }
 .timeline-item.audition .source-link-button { border-color: white; color: white; }
 .timeline-item.audition .source-link-button:hover { background: white; color: var(--moe-shade-min2); }
+
+/* ---------------------- */
+/* Aobazaka Timeline Item */
+/* ---------------------- */
+.timeline-item.aobazaka .date-header::before { background-image: url("../sprite/element/group/8bit_aoba.png"); }
+.timeline-item.aobazaka .timeline-content { border: 5pt solid var(--bgaoba); box-shadow: 5pt 5pt 0 var(--bgaoba); color: white; background: var(--moe-shade-min2); }
+.timeline-item.aobazaka .timeline-content .date { color: white; }
+.timeline-left.aobazaka::before { border-left-color: var(--bgaoba); }
+.timeline-right.aobazaka::before { border-right-color: var(--bgaoba); }
+.timeline-item.aobazaka .timeline-content .event-title { color: var(--bgaoba); }
+.timeline-item.aobazaka .source-link-button { border-color: var(--bgaoba); color: var(--bgaoba); }
+.timeline-item.aobazaka .source-link-button:hover { background: var(--bgaoba); color: white; }
+
 @media screen and (max-width: 768px) {
 	.page-title { font-size: 2rem; }
 	.page-subtitle { font-size: 1rem; }
@@ -197,6 +215,27 @@ h1 {
 	.timeline-right.sakurazaka::before, .timeline-left.sakurazaka::before { border-right-color: var(--bgsaku); }
 	.timeline-right.hinatazaka::before, .timeline-left.hinatazaka::before { border-right-color: var(--bghina); }
 	.timeline-right.keyakizaka::before, .timeline-left.keyakizaka::before { border-right-color: var(--bgkeya); }
+	.timeline-right.audition::before, .timeline-left.audition::before { border-right-color: white; }
+	.timeline-left, .timeline-right { left: 0%; }
+	.timeline-left::after, .timeline-right::after { left: 18px; }
+}
+
+/* ---------------------- */
+/* Responsive Update      */
+/* ---------------------- */
+@media screen and (max-width: 768px) {
+	.page-title { font-size: 2rem; }
+	.page-subtitle { font-size: 1rem; }
+	.timeline::after { left: 31px; }
+	.timeline-item { width: 100%; padding-left: 70px; padding-right: 25px; }
+	.timeline-item::before { left: 60px; border-width: 10px 10px 10px 0; }
+	.timeline-left::before,
+	.timeline-right::before { border-left-color: transparent; }
+	.timeline-right.nogizaka::before, .timeline-left.nogizaka::before { border-right-color: var(--bgnogi); }
+	.timeline-right.sakurazaka::before, .timeline-left.sakurazaka::before { border-right-color: var(--bgsaku); }
+	.timeline-right.hinatazaka::before, .timeline-left.hinatazaka::before { border-right-color: var(--bghina); }
+	.timeline-right.keyakizaka::before, .timeline-left.keyakizaka::before { border-right-color: var(--bgkeya); }
+	.timeline-right.aobazaka::before, .timeline-left.aobazaka::before { border-right-color: var(--bgaoba); }
 	.timeline-right.audition::before, .timeline-left.audition::before { border-right-color: white; }
 	.timeline-left, .timeline-right { left: 0%; }
 	.timeline-left::after, .timeline-right::after { left: 18px; }

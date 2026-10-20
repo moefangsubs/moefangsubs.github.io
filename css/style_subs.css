@@ -121,6 +121,44 @@ body.subs-page {
 .content-section { text-align: justify; }
 .content-section h4 { margin: 0 0 1rem 0; border-bottom: 2px solid var(--moe-tint5); padding-bottom: 0.5rem; font-size: 14pt; font-weight: 700; }
 #content-synopsis p { margin: 1rem 0 0 0; line-height: 1.6; font-size: 11pt; }
+
+
+.portrait-synopsis-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.portrait-synopsis-wrapper #content-thumbnails {
+    flex: 0 0 38%;
+    max-width: 38%;
+}
+
+.portrait-synopsis-wrapper #content-thumbnails .main-thumb {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.portrait-synopsis-wrapper .portrait-right-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+    .portrait-synopsis-wrapper {
+        flex-direction: column;
+    }
+    .portrait-synopsis-wrapper #content-thumbnails {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
 .info-list, .skits-list, .song-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.8rem; }
 .info-list li, .skits-list li, .song-list li { display: flex; align-items: center; gap: 10px; font-size: 11pt; }
 .info-list .info-label { font-weight: 700; flex-basis: 160px; flex-shrink: 0; display: flex; align-items: center; }
