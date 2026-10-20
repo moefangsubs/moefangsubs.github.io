@@ -164,5 +164,8 @@
 	"42" : {
 		"senbatsuTitle" : {"是非に及ばず" : "Zehi ni Oyobazu"},
 		"underTitle" : {"フォルテシモ" : "Fortissimo"}
+	},
+	"43" : {
+		"senbatsuTitle" : {"君ロス" : "Kimi Loss"}
 	}
 }

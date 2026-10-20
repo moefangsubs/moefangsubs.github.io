@@ -41,9 +41,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     setupViewControls();
 
     try {
-        // --------------------------------------------------
-        // Cache Buster
-        // --------------------------------------------------
         const cacheBuster = `?v=${new Date().getTime()}`;
 
         const [updateResponse, listResponse, membersResponse, warnResponse] = await Promise.all([
@@ -73,9 +70,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const memberMap = new Map(membersList.map(m => [m.nama_jp, m.id]));
 
-        // --------------------------------------------------
-        // Request Lookup Set
-        // --------------------------------------------------
         const requestSet = new Set();
         const requestWarning = warnData.find(w => w.type === 'request');
         if (requestWarning && requestWarning.targets) {
@@ -114,9 +108,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (!showJsonPath) continue;
 
                 try {
-                    // --------------------------------------------------
-                    // Fetch Show Data
-                    // --------------------------------------------------
                     const showDataResponse = await fetch(`${showJsonPath}${cacheBuster}`); 
                     if (!showDataResponse.ok) continue;
                     const showData = await showDataResponse.json();
@@ -139,7 +130,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const captionHTML = `<span><strong>${showData.nameShowTitle}</strong> ${descEpisode}</span>`;
 
                     let membersHTML = '';
-                    
                     const membersRaw = episodeData.memberParticipate || showData.memberParticipate || [];
 
                     let membersArray = [];
@@ -174,7 +164,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                     }
                     
                     let requestBadgeHTML = '';
-                    
                     if (requestSet.has(showJsonPath)) {
                         requestBadgeHTML = `
                             <div class="update-request-wrapper">
@@ -185,7 +174,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                         `;
                     } else {
                         const specificEpPath = `${showJsonPath}?episodes=${episodeNumber}`; 
-                        
                         if (requestSet.has(specificEpPath)) {
                              requestBadgeHTML = `
                                 <div class="update-request-wrapper">
@@ -211,6 +199,45 @@ document.addEventListener('DOMContentLoaded', async () => {
                         </div>
                     `;
                     gridDiv.appendChild(itemDiv);
+
+                    const imgEl = itemDiv.querySelector('.update-item-thumb');
+                    const updateItemCard = itemDiv.querySelector('.update-item');
+
+                    const handlePortraitLayout = () => {
+                        if (imgEl.naturalHeight > imgEl.naturalWidth) {
+                            itemDiv.classList.add('is-portrait');
+                            updateItemCard.classList.add('is-portrait');
+
+                            const originalLink = updateItemCard.querySelector('a');
+                            const captionEl = updateItemCard.querySelector('.update-item-caption');
+                            const membersEl = updateItemCard.querySelector('.members-container');
+
+                            originalLink.classList.add('portrait-left');
+
+                            const rightCol = document.createElement('div');
+                            rightCol.className = 'portrait-right';
+
+                            if (captionEl) {
+                                const captionLink = document.createElement('a');
+                                captionLink.href = link;
+                                captionLink.appendChild(captionEl);
+                                rightCol.appendChild(captionLink);
+                            }
+
+                            if (membersEl) {
+                                rightCol.appendChild(membersEl);
+                            }
+
+                            updateItemCard.appendChild(rightCol);
+                        }
+                    };
+
+                    if (imgEl.complete && imgEl.naturalWidth > 0) {
+                        handlePortraitLayout();
+                    } else {
+                        imgEl.addEventListener('load', handlePortraitLayout);
+                    }
+
                 } catch (error) { console.error(`Error processing ${showId}:`, error); }
             }
             
@@ -298,9 +325,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             controlsContainer.classList.add('is-visible');
         }
 
-        // --------------------------------------------------
-        // Fansub Partner Section Reveal
-        // --------------------------------------------------
         const partnerLoader = document.getElementById('fansub-partner-loader');
         const partnerContainer = document.querySelector('.scontainer.fansub-partner');
         if (partnerLoader && partnerContainer) {
@@ -312,9 +336,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Failed to load update data:', error);
         updateContainer.innerHTML = '<p style="text-align:center;">Gagal memuat daftar update.</p>';
 
-        // --------------------------------------------------
-        // Fansub Partner Section Reveal (Fallback)
-        // --------------------------------------------------
         const partnerLoader = document.getElementById('fansub-partner-loader');
         const partnerContainer = document.querySelector('.scontainer.fansub-partner');
         if (partnerLoader && partnerContainer) {
