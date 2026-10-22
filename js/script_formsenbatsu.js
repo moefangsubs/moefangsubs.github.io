@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const specialCases = { 16: 15, 18: 17, 19: 17, 21: 20, 23: 22, 29: 28, 30: 28, 32: 31, 34: 33, 43: 42 };
         const baseUrl = "https://ik.imagekit.io/moearchive/web/memberprofile/";
-
+		
         function setMemberImageWithFallback(imgElement, memberId, currentSingleKey) {
             if (currentSingleKey < 1) {
                 imgElement.src = `https://via.placeholder.com/150x200/cccccc/ffffff.png?text=${memberId.replace(/_/g, '+')}`;
@@ -64,8 +64,18 @@ document.addEventListener("DOMContentLoaded", function() {
             const singleFolderNumber = `s${String(specialCases[currentSingleKey] || currentSingleKey).padStart(3, '0')}`;
             const urlToTry = `${baseUrl}${singleFolderNumber}/${memberId}.png`;
             const imageTester = new Image();
+
             imageTester.onload = () => { imgElement.src = urlToTry; };
-            imageTester.onerror = () => { setMemberImageWithFallback(imgElement, memberId, currentSingleKey - 1); };
+            imageTester.onerror = () => {
+                // Coba cek ekstensi .PNG kapital sebelum fallback ke single sebelumnya
+                const urlUpper = `${baseUrl}${singleFolderNumber}/${memberId}.PNG`;
+                const imageTesterUpper = new Image();
+                imageTesterUpper.onload = () => { imgElement.src = urlUpper; };
+                imageTesterUpper.onerror = () => {
+                    setMemberImageWithFallback(imgElement, memberId, currentSingleKey - 1);
+                };
+                imageTesterUpper.src = urlUpper;
+            };
             imageTester.src = urlToTry;
         }
 

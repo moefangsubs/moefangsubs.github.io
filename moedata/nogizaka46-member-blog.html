@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
+    <title>Nogizaka46 Member Blog - MoeData</title>    
+	
+    <!-- Google Fonts Cantarell & Fraunces (Sesuai style_uniform.css) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+
+	<!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+    <script src="../js/firebase-init.js"></script>
+    <script src="../js/firebase-auth.js"></script>
+	
+	<!-- Header & Footer MoeFang -->
+	<script type="text/javascript" src="../js/navbar.js"></script>
+	<script type="text/javascript" src="../js/footer.js"></script>
+	
+	<!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <main class="main-content">
+            <!-- Header Judul Tengah -->
+			<div class="blog-header-center">
+				<h1 id="pageHeading">Blog Member Nogizaka46</h1>
+			</div>
+            
+            <!-- TAMPILAN 1: DAFTAR BLOG (LIST VIEW) -->
+			<section class="blog-section" id="blogListView">
+				<div class="blog-controls">
+					<div class="blog-search-box">
+						<i class="fas fa-search"></i>
+						<input type="text" id="blogSearch" placeholder="Cari nama member atau judul..." />
+					</div>
+					<div class="blog-count" id="blogCount">Memuat daftar blog...</div>
+				</div>
+				
+				<div id="blogGrid" class="blog-grid"></div>
+			</section>
+
+            <!-- TAMPILAN 2: BACA ARTIKEL (READER VIEW) -->
+            <section class="blog-section" id="blogReaderView" style="display: none;">
+                <button class="btn-back" id="btnBackToList">
+                    <i class="fas fa-arrow-left"></i> Kembali ke Daftar Blog
+                </button>
+
+                <article class="blog-article-card boxs2">
+                    <div class="blog-article-header">
+                        <h2 id="readTitle"></h2>
+                        <div class="jp-sub-title" id="readJpTitle"></div>
+                        <div class="blog-meta-tags">
+                            <span class="author-badge-container">
+                                <img id="readAuthorAvatar" class="avatar-small" src="" alt="" style="display:none;" />
+                                <a id="readAuthor" href="#" target="_blank" rel="noopener noreferrer" class="member-profile-link"></a>
+                            </span>
+                            <span class="date-badge"><i class="far fa-calendar-alt"></i> <span id="readDate"></span></span>
+                            <a id="readOrigLink" href="#" target="_blank" rel="noopener noreferrer" class="orig-link"><i class="fas fa-external-link-alt"></i> Blog Asli</a>
+                        </div>
+                    </div>
+                    <hr class="blog-divider" />
+                    <div class="blog-body-text" id="readBody"></div>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <script>
+    const CWP_BASE_URL = 'https://full.diskon.cloud/~moefa404/store/data/blog';
+    const MEMBERS_JSON_URL = '../store/member/members.json';
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const blogListView = document.getElementById('blogListView');
+        const blogReaderView = document.getElementById('blogReaderView');
+        const blogGrid = document.getElementById('blogGrid');
+        const blogCount = document.getElementById('blogCount');
+        const blogSearch = document.getElementById('blogSearch');
+        const btnBackToList = document.getElementById('btnBackToList');
+
+        let allPosts = [];
+        let memberLookup = {};
+
+        fetch(MEMBERS_JSON_URL)
+            .then(res => res.json())
+            .then(members => {
+                members.forEach(m => {
+                    const normRomaji = m.nama_romaji.toLowerCase().replace(/\s+/g, '');
+                    const normJp = m.nama_jp.replace(/\s+/g, '');
+                    memberLookup[normRomaji] = m;
+                    memberLookup[normJp] = m;
+                });
+                loadBlogIndex();
+            })
+            .catch(err => {
+                console.warn('Gagal memuat members.json, melanjutkan tanpa profil member.');
+                loadBlogIndex();
+            });
+
+        function getMemberInfo(kanji, romaji) {
+            const keyRomaji = (romaji || '').toLowerCase().replace(/\s+/g, '');
+            const keyJp = (kanji || '').replace(/\s+/g, '');
+            return memberLookup[keyRomaji] || memberLookup[keyJp] || null;
+        }
+
+        function getBlogIdFromUrl() {
+            const search = window.location.search;
+            if (!search) return null;
+            if (search.startsWith('?=')) return search.substring(2);
+            const params = new URLSearchParams(search);
+            if (params.get('id')) return params.get('id');
+            if (/^\?\d+$/.test(search)) return search.substring(1);
+            return null;
+        }
+
+        function showListView() {
+            blogReaderView.style.display = 'none';
+            blogListView.style.display = 'block';
+            document.title = 'Nogizaka46 Member Blog - MoeData';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function showReaderView(id) {
+            blogListView.style.display = 'none';
+            blogReaderView.style.display = 'block';
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+            document.getElementById('readTitle').innerText = 'Memuat artikel...';
+            document.getElementById('readJpTitle').innerText = '';
+            document.getElementById('readBody').innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Memuat isi blog...</div>';
+
+            fetch(`${CWP_BASE_URL}/${id}.json`)
+                .then(res => {
+                    if (!res.ok) throw new Error('Artikel tidak ditemukan.');
+                    return res.json();
+                })
+                .then(post => {
+                    document.title = `${post.translated_title} - ${post.author_romaji} | MoeData`;
+                    document.getElementById('readTitle').innerText = post.translated_title;
+                    document.getElementById('readJpTitle').innerText = `Judul Asli: ${post.original_title}`;
+                    document.getElementById('readDate').innerText = post.date;
+                    document.getElementById('readOrigLink').href = post.original_url;
+                    document.getElementById('readBody').innerHTML = post.content_html;
+
+                    const mInfo = getMemberInfo(post.author_kanji, post.author_romaji);
+                    const authorLink = document.getElementById('readAuthor');
+                    const avatarImg = document.getElementById('readAuthorAvatar');
+
+                    authorLink.innerText = `${post.author_romaji} (${post.author_kanji})`;
+
+                    if (mInfo) {
+                        authorLink.href = `../moedata/member.html?id=${mInfo.id}`;
+                        if (mInfo.foto_profil) {
+                            avatarImg.src = mInfo.foto_profil;
+                            avatarImg.alt = post.author_romaji;
+                            avatarImg.style.display = 'inline-block';
+                        } else {
+                            avatarImg.style.display = 'none';
+                        }
+                    } else {
+                        authorLink.removeAttribute('href');
+                        avatarImg.style.display = 'none';
+                    }
+                })
+                .catch(err => {
+                    document.getElementById('readBody').innerHTML = `<div class="error-msg"><i class="fas fa-exclamation-triangle"></i> Gagal memuat artikel (${id}).</div>`;
+                });
+        }
+
+        // Render Kartu Blog
+        function renderGrid(posts) {
+            blogCount.innerText = `${posts.length} Artikel`;
+            if (posts.length === 0) {
+                blogGrid.innerHTML = '<div class="empty-msg">Tidak ada artikel yang cocok.</div>';
+                return;
+            }
+
+            blogGrid.innerHTML = posts.map(p => {
+                const mInfo = getMemberInfo(p.author_kanji, p.author_romaji);
+                const memberProfileUrl = mInfo ? `../moedata/member.html?id=${mInfo.id}` : '#';
+
+                return `
+                <div class="blog-card boxs1" onclick="navigateToBlog('${p.id}')">
+                    <div class="blog-thumb">
+                        <img src="${p.thumbnail}" alt="${p.author_romaji}" loading="lazy" />
+                        <!-- Di thumbnail tetap HANYA namanya saja -->
+                        <a href="${memberProfileUrl}" target="_blank" rel="noopener noreferrer" class="member-tag" onclick="event.stopPropagation()">
+                            <span>${p.author_romaji}</span>
+                        </a>
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-info-top">
+                            <div class="blog-meta-left">
+                                <span class="blog-date"><i class="far fa-clock"></i> ${p.date}</span>
+                                <h3 class="blog-card-title">${p.translated_title}</h3>
+                                <span class="blog-card-jp-title">${p.original_title}</span>
+                            </div>
+                            <!-- Foto Member Bulat 50px di Ujung Kanan Kartu -->
+                            ${mInfo && mInfo.foto_profil ? `
+                            <a href="${memberProfileUrl}" target="_blank" rel="noopener noreferrer" class="member-avatar-btn" onclick="event.stopPropagation()" title="Lihat profil ${p.author_romaji}">
+                                <img src="${mInfo.foto_profil}" class="member-avatar-card" alt="${p.author_romaji}" />
+                            </a>` : ''}
+                        </div>
+                        <p class="blog-card-snippet">${p.snippet || ''}</p>
+                    </div>
+                </div>
+                `;
+            }).join('');
+        }
+
+        window.navigateToBlog = function(id) {
+            history.pushState({ id: id }, '', `?=${id}`);
+            showReaderView(id);
+        };
+
+        btnBackToList.addEventListener('click', () => {
+            history.pushState(null, '', window.location.pathname);
+            showListView();
+        });
+
+        window.addEventListener('popstate', () => {
+            const currentId = getBlogIdFromUrl();
+            if (currentId) {
+                showReaderView(currentId);
+            } else {
+                showListView();
+            }
+        });
+
+        function loadBlogIndex() {
+            fetch(`${CWP_BASE_URL}/index.json`)
+                .then(res => {
+                    if (!res.ok) throw new Error('Belum ada data index.');
+                    return res.json();
+                })
+                .then(data => {
+                    allPosts = data;
+                    renderGrid(allPosts);
+                    const directId = getBlogIdFromUrl();
+                    if (directId) {
+                        showReaderView(directId);
+                    }
+                })
+                .catch(err => {
+                    blogGrid.innerHTML = '<div class="empty-msg"><i class="far fa-newspaper"></i><br>Belum ada artikel blog yang tersimpan di server.</div>';
+                    blogCount.innerText = '0 Artikel';
+                });
+        }
+
+        blogSearch.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            const filtered = allPosts.filter(p => 
+                p.author_romaji.toLowerCase().includes(query) || 
+                p.author_kanji.toLowerCase().includes(query) || 
+                p.translated_title.toLowerCase().includes(query) ||
+                p.original_title.toLowerCase().includes(query)
+            );
+            renderGrid(filtered);
+        });
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,438 @@
+/* --------------------------------- */
+/* NOGIZAKA CHRONICLE CONTAINER      */
+/* --------------------------------- */
+#nogizaka-chronicle-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 2.5rem auto 3.5rem;
+    box-sizing: border-box;
+}
+
+.chro-card-wrapper {
+    background-color: var(--moe-tint7);
+    border: 2px dashed var(--moe-tint4);
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    box-shadow: 6px 6px 0px 0px var(--moe-tint5);
+    box-sizing: border-box;
+}
+
+.chro-card-wrapper * {
+    font-family: 'Cantarell', sans-serif;
+    box-sizing: border-box;
+}
+
+.chro-title {
+    font-family: 'Fraunces', serif !important;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--moe-shade-max1);
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.01em;
+}
+
+.chro-disclaimer {
+    text-align: center;
+    font-size: 0.88rem;
+    color: var(--moe-shade-min1);
+    margin: 0 auto 1.5rem auto;
+    max-width: 720px;
+    line-height: 1.6;
+    opacity: 0.85;
+}
+
+/* --------------------------------- */
+/* DATE NAV CONTROLS & JUMP BUTTON   */
+/* --------------------------------- */
+.chro-nav-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+.chro-tab-btn {
+    background-color: #ffffff;
+    border: 1.5px solid var(--moe-tint4);
+    color: var(--moe-shade-max1);
+    padding: 7px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.chro-tab-btn svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.chro-tab-btn:hover {
+    background-color: var(--moe-tint6);
+    border-color: var(--moe-tint3);
+}
+
+.chro-tab-btn.active {
+    background-color: var(--moe);
+    color: #ffffff;
+    border-color: var(--moe);
+    box-shadow: 2px 2px 0px 0px var(--moe-shade-max2);
+}
+
+.chro-tab-btn.jump-btn {
+    background-color: #fff9e6;
+    border-color: #f0c040;
+    color: #8c6200;
+}
+
+.chro-tab-btn.jump-btn:hover {
+    background-color: #fffaea;
+}
+
+.chro-tab-btn.jump-btn.active {
+    background-color: #d49b00;
+    color: #ffffff;
+    border-color: #b38300;
+}
+
+/* --------------------------------- */
+/* MULTI-COLUMN ZIG-ZAG TIMELINE     */
+/* --------------------------------- */
+.chro-timeline {
+    width: 100%;
+    /* Default PC: 3 Kolom horizontal flow */
+    column-count: 3;
+    column-gap: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.chro-year-group {
+    /* Menjaga tiap tahun tetap utuh dalam satu kartu kolom */
+    break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    margin-bottom: 1.5rem;
+    background: #ffffff;
+    border: 1.5px solid var(--moe-tint5);
+    border-radius: 12px;
+    padding: 1.1rem;
+    box-shadow: 4px 4px 0px 0px var(--moe-tint6);
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.chro-year-group:hover {
+    box-shadow: 4px 4px 0px 0px var(--moe-tint4);
+}
+
+.chro-year-label {
+    font-family: 'Fraunces', serif !important;
+    font-size: 1.45rem;
+    font-weight: 700;
+    color: var(--moe-shade-max1);
+    border-bottom: 2px dashed var(--moe-tint4);
+    padding-bottom: 6px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chro-year-count {
+    font-family: 'Cantarell', sans-serif !important;
+    font-size: 0.78rem;
+    font-weight: normal;
+    color: var(--moe-tint2);
+    background: var(--moe-tint7);
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+/* --------------------------------- */
+/* EVENT CARDS & SUMMARY             */
+/* --------------------------------- */
+.chro-item-card {
+    background: #fdfaff;
+    border: 1px solid var(--moe-tint6);
+    border-radius: 8px;
+    padding: 0.75rem 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.chro-item-card:hover {
+    background: #ffffff;
+    border-color: var(--moe-tint4);
+}
+
+.chro-header-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.chro-left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    flex: 1;
+    min-width: 0;
+}
+
+.chro-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 3px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+}
+
+.chro-headline {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--moe-shade-min2);
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.chro-toggle-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--moe-tint2);
+    padding: 4px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease, color 0.2s ease;
+    flex-shrink: 0;
+}
+
+.chro-toggle-btn svg {
+    display: block;
+    pointer-events: none;
+}
+
+.chro-toggle-btn:hover {
+    color: var(--moe);
+}
+
+.chro-toggle-btn.open {
+    transform: rotate(180deg);
+}
+
+/* .chro-summary { */
+    /* margin-top: 0.65rem; */
+    /* padding-top: 0.65rem; */
+    /* border-top: 1px dashed var(--moe-tint6); */
+    /* font-size: 0.84rem; */
+    /* line-height: 1.55; */
+    /* color: #4a3b54; */
+    /* display: none; */
+	/* text-align: justify; */
+/* } */
+
+/* .chro-summary.visible { */
+    /* display: block; */
+/* } */
+
+
+/* --------------------------------- */
+/* ANIMASI ACCORDION SUMMARY         */
+/* --------------------------------- */
+.chro-summary-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.chro-summary-wrapper.visible {
+    grid-template-rows: 1fr;
+}
+
+.chro-summary-inner {
+    overflow: hidden;
+    min-height: 0;
+}
+
+.chro-summary {
+    margin-top: 0.65rem;
+    padding-top: 0.65rem;
+    border-top: 1px dashed var(--moe-tint6);
+    font-size: 0.84rem;
+    line-height: 1.55;
+    color: #4a3b54;
+}
+
+
+
+
+
+
+
+/* --------------------------------- */
+/* ACTIONS & NOTICES                 */
+/* --------------------------------- */
+.chro-actions {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.chro-more-btn {
+    background-color: var(--moe);
+    color: #ffffff;
+    border: none;
+    padding: 9px 24px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 3px 3px 0px 0px var(--moe-tint2);
+}
+
+.chro-more-btn:hover {
+    background-color: var(--moe-shade-max1);
+    transform: translateY(-2px);
+}
+
+.chro-loading, .chro-empty {
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--moe-shade-min1);
+    padding: 2rem 0;
+    column-span: all;
+}
+
+/* --------------------------------- */
+/* MODAL POPUP JUMP DATE             */
+/* --------------------------------- */
+.chro-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(18, 0, 35, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.chro-modal-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.chro-modal {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 2px solid var(--moe-tint3);
+    box-shadow: 6px 6px 0px 0px var(--moe);
+    width: 90%;
+    max-width: 360px;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    font-family: 'Cantarell', sans-serif;
+    transform: scale(0.95);
+    transition: transform 0.2s ease;
+}
+
+.chro-modal-overlay.active .chro-modal {
+    transform: scale(1);
+}
+
+.chro-modal h3 {
+    margin: 0 0 1rem 0;
+    color: var(--moe);
+    font-size: 1.15rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.chro-modal-form {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.chro-modal-form select {
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1.5px solid var(--moe-tint4);
+    font-size: 0.9rem;
+    font-family: 'Cantarell', sans-serif;
+    color: var(--moe-shade-min2);
+    background: var(--moe-tint7);
+    outline: none;
+}
+
+.chro-modal-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.6rem;
+}
+
+.chro-btn-cancel {
+    background: #eeeeee;
+    color: #444444;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.chro-btn-ok {
+    background: var(--moe);
+    color: #ffffff;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* --------------------------------- */
+/* RESPONSIVE LAYOUT                 */
+/* --------------------------------- */
+@media (max-width: 1024px) {
+    .chro-timeline {
+        column-count: 2; /* Layar sedang: 2 kolom */
+    }
+}
+
+@media (max-width: 768px) {
+    .chro-card-wrapper {
+        padding: 1.5rem 1rem;
+    }
+    .chro-title {
+        font-size: 1.75rem;
+    }
+    .chro-timeline {
+        column-count: 1; /* Layar HP: 1 kolom penuh agar nyaman dibaca */
+    }
+}
