@@ -1864,6 +1864,7 @@ function showChatAccessPopup() {
 					</div>
 					<ul class="nav-menu">
 						<li class="nav-item"><a href="../sitemap.html">SITEMAP</a></li>
+						<li class="nav-item"><a href="../moedata/nogizaka46-member-blog.html">BLOG</a></li>
 						<li class="nav-item has-submenu">
 							<a href="#" class="submenu-toggle">MV <span class="arrow"></span></a>
 							<ul class="submenu">
