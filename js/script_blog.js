@@ -4,6 +4,11 @@
 const CWP_BASE_URL = 'https://full.diskon.cloud/~moefa404/store/data/blog';
 const MEMBERS_JSON_URL = '../store/member/members.json';
 
+// Path SVG Element
+const ICON_EYE = '../sprite/element/eye_show.svg';
+const ICON_LIKE_DEFAULT = '../sprite/element/like_x.svg';
+const ICON_LIKE_FILLED = '../sprite/element/like_v.svg';
+
 // ----------------------------------------------------
 // App Initialization
 // ----------------------------------------------------
@@ -20,11 +25,30 @@ document.addEventListener('DOMContentLoaded', () => {
     const memberDropdownList = document.getElementById('memberDropdownList');
     const selectedMemberText = document.getElementById('selectedMemberText');
 
+    const btnBlogLike = document.getElementById('btnBlogLike');
+    const readLikeIcon = document.getElementById('readLikeIcon');
+    const readLikeCount = document.getElementById('readLikeCount');
+
     let allPosts = [];
     let memberLookup = {};
     let memberList = [];
     let selectedMember = null;
     let savedScrollPosition = 0;
+
+    // Cache Stats Firestore lokal: { "104938": { views: 5, likes: 2, liked_by: [...] } }
+    let blogStatsCache = {};
+    let currentUser = null;
+    let currentReadingId = null;
+
+    // Inisialisasi Auth Firestore
+    if (typeof firebase !== 'undefined' && firebase.auth) {
+        firebase.auth().onAuthStateChanged(user => {
+            currentUser = user;
+            if (currentReadingId) {
+                checkLikeStatus(currentReadingId);
+            }
+        });
+    }
 
     loadBlogIndex();
 
@@ -46,6 +70,130 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(err => {
             console.warn('Gagal memuat members.json, melanjutkan tanpa profil member:', err);
         });
+
+    // ----------------------------------------------------
+    // Firestore Interaction Functions
+    // ----------------------------------------------------
+    function getDb() {
+        return (typeof firebase !== 'undefined' && firebase.firestore) ? firebase.firestore() : null;
+    }
+
+    // Ambil data view & like dari Firestore secara batch
+    function fetchAllStats() {
+        const db = getDb();
+        if (!db) return;
+
+        db.collection('blog').get()
+            .then(snapshot => {
+                snapshot.forEach(doc => {
+                    blogStatsCache[doc.id] = doc.data();
+                });
+                updateStatsInDOM();
+            })
+            .catch(err => {
+                console.warn('Gagal memuat statistik blog dari Firestore:', err);
+            });
+    }
+
+    function recordBlogView(blogId) {
+        const db = getDb();
+        if (!db || !blogId) return;
+
+        const docRef = db.collection('blog').doc(String(blogId));
+        docRef.set({
+            views: firebase.firestore.FieldValue.increment(1)
+        }, { merge: true })
+        .then(() => {
+            if (!blogStatsCache[blogId]) {
+                blogStatsCache[blogId] = { views: 1, likes: 0, liked_by: [] };
+            } else {
+                blogStatsCache[blogId].views = (blogStatsCache[blogId].views || 0) + 1;
+            }
+            updateStatsInDOM(blogId);
+        })
+        .catch(err => console.warn('Gagal menambah view:', err));
+    }
+
+    function checkLikeStatus(blogId) {
+        if (!btnBlogLike) return;
+
+        const stats = blogStatsCache[blogId] || { likes: 0, liked_by: [] };
+        const likes = stats.likes || 0;
+        const likedBy = Array.isArray(stats.liked_by) ? stats.liked_by : [];
+
+        readLikeCount.innerText = likes;
+
+        const isLiked = currentUser && likedBy.includes(currentUser.uid);
+
+        if (isLiked) {
+            btnBlogLike.disabled = true;
+            btnBlogLike.classList.add('is-liked');
+            readLikeIcon.src = ICON_LIKE_FILLED;
+        } else {
+            btnBlogLike.disabled = !currentUser;
+            btnBlogLike.classList.remove('is-liked');
+            readLikeIcon.src = ICON_LIKE_DEFAULT;
+        }
+    }
+
+    if (btnBlogLike) {
+        btnBlogLike.addEventListener('click', () => {
+            if (!currentUser || !currentReadingId || btnBlogLike.disabled) return;
+
+            const db = getDb();
+            if (!db) return;
+
+            const blogId = String(currentReadingId);
+            const docRef = db.collection('blog').doc(blogId);
+
+            btnBlogLike.disabled = true;
+            btnBlogLike.classList.add('is-liked');
+            readLikeIcon.src = ICON_LIKE_FILLED;
+
+            docRef.set({
+                likes: firebase.firestore.FieldValue.increment(1),
+                liked_by: firebase.firestore.FieldValue.arrayUnion(currentUser.uid)
+            }, { merge: true })
+            .then(() => {
+                if (!blogStatsCache[blogId]) {
+                    blogStatsCache[blogId] = { views: 1, likes: 1, liked_by: [currentUser.uid] };
+                } else {
+                    blogStatsCache[blogId].likes = (blogStatsCache[blogId].likes || 0) + 1;
+                    if (!Array.isArray(blogStatsCache[blogId].liked_by)) {
+                        blogStatsCache[blogId].liked_by = [];
+                    }
+                    blogStatsCache[blogId].liked_by.push(currentUser.uid);
+                }
+                readLikeCount.innerText = blogStatsCache[blogId].likes;
+                updateStatsInDOM(blogId);
+            })
+            .catch(err => {
+                console.error('Gagal memberikan like:', err);
+                btnBlogLike.disabled = false;
+                btnBlogLike.classList.remove('is-liked');
+                readLikeIcon.src = ICON_LIKE_DEFAULT;
+            });
+        });
+    }
+
+    function updateStatsInDOM(targetId = null) {
+        const selector = targetId ? `.card-stats-group[data-id="${targetId}"]` : '.card-stats-group';
+        document.querySelectorAll(selector).forEach(el => {
+            const bId = el.getAttribute('data-id');
+            const data = blogStatsCache[bId] || { views: 0, likes: 0, liked_by: [] };
+            const vCount = el.querySelector('.view-count-text');
+            const lCount = el.querySelector('.like-count-text');
+            const lIcon = el.querySelector('.card-like-icon');
+
+            if (vCount) vCount.innerText = data.views || 0;
+            if (lCount) lCount.innerText = data.likes || 0;
+
+            if (lIcon) {
+                const isUserLiked = currentUser && Array.isArray(data.liked_by) && data.liked_by.includes(currentUser.uid);
+                lIcon.src = isUserLiked ? ICON_LIKE_FILLED : ICON_LIKE_DEFAULT;
+            }
+        });
+    }
 
     // ----------------------------------------------------
     // Helper Functions
@@ -132,9 +280,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return doc.body.innerHTML;
     }
 
-    // ----------------------------------------------------
-    // Dropdown Member Builder
-    // ----------------------------------------------------
     function buildMemberDropdown() {
         if (!memberDropdownList || memberList.length === 0) return;
 
@@ -149,9 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const memberPosts = allPosts.filter(p => isSameMember(p, m));
             const isGrad = (m.status || '').toLowerCase() === 'lulus';
 
-            if (isGrad && memberPosts.length === 0) {
-                return;
-            }
+            if (isGrad && memberPosts.length === 0) return;
 
             let dateText = '-';
             if (memberPosts.length > 0) {
@@ -217,10 +360,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // ----------------------------------------------------
-    // Views Handling & Scroll Restoration
-    // ----------------------------------------------------
     function showListView() {
+        currentReadingId = null;
         blogReaderView.style.display = 'none';
         blogListView.style.display = 'block';
         document.title = 'Nogizaka46 Member Blog - MoeData';
@@ -229,9 +370,11 @@ document.addEventListener('DOMContentLoaded', () => {
             top: savedScrollPosition,
             behavior: 'instant'
         });
+        updateStatsInDOM();
     }
 
     function showReaderView(id) {
+        currentReadingId = String(id);
         blogListView.style.display = 'none';
         blogReaderView.style.display = 'block';
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -240,6 +383,12 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('readJpTitle').innerText = '';
         document.getElementById('readDate').innerText = '';
         document.getElementById('readBody').innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Memuat isi blog...</div>';
+
+        // 1. Tambah +1 view ke Firestore
+        recordBlogView(id);
+
+        // 2. Cek status tombol like
+        checkLikeStatus(id);
 
         fetch(`${CWP_BASE_URL}/${id}.json?t=${Date.now()}`)
             .then(res => {
@@ -268,15 +417,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (mInfo) {
                     sideLink.href = `../moedata/member.html?id=${mInfo.id}`;
                     sideLink.style.display = 'inline-block';
-                    if (mInfo.foto_profil) {
-                        sideImg.src = mInfo.foto_profil;
-                        sideImg.alt = displayRomaji;
-                        sideImg.style.display = 'block';
-                    } else {
-                        sideImg.src = post.thumbnail;
-                        sideImg.alt = displayRomaji;
-                        sideImg.style.display = 'block';
-                    }
+                    sideImg.src = mInfo.foto_profil ? mInfo.foto_profil : post.thumbnail;
+                    sideImg.alt = displayRomaji;
+                    sideImg.style.display = 'block';
                 } else {
                     sideLink.style.display = 'none';
                     sideImg.src = post.thumbnail;
@@ -324,7 +467,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ----------------------------------------------------
-    // Grid Rendering
+    // Grid Rendering dengan View & Like Counter
     // ----------------------------------------------------
     function renderGrid(posts) {
         blogCount.innerText = `${posts.length} Artikel`;
@@ -337,6 +480,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const mInfo = getMemberInfo(p.author_kanji, p.author_romaji);
             const avatarSrc = (mInfo && mInfo.foto_profil) ? mInfo.foto_profil : p.thumbnail;
             const displayRomaji = (mInfo && mInfo.nama_romaji) ? mInfo.nama_romaji : p.author_romaji;
+            const stats = blogStatsCache[p.id] || { views: 0, likes: 0, liked_by: [] };
+            const isLiked = currentUser && Array.isArray(stats.liked_by) && stats.liked_by.includes(currentUser.uid);
 
             return `
             <div class="blog-card" onclick="navigateToBlog('${p.id}')">
@@ -350,7 +495,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="blog-info">
                     <h3 class="blog-card-title">${p.translated_title}</h3>
                     <span class="blog-card-jp-title">${p.original_title}</span>
-                    <span class="blog-date">${p.date}</span>
+                    <div class="card-bottom-meta">
+                        <span class="blog-date">${p.date}</span>
+                        <div class="card-stats-group" data-id="${p.id}">
+                            <span class="meta-separator">•</span>
+                            <span class="stat-item" title="Jumlah Dilihat">
+                                <img src="${ICON_EYE}" class="stat-icon-svg" alt="Views" />
+                                <span class="view-count-text">${stats.views || 0}</span>
+                            </span>
+                            <span class="stat-item" title="Jumlah Disukai">
+                                <img src="${isLiked ? ICON_LIKE_FILLED : ICON_LIKE_DEFAULT}" class="stat-icon-svg card-like-icon" alt="Likes" />
+                                <span class="like-count-text">${stats.likes || 0}</span>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
             `;
@@ -386,6 +544,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function loadBlogIndex() {
+        // Ambil data statistik dari Firestore bersamaan dengan pemuatan index.json
+        fetchAllStats();
+
         fetch(`${CWP_BASE_URL}/index.json?t=${Date.now()}`)
             .then(res => {
                 if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
