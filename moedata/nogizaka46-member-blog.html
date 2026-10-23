@@ -61,12 +61,20 @@
                         <div class="blog-article-header">
                             <h2 id="readTitle"></h2>
                             <div class="jp-sub-title" id="readJpTitle"></div>
-                            <div class="blog-meta-tags">
-                                <span class="date-badge" id="readDate"></span>
-                                <a id="readOrigLink" href="#" target="_blank" rel="noopener noreferrer" class="orig-link">
-                                    <i class="fas fa-external-link-alt"></i> Blog Asli
-                                </a>
-                            </div>
+							<div class="blog-meta-tags">
+								<div class="meta-left-group">
+									<span class="date-badge" id="readDate"></span>
+									<button type="button" class="btn-blog-like" id="btnBlogLike" disabled>
+										<img src="../sprite/element/like_x.svg" id="readLikeIcon" class="like-icon-svg" alt="Like" />
+										<span id="readLikeCount">0</span>
+									</button>
+								</div>
+								<div class="meta-right-group">
+									<a id="readOrigLink" href="#" target="_blank" rel="noopener noreferrer" class="orig-link">
+										<i class="fas fa-external-link-alt"></i> Blog Asli
+									</a>
+								</div>
+							</div>
                         </div>
                         <div class="blog-body-text" id="readBody"></div>
                         <div class="ai-disclaimer-box">

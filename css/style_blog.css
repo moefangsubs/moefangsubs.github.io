@@ -538,6 +538,92 @@ body, button, p, span, div, h1, h2, h3, h4, a, input {
 }
 
 /* ---------------------------------------------------- */
+/* Card Meta: Date, Separator, Views & Likes            */
+/* ---------------------------------------------------- */
+.card-bottom-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto;
+    font-size: 0.75rem;
+    color: #888;
+    padding-top: 8px;
+}
+
+.card-stats-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.meta-separator {
+    color: #ccc;
+    font-size: 0.75rem;
+    margin: 0 2px;
+}
+
+.stat-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    color: #777;
+    font-size: 0.74rem;
+}
+
+.stat-icon-svg {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* ---------------------------------------------------- */
+/* Reader View Like Button                              */
+/* ---------------------------------------------------- */
+.meta-left-group {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.btn-blog-like {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #ffffff;
+    border: 1px solid var(--moe);
+    color: var(--moe);
+    padding: 4px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.btn-blog-like:hover:not(:disabled) {
+    background: #fbf5fd;
+    transform: translateY(-1px);
+}
+
+.btn-blog-like:disabled {
+    cursor: default;
+}
+
+.btn-blog-like.is-liked {
+    background: #faf3fc;
+    border-color: var(--moe);
+    color: var(--moe);
+}
+
+.like-icon-svg {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+/* ---------------------------------------------------- */
 /* Responsive Breakpoints (4 -> 3 -> 2 -> 1)            */
 /* ---------------------------------------------------- */
 @media only screen and (max-width: 980px) {
