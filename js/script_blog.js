@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentUser = null;
     let currentReadingId = null;
     let unsubscribeStats = null;
+    let hasRecordedView = false; // Guard agar view tidak tercatat ganda dalam 1 sesi baca
 
     function getDb() {
         return (typeof firebase !== 'undefined' && firebase.firestore) ? firebase.firestore() : null;
@@ -51,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             currentUser = user;
             if (user) {
                 initRealtimeStats();
-                if (currentReadingId) {
+                if (currentReadingId && !hasRecordedView) {
                     recordBlogView(currentReadingId);
                     checkLikeStatus(currentReadingId);
                 }
@@ -83,22 +84,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function recordBlogView(blogId) {
         const db = getDb();
-        if (!db || !blogId || !currentUser) return;
+        if (!db || !blogId || !currentUser || hasRecordedView) return;
 
+        hasRecordedView = true; // Tandai sudah dicatat untuk sesi artikel ini
         const docRef = db.collection('blog').doc(String(blogId));
         docRef.set({
             views: firebase.firestore.FieldValue.increment(1)
         }, { merge: true })
-        .then(() => {
-            if (!blogStatsCache[blogId]) {
-                blogStatsCache[blogId] = { views: 1, likes: 0, liked_by: [] };
-            } else {
-                blogStatsCache[blogId].views = (blogStatsCache[blogId].views || 0) + 1;
-            }
-            updateStatsInDOM(blogId);
-        })
         .catch(err => {
             console.warn('Gagal menambah view:', err);
+            hasRecordedView = false;
         });
     }
 
@@ -134,29 +129,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const blogId = String(currentReadingId);
             const docRef = db.collection('blog').doc(blogId);
 
+            // Kunci tombol seketika di UI agar tidak diklik berkali-kali
             btnBlogLike.disabled = true;
             btnBlogLike.classList.add('is-liked');
             readLikeIcon.src = ICON_LIKE_FILLED;
 
+            // Jangan update blogStatsCache manual di sini agar tidak dobel hitung dengan onSnapshot
             docRef.set({
                 likes: firebase.firestore.FieldValue.increment(1),
                 liked_by: firebase.firestore.FieldValue.arrayUnion(currentUser.uid)
             }, { merge: true })
-            .then(() => {
-                if (!blogStatsCache[blogId]) {
-                    blogStatsCache[blogId] = { views: 1, likes: 1, liked_by: [currentUser.uid] };
-                } else {
-                    blogStatsCache[blogId].likes = (blogStatsCache[blogId].likes || 0) + 1;
-                    if (!Array.isArray(blogStatsCache[blogId].liked_by)) {
-                        blogStatsCache[blogId].liked_by = [];
-                    }
-                    if (!blogStatsCache[blogId].liked_by.includes(currentUser.uid)) {
-                        blogStatsCache[blogId].liked_by.push(currentUser.uid);
-                    }
-                }
-                readLikeCount.innerText = blogStatsCache[blogId].likes;
-                updateStatsInDOM(blogId);
-            })
             .catch(err => {
                 console.error('Gagal memberikan like:', err);
                 btnBlogLike.disabled = false;
@@ -373,6 +355,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showListView() {
         currentReadingId = null;
+        hasRecordedView = false;
         blogReaderView.style.display = 'none';
         blogListView.style.display = 'block';
         document.title = 'Nogizaka46 Member Blog - MoeData';
@@ -386,6 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showReaderView(id) {
         currentReadingId = String(id);
+        hasRecordedView = false; // Reset guard saat membuka artikel baru
         blogListView.style.display = 'none';
         blogReaderView.style.display = 'block';
         window.scrollTo({ top: 0, behavior: 'smooth' });

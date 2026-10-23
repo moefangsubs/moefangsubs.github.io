@@ -1,18 +1,18 @@
 {
 	"01": {
 		"type"	: "feature",
-		"note"	: "Pengen tau vibe lagu Nogizaka? Cek MoePlay lalu pilih 'Song Vibe' (untuk saat ini hanya bisa dibuka lewat PC/Laptop/mode landscape)"
+		"note"	: "Sekarang sudah tersedia halaman terjemahan blog, dan direncanakan akan diperbarui secara berkala. Silakan cek, dan like untuk blog member yang kamu suka ^^"
 	},
 	"02": {
 		"type"	: "feature",
-		"note"	: "Suka bikin formasi senbatsu? Silakan buka PLAY dan Klik Senbatsu."
+		"note"	: "Pengen tau vibe lagu Nogizaka? Cek MoePlay lalu pilih 'Song Vibe' (untuk saat ini hanya bisa dibuka lewat PC/Laptop/mode landscape)"
 	},
 	"03": {
-		"type"	: "notice",
-		"note"	: "Mulai 2025, kami melakukan update garapan terlebih dahulu bagi para supporter di Trakteer, dan untuk update di website ini akan ada jeda beberapa hari."
+		"type"	: "feature",
+		"note"	: "Suka bikin formasi senbatsu? Silakan buka PLAY dan Klik Senbatsu."
 	},
 	"04": {
-		"type"	: "feature",
-		"note"	: "Dengan mengklik panah di sebelah daftar lagu pada variety musik, kamu akan diarahkan ke pencarian YouTube sesuai lagu yang diklik."
+		"type"	: "notice",
+		"note"	: "Mulai 2025, kami melakukan update garapan terlebih dahulu bagi para supporter di Trakteer, dan untuk update di website ini akan ada jeda beberapa hari."
 	}
 }
