@@ -4,7 +4,6 @@
 const CWP_BASE_URL = 'https://full.diskon.cloud/~moefa404/store/data/blog';
 const MEMBERS_JSON_URL = '../store/member/members.json';
 
-// Path SVG Element
 const ICON_EYE = '../sprite/element/eye_show.svg';
 const ICON_LIKE_DEFAULT = '../sprite/element/like_x.svg';
 const ICON_LIKE_FILLED = '../sprite/element/like_v.svg';
@@ -35,69 +34,56 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedMember = null;
     let savedScrollPosition = 0;
 
-    // Cache Stats Firestore lokal: { "104938": { views: 5, likes: 2, liked_by: [...] } }
     let blogStatsCache = {};
     let currentUser = null;
     let currentReadingId = null;
+    let unsubscribeStats = null;
 
-    // Inisialisasi Auth Firestore
-    if (typeof firebase !== 'undefined' && firebase.auth) {
-        firebase.auth().onAuthStateChanged(user => {
-            currentUser = user;
-            if (currentReadingId) {
-                checkLikeStatus(currentReadingId);
-            }
-        });
-    }
-
-    loadBlogIndex();
-
-    fetch(`${MEMBERS_JSON_URL}?t=${Date.now()}`)
-        .then(res => res.json())
-        .then(members => {
-            memberList = Array.isArray(members) ? members : [];
-            memberList.forEach(m => {
-                const normRomaji = (m.nama_romaji || '').toLowerCase().replace(/\s+/g, '');
-                const normJp = (m.nama_jp || '').replace(/\s+/g, '');
-                if (normRomaji) memberLookup[normRomaji] = m;
-                if (normJp) memberLookup[normJp] = m;
-            });
-            buildMemberDropdown();
-            if (allPosts.length > 0) {
-                renderGrid(allPosts);
-            }
-        })
-        .catch(err => {
-            console.warn('Gagal memuat members.json, melanjutkan tanpa profil member:', err);
-        });
-
-    // ----------------------------------------------------
-    // Firestore Interaction Functions
-    // ----------------------------------------------------
     function getDb() {
         return (typeof firebase !== 'undefined' && firebase.firestore) ? firebase.firestore() : null;
     }
 
-    // Ambil data view & like dari Firestore secara batch
-    function fetchAllStats() {
-        const db = getDb();
-        if (!db) return;
+    // ----------------------------------------------------
+    // Firebase Auth & Realtime Stats Listener
+    // ----------------------------------------------------
+    if (typeof firebase !== 'undefined' && firebase.auth) {
+        firebase.auth().onAuthStateChanged(user => {
+            currentUser = user;
+            if (user) {
+                initRealtimeStats();
+                if (currentReadingId) {
+                    recordBlogView(currentReadingId);
+                    checkLikeStatus(currentReadingId);
+                }
+            } else {
+                if (unsubscribeStats) {
+                    unsubscribeStats();
+                    unsubscribeStats = null;
+                }
+            }
+        });
+    }
 
-        db.collection('blog').get()
-            .then(snapshot => {
-                snapshot.forEach(doc => {
-                    blogStatsCache[doc.id] = doc.data();
-                });
-                updateStatsInDOM();
-            })
-            .catch(err => {
-                console.warn('Gagal memuat statistik blog dari Firestore:', err);
+    function initRealtimeStats() {
+        const db = getDb();
+        if (!db || !currentUser || unsubscribeStats) return;
+
+        unsubscribeStats = db.collection('blog').onSnapshot(snapshot => {
+            snapshot.forEach(doc => {
+                blogStatsCache[doc.id] = doc.data();
             });
+            updateStatsInDOM();
+            if (currentReadingId) {
+                checkLikeStatus(currentReadingId);
+            }
+        }, err => {
+            console.warn('Realtime stats listener error:', err);
+        });
     }
 
     function recordBlogView(blogId) {
         const db = getDb();
-        if (!db || !blogId) return;
+        if (!db || !blogId || !currentUser) return;
 
         const docRef = db.collection('blog').doc(String(blogId));
         docRef.set({
@@ -111,7 +97,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             updateStatsInDOM(blogId);
         })
-        .catch(err => console.warn('Gagal menambah view:', err));
+        .catch(err => {
+            console.warn('Gagal menambah view:', err);
+        });
     }
 
     function checkLikeStatus(blogId) {
@@ -162,7 +150,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (!Array.isArray(blogStatsCache[blogId].liked_by)) {
                         blogStatsCache[blogId].liked_by = [];
                     }
-                    blogStatsCache[blogId].liked_by.push(currentUser.uid);
+                    if (!blogStatsCache[blogId].liked_by.includes(currentUser.uid)) {
+                        blogStatsCache[blogId].liked_by.push(currentUser.uid);
+                    }
                 }
                 readLikeCount.innerText = blogStatsCache[blogId].likes;
                 updateStatsInDOM(blogId);
@@ -196,8 +186,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ----------------------------------------------------
-    // Helper Functions
+    // Load Blog Index & Member Profile
     // ----------------------------------------------------
+    loadBlogIndex();
+
+    fetch(`${MEMBERS_JSON_URL}?t=${Date.now()}`)
+        .then(res => res.json())
+        .then(members => {
+            memberList = Array.isArray(members) ? members : [];
+            memberList.forEach(m => {
+                const normRomaji = (m.nama_romaji || '').toLowerCase().replace(/\s+/g, '');
+                const normJp = (m.nama_jp || '').replace(/\s+/g, '');
+                if (normRomaji) memberLookup[normRomaji] = m;
+                if (normJp) memberLookup[normJp] = m;
+            });
+            buildMemberDropdown();
+            if (allPosts.length > 0) {
+                renderGrid(allPosts);
+            }
+        })
+        .catch(err => {
+            console.warn('Gagal memuat members.json, melanjutkan tanpa profil member:', err);
+        });
+
     function getMemberInfo(kanji, romaji) {
         const keyRomaji = (romaji || '').toLowerCase().replace(/\s+/g, '');
         const keyJp = (kanji || '').replace(/\s+/g, '');
@@ -384,11 +395,10 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('readDate').innerText = '';
         document.getElementById('readBody').innerHTML = '<div class="loading-spinner"><i class="fas fa-spinner fa-spin"></i> Memuat isi blog...</div>';
 
-        // 1. Tambah +1 view ke Firestore
-        recordBlogView(id);
-
-        // 2. Cek status tombol like
-        checkLikeStatus(id);
+        if (currentUser) {
+            recordBlogView(id);
+            checkLikeStatus(id);
+        }
 
         fetch(`${CWP_BASE_URL}/${id}.json?t=${Date.now()}`)
             .then(res => {
@@ -544,9 +554,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function loadBlogIndex() {
-        // Ambil data statistik dari Firestore bersamaan dengan pemuatan index.json
-        fetchAllStats();
-
         fetch(`${CWP_BASE_URL}/index.json?t=${Date.now()}`)
             .then(res => {
                 if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
