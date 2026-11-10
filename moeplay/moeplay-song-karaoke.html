@@ -1,87 +1,353 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <!-- Meta -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="content-language" content="en">
-    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sakamichi Series Metallic Vinyl Player — MoeFang</title>
     <link rel="icon" href="../sprite/favicon.ico" type="image/x-icon">
-	
-    <!-- Title -->
-    <title>Nogizaka46 Karaoke Player</title>
-	
-    <!-- Google Fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,400&family=Share+Tech+Mono&family=UoqMunThenKhung&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
-	<!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
-    <script src="../js/firebase-init.js"></script>
-    <script src="../js/firebase-auth.js"></script>
-	
-	<!-- CSS -->
     <link rel="stylesheet" href="../css/style_song_karaoke.css">
 </head>
-<body>
-    <div class="music-container">
-        <div class="mediaandplaylist">
-            <div class="media">
-                <div class="blurry"></div>
-                <div class="forpadding">
-                    <div class="media-info">
-                        <div class="cdimg">
-                            <img id="cd-cover" src="https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_x.jpg" alt="Album Cover"/>
-                        </div>
-                        <div class="song">
-                            <div class="titlesong" id="title-song">Pilih Lagu</div>
-                            <div class="singersong" id="singer-song">Nogizaka46 Karaoke</div>
-                        </div>
-                    </div>
-                    <div class="player-controls">
-                        <audio id="audio-player" preload="metadata"></audio>
-                        <div class="progress-container" id="progress-container">
-                            <div class="progress-bar" id="progress-bar"></div>
-                        </div>
-                        <div class="time-display">
-                            <span id="current-time">0:00</span>
-                            <span id="total-duration">0:00</span>
-                        </div>
-                        <div class="buttons">
-                            <div class="main-controls">
-                                <button id="repeat-btn" class="control-btn"><i class="fas fa-repeat"></i></button>
-                                <button id="prev-btn" class="control-btn"><i class="fas fa-backward"></i></button>
-                                <button id="play-pause-btn" class="control-btn play"><i class="fas fa-play"></i></button>
-                                <button id="next-btn" class="control-btn"><i class="fas fa-forward"></i></button>
-                                <button id="shuffle-btn" class="control-btn"><i class="fas fa-random"></i></button>
-                            </div>
-                            <div class="volume-container">
-                                <i class="fas fa-volume-high control-btn" id="volume-icon"></i>
-                                <input type="range" id="volume-slider" class="volume-slider" min="0" max="1" step="0.01" value="0.5">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="playlist">
-                <div class="playlist-inside" id="playlist-inside">
-                    <a href="#" class="songlist">Memuat daftar putar...</a>
-                </div>
-            </div>
-        </div>
-        <div class="lyrics">
-            <div class="lyrics-animation" id="lyrics-animation">
-                <span>Pilih lagu dari daftar putar untuk memulai... 🎶</span>
-            </div>
+<body class="mode-idle">
+    <!-- Overlay peringatan putar ke mode landscape di smartphone -->
+    <div class="mobile-portrait-prompt" id="portrait-prompt">
+        <div class="portrait-prompt-card">
+            <i class="fas fa-mobile-alt rotate-device-icon"></i>
+            <h3>Silakan Putar Ponsel ke Mode Landscape</h3>
+            <p>Untuk kenyamanan pembacaan lirik karaoke, mode lanskap wajib diaktifkan.</p>
         </div>
     </div>
-    
+
+    <div class="deck-chassis" id="deck-chassis">
+        <!-- Top Metallic Header Bar -->
+        <header class="metallic-top-bar" id="top-bar">
+            <div class="brand-plate">
+                <span class="engraved-brand">MOEFANG</span>
+                <span class="engraved-sub">VINYL AUDIO SYSTEM</span>
+            </div>
+
+            <div class="header-right-zone">
+                <!-- Dropdown Pemilih Grup Sakamichi: HANYA MUNCUL SAAT MEMILIH LAGU -->
+                <div class="group-select-wrapper" id="group-select-wrapper">
+                    <select id="group-selector" class="metallic-group-select" title="Pilih Grup Sakamichi">
+                        <option value="nogizaka" selected>Nogizaka46</option>
+                        <option value="sakurazaka">Sakurazaka46</option>
+                        <option value="hinatazaka">Hinatazaka46</option>
+                    </select>
+                </div>
+
+                <!-- Header Actions: Aktif saat lagu sedang dipilih -->
+                <div class="deck-top-actions" id="player-top-actions">
+                    <button id="toggle-vinyl-deck-btn" class="metallic-icon-btn" title="Sembunyikan / Tampilkan Vinyl">
+                        <i class="fas fa-compact-disc" id="toggle-vinyl-icon"></i>
+                    </button>
+                    <button id="show-catalog-btn" class="metallic-icon-btn" title="Buka Katalog Album">
+                        <i class="fas fa-th-large"></i>
+                    </button>
+                    <button id="settings-btn" class="metallic-icon-btn" title="Pengaturan Tampilan & Warna">
+                        <i class="fas fa-sliders-h"></i>
+                    </button>
+                    <button id="fullscreen-btn" class="metallic-icon-btn" title="Layar Penuh (Full Screen)">
+                        <i class="fas fa-expand" id="fullscreen-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Initial Showcase Grid (Rak Album Awal) -->
+        <section class="catalog-showcase-screen" id="catalog-showcase">
+            <div class="showcase-nav-row">
+                <button id="back-to-player-btn" class="metallic-back-btn" title="Kembali ke Pemutar Lagu">
+                    <i class="fas fa-arrow-left"></i> <span>Kembali ke Pemutar</span>
+                </button>
+                <div class="showcase-header">
+                    <h2>Pilih lagu yang ingin diputar</h2>
+                </div>
+            </div>
+            
+            <!-- Loading Indicator Animasi -->
+            <div class="catalog-loading-box" id="catalog-loading">
+                <i class="fas fa-circle-notch fa-spin"></i>
+                <span>Mengambil data...</span>
+            </div>
+
+            <div class="showcase-grid" id="showcase-grid"></div>
+        </section>
+
+        <!-- Main Body Stage (Atas: Vinyl & Lirik sejajar | Bawah: Toolbar Tombol) -->
+        <div class="stage-container" id="stage-container">
+            <!-- Upper Zone: Vinyl Kiri, Lirik Kanan -->
+            <div class="stage-upper-deck">
+                <!-- Left: Vinyl Turntable Unit -->
+                <div class="turntable-panel" id="turntable-panel">
+                    <div class="turntable-canvas-wrap" id="turntable-canvas-wrap">
+                        <div class="turntable-deck-canvas" id="turntable-deck-canvas">
+                            <!-- 4 Corner Precision Screws -->
+                            <div class="screw screw-tl"></div>
+                            <div class="screw screw-tr"></div>
+                            <div class="screw screw-bl"></div>
+                            <div class="screw screw-br"></div>
+
+                            <!-- Power Area -->
+                            <div class="power-area">
+                                <div class="rotary-knob-plate">
+                                    <div class="rotary-knob-dial"></div>
+                                </div>
+                                <span class="power-status-led status-standby" id="power-led" title="Indikator Status Pemutar"></span>
+                                <span class="screw-text">POWER</span>
+                            </div>
+
+                            <!-- Start/Stop Button -->
+                            <div class="start-stop-area">
+                                <button id="start-stop-btn" class="metallic-round-btn btn-power-match" disabled title="Start / Stop Vinyl">
+                                    <span class="led-halo" id="led-ring"></span>
+                                    <i class="fas fa-play" id="play-icon"></i>
+                                </button>
+                                <span class="screw-text">START/STOP</span>
+                            </div>
+
+                            <!-- Platter & Vinyl Disc -->
+                            <div class="platter-well">
+                                <div class="platter-bezel">
+                                    <div class="vinyl-disc" id="vinyl-disc">
+                                        <div class="vinyl-groove-lines"></div>
+                                        <div class="vinyl-label-center">
+                                            <img id="vinyl-cover" src="https://ik.imagekit.io/moearchive/singlealbum/v2/n46_cover_x.jpg" alt="Center Label">
+                                            <div class="spindle-hub"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Tonearm Assembly -->
+                            <div class="tonearm-deck-assembly">
+                                <div class="tonearm-base-gimbal">
+                                    <div class="tonearm-lever" id="tonearm">
+                                        <div class="arm-counterweight"></div>
+                                        <div class="arm-tube"></div>
+                                        <div class="arm-cartridge">
+                                            <div class="arm-stylus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Lyrics Theater -->
+                <section class="lyrics-theater" id="lyrics-theater">
+                    <div class="now-playing-tag">
+                        <h2 id="active-title-ro">MoeFang Vinyl Corner</h2>
+                        <span id="active-title-jp" class="jp-sub">乃木坂46</span>
+                    </div>
+
+                    <div class="lyrics-scroll-well" id="lyrics-viewport">
+                        <div class="lyrics-stage-inner" id="lyrics-stage"></div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Lower Zone: Dedicated Control Box dengan Drawer Toggle (Panah v) di Ponsel -->
+            <div class="stage-lower-controls" id="stage-lower-controls">
+                <button id="toggle-drawer-btn" class="drawer-toggle-tab" title="Hide/Show Menu Tombol">
+                    <i class="fas fa-chevron-down" id="drawer-arrow-icon"></i>
+                </button>
+
+                <div class="lower-controls-inner" id="lower-controls-inner">
+                    <!-- Horizontal Progress Strip -->
+                    <div class="deck-timeline-strip" id="timeline-strip">
+                        <button id="inline-play-btn" class="inline-play-btn" disabled title="Play / Pause">
+                            <i class="fas fa-play" id="inline-play-icon"></i>
+                        </button>
+                        <span id="time-current" class="lcd-digits">00:00</span>
+                        <div class="metallic-progress-track" id="timeline-track">
+                            <div class="metallic-progress-bar" id="timeline-fill"></div>
+                        </div>
+                        <span id="time-total" class="lcd-digits">00:00</span>
+                    </div>
+
+                    <!-- Bottom Toolbar Grid -->
+                    <div class="hardware-toolbar-row">
+                        <!-- Rocker Switch Group -->
+                        <div class="toolbar-switches-group">
+                            <div class="rocker-unit">
+                                <span class="rocker-unit-label">KARAOKE</span>
+                                <div class="rocker-frame" id="karaoke-rocker" role="button" tabindex="0" title="Switch Vokal / Karaoke">
+                                    <div class="rocker-led" id="karaoke-led"></div>
+                                    <div class="rocker-paddle"></div>
+                                </div>
+                                <span class="rocker-status-sub" id="mode-label">VOCAL</span>
+                            </div>
+
+                            <div class="rocker-unit">
+                                <span class="rocker-unit-label">FURIGANA</span>
+                                <div class="rocker-frame is-on" id="furi-rocker" role="button" tabindex="0" title="On / Off Furigana">
+                                    <div class="rocker-led" id="furi-led"></div>
+                                    <div class="rocker-paddle"></div>
+                                </div>
+                                <span class="rocker-status-sub" id="furi-label">ON</span>
+                            </div>
+
+                            <div class="rocker-unit">
+                                <span class="rocker-unit-label">ROMAJI</span>
+                                <div class="rocker-frame is-on" id="romaji-rocker" role="button" tabindex="0" title="Sembunyikan / Tampilkan Romaji">
+                                    <div class="rocker-led" id="romaji-led"></div>
+                                    <div class="rocker-paddle"></div>
+                                </div>
+                                <span class="rocker-status-sub" id="romaji-label">ON</span>
+                            </div>
+
+                            <div class="rocker-unit">
+                                <span class="rocker-unit-label">INDONESIA</span>
+                                <div class="rocker-frame is-on" id="indo-rocker" role="button" tabindex="0" title="Sembunyikan / Tampilkan Terjemahan">
+                                    <div class="rocker-led" id="indo-led"></div>
+                                    <div class="rocker-paddle"></div>
+                                </div>
+                                <span class="rocker-status-sub" id="indo-label">ON</span>
+                            </div>
+
+                            <div class="rocker-unit">
+                                <span class="rocker-unit-label">FIT MODE</span>
+                                <div class="rocker-frame is-on" id="fit-rocker" role="button" tabindex="0" title="Ganti Mode Text Fit: Dikecilkan (Scale) atau Digepengkan (Squish)">
+                                    <div class="rocker-led" id="fit-led"></div>
+                                    <div class="rocker-paddle"></div>
+                                </div>
+                                <span class="rocker-status-sub" id="fit-label">SCALE</span>
+                            </div>
+                        </div>
+
+                        <!-- Sync Offset & Scale Slider Controls -->
+                        <div class="toolbar-adjusters-group">
+                            <div class="offset-calibrator-box">
+                                <span class="calibrator-label">SYNC / OFFSET</span>
+                                <div class="digital-lcd-box">
+                                    <span id="offset-display" class="digital-offset-text">+0.20s</span>
+                                </div>
+                                <div class="calibrator-btn-group-horiz">
+                                    <button id="btn-offset-minus" class="metallic-nudge-btn" title="Perlambat (-0.05s)">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
+                                    <button id="btn-offset-plus" class="metallic-nudge-btn" title="Percepat (+0.05s)">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="offset-calibrator-box vinyl-scaler-box">
+                                <span class="calibrator-label">VINYL SIZE</span>
+                                <div class="scaler-slider-wrap">
+                                    <input type="range" id="vinyl-scale-slider" class="mini-horiz-slider" min="0.45" max="1.0" step="0.05" value="0.75" title="Atur Ukuran Vinyl">
+                                    <span id="vinyl-scale-text" class="scaler-pct-text">75%</span>
+                                </div>
+                            </div>
+
+                            <div class="volume-horiz-housing">
+                                <div class="volume-horiz-label-row">
+                                    <span class="volume-horiz-title">VOLUME</span>
+                                    <span class="volume-horiz-val" id="volume-val-display">80%</span>
+                                </div>
+                                <div class="volume-slot-horiz-area" id="volume-slot-area">
+                                    <div class="volume-slot-horiz-groove"></div>
+                                    <div class="volume-ribbed-horiz-knob" id="volume-knob">
+                                        <span class="knob-tick-mark-vert"></span>
+                                    </div>
+                                    <input type="range" id="volume-fader" class="volume-hidden-horiz-input" min="0" max="1" step="0.01" value="0.8">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Settings Modal Popup -->
+        <div class="settings-modal-overlay" id="settings-modal">
+            <div class="settings-modal-card">
+                <div class="modal-header">
+                    <h3><i class="fas fa-palette"></i> Pengaturan Tampilan & Karaoke</h3>
+                    <button id="close-settings-btn" class="close-modal-btn">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="setting-group">
+                        <label>Ukuran Font Kanji (Rem): <span id="lbl-fs-kanji">2.6rem</span></label>
+                        <input type="range" id="slider-fs-kanji" min="1.4" max="4.5" step="0.1" value="2.6">
+                    </div>
+                    <div class="setting-group">
+                        <label>Ukuran Font Romaji (Rem): <span id="lbl-fs-ro">1.45rem</span></label>
+                        <input type="range" id="slider-fs-ro" min="0.9" max="2.6" step="0.1" value="1.45">
+                    </div>
+                    <div class="setting-group">
+                        <label>Ukuran Font Terjemahan (Rem): <span id="lbl-fs-id">0.95rem</span></label>
+                        <input type="range" id="slider-fs-id" min="0.7" max="1.8" step="0.05" value="0.95">
+                    </div>
+
+                    <div class="setting-row">
+                        <div class="setting-col">
+                            <label>Warna Lirik Dasar:</label>
+                            <input type="color" id="picker-base-color" value="#ffffff">
+                        </div>
+                        <div class="setting-col">
+                            <label>Warna Wipe Karaoke:</label>
+                            <input type="color" id="picker-wipe-color" value="#a22bff">
+                        </div>
+                    </div>
+
+                    <div class="setting-toggles-row">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="chk-kanji-border" checked> Border Teks Kanji
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="chk-furi-border" checked> Border Furigana
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="reset-style-btn" class="metallic-btn-secondary">Reset Bawaan</button>
+                    <button id="save-style-btn" class="metallic-btn-primary">Terapkan</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fullscreen Bottom-Center Navigation Bar -->
+        <div class="fs-bottom-nav" id="fs-bottom-nav">
+            <button id="fs-play-btn" class="fs-nav-btn" title="Play / Pause">
+                <i class="fas fa-play" id="fs-play-icon"></i>
+            </button>
+            <button id="fs-karaoke-btn" class="fs-nav-pill" title="Switch Vokal / Karaoke">
+                <i class="fas fa-microphone"></i> <span id="fs-mode-text">VOCAL</span>
+            </button>
+            <button id="fs-furi-btn" class="fs-nav-pill active" title="Toggle Furigana">
+                <span>あ</span> <span>FURI</span>
+            </button>
+            <button id="fs-romaji-btn" class="fs-nav-pill active" title="Toggle Romaji">
+                <span>Aa</span> <span>ROMAJI</span>
+            </button>
+            <button id="fs-indo-btn" class="fs-nav-pill active" title="Toggle Terjemahan">
+                <i class="fas fa-language"></i> <span>ARTI</span>
+            </button>
+            <div class="fs-sync-group">
+                <button id="fs-sync-minus" class="fs-mini-round" title="Sync -0.05s">-</button>
+                <span id="fs-sync-val" class="digital-offset-text">+0.20s</span>
+                <button id="fs-sync-plus" class="fs-mini-round" title="Sync +0.05s">+</button>
+            </div>
+            <button id="fs-settings-btn" class="fs-nav-btn" title="Pengaturan Tampilan">
+                <i class="fas fa-sliders-h"></i>
+            </button>
+            <button id="fs-exit-btn" class="fs-nav-btn" title="Keluar Fullscreen">
+                <i class="fas fa-compress"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Dual Audio Elements -->
+    <audio id="audio-vocal" preload="auto"></audio>
+    <audio id="audio-inst" preload="auto"></audio>
+
     <script src="../js/script_karaoke.js"></script>
 </body>
 </html>
