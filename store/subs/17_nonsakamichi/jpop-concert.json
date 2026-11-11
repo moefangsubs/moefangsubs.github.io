@@ -1,0 +1,61 @@
+{
+	"url": "jpop-concert",
+	"nameShowTitle": "J-Pop Concert",
+	"nameShow": "J-POP コンサート",
+	"availableEpisode": [
+		"01", "02", "03", "04"
+	],
+	"newUpdateCount": 4,
+	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_jpopconcert.png",
+	"linkTrakteer": "https://trakteer.id/moefangsubs/reward/yorushika-oSZSs",
+	"episodes": {
+		"01": {
+			"descEpisode": "| Yorushika LIVE TOUR 2022 \"Gekkou Saien\"",
+			"descEpsListName": "Yorushika - Gekkou Saien",
+			"descOnAirDate": "29 Juni 2022",
+			"memberParticipate": "ヨルシカ",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/yorushika-oSZSs",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/220629_yorushika_gekkou.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/220629_yorushika_gekkou.jpg",
+			"descEpisodeSynopsis": "Konser Gekkou yang digelar pada 31 Maret 2022 di Tokyo Garden Theater mengisahkan perjalanan terakhir seorang pemuda yang memutuskan untuk berhenti bermusik dan mengembara menyusuri kota-kota di Eropa demi menuliskan rangkaian puisi bagi Elma. Diiringi lagu-lagu penuh gejolak emosi seperti Yuunagi, Bou, Hana Madoi, Ainijou, hingga Nautilus, narasi membimbing penonton menyelami dasar laut imajinasi tempat sang tokoh bergulat dengan keputusasaan, harga diri, dan cinta. Menjelang detik-detik napas terakhirnya di kedalaman air, terungkap bahwa seluruh pemandangan kota, surat, dan melodi yang terlintas adalah kilasan kenangan hidupnya sebelum ia melangkah pergi menyambut cahaya rembulan yang menyerupai fajar.",
+			"nameShow": "ヨルシカ LIVE TOUR 2022 「月光 再演」"
+		},
+		"02": {
+			"descEpisode": "| Yorushika LIVE 2024 \"Tsuki to Neko no Dance\"",
+			"descEpsListName": "Yorushika - Tsuki to Neko no Dance",
+			"descOnAirDate": "7 April 2024",
+			"memberParticipate": "ヨルシカ",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/yorushika-oSZSs",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/240407_yorushika_tsuki-to-neko-no-dance.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/240407_yorushika_tsuki-to-neko-no-dance.jpg",
+			"descEpisodeSynopsis": "Konser Tsuki to Neko no Dance yang diselenggarakan di Ariake Arena pada 6–7 April 2024 menghadirkan kisah seorang pelukis yang kehilangan gairah dan arah berkarya di tengah rasa hampa. Kehidupannya perlahan berubah ketika jendela kamarnya kedatangan hewan-hewan misterius seperti burung kenari, katak, bunglon, hingga rusa jantan yang bergerak seolah menari mengikuti irama permainan sonata piano Gekkou miliknya. Terinspirasi oleh tarian tersebut hingga berhasil menggelar pameran tunggal berkat dorongan mantan kekasihnya, sang pelukis pada akhirnya menyadari bahwa gerakan hewan-hewan di bawah terang rembulan itu bukanlah sebuah tarian, melainkan cerminan dari dirinya sendiri yang sedang memainkan tuts piano.",
+			"nameShow": "ヨルシカ LIVE 2024「月と猫のダンス」"
+		},
+		"03": {
+			"descEpisode": "| Yorushika LIVE TOUR 2024 \"Zense\"",
+			"descEpsListName": "Yorushika - Zense",
+			"descOnAirDate": "25 Juni 2025",
+			"memberParticipate": "ヨルシカ",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/yorushika-oSZSs",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/250625_yorushika_zense-2024.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/250625_yorushika_zense-2024.jpg",
+			"descEpisodeSynopsis": "Konser Zense yang diselenggarakan pada rangkaian tur 2024 ini mengangkat narasi tentang pertemuan kembali di bangku jalur hijau pinggiran kota di bawah naungan pohon bungur. Sambil membawakan repertoar akustik dan aransemen mendalam dari karya-karya klasik seperti Makeinu ni Encore wa Iranai, Itte., hingga Parade, sang narator menceritakan mimpinya bereinkarnasi melintasi berbagai wujud kehidupan, mulai dari seekor burung yang mengejar cahaya rembulan, embusan angin, hingga seekor ikan di dasar samudra. Puncak kisah berakhir pada kesadaran mendalam saat sang tokoh menatap cermin dan mendapati bahwa di kehidupan saat ini dirinya hadir kembali sebagai seekor anjing setia yang menemani kekasihnya.",
+			"nameShow": "ヨルシカ LIVE TOUR 2024「前世」"
+		},
+		"04": {
+			"descEpisode": "| Yorushika LIVE TOUR 2025 \"Tousaku Saien\"",
+			"descEpsListName": "Yorushika - Tousaku Saien",
+			"descOnAirDate": "30 September 2026",
+			"memberParticipate": "ヨルシカ",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/yorushika-oSZSs",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/260930_yorushika_tousaku.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/random/260930_yorushika_tousaku.jpg",
+			"descEpisodeSynopsis": "Konser konsep yang memadukan pembacaan monolog oleh n-buna dan penampilan musik ini merupakan rekaman tur konser September–Oktober 2025 bertajuk Tousaku Saien. Mengikuti alur album Tousaku, ceritanya berpusat pada memori masa kecil serta paruh kehidupan seorang 'pencuri musik'. Diiringi alunan lagu penuh emosi, narator merenungkan hakikat seni dan reinkarnasi di balik pengalaman hidup yang dirangkai dari karya curian, sebelum akhirnya menyadari bahwa karya berharga tersebut lahir dari jiwanya sendiri.",
+			"nameShow": "ヨルシカ LIVE TOUR 2025「盗作 再演」"
+		}
+	}
+}

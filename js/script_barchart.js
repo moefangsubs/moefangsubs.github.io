@@ -18,13 +18,37 @@ const GROUP_COLORS = {
 };
 
 let memberGroupMap = {};
+let isBarChartInitialized = false;
 
 /* ---------------------- */
 /* Initialization         */
 /* ---------------------- */
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
     createModalElement();
-    await initBarChart();
+
+    const chartContainer = document.getElementById("barchart-container");
+    if (!chartContainer) return;
+
+    const setupChartObserver = () => {
+        const chartObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    if (!isBarChartInitialized) {
+                        isBarChartInitialized = true;
+                        initBarChart();
+                    }
+                    observer.disconnect();
+                }
+            });
+        }, {
+            rootMargin: "150px 0px",
+            threshold: 0.01
+        });
+
+        chartObserver.observe(chartContainer);
+    };
+
+    window.addEventListener("updateBlocksLoaded", setupChartObserver, { once: true });
 });
 
 /* ---------------------- */
@@ -52,7 +76,6 @@ function createModalElement() {
     let body = document.createElement("div");
     body.id = "moe-modal-body";
     
-    // Menggunakan div (bukan ul) untuk menampung Grid system
     let list = document.createElement("div");
     list.id = "moe-modal-list";
     
@@ -348,8 +371,6 @@ function parseMVData(data, defaultGroup) {
     return stats;
 }
 
-
-// Rekursif untuk membaca seluruh folder dan file di list.json
 function fetchAllSubs(listObj, currentPath) {
     let promises = [];
     if (Array.isArray(listObj)) {

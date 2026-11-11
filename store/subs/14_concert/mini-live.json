@@ -2,13 +2,45 @@
 	"url": "mini-live",
 	"nameShowTitle": "Single Commemoration Mini Live",
 	"availableEpisode": [
-		"28", "29", "30", 
+		"26", "27",	"28", "29", "30", 
 		"31", "32", "33", "34", "35", "36", "37", "38", "39", "40", 
-		"41"
+		"41", "42"
 	],
 	"newUpdateCount": 1,
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_other_perform_minilive.png",
 	"episodes": {
+		"26": {
+			"descEpisode": "| Nogizaka46 Mini Live 26th Single \"Boku wa Boku o Suki ni naru\"",
+			"descEpsListName": "26th",
+			"descOnAirDate": "25 Maret 2021",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/B2UPtUX",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-mini-live-26th-single-boku-wa-boku-o-suki-ni-naru-MT37A",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_minilive26.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive26.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive26a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive26b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive26c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive26d.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 memperingati perilisan single ke-26 \"Boku wa Boku o Suki ni naru\" dengan menyelenggarakan mini live secara streaming tanpa penonton akibat pandemi corona, meski sempat terjadi kendala teknis penyiaran di tengah pertunjukan. Seluruh lagu dibawakan dalam versi penuh, termasuk penampilan pertama lagu unit gitar \"Yuujou Pierce\" serta panggung solo kelulusan Hori Miona sebelum live kelulusannya pada konser generasi kedua mendatang.",
+			"nameShow": "乃木坂46 26thシングル「僕は僕を好きになる」発売記念ミニライブ"
+		},
+		"27": {
+			"descEpisode": "| Nogizaka46 Mini Live 27th Single \"Gomen ne Fingers crossed\"",
+			"descEpsListName": "27th",
+			"descOnAirDate": "17 Agustus 2021",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/Hg1JGr8",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-mini-live-27th-single-gomen-ne-fingers-crossed-zrN9q",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_minilive27.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive27.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive27a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive27b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive27c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive27d.jpg",
+			"descEpisodeSynopsis": "Sebagai pengganti acara handshake nasional di tengah pelaksanaan rangkaian tur musim panas, Nogizaka46 menyelenggarakan mini live streaming untuk memperingati perilisan single ke-27 \"Gomen ne Fingers crossed\". Seluruh trek dibawakan dalam versi penuh, menampilkan posisi center kedua bagi Endo Sakura, penampilan perdana unit generasi campuran, hingga obrolan mengenai kesan konser di kampung halaman serta persiapan jelang panggung konser terakhir sebelum kelulusan Ozono Momoko di Fukuoka.",
+			"nameShow": "乃木坂46 27thシングル「ごめんねFingers crossed」発売記念ミニライブ"
+		},
 		"28": {
 			"descEpisode": "| Nogizaka46 Mini Live 28th Single \"Kimi ni Shikarareta\"",
 			"descEpsListName": "28th",
@@ -232,6 +264,22 @@
 			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive41d.jpg",
 			"descEpisodeSynopsis": "Setelah diselenggarakan juga acara yang sama pada single sebelumnya, Nogizaka46 kembali memperingati rilis single ke-41 \"Biryani\" ini dengan Mini live secara streaming. Single ini dipimpin oleh center baru dari gen-5, Ikeda Teresa. Di akhir Mini Live, diputar MV lagu solo Umezawa Minami.",
 			"nameShow": "乃木坂46 41stシングル「最後に階段を駆け上がったのはいつだ？」発売記念ミニライブ"
+		},		
+		"42": {
+			"descEpisode": "| Nogizaka46 Mini Live 42nd Single \"Zehi ni Oyobazu\"",
+			"descEpsListName": "42nd",
+			"descOnAirDate": "23 Oktober 2026",
+			"memberParticipate": "乃木坂46",
+			"linkHardsub": "https://sfl.gl/vBYkP",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/nogizaka46-mini-live-42nd-single-zehi-ni-oyobazu-GBDhy",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/other/live_minilive42.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive42.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive42a.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive42b.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive42c.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/live/minilive42d.jpg",
+			"descEpisodeSynopsis": "Nogizaka46 menggelar mini live secara streaming untuk memperingati perilisan single ke-42 bertajuk \"Zehi ni Oyobazu\" yang mengusung nuansa musik rock musim panas. Selain membawakan lagu utama bersama Ichinose Miku sebagai center, pertunjukan ini juga menghadirkan lagu Under \"Fortissimo\", beragam lagu unit unik, penampilan bertenaga generasi keenam melalui \"Inochi no Iro\", serta ditutup manis lewat lagu \"Kokuhaku Shitai Byou\".",
+			"nameShow": "乃木坂46 42ndシングル「是非に及ばず」発売記念ミニライブ"
 		}
 	}
 }
