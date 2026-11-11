@@ -95,7 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // FUNGSI DINAMIS JUMLAH HARI PER BULAN
     // ----------------------
     const getDaysInMonth = (month) => {
-        // Februari diberi 29 hari agar arsip tahun kabisat tetap bisa dicari
         if (month === 2) return 29;
         if ([4, 6, 9, 11].includes(month)) return 30;
         return 31;
@@ -113,7 +112,6 @@ document.addEventListener('DOMContentLoaded', () => {
             selectDay.appendChild(opt);
         }
 
-        // Pertahankan tanggal yang dipilih sebelumnya jika masih valid, jika tidak set ke hari maksimal
         if (currentSelectedDay && currentSelectedDay <= maxDays) {
             selectDay.value = currentSelectedDay;
         } else {
@@ -223,26 +221,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 const safeHeadline = item.headline || 'Tanpa Judul';
                 const safeSummary = item.summary || 'Tidak ada deskripsi tambahan.';
 
-				html += `
-					<div class="chro-item-card">
-						<div class="chro-header-row">
-							<div class="chro-left-content">
-								<span class="chro-badge" style="background-color: ${cat.color};">${cat.name}</span>
-								<span class="chro-headline">${safeHeadline}</span>
-							</div>
-							<button class="chro-toggle-btn" aria-label="Toggle Summary">
-								<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-									<polyline points="6 9 12 15 18 9"></polyline>
-								</svg>
-							</button>
-						</div>
-						<div class="chro-summary-wrapper">
-							<div class="chro-summary-inner">
-								<div class="chro-summary">${safeSummary}</div>
-							</div>
-						</div>
-					</div>
-				`;
+                html += `
+                    <div class="chro-item-card">
+                        <div class="chro-header-row">
+                            <div class="chro-left-content">
+                                <span class="chro-badge" style="background-color: ${cat.color};">${cat.name}</span>
+                                <span class="chro-headline">${safeHeadline}</span>
+                            </div>
+                            <button class="chro-toggle-btn" aria-label="Toggle Summary">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="chro-summary-wrapper">
+                            <div class="chro-summary-inner">
+                                <div class="chro-summary">${safeSummary}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
             });
 
             html += `</div>`;
@@ -254,27 +252,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // ----------------------
     // EVENTS
     // ----------------------
-	timelineEl.addEventListener('click', (e) => {
-		const headerRow = e.target.closest('.chro-header-row');
-		if (!headerRow) return;
+    timelineEl.addEventListener('click', (e) => {
+        const headerRow = e.target.closest('.chro-header-row');
+        if (!headerRow) return;
 
-		const currentCard = headerRow.closest('.chro-item-card');
-		const currentWrapper = currentCard.querySelector('.chro-summary-wrapper');
-		const currentToggleBtn = currentCard.querySelector('.chro-toggle-btn');
-		const willOpen = !currentWrapper.classList.contains('visible');
+        const currentCard = headerRow.closest('.chro-item-card');
+        const currentWrapper = currentCard.querySelector('.chro-summary-wrapper');
+        const currentToggleBtn = currentCard.querySelector('.chro-toggle-btn');
+        const willOpen = !currentWrapper.classList.contains('visible');
 
-		timelineEl.querySelectorAll('.chro-summary-wrapper.visible').forEach(openWrapper => {
-			openWrapper.classList.remove('visible');
-		});
-		timelineEl.querySelectorAll('.chro-toggle-btn.open').forEach(openBtn => {
-			openBtn.classList.remove('open');
-		});
+        timelineEl.querySelectorAll('.chro-summary-wrapper.visible').forEach(openWrapper => {
+            openWrapper.classList.remove('visible');
+        });
+        timelineEl.querySelectorAll('.chro-toggle-btn.open').forEach(openBtn => {
+            openBtn.classList.remove('open');
+        });
 
-		if (willOpen) {
-			currentWrapper.classList.add('visible');
-			currentToggleBtn.classList.add('open');
-		}
-	});
+        if (willOpen) {
+            currentWrapper.classList.add('visible');
+            currentToggleBtn.classList.add('open');
+        }
+    });
 
     tabsContainer.addEventListener('click', (e) => {
         const btn = e.target.closest('.chro-tab-btn');
@@ -322,9 +320,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ----------------------
-    // INIT
+    // INIT (Menunggu UPDATE Selesai DAN User Scroll ke Dekat Elemen)
     // ----------------------
-    loadAllNewsData().then(() => {
-        renderTimeline();
-    });
+    const setupChronicleObserver = () => {
+        rootContainer.style.display = 'block';
+
+        const chronicleObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    loadAllNewsData().then(() => {
+                        renderTimeline();
+                    });
+                    observer.disconnect();
+                }
+            });
+        }, {
+            rootMargin: '100px 0px',
+            threshold: 0.01
+        });
+
+        chronicleObserver.observe(rootContainer);
+    };
+
+    window.addEventListener('updateBlocksLoaded', setupChronicleObserver, { once: true });
 });

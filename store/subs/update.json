@@ -1,5 +1,34 @@
 [
 	{
+	"date": "261111",
+	"updates": [
+		{"showId": "nogizaka-koujichuu", "eps": "077"},
+		{"showId": "cupstar-shaberu-yatsura-wa-hara-ga-heru", "eps": "09"},
+		{"showId": "cupstar-shaberu-yatsura-wa-hara-ga-heru", "eps": "10"},
+		{"showId": "cupstar-shaberu-yatsura-wa-hara-ga-heru", "eps": "11"},
+		{"showId": "cupstar-shaberu-yatsura-wa-hara-ga-heru", "eps": "12"},
+		{"showId": "cupstar-shaberu-yatsura-wa-hara-ga-heru", "eps": "13"},
+		{"showId": "cupstar-shaberu-yatsura-wa-hara-ga-heru", "eps": "14"},
+		{"showId": "cupstar-shaberu-yatsura-wa-hara-ga-heru", "eps": "15"},
+		{"showId": "livestream", "eps": "230124"},
+		{"showId": "showroom", "eps": "60"},
+		{"showId": "showroom", "eps": "61"},
+		{"showId": "showroom", "eps": "62"},
+		{"showId": "showroom", "eps": "63"},
+		{"showId": "showroom", "eps": "64"},
+		{"showId": "showroom", "eps": "65"},
+		{"showId": "showroom", "eps": "66"},
+		{"showId": "showroom", "eps": "67"},
+		{"showId": "mini-live", "eps": "26"},
+		{"showId": "mini-live", "eps": "27"},
+		{"showId": "mini-live", "eps": "42"},
+		{"showId": "jpop-concert", "eps": "01"},
+		{"showId": "jpop-concert", "eps": "02"},
+		{"showId": "jpop-concert", "eps": "03"},
+		{"showId": "jpop-concert", "eps": "04"}
+		]
+	},
+	{
 	"date": "261020",
 	"updates": [
 		{"showId": "kintsukuroi", "eps": "01"},
@@ -112,25 +141,6 @@
 	"date": "261001",
 	"updates": [
 		{"showId": "under-live", "eps": "17"}
-		]
-	},
-	{
-	"date": "260927",
-	"updates": [
-		{"showId": "nogizaka-star-tanjou-six", "eps": "57"},
-		{"showId": "nogizaka-star-tanjou-six", "eps": "58"},
-		{"showId": "nogizaka-star-tanjou-six", "eps": "59"},
-		{"showId": "nogizaka-star-tanjou-six", "eps": "60"},
-		{"showId": "nogizaka-star-tanjou-six", "eps": "61"},
-		{"showId": "nogizaka-star-tanjou-six", "eps": "62"},
-		{"showId": "nogizaka-koujichuu", "eps": "253"},
-		{"showId": "nogizaka-koujichuu", "eps": "未公開_267"},
-		{"showId": "nogizaka-koujichuu", "eps": "未公開_268_269"},
-		{"showId": "hinatazaka-ni-narimashou", "eps": "14"},
-		{"showId": "hinatazaka-ni-narimashou", "eps": "14-bangai"},
-		{"showId": "hinatazaka-ni-narimashou", "eps": "25"},
-		{"showId": "hinatazaka-ni-narimashou", "eps": "25-bangai"},
-		{"showId": "hinatazaka-ni-narimashou", "eps": "26"}
 		]
 	}
 ]

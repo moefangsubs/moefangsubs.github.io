@@ -2,10 +2,27 @@
 	"url": "livestream",
 	"nameShowTitle": "Live Streaming",
 	"availableEpisode": [
-		"250331", "260225"
+		"230124", "250331", "260225"
 	],
 	"IMGSitemap": "https://ik.imagekit.io/moearchive/menu-button/newbanner_docrandom_livestream.png",
 	"episodes": {
+		"230124": {
+			"descEpisode": "| 230124 SHOWROOM Nogisatsu Vol.3 Release Commemoration Live Stream",
+			"descEpsListName": "Kaki & Sakura",
+			"descOnAirDate": "24 Januari 2023",
+			"memberParticipate": "賀喜遥香、遠藤さくら",
+			"linkHardsub": "",
+			"linkTrakteer": "https://trakteer.id/moefangsubs/reward/showroom-nogiobi-YdEtN",
+			"imageThumbEps": "https://ik.imagekit.io/moearchive/thumb/docrandom/230124_Nogisatsu.jpg",
+			"imageThumbBig": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/230124_Nogisatsu.jpg",
+			"imageThumbA": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/230124_Nogisatsu1.jpg",
+			"imageThumbB": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/230124_Nogisatsu2.jpg",
+			"imageThumbC": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/230124_Nogisatsu3.jpg",
+			"imageThumbD": "https://ik.imagekit.io/mLsKqNSuB/post/showroom/230124_Nogisatsu4.jpg",
+			"subLanguage": "Indonesia",
+			"descEpisodeSynopsis": "Dalam siaran langsung SHOWROOM perayaan perilisan photobook \"Nogisatsu VOL.03\", Kaki Haruka dan Endo Sakura tampil mengenakan pakaian tidur kembar untuk membedah berbagai edisi sampul, foto di balik layar yang diabadikan antarmember, serta berinteraksi bersama penggemar melalui sesi tangkapan layar bertema khusus dan mencicipi camilan dango kesukaan.",
+			"nameShow": "SHOWROOM 乃木撮Vol.3"
+		},
 		"250331": {
 			"descEpisode": "| 250331 Inoue Nagi 1st Photobook \"Monologue\" Release Commemoration Live Stream 2",
 			"descEpsListName": "Inoue Nagi",

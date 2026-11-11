@@ -1,7 +1,11 @@
 document.addEventListener('DOMContentLoaded', async () => {
     const updateContainer = document.getElementById('daftar-update');
+    const blogUpdateContainer = document.getElementById('daftar-update-blog');
     if (!updateContainer) return;
 
+    // ----------------------------------------------------
+    // Controls View Update Utama
+    // ----------------------------------------------------
     const setupViewControls = () => {
         const controlsContainer = document.getElementById('view-controls-container');
         if (!controlsContainer) return;
@@ -25,7 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 updateContainer.classList.remove('grid-view');
                 slideBtn.classList.add('active');
                 gridBtn.classList.remove('active');
-                document.querySelectorAll('.update-grid').forEach(grid => grid.dispatchEvent(new Event('scroll')));
+                updateContainer.querySelectorAll('.update-grid').forEach(grid => grid.dispatchEvent(new Event('scroll')));
             }
         });
 
@@ -39,6 +43,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
     
     setupViewControls();
+
+    const finishLoadingSignal = () => {
+        window.dispatchEvent(new CustomEvent('updateBlocksLoaded'));
+    };
 
     try {
         const cacheBuster = `?v=${new Date().getTime()}`;
@@ -141,7 +149,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                     if (membersArray.length > 0) {
                         const memberItems = membersArray.map(nameJP => {
-                            const cleanedName = nameJP.replace(/[\u200B-\u200F\uFEFF]/g, '').trim();
+                            const cleanedName = nameJP.replace(/[​-‏﻿]/g, '').trim();
                             const memberId = memberMap.get(cleanedName);
                             const content = memberId ? `<a href="../moedata/member.html?id=${memberId}" target="_blank">${nameJP.trim()}</a>` : nameJP.trim();
                             
@@ -259,14 +267,133 @@ document.addEventListener('DOMContentLoaded', async () => {
             updateContainer.appendChild(sectionDiv);
         }
 
-        updateContainer.addEventListener('click', (e) => {
+        // ====================================================
+        // UPDATE BLOG MEMBER NOGIZAKA46
+        // ====================================================
+        if (blogUpdateContainer) {
+            try {
+                const blogRes = await fetch(`https://full.diskon.cloud/~moefa404/store/data/blog/index.json${cacheBuster}`);
+                if (blogRes.ok) {
+                    const blogPosts = await blogRes.json();
+                    if (Array.isArray(blogPosts) && blogPosts.length > 0) {
+                        const top10Posts = blogPosts.slice(0, 10);
+                        const blogSection = document.createElement('div');
+                        blogSection.className = 'update-section';
+                        
+                        // Header bergaya fansub partner
+                        blogSection.innerHTML = `
+                            <div class="blog-header-partner-style">
+                                <div class="blog-header-title-wrap">
+                                    <h2>Update Blog Member Nogizaka46</h2>
+                                    <div class="view-controls" id="blog-view-controls">
+                                        <button id="blog-slide-btn" class="view-btn active" title="Tampilan Slide">
+                                            <img src="../sprite/element/view_slide.svg" alt="Slide View">
+                                        </button>
+                                        <button id="blog-grid-btn" class="view-btn" title="Tampilan Grid">
+                                            <img src="../sprite/element/view_grid.svg" alt="Grid View">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+
+                        const scrollContainer = document.createElement('div');
+                        scrollContainer.className = 'update-scroll-container';
+
+                        const gridDiv = document.createElement('div');
+                        gridDiv.className = 'update-grid';
+
+                        top10Posts.forEach(post => {
+                            const cleanedAuthorJP = (post.author_kanji || '').replace(/[​-‏﻿]/g, '').trim();
+                            const memberId = memberMap.get(cleanedAuthorJP);
+                            const memberLinkHtml = memberId 
+                                ? `<a href="../moedata/member.html?id=${memberId}" target="_blank">${post.author_kanji}</a>` 
+                                : (post.author_kanji || post.author_romaji);
+
+                            const blogItemWrapper = document.createElement('div');
+                            blogItemWrapper.className = 'update-item-wrapper blog-update-wrapper';
+                            blogItemWrapper.innerHTML = `
+                                <div class="update-item-shadow"></div>
+                                <div class="update-item">
+                                    <a href="../moedata/nogizaka46-member-blog.html?=${post.id}">
+                                        <img src="${post.thumbnail}" alt="${post.translated_title}" class="blog-update-thumb" loading="lazy">
+                                        <div class="update-item-caption blog-update-caption">
+                                            <strong>${post.translated_title}</strong>
+                                            <span class="blog-update-date">${post.date}</span>
+                                        </div>
+                                    </a>
+                                    <div class="members-container" style="height: auto; border-top: 1px solid var(--moe-tint6);">
+                                        <ul class="member-list">
+                                            <li class="member-item-wrapper">
+                                                <div class="member-item-shadow"></div>
+                                                <div class="member-item">${memberLinkHtml}</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            `;
+                            gridDiv.appendChild(blogItemWrapper);
+                        });
+
+                        scrollContainer.appendChild(gridDiv);
+
+                        const btnLeft = document.createElement('button');
+                        btnLeft.className = 'scroll-btn scroll-btn-left hidden';
+                        btnLeft.innerHTML = '<img src="../sprite/element/arrow_left.svg" alt="Scroll Kiri">';
+
+                        const btnRight = document.createElement('button');
+                        btnRight.className = 'scroll-btn scroll-btn-right';
+                        btnRight.innerHTML = '<img src="../sprite/element/arrow_right.svg" alt="Scroll Kanan">';
+                        
+                        scrollContainer.appendChild(btnLeft);
+                        scrollContainer.appendChild(btnRight);
+
+                        const viewAllDiv = document.createElement('div');
+                        viewAllDiv.className = 'blog-view-all-container';
+                        viewAllDiv.innerHTML = `
+                            <a href="../moedata/nogizaka46-member-blog.html" class="blog-view-all-btn">
+                                <span>Lihat semua blog</span>
+                                <img src="../sprite/element/arrow_right.svg" alt="Arrow">
+                            </a>
+                        `;
+
+                        blogSection.appendChild(scrollContainer);
+                        blogSection.appendChild(viewAllDiv);
+                        blogUpdateContainer.appendChild(blogSection);
+
+                        const blogSlideBtn = blogSection.querySelector('#blog-slide-btn');
+                        const blogGridBtn = blogSection.querySelector('#blog-grid-btn');
+                        blogSlideBtn.addEventListener('click', () => {
+                            if (blogUpdateContainer.classList.contains('grid-view')) {
+                                blogUpdateContainer.classList.remove('grid-view');
+                                blogSlideBtn.classList.add('active');
+                                blogGridBtn.classList.remove('active');
+                                gridDiv.dispatchEvent(new Event('scroll'));
+                            }
+                        });
+                        blogGridBtn.addEventListener('click', () => {
+                            if (!blogUpdateContainer.classList.contains('grid-view')) {
+                                blogUpdateContainer.classList.add('grid-view');
+                                blogGridBtn.classList.add('active');
+                                blogSlideBtn.classList.remove('active');
+                            }
+                        });
+                    }
+                }
+            } catch (bErr) {
+                console.error('Error fetching blog updates:', bErr);
+            }
+        }
+
+        const handleContainerClick = (e) => {
             const scrollButton = e.target.closest('.scroll-btn');
             const expandButton = e.target.closest('.expand-btn');
 
             if (scrollButton) {
                 const scrollContainer = scrollButton.closest('.update-scroll-container');
                 const grid = scrollContainer.querySelector('.update-grid');
-                const itemWidth = grid.querySelector('.update-item-wrapper')?.offsetWidth || 280;
+                const item = grid.querySelector('.update-item-wrapper');
+                const itemWidth = item ? item.offsetWidth : 280;
                 const scrollAmount = itemWidth * 2 + 32;
 
                 if (scrollButton.matches('.scroll-btn-left')) {
@@ -278,22 +405,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (expandButton) {
                 const expandButtonWrapper = expandButton.closest('.member-item-wrapper');
-                
                 if (expandButtonWrapper) {
                     const list = expandButtonWrapper.parentElement;
                     const hiddenItemsHTML = decodeURIComponent(expandButton.dataset.more);
-
                     const tempContainer = document.createElement('div');
                     tempContainer.innerHTML = `<ul>${hiddenItemsHTML}</ul>`;
-
                     const newItems = tempContainer.querySelector('ul').childNodes;
-
                     list.append(...newItems);
-
                     expandButtonWrapper.remove();
                 }
             }
-        });
+        };
+
+        updateContainer.addEventListener('click', handleContainerClick);
+        if (blogUpdateContainer) {
+            blogUpdateContainer.addEventListener('click', handleContainerClick);
+        }
 
         document.querySelectorAll('.update-grid').forEach(grid => {
             const scrollCheck = () => {
@@ -318,12 +445,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const svgContainer = document.querySelector('.updatesvg');
         const controlsContainer = document.getElementById('view-controls-container');
 
-        if (svgContainer) {
-            svgContainer.classList.add('is-visible');
-        }
-        if (controlsContainer) {
-            controlsContainer.classList.add('is-visible');
-        }
+        if (svgContainer) svgContainer.classList.add('is-visible');
+        if (controlsContainer) controlsContainer.classList.add('is-visible');
 
         const partnerLoader = document.getElementById('fansub-partner-loader');
         const partnerContainer = document.querySelector('.scontainer.fansub-partner');
@@ -331,6 +454,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             partnerLoader.style.display = 'none';
             partnerContainer.style.display = 'block';
         }
+
+        finishLoadingSignal();
         
     } catch (error) {
         console.error('Failed to load update data:', error);
@@ -342,5 +467,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             partnerLoader.style.display = 'none';
             partnerContainer.style.display = 'block';
         }
+
+        finishLoadingSignal();
     }
 });

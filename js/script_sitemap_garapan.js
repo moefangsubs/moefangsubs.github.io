@@ -1,7 +1,6 @@
-// ../js/script_sitemap_garapan.js (FINAL - Dengan Link Tujuan yang Benar)
 document.addEventListener('DOMContentLoaded', () => {
 
-    // ========== LOGIC FOR DIV 1: SALAM PEMBUKA (Tidak berubah) ==========
+    // ========== LOGIC FOR DIV 1: SALAM PEMBUKA ==========
     const countupDaysSpan = document.getElementById("countup-days");
     if (countupDaysSpan) {
         const calculateDays = (startDate) => {
@@ -40,6 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
             "17_nonsakamichi": { name: "NON-SAKAMICHI CONTENT", path: '../store/subs/17_nonsakamichi' }
         };
 
+        let isGarapanLoaded = false;
+
         const fetchShowData = async (showId, basePath) => {
             try {
                 const response = await fetch(`${basePath}/${showId}.json`);
@@ -52,6 +53,15 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         const buildGarapanList = async () => {
+            if (isGarapanLoaded) return;
+            isGarapanLoaded = true;
+
+            garapanContainer.innerHTML = `
+                <div style="display: flex; justify-content: center; align-items: center; min-height: 120px;">
+                    <img src="../sprite/element/vibe/load.gif" alt="Loading" style="width: 40px; height: 40px;">
+                </div>
+            `;
+
             try {
                 const [listResponse, updateResponse, comingsoonResponse] = await Promise.all([
                     fetch(listJsonPath),
@@ -66,6 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const showList = await listResponse.json();
                 const updatesByDate = await updateResponse.json();
                 const comingSoonList = await comingsoonResponse.json();
+
+                garapanContainer.innerHTML = '';
 
                 const comingSoonShows = new Set();
                 for (const category in comingSoonList) {
@@ -99,14 +111,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         showsData.forEach(data => {
                             if (data && data.url && data.nameShowTitle && data.IMGSitemap) {
-                                
-                                const a = document.createElement('a'); // Pindahkan pembuatan elemen 'a' ke atas
+                                const a = document.createElement('a');
 
                                 let badgeHTML = '';
                                 let linkHref = `../moesubs/#/${data.url}`;
 
                                 if (comingSoonShows.has(data.url)) {
-                                    a.classList.add('is-coming-soon'); // TAMBAHKAN BARIS INI
+                                    a.classList.add('is-coming-soon');
                                     linkHref = `../moesubs/index.html?status=comingsoon`;
                                     badgeHTML = `
                                         <div class="garapan-comingsoon-wrapper">
@@ -146,10 +157,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             } catch (error) {
                 console.error('Error building garapan list:', error);
-                garapanContainer.innerHTML += '<p style="text-align:center;">Gagal memuat daftar garapan.</p>';
+                garapanContainer.innerHTML = '<p style="text-align:center;">Gagal memuat daftar garapan.</p>';
             }
         };
 
-        buildGarapanList();
+        const setupGarapanObserver = () => {
+            const garapanObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        buildGarapanList();
+                        observer.disconnect();
+                    }
+                });
+            }, {
+                rootMargin: '100px 0px',
+                threshold: 0.01
+            });
+
+            garapanObserver.observe(garapanContainer);
+        };
+
+        window.addEventListener('updateBlocksLoaded', setupGarapanObserver, { once: true });
     }
 });

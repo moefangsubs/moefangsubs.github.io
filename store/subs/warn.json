@@ -51,6 +51,7 @@
 		"type": "request",
 		"text": "🧧 Ini adalah garapan request by order via DM Instagram",
 		"targets": [
+			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=077",
 			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=099",
 			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=100",
 			"../store/subs/01_variety/nogizaka-koujichuu.json?episodes=101",
@@ -169,6 +170,15 @@
 			"../store/subs/13_random/showroom.json?episodes=57",
 			"../store/subs/13_random/showroom.json?episodes=58",
 			"../store/subs/13_random/showroom.json?episodes=59",
+			"../store/subs/13_random/showroom.json?episodes=60",
+			"../store/subs/13_random/showroom.json?episodes=61",
+			"../store/subs/13_random/showroom.json?episodes=62",
+			"../store/subs/13_random/showroom.json?episodes=63",
+			"../store/subs/13_random/showroom.json?episodes=64",
+			"../store/subs/13_random/showroom.json?episodes=65",
+			"../store/subs/13_random/showroom.json?episodes=66",
+			"../store/subs/13_random/showroom.json?episodes=67",
+			"../store/subs/13_random/livestream.json?episodes=230124",
 			"../store/subs/13_random/livestream.json?episodes=250331",
 			"../store/subs/13_random/livestream.json?episodes=260225",
 			"../store/subs/13_random/random-subs.json?episodes=230901",
@@ -176,6 +186,8 @@
 			"../store/subs/13_random/random-subs.json?episodes=251225",
 			"../store/subs/13_random/random-subs.json?episodes=251231",
 			"../store/subs/13_random/random-subs.json?episodes=260627",
+			"../store/subs/14_concert/mini-live.json?episodes=26",
+			"../store/subs/14_concert/mini-live.json?episodes=27",
 			"../store/subs/14_concert/zenkoku-tour.json?episodes=2015",
 			"../store/subs/14_concert/concert.json?episodes=06",
 			"../store/subs/14_concert/concert.json?episodes=11",
@@ -191,7 +203,8 @@
 			"../store/subs/15_premium/nogizaka46-12th-bdl-talk.json?episodes=01",
 			"../store/subs/17_nonsakamichi/equal-love-kokoko.json?episodes=06",
 			"../store/subs/17_nonsakamichi/equal-love-kokoko.json?episodes=07",
-			"../store/subs/17_nonsakamichi/equal-love-kokoko.json?episodes=08"
+			"../store/subs/17_nonsakamichi/equal-love-kokoko.json?episodes=08",
+			"../store/subs/17_nonsakamichi/jpop-concert.json"
 		]
 	},
 	{
