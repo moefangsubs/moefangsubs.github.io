@@ -36,6 +36,7 @@
 
 	<!-- JS -->    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="../js/script_photo.js"></script>
     <script src="../js/script_member_penlight.js" defer></script>
     <script src="../js/script_member_penlight_song.js" defer></script>
 </head>
@@ -52,14 +53,14 @@
             <button class="filter-btn" data-group="nogizaka46">
                 <img src="../sprite/element/group/8bit_nogi.png" alt="Nogizaka46">
             </button>
+            <button class="filter-btn" data-group="keyakizaka46">
+                <img src="../sprite/element/group/8bit_keya.png" alt="Keyakizaka46">
+            </button>
             <button class="filter-btn" data-group="sakurazaka46">
                 <img src="../sprite/element/group/8bit_saku.png" alt="Sakurazaka46">
             </button>
             <button class="filter-btn" data-group="hinatazaka46">
                 <img src="../sprite/element/group/8bit_hina.png" alt="Hinatazaka46">
-            </button>
-             <button class="filter-btn" data-group="keyakizaka46">
-                <img src="../sprite/element/group/8bit_keya.png" alt="Keyakizaka46">
             </button>
         </div>
         <div class="filter-group">
@@ -71,22 +72,27 @@
             <button class="filter-btn gen-btn" data-gen="gen4">4th</button>
             <button class="filter-btn gen-btn" data-gen="gen5">5th</button>
             <button class="filter-btn gen-btn" data-gen="gen6">6th</button>
-            <button class="filter-btn gen-btn" data-gen="grad">Graduated</button>
+        </div>
+        <div class="filter-group">
+            <strong class="filter-label">Status:</strong>
+            <button class="filter-btn status-btn" data-status="all">ALL</button>
+            <button class="filter-btn status-btn active" data-status="aktif">Member</button>
+            <button class="filter-btn status-btn" data-status="lulus">Graduated</button>
         </div>
     </div>
 
     <div id="penlight-content">
         <div class="pentitle" data-group-title="nogizaka46">Nogizaka46</div>
         <div class="penlist" data-for="nogizaka46"></div>
-        <!-- <div class="song-list" data-song-for="nogizaka46"></div> -->
+
+        <div class="pentitle" data-group-title="keyakizaka46">Keyakizaka46</div>
+        <div class="penlist" data-for="keyakizaka46"></div>
 
         <div class="pentitle" data-group-title="sakurazaka46">Sakurazaka46</div>
         <div class="penlist" data-for="sakurazaka46"></div>
-        <!-- <div class="song-list" data-song-for="sakurazaka46"></div> -->
 
         <div class="pentitle" data-group-title="hinatazaka46">Hinatazaka46</div>
         <div class="penlist" data-for="hinatazaka46"></div>
-        <!-- <div class="song-list" data-song-for="hinatazaka46"></div> -->
     </div>
 
 </div>
