@@ -7,182 +7,424 @@
     --bggradkeya: #183315;
     --bggradsaku: #f42e67;
     --bggradhina: #14607d;
+    --pixel-update-clip-path-outer: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px);
+    --pixel-update-clip-path-border: polygon(0px calc(100% - 6px), 2px calc(100% - 6px), 2px calc(100% - 4px), 4px calc(100% - 2px), 6px calc(100% - 2px), 6px 100%, calc(100% - 6px) 100%, calc(100% - 6px) calc(100% - 2px), calc(100% - 4px) calc(100% - 2px), calc(100% - 2px) calc(100% - 4px), calc(100% - 2px) calc(100% - 6px), 100% calc(100% - 6px), 100% 6px, calc(100% - 2px) 6px, calc(100% - 2px) 4px, calc(100% - 4px) 2px, calc(100% - 6px) 2px, calc(100% - 6px) 0px, 6px 0px, 6px 2px, 4px 2px, 2px 4px, 2px 6px, 0px 6px, 0px 50%, 2px 50%, 2px 6px, 4px 6px, 4px 4px, 6px 4px, 6px 2px, calc(100% - 6px) 2px, calc(100% - 6px) 4px, calc(100% - 4px) 4px, calc(100% - 4px) 6px, calc(100% - 2px) 6px, calc(100% - 2px) calc(100% - 6px), calc(100% - 4px) calc(100% - 6px), calc(100% - 4px) calc(100% - 4px), calc(100% - 6px) calc(100% - 4px), calc(100% - 6px) calc(100% - 2px), 6px calc(100% - 2px), 6px calc(100% - 4px), 4px calc(100% - 4px), 4px calc(100% - 6px), 2px calc(100% - 6px), 2px 50%, 0px 50%);
 }
+
 body {
-    background-color: var(--moe-tint6);
+    background-color: var(--moe-tint7);
     color: var(--moe);
-    margin: 0 auto;
-    padding-bottom: 100pt;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: auto !important;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    height: auto !important;
+    align-items: stretch;
+    justify-content: flex-start;
     font-family: 'Space Mono', monospace;
-    animation: all 0.5s ease-in-out;
+    overflow-x: hidden;
 }
+
+.page-container {
+    width: 92%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-top: 24pt;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
 div#headtitle {
-    font-size: 3em;
-	font-weight: bold;
-	width: 100%;
-	margin: 0 auto;
-    color: var(--moe);
+    font-size: 2.8em;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    color: var(--moe-shade-max1);
+    letter-spacing: 1.5px;
 }
+
 .justify {
     width: 100%;
-    text-align: justify;
-    font-size: 1.2em;
-    margin-top: 20pt;
-    margin-bottom: 20pt;
+    max-width: 950px;
+    text-align: center;
+    font-size: 1.05em;
+    line-height: 1.6;
+    margin: 15pt auto 15pt auto;
+    color: var(--moe-shade-min1);
 }
-.mapdata {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    height: 75vh;
-    overflow: hidden;
-    border: 2pt solid var(--moe-tint4);
-    align-items: center;
-    margin: auto;
-}
-.mapdata #svg-container {
-    width: 40%;
-}
-.mapdata .member-content {
-    width: 60%;
-}
-#svg-container {
+
+/* ---------------------------------------------------- */
+/* Stage Peta Terbuka                                   */
+/* ---------------------------------------------------- */
+.map-stage {
     position: relative;
     width: 100%;
-    height: 100%;
-    cursor: grab;
+    height: 78vh;
+    min-height: 580px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
     overflow: hidden;
-    background-color: #0f0b43ad;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+    margin-bottom: 25pt;
 }
-#svg-container:active {
-    cursor: grabbing;
+
+.map-stage.is-dragging {
+    cursor: grabbing !important;
 }
+
+#map-svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transform-origin: 0 0;
+    will-change: transform;
+    pointer-events: auto;
+}
+
+/* ---------------------------------------------------- */
+/* Theme SVG Cerah (Mengikuti style_mapborn_2.css)       */
+/* ---------------------------------------------------- */
+.land {
+    stroke: var(--moe-tint4) !important;
+    stroke-width: 0.5px !important;
+    vector-effect: non-scaling-stroke !important;
+    cursor: pointer;
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: transform 0.2s ease, fill 0.2s ease, filter 0.2s ease;
+}
+
+.text {
+    paint-order: stroke fill;
+    vector-effect: non-scaling-stroke !important;
+    fill: var(--moe-shade-min2) !important;
+    font-weight: 800;
+    transform-origin: center;
+    transform-box: fill-box;
+    transition: transform 0.2s ease, fill 0.2s ease;
+    pointer-events: none;
+}
+
+/* Teks putih untuk prefektur dengan warna gelap (banyak member) */
+g.dark-pref .text {
+    fill: #ffffff !important;
+    stroke: #18002b !important;
+    stroke-width: 0.8px !important;
+}
+
+g:hover .land,
+g.active .land {
+    transform: scale(1.03);
+    fill: #ff2a85 !important;
+    stroke: #ffffff !important;
+    filter: drop-shadow(0px 0px 8px rgba(255, 42, 133, 0.75));
+}
+
+g:hover .text,
+g.active .text {
+    transform: scale(1.08);
+    fill: #ffffff !important;
+    stroke: #6a0050 !important;
+}
+
+g.inactive .land {
+    fill: #f4ecf8 !important;
+    stroke: #e6d7ed !important;
+    stroke-width: 0.8px !important;
+    opacity: 0.45;
+}
+
+g.inactive .text {
+    fill: #b39dbd !important;
+    stroke: #ffffff !important;
+    opacity: 0.45;
+}
+
+/* ---------------------------------------------------- */
+/* Kontrol Zoom                                         */
+/* ---------------------------------------------------- */
 .controls {
     position: absolute;
     display: flex;
-    gap: 5px;
+    gap: 8px;
     flex-direction: column;
-    bottom: 10pt;
-    right: 10pt;
+    bottom: 20px;
+    right: 20px;
+    z-index: 40;
+}
+
+.controls button {
+    background-color: var(--moe-tint7);
+    border: 2px solid var(--moe-shade-max1);
+    color: var(--moe-shade-max1);
+    font-size: 20px;
+    font-weight: 800;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 3px 3px 0px 0px var(--moe);
+    transition: all 0.15s ease-in-out;
+    padding: 0;
+    outline: none;
+}
+
+.controls button:hover {
+    background-color: var(--moe-shade-max1);
+    color: #ffffff;
+    transform: translate(-1px, -1px);
+    box-shadow: 4px 4px 0px 0px var(--moe-shade-min2);
+}
+
+/* ---------------------------------------------------- */
+/* Popover Box Result Member (Pixel Moe Frame)          */
+/* ---------------------------------------------------- */
+.member-popover {
+    position: absolute;
     z-index: 100;
-}
-button {
-    background-color: var(--bgsaku);
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    font-size: 30px;
-    width: 30pt;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-button:hover {
-    background-color: white;
-    color: var(--bgsaku);
-}
-.land {
-    stroke: #ff5e00;
-    stroke-width: 15px;
-    cursor: pointer;
-    transform-origin: center;
-    transform-box: fill-box;
-    transition: transform 0.3s ease, fill 0.3s ease;
-}
-.text {
-    fill: #FEFEFE;
-    transform-origin: center;
-    transform-box: fill-box;
-    transition: transform 0.3s ease;
-    box-shadow: 10px 10px 5px 12px black;
-    pointer-events: none;
-}
-g:hover .land,
-g.active .land {
-    transform: scale(1.05);
-    fill: #B50E5F;
-    filter: drop-shadow(0px 0px 10px rgba(255, 99, 71, 0.7));
-}
-g:hover .text,
-g.active .text {
-    transform: scale(1.1);
-    fill: #FFD700;
-}
-g.inactive .land {
-    fill: #1d0220 !important;
-    opacity: 0.6;
-}
-g.inactive .text {
-    fill: #a9a9a9 !important;
-    opacity: 0.6;
-}
-.member-content {
-    height: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 15pt;
-    color: white;
-}
-.member-content > div {
     display: none;
     opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+    filter: drop-shadow(0px 14px 28px rgba(46, 0, 82, 0.28));
+    transition: opacity 0.15s ease;
 }
-.member-content > div.active {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
+
+.member-popover.is-visible {
+    display: block !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
 }
-.title {
+
+.popover-card-wrapper {
+    position: relative;
+    width: 330px;
+    max-width: 88vw;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    box-sizing: border-box;
+}
+
+.popover-card-wrapper .update-item-shadow {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: var(--moe-tint5);
+    transform: translate(3px, 3px);
+    clip-path: var(--pixel-update-clip-path-outer);
+}
+
+.popover-card {
+    width: 100%;
+    background-color: var(--moe-tint7);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    clip-path: var(--pixel-update-clip-path-outer);
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+}
+
+.popover-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: var(--moe-shade-max1);
+    clip-path: var(--pixel-update-clip-path-border);
+    pointer-events: none;
+}
+
+.popover-close-btn {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    z-index: 30;
+    background: transparent;
+    border: none;
+    color: var(--moe-shade-max1);
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
+    line-height: 1;
+    padding: 2px 6px;
+    width: auto;
+}
+
+.popover-close-btn:hover {
+    color: #ff2a85;
+    transform: scale(1.15);
+}
+
+/* ---------------------------------------------------- */
+/* Tail 4 Arah (Top, Bottom, Left, Right)               */
+/* ---------------------------------------------------- */
+.popover-tail {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: var(--moe-tint7);
+    transform: rotate(45deg);
+    z-index: 5;
+}
+
+/* Jika box di bawah prefektur, tail di atas box menunjuk ke atas */
+.member-popover.position-bottom .popover-tail {
+    top: -7px;
+    border-top: 2px solid var(--moe-shade-max1);
+    border-left: 2px solid var(--moe-shade-max1);
+}
+
+/* Jika box di atas prefektur, tail di bawah box menunjuk ke bawah */
+.member-popover.position-top .popover-tail {
+    bottom: -4px;
+    border-bottom: 2px solid var(--moe-shade-max1);
+    border-right: 2px solid var(--moe-shade-max1);
+}
+
+/* Jika box di kanan prefektur, tail di sisi kiri box menunjuk ke kiri */
+.member-popover.position-right .popover-tail {
+    left: -7px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    border-bottom: 2px solid var(--moe-shade-max1);
+    border-left: 2px solid var(--moe-shade-max1);
+}
+
+/* Jika box di kiri prefektur, tail di sisi kanan box menunjuk ke kanan */
+.member-popover.position-left .popover-tail {
+    right: -4px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    border-top: 2px solid var(--moe-shade-max1);
+    border-right: 2px solid var(--moe-shade-max1);
+}
+
+/* ---------------------------------------------------- */
+/* Sticky Title Prefektur & Batasan Maksimal 3 Member   */
+/* ---------------------------------------------------- */
+.popover-card .member-content {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.member-content .pref-pane {
+    display: none;
+    flex-direction: column;
+}
+
+.member-content .pref-pane.active {
+    display: flex;
+}
+
+.pref-pane .title {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 15;
+    background-color: var(--moe-tint7);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
-    color: var(--moe);
+    padding: 10px 32px 6px 12px;
+    margin: 0;
+    border-bottom: 2px dashed var(--moe-tint5);
+    box-sizing: border-box;
 }
-.jp {
-    font-size: 24pt;
+
+.pref-pane .title .jp {
+    font-size: 1.25rem;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-	font-weight: bold;
+    font-weight: 800;
+    color: var(--moe-shade-max1);
+    line-height: 1.2;
 }
-.id {
-    font-size: 14pt;
+
+.pref-pane .title .id {
+    font-size: 0.8rem;
     font-family: 'Space Mono', monospace;
     letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--moe-tint1);
+    font-weight: 700;
 }
+
+/* Wadah scroll anggota: maksimal 3 member terdisplay, selebihnya scroll */
+.pref-pane .member-scroll-body {
+    padding: 8px 12px 10px 12px;
+    max-height: 198px; /* Tepat menampung 3 kartu anggota @ ~62px */
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    overscroll-behavior: contain;
+}
+
+.pref-pane .member-scroll-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.pref-pane .member-scroll-body::-webkit-scrollbar-thumb {
+    background: var(--moe-tint4);
+    border-radius: 3px;
+}
+
 .member {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 10px;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
 }
+
 .member-card {
-    padding: 8px;
-    width: calc(50% - 26px);
+    padding: 6px 10px;
+    width: 100%;
+    height: 56px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ffffff;
+    box-shadow: 2px 2px 0px 0px rgba(68, 0, 121, 0.35);
+    flex-shrink: 0;
 }
+
 .member-card img {
     aspect-ratio: 1;
-    width: 70px !important;
-    height: 70px !important;
+    width: 44px !important;
+    height: 44px !important;
     object-fit: cover;
-    margin-right: 10px;
-    border: 3px solid white;
+    margin-right: 12px;
+    border: 2px solid #ffffff;
+    border-radius: 3px;
+    background-color: #2b0042;
+    flex-shrink: 0;
 }
+
 .nogi { background-color: var(--bgnogi); }
 .saku { background-color: var(--bgsaku); }
 .hina { background-color: var(--bghina); }
@@ -191,46 +433,52 @@ g.inactive .text {
 .gradk { background-color: var(--bggradkeya); }
 .grads { background-color: var(--bggradsaku); }
 .gradh { background-color: var(--bggradhina); }
+
 .member-card .name-detail {
     display: flex;
     flex-direction: column;
+    min-width: 0;
+    justify-content: center;
 }
-.name-jp {
-    font-size: 14pt;
-    color: #ffffffb3;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-}
+
 .name-id {
-    font-size: 16pt;
-    font-weight: bold;
+    font-size: 0.95rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2;
 }
-@media screen and (max-width: 1280px) {
-    body {
+
+.name-jp {
+    font-size: 0.78rem;
+    color: #ffffffd4;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    line-height: 1.2;
+    margin-top: 2px;
+}
+
+.no-member-msg {
+    text-align: center;
+    color: var(--moe-tint2);
+    font-size: 0.85rem;
+    padding: 16px 0;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    div#headtitle {
+        font-size: 2rem;
+    }
+    .page-container {
         width: 95%;
-        padding: 5px;
+        padding-top: 15pt;
     }
-    .mapdata {
-        flex-direction: column;
-        height: auto;
+    .map-stage {
+        height: 65vh;
+        min-height: 440px;
     }
-    .mapdata #svg-container, .mapdata .member-content {
-        width: 100%;
-        box-sizing: border-box;
+    .popover-card-wrapper {
+        width: 280px;
     }
-    .mapdata #svg-container {
-        height: 50vh;
-    }
-    .mapdata .member-content {
-        height: 60vh;
-        padding: 10pt;
-    }
-    .member-card {
-        width: 100%;
-    }
-    .member-card img {
-        width: 50px !important;
-        height: 50px !important;
-    }
-    .name-jp { font-size: 10pt; }
-    .name-id { font-size: 12pt; }
 }

@@ -450,3 +450,34 @@
 .songhnt15 {
 	color: #006064;
 }
+.picmember-container {
+	width: 80px;
+	height: 130px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 5px;
+	margin: 0 auto;
+	z-index: 5;
+	background-color: var(--moe-tint6, #e9ecef);
+}
+
+#picmember, .picmember {
+	width: 80px;
+	height: 130px;
+	object-fit: cover;
+	border-radius: 5px;
+	display: block;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.empty-member-msg {
+	width: 100%;
+	padding: 2.5rem 1rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: var(--text-secondary-color);
+	font-style: italic;
+	text-align: center;
+	letter-spacing: 0.5px;
+}

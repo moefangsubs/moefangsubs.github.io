@@ -1,13 +1,8 @@
-// File: js/script_photobook_archive.js (Final dengan Peringkat Lengkap)
-
 document.addEventListener('DOMContentLoaded', () => {
 
 	const mainContainer = document.getElementById('main-archive');
 	const listContainer = document.getElementById('photobook-list-container');
 
-	// =====================================================================
-	// FUNGSI UNTUK MEMBUAT KONTEN HTML
-	// =====================================================================
 	function generateRankHTML(data, title, applyMedals = true) {
 		if (data.length === 0) return '';
 		const rankCardsHTML = data.map((item, index) => {
@@ -28,9 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		return `<h2 class="rank-title" style="color: var(--moe-tint4); margin-top: 2.5em;">${title}</h2><div class="sales-rank-container">${rankCardsHTML}</div>`;
 	}
 
-	// [FUNGSI BARU] Membuat daftar peringkat lengkap di dalam spoiler
 	function createFullRankList(data) {
-		// Urutkan data sekali lagi untuk memastikan (dari tertinggi ke terendah)
 		const sortedData = [...data].sort((a, b) => b.salesfirst - a.salesfirst);
 
 		const tableRowsHTML = sortedData.map((item, index) => {
@@ -75,16 +68,12 @@ document.addEventListener('DOMContentLoaded', () => {
 		return section;
 	}
 
-	// =====================================================================
-	// FUNGSI UTAMA & PEMANGGILAN
-	// =====================================================================
 	function initializeArchive() {
 		if (!listContainer) return;
 
 		fetch('../store/member/members_pb.json')
 			.then(response => response.json())
 			.then(photobookData => {
-				// --- Persiapan Data ---
 				const activeReleases = photobookData.filter(pb => !(pb.note && pb.note.id.includes("Dirilis setelah kelulusannya")));
 				const totalBooks = activeReleases.length;
 				const overallSalesData = activeReleases.filter(pb => pb.salesfirst > 0);
@@ -92,7 +81,11 @@ document.addEventListener('DOMContentLoaded', () => {
 					!pb.name.id.toLowerCase().includes('all member') && !pb.name.jp.includes('全員') && !pb.name.jp.includes('期生')
 				);
 
-				// --- Render Semua Bagian Ranking ---
+				const sortedOverallSales = [...overallSalesData].sort((a, b) => b.salesfirst - a.salesfirst);
+				sortedOverallSales.forEach((item, index) => {
+					item.salesRank = index + 1;
+				});
+
 				const rankSection = document.createElement('div');
 				rankSection.className = 'sales-rank-section';
 
@@ -116,21 +109,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 `;
 				listContainer.insertAdjacentElement('beforebegin', rankSection);
 
-				// --- Render Daftar Peringkat Lengkap ---
 				const fullRankListElement = createFullRankList(overallSalesData);
 				listContainer.insertAdjacentElement('beforebegin', fullRankListElement);
 
-				// --- Render Garis Pemisah ---
 				const separator = document.createElement('h2');
 				separator.className = 'photobook-separator';
 				separator.textContent = '— SEMUA DATA PHOTOBOOK —';
 				listContainer.insertAdjacentElement('beforebegin', separator);
 
-				// --- Render Daftar Photobook Utama ---
 				const allItemsHTML = photobookData.map(item => createPhotobookListItemHTML(item)).join('');
 				listContainer.innerHTML = allItemsHTML;
 
-				// --- Setup Terakhir ---
 				setupLanguageToggle();
 				updateVisibility();
 			})
@@ -142,9 +131,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	initializeArchive();
 
-	// =====================================================================
-	// KUMPULAN FUNGSI HELPER (Tidak ada perubahan)
-	// =====================================================================
 	function areRankingsIdentical(arr1, arr2) {
 		if (arr1.length !== arr2.length) return false;
 		for (let i = 0; i < arr1.length; i++) {
@@ -157,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (document.getElementById('language-toggle')) return;
 		const switchContainer = document.createElement('div');
 		switchContainer.className = 'photobook-lang-switch';
-		switchContainer.innerHTML = `<input id="language-toggle" class="check-toggle" type="checkbox" checked><label for="language-toggle"></label><span class="on">ID</span><span class="off">JP</span>`;
+		switchContainer.innerHTML = `<span class="off">JP</span><input id="language-toggle" class="check-toggle" type="checkbox" checked><label for="language-toggle"></label><span class="on">ID</span>`;
 		document.body.appendChild(switchContainer);
 		document.getElementById("language-toggle").addEventListener("change", updateVisibility);
 	}
@@ -172,12 +158,22 @@ document.addEventListener('DOMContentLoaded', () => {
 			const memberId = generateId(item.name.id);
 			detailButtonHTML = `<a href="member.html?id=${memberId}" class="member-detail-link" target="_blank" title="Lihat Detail Member"><i class="fa-solid fa-arrow-right"></i></a>`;
 		}
+
+		let rankBadgeHTML = '';
+		if (item.salesRank) {
+			let medalClass = 'rank-other';
+			if (item.salesRank === 1) medalClass = 'rank-1';
+			else if (item.salesRank === 2) medalClass = 'rank-2';
+			else if (item.salesRank === 3) medalClass = 'rank-3';
+			rankBadgeHTML = `<span class="sales-rank-badge ${medalClass}">#${item.salesRank}</span>`;
+		}
+
 		return `
             <div class="photobook">
                 <div class="imgprev">
                     <figure>
                         <img src="${item.image}" alt="${item.title.id}">
-                        ${item.count ? `<div class="count">${item.count}</div>` : ''}
+                        ${item.count ? `<div class="count ${item.count.trim().length === 1 ? 'single' : ''}">${item.count}</div>` : ''}
                         <figcaption><span id="idn">Sampul Reguler</span><span id="jpn" class="hidden">通常版表紙</span></figcaption>
                     </figure>
                 </div>
@@ -196,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div><span><span id="idn">Tanggal Rilis</span><span id="jpn" class="hidden">発売日</span></span><span>:</span><span><span id="idn">${dates.id}</span><span id="jpn" class="hidden">${dates.jp}</span></span></div>
                         ${has(item.memberAge) ? `<div><span><span id="idn">Usia Rilis</span><span id="jpn" class="hidden">発売時年齢</span></span><span>:</span><span><span id="idn">${item.memberAge.id}</span><span id="jpn" class="hidden">${item.memberAge.jp}</span></span></div>` : ''}
                         ${has(item.type) ? `<div><span><span id="idn">Tipe</span><span id="jpn" class="hidden">形態</span></span><span>:</span><span><span id="idn">${item.type.id}</span><span id="jpn" class="hidden">${item.type.jp}</span></span></div>` : ''}
-                        ${item.salesfirst ? `<div><span><span id="idn">Penjualan Pekan Pertama</span><span id="jpn" class="hidden">初週売上</span></span><span>:</span><span><span id="idn">${sales.id}</span><span id="jpn" class="hidden">${sales.jp}</span></span></div>` : ''}
+                        ${item.salesfirst ? `<div><span><span id="idn">Penjualan Pekan Pertama</span><span id="jpn" class="hidden">初週売上</span></span><span>:</span><span><span id="idn">${sales.id}</span><span id="jpn" class="hidden">${sales.jp}</span>${rankBadgeHTML}</span></div>` : ''}
                     </div>
                     ${has(item.comment) ? `<div class="obicomment"><span><span id="idn">"${item.comment.id}"</span><span id="jpn" class="hidden">「${item.comment.jp}」</span></span><span><span id="idn">${item.commentName.id}</span><span id="jpn" class="hidden">${item.commentName.jp}</span></span></div>` : ''}
                     <div class="otherversion">
