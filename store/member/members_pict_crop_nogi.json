@@ -1129,6 +1129,43 @@
                     }
                 }
             }
+        },
+        "s43": {
+            "original": {
+                "lockratio": {
+                    "left": 200, "right": 200, "top": 40, "bottom": 440,
+                    "offset-x": 0, "offset-y": 0,
+                    "custom": {
+                        "中西アルノ": { "offset-x": -20, "offset-y": 0 },
+                        "五百城茉央": { "offset-x": 40, "offset-y": 0 },
+                        "井上和": { "offset-x": 10, "offset-y": 0 },
+                        "伊藤理々杏": { "offset-x": 5, "offset-y": 0 },
+                        "冨里奈央": { "offset-x": 5, "offset-y": 0 },
+                        "大越ひなの": { "offset-x": 5, "offset-y": 0 },
+                        "奥田いろは": { "offset-x": 20, "offset-y": 0 },
+                        "小川彩": { "offset-x": 10, "offset-y": 0 },
+                        "小津玲奈": { "offset-x": 10, "offset-y": 0 },
+                        "岡本姫奈": { "offset-x": 15, "offset-y": 0 },
+                        "岩本蓮加": { "offset-x": 15, "offset-y": 0 },
+                        "川﨑桜": { "offset-x": 5, "offset-y": 0 },
+                        "弓木奈於": { "offset-x": 10, "offset-y": 0 },
+                        "愛宕心響": { "offset-x": 10, "offset-y": 0 },
+                        "林瑠奈": { "offset-x": 10, "offset-y": 0 },
+                        "森平麗心": { "offset-x": -10, "offset-y": 0 },
+                        "海邉朱莉": { "offset-x": 15, "offset-y": 0 },
+                        "瀬戸口心月": { "offset-x": 15, "offset-y": 0 },
+                        "田村真佑": { "offset-x": 10, "offset-y": 0 },
+                        "矢田萌華": { "offset-x": 20, "offset-y": 0 },
+                        "筒井あやめ": { "offset-x": 5, "offset-y": 0 },
+                        "菅原咲月": { "offset-x": 5, "offset-y": 0 },
+                        "賀喜遥香": { "offset-x": 5, "offset-y": 0 },
+                        "金川紗耶": { "offset-x": 10, "offset-y": 0 },
+                        "鈴木佑捺": { "offset-x": 5, "offset-y": 0 },
+                        "長嶋凛桜": { "offset-x": -5, "offset-y": 0 },
+                        "黒見明香": { "offset-x": 5, "offset-y": 0 }
+                    }
+                }
+            }
         }
     }
 }

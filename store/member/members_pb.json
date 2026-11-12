@@ -3124,7 +3124,7 @@
         "imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-toumeinakakugo-sonymusic.jpg",
         "download": ""
     },
-    {
+	{
         "image": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude.jpg",
         "count": "初",
         "title": {
@@ -3160,11 +3160,11 @@
             "jp": "フランス（ニースとパリ）",
             "id": "Prancis (Nice, Paris)"
         },
-        "comment": {
-            "jp": "",
-            "id": ""
-        },
         "salesfirst": 77197,
+        "comment": {
+            "jp": "川﨑桜は、瞬きをするたびに印象が変わる。それはきっと、少しでも上手に表現したいと、自分と向き合っているからだ。そんな未完成な今が、いちばん正直で、いちばん美しい。",
+            "id": "Kesan Kawasaki Sakura berubah setiap kali ia berkedip. Itu pasti karena ia selalu menghadapi dirinya sendiri demi bisa mengekspresikan diri dengan lebih baik, walau hanya sedikit. Masa-masa belum sempurna seperti sekarang inilah yang paling jujur dan paling indah."
+        },
         "commentName": {
             "jp": "――秋元康――",
             "id": "――Akimoto Yasushi――"
@@ -3174,38 +3174,55 @@
         "imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-etude-sonymusic.jpg",
         "download": ""
     },
-	{
-		"image": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation.jpg",
-		"count": "初",
-		"title": {
-			"jp": "好きのグラデーション",
-			"id": "Suki no Gradation"
-		},
-		"name": {
-			"jp": "金川紗耶",
-			"id": "Kanagawa Saya"
-		},
-		"photographer": {
-			"jp": "三宮幹史",
-			"id": "Sannomiya Mikishi"
-		},
-		"publisher": {
-			"jp": "DONUTS／主婦の友社",
-			"id": "DONUTS / Shufunotomo"
-		},
-		"releaseDate": "2026-06-30",
-		"type": {
-			"jp": "写真集",
-			"id": "Photobook"
-		},
-		"location": {
-			"jp": "クロアチア",
-			"id": "Kroasia"
-		},
-		"salesfirst": null,
-		"imageSevenNet": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-7net.jpg",
-		"imageRakuten": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-rakuten.jpg",
-		"imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-sonymusic.jpg",
-		"download": ""
-	}
+    {
+        "image": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation.jpg",
+        "count": "初",
+        "title": {
+            "jp": "好きのグラデーション",
+            "id": "Suki no Gradation"
+        },
+        "name": {
+            "jp": "金川紗耶",
+            "id": "Kanagawa Saya"
+        },
+        "photographer": {
+            "jp": "三宮幹史",
+            "id": "Sannomiya Mikishi"
+        },
+        "publisher": {
+            "jp": "DONUTS／主婦の友社",
+            "id": "DONUTS / Shufunotomo"
+        },
+        "releaseDate": "2026-06-30",
+        "memberAge": {
+            "jp": "24歳240日",
+            "id": "24 tahun 240 hari"
+        },
+        "type": {
+            "jp": "写真集",
+            "id": "Photobook"
+        },
+        "location": {
+            "jp": "クロアチア",
+            "id": "Kroasia"
+        },
+        "salesfirst": 24972,
+        "comment": {
+            "jp": "金川紗耶の「好き」は、ひとつじゃない。出会った分だけ、色を変えながら、広がっていく。それはきっと、一人一人に本気で向き合っているからだろう。君に届いた「好き」は、何色だった？",
+            "id": "Rasa 'suka' Kanagawa Saya tidak hanya satu. Sebanyak perjumpaan yang ia lalui, warnanya berganti dan terus meluas. Itu pasti karena ia menghadapi setiap orang dengan sepenuh hati. 'Suka' yang sampai kepadamu, berwarna apa?"
+        },
+        "commentName": {
+            "jp": "――秋元康――",
+            "id": "――Akimoto Yasushi――"
+        },
+        "imageSevenNet": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-7net.jpg",
+        "imageRakuten": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-rakuten.jpg",
+        "imageSony": "https://ik.imagekit.io/moearchive/web/pbcover/n46-sukinogradation-sonymusic.jpg",
+        "download": ""
+    }
 ]
+
+
+
+
+
