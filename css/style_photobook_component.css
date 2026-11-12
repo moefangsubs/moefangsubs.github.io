@@ -49,18 +49,27 @@
      position: absolute;
      color: white;
      background: var(--moe-tint1);
-     min-width: 25px;
-     height: 25px;
-     padding: 0 5px;
+     min-width: 28px;
+     height: 28px;
+     padding: 0 6px;
+     box-sizing: border-box;
      display: flex;
      border: 1px solid white;
-     border-radius: 50%;
+     border-radius: 999px;
      font-size: 10pt;
+     line-height: 1;
      z-index: 9;
      right: 5px;
      top: 5px;
      justify-content: center;
      align-items: center;
+}
+ .count.single {
+     width: 28px;
+     height: 28px;
+     padding: 0;
+     border-radius: 50%;
+     aspect-ratio: 1 / 1;
 }
  .content {
      display: flex;
@@ -101,9 +110,7 @@
  .pb-desc div span:nth-of-type(2) {
      width: 2%;
 }
- .pb-desc div span:nth-of-type(3) {
-     width: 63%;
-}
+
  .obicomment {
      border: 1px solid var(--moe-tint4);
      background-color: var(--moe-tint6);
@@ -212,6 +219,39 @@
  .hidden {
      display: none !important;
 }
+
+/* Badge Peringkat Penjualan */
+.sales-rank-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 8px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-size: 8.5pt;
+    font-weight: bold;
+    line-height: 1.2;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.sales-rank-badge.rank-1 {
+    background-color: #ffd700;
+    color: #4d3e00;
+}
+.sales-rank-badge.rank-2 {
+    background-color: #c0c0c0;
+    color: #2a2a2a;
+}
+.sales-rank-badge.rank-3 {
+    background-color: #cd7f32;
+    color: #ffffff;
+}
+.sales-rank-badge.rank-other {
+    background-color: var(--moe);
+    color: #ffffff;
+}
+
  @media (max-width: 768px) {
      .photobook {
          flex-direction: column;

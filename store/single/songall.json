@@ -5957,9 +5957,9 @@
 			"songRelease": "2026.04.08",
 			"songOutline": "Senbatsu",
 			"center": "池田瑛紗",
-			"members1": ["遠藤さくら", "池田瑛紗", "五百城茉央" ],
-			"members2": ["中西アルノ", "井上和", "梅澤美波", "賀喜遥香", "川﨑桜", "一ノ瀬美空" ],
-			"members3": ["筒井あやめ", "小川彩", "弓木奈於", "菅原咲月", "田村真佑", "冨里奈央", "林瑠奈" ],
+			"members1": ["遠藤さくら", "池田瑛紗", "五百城茉央"],
+			"members2": ["中西アルノ", "井上和", "梅澤美波", "賀喜遥香", "川﨑桜", "一ノ瀬美空"],
+			"members3": ["筒井あやめ", "小川彩", "弓木奈於", "菅原咲月", "田村真佑", "冨里奈央", "林瑠奈"],
 			"SongLyricsJP": "秋元康",
 			"SongCompJP": "古川貴浩",
 			"SongArraJP": "古川貴浩",
@@ -5981,7 +5981,7 @@
 			"members2": ["伊藤理々杏", "奥田いろは", "矢田萌華", "森平麗心", "瀬戸口心月", "黒見明香", "吉田綾乃クリスティー"],
 			"members3": ["大越ひなの", "海邉朱莉", "増田三莉音", "鈴木佑捺", "川端晃菜", "長嶋凛桜", "愛宕心響"],
 			"SongLyricsJP": "秋元康",
-			"SongCompJP": ["菅井達司","石崎光"],
+			"SongCompJP": ["菅井達司", "石崎光"],
 			"SongArraJP": "石崎光",
 			"SongMVDirJP": "近藤正之",
 			"SongMVDirRO": "Endo Masayuki",
@@ -6005,7 +6005,8 @@
 			"SongArraJP": "Yuya Fujinaka",
 			"SongLyricsJP": "秋元康",
 			"HasMV": "yes",
-			"LinkDownMV1": "https://drive.google.com/file/d/1DJ41dVFTuDZUYRmBafL1nZ2iE8hWJTa5/view?usp=drive_link"
+			"LinkDownMV1": "https://drive.google.com/file/d/1DJ41dVFTuDZUYRmBafL1nZ2iE8hWJTa5/view?usp=drive_link",
+			"SongChoreo": "川村茜"
 		},
 		{
 			"titleJp": "君ばかり",
@@ -6020,8 +6021,9 @@
 			"SongCompJP": "赤えんぴつ・おーちゃん（設楽統）",
 			"SongArraJP": "遠藤ナオキ",
 			"SongLyricsJP": "赤えんぴつ・おーちゃん（設楽統）",
-			"HasMV": "yes",			
-			"LinkDownMV1": "https://drive.google.com/file/d/177-OjJ7FJGdDsC5c8KJjPfQCl7iwvR5v/view?usp=drive_link"
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/177-OjJ7FJGdDsC5c8KJjPfQCl7iwvR5v/view?usp=drive_link",
+			"SongChoreo": "ムライマユ"
 		},
 		{
 			"titleJp": "年齢の境界線",
@@ -6034,7 +6036,9 @@
 			"members1": ["五百城茉央", "奥田いろは", "菅原咲月", "愛宕心響", "瀬戸口心月"],
 			"SongCompJP": "石崎光",
 			"SongArraJP": "石崎光",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"SongChoreo": "AIKO FUJIWARA",
+			"HasMV": "no"
 		},
 		{
 			"titleJp": "パシフィック・リーグに連れてって",
@@ -6047,7 +6051,9 @@
 			"members1": ["金川紗耶", "黒見明香", "柴田柚菜", "小川彩", "瀬戸口心月", "長嶋凛桜"],
 			"SongCompJP": ["you-me", "mee"],
 			"SongArraJP": "フォー・トリップス",
-			"SongLyricsJP": "秋元康"
+			"SongLyricsJP": "秋元康",
+			"SongChoreo": "LICO",
+			"HasMV": "no"
 		},
 		{
 			"titleJp": "もう一つの太陽",
@@ -6062,7 +6068,7 @@
 			"SongCompJP": "小西裕子",
 			"SongArraJP": "久下真音",
 			"SongLyricsJP": "秋元康",
-			"HasMV": "yes",			
+			"HasMV": "yes",
 			"LinkDownMV1": "https://drive.google.com/file/d/1YnxtpM0bnPwhRTtqvbVqsAIdEEMMVQAJ/view?usp=drive_link"
 		}
 	],
@@ -6076,7 +6082,7 @@
 			"songOutline": "Senbatsu",
 			"center": "一ノ瀬美空",
 			"members3": ["森平麗心", "筒井あやめ", "田村真佑", "林瑠奈", "菅原咲月", "中西アルノ", "岩本蓮加", "弓木奈於", "大越ひなの"],
-			"members2": [ "五百城茉央", "川﨑桜", "井上和", "池田瑛紗", "遠藤さくら", "矢田萌華" ],
+			"members2": ["五百城茉央", "川﨑桜", "井上和", "池田瑛紗", "遠藤さくら", "矢田萌華"],
 			"members1": ["賀喜遥香", "一ノ瀬美空", "瀬戸口心月"],
 			"SongLyricsJP": "秋元康",
 			"SongCompJP": ["you-me", "APAZZI"],
@@ -6096,13 +6102,9 @@
 			"songOutline": "Senbatsu",
 			"members0": ["岩本蓮加", "遠藤さくら", "賀喜遥香", "田村真佑", "筒井あやめ", "林瑠奈", "弓木奈於", "五百城茉央", "池田瑛紗", "一ノ瀬美空", "井上和", "川﨑桜", "菅原咲月", "中西アルノ", "大越ひなの", "瀬戸口心月", "森平麗心", "矢田萌華"],
 			"SongLyricsJP": "秋元康",
-			"SongCompJP": "",
-			"SongArraJP": "",
-			"SongMVDirJP": "",
-			"SongMVDirRO": "",
-			"SongChoreo": "",
-			"HasMV": "",
-			"LinkDownMV1": ""
+			"SongCompJP": "白井大輔",
+			"SongArraJP": "Linokia",
+			"HasMV": "no"
 		},
 		{
 			"titleJp": "フォルテシモ",
@@ -6133,13 +6135,10 @@
 			"songOutline": "Unit",
 			"UnitName": "",
 			"members0": ["井上和", "菅原咲月"],
-			"SongCompJP": "",
-			"SongArraJP": "",
-			"SongMVDirJP": "",
-			"SongMVDirRO": "",
-			"SongChoreo": "",
-			"HasMV": "",
-			"LinkDownMV1": ""
+			"SongCompJP": "石崎光",
+			"SongArraJP": "野中“まさ”雄一",
+			"HasMV": "no",
+			"SongLyricsJP": "秋元康"
 		},
 		{
 			"titleJp": "ひとつ手前のインターチェンジ",
@@ -6150,13 +6149,10 @@
 			"songOutline": "Unit",
 			"UnitName": "",
 			"members0": ["筒井あやめ", "弓木奈於", "川﨑桜", "冨里奈央"],
-			"SongCompJP": "",
-			"SongArraJP": "",
-			"SongMVDirJP": "",
-			"SongMVDirRO": "",
-			"SongChoreo": "",
-			"HasMV": "",
-			"LinkDownMV1": ""
+			"SongCompJP": "石崎光",
+			"SongArraJP": "石崎光",
+			"HasMV": "no",
+			"SongLyricsJP": "秋元康"
 		},
 		{
 			"titleJp": "おまえら",
@@ -6166,7 +6162,11 @@
 			"songRelease": "2026.07.22",
 			"songOutline": "Unit",
 			"UnitName": "",
-			"members0": ["五百城茉央", "奥田いろは", "中西アルノ"]
+			"members0": ["五百城茉央", "奥田いろは", "中西アルノ"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "月光テツヤ",
+			"SongArraJP": "月光テツヤ",
+			"HasMV": "no"
 		},
 		{
 			"titleJp": "命の色",
@@ -6187,7 +6187,7 @@
 		}
 	],
 	"s43": [
-		  {
+		{
 			"titleJp": "君ロス",
 			"titleRo": "Kimi Loss",
 			"songNumber": "43rd Single",
@@ -6197,8 +6197,43 @@
 			"center": "井上和",
 			"members3": ["弓木奈於", "五百城茉央", "金川紗耶", "大越ひなの", "菅原咲月", "矢田萌華", "林瑠奈", "岡本姫奈", "田村真佑"],
 			"members2": ["小川彩", "一ノ瀬美空", "賀喜遥香", "遠藤さくら", "池田瑛紗", "中西アルノ"],
-			"members1": ["瀬戸口心月", "井上和", "川﨑桜"]
-		  }
+			"members1": ["瀬戸口心月", "井上和", "川﨑桜"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "ナスカ",
+			"SongArraJP": "樫原伸彦",
+			"SongMVDirJP": "大柿鈴子",
+			"SongMVDirRO": "Ogaki Suzuko",
+			"HasMV": "yes",
+			"LinkDownMV1": "https://drive.google.com/file/d/1u7dX_-4aTrh-mrmoA4ZxEXilIJrSEtFp/view?usp=drive_link"
+		},
+		{
+			"titleJp": "一度好きになった人",
+			"titleRo": "Ichido Suki ni Natta Hito",
+			"songNumber": "43rd Single",
+			"songTypeAvv": "All",
+			"songRelease": "2026.12.02",
+			"songOutline": "Gen (6th)",
+			"center": "鈴木佑捺",
+			"members0": ["愛宕心響", "大越ひなの", "海邉朱莉", "川端晃菜", "小津玲奈", "鈴木佑捺", "瀬戸口心月", "長嶋凛桜", "増田三莉音", "森平麗心", "矢田萌華"],
+			"SongLyricsJP": "秋元康",
+			"SongCompJP": "ナスカ",
+			"SongArraJP": "野中“まさ”雄一",
+			"HasMV": "no"
+		},
+		{
+			"titleJp": "編集",
+			"titleRo": "Henshuu",
+			"songNumber": "43rd Single",
+			"songTypeAvv": "All",
+			"songRelease": "2026.12.02",
+			"songOutline": "Under",
+			"center": ["伊藤理々杏", "岩本蓮加"],
+			"members3": ["鈴木佑捺","長嶋凛桜","川端晃菜","増田三莉音","愛宕心響","小津玲奈"],
+			"members2": ["森平麗心","奥田いろは","黒見明香","冨里奈央","海邉朱莉"],
+			"members1": ["柴田柚菜","岩本蓮加","伊藤理々杏","筒井あやめ"],
+			"SongLyricsJP": "秋元康",
+			"HasMV": "no"
+		}
 	],
 	"dig": [
 		{
