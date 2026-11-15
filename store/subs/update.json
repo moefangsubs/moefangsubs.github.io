@@ -1,5 +1,20 @@
 [
 	{
+	"date": "261115",
+	"updates": [
+		{"showId": "showroom", "eps": "68"},
+		{"showId": "showroom", "eps": "69"},
+		{"showId": "showroom", "eps": "70"},
+		{"showId": "showroom", "eps": "71"},
+		{"showId": "showroom", "eps": "72"},
+		{"showId": "showroom", "eps": "73"},
+		{"showId": "showroom", "eps": "74"},
+		{"showId": "showroom", "eps": "75"},
+		{"showId": "showroom", "eps": "76"},
+		{"showId": "showroom", "eps": "77"}
+		]
+	},
+	{
 	"date": "261111",
 	"updates": [
 		{"showId": "nogizaka-koujichuu", "eps": "077"},
